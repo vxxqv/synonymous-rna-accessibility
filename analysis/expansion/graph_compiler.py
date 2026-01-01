@@ -75,14 +75,22 @@ def forest_extensions(k,relations):
             for w in adj[v]-seen:seen.add(w);component.add(w);queue.append(w)
         if sum(len(adj[v])for v in component)//2!=len(component)-1:return None
         components.append((root,component))
-    def visit(v,parent):
-        f=[Fraction(1)]
-        for child in adj[v]-{parent}:
-            f=_multiply(f,_integrate(visit(child,v),upper=(v,child)in relations))
-        return f
     volume=Fraction(1)
     for root,component in components:
-        poly=visit(root,None);volume*=sum(c/Fraction(i+1)for i,c in enumerate(poly))
+        # Explicit postorder avoids a Python recursion limit on valid forests.
+        parent={root:None};order=[root]
+        for v in order:
+            for child in adj[v]:
+                if child==parent[v]:continue
+                parent[child]=v;order.append(child)
+        polynomials={}
+        for v in reversed(order):
+            f=[Fraction(1)]
+            for child in adj[v]:
+                if child==parent[v]:continue
+                f=_multiply(f,_integrate(polynomials.pop(child),upper=(v,child)in relations))
+            polynomials[v]=f
+        poly=polynomials[root];volume*=sum(c/Fraction(i+1)for i,c in enumerate(poly))
     value=math.factorial(k)*volume;assert value.denominator==1
     return value.numerator
 

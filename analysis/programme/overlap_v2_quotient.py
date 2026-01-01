@@ -136,6 +136,11 @@ def compile_sector(n, occurrences, peptide, edges, fixed, signature):
             result['unsat'] = True
         clause(negate(predicate(i, lambda b: b in 'AC')),
                negate(predicate(j, lambda b: b in 'AC')))
+    components, frozen = implication_components(result)
+    result['unsat'] = result['unsat'] or any(
+        components[2*v] == components[2*v+1]
+        for v in range(len(result['variable_sites'])))
+    result['frozen_variables'] = frozen
     return result
 
 
@@ -149,8 +154,8 @@ def accepts(compiled, bits):
                                        for clause in compiled['clauses'])
 
 
-def frozen_variables(compiled):
-    """Variables in an implication SCC containing >=2 distinct variables."""
+def implication_components(compiled):
+    """Literal SCC labels and variables in SCCs with >=2 distinct variables."""
     n = len(compiled['variable_sites'])
     graph, reverse = [[] for _ in range(2*n)], [[] for _ in range(2*n)]
     def node(lit):
@@ -194,11 +199,29 @@ def frozen_variables(compiled):
                     stack.append(v)
         members.append(group)
     nontrivial = [len({u//2 for u in group}) > 1 for group in members]
-    return tuple(v for v in range(n) if nontrivial[component[2*v]] or nontrivial[component[2*v+1]])
+    frozen = tuple(v for v in range(n) if nontrivial[component[2*v]] or nontrivial[component[2*v+1]])
+    return tuple(component), frozen
 
 
-def endpoint_path(n, occurrences, peptide, edges, fixed, x, y):
-    if len(x) != n or len(y) != n or not valid(x, occurrences, peptide, edges, fixed) or not valid(y, occurrences, peptide, edges, fixed):
+def frozen_variables(compiled):
+    """Variables in an implication SCC containing >=2 distinct variables."""
+    if 'frozen_variables' in compiled:
+        return compiled['frozen_variables']
+    return implication_components(compiled)[1]
+
+
+def endpoint_mutation_order(n, occurrences, peptide, edges, fixed, x, y):
+    """Return coordinate flips in O(n+c+|E|) operations, or None if separated.
+
+    The result records a compact nucleotide Hamming geodesic. It does not
+    materialize all intermediate n-letter sequence strings.
+    """
+    edges, fixed = tuple(edges), dict(fixed)
+    validate(n, occurrences, peptide, edges, fixed)
+    if (len(x) != n or len(y) != n
+            or any(base not in BASES for sequence in (x, y) for base in sequence)
+            or not valid(x, occurrences, peptide, edges, fixed)
+            or not valid(y, occurrences, peptide, edges, fixed)):
         raise ValueError('valid endpoints required')
     signature = sector(x, occurrences, peptide, edges)
     if signature != sector(y, occurrences, peptide, edges):
@@ -213,10 +236,10 @@ def endpoint_path(n, occurrences, peptide, edges, fixed, x, y):
     for clause in compiled['clauses']:
         local = sorted({abs(lit)-1 for lit in clause} & changed_set)
         for mask in range(1 << len(local)):
-            bits = list(a)
-            for k, v in enumerate(local):
-                bits[v] = b[v] if mask & (1 << k) else a[v]
-            if not any(bool(bits[abs(lit)-1]) == (lit > 0) for lit in clause):
+            values = {v: b[v] if mask & (1 << k) else a[v]
+                      for k, v in enumerate(local)}
+            if not any(bool(values.get(abs(lit)-1, a[abs(lit)-1])) == (lit > 0)
+                       for lit in clause):
                 if len(local) != 2 or mask not in (1, 2):
                     raise AssertionError('valid endpoints must give only binary event precedence')
                 relations.add((local[0], local[1]) if mask == 2 else (local[1], local[0]))
@@ -236,13 +259,21 @@ def endpoint_path(n, occurrences, peptide, edges, fixed, x, y):
                 queue.append(w)
     if len(order) != len(changed):
         raise AssertionError('SCC signature sufficiency failed')
+    sites = [compiled['variable_sites'][v] for v in order]
+    changed_sites = set(sites)
+    for p in range(n):
+        if x[p] != y[p] and p not in changed_sites:
+            sites.append(p)
+    return tuple(sites)
+
+
+def endpoint_path(n, occurrences, peptide, edges, fixed, x, y):
+    """Materialize a shortest path; writing all sequence states can cost O(n^2)."""
+    order = endpoint_mutation_order(n, occurrences, peptide, edges, fixed, x, y)
+    if order is None:
+        return None
     sequence, path = list(x), [x]
-    for v in order:
-        p = compiled['variable_sites'][v]
+    for p in order:
         sequence[p] = y[p]
         path.append(''.join(sequence))
-    for p in range(n):
-        if sequence[p] != y[p]:
-            sequence[p] = y[p]
-            path.append(''.join(sequence))
     return path

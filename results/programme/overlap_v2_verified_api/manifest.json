@@ -1,0 +1,127 @@
+{
+  "schema_version": 2,
+  "claim_id": "OVERLAP_V2_QUOTIENT_AND_LIFTING",
+  "repository": {
+    "commit": "2dd3b8aff543afb2704dd56c95091fb226bcf449",
+    "dirty": true
+  },
+  "command": [
+    "C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\work\\env\\Scripts\\python.exe",
+    "analysis/programme/overlap_v2_verify.py",
+    "--outdir",
+    "results\\programme\\overlap_v2_verified_api"
+  ],
+  "environment": {
+    "software": [
+      {
+        "name": "CPython",
+        "version": "3.12.14"
+      },
+      {
+        "name": "Biopython",
+        "version": "1.88"
+      }
+    ],
+    "hardware": "Windows-11-10.0.26300-SP0"
+  },
+  "mathematics": {
+    "assertion_tested": "Exact quotient fibres, complete SCC component partitions and Hamming distances in declared finite overlapping-code universes",
+    "coefficient_domain": "Boolean and finite RNA alphabet, exact graph integers",
+    "conventions": "standard code, distinct ordered codon coordinates, optional whole-codon complements, fixed bases, six canonical/wobble pair types",
+    "inputs": [
+      "analysis/programme/overlap_v2_quotient.py",
+      "analysis/programme/overlap_v2_verify.py",
+      "analysis/programme/overlap_classification_attempt_v2.json",
+      "analysis/exact/independent_oracle.py"
+    ],
+    "bounds": {
+      "generic_two_variable_formulas": 256,
+      "local_codon_family_truth_assignments": 2688,
+      "local_codon_family_relations": 42,
+      "direct_sequence_assignments": 540421,
+      "nonempty_fixed_peptide_instances": 73406,
+      "complete_quotient_fibres": 127674,
+      "nontrivial_coordinate_fibres": 34473,
+      "sectors_with_SCC_variables": 6,
+      "sectors_with_domain_at_least_three": 14754,
+      "compiled_realizable_sectors": 74672,
+      "connected_endpoint_distances": 364880,
+      "explicit_path_certificates": 1500,
+      "full_component_partitions": 73406,
+      "separated_endpoint_pairs": 15069,
+      "configurations": 856,
+      "arbitrary_triplet_configurations": 624,
+      "physical_configurations": 170,
+      "synthetic_pinned_configurations": 60,
+      "abstract_extra_invariant_fixture": 1,
+      "unbounded_chain_fixtures": 4,
+      "empty_configurations": 1,
+      "pinned_untranslated_configurations": 1,
+      "invalid_input_cases": 2
+    },
+    "non_claims": [
+      "Finite checks do not prove universal geometry.",
+      "Arbitrary ordered triples need not be physical reading frames.",
+      "No nonstandard code, fitness or molecular intervention claim."
+    ]
+  },
+  "randomness": {
+    "used": true,
+    "generator": "Python MT19937",
+    "seed": 2026102501
+  },
+  "run": {
+    "started_at": "2026-10-25T05:12:44.627609+00:00",
+    "runtime_seconds": 8.13483460000134,
+    "exit_status": 0,
+    "status": "completed",
+    "resource_limits": {
+      "memory_bytes": null,
+      "cpu_seconds": null,
+      "max_cores": null,
+      "max_threads": null
+    }
+  },
+  "input_artifacts": [
+    {
+      "path": "analysis/programme/overlap_v2_quotient.py",
+      "sha256": "bace9042f02b668f472460329015a8ecb1a12c0bf1c61b61146d2c9db2705e20",
+      "sha256_after": "bace9042f02b668f472460329015a8ecb1a12c0bf1c61b61146d2c9db2705e20"
+    },
+    {
+      "path": "analysis/programme/overlap_v2_verify.py",
+      "sha256": "30b6048ddc638751edc89b1d66e32cc9163a3cdceaf648b3c9d85dcb96ed28e7",
+      "sha256_after": "30b6048ddc638751edc89b1d66e32cc9163a3cdceaf648b3c9d85dcb96ed28e7"
+    },
+    {
+      "path": "analysis/programme/overlap_classification_attempt_v2.json",
+      "sha256": "e83b92a67671f8cc53a234f674aad9afeb08e86ade1b65652698f1e80fb18c1a",
+      "sha256_after": "e83b92a67671f8cc53a234f674aad9afeb08e86ade1b65652698f1e80fb18c1a"
+    },
+    {
+      "path": "analysis/exact/independent_oracle.py",
+      "sha256": "b0145f8f37197bd3f6da0843a535963bf83db7c6886137cf1c487b554f493cab",
+      "sha256_after": "b0145f8f37197bd3f6da0843a535963bf83db7c6886137cf1c487b554f493cab"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "results/programme/overlap_v2_verified_api/overlap_v2_results.json",
+      "sha256": "bc0bfa7de6216a0c5fae0cce8f353e9b8fef4ef7c6fa612d443b31d70cd9827f",
+      "kind": "result"
+    }
+  ],
+  "checks": [
+    {
+      "name": "source-hashes-unchanged",
+      "passed": true
+    }
+  ],
+  "result": "completed",
+  "declared_results": [
+    "results/programme/overlap_v2_verified_api/overlap_v2_results.json"
+  ],
+  "residual_risks": [
+    "No hard resource limits; not proof-assistant verification."
+  ]
+}

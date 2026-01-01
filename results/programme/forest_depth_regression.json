@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "events": 1200,
+  "poset_height": 2,
+  "relations": 1199,
+  "source_sha256": "b04b58505495fc683d6f3869a5548d1c30c9a4765bef1cacb9e86eef7fc9923c",
+  "independent_oracle": "Entringer triangle recurrence for alternating permutations",
+  "exact_equal": true,
+  "answer_bits": 9769,
+  "recursion_limit": 1000,
+  "seconds": 15.698618900001748
+}
