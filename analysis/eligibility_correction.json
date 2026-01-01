@@ -1,0 +1,12 @@
+{
+  "reason": "Finite negative normalized SHAPE reactivities are valid measurements. Only the source NA token indicates missing coverage.",
+  "initial_rule": "nonmissing and nonnegative",
+  "corrected_rule": "nonmissing",
+  "initial_selected_blocks": 402,
+  "corrected_selected_blocks": 404,
+  "unchanged_selected_blocks": 185,
+  "newly_selected_blocks": 219,
+  "superseded_selected_blocks": 217,
+  "timing": "Correction identified by independent source-data audit during computation, before aggregate outcome inspection or statistical inference. Selection was rerun using the same hash rule; old outputs were archived outside the release.",
+  "interpretation": "This corrects a coverage bug, not a change to optimize an accessibility outcome. The final cohort and all exclusions are included."
+}

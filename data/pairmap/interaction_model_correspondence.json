@@ -1,0 +1,2852 @@
+[
+  {
+    "gene": "rpsM",
+    "condition": "incell",
+    "i": 25,
+    "j": 48,
+    "pairmap_class": "1",
+    "Sig": "64.01",
+    "Zij": "2.34",
+    "three_nt_helix_exactly_in_CT": true,
+    "model_pairs": [
+      [
+        25,
+        50
+      ],
+      [
+        26,
+        49
+      ],
+      [
+        27,
+        48
+      ]
+    ],
+    "interpretation": "3nt-window interaction evidence; exact per-base identities still depend on the structural model"
+  },
+  {
+    "gene": "rpsM",
+    "condition": "incell",
+    "i": 65,
+    "j": 114,
+    "pairmap_class": "1",
+    "Sig": "1850.56",
+    "Zij": "9.96",
+    "three_nt_helix_exactly_in_CT": true,
+    "model_pairs": [
+      [
+        65,
+        116
+      ],
+      [
+        66,
+        115
+      ],
+      [
+        67,
+        114
+      ]
+    ],
+    "interpretation": "3nt-window interaction evidence; exact per-base identities still depend on the structural model"
+  },
+  {
+    "gene": "rpsM",
+    "condition": "incell",
+    "i": 71,
+    "j": 109,
+    "pairmap_class": "1",
+    "Sig": "102.54",
+    "Zij": "2.60",
+    "three_nt_helix_exactly_in_CT": true,
+    "model_pairs": [
+      [
+        71,
+        111
+      ],
+      [
+        72,
+        110
+      ],
+      [
+        73,
+        109
+      ]
+    ],
+    "interpretation": "3nt-window interaction evidence; exact per-base identities still depend on the structural model"
+  },
+  {
+    "gene": "rpsM",
+    "condition": "incell",
+    "i": 72,
+    "j": 108,
+    "pairmap_class": "1",
+    "Sig": "240.96",
+    "Zij": "4.68",
+    "three_nt_helix_exactly_in_CT": true,
+    "model_pairs": [
+      [
+        72,
+        110
+      ],
+      [
+        73,
+        109
+      ],
+      [
+        74,
+        108
+      ]
+    ],
+    "interpretation": "3nt-window interaction evidence; exact per-base identities still depend on the structural model"
+  },
+  {
+    "gene": "rpsM",
+    "condition": "incell",
+    "i": 73,
+    "j": 107,
+    "pairmap_class": "1",
+    "Sig": "808.37",
+    "Zij": "6.14",
+    "three_nt_helix_exactly_in_CT": true,
+    "model_pairs": [
+      [
+        73,
+        109
+      ],
+      [
+        74,
+        108
+      ],
+      [
+        75,
+        107
+      ]
+    ],
+    "interpretation": "3nt-window interaction evidence; exact per-base identities still depend on the structural model"
+  },
+  {
+    "gene": "rpsM",
+    "condition": "incell",
+    "i": 74,
+    "j": 106,
+    "pairmap_class": "1",
+    "Sig": "3152.01",
+    "Zij": "9.79",
+    "three_nt_helix_exactly_in_CT": true,
+    "model_pairs": [
+      [
+        74,
+        108
+      ],
+      [
+        75,
+        107
+      ],
+      [
+        76,
+        106
+      ]
+    ],
+    "interpretation": "3nt-window interaction evidence; exact per-base identities still depend on the structural model"
+  },
+  {
+    "gene": "rpsM",
+    "condition": "incell",
+    "i": 182,
+    "j": 209,
+    "pairmap_class": "1",
+    "Sig": "708.77",
+    "Zij": "4.42",
+    "three_nt_helix_exactly_in_CT": true,
+    "model_pairs": [
+      [
+        182,
+        211
+      ],
+      [
+        183,
+        210
+      ],
+      [
+        184,
+        209
+      ]
+    ],
+    "interpretation": "3nt-window interaction evidence; exact per-base identities still depend on the structural model"
+  },
+  {
+    "gene": "rpsM",
+    "condition": "incell",
+    "i": 184,
+    "j": 207,
+    "pairmap_class": "1",
+    "Sig": "2362.12",
+    "Zij": "8.06",
+    "three_nt_helix_exactly_in_CT": true,
+    "model_pairs": [
+      [
+        184,
+        209
+      ],
+      [
+        185,
+        208
+      ],
+      [
+        186,
+        207
+      ]
+    ],
+    "interpretation": "3nt-window interaction evidence; exact per-base identities still depend on the structural model"
+  },
+  {
+    "gene": "rpsM",
+    "condition": "incell",
+    "i": 188,
+    "j": 202,
+    "pairmap_class": "1",
+    "Sig": "2101.56",
+    "Zij": "5.93",
+    "three_nt_helix_exactly_in_CT": true,
+    "model_pairs": [
+      [
+        188,
+        204
+      ],
+      [
+        189,
+        203
+      ],
+      [
+        190,
+        202
+      ]
+    ],
+    "interpretation": "3nt-window interaction evidence; exact per-base identities still depend on the structural model"
+  },
+  {
+    "gene": "rpsM",
+    "condition": "incell",
+    "i": 189,
+    "j": 201,
+    "pairmap_class": "1",
+    "Sig": "2774.56",
+    "Zij": "6.31",
+    "three_nt_helix_exactly_in_CT": true,
+    "model_pairs": [
+      [
+        189,
+        203
+      ],
+      [
+        190,
+        202
+      ],
+      [
+        191,
+        201
+      ]
+    ],
+    "interpretation": "3nt-window interaction evidence; exact per-base identities still depend on the structural model"
+  },
+  {
+    "gene": "rpsM",
+    "condition": "incell",
+    "i": 29,
+    "j": 95,
+    "pairmap_class": "2",
+    "Sig": "131.00",
+    "Zij": "2.29",
+    "three_nt_helix_exactly_in_CT": false,
+    "model_pairs": [
+      [
+        29,
+        97
+      ],
+      [
+        30,
+        96
+      ],
+      [
+        31,
+        95
+      ]
+    ],
+    "interpretation": "3nt-window interaction evidence; exact per-base identities still depend on the structural model"
+  },
+  {
+    "gene": "rpsM",
+    "condition": "incell",
+    "i": 64,
+    "j": 113,
+    "pairmap_class": "2",
+    "Sig": "191.20",
+    "Zij": "2.35",
+    "three_nt_helix_exactly_in_CT": false,
+    "model_pairs": [
+      [
+        64,
+        115
+      ],
+      [
+        65,
+        114
+      ],
+      [
+        66,
+        113
+      ]
+    ],
+    "interpretation": "3nt-window interaction evidence; exact per-base identities still depend on the structural model"
+  },
+  {
+    "gene": "rpsM",
+    "condition": "incell",
+    "i": 64,
+    "j": 115,
+    "pairmap_class": "2",
+    "Sig": "1304.63",
+    "Zij": "6.93",
+    "three_nt_helix_exactly_in_CT": true,
+    "model_pairs": [
+      [
+        64,
+        117
+      ],
+      [
+        65,
+        116
+      ],
+      [
+        66,
+        115
+      ]
+    ],
+    "interpretation": "3nt-window interaction evidence; exact per-base identities still depend on the structural model"
+  },
+  {
+    "gene": "rpsM",
+    "condition": "incell",
+    "i": 64,
+    "j": 117,
+    "pairmap_class": "2",
+    "Sig": "310.05",
+    "Zij": "2.46",
+    "three_nt_helix_exactly_in_CT": false,
+    "model_pairs": [
+      [
+        64,
+        119
+      ],
+      [
+        65,
+        118
+      ],
+      [
+        66,
+        117
+      ]
+    ],
+    "interpretation": "3nt-window interaction evidence; exact per-base identities still depend on the structural model"
+  },
+  {
+    "gene": "rpsM",
+    "condition": "incell",
+    "i": 65,
+    "j": 116,
+    "pairmap_class": "2",
+    "Sig": "965.93",
+    "Zij": "5.64",
+    "three_nt_helix_exactly_in_CT": false,
+    "model_pairs": [
+      [
+        65,
+        118
+      ],
+      [
+        66,
+        117
+      ],
+      [
+        67,
+        116
+      ]
+    ],
+    "interpretation": "3nt-window interaction evidence; exact per-base identities still depend on the structural model"
+  },
+  {
+    "gene": "rpsM",
+    "condition": "incell",
+    "i": 76,
+    "j": 94,
+    "pairmap_class": "2",
+    "Sig": "202.63",
+    "Zij": "2.15",
+    "three_nt_helix_exactly_in_CT": false,
+    "model_pairs": [
+      [
+        76,
+        96
+      ],
+      [
+        77,
+        95
+      ],
+      [
+        78,
+        94
+      ]
+    ],
+    "interpretation": "3nt-window interaction evidence; exact per-base identities still depend on the structural model"
+  },
+  {
+    "gene": "rpsM",
+    "condition": "incell",
+    "i": 84,
+    "j": 94,
+    "pairmap_class": "2",
+    "Sig": "611.85",
+    "Zij": "6.08",
+    "three_nt_helix_exactly_in_CT": false,
+    "model_pairs": [
+      [
+        84,
+        96
+      ],
+      [
+        85,
+        95
+      ],
+      [
+        86,
+        94
+      ]
+    ],
+    "interpretation": "3nt-window interaction evidence; exact per-base identities still depend on the structural model"
+  },
+  {
+    "gene": "rpsM",
+    "condition": "incell",
+    "i": 85,
+    "j": 94,
+    "pairmap_class": "2",
+    "Sig": "412.61",
+    "Zij": "3.75",
+    "three_nt_helix_exactly_in_CT": false,
+    "model_pairs": [
+      [
+        85,
+        96
+      ],
+      [
+        86,
+        95
+      ],
+      [
+        87,
+        94
+      ]
+    ],
+    "interpretation": "3nt-window interaction evidence; exact per-base identities still depend on the structural model"
+  },
+  {
+    "gene": "rpsM",
+    "condition": "incell",
+    "i": 86,
+    "j": 102,
+    "pairmap_class": "2",
+    "Sig": "1208.76",
+    "Zij": "7.86",
+    "three_nt_helix_exactly_in_CT": true,
+    "model_pairs": [
+      [
+        86,
+        104
+      ],
+      [
+        87,
+        103
+      ],
+      [
+        88,
+        102
+      ]
+    ],
+    "interpretation": "3nt-window interaction evidence; exact per-base identities still depend on the structural model"
+  },
+  {
+    "gene": "rpsM",
+    "condition": "incell",
+    "i": 87,
+    "j": 101,
+    "pairmap_class": "2",
+    "Sig": "613.08",
+    "Zij": "5.11",
+    "three_nt_helix_exactly_in_CT": true,
+    "model_pairs": [
+      [
+        87,
+        103
+      ],
+      [
+        88,
+        102
+      ],
+      [
+        89,
+        101
+      ]
+    ],
+    "interpretation": "3nt-window interaction evidence; exact per-base identities still depend on the structural model"
+  },
+  {
+    "gene": "rpsM",
+    "condition": "incell",
+    "i": 88,
+    "j": 98,
+    "pairmap_class": "2",
+    "Sig": "479.95",
+    "Zij": "4.00",
+    "three_nt_helix_exactly_in_CT": false,
+    "model_pairs": [
+      [
+        88,
+        100
+      ],
+      [
+        89,
+        99
+      ],
+      [
+        90,
+        98
+      ]
+    ],
+    "interpretation": "3nt-window interaction evidence; exact per-base identities still depend on the structural model"
+  },
+  {
+    "gene": "rpsM",
+    "condition": "incell",
+    "i": 88,
+    "j": 99,
+    "pairmap_class": "2",
+    "Sig": "388.58",
+    "Zij": "3.62",
+    "three_nt_helix_exactly_in_CT": false,
+    "model_pairs": [
+      [
+        88,
+        101
+      ],
+      [
+        89,
+        100
+      ],
+      [
+        90,
+        99
+      ]
+    ],
+    "interpretation": "3nt-window interaction evidence; exact per-base identities still depend on the structural model"
+  },
+  {
+    "gene": "rpsM",
+    "condition": "incell",
+    "i": 88,
+    "j": 100,
+    "pairmap_class": "2",
+    "Sig": "926.43",
+    "Zij": "5.36",
+    "three_nt_helix_exactly_in_CT": true,
+    "model_pairs": [
+      [
+        88,
+        102
+      ],
+      [
+        89,
+        101
+      ],
+      [
+        90,
+        100
+      ]
+    ],
+    "interpretation": "3nt-window interaction evidence; exact per-base identities still depend on the structural model"
+  },
+  {
+    "gene": "rpsM",
+    "condition": "incell",
+    "i": 89,
+    "j": 98,
+    "pairmap_class": "2",
+    "Sig": "497.22",
+    "Zij": "3.48",
+    "three_nt_helix_exactly_in_CT": false,
+    "model_pairs": [
+      [
+        89,
+        100
+      ],
+      [
+        90,
+        99
+      ],
+      [
+        91,
+        98
+      ]
+    ],
+    "interpretation": "3nt-window interaction evidence; exact per-base identities still depend on the structural model"
+  },
+  {
+    "gene": "rpsM",
+    "condition": "incell",
+    "i": 89,
+    "j": 99,
+    "pairmap_class": "2",
+    "Sig": "433.61",
+    "Zij": "3.46",
+    "three_nt_helix_exactly_in_CT": true,
+    "model_pairs": [
+      [
+        89,
+        101
+      ],
+      [
+        90,
+        100
+      ],
+      [
+        91,
+        99
+      ]
+    ],
+    "interpretation": "3nt-window interaction evidence; exact per-base identities still depend on the structural model"
+  },
+  {
+    "gene": "rpsM",
+    "condition": "incell",
+    "i": 90,
+    "j": 99,
+    "pairmap_class": "2",
+    "Sig": "247.67",
+    "Zij": "2.02",
+    "three_nt_helix_exactly_in_CT": false,
+    "model_pairs": [
+      [
+        90,
+        101
+      ],
+      [
+        91,
+        100
+      ],
+      [
+        92,
+        99
+      ]
+    ],
+    "interpretation": "3nt-window interaction evidence; exact per-base identities still depend on the structural model"
+  },
+  {
+    "gene": "rpsM",
+    "condition": "incell",
+    "i": 92,
+    "j": 146,
+    "pairmap_class": "2",
+    "Sig": "270.55",
+    "Zij": "2.66",
+    "three_nt_helix_exactly_in_CT": false,
+    "model_pairs": [
+      [
+        92,
+        148
+      ],
+      [
+        93,
+        147
+      ],
+      [
+        94,
+        146
+      ]
+    ],
+    "interpretation": "3nt-window interaction evidence; exact per-base identities still depend on the structural model"
+  },
+  {
+    "gene": "rpsM",
+    "condition": "incell",
+    "i": 93,
+    "j": 145,
+    "pairmap_class": "2",
+    "Sig": "265.21",
+    "Zij": "2.73",
+    "three_nt_helix_exactly_in_CT": false,
+    "model_pairs": [
+      [
+        93,
+        147
+      ],
+      [
+        94,
+        146
+      ],
+      [
+        95,
+        145
+      ]
+    ],
+    "interpretation": "3nt-window interaction evidence; exact per-base identities still depend on the structural model"
+  },
+  {
+    "gene": "rpsM",
+    "condition": "incell",
+    "i": 95,
+    "j": 143,
+    "pairmap_class": "2",
+    "Sig": "261.50",
+    "Zij": "2.18",
+    "three_nt_helix_exactly_in_CT": false,
+    "model_pairs": [
+      [
+        95,
+        145
+      ],
+      [
+        96,
+        144
+      ],
+      [
+        97,
+        143
+      ]
+    ],
+    "interpretation": "3nt-window interaction evidence; exact per-base identities still depend on the structural model"
+  },
+  {
+    "gene": "rpsM",
+    "condition": "incell",
+    "i": 129,
+    "j": 167,
+    "pairmap_class": "2",
+    "Sig": "649.08",
+    "Zij": "3.10",
+    "three_nt_helix_exactly_in_CT": true,
+    "model_pairs": [
+      [
+        129,
+        169
+      ],
+      [
+        130,
+        168
+      ],
+      [
+        131,
+        167
+      ]
+    ],
+    "interpretation": "3nt-window interaction evidence; exact per-base identities still depend on the structural model"
+  },
+  {
+    "gene": "rpsM",
+    "condition": "incell",
+    "i": 130,
+    "j": 165,
+    "pairmap_class": "2",
+    "Sig": "797.94",
+    "Zij": "3.04",
+    "three_nt_helix_exactly_in_CT": false,
+    "model_pairs": [
+      [
+        130,
+        167
+      ],
+      [
+        131,
+        166
+      ],
+      [
+        132,
+        165
+      ]
+    ],
+    "interpretation": "3nt-window interaction evidence; exact per-base identities still depend on the structural model"
+  },
+  {
+    "gene": "rpsM",
+    "condition": "incell",
+    "i": 130,
+    "j": 166,
+    "pairmap_class": "2",
+    "Sig": "523.19",
+    "Zij": "2.35",
+    "three_nt_helix_exactly_in_CT": true,
+    "model_pairs": [
+      [
+        130,
+        168
+      ],
+      [
+        131,
+        167
+      ],
+      [
+        132,
+        166
+      ]
+    ],
+    "interpretation": "3nt-window interaction evidence; exact per-base identities still depend on the structural model"
+  },
+  {
+    "gene": "rpsM",
+    "condition": "incell",
+    "i": 131,
+    "j": 165,
+    "pairmap_class": "2",
+    "Sig": "754.21",
+    "Zij": "2.84",
+    "three_nt_helix_exactly_in_CT": true,
+    "model_pairs": [
+      [
+        131,
+        167
+      ],
+      [
+        132,
+        166
+      ],
+      [
+        133,
+        165
+      ]
+    ],
+    "interpretation": "3nt-window interaction evidence; exact per-base identities still depend on the structural model"
+  },
+  {
+    "gene": "rpsM",
+    "condition": "incell",
+    "i": 132,
+    "j": 164,
+    "pairmap_class": "2",
+    "Sig": "2066.81",
+    "Zij": "5.81",
+    "three_nt_helix_exactly_in_CT": true,
+    "model_pairs": [
+      [
+        132,
+        166
+      ],
+      [
+        133,
+        165
+      ],
+      [
+        134,
+        164
+      ]
+    ],
+    "interpretation": "3nt-window interaction evidence; exact per-base identities still depend on the structural model"
+  },
+  {
+    "gene": "rpsM",
+    "condition": "incell",
+    "i": 133,
+    "j": 163,
+    "pairmap_class": "2",
+    "Sig": "1552.99",
+    "Zij": "5.75",
+    "three_nt_helix_exactly_in_CT": true,
+    "model_pairs": [
+      [
+        133,
+        165
+      ],
+      [
+        134,
+        164
+      ],
+      [
+        135,
+        163
+      ]
+    ],
+    "interpretation": "3nt-window interaction evidence; exact per-base identities still depend on the structural model"
+  },
+  {
+    "gene": "rpsM",
+    "condition": "incell",
+    "i": 139,
+    "j": 158,
+    "pairmap_class": "2",
+    "Sig": "1068.28",
+    "Zij": "4.60",
+    "three_nt_helix_exactly_in_CT": true,
+    "model_pairs": [
+      [
+        139,
+        160
+      ],
+      [
+        140,
+        159
+      ],
+      [
+        141,
+        158
+      ]
+    ],
+    "interpretation": "3nt-window interaction evidence; exact per-base identities still depend on the structural model"
+  },
+  {
+    "gene": "rpsM",
+    "condition": "incell",
+    "i": 139,
+    "j": 164,
+    "pairmap_class": "2",
+    "Sig": "589.24",
+    "Zij": "2.00",
+    "three_nt_helix_exactly_in_CT": false,
+    "model_pairs": [
+      [
+        139,
+        166
+      ],
+      [
+        140,
+        165
+      ],
+      [
+        141,
+        164
+      ]
+    ],
+    "interpretation": "3nt-window interaction evidence; exact per-base identities still depend on the structural model"
+  },
+  {
+    "gene": "rpsM",
+    "condition": "incell",
+    "i": 140,
+    "j": 157,
+    "pairmap_class": "2",
+    "Sig": "449.26",
+    "Zij": "3.36",
+    "three_nt_helix_exactly_in_CT": true,
+    "model_pairs": [
+      [
+        140,
+        159
+      ],
+      [
+        141,
+        158
+      ],
+      [
+        142,
+        157
+      ]
+    ],
+    "interpretation": "3nt-window interaction evidence; exact per-base identities still depend on the structural model"
+  },
+  {
+    "gene": "rpsM",
+    "condition": "incell",
+    "i": 140,
+    "j": 163,
+    "pairmap_class": "2",
+    "Sig": "548.30",
+    "Zij": "3.19",
+    "three_nt_helix_exactly_in_CT": false,
+    "model_pairs": [
+      [
+        140,
+        165
+      ],
+      [
+        141,
+        164
+      ],
+      [
+        142,
+        163
+      ]
+    ],
+    "interpretation": "3nt-window interaction evidence; exact per-base identities still depend on the structural model"
+  },
+  {
+    "gene": "rpsM",
+    "condition": "incell",
+    "i": 154,
+    "j": 167,
+    "pairmap_class": "2",
+    "Sig": "274.97",
+    "Zij": "2.37",
+    "three_nt_helix_exactly_in_CT": false,
+    "model_pairs": [
+      [
+        154,
+        169
+      ],
+      [
+        155,
+        168
+      ],
+      [
+        156,
+        167
+      ]
+    ],
+    "interpretation": "3nt-window interaction evidence; exact per-base identities still depend on the structural model"
+  },
+  {
+    "gene": "rpsM",
+    "condition": "incell",
+    "i": 183,
+    "j": 208,
+    "pairmap_class": "2",
+    "Sig": "202.84",
+    "Zij": "2.15",
+    "three_nt_helix_exactly_in_CT": true,
+    "model_pairs": [
+      [
+        183,
+        210
+      ],
+      [
+        184,
+        209
+      ],
+      [
+        185,
+        208
+      ]
+    ],
+    "interpretation": "3nt-window interaction evidence; exact per-base identities still depend on the structural model"
+  },
+  {
+    "gene": "rpsM",
+    "condition": "incell",
+    "i": 185,
+    "j": 206,
+    "pairmap_class": "2",
+    "Sig": "1250.65",
+    "Zij": "5.37",
+    "three_nt_helix_exactly_in_CT": true,
+    "model_pairs": [
+      [
+        185,
+        208
+      ],
+      [
+        186,
+        207
+      ],
+      [
+        187,
+        206
+      ]
+    ],
+    "interpretation": "3nt-window interaction evidence; exact per-base identities still depend on the structural model"
+  },
+  {
+    "gene": "rpsM",
+    "condition": "incell",
+    "i": 186,
+    "j": 205,
+    "pairmap_class": "2",
+    "Sig": "751.70",
+    "Zij": "3.22",
+    "three_nt_helix_exactly_in_CT": false,
+    "model_pairs": [
+      [
+        186,
+        207
+      ],
+      [
+        187,
+        206
+      ],
+      [
+        188,
+        205
+      ]
+    ],
+    "interpretation": "3nt-window interaction evidence; exact per-base identities still depend on the structural model"
+  },
+  {
+    "gene": "rpsM",
+    "condition": "incell",
+    "i": 187,
+    "j": 203,
+    "pairmap_class": "2",
+    "Sig": "1385.92",
+    "Zij": "4.42",
+    "three_nt_helix_exactly_in_CT": false,
+    "model_pairs": [
+      [
+        187,
+        205
+      ],
+      [
+        188,
+        204
+      ],
+      [
+        189,
+        203
+      ]
+    ],
+    "interpretation": "3nt-window interaction evidence; exact per-base identities still depend on the structural model"
+  },
+  {
+    "gene": "rpsM",
+    "condition": "cellfree",
+    "i": 64,
+    "j": 115,
+    "pairmap_class": "1",
+    "Sig": "211.59",
+    "Zij": "6.56",
+    "three_nt_helix_exactly_in_CT": true,
+    "model_pairs": [
+      [
+        64,
+        117
+      ],
+      [
+        65,
+        116
+      ],
+      [
+        66,
+        115
+      ]
+    ],
+    "interpretation": "3nt-window interaction evidence; exact per-base identities still depend on the structural model"
+  },
+  {
+    "gene": "rpsM",
+    "condition": "cellfree",
+    "i": 65,
+    "j": 114,
+    "pairmap_class": "1",
+    "Sig": "37.58",
+    "Zij": "2.68",
+    "three_nt_helix_exactly_in_CT": true,
+    "model_pairs": [
+      [
+        65,
+        116
+      ],
+      [
+        66,
+        115
+      ],
+      [
+        67,
+        114
+      ]
+    ],
+    "interpretation": "3nt-window interaction evidence; exact per-base identities still depend on the structural model"
+  },
+  {
+    "gene": "rpsM",
+    "condition": "cellfree",
+    "i": 72,
+    "j": 108,
+    "pairmap_class": "1",
+    "Sig": "191.04",
+    "Zij": "5.00",
+    "three_nt_helix_exactly_in_CT": true,
+    "model_pairs": [
+      [
+        72,
+        110
+      ],
+      [
+        73,
+        109
+      ],
+      [
+        74,
+        108
+      ]
+    ],
+    "interpretation": "3nt-window interaction evidence; exact per-base identities still depend on the structural model"
+  },
+  {
+    "gene": "rpsM",
+    "condition": "cellfree",
+    "i": 73,
+    "j": 107,
+    "pairmap_class": "1",
+    "Sig": "222.56",
+    "Zij": "5.06",
+    "three_nt_helix_exactly_in_CT": true,
+    "model_pairs": [
+      [
+        73,
+        109
+      ],
+      [
+        74,
+        108
+      ],
+      [
+        75,
+        107
+      ]
+    ],
+    "interpretation": "3nt-window interaction evidence; exact per-base identities still depend on the structural model"
+  },
+  {
+    "gene": "rpsM",
+    "condition": "cellfree",
+    "i": 74,
+    "j": 106,
+    "pairmap_class": "1",
+    "Sig": "1832.67",
+    "Zij": "10.26",
+    "three_nt_helix_exactly_in_CT": true,
+    "model_pairs": [
+      [
+        74,
+        108
+      ],
+      [
+        75,
+        107
+      ],
+      [
+        76,
+        106
+      ]
+    ],
+    "interpretation": "3nt-window interaction evidence; exact per-base identities still depend on the structural model"
+  },
+  {
+    "gene": "rpsM",
+    "condition": "cellfree",
+    "i": 182,
+    "j": 209,
+    "pairmap_class": "1",
+    "Sig": "58.20",
+    "Zij": "2.44",
+    "three_nt_helix_exactly_in_CT": true,
+    "model_pairs": [
+      [
+        182,
+        211
+      ],
+      [
+        183,
+        210
+      ],
+      [
+        184,
+        209
+      ]
+    ],
+    "interpretation": "3nt-window interaction evidence; exact per-base identities still depend on the structural model"
+  },
+  {
+    "gene": "rpsM",
+    "condition": "cellfree",
+    "i": 184,
+    "j": 207,
+    "pairmap_class": "1",
+    "Sig": "263.85",
+    "Zij": "5.90",
+    "three_nt_helix_exactly_in_CT": true,
+    "model_pairs": [
+      [
+        184,
+        209
+      ],
+      [
+        185,
+        208
+      ],
+      [
+        186,
+        207
+      ]
+    ],
+    "interpretation": "3nt-window interaction evidence; exact per-base identities still depend on the structural model"
+  },
+  {
+    "gene": "rpsM",
+    "condition": "cellfree",
+    "i": 188,
+    "j": 202,
+    "pairmap_class": "1",
+    "Sig": "742.60",
+    "Zij": "5.06",
+    "three_nt_helix_exactly_in_CT": true,
+    "model_pairs": [
+      [
+        188,
+        204
+      ],
+      [
+        189,
+        203
+      ],
+      [
+        190,
+        202
+      ]
+    ],
+    "interpretation": "3nt-window interaction evidence; exact per-base identities still depend on the structural model"
+  },
+  {
+    "gene": "rpsM",
+    "condition": "cellfree",
+    "i": 189,
+    "j": 201,
+    "pairmap_class": "1",
+    "Sig": "466.66",
+    "Zij": "3.84",
+    "three_nt_helix_exactly_in_CT": true,
+    "model_pairs": [
+      [
+        189,
+        203
+      ],
+      [
+        190,
+        202
+      ],
+      [
+        191,
+        201
+      ]
+    ],
+    "interpretation": "3nt-window interaction evidence; exact per-base identities still depend on the structural model"
+  },
+  {
+    "gene": "rpsM",
+    "condition": "cellfree",
+    "i": 25,
+    "j": 40,
+    "pairmap_class": "2",
+    "Sig": "31.46",
+    "Zij": "5.06",
+    "three_nt_helix_exactly_in_CT": false,
+    "model_pairs": [
+      [
+        25,
+        42
+      ],
+      [
+        26,
+        41
+      ],
+      [
+        27,
+        40
+      ]
+    ],
+    "interpretation": "3nt-window interaction evidence; exact per-base identities still depend on the structural model"
+  },
+  {
+    "gene": "rpsM",
+    "condition": "cellfree",
+    "i": 71,
+    "j": 109,
+    "pairmap_class": "2",
+    "Sig": "115.77",
+    "Zij": "3.60",
+    "three_nt_helix_exactly_in_CT": true,
+    "model_pairs": [
+      [
+        71,
+        111
+      ],
+      [
+        72,
+        110
+      ],
+      [
+        73,
+        109
+      ]
+    ],
+    "interpretation": "3nt-window interaction evidence; exact per-base identities still depend on the structural model"
+  },
+  {
+    "gene": "rpsM",
+    "condition": "cellfree",
+    "i": 77,
+    "j": 102,
+    "pairmap_class": "2",
+    "Sig": "55.01",
+    "Zij": "2.65",
+    "three_nt_helix_exactly_in_CT": false,
+    "model_pairs": [
+      [
+        77,
+        104
+      ],
+      [
+        78,
+        103
+      ],
+      [
+        79,
+        102
+      ]
+    ],
+    "interpretation": "3nt-window interaction evidence; exact per-base identities still depend on the structural model"
+  },
+  {
+    "gene": "rpsM",
+    "condition": "cellfree",
+    "i": 84,
+    "j": 94,
+    "pairmap_class": "2",
+    "Sig": "428.09",
+    "Zij": "5.34",
+    "three_nt_helix_exactly_in_CT": false,
+    "model_pairs": [
+      [
+        84,
+        96
+      ],
+      [
+        85,
+        95
+      ],
+      [
+        86,
+        94
+      ]
+    ],
+    "interpretation": "3nt-window interaction evidence; exact per-base identities still depend on the structural model"
+  },
+  {
+    "gene": "rpsM",
+    "condition": "cellfree",
+    "i": 85,
+    "j": 94,
+    "pairmap_class": "2",
+    "Sig": "403.56",
+    "Zij": "5.04",
+    "three_nt_helix_exactly_in_CT": false,
+    "model_pairs": [
+      [
+        85,
+        96
+      ],
+      [
+        86,
+        95
+      ],
+      [
+        87,
+        94
+      ]
+    ],
+    "interpretation": "3nt-window interaction evidence; exact per-base identities still depend on the structural model"
+  },
+  {
+    "gene": "rpsM",
+    "condition": "cellfree",
+    "i": 86,
+    "j": 102,
+    "pairmap_class": "2",
+    "Sig": "102.81",
+    "Zij": "2.56",
+    "three_nt_helix_exactly_in_CT": true,
+    "model_pairs": [
+      [
+        86,
+        104
+      ],
+      [
+        87,
+        103
+      ],
+      [
+        88,
+        102
+      ]
+    ],
+    "interpretation": "3nt-window interaction evidence; exact per-base identities still depend on the structural model"
+  },
+  {
+    "gene": "rpsM",
+    "condition": "cellfree",
+    "i": 87,
+    "j": 101,
+    "pairmap_class": "2",
+    "Sig": "113.25",
+    "Zij": "3.37",
+    "three_nt_helix_exactly_in_CT": true,
+    "model_pairs": [
+      [
+        87,
+        103
+      ],
+      [
+        88,
+        102
+      ],
+      [
+        89,
+        101
+      ]
+    ],
+    "interpretation": "3nt-window interaction evidence; exact per-base identities still depend on the structural model"
+  },
+  {
+    "gene": "rpsM",
+    "condition": "cellfree",
+    "i": 88,
+    "j": 98,
+    "pairmap_class": "2",
+    "Sig": "176.97",
+    "Zij": "3.93",
+    "three_nt_helix_exactly_in_CT": false,
+    "model_pairs": [
+      [
+        88,
+        100
+      ],
+      [
+        89,
+        99
+      ],
+      [
+        90,
+        98
+      ]
+    ],
+    "interpretation": "3nt-window interaction evidence; exact per-base identities still depend on the structural model"
+  },
+  {
+    "gene": "rpsM",
+    "condition": "cellfree",
+    "i": 88,
+    "j": 99,
+    "pairmap_class": "2",
+    "Sig": "136.36",
+    "Zij": "3.06",
+    "three_nt_helix_exactly_in_CT": false,
+    "model_pairs": [
+      [
+        88,
+        101
+      ],
+      [
+        89,
+        100
+      ],
+      [
+        90,
+        99
+      ]
+    ],
+    "interpretation": "3nt-window interaction evidence; exact per-base identities still depend on the structural model"
+  },
+  {
+    "gene": "rpsM",
+    "condition": "cellfree",
+    "i": 88,
+    "j": 100,
+    "pairmap_class": "2",
+    "Sig": "310.08",
+    "Zij": "3.96",
+    "three_nt_helix_exactly_in_CT": true,
+    "model_pairs": [
+      [
+        88,
+        102
+      ],
+      [
+        89,
+        101
+      ],
+      [
+        90,
+        100
+      ]
+    ],
+    "interpretation": "3nt-window interaction evidence; exact per-base identities still depend on the structural model"
+  },
+  {
+    "gene": "rpsM",
+    "condition": "cellfree",
+    "i": 89,
+    "j": 98,
+    "pairmap_class": "2",
+    "Sig": "262.15",
+    "Zij": "4.26",
+    "three_nt_helix_exactly_in_CT": false,
+    "model_pairs": [
+      [
+        89,
+        100
+      ],
+      [
+        90,
+        99
+      ],
+      [
+        91,
+        98
+      ]
+    ],
+    "interpretation": "3nt-window interaction evidence; exact per-base identities still depend on the structural model"
+  },
+  {
+    "gene": "rpsM",
+    "condition": "cellfree",
+    "i": 89,
+    "j": 99,
+    "pairmap_class": "2",
+    "Sig": "213.06",
+    "Zij": "3.52",
+    "three_nt_helix_exactly_in_CT": true,
+    "model_pairs": [
+      [
+        89,
+        101
+      ],
+      [
+        90,
+        100
+      ],
+      [
+        91,
+        99
+      ]
+    ],
+    "interpretation": "3nt-window interaction evidence; exact per-base identities still depend on the structural model"
+  },
+  {
+    "gene": "rpsM",
+    "condition": "cellfree",
+    "i": 90,
+    "j": 99,
+    "pairmap_class": "2",
+    "Sig": "168.84",
+    "Zij": "2.85",
+    "three_nt_helix_exactly_in_CT": false,
+    "model_pairs": [
+      [
+        90,
+        101
+      ],
+      [
+        91,
+        100
+      ],
+      [
+        92,
+        99
+      ]
+    ],
+    "interpretation": "3nt-window interaction evidence; exact per-base identities still depend on the structural model"
+  },
+  {
+    "gene": "rpsM",
+    "condition": "cellfree",
+    "i": 130,
+    "j": 166,
+    "pairmap_class": "2",
+    "Sig": "215.68",
+    "Zij": "3.18",
+    "three_nt_helix_exactly_in_CT": true,
+    "model_pairs": [
+      [
+        130,
+        168
+      ],
+      [
+        131,
+        167
+      ],
+      [
+        132,
+        166
+      ]
+    ],
+    "interpretation": "3nt-window interaction evidence; exact per-base identities still depend on the structural model"
+  },
+  {
+    "gene": "rpsM",
+    "condition": "cellfree",
+    "i": 132,
+    "j": 164,
+    "pairmap_class": "2",
+    "Sig": "327.30",
+    "Zij": "2.66",
+    "three_nt_helix_exactly_in_CT": true,
+    "model_pairs": [
+      [
+        132,
+        166
+      ],
+      [
+        133,
+        165
+      ],
+      [
+        134,
+        164
+      ]
+    ],
+    "interpretation": "3nt-window interaction evidence; exact per-base identities still depend on the structural model"
+  },
+  {
+    "gene": "rpsM",
+    "condition": "cellfree",
+    "i": 140,
+    "j": 157,
+    "pairmap_class": "2",
+    "Sig": "92.11",
+    "Zij": "4.17",
+    "three_nt_helix_exactly_in_CT": true,
+    "model_pairs": [
+      [
+        140,
+        159
+      ],
+      [
+        141,
+        158
+      ],
+      [
+        142,
+        157
+      ]
+    ],
+    "interpretation": "3nt-window interaction evidence; exact per-base identities still depend on the structural model"
+  },
+  {
+    "gene": "rpsM",
+    "condition": "cellfree",
+    "i": 185,
+    "j": 206,
+    "pairmap_class": "2",
+    "Sig": "166.13",
+    "Zij": "2.57",
+    "three_nt_helix_exactly_in_CT": true,
+    "model_pairs": [
+      [
+        185,
+        208
+      ],
+      [
+        186,
+        207
+      ],
+      [
+        187,
+        206
+      ]
+    ],
+    "interpretation": "3nt-window interaction evidence; exact per-base identities still depend on the structural model"
+  },
+  {
+    "gene": "rpsM",
+    "condition": "cellfree",
+    "i": 186,
+    "j": 205,
+    "pairmap_class": "2",
+    "Sig": "241.46",
+    "Zij": "2.27",
+    "three_nt_helix_exactly_in_CT": false,
+    "model_pairs": [
+      [
+        186,
+        207
+      ],
+      [
+        187,
+        206
+      ],
+      [
+        188,
+        205
+      ]
+    ],
+    "interpretation": "3nt-window interaction evidence; exact per-base identities still depend on the structural model"
+  },
+  {
+    "gene": "rpsM",
+    "condition": "cellfree",
+    "i": 187,
+    "j": 203,
+    "pairmap_class": "2",
+    "Sig": "831.71",
+    "Zij": "4.02",
+    "three_nt_helix_exactly_in_CT": false,
+    "model_pairs": [
+      [
+        187,
+        205
+      ],
+      [
+        188,
+        204
+      ],
+      [
+        189,
+        203
+      ]
+    ],
+    "interpretation": "3nt-window interaction evidence; exact per-base identities still depend on the structural model"
+  },
+  {
+    "gene": "rpsB",
+    "condition": "incell",
+    "i": 69,
+    "j": 122,
+    "pairmap_class": "1",
+    "Sig": "251.19",
+    "Zij": "7.58",
+    "three_nt_helix_exactly_in_CT": true,
+    "model_pairs": [
+      [
+        69,
+        124
+      ],
+      [
+        70,
+        123
+      ],
+      [
+        71,
+        122
+      ]
+    ],
+    "interpretation": "3nt-window interaction evidence; exact per-base identities still depend on the structural model"
+  },
+  {
+    "gene": "rpsB",
+    "condition": "incell",
+    "i": 70,
+    "j": 121,
+    "pairmap_class": "1",
+    "Sig": "68.54",
+    "Zij": "3.18",
+    "three_nt_helix_exactly_in_CT": true,
+    "model_pairs": [
+      [
+        70,
+        123
+      ],
+      [
+        71,
+        122
+      ],
+      [
+        72,
+        121
+      ]
+    ],
+    "interpretation": "3nt-window interaction evidence; exact per-base identities still depend on the structural model"
+  },
+  {
+    "gene": "rpsB",
+    "condition": "incell",
+    "i": 71,
+    "j": 120,
+    "pairmap_class": "1",
+    "Sig": "96.08",
+    "Zij": "4.58",
+    "three_nt_helix_exactly_in_CT": true,
+    "model_pairs": [
+      [
+        71,
+        122
+      ],
+      [
+        72,
+        121
+      ],
+      [
+        73,
+        120
+      ]
+    ],
+    "interpretation": "3nt-window interaction evidence; exact per-base identities still depend on the structural model"
+  },
+  {
+    "gene": "rpsB",
+    "condition": "incell",
+    "i": 73,
+    "j": 118,
+    "pairmap_class": "1",
+    "Sig": "298.65",
+    "Zij": "5.94",
+    "three_nt_helix_exactly_in_CT": true,
+    "model_pairs": [
+      [
+        73,
+        120
+      ],
+      [
+        74,
+        119
+      ],
+      [
+        75,
+        118
+      ]
+    ],
+    "interpretation": "3nt-window interaction evidence; exact per-base identities still depend on the structural model"
+  },
+  {
+    "gene": "rpsB",
+    "condition": "incell",
+    "i": 74,
+    "j": 117,
+    "pairmap_class": "1",
+    "Sig": "428.62",
+    "Zij": "6.64",
+    "three_nt_helix_exactly_in_CT": true,
+    "model_pairs": [
+      [
+        74,
+        119
+      ],
+      [
+        75,
+        118
+      ],
+      [
+        76,
+        117
+      ]
+    ],
+    "interpretation": "3nt-window interaction evidence; exact per-base identities still depend on the structural model"
+  },
+  {
+    "gene": "rpsB",
+    "condition": "incell",
+    "i": 81,
+    "j": 113,
+    "pairmap_class": "1",
+    "Sig": "684.92",
+    "Zij": "5.66",
+    "three_nt_helix_exactly_in_CT": true,
+    "model_pairs": [
+      [
+        81,
+        115
+      ],
+      [
+        82,
+        114
+      ],
+      [
+        83,
+        113
+      ]
+    ],
+    "interpretation": "3nt-window interaction evidence; exact per-base identities still depend on the structural model"
+  },
+  {
+    "gene": "rpsB",
+    "condition": "incell",
+    "i": 82,
+    "j": 112,
+    "pairmap_class": "1",
+    "Sig": "1543.94",
+    "Zij": "6.50",
+    "three_nt_helix_exactly_in_CT": true,
+    "model_pairs": [
+      [
+        82,
+        114
+      ],
+      [
+        83,
+        113
+      ],
+      [
+        84,
+        112
+      ]
+    ],
+    "interpretation": "3nt-window interaction evidence; exact per-base identities still depend on the structural model"
+  },
+  {
+    "gene": "rpsB",
+    "condition": "incell",
+    "i": 83,
+    "j": 111,
+    "pairmap_class": "1",
+    "Sig": "2010.96",
+    "Zij": "7.44",
+    "three_nt_helix_exactly_in_CT": true,
+    "model_pairs": [
+      [
+        83,
+        113
+      ],
+      [
+        84,
+        112
+      ],
+      [
+        85,
+        111
+      ]
+    ],
+    "interpretation": "3nt-window interaction evidence; exact per-base identities still depend on the structural model"
+  },
+  {
+    "gene": "rpsB",
+    "condition": "incell",
+    "i": 84,
+    "j": 110,
+    "pairmap_class": "1",
+    "Sig": "1141.66",
+    "Zij": "5.48",
+    "three_nt_helix_exactly_in_CT": true,
+    "model_pairs": [
+      [
+        84,
+        112
+      ],
+      [
+        85,
+        111
+      ],
+      [
+        86,
+        110
+      ]
+    ],
+    "interpretation": "3nt-window interaction evidence; exact per-base identities still depend on the structural model"
+  },
+  {
+    "gene": "rpsB",
+    "condition": "incell",
+    "i": 170,
+    "j": 179,
+    "pairmap_class": "1",
+    "Sig": "1567.47",
+    "Zij": "4.62",
+    "three_nt_helix_exactly_in_CT": true,
+    "model_pairs": [
+      [
+        170,
+        181
+      ],
+      [
+        171,
+        180
+      ],
+      [
+        172,
+        179
+      ]
+    ],
+    "interpretation": "3nt-window interaction evidence; exact per-base identities still depend on the structural model"
+  },
+  {
+    "gene": "rpsB",
+    "condition": "incell",
+    "i": 47,
+    "j": 126,
+    "pairmap_class": "2",
+    "Sig": "768.56",
+    "Zij": "3.06",
+    "three_nt_helix_exactly_in_CT": false,
+    "model_pairs": [
+      [
+        47,
+        128
+      ],
+      [
+        48,
+        127
+      ],
+      [
+        49,
+        126
+      ]
+    ],
+    "interpretation": "3nt-window interaction evidence; exact per-base identities still depend on the structural model"
+  },
+  {
+    "gene": "rpsB",
+    "condition": "incell",
+    "i": 48,
+    "j": 125,
+    "pairmap_class": "2",
+    "Sig": "1936.98",
+    "Zij": "5.18",
+    "three_nt_helix_exactly_in_CT": false,
+    "model_pairs": [
+      [
+        48,
+        127
+      ],
+      [
+        49,
+        126
+      ],
+      [
+        50,
+        125
+      ]
+    ],
+    "interpretation": "3nt-window interaction evidence; exact per-base identities still depend on the structural model"
+  },
+  {
+    "gene": "rpsB",
+    "condition": "incell",
+    "i": 55,
+    "j": 64,
+    "pairmap_class": "2",
+    "Sig": "4914.09",
+    "Zij": "7.39",
+    "three_nt_helix_exactly_in_CT": false,
+    "model_pairs": [
+      [
+        55,
+        66
+      ],
+      [
+        56,
+        65
+      ],
+      [
+        57,
+        64
+      ]
+    ],
+    "interpretation": "3nt-window interaction evidence; exact per-base identities still depend on the structural model"
+  },
+  {
+    "gene": "rpsB",
+    "condition": "incell",
+    "i": 56,
+    "j": 65,
+    "pairmap_class": "2",
+    "Sig": "5334.86",
+    "Zij": "7.95",
+    "three_nt_helix_exactly_in_CT": true,
+    "model_pairs": [
+      [
+        56,
+        67
+      ],
+      [
+        57,
+        66
+      ],
+      [
+        58,
+        65
+      ]
+    ],
+    "interpretation": "3nt-window interaction evidence; exact per-base identities still depend on the structural model"
+  },
+  {
+    "gene": "rpsB",
+    "condition": "incell",
+    "i": 57,
+    "j": 66,
+    "pairmap_class": "2",
+    "Sig": "3866.98",
+    "Zij": "8.64",
+    "three_nt_helix_exactly_in_CT": false,
+    "model_pairs": [
+      [
+        57,
+        68
+      ],
+      [
+        58,
+        67
+      ],
+      [
+        59,
+        66
+      ]
+    ],
+    "interpretation": "3nt-window interaction evidence; exact per-base identities still depend on the structural model"
+  },
+  {
+    "gene": "rpsB",
+    "condition": "incell",
+    "i": 75,
+    "j": 114,
+    "pairmap_class": "2",
+    "Sig": "48.96",
+    "Zij": "2.16",
+    "three_nt_helix_exactly_in_CT": false,
+    "model_pairs": [
+      [
+        75,
+        116
+      ],
+      [
+        76,
+        115
+      ],
+      [
+        77,
+        114
+      ]
+    ],
+    "interpretation": "3nt-window interaction evidence; exact per-base identities still depend on the structural model"
+  },
+  {
+    "gene": "rpsB",
+    "condition": "incell",
+    "i": 83,
+    "j": 113,
+    "pairmap_class": "2",
+    "Sig": "329.26",
+    "Zij": "2.52",
+    "three_nt_helix_exactly_in_CT": false,
+    "model_pairs": [
+      [
+        83,
+        115
+      ],
+      [
+        84,
+        114
+      ],
+      [
+        85,
+        113
+      ]
+    ],
+    "interpretation": "3nt-window interaction evidence; exact per-base identities still depend on the structural model"
+  },
+  {
+    "gene": "rpsB",
+    "condition": "incell",
+    "i": 90,
+    "j": 134,
+    "pairmap_class": "2",
+    "Sig": "1065.71",
+    "Zij": "4.04",
+    "three_nt_helix_exactly_in_CT": false,
+    "model_pairs": [
+      [
+        90,
+        136
+      ],
+      [
+        91,
+        135
+      ],
+      [
+        92,
+        134
+      ]
+    ],
+    "interpretation": "3nt-window interaction evidence; exact per-base identities still depend on the structural model"
+  },
+  {
+    "gene": "rpsB",
+    "condition": "incell",
+    "i": 90,
+    "j": 135,
+    "pairmap_class": "2",
+    "Sig": "1042.45",
+    "Zij": "3.94",
+    "three_nt_helix_exactly_in_CT": false,
+    "model_pairs": [
+      [
+        90,
+        137
+      ],
+      [
+        91,
+        136
+      ],
+      [
+        92,
+        135
+      ]
+    ],
+    "interpretation": "3nt-window interaction evidence; exact per-base identities still depend on the structural model"
+  },
+  {
+    "gene": "rpsB",
+    "condition": "incell",
+    "i": 94,
+    "j": 103,
+    "pairmap_class": "2",
+    "Sig": "214.73",
+    "Zij": "7.33",
+    "three_nt_helix_exactly_in_CT": true,
+    "model_pairs": [
+      [
+        94,
+        105
+      ],
+      [
+        95,
+        104
+      ],
+      [
+        96,
+        103
+      ]
+    ],
+    "interpretation": "3nt-window interaction evidence; exact per-base identities still depend on the structural model"
+  },
+  {
+    "gene": "rpsB",
+    "condition": "cellfree",
+    "i": 69,
+    "j": 122,
+    "pairmap_class": "1",
+    "Sig": "41.80",
+    "Zij": "4.22",
+    "three_nt_helix_exactly_in_CT": true,
+    "model_pairs": [
+      [
+        69,
+        124
+      ],
+      [
+        70,
+        123
+      ],
+      [
+        71,
+        122
+      ]
+    ],
+    "interpretation": "3nt-window interaction evidence; exact per-base identities still depend on the structural model"
+  },
+  {
+    "gene": "rpsB",
+    "condition": "cellfree",
+    "i": 71,
+    "j": 120,
+    "pairmap_class": "1",
+    "Sig": "38.67",
+    "Zij": "2.57",
+    "three_nt_helix_exactly_in_CT": true,
+    "model_pairs": [
+      [
+        71,
+        122
+      ],
+      [
+        72,
+        121
+      ],
+      [
+        73,
+        120
+      ]
+    ],
+    "interpretation": "3nt-window interaction evidence; exact per-base identities still depend on the structural model"
+  },
+  {
+    "gene": "rpsB",
+    "condition": "cellfree",
+    "i": 73,
+    "j": 118,
+    "pairmap_class": "1",
+    "Sig": "132.34",
+    "Zij": "4.78",
+    "three_nt_helix_exactly_in_CT": true,
+    "model_pairs": [
+      [
+        73,
+        120
+      ],
+      [
+        74,
+        119
+      ],
+      [
+        75,
+        118
+      ]
+    ],
+    "interpretation": "3nt-window interaction evidence; exact per-base identities still depend on the structural model"
+  },
+  {
+    "gene": "rpsB",
+    "condition": "cellfree",
+    "i": 74,
+    "j": 117,
+    "pairmap_class": "1",
+    "Sig": "237.58",
+    "Zij": "6.20",
+    "three_nt_helix_exactly_in_CT": true,
+    "model_pairs": [
+      [
+        74,
+        119
+      ],
+      [
+        75,
+        118
+      ],
+      [
+        76,
+        117
+      ]
+    ],
+    "interpretation": "3nt-window interaction evidence; exact per-base identities still depend on the structural model"
+  },
+  {
+    "gene": "rpsB",
+    "condition": "cellfree",
+    "i": 81,
+    "j": 113,
+    "pairmap_class": "1",
+    "Sig": "437.53",
+    "Zij": "4.53",
+    "three_nt_helix_exactly_in_CT": true,
+    "model_pairs": [
+      [
+        81,
+        115
+      ],
+      [
+        82,
+        114
+      ],
+      [
+        83,
+        113
+      ]
+    ],
+    "interpretation": "3nt-window interaction evidence; exact per-base identities still depend on the structural model"
+  },
+  {
+    "gene": "rpsB",
+    "condition": "cellfree",
+    "i": 82,
+    "j": 112,
+    "pairmap_class": "1",
+    "Sig": "1134.40",
+    "Zij": "6.24",
+    "three_nt_helix_exactly_in_CT": true,
+    "model_pairs": [
+      [
+        82,
+        114
+      ],
+      [
+        83,
+        113
+      ],
+      [
+        84,
+        112
+      ]
+    ],
+    "interpretation": "3nt-window interaction evidence; exact per-base identities still depend on the structural model"
+  },
+  {
+    "gene": "rpsB",
+    "condition": "cellfree",
+    "i": 83,
+    "j": 111,
+    "pairmap_class": "1",
+    "Sig": "1552.66",
+    "Zij": "7.18",
+    "three_nt_helix_exactly_in_CT": true,
+    "model_pairs": [
+      [
+        83,
+        113
+      ],
+      [
+        84,
+        112
+      ],
+      [
+        85,
+        111
+      ]
+    ],
+    "interpretation": "3nt-window interaction evidence; exact per-base identities still depend on the structural model"
+  },
+  {
+    "gene": "rpsB",
+    "condition": "cellfree",
+    "i": 84,
+    "j": 110,
+    "pairmap_class": "1",
+    "Sig": "880.75",
+    "Zij": "5.50",
+    "three_nt_helix_exactly_in_CT": true,
+    "model_pairs": [
+      [
+        84,
+        112
+      ],
+      [
+        85,
+        111
+      ],
+      [
+        86,
+        110
+      ]
+    ],
+    "interpretation": "3nt-window interaction evidence; exact per-base identities still depend on the structural model"
+  },
+  {
+    "gene": "rpsB",
+    "condition": "cellfree",
+    "i": 94,
+    "j": 103,
+    "pairmap_class": "1",
+    "Sig": "63.81",
+    "Zij": "8.18",
+    "three_nt_helix_exactly_in_CT": true,
+    "model_pairs": [
+      [
+        94,
+        105
+      ],
+      [
+        95,
+        104
+      ],
+      [
+        96,
+        103
+      ]
+    ],
+    "interpretation": "3nt-window interaction evidence; exact per-base identities still depend on the structural model"
+  },
+  {
+    "gene": "rpsB",
+    "condition": "cellfree",
+    "i": 47,
+    "j": 124,
+    "pairmap_class": "2",
+    "Sig": "680.63",
+    "Zij": "3.27",
+    "three_nt_helix_exactly_in_CT": false,
+    "model_pairs": [
+      [
+        47,
+        126
+      ],
+      [
+        48,
+        125
+      ],
+      [
+        49,
+        124
+      ]
+    ],
+    "interpretation": "3nt-window interaction evidence; exact per-base identities still depend on the structural model"
+  },
+  {
+    "gene": "rpsB",
+    "condition": "cellfree",
+    "i": 47,
+    "j": 126,
+    "pairmap_class": "2",
+    "Sig": "698.02",
+    "Zij": "4.29",
+    "three_nt_helix_exactly_in_CT": true,
+    "model_pairs": [
+      [
+        47,
+        128
+      ],
+      [
+        48,
+        127
+      ],
+      [
+        49,
+        126
+      ]
+    ],
+    "interpretation": "3nt-window interaction evidence; exact per-base identities still depend on the structural model"
+  },
+  {
+    "gene": "rpsB",
+    "condition": "cellfree",
+    "i": 48,
+    "j": 125,
+    "pairmap_class": "2",
+    "Sig": "1608.41",
+    "Zij": "6.10",
+    "three_nt_helix_exactly_in_CT": true,
+    "model_pairs": [
+      [
+        48,
+        127
+      ],
+      [
+        49,
+        126
+      ],
+      [
+        50,
+        125
+      ]
+    ],
+    "interpretation": "3nt-window interaction evidence; exact per-base identities still depend on the structural model"
+  },
+  {
+    "gene": "rpsB",
+    "condition": "cellfree",
+    "i": 55,
+    "j": 64,
+    "pairmap_class": "2",
+    "Sig": "1090.84",
+    "Zij": "6.13",
+    "three_nt_helix_exactly_in_CT": false,
+    "model_pairs": [
+      [
+        55,
+        66
+      ],
+      [
+        56,
+        65
+      ],
+      [
+        57,
+        64
+      ]
+    ],
+    "interpretation": "3nt-window interaction evidence; exact per-base identities still depend on the structural model"
+  },
+  {
+    "gene": "rpsB",
+    "condition": "cellfree",
+    "i": 56,
+    "j": 65,
+    "pairmap_class": "2",
+    "Sig": "1312.66",
+    "Zij": "7.01",
+    "three_nt_helix_exactly_in_CT": true,
+    "model_pairs": [
+      [
+        56,
+        67
+      ],
+      [
+        57,
+        66
+      ],
+      [
+        58,
+        65
+      ]
+    ],
+    "interpretation": "3nt-window interaction evidence; exact per-base identities still depend on the structural model"
+  },
+  {
+    "gene": "rpsB",
+    "condition": "cellfree",
+    "i": 57,
+    "j": 66,
+    "pairmap_class": "2",
+    "Sig": "1312.62",
+    "Zij": "7.16",
+    "three_nt_helix_exactly_in_CT": false,
+    "model_pairs": [
+      [
+        57,
+        68
+      ],
+      [
+        58,
+        67
+      ],
+      [
+        59,
+        66
+      ]
+    ],
+    "interpretation": "3nt-window interaction evidence; exact per-base identities still depend on the structural model"
+  },
+  {
+    "gene": "rpsB",
+    "condition": "cellfree",
+    "i": 57,
+    "j": 70,
+    "pairmap_class": "2",
+    "Sig": "78.66",
+    "Zij": "3.08",
+    "three_nt_helix_exactly_in_CT": false,
+    "model_pairs": [
+      [
+        57,
+        72
+      ],
+      [
+        58,
+        71
+      ],
+      [
+        59,
+        70
+      ]
+    ],
+    "interpretation": "3nt-window interaction evidence; exact per-base identities still depend on the structural model"
+  },
+  {
+    "gene": "rpsB",
+    "condition": "cellfree",
+    "i": 70,
+    "j": 121,
+    "pairmap_class": "2",
+    "Sig": "45.25",
+    "Zij": "4.25",
+    "three_nt_helix_exactly_in_CT": true,
+    "model_pairs": [
+      [
+        70,
+        123
+      ],
+      [
+        71,
+        122
+      ],
+      [
+        72,
+        121
+      ]
+    ],
+    "interpretation": "3nt-window interaction evidence; exact per-base identities still depend on the structural model"
+  },
+  {
+    "gene": "rpsB",
+    "condition": "cellfree",
+    "i": 83,
+    "j": 113,
+    "pairmap_class": "2",
+    "Sig": "354.45",
+    "Zij": "3.27",
+    "three_nt_helix_exactly_in_CT": false,
+    "model_pairs": [
+      [
+        83,
+        115
+      ],
+      [
+        84,
+        114
+      ],
+      [
+        85,
+        113
+      ]
+    ],
+    "interpretation": "3nt-window interaction evidence; exact per-base identities still depend on the structural model"
+  },
+  {
+    "gene": "rpsB",
+    "condition": "cellfree",
+    "i": 87,
+    "j": 106,
+    "pairmap_class": "2",
+    "Sig": "55.61",
+    "Zij": "2.42",
+    "three_nt_helix_exactly_in_CT": true,
+    "model_pairs": [
+      [
+        87,
+        108
+      ],
+      [
+        88,
+        107
+      ],
+      [
+        89,
+        106
+      ]
+    ],
+    "interpretation": "3nt-window interaction evidence; exact per-base identities still depend on the structural model"
+  },
+  {
+    "gene": "rpsB",
+    "condition": "cellfree",
+    "i": 142,
+    "j": 151,
+    "pairmap_class": "2",
+    "Sig": "935.22",
+    "Zij": "5.54",
+    "three_nt_helix_exactly_in_CT": false,
+    "model_pairs": [
+      [
+        142,
+        153
+      ],
+      [
+        143,
+        152
+      ],
+      [
+        144,
+        151
+      ]
+    ],
+    "interpretation": "3nt-window interaction evidence; exact per-base identities still depend on the structural model"
+  },
+  {
+    "gene": "rpsB",
+    "condition": "cellfree",
+    "i": 162,
+    "j": 176,
+    "pairmap_class": "2",
+    "Sig": "367.15",
+    "Zij": "3.83",
+    "three_nt_helix_exactly_in_CT": false,
+    "model_pairs": [
+      [
+        162,
+        178
+      ],
+      [
+        163,
+        177
+      ],
+      [
+        164,
+        176
+      ]
+    ],
+    "interpretation": "3nt-window interaction evidence; exact per-base identities still depend on the structural model"
+  },
+  {
+    "gene": "rpsB",
+    "condition": "cellfree",
+    "i": 170,
+    "j": 179,
+    "pairmap_class": "2",
+    "Sig": "189.08",
+    "Zij": "3.64",
+    "three_nt_helix_exactly_in_CT": true,
+    "model_pairs": [
+      [
+        170,
+        181
+      ],
+      [
+        171,
+        180
+      ],
+      [
+        172,
+        179
+      ]
+    ],
+    "interpretation": "3nt-window interaction evidence; exact per-base identities still depend on the structural model"
+  }
+]

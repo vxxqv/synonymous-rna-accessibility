@@ -1,0 +1,3106 @@
+[
+  {
+    "transcript_id": "thrL_thrA_thrB_thrC_1",
+    "length": 4911,
+    "exact_hits": [
+      [
+        "+",
+        147,
+        5057
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "+",
+    "start": 147,
+    "end": 5057,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "ppc_173",
+    "length": 2754,
+    "exact_hits": [
+      [
+        "-",
+        4148457,
+        4151210
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "-",
+    "start": 4148457,
+    "end": 4151210,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "ptsH_ptsI_crr_86",
+    "length": 2777,
+    "exact_hits": [
+      [
+        "+",
+        2531624,
+        2534400
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "+",
+    "start": 2531624,
+    "end": 2534400,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "ytfK_189",
+    "length": 330,
+    "exact_hits": [
+      [
+        "+",
+        4437535,
+        4437864
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "+",
+    "start": 4437535,
+    "end": 4437864,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "ygiB_ygiC_112",
+    "length": 1875,
+    "exact_hits": [
+      [
+        "+",
+        3177740,
+        3179614
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "+",
+    "start": 3177740,
+    "end": 3179614,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "rpmH_rnpA_yidD_yidC_149",
+    "length": 2645,
+    "exact_hits": [
+      [
+        "+",
+        3882138,
+        3884782
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "+",
+    "start": 3882138,
+    "end": 3884782,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "rlmE_ftsH_120",
+    "length": 2778,
+    "exact_hits": [
+      [
+        "-",
+        3322976,
+        3325753
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "-",
+    "start": 3322976,
+    "end": 3325753,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "lpxC_11",
+    "length": 1037,
+    "exact_hits": [
+      [
+        "+",
+        106503,
+        107539
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "+",
+    "start": 106503,
+    "end": 107539,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "ompA_45",
+    "length": 1216,
+    "exact_hits": [
+      [
+        "-",
+        1018194,
+        1019409
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "-",
+    "start": 1018194,
+    "end": 1019409,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "alaS_csrA_101",
+    "length": 3166,
+    "exact_hits": [
+      [
+        "-",
+        2816946,
+        2820111
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "-",
+    "start": 2816946,
+    "end": 2820111,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "fdoG_fdoH_fdoI_fdhE_164",
+    "length": 5776,
+    "exact_hits": [
+      [
+        "-",
+        4078209,
+        4083984
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "-",
+    "start": 4078209,
+    "end": 4083984,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "fnr_57",
+    "length": 815,
+    "exact_hits": [
+      [
+        "-",
+        1396761,
+        1397575
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "-",
+    "start": 1396761,
+    "end": 1397575,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "pepA_holC_valS_191",
+    "length": 5167,
+    "exact_hits": [
+      [
+        "-",
+        4478966,
+        4484132
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "-",
+    "start": 4478966,
+    "end": 4484132,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "ncRNA_rnpB_115",
+    "length": 377,
+    "exact_hits": [
+      [
+        "-",
+        3268238,
+        3268614
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "-",
+    "start": 3268238,
+    "end": 3268614,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "rpoE_rseA_rseB_rseC_91",
+    "length": 2828,
+    "exact_hits": [
+      [
+        "-",
+        2705283,
+        2708110
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "-",
+    "start": 2705283,
+    "end": 2708110,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "mdh_128",
+    "length": 1165,
+    "exact_hits": [
+      [
+        "-",
+        3381329,
+        3382493
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "-",
+    "start": 3381329,
+    "end": 3382493,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "cspE_28",
+    "length": 293,
+    "exact_hits": [
+      [
+        "+",
+        656473,
+        656765
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "+",
+    "start": 656473,
+    "end": 656765,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "sspA_sspB_126",
+    "length": 1294,
+    "exact_hits": [
+      [
+        "-",
+        3374294,
+        3375587
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "-",
+    "start": 3374294,
+    "end": 3375587,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "pheS_pheT_ihfA_62",
+    "length": 3894,
+    "exact_hits": [
+      [
+        "-",
+        1793250,
+        1797143
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "-",
+    "start": 1793250,
+    "end": 1797143,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "topA_54",
+    "length": 2797,
+    "exact_hits": [
+      [
+        "+",
+        1328905,
+        1331701
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "+",
+    "start": 1328905,
+    "end": 1331701,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "rpoH_141",
+    "length": 1109,
+    "exact_hits": [
+      [
+        "-",
+        3597918,
+        3599026
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "-",
+    "start": 3597918,
+    "end": 3599026,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "thrS_infC_64",
+    "length": 2698,
+    "exact_hits": [
+      [
+        "-",
+        1798058,
+        1800755
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "-",
+    "start": 1798058,
+    "end": 1800755,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "raiA_95",
+    "length": 385,
+    "exact_hits": [
+      [
+        "+",
+        2735147,
+        2735531
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "+",
+    "start": 2735147,
+    "end": 2735531,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "typA_163",
+    "length": 1928,
+    "exact_hits": [
+      [
+        "+",
+        4056350,
+        4058277
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "+",
+    "start": 4056350,
+    "end": 4058277,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "gyrA_80",
+    "length": 2730,
+    "exact_hits": [
+      [
+        "-",
+        2334750,
+        2337479
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "-",
+    "start": 2334750,
+    "end": 2337479,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "yobF_cspC_68",
+    "length": 435,
+    "exact_hits": [
+      [
+        "-",
+        1905207,
+        1905641
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "-",
+    "start": 1905207,
+    "end": 1905641,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "grpE_97",
+    "length": 637,
+    "exact_hits": [
+      [
+        "-",
+        2748131,
+        2748767
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "-",
+    "start": 2748131,
+    "end": 2748767,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "leuS_lptE_29",
+    "length": 3256,
+    "exact_hits": [
+      [
+        "-",
+        670812,
+        674067
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "-",
+    "start": 670812,
+    "end": 674067,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "tolC_111",
+    "length": 1740,
+    "exact_hits": [
+      [
+        "+",
+        3175889,
+        3177628
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "+",
+    "start": 3175889,
+    "end": 3177628,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "ubiE_yigP_ubiB_tatA_tatB_tatC_161",
+    "length": 4709,
+    "exact_hits": [
+      [
+        "+",
+        4016852,
+        4021560
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "+",
+    "start": 4016852,
+    "end": 4021560,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "slyB_59",
+    "length": 541,
+    "exact_hits": [
+      [
+        "+",
+        1717856,
+        1718396
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "+",
+    "start": 1717856,
+    "end": 1718396,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "tolB_pal_ybgF_35",
+    "length": 2694,
+    "exact_hits": [
+      [
+        "+",
+        776935,
+        779628
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "+",
+    "start": 776935,
+    "end": 779628,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "tRNA_metT_tRNA_leuW_tRNA_glnU_tRNA_glnW_tRNA_metU_tRNA_glnV_tRNA_glnX_30",
+    "length": 747,
+    "exact_hits": [
+      [
+        "-",
+        695640,
+        696386
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "-",
+    "start": 695640,
+    "end": 696386,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "asnS_44",
+    "length": 1482,
+    "exact_hits": [
+      [
+        "-",
+        986785,
+        988266
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "-",
+    "start": 986785,
+    "end": 988266,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "cpxP_167",
+    "length": 598,
+    "exact_hits": [
+      [
+        "+",
+        4103809,
+        4104406
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "+",
+    "start": 4103809,
+    "end": 4104406,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "rpsO_117",
+    "length": 388,
+    "exact_hits": [
+      [
+        "-",
+        3309421,
+        3309808
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "-",
+    "start": 3309421,
+    "end": 3309808,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "rpsU_113",
+    "length": 319,
+    "exact_hits": [
+      [
+        "+",
+        3208739,
+        3209057
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "+",
+    "start": 3208739,
+    "end": 3209057,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "oxyR_174",
+    "length": 1061,
+    "exact_hits": [
+      [
+        "+",
+        4156480,
+        4157540
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "+",
+    "start": 4156480,
+    "end": 4157540,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "rsgA_185",
+    "length": 1141,
+    "exact_hits": [
+      [
+        "-",
+        4388471,
+        4389611
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "-",
+    "start": 4388471,
+    "end": 4389611,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "rpsJ_rplC_rplD_rplW_rplB_rpsS_rplV_rpsC_rplP_rpmC_rpsQ_132",
+    "length": 5162,
+    "exact_hits": [
+      [
+        "-",
+        3446302,
+        3451463
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "-",
+    "start": 3446302,
+    "end": 3451463,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "can_16",
+    "length": 707,
+    "exact_hits": [
+      [
+        "-",
+        141996,
+        142702
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "-",
+    "start": 141996,
+    "end": 142702,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "rpsT_5",
+    "length": 432,
+    "exact_hits": [
+      [
+        "-",
+        20776,
+        21207
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "-",
+    "start": 20776,
+    "end": 21207,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "glmU_glmS_150",
+    "length": 3472,
+    "exact_hits": [
+      [
+        "-",
+        3909772,
+        3913243
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "-",
+    "start": 3909772,
+    "end": 3913243,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "dusB_fis_130",
+    "length": 1375,
+    "exact_hits": [
+      [
+        "+",
+        3408269,
+        3409643
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "+",
+    "start": 3408269,
+    "end": 3409643,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "ftsQ_ftsA_ftsZ_10",
+    "length": 4184,
+    "exact_hits": [
+      [
+        "+",
+        102873,
+        107056
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "+",
+    "start": 102873,
+    "end": 107056,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "cspA_143",
+    "length": 409,
+    "exact_hits": [
+      [
+        "+",
+        3717912,
+        3718320
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "+",
+    "start": 3717912,
+    "end": 3718320,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "yifK_155",
+    "length": 1449,
+    "exact_hits": [
+      [
+        "+",
+        3978847,
+        3980295
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "+",
+    "start": 3978847,
+    "end": 3980295,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "asd_140",
+    "length": 1767,
+    "exact_hits": [
+      [
+        "-",
+        3571198,
+        3572964
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "-",
+    "start": 3571198,
+    "end": 3572964,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "yebR_proQ_prc_70",
+    "length": 3435,
+    "exact_hits": [
+      [
+        "-",
+        1910755,
+        1914189
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "-",
+    "start": 1910755,
+    "end": 1914189,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "zipA_85",
+    "length": 1318,
+    "exact_hits": [
+      [
+        "-",
+        2528256,
+        2529573
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "-",
+    "start": 2528256,
+    "end": 2529573,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "lpp_61",
+    "length": 316,
+    "exact_hits": [
+      [
+        "+",
+        1755408,
+        1755723
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "+",
+    "start": 1755408,
+    "end": 1755723,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "tRNA_lysT_tRNA_valT_tRNA_lysW_tRNA_valZ_tRNA_lysY_tRNA_lysZ_tRNA_lysQ_36",
+    "length": 1302,
+    "exact_hits": [
+      [
+        "+",
+        779735,
+        781036
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "+",
+    "start": 779735,
+    "end": 781036,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "ptsG_51",
+    "length": 1713,
+    "exact_hits": [
+      [
+        "+",
+        1156850,
+        1158562
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "+",
+    "start": 1156850,
+    "end": 1158562,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "prs_52",
+    "length": 1280,
+    "exact_hits": [
+      [
+        "-",
+        1260120,
+        1261399
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "-",
+    "start": 1260120,
+    "end": 1261399,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "ispU_cdsA_rseP_bamA_skp_lpxD_fabZ_lpxA_lpxB_rnhB_dnaE_23",
+    "length": 14425,
+    "exact_hits": [
+      [
+        "+",
+        194784,
+        209208
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "+",
+    "start": 194784,
+    "end": 209208,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "ncRNA_ssrS_107",
+    "length": 183,
+    "exact_hits": [
+      [
+        "+",
+        3054005,
+        3054187
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "+",
+    "start": 3054005,
+    "end": 3054187,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "dksA_18",
+    "length": 560,
+    "exact_hits": [
+      [
+        "-",
+        160098,
+        160657
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "-",
+    "start": 160098,
+    "end": 160657,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "rpsF_priB_rpsR_rplI_188",
+    "length": 1559,
+    "exact_hits": [
+      [
+        "+",
+        4423049,
+        4424607
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "+",
+    "start": 4423049,
+    "end": 4424607,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "lepA_lepB_90",
+    "length": 2885,
+    "exact_hits": [
+      [
+        "-",
+        2702334,
+        2705218
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "-",
+    "start": 2702334,
+    "end": 2705218,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "dcuA_182",
+    "length": 1371,
+    "exact_hits": [
+      [
+        "-",
+        4363485,
+        4364855
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "-",
+    "start": 4363485,
+    "end": 4364855,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "panD_17",
+    "length": 428,
+    "exact_hits": [
+      [
+        "-",
+        146296,
+        146723
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "-",
+    "start": 146296,
+    "end": 146723,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "yccA_47",
+    "length": 736,
+    "exact_hits": [
+      [
+        "-",
+        1029941,
+        1030676
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "-",
+    "start": 1029941,
+    "end": 1030676,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "tpiA_169",
+    "length": 853,
+    "exact_hits": [
+      [
+        "-",
+        4108740,
+        4109592
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "-",
+    "start": 4108740,
+    "end": 4109592,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "yrbL_125",
+    "length": 988,
+    "exact_hits": [
+      [
+        "+",
+        3346448,
+        3347435
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "+",
+    "start": 3346448,
+    "end": 3347435,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "lrp_40",
+    "length": 811,
+    "exact_hits": [
+      [
+        "+",
+        931552,
+        932362
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "+",
+    "start": 931552,
+    "end": 932362,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "gmk_rpoZ_spoT_trmH_recG_148",
+    "length": 5980,
+    "exact_hits": [
+      [
+        "+",
+        3819410,
+        3825389
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "+",
+    "start": 3819410,
+    "end": 3825389,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "fabI_55",
+    "length": 898,
+    "exact_hits": [
+      [
+        "-",
+        1348247,
+        1349144
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "-",
+    "start": 1348247,
+    "end": 1349144,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "crp_135",
+    "length": 824,
+    "exact_hits": [
+      [
+        "+",
+        3483976,
+        3484799
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "+",
+    "start": 3483976,
+    "end": 3484799,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "pgi_179",
+    "length": 1847,
+    "exact_hits": [
+      [
+        "+",
+        4231745,
+        4233591
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "+",
+    "start": 4231745,
+    "end": 4233591,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "accA_24",
+    "length": 1327,
+    "exact_hits": [
+      [
+        "+",
+        208277,
+        209603
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "+",
+    "start": 208277,
+    "end": 209603,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "xerD_dsbC_recJ_prfB_lysS_106",
+    "length": 6154,
+    "exact_hits": [
+      [
+        "-",
+        3031665,
+        3037818
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "-",
+    "start": 3031665,
+    "end": 3037818,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "tktA_109",
+    "length": 2099,
+    "exact_hits": [
+      [
+        "-",
+        3077638,
+        3079736
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "-",
+    "start": 3077638,
+    "end": 3079736,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "rplK_rplA_rplJ_rplL_rpoB_rpoC_176",
+    "length": 11258,
+    "exact_hits": [
+      [
+        "+",
+        4176378,
+        4187635
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "+",
+    "start": 4176378,
+    "end": 4187635,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "aspS_nudB_yebC_ruvC_71",
+    "length": 3958,
+    "exact_hits": [
+      [
+        "-",
+        1944778,
+        1948735
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "-",
+    "start": 1944778,
+    "end": 1948735,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "udp_160",
+    "length": 817,
+    "exact_hits": [
+      [
+        "+",
+        4014414,
+        4015230
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "+",
+    "start": 4014414,
+    "end": 4015230,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "dgkA_lexA_180",
+    "length": 1283,
+    "exact_hits": [
+      [
+        "+",
+        4254481,
+        4255763
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "+",
+    "start": 4254481,
+    "end": 4255763,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "clpA_38",
+    "length": 2510,
+    "exact_hits": [
+      [
+        "+",
+        922302,
+        924811
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "+",
+    "start": 922302,
+    "end": 924811,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "secM_secA_12",
+    "length": 3348,
+    "exact_hits": [
+      [
+        "+",
+        107669,
+        111016
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "+",
+    "start": 107669,
+    "end": 111016,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "secG_tRNA_leuU_119",
+    "length": 542,
+    "exact_hits": [
+      [
+        "-",
+        3320071,
+        3320612
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "-",
+    "start": 3320071,
+    "end": 3320612,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "rplM_rpsI_127",
+    "length": 1046,
+    "exact_hits": [
+      [
+        "-",
+        3375784,
+        3376829
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "-",
+    "start": 3375784,
+    "end": 3376829,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "cydA_cydB_ybgT_ybgE_34",
+    "length": 3457,
+    "exact_hits": [
+      [
+        "+",
+        770394,
+        773850
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "+",
+    "start": 770394,
+    "end": 773850,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "rpmI_rplT_63",
+    "length": 1062,
+    "exact_hits": [
+      [
+        "-",
+        1797390,
+        1798451
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "-",
+    "start": 1797390,
+    "end": 1798451,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "atpI_atpB_atpE_atpF_atpH_atpA_atpG_atpD_atpC_151",
+    "length": 6996,
+    "exact_hits": [
+      [
+        "-",
+        3913552,
+        3920547
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "-",
+    "start": 3913552,
+    "end": 3920547,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "glyQ_glyS_144",
+    "length": 3037,
+    "exact_hits": [
+      [
+        "-",
+        3720340,
+        3723376
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "-",
+    "start": 3720340,
+    "end": 3723376,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "rpsB_tsf_21",
+    "length": 2006,
+    "exact_hits": [
+      [
+        "+",
+        189713,
+        191718
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "+",
+    "start": 189713,
+    "end": 191718,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "tpx_56",
+    "length": 552,
+    "exact_hits": [
+      [
+        "-",
+        1386316,
+        1386867
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "-",
+    "start": 1386316,
+    "end": 1386867,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "rhlB_gpp_153",
+    "length": 2903,
+    "exact_hits": [
+      [
+        "-",
+        3960751,
+        3963653
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "-",
+    "start": 3960751,
+    "end": 3963653,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "epd_pgk_fbaA_108",
+    "length": 3787,
+    "exact_hits": [
+      [
+        "-",
+        3068058,
+        3071844
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "-",
+    "start": 3068058,
+    "end": 3071844,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "yhbY_121",
+    "length": 419,
+    "exact_hits": [
+      [
+        "+",
+        3325782,
+        3326200
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "+",
+    "start": 3325782,
+    "end": 3326200,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "ppa_190",
+    "length": 620,
+    "exact_hits": [
+      [
+        "-",
+        4447090,
+        4447709
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "-",
+    "start": 4447090,
+    "end": 4447709,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "oppA_oppB_oppC_oppD_oppF_53",
+    "length": 6108,
+    "exact_hits": [
+      [
+        "+",
+        1298696,
+        1304803
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "+",
+    "start": 1298696,
+    "end": 1304803,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "sdaA_67",
+    "length": 1554,
+    "exact_hits": [
+      [
+        "+",
+        1894788,
+        1896341
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "+",
+    "start": 1894788,
+    "end": 1896341,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "pyrH_frr_22",
+    "length": 1687,
+    "exact_hits": [
+      [
+        "+",
+        191812,
+        193498
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "+",
+    "start": 191812,
+    "end": 193498,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "kgtP_92",
+    "length": 1393,
+    "exact_hits": [
+      [
+        "-",
+        2722440,
+        2723832
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "-",
+    "start": 2722440,
+    "end": 2723832,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "metG_74",
+    "length": 2085,
+    "exact_hits": [
+      [
+        "+",
+        2192292,
+        2194376
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "+",
+    "start": 2192292,
+    "end": 2194376,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "rsmA_7",
+    "length": 1579,
+    "exact_hits": [
+      [
+        "-",
+        51009,
+        52587
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "-",
+    "start": 51009,
+    "end": 52587,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "hemL_19",
+    "length": 1417,
+    "exact_hits": [
+      [
+        "-",
+        173574,
+        174990
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "-",
+    "start": 173574,
+    "end": 174990,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "yibN_grxC_secB_gpsA_cysE_146",
+    "length": 3416,
+    "exact_hits": [
+      [
+        "-",
+        3779661,
+        3783076
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "-",
+    "start": 3779661,
+    "end": 3783076,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "glnS_32",
+    "length": 1837,
+    "exact_hits": [
+      [
+        "+",
+        705287,
+        707123
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "+",
+    "start": 705287,
+    "end": 707123,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "ygiN_110",
+    "length": 473,
+    "exact_hits": [
+      [
+        "+",
+        3171143,
+        3171615
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "+",
+    "start": 3171143,
+    "end": 3171615,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "gpmA_37",
+    "length": 869,
+    "exact_hits": [
+      [
+        "-",
+        786024,
+        786892
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "-",
+    "start": 786024,
+    "end": 786892,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "rcsB_79",
+    "length": 1159,
+    "exact_hits": [
+      [
+        "+",
+        2313717,
+        2314875
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "+",
+    "start": 2313717,
+    "end": 2314875,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "mlaF_mlaE_mlaD_mlaC_mlaB_yrbA_murA_123",
+    "length": 5328,
+    "exact_hits": [
+      [
+        "-",
+        3332938,
+        3338265
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "-",
+    "start": 3332938,
+    "end": 3338265,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "rpoS_102",
+    "length": 1621,
+    "exact_hits": [
+      [
+        "-",
+        2864519,
+        2866139
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "-",
+    "start": 2864519,
+    "end": 2866139,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "rraA_170",
+    "length": 520,
+    "exact_hits": [
+      [
+        "-",
+        4116859,
+        4117378
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "-",
+    "start": 4116859,
+    "end": 4117378,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "tRNA_glyW_tRNA_cysT_tRNA_leuZ_72",
+    "length": 412,
+    "exact_hits": [
+      [
+        "-",
+        1989795,
+        1990206
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "-",
+    "start": 1989795,
+    "end": 1990206,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "ybeZ_ybeY_ybeX_31",
+    "length": 2615,
+    "exact_hits": [
+      [
+        "-",
+        690078,
+        692692
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "-",
+    "start": 690078,
+    "end": 692692,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "htpX_69",
+    "length": 945,
+    "exact_hits": [
+      [
+        "-",
+        1909698,
+        1910642
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "-",
+    "start": 1909698,
+    "end": 1910642,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "dapA_bamC_87",
+    "length": 1981,
+    "exact_hits": [
+      [
+        "-",
+        2595825,
+        2597805
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "-",
+    "start": 2595825,
+    "end": 2597805,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "talB_2",
+    "length": 1012,
+    "exact_hits": [
+      [
+        "+",
+        8192,
+        9203
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "+",
+    "start": 8192,
+    "end": 9203,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "lpd_14",
+    "length": 1648,
+    "exact_hits": [
+      [
+        "+",
+        127718,
+        129365
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "+",
+    "start": 127718,
+    "end": 129365,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "nfuA_137",
+    "length": 861,
+    "exact_hits": [
+      [
+        "+",
+        3543480,
+        3544340
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "+",
+    "start": 3543480,
+    "end": 3544340,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "yjjK_194",
+    "length": 1722,
+    "exact_hits": [
+      [
+        "-",
+        4626865,
+        4628586
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "-",
+    "start": 4626865,
+    "end": 4628586,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "pnp_nlpI_yrbN_deaD_116",
+    "length": 5413,
+    "exact_hits": [
+      [
+        "-",
+        3303936,
+        3309348
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "-",
+    "start": 3303936,
+    "end": 3309348,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "mipA_66",
+    "length": 815,
+    "exact_hits": [
+      [
+        "-",
+        1863715,
+        1864529
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "-",
+    "start": 1863715,
+    "end": 1864529,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "pyrG_eno_103",
+    "length": 3121,
+    "exact_hits": [
+      [
+        "-",
+        2904621,
+        2907741
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "-",
+    "start": 2904621,
+    "end": 2907741,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "ahpC_27",
+    "length": 981,
+    "exact_hits": [
+      [
+        "+",
+        637914,
+        638894
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "+",
+    "start": 637914,
+    "end": 638894,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "accB_accC_129",
+    "length": 2158,
+    "exact_hits": [
+      [
+        "+",
+        3403162,
+        3405319
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "+",
+    "start": 3403162,
+    "end": 3405319,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "sdaC_sdaB_104",
+    "length": 2854,
+    "exact_hits": [
+      [
+        "+",
+        2926125,
+        2928978
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "+",
+    "start": 2926125,
+    "end": 2928978,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "bamE_98",
+    "length": 515,
+    "exact_hits": [
+      [
+        "+",
+        2751491,
+        2752005
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "+",
+    "start": 2751491,
+    "end": 2752005,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "yrbG_kdsD_kdsC_lptC_lptA_lptB_rpoN_hpf_ptsN_yhbJ_npr_124",
+    "length": 8029,
+    "exact_hits": [
+      [
+        "+",
+        3338234,
+        3346262
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "+",
+    "start": 3338234,
+    "end": 3346262,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "bamD_94",
+    "length": 847,
+    "exact_hits": [
+      [
+        "+",
+        2734093,
+        2734939
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "+",
+    "start": 2734093,
+    "end": 2734939,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "ribF_ileS_lspA_fkpB_ispH_6",
+    "length": 5875,
+    "exact_hits": [
+      [
+        "+",
+        21384,
+        27258
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "+",
+    "start": 21384,
+    "end": 27258,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "proV_proW_proX_100",
+    "length": 3407,
+    "exact_hits": [
+      [
+        "+",
+        2802772,
+        2806178
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "+",
+    "start": 2802772,
+    "end": 2806178,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "yceD_rpmF_plsX_fabH_fabD_fabG_49",
+    "length": 5355,
+    "exact_hits": [
+      [
+        "+",
+        1145873,
+        1151227
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "+",
+    "start": 1145873,
+    "end": 1151227,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "aceB_aceA_178",
+    "length": 3560,
+    "exact_hits": [
+      [
+        "+",
+        4213428,
+        4216987
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "+",
+    "start": 4213428,
+    "end": 4216987,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "dtpA_58",
+    "length": 1623,
+    "exact_hits": [
+      [
+        "+",
+        1710695,
+        1712317
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "+",
+    "start": 1710695,
+    "end": 1712317,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "rplU_rpmA_yhbE_obgE_122",
+    "length": 3038,
+    "exact_hits": [
+      [
+        "-",
+        3328501,
+        3331538
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "-",
+    "start": 3328501,
+    "end": 3331538,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "rpoD_114",
+    "length": 2304,
+    "exact_hits": [
+      [
+        "+",
+        3210715,
+        3213018
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "+",
+    "start": 3210715,
+    "end": 3213018,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "hemC_hemD_hemX_hemY_158",
+    "length": 4323,
+    "exact_hits": [
+      [
+        "-",
+        3984639,
+        3988961
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "-",
+    "start": 3984639,
+    "end": 3988961,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "rpmE_172",
+    "length": 342,
+    "exact_hits": [
+      [
+        "+",
+        4124935,
+        4125276
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "+",
+    "start": 4124935,
+    "end": 4125276,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "hisS_yfgM_bamB_88",
+    "length": 3194,
+    "exact_hits": [
+      [
+        "-",
+        2635470,
+        2638663
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "-",
+    "start": 2635470,
+    "end": 2638663,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "pepD_26",
+    "length": 1566,
+    "exact_hits": [
+      [
+        "-",
+        254242,
+        255807
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "-",
+    "start": 254242,
+    "end": 255807,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "slyD_134",
+    "length": 689,
+    "exact_hits": [
+      [
+        "-",
+        3475892,
+        3476580
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "-",
+    "start": 3475892,
+    "end": 3476580,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "fabR_yijD_175",
+    "length": 1306,
+    "exact_hits": [
+      [
+        "+",
+        4159103,
+        4160408
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "+",
+    "start": 4159103,
+    "end": 4160408,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "lptF_lptG_192",
+    "length": 2372,
+    "exact_hits": [
+      [
+        "+",
+        4484084,
+        4486455
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "+",
+    "start": 4484084,
+    "end": 4486455,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "rpmB_rpmG_147",
+    "length": 766,
+    "exact_hits": [
+      [
+        "-",
+        3809253,
+        3810018
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "-",
+    "start": 3809253,
+    "end": 3810018,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "acnB_15",
+    "length": 2752,
+    "exact_hits": [
+      [
+        "+",
+        131520,
+        134271
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "+",
+    "start": 131520,
+    "end": 134271,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "nhaA_4",
+    "length": 1389,
+    "exact_hits": [
+      [
+        "+",
+        17311,
+        18699
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "+",
+    "start": 17311,
+    "end": 18699,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "seqA_pgm_33",
+    "length": 2366,
+    "exact_hits": [
+      [
+        "+",
+        712075,
+        714440
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "+",
+    "start": 712075,
+    "end": 714440,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "pck_136",
+    "length": 1811,
+    "exact_hits": [
+      [
+        "+",
+        3530702,
+        3532512
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "+",
+    "start": 3530702,
+    "end": 3532512,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "rplN_rplX_rplE_rpsN_rpsH_rplF_rplR_rpsE_rpmD_rplO_secY_rpmJ_rpsM_rpsK_rpsD_rpoA_rplQ_131",
+    "length": 8629,
+    "exact_hits": [
+      [
+        "-",
+        3437617,
+        3446245
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "-",
+    "start": 3437617,
+    "end": 3446245,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "trxB_39",
+    "length": 1040,
+    "exact_hits": [
+      [
+        "-",
+        930261,
+        931300
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "-",
+    "start": 930261,
+    "end": 931300,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "ncRNA_gcvB_105",
+    "length": 206,
+    "exact_hits": [
+      [
+        "+",
+        2940718,
+        2940923
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "+",
+    "start": 2940718,
+    "end": 2940923,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "_157",
+    "length": 195,
+    "exact_hits": [
+      [
+        "+",
+        3984455,
+        3984649
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "+",
+    "start": 3984455,
+    "end": 3984649,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "groS_groL_184",
+    "length": 2095,
+    "exact_hits": [
+      [
+        "+",
+        4368640,
+        4370734
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "+",
+    "start": 4368640,
+    "end": 4370734,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "degP_20",
+    "length": 1666,
+    "exact_hits": [
+      [
+        "+",
+        180670,
+        182335
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "+",
+    "start": 180670,
+    "end": 182335,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "fimA_193",
+    "length": 715,
+    "exact_hits": [
+      [
+        "+",
+        4541018,
+        4541732
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "+",
+    "start": 4541018,
+    "end": 4541732,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "spr_76",
+    "length": 799,
+    "exact_hits": [
+      [
+        "+",
+        2267833,
+        2268631
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "+",
+    "start": 2267833,
+    "end": 2268631,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "mlaA_83",
+    "length": 867,
+    "exact_hits": [
+      [
+        "-",
+        2462240,
+        2463106
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "-",
+    "start": 2462240,
+    "end": 2463106,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "mraZ_rsmH_ftsL_ftsI_murE_murF_mraY_murD_ftsW_murG_murC_ddlB_9",
+    "length": 14164,
+    "exact_hits": [
+      [
+        "+",
+        89590,
+        103753
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "+",
+    "start": 89590,
+    "end": 103753,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "lptD_surA_8",
+    "length": 3955,
+    "exact_hits": [
+      [
+        "-",
+        53298,
+        57252
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "-",
+    "start": 53298,
+    "end": 57252,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "hspQ_46",
+    "length": 499,
+    "exact_hits": [
+      [
+        "-",
+        1027590,
+        1028088
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "-",
+    "start": 1027590,
+    "end": 1028088,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "aceE_aceF_13",
+    "length": 4628,
+    "exact_hits": [
+      [
+        "+",
+        122970,
+        127597
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "+",
+    "start": 122970,
+    "end": 127597,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "asnA_152",
+    "length": 1137,
+    "exact_hits": [
+      [
+        "+",
+        3925156,
+        3926292
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "+",
+    "start": 3925156,
+    "end": 3926292,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "rpsA_42",
+    "length": 1882,
+    "exact_hits": [
+      [
+        "+",
+        961086,
+        962967
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "+",
+    "start": 961086,
+    "end": 962967,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "gltX_84",
+    "length": 1543,
+    "exact_hits": [
+      [
+        "-",
+        2517252,
+        2518794
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "-",
+    "start": 2517252,
+    "end": 2518794,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "serS_41",
+    "length": 1498,
+    "exact_hits": [
+      [
+        "+",
+        938472,
+        939969
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "+",
+    "start": 938472,
+    "end": 939969,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "trxA_rho_154",
+    "length": 2049,
+    "exact_hits": [
+      [
+        "+",
+        3963674,
+        3965722
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "+",
+    "start": 3963674,
+    "end": 3965722,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "rimP_nusA_infB_rbfA_truB_118",
+    "length": 6777,
+    "exact_hits": [
+      [
+        "-",
+        3309421,
+        3316197
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "-",
+    "start": 3309421,
+    "end": 3316197,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "pitA_142",
+    "length": 1638,
+    "exact_hits": [
+      [
+        "+",
+        3635602,
+        3637239
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "+",
+    "start": 3635602,
+    "end": 3637239,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "yifL_dapF_yigA_xerC_yigB_uvrD_159",
+    "length": 5727,
+    "exact_hits": [
+      [
+        "+",
+        3992515,
+        3998241
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "+",
+    "start": 3992515,
+    "end": 3998241,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "rne_48",
+    "length": 3582,
+    "exact_hits": [
+      [
+        "-",
+        1140370,
+        1143951
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "-",
+    "start": 1140370,
+    "end": 1143951,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "ihfB_43",
+    "length": 408,
+    "exact_hits": [
+      [
+        "+",
+        962972,
+        963379
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "+",
+    "start": 962972,
+    "end": 963379,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "malT_138",
+    "length": 2928,
+    "exact_hits": [
+      [
+        "+",
+        3551046,
+        3553973
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "+",
+    "start": 3551046,
+    "end": 3553973,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "fruB_fruK_fruA_75",
+    "length": 4052,
+    "exact_hits": [
+      [
+        "-",
+        2257565,
+        2261616
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "-",
+    "start": 2257565,
+    "end": 2261616,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "accD_82",
+    "length": 977,
+    "exact_hits": [
+      [
+        "-",
+        2431021,
+        2431997
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "-",
+    "start": 2431021,
+    "end": 2431997,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "hslV_hslU_171",
+    "length": 1973,
+    "exact_hits": [
+      [
+        "-",
+        4118405,
+        4120377
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "-",
+    "start": 4118405,
+    "end": 4120377,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "miaA_hfq_hflX_hflK_hflC_186",
+    "length": 5289,
+    "exact_hits": [
+      [
+        "+",
+        4397076,
+        4402364
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "+",
+    "start": 4397076,
+    "end": 4402364,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "gapA_65",
+    "length": 1197,
+    "exact_hits": [
+      [
+        "+",
+        1860622,
+        1861818
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "+",
+    "start": 1860622,
+    "end": 1861818,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "tmRNA_ssrA_99",
+    "length": 363,
+    "exact_hits": [
+      [
+        "+",
+        2753615,
+        2753977
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "+",
+    "start": 2753615,
+    "end": 2753977,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "cpxR_cpxA_166",
+    "length": 2344,
+    "exact_hits": [
+      [
+        "-",
+        4101365,
+        4103708
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "-",
+    "start": 4101365,
+    "end": 4103708,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "hupA_177",
+    "length": 429,
+    "exact_hits": [
+      [
+        "+",
+        4198200,
+        4198628
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "+",
+    "start": 4198200,
+    "end": 4198628,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "glpD_139",
+    "length": 1756,
+    "exact_hits": [
+      [
+        "+",
+        3559994,
+        3561749
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "+",
+    "start": 3559994,
+    "end": 3561749,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "dnaK_dnaJ_3",
+    "length": 3464,
+    "exact_hits": [
+      [
+        "+",
+        12049,
+        15512
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "+",
+    "start": 12049,
+    "end": 15512,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "gnd_73",
+    "length": 1517,
+    "exact_hits": [
+      [
+        "-",
+        2097832,
+        2099348
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "-",
+    "start": 2097832,
+    "end": 2099348,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "rplY_77",
+    "length": 386,
+    "exact_hits": [
+      [
+        "+",
+        2280463,
+        2280848
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "+",
+    "start": 2280463,
+    "end": 2280848,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "acpP_fabF_50",
+    "length": 1639,
+    "exact_hits": [
+      [
+        "+",
+        1150800,
+        1152438
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "+",
+    "start": 1150800,
+    "end": 1152438,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "lysU_181",
+    "length": 1552,
+    "exact_hits": [
+      [
+        "-",
+        4351207,
+        4352758
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "-",
+    "start": 4351207,
+    "end": 4352758,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "rpsL_rpsG_fusA_tufA_133",
+    "length": 4523,
+    "exact_hits": [
+      [
+        "-",
+        3468119,
+        3472641
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "-",
+    "start": 3468119,
+    "end": 3472641,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "ompC_78",
+    "length": 1202,
+    "exact_hits": [
+      [
+        "-",
+        2309648,
+        2310849
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "-",
+    "start": 2309648,
+    "end": 2310849,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "clpB_93",
+    "length": 2706,
+    "exact_hits": [
+      [
+        "-",
+        2729611,
+        2732316
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "-",
+    "start": 2729611,
+    "end": 2732316,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "sodB_60",
+    "length": 779,
+    "exact_hits": [
+      [
+        "+",
+        1733350,
+        1734128
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "+",
+    "start": 1733350,
+    "end": 1734128,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "purA_187",
+    "length": 1403,
+    "exact_hits": [
+      [
+        "+",
+        4402689,
+        4404091
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "+",
+    "start": 4402689,
+    "end": 4404091,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "rpsP_rimM_trmD_rplS_96",
+    "length": 2099,
+    "exact_hits": [
+      [
+        "-",
+        2742177,
+        2744275
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "-",
+    "start": 2742177,
+    "end": 2744275,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "aspA_183",
+    "length": 1563,
+    "exact_hits": [
+      [
+        "-",
+        4364892,
+        4366454
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "-",
+    "start": 4364892,
+    "end": 4366454,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "ackA_pta_81",
+    "length": 3701,
+    "exact_hits": [
+      [
+        "+",
+        2411270,
+        2414970
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "+",
+    "start": 2411270,
+    "end": 2414970,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "proS_25",
+    "length": 1802,
+    "exact_hits": [
+      [
+        "-",
+        217035,
+        218836
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "-",
+    "start": 217035,
+    "end": 218836,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "bax_145",
+    "length": 1144,
+    "exact_hits": [
+      [
+        "-",
+        3734120,
+        3735263
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "-",
+    "start": 3734120,
+    "end": 3735263,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "iscR_iscS_iscU_iscA_hscB_hscA_fdx_iscX_pepB_sseB_89",
+    "length": 8110,
+    "exact_hits": [
+      [
+        "-",
+        2652112,
+        2660221
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "-",
+    "start": 2652112,
+    "end": 2660221,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "pfkA_168",
+    "length": 1601,
+    "exact_hits": [
+      [
+        "+",
+        4105069,
+        4106669
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "+",
+    "start": 4105069,
+    "end": 4106669,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "sodA_165",
+    "length": 741,
+    "exact_hits": [
+      [
+        "+",
+        4098783,
+        4099523
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "+",
+    "start": 4098783,
+    "end": 4099523,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "tRNA_argX_tRNA_hisR_tRNA_leuT_156",
+    "length": 447,
+    "exact_hits": [
+      [
+        "+",
+        3980387,
+        3980833
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "+",
+    "start": 3980387,
+    "end": 3980833,
+    "mapping_confidence": "unique_exact_full_length"
+  },
+  {
+    "transcript_id": "glnA_162",
+    "length": 1679,
+    "exact_hits": [
+      [
+        "-",
+        4054451,
+        4056129
+      ]
+    ],
+    "chromosome": "U00096.2",
+    "strand": "-",
+    "start": 4054451,
+    "end": 4056129,
+    "mapping_confidence": "unique_exact_full_length"
+  }
+]

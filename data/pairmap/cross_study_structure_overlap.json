@@ -1,0 +1,42 @@
+[
+  {
+    "gene": "rpsM",
+    "condition": "incell",
+    "mirror_transcript_id": "rplN_rplX_rplE_rpsN_rpsH_rplF_rplR_rpsE_rpmD_rplO_secY_rpmJ_rpsM_rpsK_rpsD_rpoA_rplQ_131",
+    "original2019_first_pos1_in_mirror": 5614,
+    "original2019_CT_pairs": 62,
+    "mirror2018_pairs_contained": 50,
+    "shared_pairs": 33,
+    "fraction_original2019_shared": 0.532258064516129
+  },
+  {
+    "gene": "rpsM",
+    "condition": "cellfree",
+    "mirror_transcript_id": "rplN_rplX_rplE_rpsN_rpsH_rplF_rplR_rpsE_rpmD_rplO_secY_rpmJ_rpsM_rpsK_rpsD_rpoA_rplQ_131",
+    "original2019_first_pos1_in_mirror": 5614,
+    "original2019_CT_pairs": 63,
+    "mirror2018_pairs_contained": 51,
+    "shared_pairs": 34,
+    "fraction_original2019_shared": 0.5396825396825397
+  },
+  {
+    "gene": "rpsB",
+    "condition": "incell",
+    "mirror_transcript_id": "rpsB_tsf_21",
+    "original2019_first_pos1_in_mirror": 1,
+    "original2019_CT_pairs": 49,
+    "mirror2018_pairs_contained": 41,
+    "shared_pairs": 34,
+    "fraction_original2019_shared": 0.6938775510204082
+  },
+  {
+    "gene": "rpsB",
+    "condition": "cellfree",
+    "mirror_transcript_id": "rpsB_tsf_21",
+    "original2019_first_pos1_in_mirror": 1,
+    "original2019_CT_pairs": 54,
+    "mirror2018_pairs_contained": 46,
+    "shared_pairs": 37,
+    "fraction_original2019_shared": 0.6851851851851852
+  }
+]

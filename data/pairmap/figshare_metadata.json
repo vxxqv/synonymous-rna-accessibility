@@ -1,0 +1,167 @@
+{
+  "files": [
+    {
+      "id": 18002147,
+      "name": "Mustoe_PNAS-2019_Supporting-Data.zip",
+      "size": 4061101,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/18002147",
+      "supplied_md5": "45ba91b9d0b469cc1084d651b0d7ebdd",
+      "computed_md5": "45ba91b9d0b469cc1084d651b0d7ebdd",
+      "mimetype": "application/zip"
+    }
+  ],
+  "folder_structure": {},
+  "authors": [
+    {
+      "id": 7496093,
+      "full_name": "Anthony Mustoe",
+      "first_name": "Anthony",
+      "last_name": "Mustoe",
+      "is_active": true,
+      "url_name": "Anthony_Mustoe",
+      "orcid_id": ""
+    },
+    {
+      "id": 7496201,
+      "full_name": "Nicole Lama",
+      "first_name": "Nicole",
+      "last_name": "Lama",
+      "is_active": false,
+      "url_name": "_",
+      "orcid_id": ""
+    },
+    {
+      "id": 7496202,
+      "full_name": "Patrick Irving",
+      "first_name": "Patrick",
+      "last_name": "Irving",
+      "is_active": false,
+      "url_name": "_",
+      "orcid_id": ""
+    },
+    {
+      "id": 7496204,
+      "full_name": "Samuel Olson",
+      "first_name": "Samuel",
+      "last_name": "Olson",
+      "is_active": false,
+      "url_name": "_",
+      "orcid_id": ""
+    },
+    {
+      "id": 2155558,
+      "full_name": "Kevin Weeks",
+      "first_name": "Kevin",
+      "last_name": "Weeks",
+      "is_active": false,
+      "url_name": "_",
+      "orcid_id": ""
+    }
+  ],
+  "custom_fields": [],
+  "figshare_url": "https://figshare.com/articles/dataset/Mustoe_PNAS-2019_Supporting-Data_zip/9978596",
+  "download_disabled": false,
+  "description": "Supporting data for Mustoe et al, RNA base pairing complexity in living cells visualized by correlated chemical probing, PNAS, 2019<div><div><br></div><div>Anthony Mustoe, Nicole Lama, Patrick Irving, Samuel Olson, Kevin Weeks</div><div>Department of Chemistry</div><div>University of North Carolina at Chapel Hill </div><div><br></div><div>A description of the archive is provided in the top-level README.txt file. File format details for non-standard files are provided in README.txt files in the relevant sub-directories.</div></div><div><br></div><div>Raw data can be accessed at https://www.ncbi.nlm.nih.gov/geo (accession no. GSE135211).</div><div><br></div><div>ShapeMapper and RingMapper/PairMapper code used to generate datasets can be accessed at:</div><div>https://github.com/Weeks-UNC</div><div><br></div>",
+  "funding": null,
+  "funding_list": [],
+  "version": 1,
+  "status": "public",
+  "size": 4061101,
+  "created_date": "2019-10-14T20:24:08Z",
+  "modified_date": "2019-10-14T20:24:08Z",
+  "is_public": true,
+  "is_confidential": false,
+  "is_metadata_record": false,
+  "confidential_reason": "",
+  "metadata_reason": "",
+  "license": {
+    "value": 2,
+    "name": "CC0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  "tags": [
+    "RNA structure modeling",
+    "chemical probing",
+    "duplex detection",
+    "single molecule",
+    "RNA dynamics",
+    "Biophysics",
+    "Computational  Biology",
+    "Biochemistry"
+  ],
+  "keywords": [
+    "RNA structure modeling",
+    "chemical probing",
+    "duplex detection",
+    "single molecule",
+    "RNA dynamics",
+    "Biophysics",
+    "Computational  Biology",
+    "Biochemistry"
+  ],
+  "categories": [
+    {
+      "id": 24421,
+      "title": "Animal physiology - biophysics",
+      "parent_id": 24397,
+      "path": "/24130/24397/24421",
+      "source_id": "310908",
+      "taxonomy_id": 100
+    },
+    {
+      "id": 24715,
+      "title": "Human biophysics",
+      "parent_id": 24709,
+      "path": "/24457/24709/24715",
+      "source_id": "320802",
+      "taxonomy_id": 100
+    },
+    {
+      "id": 24208,
+      "title": "Bioinformatics and computational biology not elsewhere classified",
+      "parent_id": 24181,
+      "path": "/24130/24181/24208",
+      "source_id": "310299",
+      "taxonomy_id": 100
+    },
+    {
+      "id": 24178,
+      "title": "Biochemistry and cell biology not elsewhere classified",
+      "parent_id": 24133,
+      "path": "/24130/24133/24178",
+      "source_id": "310199",
+      "taxonomy_id": 100
+    }
+  ],
+  "references": [],
+  "has_linked_file": false,
+  "citation": "Mustoe, Anthony; Lama, Nicole; Irving, Patrick; Olson, Samuel; Weeks, Kevin (2019). Mustoe_PNAS-2019_Supporting-Data.zip. figshare. Dataset. https://doi.org/10.6084/m9.figshare.9978596.v1",
+  "related_materials": [],
+  "is_embargoed": false,
+  "embargo_date": null,
+  "embargo_type": "file",
+  "embargo_title": "",
+  "embargo_reason": "",
+  "embargo_options": [],
+  "id": 9978596,
+  "title": "Mustoe_PNAS-2019_Supporting-Data.zip",
+  "doi": "10.6084/m9.figshare.9978596.v1",
+  "handle": "",
+  "url": "https://api.figshare.com/v2/articles/9978596",
+  "published_date": "2019-10-14T20:24:08Z",
+  "thumb": "",
+  "defined_type": 3,
+  "defined_type_name": "dataset",
+  "group_id": null,
+  "url_private_api": "https://api.figshare.com/v2/account/articles/9978596",
+  "url_public_api": "https://api.figshare.com/v2/articles/9978596",
+  "url_private_html": "https://figshare.com/account/articles/9978596",
+  "url_public_html": "https://figshare.com/articles/dataset/Mustoe_PNAS-2019_Supporting-Data_zip/9978596",
+  "timeline": {
+    "posted": "2019-10-14T20:24:08",
+    "firstOnline": "2019-10-14"
+  },
+  "resource_title": null,
+  "resource_doi": null
+}

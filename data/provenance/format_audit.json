@@ -1,0 +1,26 @@
+[
+  {
+    "condition": "incell",
+    "n_transcripts": 194,
+    "n_nucleotides": 442421,
+    "n_pairs": 120830,
+    "noncanonical_dbn_transcripts": [],
+    "reactivity_missing": 51235
+  },
+  {
+    "condition": "cellfree",
+    "n_transcripts": 194,
+    "n_nucleotides": 442421,
+    "n_pairs": 130540,
+    "noncanonical_dbn_transcripts": [],
+    "reactivity_missing": 67034
+  },
+  {
+    "condition": "kasugamycin",
+    "n_transcripts": 194,
+    "n_nucleotides": 442421,
+    "n_pairs": 132193,
+    "noncanonical_dbn_transcripts": [],
+    "reactivity_missing": 192510
+  }
+]

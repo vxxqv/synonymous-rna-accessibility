@@ -1,0 +1,464 @@
+[
+  {
+    "gene": "rpsM",
+    "pos1": 143,
+    "peptide": "ARIAG",
+    "cartesian_size": 1152,
+    "reasons": [
+      "cartesian_cap"
+    ],
+    "coverage": {
+      "incell": 1.0,
+      "cellfree": 1.0
+    }
+  },
+  {
+    "gene": "rpsM",
+    "pos1": 146,
+    "peptide": "RIAGI",
+    "cartesian_size": 864,
+    "reasons": [],
+    "coverage": {
+      "incell": 1.0,
+      "cellfree": 1.0
+    }
+  },
+  {
+    "gene": "rpsM",
+    "pos1": 149,
+    "peptide": "IAGIN",
+    "cartesian_size": 288,
+    "reasons": [],
+    "coverage": {
+      "incell": 1.0,
+      "cellfree": 1.0
+    }
+  },
+  {
+    "gene": "rpsM",
+    "pos1": 152,
+    "peptide": "AGINI",
+    "cartesian_size": 288,
+    "reasons": [],
+    "coverage": {
+      "incell": 1.0,
+      "cellfree": 1.0
+    }
+  },
+  {
+    "gene": "rpsM",
+    "pos1": 155,
+    "peptide": "GINIP",
+    "cartesian_size": 288,
+    "reasons": [],
+    "coverage": {
+      "incell": 1.0,
+      "cellfree": 1.0
+    }
+  },
+  {
+    "gene": "rpsM",
+    "pos1": 158,
+    "peptide": "INIPD",
+    "cartesian_size": 144,
+    "reasons": [],
+    "coverage": {
+      "incell": 1.0,
+      "cellfree": 1.0
+    }
+  },
+  {
+    "gene": "rpsM",
+    "pos1": 161,
+    "peptide": "NIPDH",
+    "cartesian_size": 96,
+    "reasons": [],
+    "coverage": {
+      "incell": 1.0,
+      "cellfree": 1.0
+    }
+  },
+  {
+    "gene": "rpsM",
+    "pos1": 164,
+    "peptide": "IPDHK",
+    "cartesian_size": 96,
+    "reasons": [],
+    "coverage": {
+      "incell": 1.0,
+      "cellfree": 1.0
+    }
+  },
+  {
+    "gene": "rpsM",
+    "pos1": 167,
+    "peptide": "PDHKH",
+    "cartesian_size": 64,
+    "reasons": [],
+    "coverage": {
+      "incell": 1.0,
+      "cellfree": 1.0
+    }
+  },
+  {
+    "gene": "rpsM",
+    "pos1": 170,
+    "peptide": "DHKHA",
+    "cartesian_size": 64,
+    "reasons": [],
+    "coverage": {
+      "incell": 1.0,
+      "cellfree": 1.0
+    }
+  },
+  {
+    "gene": "rpsM",
+    "pos1": 173,
+    "peptide": "HKHAV",
+    "cartesian_size": 128,
+    "reasons": [],
+    "coverage": {
+      "incell": 1.0,
+      "cellfree": 1.0
+    }
+  },
+  {
+    "gene": "rpsM",
+    "pos1": 176,
+    "peptide": "KHAVI",
+    "cartesian_size": 192,
+    "reasons": [],
+    "coverage": {
+      "incell": 1.0,
+      "cellfree": 1.0
+    }
+  },
+  {
+    "gene": "rpsM",
+    "pos1": 179,
+    "peptide": "HAVIA",
+    "cartesian_size": 384,
+    "reasons": [],
+    "coverage": {
+      "incell": 1.0,
+      "cellfree": 1.0
+    }
+  },
+  {
+    "gene": "rpsM",
+    "pos1": 182,
+    "peptide": "AVIAL",
+    "cartesian_size": 1152,
+    "reasons": [
+      "cartesian_cap"
+    ],
+    "coverage": {
+      "incell": 1.0,
+      "cellfree": 1.0
+    }
+  },
+  {
+    "gene": "rpsM",
+    "pos1": 185,
+    "peptide": "VIALT",
+    "cartesian_size": 1152,
+    "reasons": [
+      "cartesian_cap"
+    ],
+    "coverage": {
+      "incell": 1.0,
+      "cellfree": 1.0
+    }
+  },
+  {
+    "gene": "rpsM",
+    "pos1": 188,
+    "peptide": "IALTS",
+    "cartesian_size": 1728,
+    "reasons": [
+      "cartesian_cap"
+    ],
+    "coverage": {
+      "incell": 1.0,
+      "cellfree": 1.0
+    }
+  },
+  {
+    "gene": "rpsM",
+    "pos1": 191,
+    "peptide": "ALTSI",
+    "cartesian_size": 1728,
+    "reasons": [
+      "cartesian_cap"
+    ],
+    "coverage": {
+      "incell": 1.0,
+      "cellfree": 1.0
+    }
+  },
+  {
+    "gene": "rpsM",
+    "pos1": 194,
+    "peptide": "LTSIY",
+    "cartesian_size": 864,
+    "reasons": [],
+    "coverage": {
+      "incell": 1.0,
+      "cellfree": 1.0
+    }
+  },
+  {
+    "gene": "rpsM",
+    "pos1": 197,
+    "peptide": "TSIYG",
+    "cartesian_size": 576,
+    "reasons": [],
+    "coverage": {
+      "incell": 1.0,
+      "cellfree": 1.0
+    }
+  },
+  {
+    "gene": "rpsM",
+    "pos1": 200,
+    "peptide": "SIYGV",
+    "cartesian_size": 576,
+    "reasons": [],
+    "coverage": {
+      "incell": 1.0,
+      "cellfree": 1.0
+    }
+  },
+  {
+    "gene": "rpsM",
+    "pos1": 203,
+    "peptide": "IYGVG",
+    "cartesian_size": 384,
+    "reasons": [],
+    "coverage": {
+      "incell": 1.0,
+      "cellfree": 1.0
+    }
+  },
+  {
+    "gene": "rpsM",
+    "pos1": 206,
+    "peptide": "YGVGK",
+    "cartesian_size": 256,
+    "reasons": [],
+    "coverage": {
+      "incell": 0.8,
+      "cellfree": 0.8
+    }
+  },
+  {
+    "gene": "rpsM",
+    "pos1": 209,
+    "peptide": "GVGKT",
+    "cartesian_size": 512,
+    "reasons": [
+      "HQ_coverage"
+    ],
+    "coverage": {
+      "incell": 0.6,
+      "cellfree": 0.6
+    }
+  },
+  {
+    "gene": "rpsM",
+    "pos1": 212,
+    "peptide": "VGKTR",
+    "cartesian_size": 768,
+    "reasons": [
+      "HQ_coverage"
+    ],
+    "coverage": {
+      "incell": 0.4,
+      "cellfree": 0.4
+    }
+  },
+  {
+    "gene": "rpsM",
+    "pos1": 215,
+    "peptide": "GKTRS",
+    "cartesian_size": 1152,
+    "reasons": [
+      "cartesian_cap",
+      "HQ_coverage"
+    ],
+    "coverage": {
+      "incell": 0.2,
+      "cellfree": 0.2
+    }
+  },
+  {
+    "gene": "rpsM",
+    "pos1": 218,
+    "peptide": "KTRSK",
+    "cartesian_size": 576,
+    "reasons": [
+      "HQ_coverage"
+    ],
+    "coverage": {
+      "incell": 0.0,
+      "cellfree": 0.0
+    }
+  },
+  {
+    "gene": "rpsM",
+    "pos1": 221,
+    "peptide": "TRSKA",
+    "cartesian_size": 1152,
+    "reasons": [
+      "cartesian_cap",
+      "HQ_coverage",
+      "incell_fewer3touchingpairs",
+      "cellfree_fewer3touchingpairs"
+    ],
+    "coverage": {
+      "incell": 0.0,
+      "cellfree": 0.0
+    }
+  },
+  {
+    "gene": "rpsM",
+    "pos1": 224,
+    "peptide": "RSKAI",
+    "cartesian_size": 864,
+    "reasons": [
+      "HQ_coverage",
+      "incell_fewer3touchingpairs",
+      "cellfree_fewer3touchingpairs"
+    ],
+    "coverage": {
+      "incell": 0.0,
+      "cellfree": 0.0
+    }
+  },
+  {
+    "gene": "rpsM",
+    "pos1": 227,
+    "peptide": "SKAIL",
+    "cartesian_size": 864,
+    "reasons": [
+      "HQ_coverage",
+      "incell_fewer3touchingpairs",
+      "cellfree_fewer3touchingpairs"
+    ],
+    "coverage": {
+      "incell": 0.0,
+      "cellfree": 0.0
+    }
+  },
+  {
+    "gene": "rpsB",
+    "pos1": 165,
+    "peptide": "ATVSM",
+    "cartesian_size": 384,
+    "reasons": [],
+    "coverage": {
+      "incell": 1.0,
+      "cellfree": 1.0
+    }
+  },
+  {
+    "gene": "rpsB",
+    "pos1": 168,
+    "peptide": "TVSMR",
+    "cartesian_size": 576,
+    "reasons": [],
+    "coverage": {
+      "incell": 1.0,
+      "cellfree": 1.0
+    }
+  },
+  {
+    "gene": "rpsB",
+    "pos1": 171,
+    "peptide": "VSMRD",
+    "cartesian_size": 288,
+    "reasons": [],
+    "coverage": {
+      "incell": 0.8,
+      "cellfree": 0.8
+    }
+  },
+  {
+    "gene": "rpsB",
+    "pos1": 174,
+    "peptide": "SMRDM",
+    "cartesian_size": 72,
+    "reasons": [
+      "HQ_coverage"
+    ],
+    "coverage": {
+      "incell": 0.6,
+      "cellfree": 0.6
+    }
+  },
+  {
+    "gene": "rpsB",
+    "pos1": 177,
+    "peptide": "MRDML",
+    "cartesian_size": 72,
+    "reasons": [
+      "HQ_coverage"
+    ],
+    "coverage": {
+      "incell": 0.4,
+      "cellfree": 0.4
+    }
+  },
+  {
+    "gene": "rpsB",
+    "pos1": 180,
+    "peptide": "RDMLK",
+    "cartesian_size": 144,
+    "reasons": [
+      "HQ_coverage"
+    ],
+    "coverage": {
+      "incell": 0.2,
+      "cellfree": 0.2
+    }
+  },
+  {
+    "gene": "rpsB",
+    "pos1": 183,
+    "peptide": "DMLKA",
+    "cartesian_size": 96,
+    "reasons": [
+      "HQ_coverage"
+    ],
+    "coverage": {
+      "incell": 0.0,
+      "cellfree": 0.0
+    }
+  },
+  {
+    "gene": "rpsB",
+    "pos1": 186,
+    "peptide": "MLKAG",
+    "cartesian_size": 192,
+    "reasons": [
+      "HQ_coverage"
+    ],
+    "coverage": {
+      "incell": 0.0,
+      "cellfree": 0.0
+    }
+  },
+  {
+    "gene": "rpsB",
+    "pos1": 189,
+    "peptide": "LKAGV",
+    "cartesian_size": 768,
+    "reasons": [
+      "HQ_coverage"
+    ],
+    "coverage": {
+      "incell": 0.0,
+      "cellfree": 0.0
+    }
+  }
+]

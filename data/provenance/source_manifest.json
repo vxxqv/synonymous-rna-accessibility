@@ -1,0 +1,114 @@
+[
+  {
+    "file": "work\\data_audit\\weeks194_orig\\__init__.py",
+    "url": "https://raw.githubusercontent.com/BackofenLab/ShaKer/6f29547d70a2b72ceccf28218c790c45406946e8/data/weeks194_orig/__init__.py",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "github_blob_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "bytes": 0
+  },
+  {
+    "file": "work\\data_audit\\weeks194_orig\\calcsubopt.py",
+    "url": "https://raw.githubusercontent.com/BackofenLab/ShaKer/6f29547d70a2b72ceccf28218c790c45406946e8/data/weeks194_orig/calcsubopt.py",
+    "sha256": "496742c0e56ec50caa0c28661a9615c5426af95754377b8606d8beddf162bd14",
+    "github_blob_sha": "9e3a6c94c76d73e93409650b30d15a6adf22a485",
+    "bytes": 449
+  },
+  {
+    "file": "work\\data_audit\\weeks194_orig\\cellfree.dbn",
+    "url": "https://raw.githubusercontent.com/BackofenLab/ShaKer/6f29547d70a2b72ceccf28218c790c45406946e8/data/weeks194_orig/cellfree.dbn",
+    "sha256": "c7647da5a8f02bbe9025aac901c09022934f4b72384e4dd805d6401590e3cddc",
+    "github_blob_sha": "b537bf36a1eac24ad3dda38af92a2a859f58e479",
+    "bytes": 888537
+  },
+  {
+    "file": "work\\data_audit\\weeks194_orig\\cellfree.react",
+    "url": "https://raw.githubusercontent.com/BackofenLab/ShaKer/6f29547d70a2b72ceccf28218c790c45406946e8/data/weeks194_orig/cellfree.react",
+    "sha256": "38933dfcf33c97dedfc90dfd5d73c8c624b014f523bef18c091ae0c9a471fad3",
+    "github_blob_sha": "ca34ec35637feb433f42a62ff68a7589f7921f1b",
+    "bytes": 4187405
+  },
+  {
+    "file": "work\\data_audit\\weeks194_orig\\cellfree_genes.dbn",
+    "url": "https://raw.githubusercontent.com/BackofenLab/ShaKer/6f29547d70a2b72ceccf28218c790c45406946e8/data/weeks194_orig/cellfree_genes.dbn",
+    "sha256": "424a3b2613d30ef407189acbe8def42fe8d0dc9249de48f847f7bceb73d5fb00",
+    "github_blob_sha": "2910e4888bccd527fa10a4e4934dc1864465fa0b",
+    "bytes": 724833
+  },
+  {
+    "file": "work\\data_audit\\weeks194_orig\\collect_subopt.py",
+    "url": "https://raw.githubusercontent.com/BackofenLab/ShaKer/6f29547d70a2b72ceccf28218c790c45406946e8/data/weeks194_orig/collect_subopt.py",
+    "sha256": "69eea9d59a3624a6d05cab182ca085058971d8e433e3bd08f237be093e8eccb9",
+    "github_blob_sha": "e35957d6724592fb8d23625d47eb56534f32051e",
+    "bytes": 982
+  },
+  {
+    "file": "work\\data_audit\\weeks194_orig\\incell.dbn",
+    "url": "https://raw.githubusercontent.com/BackofenLab/ShaKer/6f29547d70a2b72ceccf28218c790c45406946e8/data/weeks194_orig/incell.dbn",
+    "sha256": "cb13b2092f594facf49ef11ca4c8c9d25c8232fcbd806d0f8ca3f06d2c0136fa",
+    "github_blob_sha": "3035467bc9ef07cef33fabf6c4693bdff92a9d08",
+    "bytes": 888537
+  },
+  {
+    "file": "work\\data_audit\\weeks194_orig\\incell.react",
+    "url": "https://raw.githubusercontent.com/BackofenLab/ShaKer/6f29547d70a2b72ceccf28218c790c45406946e8/data/weeks194_orig/incell.react",
+    "sha256": "1be61b44ea242621f33f7e6c050b469ee05d2b66120b3e441a8e9241d3381aa6",
+    "github_blob_sha": "ccb8c8e3b725707b8265ef0000877e1314875a58",
+    "bytes": 4202773
+  },
+  {
+    "file": "work\\data_audit\\weeks194_orig\\incell_genes.dbn",
+    "url": "https://raw.githubusercontent.com/BackofenLab/ShaKer/6f29547d70a2b72ceccf28218c790c45406946e8/data/weeks194_orig/incell_genes.dbn",
+    "sha256": "a3d7075eb89023cf90bb5a81d6eca8a1285af82dc6a0678916c89f9094786090",
+    "github_blob_sha": "6d9fdd348ace19138ee456c1d097d23bdc6babdc",
+    "bytes": 724833
+  },
+  {
+    "file": "work\\data_audit\\weeks194_orig\\kasugamycin.dbn",
+    "url": "https://raw.githubusercontent.com/BackofenLab/ShaKer/6f29547d70a2b72ceccf28218c790c45406946e8/data/weeks194_orig/kasugamycin.dbn",
+    "sha256": "765014c9297df12c0becb4e697489f2c498e7f25d667f155853a34b09936cf79",
+    "github_blob_sha": "bf296af9aa511851a14d9a5e7a3e7e7e89a960f6",
+    "bytes": 888537
+  },
+  {
+    "file": "work\\data_audit\\weeks194_orig\\kasugamycin.react",
+    "url": "https://raw.githubusercontent.com/BackofenLab/ShaKer/6f29547d70a2b72ceccf28218c790c45406946e8/data/weeks194_orig/kasugamycin.react",
+    "sha256": "1bce74c41d9a061a6ec4d91ad7d7252e4bd3beef437c42e7c0dcd572fe8aaf56",
+    "github_blob_sha": "529c29583f83b77f2a9288dd0e501b8c602cbe1c",
+    "bytes": 3891652
+  },
+  {
+    "file": "work\\data_audit\\weeks194_orig\\kasugamycin_genes.dbn",
+    "url": "https://raw.githubusercontent.com/BackofenLab/ShaKer/6f29547d70a2b72ceccf28218c790c45406946e8/data/weeks194_orig/kasugamycin_genes.dbn",
+    "sha256": "afe1d12d1776b8e81fa22c40c10e2c8638c2e96c301b58acfd0099d1ee46c149",
+    "github_blob_sha": "a3d2c1efaa0b73d59ab0dc61a5fd4c44393a9c8b",
+    "bytes": 724833
+  },
+  {
+    "file": "work\\data_audit\\weeks194_orig\\remove_genes.py",
+    "url": "https://raw.githubusercontent.com/BackofenLab/ShaKer/6f29547d70a2b72ceccf28218c790c45406946e8/data/weeks194_orig/remove_genes.py",
+    "sha256": "9463ce070cd1c20e908e1e8efc796ceac88de8b947201ffb926aab5eccc15023",
+    "github_blob_sha": "60a273994116ea3b013e377a8bd751d565a6de6d",
+    "bytes": 3206
+  },
+  {
+    "file": "work\\data_audit\\weeks194_orig\\sge_subopt.sh",
+    "url": "https://raw.githubusercontent.com/BackofenLab/ShaKer/6f29547d70a2b72ceccf28218c790c45406946e8/data/weeks194_orig/sge_subopt.sh",
+    "sha256": "ed2200f7391769ea885a3278543f2efc9f381cc973bfb183f099241d72a6134b",
+    "github_blob_sha": "f2e23204505e7ca36c16d80cfc54f0dca42e91ae",
+    "bytes": 403
+  },
+  {
+    "file": "work\\data_audit\\weeks194_orig\\translationefficiency.csv",
+    "url": "https://raw.githubusercontent.com/BackofenLab/ShaKer/6f29547d70a2b72ceccf28218c790c45406946e8/data/weeks194_orig/translationefficiency.csv",
+    "sha256": "6b9acc7d3974316bffeb01354f393c4834afd5afcee001782df6f2380bd1b300",
+    "github_blob_sha": "156c5a20177ac2469103fd44dae09ec4e35299f4",
+    "bytes": 52268
+  },
+  {
+    "file": "work\\data_audit\\weeks194_orig\\weeksdatareader.py",
+    "url": "https://raw.githubusercontent.com/BackofenLab/ShaKer/6f29547d70a2b72ceccf28218c790c45406946e8/data/weeks194_orig/weeksdatareader.py",
+    "sha256": "217d061a2bb45e23b313842aa0537a1163d0c300c046225457f58ec2b22d77c3",
+    "github_blob_sha": "4f38c2d23fa9ecc26f45c0ab004a2293c4a57b54",
+    "bytes": 2558
+  }
+]

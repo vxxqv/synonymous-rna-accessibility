@@ -88,6 +88,8 @@ def select(data_dir):
 
 def evaluate_one(task):
     import RNA
+    loaded=RNA.params_load_RNA_Turner1999() if task[0].get('model')=='Turner1999' else RNA.params_load_RNA_Turner2004()
+    if not loaded:raise RuntimeError('ViennaRNA parameter loading failed')
     block,condition=task;started=time.time();seq=block['native'];vstart=block['variable_start0'];context=block['context'];pairs=block['touching_pairs'][condition]
     internal=[(a-vstart,b-vstart) for a,b in pairs if vstart<=a<b<vstart+len(seq)]
     allseq=enumerate_space(block['peptide'],cap=1024)

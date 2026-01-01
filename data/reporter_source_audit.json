@@ -1,0 +1,47 @@
+{
+  "sources": [
+    {
+      "path": "work\\data_audit\\salis_reporter\\Goodman_Science_2013.xls",
+      "url": "https://raw.githubusercontent.com/hsalis/SalisLabCode/46da9132740bce30bccd107f02808adf2215e2f0/ModelTestSystem/examples/RBS/datasets/Goodman_Science_2013.xls",
+      "bytes": 17964544,
+      "sha256": "1295f0761b70afc6f6a23c1c3c674f011a1cf156728d850ec04a3c21f65571b9"
+    },
+    {
+      "path": "work\\data_audit\\salis_reporter\\initdb.py",
+      "url": "https://raw.githubusercontent.com/hsalis/SalisLabCode/46da9132740bce30bccd107f02808adf2215e2f0/ModelTestSystem/examples/RBS/initdb.py",
+      "bytes": 36750,
+      "sha256": "dd930a0211c2977c7baf236c54eb52d805ad6680121f3c54c353d8bc8d22d0da"
+    },
+    {
+      "path": "work\\data_audit\\salis_reporter\\README.md",
+      "url": "https://raw.githubusercontent.com/hsalis/SalisLabCode/46da9132740bce30bccd107f02808adf2215e2f0/ModelTestSystem/README.md",
+      "bytes": 8164,
+      "sha256": "696a4cbf507c1c5bc63419ae410b323979269894b8e08b4233ed552d3bffe20a"
+    },
+    {
+      "path": "work\\data_audit\\salis_reporter\\LICENSE",
+      "url": "https://raw.githubusercontent.com/hsalis/SalisLabCode/46da9132740bce30bccd107f02808adf2215e2f0/ModelTestSystem/LICENSE",
+      "bytes": 35159,
+      "sha256": "93091ceb12958f34eec2033aefe9bf7e37cbfc62fd75180fd893fb1630470ac5"
+    }
+  ],
+  "audit": {
+    "n_records": 14234,
+    "n_genes": 137,
+    "quantitative_protein_n": 7327,
+    "quantitative_protein_DNA_RNA_n": 7316,
+    "constant_peptide_within_gene": true,
+    "background_group_fields": [
+      "source_gene",
+      "promoter",
+      "RBS_class",
+      "RBS_sequence",
+      "Nterminal_peptide"
+    ],
+    "test_group": "entire source_gene",
+    "primary_table_byte_identity": "pending_publisher_retrieval",
+    "mirror_commit": "46da9132740bce30bccd107f02808adf2215e2f0",
+    "source": "hsalis/SalisLabCode/ModelTestSystem/examples/RBS/datasets/Goodman_Science_2013.xls"
+  },
+  "analysis_status": "excluded_complete_transcript_boundary_unverified; no model fitting performed"
+}
