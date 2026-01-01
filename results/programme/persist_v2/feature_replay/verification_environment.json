@@ -1,0 +1,12 @@
+{
+  "platform": "Windows-11-10.0.26300-SP0",
+  "machine": "AMD64",
+  "python": "3.12.14",
+  "python_executable_sha256": "8e11f5c0c4cdea438059feea1b750721929433374b389674c8368ae8bfcbf525",
+  "numpy": "2.5.4",
+  "ViennaRNA": "2.7.2",
+  "pf_float_precision_code": 0,
+  "numpy_binary_sha256": "9c10617e66e992b5ac6d9f78fe7cedd0011618e1c2f89d09a185bb63073e2c90",
+  "ViennaRNA_binary_sha256": "f4527b33266412fbe23b1bc49ddb422693a5d81c3c784c69d8e2ba3d7642b7c2",
+  "original_Windows_binary_identity_required": false
+}

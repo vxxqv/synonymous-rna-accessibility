@@ -1,0 +1,51 @@
+{
+  "status": "passed_all37_rows_all83_features",
+  "rows": 37,
+  "features_per_row": 83,
+  "feature_values": 3071,
+  "float_comparisons": 3367,
+  "absolute_tolerance": 1e-10,
+  "maximum_absolute_error": 0.0,
+  "all_original_sequence_hashes_verified": true,
+  "discrete_diagnostics_exact": true,
+  "effective_md_exact": true,
+  "parameter_contents_exact_all37": true,
+  "source_sha256": "45acb89825bf2555974da9d146b7c48e4a9b98f627cdc5d72c46fcf60507fdd9",
+  "input_sha256_before": {
+    "analysis/programme/retrospective/persist_v2/protocol.json": "a3dc686a23acaa12af2f2f44154b8baac819cb6df3a0a6d81328dd3ebdc5fd24",
+    "analysis/programme/retrospective/persist_v2/persist_prediction.py": "962f953ed17574db96f5ba0cde4827486830244941ea745bb34fb697a5514aaa",
+    "analysis/programme/retrospective/persist_v2/Turner2004.par": "f4a71a542533ce5420515004a0b51f6949e93d4087204185a35eb38fff30d466",
+    "results/programme/persist_v2/train/features.json": "3d2f6cbc2804e4a07932f9850e6955c5dd2b0513dfcaa7a5f74f47ba0009229f",
+    "results/programme/persist_v2/feature_replay/selected_metadata.json": "68f8e2de108cdf351d9d4a1ecf57fbbe6494600bbb122c46b78f5a37cd896433"
+  },
+  "input_sha256_after": {
+    "analysis/programme/retrospective/persist_v2/protocol.json": "a3dc686a23acaa12af2f2f44154b8baac819cb6df3a0a6d81328dd3ebdc5fd24",
+    "analysis/programme/retrospective/persist_v2/persist_prediction.py": "962f953ed17574db96f5ba0cde4827486830244941ea745bb34fb697a5514aaa",
+    "analysis/programme/retrospective/persist_v2/Turner2004.par": "f4a71a542533ce5420515004a0b51f6949e93d4087204185a35eb38fff30d466",
+    "results/programme/persist_v2/train/features.json": "3d2f6cbc2804e4a07932f9850e6955c5dd2b0513dfcaa7a5f74f47ba0009229f",
+    "results/programme/persist_v2/feature_replay/selected_metadata.json": "68f8e2de108cdf351d9d4a1ecf57fbbe6494600bbb122c46b78f5a37cd896433"
+  },
+  "inputs_immutable": true,
+  "historical_git_reauthenticated": false,
+  "historical_access_order_reauthenticated": false,
+  "row_processes": 37,
+  "worker_retries": 0,
+  "fallbacks": 0,
+  "exclusions": 0,
+  "runtime_seconds": 138.625,
+  "environment": {
+    "platform": "Windows-11-10.0.26300-SP0",
+    "machine": "AMD64",
+    "python": "3.12.14",
+    "python_executable_sha256": "8e11f5c0c4cdea438059feea1b750721929433374b389674c8368ae8bfcbf525",
+    "numpy": "2.5.4",
+    "ViennaRNA": "2.7.2",
+    "pf_float_precision_code": 0,
+    "numpy_binary_sha256": "9c10617e66e992b5ac6d9f78fe7cedd0011618e1c2f89d09a185bb63073e2c90",
+    "ViennaRNA_binary_sha256": "f4527b33266412fbe23b1bc49ddb422693a5d81c3c784c69d8e2ba3d7642b7c2",
+    "original_Windows_binary_identity_required": false
+  },
+  "result_sha256": "3d2f6cbc2804e4a07932f9850e6955c5dd2b0513dfcaa7a5f74f47ba0009229f",
+  "warning_rows": 0,
+  "scope": "Replay of specified model features only. No target comparisons, fitting, measured-structure validation or biological validity claim."
+}

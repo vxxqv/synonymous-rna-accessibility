@@ -25,10 +25,20 @@ jobs:
         run: python analysis/programme/affine_polytope/verify_exact.py --out work/ci-affine-polytope
       - name: Replay interaction certificates and independently checked counterexamples
         run: python -B analysis/programme/interaction_certificates/replay.py --out work/ci-interaction-certificates
+      - name: Replay exact observation prices and optional batches
+        run: python -I -B analysis/programme/observation_cost/replay.py --out work/ci-observation-cost
       - name: Independently replay frozen measured pilot
         run: python analysis/programme/retrospective/gill_result_independent.py --outdir work/ci-gill-independent
       - name: Check selective access and measurement calculations on synthetic inputs
         run: python -m pytest analysis/programme/retrospective/gill_multiclass_v1/implementation/test_gill_multiclass.py -q
+      - name: Independently replay multiclass measurements and all normalization comparisons
+        run: python analysis/programme/retrospective/gill_multiclass_v1/independent/replay.py --repo-root . --output "${{ runner.temp }}/ci-gill-multiclass"
+      - name: Independently replay all frozen full-length reporter predictions
+        run: python -I -B analysis/programme/retrospective/persist_v2/independent_replay/replay.py --repo . --out "${{ runner.temp }}/ci-persist-independent"
+      - name: Check frozen folding replay guards
+        run: python -I -B analysis/programme/retrospective/persist_v2/feature_replay/check_guards.py --output "${{ runner.temp }}/ci-persist-feature-guards"
+      - name: Replay the frozen full-length reporter sequence features
+        run: python -I -B analysis/programme/retrospective/persist_v2/feature_replay/replay.py --repo-root . --output "${{ runner.temp }}/ci-persist-features"
       - name: Independently replay frozen synthetic predictions
         run: python analysis/verify_prediction_pilot.py
       - name: Replay finite exact verification

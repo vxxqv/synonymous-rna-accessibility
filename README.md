@@ -119,9 +119,48 @@ The module preserves the original proof, independent review, corrected cost cont
 
 The frozen held-out acquisition benchmark contains 3,800 worlds and 22,800 policy runs, with every result retained. The proposed path/cut rule fails the predeclared efficiency hurdle and uses 0.398 more queries on average than the strongest forward baseline. The 95% seed-block interval [0.261, 0.535] describes Monte Carlo variation in this fixed synthetic design. The examined validation set is retired from tuning. See `results/programme/acquisition_v1/validation_report.md` and its frozen protocol for the exact paired design, all comparators and failures.
 
+### Exact observation costs and optional batches
+
+The bounded audit in `analysis/programme/observation_cost/` uses standard finite decision analysis on six hidden vertex states. All 384 cost/prior/action-set cases and all complete decision tables are retained. Optional batches improve the exact optimum in 184 of 192 matched comparisons, while the cheapest-per-unseen-bit rule is never optimal on this grid. These exact conditional expectations are not measured assay costs, general policy guarantees or a repair of the failed held-out acquisition result.
+
+```text
+python -I -B analysis/programme/observation_cost/replay.py --out work/fresh-observation-cost
+```
+
+The replay requires the pinned preinstalled NetworkX 3.7, uses no runtime network or Git, and compares all scientific outputs to their independently checked receipts. The original proof is accompanied by a clarification for zero-probability histories under generic correlated priors. The frozen experiment uses full-support product priors and its results are unchanged. This addition postdates published version 1.0.
+
 ### Measured RNA pilot
 
 A complete 32-genotype reference-protein fibre from the Gill2026 deposit was frozen before reading RNA outcomes. All predictions were committed before the held-out RNA library. The pairwise predictor fails its primary hurdle: RMSE 0.551 versus 0.466 for the constant baseline, with failure at both pseudocount sensitivities. This is conditional reproduction of a held-out RNA library on the same genotypes. Biological independence, RNA/DNA pairing and calibrated measurement uncertainty remain unresolved. No biological interaction or folding mechanism is inferred from positive observed-field barriers. The complete protocol, source attribution, chronology and replay instructions are in `results/programme/gill_reference_pilot/README.md`.
+
+### Additional protein-preserving measurement groups
+
+The multiclass Gill test contains 1,124 development groups and 1,052 validation groups from one reporter. The previously examined reference-protein stratum is quarantined. The frozen normalized residual cosine is 0.07788 against the declared 0.5 target; residual prediction increases mean squared error by 47.7% over zero. High RNA-only and DNA-only agreement does not establish normalized residual reproducibility. All pseudocounts, 45 normalization-pair comparisons and single-stratum omissions are retained. Groups share one reporter and unresolved preparation identities. No independent-gene, biological-noise or folding-mechanism inference follows.
+
+```text
+python analysis/programme/retrospective/gill_multiclass_v1/independent/replay.py --repo-root . --output /new/path/outside/repository/gill-replay
+```
+
+The offline independent replay verifies 3,352,385 comparisons from archived processed counts. Its guards reject optimized Python, existing outputs and outputs inside the repository. Historical access order is documented separately and is not authenticated by numerical replay.
+
+### Full-length reporter source-family transfer
+
+The selected PERSIST cohort has 22 development and 15 held-out constructs encoding one protein in one context. Protocol and implementation were frozen before features and selected outcomes. All six prediction vectors were committed before validation. The primary model adds one explicitly recalculated mean unpaired probability (MUP) to composition and codon features. It fails the 10% improvement target: MAE 0.031442, compared with composition alone at 0.030139. The matched codon comparator improves by only 0.119% on adding MUP. Every held-out row and every omission diagnostic is retained; no model or subset was retuned.
+
+```text
+python -I -B analysis/programme/retrospective/persist_v2/independent_replay/replay.py --repo . --out /new/path/outside/repository/persist-replay
+```
+
+This independently reconstructs tuning, predictions, metrics and influence diagnostics from immutable features and the 37 selected target cells. It treats MUP as an input and does not refold sequences. Deposited cellular coefficient units are not calibrated physical half-lives; source-family separation does not establish independent biological preparations or complete mutation paths. The protocol's original Windows binary hashes remain historical provenance. See the module README for scope and source attribution.
+
+The separate frozen feature replay reconstructs all 83 features for all 37 selected constructs, including the fixed ViennaRNA ensemble calculation. Its sole local full replay reproduces every value exactly. It uses the original scientific functions and parameters, checks selected sequence hashes, and stops on warnings or discrepancies. The archived original wrapper and its pre-execution warning-guard correction remain visible. This verifies the specified calculation, not biological validity or measured structure.
+
+```text
+python -I -B analysis/programme/retrospective/persist_v2/feature_replay/check_guards.py --output /new/path/outside/repository/persist-feature-guards
+python -I -B analysis/programme/retrospective/persist_v2/feature_replay/replay.py --repo-root . --output /new/path/outside/repository/persist-features
+```
+
+These commands require the pinned dependencies already installed. They use no Git, network, outcome access, refitting, retries or fallback settings. The runtime records its actual platform and binary hashes; original Windows binary identity is not required for cross-platform replay.
 
 ### Figure-source reproduction
 
@@ -132,6 +171,8 @@ python analysis/render_figure_suite.py --out /path/outside/this/repository/figur
 python analysis/render_identification_figure.py --out /path/outside/this/repository/figures
 python analysis/render_joint_uncertainty_figure.py --out /path/outside/this/repository/figures --qa work/figure8qa
 python analysis/render_gill_pilot_figure.py --outdir /path/outside/this/repository/figures --qa /path/outside/this/repository/figure9qa
+python analysis/render_gill_multiclass_figure.py --outdir /path/outside/this/repository/figures --qa /path/outside/this/repository/figure10qa
+python analysis/render_persist_figure.py --outdir /path/outside/this/repository/figures --qa /path/outside/this/repository/figure11qa --manifest /path/outside/this/repository/Figure_11.json
 ```
 
 Figure 9 uses the frozen panel-data manifest `results/figure_data/Figure_9.json`. Its renderer verifies the saved training and validation source hashes, recomputes the displayed summaries, and exports the complete failed prediction comparison without opening the source workbook or refitting models. The required `--outdir` and `--qa` arguments are confirmed by `python analysis/render_gill_pilot_figure.py --help`.

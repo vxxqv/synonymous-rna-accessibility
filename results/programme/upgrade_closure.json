@@ -1,0 +1,188 @@
+{
+  "status": "cycle3_scientific_checkpoint_closed_cycle4_data_eligibility_active_release_pending",
+  "claims": [
+    {
+      "id": "C01",
+      "status": "Established mathematics",
+      "claim": "Standard-code logical feasibility has an explicit linear-size 2-CNF encoding.",
+      "strongest_challenge": "Generic 2-SAT feasibility is prior work; Boolean bit moves are not automatically nucleotide substitutions.",
+      "limitation": "The result concerns declared logical constraints, not realizability or energetic stability of an RNA ensemble.",
+      "decision": "Retain the explicit code-specific representation and withhold a new generic 2-SAT claim."
+    },
+    {
+      "id": "C02",
+      "status": "Established mathematics",
+      "claim": "Single-frame component signatures are complete and connected endpoint distance is nucleotide Hamming distance.",
+      "strongest_challenge": "Generic binary-CSP geodesicity is known, while partial Leu/Arg gates and two-bit nucleotide changes require the code-specific lifting argument.",
+      "limitation": "Extra motif, score or overlapping-frame constraints can invalidate the original signature. Finite checks corroborate the proof.",
+      "decision": "Retain with the single-frame and logical-obligation assumptions explicit."
+    },
+    {
+      "id": "C03",
+      "status": "Established mathematics",
+      "claim": "Overlapping standard-code obligations admit an exact quotient with Cartesian fibres and nucleotide geodesics.",
+      "strongest_challenge": "Coarse orientation and serine signatures alone are insufficient; larger coordinate domains and complemented gates must preserve the quotient predicates.",
+      "limitation": "Arbitrary ordered logical triplets are more general than physical reading frames. The single-frame height-three bound does not extend to arbitrary overlaps.",
+      "decision": "Retain the stronger signature and distinguish compact witness cost from full sequence materialization."
+    },
+    {
+      "id": "C04",
+      "status": "Established mathematics",
+      "claim": "Uniform completion counts have a conditional leucine factor two; route counting can be hard despite simple reachability.",
+      "strongest_challenge": "Independent-set inference, order polytopes and restricted linear-extension hardness are established. Reduction conventions cannot be strengthened silently.",
+      "limitation": "Leucine factor two is conditional and need not survive arbitrary codon weights. #P-completeness uses polynomial-time Turing reductions and an input-dependent number of logical targets, not exactly two physical structures.",
+      "decision": "Retain the precise specialization, separate arithmetic from bit cost, and do not assert broader physical-structure hardness."
+    },
+    {
+      "id": "C05",
+      "status": "Established mathematics; biological application unvalidated",
+      "claim": "Declared register geometries have phase-specific product classes and certified conditional scarcity rates.",
+      "strongest_challenge": "Fibonacci counts and transfer matrices are known; the increment is the code-specific register language and rates.",
+      "limitation": "No qualifying observed native coding register switch was recovered. Conditional uniform-peptide scarcity is not a universal native-gene or energetic law.",
+      "decision": "Retain as restricted-model mathematics, not an explanation of an observed biological switch."
+    },
+    {
+      "id": "C06",
+      "status": "Established mathematics",
+      "claim": "The additive independent-set criterion identifies exactly when all nonempty superlevel graphs are connected.",
+      "strongest_challenge": "Independent-set geometry and additive decomposition are established; accurately predicting the coefficients is a separate problem.",
+      "limitation": "The theorem does not establish folding-specific interactions, occupancy change or functional rescue.",
+      "decision": "Retain as a conditional geometric criterion and do not infer score predictability from it."
+    },
+    {
+      "id": "C07",
+      "status": "Established mathematics; measurement application unresolved",
+      "claim": "Exact barrier ranges on rational affine polytopes are computable at fixed latent dimension; route quantifiers coincide universally exactly for a unique minimal connecting vertex set.",
+      "strongest_challenge": "Lattice-polynomial and arrangement machinery are established. Generic box corners fail, and a unique minimal connecting vertex set is not a unique simple path.",
+      "limitation": "Fixed dimension has a dimension-dependent exponent. Deterministic uncertainty sets are not calibrated confidence regions. Priority for specific reductions remains unverified.",
+      "decision": "Retain the explicit specialized statements, independent verification and limitations; withhold first-algorithm and biological calibration claims."
+    },
+    {
+      "id": "C08",
+      "status": "Established algorithm correctness; priority unresolved",
+      "claim": "Factor-level additive-product closure supports exact endpoint connectivity, capacity and constructive witnesses.",
+      "strongest_challenge": "Additive merge-tree composition is established, and the closest detailed thesis construction was not fully accessible.",
+      "limitation": "No first or fastest algorithm claim. A component is not the retained part of its projection product. Witnesses need not be shortest; exact capacity is polynomial in bit complexity, not asserted strongly polynomial.",
+      "decision": "Retain the explicit query and verified bounds while marking algorithmic priority unresolved."
+    },
+    {
+      "id": "C09",
+      "status": "Established descriptive finding; mechanism unresolved",
+      "claim": "Generic score organization accounts for most of the original permutation contrast; the residual is not a demonstrated folding mechanism.",
+      "strongest_challenge": "Imperfect roughness matching, influential transcripts, model/context choice, ties and saturated fits can affect residual interpretation.",
+      "limitation": "Retrospective influence, tighter matching, unsaturated fits and tie checks retain the descriptive pattern but do not identify a mechanism. Additive fits are in sample; cluster intervals describe this modeled transcript collection, not biological-replicate uncertainty.",
+      "decision": "Withdraw an established RNA-specific preservation or evolutionary-advantage claim; retain the control result and bounded residual."
+    },
+    {
+      "id": "C10",
+      "status": "Failed frozen computational pilot; design uninformative for mechanism",
+      "claim": "The original three-state barrier/intervention pilot did not pass its expansion criteria.",
+      "strongest_challenge": "Every three-state additive fit is saturated, so the design cannot distinguish additive from interacting fields.",
+      "limitation": "This is synthetic folding-model evidence, not biological rescue or disruption. Unsupported intervention directions cannot be omitted.",
+      "decision": "Preserve the failure and do not expand this motif into a folding-specific engineering result."
+    },
+    {
+      "id": "C11",
+      "status": "Failed frozen efficiency criterion; certificate checks passed",
+      "claim": "Path/cut acquisition did not outperform the strongest included baseline.",
+      "strongest_challenge": "Established forward querying is the strongest included comparator; lower observed maxima do not establish a better arbitrary-input worst case.",
+      "limitation": "The interval covers Monte Carlo variation across 50 fixed-design seed blocks only. Forced-present endpoints are occupancy edits, not necessarily exact additive superlevel fields.",
+      "decision": "Retain the audited certificate workflow and negative comparison; retire held-out seeds from tuning."
+    },
+    {
+      "id": "C12",
+      "status": "Failed frozen measured-endpoint prediction",
+      "claim": "The pairwise Gill predictor does not improve held-out RNA-library reproduction.",
+      "strongest_challenge": "The constant baseline outperforms the target; shared-reference shifts affect error, and the same genotypes occur in training and validation.",
+      "limitation": "This is held-out RNA-library reproduction conditional on previously inspected DNA, not independent genotype, protein-context or biological validation.",
+      "decision": "Keep the frozen failure without retuning or favorable-subset selection."
+    },
+    {
+      "id": "C13",
+      "status": "Exploratory measured-field description; calibration unresolved",
+      "claim": "Gill positive observed-field barriers do not establish biological nonadditivity or a folding mechanism.",
+      "strongest_challenge": "Noise, reference anchoring and denominator changes can create apparent interactions and barriers; the nine fields reuse libraries.",
+      "limitation": "Library identities are mapped, but independent biological preparations, RNA/DNA pairing and simultaneous error calibration remain unresolved. A range of fieldwise maxima is not a fixed-pair barrier interval or a confidence region.",
+      "decision": "Report the measured contrasts and explicit dependence only; do not apply calibrated joint-uncertainty guarantees."
+    },
+    {
+      "id": "C14",
+      "status": "Incomplete biological branch; source-consistency stop",
+      "claim": "The GFP/URA3 programme has sequence-verified candidate groups but no completed defensible interaction prediction result.",
+      "strongest_challenge": "Shared mutants, normalized wild type and reporter dependence prevent treating candidate squares as independent observations; filtering and zero/subcutoff semantics remain inconsistent.",
+      "limitation": "Complete-double replicate covariance and exact source-processing provenance are missing. The eligibility stop is not a rejected biological hypothesis or a predictive benchmark failure.",
+      "decision": "Resolve measurement and processing semantics before further inference; retain the stopped executions."
+    },
+    {
+      "id": "C15",
+      "status": "Incomplete biological branch; coverage failure",
+      "claim": "The frozen mitochondrial structure-to-function test could not meet its transcript coverage gate.",
+      "strongest_challenge": "At most eleven transcript/bicistronic units are independent; cross-study structural and functional measurements lack established same-aliquot and exact condition matching.",
+      "limitation": "Local probing-mixture variance is not thermodynamic occupancy. Coverage failure does not refute ensemble effects on translation.",
+      "decision": "Preserve the closed outcome gate; recover adequate structural information before a newly recorded design."
+    },
+    {
+      "id": "C16",
+      "status": "Incomplete source-independent biological validation",
+      "claim": "The folding-derived connectivity hypothesis lacks a completed independent biological validation cohort.",
+      "strongest_challenge": "Reusing inspected sources, overlapping windows or related sequence material as validation would exaggerate independence.",
+      "limitation": "A specific missing authenticated structure/probing archive is a source gap, not proof that suitable data do not exist. RNA abundance is not direct structural occupancy or organismal function.",
+      "decision": "Bound the biology claims and identify each incomplete branch rather than presenting it as a negative experiment."
+    },
+    {
+      "id": "C17",
+      "status": "Established mathematics; bounded computational verification",
+      "claim": "Projection and path certificates bound interacting product barriers, with exact improvement and failure examples and a sparse hardness boundary.",
+      "strongest_challenge": "Projection bounds and bucket elimination are known; singleton envelopes can miss interactions entirely.",
+      "limitation": "Actual elimination-order width, explicit envelope storage and witness output costs remain. No general sparse polynomial algorithm or approximation-hardness claim.",
+      "decision": "Retain the specialized certificate, counterexamples and exact reduction; no generic novelty claim."
+    },
+    {
+      "id": "C18",
+      "status": "Failed frozen measurement reproducibility target",
+      "claim": "Normalized Gill interaction residuals reproduce weakly across the fixed library comparison.",
+      "strongest_challenge": "High marginal count-field agreement does not imply normalized residual agreement; a simple cancellation construction demonstrates the logical gap.",
+      "limitation": "One related reporter system, shared libraries, unresolved biological preparations, historical coverage selection and nonlinear response alternatives.",
+      "decision": "Preserve failure and all controls. No biological noise ceiling, causal interaction or independent-gene validation claim."
+    },
+    {
+      "id": "C19",
+      "status": "Failed frozen source-family prediction test",
+      "claim": "One modeled ensemble feature does not meet its incremental prediction target in the selected PERSIST cohort.",
+      "strongest_challenge": "Strong sequence baselines and family-aware splitting remove an apparent advantage from merely adding a folding feature.",
+      "limitation": "One selected reporter context within one study; processing selection, unresolved preparation identity and physical endpoint calibration. MUP is calculated and constructs do not form complete paths.",
+      "decision": "Retain failure, no retuning or favorable subset. Do not generalize to all folding features or claim biological rescue."
+    },
+    {
+      "id": "C20",
+      "status": "Established finite synthetic comparison",
+      "claim": "Observation prices and optional batches can change exact optimal query cost on the declared six-bit model.",
+      "strongest_challenge": "Finite Bellman recursion and stochastic Boolean function evaluation are established methods. New cost tables do not repair the earlier failed acquisition comparison.",
+      "limitation": "Fixed graph, abstract costs and full-support product priors in the experiment. Generic correlated-prior extension needs positive-mass histories and logically universal certificates.",
+      "decision": "Retain as bounded exact comparison, not a new general algorithm or measured assay efficiency."
+    },
+    {
+      "id": "C21",
+      "status": "Closed or gated source branches; not negative biological findings",
+      "claim": "PAXT, additional splicing and other proposed sources do not presently support the intended validated endpoint comparison.",
+      "strongest_challenge": "Public data availability alone does not establish that measurements answer the proposed synonymous-accessibility question.",
+      "limitation": "Missing metadata or incompatible endpoints could be resolved by future data recovery; no result is inferred from the missing analysis.",
+      "decision": "Stop expansion on these sources. Preserve the gap and required next evidence."
+    }
+  ],
+  "examined_validation_sets_retired": [
+    "acquisition_v1",
+    "gill_reference_pilot",
+    "gill_multiclass_v1",
+    "persist_v2"
+  ],
+  "adaptation_boundary": "No examined validation cohort is available for further tuning described as confirmation.",
+  "scope": "Abstract mathematics, synthetic benchmarks and retrospective eligible reporter data. No new experimental engineering.",
+  "next_scientific_step": "Recover biologically independent preparation and paired normalization metadata, or obtain an eligible independent complete genotype landscape. Do not increase model complexity on these failed validation sets.",
+  "next_cycle": {
+    "scope": "Human CNOT3 RNA decay source and identifiability audit; a separate biological question from the bacterial reporter.",
+    "validation_outcomes_opened": false,
+    "protocol_status": "Not yet frozen; source and measurement eligibility first.",
+    "archive_status": "Next Zenodo version remains an unpublished draft."
+  }
+}

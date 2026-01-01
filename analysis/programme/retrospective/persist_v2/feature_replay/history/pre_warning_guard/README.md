@@ -1,0 +1,19 @@
+# Offline replay of the frozen37-row PERSIST sequence features
+
+This calculates only the frozen83 sequence features for each of the37 selected deposited reporters. It invokes the unchanged author's `configured_md`, `fold_one` and `sequence_features` functions. No cellular/solution outcomes, old deposited AUP field, predictions, fitting or model tuning are read or run. Reproduction of this specified folding calculation is not measured-structure validation or evidence of biological validity.
+
+Prerequisites already installed: **CPython3.12**, **NumPy2.5.4**, and **ViennaRNA2.7.2 with double-precision partition functions**. The original run used CPython3.12.14; the wrapper accepts the3.12 series and records the actual patch/platform/binary hashes. Original Windows binary identity is not required. No dependencies, Git, network access or installation are needed at runtime. Python `-O` and `-OO` are rejected before scientific reads.
+
+Integrate the supplied `analysis/` and `results/` trees at the repository root. Keep the existing, manifest-pinned author source, protocol, frozen features and Turner2004 parameter file at their archived repository paths. They are referenced rather than duplicated. The new selected metadata file contains exactly the protocol's37 IDs and only `SequenceID`, `RNA.sequence`, `CDS.sequence.longest` and `Barcode`. Its148 original per-sequence protocol hashes and111 lengths are checked before any folding. No original absolute Windows path is followed.
+
+From any directory:
+
+```text
+python -I -B /path/to/repo/analysis/programme/retrospective/persist_v2/feature_replay/replay.py --repo-root /path/to/repo --output /path/to/new-feature-replay
+```
+
+The output must not exist and must be outside the input repository. There is one fresh process per row. Each row makes one unchanged `fold_one` call, with its single MFE-driven rescaling and PF calculation. An additional unchanged `configured_md` call records the effective model and exports parameter contents before folding; it performs no fold, feature selection or setting change. All37 exported parameter files must match the archived Turner2004 bytes exactly. The author's effective-MD check and probability/identity checks remain in force. Python warnings and native-library stderr are retained per row. There are no retries, fallback settings or exclusions. An error retains partial evidence and fails the run.
+
+The **absolute comparison tolerance is fixed at1e-10 before execution** for every floating feature and floating folding diagnostic, without relative tolerance. All identifiers, feature names, integer/Boolean diagnostics, matrix shapes, lengths, normalized sequence hashes and rescaling-call counts must agree exactly. Effective MD and exported parameter contents must also agree exactly. No rounding, clipping or selection is added. A successful receipt records all37*83=3071 feature comparisons, diagnostic coverage, actual software/binary hashes, warnings and unchanged input hashes. It does not authenticate historical Git or data-access order.
+
+Cross-platform numerical differences are permitted only within that fixed tolerance. A version/configuration/parameter mismatch or a larger numerical deviation fails rather than changing settings. No full-output byte identity is promised across numerical builds. The replay must not be interpreted as reconstruction of the old `AUP.Vienna.FULL` field.

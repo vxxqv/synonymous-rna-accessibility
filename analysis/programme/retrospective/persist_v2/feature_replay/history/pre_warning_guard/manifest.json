@@ -1,0 +1,36 @@
+{
+  "id": "PERSIST_frozen_feature_replay_v1",
+  "comparison_absolute_tolerance": 1e-10,
+  "comparison_relative_tolerance": 0,
+  "fixed_before_execution": true,
+  "code_sha256": {
+    "README.md": "11d2aaf72355f9e7cce98944a7706b56400a924fe070970955577cbcfe3b79c1",
+    "replay.py": "a10162e7e95b34610d7fb7770e68c392970497a26c2076e84626cc63cadf3155",
+    "requirements.txt": "4a8264052c17a0b9d6268f46a1f2a80b2db960a6665e37e648ceda9930594c92"
+  },
+  "repository_inputs": {
+    "analysis/programme/retrospective/persist_v2/protocol.json": "a3dc686a23acaa12af2f2f44154b8baac819cb6df3a0a6d81328dd3ebdc5fd24",
+    "analysis/programme/retrospective/persist_v2/persist_prediction.py": "962f953ed17574db96f5ba0cde4827486830244941ea745bb34fb697a5514aaa",
+    "analysis/programme/retrospective/persist_v2/Turner2004.par": "f4a71a542533ce5420515004a0b51f6949e93d4087204185a35eb38fff30d466",
+    "results/programme/persist_v2/train/features.json": "3d2f6cbc2804e4a07932f9850e6955c5dd2b0513dfcaa7a5f74f47ba0009229f",
+    "results/programme/persist_v2/feature_replay/selected_metadata.json": "68f8e2de108cdf351d9d4a1ecf57fbbe6494600bbb122c46b78f5a37cd896433"
+  },
+  "selected_metadata_source_sha256": "4ce3195a8cb181e41dc049ff35125e6c92dc09f5290ece15b671213a5301ca63",
+  "metadata_extraction": "Identifier filter against frozen protocol all_ids before inspecting content; only four listed fields copied; no source table outcome/AUP access",
+  "allowed_fields": [
+    "SequenceID",
+    "RNA.sequence",
+    "CDS.sequence.longest",
+    "Barcode"
+  ],
+  "protocol_sequence_hash_checks": 148,
+  "protocol_sequence_length_checks": 111,
+  "row_count": 37,
+  "features_per_row": 83,
+  "runtime_network": false,
+  "runtime_git": false,
+  "retries": 0,
+  "fallbacks": 0,
+  "exclusions": 0,
+  "historical_git_reauthenticated": false
+}

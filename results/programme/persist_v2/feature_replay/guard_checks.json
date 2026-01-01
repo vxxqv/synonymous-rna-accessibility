@@ -1,0 +1,55 @@
+{
+  "status": "passed",
+  "checks": [
+    {
+      "name": "nonempty_stdout",
+      "rejected": true,
+      "message": "Worker stdout/stderr is nonempty; stop without retry: synthetic"
+    },
+    {
+      "name": "nonempty_stderr",
+      "rejected": true,
+      "message": "Worker stdout/stderr is nonempty; stop without retry: synthetic"
+    },
+    {
+      "name": "nonzero_return",
+      "rejected": true,
+      "message": "Worker failed with no retry/fallback: synthetic"
+    },
+    {
+      "name": "quiet_zero_return",
+      "accepted": true
+    },
+    {
+      "name": "recorded_python_warning",
+      "rejected": true,
+      "message": "Worker Python warning; row retained and execution stopped"
+    },
+    {
+      "name": "worker_existing_output",
+      "rejected": true,
+      "message": "Internal worker output must be an empty new directory"
+    },
+    {
+      "name": "parent_existing_output",
+      "rejected": true,
+      "message": "Refusing overwrite: \\\\?\\C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\work\\persist_cycle3\\feature_replay\\guard_tests\\existing"
+    },
+    {
+      "name": "-O",
+      "rejected": true,
+      "output_created": false
+    },
+    {
+      "name": "-OO",
+      "rejected": true,
+      "output_created": false
+    }
+  ],
+  "folds": 0,
+  "reporter_inputs_opened": false,
+  "source_sha256": "45acb89825bf2555974da9d146b7c48e4a9b98f627cdc5d72c46fcf60507fdd9",
+  "synthetic_warning_row_retained": true,
+  "initial_wrapper_folded_rows": 0,
+  "initial_warning_rows": "not applicable: initial wrapper never executed"
+}
