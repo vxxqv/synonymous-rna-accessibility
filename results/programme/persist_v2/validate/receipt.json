@@ -1,0 +1,14 @@
+{
+  "status": "completed_primary_hypothesis_failed_no_retuning",
+  "prediction_commit": "a6a2ded62c3fd7581f04cff29d490fbb8796b9d2",
+  "development_constructs": 22,
+  "held_out_constructs": 15,
+  "sha256": {
+    "validation.json": "a8aff2366b9735002cc6fb1c0ca844f3b04fcb009c2563acb79a4af93d98a86e",
+    "prediction_freeze.json": "36ca6a0ca6e2f61a0471d5254f757fbc3a83963a1dd8d8b4ba95ce22098bd587",
+    "validation_authorization.json": "5e8040c66f297fad271b6346673d006fdbc3d1d7ae252c8bd0adfdabe6d2d328",
+    "authorize_validation.py": "01e8b538676c810159fccdbe4a2bd0bd63fd7fafac4f77a296e3e29a4cd2e0fd"
+  },
+  "independent_review_sha256": "ae9b6b3c5b9a954cd562fed52e5d4873f6442f2bb8adfc20c948cdb3d16943dc",
+  "scope": "One selected context and reporter, within-study source-family holdout; deposited cellular coefficient units. No independent biological replicate calibration."
+}

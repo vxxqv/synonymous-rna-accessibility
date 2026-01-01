@@ -1,0 +1,685 @@
+{
+  "models": {
+    "development_median": {
+      "mae": 0.03336873232607396,
+      "rmse": 0.03831037754747485,
+      "spearman_rank_agreement": null
+    },
+    "development_mean": {
+      "mae": 0.03346117588007621,
+      "rmse": 0.038456551570952145,
+      "spearman_rank_agreement": null
+    },
+    "composition_ridge": {
+      "mae": 0.03013891915265506,
+      "rmse": 0.036978406991609564,
+      "spearman_rank_agreement": 0.08928571428571429
+    },
+    "codon_composition_ridge": {
+      "mae": 0.03147928315750211,
+      "rmse": 0.03797844633086842,
+      "spearman_rank_agreement": 0.010714285714285714
+    },
+    "nearest_CDS": {
+      "mae": 0.0402605415270998,
+      "rmse": 0.047038234355726134,
+      "spearman_rank_agreement": 0.06289432567832845
+    },
+    "codon_composition_MUP_ridge": {
+      "mae": 0.03144181184220435,
+      "rmse": 0.037940429703828625,
+      "spearman_rank_agreement": 0.010714285714285714
+    }
+  },
+  "at_least_ten_percent_better_than_every_baseline": false,
+  "fractional_gains": {
+    "development_median": 0.057746289701390174,
+    "development_mean": 0.06034946425998888,
+    "composition_ridge": -0.04322957578372577,
+    "codon_composition_ridge": 0.0011903484304354173,
+    "nearest_CDS": 0.21904150690470647
+  },
+  "zero_error_baselines": [],
+  "rows": [
+    {
+      "SequenceID": "930011D1",
+      "target": 0.154097617537368,
+      "predictions": {
+        "development_median": 0.1290197013820395,
+        "development_mean": 0.12874237072003278,
+        "composition_ridge": 0.1404331008295396,
+        "codon_composition_ridge": 0.13641197917867176,
+        "nearest_CDS": 0.130018509814752,
+        "codon_composition_MUP_ridge": 0.13642678433980154
+      },
+      "absolute_errors": {
+        "development_median": 0.025077916155328506,
+        "development_mean": 0.025355246817335225,
+        "composition_ridge": 0.013664516707828395,
+        "codon_composition_ridge": 0.017685638358696243,
+        "nearest_CDS": 0.02407910772261601,
+        "codon_composition_MUP_ridge": 0.01767083319756646
+      }
+    },
+    {
+      "SequenceID": "930012D1",
+      "target": 0.160288403201945,
+      "predictions": {
+        "development_median": 0.1290197013820395,
+        "development_mean": 0.12874237072003278,
+        "composition_ridge": 0.14820221314568344,
+        "codon_composition_ridge": 0.14649560204855683,
+        "nearest_CDS": 0.107648843499594,
+        "codon_composition_MUP_ridge": 0.14649634835615483
+      },
+      "absolute_errors": {
+        "development_median": 0.031268701819905514,
+        "development_mean": 0.031546032481912234,
+        "composition_ridge": 0.012086190056261575,
+        "codon_composition_ridge": 0.013792801153388184,
+        "nearest_CDS": 0.05263955970235101,
+        "codon_composition_MUP_ridge": 0.013792054845790186
+      }
+    },
+    {
+      "SequenceID": "930013D1",
+      "target": 0.156113251708467,
+      "predictions": {
+        "development_median": 0.1290197013820395,
+        "development_mean": 0.12874237072003278,
+        "composition_ridge": 0.14361103091265873,
+        "codon_composition_ridge": 0.14512192821107278,
+        "nearest_CDS": 0.144423020136566,
+        "codon_composition_MUP_ridge": 0.14510809327432264
+      },
+      "absolute_errors": {
+        "development_median": 0.02709355032642749,
+        "development_mean": 0.02737088098843421,
+        "composition_ridge": 0.012502220795808261,
+        "codon_composition_ridge": 0.010991323497394206,
+        "nearest_CDS": 0.011690231571900994,
+        "codon_composition_MUP_ridge": 0.011005158434144346
+      }
+    },
+    {
+      "SequenceID": "930014D1",
+      "target": 0.106607757985964,
+      "predictions": {
+        "development_median": 0.1290197013820395,
+        "development_mean": 0.12874237072003278,
+        "composition_ridge": 0.12643988800269412,
+        "codon_composition_ridge": 0.12797143217396603,
+        "nearest_CDS": 0.1227586301151795,
+        "codon_composition_MUP_ridge": 0.1279486872953213
+      },
+      "absolute_errors": {
+        "development_median": 0.022411943396075495,
+        "development_mean": 0.022134612734068776,
+        "composition_ridge": 0.01983213001673012,
+        "codon_composition_ridge": 0.02136367418800203,
+        "nearest_CDS": 0.016150872129215496,
+        "codon_composition_MUP_ridge": 0.021340929309357298
+      }
+    },
+    {
+      "SequenceID": "930015D1",
+      "target": 0.094728059683877,
+      "predictions": {
+        "development_median": 0.1290197013820395,
+        "development_mean": 0.12874237072003278,
+        "composition_ridge": 0.1279085937095715,
+        "codon_composition_ridge": 0.12168971032542718,
+        "nearest_CDS": 0.122832968781179,
+        "codon_composition_MUP_ridge": 0.12179299060779306
+      },
+      "absolute_errors": {
+        "development_median": 0.0342916416981625,
+        "development_mean": 0.03401431103615578,
+        "composition_ridge": 0.0331805340256945,
+        "codon_composition_ridge": 0.026961650641550178,
+        "nearest_CDS": 0.028104909097301997,
+        "codon_composition_MUP_ridge": 0.027064930923916056
+      }
+    },
+    {
+      "SequenceID": "930016D1",
+      "target": 0.186943789501347,
+      "predictions": {
+        "development_median": 0.1290197013820395,
+        "development_mean": 0.12874237072003278,
+        "composition_ridge": 0.12375602561230335,
+        "codon_composition_ridge": 0.12023827970583202,
+        "nearest_CDS": 0.097457769348248,
+        "codon_composition_MUP_ridge": 0.12026385175239587
+      },
+      "absolute_errors": {
+        "development_median": 0.05792408811930749,
+        "development_mean": 0.05820141878131421,
+        "composition_ridge": 0.06318776388904364,
+        "codon_composition_ridge": 0.06670550979551497,
+        "nearest_CDS": 0.08948602015309899,
+        "codon_composition_MUP_ridge": 0.06667993774895112
+      }
+    },
+    {
+      "SequenceID": "930017D1",
+      "target": 0.169824605925858,
+      "predictions": {
+        "development_median": 0.1290197013820395,
+        "development_mean": 0.12874237072003278,
+        "composition_ridge": 0.13069289971402706,
+        "codon_composition_ridge": 0.13229690407952302,
+        "nearest_CDS": 0.144423020136566,
+        "codon_composition_MUP_ridge": 0.13223341595096008
+      },
+      "absolute_errors": {
+        "development_median": 0.04080490454381849,
+        "development_mean": 0.04108223520582521,
+        "composition_ridge": 0.03913170621183093,
+        "codon_composition_ridge": 0.03752770184633497,
+        "nearest_CDS": 0.025401585789291997,
+        "codon_composition_MUP_ridge": 0.03759118997489791
+      }
+    },
+    {
+      "SequenceID": "930018D1",
+      "target": 0.202372500318527,
+      "predictions": {
+        "development_median": 0.1290197013820395,
+        "development_mean": 0.12874237072003278,
+        "composition_ridge": 0.13008558759444147,
+        "codon_composition_ridge": 0.13137021139302657,
+        "nearest_CDS": 0.144423020136566,
+        "codon_composition_MUP_ridge": 0.13131241281425504
+      },
+      "absolute_errors": {
+        "development_median": 0.0733527989364875,
+        "development_mean": 0.07363012959849422,
+        "composition_ridge": 0.07228691272408552,
+        "codon_composition_ridge": 0.07100228892550042,
+        "nearest_CDS": 0.057949480181961,
+        "codon_composition_MUP_ridge": 0.07106008750427195
+      }
+    },
+    {
+      "SequenceID": "930019D1",
+      "target": 0.19259650784941,
+      "predictions": {
+        "development_median": 0.1290197013820395,
+        "development_mean": 0.12874237072003278,
+        "composition_ridge": 0.13170563528089846,
+        "codon_composition_ridge": 0.13054927076772116,
+        "nearest_CDS": 0.1480157082682655,
+        "codon_composition_MUP_ridge": 0.1305251913667813
+      },
+      "absolute_errors": {
+        "development_median": 0.06357680646737049,
+        "development_mean": 0.06385413712937721,
+        "composition_ridge": 0.06089087256851153,
+        "codon_composition_ridge": 0.06204723708168883,
+        "nearest_CDS": 0.0445807995811445,
+        "codon_composition_MUP_ridge": 0.062071316482628675
+      }
+    },
+    {
+      "SequenceID": "930020D1",
+      "target": 0.177011677776583,
+      "predictions": {
+        "development_median": 0.1290197013820395,
+        "development_mean": 0.12874237072003278,
+        "composition_ridge": 0.12768772943349463,
+        "codon_composition_ridge": 0.11942666198404336,
+        "nearest_CDS": 0.097457769348248,
+        "codon_composition_MUP_ridge": 0.11982709835832511
+      },
+      "absolute_errors": {
+        "development_median": 0.0479919763945435,
+        "development_mean": 0.04826930705655022,
+        "composition_ridge": 0.04932394834308837,
+        "codon_composition_ridge": 0.057585015792539634,
+        "nearest_CDS": 0.079553908428335,
+        "codon_composition_MUP_ridge": 0.057184579418257886
+      }
+    },
+    {
+      "SequenceID": "930022D1",
+      "target": 0.149482672655776,
+      "predictions": {
+        "development_median": 0.1290197013820395,
+        "development_mean": 0.12874237072003278,
+        "composition_ridge": 0.12833607354436624,
+        "codon_composition_ridge": 0.1203267865093655,
+        "nearest_CDS": 0.107648843499594,
+        "codon_composition_MUP_ridge": 0.12060140513322914
+      },
+      "absolute_errors": {
+        "development_median": 0.020462971273736502,
+        "development_mean": 0.02074030193574322,
+        "composition_ridge": 0.02114659911140976,
+        "codon_composition_ridge": 0.0291558861464105,
+        "nearest_CDS": 0.041833829156182,
+        "codon_composition_MUP_ridge": 0.028881267522546855
+      }
+    },
+    {
+      "SequenceID": "930023D1",
+      "target": 0.142423687638897,
+      "predictions": {
+        "development_median": 0.1290197013820395,
+        "development_mean": 0.12874237072003278,
+        "composition_ridge": 0.1426954083139475,
+        "codon_composition_ridge": 0.13298216040502367,
+        "nearest_CDS": 0.08858143583076,
+        "codon_composition_MUP_ridge": 0.13317985532563298
+      },
+      "absolute_errors": {
+        "development_median": 0.013403986256857514,
+        "development_mean": 0.013681316918864234,
+        "composition_ridge": 0.0002717206750504908,
+        "codon_composition_ridge": 0.009441527233873342,
+        "nearest_CDS": 0.05384225180813701,
+        "codon_composition_MUP_ridge": 0.009243832313264033
+      }
+    },
+    {
+      "SequenceID": "930024D1",
+      "target": 0.11443411422226,
+      "predictions": {
+        "development_median": 0.1290197013820395,
+        "development_mean": 0.12874237072003278,
+        "composition_ridge": 0.1417588156280421,
+        "codon_composition_ridge": 0.136507989527883,
+        "nearest_CDS": 0.171781974445933,
+        "codon_composition_MUP_ridge": 0.13664624533252837
+      },
+      "absolute_errors": {
+        "development_median": 0.014585587159779492,
+        "development_mean": 0.014308256497772773,
+        "composition_ridge": 0.027324701405782095,
+        "codon_composition_ridge": 0.022073875305623006,
+        "nearest_CDS": 0.05734786022367298,
+        "codon_composition_MUP_ridge": 0.02221213111026836
+      }
+    },
+    {
+      "SequenceID": "930026D1",
+      "target": 0.119300376811587,
+      "predictions": {
+        "development_median": 0.1290197013820395,
+        "development_mean": 0.12874237072003278,
+        "composition_ridge": 0.12690806739608548,
+        "codon_composition_ridge": 0.1311355884377333,
+        "nearest_CDS": 0.117616265655868,
+        "codon_composition_MUP_ridge": 0.1311399098049934
+      },
+      "absolute_errors": {
+        "development_median": 0.009719324570452492,
+        "development_mean": 0.009441993908445773,
+        "composition_ridge": 0.007607690584498478,
+        "codon_composition_ridge": 0.011835211626146286,
+        "nearest_CDS": 0.0016841111557190092,
+        "codon_composition_MUP_ridge": 0.011839532993406399
+      }
+    },
+    {
+      "SequenceID": "930027D1",
+      "target": 0.110454913609183,
+      "predictions": {
+        "development_median": 0.1290197013820395,
+        "development_mean": 0.12874237072003278,
+        "composition_ridge": 0.13010119378338525,
+        "codon_composition_ridge": 0.12447481937905189,
+        "nearest_CDS": 0.130018509814752,
+        "codon_composition_MUP_ridge": 0.12444430946298064
+      },
+      "absolute_errors": {
+        "development_median": 0.0185647877728565,
+        "development_mean": 0.01828745711084978,
+        "composition_ridge": 0.019646280174202252,
+        "codon_composition_ridge": 0.01401990576986889,
+        "nearest_CDS": 0.019563596205568995,
+        "codon_composition_MUP_ridge": 0.013989395853797645
+      }
+    }
+  ],
+  "leave_one_holdout_row_out": [
+    {
+      "omitted_id": "930011D1",
+      "mae": {
+        "development_median": 0.03396093348112721,
+        "development_mean": 0.03404017081312914,
+        "composition_ridge": 0.03131566218442839,
+        "codon_composition_ridge": 0.03246454350027396,
+        "nearest_CDS": 0.04141635822742007,
+        "codon_composition_MUP_ridge": 0.0324254531739642
+      },
+      "at_least_ten_percent_better_than_every_baseline": false,
+      "fractional_gains": {
+        "development_median": 0.045213136088155914,
+        "development_mean": 0.04743565030943253,
+        "composition_ridge": -0.035438847915777005,
+        "codon_composition_ridge": 0.001204092899363629,
+        "nearest_CDS": 0.21708584332997594
+      },
+      "zero_error_baselines": []
+    },
+    {
+      "omitted_id": "930012D1",
+      "mae": {
+        "development_median": 0.03351873450508599,
+        "development_mean": 0.03359797183708792,
+        "composition_ridge": 0.03142839980239744,
+        "codon_composition_ridge": 0.03274260330065311,
+        "nearest_CDS": 0.03937632594315328,
+        "codon_composition_MUP_ridge": 0.032702508770519646
+      },
+      "at_least_ten_percent_better_than_every_baseline": false,
+      "fractional_gains": {
+        "development_median": 0.024351329088587503,
+        "development_mean": 0.02665229529062796,
+        "composition_ridge": -0.040540052186335274,
+        "codon_composition_ridge": 0.0012245370279602152,
+        "nearest_CDS": 0.16948806199614652
+      },
+      "zero_error_baselines": []
+    },
+    {
+      "omitted_id": "930013D1",
+      "mae": {
+        "development_median": 0.033816959611762995,
+        "development_mean": 0.033896196943764924,
+        "composition_ridge": 0.03139868332100126,
+        "codon_composition_ridge": 0.03294270884750982,
+        "nearest_CDS": 0.04230127795247114,
+        "codon_composition_MUP_ridge": 0.03290157279992292
+      },
+      "at_least_ten_percent_better_than_every_baseline": false,
+      "fractional_gains": {
+        "development_median": 0.027068867880176484,
+        "development_mean": 0.029343237103918396,
+        "composition_ridge": -0.04786472934412633,
+        "codon_composition_ridge": 0.001248714784728877,
+        "nearest_CDS": 0.22220853854839906
+      },
+      "zero_error_baselines": []
+    },
+    {
+      "omitted_id": "930014D1",
+      "mae": {
+        "development_median": 0.03415136010678814,
+        "development_mean": 0.03427021610479103,
+        "composition_ridge": 0.03087511837664969,
+        "codon_composition_ridge": 0.03220182665532355,
+        "nearest_CDS": 0.04198266076980582,
+        "codon_composition_MUP_ridge": 0.03216330345169342
+      },
+      "at_least_ten_percent_better_than_every_baseline": false,
+      "fractional_gains": {
+        "development_median": 0.05821310333990348,
+        "development_mean": 0.06147940960322851,
+        "composition_ridge": -0.041722433557306315,
+        "codon_composition_ridge": 0.001196304919048985,
+        "nearest_CDS": 0.2338907810525087
+      },
+      "zero_error_baselines": []
+    },
+    {
+      "omitted_id": "930015D1",
+      "mae": {
+        "development_median": 0.033302810228067636,
+        "development_mean": 0.033421666226070526,
+        "composition_ridge": 0.029921660947437954,
+        "codon_composition_ridge": 0.03180197119435583,
+        "nearest_CDS": 0.04112880098637107,
+        "codon_composition_MUP_ridge": 0.03175444619351066
+      },
+      "at_least_ten_percent_better_than_every_baseline": false,
+      "fractional_gains": {
+        "development_median": 0.04649349481179865,
+        "development_mean": 0.04988440795508142,
+        "composition_ridge": -0.06125279105636139,
+        "codon_composition_ridge": 0.0014944042479230202,
+        "nearest_CDS": 0.2279267707309729
+      },
+      "zero_error_baselines": []
+    },
+    {
+      "omitted_id": "930016D1",
+      "mae": {
+        "development_median": 0.031614778340842996,
+        "development_mean": 0.031694015672844925,
+        "composition_ridge": 0.027778287385770158,
+        "codon_composition_ridge": 0.028963124111929767,
+        "nearest_CDS": 0.036744435910957,
+        "codon_composition_MUP_ridge": 0.028924802848865293
+      },
+      "at_least_ten_percent_better_than_every_baseline": false,
+      "fractional_gains": {
+        "development_median": 0.08508601461559306,
+        "development_mean": 0.08737336576608878,
+        "composition_ridge": -0.04127379946693388,
+        "codon_composition_ridge": 0.0013231053016372618,
+        "nearest_CDS": 0.21281135138503882
+      },
+      "zero_error_baselines": []
+    },
+    {
+      "omitted_id": "930017D1",
+      "mae": {
+        "development_median": 0.03283757716766363,
+        "development_mean": 0.03291681449966556,
+        "composition_ridge": 0.029496577219856785,
+        "codon_composition_ridge": 0.031047253251156908,
+        "nearest_CDS": 0.041321895508371786,
+        "codon_composition_MUP_ridge": 0.031002570547011946
+      },
+      "at_least_ten_percent_better_than_every_baseline": false,
+      "fractional_gains": {
+        "development_median": 0.05588130364437127,
+        "development_mean": 0.05815398548583928,
+        "composition_ridge": -0.05105654516895419,
+        "codon_composition_ridge": 0.001439183807453115,
+        "nearest_CDS": 0.24973019350647052
+      },
+      "zero_error_baselines": []
+    },
+    {
+      "omitted_id": "930018D1",
+      "mae": {
+        "development_median": 0.030512727568187285,
+        "development_mean": 0.03059196490018921,
+        "composition_ridge": 0.027128348183267165,
+        "codon_composition_ridge": 0.02865621131693081,
+        "nearest_CDS": 0.038997045908895425,
+        "codon_composition_MUP_ridge": 0.028611935009199518
+      },
+      "at_least_ten_percent_better_than_every_baseline": false,
+      "fractional_gains": {
+        "development_median": 0.06229507194137385,
+        "development_mean": 0.06472385469353903,
+        "composition_ridge": -0.054687694802127096,
+        "codon_composition_ridge": 0.0015450858887661179,
+        "nearest_CDS": 0.2663050663877853
+      },
+      "zero_error_baselines": []
+    },
+    {
+      "omitted_id": "930019D1",
+      "mae": {
+        "development_median": 0.031211012744552784,
+        "development_mean": 0.03129025007655471,
+        "composition_ridge": 0.027942351051522454,
+        "codon_composition_ridge": 0.02929585787720306,
+        "nearest_CDS": 0.03995195166609661,
+        "codon_composition_MUP_ridge": 0.029253990082174042
+      },
+      "at_least_ten_percent_better_than_every_baseline": false,
+      "fractional_gains": {
+        "development_median": 0.0627029529094758,
+        "development_mean": 0.06507650112730823,
+        "composition_ridge": -0.04694089728645512,
+        "codon_composition_ridge": 0.0014291370201382492,
+        "nearest_CDS": 0.26777068798370873
+      },
+      "zero_error_baselines": []
+    },
+    {
+      "omitted_id": "930020D1",
+      "mae": {
+        "development_median": 0.03232421489261185,
+        "development_mean": 0.03240345222461378,
+        "composition_ridge": 0.028768559924766963,
+        "codon_composition_ridge": 0.029614587969285146,
+        "nearest_CDS": 0.03745387246272586,
+        "codon_composition_MUP_ridge": 0.029603042729629093
+      },
+      "at_least_ten_percent_better_than_every_baseline": false,
+      "fractional_gains": {
+        "development_median": 0.08418370475580272,
+        "development_mean": 0.08642318341801514,
+        "composition_ridge": -0.029006763183294426,
+        "codon_composition_ridge": 0.00038984974796973937,
+        "nearest_CDS": 0.20961329808846652
+      },
+      "zero_error_baselines": []
+    },
+    {
+      "omitted_id": "930022D1",
+      "mae": {
+        "development_median": 0.03429057240124093,
+        "development_mean": 0.03436980973324284,
+        "composition_ridge": 0.03078122772702973,
+        "codon_composition_ridge": 0.0316452400868658,
+        "nearest_CDS": 0.04014816383930821,
+        "codon_composition_MUP_ridge": 0.03162470786503702
+      },
+      "at_least_ten_percent_better_than_every_baseline": false,
+      "fractional_gains": {
+        "development_median": 0.07774336645682334,
+        "development_mean": 0.0798695683657139,
+        "composition_ridge": -0.027402420250658643,
+        "codon_composition_ridge": 0.000648824966169137,
+        "nearest_CDS": 0.2123000197066559
+      },
+      "zero_error_baselines": []
+    },
+    {
+      "omitted_id": "930023D1",
+      "mae": {
+        "development_median": 0.03479478561673228,
+        "development_mean": 0.0348740229487342,
+        "composition_ridge": 0.032272290472483964,
+        "codon_composition_ridge": 0.03305340858061845,
+        "nearest_CDS": 0.03929041936416856,
+        "codon_composition_MUP_ridge": 0.03302738180855723
+      },
+      "at_least_ten_percent_better_than_every_baseline": false,
+      "fractional_gains": {
+        "development_median": 0.05079507681533557,
+        "development_mean": 0.052951767075785416,
+        "composition_ridge": -0.023397513006307102,
+        "codon_composition_ridge": 0.0007874156759881679,
+        "nearest_CDS": 0.15940368305976893
+      },
+      "zero_error_baselines": []
+    },
+    {
+      "omitted_id": "930024D1",
+      "mae": {
+        "development_median": 0.034710385552237856,
+        "development_mean": 0.03482924155024074,
+        "composition_ridge": 0.030339934706003133,
+        "codon_composition_ridge": 0.032151098004064904,
+        "nearest_CDS": 0.039040018763058855,
+        "codon_composition_MUP_ridge": 0.03210107475162834
+      },
+      "at_least_ten_percent_better_than_every_baseline": false,
+      "fractional_gains": {
+        "development_median": 0.07517377750479304,
+        "development_mean": 0.07832977915057526,
+        "composition_ridge": -0.05804692932568334,
+        "codon_composition_ridge": 0.0015558800645077975,
+        "nearest_CDS": 0.17773925913161714
+      },
+      "zero_error_baselines": []
+    },
+    {
+      "omitted_id": "930026D1",
+      "mae": {
+        "development_median": 0.03505797573718978,
+        "development_mean": 0.03517683173519266,
+        "composition_ridge": 0.03174829262180911,
+        "codon_composition_ridge": 0.03288243112402752,
+        "nearest_CDS": 0.04301600083934128,
+        "codon_composition_MUP_ridge": 0.032841974617118484
+      },
+      "at_least_ten_percent_better_than_every_baseline": false,
+      "fractional_gains": {
+        "development_median": 0.06320961417405924,
+        "development_mean": 0.06637485534941656,
+        "composition_ridge": -0.034448529511098336,
+        "codon_composition_ridge": 0.0012303380719157486,
+        "nearest_CDS": 0.23651724994662704
+      },
+      "zero_error_baselines": []
+    },
+    {
+      "omitted_id": "930027D1",
+      "mae": {
+        "development_median": 0.03442615693701807,
+        "development_mean": 0.03454501293502095,
+        "composition_ridge": 0.03088839336540169,
+        "codon_composition_ridge": 0.03272638154233305,
+        "nearest_CDS": 0.041738894764352,
+        "codon_composition_MUP_ridge": 0.032688412984233396
+      },
+      "at_least_ten_percent_better_than_every_baseline": false,
+      "fractional_gains": {
+        "development_median": 0.05047743075022393,
+        "development_mean": 0.05374436982495312,
+        "composition_ridge": -0.05827495129118376,
+        "codon_composition_ridge": 0.0011601819788888967,
+        "nearest_CDS": 0.21683568362831596
+      },
+      "zero_error_baselines": []
+    }
+  ],
+  "influence_gain_ranges": {
+    "development_median": {
+      "minimum": 0.024351329088587503,
+      "maximum": 0.08508601461559306,
+      "undefined_omissions": 0
+    },
+    "development_mean": {
+      "minimum": 0.02665229529062796,
+      "maximum": 0.08737336576608878,
+      "undefined_omissions": 0
+    },
+    "composition_ridge": {
+      "minimum": -0.06125279105636139,
+      "maximum": -0.023397513006307102,
+      "undefined_omissions": 0
+    },
+    "codon_composition_ridge": {
+      "minimum": 0.00038984974796973937,
+      "maximum": 0.0015558800645077975,
+      "undefined_omissions": 0
+    },
+    "nearest_CDS": {
+      "minimum": 0.15940368305976893,
+      "maximum": 0.26777068798370873,
+      "undefined_omissions": 0
+    }
+  },
+  "influence_interpretation": "Dependent sensitivity diagnostics, not confidence intervals",
+  "estimand": "Deposited cellular degradation coefficient, original numeric units",
+  "prediction_freeze": {
+    "prediction_sha256": "2a22b0977afc031bfd2eceba15f5769daffad51f01a11319e81f787c7090a103",
+    "commit": "a6a2ded62c3fd7581f04cff29d490fbb8796b9d2",
+    "git_path": "results/programme/persist_v2/train/predictions.json",
+    "repository": "C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\outputs\\synonymous-rna-accessibility",
+    "remote_main_verified": "a6a2ded62c3fd7581f04cff29d490fbb8796b9d2",
+    "holdout_outcomes_decoded_before_this_freeze": 0
+  },
+  "protocol_sha256": "a3dc686a23acaa12af2f2f44154b8baac819cb6df3a0a6d81328dd3ebdc5fd24"
+}

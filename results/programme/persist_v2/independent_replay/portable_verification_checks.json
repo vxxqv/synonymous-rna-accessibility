@@ -1,0 +1,92 @@
+{
+  "status": "passed",
+  "successful_fresh_replay": "portable_verification_receipt.json",
+  "receipt_sha256": "faf407329bc2336d0f74d0a9f3f2d9510d7f4516f7f8458306a6fe5ebf5390cd",
+  "source_evaluator_unchanged": true,
+  "source_evaluator_sha256": "0711ae066da3c443312451e42fcbb651fad8280e5d7173838c3787b3990a1bd0",
+  "original_input_sha256_before": {
+    "work/persist_cycle3/independent_result_review/design.md": "60fb7ebc4a2f4acaa8e14a5a2b0e5247b088bbe19d4d32f906960f128344667e",
+    "work/persist_cycle3/independent_result_review/evaluator.py": "0711ae066da3c443312451e42fcbb651fad8280e5d7173838c3787b3990a1bd0",
+    "work/persist_cycle3/independent_result_review/exposure_ledger.json": "faf3e8f69aafde82d9181f49122832b42e0b01099d7231b5b29aca240afbd7af",
+    "work/persist_cycle3/independent_result_review/freeze.json": "f7946499df163f8ac15aabc39ee1829e821af674784963bc4fbd9a005495160d",
+    "work/persist_cycle3/independent_result_review/result_manifest.json": "837666521bfb09ff92f7b1076a7e497e1cae2c22622e0c14b4e531d14983cb8f",
+    "work/persist_cycle3/independent_result_review/review.md": "ae9b6b3c5b9a954cd562fed52e5d4873f6442f2bb8adfc20c948cdb3d16943dc",
+    "work/persist_cycle3/independent_result_review/test_synthetic.py": "4f0381b0dee386d8250bd514fc4f9f277a64e62fa294041e60c907241a7c4f5b",
+    "work/persist_cycle3/independent_result_review/observed_v1/independent_predictions.json": "abc1c1c90f4ebb94813c948a86f9f20cbdbd128de96f8f9875320f9a1e600baf",
+    "work/persist_cycle3/independent_result_review/observed_v1/independent_validation.json": "6b14de5c30ba81e86fa537e75dac3b9cbfcf77885eac0d810f1faa5c89bab91b",
+    "work/persist_cycle3/independent_result_review/observed_v1/receipt.json": "c46d8a28640f709d7728402e07e36de102eb84de191d82c920223cec4ae984fc",
+    "work/persist_cycle3/independent_result_review/synthetic_v1/receipt.json": "b515d156ac39bfd1c5e1fae7dc6c801492a44bfb422cda6d40ad2c7dbcd8e360",
+    "work/persist_cycle3/independent_result_review/synthetic_v1/unittest.txt": "7c5a311c20da3eca9e05a8c1cd4a95763977b4cf580877c46d108aa5fcc8593f",
+    "work/persist_cycle3/independent_result_review/synthetic_v2/receipt.json": "16728a7a534b42a08de23ac3efa06a24f0cfc2e2d224d7b5d9320bb3defd3b3a",
+    "work/persist_cycle3/independent_result_review/synthetic_v2/unittest.txt": "da673fb3e7ca72722e3c7264844fdd12783f0f4991b8356bcfacd9901c0941ff",
+    "work/persist_cycle3/independent_result_review/history/pre_unit_tolerance/evaluator.py": "e8e2bc4c3d559ad380ab30c933c39c2856cb49783470ef21f620256003948bf3",
+    "work/persist_cycle3/independent_result_review/history/pre_unit_tolerance/synthetic_receipt.json": "b515d156ac39bfd1c5e1fae7dc6c801492a44bfb422cda6d40ad2c7dbcd8e360",
+    "work/persist_cycle3/independent_result_review/history/pre_unit_tolerance/test_synthetic.py": "1f284c39405c7e8255841b6ffcde406a174f6458bff6aae37ec6b020d892445c",
+    "work/persist_cycle3/independent_inputs_v2/authorization.json": "195143964b560bb88316347c8b91c4599905ec1a714801a3b322e2556853ee62"
+  },
+  "original_input_sha256_after": {
+    "work/persist_cycle3/independent_result_review/design.md": "60fb7ebc4a2f4acaa8e14a5a2b0e5247b088bbe19d4d32f906960f128344667e",
+    "work/persist_cycle3/independent_result_review/evaluator.py": "0711ae066da3c443312451e42fcbb651fad8280e5d7173838c3787b3990a1bd0",
+    "work/persist_cycle3/independent_result_review/exposure_ledger.json": "faf3e8f69aafde82d9181f49122832b42e0b01099d7231b5b29aca240afbd7af",
+    "work/persist_cycle3/independent_result_review/freeze.json": "f7946499df163f8ac15aabc39ee1829e821af674784963bc4fbd9a005495160d",
+    "work/persist_cycle3/independent_result_review/result_manifest.json": "837666521bfb09ff92f7b1076a7e497e1cae2c22622e0c14b4e531d14983cb8f",
+    "work/persist_cycle3/independent_result_review/review.md": "ae9b6b3c5b9a954cd562fed52e5d4873f6442f2bb8adfc20c948cdb3d16943dc",
+    "work/persist_cycle3/independent_result_review/test_synthetic.py": "4f0381b0dee386d8250bd514fc4f9f277a64e62fa294041e60c907241a7c4f5b",
+    "work/persist_cycle3/independent_result_review/observed_v1/independent_predictions.json": "abc1c1c90f4ebb94813c948a86f9f20cbdbd128de96f8f9875320f9a1e600baf",
+    "work/persist_cycle3/independent_result_review/observed_v1/independent_validation.json": "6b14de5c30ba81e86fa537e75dac3b9cbfcf77885eac0d810f1faa5c89bab91b",
+    "work/persist_cycle3/independent_result_review/observed_v1/receipt.json": "c46d8a28640f709d7728402e07e36de102eb84de191d82c920223cec4ae984fc",
+    "work/persist_cycle3/independent_result_review/synthetic_v1/receipt.json": "b515d156ac39bfd1c5e1fae7dc6c801492a44bfb422cda6d40ad2c7dbcd8e360",
+    "work/persist_cycle3/independent_result_review/synthetic_v1/unittest.txt": "7c5a311c20da3eca9e05a8c1cd4a95763977b4cf580877c46d108aa5fcc8593f",
+    "work/persist_cycle3/independent_result_review/synthetic_v2/receipt.json": "16728a7a534b42a08de23ac3efa06a24f0cfc2e2d224d7b5d9320bb3defd3b3a",
+    "work/persist_cycle3/independent_result_review/synthetic_v2/unittest.txt": "da673fb3e7ca72722e3c7264844fdd12783f0f4991b8356bcfacd9901c0941ff",
+    "work/persist_cycle3/independent_result_review/history/pre_unit_tolerance/evaluator.py": "e8e2bc4c3d559ad380ab30c933c39c2856cb49783470ef21f620256003948bf3",
+    "work/persist_cycle3/independent_result_review/history/pre_unit_tolerance/synthetic_receipt.json": "b515d156ac39bfd1c5e1fae7dc6c801492a44bfb422cda6d40ad2c7dbcd8e360",
+    "work/persist_cycle3/independent_result_review/history/pre_unit_tolerance/test_synthetic.py": "1f284c39405c7e8255841b6ffcde406a174f6458bff6aae37ec6b020d892445c",
+    "work/persist_cycle3/independent_inputs_v2/authorization.json": "195143964b560bb88316347c8b91c4599905ec1a714801a3b322e2556853ee62"
+  },
+  "repository_reference_sha256_before": {
+    "analysis/programme/retrospective/persist_v2/protocol.json": "a3dc686a23acaa12af2f2f44154b8baac819cb6df3a0a6d81328dd3ebdc5fd24",
+    "analysis/programme/retrospective/persist_v2/persist_prediction.py": "962f953ed17574db96f5ba0cde4827486830244941ea745bb34fb697a5514aaa",
+    "results/programme/persist_v2/train/features.json": "3d2f6cbc2804e4a07932f9850e6955c5dd2b0513dfcaa7a5f74f47ba0009229f",
+    "results/programme/persist_v2/train/predictions.json": "2a22b0977afc031bfd2eceba15f5769daffad51f01a11319e81f787c7090a103",
+    "results/programme/persist_v2/validate/validation.json": "a8aff2366b9735002cc6fb1c0ca844f3b04fcb009c2563acb79a4af93d98a86e"
+  },
+  "repository_reference_sha256_after": {
+    "analysis/programme/retrospective/persist_v2/protocol.json": "a3dc686a23acaa12af2f2f44154b8baac819cb6df3a0a6d81328dd3ebdc5fd24",
+    "analysis/programme/retrospective/persist_v2/persist_prediction.py": "962f953ed17574db96f5ba0cde4827486830244941ea745bb34fb697a5514aaa",
+    "results/programme/persist_v2/train/features.json": "3d2f6cbc2804e4a07932f9850e6955c5dd2b0513dfcaa7a5f74f47ba0009229f",
+    "results/programme/persist_v2/train/predictions.json": "2a22b0977afc031bfd2eceba15f5769daffad51f01a11319e81f787c7090a103",
+    "results/programme/persist_v2/validate/validation.json": "a8aff2366b9735002cc6fb1c0ca844f3b04fcb009c2563acb79a4af93d98a86e"
+  },
+  "no_git_in_test_tree_or_ancestors": true,
+  "replayed_models": 6,
+  "replayed_influence_records": 15,
+  "synthetic_checks": 12,
+  "primary_success": false,
+  "raw_independent_output_identity": {
+    "independent_predictions.json": true,
+    "independent_validation.json": true
+  },
+  "refusal_checks": {
+    "-O": {
+      "exit_status": 1,
+      "failed_before_repository_input_read_and_output": true
+    },
+    "-OO": {
+      "exit_status": 1,
+      "failed_before_repository_input_read_and_output": true
+    },
+    "existing_output": {
+      "exit_status": 1,
+      "rejected_before_replay": true
+    },
+    "in_repository_output": {
+      "exit_status": 1,
+      "rejected_before_replay": true
+    }
+  },
+  "no_bytecode_generated": true,
+  "only_approved37_target_cells_used": true,
+  "no_full_table_or_unrelated_outcome_read": true,
+  "windows_staging_incident": "Initial long-path directory creation failed before calculations; local extended-length paths resolved staging, with no source change and no such dependency in repository-relative distribution"
+}

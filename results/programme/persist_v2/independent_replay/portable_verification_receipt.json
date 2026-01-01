@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "started_at": "2026-10-25T08:26:15.270862+00:00",
+  "software": {
+    "Python": "3.12.14",
+    "NumPy": "2.5.4"
+  },
+  "hardware": "Windows-11-10.0.26300-SP0; AMD64",
+  "wrapper_sha256": "0fcdbfbd2b920c4cac11656028e001f5774b578c7a68d6239430f626774dc552",
+  "input_manifest_sha256": "bf4d278151ec3b23874bb1f1edd792e9c4c2a2093482a8fbb796d6527325020a",
+  "output_outside_repository": true,
+  "assertions_enabled": true,
+  "status": "passed",
+  "all_six_models_and_fifteen_influence_records_reproduced": true,
+  "synthetic_tests": 12,
+  "historical_output_comparisons": {
+    "independent_predictions.json": {
+      "numeric_leaves": 45009,
+      "exact_leaves": 4203,
+      "maximum_absolute_numeric_difference": 0.0
+    },
+    "independent_validation.json": {
+      "numeric_leaves": 396,
+      "exact_leaves": 50,
+      "maximum_absolute_numeric_difference": 0.0
+    }
+  },
+  "raw_independent_output_bytes_identical_on_this_host": {
+    "independent_predictions.json": true,
+    "independent_validation.json": true
+  },
+  "author_comparison_receipt": "numerical/receipt.json",
+  "primary_success": false,
+  "all_fifteen_influence_success_decisions": false,
+  "input_sha256_before": {
+    "analysis/programme/retrospective/persist_v2/independent_replay/README.md": "3db7ce274f30da8ada6b6e7fc8678b960ffa1a807fef3f34f0f62545cb1aadf4",
+    "analysis/programme/retrospective/persist_v2/independent_replay/replay.py": "0fcdbfbd2b920c4cac11656028e001f5774b578c7a68d6239430f626774dc552",
+    "analysis/programme/retrospective/persist_v2/independent_replay/requirements.txt": "738071c1d9633f276433ad6738de256d2bf0d22f66dc4bd3179012bebb63bdd1",
+    "analysis/programme/retrospective/persist_v2/independent_replay/frozen/evaluator.py": "0711ae066da3c443312451e42fcbb651fad8280e5d7173838c3787b3990a1bd0",
+    "analysis/programme/retrospective/persist_v2/independent_replay/frozen/test_synthetic.py": "4f0381b0dee386d8250bd514fc4f9f277a64e62fa294041e60c907241a7c4f5b",
+    "results/programme/persist_v2/independent_replay/original_evidence.zip": "05e0fe4268a41df1342e071dca54433bbe053ae0b9d4e91ec39d043f2bb6609f",
+    "results/programme/persist_v2/independent_replay/inputs/cds.json": "fb3c75b940be1527068901fade16364faf73d81854e4191bd6c733894020b08f",
+    "results/programme/persist_v2/independent_replay/inputs/selected_targets.json": "b00ef18aabf774780d5ed5e888ce6338e45b2e54abf3e179e9e76d989c752f91",
+    "analysis/programme/retrospective/persist_v2/protocol.json": "a3dc686a23acaa12af2f2f44154b8baac819cb6df3a0a6d81328dd3ebdc5fd24",
+    "analysis/programme/retrospective/persist_v2/persist_prediction.py": "962f953ed17574db96f5ba0cde4827486830244941ea745bb34fb697a5514aaa",
+    "results/programme/persist_v2/train/features.json": "3d2f6cbc2804e4a07932f9850e6955c5dd2b0513dfcaa7a5f74f47ba0009229f",
+    "results/programme/persist_v2/train/predictions.json": "2a22b0977afc031bfd2eceba15f5769daffad51f01a11319e81f787c7090a103",
+    "results/programme/persist_v2/validate/validation.json": "a8aff2366b9735002cc6fb1c0ca844f3b04fcb009c2563acb79a4af93d98a86e"
+  },
+  "input_sha256_after": {
+    "analysis/programme/retrospective/persist_v2/independent_replay/README.md": "3db7ce274f30da8ada6b6e7fc8678b960ffa1a807fef3f34f0f62545cb1aadf4",
+    "analysis/programme/retrospective/persist_v2/independent_replay/replay.py": "0fcdbfbd2b920c4cac11656028e001f5774b578c7a68d6239430f626774dc552",
+    "analysis/programme/retrospective/persist_v2/independent_replay/requirements.txt": "738071c1d9633f276433ad6738de256d2bf0d22f66dc4bd3179012bebb63bdd1",
+    "analysis/programme/retrospective/persist_v2/independent_replay/frozen/evaluator.py": "0711ae066da3c443312451e42fcbb651fad8280e5d7173838c3787b3990a1bd0",
+    "analysis/programme/retrospective/persist_v2/independent_replay/frozen/test_synthetic.py": "4f0381b0dee386d8250bd514fc4f9f277a64e62fa294041e60c907241a7c4f5b",
+    "results/programme/persist_v2/independent_replay/original_evidence.zip": "05e0fe4268a41df1342e071dca54433bbe053ae0b9d4e91ec39d043f2bb6609f",
+    "results/programme/persist_v2/independent_replay/inputs/cds.json": "fb3c75b940be1527068901fade16364faf73d81854e4191bd6c733894020b08f",
+    "results/programme/persist_v2/independent_replay/inputs/selected_targets.json": "b00ef18aabf774780d5ed5e888ce6338e45b2e54abf3e179e9e76d989c752f91",
+    "analysis/programme/retrospective/persist_v2/protocol.json": "a3dc686a23acaa12af2f2f44154b8baac819cb6df3a0a6d81328dd3ebdc5fd24",
+    "analysis/programme/retrospective/persist_v2/persist_prediction.py": "962f953ed17574db96f5ba0cde4827486830244941ea745bb34fb697a5514aaa",
+    "results/programme/persist_v2/train/features.json": "3d2f6cbc2804e4a07932f9850e6955c5dd2b0513dfcaa7a5f74f47ba0009229f",
+    "results/programme/persist_v2/train/predictions.json": "2a22b0977afc031bfd2eceba15f5769daffad51f01a11319e81f787c7090a103",
+    "results/programme/persist_v2/validate/validation.json": "a8aff2366b9735002cc6fb1c0ca844f3b04fcb009c2563acb79a4af93d98a86e"
+  },
+  "all_inputs_immutable": true,
+  "historical_evidence_sha256": {
+    "independent_result_review/design.md": "60fb7ebc4a2f4acaa8e14a5a2b0e5247b088bbe19d4d32f906960f128344667e",
+    "independent_result_review/evaluator.py": "0711ae066da3c443312451e42fcbb651fad8280e5d7173838c3787b3990a1bd0",
+    "independent_result_review/exposure_ledger.json": "faf3e8f69aafde82d9181f49122832b42e0b01099d7231b5b29aca240afbd7af",
+    "independent_result_review/freeze.json": "f7946499df163f8ac15aabc39ee1829e821af674784963bc4fbd9a005495160d",
+    "independent_result_review/result_manifest.json": "837666521bfb09ff92f7b1076a7e497e1cae2c22622e0c14b4e531d14983cb8f",
+    "independent_result_review/review.md": "ae9b6b3c5b9a954cd562fed52e5d4873f6442f2bb8adfc20c948cdb3d16943dc",
+    "independent_result_review/test_synthetic.py": "4f0381b0dee386d8250bd514fc4f9f277a64e62fa294041e60c907241a7c4f5b",
+    "independent_result_review/observed_v1/independent_predictions.json": "abc1c1c90f4ebb94813c948a86f9f20cbdbd128de96f8f9875320f9a1e600baf",
+    "independent_result_review/observed_v1/independent_validation.json": "6b14de5c30ba81e86fa537e75dac3b9cbfcf77885eac0d810f1faa5c89bab91b",
+    "independent_result_review/observed_v1/receipt.json": "c46d8a28640f709d7728402e07e36de102eb84de191d82c920223cec4ae984fc",
+    "independent_result_review/synthetic_v1/receipt.json": "b515d156ac39bfd1c5e1fae7dc6c801492a44bfb422cda6d40ad2c7dbcd8e360",
+    "independent_result_review/synthetic_v1/unittest.txt": "7c5a311c20da3eca9e05a8c1cd4a95763977b4cf580877c46d108aa5fcc8593f",
+    "independent_result_review/synthetic_v2/receipt.json": "16728a7a534b42a08de23ac3efa06a24f0cfc2e2d224d7b5d9320bb3defd3b3a",
+    "independent_result_review/synthetic_v2/unittest.txt": "da673fb3e7ca72722e3c7264844fdd12783f0f4991b8356bcfacd9901c0941ff",
+    "independent_result_review/history/pre_unit_tolerance/evaluator.py": "e8e2bc4c3d559ad380ab30c933c39c2856cb49783470ef21f620256003948bf3",
+    "independent_result_review/history/pre_unit_tolerance/synthetic_receipt.json": "b515d156ac39bfd1c5e1fae7dc6c801492a44bfb422cda6d40ad2c7dbcd8e360",
+    "independent_result_review/history/pre_unit_tolerance/test_synthetic.py": "1f284c39405c7e8255841b6ffcde406a174f6458bff6aae37ec6b020d892445c",
+    "historical_authorization.json": "195143964b560bb88316347c8b91c4599905ec1a714801a3b322e2556853ee62"
+  },
+  "generated_output_sha256": {
+    "portable_authorization.json": "f87d13b3fb0ca47b3830d3c92a90a779ec6407b940be2919c366b60a5ca1b37a",
+    "synthetic/receipt.json": "16728a7a534b42a08de23ac3efa06a24f0cfc2e2d224d7b5d9320bb3defd3b3a",
+    "numerical/receipt.json": "2cb19090a53a8a347f96958842b63d3a5a11cdc428d20545be97d93b7d666f1d",
+    "numerical/independent_predictions.json": "abc1c1c90f4ebb94813c948a86f9f20cbdbd128de96f8f9875320f9a1e600baf",
+    "numerical/independent_validation.json": "6b14de5c30ba81e86fa537e75dac3b9cbfcf77885eac0d810f1faa5c89bab91b"
+  },
+  "historical_git_or_access_order_authenticated": false,
+  "refolding_performed": false,
+  "combined_source_table_read": false,
+  "runtime_network_or_installation_used": false,
+  "scope": "Numerical replay from fixed MUP/features and 37 selected endpoint cells; no cross-platform folding, causal or calibrated-uncertainty claim"
+}

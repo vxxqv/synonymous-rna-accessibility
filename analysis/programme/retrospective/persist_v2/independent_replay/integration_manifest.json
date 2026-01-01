@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "package_id": "PERSIST_V2_INDEPENDENT_REPLAY_INTEGRATION",
+  "files": {
+    "analysis/programme/retrospective/persist_v2/independent_replay/hash_manifest.json": {
+      "sha256": "bf4d278151ec3b23874bb1f1edd792e9c4c2a2093482a8fbb796d6527325020a",
+      "bytes": 6427
+    },
+    "analysis/programme/retrospective/persist_v2/independent_replay/README.md": {
+      "sha256": "3db7ce274f30da8ada6b6e7fc8678b960ffa1a807fef3f34f0f62545cb1aadf4",
+      "bytes": 6218
+    },
+    "analysis/programme/retrospective/persist_v2/independent_replay/replay.py": {
+      "sha256": "0fcdbfbd2b920c4cac11656028e001f5774b578c7a68d6239430f626774dc552",
+      "bytes": 10915
+    },
+    "analysis/programme/retrospective/persist_v2/independent_replay/requirements.txt": {
+      "sha256": "738071c1d9633f276433ad6738de256d2bf0d22f66dc4bd3179012bebb63bdd1",
+      "bytes": 13
+    },
+    "analysis/programme/retrospective/persist_v2/independent_replay/frozen/evaluator.py": {
+      "sha256": "0711ae066da3c443312451e42fcbb651fad8280e5d7173838c3787b3990a1bd0",
+      "bytes": 20888
+    },
+    "analysis/programme/retrospective/persist_v2/independent_replay/frozen/test_synthetic.py": {
+      "sha256": "4f0381b0dee386d8250bd514fc4f9f277a64e62fa294041e60c907241a7c4f5b",
+      "bytes": 13297
+    },
+    "results/programme/persist_v2/independent_replay/original_evidence.zip": {
+      "sha256": "05e0fe4268a41df1342e071dca54433bbe053ae0b9d4e91ec39d043f2bb6609f",
+      "bytes": 333867
+    },
+    "results/programme/persist_v2/independent_replay/portable_verification_checks.json": {
+      "sha256": "fd3725d16f876172ed5b349fef0306c0ba5ccbf3086998bf2b8f75954f1fc46c",
+      "bytes": 8235
+    },
+    "results/programme/persist_v2/independent_replay/portable_verification_receipt.json": {
+      "sha256": "faf407329bc2336d0f74d0a9f3f2d9510d7f4516f7f8458306a6fe5ebf5390cd",
+      "bytes": 8300
+    },
+    "results/programme/persist_v2/independent_replay/inputs/cds.json": {
+      "sha256": "fb3c75b940be1527068901fade16364faf73d81854e4191bd6c733894020b08f",
+      "bytes": 25447
+    },
+    "results/programme/persist_v2/independent_replay/inputs/selected_targets.json": {
+      "sha256": "b00ef18aabf774780d5ed5e888ce6338e45b2e54abf3e179e9e76d989c752f91",
+      "bytes": 1438
+    }
+  },
+  "manifest_self_hash_excluded": true,
+  "self_integrity_anchor": "Externally reported ZIP SHA256",
+  "referenced_existing_repository_inputs": {
+    "analysis/programme/retrospective/persist_v2/protocol.json": "a3dc686a23acaa12af2f2f44154b8baac819cb6df3a0a6d81328dd3ebdc5fd24",
+    "analysis/programme/retrospective/persist_v2/persist_prediction.py": "962f953ed17574db96f5ba0cde4827486830244941ea745bb34fb697a5514aaa",
+    "results/programme/persist_v2/train/features.json": "3d2f6cbc2804e4a07932f9850e6955c5dd2b0513dfcaa7a5f74f47ba0009229f",
+    "results/programme/persist_v2/train/predictions.json": "2a22b0977afc031bfd2eceba15f5769daffad51f01a11319e81f787c7090a103",
+    "results/programme/persist_v2/validate/validation.json": "a8aff2366b9735002cc6fb1c0ca844f3b04fcb009c2563acb79a4af93d98a86e"
+  },
+  "installation": "Extract analysis/ and results/ into the computational repository; no existing file is included or overwritten",
+  "command": "python -I -B analysis/programme/retrospective/persist_v2/independent_replay/replay.py --repo . --out ../persist-independent-replay",
+  "requirements": "Python3.12 with preinstalled NumPy2.5.4",
+  "scope": "Numerical replay only, no MUP refolding or historical access-order authentication"
+}

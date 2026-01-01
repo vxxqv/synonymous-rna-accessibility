@@ -1,0 +1,8 @@
+{
+  "prediction_sha256": "2a22b0977afc031bfd2eceba15f5769daffad51f01a11319e81f787c7090a103",
+  "commit": "a6a2ded62c3fd7581f04cff29d490fbb8796b9d2",
+  "git_path": "results/programme/persist_v2/train/predictions.json",
+  "repository": "C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\outputs\\synonymous-rna-accessibility",
+  "remote_main_verified": "a6a2ded62c3fd7581f04cff29d490fbb8796b9d2",
+  "holdout_outcomes_decoded_before_this_freeze": 0
+}
