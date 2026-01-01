@@ -1,0 +1,131 @@
+{
+  "copied_byte_for_byte": [
+    {
+      "source_at_integration": "work\\uncertainty_cycle3\\revision_2\\claims.md",
+      "path": "claims.md",
+      "sha256": "64870128a7da4e7ffca062b2547f8bf1735469dec827a5e791b1e6ef6448a562"
+    },
+    {
+      "source_at_integration": "work\\uncertainty_cycle3\\revision_2\\affine_polytope.py",
+      "path": "affine_polytope.py",
+      "sha256": "b068f2b2b1faeb7b33e2aa15c5803966e52acc500b77e0f5d476569a6046a8da"
+    },
+    {
+      "source_at_integration": "work\\uncertainty_cycle3\\revision_2\\protocol.json",
+      "path": "protocol.json",
+      "sha256": "c1a405f773dd3995f65e53c12c2af27585745cebd1183dd675d742c8e1ae24e1"
+    },
+    {
+      "source_at_integration": "work\\uncertainty_cycle3\\revision_2\\cases.json",
+      "path": "cases.json",
+      "sha256": "c201f6e8ddaa90e99d117905909f0f366de28258834c7f5d3e5f4a96a34401c7"
+    },
+    {
+      "source_at_integration": "work\\uncertainty_cycle3\\revision_2\\revision_ledger.json",
+      "path": "revision_ledger.json",
+      "sha256": "a616f95bfe89261363c4434e56b0fcfb80ff97f648cd5b8e2fe358ad7bf8a51d"
+    },
+    {
+      "source_at_integration": "work\\uncertainty_cycle3\\revision_2\\exact_recheck.json",
+      "path": "receipts/revision_2_exact.json",
+      "sha256": "c97341a4473ad3f9d8245b9eca77975f7fdc9d40755ff23ac76b131cef8a6e40"
+    },
+    {
+      "source_at_integration": "work\\uncertainty_cycle3\\claims.md",
+      "path": "historical_v1/claims.md",
+      "sha256": "db1e36c8860c32e2b790588d238b5863c595b1cf5b03ca7674a4fc1dd914b027"
+    },
+    {
+      "source_at_integration": "work\\uncertainty_cycle3\\affine_polytope.py",
+      "path": "historical_v1/affine_polytope.py",
+      "sha256": "b068f2b2b1faeb7b33e2aa15c5803966e52acc500b77e0f5d476569a6046a8da"
+    },
+    {
+      "source_at_integration": "work\\uncertainty_cycle3\\protocol.json",
+      "path": "historical_v1/protocol.json",
+      "sha256": "0edbc70f95f2b15b2056da9a9f185c5eb6805f1f7e6877966291494b402e70ae"
+    },
+    {
+      "source_at_integration": "work\\uncertainty_cycle3\\cases.json",
+      "path": "historical_v1/cases.json",
+      "sha256": "a3cc796df4de6459986112bf08c8c61fb1aa8bbc27955d88467d84b77c45afa5"
+    },
+    {
+      "source_at_integration": "work\\uncertainty_cycle3\\verify.py",
+      "path": "historical_v1/verify.py",
+      "sha256": "c43eb200a573dff3afd1ec6d75d4f6dba0b3715c18873a1d875472343a185d59"
+    },
+    {
+      "source_at_integration": "work\\uncertainty_cycle3\\contract.json",
+      "path": "historical_v1/contract.json",
+      "sha256": "3af14286fa849e9fc1f8412c63314b48db5ace85a13620e27f63ddb9e9774c7a"
+    },
+    {
+      "source_at_integration": "work\\uncertainty_cycle3\\recorded_check\\results.json",
+      "path": "historical_v1/recorded_check/results.json",
+      "sha256": "03f2a32ca6183dd9c8853a0d5537b850069250d81544f772bf1614dcf65755a7"
+    },
+    {
+      "source_at_integration": "work\\uncertainty_cycle3\\recorded_check\\freeze.json",
+      "path": "historical_v1/recorded_check/freeze.json",
+      "sha256": "777260fa990d35c5a120101e462a0c85fb9e1fdd2577e1f5ac649c969d1892a1"
+    },
+    {
+      "source_at_integration": "work\\uncertainty_cycle3\\recorded_check\\manifest.json",
+      "path": "historical_v1/recorded_check/manifest.json",
+      "sha256": "1541cd1f6dc402e1a3becd0e489698ec29af21b18195183da22375a87ba4f3ce"
+    },
+    {
+      "source_at_integration": "work\\uncertainty_cycle3\\independent_review\\check_exact.py",
+      "path": "reference/check_exact.py",
+      "sha256": "4f702226326f25d01dd4422db959bf1200810a325a75e01882a5dbbd15cdd010"
+    },
+    {
+      "source_at_integration": "work\\uncertainty_cycle3\\independent_review\\compare_receipts.py",
+      "path": "reference/compare_receipts.py",
+      "sha256": "b77afe5252d6d0abc9925e0a8648807aaec939676a03099a51a24147585c0ecb"
+    },
+    {
+      "source_at_integration": "work\\uncertainty_cycle3\\independent_review\\comparison.json",
+      "path": "reference/comparison.json",
+      "sha256": "d34c1edd3c4b59f295c5c2cca39a6edb9042ef6b0ce1255e3941931c016a53ce"
+    },
+    {
+      "source_at_integration": "work\\uncertainty_cycle3\\independent_review\\contract.json",
+      "path": "reference/contract.json",
+      "sha256": "ddc32e19b089185ea127f2853be8113b2bee1826e058b91a4e667cdc2754f867"
+    },
+    {
+      "source_at_integration": "work\\uncertainty_cycle3\\independent_review\\freeze.json",
+      "path": "reference/freeze.json",
+      "sha256": "8bcac537112c9033abce513c86a1bb7269b7bbaa531e9b05e3fca3d05b099f98"
+    },
+    {
+      "source_at_integration": "work\\uncertainty_cycle3\\independent_review\\independent_results.json",
+      "path": "reference/independent_results.json",
+      "sha256": "8ec37531f2e5d7208deebdcaf5dedb579bdae4b0d22a58450dead04f119db51a"
+    },
+    {
+      "source_at_integration": "work\\uncertainty_cycle3\\independent_review\\manifest.json",
+      "path": "reference/manifest.json",
+      "sha256": "afe9ef387c3ae6d8cbca9925df244360de0c9b544cc76eaa2599e856cd5c0d6e"
+    },
+    {
+      "source_at_integration": "work\\uncertainty_cycle3\\independent_review\\proof_reconstruction.md",
+      "path": "reference/proof_reconstruction.md",
+      "sha256": "7c4d28971da055647ad45075ee0ed0db6a6c51da1250f17902b0da02e7e0a3cb"
+    },
+    {
+      "source_at_integration": "work\\uncertainty_cycle3\\independent_review\\review.md",
+      "path": "reference/review.md",
+      "sha256": "12c5c152c423a509b6d53bd84dad3f7fd501a16637d9f6d3ed622bcc9bc7bbd7"
+    },
+    {
+      "source_at_integration": "work\\uncertainty_cycle3\\recheck_revision_2.py",
+      "path": "receipts/recheck_revision_2_original.py",
+      "sha256": "812d025195130578a39869d8ca5a1f5fd1fe58c70f2cf27cd4b894dc296f2558"
+    }
+  ],
+  "historical_paths": "Original receipts preserve the original workspace path conventions. Use verify_exact.py for portable replay.",
+  "source_algorithm_changed": false
+}

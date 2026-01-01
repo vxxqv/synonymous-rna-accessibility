@@ -1,0 +1,9368 @@
+{
+  "status": "passed",
+  "cases": 82,
+  "exact_value_comparisons": 400,
+  "all_original_values_preserved": true,
+  "production_algorithm_unchanged": true,
+  "seconds": 0.5355708999995841,
+  "inputs_sha256": {
+    "claims.md": "64870128a7da4e7ffca062b2547f8bf1735469dec827a5e791b1e6ef6448a562",
+    "affine_polytope.py": "b068f2b2b1faeb7b33e2aa15c5803966e52acc500b77e0f5d476569a6046a8da",
+    "protocol.json": "c1a405f773dd3995f65e53c12c2af27585745cebd1183dd675d742c8e1ae24e1",
+    "cases.json": "c201f6e8ddaa90e99d117905909f0f366de28258834c7f5d3e5f4a96a34401c7"
+  },
+  "reference_code_sha256": "4f702226326f25d01dd4422db959bf1200810a325a75e01882a5dbbd15cdd010",
+  "recheck_code_sha256": "812d025195130578a39869d8ca5a1f5fd1fe58c70f2cf27cd4b894dc296f2558",
+  "arithmetic": "exact fractions.Fraction, no tolerance",
+  "independence": "Root replay of separately authored oracle; not a new blinded review",
+  "cases_detail": [
+    {
+      "id": "rank_one_sum_two_parameters",
+      "exact": {
+        "id": "rank_one_sum_two_parameters",
+        "status": "connected",
+        "counters": {
+          "hyperplanes": 7,
+          "candidate_intersections": 21,
+          "independent_intersections": 16,
+          "retained_points": 4
+        },
+        "fixed": "-2",
+        "fixed_path": [
+          0,
+          1,
+          3
+        ],
+        "lower_field": [
+          "2",
+          "-2",
+          "-2",
+          "2"
+        ],
+        "upper_field": [
+          "2",
+          "2",
+          "2",
+          "2"
+        ],
+        "guaranteed": "0",
+        "possible": "2",
+        "capacity_minimum": "0",
+        "capacity_minimum_witness": {
+          "theta": [
+            "-1",
+            "1"
+          ],
+          "capacity": "0",
+          "barrier": "2",
+          "path": [
+            0,
+            1,
+            3
+          ]
+        },
+        "capacity_maximum": "2",
+        "capacity_maximum_witness": {
+          "theta": [
+            "-1",
+            "-1"
+          ],
+          "capacity": "2",
+          "barrier": "0",
+          "path": [
+            0,
+            2,
+            3
+          ]
+        },
+        "barrier_minimum": "0",
+        "barrier_minimum_witness": {
+          "theta": [
+            "-1",
+            "-1"
+          ],
+          "capacity": "2",
+          "barrier": "0",
+          "path": [
+            0,
+            2,
+            3
+          ]
+        },
+        "barrier_maximum": "2",
+        "barrier_maximum_witness": {
+          "theta": [
+            "-1",
+            "1"
+          ],
+          "capacity": "0",
+          "barrier": "2",
+          "path": [
+            0,
+            1,
+            3
+          ]
+        }
+      },
+      "reference": {
+        "id": "rank_one_sum_two_parameters",
+        "status": "connected",
+        "fixed": "-2",
+        "guaranteed": "0",
+        "possible": "2",
+        "barrier_minimum": "0",
+        "barrier_maximum": "2",
+        "minimal_path_sets": [
+          [
+            0,
+            1,
+            3
+          ],
+          [
+            0,
+            2,
+            3
+          ]
+        ],
+        "minimal_separators": [
+          [
+            0
+          ],
+          [
+            3
+          ],
+          [
+            1,
+            2
+          ]
+        ]
+      }
+    },
+    {
+      "id": "lower_dimensional_line",
+      "exact": {
+        "id": "lower_dimensional_line",
+        "status": "connected",
+        "counters": {
+          "hyperplanes": 6,
+          "candidate_intersections": 15,
+          "independent_intersections": 13,
+          "retained_points": 3
+        },
+        "fixed": "-1",
+        "fixed_path": [
+          0,
+          1,
+          3
+        ],
+        "lower_field": [
+          "1",
+          "-1",
+          "-1",
+          "1"
+        ],
+        "upper_field": [
+          "1",
+          "1",
+          "1",
+          "1"
+        ],
+        "guaranteed": "0",
+        "possible": "1",
+        "capacity_minimum": "0",
+        "capacity_minimum_witness": {
+          "theta": [
+            "0",
+            "0"
+          ],
+          "capacity": "0",
+          "barrier": "1",
+          "path": [
+            0,
+            1,
+            3
+          ]
+        },
+        "capacity_maximum": "1",
+        "capacity_maximum_witness": {
+          "theta": [
+            "-1",
+            "-1"
+          ],
+          "capacity": "1",
+          "barrier": "0",
+          "path": [
+            0,
+            2,
+            3
+          ]
+        },
+        "barrier_minimum": "0",
+        "barrier_minimum_witness": {
+          "theta": [
+            "-1",
+            "-1"
+          ],
+          "capacity": "1",
+          "barrier": "0",
+          "path": [
+            0,
+            2,
+            3
+          ]
+        },
+        "barrier_maximum": "1",
+        "barrier_maximum_witness": {
+          "theta": [
+            "0",
+            "0"
+          ],
+          "capacity": "0",
+          "barrier": "1",
+          "path": [
+            0,
+            1,
+            3
+          ]
+        }
+      },
+      "reference": {
+        "id": "lower_dimensional_line",
+        "status": "connected",
+        "fixed": "-1",
+        "guaranteed": "0",
+        "possible": "1",
+        "barrier_minimum": "0",
+        "barrier_maximum": "1",
+        "minimal_path_sets": [
+          [
+            0,
+            1,
+            3
+          ],
+          [
+            0,
+            2,
+            3
+          ]
+        ],
+        "minimal_separators": [
+          [
+            0
+          ],
+          [
+            3
+          ],
+          [
+            1,
+            2
+          ]
+        ]
+      }
+    },
+    {
+      "id": "point_parameter_set",
+      "exact": {
+        "id": "point_parameter_set",
+        "status": "connected",
+        "counters": {
+          "hyperplanes": 5,
+          "candidate_intersections": 10,
+          "independent_intersections": 8,
+          "retained_points": 1
+        },
+        "fixed": "0",
+        "fixed_path": [
+          0,
+          1,
+          3
+        ],
+        "lower_field": [
+          "1",
+          "0",
+          "0",
+          "1"
+        ],
+        "upper_field": [
+          "1",
+          "0",
+          "0",
+          "1"
+        ],
+        "guaranteed": "0",
+        "possible": "0",
+        "capacity_minimum": "0",
+        "capacity_minimum_witness": {
+          "theta": [
+            "0",
+            "0"
+          ],
+          "capacity": "0",
+          "barrier": "1",
+          "path": [
+            0,
+            1,
+            3
+          ]
+        },
+        "capacity_maximum": "0",
+        "capacity_maximum_witness": {
+          "theta": [
+            "0",
+            "0"
+          ],
+          "capacity": "0",
+          "barrier": "1",
+          "path": [
+            0,
+            1,
+            3
+          ]
+        },
+        "barrier_minimum": "1",
+        "barrier_minimum_witness": {
+          "theta": [
+            "0",
+            "0"
+          ],
+          "capacity": "0",
+          "barrier": "1",
+          "path": [
+            0,
+            1,
+            3
+          ]
+        },
+        "barrier_maximum": "1",
+        "barrier_maximum_witness": {
+          "theta": [
+            "0",
+            "0"
+          ],
+          "capacity": "0",
+          "barrier": "1",
+          "path": [
+            0,
+            1,
+            3
+          ]
+        }
+      },
+      "reference": {
+        "id": "point_parameter_set",
+        "status": "connected",
+        "fixed": "0",
+        "guaranteed": "0",
+        "possible": "0",
+        "barrier_minimum": "1",
+        "barrier_maximum": "1",
+        "minimal_path_sets": [
+          [
+            0,
+            1,
+            3
+          ],
+          [
+            0,
+            2,
+            3
+          ]
+        ],
+        "minimal_separators": [
+          [
+            0
+          ],
+          [
+            3
+          ],
+          [
+            1,
+            2
+          ]
+        ]
+      }
+    },
+    {
+      "id": "zero_dimension",
+      "exact": {
+        "id": "zero_dimension",
+        "status": "connected",
+        "counters": {
+          "hyperplanes": 0,
+          "candidate_intersections": 1,
+          "independent_intersections": 1,
+          "retained_points": 1
+        },
+        "fixed": "0",
+        "fixed_path": [
+          0,
+          1,
+          3
+        ],
+        "lower_field": [
+          "1",
+          "0",
+          "-1",
+          "1"
+        ],
+        "upper_field": [
+          "1",
+          "0",
+          "-1",
+          "1"
+        ],
+        "guaranteed": "0",
+        "possible": "0",
+        "capacity_minimum": "0",
+        "capacity_minimum_witness": {
+          "theta": [],
+          "capacity": "0",
+          "barrier": "1",
+          "path": [
+            0,
+            1,
+            3
+          ]
+        },
+        "capacity_maximum": "0",
+        "capacity_maximum_witness": {
+          "theta": [],
+          "capacity": "0",
+          "barrier": "1",
+          "path": [
+            0,
+            1,
+            3
+          ]
+        },
+        "barrier_minimum": "1",
+        "barrier_minimum_witness": {
+          "theta": [],
+          "capacity": "0",
+          "barrier": "1",
+          "path": [
+            0,
+            1,
+            3
+          ]
+        },
+        "barrier_maximum": "1",
+        "barrier_maximum_witness": {
+          "theta": [],
+          "capacity": "0",
+          "barrier": "1",
+          "path": [
+            0,
+            1,
+            3
+          ]
+        }
+      },
+      "reference": {
+        "id": "zero_dimension",
+        "status": "connected",
+        "fixed": "0",
+        "guaranteed": "0",
+        "possible": "0",
+        "barrier_minimum": "1",
+        "barrier_maximum": "1",
+        "minimal_path_sets": [
+          [
+            0,
+            1,
+            3
+          ],
+          [
+            0,
+            2,
+            3
+          ]
+        ],
+        "minimal_separators": [
+          [
+            0
+          ],
+          [
+            3
+          ],
+          [
+            1,
+            2
+          ]
+        ]
+      }
+    },
+    {
+      "id": "empty_polytope",
+      "exact": {
+        "id": "empty_polytope",
+        "status": "empty_parameter_set",
+        "counters": {
+          "hyperplanes": 4,
+          "candidate_intersections": 4,
+          "independent_intersections": 4,
+          "retained_points": 0
+        }
+      },
+      "reference": {
+        "id": "empty_polytope",
+        "status": "empty_parameter_set"
+      }
+    },
+    {
+      "id": "disconnected",
+      "exact": {
+        "id": "disconnected",
+        "status": "disconnected",
+        "counters": {
+          "hyperplanes": 3,
+          "candidate_intersections": 3,
+          "independent_intersections": 3,
+          "retained_points": 3
+        },
+        "capacity_extended_value": "-infinity",
+        "barrier_extended_value": "+infinity"
+      },
+      "reference": {
+        "id": "disconnected",
+        "status": "disconnected"
+      }
+    },
+    {
+      "id": "same_endpoint",
+      "exact": {
+        "id": "same_endpoint",
+        "status": "connected",
+        "counters": {
+          "hyperplanes": 8,
+          "candidate_intersections": 28,
+          "independent_intersections": 22,
+          "retained_points": 11
+        },
+        "fixed": "-2",
+        "fixed_path": [
+          0
+        ],
+        "lower_field": [
+          "-2",
+          "-1",
+          "-1",
+          "1"
+        ],
+        "upper_field": [
+          "2",
+          "1",
+          "1",
+          "1"
+        ],
+        "guaranteed": "-2",
+        "possible": "2",
+        "capacity_minimum": "-2",
+        "capacity_minimum_witness": {
+          "theta": [
+            "-1",
+            "2"
+          ],
+          "capacity": "-2",
+          "barrier": "0",
+          "path": [
+            0
+          ]
+        },
+        "capacity_maximum": "2",
+        "capacity_maximum_witness": {
+          "theta": [
+            "1",
+            "0"
+          ],
+          "capacity": "2",
+          "barrier": "0",
+          "path": [
+            0
+          ]
+        },
+        "barrier_minimum": "0",
+        "barrier_minimum_witness": {
+          "theta": [
+            "-1",
+            "0"
+          ],
+          "capacity": "0",
+          "barrier": "0",
+          "path": [
+            0
+          ]
+        },
+        "barrier_maximum": "0",
+        "barrier_maximum_witness": {
+          "theta": [
+            "-1",
+            "0"
+          ],
+          "capacity": "0",
+          "barrier": "0",
+          "path": [
+            0
+          ]
+        }
+      },
+      "reference": {
+        "id": "same_endpoint",
+        "status": "connected",
+        "fixed": "-2",
+        "guaranteed": "-2",
+        "possible": "2",
+        "barrier_minimum": "0",
+        "barrier_maximum": "0",
+        "minimal_path_sets": [
+          [
+            0
+          ]
+        ],
+        "minimal_separators": [
+          [
+            0
+          ]
+        ]
+      }
+    },
+    {
+      "id": "direct_edge",
+      "exact": {
+        "id": "direct_edge",
+        "status": "connected",
+        "counters": {
+          "hyperplanes": 9,
+          "candidate_intersections": 36,
+          "independent_intersections": 32,
+          "retained_points": 10
+        },
+        "fixed": "0",
+        "fixed_path": [
+          0,
+          3
+        ],
+        "lower_field": [
+          "0",
+          "-3",
+          "-2",
+          "0"
+        ],
+        "upper_field": [
+          "2",
+          "-1",
+          "2",
+          "2"
+        ],
+        "guaranteed": "0",
+        "possible": "2",
+        "capacity_minimum": "0",
+        "capacity_minimum_witness": {
+          "theta": [
+            "-1",
+            "-1"
+          ],
+          "capacity": "0",
+          "barrier": "0",
+          "path": [
+            0,
+            3
+          ]
+        },
+        "capacity_maximum": "2",
+        "capacity_maximum_witness": {
+          "theta": [
+            "1",
+            "1"
+          ],
+          "capacity": "2",
+          "barrier": "0",
+          "path": [
+            0,
+            3
+          ]
+        },
+        "barrier_minimum": "0",
+        "barrier_minimum_witness": {
+          "theta": [
+            "-1",
+            "-1"
+          ],
+          "capacity": "0",
+          "barrier": "0",
+          "path": [
+            0,
+            3
+          ]
+        },
+        "barrier_maximum": "0",
+        "barrier_maximum_witness": {
+          "theta": [
+            "-1",
+            "-1"
+          ],
+          "capacity": "0",
+          "barrier": "0",
+          "path": [
+            0,
+            3
+          ]
+        }
+      },
+      "reference": {
+        "id": "direct_edge",
+        "status": "connected",
+        "fixed": "0",
+        "guaranteed": "0",
+        "possible": "2",
+        "barrier_minimum": "0",
+        "barrier_maximum": "0",
+        "minimal_path_sets": [
+          [
+            0,
+            3
+          ]
+        ],
+        "minimal_separators": [
+          [
+            0
+          ],
+          [
+            3
+          ]
+        ]
+      }
+    },
+    {
+      "id": "all_tied_negative",
+      "exact": {
+        "id": "all_tied_negative",
+        "status": "connected",
+        "counters": {
+          "hyperplanes": 4,
+          "candidate_intersections": 6,
+          "independent_intersections": 4,
+          "retained_points": 4
+        },
+        "fixed": "-5",
+        "fixed_path": [
+          0,
+          1,
+          3
+        ],
+        "lower_field": [
+          "-5",
+          "-5",
+          "-5",
+          "-5"
+        ],
+        "upper_field": [
+          "-1",
+          "-1",
+          "-1",
+          "-1"
+        ],
+        "guaranteed": "-5",
+        "possible": "-1",
+        "capacity_minimum": "-5",
+        "capacity_minimum_witness": {
+          "theta": [
+            "-1",
+            "1"
+          ],
+          "capacity": "-5",
+          "barrier": "0",
+          "path": [
+            0,
+            1,
+            3
+          ]
+        },
+        "capacity_maximum": "-1",
+        "capacity_maximum_witness": {
+          "theta": [
+            "1",
+            "-1"
+          ],
+          "capacity": "-1",
+          "barrier": "0",
+          "path": [
+            0,
+            1,
+            3
+          ]
+        },
+        "barrier_minimum": "0",
+        "barrier_minimum_witness": {
+          "theta": [
+            "-1",
+            "-1"
+          ],
+          "capacity": "-3",
+          "barrier": "0",
+          "path": [
+            0,
+            1,
+            3
+          ]
+        },
+        "barrier_maximum": "0",
+        "barrier_maximum_witness": {
+          "theta": [
+            "-1",
+            "-1"
+          ],
+          "capacity": "-3",
+          "barrier": "0",
+          "path": [
+            0,
+            1,
+            3
+          ]
+        }
+      },
+      "reference": {
+        "id": "all_tied_negative",
+        "status": "connected",
+        "fixed": "-5",
+        "guaranteed": "-5",
+        "possible": "-1",
+        "barrier_minimum": "0",
+        "barrier_maximum": "0",
+        "minimal_path_sets": [
+          [
+            0,
+            1,
+            3
+          ],
+          [
+            0,
+            2,
+            3
+          ]
+        ],
+        "minimal_separators": [
+          [
+            0
+          ],
+          [
+            3
+          ],
+          [
+            1,
+            2
+          ]
+        ]
+      }
+    },
+    {
+      "id": "fixed_seed_00",
+      "exact": {
+        "id": "fixed_seed_00",
+        "status": "connected",
+        "counters": {
+          "hyperplanes": 2,
+          "candidate_intersections": 2,
+          "independent_intersections": 2,
+          "retained_points": 1
+        },
+        "fixed": "-1",
+        "fixed_path": [
+          0,
+          1,
+          2
+        ],
+        "lower_field": [
+          "-1",
+          "-1",
+          "-1"
+        ],
+        "upper_field": [
+          "-1",
+          "-1",
+          "-1"
+        ],
+        "guaranteed": "-1",
+        "possible": "-1",
+        "capacity_minimum": "-1",
+        "capacity_minimum_witness": {
+          "theta": [
+            "0"
+          ],
+          "capacity": "-1",
+          "barrier": "0",
+          "path": [
+            0,
+            1,
+            2
+          ]
+        },
+        "capacity_maximum": "-1",
+        "capacity_maximum_witness": {
+          "theta": [
+            "0"
+          ],
+          "capacity": "-1",
+          "barrier": "0",
+          "path": [
+            0,
+            1,
+            2
+          ]
+        },
+        "barrier_minimum": "0",
+        "barrier_minimum_witness": {
+          "theta": [
+            "0"
+          ],
+          "capacity": "-1",
+          "barrier": "0",
+          "path": [
+            0,
+            1,
+            2
+          ]
+        },
+        "barrier_maximum": "0",
+        "barrier_maximum_witness": {
+          "theta": [
+            "0"
+          ],
+          "capacity": "-1",
+          "barrier": "0",
+          "path": [
+            0,
+            1,
+            2
+          ]
+        }
+      },
+      "reference": {
+        "id": "fixed_seed_00",
+        "status": "connected",
+        "fixed": "-1",
+        "guaranteed": "-1",
+        "possible": "-1",
+        "barrier_minimum": "0",
+        "barrier_maximum": "0",
+        "minimal_path_sets": [
+          [
+            0,
+            1,
+            2
+          ]
+        ],
+        "minimal_separators": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ]
+        ]
+      }
+    },
+    {
+      "id": "fixed_seed_01",
+      "exact": {
+        "id": "fixed_seed_01",
+        "status": "connected",
+        "counters": {
+          "hyperplanes": 6,
+          "candidate_intersections": 6,
+          "independent_intersections": 6,
+          "retained_points": 4
+        },
+        "fixed": "0",
+        "fixed_path": [
+          0,
+          3
+        ],
+        "lower_field": [
+          "2",
+          "-2",
+          "-1",
+          "0"
+        ],
+        "upper_field": [
+          "4",
+          "0",
+          "3",
+          "6"
+        ],
+        "guaranteed": "0",
+        "possible": "3",
+        "capacity_minimum": "0",
+        "capacity_minimum_witness": {
+          "theta": [
+            "1"
+          ],
+          "capacity": "0",
+          "barrier": "0",
+          "path": [
+            0,
+            3
+          ]
+        },
+        "capacity_maximum": "3",
+        "capacity_maximum_witness": {
+          "theta": [
+            "0"
+          ],
+          "capacity": "3",
+          "barrier": "0",
+          "path": [
+            0,
+            3
+          ]
+        },
+        "barrier_minimum": "0",
+        "barrier_minimum_witness": {
+          "theta": [
+            "-1"
+          ],
+          "capacity": "2",
+          "barrier": "0",
+          "path": [
+            0,
+            3
+          ]
+        },
+        "barrier_maximum": "0",
+        "barrier_maximum_witness": {
+          "theta": [
+            "-1"
+          ],
+          "capacity": "2",
+          "barrier": "0",
+          "path": [
+            0,
+            3
+          ]
+        }
+      },
+      "reference": {
+        "id": "fixed_seed_01",
+        "status": "connected",
+        "fixed": "0",
+        "guaranteed": "0",
+        "possible": "3",
+        "barrier_minimum": "0",
+        "barrier_maximum": "0",
+        "minimal_path_sets": [
+          [
+            0,
+            3
+          ]
+        ],
+        "minimal_separators": [
+          [
+            0
+          ],
+          [
+            3
+          ]
+        ]
+      }
+    },
+    {
+      "id": "fixed_seed_02",
+      "exact": {
+        "id": "fixed_seed_02",
+        "status": "connected",
+        "counters": {
+          "hyperplanes": 8,
+          "candidate_intersections": 8,
+          "independent_intersections": 8,
+          "retained_points": 7
+        },
+        "fixed": "-1",
+        "fixed_path": [
+          0,
+          4
+        ],
+        "lower_field": [
+          "-1",
+          "-1",
+          "-4",
+          "-2",
+          "0"
+        ],
+        "upper_field": [
+          "5",
+          "3",
+          "0",
+          "4",
+          "2"
+        ],
+        "guaranteed": "-1",
+        "possible": "2",
+        "capacity_minimum": "-1",
+        "capacity_minimum_witness": {
+          "theta": [
+            "-1"
+          ],
+          "capacity": "-1",
+          "barrier": "0",
+          "path": [
+            0,
+            4
+          ]
+        },
+        "capacity_maximum": "2",
+        "capacity_maximum_witness": {
+          "theta": [
+            "1"
+          ],
+          "capacity": "2",
+          "barrier": "0",
+          "path": [
+            0,
+            4
+          ]
+        },
+        "barrier_minimum": "0",
+        "barrier_minimum_witness": {
+          "theta": [
+            "-1"
+          ],
+          "capacity": "-1",
+          "barrier": "0",
+          "path": [
+            0,
+            4
+          ]
+        },
+        "barrier_maximum": "0",
+        "barrier_maximum_witness": {
+          "theta": [
+            "-1"
+          ],
+          "capacity": "-1",
+          "barrier": "0",
+          "path": [
+            0,
+            4
+          ]
+        }
+      },
+      "reference": {
+        "id": "fixed_seed_02",
+        "status": "connected",
+        "fixed": "-1",
+        "guaranteed": "-1",
+        "possible": "2",
+        "barrier_minimum": "0",
+        "barrier_maximum": "0",
+        "minimal_path_sets": [
+          [
+            0,
+            4
+          ]
+        ],
+        "minimal_separators": [
+          [
+            0
+          ],
+          [
+            4
+          ]
+        ]
+      }
+    },
+    {
+      "id": "fixed_seed_03",
+      "exact": {
+        "id": "fixed_seed_03",
+        "status": "connected",
+        "counters": {
+          "hyperplanes": 7,
+          "candidate_intersections": 21,
+          "independent_intersections": 19,
+          "retained_points": 10
+        },
+        "fixed": "-7",
+        "fixed_path": [
+          0,
+          1,
+          2
+        ],
+        "lower_field": [
+          "-7",
+          "-1",
+          "-3"
+        ],
+        "upper_field": [
+          "3",
+          "3",
+          "3"
+        ],
+        "guaranteed": "-7",
+        "possible": "1/11",
+        "capacity_minimum": "-7",
+        "capacity_minimum_witness": {
+          "theta": [
+            "1",
+            "1"
+          ],
+          "capacity": "-7",
+          "barrier": "0",
+          "path": [
+            0,
+            1,
+            2
+          ]
+        },
+        "capacity_maximum": "1/11",
+        "capacity_maximum_witness": {
+          "theta": [
+            "-3/11",
+            "-7/11"
+          ],
+          "capacity": "1/11",
+          "barrier": "0",
+          "path": [
+            0,
+            1,
+            2
+          ]
+        },
+        "barrier_minimum": "0",
+        "barrier_minimum_witness": {
+          "theta": [
+            "-1",
+            "-1"
+          ],
+          "capacity": "-1",
+          "barrier": "0",
+          "path": [
+            0,
+            1,
+            2
+          ]
+        },
+        "barrier_maximum": "4/5",
+        "barrier_maximum_witness": {
+          "theta": [
+            "-1/5",
+            "-1"
+          ],
+          "capacity": "-1/5",
+          "barrier": "4/5",
+          "path": [
+            0,
+            1,
+            2
+          ]
+        }
+      },
+      "reference": {
+        "id": "fixed_seed_03",
+        "status": "connected",
+        "fixed": "-7",
+        "guaranteed": "-7",
+        "possible": "1/11",
+        "barrier_minimum": "0",
+        "barrier_maximum": "4/5",
+        "minimal_path_sets": [
+          [
+            0,
+            1,
+            2
+          ]
+        ],
+        "minimal_separators": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ]
+        ]
+      }
+    },
+    {
+      "id": "fixed_seed_04",
+      "exact": {
+        "id": "fixed_seed_04",
+        "status": "connected",
+        "counters": {
+          "hyperplanes": 11,
+          "candidate_intersections": 55,
+          "independent_intersections": 49,
+          "retained_points": 10
+        },
+        "fixed": "-4",
+        "fixed_path": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "lower_field": [
+          "-3",
+          "-4",
+          "0",
+          "-4"
+        ],
+        "upper_field": [
+          "7/2",
+          "2",
+          "6",
+          "1/2"
+        ],
+        "guaranteed": "-4",
+        "possible": "-3/8",
+        "capacity_minimum": "-4",
+        "capacity_minimum_witness": {
+          "theta": [
+            "-1",
+            "-1"
+          ],
+          "capacity": "-4",
+          "barrier": "0",
+          "path": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        "capacity_maximum": "-3/8",
+        "capacity_maximum_witness": {
+          "theta": [
+            "1/8",
+            "3/8"
+          ],
+          "capacity": "-3/8",
+          "barrier": "0",
+          "path": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        "barrier_minimum": "0",
+        "barrier_minimum_witness": {
+          "theta": [
+            "-1",
+            "-1"
+          ],
+          "capacity": "-4",
+          "barrier": "0",
+          "path": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        "barrier_maximum": "4",
+        "barrier_maximum_witness": {
+          "theta": [
+            "1",
+            "-1"
+          ],
+          "capacity": "-4",
+          "barrier": "4",
+          "path": [
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      },
+      "reference": {
+        "id": "fixed_seed_04",
+        "status": "connected",
+        "fixed": "-4",
+        "guaranteed": "-4",
+        "possible": "-3/8",
+        "barrier_minimum": "0",
+        "barrier_maximum": "4",
+        "minimal_path_sets": [
+          [
+            0,
+            1,
+            2,
+            3
+          ]
+        ],
+        "minimal_separators": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ]
+        ]
+      }
+    },
+    {
+      "id": "fixed_seed_05",
+      "exact": {
+        "id": "fixed_seed_05",
+        "status": "connected",
+        "counters": {
+          "hyperplanes": 14,
+          "candidate_intersections": 91,
+          "independent_intersections": 78,
+          "retained_points": 23
+        },
+        "fixed": "-7",
+        "fixed_path": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "lower_field": [
+          "-1",
+          "0",
+          "-1",
+          "-7",
+          "-2"
+        ],
+        "upper_field": [
+          "7",
+          "4",
+          "7",
+          "3",
+          "4"
+        ],
+        "guaranteed": "-7",
+        "possible": "7/3",
+        "capacity_minimum": "-7",
+        "capacity_minimum_witness": {
+          "theta": [
+            "-1",
+            "1"
+          ],
+          "capacity": "-7",
+          "barrier": "7",
+          "path": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        "capacity_maximum": "7/3",
+        "capacity_maximum_witness": {
+          "theta": [
+            "1",
+            "-2/3"
+          ],
+          "capacity": "7/3",
+          "barrier": "0",
+          "path": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        "barrier_minimum": "0",
+        "barrier_minimum_witness": {
+          "theta": [
+            "0",
+            "-1"
+          ],
+          "capacity": "0",
+          "barrier": "0",
+          "path": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        "barrier_maximum": "7",
+        "barrier_maximum_witness": {
+          "theta": [
+            "-1",
+            "1"
+          ],
+          "capacity": "-7",
+          "barrier": "7",
+          "path": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      },
+      "reference": {
+        "id": "fixed_seed_05",
+        "status": "connected",
+        "fixed": "-7",
+        "guaranteed": "-7",
+        "possible": "7/3",
+        "barrier_minimum": "0",
+        "barrier_maximum": "7",
+        "minimal_path_sets": [
+          [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        ],
+        "minimal_separators": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ]
+      }
+    },
+    {
+      "id": "fixed_seed_06",
+      "exact": {
+        "id": "fixed_seed_06",
+        "status": "connected",
+        "counters": {
+          "hyperplanes": 9,
+          "candidate_intersections": 84,
+          "independent_intersections": 58,
+          "retained_points": 22
+        },
+        "fixed": "-6",
+        "fixed_path": [
+          0,
+          2
+        ],
+        "lower_field": [
+          "-6",
+          "-3",
+          "-6"
+        ],
+        "upper_field": [
+          "4",
+          "5",
+          "6"
+        ],
+        "guaranteed": "-6",
+        "possible": "12/5",
+        "capacity_minimum": "-6",
+        "capacity_minimum_witness": {
+          "theta": [
+            "1",
+            "-1",
+            "-1"
+          ],
+          "capacity": "-6",
+          "barrier": "0",
+          "path": [
+            0,
+            2
+          ]
+        },
+        "capacity_maximum": "12/5",
+        "capacity_maximum_witness": {
+          "theta": [
+            "-1",
+            "-1",
+            "1/5"
+          ],
+          "capacity": "12/5",
+          "barrier": "0",
+          "path": [
+            0,
+            2
+          ]
+        },
+        "barrier_minimum": "0",
+        "barrier_minimum_witness": {
+          "theta": [
+            "-1",
+            "-1",
+            "-1"
+          ],
+          "capacity": "0",
+          "barrier": "0",
+          "path": [
+            0,
+            2
+          ]
+        },
+        "barrier_maximum": "0",
+        "barrier_maximum_witness": {
+          "theta": [
+            "-1",
+            "-1",
+            "-1"
+          ],
+          "capacity": "0",
+          "barrier": "0",
+          "path": [
+            0,
+            2
+          ]
+        }
+      },
+      "reference": {
+        "id": "fixed_seed_06",
+        "status": "connected",
+        "fixed": "-6",
+        "guaranteed": "-6",
+        "possible": "12/5",
+        "barrier_minimum": "0",
+        "barrier_maximum": "0",
+        "minimal_path_sets": [
+          [
+            0,
+            2
+          ]
+        ],
+        "minimal_separators": [
+          [
+            0
+          ],
+          [
+            2
+          ]
+        ]
+      }
+    },
+    {
+      "id": "fixed_seed_07",
+      "exact": {
+        "id": "fixed_seed_07",
+        "status": "connected",
+        "counters": {
+          "hyperplanes": 12,
+          "candidate_intersections": 220,
+          "independent_intersections": 174,
+          "retained_points": 38
+        },
+        "fixed": "-4",
+        "fixed_path": [
+          0,
+          3
+        ],
+        "lower_field": [
+          "-4",
+          "-3",
+          "-9",
+          "-2"
+        ],
+        "upper_field": [
+          "8",
+          "5",
+          "5",
+          "8"
+        ],
+        "guaranteed": "-4",
+        "possible": "6",
+        "capacity_minimum": "-4",
+        "capacity_minimum_witness": {
+          "theta": [
+            "1",
+            "-1",
+            "-1"
+          ],
+          "capacity": "-4",
+          "barrier": "0",
+          "path": [
+            0,
+            3
+          ]
+        },
+        "capacity_maximum": "6",
+        "capacity_maximum_witness": {
+          "theta": [
+            "-1",
+            "1",
+            "0"
+          ],
+          "capacity": "6",
+          "barrier": "0",
+          "path": [
+            0,
+            3
+          ]
+        },
+        "barrier_minimum": "0",
+        "barrier_minimum_witness": {
+          "theta": [
+            "-1",
+            "-1",
+            "-1"
+          ],
+          "capacity": "2",
+          "barrier": "0",
+          "path": [
+            0,
+            3
+          ]
+        },
+        "barrier_maximum": "0",
+        "barrier_maximum_witness": {
+          "theta": [
+            "-1",
+            "-1",
+            "-1"
+          ],
+          "capacity": "2",
+          "barrier": "0",
+          "path": [
+            0,
+            3
+          ]
+        }
+      },
+      "reference": {
+        "id": "fixed_seed_07",
+        "status": "connected",
+        "fixed": "-4",
+        "guaranteed": "-4",
+        "possible": "6",
+        "barrier_minimum": "0",
+        "barrier_maximum": "0",
+        "minimal_path_sets": [
+          [
+            0,
+            3
+          ]
+        ],
+        "minimal_separators": [
+          [
+            0
+          ],
+          [
+            3
+          ]
+        ]
+      }
+    },
+    {
+      "id": "fixed_seed_08",
+      "exact": {
+        "id": "fixed_seed_08",
+        "status": "connected",
+        "counters": {
+          "hyperplanes": 16,
+          "candidate_intersections": 560,
+          "independent_intersections": 401,
+          "retained_points": 35
+        },
+        "fixed": "-13/2",
+        "fixed_path": [
+          0,
+          4
+        ],
+        "lower_field": [
+          "-11/2",
+          "-6",
+          "-1/2",
+          "0",
+          "-13/2"
+        ],
+        "upper_field": [
+          "0",
+          "2",
+          "5",
+          "7",
+          "10"
+        ],
+        "guaranteed": "-13/2",
+        "possible": "0",
+        "capacity_minimum": "-13/2",
+        "capacity_minimum_witness": {
+          "theta": [
+            "-1",
+            "1/2",
+            "1"
+          ],
+          "capacity": "-13/2",
+          "barrier": "0",
+          "path": [
+            0,
+            4
+          ]
+        },
+        "capacity_maximum": "0",
+        "capacity_maximum_witness": {
+          "theta": [
+            "1",
+            "-1",
+            "-1"
+          ],
+          "capacity": "0",
+          "barrier": "0",
+          "path": [
+            0,
+            4
+          ]
+        },
+        "barrier_minimum": "0",
+        "barrier_minimum_witness": {
+          "theta": [
+            "-1",
+            "-1",
+            "-1"
+          ],
+          "capacity": "-2",
+          "barrier": "0",
+          "path": [
+            0,
+            4
+          ]
+        },
+        "barrier_maximum": "0",
+        "barrier_maximum_witness": {
+          "theta": [
+            "-1",
+            "-1",
+            "-1"
+          ],
+          "capacity": "-2",
+          "barrier": "0",
+          "path": [
+            0,
+            4
+          ]
+        }
+      },
+      "reference": {
+        "id": "fixed_seed_08",
+        "status": "connected",
+        "fixed": "-13/2",
+        "guaranteed": "-13/2",
+        "possible": "0",
+        "barrier_minimum": "0",
+        "barrier_maximum": "0",
+        "minimal_path_sets": [
+          [
+            0,
+            4
+          ]
+        ],
+        "minimal_separators": [
+          [
+            0
+          ],
+          [
+            4
+          ]
+        ]
+      }
+    },
+    {
+      "id": "fixed_seed_09",
+      "exact": {
+        "id": "fixed_seed_09",
+        "status": "connected",
+        "counters": {
+          "hyperplanes": 4,
+          "candidate_intersections": 4,
+          "independent_intersections": 4,
+          "retained_points": 4
+        },
+        "fixed": "-5",
+        "fixed_path": [
+          0,
+          1,
+          2
+        ],
+        "lower_field": [
+          "-3",
+          "-5",
+          "-1"
+        ],
+        "upper_field": [
+          "-1",
+          "1",
+          "1"
+        ],
+        "guaranteed": "-5",
+        "possible": "-2",
+        "capacity_minimum": "-5",
+        "capacity_minimum_witness": {
+          "theta": [
+            "1"
+          ],
+          "capacity": "-5",
+          "barrier": "4",
+          "path": [
+            0,
+            1,
+            2
+          ]
+        },
+        "capacity_maximum": "-2",
+        "capacity_maximum_witness": {
+          "theta": [
+            "0"
+          ],
+          "capacity": "-2",
+          "barrier": "0",
+          "path": [
+            0,
+            1,
+            2
+          ]
+        },
+        "barrier_minimum": "0",
+        "barrier_minimum_witness": {
+          "theta": [
+            "-1"
+          ],
+          "capacity": "-3",
+          "barrier": "0",
+          "path": [
+            0,
+            1,
+            2
+          ]
+        },
+        "barrier_maximum": "4",
+        "barrier_maximum_witness": {
+          "theta": [
+            "1"
+          ],
+          "capacity": "-5",
+          "barrier": "4",
+          "path": [
+            0,
+            1,
+            2
+          ]
+        }
+      },
+      "reference": {
+        "id": "fixed_seed_09",
+        "status": "connected",
+        "fixed": "-5",
+        "guaranteed": "-5",
+        "possible": "-2",
+        "barrier_minimum": "0",
+        "barrier_maximum": "4",
+        "minimal_path_sets": [
+          [
+            0,
+            1,
+            2
+          ]
+        ],
+        "minimal_separators": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ]
+        ]
+      }
+    },
+    {
+      "id": "fixed_seed_10",
+      "exact": {
+        "id": "fixed_seed_10",
+        "status": "connected",
+        "counters": {
+          "hyperplanes": 7,
+          "candidate_intersections": 7,
+          "independent_intersections": 7,
+          "retained_points": 5
+        },
+        "fixed": "-4",
+        "fixed_path": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "lower_field": [
+          "-4",
+          "-2",
+          "1",
+          "-2"
+        ],
+        "upper_field": [
+          "0",
+          "4",
+          "3",
+          "2"
+        ],
+        "guaranteed": "-4",
+        "possible": "-4/5",
+        "capacity_minimum": "-4",
+        "capacity_minimum_witness": {
+          "theta": [
+            "-1"
+          ],
+          "capacity": "-4",
+          "barrier": "0",
+          "path": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        "capacity_maximum": "-4/5",
+        "capacity_maximum_witness": {
+          "theta": [
+            "3/5"
+          ],
+          "capacity": "-4/5",
+          "barrier": "0",
+          "path": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        "barrier_minimum": "0",
+        "barrier_minimum_witness": {
+          "theta": [
+            "-1"
+          ],
+          "capacity": "-4",
+          "barrier": "0",
+          "path": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        "barrier_maximum": "2",
+        "barrier_maximum_witness": {
+          "theta": [
+            "1"
+          ],
+          "capacity": "-2",
+          "barrier": "2",
+          "path": [
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      },
+      "reference": {
+        "id": "fixed_seed_10",
+        "status": "connected",
+        "fixed": "-4",
+        "guaranteed": "-4",
+        "possible": "-4/5",
+        "barrier_minimum": "0",
+        "barrier_maximum": "2",
+        "minimal_path_sets": [
+          [
+            0,
+            1,
+            2,
+            3
+          ]
+        ],
+        "minimal_separators": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ]
+        ]
+      }
+    },
+    {
+      "id": "fixed_seed_11",
+      "exact": {
+        "id": "fixed_seed_11",
+        "status": "connected",
+        "counters": {
+          "hyperplanes": 6,
+          "candidate_intersections": 6,
+          "independent_intersections": 6,
+          "retained_points": 1
+        },
+        "fixed": "-3",
+        "fixed_path": [
+          0,
+          2,
+          3,
+          4
+        ],
+        "lower_field": [
+          "-2",
+          "2",
+          "1",
+          "-3",
+          "-1"
+        ],
+        "upper_field": [
+          "-2",
+          "2",
+          "1",
+          "-3",
+          "-1"
+        ],
+        "guaranteed": "-3",
+        "possible": "-3",
+        "capacity_minimum": "-3",
+        "capacity_minimum_witness": {
+          "theta": [
+            "0"
+          ],
+          "capacity": "-3",
+          "barrier": "1",
+          "path": [
+            0,
+            2,
+            3,
+            4
+          ]
+        },
+        "capacity_maximum": "-3",
+        "capacity_maximum_witness": {
+          "theta": [
+            "0"
+          ],
+          "capacity": "-3",
+          "barrier": "1",
+          "path": [
+            0,
+            2,
+            3,
+            4
+          ]
+        },
+        "barrier_minimum": "1",
+        "barrier_minimum_witness": {
+          "theta": [
+            "0"
+          ],
+          "capacity": "-3",
+          "barrier": "1",
+          "path": [
+            0,
+            2,
+            3,
+            4
+          ]
+        },
+        "barrier_maximum": "1",
+        "barrier_maximum_witness": {
+          "theta": [
+            "0"
+          ],
+          "capacity": "-3",
+          "barrier": "1",
+          "path": [
+            0,
+            2,
+            3,
+            4
+          ]
+        }
+      },
+      "reference": {
+        "id": "fixed_seed_11",
+        "status": "connected",
+        "fixed": "-3",
+        "guaranteed": "-3",
+        "possible": "-3",
+        "barrier_minimum": "1",
+        "barrier_maximum": "1",
+        "minimal_path_sets": [
+          [
+            0,
+            2,
+            3,
+            4
+          ]
+        ],
+        "minimal_separators": [
+          [
+            0
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ]
+      }
+    },
+    {
+      "id": "fixed_seed_12",
+      "exact": {
+        "id": "fixed_seed_12",
+        "status": "connected",
+        "counters": {
+          "hyperplanes": 8,
+          "candidate_intersections": 28,
+          "independent_intersections": 23,
+          "retained_points": 7
+        },
+        "fixed": "-8",
+        "fixed_path": [
+          0,
+          2
+        ],
+        "lower_field": [
+          "-8",
+          "-6",
+          "-1"
+        ],
+        "upper_field": [
+          "2",
+          "1",
+          "7/2"
+        ],
+        "guaranteed": "-8",
+        "possible": "2",
+        "capacity_minimum": "-8",
+        "capacity_minimum_witness": {
+          "theta": [
+            "1",
+            "-1"
+          ],
+          "capacity": "-8",
+          "barrier": "0",
+          "path": [
+            0,
+            2
+          ]
+        },
+        "capacity_maximum": "2",
+        "capacity_maximum_witness": {
+          "theta": [
+            "-1",
+            "1"
+          ],
+          "capacity": "2",
+          "barrier": "0",
+          "path": [
+            0,
+            2
+          ]
+        },
+        "barrier_minimum": "0",
+        "barrier_minimum_witness": {
+          "theta": [
+            "-1",
+            "-1"
+          ],
+          "capacity": "-2",
+          "barrier": "0",
+          "path": [
+            0,
+            2
+          ]
+        },
+        "barrier_maximum": "0",
+        "barrier_maximum_witness": {
+          "theta": [
+            "-1",
+            "-1"
+          ],
+          "capacity": "-2",
+          "barrier": "0",
+          "path": [
+            0,
+            2
+          ]
+        }
+      },
+      "reference": {
+        "id": "fixed_seed_12",
+        "status": "connected",
+        "fixed": "-8",
+        "guaranteed": "-8",
+        "possible": "2",
+        "barrier_minimum": "0",
+        "barrier_maximum": "0",
+        "minimal_path_sets": [
+          [
+            0,
+            2
+          ]
+        ],
+        "minimal_separators": [
+          [
+            0
+          ],
+          [
+            2
+          ]
+        ]
+      }
+    },
+    {
+      "id": "fixed_seed_13",
+      "exact": {
+        "id": "fixed_seed_13",
+        "status": "connected",
+        "counters": {
+          "hyperplanes": 7,
+          "candidate_intersections": 21,
+          "independent_intersections": 19,
+          "retained_points": 8
+        },
+        "fixed": "-8",
+        "fixed_path": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "lower_field": [
+          "-8",
+          "-2",
+          "-1",
+          "-8"
+        ],
+        "upper_field": [
+          "4",
+          "4",
+          "1",
+          "4"
+        ],
+        "guaranteed": "-8",
+        "possible": "1",
+        "capacity_minimum": "-8",
+        "capacity_minimum_witness": {
+          "theta": [
+            "-1",
+            "1"
+          ],
+          "capacity": "-8",
+          "barrier": "0",
+          "path": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        "capacity_maximum": "1",
+        "capacity_maximum_witness": {
+          "theta": [
+            "1",
+            "-1"
+          ],
+          "capacity": "1",
+          "barrier": "3",
+          "path": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        "barrier_minimum": "0",
+        "barrier_minimum_witness": {
+          "theta": [
+            "-1",
+            "-1"
+          ],
+          "capacity": "-2",
+          "barrier": "0",
+          "path": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        "barrier_maximum": "3",
+        "barrier_maximum_witness": {
+          "theta": [
+            "1",
+            "-1"
+          ],
+          "capacity": "1",
+          "barrier": "3",
+          "path": [
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      },
+      "reference": {
+        "id": "fixed_seed_13",
+        "status": "connected",
+        "fixed": "-8",
+        "guaranteed": "-8",
+        "possible": "1",
+        "barrier_minimum": "0",
+        "barrier_maximum": "3",
+        "minimal_path_sets": [
+          [
+            0,
+            1,
+            2,
+            3
+          ]
+        ],
+        "minimal_separators": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ]
+        ]
+      }
+    },
+    {
+      "id": "fixed_seed_14",
+      "exact": {
+        "id": "fixed_seed_14",
+        "status": "connected",
+        "counters": {
+          "hyperplanes": 14,
+          "candidate_intersections": 91,
+          "independent_intersections": 82,
+          "retained_points": 19
+        },
+        "fixed": "-7",
+        "fixed_path": [
+          0,
+          1,
+          3,
+          4
+        ],
+        "lower_field": [
+          "-7",
+          "-4",
+          "-4",
+          "-3",
+          "0"
+        ],
+        "upper_field": [
+          "1",
+          "2",
+          "-2",
+          "3",
+          "6"
+        ],
+        "guaranteed": "-7",
+        "possible": "-1",
+        "capacity_minimum": "-7",
+        "capacity_minimum_witness": {
+          "theta": [
+            "-1",
+            "-1"
+          ],
+          "capacity": "-7",
+          "barrier": "0",
+          "path": [
+            0,
+            1,
+            3,
+            4
+          ]
+        },
+        "capacity_maximum": "-1",
+        "capacity_maximum_witness": {
+          "theta": [
+            "1",
+            "-1"
+          ],
+          "capacity": "-1",
+          "barrier": "0",
+          "path": [
+            0,
+            1,
+            3,
+            4
+          ]
+        },
+        "barrier_minimum": "0",
+        "barrier_minimum_witness": {
+          "theta": [
+            "-1",
+            "-1"
+          ],
+          "capacity": "-7",
+          "barrier": "0",
+          "path": [
+            0,
+            1,
+            3,
+            4
+          ]
+        },
+        "barrier_maximum": "4",
+        "barrier_maximum_witness": {
+          "theta": [
+            "1",
+            "1"
+          ],
+          "capacity": "-3",
+          "barrier": "4",
+          "path": [
+            0,
+            1,
+            3,
+            4
+          ]
+        }
+      },
+      "reference": {
+        "id": "fixed_seed_14",
+        "status": "connected",
+        "fixed": "-7",
+        "guaranteed": "-7",
+        "possible": "-1",
+        "barrier_minimum": "0",
+        "barrier_maximum": "4",
+        "minimal_path_sets": [
+          [
+            0,
+            1,
+            3,
+            4
+          ],
+          [
+            0,
+            2,
+            3,
+            4
+          ]
+        ],
+        "minimal_separators": [
+          [
+            0
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            1,
+            2
+          ]
+        ]
+      }
+    },
+    {
+      "id": "fixed_seed_15",
+      "exact": {
+        "id": "fixed_seed_15",
+        "status": "connected",
+        "counters": {
+          "hyperplanes": 9,
+          "candidate_intersections": 84,
+          "independent_intersections": 52,
+          "retained_points": 20
+        },
+        "fixed": "-9",
+        "fixed_path": [
+          0,
+          2
+        ],
+        "lower_field": [
+          "-9",
+          "-4",
+          "-8"
+        ],
+        "upper_field": [
+          "5",
+          "6",
+          "2"
+        ],
+        "guaranteed": "-9",
+        "possible": "1/4",
+        "capacity_minimum": "-9",
+        "capacity_minimum_witness": {
+          "theta": [
+            "-1",
+            "-1",
+            "-1"
+          ],
+          "capacity": "-9",
+          "barrier": "0",
+          "path": [
+            0,
+            2
+          ]
+        },
+        "capacity_maximum": "1/4",
+        "capacity_maximum_witness": {
+          "theta": [
+            "-1",
+            "1",
+            "3/4"
+          ],
+          "capacity": "1/4",
+          "barrier": "0",
+          "path": [
+            0,
+            2
+          ]
+        },
+        "barrier_minimum": "0",
+        "barrier_minimum_witness": {
+          "theta": [
+            "-1",
+            "-1",
+            "-1"
+          ],
+          "capacity": "-9",
+          "barrier": "0",
+          "path": [
+            0,
+            2
+          ]
+        },
+        "barrier_maximum": "0",
+        "barrier_maximum_witness": {
+          "theta": [
+            "-1",
+            "-1",
+            "-1"
+          ],
+          "capacity": "-9",
+          "barrier": "0",
+          "path": [
+            0,
+            2
+          ]
+        }
+      },
+      "reference": {
+        "id": "fixed_seed_15",
+        "status": "connected",
+        "fixed": "-9",
+        "guaranteed": "-9",
+        "possible": "1/4",
+        "barrier_minimum": "0",
+        "barrier_maximum": "0",
+        "minimal_path_sets": [
+          [
+            0,
+            2
+          ]
+        ],
+        "minimal_separators": [
+          [
+            0
+          ],
+          [
+            2
+          ]
+        ]
+      }
+    },
+    {
+      "id": "fixed_seed_16",
+      "exact": {
+        "id": "fixed_seed_16",
+        "status": "connected",
+        "counters": {
+          "hyperplanes": 13,
+          "candidate_intersections": 286,
+          "independent_intersections": 245,
+          "retained_points": 43
+        },
+        "fixed": "-15/2",
+        "fixed_path": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "lower_field": [
+          "-7",
+          "-4",
+          "-15/2",
+          "-3"
+        ],
+        "upper_field": [
+          "2",
+          "9",
+          "3",
+          "8"
+        ],
+        "guaranteed": "-15/2",
+        "possible": "-33/25",
+        "capacity_minimum": "-15/2",
+        "capacity_minimum_witness": {
+          "theta": [
+            "1/2",
+            "-1",
+            "1"
+          ],
+          "capacity": "-15/2",
+          "barrier": "19/2",
+          "path": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        "capacity_maximum": "-33/25",
+        "capacity_maximum_witness": {
+          "theta": [
+            "-9/25",
+            "1",
+            "-1/5"
+          ],
+          "capacity": "-33/25",
+          "barrier": "0",
+          "path": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        "barrier_minimum": "0",
+        "barrier_minimum_witness": {
+          "theta": [
+            "-1",
+            "-1",
+            "-1"
+          ],
+          "capacity": "-7",
+          "barrier": "0",
+          "path": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        "barrier_maximum": "19/2",
+        "barrier_maximum_witness": {
+          "theta": [
+            "1/2",
+            "-1",
+            "1"
+          ],
+          "capacity": "-15/2",
+          "barrier": "19/2",
+          "path": [
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      },
+      "reference": {
+        "id": "fixed_seed_16",
+        "status": "connected",
+        "fixed": "-15/2",
+        "guaranteed": "-15/2",
+        "possible": "-33/25",
+        "barrier_minimum": "0",
+        "barrier_maximum": "19/2",
+        "minimal_path_sets": [
+          [
+            0,
+            1,
+            2,
+            3
+          ]
+        ],
+        "minimal_separators": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ]
+        ]
+      }
+    },
+    {
+      "id": "fixed_seed_17",
+      "exact": {
+        "id": "fixed_seed_17",
+        "status": "connected",
+        "counters": {
+          "hyperplanes": 16,
+          "candidate_intersections": 560,
+          "independent_intersections": 425,
+          "retained_points": 59
+        },
+        "fixed": "-3",
+        "fixed_path": [
+          0,
+          3,
+          4
+        ],
+        "lower_field": [
+          "-3",
+          "-7",
+          "-8",
+          "-2",
+          "-3"
+        ],
+        "upper_field": [
+          "5",
+          "7",
+          "4",
+          "8",
+          "9"
+        ],
+        "guaranteed": "-3",
+        "possible": "9/2",
+        "capacity_minimum": "-3",
+        "capacity_minimum_witness": {
+          "theta": [
+            "-1",
+            "1",
+            "-1"
+          ],
+          "capacity": "-3",
+          "barrier": "0",
+          "path": [
+            0,
+            3,
+            4
+          ]
+        },
+        "capacity_maximum": "9/2",
+        "capacity_maximum_witness": {
+          "theta": [
+            "1/2",
+            "-1",
+            "1"
+          ],
+          "capacity": "9/2",
+          "barrier": "0",
+          "path": [
+            0,
+            3,
+            4
+          ]
+        },
+        "barrier_minimum": "0",
+        "barrier_minimum_witness": {
+          "theta": [
+            "-1",
+            "-1",
+            "-1"
+          ],
+          "capacity": "-1",
+          "barrier": "0",
+          "path": [
+            0,
+            3,
+            4
+          ]
+        },
+        "barrier_maximum": "0",
+        "barrier_maximum_witness": {
+          "theta": [
+            "-1",
+            "-1",
+            "-1"
+          ],
+          "capacity": "-1",
+          "barrier": "0",
+          "path": [
+            0,
+            3,
+            4
+          ]
+        }
+      },
+      "reference": {
+        "id": "fixed_seed_17",
+        "status": "connected",
+        "fixed": "-3",
+        "guaranteed": "-3",
+        "possible": "9/2",
+        "barrier_minimum": "0",
+        "barrier_maximum": "0",
+        "minimal_path_sets": [
+          [
+            0,
+            3,
+            4
+          ]
+        ],
+        "minimal_separators": [
+          [
+            0
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ]
+      }
+    },
+    {
+      "id": "fixed_seed_18",
+      "exact": {
+        "id": "fixed_seed_18",
+        "status": "connected",
+        "counters": {
+          "hyperplanes": 5,
+          "candidate_intersections": 5,
+          "independent_intersections": 5,
+          "retained_points": 4
+        },
+        "fixed": "-3",
+        "fixed_path": [
+          0,
+          1,
+          2
+        ],
+        "lower_field": [
+          "2",
+          "0",
+          "-3"
+        ],
+        "upper_field": [
+          "2",
+          "4",
+          "3"
+        ],
+        "guaranteed": "-3",
+        "possible": "2",
+        "capacity_minimum": "-3",
+        "capacity_minimum_witness": {
+          "theta": [
+            "-1"
+          ],
+          "capacity": "-3",
+          "barrier": "0",
+          "path": [
+            0,
+            1,
+            2
+          ]
+        },
+        "capacity_maximum": "2",
+        "capacity_maximum_witness": {
+          "theta": [
+            "2/3"
+          ],
+          "capacity": "2",
+          "barrier": "0",
+          "path": [
+            0,
+            1,
+            2
+          ]
+        },
+        "barrier_minimum": "0",
+        "barrier_minimum_witness": {
+          "theta": [
+            "-1"
+          ],
+          "capacity": "-3",
+          "barrier": "0",
+          "path": [
+            0,
+            1,
+            2
+          ]
+        },
+        "barrier_maximum": "0",
+        "barrier_maximum_witness": {
+          "theta": [
+            "-1"
+          ],
+          "capacity": "-3",
+          "barrier": "0",
+          "path": [
+            0,
+            1,
+            2
+          ]
+        }
+      },
+      "reference": {
+        "id": "fixed_seed_18",
+        "status": "connected",
+        "fixed": "-3",
+        "guaranteed": "-3",
+        "possible": "2",
+        "barrier_minimum": "0",
+        "barrier_maximum": "0",
+        "minimal_path_sets": [
+          [
+            0,
+            1,
+            2
+          ]
+        ],
+        "minimal_separators": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ]
+        ]
+      }
+    },
+    {
+      "id": "fixed_seed_19",
+      "exact": {
+        "id": "fixed_seed_19",
+        "status": "connected",
+        "counters": {
+          "hyperplanes": 4,
+          "candidate_intersections": 4,
+          "independent_intersections": 4,
+          "retained_points": 3
+        },
+        "fixed": "-3",
+        "fixed_path": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "lower_field": [
+          "-2",
+          "-2",
+          "-1",
+          "-3"
+        ],
+        "upper_field": [
+          "-2",
+          "-2",
+          "3",
+          "3"
+        ],
+        "guaranteed": "-3",
+        "possible": "-2",
+        "capacity_minimum": "-3",
+        "capacity_minimum_witness": {
+          "theta": [
+            "1"
+          ],
+          "capacity": "-3",
+          "barrier": "0",
+          "path": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        "capacity_maximum": "-2",
+        "capacity_maximum_witness": {
+          "theta": [
+            "-1"
+          ],
+          "capacity": "-2",
+          "barrier": "0",
+          "path": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        "barrier_minimum": "0",
+        "barrier_minimum_witness": {
+          "theta": [
+            "-1"
+          ],
+          "capacity": "-2",
+          "barrier": "0",
+          "path": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        "barrier_maximum": "0",
+        "barrier_maximum_witness": {
+          "theta": [
+            "-1"
+          ],
+          "capacity": "-2",
+          "barrier": "0",
+          "path": [
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      },
+      "reference": {
+        "id": "fixed_seed_19",
+        "status": "connected",
+        "fixed": "-3",
+        "guaranteed": "-3",
+        "possible": "-2",
+        "barrier_minimum": "0",
+        "barrier_maximum": "0",
+        "minimal_path_sets": [
+          [
+            0,
+            1,
+            2,
+            3
+          ]
+        ],
+        "minimal_separators": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ]
+        ]
+      }
+    },
+    {
+      "id": "fixed_seed_20",
+      "exact": {
+        "id": "fixed_seed_20",
+        "status": "connected",
+        "counters": {
+          "hyperplanes": 10,
+          "candidate_intersections": 10,
+          "independent_intersections": 10,
+          "retained_points": 4
+        },
+        "fixed": "-4",
+        "fixed_path": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "lower_field": [
+          "-4",
+          "2",
+          "3",
+          "0",
+          "-5/2"
+        ],
+        "upper_field": [
+          "-1",
+          "2",
+          "3",
+          "3",
+          "2"
+        ],
+        "guaranteed": "-4",
+        "possible": "-1",
+        "capacity_minimum": "-4",
+        "capacity_minimum_witness": {
+          "theta": [
+            "1/2"
+          ],
+          "capacity": "-4",
+          "barrier": "0",
+          "path": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        "capacity_maximum": "-1",
+        "capacity_maximum_witness": {
+          "theta": [
+            "-1"
+          ],
+          "capacity": "-1",
+          "barrier": "0",
+          "path": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        "barrier_minimum": "0",
+        "barrier_minimum_witness": {
+          "theta": [
+            "-1"
+          ],
+          "capacity": "-1",
+          "barrier": "0",
+          "path": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        "barrier_maximum": "0",
+        "barrier_maximum_witness": {
+          "theta": [
+            "-1"
+          ],
+          "capacity": "-1",
+          "barrier": "0",
+          "path": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      },
+      "reference": {
+        "id": "fixed_seed_20",
+        "status": "connected",
+        "fixed": "-4",
+        "guaranteed": "-4",
+        "possible": "-1",
+        "barrier_minimum": "0",
+        "barrier_maximum": "0",
+        "minimal_path_sets": [
+          [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        ],
+        "minimal_separators": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ]
+      }
+    },
+    {
+      "id": "fixed_seed_21",
+      "exact": {
+        "id": "fixed_seed_21",
+        "status": "connected",
+        "counters": {
+          "hyperplanes": 7,
+          "candidate_intersections": 21,
+          "independent_intersections": 17,
+          "retained_points": 11
+        },
+        "fixed": "-7",
+        "fixed_path": [
+          0,
+          1,
+          2
+        ],
+        "lower_field": [
+          "-6",
+          "-7",
+          "-5"
+        ],
+        "upper_field": [
+          "6",
+          "1",
+          "3"
+        ],
+        "guaranteed": "-7",
+        "possible": "-3/5",
+        "capacity_minimum": "-7",
+        "capacity_minimum_witness": {
+          "theta": [
+            "1",
+            "1"
+          ],
+          "capacity": "-7",
+          "barrier": "6",
+          "path": [
+            0,
+            1,
+            2
+          ]
+        },
+        "capacity_maximum": "-3/5",
+        "capacity_maximum_witness": {
+          "theta": [
+            "-1",
+            "-4/5"
+          ],
+          "capacity": "-3/5",
+          "barrier": "0",
+          "path": [
+            0,
+            1,
+            2
+          ]
+        },
+        "barrier_minimum": "0",
+        "barrier_minimum_witness": {
+          "theta": [
+            "-1",
+            "-1"
+          ],
+          "capacity": "-1",
+          "barrier": "0",
+          "path": [
+            0,
+            1,
+            2
+          ]
+        },
+        "barrier_maximum": "6",
+        "barrier_maximum_witness": {
+          "theta": [
+            "4/5",
+            "1"
+          ],
+          "capacity": "-33/5",
+          "barrier": "6",
+          "path": [
+            0,
+            1,
+            2
+          ]
+        }
+      },
+      "reference": {
+        "id": "fixed_seed_21",
+        "status": "connected",
+        "fixed": "-7",
+        "guaranteed": "-7",
+        "possible": "-3/5",
+        "barrier_minimum": "0",
+        "barrier_maximum": "6",
+        "minimal_path_sets": [
+          [
+            0,
+            1,
+            2
+          ]
+        ],
+        "minimal_separators": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ]
+        ]
+      }
+    },
+    {
+      "id": "fixed_seed_22",
+      "exact": {
+        "id": "fixed_seed_22",
+        "status": "connected",
+        "counters": {
+          "hyperplanes": 8,
+          "candidate_intersections": 28,
+          "independent_intersections": 22,
+          "retained_points": 3
+        },
+        "fixed": "-2",
+        "fixed_path": [
+          0,
+          3
+        ],
+        "lower_field": [
+          "-2",
+          "1",
+          "-2",
+          "0"
+        ],
+        "upper_field": [
+          "0",
+          "5",
+          "0",
+          "2"
+        ],
+        "guaranteed": "-2",
+        "possible": "0",
+        "capacity_minimum": "-2",
+        "capacity_minimum_witness": {
+          "theta": [
+            "-1",
+            "0"
+          ],
+          "capacity": "-2",
+          "barrier": "0",
+          "path": [
+            0,
+            3
+          ]
+        },
+        "capacity_maximum": "0",
+        "capacity_maximum_witness": {
+          "theta": [
+            "1",
+            "0"
+          ],
+          "capacity": "0",
+          "barrier": "0",
+          "path": [
+            0,
+            3
+          ]
+        },
+        "barrier_minimum": "0",
+        "barrier_minimum_witness": {
+          "theta": [
+            "-1",
+            "0"
+          ],
+          "capacity": "-2",
+          "barrier": "0",
+          "path": [
+            0,
+            3
+          ]
+        },
+        "barrier_maximum": "0",
+        "barrier_maximum_witness": {
+          "theta": [
+            "-1",
+            "0"
+          ],
+          "capacity": "-2",
+          "barrier": "0",
+          "path": [
+            0,
+            3
+          ]
+        }
+      },
+      "reference": {
+        "id": "fixed_seed_22",
+        "status": "connected",
+        "fixed": "-2",
+        "guaranteed": "-2",
+        "possible": "0",
+        "barrier_minimum": "0",
+        "barrier_maximum": "0",
+        "minimal_path_sets": [
+          [
+            0,
+            3
+          ]
+        ],
+        "minimal_separators": [
+          [
+            0
+          ],
+          [
+            3
+          ]
+        ]
+      }
+    },
+    {
+      "id": "fixed_seed_23",
+      "exact": {
+        "id": "fixed_seed_23",
+        "status": "connected",
+        "counters": {
+          "hyperplanes": 14,
+          "candidate_intersections": 91,
+          "independent_intersections": 86,
+          "retained_points": 23
+        },
+        "fixed": "-5",
+        "fixed_path": [
+          0,
+          1,
+          4
+        ],
+        "lower_field": [
+          "-5",
+          "0",
+          "-8",
+          "-5",
+          "-5"
+        ],
+        "upper_field": [
+          "1",
+          "6",
+          "2",
+          "-1",
+          "1"
+        ],
+        "guaranteed": "-5",
+        "possible": "1",
+        "capacity_minimum": "-5",
+        "capacity_minimum_witness": {
+          "theta": [
+            "-1",
+            "1"
+          ],
+          "capacity": "-5",
+          "barrier": "0",
+          "path": [
+            0,
+            1,
+            4
+          ]
+        },
+        "capacity_maximum": "1",
+        "capacity_maximum_witness": {
+          "theta": [
+            "-1",
+            "-1"
+          ],
+          "capacity": "1",
+          "barrier": "0",
+          "path": [
+            0,
+            1,
+            4
+          ]
+        },
+        "barrier_minimum": "0",
+        "barrier_minimum_witness": {
+          "theta": [
+            "-1",
+            "-1"
+          ],
+          "capacity": "1",
+          "barrier": "0",
+          "path": [
+            0,
+            1,
+            4
+          ]
+        },
+        "barrier_maximum": "0",
+        "barrier_maximum_witness": {
+          "theta": [
+            "-1",
+            "-1"
+          ],
+          "capacity": "1",
+          "barrier": "0",
+          "path": [
+            0,
+            1,
+            4
+          ]
+        }
+      },
+      "reference": {
+        "id": "fixed_seed_23",
+        "status": "connected",
+        "fixed": "-5",
+        "guaranteed": "-5",
+        "possible": "1",
+        "barrier_minimum": "0",
+        "barrier_maximum": "0",
+        "minimal_path_sets": [
+          [
+            0,
+            1,
+            4
+          ]
+        ],
+        "minimal_separators": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            4
+          ]
+        ]
+      }
+    },
+    {
+      "id": "fixed_seed_24",
+      "exact": {
+        "id": "fixed_seed_24",
+        "status": "connected",
+        "counters": {
+          "hyperplanes": 10,
+          "candidate_intersections": 120,
+          "independent_intersections": 91,
+          "retained_points": 16
+        },
+        "fixed": "-8",
+        "fixed_path": [
+          0,
+          1,
+          2
+        ],
+        "lower_field": [
+          "-5",
+          "-8",
+          "-3"
+        ],
+        "upper_field": [
+          "9/2",
+          "3",
+          "9"
+        ],
+        "guaranteed": "-8",
+        "possible": "15/14",
+        "capacity_minimum": "-8",
+        "capacity_minimum_witness": {
+          "theta": [
+            "1",
+            "-1",
+            "-1"
+          ],
+          "capacity": "-8",
+          "barrier": "5",
+          "path": [
+            0,
+            1,
+            2
+          ]
+        },
+        "capacity_maximum": "15/14",
+        "capacity_maximum_witness": {
+          "theta": [
+            "-9/14",
+            "1",
+            "1/7"
+          ],
+          "capacity": "15/14",
+          "barrier": "0",
+          "path": [
+            0,
+            1,
+            2
+          ]
+        },
+        "barrier_minimum": "0",
+        "barrier_minimum_witness": {
+          "theta": [
+            "-1",
+            "-1",
+            "0"
+          ],
+          "capacity": "-3",
+          "barrier": "0",
+          "path": [
+            0,
+            1,
+            2
+          ]
+        },
+        "barrier_maximum": "8",
+        "barrier_maximum_witness": {
+          "theta": [
+            "1/2",
+            "1",
+            "-1"
+          ],
+          "capacity": "-7/2",
+          "barrier": "8",
+          "path": [
+            0,
+            1,
+            2
+          ]
+        }
+      },
+      "reference": {
+        "id": "fixed_seed_24",
+        "status": "connected",
+        "fixed": "-8",
+        "guaranteed": "-8",
+        "possible": "15/14",
+        "barrier_minimum": "0",
+        "barrier_maximum": "8",
+        "minimal_path_sets": [
+          [
+            0,
+            1,
+            2
+          ]
+        ],
+        "minimal_separators": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ]
+        ]
+      }
+    },
+    {
+      "id": "fixed_seed_25",
+      "exact": {
+        "id": "fixed_seed_25",
+        "status": "connected",
+        "counters": {
+          "hyperplanes": 12,
+          "candidate_intersections": 220,
+          "independent_intersections": 150,
+          "retained_points": 30
+        },
+        "fixed": "-7",
+        "fixed_path": [
+          0,
+          3
+        ],
+        "lower_field": [
+          "-7",
+          "-4",
+          "-6",
+          "-4"
+        ],
+        "upper_field": [
+          "1",
+          "4",
+          "2",
+          "0"
+        ],
+        "guaranteed": "-7",
+        "possible": "-1",
+        "capacity_minimum": "-7",
+        "capacity_minimum_witness": {
+          "theta": [
+            "-1",
+            "1",
+            "1"
+          ],
+          "capacity": "-7",
+          "barrier": "0",
+          "path": [
+            0,
+            3
+          ]
+        },
+        "capacity_maximum": "-1",
+        "capacity_maximum_witness": {
+          "theta": [
+            "1",
+            "-1",
+            "0"
+          ],
+          "capacity": "-1",
+          "barrier": "0",
+          "path": [
+            0,
+            3
+          ]
+        },
+        "barrier_minimum": "0",
+        "barrier_minimum_witness": {
+          "theta": [
+            "-1",
+            "-1",
+            "-1"
+          ],
+          "capacity": "-2",
+          "barrier": "0",
+          "path": [
+            0,
+            3
+          ]
+        },
+        "barrier_maximum": "0",
+        "barrier_maximum_witness": {
+          "theta": [
+            "-1",
+            "-1",
+            "-1"
+          ],
+          "capacity": "-2",
+          "barrier": "0",
+          "path": [
+            0,
+            3
+          ]
+        }
+      },
+      "reference": {
+        "id": "fixed_seed_25",
+        "status": "connected",
+        "fixed": "-7",
+        "guaranteed": "-7",
+        "possible": "-1",
+        "barrier_minimum": "0",
+        "barrier_maximum": "0",
+        "minimal_path_sets": [
+          [
+            0,
+            3
+          ]
+        ],
+        "minimal_separators": [
+          [
+            0
+          ],
+          [
+            3
+          ]
+        ]
+      }
+    },
+    {
+      "id": "fixed_seed_26",
+      "exact": {
+        "id": "fixed_seed_26",
+        "status": "connected",
+        "counters": {
+          "hyperplanes": 12,
+          "candidate_intersections": 220,
+          "independent_intersections": 178,
+          "retained_points": 42
+        },
+        "fixed": "0",
+        "fixed_path": [
+          0,
+          4
+        ],
+        "lower_field": [
+          "0",
+          "-5",
+          "-4",
+          "-2",
+          "0"
+        ],
+        "upper_field": [
+          "6",
+          "9",
+          "10",
+          "4",
+          "6"
+        ],
+        "guaranteed": "0",
+        "possible": "6",
+        "capacity_minimum": "0",
+        "capacity_minimum_witness": {
+          "theta": [
+            "1",
+            "1",
+            "-1"
+          ],
+          "capacity": "0",
+          "barrier": "0",
+          "path": [
+            0,
+            4
+          ]
+        },
+        "capacity_maximum": "6",
+        "capacity_maximum_witness": {
+          "theta": [
+            "-1",
+            "-1",
+            "-1"
+          ],
+          "capacity": "6",
+          "barrier": "0",
+          "path": [
+            0,
+            4
+          ]
+        },
+        "barrier_minimum": "0",
+        "barrier_minimum_witness": {
+          "theta": [
+            "-1",
+            "-1",
+            "-1"
+          ],
+          "capacity": "6",
+          "barrier": "0",
+          "path": [
+            0,
+            4
+          ]
+        },
+        "barrier_maximum": "0",
+        "barrier_maximum_witness": {
+          "theta": [
+            "-1",
+            "-1",
+            "-1"
+          ],
+          "capacity": "6",
+          "barrier": "0",
+          "path": [
+            0,
+            4
+          ]
+        }
+      },
+      "reference": {
+        "id": "fixed_seed_26",
+        "status": "connected",
+        "fixed": "0",
+        "guaranteed": "0",
+        "possible": "6",
+        "barrier_minimum": "0",
+        "barrier_maximum": "0",
+        "minimal_path_sets": [
+          [
+            0,
+            4
+          ]
+        ],
+        "minimal_separators": [
+          [
+            0
+          ],
+          [
+            4
+          ]
+        ]
+      }
+    },
+    {
+      "id": "fixed_seed_27",
+      "exact": {
+        "id": "fixed_seed_27",
+        "status": "connected",
+        "counters": {
+          "hyperplanes": 4,
+          "candidate_intersections": 4,
+          "independent_intersections": 4,
+          "retained_points": 4
+        },
+        "fixed": "-1",
+        "fixed_path": [
+          0,
+          1,
+          2
+        ],
+        "lower_field": [
+          "3",
+          "-1",
+          "1"
+        ],
+        "upper_field": [
+          "3",
+          "5",
+          "3"
+        ],
+        "guaranteed": "-1",
+        "possible": "3",
+        "capacity_minimum": "-1",
+        "capacity_minimum_witness": {
+          "theta": [
+            "1"
+          ],
+          "capacity": "-1",
+          "barrier": "2",
+          "path": [
+            0,
+            1,
+            2
+          ]
+        },
+        "capacity_maximum": "3",
+        "capacity_maximum_witness": {
+          "theta": [
+            "-1"
+          ],
+          "capacity": "3",
+          "barrier": "0",
+          "path": [
+            0,
+            1,
+            2
+          ]
+        },
+        "barrier_minimum": "0",
+        "barrier_minimum_witness": {
+          "theta": [
+            "-1"
+          ],
+          "capacity": "3",
+          "barrier": "0",
+          "path": [
+            0,
+            1,
+            2
+          ]
+        },
+        "barrier_maximum": "2",
+        "barrier_maximum_witness": {
+          "theta": [
+            "1"
+          ],
+          "capacity": "-1",
+          "barrier": "2",
+          "path": [
+            0,
+            1,
+            2
+          ]
+        }
+      },
+      "reference": {
+        "id": "fixed_seed_27",
+        "status": "connected",
+        "fixed": "-1",
+        "guaranteed": "-1",
+        "possible": "3",
+        "barrier_minimum": "0",
+        "barrier_maximum": "2",
+        "minimal_path_sets": [
+          [
+            0,
+            1,
+            2
+          ]
+        ],
+        "minimal_separators": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ]
+        ]
+      }
+    },
+    {
+      "id": "fixed_seed_28",
+      "exact": {
+        "id": "fixed_seed_28",
+        "status": "connected",
+        "counters": {
+          "hyperplanes": 8,
+          "candidate_intersections": 8,
+          "independent_intersections": 8,
+          "retained_points": 5
+        },
+        "fixed": "-9/2",
+        "fixed_path": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "lower_field": [
+          "-2",
+          "0",
+          "-9/2",
+          "-3/2"
+        ],
+        "upper_field": [
+          "5/2",
+          "3",
+          "0",
+          "0"
+        ],
+        "guaranteed": "-9/2",
+        "possible": "-1",
+        "capacity_minimum": "-9/2",
+        "capacity_minimum_witness": {
+          "theta": [
+            "1/2"
+          ],
+          "capacity": "-9/2",
+          "barrier": "3",
+          "path": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        "capacity_maximum": "-1",
+        "capacity_maximum_witness": {
+          "theta": [
+            "-2/3"
+          ],
+          "capacity": "-1",
+          "barrier": "0",
+          "path": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        "barrier_minimum": "0",
+        "barrier_minimum_witness": {
+          "theta": [
+            "-1"
+          ],
+          "capacity": "-2",
+          "barrier": "0",
+          "path": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        "barrier_maximum": "3",
+        "barrier_maximum_witness": {
+          "theta": [
+            "1/2"
+          ],
+          "capacity": "-9/2",
+          "barrier": "3",
+          "path": [
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      },
+      "reference": {
+        "id": "fixed_seed_28",
+        "status": "connected",
+        "fixed": "-9/2",
+        "guaranteed": "-9/2",
+        "possible": "-1",
+        "barrier_minimum": "0",
+        "barrier_maximum": "3",
+        "minimal_path_sets": [
+          [
+            0,
+            1,
+            2,
+            3
+          ]
+        ],
+        "minimal_separators": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ]
+        ]
+      }
+    },
+    {
+      "id": "fixed_seed_29",
+      "exact": {
+        "id": "fixed_seed_29",
+        "status": "connected",
+        "counters": {
+          "hyperplanes": 10,
+          "candidate_intersections": 10,
+          "independent_intersections": 10,
+          "retained_points": 7
+        },
+        "fixed": "-4",
+        "fixed_path": [
+          0,
+          4
+        ],
+        "lower_field": [
+          "0",
+          "1",
+          "1",
+          "-3",
+          "-4"
+        ],
+        "upper_field": [
+          "2",
+          "5",
+          "1",
+          "-1",
+          "2"
+        ],
+        "guaranteed": "-4",
+        "possible": "1/2",
+        "capacity_minimum": "-4",
+        "capacity_minimum_witness": {
+          "theta": [
+            "-1"
+          ],
+          "capacity": "-4",
+          "barrier": "0",
+          "path": [
+            0,
+            4
+          ]
+        },
+        "capacity_maximum": "1/2",
+        "capacity_maximum_witness": {
+          "theta": [
+            "1/2"
+          ],
+          "capacity": "1/2",
+          "barrier": "0",
+          "path": [
+            0,
+            4
+          ]
+        },
+        "barrier_minimum": "0",
+        "barrier_minimum_witness": {
+          "theta": [
+            "-1"
+          ],
+          "capacity": "-4",
+          "barrier": "0",
+          "path": [
+            0,
+            4
+          ]
+        },
+        "barrier_maximum": "0",
+        "barrier_maximum_witness": {
+          "theta": [
+            "-1"
+          ],
+          "capacity": "-4",
+          "barrier": "0",
+          "path": [
+            0,
+            4
+          ]
+        }
+      },
+      "reference": {
+        "id": "fixed_seed_29",
+        "status": "connected",
+        "fixed": "-4",
+        "guaranteed": "-4",
+        "possible": "1/2",
+        "barrier_minimum": "0",
+        "barrier_maximum": "0",
+        "minimal_path_sets": [
+          [
+            0,
+            4
+          ]
+        ],
+        "minimal_separators": [
+          [
+            0
+          ],
+          [
+            4
+          ]
+        ]
+      }
+    },
+    {
+      "id": "fixed_seed_30",
+      "exact": {
+        "id": "fixed_seed_30",
+        "status": "connected",
+        "counters": {
+          "hyperplanes": 7,
+          "candidate_intersections": 21,
+          "independent_intersections": 19,
+          "retained_points": 8
+        },
+        "fixed": "-5",
+        "fixed_path": [
+          0,
+          2
+        ],
+        "lower_field": [
+          "-4",
+          "-2",
+          "-5"
+        ],
+        "upper_field": [
+          "0",
+          "6",
+          "3"
+        ],
+        "guaranteed": "-5",
+        "possible": "0",
+        "capacity_minimum": "-5",
+        "capacity_minimum_witness": {
+          "theta": [
+            "-1",
+            "-1"
+          ],
+          "capacity": "-5",
+          "barrier": "0",
+          "path": [
+            0,
+            2
+          ]
+        },
+        "capacity_maximum": "0",
+        "capacity_maximum_witness": {
+          "theta": [
+            "1",
+            "-1"
+          ],
+          "capacity": "0",
+          "barrier": "0",
+          "path": [
+            0,
+            2
+          ]
+        },
+        "barrier_minimum": "0",
+        "barrier_minimum_witness": {
+          "theta": [
+            "-1",
+            "-1"
+          ],
+          "capacity": "-5",
+          "barrier": "0",
+          "path": [
+            0,
+            2
+          ]
+        },
+        "barrier_maximum": "0",
+        "barrier_maximum_witness": {
+          "theta": [
+            "-1",
+            "-1"
+          ],
+          "capacity": "-5",
+          "barrier": "0",
+          "path": [
+            0,
+            2
+          ]
+        }
+      },
+      "reference": {
+        "id": "fixed_seed_30",
+        "status": "connected",
+        "fixed": "-5",
+        "guaranteed": "-5",
+        "possible": "0",
+        "barrier_minimum": "0",
+        "barrier_maximum": "0",
+        "minimal_path_sets": [
+          [
+            0,
+            2
+          ]
+        ],
+        "minimal_separators": [
+          [
+            0
+          ],
+          [
+            2
+          ]
+        ]
+      }
+    },
+    {
+      "id": "fixed_seed_31",
+      "exact": {
+        "id": "fixed_seed_31",
+        "status": "connected",
+        "counters": {
+          "hyperplanes": 9,
+          "candidate_intersections": 36,
+          "independent_intersections": 27,
+          "retained_points": 17
+        },
+        "fixed": "-7",
+        "fixed_path": [
+          0,
+          1,
+          3
+        ],
+        "lower_field": [
+          "-6",
+          "-4",
+          "-3",
+          "-7"
+        ],
+        "upper_field": [
+          "4",
+          "4",
+          "7",
+          "3"
+        ],
+        "guaranteed": "-7",
+        "possible": "1/2",
+        "capacity_minimum": "-7",
+        "capacity_minimum_witness": {
+          "theta": [
+            "1",
+            "1"
+          ],
+          "capacity": "-7",
+          "barrier": "0",
+          "path": [
+            0,
+            1,
+            3
+          ]
+        },
+        "capacity_maximum": "1/2",
+        "capacity_maximum_witness": {
+          "theta": [
+            "-1/6",
+            "-1"
+          ],
+          "capacity": "1/2",
+          "barrier": "0",
+          "path": [
+            0,
+            1,
+            3
+          ]
+        },
+        "barrier_minimum": "0",
+        "barrier_minimum_witness": {
+          "theta": [
+            "-1",
+            "-1"
+          ],
+          "capacity": "-2",
+          "barrier": "0",
+          "path": [
+            0,
+            1,
+            3
+          ]
+        },
+        "barrier_maximum": "0",
+        "barrier_maximum_witness": {
+          "theta": [
+            "-1",
+            "-1"
+          ],
+          "capacity": "-2",
+          "barrier": "0",
+          "path": [
+            0,
+            1,
+            3
+          ]
+        }
+      },
+      "reference": {
+        "id": "fixed_seed_31",
+        "status": "connected",
+        "fixed": "-7",
+        "guaranteed": "-7",
+        "possible": "1/2",
+        "barrier_minimum": "0",
+        "barrier_maximum": "0",
+        "minimal_path_sets": [
+          [
+            0,
+            1,
+            3
+          ],
+          [
+            0,
+            2,
+            3
+          ]
+        ],
+        "minimal_separators": [
+          [
+            0
+          ],
+          [
+            3
+          ],
+          [
+            1,
+            2
+          ]
+        ]
+      }
+    },
+    {
+      "id": "fixed_seed_32",
+      "exact": {
+        "id": "fixed_seed_32",
+        "status": "connected",
+        "counters": {
+          "hyperplanes": 9,
+          "candidate_intersections": 36,
+          "independent_intersections": 20,
+          "retained_points": 9
+        },
+        "fixed": "-4",
+        "fixed_path": [
+          0,
+          4
+        ],
+        "lower_field": [
+          "-4",
+          "-4",
+          "-6",
+          "-2",
+          "-2"
+        ],
+        "upper_field": [
+          "5/2",
+          "-2",
+          "-3/2",
+          "6",
+          "6"
+        ],
+        "guaranteed": "-4",
+        "possible": "7/6",
+        "capacity_minimum": "-4",
+        "capacity_minimum_witness": {
+          "theta": [
+            "-1",
+            "-1"
+          ],
+          "capacity": "-4",
+          "barrier": "0",
+          "path": [
+            0,
+            4
+          ]
+        },
+        "capacity_maximum": "7/6",
+        "capacity_maximum_witness": {
+          "theta": [
+            "1/3",
+            "1/6"
+          ],
+          "capacity": "7/6",
+          "barrier": "0",
+          "path": [
+            0,
+            4
+          ]
+        },
+        "barrier_minimum": "0",
+        "barrier_minimum_witness": {
+          "theta": [
+            "-1",
+            "-1"
+          ],
+          "capacity": "-4",
+          "barrier": "0",
+          "path": [
+            0,
+            4
+          ]
+        },
+        "barrier_maximum": "0",
+        "barrier_maximum_witness": {
+          "theta": [
+            "-1",
+            "-1"
+          ],
+          "capacity": "-4",
+          "barrier": "0",
+          "path": [
+            0,
+            4
+          ]
+        }
+      },
+      "reference": {
+        "id": "fixed_seed_32",
+        "status": "connected",
+        "fixed": "-4",
+        "guaranteed": "-4",
+        "possible": "7/6",
+        "barrier_minimum": "0",
+        "barrier_maximum": "0",
+        "minimal_path_sets": [
+          [
+            0,
+            4
+          ]
+        ],
+        "minimal_separators": [
+          [
+            0
+          ],
+          [
+            4
+          ]
+        ]
+      }
+    },
+    {
+      "id": "fixed_seed_33",
+      "exact": {
+        "id": "fixed_seed_33",
+        "status": "connected",
+        "counters": {
+          "hyperplanes": 7,
+          "candidate_intersections": 35,
+          "independent_intersections": 16,
+          "retained_points": 4
+        },
+        "fixed": "-6",
+        "fixed_path": [
+          0,
+          1,
+          2
+        ],
+        "lower_field": [
+          "-6",
+          "-6",
+          "-3"
+        ],
+        "upper_field": [
+          "6",
+          "4",
+          "9"
+        ],
+        "guaranteed": "-6",
+        "possible": "4",
+        "capacity_minimum": "-6",
+        "capacity_minimum_witness": {
+          "theta": [
+            "-1",
+            "-1",
+            "0"
+          ],
+          "capacity": "-6",
+          "barrier": "0",
+          "path": [
+            0,
+            1,
+            2
+          ]
+        },
+        "capacity_maximum": "4",
+        "capacity_maximum_witness": {
+          "theta": [
+            "1",
+            "1",
+            "0"
+          ],
+          "capacity": "4",
+          "barrier": "2",
+          "path": [
+            0,
+            1,
+            2
+          ]
+        },
+        "barrier_minimum": "0",
+        "barrier_minimum_witness": {
+          "theta": [
+            "-1",
+            "-1",
+            "0"
+          ],
+          "capacity": "-6",
+          "barrier": "0",
+          "path": [
+            0,
+            1,
+            2
+          ]
+        },
+        "barrier_maximum": "2",
+        "barrier_maximum_witness": {
+          "theta": [
+            "-1",
+            "1",
+            "0"
+          ],
+          "capacity": "-2",
+          "barrier": "2",
+          "path": [
+            0,
+            1,
+            2
+          ]
+        }
+      },
+      "reference": {
+        "id": "fixed_seed_33",
+        "status": "connected",
+        "fixed": "-6",
+        "guaranteed": "-6",
+        "possible": "4",
+        "barrier_minimum": "0",
+        "barrier_maximum": "2",
+        "minimal_path_sets": [
+          [
+            0,
+            1,
+            2
+          ]
+        ],
+        "minimal_separators": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ]
+        ]
+      }
+    },
+    {
+      "id": "fixed_seed_34",
+      "exact": {
+        "id": "fixed_seed_34",
+        "status": "connected",
+        "counters": {
+          "hyperplanes": 12,
+          "candidate_intersections": 220,
+          "independent_intersections": 178,
+          "retained_points": 43
+        },
+        "fixed": "-10",
+        "fixed_path": [
+          0,
+          3
+        ],
+        "lower_field": [
+          "-10",
+          "-2",
+          "-1",
+          "-8"
+        ],
+        "upper_field": [
+          "6",
+          "8",
+          "3",
+          "8"
+        ],
+        "guaranteed": "-10",
+        "possible": "22/5",
+        "capacity_minimum": "-10",
+        "capacity_minimum_witness": {
+          "theta": [
+            "1",
+            "-1",
+            "1"
+          ],
+          "capacity": "-10",
+          "barrier": "0",
+          "path": [
+            0,
+            3
+          ]
+        },
+        "capacity_maximum": "22/5",
+        "capacity_maximum_witness": {
+          "theta": [
+            "-1",
+            "1",
+            "-1/5"
+          ],
+          "capacity": "22/5",
+          "barrier": "0",
+          "path": [
+            0,
+            3
+          ]
+        },
+        "barrier_minimum": "0",
+        "barrier_minimum_witness": {
+          "theta": [
+            "-1",
+            "-1",
+            "-1"
+          ],
+          "capacity": "-2",
+          "barrier": "0",
+          "path": [
+            0,
+            3
+          ]
+        },
+        "barrier_maximum": "0",
+        "barrier_maximum_witness": {
+          "theta": [
+            "-1",
+            "-1",
+            "-1"
+          ],
+          "capacity": "-2",
+          "barrier": "0",
+          "path": [
+            0,
+            3
+          ]
+        }
+      },
+      "reference": {
+        "id": "fixed_seed_34",
+        "status": "connected",
+        "fixed": "-10",
+        "guaranteed": "-10",
+        "possible": "22/5",
+        "barrier_minimum": "0",
+        "barrier_maximum": "0",
+        "minimal_path_sets": [
+          [
+            0,
+            3
+          ]
+        ],
+        "minimal_separators": [
+          [
+            0
+          ],
+          [
+            3
+          ]
+        ]
+      }
+    },
+    {
+      "id": "fixed_seed_35",
+      "exact": {
+        "id": "fixed_seed_35",
+        "status": "connected",
+        "counters": {
+          "hyperplanes": 16,
+          "candidate_intersections": 560,
+          "independent_intersections": 498,
+          "retained_points": 63
+        },
+        "fixed": "-7",
+        "fixed_path": [
+          0,
+          2,
+          3,
+          4
+        ],
+        "lower_field": [
+          "-2",
+          "-4",
+          "-3",
+          "-7",
+          "-3"
+        ],
+        "upper_field": [
+          "8",
+          "8",
+          "9",
+          "3",
+          "5"
+        ],
+        "guaranteed": "-7",
+        "possible": "2",
+        "capacity_minimum": "-7",
+        "capacity_minimum_witness": {
+          "theta": [
+            "1",
+            "-1",
+            "1"
+          ],
+          "capacity": "-7",
+          "barrier": "8",
+          "path": [
+            0,
+            2,
+            3,
+            4
+          ]
+        },
+        "capacity_maximum": "2",
+        "capacity_maximum_witness": {
+          "theta": [
+            "-1",
+            "0",
+            "-1"
+          ],
+          "capacity": "2",
+          "barrier": "0",
+          "path": [
+            0,
+            2,
+            3,
+            4
+          ]
+        },
+        "barrier_minimum": "0",
+        "barrier_minimum_witness": {
+          "theta": [
+            "-1",
+            "0",
+            "-1"
+          ],
+          "capacity": "2",
+          "barrier": "0",
+          "path": [
+            0,
+            2,
+            3,
+            4
+          ]
+        },
+        "barrier_maximum": "33/4",
+        "barrier_maximum_witness": {
+          "theta": [
+            "3/4",
+            "-1",
+            "1"
+          ],
+          "capacity": "-27/4",
+          "barrier": "33/4",
+          "path": [
+            0,
+            2,
+            3,
+            4
+          ]
+        }
+      },
+      "reference": {
+        "id": "fixed_seed_35",
+        "status": "connected",
+        "fixed": "-7",
+        "guaranteed": "-7",
+        "possible": "2",
+        "barrier_minimum": "0",
+        "barrier_maximum": "33/4",
+        "minimal_path_sets": [
+          [
+            0,
+            2,
+            3,
+            4
+          ]
+        ],
+        "minimal_separators": [
+          [
+            0
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ]
+      }
+    },
+    {
+      "id": "fixed_seed_36",
+      "exact": {
+        "id": "fixed_seed_36",
+        "status": "connected",
+        "counters": {
+          "hyperplanes": 5,
+          "candidate_intersections": 5,
+          "independent_intersections": 5,
+          "retained_points": 3
+        },
+        "fixed": "-3",
+        "fixed_path": [
+          0,
+          2
+        ],
+        "lower_field": [
+          "-3",
+          "-3/2",
+          "-2"
+        ],
+        "upper_field": [
+          "-3",
+          "3",
+          "1"
+        ],
+        "guaranteed": "-3",
+        "possible": "-3",
+        "capacity_minimum": "-3",
+        "capacity_minimum_witness": {
+          "theta": [
+            "-1"
+          ],
+          "capacity": "-3",
+          "barrier": "0",
+          "path": [
+            0,
+            2
+          ]
+        },
+        "capacity_maximum": "-3",
+        "capacity_maximum_witness": {
+          "theta": [
+            "-1"
+          ],
+          "capacity": "-3",
+          "barrier": "0",
+          "path": [
+            0,
+            2
+          ]
+        },
+        "barrier_minimum": "0",
+        "barrier_minimum_witness": {
+          "theta": [
+            "-1"
+          ],
+          "capacity": "-3",
+          "barrier": "0",
+          "path": [
+            0,
+            2
+          ]
+        },
+        "barrier_maximum": "0",
+        "barrier_maximum_witness": {
+          "theta": [
+            "-1"
+          ],
+          "capacity": "-3",
+          "barrier": "0",
+          "path": [
+            0,
+            2
+          ]
+        }
+      },
+      "reference": {
+        "id": "fixed_seed_36",
+        "status": "connected",
+        "fixed": "-3",
+        "guaranteed": "-3",
+        "possible": "-3",
+        "barrier_minimum": "0",
+        "barrier_maximum": "0",
+        "minimal_path_sets": [
+          [
+            0,
+            2
+          ]
+        ],
+        "minimal_separators": [
+          [
+            0
+          ],
+          [
+            2
+          ]
+        ]
+      }
+    },
+    {
+      "id": "fixed_seed_37",
+      "exact": {
+        "id": "fixed_seed_37",
+        "status": "connected",
+        "counters": {
+          "hyperplanes": 7,
+          "candidate_intersections": 7,
+          "independent_intersections": 7,
+          "retained_points": 5
+        },
+        "fixed": "-3",
+        "fixed_path": [
+          0,
+          3
+        ],
+        "lower_field": [
+          "1",
+          "-5",
+          "-5",
+          "-3"
+        ],
+        "upper_field": [
+          "1",
+          "1",
+          "-1",
+          "3"
+        ],
+        "guaranteed": "-3",
+        "possible": "1",
+        "capacity_minimum": "-3",
+        "capacity_minimum_witness": {
+          "theta": [
+            "1"
+          ],
+          "capacity": "-3",
+          "barrier": "0",
+          "path": [
+            0,
+            3
+          ]
+        },
+        "capacity_maximum": "1",
+        "capacity_maximum_witness": {
+          "theta": [
+            "-1"
+          ],
+          "capacity": "1",
+          "barrier": "0",
+          "path": [
+            0,
+            3
+          ]
+        },
+        "barrier_minimum": "0",
+        "barrier_minimum_witness": {
+          "theta": [
+            "-1"
+          ],
+          "capacity": "1",
+          "barrier": "0",
+          "path": [
+            0,
+            3
+          ]
+        },
+        "barrier_maximum": "0",
+        "barrier_maximum_witness": {
+          "theta": [
+            "-1"
+          ],
+          "capacity": "1",
+          "barrier": "0",
+          "path": [
+            0,
+            3
+          ]
+        }
+      },
+      "reference": {
+        "id": "fixed_seed_37",
+        "status": "connected",
+        "fixed": "-3",
+        "guaranteed": "-3",
+        "possible": "1",
+        "barrier_minimum": "0",
+        "barrier_maximum": "0",
+        "minimal_path_sets": [
+          [
+            0,
+            3
+          ]
+        ],
+        "minimal_separators": [
+          [
+            0
+          ],
+          [
+            3
+          ]
+        ]
+      }
+    },
+    {
+      "id": "fixed_seed_38",
+      "exact": {
+        "id": "fixed_seed_38",
+        "status": "connected",
+        "counters": {
+          "hyperplanes": 7,
+          "candidate_intersections": 7,
+          "independent_intersections": 7,
+          "retained_points": 5
+        },
+        "fixed": "-5",
+        "fixed_path": [
+          0,
+          4
+        ],
+        "lower_field": [
+          "-5",
+          "-5",
+          "1",
+          "-3",
+          "-1"
+        ],
+        "upper_field": [
+          "-1",
+          "1",
+          "5",
+          "3",
+          "5"
+        ],
+        "guaranteed": "-5",
+        "possible": "-1",
+        "capacity_minimum": "-5",
+        "capacity_minimum_witness": {
+          "theta": [
+            "-1"
+          ],
+          "capacity": "-5",
+          "barrier": "0",
+          "path": [
+            0,
+            4
+          ]
+        },
+        "capacity_maximum": "-1",
+        "capacity_maximum_witness": {
+          "theta": [
+            "1"
+          ],
+          "capacity": "-1",
+          "barrier": "0",
+          "path": [
+            0,
+            4
+          ]
+        },
+        "barrier_minimum": "0",
+        "barrier_minimum_witness": {
+          "theta": [
+            "-1"
+          ],
+          "capacity": "-5",
+          "barrier": "0",
+          "path": [
+            0,
+            4
+          ]
+        },
+        "barrier_maximum": "0",
+        "barrier_maximum_witness": {
+          "theta": [
+            "-1"
+          ],
+          "capacity": "-5",
+          "barrier": "0",
+          "path": [
+            0,
+            4
+          ]
+        }
+      },
+      "reference": {
+        "id": "fixed_seed_38",
+        "status": "connected",
+        "fixed": "-5",
+        "guaranteed": "-5",
+        "possible": "-1",
+        "barrier_minimum": "0",
+        "barrier_maximum": "0",
+        "minimal_path_sets": [
+          [
+            0,
+            4
+          ]
+        ],
+        "minimal_separators": [
+          [
+            0
+          ],
+          [
+            4
+          ]
+        ]
+      }
+    },
+    {
+      "id": "fixed_seed_39",
+      "exact": {
+        "id": "fixed_seed_39",
+        "status": "connected",
+        "counters": {
+          "hyperplanes": 5,
+          "candidate_intersections": 10,
+          "independent_intersections": 8,
+          "retained_points": 6
+        },
+        "fixed": "-7",
+        "fixed_path": [
+          0,
+          1,
+          2
+        ],
+        "lower_field": [
+          "-7",
+          "-3",
+          "-7"
+        ],
+        "upper_field": [
+          "5",
+          "7",
+          "5"
+        ],
+        "guaranteed": "-7",
+        "possible": "3",
+        "capacity_minimum": "-7",
+        "capacity_minimum_witness": {
+          "theta": [
+            "1",
+            "-1"
+          ],
+          "capacity": "-7",
+          "barrier": "0",
+          "path": [
+            0,
+            1,
+            2
+          ]
+        },
+        "capacity_maximum": "3",
+        "capacity_maximum_witness": {
+          "theta": [
+            "-1",
+            "1/3"
+          ],
+          "capacity": "3",
+          "barrier": "0",
+          "path": [
+            0,
+            1,
+            2
+          ]
+        },
+        "barrier_minimum": "0",
+        "barrier_minimum_witness": {
+          "theta": [
+            "-1",
+            "-1"
+          ],
+          "capacity": "-1",
+          "barrier": "0",
+          "path": [
+            0,
+            1,
+            2
+          ]
+        },
+        "barrier_maximum": "4",
+        "barrier_maximum_witness": {
+          "theta": [
+            "-1",
+            "1"
+          ],
+          "capacity": "1",
+          "barrier": "4",
+          "path": [
+            0,
+            1,
+            2
+          ]
+        }
+      },
+      "reference": {
+        "id": "fixed_seed_39",
+        "status": "connected",
+        "fixed": "-7",
+        "guaranteed": "-7",
+        "possible": "3",
+        "barrier_minimum": "0",
+        "barrier_maximum": "4",
+        "minimal_path_sets": [
+          [
+            0,
+            1,
+            2
+          ]
+        ],
+        "minimal_separators": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ]
+        ]
+      }
+    },
+    {
+      "id": "fixed_seed_40",
+      "exact": {
+        "id": "fixed_seed_40",
+        "status": "connected",
+        "counters": {
+          "hyperplanes": 10,
+          "candidate_intersections": 45,
+          "independent_intersections": 41,
+          "retained_points": 12
+        },
+        "fixed": "-3",
+        "fixed_path": [
+          0,
+          3
+        ],
+        "lower_field": [
+          "-3",
+          "-4",
+          "-1",
+          "0"
+        ],
+        "upper_field": [
+          "1",
+          "6",
+          "5",
+          "6"
+        ],
+        "guaranteed": "-3",
+        "possible": "1",
+        "capacity_minimum": "-3",
+        "capacity_minimum_witness": {
+          "theta": [
+            "1",
+            "-1"
+          ],
+          "capacity": "-3",
+          "barrier": "0",
+          "path": [
+            0,
+            3
+          ]
+        },
+        "capacity_maximum": "1",
+        "capacity_maximum_witness": {
+          "theta": [
+            "-1",
+            "-1"
+          ],
+          "capacity": "1",
+          "barrier": "0",
+          "path": [
+            0,
+            3
+          ]
+        },
+        "barrier_minimum": "0",
+        "barrier_minimum_witness": {
+          "theta": [
+            "-1",
+            "-1"
+          ],
+          "capacity": "1",
+          "barrier": "0",
+          "path": [
+            0,
+            3
+          ]
+        },
+        "barrier_maximum": "0",
+        "barrier_maximum_witness": {
+          "theta": [
+            "-1",
+            "-1"
+          ],
+          "capacity": "1",
+          "barrier": "0",
+          "path": [
+            0,
+            3
+          ]
+        }
+      },
+      "reference": {
+        "id": "fixed_seed_40",
+        "status": "connected",
+        "fixed": "-3",
+        "guaranteed": "-3",
+        "possible": "1",
+        "barrier_minimum": "0",
+        "barrier_maximum": "0",
+        "minimal_path_sets": [
+          [
+            0,
+            3
+          ]
+        ],
+        "minimal_separators": [
+          [
+            0
+          ],
+          [
+            3
+          ]
+        ]
+      }
+    },
+    {
+      "id": "fixed_seed_41",
+      "exact": {
+        "id": "fixed_seed_41",
+        "status": "connected",
+        "counters": {
+          "hyperplanes": 14,
+          "candidate_intersections": 91,
+          "independent_intersections": 84,
+          "retained_points": 18
+        },
+        "fixed": "-6",
+        "fixed_path": [
+          0,
+          4
+        ],
+        "lower_field": [
+          "1",
+          "-6",
+          "-3",
+          "-7",
+          "-6"
+        ],
+        "upper_field": [
+          "5",
+          "2",
+          "-1",
+          "3",
+          "2"
+        ],
+        "guaranteed": "-6",
+        "possible": "2",
+        "capacity_minimum": "-6",
+        "capacity_minimum_witness": {
+          "theta": [
+            "-1",
+            "-1"
+          ],
+          "capacity": "-6",
+          "barrier": "0",
+          "path": [
+            0,
+            4
+          ]
+        },
+        "capacity_maximum": "2",
+        "capacity_maximum_witness": {
+          "theta": [
+            "1",
+            "1"
+          ],
+          "capacity": "2",
+          "barrier": "0",
+          "path": [
+            0,
+            4
+          ]
+        },
+        "barrier_minimum": "0",
+        "barrier_minimum_witness": {
+          "theta": [
+            "-1",
+            "-1"
+          ],
+          "capacity": "-6",
+          "barrier": "0",
+          "path": [
+            0,
+            4
+          ]
+        },
+        "barrier_maximum": "0",
+        "barrier_maximum_witness": {
+          "theta": [
+            "-1",
+            "-1"
+          ],
+          "capacity": "-6",
+          "barrier": "0",
+          "path": [
+            0,
+            4
+          ]
+        }
+      },
+      "reference": {
+        "id": "fixed_seed_41",
+        "status": "connected",
+        "fixed": "-6",
+        "guaranteed": "-6",
+        "possible": "2",
+        "barrier_minimum": "0",
+        "barrier_maximum": "0",
+        "minimal_path_sets": [
+          [
+            0,
+            4
+          ]
+        ],
+        "minimal_separators": [
+          [
+            0
+          ],
+          [
+            4
+          ]
+        ]
+      }
+    },
+    {
+      "id": "fixed_seed_42",
+      "exact": {
+        "id": "fixed_seed_42",
+        "status": "connected",
+        "counters": {
+          "hyperplanes": 9,
+          "candidate_intersections": 84,
+          "independent_intersections": 54,
+          "retained_points": 18
+        },
+        "fixed": "-5",
+        "fixed_path": [
+          0,
+          1,
+          2
+        ],
+        "lower_field": [
+          "-3",
+          "-5",
+          "-3"
+        ],
+        "upper_field": [
+          "9",
+          "11",
+          "7"
+        ],
+        "guaranteed": "-5",
+        "possible": "6",
+        "capacity_minimum": "-5",
+        "capacity_minimum_witness": {
+          "theta": [
+            "1",
+            "-1",
+            "-1"
+          ],
+          "capacity": "-5",
+          "barrier": "2",
+          "path": [
+            0,
+            1,
+            2
+          ]
+        },
+        "capacity_maximum": "6",
+        "capacity_maximum_witness": {
+          "theta": [
+            "-1",
+            "0",
+            "1"
+          ],
+          "capacity": "6",
+          "barrier": "0",
+          "path": [
+            0,
+            1,
+            2
+          ]
+        },
+        "barrier_minimum": "0",
+        "barrier_minimum_witness": {
+          "theta": [
+            "-1",
+            "-1",
+            "-1"
+          ],
+          "capacity": "-1",
+          "barrier": "0",
+          "path": [
+            0,
+            1,
+            2
+          ]
+        },
+        "barrier_maximum": "5/2",
+        "barrier_maximum_witness": {
+          "theta": [
+            "1",
+            "-1/2",
+            "-1"
+          ],
+          "capacity": "-4",
+          "barrier": "5/2",
+          "path": [
+            0,
+            1,
+            2
+          ]
+        }
+      },
+      "reference": {
+        "id": "fixed_seed_42",
+        "status": "connected",
+        "fixed": "-5",
+        "guaranteed": "-5",
+        "possible": "6",
+        "barrier_minimum": "0",
+        "barrier_maximum": "5/2",
+        "minimal_path_sets": [
+          [
+            0,
+            1,
+            2
+          ]
+        ],
+        "minimal_separators": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ]
+        ]
+      }
+    },
+    {
+      "id": "fixed_seed_43",
+      "exact": {
+        "id": "fixed_seed_43",
+        "status": "connected",
+        "counters": {
+          "hyperplanes": 12,
+          "candidate_intersections": 220,
+          "independent_intersections": 180,
+          "retained_points": 39
+        },
+        "fixed": "-8",
+        "fixed_path": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "lower_field": [
+          "-8",
+          "-4",
+          "-2",
+          "-5"
+        ],
+        "upper_field": [
+          "6",
+          "10",
+          "2",
+          "7"
+        ],
+        "guaranteed": "-8",
+        "possible": "2/9",
+        "capacity_minimum": "-8",
+        "capacity_minimum_witness": {
+          "theta": [
+            "-1",
+            "1",
+            "1"
+          ],
+          "capacity": "-8",
+          "barrier": "0",
+          "path": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        "capacity_maximum": "2/9",
+        "capacity_maximum_witness": {
+          "theta": [
+            "4/9",
+            "1",
+            "-7/9"
+          ],
+          "capacity": "2/9",
+          "barrier": "0",
+          "path": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        "barrier_minimum": "0",
+        "barrier_minimum_witness": {
+          "theta": [
+            "-1",
+            "-1",
+            "0"
+          ],
+          "capacity": "-1",
+          "barrier": "0",
+          "path": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        "barrier_maximum": "6",
+        "barrier_maximum_witness": {
+          "theta": [
+            "0",
+            "-1",
+            "-1"
+          ],
+          "capacity": "-2",
+          "barrier": "6",
+          "path": [
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      },
+      "reference": {
+        "id": "fixed_seed_43",
+        "status": "connected",
+        "fixed": "-8",
+        "guaranteed": "-8",
+        "possible": "2/9",
+        "barrier_minimum": "0",
+        "barrier_maximum": "6",
+        "minimal_path_sets": [
+          [
+            0,
+            1,
+            2,
+            3
+          ]
+        ],
+        "minimal_separators": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ]
+        ]
+      }
+    },
+    {
+      "id": "fixed_seed_44",
+      "exact": {
+        "id": "fixed_seed_44",
+        "status": "connected",
+        "counters": {
+          "hyperplanes": 16,
+          "candidate_intersections": 560,
+          "independent_intersections": 466,
+          "retained_points": 21
+        },
+        "fixed": "-6",
+        "fixed_path": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "lower_field": [
+          "0",
+          "-1",
+          "1",
+          "-1",
+          "-6"
+        ],
+        "upper_field": [
+          "0",
+          "3/2",
+          "3",
+          "1",
+          "4"
+        ],
+        "guaranteed": "-6",
+        "possible": "0",
+        "capacity_minimum": "-6",
+        "capacity_minimum_witness": {
+          "theta": [
+            "1",
+            "-1",
+            "0"
+          ],
+          "capacity": "-6",
+          "barrier": "0",
+          "path": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        "capacity_maximum": "0",
+        "capacity_maximum_witness": {
+          "theta": [
+            "-1",
+            "0",
+            "0"
+          ],
+          "capacity": "0",
+          "barrier": "0",
+          "path": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        "barrier_minimum": "0",
+        "barrier_minimum_witness": {
+          "theta": [
+            "-1",
+            "-1",
+            "0"
+          ],
+          "capacity": "-2",
+          "barrier": "0",
+          "path": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        "barrier_maximum": "1/3",
+        "barrier_maximum_witness": {
+          "theta": [
+            "-1",
+            "-1/3",
+            "0"
+          ],
+          "capacity": "-1/3",
+          "barrier": "1/3",
+          "path": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      },
+      "reference": {
+        "id": "fixed_seed_44",
+        "status": "connected",
+        "fixed": "-6",
+        "guaranteed": "-6",
+        "possible": "0",
+        "barrier_minimum": "0",
+        "barrier_maximum": "1/3",
+        "minimal_path_sets": [
+          [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        ],
+        "minimal_separators": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ]
+      }
+    },
+    {
+      "id": "fixed_seed_45",
+      "exact": {
+        "id": "fixed_seed_45",
+        "status": "connected",
+        "counters": {
+          "hyperplanes": 5,
+          "candidate_intersections": 5,
+          "independent_intersections": 5,
+          "retained_points": 4
+        },
+        "fixed": "-2",
+        "fixed_path": [
+          0,
+          2
+        ],
+        "lower_field": [
+          "1",
+          "1",
+          "-2"
+        ],
+        "upper_field": [
+          "3",
+          "3",
+          "2"
+        ],
+        "guaranteed": "-2",
+        "possible": "4/3",
+        "capacity_minimum": "-2",
+        "capacity_minimum_witness": {
+          "theta": [
+            "1"
+          ],
+          "capacity": "-2",
+          "barrier": "0",
+          "path": [
+            0,
+            2
+          ]
+        },
+        "capacity_maximum": "4/3",
+        "capacity_maximum_witness": {
+          "theta": [
+            "-2/3"
+          ],
+          "capacity": "4/3",
+          "barrier": "0",
+          "path": [
+            0,
+            2
+          ]
+        },
+        "barrier_minimum": "0",
+        "barrier_minimum_witness": {
+          "theta": [
+            "-1"
+          ],
+          "capacity": "1",
+          "barrier": "0",
+          "path": [
+            0,
+            2
+          ]
+        },
+        "barrier_maximum": "0",
+        "barrier_maximum_witness": {
+          "theta": [
+            "-1"
+          ],
+          "capacity": "1",
+          "barrier": "0",
+          "path": [
+            0,
+            2
+          ]
+        }
+      },
+      "reference": {
+        "id": "fixed_seed_45",
+        "status": "connected",
+        "fixed": "-2",
+        "guaranteed": "-2",
+        "possible": "4/3",
+        "barrier_minimum": "0",
+        "barrier_maximum": "0",
+        "minimal_path_sets": [
+          [
+            0,
+            2
+          ]
+        ],
+        "minimal_separators": [
+          [
+            0
+          ],
+          [
+            2
+          ]
+        ]
+      }
+    },
+    {
+      "id": "fixed_seed_46",
+      "exact": {
+        "id": "fixed_seed_46",
+        "status": "connected",
+        "counters": {
+          "hyperplanes": 3,
+          "candidate_intersections": 3,
+          "independent_intersections": 3,
+          "retained_points": 3
+        },
+        "fixed": "0",
+        "fixed_path": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "lower_field": [
+          "2",
+          "2",
+          "0",
+          "0"
+        ],
+        "upper_field": [
+          "2",
+          "2",
+          "2",
+          "2"
+        ],
+        "guaranteed": "0",
+        "possible": "1",
+        "capacity_minimum": "0",
+        "capacity_minimum_witness": {
+          "theta": [
+            "-1"
+          ],
+          "capacity": "0",
+          "barrier": "2",
+          "path": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        "capacity_maximum": "1",
+        "capacity_maximum_witness": {
+          "theta": [
+            "0"
+          ],
+          "capacity": "1",
+          "barrier": "0",
+          "path": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        "barrier_minimum": "0",
+        "barrier_minimum_witness": {
+          "theta": [
+            "0"
+          ],
+          "capacity": "1",
+          "barrier": "0",
+          "path": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        "barrier_maximum": "2",
+        "barrier_maximum_witness": {
+          "theta": [
+            "-1"
+          ],
+          "capacity": "0",
+          "barrier": "2",
+          "path": [
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      },
+      "reference": {
+        "id": "fixed_seed_46",
+        "status": "connected",
+        "fixed": "0",
+        "guaranteed": "0",
+        "possible": "1",
+        "barrier_minimum": "0",
+        "barrier_maximum": "2",
+        "minimal_path_sets": [
+          [
+            0,
+            1,
+            2,
+            3
+          ]
+        ],
+        "minimal_separators": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ]
+        ]
+      }
+    },
+    {
+      "id": "fixed_seed_47",
+      "exact": {
+        "id": "fixed_seed_47",
+        "status": "connected",
+        "counters": {
+          "hyperplanes": 5,
+          "candidate_intersections": 5,
+          "independent_intersections": 5,
+          "retained_points": 4
+        },
+        "fixed": "-4",
+        "fixed_path": [
+          0,
+          4
+        ],
+        "lower_field": [
+          "-1",
+          "-3",
+          "-5",
+          "-1",
+          "-4"
+        ],
+        "upper_field": [
+          "1",
+          "-1",
+          "1",
+          "1",
+          "-2"
+        ],
+        "guaranteed": "-4",
+        "possible": "-2",
+        "capacity_minimum": "-4",
+        "capacity_minimum_witness": {
+          "theta": [
+            "-1"
+          ],
+          "capacity": "-4",
+          "barrier": "0",
+          "path": [
+            0,
+            4
+          ]
+        },
+        "capacity_maximum": "-2",
+        "capacity_maximum_witness": {
+          "theta": [
+            "1"
+          ],
+          "capacity": "-2",
+          "barrier": "0",
+          "path": [
+            0,
+            4
+          ]
+        },
+        "barrier_minimum": "0",
+        "barrier_minimum_witness": {
+          "theta": [
+            "-1"
+          ],
+          "capacity": "-4",
+          "barrier": "0",
+          "path": [
+            0,
+            4
+          ]
+        },
+        "barrier_maximum": "0",
+        "barrier_maximum_witness": {
+          "theta": [
+            "-1"
+          ],
+          "capacity": "-4",
+          "barrier": "0",
+          "path": [
+            0,
+            4
+          ]
+        }
+      },
+      "reference": {
+        "id": "fixed_seed_47",
+        "status": "connected",
+        "fixed": "-4",
+        "guaranteed": "-4",
+        "possible": "-2",
+        "barrier_minimum": "0",
+        "barrier_maximum": "0",
+        "minimal_path_sets": [
+          [
+            0,
+            4
+          ]
+        ],
+        "minimal_separators": [
+          [
+            0
+          ],
+          [
+            4
+          ]
+        ]
+      }
+    },
+    {
+      "id": "fixed_seed_48",
+      "exact": {
+        "id": "fixed_seed_48",
+        "status": "connected",
+        "counters": {
+          "hyperplanes": 8,
+          "candidate_intersections": 28,
+          "independent_intersections": 26,
+          "retained_points": 7
+        },
+        "fixed": "-6",
+        "fixed_path": [
+          0,
+          1,
+          2
+        ],
+        "lower_field": [
+          "0",
+          "-2",
+          "-6"
+        ],
+        "upper_field": [
+          "6",
+          "4",
+          "1/2"
+        ],
+        "guaranteed": "-6",
+        "possible": "1/2",
+        "capacity_minimum": "-6",
+        "capacity_minimum_witness": {
+          "theta": [
+            "-1",
+            "-1"
+          ],
+          "capacity": "-6",
+          "barrier": "0",
+          "path": [
+            0,
+            1,
+            2
+          ]
+        },
+        "capacity_maximum": "1/2",
+        "capacity_maximum_witness": {
+          "theta": [
+            "1",
+            "-1/2"
+          ],
+          "capacity": "1/2",
+          "barrier": "0",
+          "path": [
+            0,
+            1,
+            2
+          ]
+        },
+        "barrier_minimum": "0",
+        "barrier_minimum_witness": {
+          "theta": [
+            "-1",
+            "-1"
+          ],
+          "capacity": "-6",
+          "barrier": "0",
+          "path": [
+            0,
+            1,
+            2
+          ]
+        },
+        "barrier_maximum": "0",
+        "barrier_maximum_witness": {
+          "theta": [
+            "-1",
+            "-1"
+          ],
+          "capacity": "-6",
+          "barrier": "0",
+          "path": [
+            0,
+            1,
+            2
+          ]
+        }
+      },
+      "reference": {
+        "id": "fixed_seed_48",
+        "status": "connected",
+        "fixed": "-6",
+        "guaranteed": "-6",
+        "possible": "1/2",
+        "barrier_minimum": "0",
+        "barrier_maximum": "0",
+        "minimal_path_sets": [
+          [
+            0,
+            1,
+            2
+          ]
+        ],
+        "minimal_separators": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ]
+        ]
+      }
+    },
+    {
+      "id": "fixed_seed_49",
+      "exact": {
+        "id": "fixed_seed_49",
+        "status": "connected",
+        "counters": {
+          "hyperplanes": 10,
+          "candidate_intersections": 45,
+          "independent_intersections": 39,
+          "retained_points": 8
+        },
+        "fixed": "-7",
+        "fixed_path": [
+          0,
+          1,
+          3
+        ],
+        "lower_field": [
+          "-4",
+          "1",
+          "-1",
+          "-7"
+        ],
+        "upper_field": [
+          "-2",
+          "5",
+          "5",
+          "1"
+        ],
+        "guaranteed": "-7",
+        "possible": "-7/3",
+        "capacity_minimum": "-7",
+        "capacity_minimum_witness": {
+          "theta": [
+            "1",
+            "1"
+          ],
+          "capacity": "-7",
+          "barrier": "0",
+          "path": [
+            0,
+            1,
+            3
+          ]
+        },
+        "capacity_maximum": "-7/3",
+        "capacity_maximum_witness": {
+          "theta": [
+            "2/3",
+            "-1"
+          ],
+          "capacity": "-7/3",
+          "barrier": "0",
+          "path": [
+            0,
+            1,
+            3
+          ]
+        },
+        "barrier_minimum": "0",
+        "barrier_minimum_witness": {
+          "theta": [
+            "-1",
+            "-1"
+          ],
+          "capacity": "-4",
+          "barrier": "0",
+          "path": [
+            0,
+            1,
+            3
+          ]
+        },
+        "barrier_maximum": "0",
+        "barrier_maximum_witness": {
+          "theta": [
+            "-1",
+            "-1"
+          ],
+          "capacity": "-4",
+          "barrier": "0",
+          "path": [
+            0,
+            1,
+            3
+          ]
+        }
+      },
+      "reference": {
+        "id": "fixed_seed_49",
+        "status": "connected",
+        "fixed": "-7",
+        "guaranteed": "-7",
+        "possible": "-7/3",
+        "barrier_minimum": "0",
+        "barrier_maximum": "0",
+        "minimal_path_sets": [
+          [
+            0,
+            1,
+            3
+          ]
+        ],
+        "minimal_separators": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            3
+          ]
+        ]
+      }
+    },
+    {
+      "id": "fixed_seed_50",
+      "exact": {
+        "id": "fixed_seed_50",
+        "status": "connected",
+        "counters": {
+          "hyperplanes": 13,
+          "candidate_intersections": 78,
+          "independent_intersections": 74,
+          "retained_points": 24
+        },
+        "fixed": "-3",
+        "fixed_path": [
+          0,
+          1,
+          4
+        ],
+        "lower_field": [
+          "-3",
+          "-1",
+          "-7",
+          "-1",
+          "0"
+        ],
+        "upper_field": [
+          "-1",
+          "7",
+          "3",
+          "5",
+          "4"
+        ],
+        "guaranteed": "-3",
+        "possible": "-1",
+        "capacity_minimum": "-3",
+        "capacity_minimum_witness": {
+          "theta": [
+            "-1",
+            "-1"
+          ],
+          "capacity": "-3",
+          "barrier": "0",
+          "path": [
+            0,
+            1,
+            4
+          ]
+        },
+        "capacity_maximum": "-1",
+        "capacity_maximum_witness": {
+          "theta": [
+            "1",
+            "-1"
+          ],
+          "capacity": "-1",
+          "barrier": "0",
+          "path": [
+            0,
+            1,
+            4
+          ]
+        },
+        "barrier_minimum": "0",
+        "barrier_minimum_witness": {
+          "theta": [
+            "-1",
+            "-1"
+          ],
+          "capacity": "-3",
+          "barrier": "0",
+          "path": [
+            0,
+            1,
+            4
+          ]
+        },
+        "barrier_maximum": "0",
+        "barrier_maximum_witness": {
+          "theta": [
+            "-1",
+            "-1"
+          ],
+          "capacity": "-3",
+          "barrier": "0",
+          "path": [
+            0,
+            1,
+            4
+          ]
+        }
+      },
+      "reference": {
+        "id": "fixed_seed_50",
+        "status": "connected",
+        "fixed": "-3",
+        "guaranteed": "-3",
+        "possible": "-1",
+        "barrier_minimum": "0",
+        "barrier_maximum": "0",
+        "minimal_path_sets": [
+          [
+            0,
+            1,
+            4
+          ]
+        ],
+        "minimal_separators": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            4
+          ]
+        ]
+      }
+    },
+    {
+      "id": "fixed_seed_51",
+      "exact": {
+        "id": "fixed_seed_51",
+        "status": "connected",
+        "counters": {
+          "hyperplanes": 9,
+          "candidate_intersections": 84,
+          "independent_intersections": 62,
+          "retained_points": 24
+        },
+        "fixed": "-8",
+        "fixed_path": [
+          0,
+          2
+        ],
+        "lower_field": [
+          "-7",
+          "-4",
+          "-8"
+        ],
+        "upper_field": [
+          "3",
+          "2",
+          "4"
+        ],
+        "guaranteed": "-8",
+        "possible": "3",
+        "capacity_minimum": "-8",
+        "capacity_minimum_witness": {
+          "theta": [
+            "-1",
+            "1",
+            "-1"
+          ],
+          "capacity": "-8",
+          "barrier": "0",
+          "path": [
+            0,
+            2
+          ]
+        },
+        "capacity_maximum": "3",
+        "capacity_maximum_witness": {
+          "theta": [
+            "1",
+            "-1",
+            "1"
+          ],
+          "capacity": "3",
+          "barrier": "0",
+          "path": [
+            0,
+            2
+          ]
+        },
+        "barrier_minimum": "0",
+        "barrier_minimum_witness": {
+          "theta": [
+            "-1",
+            "-1",
+            "-1"
+          ],
+          "capacity": "-7",
+          "barrier": "0",
+          "path": [
+            0,
+            2
+          ]
+        },
+        "barrier_maximum": "0",
+        "barrier_maximum_witness": {
+          "theta": [
+            "-1",
+            "-1",
+            "-1"
+          ],
+          "capacity": "-7",
+          "barrier": "0",
+          "path": [
+            0,
+            2
+          ]
+        }
+      },
+      "reference": {
+        "id": "fixed_seed_51",
+        "status": "connected",
+        "fixed": "-8",
+        "guaranteed": "-8",
+        "possible": "3",
+        "barrier_minimum": "0",
+        "barrier_maximum": "0",
+        "minimal_path_sets": [
+          [
+            0,
+            2
+          ]
+        ],
+        "minimal_separators": [
+          [
+            0
+          ],
+          [
+            2
+          ]
+        ]
+      }
+    },
+    {
+      "id": "fixed_seed_52",
+      "exact": {
+        "id": "fixed_seed_52",
+        "status": "connected",
+        "counters": {
+          "hyperplanes": 10,
+          "candidate_intersections": 120,
+          "independent_intersections": 89,
+          "retained_points": 14
+        },
+        "fixed": "-9",
+        "fixed_path": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "lower_field": [
+          "2",
+          "-5",
+          "-9",
+          "2"
+        ],
+        "upper_field": [
+          "4",
+          "5/2",
+          "-2",
+          "4"
+        ],
+        "guaranteed": "-9",
+        "possible": "-2",
+        "capacity_minimum": "-9",
+        "capacity_minimum_witness": {
+          "theta": [
+            "-1",
+            "-1",
+            "-1"
+          ],
+          "capacity": "-9",
+          "barrier": "11",
+          "path": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        "capacity_maximum": "-2",
+        "capacity_maximum_witness": {
+          "theta": [
+            "-1",
+            "1/2",
+            "1"
+          ],
+          "capacity": "-2",
+          "barrier": "11/2",
+          "path": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        "barrier_minimum": "4",
+        "barrier_minimum_witness": {
+          "theta": [
+            "1/2",
+            "-1",
+            "1"
+          ],
+          "capacity": "-2",
+          "barrier": "4",
+          "path": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        "barrier_maximum": "11",
+        "barrier_maximum_witness": {
+          "theta": [
+            "-1",
+            "-1",
+            "-1"
+          ],
+          "capacity": "-9",
+          "barrier": "11",
+          "path": [
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      },
+      "reference": {
+        "id": "fixed_seed_52",
+        "status": "connected",
+        "fixed": "-9",
+        "guaranteed": "-9",
+        "possible": "-2",
+        "barrier_minimum": "4",
+        "barrier_maximum": "11",
+        "minimal_path_sets": [
+          [
+            0,
+            1,
+            2,
+            3
+          ]
+        ],
+        "minimal_separators": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ]
+        ]
+      }
+    },
+    {
+      "id": "fixed_seed_53",
+      "exact": {
+        "id": "fixed_seed_53",
+        "status": "connected",
+        "counters": {
+          "hyperplanes": 16,
+          "candidate_intersections": 560,
+          "independent_intersections": 466,
+          "retained_points": 67
+        },
+        "fixed": "-9",
+        "fixed_path": [
+          0,
+          1,
+          4
+        ],
+        "lower_field": [
+          "-9",
+          "-3",
+          "-3",
+          "-7",
+          "-1"
+        ],
+        "upper_field": [
+          "5",
+          "5",
+          "7",
+          "7",
+          "3"
+        ],
+        "guaranteed": "-9",
+        "possible": "9/5",
+        "capacity_minimum": "-9",
+        "capacity_minimum_witness": {
+          "theta": [
+            "-1",
+            "1",
+            "-1"
+          ],
+          "capacity": "-9",
+          "barrier": "0",
+          "path": [
+            0,
+            1,
+            4
+          ]
+        },
+        "capacity_maximum": "9/5",
+        "capacity_maximum_witness": {
+          "theta": [
+            "1/5",
+            "-7/15",
+            "1"
+          ],
+          "capacity": "9/5",
+          "barrier": "0",
+          "path": [
+            0,
+            3,
+            4
+          ]
+        },
+        "barrier_minimum": "0",
+        "barrier_minimum_witness": {
+          "theta": [
+            "-1",
+            "-1",
+            "-1"
+          ],
+          "capacity": "-3",
+          "barrier": "0",
+          "path": [
+            0,
+            1,
+            4
+          ]
+        },
+        "barrier_maximum": "40/13",
+        "barrier_maximum_witness": {
+          "theta": [
+            "-3/13",
+            "-1",
+            "9/13"
+          ],
+          "capacity": "-15/13",
+          "barrier": "40/13",
+          "path": [
+            0,
+            1,
+            4
+          ]
+        }
+      },
+      "reference": {
+        "id": "fixed_seed_53",
+        "status": "connected",
+        "fixed": "-9",
+        "guaranteed": "-9",
+        "possible": "9/5",
+        "barrier_minimum": "0",
+        "barrier_maximum": "40/13",
+        "minimal_path_sets": [
+          [
+            0,
+            1,
+            4
+          ],
+          [
+            0,
+            3,
+            4
+          ]
+        ],
+        "minimal_separators": [
+          [
+            0
+          ],
+          [
+            4
+          ],
+          [
+            1,
+            3
+          ]
+        ]
+      }
+    },
+    {
+      "id": "fixed_seed_54",
+      "exact": {
+        "id": "fixed_seed_54",
+        "status": "connected",
+        "counters": {
+          "hyperplanes": 4,
+          "candidate_intersections": 4,
+          "independent_intersections": 4,
+          "retained_points": 4
+        },
+        "fixed": "-2",
+        "fixed_path": [
+          0,
+          1,
+          2
+        ],
+        "lower_field": [
+          "0",
+          "-2",
+          "0"
+        ],
+        "upper_field": [
+          "4",
+          "2",
+          "2"
+        ],
+        "guaranteed": "-2",
+        "possible": "1",
+        "capacity_minimum": "-2",
+        "capacity_minimum_witness": {
+          "theta": [
+            "1"
+          ],
+          "capacity": "-2",
+          "barrier": "2",
+          "path": [
+            0,
+            1,
+            2
+          ]
+        },
+        "capacity_maximum": "1",
+        "capacity_maximum_witness": {
+          "theta": [
+            "-1/2"
+          ],
+          "capacity": "1",
+          "barrier": "0",
+          "path": [
+            0,
+            1,
+            2
+          ]
+        },
+        "barrier_minimum": "0",
+        "barrier_minimum_witness": {
+          "theta": [
+            "-1"
+          ],
+          "capacity": "0",
+          "barrier": "0",
+          "path": [
+            0,
+            1,
+            2
+          ]
+        },
+        "barrier_maximum": "2",
+        "barrier_maximum_witness": {
+          "theta": [
+            "1"
+          ],
+          "capacity": "-2",
+          "barrier": "2",
+          "path": [
+            0,
+            1,
+            2
+          ]
+        }
+      },
+      "reference": {
+        "id": "fixed_seed_54",
+        "status": "connected",
+        "fixed": "-2",
+        "guaranteed": "-2",
+        "possible": "1",
+        "barrier_minimum": "0",
+        "barrier_maximum": "2",
+        "minimal_path_sets": [
+          [
+            0,
+            1,
+            2
+          ]
+        ],
+        "minimal_separators": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ]
+        ]
+      }
+    },
+    {
+      "id": "fixed_seed_55",
+      "exact": {
+        "id": "fixed_seed_55",
+        "status": "connected",
+        "counters": {
+          "hyperplanes": 6,
+          "candidate_intersections": 6,
+          "independent_intersections": 6,
+          "retained_points": 1
+        },
+        "fixed": "-1",
+        "fixed_path": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "lower_field": [
+          "0",
+          "-1",
+          "0",
+          "2"
+        ],
+        "upper_field": [
+          "0",
+          "-1",
+          "0",
+          "2"
+        ],
+        "guaranteed": "-1",
+        "possible": "-1",
+        "capacity_minimum": "-1",
+        "capacity_minimum_witness": {
+          "theta": [
+            "0"
+          ],
+          "capacity": "-1",
+          "barrier": "1",
+          "path": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        "capacity_maximum": "-1",
+        "capacity_maximum_witness": {
+          "theta": [
+            "0"
+          ],
+          "capacity": "-1",
+          "barrier": "1",
+          "path": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        "barrier_minimum": "1",
+        "barrier_minimum_witness": {
+          "theta": [
+            "0"
+          ],
+          "capacity": "-1",
+          "barrier": "1",
+          "path": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        "barrier_maximum": "1",
+        "barrier_maximum_witness": {
+          "theta": [
+            "0"
+          ],
+          "capacity": "-1",
+          "barrier": "1",
+          "path": [
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      },
+      "reference": {
+        "id": "fixed_seed_55",
+        "status": "connected",
+        "fixed": "-1",
+        "guaranteed": "-1",
+        "possible": "-1",
+        "barrier_minimum": "1",
+        "barrier_maximum": "1",
+        "minimal_path_sets": [
+          [
+            0,
+            1,
+            2,
+            3
+          ]
+        ],
+        "minimal_separators": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ]
+        ]
+      }
+    },
+    {
+      "id": "fixed_seed_56",
+      "exact": {
+        "id": "fixed_seed_56",
+        "status": "connected",
+        "counters": {
+          "hyperplanes": 11,
+          "candidate_intersections": 11,
+          "independent_intersections": 11,
+          "retained_points": 5
+        },
+        "fixed": "-5",
+        "fixed_path": [
+          0,
+          1,
+          2,
+          4
+        ],
+        "lower_field": [
+          "-9/2",
+          "-5",
+          "2",
+          "-2",
+          "5/2"
+        ],
+        "upper_field": [
+          "0",
+          "-1/2",
+          "5",
+          "1",
+          "4"
+        ],
+        "guaranteed": "-5",
+        "possible": "-5/2",
+        "capacity_minimum": "-5",
+        "capacity_minimum_witness": {
+          "theta": [
+            "-1"
+          ],
+          "capacity": "-5",
+          "barrier": "5",
+          "path": [
+            0,
+            1,
+            2,
+            4
+          ]
+        },
+        "capacity_maximum": "-5/2",
+        "capacity_maximum_witness": {
+          "theta": [
+            "-1/6"
+          ],
+          "capacity": "-5/2",
+          "barrier": "0",
+          "path": [
+            0,
+            1,
+            2,
+            4
+          ]
+        },
+        "barrier_minimum": "0",
+        "barrier_minimum_witness": {
+          "theta": [
+            "-1/6"
+          ],
+          "capacity": "-5/2",
+          "barrier": "0",
+          "path": [
+            0,
+            1,
+            2,
+            4
+          ]
+        },
+        "barrier_maximum": "5",
+        "barrier_maximum_witness": {
+          "theta": [
+            "-1"
+          ],
+          "capacity": "-5",
+          "barrier": "5",
+          "path": [
+            0,
+            1,
+            2,
+            4
+          ]
+        }
+      },
+      "reference": {
+        "id": "fixed_seed_56",
+        "status": "connected",
+        "fixed": "-5",
+        "guaranteed": "-5",
+        "possible": "-5/2",
+        "barrier_minimum": "0",
+        "barrier_maximum": "5",
+        "minimal_path_sets": [
+          [
+            0,
+            1,
+            2,
+            4
+          ]
+        ],
+        "minimal_separators": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            4
+          ]
+        ]
+      }
+    },
+    {
+      "id": "fixed_seed_57",
+      "exact": {
+        "id": "fixed_seed_57",
+        "status": "connected",
+        "counters": {
+          "hyperplanes": 7,
+          "candidate_intersections": 21,
+          "independent_intersections": 17,
+          "retained_points": 8
+        },
+        "fixed": "-6",
+        "fixed_path": [
+          0,
+          2
+        ],
+        "lower_field": [
+          "-6",
+          "-5",
+          "-6"
+        ],
+        "upper_field": [
+          "2",
+          "7",
+          "6"
+        ],
+        "guaranteed": "-6",
+        "possible": "6/5",
+        "capacity_minimum": "-6",
+        "capacity_minimum_witness": {
+          "theta": [
+            "1",
+            "-1"
+          ],
+          "capacity": "-6",
+          "barrier": "0",
+          "path": [
+            0,
+            2
+          ]
+        },
+        "capacity_maximum": "6/5",
+        "capacity_maximum_witness": {
+          "theta": [
+            "-1",
+            "-3/5"
+          ],
+          "capacity": "6/5",
+          "barrier": "0",
+          "path": [
+            0,
+            2
+          ]
+        },
+        "barrier_minimum": "0",
+        "barrier_minimum_witness": {
+          "theta": [
+            "-1",
+            "-1"
+          ],
+          "capacity": "0",
+          "barrier": "0",
+          "path": [
+            0,
+            2
+          ]
+        },
+        "barrier_maximum": "0",
+        "barrier_maximum_witness": {
+          "theta": [
+            "-1",
+            "-1"
+          ],
+          "capacity": "0",
+          "barrier": "0",
+          "path": [
+            0,
+            2
+          ]
+        }
+      },
+      "reference": {
+        "id": "fixed_seed_57",
+        "status": "connected",
+        "fixed": "-6",
+        "guaranteed": "-6",
+        "possible": "6/5",
+        "barrier_minimum": "0",
+        "barrier_maximum": "0",
+        "minimal_path_sets": [
+          [
+            0,
+            2
+          ]
+        ],
+        "minimal_separators": [
+          [
+            0
+          ],
+          [
+            2
+          ]
+        ]
+      }
+    },
+    {
+      "id": "fixed_seed_58",
+      "exact": {
+        "id": "fixed_seed_58",
+        "status": "connected",
+        "counters": {
+          "hyperplanes": 9,
+          "candidate_intersections": 36,
+          "independent_intersections": 32,
+          "retained_points": 14
+        },
+        "fixed": "-4",
+        "fixed_path": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "lower_field": [
+          "-4",
+          "1",
+          "-2",
+          "1"
+        ],
+        "upper_field": [
+          "4",
+          "3",
+          "6",
+          "5"
+        ],
+        "guaranteed": "-4",
+        "possible": "3",
+        "capacity_minimum": "-4",
+        "capacity_minimum_witness": {
+          "theta": [
+            "-1",
+            "-1"
+          ],
+          "capacity": "-4",
+          "barrier": "0",
+          "path": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        "capacity_maximum": "3",
+        "capacity_maximum_witness": {
+          "theta": [
+            "1",
+            "2/3"
+          ],
+          "capacity": "3",
+          "barrier": "0",
+          "path": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        "barrier_minimum": "0",
+        "barrier_minimum_witness": {
+          "theta": [
+            "-1",
+            "-1"
+          ],
+          "capacity": "-4",
+          "barrier": "0",
+          "path": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        "barrier_maximum": "4/3",
+        "barrier_maximum_witness": {
+          "theta": [
+            "-1",
+            "2/3"
+          ],
+          "capacity": "-1/3",
+          "barrier": "4/3",
+          "path": [
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      },
+      "reference": {
+        "id": "fixed_seed_58",
+        "status": "connected",
+        "fixed": "-4",
+        "guaranteed": "-4",
+        "possible": "3",
+        "barrier_minimum": "0",
+        "barrier_maximum": "4/3",
+        "minimal_path_sets": [
+          [
+            0,
+            1,
+            2,
+            3
+          ]
+        ],
+        "minimal_separators": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ]
+        ]
+      }
+    },
+    {
+      "id": "fixed_seed_59",
+      "exact": {
+        "id": "fixed_seed_59",
+        "status": "connected",
+        "counters": {
+          "hyperplanes": 13,
+          "candidate_intersections": 78,
+          "independent_intersections": 74,
+          "retained_points": 24
+        },
+        "fixed": "-6",
+        "fixed_path": [
+          0,
+          3,
+          4
+        ],
+        "lower_field": [
+          "-6",
+          "-5",
+          "-4",
+          "-4",
+          "-6"
+        ],
+        "upper_field": [
+          "2",
+          "1",
+          "2",
+          "6",
+          "2"
+        ],
+        "guaranteed": "-6",
+        "possible": "1",
+        "capacity_minimum": "-6",
+        "capacity_minimum_witness": {
+          "theta": [
+            "1",
+            "-1"
+          ],
+          "capacity": "-6",
+          "barrier": "0",
+          "path": [
+            0,
+            3,
+            4
+          ]
+        },
+        "capacity_maximum": "1",
+        "capacity_maximum_witness": {
+          "theta": [
+            "-2/3",
+            "1"
+          ],
+          "capacity": "1",
+          "barrier": "0",
+          "path": [
+            0,
+            3,
+            4
+          ]
+        },
+        "barrier_minimum": "0",
+        "barrier_minimum_witness": {
+          "theta": [
+            "-1",
+            "-1"
+          ],
+          "capacity": "-4",
+          "barrier": "0",
+          "path": [
+            0,
+            3,
+            4
+          ]
+        },
+        "barrier_maximum": "2",
+        "barrier_maximum_witness": {
+          "theta": [
+            "-1",
+            "1"
+          ],
+          "capacity": "0",
+          "barrier": "2",
+          "path": [
+            0,
+            3,
+            4
+          ]
+        }
+      },
+      "reference": {
+        "id": "fixed_seed_59",
+        "status": "connected",
+        "fixed": "-6",
+        "guaranteed": "-6",
+        "possible": "1",
+        "barrier_minimum": "0",
+        "barrier_maximum": "2",
+        "minimal_path_sets": [
+          [
+            0,
+            3,
+            4
+          ]
+        ],
+        "minimal_separators": [
+          [
+            0
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ]
+      }
+    },
+    {
+      "id": "fixed_seed_60",
+      "exact": {
+        "id": "fixed_seed_60",
+        "status": "connected",
+        "counters": {
+          "hyperplanes": 10,
+          "candidate_intersections": 120,
+          "independent_intersections": 68,
+          "retained_points": 27
+        },
+        "fixed": "-9",
+        "fixed_path": [
+          0,
+          1,
+          2
+        ],
+        "lower_field": [
+          "-9",
+          "-3/2",
+          "-5"
+        ],
+        "upper_field": [
+          "9/2",
+          "4",
+          "4"
+        ],
+        "guaranteed": "-9",
+        "possible": "12/5",
+        "capacity_minimum": "-9",
+        "capacity_minimum_witness": {
+          "theta": [
+            "-1",
+            "1",
+            "-1"
+          ],
+          "capacity": "-9",
+          "barrier": "0",
+          "path": [
+            0,
+            1,
+            2
+          ]
+        },
+        "capacity_maximum": "12/5",
+        "capacity_maximum_witness": {
+          "theta": [
+            "-2/5",
+            "-3/5",
+            "1"
+          ],
+          "capacity": "12/5",
+          "barrier": "0",
+          "path": [
+            0,
+            1,
+            2
+          ]
+        },
+        "barrier_minimum": "0",
+        "barrier_minimum_witness": {
+          "theta": [
+            "-1",
+            "-1",
+            "-1"
+          ],
+          "capacity": "-5",
+          "barrier": "0",
+          "path": [
+            0,
+            1,
+            2
+          ]
+        },
+        "barrier_maximum": "3/2",
+        "barrier_maximum_witness": {
+          "theta": [
+            "1/10",
+            "-3/5",
+            "1"
+          ],
+          "capacity": "7/5",
+          "barrier": "3/2",
+          "path": [
+            0,
+            1,
+            2
+          ]
+        }
+      },
+      "reference": {
+        "id": "fixed_seed_60",
+        "status": "connected",
+        "fixed": "-9",
+        "guaranteed": "-9",
+        "possible": "12/5",
+        "barrier_minimum": "0",
+        "barrier_maximum": "3/2",
+        "minimal_path_sets": [
+          [
+            0,
+            1,
+            2
+          ]
+        ],
+        "minimal_separators": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ]
+        ]
+      }
+    },
+    {
+      "id": "fixed_seed_61",
+      "exact": {
+        "id": "fixed_seed_61",
+        "status": "connected",
+        "counters": {
+          "hyperplanes": 11,
+          "candidate_intersections": 165,
+          "independent_intersections": 116,
+          "retained_points": 34
+        },
+        "fixed": "-7",
+        "fixed_path": [
+          0,
+          3
+        ],
+        "lower_field": [
+          "-7",
+          "-4",
+          "-8",
+          "-4"
+        ],
+        "upper_field": [
+          "5",
+          "8",
+          "2",
+          "4"
+        ],
+        "guaranteed": "-7",
+        "possible": "11/4",
+        "capacity_minimum": "-7",
+        "capacity_minimum_witness": {
+          "theta": [
+            "1",
+            "-1",
+            "-1"
+          ],
+          "capacity": "-7",
+          "barrier": "0",
+          "path": [
+            0,
+            3
+          ]
+        },
+        "capacity_maximum": "11/4",
+        "capacity_maximum_witness": {
+          "theta": [
+            "-1/4",
+            "-1",
+            "1"
+          ],
+          "capacity": "11/4",
+          "barrier": "0",
+          "path": [
+            0,
+            3
+          ]
+        },
+        "barrier_minimum": "0",
+        "barrier_minimum_witness": {
+          "theta": [
+            "-1",
+            "-1",
+            "-1"
+          ],
+          "capacity": "-1",
+          "barrier": "0",
+          "path": [
+            0,
+            3
+          ]
+        },
+        "barrier_maximum": "0",
+        "barrier_maximum_witness": {
+          "theta": [
+            "-1",
+            "-1",
+            "-1"
+          ],
+          "capacity": "-1",
+          "barrier": "0",
+          "path": [
+            0,
+            3
+          ]
+        }
+      },
+      "reference": {
+        "id": "fixed_seed_61",
+        "status": "connected",
+        "fixed": "-7",
+        "guaranteed": "-7",
+        "possible": "11/4",
+        "barrier_minimum": "0",
+        "barrier_maximum": "0",
+        "minimal_path_sets": [
+          [
+            0,
+            3
+          ]
+        ],
+        "minimal_separators": [
+          [
+            0
+          ],
+          [
+            3
+          ]
+        ]
+      }
+    },
+    {
+      "id": "fixed_seed_62",
+      "exact": {
+        "id": "fixed_seed_62",
+        "status": "connected",
+        "counters": {
+          "hyperplanes": 16,
+          "candidate_intersections": 560,
+          "independent_intersections": 476,
+          "retained_points": 35
+        },
+        "fixed": "-8",
+        "fixed_path": [
+          0,
+          1,
+          2,
+          4
+        ],
+        "lower_field": [
+          "-4",
+          "-1",
+          "-8",
+          "-1",
+          "-8"
+        ],
+        "upper_field": [
+          "10",
+          "7",
+          "2",
+          "3",
+          "2"
+        ],
+        "guaranteed": "-8",
+        "possible": "1/2",
+        "capacity_minimum": "-8",
+        "capacity_minimum_witness": {
+          "theta": [
+            "-1",
+            "-1",
+            "-1"
+          ],
+          "capacity": "-8",
+          "barrier": "0",
+          "path": [
+            0,
+            1,
+            2,
+            4
+          ]
+        },
+        "capacity_maximum": "1/2",
+        "capacity_maximum_witness": {
+          "theta": [
+            "-1/2",
+            "1",
+            "1"
+          ],
+          "capacity": "1/2",
+          "barrier": "0",
+          "path": [
+            0,
+            1,
+            2,
+            4
+          ]
+        },
+        "barrier_minimum": "0",
+        "barrier_minimum_witness": {
+          "theta": [
+            "-1",
+            "-1",
+            "-1"
+          ],
+          "capacity": "-8",
+          "barrier": "0",
+          "path": [
+            0,
+            1,
+            2,
+            4
+          ]
+        },
+        "barrier_maximum": "6",
+        "barrier_maximum_witness": {
+          "theta": [
+            "1",
+            "1",
+            "-1"
+          ],
+          "capacity": "-6",
+          "barrier": "6",
+          "path": [
+            0,
+            1,
+            2,
+            4
+          ]
+        }
+      },
+      "reference": {
+        "id": "fixed_seed_62",
+        "status": "connected",
+        "fixed": "-8",
+        "guaranteed": "-8",
+        "possible": "1/2",
+        "barrier_minimum": "0",
+        "barrier_maximum": "6",
+        "minimal_path_sets": [
+          [
+            0,
+            1,
+            2,
+            4
+          ]
+        ],
+        "minimal_separators": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            4
+          ]
+        ]
+      }
+    },
+    {
+      "id": "fixed_seed_63",
+      "exact": {
+        "id": "fixed_seed_63",
+        "status": "connected",
+        "counters": {
+          "hyperplanes": 3,
+          "candidate_intersections": 3,
+          "independent_intersections": 3,
+          "retained_points": 2
+        },
+        "fixed": "-4",
+        "fixed_path": [
+          0,
+          2
+        ],
+        "lower_field": [
+          "-2",
+          "0",
+          "-4"
+        ],
+        "upper_field": [
+          "0",
+          "2",
+          "-2"
+        ],
+        "guaranteed": "-4",
+        "possible": "-2",
+        "capacity_minimum": "-4",
+        "capacity_minimum_witness": {
+          "theta": [
+            "-1"
+          ],
+          "capacity": "-4",
+          "barrier": "0",
+          "path": [
+            0,
+            2
+          ]
+        },
+        "capacity_maximum": "-2",
+        "capacity_maximum_witness": {
+          "theta": [
+            "1"
+          ],
+          "capacity": "-2",
+          "barrier": "0",
+          "path": [
+            0,
+            2
+          ]
+        },
+        "barrier_minimum": "0",
+        "barrier_minimum_witness": {
+          "theta": [
+            "-1"
+          ],
+          "capacity": "-4",
+          "barrier": "0",
+          "path": [
+            0,
+            2
+          ]
+        },
+        "barrier_maximum": "0",
+        "barrier_maximum_witness": {
+          "theta": [
+            "-1"
+          ],
+          "capacity": "-4",
+          "barrier": "0",
+          "path": [
+            0,
+            2
+          ]
+        }
+      },
+      "reference": {
+        "id": "fixed_seed_63",
+        "status": "connected",
+        "fixed": "-4",
+        "guaranteed": "-4",
+        "possible": "-2",
+        "barrier_minimum": "0",
+        "barrier_maximum": "0",
+        "minimal_path_sets": [
+          [
+            0,
+            2
+          ]
+        ],
+        "minimal_separators": [
+          [
+            0
+          ],
+          [
+            2
+          ]
+        ]
+      }
+    },
+    {
+      "id": "fixed_seed_64",
+      "exact": {
+        "id": "fixed_seed_64",
+        "status": "connected",
+        "counters": {
+          "hyperplanes": 5,
+          "candidate_intersections": 5,
+          "independent_intersections": 5,
+          "retained_points": 3
+        },
+        "fixed": "-5",
+        "fixed_path": [
+          0,
+          3
+        ],
+        "lower_field": [
+          "-5",
+          "-1",
+          "-3",
+          "-5"
+        ],
+        "upper_field": [
+          "-1/2",
+          "1/2",
+          "-3",
+          "-1/2"
+        ],
+        "guaranteed": "-5",
+        "possible": "-1/2",
+        "capacity_minimum": "-5",
+        "capacity_minimum_witness": {
+          "theta": [
+            "-1"
+          ],
+          "capacity": "-5",
+          "barrier": "0",
+          "path": [
+            0,
+            3
+          ]
+        },
+        "capacity_maximum": "-1/2",
+        "capacity_maximum_witness": {
+          "theta": [
+            "1/2"
+          ],
+          "capacity": "-1/2",
+          "barrier": "0",
+          "path": [
+            0,
+            3
+          ]
+        },
+        "barrier_minimum": "0",
+        "barrier_minimum_witness": {
+          "theta": [
+            "-1"
+          ],
+          "capacity": "-5",
+          "barrier": "0",
+          "path": [
+            0,
+            3
+          ]
+        },
+        "barrier_maximum": "0",
+        "barrier_maximum_witness": {
+          "theta": [
+            "-1"
+          ],
+          "capacity": "-5",
+          "barrier": "0",
+          "path": [
+            0,
+            3
+          ]
+        }
+      },
+      "reference": {
+        "id": "fixed_seed_64",
+        "status": "connected",
+        "fixed": "-5",
+        "guaranteed": "-5",
+        "possible": "-1/2",
+        "barrier_minimum": "0",
+        "barrier_maximum": "0",
+        "minimal_path_sets": [
+          [
+            0,
+            3
+          ]
+        ],
+        "minimal_separators": [
+          [
+            0
+          ],
+          [
+            3
+          ]
+        ]
+      }
+    },
+    {
+      "id": "fixed_seed_65",
+      "exact": {
+        "id": "fixed_seed_65",
+        "status": "connected",
+        "counters": {
+          "hyperplanes": 6,
+          "candidate_intersections": 6,
+          "independent_intersections": 6,
+          "retained_points": 6
+        },
+        "fixed": "-2",
+        "fixed_path": [
+          0,
+          2,
+          3,
+          4
+        ],
+        "lower_field": [
+          "0",
+          "-3",
+          "-2",
+          "-1",
+          "0"
+        ],
+        "upper_field": [
+          "2",
+          "-1",
+          "4",
+          "1",
+          "2"
+        ],
+        "guaranteed": "-2",
+        "possible": "1/2",
+        "capacity_minimum": "-2",
+        "capacity_minimum_witness": {
+          "theta": [
+            "-1"
+          ],
+          "capacity": "-2",
+          "barrier": "4",
+          "path": [
+            0,
+            2,
+            3,
+            4
+          ]
+        },
+        "capacity_maximum": "1/2",
+        "capacity_maximum_witness": {
+          "theta": [
+            "1/2"
+          ],
+          "capacity": "1/2",
+          "barrier": "0",
+          "path": [
+            0,
+            2,
+            3,
+            4
+          ]
+        },
+        "barrier_minimum": "0",
+        "barrier_minimum_witness": {
+          "theta": [
+            "1/2"
+          ],
+          "capacity": "1/2",
+          "barrier": "0",
+          "path": [
+            0,
+            2,
+            3,
+            4
+          ]
+        },
+        "barrier_maximum": "4",
+        "barrier_maximum_witness": {
+          "theta": [
+            "-1"
+          ],
+          "capacity": "-2",
+          "barrier": "4",
+          "path": [
+            0,
+            2,
+            3,
+            4
+          ]
+        }
+      },
+      "reference": {
+        "id": "fixed_seed_65",
+        "status": "connected",
+        "fixed": "-2",
+        "guaranteed": "-2",
+        "possible": "1/2",
+        "barrier_minimum": "0",
+        "barrier_maximum": "4",
+        "minimal_path_sets": [
+          [
+            0,
+            2,
+            3,
+            4
+          ]
+        ],
+        "minimal_separators": [
+          [
+            0
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ]
+      }
+    },
+    {
+      "id": "fixed_seed_66",
+      "exact": {
+        "id": "fixed_seed_66",
+        "status": "connected",
+        "counters": {
+          "hyperplanes": 6,
+          "candidate_intersections": 15,
+          "independent_intersections": 14,
+          "retained_points": 4
+        },
+        "fixed": "-5",
+        "fixed_path": [
+          0,
+          1,
+          2
+        ],
+        "lower_field": [
+          "-1",
+          "-5",
+          "-5"
+        ],
+        "upper_field": [
+          "3",
+          "1",
+          "1"
+        ],
+        "guaranteed": "-5",
+        "possible": "-2",
+        "capacity_minimum": "-5",
+        "capacity_minimum_witness": {
+          "theta": [
+            "-1",
+            "0"
+          ],
+          "capacity": "-5",
+          "barrier": "0",
+          "path": [
+            0,
+            1,
+            2
+          ]
+        },
+        "capacity_maximum": "-2",
+        "capacity_maximum_witness": {
+          "theta": [
+            "0",
+            "0"
+          ],
+          "capacity": "-2",
+          "barrier": "0",
+          "path": [
+            0,
+            1,
+            2
+          ]
+        },
+        "barrier_minimum": "0",
+        "barrier_minimum_witness": {
+          "theta": [
+            "-1",
+            "0"
+          ],
+          "capacity": "-5",
+          "barrier": "0",
+          "path": [
+            0,
+            1,
+            2
+          ]
+        },
+        "barrier_maximum": "4",
+        "barrier_maximum_witness": {
+          "theta": [
+            "1",
+            "0"
+          ],
+          "capacity": "-5",
+          "barrier": "4",
+          "path": [
+            0,
+            1,
+            2
+          ]
+        }
+      },
+      "reference": {
+        "id": "fixed_seed_66",
+        "status": "connected",
+        "fixed": "-5",
+        "guaranteed": "-5",
+        "possible": "-2",
+        "barrier_minimum": "0",
+        "barrier_maximum": "4",
+        "minimal_path_sets": [
+          [
+            0,
+            1,
+            2
+          ]
+        ],
+        "minimal_separators": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ]
+        ]
+      }
+    },
+    {
+      "id": "fixed_seed_67",
+      "exact": {
+        "id": "fixed_seed_67",
+        "status": "connected",
+        "counters": {
+          "hyperplanes": 10,
+          "candidate_intersections": 45,
+          "independent_intersections": 42,
+          "retained_points": 11
+        },
+        "fixed": "-4",
+        "fixed_path": [
+          0,
+          1,
+          3
+        ],
+        "lower_field": [
+          "-2",
+          "-3",
+          "-4",
+          "-4"
+        ],
+        "upper_field": [
+          "4",
+          "3",
+          "8",
+          "2"
+        ],
+        "guaranteed": "-4",
+        "possible": "1/5",
+        "capacity_minimum": "-4",
+        "capacity_minimum_witness": {
+          "theta": [
+            "-1",
+            "1"
+          ],
+          "capacity": "-4",
+          "barrier": "0",
+          "path": [
+            0,
+            1,
+            3
+          ]
+        },
+        "capacity_maximum": "1/5",
+        "capacity_maximum_witness": {
+          "theta": [
+            "1",
+            "-2/5"
+          ],
+          "capacity": "1/5",
+          "barrier": "0",
+          "path": [
+            0,
+            1,
+            3
+          ]
+        },
+        "barrier_minimum": "0",
+        "barrier_minimum_witness": {
+          "theta": [
+            "-1",
+            "0"
+          ],
+          "capacity": "-1",
+          "barrier": "0",
+          "path": [
+            0,
+            1,
+            3
+          ]
+        },
+        "barrier_maximum": "5",
+        "barrier_maximum_witness": {
+          "theta": [
+            "-1",
+            "-1"
+          ],
+          "capacity": "-3",
+          "barrier": "5",
+          "path": [
+            0,
+            1,
+            3
+          ]
+        }
+      },
+      "reference": {
+        "id": "fixed_seed_67",
+        "status": "connected",
+        "fixed": "-4",
+        "guaranteed": "-4",
+        "possible": "1/5",
+        "barrier_minimum": "0",
+        "barrier_maximum": "5",
+        "minimal_path_sets": [
+          [
+            0,
+            1,
+            3
+          ]
+        ],
+        "minimal_separators": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            3
+          ]
+        ]
+      }
+    },
+    {
+      "id": "fixed_seed_68",
+      "exact": {
+        "id": "fixed_seed_68",
+        "status": "connected",
+        "counters": {
+          "hyperplanes": 14,
+          "candidate_intersections": 91,
+          "independent_intersections": 79,
+          "retained_points": 18
+        },
+        "fixed": "-3",
+        "fixed_path": [
+          0,
+          3,
+          4
+        ],
+        "lower_field": [
+          "0",
+          "-1",
+          "-7",
+          "-1",
+          "-3"
+        ],
+        "upper_field": [
+          "5",
+          "5",
+          "1/2",
+          "1",
+          "-3"
+        ],
+        "guaranteed": "-3",
+        "possible": "-3",
+        "capacity_minimum": "-3",
+        "capacity_minimum_witness": {
+          "theta": [
+            "-1",
+            "-1"
+          ],
+          "capacity": "-3",
+          "barrier": "0",
+          "path": [
+            0,
+            3,
+            4
+          ]
+        },
+        "capacity_maximum": "-3",
+        "capacity_maximum_witness": {
+          "theta": [
+            "-1",
+            "-1"
+          ],
+          "capacity": "-3",
+          "barrier": "0",
+          "path": [
+            0,
+            3,
+            4
+          ]
+        },
+        "barrier_minimum": "0",
+        "barrier_minimum_witness": {
+          "theta": [
+            "-1",
+            "-1"
+          ],
+          "capacity": "-3",
+          "barrier": "0",
+          "path": [
+            0,
+            3,
+            4
+          ]
+        },
+        "barrier_maximum": "0",
+        "barrier_maximum_witness": {
+          "theta": [
+            "-1",
+            "-1"
+          ],
+          "capacity": "-3",
+          "barrier": "0",
+          "path": [
+            0,
+            3,
+            4
+          ]
+        }
+      },
+      "reference": {
+        "id": "fixed_seed_68",
+        "status": "connected",
+        "fixed": "-3",
+        "guaranteed": "-3",
+        "possible": "-3",
+        "barrier_minimum": "0",
+        "barrier_maximum": "0",
+        "minimal_path_sets": [
+          [
+            0,
+            3,
+            4
+          ]
+        ],
+        "minimal_separators": [
+          [
+            0
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ]
+      }
+    },
+    {
+      "id": "fixed_seed_69",
+      "exact": {
+        "id": "fixed_seed_69",
+        "status": "connected",
+        "counters": {
+          "hyperplanes": 9,
+          "candidate_intersections": 84,
+          "independent_intersections": 44,
+          "retained_points": 20
+        },
+        "fixed": "-9",
+        "fixed_path": [
+          0,
+          1,
+          2
+        ],
+        "lower_field": [
+          "-9",
+          "1",
+          "-4"
+        ],
+        "upper_field": [
+          "7",
+          "3",
+          "10"
+        ],
+        "guaranteed": "-9",
+        "possible": "12/5",
+        "capacity_minimum": "-9",
+        "capacity_minimum_witness": {
+          "theta": [
+            "1",
+            "1",
+            "1"
+          ],
+          "capacity": "-9",
+          "barrier": "0",
+          "path": [
+            0,
+            1,
+            2
+          ]
+        },
+        "capacity_maximum": "12/5",
+        "capacity_maximum_witness": {
+          "theta": [
+            "-1",
+            "1",
+            "-4/5"
+          ],
+          "capacity": "12/5",
+          "barrier": "0",
+          "path": [
+            0,
+            1,
+            2
+          ]
+        },
+        "barrier_minimum": "0",
+        "barrier_minimum_witness": {
+          "theta": [
+            "-1",
+            "-1",
+            "-1"
+          ],
+          "capacity": "-4",
+          "barrier": "0",
+          "path": [
+            0,
+            1,
+            2
+          ]
+        },
+        "barrier_maximum": "0",
+        "barrier_maximum_witness": {
+          "theta": [
+            "-1",
+            "-1",
+            "-1"
+          ],
+          "capacity": "-4",
+          "barrier": "0",
+          "path": [
+            0,
+            1,
+            2
+          ]
+        }
+      },
+      "reference": {
+        "id": "fixed_seed_69",
+        "status": "connected",
+        "fixed": "-9",
+        "guaranteed": "-9",
+        "possible": "12/5",
+        "barrier_minimum": "0",
+        "barrier_maximum": "0",
+        "minimal_path_sets": [
+          [
+            0,
+            1,
+            2
+          ]
+        ],
+        "minimal_separators": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ]
+        ]
+      }
+    },
+    {
+      "id": "fixed_seed_70",
+      "exact": {
+        "id": "fixed_seed_70",
+        "status": "connected",
+        "counters": {
+          "hyperplanes": 12,
+          "candidate_intersections": 220,
+          "independent_intersections": 176,
+          "retained_points": 22
+        },
+        "fixed": "-12",
+        "fixed_path": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "lower_field": [
+          "0",
+          "-4",
+          "-12",
+          "-4"
+        ],
+        "upper_field": [
+          "6",
+          "4",
+          "6",
+          "6"
+        ],
+        "guaranteed": "-12",
+        "possible": "4/3",
+        "capacity_minimum": "-12",
+        "capacity_minimum_witness": {
+          "theta": [
+            "1",
+            "-1",
+            "-1"
+          ],
+          "capacity": "-12",
+          "barrier": "12",
+          "path": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        "capacity_maximum": "4/3",
+        "capacity_maximum_witness": {
+          "theta": [
+            "-1/9",
+            "1",
+            "1/3"
+          ],
+          "capacity": "4/3",
+          "barrier": "0",
+          "path": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        "barrier_minimum": "0",
+        "barrier_minimum_witness": {
+          "theta": [
+            "-1",
+            "-1",
+            "0"
+          ],
+          "capacity": "-3",
+          "barrier": "0",
+          "path": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        "barrier_maximum": "12",
+        "barrier_maximum_witness": {
+          "theta": [
+            "1",
+            "-1",
+            "-1"
+          ],
+          "capacity": "-12",
+          "barrier": "12",
+          "path": [
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      },
+      "reference": {
+        "id": "fixed_seed_70",
+        "status": "connected",
+        "fixed": "-12",
+        "guaranteed": "-12",
+        "possible": "4/3",
+        "barrier_minimum": "0",
+        "barrier_maximum": "12",
+        "minimal_path_sets": [
+          [
+            0,
+            1,
+            2,
+            3
+          ]
+        ],
+        "minimal_separators": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ]
+        ]
+      }
+    },
+    {
+      "id": "fixed_seed_71",
+      "exact": {
+        "id": "fixed_seed_71",
+        "status": "connected",
+        "counters": {
+          "hyperplanes": 16,
+          "candidate_intersections": 560,
+          "independent_intersections": 494,
+          "retained_points": 73
+        },
+        "fixed": "-9",
+        "fixed_path": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "lower_field": [
+          "-9",
+          "-5",
+          "-6",
+          "-2",
+          "-5"
+        ],
+        "upper_field": [
+          "3",
+          "-1",
+          "0",
+          "2",
+          "5"
+        ],
+        "guaranteed": "-9",
+        "possible": "-37/13",
+        "capacity_minimum": "-9",
+        "capacity_minimum_witness": {
+          "theta": [
+            "-1",
+            "1",
+            "1"
+          ],
+          "capacity": "-9",
+          "barrier": "0",
+          "path": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        "capacity_maximum": "-37/13",
+        "capacity_maximum_witness": {
+          "theta": [
+            "-4/13",
+            "-1",
+            "1/13"
+          ],
+          "capacity": "-37/13",
+          "barrier": "0",
+          "path": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        "barrier_minimum": "0",
+        "barrier_minimum_witness": {
+          "theta": [
+            "-1",
+            "-1",
+            "-1/5"
+          ],
+          "capacity": "-17/5",
+          "barrier": "0",
+          "path": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        "barrier_maximum": "8",
+        "barrier_maximum_witness": {
+          "theta": [
+            "1",
+            "-1",
+            "-1"
+          ],
+          "capacity": "-5",
+          "barrier": "8",
+          "path": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      },
+      "reference": {
+        "id": "fixed_seed_71",
+        "status": "connected",
+        "fixed": "-9",
+        "guaranteed": "-9",
+        "possible": "-37/13",
+        "barrier_minimum": "0",
+        "barrier_maximum": "8",
+        "minimal_path_sets": [
+          [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        ],
+        "minimal_separators": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ]
+      }
+    },
+    {
+      "id": "root_suggested_genuine_two_dimensional_corner_failure",
+      "exact": {
+        "id": "root_suggested_genuine_two_dimensional_corner_failure",
+        "status": "connected",
+        "counters": {
+          "hyperplanes": 8,
+          "candidate_intersections": 28,
+          "independent_intersections": 22,
+          "retained_points": 9
+        },
+        "fixed": "-1",
+        "fixed_path": [
+          0,
+          1,
+          5
+        ],
+        "lower_field": [
+          "1",
+          "-1",
+          "-1",
+          "-1",
+          "-1",
+          "1"
+        ],
+        "upper_field": [
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1"
+        ],
+        "guaranteed": "0",
+        "possible": "1",
+        "capacity_minimum": "0",
+        "capacity_minimum_witness": {
+          "theta": [
+            "0",
+            "0"
+          ],
+          "capacity": "0",
+          "barrier": "1",
+          "path": [
+            0,
+            1,
+            5
+          ]
+        },
+        "capacity_maximum": "1",
+        "capacity_maximum_witness": {
+          "theta": [
+            "-1",
+            "-1"
+          ],
+          "capacity": "1",
+          "barrier": "0",
+          "path": [
+            0,
+            2,
+            5
+          ]
+        },
+        "barrier_minimum": "0",
+        "barrier_minimum_witness": {
+          "theta": [
+            "-1",
+            "-1"
+          ],
+          "capacity": "1",
+          "barrier": "0",
+          "path": [
+            0,
+            2,
+            5
+          ]
+        },
+        "barrier_maximum": "1",
+        "barrier_maximum_witness": {
+          "theta": [
+            "0",
+            "0"
+          ],
+          "capacity": "0",
+          "barrier": "1",
+          "path": [
+            0,
+            1,
+            5
+          ]
+        }
+      },
+      "reference": {
+        "id": "root_suggested_genuine_two_dimensional_corner_failure",
+        "status": "connected",
+        "fixed": "-1",
+        "guaranteed": "0",
+        "possible": "1",
+        "barrier_minimum": "0",
+        "barrier_maximum": "1",
+        "minimal_path_sets": [
+          [
+            0,
+            1,
+            5
+          ],
+          [
+            0,
+            2,
+            5
+          ],
+          [
+            0,
+            3,
+            5
+          ],
+          [
+            0,
+            4,
+            5
+          ]
+        ],
+        "minimal_separators": [
+          [
+            0
+          ],
+          [
+            5
+          ],
+          [
+            1,
+            2,
+            3,
+            4
+          ]
+        ]
+      }
+    }
+  ]
+}

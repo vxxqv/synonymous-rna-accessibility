@@ -1,0 +1,125 @@
+{
+  "schema_version": 2,
+  "claim_id": "U1_U3_SEPARATELY_AUTHORED_REVIEW_V1",
+  "repository": {
+    "commit": "e9846dca9f74b2c5c34e984eed970e996b9df2bf",
+    "dirty": true
+  },
+  "command": [
+    "C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\work\\env\\Scripts\\python.exe",
+    "C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\work\\uncertainty_cycle3\\independent_review\\check_exact.py"
+  ],
+  "environment": {
+    "software": [
+      {
+        "name": "Python",
+        "version": "3.12.14"
+      }
+    ],
+    "hardware": "Windows-11-10.0.26300-SP0; AMD64"
+  },
+  "mathematics": {
+    "assertion_tested": "Exact independent LP extrema for all 81 supplied cases and Boolean graph/reduction checks",
+    "coefficient_domain": "Rational, fractions.Fraction",
+    "conventions": "Closed vertex threshold; endpoints included; minimal vertex path sets and separators",
+    "inputs": [
+      "work\\uncertainty_cycle3\\independent_review\\check_exact.py",
+      "work\\uncertainty_cycle3\\independent_review\\contract.json",
+      "work\\uncertainty_cycle3\\independent_review\\proof_reconstruction.md",
+      "work\\uncertainty_cycle3\\claims.md",
+      "work\\uncertainty_cycle3\\affine_polytope.py",
+      "work\\uncertainty_cycle3\\protocol.json",
+      "work\\uncertainty_cycle3\\cases.json"
+    ],
+    "bounds": {
+      "affine_cases": 81,
+      "graph_vertices_max": 5,
+      "latent_dimension_max": 3
+    },
+    "non_claims": [
+      "Universal proof from finite checks",
+      "Blinded review",
+      "Biological calibration",
+      "Generic machinery novelty"
+    ]
+  },
+  "randomness": {
+    "used": false,
+    "generator": "",
+    "seed": null
+  },
+  "run": {
+    "started_at": "2026-10-25T07:08:28.970127+00:00",
+    "runtime_seconds": 0.6077831999864429,
+    "exit_status": 0,
+    "status": "completed",
+    "resource_limits": {
+      "memory_bytes": null,
+      "cpu_seconds": 180,
+      "max_cores": 1,
+      "max_threads": 1
+    }
+  },
+  "outputs": [
+    {
+      "path": "work\\uncertainty_cycle3\\independent_review\\independent_results.json",
+      "sha256": "8ec37531f2e5d7208deebdcaf5dedb579bdae4b0d22a58450dead04f119db51a",
+      "kind": "result"
+    }
+  ],
+  "checks": [
+    "Exact Fourier-Motzkin elimination",
+    "No author solver imports",
+    "No author results read before receipt",
+    {
+      "lp_calls": 1127,
+      "largest_intermediate": 19,
+      "projection_steps": 2219
+    }
+  ],
+  "result": "Independent exact calculations saved; comparison with author receipt is a subsequent action",
+  "residual_risks": [
+    "Same model family and inherited context; not a blinded review",
+    "Finite cases are not universal proof"
+  ],
+  "input_artifacts": [
+    {
+      "path": "work\\uncertainty_cycle3\\independent_review\\check_exact.py",
+      "sha256": "4f702226326f25d01dd4422db959bf1200810a325a75e01882a5dbbd15cdd010",
+      "sha256_after": "4f702226326f25d01dd4422db959bf1200810a325a75e01882a5dbbd15cdd010"
+    },
+    {
+      "path": "work\\uncertainty_cycle3\\independent_review\\contract.json",
+      "sha256": "ddc32e19b089185ea127f2853be8113b2bee1826e058b91a4e667cdc2754f867",
+      "sha256_after": "ddc32e19b089185ea127f2853be8113b2bee1826e058b91a4e667cdc2754f867"
+    },
+    {
+      "path": "work\\uncertainty_cycle3\\independent_review\\proof_reconstruction.md",
+      "sha256": "7c4d28971da055647ad45075ee0ed0db6a6c51da1250f17902b0da02e7e0a3cb",
+      "sha256_after": "7c4d28971da055647ad45075ee0ed0db6a6c51da1250f17902b0da02e7e0a3cb"
+    },
+    {
+      "path": "work\\uncertainty_cycle3\\claims.md",
+      "sha256": "db1e36c8860c32e2b790588d238b5863c595b1cf5b03ca7674a4fc1dd914b027",
+      "sha256_after": "db1e36c8860c32e2b790588d238b5863c595b1cf5b03ca7674a4fc1dd914b027"
+    },
+    {
+      "path": "work\\uncertainty_cycle3\\affine_polytope.py",
+      "sha256": "b068f2b2b1faeb7b33e2aa15c5803966e52acc500b77e0f5d476569a6046a8da",
+      "sha256_after": "b068f2b2b1faeb7b33e2aa15c5803966e52acc500b77e0f5d476569a6046a8da"
+    },
+    {
+      "path": "work\\uncertainty_cycle3\\protocol.json",
+      "sha256": "0edbc70f95f2b15b2056da9a9f185c5eb6805f1f7e6877966291494b402e70ae",
+      "sha256_after": "0edbc70f95f2b15b2056da9a9f185c5eb6805f1f7e6877966291494b402e70ae"
+    },
+    {
+      "path": "work\\uncertainty_cycle3\\cases.json",
+      "sha256": "a3cc796df4de6459986112bf08c8c61fb1aa8bbc27955d88467d84b77c45afa5",
+      "sha256_after": "a3cc796df4de6459986112bf08c8c61fb1aa8bbc27955d88467d84b77c45afa5"
+    }
+  ],
+  "declared_results": [
+    "work\\uncertainty_cycle3\\independent_review\\independent_results.json"
+  ]
+}

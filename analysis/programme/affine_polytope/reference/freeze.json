@@ -1,0 +1,17 @@
+{
+  "source_hashes": {
+    "work\\uncertainty_cycle3\\independent_review\\check_exact.py": "4f702226326f25d01dd4422db959bf1200810a325a75e01882a5dbbd15cdd010",
+    "work\\uncertainty_cycle3\\independent_review\\contract.json": "ddc32e19b089185ea127f2853be8113b2bee1826e058b91a4e667cdc2754f867",
+    "work\\uncertainty_cycle3\\independent_review\\proof_reconstruction.md": "7c4d28971da055647ad45075ee0ed0db6a6c51da1250f17902b0da02e7e0a3cb",
+    "work\\uncertainty_cycle3\\claims.md": "db1e36c8860c32e2b790588d238b5863c595b1cf5b03ca7674a4fc1dd914b027",
+    "work\\uncertainty_cycle3\\affine_polytope.py": "b068f2b2b1faeb7b33e2aa15c5803966e52acc500b77e0f5d476569a6046a8da",
+    "work\\uncertainty_cycle3\\protocol.json": "0edbc70f95f2b15b2056da9a9f185c5eb6805f1f7e6877966291494b402e70ae",
+    "work\\uncertainty_cycle3\\cases.json": "a3cc796df4de6459986112bf08c8c61fb1aa8bbc27955d88467d84b77c45afa5"
+  },
+  "created_before_run": "2026-10-25T07:08:28.970127+00:00",
+  "author_results_read": false,
+  "command": [
+    "C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\work\\env\\Scripts\\python.exe",
+    "C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\work\\uncertainty_cycle3\\independent_review\\check_exact.py"
+  ]
+}

@@ -1,0 +1,2206 @@
+{
+  "provenance": "Separately authored with inherited context, not blinded",
+  "status": "completed",
+  "cases": [
+    {
+      "id": "two_dimensional_corner_failure",
+      "status": "connected",
+      "fixed": "-2",
+      "guaranteed": "0",
+      "possible": "2",
+      "barrier_minimum": "0",
+      "barrier_maximum": "2",
+      "minimal_path_sets": [
+        [
+          0,
+          1,
+          3
+        ],
+        [
+          0,
+          2,
+          3
+        ]
+      ],
+      "minimal_separators": [
+        [
+          0
+        ],
+        [
+          3
+        ],
+        [
+          1,
+          2
+        ]
+      ]
+    },
+    {
+      "id": "lower_dimensional_line",
+      "status": "connected",
+      "fixed": "-1",
+      "guaranteed": "0",
+      "possible": "1",
+      "barrier_minimum": "0",
+      "barrier_maximum": "1",
+      "minimal_path_sets": [
+        [
+          0,
+          1,
+          3
+        ],
+        [
+          0,
+          2,
+          3
+        ]
+      ],
+      "minimal_separators": [
+        [
+          0
+        ],
+        [
+          3
+        ],
+        [
+          1,
+          2
+        ]
+      ]
+    },
+    {
+      "id": "point_parameter_set",
+      "status": "connected",
+      "fixed": "0",
+      "guaranteed": "0",
+      "possible": "0",
+      "barrier_minimum": "1",
+      "barrier_maximum": "1",
+      "minimal_path_sets": [
+        [
+          0,
+          1,
+          3
+        ],
+        [
+          0,
+          2,
+          3
+        ]
+      ],
+      "minimal_separators": [
+        [
+          0
+        ],
+        [
+          3
+        ],
+        [
+          1,
+          2
+        ]
+      ]
+    },
+    {
+      "id": "zero_dimension",
+      "status": "connected",
+      "fixed": "0",
+      "guaranteed": "0",
+      "possible": "0",
+      "barrier_minimum": "1",
+      "barrier_maximum": "1",
+      "minimal_path_sets": [
+        [
+          0,
+          1,
+          3
+        ],
+        [
+          0,
+          2,
+          3
+        ]
+      ],
+      "minimal_separators": [
+        [
+          0
+        ],
+        [
+          3
+        ],
+        [
+          1,
+          2
+        ]
+      ]
+    },
+    {
+      "id": "empty_polytope",
+      "status": "empty_parameter_set"
+    },
+    {
+      "id": "disconnected",
+      "status": "disconnected"
+    },
+    {
+      "id": "same_endpoint",
+      "status": "connected",
+      "fixed": "-2",
+      "guaranteed": "-2",
+      "possible": "2",
+      "barrier_minimum": "0",
+      "barrier_maximum": "0",
+      "minimal_path_sets": [
+        [
+          0
+        ]
+      ],
+      "minimal_separators": [
+        [
+          0
+        ]
+      ]
+    },
+    {
+      "id": "direct_edge",
+      "status": "connected",
+      "fixed": "0",
+      "guaranteed": "0",
+      "possible": "2",
+      "barrier_minimum": "0",
+      "barrier_maximum": "0",
+      "minimal_path_sets": [
+        [
+          0,
+          3
+        ]
+      ],
+      "minimal_separators": [
+        [
+          0
+        ],
+        [
+          3
+        ]
+      ]
+    },
+    {
+      "id": "all_tied_negative",
+      "status": "connected",
+      "fixed": "-5",
+      "guaranteed": "-5",
+      "possible": "-1",
+      "barrier_minimum": "0",
+      "barrier_maximum": "0",
+      "minimal_path_sets": [
+        [
+          0,
+          1,
+          3
+        ],
+        [
+          0,
+          2,
+          3
+        ]
+      ],
+      "minimal_separators": [
+        [
+          0
+        ],
+        [
+          3
+        ],
+        [
+          1,
+          2
+        ]
+      ]
+    },
+    {
+      "id": "fixed_seed_00",
+      "status": "connected",
+      "fixed": "-1",
+      "guaranteed": "-1",
+      "possible": "-1",
+      "barrier_minimum": "0",
+      "barrier_maximum": "0",
+      "minimal_path_sets": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "minimal_separators": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ]
+      ]
+    },
+    {
+      "id": "fixed_seed_01",
+      "status": "connected",
+      "fixed": "0",
+      "guaranteed": "0",
+      "possible": "3",
+      "barrier_minimum": "0",
+      "barrier_maximum": "0",
+      "minimal_path_sets": [
+        [
+          0,
+          3
+        ]
+      ],
+      "minimal_separators": [
+        [
+          0
+        ],
+        [
+          3
+        ]
+      ]
+    },
+    {
+      "id": "fixed_seed_02",
+      "status": "connected",
+      "fixed": "-1",
+      "guaranteed": "-1",
+      "possible": "2",
+      "barrier_minimum": "0",
+      "barrier_maximum": "0",
+      "minimal_path_sets": [
+        [
+          0,
+          4
+        ]
+      ],
+      "minimal_separators": [
+        [
+          0
+        ],
+        [
+          4
+        ]
+      ]
+    },
+    {
+      "id": "fixed_seed_03",
+      "status": "connected",
+      "fixed": "-7",
+      "guaranteed": "-7",
+      "possible": "1/11",
+      "barrier_minimum": "0",
+      "barrier_maximum": "4/5",
+      "minimal_path_sets": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "minimal_separators": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ]
+      ]
+    },
+    {
+      "id": "fixed_seed_04",
+      "status": "connected",
+      "fixed": "-4",
+      "guaranteed": "-4",
+      "possible": "-3/8",
+      "barrier_minimum": "0",
+      "barrier_maximum": "4",
+      "minimal_path_sets": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "minimal_separators": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ]
+      ]
+    },
+    {
+      "id": "fixed_seed_05",
+      "status": "connected",
+      "fixed": "-7",
+      "guaranteed": "-7",
+      "possible": "7/3",
+      "barrier_minimum": "0",
+      "barrier_maximum": "7",
+      "minimal_path_sets": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "minimal_separators": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ]
+      ]
+    },
+    {
+      "id": "fixed_seed_06",
+      "status": "connected",
+      "fixed": "-6",
+      "guaranteed": "-6",
+      "possible": "12/5",
+      "barrier_minimum": "0",
+      "barrier_maximum": "0",
+      "minimal_path_sets": [
+        [
+          0,
+          2
+        ]
+      ],
+      "minimal_separators": [
+        [
+          0
+        ],
+        [
+          2
+        ]
+      ]
+    },
+    {
+      "id": "fixed_seed_07",
+      "status": "connected",
+      "fixed": "-4",
+      "guaranteed": "-4",
+      "possible": "6",
+      "barrier_minimum": "0",
+      "barrier_maximum": "0",
+      "minimal_path_sets": [
+        [
+          0,
+          3
+        ]
+      ],
+      "minimal_separators": [
+        [
+          0
+        ],
+        [
+          3
+        ]
+      ]
+    },
+    {
+      "id": "fixed_seed_08",
+      "status": "connected",
+      "fixed": "-13/2",
+      "guaranteed": "-13/2",
+      "possible": "0",
+      "barrier_minimum": "0",
+      "barrier_maximum": "0",
+      "minimal_path_sets": [
+        [
+          0,
+          4
+        ]
+      ],
+      "minimal_separators": [
+        [
+          0
+        ],
+        [
+          4
+        ]
+      ]
+    },
+    {
+      "id": "fixed_seed_09",
+      "status": "connected",
+      "fixed": "-5",
+      "guaranteed": "-5",
+      "possible": "-2",
+      "barrier_minimum": "0",
+      "barrier_maximum": "4",
+      "minimal_path_sets": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "minimal_separators": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ]
+      ]
+    },
+    {
+      "id": "fixed_seed_10",
+      "status": "connected",
+      "fixed": "-4",
+      "guaranteed": "-4",
+      "possible": "-4/5",
+      "barrier_minimum": "0",
+      "barrier_maximum": "2",
+      "minimal_path_sets": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "minimal_separators": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ]
+      ]
+    },
+    {
+      "id": "fixed_seed_11",
+      "status": "connected",
+      "fixed": "-3",
+      "guaranteed": "-3",
+      "possible": "-3",
+      "barrier_minimum": "1",
+      "barrier_maximum": "1",
+      "minimal_path_sets": [
+        [
+          0,
+          2,
+          3,
+          4
+        ]
+      ],
+      "minimal_separators": [
+        [
+          0
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ]
+      ]
+    },
+    {
+      "id": "fixed_seed_12",
+      "status": "connected",
+      "fixed": "-8",
+      "guaranteed": "-8",
+      "possible": "2",
+      "barrier_minimum": "0",
+      "barrier_maximum": "0",
+      "minimal_path_sets": [
+        [
+          0,
+          2
+        ]
+      ],
+      "minimal_separators": [
+        [
+          0
+        ],
+        [
+          2
+        ]
+      ]
+    },
+    {
+      "id": "fixed_seed_13",
+      "status": "connected",
+      "fixed": "-8",
+      "guaranteed": "-8",
+      "possible": "1",
+      "barrier_minimum": "0",
+      "barrier_maximum": "3",
+      "minimal_path_sets": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "minimal_separators": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ]
+      ]
+    },
+    {
+      "id": "fixed_seed_14",
+      "status": "connected",
+      "fixed": "-7",
+      "guaranteed": "-7",
+      "possible": "-1",
+      "barrier_minimum": "0",
+      "barrier_maximum": "4",
+      "minimal_path_sets": [
+        [
+          0,
+          1,
+          3,
+          4
+        ],
+        [
+          0,
+          2,
+          3,
+          4
+        ]
+      ],
+      "minimal_separators": [
+        [
+          0
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ],
+        [
+          1,
+          2
+        ]
+      ]
+    },
+    {
+      "id": "fixed_seed_15",
+      "status": "connected",
+      "fixed": "-9",
+      "guaranteed": "-9",
+      "possible": "1/4",
+      "barrier_minimum": "0",
+      "barrier_maximum": "0",
+      "minimal_path_sets": [
+        [
+          0,
+          2
+        ]
+      ],
+      "minimal_separators": [
+        [
+          0
+        ],
+        [
+          2
+        ]
+      ]
+    },
+    {
+      "id": "fixed_seed_16",
+      "status": "connected",
+      "fixed": "-15/2",
+      "guaranteed": "-15/2",
+      "possible": "-33/25",
+      "barrier_minimum": "0",
+      "barrier_maximum": "19/2",
+      "minimal_path_sets": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "minimal_separators": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ]
+      ]
+    },
+    {
+      "id": "fixed_seed_17",
+      "status": "connected",
+      "fixed": "-3",
+      "guaranteed": "-3",
+      "possible": "9/2",
+      "barrier_minimum": "0",
+      "barrier_maximum": "0",
+      "minimal_path_sets": [
+        [
+          0,
+          3,
+          4
+        ]
+      ],
+      "minimal_separators": [
+        [
+          0
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ]
+      ]
+    },
+    {
+      "id": "fixed_seed_18",
+      "status": "connected",
+      "fixed": "-3",
+      "guaranteed": "-3",
+      "possible": "2",
+      "barrier_minimum": "0",
+      "barrier_maximum": "0",
+      "minimal_path_sets": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "minimal_separators": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ]
+      ]
+    },
+    {
+      "id": "fixed_seed_19",
+      "status": "connected",
+      "fixed": "-3",
+      "guaranteed": "-3",
+      "possible": "-2",
+      "barrier_minimum": "0",
+      "barrier_maximum": "0",
+      "minimal_path_sets": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "minimal_separators": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ]
+      ]
+    },
+    {
+      "id": "fixed_seed_20",
+      "status": "connected",
+      "fixed": "-4",
+      "guaranteed": "-4",
+      "possible": "-1",
+      "barrier_minimum": "0",
+      "barrier_maximum": "0",
+      "minimal_path_sets": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "minimal_separators": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ]
+      ]
+    },
+    {
+      "id": "fixed_seed_21",
+      "status": "connected",
+      "fixed": "-7",
+      "guaranteed": "-7",
+      "possible": "-3/5",
+      "barrier_minimum": "0",
+      "barrier_maximum": "6",
+      "minimal_path_sets": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "minimal_separators": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ]
+      ]
+    },
+    {
+      "id": "fixed_seed_22",
+      "status": "connected",
+      "fixed": "-2",
+      "guaranteed": "-2",
+      "possible": "0",
+      "barrier_minimum": "0",
+      "barrier_maximum": "0",
+      "minimal_path_sets": [
+        [
+          0,
+          3
+        ]
+      ],
+      "minimal_separators": [
+        [
+          0
+        ],
+        [
+          3
+        ]
+      ]
+    },
+    {
+      "id": "fixed_seed_23",
+      "status": "connected",
+      "fixed": "-5",
+      "guaranteed": "-5",
+      "possible": "1",
+      "barrier_minimum": "0",
+      "barrier_maximum": "0",
+      "minimal_path_sets": [
+        [
+          0,
+          1,
+          4
+        ]
+      ],
+      "minimal_separators": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          4
+        ]
+      ]
+    },
+    {
+      "id": "fixed_seed_24",
+      "status": "connected",
+      "fixed": "-8",
+      "guaranteed": "-8",
+      "possible": "15/14",
+      "barrier_minimum": "0",
+      "barrier_maximum": "8",
+      "minimal_path_sets": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "minimal_separators": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ]
+      ]
+    },
+    {
+      "id": "fixed_seed_25",
+      "status": "connected",
+      "fixed": "-7",
+      "guaranteed": "-7",
+      "possible": "-1",
+      "barrier_minimum": "0",
+      "barrier_maximum": "0",
+      "minimal_path_sets": [
+        [
+          0,
+          3
+        ]
+      ],
+      "minimal_separators": [
+        [
+          0
+        ],
+        [
+          3
+        ]
+      ]
+    },
+    {
+      "id": "fixed_seed_26",
+      "status": "connected",
+      "fixed": "0",
+      "guaranteed": "0",
+      "possible": "6",
+      "barrier_minimum": "0",
+      "barrier_maximum": "0",
+      "minimal_path_sets": [
+        [
+          0,
+          4
+        ]
+      ],
+      "minimal_separators": [
+        [
+          0
+        ],
+        [
+          4
+        ]
+      ]
+    },
+    {
+      "id": "fixed_seed_27",
+      "status": "connected",
+      "fixed": "-1",
+      "guaranteed": "-1",
+      "possible": "3",
+      "barrier_minimum": "0",
+      "barrier_maximum": "2",
+      "minimal_path_sets": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "minimal_separators": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ]
+      ]
+    },
+    {
+      "id": "fixed_seed_28",
+      "status": "connected",
+      "fixed": "-9/2",
+      "guaranteed": "-9/2",
+      "possible": "-1",
+      "barrier_minimum": "0",
+      "barrier_maximum": "3",
+      "minimal_path_sets": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "minimal_separators": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ]
+      ]
+    },
+    {
+      "id": "fixed_seed_29",
+      "status": "connected",
+      "fixed": "-4",
+      "guaranteed": "-4",
+      "possible": "1/2",
+      "barrier_minimum": "0",
+      "barrier_maximum": "0",
+      "minimal_path_sets": [
+        [
+          0,
+          4
+        ]
+      ],
+      "minimal_separators": [
+        [
+          0
+        ],
+        [
+          4
+        ]
+      ]
+    },
+    {
+      "id": "fixed_seed_30",
+      "status": "connected",
+      "fixed": "-5",
+      "guaranteed": "-5",
+      "possible": "0",
+      "barrier_minimum": "0",
+      "barrier_maximum": "0",
+      "minimal_path_sets": [
+        [
+          0,
+          2
+        ]
+      ],
+      "minimal_separators": [
+        [
+          0
+        ],
+        [
+          2
+        ]
+      ]
+    },
+    {
+      "id": "fixed_seed_31",
+      "status": "connected",
+      "fixed": "-7",
+      "guaranteed": "-7",
+      "possible": "1/2",
+      "barrier_minimum": "0",
+      "barrier_maximum": "0",
+      "minimal_path_sets": [
+        [
+          0,
+          1,
+          3
+        ],
+        [
+          0,
+          2,
+          3
+        ]
+      ],
+      "minimal_separators": [
+        [
+          0
+        ],
+        [
+          3
+        ],
+        [
+          1,
+          2
+        ]
+      ]
+    },
+    {
+      "id": "fixed_seed_32",
+      "status": "connected",
+      "fixed": "-4",
+      "guaranteed": "-4",
+      "possible": "7/6",
+      "barrier_minimum": "0",
+      "barrier_maximum": "0",
+      "minimal_path_sets": [
+        [
+          0,
+          4
+        ]
+      ],
+      "minimal_separators": [
+        [
+          0
+        ],
+        [
+          4
+        ]
+      ]
+    },
+    {
+      "id": "fixed_seed_33",
+      "status": "connected",
+      "fixed": "-6",
+      "guaranteed": "-6",
+      "possible": "4",
+      "barrier_minimum": "0",
+      "barrier_maximum": "2",
+      "minimal_path_sets": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "minimal_separators": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ]
+      ]
+    },
+    {
+      "id": "fixed_seed_34",
+      "status": "connected",
+      "fixed": "-10",
+      "guaranteed": "-10",
+      "possible": "22/5",
+      "barrier_minimum": "0",
+      "barrier_maximum": "0",
+      "minimal_path_sets": [
+        [
+          0,
+          3
+        ]
+      ],
+      "minimal_separators": [
+        [
+          0
+        ],
+        [
+          3
+        ]
+      ]
+    },
+    {
+      "id": "fixed_seed_35",
+      "status": "connected",
+      "fixed": "-7",
+      "guaranteed": "-7",
+      "possible": "2",
+      "barrier_minimum": "0",
+      "barrier_maximum": "33/4",
+      "minimal_path_sets": [
+        [
+          0,
+          2,
+          3,
+          4
+        ]
+      ],
+      "minimal_separators": [
+        [
+          0
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ]
+      ]
+    },
+    {
+      "id": "fixed_seed_36",
+      "status": "connected",
+      "fixed": "-3",
+      "guaranteed": "-3",
+      "possible": "-3",
+      "barrier_minimum": "0",
+      "barrier_maximum": "0",
+      "minimal_path_sets": [
+        [
+          0,
+          2
+        ]
+      ],
+      "minimal_separators": [
+        [
+          0
+        ],
+        [
+          2
+        ]
+      ]
+    },
+    {
+      "id": "fixed_seed_37",
+      "status": "connected",
+      "fixed": "-3",
+      "guaranteed": "-3",
+      "possible": "1",
+      "barrier_minimum": "0",
+      "barrier_maximum": "0",
+      "minimal_path_sets": [
+        [
+          0,
+          3
+        ]
+      ],
+      "minimal_separators": [
+        [
+          0
+        ],
+        [
+          3
+        ]
+      ]
+    },
+    {
+      "id": "fixed_seed_38",
+      "status": "connected",
+      "fixed": "-5",
+      "guaranteed": "-5",
+      "possible": "-1",
+      "barrier_minimum": "0",
+      "barrier_maximum": "0",
+      "minimal_path_sets": [
+        [
+          0,
+          4
+        ]
+      ],
+      "minimal_separators": [
+        [
+          0
+        ],
+        [
+          4
+        ]
+      ]
+    },
+    {
+      "id": "fixed_seed_39",
+      "status": "connected",
+      "fixed": "-7",
+      "guaranteed": "-7",
+      "possible": "3",
+      "barrier_minimum": "0",
+      "barrier_maximum": "4",
+      "minimal_path_sets": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "minimal_separators": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ]
+      ]
+    },
+    {
+      "id": "fixed_seed_40",
+      "status": "connected",
+      "fixed": "-3",
+      "guaranteed": "-3",
+      "possible": "1",
+      "barrier_minimum": "0",
+      "barrier_maximum": "0",
+      "minimal_path_sets": [
+        [
+          0,
+          3
+        ]
+      ],
+      "minimal_separators": [
+        [
+          0
+        ],
+        [
+          3
+        ]
+      ]
+    },
+    {
+      "id": "fixed_seed_41",
+      "status": "connected",
+      "fixed": "-6",
+      "guaranteed": "-6",
+      "possible": "2",
+      "barrier_minimum": "0",
+      "barrier_maximum": "0",
+      "minimal_path_sets": [
+        [
+          0,
+          4
+        ]
+      ],
+      "minimal_separators": [
+        [
+          0
+        ],
+        [
+          4
+        ]
+      ]
+    },
+    {
+      "id": "fixed_seed_42",
+      "status": "connected",
+      "fixed": "-5",
+      "guaranteed": "-5",
+      "possible": "6",
+      "barrier_minimum": "0",
+      "barrier_maximum": "5/2",
+      "minimal_path_sets": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "minimal_separators": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ]
+      ]
+    },
+    {
+      "id": "fixed_seed_43",
+      "status": "connected",
+      "fixed": "-8",
+      "guaranteed": "-8",
+      "possible": "2/9",
+      "barrier_minimum": "0",
+      "barrier_maximum": "6",
+      "minimal_path_sets": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "minimal_separators": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ]
+      ]
+    },
+    {
+      "id": "fixed_seed_44",
+      "status": "connected",
+      "fixed": "-6",
+      "guaranteed": "-6",
+      "possible": "0",
+      "barrier_minimum": "0",
+      "barrier_maximum": "1/3",
+      "minimal_path_sets": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "minimal_separators": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ]
+      ]
+    },
+    {
+      "id": "fixed_seed_45",
+      "status": "connected",
+      "fixed": "-2",
+      "guaranteed": "-2",
+      "possible": "4/3",
+      "barrier_minimum": "0",
+      "barrier_maximum": "0",
+      "minimal_path_sets": [
+        [
+          0,
+          2
+        ]
+      ],
+      "minimal_separators": [
+        [
+          0
+        ],
+        [
+          2
+        ]
+      ]
+    },
+    {
+      "id": "fixed_seed_46",
+      "status": "connected",
+      "fixed": "0",
+      "guaranteed": "0",
+      "possible": "1",
+      "barrier_minimum": "0",
+      "barrier_maximum": "2",
+      "minimal_path_sets": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "minimal_separators": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ]
+      ]
+    },
+    {
+      "id": "fixed_seed_47",
+      "status": "connected",
+      "fixed": "-4",
+      "guaranteed": "-4",
+      "possible": "-2",
+      "barrier_minimum": "0",
+      "barrier_maximum": "0",
+      "minimal_path_sets": [
+        [
+          0,
+          4
+        ]
+      ],
+      "minimal_separators": [
+        [
+          0
+        ],
+        [
+          4
+        ]
+      ]
+    },
+    {
+      "id": "fixed_seed_48",
+      "status": "connected",
+      "fixed": "-6",
+      "guaranteed": "-6",
+      "possible": "1/2",
+      "barrier_minimum": "0",
+      "barrier_maximum": "0",
+      "minimal_path_sets": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "minimal_separators": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ]
+      ]
+    },
+    {
+      "id": "fixed_seed_49",
+      "status": "connected",
+      "fixed": "-7",
+      "guaranteed": "-7",
+      "possible": "-7/3",
+      "barrier_minimum": "0",
+      "barrier_maximum": "0",
+      "minimal_path_sets": [
+        [
+          0,
+          1,
+          3
+        ]
+      ],
+      "minimal_separators": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          3
+        ]
+      ]
+    },
+    {
+      "id": "fixed_seed_50",
+      "status": "connected",
+      "fixed": "-3",
+      "guaranteed": "-3",
+      "possible": "-1",
+      "barrier_minimum": "0",
+      "barrier_maximum": "0",
+      "minimal_path_sets": [
+        [
+          0,
+          1,
+          4
+        ]
+      ],
+      "minimal_separators": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          4
+        ]
+      ]
+    },
+    {
+      "id": "fixed_seed_51",
+      "status": "connected",
+      "fixed": "-8",
+      "guaranteed": "-8",
+      "possible": "3",
+      "barrier_minimum": "0",
+      "barrier_maximum": "0",
+      "minimal_path_sets": [
+        [
+          0,
+          2
+        ]
+      ],
+      "minimal_separators": [
+        [
+          0
+        ],
+        [
+          2
+        ]
+      ]
+    },
+    {
+      "id": "fixed_seed_52",
+      "status": "connected",
+      "fixed": "-9",
+      "guaranteed": "-9",
+      "possible": "-2",
+      "barrier_minimum": "4",
+      "barrier_maximum": "11",
+      "minimal_path_sets": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "minimal_separators": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ]
+      ]
+    },
+    {
+      "id": "fixed_seed_53",
+      "status": "connected",
+      "fixed": "-9",
+      "guaranteed": "-9",
+      "possible": "9/5",
+      "barrier_minimum": "0",
+      "barrier_maximum": "40/13",
+      "minimal_path_sets": [
+        [
+          0,
+          1,
+          4
+        ],
+        [
+          0,
+          3,
+          4
+        ]
+      ],
+      "minimal_separators": [
+        [
+          0
+        ],
+        [
+          4
+        ],
+        [
+          1,
+          3
+        ]
+      ]
+    },
+    {
+      "id": "fixed_seed_54",
+      "status": "connected",
+      "fixed": "-2",
+      "guaranteed": "-2",
+      "possible": "1",
+      "barrier_minimum": "0",
+      "barrier_maximum": "2",
+      "minimal_path_sets": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "minimal_separators": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ]
+      ]
+    },
+    {
+      "id": "fixed_seed_55",
+      "status": "connected",
+      "fixed": "-1",
+      "guaranteed": "-1",
+      "possible": "-1",
+      "barrier_minimum": "1",
+      "barrier_maximum": "1",
+      "minimal_path_sets": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "minimal_separators": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ]
+      ]
+    },
+    {
+      "id": "fixed_seed_56",
+      "status": "connected",
+      "fixed": "-5",
+      "guaranteed": "-5",
+      "possible": "-5/2",
+      "barrier_minimum": "0",
+      "barrier_maximum": "5",
+      "minimal_path_sets": [
+        [
+          0,
+          1,
+          2,
+          4
+        ]
+      ],
+      "minimal_separators": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          4
+        ]
+      ]
+    },
+    {
+      "id": "fixed_seed_57",
+      "status": "connected",
+      "fixed": "-6",
+      "guaranteed": "-6",
+      "possible": "6/5",
+      "barrier_minimum": "0",
+      "barrier_maximum": "0",
+      "minimal_path_sets": [
+        [
+          0,
+          2
+        ]
+      ],
+      "minimal_separators": [
+        [
+          0
+        ],
+        [
+          2
+        ]
+      ]
+    },
+    {
+      "id": "fixed_seed_58",
+      "status": "connected",
+      "fixed": "-4",
+      "guaranteed": "-4",
+      "possible": "3",
+      "barrier_minimum": "0",
+      "barrier_maximum": "4/3",
+      "minimal_path_sets": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "minimal_separators": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ]
+      ]
+    },
+    {
+      "id": "fixed_seed_59",
+      "status": "connected",
+      "fixed": "-6",
+      "guaranteed": "-6",
+      "possible": "1",
+      "barrier_minimum": "0",
+      "barrier_maximum": "2",
+      "minimal_path_sets": [
+        [
+          0,
+          3,
+          4
+        ]
+      ],
+      "minimal_separators": [
+        [
+          0
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ]
+      ]
+    },
+    {
+      "id": "fixed_seed_60",
+      "status": "connected",
+      "fixed": "-9",
+      "guaranteed": "-9",
+      "possible": "12/5",
+      "barrier_minimum": "0",
+      "barrier_maximum": "3/2",
+      "minimal_path_sets": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "minimal_separators": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ]
+      ]
+    },
+    {
+      "id": "fixed_seed_61",
+      "status": "connected",
+      "fixed": "-7",
+      "guaranteed": "-7",
+      "possible": "11/4",
+      "barrier_minimum": "0",
+      "barrier_maximum": "0",
+      "minimal_path_sets": [
+        [
+          0,
+          3
+        ]
+      ],
+      "minimal_separators": [
+        [
+          0
+        ],
+        [
+          3
+        ]
+      ]
+    },
+    {
+      "id": "fixed_seed_62",
+      "status": "connected",
+      "fixed": "-8",
+      "guaranteed": "-8",
+      "possible": "1/2",
+      "barrier_minimum": "0",
+      "barrier_maximum": "6",
+      "minimal_path_sets": [
+        [
+          0,
+          1,
+          2,
+          4
+        ]
+      ],
+      "minimal_separators": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          4
+        ]
+      ]
+    },
+    {
+      "id": "fixed_seed_63",
+      "status": "connected",
+      "fixed": "-4",
+      "guaranteed": "-4",
+      "possible": "-2",
+      "barrier_minimum": "0",
+      "barrier_maximum": "0",
+      "minimal_path_sets": [
+        [
+          0,
+          2
+        ]
+      ],
+      "minimal_separators": [
+        [
+          0
+        ],
+        [
+          2
+        ]
+      ]
+    },
+    {
+      "id": "fixed_seed_64",
+      "status": "connected",
+      "fixed": "-5",
+      "guaranteed": "-5",
+      "possible": "-1/2",
+      "barrier_minimum": "0",
+      "barrier_maximum": "0",
+      "minimal_path_sets": [
+        [
+          0,
+          3
+        ]
+      ],
+      "minimal_separators": [
+        [
+          0
+        ],
+        [
+          3
+        ]
+      ]
+    },
+    {
+      "id": "fixed_seed_65",
+      "status": "connected",
+      "fixed": "-2",
+      "guaranteed": "-2",
+      "possible": "1/2",
+      "barrier_minimum": "0",
+      "barrier_maximum": "4",
+      "minimal_path_sets": [
+        [
+          0,
+          2,
+          3,
+          4
+        ]
+      ],
+      "minimal_separators": [
+        [
+          0
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ]
+      ]
+    },
+    {
+      "id": "fixed_seed_66",
+      "status": "connected",
+      "fixed": "-5",
+      "guaranteed": "-5",
+      "possible": "-2",
+      "barrier_minimum": "0",
+      "barrier_maximum": "4",
+      "minimal_path_sets": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "minimal_separators": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ]
+      ]
+    },
+    {
+      "id": "fixed_seed_67",
+      "status": "connected",
+      "fixed": "-4",
+      "guaranteed": "-4",
+      "possible": "1/5",
+      "barrier_minimum": "0",
+      "barrier_maximum": "5",
+      "minimal_path_sets": [
+        [
+          0,
+          1,
+          3
+        ]
+      ],
+      "minimal_separators": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          3
+        ]
+      ]
+    },
+    {
+      "id": "fixed_seed_68",
+      "status": "connected",
+      "fixed": "-3",
+      "guaranteed": "-3",
+      "possible": "-3",
+      "barrier_minimum": "0",
+      "barrier_maximum": "0",
+      "minimal_path_sets": [
+        [
+          0,
+          3,
+          4
+        ]
+      ],
+      "minimal_separators": [
+        [
+          0
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ]
+      ]
+    },
+    {
+      "id": "fixed_seed_69",
+      "status": "connected",
+      "fixed": "-9",
+      "guaranteed": "-9",
+      "possible": "12/5",
+      "barrier_minimum": "0",
+      "barrier_maximum": "0",
+      "minimal_path_sets": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "minimal_separators": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ]
+      ]
+    },
+    {
+      "id": "fixed_seed_70",
+      "status": "connected",
+      "fixed": "-12",
+      "guaranteed": "-12",
+      "possible": "4/3",
+      "barrier_minimum": "0",
+      "barrier_maximum": "12",
+      "minimal_path_sets": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "minimal_separators": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ]
+      ]
+    },
+    {
+      "id": "fixed_seed_71",
+      "status": "connected",
+      "fixed": "-9",
+      "guaranteed": "-9",
+      "possible": "-37/13",
+      "barrier_minimum": "0",
+      "barrier_maximum": "8",
+      "minimal_path_sets": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "minimal_separators": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ]
+      ]
+    }
+  ],
+  "graphs": {
+    "graphs": 1098,
+    "connected_endpoint_graphs": 928,
+    "unique_minimal": 810,
+    "multiple_minimal": 118,
+    "retained_sets_checked": 28780,
+    "separation_witnesses": 118,
+    "coincident_endpoint_cases": 1
+  },
+  "formulas": {
+    "formula_cases": 259,
+    "unsatisfiable": 4,
+    "boolean_scenarios": 2050,
+    "ternary_scenarios": 6903
+  },
+  "counters": {
+    "lp_calls": 1127,
+    "largest_intermediate": 19,
+    "projection_steps": 2219
+  },
+  "runtime_seconds": 0.6077831999864429,
+  "author_results_read": false
+}

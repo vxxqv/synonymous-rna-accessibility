@@ -1,0 +1,11 @@
+{
+  "inputs_sha256": {
+    "claims.md": "db1e36c8860c32e2b790588d238b5863c595b1cf5b03ca7674a4fc1dd914b027",
+    "protocol.json": "0edbc70f95f2b15b2056da9a9f185c5eb6805f1f7e6877966291494b402e70ae",
+    "affine_polytope.py": "b068f2b2b1faeb7b33e2aa15c5803966e52acc500b77e0f5d476569a6046a8da",
+    "verify.py": "c43eb200a573dff3afd1ec6d75d4f6dba0b3715c18873a1d875472343a185d59",
+    "cases.json": "a3cc796df4de6459986112bf08c8c61fb1aa8bbc27955d88467d84b77c45afa5"
+  },
+  "suite_count": 81,
+  "meaning": "algorithm verification freeze, not independent biological preregistration"
+}

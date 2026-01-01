@@ -95,6 +95,16 @@ python -m pytest tests/test_product_closure.py tests/test_forest_extensions.py t
 
 The product checks require a new output location. The independent audit uses explicit product traversal and a separate factor closure. Its present result is in `results/programme/product_closure_independent_release`. The forest regression compares a 1,200-event height-two path against the independent Entringer recurrence. The authoritative overlapping-obligation API receipt is `results/programme/overlap_v2_verified_api`; earlier source hashes are historical, not verification of the amended API.
 
+### Multidimensional correlated uncertainty
+
+`analysis/programme/affine_polytope/` extends the deterministic uncertainty analysis to bounded rational parameter polytopes. Its reviewed proofs identify exact ranges at fixed latent dimension, establish variable-dimension complexity boundaries, and characterize when one fixed route is as robust as scenario-dependent routes. Generic lattice-polynomial and arrangement methods are established prior; the module makes no first-algorithm claim and supplies no calibrated biological confidence region.
+
+```text
+python analysis/programme/affine_polytope/verify_exact.py --out work/fresh-affine-polytope
+```
+
+The portable exact replay compares 82 cases against a separately authored path and separator oracle, checks 400 rational quantities, and retains the original corpus and disclosed fixture correction. The README in that directory gives the precise proof, review and provenance boundaries. These additions postdate the original version 1.0 archive and must not be attributed to that archive until a later verified release includes them.
+
 ### Acquisition validation remains a failed efficiency result
 
 The frozen held-out acquisition benchmark contains 3,800 worlds and 22,800 policy runs, with every result retained. The proposed path/cut rule fails the predeclared efficiency hurdle and uses 0.398 more queries on average than the strongest forward baseline. The 95% seed-block interval [0.261, 0.535] describes Monte Carlo variation in this fixed synthetic design. The examined validation set is retired from tuning. See `results/programme/acquisition_v1/validation_report.md` and its frozen protocol for the exact paired design, all comparators and failures.

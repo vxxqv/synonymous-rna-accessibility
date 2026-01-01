@@ -1,0 +1,9 @@
+{
+  "id": "U1_U3_SEPARATELY_AUTHORED_REVIEW_V1",
+  "provenance": "Separate author with inherited project context; not blinded; no author solver imports and no author result reads before the independent receipt is saved",
+  "scope": "All 81 supplied affine cases via exact rational path and separator LPs; all labelled simple graphs on 2 through 5 vertices plus one coincident endpoint case; 255 three variable clause subsets plus explicitly recorded degenerate clauses",
+  "arithmetic": "Python fractions.Fraction and exact Fourier-Motzkin elimination",
+  "resource_limits": {"seconds": 180, "intermediate_inequalities": 20000},
+  "failure_rule": "Stop on an exact contradiction, source change, or resource cap. Retain the incomplete receipt. No outcome based exclusions.",
+  "nonclaims": ["finite verification is not proof", "not an isolated or blinded review", "no generic lattice polynomial novelty", "no biological calibration", "no statistical coverage"]
+}

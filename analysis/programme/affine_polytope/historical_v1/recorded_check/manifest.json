@@ -1,0 +1,165 @@
+{
+  "schema_version": 2,
+  "claim_id": "AFFINE_POLYTOPE_ROUTE_CAPACITY_CYCLE3",
+  "repository": {
+    "commit": "unavailable",
+    "dirty": true
+  },
+  "command": [
+    "work/env/Scripts/python.exe",
+    "work/uncertainty_cycle3/verify.py",
+    "--output",
+    "work/uncertainty_cycle3/recorded_check"
+  ],
+  "environment": {
+    "software": [
+      {
+        "name": "runner-python",
+        "version": "3.12.14"
+      },
+      {
+        "name": "Python",
+        "version": "3.12.14"
+      },
+      {
+        "name": "NumPy",
+        "version": "2.5.4"
+      },
+      {
+        "name": "SciPy",
+        "version": "1.18.1"
+      },
+      {
+        "name": "NetworkX",
+        "version": "3.7"
+      }
+    ],
+    "hardware": "Windows-11-10.0.26300-SP0"
+  },
+  "mathematics": {
+    "assertion_tested": "All four exact extrema agree with separately formulated path and cut LP optima in the 81 frozen cases; route classification construction and SAT reduction examples agree with direct graph truth calculations in the stated finite ranges",
+    "coefficient_domain": "Rational production; double precision HiGHS reference with absolute tolerance 1e-8",
+    "conventions": "Closed vertex thresholds; endpoints included; claims.md and protocol.json",
+    "inputs": [
+      "Frozen cases.json",
+      "All labelled graphs n=2..5",
+      "255 nonempty subsets of eight full three-variable clauses"
+    ],
+    "bounds": {
+      "affine_cases": 81,
+      "graph_vertices_max": 5,
+      "latent_dimension_max": 3,
+      "graph_cases": 1098,
+      "formula_cases": 255
+    },
+    "non_claims": [
+      "Finite verification is not a proof",
+      "No biological calibration",
+      "No arbitrary dimension efficient algorithm",
+      "No statistical or empirical validation",
+      "Fresh independent review pending"
+    ]
+  },
+  "randomness": {
+    "used": true,
+    "generator": "Python random.Random MT19937 for fixed fixture generation only",
+    "seed": 172904
+  },
+  "run": {
+    "started_at": "2026-10-25T06:56:06.623363+00:00",
+    "runtime_seconds": 3.218,
+    "exit_status": 0,
+    "status": "completed",
+    "timeout_seconds": 60.0,
+    "max_output_bytes": 1000000,
+    "resource_limits": {
+      "memory_bytes": null,
+      "cpu_seconds": null,
+      "max_cores": null,
+      "max_threads": 1
+    },
+    "missing_results": [],
+    "invalid_results": []
+  },
+  "execution_artifacts": [
+    "work/uncertainty_cycle3/affine_polytope.py",
+    "work/uncertainty_cycle3/verify.py",
+    "work/uncertainty_cycle3/cases.json",
+    "work/uncertainty_cycle3/claims.md",
+    "work/uncertainty_cycle3/protocol.json"
+  ],
+  "input_artifacts": [
+    {
+      "path": "work/uncertainty_cycle3/affine_polytope.py",
+      "sha256": "b068f2b2b1faeb7b33e2aa15c5803966e52acc500b77e0f5d476569a6046a8da",
+      "sha256_after": "b068f2b2b1faeb7b33e2aa15c5803966e52acc500b77e0f5d476569a6046a8da"
+    },
+    {
+      "path": "work/uncertainty_cycle3/verify.py",
+      "sha256": "c43eb200a573dff3afd1ec6d75d4f6dba0b3715c18873a1d875472343a185d59",
+      "sha256_after": "c43eb200a573dff3afd1ec6d75d4f6dba0b3715c18873a1d875472343a185d59"
+    },
+    {
+      "path": "work/uncertainty_cycle3/cases.json",
+      "sha256": "a3cc796df4de6459986112bf08c8c61fb1aa8bbc27955d88467d84b77c45afa5",
+      "sha256_after": "a3cc796df4de6459986112bf08c8c61fb1aa8bbc27955d88467d84b77c45afa5"
+    },
+    {
+      "path": "work/uncertainty_cycle3/claims.md",
+      "sha256": "db1e36c8860c32e2b790588d238b5863c595b1cf5b03ca7674a4fc1dd914b027",
+      "sha256_after": "db1e36c8860c32e2b790588d238b5863c595b1cf5b03ca7674a4fc1dd914b027"
+    },
+    {
+      "path": "work/uncertainty_cycle3/protocol.json",
+      "sha256": "0edbc70f95f2b15b2056da9a9f185c5eb6805f1f7e6877966291494b402e70ae",
+      "sha256_after": "0edbc70f95f2b15b2056da9a9f185c5eb6805f1f7e6877966291494b402e70ae"
+    }
+  ],
+  "output_directory": "work/uncertainty_cycle3/recorded_check",
+  "declared_results": [
+    "work/uncertainty_cycle3/recorded_check/results.json",
+    "work/uncertainty_cycle3/recorded_check/freeze.json"
+  ],
+  "outputs": [
+    {
+      "path": "work/uncertainty_cycle3/recorded_check/stdout.txt",
+      "sha256": "e299113408305f2f4343a0c6983cb2f1d7f43b179984ede8e4077b4ad305dd3d",
+      "kind": "log"
+    },
+    {
+      "path": "work/uncertainty_cycle3/recorded_check/stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "kind": "log"
+    },
+    {
+      "path": "work/uncertainty_cycle3/recorded_check/results.json",
+      "sha256": "03f2a32ca6183dd9c8853a0d5537b850069250d81544f772bf1614dcf65755a7",
+      "kind": "result"
+    },
+    {
+      "path": "work/uncertainty_cycle3/recorded_check/freeze.json",
+      "sha256": "777260fa990d35c5a120101e462a0c85fb9e1fdd2577e1f5ac649c969d1892a1",
+      "kind": "result"
+    }
+  ],
+  "checks": [
+    {
+      "check": "input hashes unchanged",
+      "passed": true
+    },
+    {
+      "check": "process exited successfully within enforced limits",
+      "passed": true
+    },
+    {
+      "check": "declared result files are present and regular",
+      "passed": true
+    }
+  ],
+  "result": "Run completed; mathematical assertion requires interpretation and review.",
+  "residual_risks": [
+    "Command success does not establish the mathematical interpretation.",
+    "Only listed input artifacts are pinned; external dependencies need recorded versions.",
+    "The thread cap uses conventional environment variables; a child program may ignore them."
+  ]
+}

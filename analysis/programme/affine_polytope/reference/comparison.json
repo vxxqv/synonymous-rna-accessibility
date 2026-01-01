@@ -1,0 +1,181 @@
+{
+  "status": "completed",
+  "author_receipt_sha256": "03f2a32ca6183dd9c8853a0d5537b850069250d81544f772bf1614dcf65755a7",
+  "independent_receipt_sha256": "8ec37531f2e5d7208deebdcaf5dedb579bdae4b0d22a58450dead04f119db51a",
+  "case_status_comparisons": 81,
+  "exact_value_comparisons": 395,
+  "mismatches": 0,
+  "original_fixture_naming_defect": {
+    "id": "two_dimensional_corner_failure",
+    "capacity_at_corners": [
+      "2",
+      "0",
+      "0",
+      "2"
+    ],
+    "conclusion": "Does not demonstrate failure of parameter corner extrema; all capacity and barrier extrema already occur at corners."
+  },
+  "additional_case_provenance": "Suggested by root during review, after independent first receipt. Not a blinded reviewer challenge and not part of the frozen 81 author cases.",
+  "additional_case": {
+    "id": "root_suggested_genuine_two_dimensional_corner_failure",
+    "n": 6,
+    "s": 0,
+    "t": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        4,
+        5
+      ]
+    ],
+    "box": [
+      [
+        -1,
+        1
+      ],
+      [
+        -1,
+        1
+      ]
+    ],
+    "coefficients": [
+      [
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        -1,
+        0
+      ],
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        -1
+      ],
+      [
+        1,
+        0,
+        0
+      ]
+    ]
+  },
+  "exact_additional_result": {
+    "id": "root_suggested_genuine_two_dimensional_corner_failure",
+    "status": "connected",
+    "fixed": "-1",
+    "guaranteed": "0",
+    "possible": "1",
+    "barrier_minimum": "0",
+    "barrier_maximum": "1",
+    "minimal_path_sets": [
+      [
+        0,
+        1,
+        5
+      ],
+      [
+        0,
+        2,
+        5
+      ],
+      [
+        0,
+        3,
+        5
+      ],
+      [
+        0,
+        4,
+        5
+      ]
+    ],
+    "minimal_separators": [
+      [
+        0
+      ],
+      [
+        5
+      ],
+      [
+        1,
+        2,
+        3,
+        4
+      ]
+    ]
+  },
+  "corner_results": [
+    {
+      "theta": [
+        -1,
+        -1
+      ],
+      "capacity": "1",
+      "barrier": "0"
+    },
+    {
+      "theta": [
+        -1,
+        1
+      ],
+      "capacity": "1",
+      "barrier": "0"
+    },
+    {
+      "theta": [
+        1,
+        -1
+      ],
+      "capacity": "1",
+      "barrier": "0"
+    },
+    {
+      "theta": [
+        1,
+        1
+      ],
+      "capacity": "1",
+      "barrier": "0"
+    }
+  ],
+  "origin_capacity": "0"
+}

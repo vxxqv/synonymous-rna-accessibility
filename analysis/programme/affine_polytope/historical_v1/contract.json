@@ -1,0 +1,14 @@
+{
+  "claim_id": "AFFINE_POLYTOPE_ROUTE_CAPACITY_CYCLE3",
+  "mathematics": {
+    "assertion_tested": "All four exact extrema agree with separately formulated path and cut LP optima in the 81 frozen cases; route classification construction and SAT reduction examples agree with direct graph truth calculations in the stated finite ranges",
+    "coefficient_domain": "Rational production; double precision HiGHS reference with absolute tolerance 1e-8",
+    "conventions": "Closed vertex thresholds; endpoints included; claims.md and protocol.json",
+    "inputs": ["Frozen cases.json", "All labelled graphs n=2..5", "255 nonempty subsets of eight full three-variable clauses"],
+    "bounds": {"affine_cases":81,"graph_vertices_max":5,"latent_dimension_max":3,"graph_cases":1098,"formula_cases":255},
+    "non_claims": ["Finite verification is not a proof", "No biological calibration", "No arbitrary dimension efficient algorithm", "No statistical or empirical validation", "Fresh independent review pending"]
+  },
+  "execution_artifacts": ["work/uncertainty_cycle3/affine_polytope.py","work/uncertainty_cycle3/verify.py","work/uncertainty_cycle3/cases.json","work/uncertainty_cycle3/claims.md","work/uncertainty_cycle3/protocol.json"],
+  "software": [{"name":"Python","version":"3.12.14"},{"name":"NumPy","version":"2.5.4"},{"name":"SciPy","version":"1.18.1"},{"name":"NetworkX","version":"3.7"}],
+  "randomness": {"used":true,"generator":"Python random.Random MT19937 for fixed fixture generation only","seed":172904}
+}

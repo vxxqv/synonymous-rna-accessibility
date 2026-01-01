@@ -1,0 +1,37 @@
+{
+  "id": "MULTIDIMENSIONAL_UNCERTAINTY_CYCLE3_V2",
+  "scope": "Abstract finite undirected graphs, exact rational affine scores, explicitly bounded polyhedral parameter sets; no biological outcome data",
+  "baseline_revision": "e9846dca9f74b2c5c34e984eed970e996b9df2bf",
+  "primary_questions": [
+    "Does enumeration of score arrangement vertices recover all four capacity and barrier extrema?",
+    "Do explicit SAT reductions correctly separate possible and guaranteed connectivity when latent dimension varies?",
+    "Is unique inclusion minimal vertex path set the exact graph criterion for fixed and adjustable route equivalence under all compact score uncertainties?"
+  ],
+  "arithmetic": "fractions.Fraction; no floating arithmetic in production extrema",
+  "planned_controls": [
+    "singleton parameter set",
+    "lower dimensional polytope",
+    "identical scores",
+    "negative scores",
+    "direct endpoint edge",
+    "disconnected endpoints",
+    "s equals t",
+    "interior capacity and barrier extrema",
+    "two and three latent parameters"
+  ],
+  "reference": "Unmodified separately authored exact Fraction/Fourier-Motzkin path and separator oracle; no floating tolerance.",
+  "finite_ranges": {
+    "graph_classification": "all labelled simple graphs on 2 through 5 vertices, distinguished endpoints 0 and n-1, all connected cases",
+    "sat_reduction": "all subsets of the eight distinct full three-variable clauses, excluding the empty formula; compare direct Boolean truth tables with constructed graph at the predicted rational witnesses",
+    "affine_cases": "The 81 original fixed cases with one corrected label plus the separately reviewed six-vertex corner challenge, 82 total."
+  },
+  "failure_rule": "Any exact discrepancy suspends the affected claim and is retained with a minimal counterexample. Narrow or revise the claim before further scale.",
+  "nonclaims": [
+    "novel generic arrangement method",
+    "calibrated confidence region",
+    "biological mechanism",
+    "efficient arbitrary dimension",
+    "finite enumeration is a universal proof"
+  ],
+  "revision_reason": "Disclosed fixture naming and preprocessing corrections after independent review; one already reviewed six-vertex challenge appended."
+}
