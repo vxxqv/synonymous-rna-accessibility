@@ -1,0 +1,33 @@
+{
+  "input_archive_sha256": "8320f005b563333690b27078a6e744879b713f602f1371a61bcf369c945ca4e9",
+  "input_doi": "10.6084/m9.figshare.9978596.v1",
+  "reference_accession": "U00096.2",
+  "reference_genbank_sha256": "935e1c7464e8fc6315b4c777254b690ec4bec92b1cfdc55fbda928a611ea18ed",
+  "python": "3.12.14",
+  "ViennaRNA": "2.7.2",
+  "model": {
+    "temperature_C": 37,
+    "dangles": 2,
+    "noLP": 0,
+    "mutant_restraints": "none",
+    "target": "original pairmap+DMS CT pairs touching variable block",
+    "occupancy": "mean model base-pair probability across target pairs",
+    "cutoffs": [
+      0.1,
+      0.25,
+      0.5,
+      0.75
+    ]
+  },
+  "code": [
+    {
+      "path": "analysis/native_models.py",
+      "sha256": "34505a6dcc9b35dfad50312c82487cb0d247a202e4e7fd06bd42b5f9499f6606"
+    },
+    {
+      "path": "src/accessibility.py",
+      "sha256": "0bf96e030647fe823c0367569e936b823b386ee423187636f6381e76baf7d5e1"
+    }
+  ],
+  "workers": 2
+}

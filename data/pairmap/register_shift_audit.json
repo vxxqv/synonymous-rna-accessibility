@@ -1,0 +1,5 @@
+{
+  "definition": "maximal >=3bp antiparallel runs sharing left positions and shifted right partner by constant +/-1..3 between deposited pairmap+DMS condition CTs; no outcome selection",
+  "runs": [],
+  "eligible_supported_coding_register_examples": 0
+}
