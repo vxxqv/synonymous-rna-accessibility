@@ -1,0 +1,44 @@
+{
+  "status": "EXPLICIT_CORRECTION_AND_FINAL_DRAFT_MATH_PASS",
+  "correction": "Nucleotide-additive and codon-unary spans coincide on this72-domain; the earlier weaker-NT warning and missed draft sentence are explicitly corrected. Generic full-binary-cube connectivity still does not apply to its P3 factors.",
+  "supersedes_only": "Earlier protocol math PASS731620... for the weaker-NT sensitivity sentence; interval/ordinal proof and deterministic cut bounds unchanged.",
+  "previous_receipt_sha256": "a6187f7b575e009e16853b4dacd5eb6778ab1b767f2b34bb4c2c0f61265e3b31",
+  "all_previous_owned_artifacts_unchanged": true,
+  "current_protocol_reviewed_sha256": "eb6e76ed299f27227f68c541b9a0a3af2aee1792ca3efac239e1a46fe211eb51",
+  "current_protocol_mathematical_verdict": "PASS exact inspected draft, not count-reader/production code/observations",
+  "algebraic_checks": {
+    "rows": 72,
+    "ranks_codon_nucleotide_joined": [
+      8,
+      8,
+      8
+    ],
+    "explicit_forward_inverse_basis_identities": true,
+    "P3_valley_also_nucleotide_additive": true
+  },
+  "current_reference_API": {
+    "path": "ordinal_interval_audit.py",
+    "sha256": "1b958aebdafbc46f4a434b14a71abb8a091a1caba298ee2f1f43ff867d95b01a",
+    "upper_infinity_sentinel": null,
+    "import_safe": true,
+    "synthetic_instances": 2916,
+    "feasible": 2646,
+    "infeasible_with_exact_dual": 270,
+    "finite_only_and_v2_receipts": "historical, v3authoritative"
+  },
+  "artifact_hashes": {
+    "baseline_equivalence_correction.md": "867f69d5ada9f0bb5f5b74fabbfab7b0df03d3e652f46717bfeea1a5d553cad3",
+    "check_equivalence.py": "d1b621f433e2bdf72a884347afa436c76b02f3eea8623030123ab367cb9c7733",
+    "baseline_equivalence_checks.json": "3af3405f482f871df7191de97990eeb0e3aeb985f129df53d69200628462e5a1",
+    "ordinal_interval_characterization.md": "562ae01efeee05a6c46ee53fa7fa89165d5e7c4acf9b970ab85447915227a463",
+    "ordinal_interval_checks_v3.json": "04aa8fd48041927fadb6f1ca92eb169d303b084ef8e054c8f2faf4f76df5e7d9",
+    "report.md": "3b52354fe80e5aa3fc4df6036cb9a7f5483d332f3112ab9fbb81eef2260b872e",
+    "prior_map.md": "0eeed8b47563ca7c496b19bd8f752fa3ba8788afd58fb3258e37d15c2c2f304d",
+    "protocol_math_review.md": "4439ff1ca7b0236023c4930c791799debb30ad27b7d6a26af0d0bea04237b75a",
+    "README.md": "ce30f91c32b3641d7b7c05f1045cab08e3a72ce43e6a20ce6c12b1cb3f01a9f0"
+  },
+  "new_phenotype_or_count_files_read": false,
+  "observed_model_fitting": false,
+  "shared_edits_or_external_actions": false,
+  "priority": "One source/measurement gate and descriptive exact null comparison if frozen; no confidence claim or new general theorem"
+}

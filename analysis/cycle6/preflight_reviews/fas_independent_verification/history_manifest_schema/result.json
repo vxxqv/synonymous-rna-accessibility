@@ -1,0 +1,288 @@
+{
+  "status": "PASS_FINITE_SEQUENCE_AND_GRAPH_CLAIMS",
+  "observed": {
+    "declared_variants": 3072,
+    "protein_classes": 80,
+    "protein_class_size_histogram": {
+      "8": 16,
+      "16": 4,
+      "24": 32,
+      "48": 8,
+      "72": 16,
+      "144": 4
+    },
+    "human_reference_class_vertices": 72,
+    "human_reference_class_edges": 204,
+    "native_exon_start0": 584,
+    "native_cds_start0": 79,
+    "native_exon_start_cds_offset0": 505,
+    "native_exon_start_codon_offset0": 1,
+    "native_accession": "NM_000043.6",
+    "native_protein_id": "NP_000034.1",
+    "ancestor_same_protein_as_human": false,
+    "human_class_hamming_distance_from_native_histogram": {
+      "0": 1,
+      "1": 5,
+      "2": 12,
+      "3": 18,
+      "4": 18,
+      "5": 12,
+      "6": 5,
+      "7": 1
+    }
+  },
+  "native_exon_1based_in_transcript": [
+    585,
+    647
+  ],
+  "native_CDS_1based_in_transcript": [
+    80,
+    1087
+  ],
+  "exon_length": 63,
+  "variable_positions": 11,
+  "codon_factorization": [
+    {
+      "cds_codon_1based": 175,
+      "native_codon": "GGG",
+      "amino_acid": "G",
+      "all_codons": [
+        "CGG",
+        "CTG",
+        "GGG",
+        "GTG",
+        "TGG",
+        "TTG"
+      ],
+      "amino_multiplicities": {
+        "G": 1,
+        "L": 2,
+        "R": 1,
+        "V": 1,
+        "W": 1
+      },
+      "human_codons": [
+        "GGG"
+      ],
+      "local_edges": [],
+      "variable_exon_positions_1based": [
+        18,
+        19
+      ]
+    },
+    {
+      "cds_codon_1based": 177,
+      "native_codon": "CTT",
+      "amino_acid": "L",
+      "all_codons": [
+        "CTG",
+        "CTT",
+        "TTG",
+        "TTT"
+      ],
+      "amino_multiplicities": {
+        "F": 1,
+        "L": 3
+      },
+      "human_codons": [
+        "CTG",
+        "CTT",
+        "TTG"
+      ],
+      "local_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "variable_exon_positions_1based": [
+        24,
+        26
+      ]
+    },
+    {
+      "cds_codon_1based": 179,
+      "native_codon": "CTT",
+      "amino_acid": "L",
+      "all_codons": [
+        "CTC",
+        "CTT"
+      ],
+      "amino_multiplicities": {
+        "L": 2
+      },
+      "human_codons": [
+        "CTC",
+        "CTT"
+      ],
+      "local_edges": [
+        [
+          0,
+          1
+        ]
+      ],
+      "variable_exon_positions_1based": [
+        32
+      ]
+    },
+    {
+      "cds_codon_1based": 180,
+      "native_codon": "CTT",
+      "amino_acid": "L",
+      "all_codons": [
+        "CTG",
+        "CTT"
+      ],
+      "amino_multiplicities": {
+        "L": 2
+      },
+      "human_codons": [
+        "CTG",
+        "CTT"
+      ],
+      "local_edges": [
+        [
+          0,
+          1
+        ]
+      ],
+      "variable_exon_positions_1based": [
+        35
+      ]
+    },
+    {
+      "cds_codon_1based": 182,
+      "native_codon": "TTG",
+      "amino_acid": "L",
+      "all_codons": [
+        "CTC",
+        "CTG",
+        "TTC",
+        "TTG"
+      ],
+      "amino_multiplicities": {
+        "F": 1,
+        "L": 3
+      },
+      "human_codons": [
+        "CTC",
+        "CTG",
+        "TTG"
+      ],
+      "local_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "variable_exon_positions_1based": [
+        39,
+        41
+      ]
+    },
+    {
+      "cds_codon_1based": 183,
+      "native_codon": "CCA",
+      "amino_acid": "P",
+      "all_codons": [
+        "CCA",
+        "CCG"
+      ],
+      "amino_multiplicities": {
+        "P": 2
+      },
+      "human_codons": [
+        "CCA",
+        "CCG"
+      ],
+      "local_edges": [
+        [
+          0,
+          1
+        ]
+      ],
+      "variable_exon_positions_1based": [
+        44
+      ]
+    },
+    {
+      "cds_codon_1based": 185,
+      "native_codon": "CCA",
+      "amino_acid": "P",
+      "all_codons": [
+        "CCA",
+        "CTA"
+      ],
+      "amino_multiplicities": {
+        "L": 1,
+        "P": 1
+      },
+      "human_codons": [
+        "CCA"
+      ],
+      "local_edges": [],
+      "variable_exon_positions_1based": [
+        49
+      ]
+    },
+    {
+      "cds_codon_1based": 186,
+      "native_codon": "CTA",
+      "amino_acid": "L",
+      "all_codons": [
+        "CTA",
+        "GTA"
+      ],
+      "amino_multiplicities": {
+        "L": 1,
+        "V": 1
+      },
+      "human_codons": [
+        "CTA"
+      ],
+      "local_edges": [],
+      "variable_exon_positions_1based": [
+        51
+      ]
+    }
+  ],
+  "nontrivial_graph_factors": "P3 x P3 x K2 x K2 x K2",
+  "diameter": 7,
+  "degree_histogram": {
+    "5": 32,
+    "6": 32,
+    "7": 8
+  },
+  "all_pairs_adjacency_checks": 2556,
+  "ordered_distance_checks": 5184,
+  "protein_includes_native_termination": true,
+  "premature_stop_protein_classes": 0,
+  "source_count_files_opened": false,
+  "measured_coverage_authenticated": false,
+  "minigene_protein_translation_authenticated": false,
+  "exposure_incident": "Five illustrative README occurrence values were displayed during source review; not used by this computation. Separate ledger retains identifiers.",
+  "checks_against_report": [
+    "declared_variants",
+    "protein_classes",
+    "protein_class_size_histogram",
+    "human_reference_class_vertices",
+    "human_reference_class_edges",
+    "native_exon_start0",
+    "native_cds_start0",
+    "native_exon_start_cds_offset0",
+    "native_exon_start_codon_offset0",
+    "native_accession",
+    "native_protein_id",
+    "ancestor_same_protein_as_human",
+    "human_class_hamming_distance_from_native_histogram"
+  ],
+  "independent_algorithm": "Codon-block product and literal code; direct all-pairs Hamming graph; no author or Biopython import"
+}

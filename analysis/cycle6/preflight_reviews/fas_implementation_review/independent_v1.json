@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "candidate_sha256": "8872d6452afe4ccbf84e61450d4b1bfbdadf26469f20c0e24452f3abc205f9ac",
+  "counts": {
+    "ordinal_cases": 1107,
+    "feasible": 937,
+    "infeasible": 170,
+    "full72_feasible": 3,
+    "widest_endpoint_checks": 31104,
+    "interval_endpoint_checks": 6144,
+    "invalid_inputs_refused": 4
+  },
+  "failures": [],
+  "scope": "Synthetic only. Exact convex-hull ordinal oracle and threshold BFS; no author numeric reference imported.",
+  "certificate_limits": "Fail-closed ArithmeticError remains allowed for unresolvable floating discovery; every returned certificate checked rationally.",
+  "verifier_sha256": "b3410889ec158c57ab8f09704329cd33720b1e285b92844a0fbdd79e7b3c9269"
+}

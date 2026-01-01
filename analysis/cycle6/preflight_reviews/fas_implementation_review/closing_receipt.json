@@ -1,0 +1,41 @@
+{
+  "status": "PASS_NO_OPEN_BLOCKERS_IN_REVIEWED_DOMAIN",
+  "production_sha256": "8872d6452afe4ccbf84e61450d4b1bfbdadf26469f20c0e24452f3abc205f9ac",
+  "test_sha256": "a098549d48dcce62b4292cd433266e09265ba3f5c46bd08cf845c1a34e998656",
+  "scope": "Exact held production and test sources; synthetic numerical and certificate checks; no biological data",
+  "independent_ordinal_cases": 1107,
+  "independent_capacity_endpoint_checks": 31104,
+  "independent_interval_endpoint_checks": 6144,
+  "additional_targeted_cases": 19,
+  "supplied_checks": 17,
+  "resolved_findings": [
+    "One-use edge iterator falsely produced infinite certified barrier",
+    "Optimized synthetic verification could remove assertion checks"
+  ],
+  "evidence": [
+    {
+      "file": "review.md",
+      "sha256": "0204610b1b223d29b97ff3b0fa9fc41eb62768245b81d93c43d9dcfe4a9f272e"
+    },
+    {
+      "file": "independent_v1.json",
+      "sha256": "f22abec7e53d44ddfd0df3c894c005ac2f1a58b60946accf39a21e5b30525bb7"
+    },
+    {
+      "file": "targeted_results.json",
+      "sha256": "02efdea7ef5a5d284a9ec6531c38453d4897dae114e0ed115f3308b3792208f2"
+    },
+    {
+      "file": "delta_review.md",
+      "sha256": "3f3c7dd919facd15a046d988d983587a9faa190674112d507a3262a4d551e024"
+    },
+    {
+      "file": "delta_receipt.json",
+      "sha256": "2b1015447185d0fdd81744256d30df7bf1fcb7eef43ca209f19ba6125ac0e977"
+    },
+    {
+      "file": "history_iterator_bug/bug_receipt.json",
+      "sha256": "846f6dfd1dfdf351fcd06faf5dc93b585805478f32616aa8e92ae87d92bf3561"
+    }
+  ]
+}

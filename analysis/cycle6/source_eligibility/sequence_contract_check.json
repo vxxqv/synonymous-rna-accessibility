@@ -1,0 +1,307 @@
+{
+  "scope": "Declared library sequence design and native included-isoform coding consequence only. No measured outcome coverage.",
+  "native_accession": "NM_000043.6",
+  "native_sha256": "e8964c4db7d19acd5f6a1075106ec67087ad4bc5a8dc3a986f7eccb0a7f31ca7",
+  "native_exon_start0": 584,
+  "native_cds_start0": 79,
+  "native_exon_start_cds_offset0": 505,
+  "native_exon_start_codon_offset0": 1,
+  "native_protein_id": "NP_000034.1",
+  "native_translation_annotation_matches": true,
+  "declared_variants": 3072,
+  "protein_classes": 80,
+  "protein_class_size_histogram": {
+    "8": 16,
+    "16": 4,
+    "24": 32,
+    "48": 8,
+    "72": 16,
+    "144": 4
+  },
+  "human_reference_class_vertices": 72,
+  "human_reference_class_edges": 204,
+  "human_class_hamming_distance_from_native_histogram": {
+    "0": 1,
+    "1": 5,
+    "2": 12,
+    "3": 18,
+    "4": 18,
+    "5": 12,
+    "6": 5,
+    "7": 1
+  },
+  "human_class_potential_overlap_with_2016_radius2_design": 18,
+  "human_reference_class_variable_positions": [
+    {
+      "exon_position_1based": 18,
+      "native_base": "G",
+      "declared_bases": [
+        "C",
+        "G",
+        "T"
+      ],
+      "native_codon": "GGG",
+      "codon_position_1based": 1,
+      "human_class_observed_bases": [
+        "G"
+      ],
+      "single_change_consequence": [
+        {
+          "base": "C",
+          "same_native_protein": false
+        },
+        {
+          "base": "G",
+          "same_native_protein": true
+        },
+        {
+          "base": "T",
+          "same_native_protein": false
+        }
+      ]
+    },
+    {
+      "exon_position_1based": 19,
+      "native_base": "G",
+      "declared_bases": [
+        "G",
+        "T"
+      ],
+      "native_codon": "GGG",
+      "codon_position_1based": 2,
+      "human_class_observed_bases": [
+        "G"
+      ],
+      "single_change_consequence": [
+        {
+          "base": "G",
+          "same_native_protein": true
+        },
+        {
+          "base": "T",
+          "same_native_protein": false
+        }
+      ]
+    },
+    {
+      "exon_position_1based": 24,
+      "native_base": "C",
+      "declared_bases": [
+        "C",
+        "T"
+      ],
+      "native_codon": "CTT",
+      "codon_position_1based": 1,
+      "human_class_observed_bases": [
+        "C",
+        "T"
+      ],
+      "single_change_consequence": [
+        {
+          "base": "C",
+          "same_native_protein": true
+        },
+        {
+          "base": "T",
+          "same_native_protein": false
+        }
+      ]
+    },
+    {
+      "exon_position_1based": 26,
+      "native_base": "T",
+      "declared_bases": [
+        "G",
+        "T"
+      ],
+      "native_codon": "CTT",
+      "codon_position_1based": 3,
+      "human_class_observed_bases": [
+        "G",
+        "T"
+      ],
+      "single_change_consequence": [
+        {
+          "base": "G",
+          "same_native_protein": true
+        },
+        {
+          "base": "T",
+          "same_native_protein": true
+        }
+      ]
+    },
+    {
+      "exon_position_1based": 32,
+      "native_base": "T",
+      "declared_bases": [
+        "C",
+        "T"
+      ],
+      "native_codon": "CTT",
+      "codon_position_1based": 3,
+      "human_class_observed_bases": [
+        "C",
+        "T"
+      ],
+      "single_change_consequence": [
+        {
+          "base": "C",
+          "same_native_protein": true
+        },
+        {
+          "base": "T",
+          "same_native_protein": true
+        }
+      ]
+    },
+    {
+      "exon_position_1based": 35,
+      "native_base": "T",
+      "declared_bases": [
+        "G",
+        "T"
+      ],
+      "native_codon": "CTT",
+      "codon_position_1based": 3,
+      "human_class_observed_bases": [
+        "G",
+        "T"
+      ],
+      "single_change_consequence": [
+        {
+          "base": "G",
+          "same_native_protein": true
+        },
+        {
+          "base": "T",
+          "same_native_protein": true
+        }
+      ]
+    },
+    {
+      "exon_position_1based": 39,
+      "native_base": "T",
+      "declared_bases": [
+        "C",
+        "T"
+      ],
+      "native_codon": "TTG",
+      "codon_position_1based": 1,
+      "human_class_observed_bases": [
+        "C",
+        "T"
+      ],
+      "single_change_consequence": [
+        {
+          "base": "C",
+          "same_native_protein": true
+        },
+        {
+          "base": "T",
+          "same_native_protein": true
+        }
+      ]
+    },
+    {
+      "exon_position_1based": 41,
+      "native_base": "G",
+      "declared_bases": [
+        "G",
+        "C"
+      ],
+      "native_codon": "TTG",
+      "codon_position_1based": 3,
+      "human_class_observed_bases": [
+        "C",
+        "G"
+      ],
+      "single_change_consequence": [
+        {
+          "base": "G",
+          "same_native_protein": true
+        },
+        {
+          "base": "C",
+          "same_native_protein": false
+        }
+      ]
+    },
+    {
+      "exon_position_1based": 44,
+      "native_base": "A",
+      "declared_bases": [
+        "A",
+        "G"
+      ],
+      "native_codon": "CCA",
+      "codon_position_1based": 3,
+      "human_class_observed_bases": [
+        "A",
+        "G"
+      ],
+      "single_change_consequence": [
+        {
+          "base": "A",
+          "same_native_protein": true
+        },
+        {
+          "base": "G",
+          "same_native_protein": true
+        }
+      ]
+    },
+    {
+      "exon_position_1based": 49,
+      "native_base": "C",
+      "declared_bases": [
+        "C",
+        "T"
+      ],
+      "native_codon": "CCA",
+      "codon_position_1based": 2,
+      "human_class_observed_bases": [
+        "C"
+      ],
+      "single_change_consequence": [
+        {
+          "base": "C",
+          "same_native_protein": true
+        },
+        {
+          "base": "T",
+          "same_native_protein": false
+        }
+      ]
+    },
+    {
+      "exon_position_1based": 51,
+      "native_base": "C",
+      "declared_bases": [
+        "G",
+        "C"
+      ],
+      "native_codon": "CTA",
+      "codon_position_1based": 1,
+      "human_class_observed_bases": [
+        "C"
+      ],
+      "single_change_consequence": [
+        {
+          "base": "G",
+          "same_native_protein": false
+        },
+        {
+          "base": "C",
+          "same_native_protein": true
+        }
+      ]
+    }
+  ],
+  "ancestor_same_protein_as_human": false,
+  "2016_potential_synonymous_singles": 49,
+  "2016_potential_complete_same_protein_two_site_squares": 1136,
+  "2016_measured_same_protein_squares": null,
+  "2019_measured_same_protein_coverage": null,
+  "minigene_translation_or_protein_output_authenticated": false
+}

@@ -1,0 +1,75 @@
+{
+  "verdict": "qualified_go_for_frozen_descriptive_assay_order_and_bounded_accessibility_only",
+  "review_type": "separately authored adversarial review with inherited context, not blinded external review",
+  "protocol_snapshot_sha256": "731620b9d8d4057053b80143b2c476b94f8c3feb46c6342c9841ff531ad3393d",
+  "initial_draft_hash": "not captured; initial wording and corrections recorded in review",
+  "source_boundary": {
+    "observed_counts_opened": false,
+    "phenotype_tables_opened": false,
+    "outcome_missingness_opened": false,
+    "source2016_validation_opened": false,
+    "calibration_literals_displayed": false,
+    "author_code_executed": false,
+    "new_count_analysis": false,
+    "synthetic_exact_algebra_only": true
+  },
+  "required_initial_corrections": {
+    "strictly_increasing_transform": "verified fixed in held snapshot line59",
+    "barrier_plus_null_rejection_not_barrier_specific_interaction_necessity": "verified fixed line49",
+    "design_rank_not_coefficient_identifiability": "verified fixed line33"
+  },
+  "remaining_claim_limits": [
+    "conditional empirical envelope, not confidence or true-phenotype identified set",
+    "systematic RNA abundance or RT/PCR recovery can mimic null rejection",
+    "no independent exon or independently constructed-library validation",
+    "all72retained; unknown vertices not failures",
+    "relative separateTR score cancels full-library totals; historical median-source reproduction retains exactTR1alignment/totals"
+  ],
+  "calibration_source_url": "https://raw.githubusercontent.com/lehner-lab/Scaling_Law/b87064c39a553b0759d86c2b428813c58dc17ae2/003_HEK293_Phylogeny_Library_Analysis/002_psi_scores.R",
+  "source_files": [
+    {
+      "file": "work/research_cycle6/measured_synonymy_sources/report.md",
+      "sha256": "38c2b7e80b3c109fc8548c3cbfc1f6a3e93dd7b6c0d0508767c08c40751efebc"
+    },
+    {
+      "file": "work/research_cycle6/measured_synonymy_sources/source_enrichment_source.txt",
+      "sha256": "1bcfa83dfca29d502808dc88e663969d7f7d582b6bc1671e28eb68d689a93b04"
+    },
+    {
+      "file": "work/research_cycle6/measured_synonymy_sources/GSE111316_metadata_only.soft.txt",
+      "sha256": "db83933121653224a98192093e02b632e520f3d602f7b1ceaea0ebcad0f00dce"
+    },
+    {
+      "file": "work/research_cycle6/fas_measurement_protocol_review/calibration_source_sealed.R",
+      "sha256": "d05b9a172ceab2dc085379622db227f7cfe05fb1a0fd4116d5a64406947e41cb"
+    },
+    {
+      "file": "work/research_cycle6/fas_measurement_protocol_review/calibration_source_masked.txt",
+      "sha256": "824b21229aa05deaa7ea098487dcf9466d448674c33d669d36c2e332fcce2bac"
+    },
+    {
+      "file": "work/research_cycle6/fas_measurement_protocol_review/calibration_source_receipt.json",
+      "sha256": "9b9d4567fdf9810de9ad03d19cb77fbbad978566e8d909770f1765740f3f9cf7"
+    },
+    {
+      "file": "work/research_cycle6/fas_measurement_protocol_review/calibration_formula_properties.json",
+      "sha256": "dfa9836dc310ef0eb29067c6009180955ca0138a5dc22121ab87c70b32376214"
+    },
+    {
+      "file": "work/research_cycle6/fas_measurement_protocol_review/mask_calibration_source.py",
+      "sha256": "de86427f2003abdbbcf6cce402f9b8551b069a49f831cd5b62452370fde7e8ae"
+    },
+    {
+      "file": "work/research_cycle6/fas_measurement_protocol_review/synthetic_contract_checks.py",
+      "sha256": "adb8d766c166c052f0b3a1655391826dd2e2c6c0af4773e19e7091ee51e8c5ff"
+    },
+    {
+      "file": "work/research_cycle6/fas_measurement_protocol_review/synthetic_checks.json",
+      "sha256": "e2f2c3650418a9942c1e78ba140f5298479b11337e54d0359e00010d43784ed2"
+    },
+    {
+      "file": "work/research_cycle6/fas_measurement_protocol_review/reviewed_protocol_snapshot.md",
+      "sha256": "731620b9d8d4057053b80143b2c476b94f8c3feb46c6342c9841ff531ad3393d"
+    }
+  ]
+}

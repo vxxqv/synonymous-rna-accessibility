@@ -1,0 +1,22 @@
+{
+  "status": "EXACT_SYNTHETIC_FIXTURES_PASS",
+  "Q3_bounded_domain_radius": 2,
+  "Q3_baseline_distance": 2,
+  "Q3_certified_detour_minimum_if_route_exists": 4,
+  "Q3_unmeasured_completion_counts": {
+    "None": 13,
+    "4": 3
+  },
+  "Q3_global_connection_unresolved": true,
+  "K3xK2_third_allele_bypass_length": 3,
+  "unknown_and_threshold_tie_kept_possible": true,
+  "joint_only_additive_counterexample_verified": true,
+  "scalar_interaction_contrast": "1",
+  "four95percent_marginals_can_have_simultaneous_coverage": "4/5",
+  "P3xP3xQ3_vertices": 72,
+  "P3xP3xQ3_edges": 204,
+  "codon_unary_scalar_disconnection_without_intercodon_interaction": true,
+  "codon_unary_dimension_including_intercept": 8,
+  "scope": "Finite invented structural examples, not proof of statistical calibration, independent FAS sequence reconstruction or biological results",
+  "source_sha256": "c1892f0927cd1159c9e5ccc62748442a2488624dc0c69c3603456f1fa5f11547"
+}

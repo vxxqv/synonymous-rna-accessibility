@@ -1,0 +1,92 @@
+{
+  "scope": "independent synthetic/reference checks only; no observed count values",
+  "candidate_sha256": "b0ee9e7282f6cffae5f48be1739a04167093c093650eb4fe94a8afac7cb9e7ce",
+  "checks": {
+    "source_output_vertex_comparisons": 12960,
+    "relative_ratio_comparisons": 38880,
+    "zero_reference_output": 72,
+    "zero_reference_input": 72,
+    "zero_output": 1
+  },
+  "design_column_space": {
+    "codon_rank": 8,
+    "nucleotide_rank": 8,
+    "joint_rank": 8,
+    "same_column_space": true,
+    "variable_nt_positions1": [
+      24,
+      26,
+      32,
+      35,
+      39,
+      41,
+      44
+    ]
+  },
+  "degenerate_TR1_alignment": {
+    "returned": false,
+    "exception_type": "ValueError",
+    "message": "Empty author-aligned source universe",
+    "expected_source_relative_by_output": {
+      "GATCCAGATCTAACTTGGGGTGGCTTTGTCTTCTTCTTTTGCCAATTCCACTAATTGTTTGGG": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "GATCCAGATCTAACTTGGGGTGGCTGTGTCTCCTGCTTCTCCCAATTCCACTAATTGTTTGGG": [
+        "3/2",
+        "3/2",
+        "3/2",
+        "3/2",
+        "3/2",
+        "3/2",
+        "3/2",
+        "3/2",
+        "3/2"
+      ]
+    },
+    "primary_TR2_ratios_all_unknown": true
+  },
+  "failures": [
+    {
+      "scope": "valid missing TR1-aligned input aborts analysis",
+      "details": {
+        "returned": false,
+        "exception_type": "ValueError",
+        "message": "Empty author-aligned source universe",
+        "expected_source_relative_by_output": {
+          "GATCCAGATCTAACTTGGGGTGGCTTTGTCTTCTTCTTTTGCCAATTCCACTAATTGTTTGGG": [
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1"
+          ],
+          "GATCCAGATCTAACTTGGGGTGGCTGTGTCTCCTGCTTCTCCCAATTCCACTAATTGTTTGGG": [
+            "3/2",
+            "3/2",
+            "3/2",
+            "3/2",
+            "3/2",
+            "3/2",
+            "3/2",
+            "3/2",
+            "3/2"
+          ]
+        },
+        "primary_TR2_ratios_all_unknown": true
+      }
+    }
+  ],
+  "code_sha256": "9f73ec8f58c671b3325b46fc69bde236f56c725c5415bdb0be93b88663b8d533"
+}

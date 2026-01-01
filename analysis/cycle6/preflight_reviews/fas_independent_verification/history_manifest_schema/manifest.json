@@ -1,0 +1,132 @@
+{
+  "schema_version": 2,
+  "claim_id": "FAS_declared_native_reference_fibre_independent_audit",
+  "repository": {
+    "commit": "53b8ec8390cf3b028c294058e4c0f7c2de8c6b79",
+    "dirty": false
+  },
+  "command": [
+    "C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\work\\env\\Scripts\\python.exe",
+    "C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\work\\research_cycle6\\fas_independent_verification\\verify.py"
+  ],
+  "environment": {
+    "software": [
+      {
+        "name": "CPython",
+        "version": "3.12.14"
+      }
+    ],
+    "hardware": "AMD64"
+  },
+  "mathematics": {
+    "assertion_tested": "Exact declared design enumeration, protein classes and native-reference fibre Cartesian graph",
+    "coefficient_domain": "Exact finite strings and integer counts",
+    "conventions": "Standard nuclear code; native complete included-isoform CDS; nucleotide Hamming-one edges",
+    "inputs": [
+      "work\\research_cycle6\\measured_synonymy_sources\\native_refseq.gb",
+      "work\\research_cycle6\\measured_synonymy_sources\\source_author_pin_1.txt",
+      "work\\research_cycle6\\measured_synonymy_sources\\source_author_source_2.txt",
+      "work\\research_cycle6\\measured_synonymy_sources\\sequence_contract_check.json",
+      "work\\research_cycle6\\measured_synonymy_sources\\declared_human_reference_class_sequences.json",
+      "work\\research_cycle6\\measured_synonymy_sources\\scaling_law_tree.json",
+      "work\\research_cycle6\\measured_synonymy_sources\\author_pin_1.json",
+      "work\\research_cycle6\\measured_synonymy_sources\\author_pin_0.json"
+    ],
+    "bounds": {
+      "designs": 3072,
+      "human_vertices": 72
+    },
+    "non_claims": [
+      "Measured coverage",
+      "Splicing outcomes",
+      "Minigene translation or protein output",
+      "Independent biological replication"
+    ]
+  },
+  "randomness": {
+    "used": false,
+    "generator": "",
+    "seed": null
+  },
+  "run": {
+    "started_at": "2026-10-25T17:06:06.291295+00:00",
+    "runtime_seconds": 0.3976766999985557,
+    "exit_status": 0,
+    "status": "completed",
+    "resource_limits": {
+      "memory_bytes": null,
+      "cpu_seconds": null,
+      "max_cores": 1,
+      "max_threads": 1
+    }
+  },
+  "outputs": [
+    {
+      "path": "work\\research_cycle6\\fas_independent_verification\\result.json",
+      "sha256": "12c4f87cc30a8075404be708659837cc75df3f28908af55042f925da1841141f",
+      "kind": "result"
+    }
+  ],
+  "checks": [
+    "Source stable before/after",
+    "Full native annotation translation",
+    "Codon-product class counts",
+    "2556 direct adjacency equivalences",
+    "5184 exact distances",
+    "All reported human vertices identical"
+  ],
+  "result": "Implementation and finite assertion verified in stated design",
+  "residual_risks": [
+    "Experimental minigene identity and measured coverage not authenticated",
+    "Five illustrative README counts previously displayed, excluded from computation"
+  ],
+  "input_artifacts": [
+    {
+      "path": "work\\research_cycle6\\measured_synonymy_sources\\native_refseq.gb",
+      "sha256": "e8964c4db7d19acd5f6a1075106ec67087ad4bc5a8dc3a986f7eccb0a7f31ca7",
+      "sha256_after": "e8964c4db7d19acd5f6a1075106ec67087ad4bc5a8dc3a986f7eccb0a7f31ca7"
+    },
+    {
+      "path": "work\\research_cycle6\\measured_synonymy_sources\\source_author_pin_1.txt",
+      "sha256": "3bcb2efe2aec0ff879dc372d668af1ae619cea29e1c3cb1b55475ad56064ad3f",
+      "sha256_after": "3bcb2efe2aec0ff879dc372d668af1ae619cea29e1c3cb1b55475ad56064ad3f"
+    },
+    {
+      "path": "work\\research_cycle6\\measured_synonymy_sources\\source_author_source_2.txt",
+      "sha256": "61a54770dc6d136159b9f4f3358a29343cdeb022fb23e6c300d78238faa9d13c",
+      "sha256_after": "61a54770dc6d136159b9f4f3358a29343cdeb022fb23e6c300d78238faa9d13c"
+    },
+    {
+      "path": "work\\research_cycle6\\measured_synonymy_sources\\sequence_contract_check.json",
+      "sha256": "f9694812e82e2255fba6cb025446b4ae639882536c78e72a297326e46feacdf5",
+      "sha256_after": "f9694812e82e2255fba6cb025446b4ae639882536c78e72a297326e46feacdf5"
+    },
+    {
+      "path": "work\\research_cycle6\\measured_synonymy_sources\\declared_human_reference_class_sequences.json",
+      "sha256": "f527c4ad96823eec2c096361f95d557d0c0bc839c7b822956edc32c6b9ed4ebe",
+      "sha256_after": "f527c4ad96823eec2c096361f95d557d0c0bc839c7b822956edc32c6b9ed4ebe"
+    },
+    {
+      "path": "work\\research_cycle6\\measured_synonymy_sources\\scaling_law_tree.json",
+      "sha256": "df0d5fe452ed30a91d53df2e00507db019ce4accdeb9211787d569742797c507",
+      "sha256_after": "df0d5fe452ed30a91d53df2e00507db019ce4accdeb9211787d569742797c507"
+    },
+    {
+      "path": "work\\research_cycle6\\measured_synonymy_sources\\author_pin_1.json",
+      "sha256": "07caad6cc14e7a38a4d33f710b815c662efaf969450c7c4c5db884afba47081c",
+      "sha256_after": "07caad6cc14e7a38a4d33f710b815c662efaf969450c7c4c5db884afba47081c"
+    },
+    {
+      "path": "work\\research_cycle6\\measured_synonymy_sources\\author_pin_0.json",
+      "sha256": "0c1bafff0c2a77ba87793b471dd6f758795a57937867e88b826c1d0a5d8c8808",
+      "sha256_after": "0c1bafff0c2a77ba87793b471dd6f758795a57937867e88b826c1d0a5d8c8808"
+    }
+  ],
+  "declared_results": [
+    {
+      "path": "work\\research_cycle6\\fas_independent_verification\\result.json",
+      "description": "Independent exact finite graph verification"
+    }
+  ],
+  "verifier_sha256": "aabd9502e877b25360a4db81150f767ba4d28273a7a58459cfa83980cd1450bd"
+}

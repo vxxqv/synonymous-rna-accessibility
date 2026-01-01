@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "file": "corrected_count_analysis.py",
+      "bytes": 8993,
+      "sha256": "307c3a3fe27720bceeffb4a348d9b10b7cc048e2a47a19049ab529a23454edd4"
+    },
+    {
+      "file": "corrected_ordinal_geometry.py",
+      "bytes": 6242,
+      "sha256": "8872d6452afe4ccbf84e61450d4b1bfbdadf26469f20c0e24452f3abc205f9ac"
+    },
+    {
+      "file": "corrected_protocol_draft_v1.md",
+      "bytes": 12290,
+      "sha256": "eb6e76ed299f27227f68c541b9a0a3af2aee1792ca3efac239e1a46fe211eb51"
+    },
+    {
+      "file": "corrected_source_contract.json",
+      "bytes": 9259,
+      "sha256": "f0fb3d2ced5dc36d0794eb76b7a257351534f8dd3a784f33c024be4b500a9c38"
+    },
+    {
+      "file": "corrected_verify_count_reader.py",
+      "bytes": 3242,
+      "sha256": "c98b989f207eef44168edce0319ea14d13911dbeb0c374af4608f8336da2b945"
+    },
+    {
+      "file": "independent_checks.json",
+      "bytes": 2310,
+      "sha256": "a20622f873dbdfb3b59566c6bca764b5eca2e2928b2d5dcd87ee9fb608590552"
+    },
+    {
+      "file": "independent_checks.py",
+      "bytes": 5846,
+      "sha256": "9f73ec8f58c671b3325b46fc69bde236f56c725c5415bdb0be93b88663b8d533"
+    },
+    {
+      "file": "independent_checks_v2.json",
+      "bytes": 1032,
+      "sha256": "ab39937088bc022cb9261057efbb03e79531adf44eab5f177f83ffd1efea22a3"
+    },
+    {
+      "file": "independent_checks_v2.py",
+      "bytes": 6264,
+      "sha256": "150f634d2d413c2023405c358c46272d2bbd99d31f70154cd8826605ab992048"
+    },
+    {
+      "file": "review.md",
+      "bytes": 8868,
+      "sha256": "0fd8d76b36a553f4618a13d4d904be52cc7e7d9ac9177ca9106a2c33ef350974"
+    },
+    {
+      "file": "review_receipt.json",
+      "bytes": 2030,
+      "sha256": "a4817e883bf8bb487e0533f24832a4220abce42fec98dc2614035b741558398d"
+    },
+    {
+      "file": "reviewed_count_analysis.py",
+      "bytes": 8591,
+      "sha256": "b0ee9e7282f6cffae5f48be1739a04167093c093650eb4fe94a8afac7cb9e7ce"
+    },
+    {
+      "file": "reviewed_ordinal_geometry.py",
+      "bytes": 6242,
+      "sha256": "8872d6452afe4ccbf84e61450d4b1bfbdadf26469f20c0e24452f3abc205f9ac"
+    },
+    {
+      "file": "reviewed_protocol_draft_v1.md",
+      "bytes": 11395,
+      "sha256": "731620b9d8d4057053b80143b2c476b94f8c3feb46c6342c9841ff531ad3393d"
+    },
+    {
+      "file": "reviewed_source_contract.json",
+      "bytes": 9259,
+      "sha256": "f0fb3d2ced5dc36d0794eb76b7a257351534f8dd3a784f33c024be4b500a9c38"
+    },
+    {
+      "file": "reviewed_verify_count_reader.py",
+      "bytes": 3025,
+      "sha256": "af10d05960320d42dc8f187b530b16d6c79ba155b9b3032b431e6f7302d8ea1a"
+    }
+  ]
+}

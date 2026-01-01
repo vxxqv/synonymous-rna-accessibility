@@ -1,0 +1,9 @@
+{
+  "source_sha256": "d05b9a172ceab2dc085379622db227f7cfe05fb1a0fd4116d5a64406947e41cb",
+  "calibration_coefficient_values_disclosed": false,
+  "number_matching_replicate_formulas": 9,
+  "all_coefficients_positive": true,
+  "all_coefficients_identical": true,
+  "numerator_and_ancestor_reference_replica_indices_match": true,
+  "scope": "Source code formula properties only, no outcome table or actual calibration values displayed"
+}

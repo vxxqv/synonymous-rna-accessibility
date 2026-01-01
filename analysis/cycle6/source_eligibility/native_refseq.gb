@@ -1,0 +1,441 @@
+LOCUS       NM_000043               3696 bp    mRNA    linear   PRI 09-SEP-2026
+DEFINITION  Homo sapiens Fas cell surface death receptor (FAS), transcript
+            variant 1, mRNA.
+ACCESSION   NM_000043
+VERSION     NM_000043.6
+KEYWORDS    RefSeq; MANE Select.
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1  (bases 1 to 3696)
+  AUTHORS   Bartels,N., van der Voort,N.T.M., Opanasyuk,O., Felekyan,S.,
+            Greife,A., Shang,X., Bister,A., Wiek,C., Seidel,C.A.M. and
+            Monzel,C.
+  TITLE     Advanced multiparametric image spectroscopy and super-resolution
+            microscopy reveal a minimal model of CD95 signal initiation
+  JOURNAL   Sci Adv 10 (35), eadn3238 (2024)
+   PUBMED   39213362
+  REMARK    GeneRIF: Advanced multiparametric image spectroscopy and
+            super-resolution microscopy reveal a minimal model of CD95 signal
+            initiation.
+REFERENCE   2  (bases 1 to 3696)
+  AUTHORS   Liu,Y., Sardana,R., Nemirovsky,D., Frosina,D., Jungbluth,A.,
+            Johnson,W.T., Vardhana,S., Arcila,M., Horwitz,S.M., Derkach,A.,
+            Dogan,A. and Xiao,W.
+  TITLE     Somatic mutations in FAS pathway increase hemophagocytic
+            lymphohistiocytosis risk in patients with T- and/or NK-cell
+            lymphoma
+  JOURNAL   Blood Adv 8 (12), 3064-3075 (2024)
+   PUBMED   38593227
+  REMARK    GeneRIF: Somatic mutations in FAS pathway increase hemophagocytic
+            lymphohistiocytosis risk in patients with T- and/or NK-cell
+            lymphoma.
+REFERENCE   3  (bases 1 to 3696)
+  AUTHORS   Yang,Z., Zhang,X., Zhang,X., Liu,Y., Zhang,J. and Yuan,X.
+  TITLE     [Porphyromonas gingivalis infection facilitates immune escape of
+            esophageal cancer by enhancing YTHDF2-mediated Fas degradation]
+  JOURNAL   Nan Fang Yi Ke Da Xue Xue Bao 44 (6), 1159-1165 (2024)
+   PUBMED   38977346
+  REMARK    GeneRIF: [Porphyromonas gingivalis infection facilitates immune
+            escape of esophageal cancer by enhancing YTHDF2-mediated Fas
+            degradation].
+REFERENCE   4  (bases 1 to 3696)
+  AUTHORS   Staniek,J., Kalina,T., Andrieux,G., Boerries,M., Janowska,I.,
+            Fuentes,M., Diez,P., Bakardjieva,M., Stancikova,J., Raabe,J.,
+            Neumann,J., Schwenk,S., Arpesella,L., Stuchly,J., Benes,V., Garcia
+            Valiente,R., Fernandez Garcia,J., Carsetti,R., Piano Mortari,E.,
+            Catala,A., de la Calle,O., Sogkas,G., Neven,B., Rieux-Laucat,F.,
+            Magerus,A., Neth,O., Olbrich,P., Voll,R.E., Alsina,L.,
+            Allende,L.M., Gonzalez-Granado,L.I., Bohler,C., Thiel,J.,
+            Venhoff,N., Lorenzetti,R., Warnatz,K., Unger,S., Seidl,M.,
+            Mielenz,D., Schneider,P., Ehl,S., Rensing-Ehl,A., Smulski,C.R. and
+            Rizzi,M.
+  TITLE     Non-apoptotic FAS signaling controls mTOR activation and
+            extrafollicular maturation in human B cells
+  JOURNAL   Sci Immunol 9 (91), eadj5948 (2024)
+   PUBMED   38215192
+  REMARK    GeneRIF: Non-apoptotic FAS signaling controls mTOR activation and
+            extrafollicular maturation in human B cells.
+REFERENCE   5  (bases 1 to 3696)
+  AUTHORS   Jenkins,M., Keir,M. and McCune,J.M.
+  TITLE     A membrane-bound Fas decoy receptor expressed by human thymocytes
+  JOURNAL   J Biol Chem 275 (11), 7988-7993 (2000)
+   PUBMED   10713117
+REFERENCE   6  (bases 1 to 3696)
+  AUTHORS   Cascino,I., Papoff,G., Eramo,A. and Ruberti,G.
+  TITLE     Soluble Fas/Apo-1 splicing variants and apoptosis
+  JOURNAL   Front Biosci 1, d12-d18 (1996)
+   PUBMED   9159204
+  REMARK    GeneRIF: A review of alternative spliced APO-1 variants and their
+            possible biological roles.
+            Review article
+REFERENCE   7  (bases 1 to 3696)
+  AUTHORS   Cheng,J., Zhou,T., Liu,C., Shapiro,J.P., Brauer,M.J., Kiefer,M.C.,
+            Barr,P.J. and Mountz,J.D.
+  TITLE     Protection from Fas-mediated apoptosis by a soluble form of the Fas
+            molecule
+  JOURNAL   Science 263 (5154), 1759-1762 (1994)
+   PUBMED   7510905
+REFERENCE   8  (bases 1 to 3696)
+  AUTHORS   Bleesing,J.J.H., Nagaraj,C.B. and Zhang,K.
+  TITLE     Autoimmune Lymphoproliferative Syndrome
+  JOURNAL   (in) Adam MP, Bick S, Mirzaa GM, Wallace SE and Amemiya A (Eds.);
+            GENEREVIEWS(R);
+            (1993)
+   PUBMED   20301287
+REFERENCE   9  (bases 1 to 3696)
+  AUTHORS   Inazawa,J., Itoh,N., Abe,T. and Nagata,S.
+  TITLE     Assignment of the human Fas antigen gene (Fas) to 10q24.1
+  JOURNAL   Genomics 14 (3), 821-822 (1992)
+   PUBMED   1385309
+REFERENCE   10 (bases 1 to 3696)
+  AUTHORS   Oehm,A., Behrmann,I., Falk,W., Pawlita,M., Maier,G., Klas,C.,
+            Li-Weber,M., Richards,S., Dhein,J., Trauth,B.C. et al.
+  TITLE     Purification and molecular cloning of the APO-1 cell surface
+            antigen, a member of the tumor necrosis factor/nerve growth factor
+            receptor superfamily. Sequence identity with the Fas antigen
+  JOURNAL   J Biol Chem 267 (15), 10709-10715 (1992)
+   PUBMED   1375228
+COMMENT     REVIEWED REFSEQ: This record has been curated by NCBI staff. The
+            reference sequence was derived from BC012479.1, AK290978.1,
+            AL157394.15, AK026195.1 and BU620333.1.
+            
+            On Nov 22, 2018 this sequence version replaced NM_000043.5.
+            
+            Summary: The protein encoded by this gene is a member of the
+            TNF-receptor superfamily. This receptor contains a death domain. It
+            has been shown to play a central role in the physiological
+            regulation of programmed cell death, and has been implicated in the
+            pathogenesis of various malignancies and diseases of the immune
+            system. The interaction of this receptor with its ligand allows the
+            formation of a death-inducing signaling complex that includes
+            Fas-associated death domain protein (FADD), caspase 8, and caspase
+            10. The autoproteolytic processing of the caspases in the complex
+            triggers a downstream caspase cascade, and leads to apoptosis. This
+            receptor has been also shown to activate NF-kappaB, MAPK3/ERK1, and
+            MAPK8/JNK, and is found to be involved in transducing the
+            proliferating signals in normal diploid fibroblast and T cells.
+            Several alternatively spliced transcript variants have been
+            described, some of which are candidates for nonsense-mediated mRNA
+            decay (NMD). The isoforms lacking the transmembrane domain may
+            negatively regulate the apoptosis mediated by the full length
+            isoform. [provided by RefSeq, Mar 2011].
+            
+            Transcript Variant: This variant (1) encodes the longest isoform
+            (1).
+            
+            Sequence Note: This RefSeq record was created from transcript and
+            genomic sequence data to make the sequence consistent with the
+            reference genome assembly. The genomic coordinates used for the
+            transcript record were based on transcript alignments.
+            
+            Publication Note:  This RefSeq record includes a subset of the
+            publications that are available for this gene. Please see the Gene
+            record to access additional publications.
+            
+            ##Evidence-Data-START##
+            Transcript exon combination :: SRR1803616.69751.1,
+                                           SRR1163657.562566.1 [ECO:0000332]
+            RNAseq introns              :: single sample supports all introns
+                                           SAMEA1965299, SAMEA1966682
+                                           [ECO:0000348]
+            ##Evidence-Data-END##
+            
+            ##RefSeq-Attributes-START##
+            MANE Ensembl match     :: ENST00000652046.1/ ENSP00000498466.1
+            RefSeq Select criteria :: based on conservation, expression
+            ##RefSeq-Attributes-END##
+            COMPLETENESS: full length.
+PRIMARY     REFSEQ_SPAN         PRIMARY_IDENTIFIER PRIMARY_SPAN        COMP
+            1-720               BC012479.1         232-951
+            721-1456            AK290978.1         888-1623
+            1457-2422           BC012479.1         1688-2653
+            2423-2472           AL157394.15        169105-169154
+            2473-2962           AK026195.1         1-490
+            2963-3208           AL157394.15        169645-169890
+            3209-3696           BU620333.1         17-504              c
+FEATURES             Location/Qualifiers
+     source          1..3696
+                     /organism="Homo sapiens"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9606"
+                     /chromosome="10"
+                     /map="10q23.31"
+     gene            1..3696
+                     /gene="FAS"
+                     /gene_synonym="ALPS1A; APO-1; APT1; CD95; FAS1; FASTM;
+                     TNFRSF6"
+                     /note="Fas cell surface death receptor"
+                     /db_xref="GeneID:355"
+                     /db_xref="HGNC:HGNC:11920"
+                     /db_xref="MIM:134637"
+     exon            1..109
+                     /gene="FAS"
+                     /gene_synonym="ALPS1A; APO-1; APT1; CD95; FAS1; FASTM;
+                     TNFRSF6"
+                     /inference="alignment:Splign:2.1.0"
+     CDS             80..1087
+                     /gene="FAS"
+                     /gene_synonym="ALPS1A; APO-1; APT1; CD95; FAS1; FASTM;
+                     TNFRSF6"
+                     /note="isoform 1 precursor is encoded by transcript
+                     variant 1; tumor necrosis factor receptor superfamily,
+                     member 6; APO-1 cell surface antigen; apoptosis antigen 1;
+                     Fas AMA; CD95 antigen; FASLG receptor; apoptosis-mediating
+                     surface antigen FAS; apoptosis signaling receptor FAS; Fas
+                     (TNF receptor superfamily, member 6); TNF receptor
+                     superfamily member 6; mutant tumor necrosis receptor
+                     superfamily member 6"
+                     /codon_start=1
+                     /product="tumor necrosis factor receptor superfamily
+                     member 6 isoform 1 precursor"
+                     /protein_id="NP_000034.1"
+                     /db_xref="CCDS:CCDS7393.1"
+                     /db_xref="GeneID:355"
+                     /db_xref="HGNC:HGNC:11920"
+                     /db_xref="MIM:134637"
+                     /translation="MLGIWTLLPLVLTSVARLSSKSVNAQVTDINSKGLELRKTVTTV
+                     ETQNLEGLHHDGQFCHKPCPPGERKARDCTVNGDEPDCVPCQEGKEYTDKAHFSSKCR
+                     RCRLCDEGHGLEVEINCTRTQNTKCRCKPNFFCNSTVCEHCDPCTKCEHGIIKECTLT
+                     SNTKCKEEGSRSNLGWLCLLLLPIPLIVWVKRKEVQKTCRKHRKENQGSHESPTLNPE
+                     TVAINLSDVDLSKYITTIAGVMTLSQVKGFVRKNGVNEAKIDEIKNDNVQDTAEQKVQ
+                     LLRNWHQLHGKKEAYDTLIKDLKKANLCTLAEKIQTIILKDITSDSENSNFRNEIQSL
+                     V"
+     sig_peptide     80..154
+                     /gene="FAS"
+                     /gene_synonym="ALPS1A; APO-1; APT1; CD95; FAS1; FASTM;
+                     TNFRSF6"
+                     /inference="COORDINATES: ab initio prediction:SignalP:6.0"
+     mat_peptide     155..1084
+                     /gene="FAS"
+                     /gene_synonym="ALPS1A; APO-1; APT1; CD95; FAS1; FASTM;
+                     TNFRSF6"
+                     /product="Tumor necrosis factor receptor superfamily
+                     member 6. /id=PRO_0000034563"
+                     /note="propagated from UniProtKB/Swiss-Prot (P25445.1)"
+     misc_feature    161..163
+                     /gene="FAS"
+                     /gene_synonym="ALPS1A; APO-1; APT1; CD95; FAS1; FASTM;
+                     TNFRSF6"
+                     /note="O-linked (GalNAc...) threonine.
+                     /evidence=ECO:0000269|PubMed:22171320; propagated from
+                     UniProtKB/Swiss-Prot (P25445.1); glycosylation site"
+     misc_feature    218..328
+                     /gene="FAS"
+                     /gene_synonym="ALPS1A; APO-1; APT1; CD95; FAS1; FASTM;
+                     TNFRSF6"
+                     /note="propagated from UniProtKB/Swiss-Prot (P25445.1);
+                     Region: TNFR-Cys 1"
+     misc_feature    329..460
+                     /gene="FAS"
+                     /gene_synonym="ALPS1A; APO-1; APT1; CD95; FAS1; FASTM;
+                     TNFRSF6"
+                     /note="propagated from UniProtKB/Swiss-Prot (P25445.1);
+                     Region: TNFR-Cys 2"
+     misc_feature    431..433
+                     /gene="FAS"
+                     /gene_synonym="ALPS1A; APO-1; APT1; CD95; FAS1; FASTM;
+                     TNFRSF6"
+                     /note="N-linked (GlcNAc...) asparagine.
+                     /evidence=ECO:0000269|PubMed:19159218; propagated from
+                     UniProtKB/Swiss-Prot (P25445.1); glycosylation site"
+     misc_feature    461..577
+                     /gene="FAS"
+                     /gene_synonym="ALPS1A; APO-1; APT1; CD95; FAS1; FASTM;
+                     TNFRSF6"
+                     /note="propagated from UniProtKB/Swiss-Prot (P25445.1);
+                     Region: TNFR-Cys 3"
+     misc_feature    485..487
+                     /gene="FAS"
+                     /gene_synonym="ALPS1A; APO-1; APT1; CD95; FAS1; FASTM;
+                     TNFRSF6"
+                     /note="N-linked (GlcNAc...) asparagine.
+                     /evidence=ECO:0000255; propagated from
+                     UniProtKB/Swiss-Prot (P25445.1); glycosylation site"
+     misc_feature    599..649
+                     /gene="FAS"
+                     /gene_synonym="ALPS1A; APO-1; APT1; CD95; FAS1; FASTM;
+                     TNFRSF6"
+                     /note="propagated from UniProtKB/Swiss-Prot (P25445.1);
+                     transmembrane region"
+     misc_feature    704..706
+                     /gene="FAS"
+                     /gene_synonym="ALPS1A; APO-1; APT1; CD95; FAS1; FASTM;
+                     TNFRSF6"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0007744|PubMed:18669648; propagated from
+                     UniProtKB/Swiss-Prot (P25445.1); phosphorylation site"
+     misc_feature    713..1030
+                     /gene="FAS"
+                     /gene_synonym="ALPS1A; APO-1; APT1; CD95; FAS1; FASTM;
+                     TNFRSF6"
+                     /note="propagated from UniProtKB/Swiss-Prot (P25445.1);
+                     Region: Interaction with HIPK3. /evidence=ECO:0000250"
+     misc_feature    719..721
+                     /gene="FAS"
+                     /gene_synonym="ALPS1A; APO-1; APT1; CD95; FAS1; FASTM;
+                     TNFRSF6"
+                     /note="Phosphothreonine.
+                     /evidence=ECO:0000250|UniProtKB:P25446; propagated from
+                     UniProtKB/Swiss-Prot (P25445.1); phosphorylation site"
+     misc_feature    752..754
+                     /gene="FAS"
+                     /gene_synonym="ALPS1A; APO-1; APT1; CD95; FAS1; FASTM;
+                     TNFRSF6"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0007744|PubMed:24275569; propagated from
+                     UniProtKB/Swiss-Prot (P25445.1); phosphorylation site"
+     misc_feature    767..841
+                     /gene="FAS"
+                     /gene_synonym="ALPS1A; APO-1; APT1; CD95; FAS1; FASTM;
+                     TNFRSF6"
+                     /note="propagated from UniProtKB/Swiss-Prot (P25445.1);
+                     Region: Interaction with CALM.
+                     /evidence=ECO:0000269|PubMed:24914971"
+     misc_feature    827..829
+                     /gene="FAS"
+                     /gene_synonym="ALPS1A; APO-1; APT1; CD95; FAS1; FASTM;
+                     TNFRSF6"
+                     /note="(Microbial infection) N-beta-linked (GlcNAc)
+                     arginine. /evidence=ECO:0000269|PubMed:30979585,
+                     ECO:0000305|PubMed:23955153; propagated from
+                     UniProtKB/Swiss-Prot (P25445.1); glycosylation site"
+     exon            110..275
+                     /gene="FAS"
+                     /gene_synonym="ALPS1A; APO-1; APT1; CD95; FAS1; FASTM;
+                     TNFRSF6"
+                     /inference="alignment:Splign:2.1.0"
+     exon            276..413
+                     /gene="FAS"
+                     /gene_synonym="ALPS1A; APO-1; APT1; CD95; FAS1; FASTM;
+                     TNFRSF6"
+                     /inference="alignment:Splign:2.1.0"
+     exon            414..522
+                     /gene="FAS"
+                     /gene_synonym="ALPS1A; APO-1; APT1; CD95; FAS1; FASTM;
+                     TNFRSF6"
+                     /inference="alignment:Splign:2.1.0"
+     exon            523..584
+                     /gene="FAS"
+                     /gene_synonym="ALPS1A; APO-1; APT1; CD95; FAS1; FASTM;
+                     TNFRSF6"
+                     /inference="alignment:Splign:2.1.0"
+     exon            585..647
+                     /gene="FAS"
+                     /gene_synonym="ALPS1A; APO-1; APT1; CD95; FAS1; FASTM;
+                     TNFRSF6"
+                     /inference="alignment:Splign:2.1.0"
+     exon            648..730
+                     /gene="FAS"
+                     /gene_synonym="ALPS1A; APO-1; APT1; CD95; FAS1; FASTM;
+                     TNFRSF6"
+                     /inference="alignment:Splign:2.1.0"
+     exon            731..755
+                     /gene="FAS"
+                     /gene_synonym="ALPS1A; APO-1; APT1; CD95; FAS1; FASTM;
+                     TNFRSF6"
+                     /inference="alignment:Splign:2.1.0"
+     exon            756..3696
+                     /gene="FAS"
+                     /gene_synonym="ALPS1A; APO-1; APT1; CD95; FAS1; FASTM;
+                     TNFRSF6"
+                     /inference="alignment:Splign:2.1.0"
+     regulatory      1716..1721
+                     /regulatory_class="polyA_signal_sequence"
+                     /gene="FAS"
+                     /gene_synonym="ALPS1A; APO-1; APT1; CD95; FAS1; FASTM;
+                     TNFRSF6"
+                     /note="hexamer: ATTAAA"
+     polyA_site      1740
+                     /gene="FAS"
+                     /gene_synonym="ALPS1A; APO-1; APT1; CD95; FAS1; FASTM;
+                     TNFRSF6"
+                     /note="major polyA site"
+     regulatory      2403..2408
+                     /regulatory_class="polyA_signal_sequence"
+                     /gene="FAS"
+                     /gene_synonym="ALPS1A; APO-1; APT1; CD95; FAS1; FASTM;
+                     TNFRSF6"
+                     /note="hexamer: ATTAAA"
+     polyA_site      2422
+                     /gene="FAS"
+                     /gene_synonym="ALPS1A; APO-1; APT1; CD95; FAS1; FASTM;
+                     TNFRSF6"
+                     /note="major polyA site"
+     regulatory      3677..3682
+                     /regulatory_class="polyA_signal_sequence"
+                     /gene="FAS"
+                     /gene_synonym="ALPS1A; APO-1; APT1; CD95; FAS1; FASTM;
+                     TNFRSF6"
+                     /note="hexamer: ATTAAA"
+     polyA_site      3696
+                     /gene="FAS"
+                     /gene_synonym="ALPS1A; APO-1; APT1; CD95; FAS1; FASTM;
+                     TNFRSF6"
+ORIGIN      
+        1 ctcttctccc gcgggttggt ggacccgctc agtacggagt tggggaagct ctttcacttc
+       61 ggaggattgc tcaacaacca tgctgggcat ctggaccctc ctacctctgg ttcttacgtc
+      121 tgttgctaga ttatcgtcca aaagtgttaa tgcccaagtg actgacatca actccaaggg
+      181 attggaattg aggaagactg ttactacagt tgagactcag aacttggaag gcctgcatca
+      241 tgatggccaa ttctgccata agccctgtcc tccaggtgaa aggaaagcta gggactgcac
+      301 agtcaatggg gatgaaccag actgcgtgcc ctgccaagaa gggaaggagt acacagacaa
+      361 agcccatttt tcttccaaat gcagaagatg tagattgtgt gatgaaggac atggcttaga
+      421 agtggaaata aactgcaccc ggacccagaa taccaagtgc agatgtaaac caaacttttt
+      481 ttgtaactct actgtatgtg aacactgtga cccttgcacc aaatgtgaac atggaatcat
+      541 caaggaatgc acactcacca gcaacaccaa gtgcaaagag gaaggatcca gatctaactt
+      601 ggggtggctt tgtcttcttc ttttgccaat tccactaatt gtttgggtga agagaaagga
+      661 agtacagaaa acatgcagaa agcacagaaa ggaaaaccaa ggttctcatg aatctccaac
+      721 tttaaatcct gaaacagtgg caataaattt atctgatgtt gacttgagta aatatatcac
+      781 cactattgct ggagtcatga cactaagtca agttaaaggc tttgttcgaa agaatggtgt
+      841 caatgaagcc aaaatagatg agatcaagaa tgacaatgtc caagacacag cagaacagaa
+      901 agttcaactg cttcgtaatt ggcatcaact tcatggaaag aaagaagcgt atgacacatt
+      961 gattaaagat ctcaaaaaag ccaatctttg tactcttgca gagaaaattc agactatcat
+     1021 cctcaaggac attactagtg actcagaaaa ttcaaacttc agaaatgaaa tccaaagctt
+     1081 ggtctagagt gaaaaacaac aaattcagtt ctgagtatat gcaattagtg tttgaaaaga
+     1141 ttcttaatag ctggctgtaa atactgcttg gttttttact gggtacattt tatcatttat
+     1201 tagcgctgaa gagccaacat atttgtagat ttttaatatc tcatgattct gcctccaagg
+     1261 atgtttaaaa tctagttggg aaaacaaact tcatcaagag taaatgcagt ggcatgctaa
+     1321 gtacccaaat aggagtgtat gcagaggatg aaagattaag attatgctct ggcatctaac
+     1381 atatgattct gtagtatgaa tgtaatcagt gtatgttagt acaaatgtct atccacaggc
+     1441 taaccccact ctatgaatca atagaagaag ctatgacctt ttgctgaaat atcagttact
+     1501 gaacaggcag gccactttgc ctctaaatta cctctgataa ttctagagat tttaccatat
+     1561 ttctaaactt tgtttataac tctgagaaga tcatatttat gtaaagtata tgtatttgag
+     1621 tgcagaattt aaataaggct ctacctcaaa gacctttgca cagtttattg gtgtcatatt
+     1681 atacaatatt tcaattgtga attcacatag aaaacattaa attataatgt ttgactatta
+     1741 tatatgtgta tgcattttac tggctcaaaa ctacctactt ctttctcagg catcaaaagc
+     1801 attttgagca ggagagtatt actagagctt tgccacctct ccatttttgc cttggtgctc
+     1861 atcttaatgg cctaatgcac ccccaaacat ggaaatatca ccaaaaaata cttaatagtc
+     1921 caccaaaagg caagactgcc cttagaaatt ctagcctggt ttggagatac taactgctct
+     1981 cagagaaagt agctttgtga catgtcatga acccatgttt gcaatcaaag atgataaaat
+     2041 agattcttat ttttccccca cccccgaaaa tgttcaataa tgtcccatgt aaaacctgct
+     2101 acaaatggca gcttatacat agcaatggta aaatcatcat ctggatttag gaattgctct
+     2161 tgtcataccc ccaagtttct aagatttaag attctcctta ctactatcct acgtttaaat
+     2221 atctttgaaa gtttgtatta aatgtgaatt ttaagaaata atatttatat ttctgtaaat
+     2281 gtaaactgtg aagatagtta taaactgaag cagatacctg gaaccaccta aagaacttcc
+     2341 atttatggag gatttttttg ccccttgtgt ttggaattat aaaatatagg taaaagtacg
+     2401 taattaaata atgtttttgg tatttctggt tttctctttt ttggtagggg cttgcttttt
+     2461 ggttttgtct tccttttctc taactgatgc taaatataac ttgtctttaa tgcttcttgg
+     2521 atcccttaga aggtacttcc tttttaacct taaccctttt agtagttaaa taattatttc
+     2581 cataggttgc tattgccaag aagacctctt ccaaacagca catgattatt cgtcaaacag
+     2641 tttcgtattc cagatactgg aatgtggata agaaagtata catttcaagg ggtaggtttt
+     2701 attattaaga aagccaaatg aggattttga aatattcttt cctgcatatt atccattcta
+     2761 gctacatgct ggccagtggg ccacctttct tttctgcaat ttaatgctag taatatattc
+     2821 tatttaaccc atgagtccca aagtattagc atttcaacat gtaagcatgt cggtaagata
+     2881 gttgtgcttt gcttagggtt ccctcctgtg ttatggtctg gaaagtgtct ttaggcagaa
+     2941 agtctgagtg atcacagggt tcactcatta atttctcttt tctgagccat catagtctgt
+     3001 gctgtctgct ctccagtttt ctatttctag acagaagtag ggcaagttag gtactagtta
+     3061 ttcttcatgg ccagaagtgc aagttctact ttgcaagaca agattaagtt agagaacacc
+     3121 ctattccact ttggtgaact cagagcaaga actttgagtt cctttgggag gaagacagtg
+     3181 gagaagtctt tgtacttggt gatgtggttt ttttcctcat ggcttcacct agtggcccca
+     3241 agcatgactt ctcccatgtc aatgagcaca gccacattcc cgagttgagg tgaccccacg
+     3301 gtccagaatc atcctcattc tggtgaacct ggttctcttt gtggtgggca tactgggtag
+     3361 gagaatcacc caaaggtcac ccatgagctg cagaaaaaaa ggctatttgc agaaggagct
+     3421 cacagatcac attgaaagca ttgcatattc aaacatcttg gtcttcttta ttggcatgcc
+     3481 cacagggtct tctgacctct gattagatca gacacttttt agatattgaa tcatcagttt
+     3541 ctgtacaact atctgaataa ggtatataat caatgaaatt tagaattttt ttctatgctt
+     3601 actcctgatt ggtaatttgt ttgggtttag aattctatac aaggccattt gtaattttcc
+     3661 tcagcacttt aaaaatatta aaccatgttt tcttaa
+//
+

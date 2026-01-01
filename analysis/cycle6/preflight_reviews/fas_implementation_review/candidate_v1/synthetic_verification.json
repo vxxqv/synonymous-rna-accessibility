@@ -1,0 +1,111 @@
+{
+  "status": "PASS",
+  "scope": "Synthetic tests only; no biological outcome file opened",
+  "checks": [
+    {
+      "name": "additive",
+      "status": "feasible",
+      "forced_orders": 6
+    },
+    {
+      "name": "nonlinear_monotone",
+      "status": "feasible",
+      "forced_orders": 6
+    },
+    {
+      "name": "constant_tied",
+      "status": "feasible",
+      "forced_orders": 0
+    },
+    {
+      "name": "reciprocal_sign",
+      "status": "infeasible",
+      "forced_orders": 4
+    },
+    {
+      "name": "intervals_hide_point_failure",
+      "status": "feasible",
+      "forced_orders": 0
+    },
+    {
+      "name": "unknown_states",
+      "status": "feasible",
+      "forced_orders": 0
+    },
+    {
+      "name": "duplicate_features_incompatible",
+      "status": "infeasible",
+      "forced_orders": 1
+    },
+    {
+      "name": "partial_infinite_upper",
+      "status": "infeasible",
+      "forced_orders": 4
+    },
+    {
+      "name": "touching_intervals_admit_constant",
+      "status": "feasible",
+      "forced_orders": 0
+    },
+    {
+      "name": "all_Q2_row_permutations",
+      "cases": 24
+    },
+    {
+      "name": "all_ternary_Q2_fields_and_monotone_transforms",
+      "cases": 81,
+      "reference": "integer latent enumeration [-4,4]^2; finite verification only"
+    },
+    {
+      "name": "widest_paths_vs_threshold_BFS",
+      "fields": 81,
+      "pairs_per_field": 6
+    },
+    {
+      "name": "codon_gate_dip_full72",
+      "status": "feasible",
+      "forced_orders": 1152
+    },
+    {
+      "name": "codon_gate_can_disconnect_without_interaction",
+      "vertices": 72,
+      "edges": 204,
+      "parameters": 8
+    },
+    {
+      "name": "unknown_bridge_prevents_false_exclusion"
+    },
+    {
+      "name": "median_input_ratio_within_scenario_envelope",
+      "cases": 216
+    }
+  ],
+  "positive_fixture_certificate": {
+    "status": "infeasible",
+    "forced_orders": 4,
+    "exact_checked": true,
+    "dual": [
+      {
+        "lower_vertex": 1,
+        "higher_vertex": 0,
+        "weight": "1/2",
+        "difference": [
+          0,
+          0,
+          -1
+        ]
+      },
+      {
+        "lower_vertex": 2,
+        "higher_vertex": 3,
+        "weight": "1/2",
+        "difference": [
+          0,
+          0,
+          1
+        ]
+      }
+    ]
+  },
+  "proof_limit": "Finite enumeration validates implementations and examples, not general statements."
+}

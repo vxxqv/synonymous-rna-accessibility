@@ -1,0 +1,18 @@
+{
+  "status": "frozen_before_deposited_count_access",
+  "parent_revision": "53b8ec8390cf3b028c294058e4c0f7c2de8c6b79",
+  "scope": "Adaptive retrospective source choice; analytical contract frozen before target count files. Five illustrative README counts and published aggregate results were exposed.",
+  "frozen_files": {
+    "protocol_v1.md": "2b21f044d5d4eb8488d8e8c8752977f45927d6ee85c4da466bca23a1f0bb7bef",
+    "ordinal_geometry.py": "8872d6452afe4ccbf84e61450d4b1bfbdadf26469f20c0e24452f3abc205f9ac",
+    "count_analysis.py": "97a65f22b3baced94a4c5b916284c8bbdcda807f8e3392904c3447d0796953a2",
+    "verify_synthetic.py": "a098549d48dcce62b4292cd433266e09265ba3f5c46bd08cf845c1a34e998656",
+    "verify_count_reader.py": "c98b989f207eef44168edce0319ea14d13911dbeb0c374af4608f8336da2b945",
+    "source_contract.json": "f0fb3d2ced5dc36d0794eb76b7a257351534f8dd3a784f33c024be4b500a9c38",
+    "preflight_corrections.md": "da84b3c1a335dd522c70dd81bd573261f0430edfa0af7ee1afaa2e105172dd6f",
+    "synthetic_verification.json": "7e128ed621ceaeb430f090f9460a4cd7fda27f78a375a85ebd75f587c4ad4bcf",
+    "count_reader_verification.json": "38ed4b9705adff93e63e727627ff8348955cf6943b70d0ea159a6f0dbd64d576"
+  },
+  "post_review_delta": "Count CLI now refuses an existing output path before data reads; no numerical algorithm change.",
+  "reviewed_draft_sha256": "eb6e76ed299f27227f68c541b9a0a3af2aee1792ca3efac239e1a46fe211eb51"
+}

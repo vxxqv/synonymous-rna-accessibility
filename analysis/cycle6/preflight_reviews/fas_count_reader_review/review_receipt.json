@@ -1,0 +1,47 @@
+{
+  "verdict": "narrowly_approved_corrected_count_reader_contract",
+  "observed_data_access": false,
+  "scope": "Synthetic count/reference/normalization/feature-space checks only",
+  "initial_candidate_sha256": "b0ee9e7282f6cffae5f48be1739a04167093c093650eb4fe94a8afac7cb9e7ce",
+  "corrected_candidate_sha256": "307c3a3fe27720bceeffb4a348d9b10b7cc048e2a47a19049ab529a23454edd4",
+  "corrected_protocol_sha256": "eb6e76ed299f27227f68c541b9a0a3af2aee1792ca3efac239e1a46fe211eb51",
+  "closed_findings": [
+    "zeroTR1alignedtotal no longer aborts primary unknown-state analysis",
+    "exactrank8codon/nucleotide column-space equality reflected in code/protocol"
+  ],
+  "checks": {
+    "adapter_history": "Copy of held independent verifier, input snapshot names and output filename changed; added explicit mismatch failure on newly reachable degenerate success branch.",
+    "scope": "independent synthetic/reference checks only; no observed count values",
+    "candidate_sha256": "307c3a3fe27720bceeffb4a348d9b10b7cc048e2a47a19049ab529a23454edd4",
+    "checks": {
+      "source_output_vertex_comparisons": 12960,
+      "relative_ratio_comparisons": 38880,
+      "zero_reference_output": 72,
+      "zero_reference_input": 72,
+      "zero_output": 1
+    },
+    "design_column_space": {
+      "codon_rank": 8,
+      "nucleotide_rank": 8,
+      "joint_rank": 8,
+      "same_column_space": true,
+      "variable_nt_positions1": [
+        24,
+        26,
+        32,
+        35,
+        39,
+        41,
+        44
+      ]
+    },
+    "degenerate_TR1_alignment": {
+      "returned": true,
+      "matches_NA_omission_reference": true
+    },
+    "failures": [],
+    "code_sha256": "150f634d2d413c2023405c358c46272d2bbd99d31f70154cd8826605ab992048"
+  },
+  "remaining_recommendation": "Enforce new output destination atCLI or frozenorchestrator before real reads; currentCLI canoverwrite.",
+  "historical_failure_receipt_sha256": "a20622f873dbdfb3b59566c6bca764b5eca2e2928b2d5dcd87ee9fb608590552"
+}

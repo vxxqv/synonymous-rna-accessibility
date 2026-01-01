@@ -1,0 +1,2676 @@
+{
+  "sha": "b87064c39a553b0759d86c2b428813c58dc17ae2",
+  "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/trees/b87064c39a553b0759d86c2b428813c58dc17ae2",
+  "tree": [
+    {
+      "path": "001_Exon_inclusion_levels_in_different_animals",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d362dfe450b3337732291a98b7410461df2dc2ce",
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/trees/d362dfe450b3337732291a98b7410461df2dc2ce"
+    },
+    {
+      "path": "001_Exon_inclusion_levels_in_different_animals/PSI.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "da94de9edf76ef43d63f01e29c1640262dcb28f6",
+      "size": 7303,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/da94de9edf76ef43d63f01e29c1640262dcb28f6"
+    },
+    {
+      "path": "001_Exon_inclusion_levels_in_different_animals/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4019be33759b915a511e8b338c414283b5b733a2",
+      "size": 6110,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/4019be33759b915a511e8b338c414283b5b733a2"
+    },
+    {
+      "path": "001_Exon_inclusion_levels_in_different_animals/dexseq_prepare_annotation.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "0aa31a3809f0b3f434e74c5cefb933c844d85844",
+      "size": 6125,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/0aa31a3809f0b3f434e74c5cefb933c844d85844"
+    },
+    {
+      "path": "001_Exon_inclusion_levels_in_different_animals/example_calculate_PSI.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "69d2f860fefee3e9adf40a05bb2ee76e79ae616d",
+      "size": 1603,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/69d2f860fefee3e9adf40a05bb2ee76e79ae616d"
+    },
+    {
+      "path": "001_Exon_inclusion_levels_in_different_animals/example_prep_work.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "a1ce96b96a1c4512bdb772887369b506f926084a",
+      "size": 917,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/a1ce96b96a1c4512bdb772887369b506f926084a"
+    },
+    {
+      "path": "001_Exon_inclusion_levels_in_different_animals/fas_identifiers.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3b4002a99ecdc027209b678843e8b5efe6c3fa83",
+      "size": 237,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/3b4002a99ecdc027209b678843e8b5efe6c3fa83"
+    },
+    {
+      "path": "001_Exon_inclusion_levels_in_different_animals/genome_downloads.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "39a969cd1cffe6bb36336a12c09727dd54c5629a",
+      "size": 850,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/39a969cd1cffe6bb36336a12c09727dd54c5629a"
+    },
+    {
+      "path": "001_Exon_inclusion_levels_in_different_animals/gtf_downloads.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5b9adb5e864e9a5aa43518f4c6166ba82648d34b",
+      "size": 745,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/5b9adb5e864e9a5aa43518f4c6166ba82648d34b"
+    },
+    {
+      "path": "001_Exon_inclusion_levels_in_different_animals/sample_downloads.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9f3ad395d7d77b39dc1c1b13b4542b8dbd60bc7d",
+      "size": 21917,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/9f3ad395d7d77b39dc1c1b13b4542b8dbd60bc7d"
+    },
+    {
+      "path": "002_Processing_sequencing_data",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3bac60c5df9c4f61ba41100e8feca49e841c85d3",
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/trees/3bac60c5df9c4f61ba41100e8feca49e841c85d3"
+    },
+    {
+      "path": "002_Processing_sequencing_data/001_Phylogeny_library_in_HEK293",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2981e6cd85f064622d433f32fde44fe2d4cf2a3d",
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/trees/2981e6cd85f064622d433f32fde44fe2d4cf2a3d"
+    },
+    {
+      "path": "002_Processing_sequencing_data/001_Phylogeny_library_in_HEK293/001_quality_control.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "8eb5b9c835f03e3da7af283295fe497e79ee18ad",
+      "size": 362,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/8eb5b9c835f03e3da7af283295fe497e79ee18ad"
+    },
+    {
+      "path": "002_Processing_sequencing_data/001_Phylogeny_library_in_HEK293/002_barcodes.txt",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "86c2697e44a7531c6b8ea3d1ba4713606f27978b",
+      "size": 758,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/86c2697e44a7531c6b8ea3d1ba4713606f27978b"
+    },
+    {
+      "path": "002_Processing_sequencing_data/001_Phylogeny_library_in_HEK293/002_demultiplex_replicates.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "f9c796df62e58bda50c43393c7afd159977f1af4",
+      "size": 679,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/f9c796df62e58bda50c43393c7afd159977f1af4"
+    },
+    {
+      "path": "002_Processing_sequencing_data/001_Phylogeny_library_in_HEK293/003_merge_forward_and_reverse_seqs.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "325d61a7b54e7f306fb5f341766eb96196c9e76a",
+      "size": 3907,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/325d61a7b54e7f306fb5f341766eb96196c9e76a"
+    },
+    {
+      "path": "002_Processing_sequencing_data/001_Phylogeny_library_in_HEK293/004_count_genotypes.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "6d6d8ab2fdc66080e0b65c83fdec6f58ffc9d6df",
+      "size": 7013,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/6d6d8ab2fdc66080e0b65c83fdec6f58ffc9d6df"
+    },
+    {
+      "path": "002_Processing_sequencing_data/001_Phylogeny_library_in_HEK293/004_count_mutations.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "944d5292ca56414c71234a15d3004201ca4121e9",
+      "size": 2301,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/944d5292ca56414c71234a15d3004201ca4121e9"
+    },
+    {
+      "path": "002_Processing_sequencing_data/001_Phylogeny_library_in_HEK293/005_remove_sequencing_errors.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "ba3858d75e4072c723c53c4842a9f88a792aa490",
+      "size": 435,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/ba3858d75e4072c723c53c4842a9f88a792aa490"
+    },
+    {
+      "path": "002_Processing_sequencing_data/001_Phylogeny_library_in_HEK293/Count_Files",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f0d44889423af41dd8c5c86af7f2a16396d305e4",
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/trees/f0d44889423af41dd8c5c86af7f2a16396d305e4"
+    },
+    {
+      "path": "002_Processing_sequencing_data/001_Phylogeny_library_in_HEK293/Count_Files/Phylogeny_HEK293_BR_Rep_1.3072.counts",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "0734f99d4707ac7d183a3a6bfcc3385d366a0572",
+      "size": 215615,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/0734f99d4707ac7d183a3a6bfcc3385d366a0572"
+    },
+    {
+      "path": "002_Processing_sequencing_data/001_Phylogeny_library_in_HEK293/Count_Files/Phylogeny_HEK293_BR_Rep_2.3072.counts",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "139a66ea7341855e16875a86da472d4a57911340",
+      "size": 215509,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/139a66ea7341855e16875a86da472d4a57911340"
+    },
+    {
+      "path": "002_Processing_sequencing_data/001_Phylogeny_library_in_HEK293/Count_Files/Phylogeny_HEK293_BR_Rep_3.3072.counts",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "39c3f282abb751b93983d942488f832d43a893ae",
+      "size": 216687,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/39c3f282abb751b93983d942488f832d43a893ae"
+    },
+    {
+      "path": "002_Processing_sequencing_data/001_Phylogeny_library_in_HEK293/Count_Files/Phylogeny_HEK293_BR_Rep_4.3072.counts",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "59c434418b9c399fd2d0d60abae5ff8a41e3dd2a",
+      "size": 215820,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/59c434418b9c399fd2d0d60abae5ff8a41e3dd2a"
+    },
+    {
+      "path": "002_Processing_sequencing_data/001_Phylogeny_library_in_HEK293/Count_Files/Phylogeny_HEK293_BR_Rep_5.3072.counts",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "89882ee0aaa9da5826511fed96d00c048dd2c674",
+      "size": 215149,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/89882ee0aaa9da5826511fed96d00c048dd2c674"
+    },
+    {
+      "path": "002_Processing_sequencing_data/001_Phylogeny_library_in_HEK293/Count_Files/Phylogeny_HEK293_BR_Rep_6.3072.counts",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "2701730a68de84a91430fd1d5f89b37d0ddb5661",
+      "size": 216960,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/2701730a68de84a91430fd1d5f89b37d0ddb5661"
+    },
+    {
+      "path": "002_Processing_sequencing_data/001_Phylogeny_library_in_HEK293/Count_Files/Phylogeny_HEK293_BR_Rep_7.3072.counts",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "30760af210907b55c004ce6c21c8ae8abcb0f67c",
+      "size": 216191,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/30760af210907b55c004ce6c21c8ae8abcb0f67c"
+    },
+    {
+      "path": "002_Processing_sequencing_data/001_Phylogeny_library_in_HEK293/Count_Files/Phylogeny_HEK293_BR_Rep_8.3072.counts",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "d64785855fb07aa45bd432fc012c9488177e6829",
+      "size": 215720,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/d64785855fb07aa45bd432fc012c9488177e6829"
+    },
+    {
+      "path": "002_Processing_sequencing_data/001_Phylogeny_library_in_HEK293/Count_Files/Phylogeny_HEK293_BR_Rep_9.3072.counts",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "31fd5c39f58f9fe80d6760a3168111cf11fe1801",
+      "size": 216064,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/31fd5c39f58f9fe80d6760a3168111cf11fe1801"
+    },
+    {
+      "path": "002_Processing_sequencing_data/001_Phylogeny_library_in_HEK293/Count_Files/Phylogeny_HEK293_TR_Rep_1.3072.counts",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "ef71b17e2925d2b333b21bd7e40b0d055c53b8db",
+      "size": 216213,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/ef71b17e2925d2b333b21bd7e40b0d055c53b8db"
+    },
+    {
+      "path": "002_Processing_sequencing_data/001_Phylogeny_library_in_HEK293/Count_Files/Phylogeny_HEK293_TR_Rep_2.3072.counts",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "c355934fd54e890c4526716aaa982c5e9d1e7301",
+      "size": 216016,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/c355934fd54e890c4526716aaa982c5e9d1e7301"
+    },
+    {
+      "path": "002_Processing_sequencing_data/001_Phylogeny_library_in_HEK293/Count_Files/Phylogeny_HEK293_TR_Rep_3.3072.counts",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "32d9bc105ba9094eb0329735e7a7a8b739b8935c",
+      "size": 217547,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/32d9bc105ba9094eb0329735e7a7a8b739b8935c"
+    },
+    {
+      "path": "002_Processing_sequencing_data/001_Phylogeny_library_in_HEK293/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ddaa75bbf9f345fb4dd8d3d3987630107d896e51",
+      "size": 3088,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/ddaa75bbf9f345fb4dd8d3d3987630107d896e51"
+    },
+    {
+      "path": "002_Processing_sequencing_data/002_Doped_library_with_siRNA",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "469d9f8f302df4336d7538257d85963ab42e6af1",
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/trees/469d9f8f302df4336d7538257d85963ab42e6af1"
+    },
+    {
+      "path": "002_Processing_sequencing_data/002_Doped_library_with_siRNA/001_quality_control.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "6e247d12d35267a9b163b942cfd2d87e8cd4f7a0",
+      "size": 353,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/6e247d12d35267a9b163b942cfd2d87e8cd4f7a0"
+    },
+    {
+      "path": "002_Processing_sequencing_data/002_Doped_library_with_siRNA/002_barcodes.txt",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "a7e5f5c50856548ce635509d5967446a5ff4bda3",
+      "size": 396,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/a7e5f5c50856548ce635509d5967446a5ff4bda3"
+    },
+    {
+      "path": "002_Processing_sequencing_data/002_Doped_library_with_siRNA/002_demultiplex_replicates.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "49c60f0daaba33185657f248460a4a1246e5f256",
+      "size": 659,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/49c60f0daaba33185657f248460a4a1246e5f256"
+    },
+    {
+      "path": "002_Processing_sequencing_data/002_Doped_library_with_siRNA/003_merge_forward_and_reverse_seqs.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "f2c152d80f4169418662b011665c5ecbb047a5ad",
+      "size": 2458,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/f2c152d80f4169418662b011665c5ecbb047a5ad"
+    },
+    {
+      "path": "002_Processing_sequencing_data/002_Doped_library_with_siRNA/004_count_genotypes.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "ca44cd1fb6447f64cfcf6599f160208bef380601",
+      "size": 4057,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/ca44cd1fb6447f64cfcf6599f160208bef380601"
+    },
+    {
+      "path": "002_Processing_sequencing_data/002_Doped_library_with_siRNA/004_count_mutations.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "944d5292ca56414c71234a15d3004201ca4121e9",
+      "size": 2301,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/944d5292ca56414c71234a15d3004201ca4121e9"
+    },
+    {
+      "path": "002_Processing_sequencing_data/002_Doped_library_with_siRNA/Count_Files",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1d141ac6501432fad74813bfd764255e35bd452c",
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/trees/1d141ac6501432fad74813bfd764255e35bd452c"
+    },
+    {
+      "path": "002_Processing_sequencing_data/002_Doped_library_with_siRNA/Count_Files/Control_RNAi_Rep_1.counts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d19ee1b8b6f258c07d5c15cfadf2c0b0675b9892",
+      "size": 45023791,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/d19ee1b8b6f258c07d5c15cfadf2c0b0675b9892"
+    },
+    {
+      "path": "002_Processing_sequencing_data/002_Doped_library_with_siRNA/Count_Files/Control_RNAi_Rep_2.counts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "48d04cfd8a0d03a5a8fc2800e654fd88e398d74a",
+      "size": 50094790,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/48d04cfd8a0d03a5a8fc2800e654fd88e398d74a"
+    },
+    {
+      "path": "002_Processing_sequencing_data/002_Doped_library_with_siRNA/Count_Files/Control_RNAi_Rep_3.counts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c50bb621787e5fc773ae60152fec7b7762600289",
+      "size": 63425276,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/c50bb621787e5fc773ae60152fec7b7762600289"
+    },
+    {
+      "path": "002_Processing_sequencing_data/002_Doped_library_with_siRNA/Count_Files/SF3B_RNAi_Rep_1.counts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c0718e025703ea67c79e36a37c8ff796d8466a8d",
+      "size": 72087360,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/c0718e025703ea67c79e36a37c8ff796d8466a8d"
+    },
+    {
+      "path": "002_Processing_sequencing_data/002_Doped_library_with_siRNA/Count_Files/SF3B_RNAi_Rep_2.counts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bc070da2fe177568969bd314d424317c16c07f59",
+      "size": 60912249,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/bc070da2fe177568969bd314d424317c16c07f59"
+    },
+    {
+      "path": "002_Processing_sequencing_data/002_Doped_library_with_siRNA/Count_Files/SF3B_RNAi_Rep_3.counts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a2c2ec4e18ed228a692d6ca53a8e9a1826821bb4",
+      "size": 79817278,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/a2c2ec4e18ed228a692d6ca53a8e9a1826821bb4"
+    },
+    {
+      "path": "002_Processing_sequencing_data/002_Doped_library_with_siRNA/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9dac4ab7d66a4d47e6ef496ec822f19e6fec60e8",
+      "size": 2591,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/9dac4ab7d66a4d47e6ef496ec822f19e6fec60e8"
+    },
+    {
+      "path": "002_Processing_sequencing_data/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d9f2083fa7e933d8508421d326ebdd4452dd9ada",
+      "size": 144,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/d9f2083fa7e933d8508421d326ebdd4452dd9ada"
+    },
+    {
+      "path": "003_HEK293_Phylogeny_Library_Analysis",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7470a201c24cd95ab2ff0d795c6884fb2132a878",
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/trees/7470a201c24cd95ab2ff0d795c6884fb2132a878"
+    },
+    {
+      "path": "003_HEK293_Phylogeny_Library_Analysis/001_enrichment_scores.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "87838a729c4304ce3e38df87daaefb30c249119e",
+      "size": 3379,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/87838a729c4304ce3e38df87daaefb30c249119e"
+    },
+    {
+      "path": "003_HEK293_Phylogeny_Library_Analysis/001_enrichment_scores.RData",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "596d9624f00650e88776fb3b511faff32d2d930e",
+      "size": 220741,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/596d9624f00650e88776fb3b511faff32d2d930e"
+    },
+    {
+      "path": "003_HEK293_Phylogeny_Library_Analysis/001_enrichment_scores.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1c92630bbec9713305ddce414a98e2d5547ac3b3",
+      "size": 4275,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/1c92630bbec9713305ddce414a98e2d5547ac3b3"
+    },
+    {
+      "path": "003_HEK293_Phylogeny_Library_Analysis/002_psi_scores.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c3ee712c600e926a4a653410f860ac49c10b08bd",
+      "size": 13144,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/c3ee712c600e926a4a653410f860ac49c10b08bd"
+    },
+    {
+      "path": "003_HEK293_Phylogeny_Library_Analysis/002_psi_scores.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b6efc829fd8c71fc38a4add14482fd038f161846",
+      "size": 16021,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/b6efc829fd8c71fc38a4add14482fd038f161846"
+    },
+    {
+      "path": "003_HEK293_Phylogeny_Library_Analysis/002_whole_dataset.RData",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5fb3f92ef12c29b3b1037ea09d890ea8e8cbd375",
+      "size": 342103,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/5fb3f92ef12c29b3b1037ea09d890ea8e8cbd375"
+    },
+    {
+      "path": "003_HEK293_Phylogeny_Library_Analysis/003_psi_across_the_library.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "adef1e20f4ddb316192de2a8be712df2a09fc474",
+      "size": 9084,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/adef1e20f4ddb316192de2a8be712df2a09fc474"
+    },
+    {
+      "path": "003_HEK293_Phylogeny_Library_Analysis/003_psi_across_the_library.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c673876ce95602776567a84038bd5cdb1bd28882",
+      "size": 11219,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/c673876ce95602776567a84038bd5cdb1bd28882"
+    },
+    {
+      "path": "003_HEK293_Phylogeny_Library_Analysis/004_final_vs_starting_psi_list.RData",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a2106e72f4c3541a56834314d3f972629c7dd2aa",
+      "size": 1159898,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/a2106e72f4c3541a56834314d3f972629c7dd2aa"
+    },
+    {
+      "path": "003_HEK293_Phylogeny_Library_Analysis/004_mutation_effects.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "de76fd2a629af3d849ea750b2fe421f6a946ce58",
+      "size": 10068,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/de76fd2a629af3d849ea750b2fe421f6a946ce58"
+    },
+    {
+      "path": "003_HEK293_Phylogeny_Library_Analysis/004_mutation_effects.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7f6fa2af83850180232e4a1d4b1ca985533f275f",
+      "size": 12992,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/7f6fa2af83850180232e4a1d4b1ca985533f275f"
+    },
+    {
+      "path": "003_HEK293_Phylogeny_Library_Analysis/005_non_monotonic_scaling.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "04cedd889bc65086086d219fa1a4645bce83b83a",
+      "size": 28668,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/04cedd889bc65086086d219fa1a4645bce83b83a"
+    },
+    {
+      "path": "003_HEK293_Phylogeny_Library_Analysis/005_non_monotonic_scaling.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9c91fa12e59a97933c783ad2db0ed6729ffd36f8",
+      "size": 10062,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/9c91fa12e59a97933c783ad2db0ed6729ffd36f8"
+    },
+    {
+      "path": "003_HEK293_Phylogeny_Library_Analysis/006_pairwise_epistasis.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "65fc21e01f5d91fcf559b60f47887073b6775de9",
+      "size": 17655,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/65fc21e01f5d91fcf559b60f47887073b6775de9"
+    },
+    {
+      "path": "003_HEK293_Phylogeny_Library_Analysis/006_pairwise_epistasis.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7c20192ca73dbfc2d9da181a49c79d874abf4f34",
+      "size": 18112,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/7c20192ca73dbfc2d9da181a49c79d874abf4f34"
+    },
+    {
+      "path": "003_HEK293_Phylogeny_Library_Analysis/007_genetic_prediction.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "70cdc18dc6c6b1fe767f82cbd4b5b44a61c310e2",
+      "size": 27456,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/70cdc18dc6c6b1fe767f82cbd4b5b44a61c310e2"
+    },
+    {
+      "path": "003_HEK293_Phylogeny_Library_Analysis/007_genetic_prediction.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "178bd564a9bd9455397ee64179457ce7403b3a97",
+      "size": 35310,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/178bd564a9bd9455397ee64179457ce7403b3a97"
+    },
+    {
+      "path": "003_HEK293_Phylogeny_Library_Analysis/008_statistical_tests.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a8159128b40bfff13ea4f0b0b15649475e2227f4",
+      "size": 3406,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/a8159128b40bfff13ea4f0b0b15649475e2227f4"
+    },
+    {
+      "path": "003_HEK293_Phylogeny_Library_Analysis/008_statistical_tests.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "587064e03635bfeed92c92bad59db6762a1f6262",
+      "size": 4687,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/587064e03635bfeed92c92bad59db6762a1f6262"
+    },
+    {
+      "path": "003_HEK293_Phylogeny_Library_Analysis/Equations",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "357a8ff7e8aa54607039c0fc8b5ae76e0941a824",
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/trees/357a8ff7e8aa54607039c0fc8b5ae76e0941a824"
+    },
+    {
+      "path": "003_HEK293_Phylogeny_Library_Analysis/Equations/001_es.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "772d4366323a9337a2e9e1fc5d3e0bc14f88508a",
+      "size": 706,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/772d4366323a9337a2e9e1fc5d3e0bc14f88508a"
+    },
+    {
+      "path": "003_HEK293_Phylogeny_Library_Analysis/Equations/002_psix.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "103ec78273b8c15cf506ce1ba86c7a941d393dc9",
+      "size": 854,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/103ec78273b8c15cf506ce1ba86c7a941d393dc9"
+    },
+    {
+      "path": "003_HEK293_Phylogeny_Library_Analysis/Figures",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8d24d8bcaa711fbeacdb748157556af9868f5097",
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/trees/8d24d8bcaa711fbeacdb748157556af9868f5097"
+    },
+    {
+      "path": "003_HEK293_Phylogeny_Library_Analysis/Figures/002_correlation_heatmap_1.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b696388225bf88a8c55b60fcc1fe240010682f79",
+      "size": 45636,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/b696388225bf88a8c55b60fcc1fe240010682f79"
+    },
+    {
+      "path": "003_HEK293_Phylogeny_Library_Analysis/Figures/002_correlation_heatmap_2.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a1c874ec553f4ffb326fcca7c91be1fddbbd1e84",
+      "size": 55055,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/a1c874ec553f4ffb326fcca7c91be1fddbbd1e84"
+    },
+    {
+      "path": "003_HEK293_Phylogeny_Library_Analysis/Figures/002_correlation_scatterplot_1.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8f494c408b916d3dc61fd548a9faf22764c4196b",
+      "size": 45654,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/8f494c408b916d3dc61fd548a9faf22764c4196b"
+    },
+    {
+      "path": "003_HEK293_Phylogeny_Library_Analysis/Figures/002_correlation_scatterplot_2.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "62c97d68a1005f02e6cd1cfcdfe0132444e01533",
+      "size": 68660,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/62c97d68a1005f02e6cd1cfcdfe0132444e01533"
+    },
+    {
+      "path": "003_HEK293_Phylogeny_Library_Analysis/Figures/002_experimental_validations_vs_enrichment_scores.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b21902e237189ac0c48bdaa5def28c670b5146d7",
+      "size": 29789,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/b21902e237189ac0c48bdaa5def28c670b5146d7"
+    },
+    {
+      "path": "003_HEK293_Phylogeny_Library_Analysis/Figures/002_psi_distribution.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7ddd15ee92d5fc8d1888a545745c8c87777bd519",
+      "size": 20780,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/7ddd15ee92d5fc8d1888a545745c8c87777bd519"
+    },
+    {
+      "path": "003_HEK293_Phylogeny_Library_Analysis/Figures/003_genotype_network_circle.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "32671b6cb03ae702c7475f2671e5af699832ce7c",
+      "size": 412367,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/32671b6cb03ae702c7475f2671e5af699832ce7c"
+    },
+    {
+      "path": "003_HEK293_Phylogeny_Library_Analysis/Figures/003_genotype_network_hamming.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6ec1454b56e95f9ad0c286f96c8de97c3dfd4278",
+      "size": 713304,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/6ec1454b56e95f9ad0c286f96c8de97c3dfd4278"
+    },
+    {
+      "path": "003_HEK293_Phylogeny_Library_Analysis/Figures/003_hamming_distance_frequency.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fc9815c63c710884e894071b81b4eaa98758ab7d",
+      "size": 23036,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/fc9815c63c710884e894071b81b4eaa98758ab7d"
+    },
+    {
+      "path": "003_HEK293_Phylogeny_Library_Analysis/Figures/004_histograms_all_sd.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "03ef115c47a513a364afb2462a3d0428625f7f36",
+      "size": 38272,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/03ef115c47a513a364afb2462a3d0428625f7f36"
+    },
+    {
+      "path": "003_HEK293_Phylogeny_Library_Analysis/Figures/004_histograms_low_sd.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1e37d4fe35dbd6842a0b77d8f43bd8cbbef8c12f",
+      "size": 33676,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/1e37d4fe35dbd6842a0b77d8f43bd8cbbef8c12f"
+    },
+    {
+      "path": "003_HEK293_Phylogeny_Library_Analysis/Figures/004_t19g_distribution_hamming.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "37f31d49b29789741b118578c7a9849a41cecc8a",
+      "size": 17077,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/37f31d49b29789741b118578c7a9849a41cecc8a"
+    },
+    {
+      "path": "003_HEK293_Phylogeny_Library_Analysis/Figures/005_plot_1.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9e3bde324dac28694cc1c307da317ec44d869a0b",
+      "size": 98060,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/9e3bde324dac28694cc1c307da317ec44d869a0b"
+    },
+    {
+      "path": "003_HEK293_Phylogeny_Library_Analysis/Figures/005_plot_2.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eec380edf390bfd9678446fc8dba96f57582e9ee",
+      "size": 130920,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/eec380edf390bfd9678446fc8dba96f57582e9ee"
+    },
+    {
+      "path": "003_HEK293_Phylogeny_Library_Analysis/Figures/005_plot_3.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1bb21a48b297e362695d30d364c60e21159569ab",
+      "size": 133141,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/1bb21a48b297e362695d30d364c60e21159569ab"
+    },
+    {
+      "path": "003_HEK293_Phylogeny_Library_Analysis/Figures/005_plot_4.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5339c099394f85ce264e866275403fa862283105",
+      "size": 168261,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/5339c099394f85ce264e866275403fa862283105"
+    },
+    {
+      "path": "003_HEK293_Phylogeny_Library_Analysis/Figures/005_plot_5.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a7e78cabed514218c49d3f7e5a3671ff6b92305a",
+      "size": 99705,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/a7e78cabed514218c49d3f7e5a3671ff6b92305a"
+    },
+    {
+      "path": "003_HEK293_Phylogeny_Library_Analysis/Figures/005_plot_6.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "67fc13e0b8a7897decbd74c82a08f094e33602d8",
+      "size": 120238,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/67fc13e0b8a7897decbd74c82a08f094e33602d8"
+    },
+    {
+      "path": "003_HEK293_Phylogeny_Library_Analysis/Figures/006_interaction_fdr.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fa5b5b0d8154af2f17d112ba4a6cfa4ea0105db5",
+      "size": 22263,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/fa5b5b0d8154af2f17d112ba4a6cfa4ea0105db5"
+    },
+    {
+      "path": "003_HEK293_Phylogeny_Library_Analysis/Figures/006_scatter_plot_all_variance.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "70b40cbea0152423f73a8134d3d4d3b61ee644b2",
+      "size": 222350,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/70b40cbea0152423f73a8134d3d4d3b61ee644b2"
+    },
+    {
+      "path": "003_HEK293_Phylogeny_Library_Analysis/Figures/006_scatter_plot_low_variance.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7f3e81585cf2f772426e5e4d312549dc712ad896",
+      "size": 130380,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/7f3e81585cf2f772426e5e4d312549dc712ad896"
+    },
+    {
+      "path": "003_HEK293_Phylogeny_Library_Analysis/Figures/006_violin.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "38909a0d87cea847e644ee32f0cbcc328be29b38",
+      "size": 34064,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/38909a0d87cea847e644ee32f0cbcc328be29b38"
+    },
+    {
+      "path": "003_HEK293_Phylogeny_Library_Analysis/Figures/007_plot_01.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2dc5a0fbfbee6c42b8b84fcea752ac75ea01a234",
+      "size": 50790,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/2dc5a0fbfbee6c42b8b84fcea752ac75ea01a234"
+    },
+    {
+      "path": "003_HEK293_Phylogeny_Library_Analysis/Figures/007_plot_02.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "58b1927e1440fecc2b3664b53a5540b63e719ff1",
+      "size": 56122,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/58b1927e1440fecc2b3664b53a5540b63e719ff1"
+    },
+    {
+      "path": "003_HEK293_Phylogeny_Library_Analysis/Figures/007_plot_03.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d3987bf2ac23fe98277c659af1bf465f4e9547b5",
+      "size": 46384,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/d3987bf2ac23fe98277c659af1bf465f4e9547b5"
+    },
+    {
+      "path": "003_HEK293_Phylogeny_Library_Analysis/Figures/007_plot_04.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "39e1f7a89e69a51eb9e0f6bd2712067b1a1cf320",
+      "size": 53884,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/39e1f7a89e69a51eb9e0f6bd2712067b1a1cf320"
+    },
+    {
+      "path": "003_HEK293_Phylogeny_Library_Analysis/Figures/007_plot_05.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "288c89e4f48dce59cf02d10234d347eefc077dd1",
+      "size": 53185,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/288c89e4f48dce59cf02d10234d347eefc077dd1"
+    },
+    {
+      "path": "003_HEK293_Phylogeny_Library_Analysis/Figures/007_plot_06.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c6c1717e3385e3bb8c5d1df84e864924323e6f79",
+      "size": 61231,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/c6c1717e3385e3bb8c5d1df84e864924323e6f79"
+    },
+    {
+      "path": "003_HEK293_Phylogeny_Library_Analysis/Figures/007_plot_07.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e57b0f88aa644fbd397198190b43b8649c2be0b8",
+      "size": 48524,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/e57b0f88aa644fbd397198190b43b8649c2be0b8"
+    },
+    {
+      "path": "003_HEK293_Phylogeny_Library_Analysis/Figures/007_plot_08.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5b463cb6bda9558c7c95328aaf7d85830ddfafae",
+      "size": 62586,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/5b463cb6bda9558c7c95328aaf7d85830ddfafae"
+    },
+    {
+      "path": "003_HEK293_Phylogeny_Library_Analysis/Figures/007_plot_09.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "868b356217daff928cfa0cead0f62952bd31f475",
+      "size": 49440,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/868b356217daff928cfa0cead0f62952bd31f475"
+    },
+    {
+      "path": "003_HEK293_Phylogeny_Library_Analysis/Figures/007_plot_10.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3f7ba66c577d00db63882c9ad9c7dfba916b7f7a",
+      "size": 48955,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/3f7ba66c577d00db63882c9ad9c7dfba916b7f7a"
+    },
+    {
+      "path": "003_HEK293_Phylogeny_Library_Analysis/Figures/007_plot_11.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5bd9e4d4a37c34899c640153842cff7006a621cd",
+      "size": 47750,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/5bd9e4d4a37c34899c640153842cff7006a621cd"
+    },
+    {
+      "path": "003_HEK293_Phylogeny_Library_Analysis/Figures/007_plot_12.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4df67c5aa84355cb2f32b20e47a03c3c85f946c5",
+      "size": 48454,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/4df67c5aa84355cb2f32b20e47a03c3c85f946c5"
+    },
+    {
+      "path": "003_HEK293_Phylogeny_Library_Analysis/Figures/007_plot_13.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "beeb2f07ce6305514c5f73f80387d668df970a7e",
+      "size": 47321,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/beeb2f07ce6305514c5f73f80387d668df970a7e"
+    },
+    {
+      "path": "003_HEK293_Phylogeny_Library_Analysis/Figures/007_plot_14.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "91687143e7755dbf9d740a61e092efce448a0b6b",
+      "size": 49440,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/91687143e7755dbf9d740a61e092efce448a0b6b"
+    },
+    {
+      "path": "003_HEK293_Phylogeny_Library_Analysis/Figures/007_plot_15.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e0597f65cbc6ce202f4324d546d86b37c1ffb26c",
+      "size": 44474,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/e0597f65cbc6ce202f4324d546d86b37c1ffb26c"
+    },
+    {
+      "path": "003_HEK293_Phylogeny_Library_Analysis/Figures/007_plot_16.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c6dba2f8c01b3ad820bcbf3b3c168976515a2c03",
+      "size": 51295,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/c6dba2f8c01b3ad820bcbf3b3c168976515a2c03"
+    },
+    {
+      "path": "003_HEK293_Phylogeny_Library_Analysis/Figures/007_plot_17.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9567971d8a5de377de5a0a4dd3a78df58809d7f0",
+      "size": 42181,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/9567971d8a5de377de5a0a4dd3a78df58809d7f0"
+    },
+    {
+      "path": "003_HEK293_Phylogeny_Library_Analysis/Figures/007_plot_18.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2de581feef04bf7fd30769afaebb09ece9c08a23",
+      "size": 40371,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/2de581feef04bf7fd30769afaebb09ece9c08a23"
+    },
+    {
+      "path": "003_HEK293_Phylogeny_Library_Analysis/Figures/007_plot_19.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3d1bb57fd571009f49226cf4981d435d4507953d",
+      "size": 39558,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/3d1bb57fd571009f49226cf4981d435d4507953d"
+    },
+    {
+      "path": "003_HEK293_Phylogeny_Library_Analysis/Figures/007_plot_20.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1446f46d7e8e1fd9f6af155e502b4e1820d19d9d",
+      "size": 38946,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/1446f46d7e8e1fd9f6af155e502b4e1820d19d9d"
+    },
+    {
+      "path": "003_HEK293_Phylogeny_Library_Analysis/Figures/007_plot_21.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "680b433861baedabe183a6a9e956445ebe7eb40d",
+      "size": 41792,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/680b433861baedabe183a6a9e956445ebe7eb40d"
+    },
+    {
+      "path": "003_HEK293_Phylogeny_Library_Analysis/Figures/007_plot_22.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "90dbc10f89cde0b6403d9fb30e3c7f9135334bb5",
+      "size": 42464,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/90dbc10f89cde0b6403d9fb30e3c7f9135334bb5"
+    },
+    {
+      "path": "003_HEK293_Phylogeny_Library_Analysis/Figures/007_plot_23.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "258edb2ab6aa92c458588886f68bb15c9f41422c",
+      "size": 39043,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/258edb2ab6aa92c458588886f68bb15c9f41422c"
+    },
+    {
+      "path": "003_HEK293_Phylogeny_Library_Analysis/Figures/007_plot_24.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eb5ca4e900d72aa3275c9964adb1ce568105605d",
+      "size": 41917,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/eb5ca4e900d72aa3275c9964adb1ce568105605d"
+    },
+    {
+      "path": "003_HEK293_Phylogeny_Library_Analysis/Figures/007_plot_25.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2f35d821a6218862c2c43297f2f21183fd093b9e",
+      "size": 46992,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/2f35d821a6218862c2c43297f2f21183fd093b9e"
+    },
+    {
+      "path": "003_HEK293_Phylogeny_Library_Analysis/Figures/007_plot_26.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "21ac5e5433e75ea5e2fafed7a58d5bb934f49034",
+      "size": 45429,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/21ac5e5433e75ea5e2fafed7a58d5bb934f49034"
+    },
+    {
+      "path": "003_HEK293_Phylogeny_Library_Analysis/Figures/007_plot_27.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ea40e7e21ed7f66339d9ce1928aedc0338447bf8",
+      "size": 52082,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/ea40e7e21ed7f66339d9ce1928aedc0338447bf8"
+    },
+    {
+      "path": "003_HEK293_Phylogeny_Library_Analysis/Figures/007_plot_28.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9cd157044278838d8e81963fb69abd6f34915d80",
+      "size": 54365,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/9cd157044278838d8e81963fb69abd6f34915d80"
+    },
+    {
+      "path": "003_HEK293_Phylogeny_Library_Analysis/Figures/007_plot_29.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "567f8babad6f8aa8f6bdc5d13cfc99f9c29e8bb9",
+      "size": 39252,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/567f8babad6f8aa8f6bdc5d13cfc99f9c29e8bb9"
+    },
+    {
+      "path": "003_HEK293_Phylogeny_Library_Analysis/Figures/007_plot_30.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "56b69a364a0a1e2f17006a87ce3bdccbdd0c76d6",
+      "size": 38006,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/56b69a364a0a1e2f17006a87ce3bdccbdd0c76d6"
+    },
+    {
+      "path": "003_HEK293_Phylogeny_Library_Analysis/Figures/007_plot_31.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7287636e2554a1e34d166db307caf96ce9ba5e7e",
+      "size": 45558,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/7287636e2554a1e34d166db307caf96ce9ba5e7e"
+    },
+    {
+      "path": "003_HEK293_Phylogeny_Library_Analysis/Figures/007_plot_32.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6e3d66963464c2eb488219303c0fdc747be93080",
+      "size": 44881,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/6e3d66963464c2eb488219303c0fdc747be93080"
+    },
+    {
+      "path": "004_Mathematical_Model",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fd908096c0125c3c43305c06b27e3fa951c5b837",
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/trees/fd908096c0125c3c43305c06b27e3fa951c5b837"
+    },
+    {
+      "path": "004_Mathematical_Model/Equations",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f005c6f9ccda0116d0f3455a798b0b5ed7d512c7",
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/trees/f005c6f9ccda0116d0f3455a798b0b5ed7d512c7"
+    },
+    {
+      "path": "004_Mathematical_Model/Equations/Delta_vs_Starting.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4a3b7ac3e71edd47f85bcc4930a43ef6238bd78c",
+      "size": 2506,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/4a3b7ac3e71edd47f85bcc4930a43ef6238bd78c"
+    },
+    {
+      "path": "004_Mathematical_Model/Equations/Final_vs_Starting.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "72118b526fd94733380a152689bfde2b7d807bb3",
+      "size": 2276,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/72118b526fd94733380a152689bfde2b7d807bb3"
+    },
+    {
+      "path": "004_Mathematical_Model/Equations/Max_effect.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "034ed0a9721f70caaff4ce8d3689c8a012c2f32d",
+      "size": 2190,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/034ed0a9721f70caaff4ce8d3689c8a012c2f32d"
+    },
+    {
+      "path": "004_Mathematical_Model/Equations/equation_1.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8187e5db3a44c2f3c45593cacb73b36cb131cb75",
+      "size": 1361,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/8187e5db3a44c2f3c45593cacb73b36cb131cb75"
+    },
+    {
+      "path": "004_Mathematical_Model/Equations/equation_S3.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9c62fd424cb1bdb952823fb47c84e8eeef814093",
+      "size": 2358,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/9c62fd424cb1bdb952823fb47c84e8eeef814093"
+    },
+    {
+      "path": "004_Mathematical_Model/Figures",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "748dce5834044953a613b8ed2d79b45223ffa457",
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/trees/748dce5834044953a613b8ed2d79b45223ffa457"
+    },
+    {
+      "path": "004_Mathematical_Model/Figures/001_sigmoid_psi_logK6.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "66567901983a63298eb45928cd0032f34b9b2267",
+      "size": 21405,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/66567901983a63298eb45928cd0032f34b9b2267"
+    },
+    {
+      "path": "004_Mathematical_Model/Figures/002_final_vs_starting_psi.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "629c60d369ac16fe09eacca49341c35bc034ef23",
+      "size": 51382,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/629c60d369ac16fe09eacca49341c35bc034ef23"
+    },
+    {
+      "path": "004_Mathematical_Model/Figures/003_delta_vs_starting_psi.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7d067486e14aa8aa59be470209bbe1a897ef551a",
+      "size": 45280,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/7d067486e14aa8aa59be470209bbe1a897ef551a"
+    },
+    {
+      "path": "004_Mathematical_Model/Figures/004_startingPSI_vs_max_effect.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a06cfe7fa6fb1064cca65ee52cd2850e1a78968c",
+      "size": 21936,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/a06cfe7fa6fb1064cca65ee52cd2850e1a78968c"
+    },
+    {
+      "path": "004_Mathematical_Model/Figures/004_startingPSI_vs_max_effect2.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bf2d42afc1cd37e996f32812913415f42e9d34e8",
+      "size": 27884,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/bf2d42afc1cd37e996f32812913415f42e9d34e8"
+    },
+    {
+      "path": "004_Mathematical_Model/Figures/005_tau_delta_vs_starting.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2502790b73e476e4b1dc40887650e092861d8c2a",
+      "size": 32147,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/2502790b73e476e4b1dc40887650e092861d8c2a"
+    },
+    {
+      "path": "004_Mathematical_Model/Figures/005_tau_final_vs_starting.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "90c4ee429575e32877fbd2c4349d329d014b83ff",
+      "size": 39742,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/90c4ee429575e32877fbd2c4349d329d014b83ff"
+    },
+    {
+      "path": "004_Mathematical_Model/Figures/005_tau_sigmoid.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "192488e09cd217169c4415fd66f95d5e55fbfe37",
+      "size": 36519,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/192488e09cd217169c4415fd66f95d5e55fbfe37"
+    },
+    {
+      "path": "004_Mathematical_Model/Figures/006_effect_of_k6_on_PSI_k7.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1accf65bb890b660bef5988dbe32419329ae0b8b",
+      "size": 42346,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/1accf65bb890b660bef5988dbe32419329ae0b8b"
+    },
+    {
+      "path": "004_Mathematical_Model/Figures/006_effect_of_k7_on_PSI_k6.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fc6fcb6a0eabf3891b3aa16f6c8c84f0b7b86fbc",
+      "size": 40919,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/fc6fcb6a0eabf3891b3aa16f6c8c84f0b7b86fbc"
+    },
+    {
+      "path": "004_Mathematical_Model/Figures/006_exon_psi_k7_fold_changes.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "254dba2a37e222713546769ac4549a4fd2218c5a",
+      "size": 21715,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/254dba2a37e222713546769ac4549a4fd2218c5a"
+    },
+    {
+      "path": "004_Mathematical_Model/Figures/006_tau_sigmoid_k7.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2d36ca3b40f2b93608707f6513233f838157ded7",
+      "size": 40327,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/2d36ca3b40f2b93608707f6513233f838157ded7"
+    },
+    {
+      "path": "004_Mathematical_Model/Mathematical_Model.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f83c0fee55afb4df0c256fafbac413434bf94666",
+      "size": 26208,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/f83c0fee55afb4df0c256fafbac413434bf94666"
+    },
+    {
+      "path": "004_Mathematical_Model/Mathematical_Model.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "81118d0b4c98fbdec74bc74923926a488645c1fe",
+      "size": 30909,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/81118d0b4c98fbdec74bc74923926a488645c1fe"
+    },
+    {
+      "path": "005_siRNA_Library_Analysis",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "83c847d58b8413eda8b3b17141485030f1ba0dfd",
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/trees/83c847d58b8413eda8b3b17141485030f1ba0dfd"
+    },
+    {
+      "path": "005_siRNA_Library_Analysis/001_enrichment_scores.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "efbde920079ef7ff572ac0b8af13c8e6bb02247c",
+      "size": 5674,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/efbde920079ef7ff572ac0b8af13c8e6bb02247c"
+    },
+    {
+      "path": "005_siRNA_Library_Analysis/001_enrichment_scores.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "08dfe6025965c667e2fb1b3b478a5aeca3b76e6b",
+      "size": 7265,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/08dfe6025965c667e2fb1b3b478a5aeca3b76e6b"
+    },
+    {
+      "path": "005_siRNA_Library_Analysis/002_analysis.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "296dae2542ef6912ae301ef45e82ad21d52c5d7e",
+      "size": 7103,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/296dae2542ef6912ae301ef45e82ad21d52c5d7e"
+    },
+    {
+      "path": "005_siRNA_Library_Analysis/002_analysis.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a26a56a90a41f78a81368bc4127a3a1c4037cb25",
+      "size": 9292,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/a26a56a90a41f78a81368bc4127a3a1c4037cb25"
+    },
+    {
+      "path": "005_siRNA_Library_Analysis/Data",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0658c1e4cf9def18420d1783ffb5ec0079caa9da",
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/trees/0658c1e4cf9def18420d1783ffb5ec0079caa9da"
+    },
+    {
+      "path": "005_siRNA_Library_Analysis/Data/Doped_Library_Input.zip",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0651d837fdda5a8a79908bcfd72b1e97be5dd4bc",
+      "size": 28714383,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/0651d837fdda5a8a79908bcfd72b1e97be5dd4bc"
+    },
+    {
+      "path": "005_siRNA_Library_Analysis/Equations",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "92d05c9e8a3298924b0ec6d6fa563e5cbe7df392",
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/trees/92d05c9e8a3298924b0ec6d6fa563e5cbe7df392"
+    },
+    {
+      "path": "005_siRNA_Library_Analysis/Equations/001_equation_sicontrol.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "16748699cd5f3cd52a264caae9fa18d8f4cd1b02",
+      "size": 1093,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/16748699cd5f3cd52a264caae9fa18d8f4cd1b02"
+    },
+    {
+      "path": "005_siRNA_Library_Analysis/Equations/001_equation_sisf3b.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3e610238d62ab9c57284162f7b9cf32d8683ed1f",
+      "size": 1072,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/3e610238d62ab9c57284162f7b9cf32d8683ed1f"
+    },
+    {
+      "path": "005_siRNA_Library_Analysis/Equations/002_psi_equation.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cf5e254479765ad3ec42183d0e440aa177bba22a",
+      "size": 1170,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/cf5e254479765ad3ec42183d0e440aa177bba22a"
+    },
+    {
+      "path": "005_siRNA_Library_Analysis/Figures",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "bfafeea200ead0f201a28ec1f6536280cb760915",
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/trees/bfafeea200ead0f201a28ec1f6536280cb760915"
+    },
+    {
+      "path": "005_siRNA_Library_Analysis/Figures/siSF3B_vs_siControl.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9a470e48fc19b4e7649a06e80f2907676a3f8f40",
+      "size": 37177,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/9a470e48fc19b4e7649a06e80f2907676a3f8f40"
+    },
+    {
+      "path": "006_Three_Cell_Lines",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5d3125cb78341f0388657084a0c585763a82670d",
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/trees/5d3125cb78341f0388657084a0c585763a82670d"
+    },
+    {
+      "path": "006_Three_Cell_Lines/001_G44A_in_3_cell_lines.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3d740e34b2890717c101db9fa463e79db6988cfc",
+      "size": 6158,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/3d740e34b2890717c101db9fa463e79db6988cfc"
+    },
+    {
+      "path": "006_Three_Cell_Lines/001_G44A_in_3_cell_lines.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "de56e52b4f32db761501f4175e9abb8191e82526",
+      "size": 7377,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/de56e52b4f32db761501f4175e9abb8191e82526"
+    },
+    {
+      "path": "006_Three_Cell_Lines/002_cell_type_scaling.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "33c5fd5a36dcc93ade7b6b087ce4d12391fa6c0f",
+      "size": 5669,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/33c5fd5a36dcc93ade7b6b087ce4d12391fa6c0f"
+    },
+    {
+      "path": "006_Three_Cell_Lines/002_cell_type_scaling.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fe8882b800c17e31164b192ba54b90382249ad8b",
+      "size": 5924,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/fe8882b800c17e31164b192ba54b90382249ad8b"
+    },
+    {
+      "path": "006_Three_Cell_Lines/Figures",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e62a1e8d1f73ed9e502d62b26e6a71563aff0ecb",
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/trees/e62a1e8d1f73ed9e502d62b26e6a71563aff0ecb"
+    },
+    {
+      "path": "006_Three_Cell_Lines/Figures/Cos7_G44A_1.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "00e058990396ef4c7c27e50e70f4d2d763ad375a",
+      "size": 20023,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/00e058990396ef4c7c27e50e70f4d2d763ad375a"
+    },
+    {
+      "path": "006_Three_Cell_Lines/Figures/Cos7_G44A_2.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7eb5dce2f3c4738dc174ae0cab5947fab743511d",
+      "size": 20273,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/7eb5dce2f3c4738dc174ae0cab5947fab743511d"
+    },
+    {
+      "path": "006_Three_Cell_Lines/Figures/Hek_G44A_1.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d1fd4ea20206a13cd987d68e202231c36a496420",
+      "size": 19754,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/d1fd4ea20206a13cd987d68e202231c36a496420"
+    },
+    {
+      "path": "006_Three_Cell_Lines/Figures/Hek_G44A_2.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d38d5ebacf3df0b525a63a94bf4065263d4297ae",
+      "size": 20064,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/d38d5ebacf3df0b525a63a94bf4065263d4297ae"
+    },
+    {
+      "path": "006_Three_Cell_Lines/Figures/Hek_to_Hela_1.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6d4952be02d222008fdc797b6ddae03548774c6e",
+      "size": 27969,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/6d4952be02d222008fdc797b6ddae03548774c6e"
+    },
+    {
+      "path": "006_Three_Cell_Lines/Figures/Hek_to_Hela_2.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bc013f3fd11bcb1856b388d1ed449c6116462aaf",
+      "size": 24712,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/bc013f3fd11bcb1856b388d1ed449c6116462aaf"
+    },
+    {
+      "path": "006_Three_Cell_Lines/Figures/Hela_G44A_1.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f80f49da5a02886c7309b25620fabec587bf2572",
+      "size": 19986,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/f80f49da5a02886c7309b25620fabec587bf2572"
+    },
+    {
+      "path": "006_Three_Cell_Lines/Figures/Hela_G44A_2.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f44fd0566ac2723a8245b5b3c0a233cbfeec75bb",
+      "size": 20267,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/f44fd0566ac2723a8245b5b3c0a233cbfeec75bb"
+    },
+    {
+      "path": "006_Three_Cell_Lines/Figures/Hela_to_Cos_1.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f6a5ee9a5c3026b08bc681fd9dec5ccb515c5494",
+      "size": 27994,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/f6a5ee9a5c3026b08bc681fd9dec5ccb515c5494"
+    },
+    {
+      "path": "006_Three_Cell_Lines/Figures/Hela_to_Cos_2.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "33961cd779ccc9368951aa407b4ec28f32fe95fa",
+      "size": 23699,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/33961cd779ccc9368951aa407b4ec28f32fe95fa"
+    },
+    {
+      "path": "007_WT1_Exon_5",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a654be43d5a06438d9ded8a7afcac64d64fb7f9b",
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/trees/a654be43d5a06438d9ded8a7afcac64d64fb7f9b"
+    },
+    {
+      "path": "007_WT1_Exon_5/Data",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b5ddd47f20550c9f777907aec94940ecb94addbb",
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/trees/b5ddd47f20550c9f777907aec94940ecb94addbb"
+    },
+    {
+      "path": "007_WT1_Exon_5/Data/All_HexMuts.xlsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "87697deb62532389a373ec5b05388edd60f1b1a3",
+      "size": 656720,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/87697deb62532389a373ec5b05388edd60f1b1a3"
+    },
+    {
+      "path": "007_WT1_Exon_5/Figures",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b0dc54093e817c7f5dc5c5f8aac344699762962a",
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/trees/b0dc54093e817c7f5dc5c5f8aac344699762962a"
+    },
+    {
+      "path": "007_WT1_Exon_5/Figures/ESR_scaling.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a276c58497aa5c45137a0bb8d6d81ad303e2076a",
+      "size": 117533,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/a276c58497aa5c45137a0bb8d6d81ad303e2076a"
+    },
+    {
+      "path": "007_WT1_Exon_5/WT1_exon_5.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a2db0ec92e31090b75966d0b8c1c9d35e3cd83b0",
+      "size": 1147,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/a2db0ec92e31090b75966d0b8c1c9d35e3cd83b0"
+    },
+    {
+      "path": "007_WT1_Exon_5/WT1_exon_5.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "58308cadbae225c3c8d16c916434c0f85ed8468c",
+      "size": 2620,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/58308cadbae225c3c8d16c916434c0f85ed8468c"
+    },
+    {
+      "path": "008_Exon_Inclusion_Across_Conditions",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "254b3cc0afe6c3cbd6c252a1ecc26c844476374d",
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/trees/254b3cc0afe6c3cbd6c252a1ecc26c844476374d"
+    },
+    {
+      "path": "008_Exon_Inclusion_Across_Conditions/001_Brain_vs_Skin",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6b588c0e17f71fff9e50e15dd811e4500daf053f",
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/trees/6b588c0e17f71fff9e50e15dd811e4500daf053f"
+    },
+    {
+      "path": "008_Exon_Inclusion_Across_Conditions/001_Brain_vs_Skin/001_Download_and_process_raw_files.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "93b4193ad6868b42ed2a97f7b0f1552945803f13",
+      "size": 4867,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/93b4193ad6868b42ed2a97f7b0f1552945803f13"
+    },
+    {
+      "path": "008_Exon_Inclusion_Across_Conditions/001_Brain_vs_Skin/001a_download_raw_files.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "fc074ddcae0d62bbc02dab033751a2905192987c",
+      "size": 163,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/fc074ddcae0d62bbc02dab033751a2905192987c"
+    },
+    {
+      "path": "008_Exon_Inclusion_Across_Conditions/001_Brain_vs_Skin/001b_process_raw_files.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "45f467b19328c7f9c5d5014f2516d7724dce07cf",
+      "size": 1482,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/45f467b19328c7f9c5d5014f2516d7724dce07cf"
+    },
+    {
+      "path": "008_Exon_Inclusion_Across_Conditions/001_Brain_vs_Skin/002_Downstream_analysis.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "04eaee38da9f4edcbfbf3e6f5b42ec2fe3340d24",
+      "size": 8216,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/04eaee38da9f4edcbfbf3e6f5b42ec2fe3340d24"
+    },
+    {
+      "path": "008_Exon_Inclusion_Across_Conditions/001_Brain_vs_Skin/002_downstream_analysis.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "47694cc3e614f316d74ce408a9e616590d46226f",
+      "size": 5600,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/47694cc3e614f316d74ce408a9e616590d46226f"
+    },
+    {
+      "path": "008_Exon_Inclusion_Across_Conditions/001_Brain_vs_Skin/Figures",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "88408ec27e5e1cdf09184c265a1b961f996a24fb",
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/trees/88408ec27e5e1cdf09184c265a1b961f996a24fb"
+    },
+    {
+      "path": "008_Exon_Inclusion_Across_Conditions/001_Brain_vs_Skin/Figures/Brain_Skin_Down.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6d3222109a03b2704947278d2d0971aec30968dc",
+      "size": 29092,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/6d3222109a03b2704947278d2d0971aec30968dc"
+    },
+    {
+      "path": "008_Exon_Inclusion_Across_Conditions/001_Brain_vs_Skin/Figures/Brain_Skin_Up.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "be2a0fd22b4e67a9a98cb623c2f9372480a902a9",
+      "size": 27696,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/be2a0fd22b4e67a9a98cb623c2f9372480a902a9"
+    },
+    {
+      "path": "008_Exon_Inclusion_Across_Conditions/002_HepG2_vs_HUVEC",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "63d0b88944fe242a57a61e80516694ab22f9e8e4",
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/trees/63d0b88944fe242a57a61e80516694ab22f9e8e4"
+    },
+    {
+      "path": "008_Exon_Inclusion_Across_Conditions/002_HepG2_vs_HUVEC/001_Download_and_process_raw_files.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b54ccbd2420f4523c1763d3029bed4f626f85152",
+      "size": 5548,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/b54ccbd2420f4523c1763d3029bed4f626f85152"
+    },
+    {
+      "path": "008_Exon_Inclusion_Across_Conditions/002_HepG2_vs_HUVEC/001a_download_raw_files.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "148ac6b04dca8f0630367e6ed953fee521a60821",
+      "size": 973,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/148ac6b04dca8f0630367e6ed953fee521a60821"
+    },
+    {
+      "path": "008_Exon_Inclusion_Across_Conditions/002_HepG2_vs_HUVEC/001b_process_raw_files.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "87f485df9425a469a44ee862853c4a05ca023db0",
+      "size": 1895,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/87f485df9425a469a44ee862853c4a05ca023db0"
+    },
+    {
+      "path": "008_Exon_Inclusion_Across_Conditions/002_HepG2_vs_HUVEC/002_Downstream_analysis.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f372950c5febcaca6bce015687a326124a190cba",
+      "size": 7751,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/f372950c5febcaca6bce015687a326124a190cba"
+    },
+    {
+      "path": "008_Exon_Inclusion_Across_Conditions/002_HepG2_vs_HUVEC/002_downstream_analysis.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f68b7d1e74c511308fe15c78f67a512ea2bdf80c",
+      "size": 6635,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/f68b7d1e74c511308fe15c78f67a512ea2bdf80c"
+    },
+    {
+      "path": "008_Exon_Inclusion_Across_Conditions/002_HepG2_vs_HUVEC/Data",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0c20057ff518882591321b7220d4d717a9e0ec80",
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/trees/0c20057ff518882591321b7220d4d717a9e0ec80"
+    },
+    {
+      "path": "008_Exon_Inclusion_Across_Conditions/002_HepG2_vs_HUVEC/Data/Huvec_HepG2_TABLE.txt",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "f88638bc35fb732f079d1915ed936fb27e4a996b",
+      "size": 23082688,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/f88638bc35fb732f079d1915ed936fb27e4a996b"
+    },
+    {
+      "path": "008_Exon_Inclusion_Across_Conditions/002_HepG2_vs_HUVEC/Data/Huvec_HepG2_TABLE_EXONS.txt",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "9cf6a21936753fb94ad81ba43f0716e5351cd907",
+      "size": 11581632,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/9cf6a21936753fb94ad81ba43f0716e5351cd907"
+    },
+    {
+      "path": "008_Exon_Inclusion_Across_Conditions/002_HepG2_vs_HUVEC/Data/Sample_IDs.txt",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "a9f68605cabdf3705202b1c3c5f3401be9b15cb7",
+      "size": 73,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/a9f68605cabdf3705202b1c3c5f3401be9b15cb7"
+    },
+    {
+      "path": "008_Exon_Inclusion_Across_Conditions/002_HepG2_vs_HUVEC/Figures",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7c87fa826f7610e1b160b064f0a16e0510805bfc",
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/trees/7c87fa826f7610e1b160b064f0a16e0510805bfc"
+    },
+    {
+      "path": "008_Exon_Inclusion_Across_Conditions/002_HepG2_vs_HUVEC/Figures/HepG2_Huvec_Down.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2aa3f168df8c9553eb064b709904621727a1d4b7",
+      "size": 29601,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/2aa3f168df8c9553eb064b709904621727a1d4b7"
+    },
+    {
+      "path": "008_Exon_Inclusion_Across_Conditions/002_HepG2_vs_HUVEC/Figures/HepG2_Huvec_Up.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "74b6a588b62d00c1200b0beddbca8a1377a06615",
+      "size": 28789,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/74b6a588b62d00c1200b0beddbca8a1377a06615"
+    },
+    {
+      "path": "008_Exon_Inclusion_Across_Conditions/003_WT_SF3B1_vs_Mutated_SF3B1",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "217f96c1039c51defce7afe0bc0c64b144d5e240",
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/trees/217f96c1039c51defce7afe0bc0c64b144d5e240"
+    },
+    {
+      "path": "008_Exon_Inclusion_Across_Conditions/003_WT_SF3B1_vs_Mutated_SF3B1/001_Download_and_process_raw_files.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "265b38690c56127be2667c65f064cf744a360578",
+      "size": 5664,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/265b38690c56127be2667c65f064cf744a360578"
+    },
+    {
+      "path": "008_Exon_Inclusion_Across_Conditions/003_WT_SF3B1_vs_Mutated_SF3B1/001a_download_raw_files.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "148ac6b04dca8f0630367e6ed953fee521a60821",
+      "size": 973,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/148ac6b04dca8f0630367e6ed953fee521a60821"
+    },
+    {
+      "path": "008_Exon_Inclusion_Across_Conditions/003_WT_SF3B1_vs_Mutated_SF3B1/001b_process_raw_files.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "ce388a5b0ca93f1abbc1c76b41ce2388b9c059f2",
+      "size": 1960,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/ce388a5b0ca93f1abbc1c76b41ce2388b9c059f2"
+    },
+    {
+      "path": "008_Exon_Inclusion_Across_Conditions/003_WT_SF3B1_vs_Mutated_SF3B1/002_Downstream_analysis.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "53a24e3be51f6354e01e2a2412b574092f3a7652",
+      "size": 7833,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/53a24e3be51f6354e01e2a2412b574092f3a7652"
+    },
+    {
+      "path": "008_Exon_Inclusion_Across_Conditions/003_WT_SF3B1_vs_Mutated_SF3B1/002_downstream_analysis.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7d284e0491f31d9cf05dfb81b87bcc875b4a163f",
+      "size": 6640,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/7d284e0491f31d9cf05dfb81b87bcc875b4a163f"
+    },
+    {
+      "path": "008_Exon_Inclusion_Across_Conditions/003_WT_SF3B1_vs_Mutated_SF3B1/Data",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1deb7f453d2429ecce74378d9e993bf5320df5e3",
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/trees/1deb7f453d2429ecce74378d9e993bf5320df5e3"
+    },
+    {
+      "path": "008_Exon_Inclusion_Across_Conditions/003_WT_SF3B1_vs_Mutated_SF3B1/Data/SF3B1wt_SF3B1mut_TABLE.txt",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "a5bb56c6fcdb22fe98cec6ed9e671d4c2867ce06",
+      "size": 51363747,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/a5bb56c6fcdb22fe98cec6ed9e671d4c2867ce06"
+    },
+    {
+      "path": "008_Exon_Inclusion_Across_Conditions/003_WT_SF3B1_vs_Mutated_SF3B1/Data/SF3B1wt_SF3B1mut_TABLE_EXONS.txt",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "cf557cff258b785e1aec6ae85acca30381473466",
+      "size": 26591653,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/cf557cff258b785e1aec6ae85acca30381473466"
+    },
+    {
+      "path": "008_Exon_Inclusion_Across_Conditions/003_WT_SF3B1_vs_Mutated_SF3B1/Data/Sample_IDs.txt",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "1773e955d4bb2a3a4d753f7a76e50f0d8cf569e9",
+      "size": 412,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/1773e955d4bb2a3a4d753f7a76e50f0d8cf569e9"
+    },
+    {
+      "path": "008_Exon_Inclusion_Across_Conditions/003_WT_SF3B1_vs_Mutated_SF3B1/Figures",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "508cb6364e41fe1cce8dd32db0e0c5267f1c4639",
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/trees/508cb6364e41fe1cce8dd32db0e0c5267f1c4639"
+    },
+    {
+      "path": "008_Exon_Inclusion_Across_Conditions/003_WT_SF3B1_vs_Mutated_SF3B1/Figures/SF3B1_Mutations_Down.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "61a7159725af6929a259e7617266341f4e951e6e",
+      "size": 29807,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/61a7159725af6929a259e7617266341f4e951e6e"
+    },
+    {
+      "path": "008_Exon_Inclusion_Across_Conditions/003_WT_SF3B1_vs_Mutated_SF3B1/Figures/SF3B1_Mutations_Up.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c964463eec78772af63cf698c135a0988e6c3594",
+      "size": 29598,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/c964463eec78772af63cf698c135a0988e6c3594"
+    },
+    {
+      "path": "008_Exon_Inclusion_Across_Conditions/004_2Cell_vs_4Cell",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7f63cf8527772777ed5b812f2e9a7bd5c39256b7",
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/trees/7f63cf8527772777ed5b812f2e9a7bd5c39256b7"
+    },
+    {
+      "path": "008_Exon_Inclusion_Across_Conditions/004_2Cell_vs_4Cell/001_Download_and_process_raw_files.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "59615d1deeac97505b67e711d211a7442370b000",
+      "size": 5954,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/59615d1deeac97505b67e711d211a7442370b000"
+    },
+    {
+      "path": "008_Exon_Inclusion_Across_Conditions/004_2Cell_vs_4Cell/001a_download_raw_files.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "e90ffe40caf0329594e9d326fc07755a28e36fd7",
+      "size": 572,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/e90ffe40caf0329594e9d326fc07755a28e36fd7"
+    },
+    {
+      "path": "008_Exon_Inclusion_Across_Conditions/004_2Cell_vs_4Cell/001b_process_raw_files.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "6b3113db6d1755b3eee2a62142a51283267dbcc6",
+      "size": 2423,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/6b3113db6d1755b3eee2a62142a51283267dbcc6"
+    },
+    {
+      "path": "008_Exon_Inclusion_Across_Conditions/004_2Cell_vs_4Cell/002_Downstream_analysis.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4aa820ff1dd1ddd2cc25b5341cafc29a79554f99",
+      "size": 7712,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/4aa820ff1dd1ddd2cc25b5341cafc29a79554f99"
+    },
+    {
+      "path": "008_Exon_Inclusion_Across_Conditions/004_2Cell_vs_4Cell/002_downstream_analysis.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "574c0b2d2dcfe1027a97c2e9aa43aec8dd4006d5",
+      "size": 6571,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/574c0b2d2dcfe1027a97c2e9aa43aec8dd4006d5"
+    },
+    {
+      "path": "008_Exon_Inclusion_Across_Conditions/004_2Cell_vs_4Cell/Data",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "43d56303d643b595262596c6cc29f28b687542ad",
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/trees/43d56303d643b595262596c6cc29f28b687542ad"
+    },
+    {
+      "path": "008_Exon_Inclusion_Across_Conditions/004_2Cell_vs_4Cell/Data/2C_4C_TABLE.txt",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "dade3e72ee3cbb2b48322f2609be6054a29237d5",
+      "size": 55447726,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/dade3e72ee3cbb2b48322f2609be6054a29237d5"
+    },
+    {
+      "path": "008_Exon_Inclusion_Across_Conditions/004_2Cell_vs_4Cell/Data/2C_4C_TABLE_EXONS.txt",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "5bc6c02d5b8db7ec6907d6a3d959e5ccfc274757",
+      "size": 27924046,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/5bc6c02d5b8db7ec6907d6a3d959e5ccfc274757"
+    },
+    {
+      "path": "008_Exon_Inclusion_Across_Conditions/004_2Cell_vs_4Cell/Data/2C_Embryo1_Samples_to_Merge.txt",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "5e4e4e0f8fefa7ebb7b1bd8c1d03f6a73fd3679a",
+      "size": 55,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/5e4e4e0f8fefa7ebb7b1bd8c1d03f6a73fd3679a"
+    },
+    {
+      "path": "008_Exon_Inclusion_Across_Conditions/004_2Cell_vs_4Cell/Data/2C_Embryo2_Samples_to_Merge.txt",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "f880498711248aa4b1accb5e03fd07201ffe09f1",
+      "size": 55,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/f880498711248aa4b1accb5e03fd07201ffe09f1"
+    },
+    {
+      "path": "008_Exon_Inclusion_Across_Conditions/004_2Cell_vs_4Cell/Data/2C_Embryo3_Samples_to_Merge.txt",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "039cafe332915675aacccb4e484e0caff021165a",
+      "size": 55,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/039cafe332915675aacccb4e484e0caff021165a"
+    },
+    {
+      "path": "008_Exon_Inclusion_Across_Conditions/004_2Cell_vs_4Cell/Data/4C_Embryo1_Samples_to_Merge.txt",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "bf2677fd67af0472b325333e0800340da916b6a8",
+      "size": 111,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/bf2677fd67af0472b325333e0800340da916b6a8"
+    },
+    {
+      "path": "008_Exon_Inclusion_Across_Conditions/004_2Cell_vs_4Cell/Data/4C_Embryo2_Samples_to_Merge.txt",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "e7ccfdfe35a54d636694cdfe802ea3fb0b91cbcb",
+      "size": 111,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/e7ccfdfe35a54d636694cdfe802ea3fb0b91cbcb"
+    },
+    {
+      "path": "008_Exon_Inclusion_Across_Conditions/004_2Cell_vs_4Cell/Data/4C_Embryo3_Samples_to_Merge.txt",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "21fd5b84a0b8703f95cd6b3cf5e56a1ba35805b0",
+      "size": 111,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/21fd5b84a0b8703f95cd6b3cf5e56a1ba35805b0"
+    },
+    {
+      "path": "008_Exon_Inclusion_Across_Conditions/004_2Cell_vs_4Cell/Data/Sample_IDs.txt",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "269bacb7de9966a5baa992950c9afcd668a9cfbb",
+      "size": 486,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/269bacb7de9966a5baa992950c9afcd668a9cfbb"
+    },
+    {
+      "path": "008_Exon_Inclusion_Across_Conditions/004_2Cell_vs_4Cell/Figures",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "33228f65b8ffca27f44065513f0347052116cb05",
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/trees/33228f65b8ffca27f44065513f0347052116cb05"
+    },
+    {
+      "path": "008_Exon_Inclusion_Across_Conditions/004_2Cell_vs_4Cell/Figures/4_Cell_Down.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4871d1ea79e4848fdffd554075537853ff814a52",
+      "size": 32213,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/4871d1ea79e4848fdffd554075537853ff814a52"
+    },
+    {
+      "path": "008_Exon_Inclusion_Across_Conditions/004_2Cell_vs_4Cell/Figures/4_Cell_Up.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5f114d0587605e538d63d4667e7ef5dd058fd29d",
+      "size": 31904,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/5f114d0587605e538d63d4667e7ef5dd058fd29d"
+    },
+    {
+      "path": "008_Exon_Inclusion_Across_Conditions/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "42e91e474a91094c5bbd687beb0e2d7b81b5f9d8",
+      "size": 42,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/42e91e474a91094c5bbd687beb0e2d7b81b5f9d8"
+    },
+    {
+      "path": "009_sQTL_Analysis",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2f1705d67832ade1808d16663e76d3f21a3186cc",
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/trees/2f1705d67832ade1808d16663e76d3f21a3186cc"
+    },
+    {
+      "path": "009_sQTL_Analysis/001_filter_genotypes_file.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6368c1b8219f5efd44cf571c9a1438a31e02fd06",
+      "size": 3664,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/6368c1b8219f5efd44cf571c9a1438a31e02fd06"
+    },
+    {
+      "path": "009_sQTL_Analysis/001_filter_genotypes_file.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "dc011d7de98f0459a8011b8f92a7086fef24ca4e",
+      "size": 1245,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/dc011d7de98f0459a8011b8f92a7086fef24ca4e"
+    },
+    {
+      "path": "009_sQTL_Analysis/002_common_subjects.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fd6b8dc82ab3cf8da54c97255e145bb0a97e0e1a",
+      "size": 1703,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/fd6b8dc82ab3cf8da54c97255e145bb0a97e0e1a"
+    },
+    {
+      "path": "009_sQTL_Analysis/002_common_subjects.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "602bb466fa8909d8ef12d0451b039e45578e5b6d",
+      "size": 784,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/602bb466fa8909d8ef12d0451b039e45578e5b6d"
+    },
+    {
+      "path": "009_sQTL_Analysis/003_psi_estimates.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5b3f90def88ef2fe17daff7e1294ce11b8de1542",
+      "size": 2106,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/5b3f90def88ef2fe17daff7e1294ce11b8de1542"
+    },
+    {
+      "path": "009_sQTL_Analysis/003_psi_estimates.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e804084937143a34e8807ffb126be1894af3da5a",
+      "size": 4191,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/e804084937143a34e8807ffb126be1894af3da5a"
+    },
+    {
+      "path": "009_sQTL_Analysis/004_splicing_events_bed_file.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2bb40c354409dd150f8c5113975d27dde7114773",
+      "size": 7370,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/2bb40c354409dd150f8c5113975d27dde7114773"
+    },
+    {
+      "path": "009_sQTL_Analysis/004a_download_gencode_annotations.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "f833f3158a1aa25b29216de57dfe5e26c33fd493",
+      "size": 188,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/f833f3158a1aa25b29216de57dfe5e26c33fd493"
+    },
+    {
+      "path": "009_sQTL_Analysis/004b_splicing_events_bed_file.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "77cf5fb5f22dfcbd06dabf5b4f33910678ebc58c",
+      "size": 4241,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/77cf5fb5f22dfcbd06dabf5b4f33910678ebc58c"
+    },
+    {
+      "path": "009_sQTL_Analysis/005_gtex_annotations.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d0717edb660efe6f1b1331b7d41ac37dc5dc13a8",
+      "size": 5548,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/d0717edb660efe6f1b1331b7d41ac37dc5dc13a8"
+    },
+    {
+      "path": "009_sQTL_Analysis/005a_gtex_annotations.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "50a7af0c7eb7d23639a163ed4e29de6e6f5e4b3e",
+      "size": 394,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/50a7af0c7eb7d23639a163ed4e29de6e6f5e4b3e"
+    },
+    {
+      "path": "009_sQTL_Analysis/005b_gtex_annotations.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "769e6db8377325bf2f40c687b820aefa7865d0fc",
+      "size": 1929,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/769e6db8377325bf2f40c687b820aefa7865d0fc"
+    },
+    {
+      "path": "009_sQTL_Analysis/006a_test_all_sqtl_candidates.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2035d3b22404dec376dfcfc95fa55f1b9fb63373",
+      "size": 4900,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/2035d3b22404dec376dfcfc95fa55f1b9fb63373"
+    },
+    {
+      "path": "009_sQTL_Analysis/006a_test_all_sqtl_candidates.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "6cc018ca42e0d4313329d125e7e3f3460321a905",
+      "size": 5786,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/6cc018ca42e0d4313329d125e7e3f3460321a905"
+    },
+    {
+      "path": "009_sQTL_Analysis/006b_process_vcf.awk",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "f3acf5e36c2b747d2b5a933190464b6ac385ce03",
+      "size": 283,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/f3acf5e36c2b747d2b5a933190464b6ac385ce03"
+    },
+    {
+      "path": "009_sQTL_Analysis/006c_sQTL_test.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1fea253c29d1e91290925f9ea28179719da8f185",
+      "size": 5332,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/1fea253c29d1e91290925f9ea28179719da8f185"
+    },
+    {
+      "path": "009_sQTL_Analysis/006c_sQTL_test.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1088109aaa8fc41fae5681673336a45424b15c59",
+      "size": 8053,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/1088109aaa8fc41fae5681673336a45424b15c59"
+    },
+    {
+      "path": "009_sQTL_Analysis/007_combine_splicing_events_with_significant_sQTLs.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "29f7312a3170185abfbd145864d16c9df6de4d92",
+      "size": 5882,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/29f7312a3170185abfbd145864d16c9df6de4d92"
+    },
+    {
+      "path": "009_sQTL_Analysis/007_combine_splicing_events_with_significant_sQTLs.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "da32bcd82c5ceced4723e98a40092f1dffe0f46d",
+      "size": 8331,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/da32bcd82c5ceced4723e98a40092f1dffe0f46d"
+    },
+    {
+      "path": "009_sQTL_Analysis/008a_all_sQTL_effects_per_tissue.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3aaf856383164ad00a4ff6333c59a5814b390491",
+      "size": 4313,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/3aaf856383164ad00a4ff6333c59a5814b390491"
+    },
+    {
+      "path": "009_sQTL_Analysis/008a_all_sQTL_effects_per_tissue.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "88d88345b70ccd2b36458c632ad94b76d9d20459",
+      "size": 6309,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/88d88345b70ccd2b36458c632ad94b76d9d20459"
+    },
+    {
+      "path": "009_sQTL_Analysis/008b_sQTL_effects_per_tissue.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3adbc8f8cc8de3854f4c21b9e61d07097afc2505",
+      "size": 4007,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/3adbc8f8cc8de3854f4c21b9e61d07097afc2505"
+    },
+    {
+      "path": "009_sQTL_Analysis/008b_sQTL_effects_per_tissue.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "21bb1d964fc394017c7440acd5b6086fbab9c261",
+      "size": 6597,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/21bb1d964fc394017c7440acd5b6086fbab9c261"
+    },
+    {
+      "path": "009_sQTL_Analysis/009_scaling_all_sqtls.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b675eebe9d027bbdd4c18b4b28ce93b00946d27c",
+      "size": 5310,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/b675eebe9d027bbdd4c18b4b28ce93b00946d27c"
+    },
+    {
+      "path": "009_sQTL_Analysis/009_scaling_all_sqtls.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ab282da2d29d875e2e7ed699cda82cb023da8c22",
+      "size": 6552,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/ab282da2d29d875e2e7ed699cda82cb023da8c22"
+    },
+    {
+      "path": "009_sQTL_Analysis/010_scaling_two_examples.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b36cdf16184fc1cfd301c130fb63134af9d0d6a7",
+      "size": 7927,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/b36cdf16184fc1cfd301c130fb63134af9d0d6a7"
+    },
+    {
+      "path": "009_sQTL_Analysis/010_scaling_two_examples.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "915bcd4e9dd777c99351cdebac22e27ecff4dd00",
+      "size": 9175,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/915bcd4e9dd777c99351cdebac22e27ecff4dd00"
+    },
+    {
+      "path": "009_sQTL_Analysis/Data",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0ee7d8bc41462b64033b09fef48b8ff6546165de",
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/trees/0ee7d8bc41462b64033b09fef48b8ff6546165de"
+    },
+    {
+      "path": "009_sQTL_Analysis/Data/007_Significant_Splicing_Events_sQTLs_Combos.txt",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "ce61bcef1566c40c455eb2eb3000ddf8873fd0cc",
+      "size": 13699709,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/ce61bcef1566c40c455eb2eb3000ddf8873fd0cc"
+    },
+    {
+      "path": "009_sQTL_Analysis/Figures",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5ce05317b292ba72bfbc40ccb2c901b633d936ae",
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/trees/5ce05317b292ba72bfbc40ccb2c901b633d936ae"
+    },
+    {
+      "path": "009_sQTL_Analysis/Figures/ASPH_exon_3.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0fe1764fcf44e4df0a9a8f58f2e32689e9a2962c",
+      "size": 49067,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/0fe1764fcf44e4df0a9a8f58f2e32689e9a2962c"
+    },
+    {
+      "path": "009_sQTL_Analysis/Figures/PPA2_exon_6.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e70e3142bfb02d12187b0dec2f43227a563527f2",
+      "size": 47684,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/e70e3142bfb02d12187b0dec2f43227a563527f2"
+    },
+    {
+      "path": "009_sQTL_Analysis/Figures/sQTL_down.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "77427fa4c572882c7a07612334d95fc967e4e549",
+      "size": 25147,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/77427fa4c572882c7a07612334d95fc967e4e549"
+    },
+    {
+      "path": "009_sQTL_Analysis/Figures/sQTL_up.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8b9c5986b8ec393853e5cf5463b1f033becba4d5",
+      "size": 24799,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/8b9c5986b8ec393853e5cf5463b1f033becba4d5"
+    },
+    {
+      "path": "009_sQTL_Analysis/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dab8de4715063ea142ca95c311a063c2fe3c1ce3",
+      "size": 16,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/dab8de4715063ea142ca95c311a063c2fe3c1ce3"
+    },
+    {
+      "path": "010_Alternative_5_Splice_Site_Library",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5bcfd9fc43223b0a3dc8848166abc2a8eb0e115f",
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/trees/5bcfd9fc43223b0a3dc8848166abc2a8eb0e115f"
+    },
+    {
+      "path": "010_Alternative_5_Splice_Site_Library/001_preprocess_raw_file.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e2a67c5adb2df78cb56b431bf0533d317a7774d4",
+      "size": 2843,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/e2a67c5adb2df78cb56b431bf0533d317a7774d4"
+    },
+    {
+      "path": "010_Alternative_5_Splice_Site_Library/001_preprocess_raw_file.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "eaa9090b7a2c55bbde1a8da6895f5a3f52996d0c",
+      "size": 188,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/eaa9090b7a2c55bbde1a8da6895f5a3f52996d0c"
+    },
+    {
+      "path": "010_Alternative_5_Splice_Site_Library/002_final_vs_starting_psu.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e7b193b525e9d61f7240964ade267bccd6434008",
+      "size": 6859,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/e7b193b525e9d61f7240964ade267bccd6434008"
+    },
+    {
+      "path": "010_Alternative_5_Splice_Site_Library/002_final_vs_starting_psu.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f6f93dc92edfa1879770d37da5d55ed6dff1557f",
+      "size": 9112,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/f6f93dc92edfa1879770d37da5d55ed6dff1557f"
+    },
+    {
+      "path": "010_Alternative_5_Splice_Site_Library/Data",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d94113841840172d31eeeaf6e8ddec0336124e57",
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/trees/d94113841840172d31eeeaf6e8ddec0336124e57"
+    },
+    {
+      "path": "010_Alternative_5_Splice_Site_Library/Data/A5SS_dataset.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8592fe062d9e1057b08e60dc57bc44c9f0e2dc52",
+      "size": 652987,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/8592fe062d9e1057b08e60dc57bc44c9f0e2dc52"
+    },
+    {
+      "path": "010_Alternative_5_Splice_Site_Library/Data/A5SS_sequences.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "acb6c250f48c730cd504e7425f2cfd118f7d34eb",
+      "size": 35263229,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/acb6c250f48c730cd504e7425f2cfd118f7d34eb"
+    },
+    {
+      "path": "010_Alternative_5_Splice_Site_Library/Figures",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "eb1db1e82cf219fc162aebdf1dba08ab12169e94",
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/trees/eb1db1e82cf219fc162aebdf1dba08ab12169e94"
+    },
+    {
+      "path": "010_Alternative_5_Splice_Site_Library/Figures/GEO_screenshot.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5bd340d8531dc47bc9da52045f8426bf10756608",
+      "size": 16254,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/5bd340d8531dc47bc9da52045f8426bf10756608"
+    },
+    {
+      "path": "010_Alternative_5_Splice_Site_Library/Figures/SD1_PSU.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e745729bfa20158a0fa34ed1821512884e019a9b",
+      "size": 1066323,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/e745729bfa20158a0fa34ed1821512884e019a9b"
+    },
+    {
+      "path": "010_Alternative_5_Splice_Site_Library/Figures/SD2_PSU.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "92326f0fc58a7a37281bfb0d54d7e52902ae06c2",
+      "size": 1018640,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/92326f0fc58a7a37281bfb0d54d7e52902ae06c2"
+    },
+    {
+      "path": "011_Splice_Site_Usage_Across_Conditions",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6126a2ebc9b793f9317d93f240f07de8cc1e8efd",
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/trees/6126a2ebc9b793f9317d93f240f07de8cc1e8efd"
+    },
+    {
+      "path": "011_Splice_Site_Usage_Across_Conditions/001_Brain_vs_Skin",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7cc3084c10416fda9e845aab1ede6f1541c6d5be",
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/trees/7cc3084c10416fda9e845aab1ede6f1541c6d5be"
+    },
+    {
+      "path": "011_Splice_Site_Usage_Across_Conditions/001_Brain_vs_Skin/001_Download_and_process_raw_files.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e7a842a99c36fab19297e5be45bff3a1ce9f717c",
+      "size": 5100,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/e7a842a99c36fab19297e5be45bff3a1ce9f717c"
+    },
+    {
+      "path": "011_Splice_Site_Usage_Across_Conditions/001_Brain_vs_Skin/001a_download_raw_files.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "fc074ddcae0d62bbc02dab033751a2905192987c",
+      "size": 163,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/fc074ddcae0d62bbc02dab033751a2905192987c"
+    },
+    {
+      "path": "011_Splice_Site_Usage_Across_Conditions/001_Brain_vs_Skin/001b_process_raw_files.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d060a84a29c7e426af48c69da4c8f1cdfe2b74dc",
+      "size": 1488,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/d060a84a29c7e426af48c69da4c8f1cdfe2b74dc"
+    },
+    {
+      "path": "011_Splice_Site_Usage_Across_Conditions/001_Brain_vs_Skin/002_Downstream_analysis.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f5466c8fdd25d73aeb45df67d412529b7c727d44",
+      "size": 8815,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/f5466c8fdd25d73aeb45df67d412529b7c727d44"
+    },
+    {
+      "path": "011_Splice_Site_Usage_Across_Conditions/001_Brain_vs_Skin/002_downstream_analysis.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f0440247f01b4a19245c4d4c1dc897a3c95b91ac",
+      "size": 5563,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/f0440247f01b4a19245c4d4c1dc897a3c95b91ac"
+    },
+    {
+      "path": "011_Splice_Site_Usage_Across_Conditions/001_Brain_vs_Skin/Figures",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "26a2884997bfd430a878b0f262b44dbab291975f",
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/trees/26a2884997bfd430a878b0f262b44dbab291975f"
+    },
+    {
+      "path": "011_Splice_Site_Usage_Across_Conditions/001_Brain_vs_Skin/Figures/Brain_Skin_Down_3.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5022f15d207c103d0d271c08d475a9799e732174",
+      "size": 30339,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/5022f15d207c103d0d271c08d475a9799e732174"
+    },
+    {
+      "path": "011_Splice_Site_Usage_Across_Conditions/001_Brain_vs_Skin/Figures/Brain_Skin_Down_5.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ea5f5d74a5beb7510bbbbba259ec1825d65022b8",
+      "size": 31317,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/ea5f5d74a5beb7510bbbbba259ec1825d65022b8"
+    },
+    {
+      "path": "011_Splice_Site_Usage_Across_Conditions/001_Brain_vs_Skin/Figures/Brain_Skin_Up_3.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e6a237fd9245305ba8ee61c46bb9f18e5d646b65",
+      "size": 30391,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/e6a237fd9245305ba8ee61c46bb9f18e5d646b65"
+    },
+    {
+      "path": "011_Splice_Site_Usage_Across_Conditions/001_Brain_vs_Skin/Figures/Brain_Skin_Up_5.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c46297137bb08be01e96d6e6b8966fa76c311c85",
+      "size": 31012,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/c46297137bb08be01e96d6e6b8966fa76c311c85"
+    },
+    {
+      "path": "011_Splice_Site_Usage_Across_Conditions/002_HepG2_vs_HUVEC",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "03359aa798fc8e43f1756c2fe0518f7f08daa0e4",
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/trees/03359aa798fc8e43f1756c2fe0518f7f08daa0e4"
+    },
+    {
+      "path": "011_Splice_Site_Usage_Across_Conditions/002_HepG2_vs_HUVEC/Analysis.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "83e9a394f0571465331c48cd2f3f83a8a1a50046",
+      "size": 9330,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/83e9a394f0571465331c48cd2f3f83a8a1a50046"
+    },
+    {
+      "path": "011_Splice_Site_Usage_Across_Conditions/002_HepG2_vs_HUVEC/Data",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fa82d340b4e18cbd0ee8d086cda55158576fae91",
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/trees/fa82d340b4e18cbd0ee8d086cda55158576fae91"
+    },
+    {
+      "path": "011_Splice_Site_Usage_Across_Conditions/002_HepG2_vs_HUVEC/Data/Huvec_HepG2_TABLE_ALTA.txt",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "cdb7249fd352b3975de4b7d41da29a9f0010f6cd",
+      "size": 1435621,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/cdb7249fd352b3975de4b7d41da29a9f0010f6cd"
+    },
+    {
+      "path": "011_Splice_Site_Usage_Across_Conditions/002_HepG2_vs_HUVEC/Data/Huvec_HepG2_TABLE_ALTD.txt",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "6de2f4ee09772c317e622c60ed7c72df0ea98d41",
+      "size": 1090965,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/6de2f4ee09772c317e622c60ed7c72df0ea98d41"
+    },
+    {
+      "path": "011_Splice_Site_Usage_Across_Conditions/002_HepG2_vs_HUVEC/Figures",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c92555db55c3dcb7e03f1b5e4d2c5707dbbc49f3",
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/trees/c92555db55c3dcb7e03f1b5e4d2c5707dbbc49f3"
+    },
+    {
+      "path": "011_Splice_Site_Usage_Across_Conditions/002_HepG2_vs_HUVEC/Figures/HepG2_Huvec_Down_3.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b28ac99123445310fc08245f804bcc668d2f4333",
+      "size": 31560,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/b28ac99123445310fc08245f804bcc668d2f4333"
+    },
+    {
+      "path": "011_Splice_Site_Usage_Across_Conditions/002_HepG2_vs_HUVEC/Figures/HepG2_Huvec_Down_5.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a993752451aaf73b8333a23bb179af479dfab6b7",
+      "size": 33544,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/a993752451aaf73b8333a23bb179af479dfab6b7"
+    },
+    {
+      "path": "011_Splice_Site_Usage_Across_Conditions/002_HepG2_vs_HUVEC/Figures/HepG2_Huvec_Up_3.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fe7a198fbefaf502bf5bdf637a46e86cba6420cd",
+      "size": 30980,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/fe7a198fbefaf502bf5bdf637a46e86cba6420cd"
+    },
+    {
+      "path": "011_Splice_Site_Usage_Across_Conditions/002_HepG2_vs_HUVEC/Figures/HepG2_Huvec_Up_5.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "899a211904c87c120e8131f7a6461ec1cb68d80d",
+      "size": 33509,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/899a211904c87c120e8131f7a6461ec1cb68d80d"
+    },
+    {
+      "path": "011_Splice_Site_Usage_Across_Conditions/002_HepG2_vs_HUVEC/boxplots.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "44d0f9b91af5d6406fc5b45e1895169b6b50b757",
+      "size": 11996,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/44d0f9b91af5d6406fc5b45e1895169b6b50b757"
+    },
+    {
+      "path": "011_Splice_Site_Usage_Across_Conditions/002_HepG2_vs_HUVEC/build_tables.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "52633e09dfd2f51769f1564ce9467d25401c1450",
+      "size": 284,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/52633e09dfd2f51769f1564ce9467d25401c1450"
+    },
+    {
+      "path": "011_Splice_Site_Usage_Across_Conditions/003_WT_SF3B1_vs_Mutated_SF3B1",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "efa7a83420e64796276c2da0f2a88a034c714c2f",
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/trees/efa7a83420e64796276c2da0f2a88a034c714c2f"
+    },
+    {
+      "path": "011_Splice_Site_Usage_Across_Conditions/003_WT_SF3B1_vs_Mutated_SF3B1/Analysis.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6432010ee9c49e26ad5581ce7f4cdda1f2c28483",
+      "size": 9512,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/6432010ee9c49e26ad5581ce7f4cdda1f2c28483"
+    },
+    {
+      "path": "011_Splice_Site_Usage_Across_Conditions/003_WT_SF3B1_vs_Mutated_SF3B1/Data",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c16b294acbe49f117be562fc607b6b55f1c66125",
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/trees/c16b294acbe49f117be562fc607b6b55f1c66125"
+    },
+    {
+      "path": "011_Splice_Site_Usage_Across_Conditions/003_WT_SF3B1_vs_Mutated_SF3B1/Data/SF3B1wt_SF3B1mut_TABLE_ALTA.txt",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "bc5abc811b676bb01f1309ea09576579c3bd95fc",
+      "size": 3126210,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/bc5abc811b676bb01f1309ea09576579c3bd95fc"
+    },
+    {
+      "path": "011_Splice_Site_Usage_Across_Conditions/003_WT_SF3B1_vs_Mutated_SF3B1/Data/SF3B1wt_SF3B1mut_TABLE_ALTD.txt",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "dafbf3dfb4caf3b35580dc75b5c3168f69327794",
+      "size": 2373145,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/dafbf3dfb4caf3b35580dc75b5c3168f69327794"
+    },
+    {
+      "path": "011_Splice_Site_Usage_Across_Conditions/003_WT_SF3B1_vs_Mutated_SF3B1/Figures",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f39d214b453a88ec4fb86f816be5acb7c361422a",
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/trees/f39d214b453a88ec4fb86f816be5acb7c361422a"
+    },
+    {
+      "path": "011_Splice_Site_Usage_Across_Conditions/003_WT_SF3B1_vs_Mutated_SF3B1/Figures/SF3B1_Mutations_Down_3.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7beccb3571ad16c406afbbf48362fb350c22ff79",
+      "size": 31511,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/7beccb3571ad16c406afbbf48362fb350c22ff79"
+    },
+    {
+      "path": "011_Splice_Site_Usage_Across_Conditions/003_WT_SF3B1_vs_Mutated_SF3B1/Figures/SF3B1_Mutations_Down_5.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "918e23bbaf88c6c7924084e407eba376a5e19cca",
+      "size": 31299,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/918e23bbaf88c6c7924084e407eba376a5e19cca"
+    },
+    {
+      "path": "011_Splice_Site_Usage_Across_Conditions/003_WT_SF3B1_vs_Mutated_SF3B1/Figures/SF3B1_Mutations_Up_3.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "577b38770145235eef95f2c9f7a3bf5a9668a8c6",
+      "size": 30231,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/577b38770145235eef95f2c9f7a3bf5a9668a8c6"
+    },
+    {
+      "path": "011_Splice_Site_Usage_Across_Conditions/003_WT_SF3B1_vs_Mutated_SF3B1/Figures/SF3B1_Mutations_Up_5.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bfeb207aa9b9d19b2d82308d906c63cffe7776c5",
+      "size": 30460,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/bfeb207aa9b9d19b2d82308d906c63cffe7776c5"
+    },
+    {
+      "path": "011_Splice_Site_Usage_Across_Conditions/003_WT_SF3B1_vs_Mutated_SF3B1/boxplots.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5c6ac040320a5ef6a662bb6a3c3f9820634e09f2",
+      "size": 12014,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/5c6ac040320a5ef6a662bb6a3c3f9820634e09f2"
+    },
+    {
+      "path": "011_Splice_Site_Usage_Across_Conditions/003_WT_SF3B1_vs_Mutated_SF3B1/build_tables.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "b787ae8828bffbccb88266fb13391219b1f70831",
+      "size": 304,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/b787ae8828bffbccb88266fb13391219b1f70831"
+    },
+    {
+      "path": "011_Splice_Site_Usage_Across_Conditions/004_2Cell_vs_4Cell",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "86de1580c24ca7e585a48ffcb3d12dcdb1177ec4",
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/trees/86de1580c24ca7e585a48ffcb3d12dcdb1177ec4"
+    },
+    {
+      "path": "011_Splice_Site_Usage_Across_Conditions/004_2Cell_vs_4Cell/Analysis.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "583e0908a223029112b07be03304e620188a0a56",
+      "size": 9330,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/583e0908a223029112b07be03304e620188a0a56"
+    },
+    {
+      "path": "011_Splice_Site_Usage_Across_Conditions/004_2Cell_vs_4Cell/Data",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "460111c07dfa15bf4a9d489597caaaf9b20f58b3",
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/trees/460111c07dfa15bf4a9d489597caaaf9b20f58b3"
+    },
+    {
+      "path": "011_Splice_Site_Usage_Across_Conditions/004_2Cell_vs_4Cell/Data/2C_4C_TABLE_ALTA.txt",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "f46c83a7bbea20d31486fa269d0174d36134b50d",
+      "size": 3289927,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/f46c83a7bbea20d31486fa269d0174d36134b50d"
+    },
+    {
+      "path": "011_Splice_Site_Usage_Across_Conditions/004_2Cell_vs_4Cell/Data/2C_4C_TABLE_ALTD.txt",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "5e2de5a3a5ec291e3273c0868ed57690d9e28153",
+      "size": 2478187,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/5e2de5a3a5ec291e3273c0868ed57690d9e28153"
+    },
+    {
+      "path": "011_Splice_Site_Usage_Across_Conditions/004_2Cell_vs_4Cell/Figures",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c3246a9dc26ef86d78488e00af66a1d0b46869de",
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/trees/c3246a9dc26ef86d78488e00af66a1d0b46869de"
+    },
+    {
+      "path": "011_Splice_Site_Usage_Across_Conditions/004_2Cell_vs_4Cell/Figures/4_Cell_Down_3.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "13b9087717a78858db5a6174bd91ff67bf408f64",
+      "size": 32244,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/13b9087717a78858db5a6174bd91ff67bf408f64"
+    },
+    {
+      "path": "011_Splice_Site_Usage_Across_Conditions/004_2Cell_vs_4Cell/Figures/4_Cell_Down_5.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c35e3c042cfc5f0e5caa5248302b8449a000d6c2",
+      "size": 34948,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/c35e3c042cfc5f0e5caa5248302b8449a000d6c2"
+    },
+    {
+      "path": "011_Splice_Site_Usage_Across_Conditions/004_2Cell_vs_4Cell/Figures/4_Cell_Up_3.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3072b7f6ea2f5cb79da71d5fc6f8865e39025f88",
+      "size": 31594,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/3072b7f6ea2f5cb79da71d5fc6f8865e39025f88"
+    },
+    {
+      "path": "011_Splice_Site_Usage_Across_Conditions/004_2Cell_vs_4Cell/Figures/4_Cell_Up_5.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4977e5a476cabc4624aa0e1af39d6739f2cc2b11",
+      "size": 34102,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/4977e5a476cabc4624aa0e1af39d6739f2cc2b11"
+    },
+    {
+      "path": "011_Splice_Site_Usage_Across_Conditions/004_2Cell_vs_4Cell/boxplots.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "43ff30561fd0b5bba00381c2478f76e25ad13a63",
+      "size": 11840,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/43ff30561fd0b5bba00381c2478f76e25ad13a63"
+    },
+    {
+      "path": "011_Splice_Site_Usage_Across_Conditions/004_2Cell_vs_4Cell/build_tables.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "76167badd431343bc989730312c951044ec099fb",
+      "size": 260,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/76167badd431343bc989730312c951044ec099fb"
+    },
+    {
+      "path": "Graphical_Abstract.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e92d1044cc56e5ef092ea880de082581b916c49d",
+      "size": 177732,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/e92d1044cc56e5ef092ea880de082581b916c49d"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "94a9ed024d3859793618152ea559a168bbcbb5e2",
+      "size": 35147,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/94a9ed024d3859793618152ea559a168bbcbb5e2"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "06c477394555bedfaa477cfb13200132edb0ab58",
+      "size": 645,
+      "url": "https://api.github.com/repos/lehner-lab/Scaling_Law/git/blobs/06c477394555bedfaa477cfb13200132edb0ab58"
+    }
+  ],
+  "truncated": false
+}

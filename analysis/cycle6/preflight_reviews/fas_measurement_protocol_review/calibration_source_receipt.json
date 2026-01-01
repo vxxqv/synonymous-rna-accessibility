@@ -1,0 +1,11 @@
+{
+  "url": "https://raw.githubusercontent.com/lehner-lab/Scaling_Law/b87064c39a553b0759d86c2b428813c58dc17ae2/003_HEK293_Phylogeny_Library_Analysis/002_psi_scores.R",
+  "status": 200,
+  "sha256": "d05b9a172ceab2dc085379622db227f7cfe05fb1a0fd4116d5a64406947e41cb",
+  "bytes": 13144,
+  "scope": "author code only; numerical literals masked before display",
+  "git_blob": "c3ee712c600e926a4a653410f860ac49c10b08bd",
+  "expected_git_blob": "c3ee712c600e926a4a653410f860ac49c10b08bd",
+  "masked_numeric_tokens": 248,
+  "masked_sha256": "9c5f8509827e1545227f8d90cfaaf9dde897dabf3feb5b6197b6bf2aefa17031"
+}

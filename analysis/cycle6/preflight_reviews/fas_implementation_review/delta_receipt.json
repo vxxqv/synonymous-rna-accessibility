@@ -1,0 +1,50 @@
+{
+  "status": "PASS_NO_OPEN_BLOCKERS_IN_REVIEWED_DOMAIN",
+  "source_hashes": {
+    "ordinal_geometry.py": "8872d6452afe4ccbf84e61450d4b1bfbdadf26469f20c0e24452f3abc205f9ac",
+    "verify_synthetic.py": "a098549d48dcce62b4292cd433266e09265ba3f5c46bd08cf845c1a34e998656"
+  },
+  "runs": [
+    {
+      "label": "normal",
+      "command": [
+        "C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\work\\env\\Scripts\\python.exe",
+        "C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\work\\research_cycle6\\fas_implementation_review\\harness_delta\\normal\\verify_synthetic.py"
+      ],
+      "exit_code": 0,
+      "output_exists": true,
+      "stderr": "",
+      "output_sha256": "7e128ed621ceaeb430f090f9460a4cd7fda27f78a375a85ebd75f587c4ad4bcf"
+    },
+    {
+      "label": "O",
+      "command": [
+        "C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\work\\env\\Scripts\\python.exe",
+        "-O",
+        "C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\work\\research_cycle6\\fas_implementation_review\\harness_delta\\O\\verify_synthetic.py"
+      ],
+      "exit_code": 1,
+      "output_exists": false,
+      "stderr": "Traceback (most recent call last):\n  File \"C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\work\\research_cycle6\\fas_implementation_review\\harness_delta\\O\\verify_synthetic.py\", line 3, in <module>\n    raise RuntimeError('Synthetic verification requires Python assertions enabled')\nRuntimeError: Synthetic verification requires Python assertions enabled\n",
+      "output_sha256": null
+    },
+    {
+      "label": "OO",
+      "command": [
+        "C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\work\\env\\Scripts\\python.exe",
+        "-OO",
+        "C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\work\\research_cycle6\\fas_implementation_review\\harness_delta\\OO\\verify_synthetic.py"
+      ],
+      "exit_code": 1,
+      "output_exists": false,
+      "stderr": "Traceback (most recent call last):\n  File \"C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\work\\research_cycle6\\fas_implementation_review\\harness_delta\\OO\\verify_synthetic.py\", line 3, in <module>\n    raise RuntimeError('Synthetic verification requires Python assertions enabled')\nRuntimeError: Synthetic verification requires Python assertions enabled\n",
+      "output_sha256": null
+    }
+  ],
+  "normal_previous16results_unchanged": true,
+  "normal_total_checks": 17,
+  "optimized_O_and_OO_refused_before_evidence_output": true,
+  "production_numeric_source_unchanged_since_independent_checks": true,
+  "scope": "Narrow synthetic harness delta only, no biological inputs",
+  "script_sha256": "a705f12e879cd1a3b5c48a73de2a2eff7d3c7a91aa5480a09ad487fd180cd52b"
+}

@@ -1,0 +1,19 @@
+{
+  "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=NM_000043&rettype=gb&retmode=text",
+  "status": 200,
+  "sha256": "e8964c4db7d19acd5f6a1075106ec67087ad4bc5a8dc3a986f7eccb0a7f31ca7",
+  "scope": "Existing native reference sequence annotation only; no outcomes.",
+  "accession": "NM_000043.6",
+  "wt_exon_start0": 584,
+  "wt_exon_length": 63,
+  "cds_start0": 79,
+  "cds_end0": 1087,
+  "exon_start_cds_offset": 505,
+  "exon_start_codon_offset": 1,
+  "protein_id": [
+    "NP_000034.1"
+  ],
+  "gene": [
+    "FAS"
+  ]
+}

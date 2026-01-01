@@ -1,0 +1,155 @@
+{
+  "source": "GSE111316_metadata_only.soft.txt",
+  "samples": [
+    {
+      "accession": "GSM3028366",
+      "title": "Combinatorially Complete Library Input 1",
+      "relations": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN08628341",
+        "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRX3755115"
+      ]
+    },
+    {
+      "accession": "GSM3028367",
+      "title": "Combinatorially Complete Library Input 2",
+      "relations": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN08628340",
+        "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRX3755116"
+      ]
+    },
+    {
+      "accession": "GSM3028368",
+      "title": "Combinatorially Complete Library Input 3",
+      "relations": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN08628339",
+        "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRX3755117"
+      ]
+    },
+    {
+      "accession": "GSM3028369",
+      "title": "Combinatorially Complete Library Output 1",
+      "relations": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN08628338",
+        "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRX3755118"
+      ]
+    },
+    {
+      "accession": "GSM3028370",
+      "title": "Combinatorially Complete Library Output 2",
+      "relations": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN08628337",
+        "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRX3755119"
+      ]
+    },
+    {
+      "accession": "GSM3028371",
+      "title": "Combinatorially Complete Library Output 3",
+      "relations": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN08628336",
+        "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRX3755120"
+      ]
+    },
+    {
+      "accession": "GSM3028372",
+      "title": "Combinatorially Complete Library Output 4",
+      "relations": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN08628335",
+        "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRX3755121"
+      ]
+    },
+    {
+      "accession": "GSM3028373",
+      "title": "Combinatorially Complete Library Output 5",
+      "relations": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN08628334",
+        "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRX3755122"
+      ]
+    },
+    {
+      "accession": "GSM3028374",
+      "title": "Combinatorially Complete Library Output 6",
+      "relations": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN08628333",
+        "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRX3755123"
+      ]
+    },
+    {
+      "accession": "GSM3028375",
+      "title": "Combinatorially Complete Library Output 7",
+      "relations": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN08628332",
+        "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRX3755124"
+      ]
+    },
+    {
+      "accession": "GSM3028376",
+      "title": "Combinatorially Complete Library Output 8",
+      "relations": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN08628331",
+        "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRX3755125"
+      ]
+    },
+    {
+      "accession": "GSM3028377",
+      "title": "Combinatorially Complete Library Output 9",
+      "relations": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN08628330",
+        "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRX3755126"
+      ]
+    },
+    {
+      "accession": "GSM3028378",
+      "title": "Doped library with control siRNA 1",
+      "relations": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN08628329",
+        "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRX3755127"
+      ]
+    },
+    {
+      "accession": "GSM3028379",
+      "title": "Doped library with control siRNA 2",
+      "relations": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN08628328",
+        "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRX3755128"
+      ]
+    },
+    {
+      "accession": "GSM3028380",
+      "title": "Doped library with control siRNA 3",
+      "relations": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN08628327",
+        "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRX3755129"
+      ]
+    },
+    {
+      "accession": "GSM3028381",
+      "title": "Doped library with SF3B1 siRNA 1",
+      "relations": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN08628326",
+        "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRX3755130"
+      ]
+    },
+    {
+      "accession": "GSM3028382",
+      "title": "Doped library with SF3B1 siRNA 2",
+      "relations": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN08628325",
+        "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRX3755131"
+      ]
+    },
+    {
+      "accession": "GSM3028383",
+      "title": "Doped library with SF3B1 siRNA 3",
+      "relations": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN08628324",
+        "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRX3755132"
+      ]
+    }
+  ],
+  "inputs_are_technical": true,
+  "outputs_are_separate_transfections_documented": true,
+  "independent_cloning_batches_documented": false,
+  "culture_day_or_passage_block_map_authenticated": false,
+  "shared_lane": true,
+  "shared_median_input_denominator": true
+}

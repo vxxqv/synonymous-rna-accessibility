@@ -1,0 +1,183 @@
+{
+  "status": "PASS",
+  "case_count": 19,
+  "cases": [
+    {
+      "case": "full72_exact_negative_with68unknown",
+      "dual": [
+        {
+          "lower_vertex": 8,
+          "higher_vertex": 0,
+          "weight": "1/2",
+          "difference": [
+            0,
+            0,
+            0,
+            -1,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "lower_vertex": 24,
+          "higher_vertex": 32,
+          "weight": "1/2",
+          "difference": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "case": "full72_exact_negative_with68unknown",
+      "dual": [
+        {
+          "lower_vertex": 47,
+          "higher_vertex": 39,
+          "weight": "1/2",
+          "difference": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "lower_vertex": 63,
+          "higher_vertex": 71,
+          "weight": "1/2",
+          "difference": [
+            0,
+            0,
+            0,
+            -1,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "case": "full72_exact_negative_with68unknown",
+      "dual": [
+        {
+          "lower_vertex": 40,
+          "higher_vertex": 36,
+          "weight": "1/2",
+          "difference": [
+            0,
+            0,
+            0,
+            -1,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "lower_vertex": 48,
+          "higher_vertex": 52,
+          "weight": "1/2",
+          "difference": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "case": "redundant_and_duplicate_columns",
+      "status": "feasible"
+    },
+    {
+      "case": "redundant_and_duplicate_columns",
+      "status": "infeasible"
+    },
+    {
+      "case": "redundant_and_duplicate_columns",
+      "status": "feasible"
+    },
+    {
+      "case": "redundant_and_duplicate_columns",
+      "status": "infeasible"
+    },
+    {
+      "case": "redundant_and_duplicate_columns",
+      "status": "infeasible"
+    },
+    {
+      "case": "redundant_and_duplicate_columns",
+      "status": "feasible"
+    },
+    {
+      "case": "exact_response_scale",
+      "scale": "1/100000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "status": "feasible"
+    },
+    {
+      "case": "exact_response_scale",
+      "scale": "1/100000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "status": "infeasible"
+    },
+    {
+      "case": "exact_response_scale",
+      "scale": "100000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "status": "feasible"
+    },
+    {
+      "case": "exact_response_scale",
+      "scale": "100000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "status": "infeasible"
+    },
+    {
+      "case": "exact_response_scale",
+      "scale": "1",
+      "status": "feasible"
+    },
+    {
+      "case": "exact_response_scale",
+      "scale": "1",
+      "status": "infeasible"
+    },
+    {
+      "case": "unknown_bridge_edge_representations",
+      "status": "no_exclusion"
+    },
+    {
+      "case": "unknown_bridge_edge_representations",
+      "status": "no_exclusion"
+    },
+    {
+      "case": "unknown_bridge_edge_representations",
+      "status": "no_exclusion"
+    },
+    {
+      "case": "unknown_bridge_edge_representations",
+      "status": "no_exclusion"
+    }
+  ],
+  "candidate_sha256": "8872d6452afe4ccbf84e61450d4b1bfbdadf26469f20c0e24452f3abc205f9ac",
+  "scope": "Synthetic rational values only, no biological inputs"
+}

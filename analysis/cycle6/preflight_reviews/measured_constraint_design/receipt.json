@@ -1,0 +1,68 @@
+{
+  "status": "BOUNDED_MATHEMATICAL_DECISION_AND_DRAFT_REVIEW_COMPLETE",
+  "base_revision": "53b8ec8390cf3b028c294058e4c0f7c2de8c6b79",
+  "priority": "One bounded metadata/measurement contract for actual scalar ES; no new biological conclusion or generic theorem headline",
+  "main_contract": "Calibrated marginal bounds plus complete bounded-domain separator give exclusion or necessary detour; paired covariance unnecessary for conservative union-bound validity",
+  "LP_characterization": "Exact for unrestricted linear coefficients and common nondecreasing response with finite lower and finite/+infinite upper intervals",
+  "ordinal_synthetic_instances": {
+    "instances": 2916,
+    "feasible": 2646,
+    "infeasible": 270,
+    "dual_certificates": 270,
+    "weak_orders_per_matrix": 13
+  },
+  "structural_synthetic_counts": {
+    "Q3_unknown_completions": {
+      "None": 13,
+      "4": 3
+    },
+    "P3xP3xQ3_vertices": 72,
+    "P3xP3xQ3_edges": 204
+  },
+  "protocol_mathematical_revision_reviewed_sha256": "731620b9d8d4057053b80143b2c476b94f8c3feb46c6342c9841ff531ad3393d",
+  "protocol_math_verdict": "PASS for exact inspected revised draft, not uninspected later edits or production code",
+  "reference_import_safe_checked": true,
+  "input_source_hashes": {
+    "outputs/synonymous-rna-accessibility/src/acquisition.py": "6005d30d709dc8100a1de64822d8e80cf8a8dbc8d9c3a18de8d21f69622be6ee",
+    "outputs/synonymous-rna-accessibility/analysis/programme/robust_certificates.py": "d36cc5b35f814465bdcb540776492332b6cb89e10b381fee8b1c545cc948ad96",
+    "outputs/synonymous-rna-accessibility/analysis/programme/affine_polytope/reference/proof_reconstruction.md": "7c4d28971da055647ad45075ee0ed0db6a6c51da1250f17902b0da02e7e0a3cb",
+    "outputs/synonymous-rna-accessibility/analysis/programme/interaction_certificates/README.md": "3846c46b080baf49e1997f790f97b1aa21c667ac25043efcc0483a8717487cbe",
+    "outputs/synonymous-rna-accessibility/analysis/expansion/claim_evidence_map.md": "759ebc9343fb5fead4821bed3cad0310983553f95118b6846ff0fb2367f21552",
+    "work/interaction_cycle3/revision_2/claim_and_proof.md": "3ab20e5d1a792676105af4170c35483f729fbef41576ddd470ac6d4a4c53390b",
+    "work/cost_audit_cycle2/prior_and_proof.md": "6d29f7f71d97f622fd10933f05c9e0ba3358f8ff182b8f639f2f021c4767952b",
+    "work/research_cycle6/measured_synonymy_sources/report.md": "38c2b7e80b3c109fc8548c3cbfc1f6a3e93dd7b6c0d0508767c08c40751efebc",
+    "work/research_cycle6/fas_pilot/protocol_draft_v1.md": "731620b9d8d4057053b80143b2c476b94f8c3feb46c6342c9841ff531ad3393d"
+  },
+  "owned_artifact_hashes": {
+    "fixtures.json": "25dc77c94df2f7df0138ecc82b7388550940f240fc485d9feb536e1d30d1c3b7",
+    "fixtures.py": "c1892f0927cd1159c9e5ccc62748442a2488624dc0c69c3603456f1fa5f11547",
+    "fixtures_v2.json": "ded4197ed7ad0099b6ab5a170689f652403ae85bee5ff5b08062f7cc03bd5b72",
+    "ordinal_interval_audit.py": "1b958aebdafbc46f4a434b14a71abb8a091a1caba298ee2f1f43ff867d95b01a",
+    "ordinal_interval_characterization.md": "562ae01efeee05a6c46ee53fa7fa89165d5e7c4acf9b970ab85447915227a463",
+    "ordinal_interval_checks.json": "56c9ff73a1013d9d06dcc04e62a069f2eb2f281e77132ac70a0cfe35a949f7ef",
+    "ordinal_interval_checks_v2.json": "0ce8e034ea86178b754dea2ecbba80b7ce7bbe34a869b1a6b5f1ee18b7663cd8",
+    "ordinal_interval_checks_v3.json": "04aa8fd48041927fadb6f1ca92eb169d303b084ef8e054c8f2faf4f76df5e7d9",
+    "prior_map.md": "0eeed8b47563ca7c496b19bd8f752fa3ba8788afd58fb3258e37d15c2c2f304d",
+    "protocol_math_review.md": "4439ff1ca7b0236023c4930c791799debb30ad27b7d6a26af0d0bea04237b75a",
+    "README.md": "ce30f91c32b3641d7b7c05f1045cab08e3a72ce43e6a20ce6c12b1cb3f01a9f0",
+    "report.md": "3b52354fe80e5aa3fc4df6036cb9a7f5483d332f3112ab9fbb81eef2260b872e"
+  },
+  "new_outcome_tables_or_count_files_read": false,
+  "new_models_fitted_to_observations": false,
+  "shared_files_edited": false,
+  "commits_or_external_writes": false,
+  "exposure_note": "Read metadata report including previously disclosed five illustrative README occurrence rows; no ES/PSI/coverage or count-file values opened or used",
+  "prior_check_limits": [
+    "Targeted original-source comparison, no exhaustive novelty search",
+    "Scott publisher abstract read, full original theorem extraction unavailable; implication proved directly",
+    "Classical graph, confidence and bypass ingredients are established; no priority claim",
+    "Finite checks corroborate proof and reference, not production or biological validity"
+  ],
+  "measurement_limits": [
+    "BR/TR ranges are descriptive envelopes rather than confidence bands",
+    "Unknown higher-order and outside-design genotypes remain possible",
+    "Codon-unary P3 gate valleys can cause barriers without intercodon interaction",
+    "A common-monotone codon-additive rejection does not identify RNA-folding mechanism",
+    "FAS design/protein identity metadata are supplied by source lane, not independently reconstructed here"
+  ]
+}

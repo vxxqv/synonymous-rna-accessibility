@@ -1,0 +1,15 @@
+{
+  "status": "EXACT_DOMAIN_SPECIFIC_ADDITIVE_SPANS_EQUAL",
+  "factor_rows": 72,
+  "ranks_codon_nucleotide_joined": [
+    8,
+    8,
+    8
+  ],
+  "explicit_forward_and_inverse_identities_checked": true,
+  "P3_gate_valley_is_also_nucleotide_additive": true,
+  "biological_outcomes_used": false,
+  "independent_source_sequence_reconstruction": false,
+  "scope": "Algebra on source-lane supplied factor states; no new scientific result or generic all-domains equivalence",
+  "source_sha256": "d1b621f433e2bdf72a884347afa436c76b02f3eea8623030123ab367cb9c7733"
+}

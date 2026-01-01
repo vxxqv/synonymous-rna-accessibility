@@ -1,0 +1,49 @@
+{
+  "status": "BLOCKED_FALSE_BARRIER_FOR_EDGE_ITERATOR",
+  "old_sha256": "e94fba1d5ad7961b08677661a1d81274a12a66b912536c646af4a4ca0d0dda14",
+  "preservation": "Exact previous bytes reconstructed by reversing only two added edge-materialization lines; hash matches pre-fix observed source",
+  "lower": [
+    2,
+    0,
+    2
+  ],
+  "upper": [
+    2,
+    3,
+    2
+  ],
+  "edges": [
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      2
+    ]
+  ],
+  "expected_endpoints02": {
+    "a": 0,
+    "b": 2,
+    "endpoint_lower": "2",
+    "bottleneck_lower": "0",
+    "bottleneck_upper": "2",
+    "certified_interval_width": "0",
+    "certified_nonempty": false,
+    "threshold_convention": "(bottleneck_upper, endpoint_lower] if nonempty; acceptance >= threshold"
+  },
+  "actual_endpoints02": {
+    "a": 0,
+    "b": 2,
+    "endpoint_lower": "2",
+    "bottleneck_lower": "-inf",
+    "bottleneck_upper": "-inf",
+    "certified_interval_width": "inf",
+    "certified_nonempty": true,
+    "threshold_convention": "(bottleneck_upper, endpoint_lower] if nonempty; acceptance >= threshold"
+  },
+  "mechanism": "Validation consumes iterator; graph passes then see no edges",
+  "corrected_source_sha256": "8872d6452afe4ccbf84e61450d4b1bfbdadf26469f20c0e24452f3abc205f9ac",
+  "correction": "Materialize edges in both bounded_pairs and widest_paths",
+  "scope": "API bug; normal graph_edges list pathway unaffected"
+}

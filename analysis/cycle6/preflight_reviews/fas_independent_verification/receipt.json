@@ -1,0 +1,32 @@
+{
+  "status": "PASS_WITH_EXPLICIT_SOURCE_AND_EXPOSURE_QUALIFICATIONS",
+  "numerical_result_unchanged_after_manifest_schema_fix": true,
+  "source_input_hashes_stable": true,
+  "Mathbox_manifest_validator": "valid evidence record (run status: completed); mathematical interpretation requires review",
+  "files": [
+    {
+      "path": "verify.py",
+      "sha256": "8fd570649fb2be6b701349434d4eaa7888200908721e9520109f0ed4c37d329a"
+    },
+    {
+      "path": "check_provenance.py",
+      "sha256": "f28fcc06af2b336d8a5e69c4ab8274db153b9a19a30827927755f5cd98bf630f"
+    },
+    {
+      "path": "result.json",
+      "sha256": "12c4f87cc30a8075404be708659837cc75df3f28908af55042f925da1841141f"
+    },
+    {
+      "path": "manifest.json",
+      "sha256": "04a42b12a638e530c6160a4361fcb9dcdbacf7232466ddd5bcf0a9f09a425279"
+    },
+    {
+      "path": "provenance_and_exposure.json",
+      "sha256": "3d18d5c39549de4f70b11835aff43e69cf00905292649ea1e7c7a52e976bc36b"
+    },
+    {
+      "path": "review.md",
+      "sha256": "745f8ba8738a680bd387c2236f16a35b82b69ebeb19faecaa5ccb2fb7431f0c3"
+    }
+  ]
+}

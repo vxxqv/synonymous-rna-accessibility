@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "scope": "Synthetic only; source outcomes unopened",
+  "guard_cases": 5,
+  "ratio_checks": 1944,
+  "full_pipeline_constant_fixture_vertices": 72,
+  "full_pipeline_constant_fixture_scenarios": 27,
+  "source_TR1_alignment_verified": true,
+  "mean_and_median_normalization_distinctions_verified": true
+}

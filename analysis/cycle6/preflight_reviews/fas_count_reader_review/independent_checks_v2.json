@@ -1,0 +1,33 @@
+{
+  "adapter_history": "Copy of held independent verifier, input snapshot names and output filename changed; added explicit mismatch failure on newly reachable degenerate success branch.",
+  "scope": "independent synthetic/reference checks only; no observed count values",
+  "candidate_sha256": "307c3a3fe27720bceeffb4a348d9b10b7cc048e2a47a19049ab529a23454edd4",
+  "checks": {
+    "source_output_vertex_comparisons": 12960,
+    "relative_ratio_comparisons": 38880,
+    "zero_reference_output": 72,
+    "zero_reference_input": 72,
+    "zero_output": 1
+  },
+  "design_column_space": {
+    "codon_rank": 8,
+    "nucleotide_rank": 8,
+    "joint_rank": 8,
+    "same_column_space": true,
+    "variable_nt_positions1": [
+      24,
+      26,
+      32,
+      35,
+      39,
+      41,
+      44
+    ]
+  },
+  "degenerate_TR1_alignment": {
+    "returned": true,
+    "matches_NA_omission_reference": true
+  },
+  "failures": [],
+  "code_sha256": "150f634d2d413c2023405c358c46272d2bbd99d31f70154cd8826605ab992048"
+}

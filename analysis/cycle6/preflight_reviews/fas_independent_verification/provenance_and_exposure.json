@@ -1,0 +1,48 @@
+{
+  "status": "PASS_CACHED_GIT_OBJECT_CHAIN",
+  "source_commit": "b87064c39a553b0759d86c2b428813c58dc17ae2",
+  "canonical_tree": "b526e2a0fa5c1b72be91b8176677a83d9b57bf28",
+  "verified_tree_objects": 52,
+  "script_git_blob_sha1": "ba3858d75e4072c723c53c4842a9f88a792aa490",
+  "source_script_sha256": "3bcb2efe2aec0ff879dc372d668af1ae619cea29e1c3cb1b55475ad56064ad3f",
+  "source_url": "https://github.com/lehner-lab/Scaling_Law/blob/master/002_Processing_sequencing_data/001_Phylogeny_library_in_HEK293/005_remove_sequencing_errors.sh",
+  "tree_inventory_root_sha_semantics": "Inventory top sha is the requested commit; independently reconstructed canonical tree matches commit object",
+  "source_README_sha256": "10d97c05904173a7f307efc70821c9b5997ec0e51f23b59e7b430ef225fc46c5",
+  "exposure_incident_records": [
+    {
+      "source_line": 57,
+      "sequence": "GATCCAGATCTAACTTGGGGTGGCTTTGTCTTCTTCTTTTGCCAATTCCACTAATTGTTTGGG",
+      "native_reference_class_member": true,
+      "exposure": "Occurrence example displayed in source README; no assay effect inferred"
+    },
+    {
+      "source_line": 58,
+      "sequence": "GATCCAGATCTAACTTGGTGTGGTTGTGTCTTCTGCTTTTGCCGATTCTAGTAATTGTTTGGG",
+      "native_reference_class_member": false,
+      "exposure": "Occurrence example displayed in source README; no assay effect inferred"
+    },
+    {
+      "source_line": 59,
+      "sequence": "GATCCAGATCTAACTTGGGGTGGTTTTGTCTTCTGCTTTTGCCGATTCCAGTAATTGTTTGGG",
+      "native_reference_class_member": false,
+      "exposure": "Occurrence example displayed in source README; no assay effect inferred"
+    },
+    {
+      "source_line": 60,
+      "sequence": "GATCCAGATCTAACTTGGGGTGGTTGTGTCTTCTGCTTTTGCCGATTCCAGTAATTGTTTGGG",
+      "native_reference_class_member": false,
+      "exposure": "Occurrence example displayed in source README; no assay effect inferred"
+    },
+    {
+      "source_line": 61,
+      "sequence": "GATCCAGATCTAACTTGGGGTGGCTGTGTCTTCTGCTTTTGCCGATTCTAGTAATTGTTTGGG",
+      "native_reference_class_member": false,
+      "exposure": "Occurrence example displayed in source README; no assay effect inferred"
+    }
+  ],
+  "native_reference_class_exposed_ids": 1,
+  "count_files_opened": false,
+  "counts_used_in_sequence_calculation": false,
+  "numeric_occurrence_values_reextracted": false,
+  "qualification": "Cached source provenance only, no fresh network authentication or measured genotype coverage"
+}
