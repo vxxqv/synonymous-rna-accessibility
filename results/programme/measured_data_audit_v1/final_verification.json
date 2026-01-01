@@ -1,0 +1,52 @@
+{
+  "source_and_sequence_verification": {
+    "passed": true,
+    "independent_translation_method": "Literal standard-code 64-codon table; no Biopython translation used in this replay",
+    "candidate_condition_groups_verified": 6470,
+    "unique_reconstructed_CDS_genotypes": 3449,
+    "input_hashes_verified": 8,
+    "additional_endpoint_metadata_hashes_verified": 3,
+    "sample_ids_verified": 21,
+    "reporters": 2,
+    "unique_patterns": {
+      "GFP": {
+        "unique_double_patterns_across_conditions": 1115,
+        "unique_participating_singles_across_conditions": 439,
+        "unique_position_pairs_across_conditions": 1015
+      },
+      "URA3": {
+        "unique_double_patterns_across_conditions": 1369,
+        "unique_participating_singles_across_conditions": 524,
+        "unique_position_pairs_across_conditions": 1183
+      }
+    },
+    "primary_candidate_groups": 684,
+    "known_zero_single_affected_groups": 2,
+    "known_zero_single_affected_by_partition": {
+      "development": 2,
+      "validation": 0,
+      "quarantine": 0
+    },
+    "upper_bound_usable_primary_groups_given_only_known_zero_singles": 682,
+    "bound_scope": "A necessary positive-finite eligibility bound only. Not the number lost to the historical <0.5 cutoff; double outcomes mostly remain unexamined.",
+    "mitochondrial_primary_units": 6,
+    "mitochondrial_functional_outcomes_examined": false,
+    "models_fitted": false,
+    "validation_double_outcomes_examined": false,
+    "frozen_failure_rules_respected": true
+  },
+  "reproduction_check": "Cached large sources, three freshly fetched FASTA references, exact hashes for 11 inputs, and independent replay agree",
+  "existing_tests": "14 passed",
+  "earlier_programme_hash_checks": 122,
+  "new_biological_models_fitted": false,
+  "code_hashes": {
+    "measured_data_audit.py": "ccf00b0579d10f302d4e2e84e6baa05392728859ea6209576f29c81f473526e6",
+    "ura3_function_pilot.py": "11c6afaa236a6f67133b51e6558f417a6544051c54a061afa34552acedc3bb34",
+    "ura3_function_pilot_v2.py": "ad7b168487b478094e2d0029448ff427928ad76883d3e82e0968cb328ebc1d68",
+    "verify_measured_data.py": "2a5059f2e5ca3953c55d7cba48a2e20fe283cd76400603703564acf3c05b3546",
+    "fetch_measured_sources.py": "17e6b6db5b75dde599815e9d89169d4df8793310c2893b386f73b76cf1540e7e",
+    "code2_audit.py": "eb0f1db1ffc721805e43d4500097cb39566c096a96b1c2219f3c2cbe145124a1"
+  },
+  "reported_failures": "The two URA3 stopped runs are expected source guards, not successful model runs; mitochondrial comparison stopped before functional values.",
+  "publication_assets_in_repository": "None found by tracked-file extension check; manuscript and report assets remain outside the computational repository."
+}

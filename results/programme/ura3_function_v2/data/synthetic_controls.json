@@ -1,0 +1,8 @@
+{
+  "additive_negative_passed": true,
+  "nonlinear_monotone_additive_false_interaction_passed": true,
+  "known_square_obstruction_passed": true,
+  "nonmonotone_global_counterexample_passed": true,
+  "isotonic_known_solution_passed": true,
+  "measurement_uncertainty_recovered": false
+}

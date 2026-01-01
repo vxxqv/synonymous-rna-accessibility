@@ -1,0 +1,36 @@
+{
+  "passed": true,
+  "independent_translation_method": "Literal standard-code 64-codon table; no Biopython translation used in this replay",
+  "candidate_condition_groups_verified": 6470,
+  "unique_reconstructed_CDS_genotypes": 3449,
+  "input_hashes_verified": 8,
+  "additional_endpoint_metadata_hashes_verified": 3,
+  "sample_ids_verified": 21,
+  "reporters": 2,
+  "unique_patterns": {
+    "GFP": {
+      "unique_double_patterns_across_conditions": 1115,
+      "unique_participating_singles_across_conditions": 439,
+      "unique_position_pairs_across_conditions": 1015
+    },
+    "URA3": {
+      "unique_double_patterns_across_conditions": 1369,
+      "unique_participating_singles_across_conditions": 524,
+      "unique_position_pairs_across_conditions": 1183
+    }
+  },
+  "primary_candidate_groups": 684,
+  "known_zero_single_affected_groups": 2,
+  "known_zero_single_affected_by_partition": {
+    "development": 2,
+    "validation": 0,
+    "quarantine": 0
+  },
+  "upper_bound_usable_primary_groups_given_only_known_zero_singles": 682,
+  "bound_scope": "A necessary positive-finite eligibility bound only. Not the number lost to the historical <0.5 cutoff; double outcomes mostly remain unexamined.",
+  "mitochondrial_primary_units": 6,
+  "mitochondrial_functional_outcomes_examined": false,
+  "models_fitted": false,
+  "validation_double_outcomes_examined": false,
+  "frozen_failure_rules_respected": true
+}

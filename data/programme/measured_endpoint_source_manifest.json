@@ -1,0 +1,26 @@
+{
+  "id": "MEASURED_ENDPOINT_RECONCILIATION_SOURCES_V1",
+  "files": [
+    {
+      "work_relative_path": "primary_biology/assets/wu2022_supplement.xlsx",
+      "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41559-021-01578-x/MediaObjects/41559_2021_1578_MOESM1_ESM.xlsx",
+      "bytes": 908958,
+      "sha256": "defc3200c18f9f3f02b831d1b775ca766138f3cf096cb4d846d1ff6296020377",
+      "license_or_scope": "Public source supplement or GEO metadata; cached externally, not redistributed"
+    },
+    {
+      "work_relative_path": "primary_biology/assets/mito_family.soft.gz",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE246nnn/GSE246523/soft/GSE246523_family.soft.gz",
+      "bytes": 3908,
+      "sha256": "ac741be7e900c5dcac3fd97992f650573fc465f5c04e13eae17c600d476309f0",
+      "license_or_scope": "Public source supplement or GEO metadata; cached externally, not redistributed"
+    },
+    {
+      "work_relative_path": "primary_biology/assets/mito_function.soft.gz",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE173nnn/GSE173283/soft/GSE173283_family.soft.gz",
+      "bytes": 10556,
+      "sha256": "78275e844edb77832262d6792fd63f917f933d2be03753325bbb9d6396e1d9e4",
+      "license_or_scope": "Public source supplement or GEO metadata; cached externally, not redistributed"
+    }
+  ]
+}

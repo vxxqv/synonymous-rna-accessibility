@@ -1,6 +1,6 @@
 # Independent measured evidence: bounded eligibility decision
 
-No experimental outcome analysis was conducted in this research cycle. Article-level findings encountered during source discovery are recorded as known information. Numerical mutant fitness cells were not extracted or examined in the new GFP source audit.
+The initial source audit examined no numerical mutant fitness cells. The later measured-function cycle is recorded separately in `measured_function_closure_v6.json`: numerical source reconciliation encountered zero-valued singles and a reported URA3 double below the source's stated exclusion cutoff. Both attempted implementations stopped before fitting a model. The regional validation doubles remain unexamined. These later source checks must not be described as wholly blinded or as completed biological hypothesis tests.
 
 ## Yeast GFP/URA3 source
 
@@ -26,3 +26,9 @@ Lind and Andersson (2013), https://doi.org/10.1371/journal.pone.0063373 , report
 The earlier FoldAtlas recovery audit remains valid: the historical structure/probing database export was not recovered, although code and historical annotation sources were found. The earlier Cambray source audit establishes accessible reporter phenotypes and some observed synonymous edges, but not experimental target-pair occupancies or complete construct closure. These are specific gaps, not assertions that all public biological evidence is unavailable.
 
 The independent biological validation branch is therefore incomplete for the present Q3 mechanism. The next evidence route should explicitly choose between a two-site measured functional question and a new complete-cube structural/functional experiment. It must not present a folding-engine comparison or synthetic-context holdout as biological validation.
+
+## Measured-function closure after the bounded pilots
+
+Sequence and cell-presence checks identify 6470 condition-specific candidate squares, not 6470 independent or usable measurements. The primary URA3 assay has 684 such candidates. Zero entries do not carry documented neutral/missing/function semantics. Corrected execution stopped at `J11262`, synonymous double G321T/C336T, reported relative fitness 0.326463358865135 despite the described exclusion below 0.5. Cutoff order, individual exclusion identities and complete-double replicate errors remain unresolved. No prediction model or interaction significance test was fitted. Counts and attempted executions are retained in `results/programme/measured_data_audit_v1/` and `results/programme/ura3_function_v1/`, `ura3_function_v2/`.
+
+The mitochondrial source mapping and reference-coordinate issue were resolved, including the omitted N at native reference position 3107. However, only six of eleven units have usable frozen 30-nt initiation cluster features, below the minimum nine; 15/45-nt sensitivities give six/seven. This is a structural-information failure for the proposed ensemble comparison. No mitochondrial functional values were analyzed. Source compatibility is cross-study, and the functional workbook measures mitochondrial-relative footprint/RNA distributions. Neither branch is cleared for expansion or a new biological-mechanism claim.

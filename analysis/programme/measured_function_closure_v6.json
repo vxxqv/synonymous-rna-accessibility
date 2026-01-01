@@ -1,0 +1,20 @@
+{
+  "id": "MEASURED_FUNCTION_CLOSURE_V6",
+  "decision": "Neither branch is cleared for mechanistic or predictive expansion in this cycle. The strongest conditionally eligible pilot, URA3, was executed and stopped by its frozen source-consistency guard before fitting.",
+  "A": {
+    "sequence_gate": "6470 condition-specific candidate synonymous squares across two reporters; 1115 unique GFP double patterns and 1369 unique URA3 double patterns across conditions. Independent literal-codon-table replay verifies all four translations and CDS hashes for 3449 distinct participating coding genotypes.",
+    "measurement_gate": "The 684 primary URA3 squares are sequence/cell-presence candidates. Two involve an already-audited zero-valued single entry, leaving at most 682 potentially usable groups before checking other endpoints. This is not the number lost to the historical cutoff.",
+    "executed_failure": "Corrected frozen pilot encountered S7 J11262: G321T C336T, reported w=0.326463358865135. The source Methods state that w<0.5 genotypes were discarded. The prespecified decision-v5 guard therefore stopped the run before any model was fitted or validation double outcome accessed. It did not drop the row and continue or reinterpret it as a biological barrier.",
+    "classification": "Unresolved source-processing/endpoint eligibility issue, with incomplete double-level measurement uncertainty. Not a rejected biological hypothesis, evidence of RNA interaction, or a successful/failed prediction benchmark.",
+    "remaining_gap": "Resolve zeros and subcutoff entries, and obtain genotype-by-replicate processed counts or fitness estimates, shared WT denominators, growth generations, barcode mappings and exact filter flags/order. Existing source tables report pooled estimates; original supplementary single replicates do not provide complete-double error covariance. Public raw accessions exist but were not reprocessed within this bounded study."
+  },
+  "B": {
+    "decision": "Frozen local-mixture feature fails minimum transcript coverage: 6/11 at 30 nt, versus minimum 9. Sensitivities yield 6 at 15 nt and 7 at 45 nt. No functional outcome model was fitted; RNA/RP values remain unexamined.",
+    "classification": "Information/coverage failure for this design, not evidence against ensemble effects on translation.",
+    "compatibility": "Genotype-compatible, cross-study structural and functional material is recoverable. Same-aliquot matching, exact culture equivalence and native haplotype correspondence are not established. Functional processed values are mitochondrial-relative footprint/RNA distributions. The independent unit is a transcript/bicistronic unit, at most eleven.",
+    "remaining_gap": "Recover valid cluster reactivities and normalization provenance for missing initiation regions, or justify a different structural design in a newly recorded pre-outcome protocol. Do not impute zero heterogeneity, select only the six units, replace WT with rescue or optimize windows after outcomes."
+  },
+  "inference_status": "No new calibrated connection between the mathematical accessibility theory and measured biological function is established. Biological hypothesis tests and regional predictive comparisons remain unperformed because the eligibility failures occurred first. Mathematical synthetic controls passed but are not biological evidence.",
+  "preserved_material": "All 203 planned validation double outcomes and 141 quarantined double outcomes remain unexamined. Mitochondrial functional outcomes remain unexamined. Prior freezes, both stopped executions and source diagnostics are retained.",
+  "next_cycle": "Prioritize recovery/reconciliation of processed complete-double measurement information. Keep mitochondrial function tables sealed until adequate structural feature coverage exists. No additional theory, figure expansion, raw-read pipeline, archive replacement or positive-result claim is launched by this closure decision."
+}

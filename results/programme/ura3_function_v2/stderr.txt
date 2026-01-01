@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "C:\Users\VIVAAN\Documents\Codex\2026-10-24\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\outputs\synonymous-rna-accessibility\analysis\programme\ura3_function_pilot_v2.py", line 103, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "C:\Users\VIVAAN\Documents\Codex\2026-10-24\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\outputs\synonymous-rna-accessibility\analysis\programme\ura3_function_pilot_v2.py", line 41, in main
+    dev,ds,dy=prepare(dc,'development',True);vinput,vs,_=prepare(vc,'validation_input',False)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\VIVAAN\Documents\Codex\2026-10-24\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\outputs\synonymous-rna-accessibility\analysis\programme\ura3_function_pilot_v2.py", line 33, in prepare
+    if read_double:vals.append(read(r['row_AB'],part+'_double'))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\VIVAAN\Documents\Codex\2026-10-24\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\outputs\synonymous-rna-accessibility\analysis\programme\ura3_function_pilot_v2.py", line 27, in read
+    if x<.5:raise ValueError('Positive fitness below documented cutoff requires source reconciliation: J'+str(rn))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: Positive fitness below documented cutoff requires source reconciliation: J11262
