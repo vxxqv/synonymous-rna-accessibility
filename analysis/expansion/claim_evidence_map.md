@@ -6,7 +6,7 @@
 | Shortest distance is easy while exact order counts can be hard | Endpoint dependency DAG and explicit restricted-poset reduction | A cycle, a missing precedence, or an invalid complexity reduction |
 | A coding-induced hard-core activity can be exactly two | Uniform synonymous counting, paired leucine first base and free unpaired wobble | Nonuniform codon priors, added obligations, fixed wobble or excluded codons invalidate the stated activity |
 | Score filters are more connected than uncorrelated subsets | Fully enumerated graphs under an ensemble-derived scalar score | Generic smoothness can explain the contrast; no biological selection follows |
-| Organization exceeds generic smoothness | Correlation-aware controls with distributions and graph architecture preserved | Disappearance after correlation matching, inadequate nuisance fit, dependence or influential transcripts |
+| A reference-dependent residual survives focused diagnostics; additive fields remain comparably connected | Correlation-aware controls with distributions and graph architecture preserved | Disappearance after correlation matching, inadequate nuisance fit, dependence or influential transcripts |
 | Model organization generalizes to new biology | Frozen source/sequence/measurement-independent protocol | No qualifying data, failed prospective contrast, target uncertainty, species/assay-specific reversal |
 
 ## Three different structural objects
@@ -22,3 +22,7 @@ The two bacterial sources and all already inspected model variants belong to dis
 ## Interpretation ladder for controls
 
 Uncorrelated score permutations preserve the score multiset and every threshold's component-specific retained counts but deliberately remove local score correlation. Degree conditioning additionally removes a simple graph-position explanation. Exhaustive small-space roughness conditioning retains the score multiset and one local-correlation statistic; its inference covers only its declared small-space domain. Heat-rank fields preserve the multiset exactly and fit expected roughness as a generic correlated reference. They are neither uniform conditional permutations nor a complete model of epistasis. Any residual contrast must survive fit diagnostics and cannot by itself be attributed to natural selection.
+
+## Final computational pilot
+
+Predictions for24 newly generated synthetic contexts were committed before full-ensemble outcomes (01c3243). The bounded pilot fails MAE, direction-accuracy and additive-discrimination gates. Only coverage passes. All72 landscapes and48 matched interventions are retained. This is prospective computational evaluation of a simplified score approximation, not independent biological validation. The three-state additive fits are saturated and cannot distinguish competing molecular explanations. No expansion or functional-rescue claim follows.

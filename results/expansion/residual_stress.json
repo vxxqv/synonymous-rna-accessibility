@@ -1,0 +1,430 @@
+{
+  "scope": "retrospective discovery diagnostics; nominal cluster intervals, not independent validation",
+  "conditions": {
+    "incell": {
+      "heat_influence": {
+        "exclude_top1_absolute_cluster_contributions": {
+          "excluded": [
+            "rplN_rplX_rplE_rpsN_rpsH_rplF_rplR_rpsE_rpmD_rplO_secY_rpmJ_rpsM_rpsK_rpsD_rpoA_rplQ_131"
+          ],
+          "estimate": 0.006708919905162191,
+          "lower": 0.004731358637047347,
+          "upper": 0.008660906887879002,
+          "rows": 387,
+          "transcript_clusters": 184,
+          "resamples": 10000
+        },
+        "exclude_top5_absolute_cluster_contributions": {
+          "excluded": [
+            "rplN_rplX_rplE_rpsN_rpsH_rplF_rplR_rpsE_rpmD_rplO_secY_rpmJ_rpsM_rpsK_rpsD_rpoA_rplQ_131",
+            "mlaF_mlaE_mlaD_mlaC_mlaB_yrbA_murA_123",
+            "lepA_lepB_90",
+            "ygiB_ygiC_112",
+            "ispU_cdsA_rseP_bamA_skp_lpxD_fabZ_lpxA_lpxB_rnhB_dnaE_23"
+          ],
+          "estimate": 0.006342761848235197,
+          "lower": 0.004701685535347307,
+          "upper": 0.008123862101165101,
+          "rows": 367,
+          "transcript_clusters": 180,
+          "resamples": 10000
+        }
+      },
+      "heat_roughness_sensitivities": {
+        "0.01": {
+          "estimate": 0.006077290591233777,
+          "lower": 0.0027659192734556665,
+          "upper": 0.009346221345633026,
+          "rows": 180,
+          "transcript_clusters": 115,
+          "resamples": 10000
+        },
+        "0.05": {
+          "estimate": 0.006404239544629443,
+          "lower": 0.0032778778080556057,
+          "upper": 0.009195126352969497,
+          "rows": 371,
+          "transcript_clusters": 177,
+          "resamples": 10000
+        },
+        "0.1": {
+          "estimate": 0.005798095104990048,
+          "lower": 0.0027770625894191015,
+          "upper": 0.008515991836088494,
+          "rows": 391,
+          "transcript_clusters": 183,
+          "resamples": 10000
+        }
+      },
+      "nucleotide": {
+        "exclude_saturated": {
+          "estimate": -0.001247658851385782,
+          "lower": -0.002166190215995963,
+          "upper": -0.0003639165228018667,
+          "rows": 401,
+          "transcript_clusters": 184,
+          "resamples": 10000
+        },
+        "residual_df_at_least10percent_n": {
+          "estimate": -0.001247658851385782,
+          "lower": -0.002166190215995963,
+          "upper": -0.0003639165228018667,
+          "rows": 401,
+          "transcript_clusters": 184,
+          "resamples": 10000
+        },
+        "influence": {
+          "exclude_top1_absolute_cluster_contributions": {
+            "excluded": [
+              "can_16"
+            ],
+            "estimate": -0.001449870354138035,
+            "lower": -0.0023060224875523527,
+            "upper": -0.0007252451243400419,
+            "rows": 403,
+            "transcript_clusters": 184,
+            "resamples": 10000
+          },
+          "exclude_top5_absolute_cluster_contributions": {
+            "excluded": [
+              "can_16",
+              "cpxR_cpxA_166",
+              "tolB_pal_ybgF_35",
+              "asnS_44",
+              "gltX_84"
+            ],
+            "estimate": -0.0011562185143963444,
+            "lower": -0.0017655764685004243,
+            "upper": -0.0006281545788338466,
+            "rows": 396,
+            "transcript_clusters": 180,
+            "resamples": 10000
+          }
+        },
+        "99_sampled_tie_orders_lower_envelope": {
+          "estimate": -0.0012383940579348976,
+          "lower": -0.0021539946638793254,
+          "upper": -0.0003509577403735861,
+          "rows": 404,
+          "transcript_clusters": 185,
+          "resamples": 10000
+        },
+        "99_sampled_tie_orders_upper_envelope": {
+          "estimate": -0.0012383940579348976,
+          "lower": -0.0021539946638793254,
+          "upper": -0.0003509577403735861,
+          "rows": 404,
+          "transcript_clusters": 185,
+          "resamples": 10000
+        },
+        "graphs_with_sampled_tie_variation": 0
+      },
+      "codon": {
+        "exclude_saturated": {
+          "estimate": -0.0012313696894971258,
+          "lower": -0.002154328027131377,
+          "upper": -0.0003630194817561632,
+          "rows": 401,
+          "transcript_clusters": 184,
+          "resamples": 10000
+        },
+        "residual_df_at_least10percent_n": {
+          "estimate": -0.0012313696894971258,
+          "lower": -0.002154328027131377,
+          "upper": -0.0003630194817561632,
+          "rows": 401,
+          "transcript_clusters": 184,
+          "resamples": 10000
+        },
+        "influence": {
+          "exclude_top1_absolute_cluster_contributions": {
+            "excluded": [
+              "can_16"
+            ],
+            "estimate": -0.0014336620317624742,
+            "lower": -0.002290360929488089,
+            "upper": -0.0007236506608221665,
+            "rows": 403,
+            "transcript_clusters": 184,
+            "resamples": 10000
+          },
+          "exclude_top5_absolute_cluster_contributions": {
+            "excluded": [
+              "can_16",
+              "ygiB_ygiC_112",
+              "tolB_pal_ybgF_35",
+              "asnS_44",
+              "udp_160"
+            ],
+            "estimate": -0.0008551094700764953,
+            "lower": -0.0014236417736780333,
+            "upper": -0.0003559197341529797,
+            "rows": 396,
+            "transcript_clusters": 180,
+            "resamples": 10000
+          }
+        },
+        "99_sampled_tie_orders_lower_envelope": {
+          "estimate": -0.0012222258551691772,
+          "lower": -0.002136004324499558,
+          "upper": -0.0003710015878638041,
+          "rows": 404,
+          "transcript_clusters": 185,
+          "resamples": 10000
+        },
+        "99_sampled_tie_orders_upper_envelope": {
+          "estimate": -0.0012222258551691772,
+          "lower": -0.002136004324499558,
+          "upper": -0.0003710015878638041,
+          "rows": 404,
+          "transcript_clusters": 185,
+          "resamples": 10000
+        },
+        "graphs_with_sampled_tie_variation": 0
+      },
+      "tie_scale": {
+        "method": "codon OLS, deterministic genotype-index order inside ties; sensitivity only",
+        "graphs_with_changed_tie_partition": 1,
+        "contrasts": {
+          "1e-12": {
+            "estimate": -0.0012222258551691772,
+            "lower": -0.002136004324499558,
+            "upper": -0.0003710015878638041,
+            "rows": 404,
+            "transcript_clusters": 185,
+            "resamples": 10000
+          },
+          "1e-10": {
+            "estimate": -0.0012222258551691772,
+            "lower": -0.002136004324499558,
+            "upper": -0.0003710015878638041,
+            "rows": 404,
+            "transcript_clusters": 185,
+            "resamples": 10000
+          },
+          "1e-08": {
+            "estimate": -0.0012222258551691772,
+            "lower": -0.002136004324499558,
+            "upper": -0.0003710015878638041,
+            "rows": 404,
+            "transcript_clusters": 185,
+            "resamples": 10000
+          }
+        }
+      }
+    },
+    "cellfree": {
+      "heat_influence": {
+        "exclude_top1_absolute_cluster_contributions": {
+          "excluded": [
+            "alaS_csrA_101"
+          ],
+          "estimate": 0.0036403653138960216,
+          "lower": 0.0009945036354560542,
+          "upper": 0.00623828210950888,
+          "rows": 402,
+          "transcript_clusters": 184,
+          "resamples": 10000
+        },
+        "exclude_top5_absolute_cluster_contributions": {
+          "excluded": [
+            "alaS_csrA_101",
+            "rplN_rplX_rplE_rpsN_rpsH_rplF_rplR_rpsE_rpmD_rplO_secY_rpmJ_rpsM_rpsK_rpsD_rpoA_rplQ_131",
+            "hemC_hemD_hemX_hemY_158",
+            "groS_groL_184",
+            "aceB_aceA_178"
+          ],
+          "estimate": 0.005014099806096398,
+          "lower": 0.003244685330287425,
+          "upper": 0.006667554449642259,
+          "rows": 377,
+          "transcript_clusters": 180,
+          "resamples": 10000
+        }
+      },
+      "heat_roughness_sensitivities": {
+        "0.01": {
+          "estimate": 0.006503404076258965,
+          "lower": 0.0019500037343797528,
+          "upper": 0.01198711418699656,
+          "rows": 175,
+          "transcript_clusters": 111,
+          "resamples": 10000
+        },
+        "0.05": {
+          "estimate": 0.00463050590442328,
+          "lower": 0.0013679130914308587,
+          "upper": 0.008045598244025301,
+          "rows": 373,
+          "transcript_clusters": 175,
+          "resamples": 10000
+        },
+        "0.1": {
+          "estimate": 0.0045590208945001445,
+          "lower": 0.0014566098853463101,
+          "upper": 0.007729224860867352,
+          "rows": 391,
+          "transcript_clusters": 182,
+          "resamples": 10000
+        }
+      },
+      "nucleotide": {
+        "exclude_saturated": {
+          "estimate": -0.0012539651914964534,
+          "lower": -0.002624123684500977,
+          "upper": -0.00012063352376663633,
+          "rows": 397,
+          "transcript_clusters": 183,
+          "resamples": 10000
+        },
+        "residual_df_at_least10percent_n": {
+          "estimate": -0.0012539651914964534,
+          "lower": -0.002624123684500977,
+          "upper": -0.00012063352376663633,
+          "rows": 397,
+          "transcript_clusters": 183,
+          "resamples": 10000
+        },
+        "influence": {
+          "exclude_top1_absolute_cluster_contributions": {
+            "excluded": [
+              "aceB_aceA_178"
+            ],
+            "estimate": -0.0008097196518911396,
+            "lower": -0.0016979132461886072,
+            "upper": 7.238650643689033e-05,
+            "rows": 402,
+            "transcript_clusters": 184,
+            "resamples": 10000
+          },
+          "exclude_top5_absolute_cluster_contributions": {
+            "excluded": [
+              "aceB_aceA_178",
+              "can_16",
+              "rlmE_ftsH_120",
+              "asnS_44",
+              "gltX_84"
+            ],
+            "estimate": -0.0008846528331830982,
+            "lower": -0.0015512582083198711,
+            "upper": -0.00027326945760731676,
+            "rows": 397,
+            "transcript_clusters": 180,
+            "resamples": 10000
+          }
+        },
+        "99_sampled_tie_orders_lower_envelope": {
+          "estimate": -0.0012322380718418112,
+          "lower": -0.002581980673219993,
+          "upper": -9.98198328532619e-05,
+          "rows": 404,
+          "transcript_clusters": 185,
+          "resamples": 10000
+        },
+        "99_sampled_tie_orders_upper_envelope": {
+          "estimate": -0.0012322380718418112,
+          "lower": -0.002581980673219993,
+          "upper": -9.98198328532619e-05,
+          "rows": 404,
+          "transcript_clusters": 185,
+          "resamples": 10000
+        },
+        "graphs_with_sampled_tie_variation": 0
+      },
+      "codon": {
+        "exclude_saturated": {
+          "estimate": -0.0011777427212919596,
+          "lower": -0.0025157021965291353,
+          "upper": -3.206268665895442e-05,
+          "rows": 397,
+          "transcript_clusters": 183,
+          "resamples": 10000
+        },
+        "residual_df_at_least10percent_n": {
+          "estimate": -0.0011777427212919596,
+          "lower": -0.0025157021965291353,
+          "upper": -3.206268665895442e-05,
+          "rows": 397,
+          "transcript_clusters": 183,
+          "resamples": 10000
+        },
+        "influence": {
+          "exclude_top1_absolute_cluster_contributions": {
+            "excluded": [
+              "aceB_aceA_178"
+            ],
+            "estimate": -0.0007344452223608309,
+            "lower": -0.0016712311083966816,
+            "upper": 0.0001692812014352709,
+            "rows": 402,
+            "transcript_clusters": 184,
+            "resamples": 10000
+          },
+          "exclude_top5_absolute_cluster_contributions": {
+            "excluded": [
+              "aceB_aceA_178",
+              "can_16",
+              "ygiB_ygiC_112",
+              "asnS_44",
+              "hemC_hemD_hemX_hemY_158"
+            ],
+            "estimate": -0.0007637112274664382,
+            "lower": -0.0014377034442297318,
+            "upper": -0.0001553616211586192,
+            "rows": 394,
+            "transcript_clusters": 180,
+            "resamples": 10000
+          }
+        },
+        "99_sampled_tie_orders_lower_envelope": {
+          "estimate": -0.0011573362880022474,
+          "lower": -0.00254241490851164,
+          "upper": -1.4891267646982541e-05,
+          "rows": 404,
+          "transcript_clusters": 185,
+          "resamples": 10000
+        },
+        "99_sampled_tie_orders_upper_envelope": {
+          "estimate": -0.0011573362880022474,
+          "lower": -0.00254241490851164,
+          "upper": -1.4891267646982541e-05,
+          "rows": 404,
+          "transcript_clusters": 185,
+          "resamples": 10000
+        },
+        "graphs_with_sampled_tie_variation": 0
+      },
+      "tie_scale": {
+        "method": "codon OLS, deterministic genotype-index order inside ties; sensitivity only",
+        "graphs_with_changed_tie_partition": 0,
+        "contrasts": {
+          "1e-12": {
+            "estimate": -0.0011573362880022474,
+            "lower": -0.00254241490851164,
+            "upper": -1.4891267646982541e-05,
+            "rows": 404,
+            "transcript_clusters": 185,
+            "resamples": 10000
+          },
+          "1e-10": {
+            "estimate": -0.0011573362880022474,
+            "lower": -0.00254241490851164,
+            "upper": -1.4891267646982541e-05,
+            "rows": 404,
+            "transcript_clusters": 185,
+            "resamples": 10000
+          },
+          "1e-08": {
+            "estimate": -0.0011573362880022474,
+            "lower": -0.00254241490851164,
+            "upper": -1.4891267646982541e-05,
+            "rows": 404,
+            "transcript_clusters": 185,
+            "resamples": 10000
+          }
+        }
+      }
+    }
+  },
+  "source_sha256": "1dcb6453fa8fdf7ea282819aca0a0a2f4f180761ad7de4f4c11a98a7f04a8df4"
+}
