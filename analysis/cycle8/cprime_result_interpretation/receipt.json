@@ -1,0 +1,47 @@
+{
+  "status": "scientific_interpretation_review_complete",
+  "verdict": "Finite local-proxy sensitivity supported; primary order exclusions fail to persist at first widening; isolated-edit/interaction/mechanism/calibration claims unsupported",
+  "claim_rows": 14,
+  "files": {
+    "boundary_proximity.json": "132d6a9b2b8c7b1e8d30021b98f8d474af240de1e6d12acfde5e8190a741a71b",
+    "boundary_proximity.py": "837166c3c18520105dcab5370b8b0a09b25455f598c77f56eac7d90883687d0f",
+    "boundary_proximity_all.csv": "5a98a0af73996cbb73d17281608930112aeefd5bd1a7ef1b7ca603b19ee7e4e4",
+    "boundary_proximity_nonzero_near.csv": "8c44501ad2bf6acdfe9af3aa083f90f022859a497b018a115a89b22489e94a9a",
+    "claim_to_evidence.csv": "f1d2f051aaf4db8c64f18bce410a307ce4f548112074686d20ae29021d4809cf",
+    "cycle_margins.csv": "afbf95784311706de1e6500f451de9d3b2378426e729d9aa1e0fa4952534b87d",
+    "evidence.json": "0659420a1dab3382318f61f59ca89e77ed4070324bd8041fea332ed64970882d",
+    "extract_review_evidence.py": "d0855068fe5c939ee81eef29994686a4e8f0dac90d1dbafe92989149302035b4",
+    "history_pre_precision\\claim_to_evidence.csv": "b920b2bfd115475b548423493b01c38861b2fb8427f57ae945dfefff9d9e04fb",
+    "history_pre_precision\\receipt.json": "723ef03828f9664438ce2a056c4ed8e99c8fd797dafc4910c39080def574f992",
+    "history_pre_precision\\review.md": "2e052fd3012f18f9ee087cff9a54c768acc2190d061bded242c36e4af546fe88",
+    "review.md": "08c99695de253cd9f28ab911572826e112c36e294e1d530e300e9541e9803c72"
+  },
+  "input_sha256": {
+    "cprime_pilot/protocol.md": "5cb5711d220f91c179b8ee428dea0e91c72a725382032bc8a82083f0e5ec2e4f",
+    "cprime_pilot/freeze.json": "58ef31aeed9a23aeb13a8ab54f3c74d4224b410aad71c756a7d3a612623b4363",
+    "cprime_pilot/eligibility.json": "c5c2b20e6729918219c5cf3deb757ff242241cdf53f0f635f1dc7d677282ee32",
+    "cprime_results/primary_v1/result.json": "eeeb40c167e689ae4266bbe49fdef7c8711163ca426b217adaee14f0b4a6afdf",
+    "cprime_results/primary_v1/receipt.json": "520b55d97a3fe8808071d0698c00e644f517daab6756506262b13d00ccef7c14",
+    "cprime_gate/report.md": "e2e49e332f37038a19585a96c451916bfc456b83f254eec9bf66b75ed9fb13a6",
+    "cprime_gate/measurement_contract.json": "f8114d02891cfdcd643de8e022c480aee3f7ab40d5ec1b178f093cf0310b657f",
+    "cprime_gate/marker_context_primary.txt": "360abe3f61ec1b25f98a4aca77879dd5f39e9ba4297fbf7abc760983dc712c16",
+    "cprime_gate/article.xml": "9583663d9c088aa9759944c0ad4a0e4e12cccf57d092a89b336b5c8ae86d0049"
+  },
+  "no_numeric_replay_claim": true,
+  "cycle_origins_scope_checked": true,
+  "no_cross_exon_comparison": true,
+  "no_full_haplotype_claim": true,
+  "COMT_outcome_access": false,
+  "raw_source_workbook_access": false,
+  "new_models_thresholds_or_subsets": false,
+  "shared_edits_or_external_actions": false,
+  "post_primary_precision_diagnostic": {
+    "reporting_relative_threshold": "1/1000000000000",
+    "frozen_flags_unchanged": true,
+    "nonzero_near_cases": 1,
+    "primary_strict_positive_lower_cases_near": 0,
+    "primary_twofold_lower_cases_near": 0,
+    "stored_cycle_inequalities_near": 0,
+    "source_rounding_procedure_authenticated": false
+  }
+}

@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "C:\Users\VIVAAN\Documents\Codex\2026-10-24\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\work\research_cycle8\cprime_independent_replay\compare_and_run.py", line 119, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "C:\Users\VIVAAN\Documents\Codex\2026-10-24\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\work\research_cycle8\cprime_independent_replay\compare_and_run.py", line 107, in main
+    coverage=compare(core.ready(reconstructed),production,eligible)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\VIVAAN\Documents\Codex\2026-10-24\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\work\research_cycle8\cprime_independent_replay\compare_and_run.py", line 83, in compare
+    require(s['summary']==prod['summary'],f'Summary mismatch {gamma}')
+  File "C:\Users\VIVAAN\Documents\Codex\2026-10-24\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\work\research_cycle8\cprime_independent_replay\compare_and_run.py", line 13, in require
+    if not test:raise ArithmeticError(msg)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+ArithmeticError: Summary mismatch 1

@@ -1,0 +1,25 @@
+{
+  "status": "PASS_SYNTHETIC_ONLY",
+  "real_workbook_or_result_opened": false,
+  "synthetic_paired_rows": 24,
+  "raw_decimal_roundtrip_differences": 2,
+  "two_context_order_cases": 81,
+  "checks": [
+    "unselected_poison_ignored",
+    "within_row_pairs_preserved",
+    "exact_decimal_source",
+    "all_gamma_outputs",
+    "row_permutation",
+    "distinct_marker_maximum",
+    "unknown_state",
+    "nonpositive_score_reproduction_failure",
+    "feasible_positive_response",
+    "opposite_order_cycle",
+    "complete_record_comparator"
+  ],
+  "files": {
+    "reference.py": "5c770a698fb29cd01be5f3568927d9f8b0b53173cb9220679378f67b9665b763",
+    "compare_and_run.py": "d6100d05ab1d100ba0ff6e929057652d46f47154046f304041a21ef8885f37e0",
+    "test_synthetic.py": "61cf26bce7620bef4966932568bae5a4fc4caf4ba7e4bad4822fde83669c8c90"
+  }
+}

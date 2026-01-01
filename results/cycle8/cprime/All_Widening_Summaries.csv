@@ -1,0 +1,5 @@
+gamma,group_cells,complete_group_cells,strictly_positive_lower_dispersion,minimum_at_least_twofold,maximum_at_most_twofold,shared_order_infeasible_exons
+1,60,60,19,7,13,17;27
+5/4,60,60,7,5,4,
+3/2,60,60,6,4,0,
+2,60,60,4,2,0,

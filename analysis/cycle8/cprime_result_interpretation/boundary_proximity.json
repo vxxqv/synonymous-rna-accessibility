@@ -1,0 +1,149 @@
+{
+  "status": "postprimary_diagnostic_complete",
+  "source_sha256": "eeeb40c167e689ae4266bbe49fdef7c8711163ca426b217adaee14f0b4a6afdf",
+  "reporting_relative_threshold_exact": "1/1000000000000",
+  "range_margin_definition": "(value-threshold)/threshold, threshold1or2",
+  "cycle_margin_definition": "(higher_lower-lower_upper)/max(abs(higher_lower),abs(lower_upper))",
+  "all_group_comparisons": 720,
+  "summaries": [
+    {
+      "gamma": "1",
+      "diagnostics": {
+        "minimum_vs_one": {
+          "frozen_true_count": 19,
+          "near_by_side": {
+            "equal": 41
+          },
+          "frozen_true_and_near": 0,
+          "frozen_false_and_near": 41,
+          "nonzero_near_count": 0
+        },
+        "minimum_vs_two": {
+          "frozen_true_count": 7,
+          "near_by_side": {},
+          "frozen_true_and_near": 0,
+          "frozen_false_and_near": 0,
+          "nonzero_near_count": 0
+        },
+        "maximum_vs_two": {
+          "frozen_true_count": 13,
+          "near_by_side": {
+            "above": 1
+          },
+          "frozen_true_and_near": 0,
+          "frozen_false_and_near": 1,
+          "nonzero_near_count": 1
+        }
+      }
+    },
+    {
+      "gamma": "5/4",
+      "diagnostics": {
+        "minimum_vs_one": {
+          "frozen_true_count": 7,
+          "near_by_side": {
+            "equal": 53
+          },
+          "frozen_true_and_near": 0,
+          "frozen_false_and_near": 53,
+          "nonzero_near_count": 0
+        },
+        "minimum_vs_two": {
+          "frozen_true_count": 5,
+          "near_by_side": {},
+          "frozen_true_and_near": 0,
+          "frozen_false_and_near": 0,
+          "nonzero_near_count": 0
+        },
+        "maximum_vs_two": {
+          "frozen_true_count": 4,
+          "near_by_side": {},
+          "frozen_true_and_near": 0,
+          "frozen_false_and_near": 0,
+          "nonzero_near_count": 0
+        }
+      }
+    },
+    {
+      "gamma": "3/2",
+      "diagnostics": {
+        "minimum_vs_one": {
+          "frozen_true_count": 6,
+          "near_by_side": {
+            "equal": 54
+          },
+          "frozen_true_and_near": 0,
+          "frozen_false_and_near": 54,
+          "nonzero_near_count": 0
+        },
+        "minimum_vs_two": {
+          "frozen_true_count": 4,
+          "near_by_side": {},
+          "frozen_true_and_near": 0,
+          "frozen_false_and_near": 0,
+          "nonzero_near_count": 0
+        },
+        "maximum_vs_two": {
+          "frozen_true_count": 0,
+          "near_by_side": {},
+          "frozen_true_and_near": 0,
+          "frozen_false_and_near": 0,
+          "nonzero_near_count": 0
+        }
+      }
+    },
+    {
+      "gamma": "2",
+      "diagnostics": {
+        "minimum_vs_one": {
+          "frozen_true_count": 4,
+          "near_by_side": {
+            "equal": 56
+          },
+          "frozen_true_and_near": 0,
+          "frozen_false_and_near": 56,
+          "nonzero_near_count": 0
+        },
+        "minimum_vs_two": {
+          "frozen_true_count": 2,
+          "near_by_side": {},
+          "frozen_true_and_near": 0,
+          "frozen_false_and_near": 0,
+          "nonzero_near_count": 0
+        },
+        "maximum_vs_two": {
+          "frozen_true_count": 0,
+          "near_by_side": {},
+          "frozen_true_and_near": 0,
+          "frozen_false_and_near": 0,
+          "nonzero_near_count": 0
+        }
+      }
+    }
+  ],
+  "nonzero_near_records": [
+    {
+      "gamma": "1",
+      "intended": "chr17-31225100-A-T",
+      "cell": "KBM7",
+      "diagnostic": "maximum_vs_two",
+      "value_exact": "937681719787039/468840859893519",
+      "value_decimal": "2.0000000000000021329199000000030796631085608144466390239176094206",
+      "threshold": "2",
+      "signed_margin_exact": "1/468840859893519",
+      "signed_margin_decimal": "2.1329199000000030796631085608144466390239176094206161360780641576E-15",
+      "relative_margin_exact": "1/937681719787038",
+      "relative_margin_decimal": "1.0664599500000015398315542804072233195119588047103080680390320788E-15",
+      "side": "above",
+      "within_postprimary_relative_1e_minus_12": true,
+      "frozen_decision": false
+    }
+  ],
+  "stored_cycle_inequalities": 5,
+  "cycle_near_count": 0,
+  "smallest_cycle_relative_gap_exact": "122757506077107219064915943/2406034267203504256421555785",
+  "smallest_cycle_relative_gap_decimal": "0.051020680690381993374534979548090537014044832276265370943258724558",
+  "frozen_results_or_thresholds_changed": false,
+  "statistical_or_biological_error_bound": false,
+  "source_rounding_procedure_authenticated": false
+}

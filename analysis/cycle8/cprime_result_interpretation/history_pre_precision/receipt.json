@@ -1,0 +1,30 @@
+{
+  "status": "scientific_interpretation_review_complete",
+  "verdict": "Finite local-proxy sensitivity supported; primary order exclusions fail to persist at first widening; isolated-edit/interaction/mechanism/calibration claims unsupported",
+  "claim_rows": 13,
+  "files": {
+    "claim_to_evidence.csv": "b920b2bfd115475b548423493b01c38861b2fb8427f57ae945dfefff9d9e04fb",
+    "evidence.json": "0659420a1dab3382318f61f59ca89e77ed4070324bd8041fea332ed64970882d",
+    "extract_review_evidence.py": "d0855068fe5c939ee81eef29994686a4e8f0dac90d1dbafe92989149302035b4",
+    "review.md": "2e052fd3012f18f9ee087cff9a54c768acc2190d061bded242c36e4af546fe88"
+  },
+  "input_sha256": {
+    "cprime_pilot/protocol.md": "5cb5711d220f91c179b8ee428dea0e91c72a725382032bc8a82083f0e5ec2e4f",
+    "cprime_pilot/freeze.json": "58ef31aeed9a23aeb13a8ab54f3c74d4224b410aad71c756a7d3a612623b4363",
+    "cprime_pilot/eligibility.json": "c5c2b20e6729918219c5cf3deb757ff242241cdf53f0f635f1dc7d677282ee32",
+    "cprime_results/primary_v1/result.json": "eeeb40c167e689ae4266bbe49fdef7c8711163ca426b217adaee14f0b4a6afdf",
+    "cprime_results/primary_v1/receipt.json": "520b55d97a3fe8808071d0698c00e644f517daab6756506262b13d00ccef7c14",
+    "cprime_gate/report.md": "e2e49e332f37038a19585a96c451916bfc456b83f254eec9bf66b75ed9fb13a6",
+    "cprime_gate/measurement_contract.json": "f8114d02891cfdcd643de8e022c480aee3f7ab40d5ec1b178f093cf0310b657f",
+    "cprime_gate/marker_context_primary.txt": "360abe3f61ec1b25f98a4aca77879dd5f39e9ba4297fbf7abc760983dc712c16",
+    "cprime_gate/article.xml": "9583663d9c088aa9759944c0ad4a0e4e12cccf57d092a89b336b5c8ae86d0049"
+  },
+  "no_numeric_replay_claim": true,
+  "cycle_origins_scope_checked": true,
+  "no_cross_exon_comparison": true,
+  "no_full_haplotype_claim": true,
+  "COMT_outcome_access": false,
+  "raw_source_workbook_access": false,
+  "new_models_thresholds_or_subsets": false,
+  "shared_edits_or_external_actions": false
+}

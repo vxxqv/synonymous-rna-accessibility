@@ -1,0 +1,9 @@
+{
+  "purpose": "B1_INDEPENDENT_REPLAY",
+  "authorized": true,
+  "protocol_sha256": "5cb5711d220f91c179b8ee428dea0e91c72a725382032bc8a82083f0e5ec2e4f",
+  "source_workbook_sha256": "6a8f0c21100c57e30bce6d1ca9d62f3eb5999c4dce1870baa7eabe20fc4a9f9b",
+  "production_result_sha256": "eeeb40c167e689ae4266bbe49fdef7c8711163ca426b217adaee14f0b4a6afdf",
+  "root_authorization": "Primary B1 ran once successfully after Git freeze b6f83e550a8e6f7bbf7901b9e9d69e01956eaac5. Once pre-access core hashes are saved, authorized to read all396 declared source rows and independently reconstruct every result, then compare. Root message received before seal; condition met by seal92dbf95c....",
+  "freeze_sha256": "58ef31aeed9a23aeb13a8ab54f3c74d4224b410aad71c756a7d3a612623b4363"
+}

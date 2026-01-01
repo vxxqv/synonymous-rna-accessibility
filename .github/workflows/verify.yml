@@ -90,6 +90,8 @@ jobs:
         run: python -I -B analysis/cycle7/robustness_result_review/verify_portable.py --repo . --out "${{ runner.temp }}/cycle7-fas-robustness"
       - name: Independently reconstruct every joint-scenario FAS route interval
         run: python -I -B analysis/cycle7/scenario_result_review/verify_observed.py --repo . --out "${{ runner.temp }}/cycle7-fas-scenarios"
+      - name: Independently reconstruct every frozen cPRIME measurement and interval claim
+        run: python -B analysis/cycle8/cprime_complete_replay.py --repo . --out "${{ runner.temp }}/cycle8-cprime-independent"
       - name: Retain joint-function pilot verification
         if: ${{ always() && steps.joint_function.outcome != 'skipped' }}
         uses: actions/upload-artifact@v4

@@ -1,0 +1,59 @@
+{
+  "source_rows": 396,
+  "usable_source_rows": 396,
+  "inconsistent_source_scores": 0,
+  "nonzero_source_rounding_differences": 396,
+  "maximum_absolute_score_disagreement": "38741607059637/47619492067640200000000000",
+  "maximum_scaled_score_disagreement": "233715401936793/21954289632185500000000000000",
+  "score_reproduction_tolerance": "1/100000000 times max(1,abs(q))",
+  "summary": [
+    {
+      "group_cells": 60,
+      "complete_group_cells": 60,
+      "strictly_positive_lower_dispersion": 19,
+      "minimum_at_least_twofold": 7,
+      "maximum_at_most_twofold": 13,
+      "shared_order_infeasible_exons": 2,
+      "gamma": "1",
+      "infeasible_exon_IDs": [
+        17,
+        27
+      ]
+    },
+    {
+      "group_cells": 60,
+      "complete_group_cells": 60,
+      "strictly_positive_lower_dispersion": 7,
+      "minimum_at_least_twofold": 5,
+      "maximum_at_most_twofold": 4,
+      "shared_order_infeasible_exons": 0,
+      "gamma": "5/4",
+      "infeasible_exon_IDs": []
+    },
+    {
+      "group_cells": 60,
+      "complete_group_cells": 60,
+      "strictly_positive_lower_dispersion": 6,
+      "minimum_at_least_twofold": 4,
+      "maximum_at_most_twofold": 0,
+      "shared_order_infeasible_exons": 0,
+      "gamma": "3/2",
+      "infeasible_exon_IDs": []
+    },
+    {
+      "group_cells": 60,
+      "complete_group_cells": 60,
+      "strictly_positive_lower_dispersion": 4,
+      "minimum_at_least_twofold": 2,
+      "maximum_at_most_twofold": 0,
+      "shared_order_infeasible_exons": 0,
+      "gamma": "2",
+      "infeasible_exon_IDs": []
+    }
+  ],
+  "production_freeze_hash_matches_root": true,
+  "declared_freeze_sha256": "58ef31aeed9a23aeb13a8ab54f3c74d4224b410aad71c756a7d3a612623b4363",
+  "source_outcome_access_authorized_after_core_seal": true,
+  "methods_changed_after_access": false,
+  "schema_only_adapter": true
+}

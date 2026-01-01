@@ -1,0 +1,15 @@
+{
+  "stage": "SEALED_AFTER_SYNTHETIC_BEFORE_REAL_SOURCE_OR_RESULT_ACCESS",
+  "files": {
+    "reference.py": "5c770a698fb29cd01be5f3568927d9f8b0b53173cb9220679378f67b9665b763",
+    "compare_and_run.py": "d6100d05ab1d100ba0ff6e929057652d46f47154046f304041a21ef8885f37e0",
+    "test_synthetic.py": "61cf26bce7620bef4966932568bae5a4fc4caf4ba7e4bad4822fde83669c8c90"
+  },
+  "protocol_sha256": "5cb5711d220f91c179b8ee428dea0e91c72a725382032bc8a82083f0e5ec2e4f",
+  "eligibility_sha256": "c5c2b20e6729918219c5cf3deb757ff242241cdf53f0f635f1dc7d677282ee32",
+  "workbook_sha256": "6a8f0c21100c57e30bce6d1ca9d62f3eb5999c4dce1870baa7eabe20fc4a9f9b",
+  "production_code_imported_or_inspected": false,
+  "source_outcome_cells_read": false,
+  "production_result_read": false,
+  "synthetic_receipt_sha256": "35b07401fd93b5858a4c9a10ed7b9a6ba0576015bbddee9fdece5d912b32733f"
+}

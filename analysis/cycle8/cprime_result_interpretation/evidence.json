@@ -1,0 +1,173 @@
+{
+  "status": "interpretation_evidence_extracted",
+  "input_sha256": {
+    "cprime_pilot/protocol.md": "5cb5711d220f91c179b8ee428dea0e91c72a725382032bc8a82083f0e5ec2e4f",
+    "cprime_pilot/freeze.json": "58ef31aeed9a23aeb13a8ab54f3c74d4224b410aad71c756a7d3a612623b4363",
+    "cprime_pilot/eligibility.json": "c5c2b20e6729918219c5cf3deb757ff242241cdf53f0f635f1dc7d677282ee32",
+    "cprime_results/primary_v1/result.json": "eeeb40c167e689ae4266bbe49fdef7c8711163ca426b217adaee14f0b4a6afdf",
+    "cprime_results/primary_v1/receipt.json": "520b55d97a3fe8808071d0698c00e644f517daab6756506262b13d00ccef7c14",
+    "cprime_gate/report.md": "e2e49e332f37038a19585a96c451916bfc456b83f254eec9bf66b75ed9fb13a6",
+    "cprime_gate/measurement_contract.json": "f8114d02891cfdcd643de8e022c480aee3f7ab40d5ec1b178f093cf0310b657f",
+    "cprime_gate/marker_context_primary.txt": "360abe3f61ec1b25f98a4aca77879dd5f39e9ba4297fbf7abc760983dc712c16",
+    "cprime_gate/article.xml": "9583663d9c088aa9759944c0ad4a0e4e12cccf57d092a89b336b5c8ae86d0049"
+  },
+  "public_freeze_commit_parent_reported": "b6f83e550a8e6f7bbf7901b9e9d69e01956eaac5",
+  "historical_remote_order_independently_verified_here": false,
+  "source_counts": {
+    "intended_labels": 30,
+    "marker_states": 66,
+    "state_cells": 132,
+    "group_cells": 60,
+    "source_rows": 396,
+    "complete_state_cells": 132
+  },
+  "sensitivities": [
+    {
+      "gamma": "1",
+      "reported_summary": {
+        "group_cells": 60,
+        "complete_group_cells": 60,
+        "strictly_positive_lower_dispersion": 19,
+        "minimum_at_least_twofold": 7,
+        "maximum_at_most_twofold": 13,
+        "shared_order_infeasible_exons": [
+          17,
+          27
+        ]
+      },
+      "reported_fixed_grid": {
+        "5/4": {
+          "lower_at_least": 11,
+          "upper_at_most": 4
+        },
+        "3/2": {
+          "lower_at_least": 8,
+          "upper_at_most": 10
+        },
+        "2": {
+          "lower_at_least": 7,
+          "upper_at_most": 13
+        },
+        "4": {
+          "lower_at_least": 4,
+          "upper_at_most": 28
+        }
+      },
+      "cycle_scope": [
+        {
+          "exon": 17,
+          "cycle_edges": 2,
+          "distinct_intended_labels": 1,
+          "within_one_intended_label": true,
+          "intended_labels": [
+            "chr17-31225238-G-T"
+          ],
+          "certificate_origins_match_primary_state_intervals": true
+        },
+        {
+          "exon": 27,
+          "cycle_edges": 3,
+          "distinct_intended_labels": 3,
+          "within_one_intended_label": false,
+          "intended_labels": [
+            "chr17-31233072-A-G",
+            "chr17-31233126-A-G",
+            "chr17-31233156-T-C"
+          ],
+          "certificate_origins_match_primary_state_intervals": true
+        }
+      ]
+    },
+    {
+      "gamma": "5/4",
+      "reported_summary": {
+        "group_cells": 60,
+        "complete_group_cells": 60,
+        "strictly_positive_lower_dispersion": 7,
+        "minimum_at_least_twofold": 5,
+        "maximum_at_most_twofold": 4,
+        "shared_order_infeasible_exons": []
+      },
+      "reported_fixed_grid": {
+        "5/4": {
+          "lower_at_least": 7,
+          "upper_at_most": 0
+        },
+        "3/2": {
+          "lower_at_least": 6,
+          "upper_at_most": 0
+        },
+        "2": {
+          "lower_at_least": 5,
+          "upper_at_most": 4
+        },
+        "4": {
+          "lower_at_least": 4,
+          "upper_at_most": 19
+        }
+      },
+      "cycle_scope": []
+    },
+    {
+      "gamma": "3/2",
+      "reported_summary": {
+        "group_cells": 60,
+        "complete_group_cells": 60,
+        "strictly_positive_lower_dispersion": 6,
+        "minimum_at_least_twofold": 4,
+        "maximum_at_most_twofold": 0,
+        "shared_order_infeasible_exons": []
+      },
+      "reported_fixed_grid": {
+        "5/4": {
+          "lower_at_least": 5,
+          "upper_at_most": 0
+        },
+        "3/2": {
+          "lower_at_least": 5,
+          "upper_at_most": 0
+        },
+        "2": {
+          "lower_at_least": 4,
+          "upper_at_most": 0
+        },
+        "4": {
+          "lower_at_least": 2,
+          "upper_at_most": 11
+        }
+      },
+      "cycle_scope": []
+    },
+    {
+      "gamma": "2",
+      "reported_summary": {
+        "group_cells": 60,
+        "complete_group_cells": 60,
+        "strictly_positive_lower_dispersion": 4,
+        "minimum_at_least_twofold": 2,
+        "maximum_at_most_twofold": 0,
+        "shared_order_infeasible_exons": []
+      },
+      "reported_fixed_grid": {
+        "5/4": {
+          "lower_at_least": 4,
+          "upper_at_most": 0
+        },
+        "3/2": {
+          "lower_at_least": 4,
+          "upper_at_most": 0
+        },
+        "2": {
+          "lower_at_least": 2,
+          "upper_at_most": 0
+        },
+        "4": {
+          "lower_at_least": 1,
+          "upper_at_most": 0
+        }
+      },
+      "cycle_scope": []
+    }
+  ],
+  "scope": "Saved summaries and exact cycle-support/scope checks only. A separately assigned agent performs full independent numerical replay. No raw workbook, new endpoint or COMT outcome access."
+}

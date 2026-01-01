@@ -1,0 +1,98 @@
+{
+  "status": "PASS_COMPLETE_WITH_DISCLOSED_SCHEMA_ADAPTER",
+  "software": {
+    "Python": "3.12.14",
+    "openpyxl": "3.1.5"
+  },
+  "original_pre_access_seal_sha256": "92dbf95c802a97a09a4d428c89838a8519ea4690bdbba34d351f09d170bc8b1c",
+  "original_core_files_unchanged": true,
+  "post_access_schema_adapter": "Count-to-exon-list summary shape only; numerical functions unchanged",
+  "source_response_rows": 396,
+  "state_cells": 132,
+  "group_gamma_records": 240,
+  "order_gamma_records": 20,
+  "initial_failed_attempt_preserved": true,
+  "historical_Git_reauthenticated": false,
+  "files": [
+    {
+      "path": "actual_authorization.json",
+      "bytes": 774,
+      "sha256": "fb7f5bdce0fe08573f84a150731a20b6dc84e1ad3648368ec942023da7945781"
+    },
+    {
+      "path": "actual_v1_execution.log",
+      "bytes": 1283,
+      "sha256": "dd984d9c9e3821463dbc17ecc8baf63ebd362b0bc609171e354266926353ff8f"
+    },
+    {
+      "path": "actual_v2\\independent_reconstruction.json",
+      "bytes": 934378,
+      "sha256": "77998f680ae5e2c3cb0f67e6ee4a09ed0b0fba8f29e849fc65c205b5fb197a26"
+    },
+    {
+      "path": "actual_v2\\openpyxl_roundtrip.json",
+      "bytes": 4,
+      "sha256": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+    },
+    {
+      "path": "actual_v2\\verification.json",
+      "bytes": 1222,
+      "sha256": "eaa9363bb6a29f27011163e006c263a7da9041b80ab7048378a2194a68b3a639"
+    },
+    {
+      "path": "actual_v2_execution.log",
+      "bytes": 752,
+      "sha256": "f99caa8d40aa8c9809231b18792dc4b82b50c1a1a4b10ff326c21f4c4c353ce7"
+    },
+    {
+      "path": "compare_and_run.py",
+      "bytes": 8674,
+      "sha256": "d6100d05ab1d100ba0ff6e929057652d46f47154046f304041a21ef8885f37e0"
+    },
+    {
+      "path": "headlines.json",
+      "bytes": 1911,
+      "sha256": "b6983f0c3fceda889ca39c1178736f708593d79c32843399de69f5ebf5a3ace8"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2130,
+      "sha256": "cdbb32f998da05647d44bbcca6d343947f73a898c74f24ad1765f73802c56d8e"
+    },
+    {
+      "path": "reference.py",
+      "bytes": 12043,
+      "sha256": "5c770a698fb29cd01be5f3568927d9f8b0b53173cb9220679378f67b9665b763"
+    },
+    {
+      "path": "replay_schema_adapter_v1.py",
+      "bytes": 1742,
+      "sha256": "4acb7d941dbfe2d85c9dbe279c4a6da2a3226e679e8e6d0c8eeb752a8539f82f"
+    },
+    {
+      "path": "report.md",
+      "bytes": 7348,
+      "sha256": "60ea9353a073e3d752b31a0ee8355717d8648b4fc62c6778321f6ad63a9f3f0f"
+    },
+    {
+      "path": "seal.json",
+      "bytes": 874,
+      "sha256": "92dbf95c802a97a09a4d428c89838a8519ea4690bdbba34d351f09d170bc8b1c"
+    },
+    {
+      "path": "synthetic_v1\\invented.xlsx",
+      "bytes": 31293,
+      "sha256": "77f69355d6dc955cc9316f775bc96b2dad8255591726f52c3518fc5f876afbf9"
+    },
+    {
+      "path": "synthetic_v1\\receipt.json",
+      "bytes": 859,
+      "sha256": "35b07401fd93b5858a4c9a10ed7b9a6ba0576015bbddee9fdece5d912b32733f"
+    },
+    {
+      "path": "test_synthetic.py",
+      "bytes": 4863,
+      "sha256": "61cf26bce7620bef4966932568bae5a4fc4caf4ba7e4bad4822fde83669c8c90"
+    }
+  ]
+}

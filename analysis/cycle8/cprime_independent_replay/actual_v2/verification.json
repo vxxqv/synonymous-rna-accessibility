@@ -1,0 +1,24 @@
+{
+  "status": "PASS_ALL_INDEPENDENT_RECORDS",
+  "coverage": {
+    "source_rows": 396,
+    "state_cells": 132,
+    "group_gamma_records": 240,
+    "order_gamma_records": 20,
+    "edge_origins": 872,
+    "witness_values": 456
+  },
+  "openpyxl_roundtrip_differences": 0,
+  "arithmetic_uses": "Exact raw numeric XML decimal strings; no openpyxl rounding determines orders",
+  "protocol_sha256": "5cb5711d220f91c179b8ee428dea0e91c72a725382032bc8a82083f0e5ec2e4f",
+  "source_sha256": "6a8f0c21100c57e30bce6d1ca9d62f3eb5999c4dce1870baa7eabe20fc4a9f9b",
+  "production_result_sha256": "eeeb40c167e689ae4266bbe49fdef7c8711163ca426b217adaee14f0b4a6afdf",
+  "historical_git_reauthenticated": false,
+  "limitations": "Descriptive proxy replay, no biological calibration or independent experimental validation",
+  "schema_adapter": {
+    "path": "replay_schema_adapter_v1.py",
+    "sha256": "4acb7d941dbfe2d85c9dbe279c4a6da2a3226e679e8e6d0c8eeb752a8539f82f",
+    "change": "Only independent summary count-to-exon-ID-list shape for comparison; original numerical core and reconstruction remain unchanged",
+    "initial_failure_log_sha256": "dd984d9c9e3821463dbc17ecc8baf63ebd362b0bc609171e354266926353ff8f"
+  }
+}
