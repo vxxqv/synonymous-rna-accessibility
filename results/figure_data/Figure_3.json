@@ -649,5 +649,20 @@
     "height_mm": 129.0,
     "clipped_text_preflight": [],
     "ordinary_font_pt": 8.5
+  },
+  "provenance": {
+    "renderer_sha256": "759236a2f2188de2b15d10972c16115c90200d06ace5d7d88e3c26cd7fd0e09d",
+    "inputs": [
+      {
+        "path": "analysis/exact/exact_bridge_threshold_automata.json",
+        "sha256": "e81feddb27c09d8093dbafb334153596630b4a5099b222a718da58c3ab6bb4bb"
+      },
+      {
+        "path": "analysis/exact/exact_peptide_automata.json",
+        "sha256": "36f184b4051df141d1cfbe93aa3284c93b6bec9a75591a0259ec520682b38ec4"
+      }
+    ],
+    "matplotlib": "3.11.2",
+    "numpy": "2.5.4"
   }
 }

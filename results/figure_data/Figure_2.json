@@ -820,5 +820,20 @@
     "height_mm": 157.0,
     "clipped_text_preflight": [],
     "ordinary_font_pt": 8.5
+  },
+  "provenance": {
+    "renderer_sha256": "759236a2f2188de2b15d10972c16115c90200d06ace5d7d88e3c26cd7fd0e09d",
+    "inputs": [
+      {
+        "path": "results/expansion/verification_release/arbitrary_pair_graph_results.json",
+        "sha256": "f1692944e69261047a763b85deec7f1a0ba17ba253a92f5616565e50ca66b259"
+      },
+      {
+        "path": "results/expansion/verification_release/general_graph_figure_sources.json",
+        "sha256": "8aac6698096fd3df498f6ffab7d980f16ea86bedc520db2e0a3a34132b6f04f1"
+      }
+    ],
+    "matplotlib": "3.11.2",
+    "numpy": "2.5.4"
   }
 }

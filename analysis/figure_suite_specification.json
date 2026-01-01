@@ -1,0 +1,42 @@
+{
+  "architecture": "fresh quantitative reconstruction; retired cartoons and cube/chain compositions are excluded",
+  "reference_artifacts": [
+    "Patni_Manuscript.pdf pages27to37",
+    "Patni_Supplementary_Material.pdf full figure collection"
+  ],
+  "width_mm": 174,
+  "ordinary_font_pt": 8.5,
+  "panel_letters": "lowercase, bold10pt",
+  "main_figures": {
+    "1": "Score organization: observed heterogeneity, progressively matched controls, uncertainty and the additive explanation; discovery only",
+    "2": "Generalized compatibility geometry: exhaustive distance/order distributions, code-specific weighted volumes and tractable versus hard counting classes",
+    "3": "Register phase: exact finite counts and certified asymptotic rates, no thermodynamic phase-transition claim",
+    "4": "Threshold persistence: all404 windows, barrier lifetimes, heterogeneity and counterfactual repair limits",
+    "5": "Robustness and evidence boundaries: context, independent engine, longer complete spaces and original pairing-sensitive source",
+    "6": "Frozen synthetic computational prediction and matched-intervention pilot, including failed expansion gates"
+  },
+  "supplementary": {
+    "1": "Cohort composition, compatibility baseline and complete-space resource coverage",
+    "2": "Roughness fit, additive residual degrees of freedom, exact-conditional coverage and transcript influence",
+    "3": "Complete25-case counterfactual repair audit and exception context dependence",
+    "4": "Focused transcript, roughness-fit, saturation and numerical-tie residual stress tests"
+  },
+  "rejected_forms": [
+    "introductory nucleotide cartoons",
+    "elementary cube drawings",
+    "mutation-chain diagrams",
+    "decorative networks",
+    "3D without an additional necessary quantitative axis",
+    "smoothed violins for small discrete samples"
+  ],
+  "outputs": [
+    "editable plotting source",
+    "panel-level JSON data",
+    "vector PDF and SVG",
+    "600dpi PNG",
+    "contact sheet",
+    "compiled manuscript integration"
+  ],
+  "interpretation": "Model-derived organization is not evolutionary selection. Already examined sources and sensitivity subsets are not prospective validation.",
+  "uncertainty": "Transcript-cluster bootstrap intervals are distinguished from conditional Monte Carlo error and model uncertainty. Numerical spectral enclosures are not confidence intervals."
+}
