@@ -1,0 +1,17 @@
+__pycache__/
+.pytest_cache/
+*.pyc
+build/
+.venv/
+*.exe
+*.o
+*.log
+data/raw/
+*.docx
+*.tex
+*.bib
+manuscript/
+submission/
+publishing/
+secrets*
+*token*
