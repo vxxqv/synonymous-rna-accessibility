@@ -70,3 +70,15 @@ def test_register_fixture():
             delta=cross_layer_distance(c0,cd)
             if delta is not None:hist[delta]+=1
         assert dict(hist)==expected
+
+def test_paired_copy_counting():
+    from factor_count import count_compatible
+    for peptide in ('LG','RS','LL','RA','SER','KLF'):
+        pairs=[(0,3*len(peptide)-1),(1,3*len(peptide)-2)]
+        seq=enumerate_space(peptide,pairs)
+        counts=Counter(signature(s,pairs) for s in seq)
+        single=count_compatible(peptide,pairs)
+        double=count_compatible(peptide,pairs,paired_copy=True)
+        assert int(single['count'])==len(seq)
+        assert int(double['count'])==sum(c*c for c in counts.values())
+    assert count_compatible('LG',[(0,5)],paired_copy=True,table_cap=1)['status']=='resource_limit'

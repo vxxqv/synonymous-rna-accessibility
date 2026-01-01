@@ -58,7 +58,7 @@ def select(data_dir):
             if n>1024:counts['cartesian_cap']+=1;continue
             if any(p in overlaps[tid] for p in range(pos,pos+15)):
                 counts['overlapping_CDS']+=1;continue
-            if any(sum(reactivities[c][tid][p] is not None and reactivities[c][tid][p]>=0 for p in range(pos,pos+15))<12 for c in CONDITIONS[:2]):
+            if any(sum(reactivities[c][tid][p] is not None for p in range(pos,pos+15))<12 for c in CONDITIONS[:2]):
                 counts['coverage']+=1;continue
             cs=pos-67;ce=cs+150
             if cs<0 or ce>len(seq):counts['context_boundary']+=1;continue
@@ -77,7 +77,7 @@ def select(data_dir):
                 'codon_index1':(pos-start)//3+1,'peptide':pep,'native':variable,
                 'context_start0':cs,'variable_start0':pos-cs,'context':seq[cs:ce],
                 'touching_pairs':pp,'cartesian_size':n,
-                'coverage':{c:sum(reactivities[c][tid][p] is not None and reactivities[c][tid][p]>=0 for p in range(pos,pos+15))/15 for c in CONDITIONS},
+                'coverage':{c:sum(reactivities[c][tid][p] is not None for p in range(pos,pos+15))/15 for c in CONDITIONS},
                 'reactivity':{c:reactivities[c][tid][cs:ce] for c in CONDITIONS}})
         if candidates:selected.append(min(candidates,key=lambda r:r['id']))
         audit.append({**row,'eligible_windows':len(candidates),'reason':'eligible' if candidates else 'no_eligible_window','sequential_rejections':dict(counts)})
