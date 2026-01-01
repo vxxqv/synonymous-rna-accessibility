@@ -1,0 +1,6 @@
+{
+  "authorized": true,
+  "seal_sha256": "e9bc84096ee646c2df82014203e799fba9b5cab4ad9dad7571e1e847a450f720",
+  "basis": "Root approved protocol664b4eca29fbbd3bbf7d8eede14b6ce39e4a52fa651860df122d905ff981a293 and authorized bounded implementation, invented fixtures, seal and one exploratory execution without further pause unless a scientific/design issue arises.",
+  "scope": "Existing66localstates/fiveexons/twoctx; no workbook; unchanged M0/M1; fixed fallback only if needed."
+}

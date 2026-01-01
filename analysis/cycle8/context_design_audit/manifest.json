@@ -1,0 +1,28 @@
+{
+  "status": "COMPLETE_METADATA_AUDIT_AND_DRAFT_PROTOCOL_NO_OUTCOME_AUTHORIZATION",
+  "files_sha256": {
+    "audit_design.py": "563117aa19d4fea9fa916a12d636822dda9d527b54637e3f7cac538d2554d813",
+    "compile_design_inventory.py": "fd314a04cab1ba12e23cb363ba15f4ae611c8f27322903323cf36f8699fe65f3",
+    "design_contract.json": "c7ec5a1d8868758362ef3ac4878d130a89be401cb1a8e09c0ff3dc55ab7b80c2",
+    "exact_v1/certificates.json": "64297d0dcc537a1fd7304af4a925fcca8c01e6a9ac2e9c39af1919ba9a526534",
+    "exact_v1/mapping.json": "a2f428f5308cb78a827bfbd23f7d7756b98980e3585f0ccf6a733859c2388436",
+    "exact_v1/receipt.json": "dd5ebb2e5188e2e198a43022bee26d2c8dd5adfc952060756e98bd4f90060918",
+    "exact_v1/result.json": "5e187464cb7bba26dd25fda08566dacf17ab7dbab08365a84b7a83e2c6271809",
+    "exposure_ledger.json": "5462ff53bd618bb3f8aa431b0cd051f9b4526770605fbe1191d8a9bfce869a75",
+    "independent_checks.py": "0a63fcc04e60226b691aee930865fac2f27018e639c7023b51249b40d76ac447",
+    "inventory_v1/coordinate_inventory.json": "4bc8de13fdf706ec5477225dbf7c6f99caee08a5394fb87612b9c1d09814fd2f",
+    "inventory_v1/leave_one_state_out_estimability.json": "ff55c22168f790ac9961a8fbda53fecc3efdf946d584f0e4352b4aa4f907f1a3",
+    "inventory_v1/marker_contrast_inventory.json": "f09f067e591f77a072369a3436dafb659a5892aed0ae37a5b33f5f34842170ea",
+    "inventory_v1/nested_matrices.json": "665c4d0586310d09868b07f01163875e82708c3441201ab7757d7c897b3ab874",
+    "inventory_v1/receipt.json": "31e717de2bdf1670951d89b4651954b7a8144ea265dc322abe0010905cd4f9a6",
+    "nested_protocol.md": "53d9cd73e405a94741b9e25ef00bfe81f9cb4bc5e2a34776d0e6fa29f0b5f9c8",
+    "ordinal_preflight.py": "3048792fd15224077be2a77984899315bb5aa334c8962685435c1893abd16251",
+    "ordinal_synthetic_v1/receipt.json": "7354703bd64a5e478dab58e23a7ffdc3e7d61ff85135f13f7355ddf1aed67bf4",
+    "reference_v1/receipt.json": "68fba508e62d918f62131fdbbb7375f43803603eb6a79473484a521e37f124bb",
+    "report.md": "0608b0612fe3df64608af5708ea3788d0f4e36fcdcf1ee6f1f5e34dcdb6792cc"
+  },
+  "outcomes_read": false,
+  "shared_files_modified": false,
+  "source_commit": "30125415304664c33370cd7801f820a345834e40",
+  "required_next_step": "Separately authored design/protocol review and root freeze before exploratory interval fits."
+}

@@ -1,0 +1,5942 @@
+[
+  {
+    "worksheet_row": 26,
+    "combined_var_id": "chr17-31225100-A-T_chr17-31225106-A-G",
+    "var_id": "chr17-31225100-A-T",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225106-A-G",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/K562/R1",
+      "E17/K562/R2",
+      "E17/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 27,
+    "combined_var_id": "chr17-31225100-A-T_chr17-31225106-A-G",
+    "var_id": "chr17-31225100-A-T",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225106-A-G",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/K562/R1",
+      "E17/K562/R2",
+      "E17/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 28,
+    "combined_var_id": "chr17-31225100-A-T_chr17-31225106-A-G",
+    "var_id": "chr17-31225100-A-T",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225106-A-G",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/K562/R1",
+      "E17/K562/R2",
+      "E17/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 29,
+    "combined_var_id": "chr17-31225100-A-T_chr17-31225106-A-G",
+    "var_id": "chr17-31225100-A-T",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225106-A-G",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/KBM7/R1",
+      "E17/KBM7/R2",
+      "E17/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 30,
+    "combined_var_id": "chr17-31225100-A-T_chr17-31225106-A-G",
+    "var_id": "chr17-31225100-A-T",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225106-A-G",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/KBM7/R1",
+      "E17/KBM7/R2",
+      "E17/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 31,
+    "combined_var_id": "chr17-31225100-A-T_chr17-31225106-A-G",
+    "var_id": "chr17-31225100-A-T",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225106-A-G",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/KBM7/R1",
+      "E17/KBM7/R2",
+      "E17/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 32,
+    "combined_var_id": "chr17-31225100-A-T_chr17-31225109-T-C",
+    "var_id": "chr17-31225100-A-T",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225109-T-C",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/K562/R1",
+      "E17/K562/R2",
+      "E17/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 33,
+    "combined_var_id": "chr17-31225100-A-T_chr17-31225109-T-C",
+    "var_id": "chr17-31225100-A-T",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225109-T-C",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/K562/R1",
+      "E17/K562/R2",
+      "E17/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 34,
+    "combined_var_id": "chr17-31225100-A-T_chr17-31225109-T-C",
+    "var_id": "chr17-31225100-A-T",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225109-T-C",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/K562/R1",
+      "E17/K562/R2",
+      "E17/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 35,
+    "combined_var_id": "chr17-31225100-A-T_chr17-31225109-T-C",
+    "var_id": "chr17-31225100-A-T",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225109-T-C",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/KBM7/R1",
+      "E17/KBM7/R2",
+      "E17/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 36,
+    "combined_var_id": "chr17-31225100-A-T_chr17-31225109-T-C",
+    "var_id": "chr17-31225100-A-T",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225109-T-C",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/KBM7/R1",
+      "E17/KBM7/R2",
+      "E17/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 37,
+    "combined_var_id": "chr17-31225100-A-T_chr17-31225109-T-C",
+    "var_id": "chr17-31225100-A-T",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225109-T-C",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/KBM7/R1",
+      "E17/KBM7/R2",
+      "E17/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 98,
+    "combined_var_id": "chr17-31225112-C-A_chr17-31225103-T-C",
+    "var_id": "chr17-31225112-C-A",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225103-T-C",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/K562/R1",
+      "E17/K562/R2",
+      "E17/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 99,
+    "combined_var_id": "chr17-31225112-C-A_chr17-31225103-T-C",
+    "var_id": "chr17-31225112-C-A",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225103-T-C",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/K562/R1",
+      "E17/K562/R2",
+      "E17/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 100,
+    "combined_var_id": "chr17-31225112-C-A_chr17-31225103-T-C",
+    "var_id": "chr17-31225112-C-A",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225103-T-C",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/K562/R1",
+      "E17/K562/R2",
+      "E17/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 101,
+    "combined_var_id": "chr17-31225112-C-A_chr17-31225103-T-C",
+    "var_id": "chr17-31225112-C-A",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225103-T-C",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/KBM7/R1",
+      "E17/KBM7/R2",
+      "E17/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 102,
+    "combined_var_id": "chr17-31225112-C-A_chr17-31225103-T-C",
+    "var_id": "chr17-31225112-C-A",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225103-T-C",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/KBM7/R1",
+      "E17/KBM7/R2",
+      "E17/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 103,
+    "combined_var_id": "chr17-31225112-C-A_chr17-31225103-T-C",
+    "var_id": "chr17-31225112-C-A",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225103-T-C",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/KBM7/R1",
+      "E17/KBM7/R2",
+      "E17/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 104,
+    "combined_var_id": "chr17-31225112-C-A_chr17-31225106-A-G",
+    "var_id": "chr17-31225112-C-A",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225106-A-G",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/K562/R1",
+      "E17/K562/R2",
+      "E17/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 105,
+    "combined_var_id": "chr17-31225112-C-A_chr17-31225106-A-G",
+    "var_id": "chr17-31225112-C-A",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225106-A-G",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/K562/R1",
+      "E17/K562/R2",
+      "E17/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 106,
+    "combined_var_id": "chr17-31225112-C-A_chr17-31225106-A-G",
+    "var_id": "chr17-31225112-C-A",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225106-A-G",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/K562/R1",
+      "E17/K562/R2",
+      "E17/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 107,
+    "combined_var_id": "chr17-31225112-C-A_chr17-31225106-A-G",
+    "var_id": "chr17-31225112-C-A",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225106-A-G",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/KBM7/R1",
+      "E17/KBM7/R2",
+      "E17/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 108,
+    "combined_var_id": "chr17-31225112-C-A_chr17-31225106-A-G",
+    "var_id": "chr17-31225112-C-A",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225106-A-G",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/KBM7/R1",
+      "E17/KBM7/R2",
+      "E17/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 109,
+    "combined_var_id": "chr17-31225112-C-A_chr17-31225106-A-G",
+    "var_id": "chr17-31225112-C-A",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225106-A-G",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/KBM7/R1",
+      "E17/KBM7/R2",
+      "E17/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 110,
+    "combined_var_id": "chr17-31225112-C-T_chr17-31225106-A-G",
+    "var_id": "chr17-31225112-C-T",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225106-A-G",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/K562/R1",
+      "E17/K562/R2",
+      "E17/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 111,
+    "combined_var_id": "chr17-31225112-C-T_chr17-31225106-A-G",
+    "var_id": "chr17-31225112-C-T",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225106-A-G",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/K562/R1",
+      "E17/K562/R2",
+      "E17/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 112,
+    "combined_var_id": "chr17-31225112-C-T_chr17-31225106-A-G",
+    "var_id": "chr17-31225112-C-T",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225106-A-G",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/K562/R1",
+      "E17/K562/R2",
+      "E17/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 113,
+    "combined_var_id": "chr17-31225112-C-T_chr17-31225106-A-G",
+    "var_id": "chr17-31225112-C-T",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225106-A-G",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/KBM7/R1",
+      "E17/KBM7/R2",
+      "E17/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 114,
+    "combined_var_id": "chr17-31225112-C-T_chr17-31225106-A-G",
+    "var_id": "chr17-31225112-C-T",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225106-A-G",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/KBM7/R1",
+      "E17/KBM7/R2",
+      "E17/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 115,
+    "combined_var_id": "chr17-31225112-C-T_chr17-31225106-A-G",
+    "var_id": "chr17-31225112-C-T",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225106-A-G",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/KBM7/R1",
+      "E17/KBM7/R2",
+      "E17/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 116,
+    "combined_var_id": "chr17-31225112-C-T_chr17-31225109-T-C",
+    "var_id": "chr17-31225112-C-T",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225109-T-C",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/K562/R1",
+      "E17/K562/R2",
+      "E17/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 117,
+    "combined_var_id": "chr17-31225112-C-T_chr17-31225109-T-C",
+    "var_id": "chr17-31225112-C-T",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225109-T-C",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/K562/R1",
+      "E17/K562/R2",
+      "E17/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 118,
+    "combined_var_id": "chr17-31225112-C-T_chr17-31225109-T-C",
+    "var_id": "chr17-31225112-C-T",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225109-T-C",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/K562/R1",
+      "E17/K562/R2",
+      "E17/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 119,
+    "combined_var_id": "chr17-31225112-C-T_chr17-31225109-T-C",
+    "var_id": "chr17-31225112-C-T",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225109-T-C",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/KBM7/R1",
+      "E17/KBM7/R2",
+      "E17/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 120,
+    "combined_var_id": "chr17-31225112-C-T_chr17-31225109-T-C",
+    "var_id": "chr17-31225112-C-T",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225109-T-C",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/KBM7/R1",
+      "E17/KBM7/R2",
+      "E17/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 121,
+    "combined_var_id": "chr17-31225112-C-T_chr17-31225109-T-C",
+    "var_id": "chr17-31225112-C-T",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225109-T-C",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/KBM7/R1",
+      "E17/KBM7/R2",
+      "E17/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 236,
+    "combined_var_id": "chr17-31225133-C-T_chr17-31225136-G-C",
+    "var_id": "chr17-31225133-C-T",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225136-G-C",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/K562/R1",
+      "E17/K562/R2",
+      "E17/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 237,
+    "combined_var_id": "chr17-31225133-C-T_chr17-31225136-G-C",
+    "var_id": "chr17-31225133-C-T",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225136-G-C",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/K562/R1",
+      "E17/K562/R2",
+      "E17/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 238,
+    "combined_var_id": "chr17-31225133-C-T_chr17-31225136-G-C",
+    "var_id": "chr17-31225133-C-T",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225136-G-C",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/K562/R1",
+      "E17/K562/R2",
+      "E17/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 239,
+    "combined_var_id": "chr17-31225133-C-T_chr17-31225136-G-C",
+    "var_id": "chr17-31225133-C-T",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225136-G-C",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/KBM7/R1",
+      "E17/KBM7/R2",
+      "E17/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 240,
+    "combined_var_id": "chr17-31225133-C-T_chr17-31225136-G-C",
+    "var_id": "chr17-31225133-C-T",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225136-G-C",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/KBM7/R1",
+      "E17/KBM7/R2",
+      "E17/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 241,
+    "combined_var_id": "chr17-31225133-C-T_chr17-31225136-G-C",
+    "var_id": "chr17-31225133-C-T",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225136-G-C",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/KBM7/R1",
+      "E17/KBM7/R2",
+      "E17/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 242,
+    "combined_var_id": "chr17-31225133-C-T_chr17-31225142-A-C",
+    "var_id": "chr17-31225133-C-T",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225142-A-C",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/K562/R1",
+      "E17/K562/R2",
+      "E17/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 243,
+    "combined_var_id": "chr17-31225133-C-T_chr17-31225142-A-C",
+    "var_id": "chr17-31225133-C-T",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225142-A-C",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/K562/R1",
+      "E17/K562/R2",
+      "E17/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 244,
+    "combined_var_id": "chr17-31225133-C-T_chr17-31225142-A-C",
+    "var_id": "chr17-31225133-C-T",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225142-A-C",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/K562/R1",
+      "E17/K562/R2",
+      "E17/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 245,
+    "combined_var_id": "chr17-31225133-C-T_chr17-31225142-A-C",
+    "var_id": "chr17-31225133-C-T",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225142-A-C",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/KBM7/R1",
+      "E17/KBM7/R2",
+      "E17/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 246,
+    "combined_var_id": "chr17-31225133-C-T_chr17-31225142-A-C",
+    "var_id": "chr17-31225133-C-T",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225142-A-C",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/KBM7/R1",
+      "E17/KBM7/R2",
+      "E17/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 247,
+    "combined_var_id": "chr17-31225133-C-T_chr17-31225142-A-C",
+    "var_id": "chr17-31225133-C-T",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225142-A-C",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/KBM7/R1",
+      "E17/KBM7/R2",
+      "E17/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 248,
+    "combined_var_id": "chr17-31225133-C-T_chr17-31225142-A-G",
+    "var_id": "chr17-31225133-C-T",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225142-A-G",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/K562/R1",
+      "E17/K562/R2",
+      "E17/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 249,
+    "combined_var_id": "chr17-31225133-C-T_chr17-31225142-A-G",
+    "var_id": "chr17-31225133-C-T",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225142-A-G",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/K562/R1",
+      "E17/K562/R2",
+      "E17/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 250,
+    "combined_var_id": "chr17-31225133-C-T_chr17-31225142-A-G",
+    "var_id": "chr17-31225133-C-T",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225142-A-G",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/K562/R1",
+      "E17/K562/R2",
+      "E17/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 251,
+    "combined_var_id": "chr17-31225133-C-T_chr17-31225142-A-G",
+    "var_id": "chr17-31225133-C-T",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225142-A-G",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/KBM7/R1",
+      "E17/KBM7/R2",
+      "E17/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 252,
+    "combined_var_id": "chr17-31225133-C-T_chr17-31225142-A-G",
+    "var_id": "chr17-31225133-C-T",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225142-A-G",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/KBM7/R1",
+      "E17/KBM7/R2",
+      "E17/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 253,
+    "combined_var_id": "chr17-31225133-C-T_chr17-31225142-A-G",
+    "var_id": "chr17-31225133-C-T",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225142-A-G",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/KBM7/R1",
+      "E17/KBM7/R2",
+      "E17/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 320,
+    "combined_var_id": "chr17-31225136-G-T_chr17-31225142-A-C",
+    "var_id": "chr17-31225136-G-T",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225142-A-C",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/K562/R1",
+      "E17/K562/R2",
+      "E17/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 321,
+    "combined_var_id": "chr17-31225136-G-T_chr17-31225142-A-C",
+    "var_id": "chr17-31225136-G-T",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225142-A-C",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/K562/R1",
+      "E17/K562/R2",
+      "E17/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 322,
+    "combined_var_id": "chr17-31225136-G-T_chr17-31225142-A-C",
+    "var_id": "chr17-31225136-G-T",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225142-A-C",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/K562/R1",
+      "E17/K562/R2",
+      "E17/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 323,
+    "combined_var_id": "chr17-31225136-G-T_chr17-31225142-A-C",
+    "var_id": "chr17-31225136-G-T",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225142-A-C",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/KBM7/R1",
+      "E17/KBM7/R2",
+      "E17/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 324,
+    "combined_var_id": "chr17-31225136-G-T_chr17-31225142-A-C",
+    "var_id": "chr17-31225136-G-T",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225142-A-C",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/KBM7/R1",
+      "E17/KBM7/R2",
+      "E17/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 325,
+    "combined_var_id": "chr17-31225136-G-T_chr17-31225142-A-C",
+    "var_id": "chr17-31225136-G-T",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225142-A-C",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/KBM7/R1",
+      "E17/KBM7/R2",
+      "E17/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 326,
+    "combined_var_id": "chr17-31225136-G-T_chr17-31225145-T-C",
+    "var_id": "chr17-31225136-G-T",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225145-T-C",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/K562/R1",
+      "E17/K562/R2",
+      "E17/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 327,
+    "combined_var_id": "chr17-31225136-G-T_chr17-31225145-T-C",
+    "var_id": "chr17-31225136-G-T",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225145-T-C",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/K562/R1",
+      "E17/K562/R2",
+      "E17/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 328,
+    "combined_var_id": "chr17-31225136-G-T_chr17-31225145-T-C",
+    "var_id": "chr17-31225136-G-T",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225145-T-C",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/K562/R1",
+      "E17/K562/R2",
+      "E17/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 329,
+    "combined_var_id": "chr17-31225136-G-T_chr17-31225145-T-C",
+    "var_id": "chr17-31225136-G-T",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225145-T-C",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/KBM7/R1",
+      "E17/KBM7/R2",
+      "E17/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 330,
+    "combined_var_id": "chr17-31225136-G-T_chr17-31225145-T-C",
+    "var_id": "chr17-31225136-G-T",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225145-T-C",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/KBM7/R1",
+      "E17/KBM7/R2",
+      "E17/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 331,
+    "combined_var_id": "chr17-31225136-G-T_chr17-31225145-T-C",
+    "var_id": "chr17-31225136-G-T",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225145-T-C",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/KBM7/R1",
+      "E17/KBM7/R2",
+      "E17/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 386,
+    "combined_var_id": "chr17-31225200-C-T_chr17-31225197-T-C",
+    "var_id": "chr17-31225200-C-T",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225197-T-C",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/K562/R1",
+      "E17/K562/R2",
+      "E17/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 387,
+    "combined_var_id": "chr17-31225200-C-T_chr17-31225197-T-C",
+    "var_id": "chr17-31225200-C-T",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225197-T-C",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/K562/R1",
+      "E17/K562/R2",
+      "E17/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 388,
+    "combined_var_id": "chr17-31225200-C-T_chr17-31225197-T-C",
+    "var_id": "chr17-31225200-C-T",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225197-T-C",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/K562/R1",
+      "E17/K562/R2",
+      "E17/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 389,
+    "combined_var_id": "chr17-31225200-C-T_chr17-31225197-T-C",
+    "var_id": "chr17-31225200-C-T",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225197-T-C",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/KBM7/R1",
+      "E17/KBM7/R2",
+      "E17/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 390,
+    "combined_var_id": "chr17-31225200-C-T_chr17-31225197-T-C",
+    "var_id": "chr17-31225200-C-T",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225197-T-C",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/KBM7/R1",
+      "E17/KBM7/R2",
+      "E17/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 391,
+    "combined_var_id": "chr17-31225200-C-T_chr17-31225197-T-C",
+    "var_id": "chr17-31225200-C-T",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225197-T-C",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/KBM7/R1",
+      "E17/KBM7/R2",
+      "E17/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 392,
+    "combined_var_id": "chr17-31225200-C-T_chr17-31225205-T-C",
+    "var_id": "chr17-31225200-C-T",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225205-T-C",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/K562/R1",
+      "E17/K562/R2",
+      "E17/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 393,
+    "combined_var_id": "chr17-31225200-C-T_chr17-31225205-T-C",
+    "var_id": "chr17-31225200-C-T",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225205-T-C",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/K562/R1",
+      "E17/K562/R2",
+      "E17/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 394,
+    "combined_var_id": "chr17-31225200-C-T_chr17-31225205-T-C",
+    "var_id": "chr17-31225200-C-T",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225205-T-C",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/K562/R1",
+      "E17/K562/R2",
+      "E17/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 395,
+    "combined_var_id": "chr17-31225200-C-T_chr17-31225205-T-C",
+    "var_id": "chr17-31225200-C-T",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225205-T-C",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/KBM7/R1",
+      "E17/KBM7/R2",
+      "E17/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 396,
+    "combined_var_id": "chr17-31225200-C-T_chr17-31225205-T-C",
+    "var_id": "chr17-31225200-C-T",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225205-T-C",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/KBM7/R1",
+      "E17/KBM7/R2",
+      "E17/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 397,
+    "combined_var_id": "chr17-31225200-C-T_chr17-31225205-T-C",
+    "var_id": "chr17-31225200-C-T",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225205-T-C",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/KBM7/R1",
+      "E17/KBM7/R2",
+      "E17/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 428,
+    "combined_var_id": "chr17-31225226-G-A_chr17-31225220-T-C",
+    "var_id": "chr17-31225226-G-A",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225220-T-C",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/K562/R1",
+      "E17/K562/R2",
+      "E17/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 429,
+    "combined_var_id": "chr17-31225226-G-A_chr17-31225220-T-C",
+    "var_id": "chr17-31225226-G-A",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225220-T-C",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/K562/R1",
+      "E17/K562/R2",
+      "E17/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 430,
+    "combined_var_id": "chr17-31225226-G-A_chr17-31225220-T-C",
+    "var_id": "chr17-31225226-G-A",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225220-T-C",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/K562/R1",
+      "E17/K562/R2",
+      "E17/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 431,
+    "combined_var_id": "chr17-31225226-G-A_chr17-31225220-T-C",
+    "var_id": "chr17-31225226-G-A",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225220-T-C",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/KBM7/R1",
+      "E17/KBM7/R2",
+      "E17/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 432,
+    "combined_var_id": "chr17-31225226-G-A_chr17-31225220-T-C",
+    "var_id": "chr17-31225226-G-A",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225220-T-C",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/KBM7/R1",
+      "E17/KBM7/R2",
+      "E17/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 433,
+    "combined_var_id": "chr17-31225226-G-A_chr17-31225220-T-C",
+    "var_id": "chr17-31225226-G-A",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225220-T-C",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/KBM7/R1",
+      "E17/KBM7/R2",
+      "E17/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 434,
+    "combined_var_id": "chr17-31225226-G-A_chr17-31225223-C-G",
+    "var_id": "chr17-31225226-G-A",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225223-C-G",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/K562/R1",
+      "E17/K562/R2",
+      "E17/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 435,
+    "combined_var_id": "chr17-31225226-G-A_chr17-31225223-C-G",
+    "var_id": "chr17-31225226-G-A",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225223-C-G",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/K562/R1",
+      "E17/K562/R2",
+      "E17/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 436,
+    "combined_var_id": "chr17-31225226-G-A_chr17-31225223-C-G",
+    "var_id": "chr17-31225226-G-A",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225223-C-G",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/K562/R1",
+      "E17/K562/R2",
+      "E17/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 437,
+    "combined_var_id": "chr17-31225226-G-A_chr17-31225223-C-G",
+    "var_id": "chr17-31225226-G-A",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225223-C-G",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/KBM7/R1",
+      "E17/KBM7/R2",
+      "E17/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 438,
+    "combined_var_id": "chr17-31225226-G-A_chr17-31225223-C-G",
+    "var_id": "chr17-31225226-G-A",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225223-C-G",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/KBM7/R1",
+      "E17/KBM7/R2",
+      "E17/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 439,
+    "combined_var_id": "chr17-31225226-G-A_chr17-31225223-C-G",
+    "var_id": "chr17-31225226-G-A",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225223-C-G",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/KBM7/R1",
+      "E17/KBM7/R2",
+      "E17/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 440,
+    "combined_var_id": "chr17-31225226-G-T_chr17-31225220-T-C",
+    "var_id": "chr17-31225226-G-T",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225220-T-C",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/K562/R1",
+      "E17/K562/R2",
+      "E17/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 441,
+    "combined_var_id": "chr17-31225226-G-T_chr17-31225220-T-C",
+    "var_id": "chr17-31225226-G-T",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225220-T-C",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/K562/R1",
+      "E17/K562/R2",
+      "E17/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 442,
+    "combined_var_id": "chr17-31225226-G-T_chr17-31225220-T-C",
+    "var_id": "chr17-31225226-G-T",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225220-T-C",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/K562/R1",
+      "E17/K562/R2",
+      "E17/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 443,
+    "combined_var_id": "chr17-31225226-G-T_chr17-31225220-T-C",
+    "var_id": "chr17-31225226-G-T",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225220-T-C",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/KBM7/R1",
+      "E17/KBM7/R2",
+      "E17/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 444,
+    "combined_var_id": "chr17-31225226-G-T_chr17-31225220-T-C",
+    "var_id": "chr17-31225226-G-T",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225220-T-C",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/KBM7/R1",
+      "E17/KBM7/R2",
+      "E17/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 445,
+    "combined_var_id": "chr17-31225226-G-T_chr17-31225220-T-C",
+    "var_id": "chr17-31225226-G-T",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225220-T-C",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/KBM7/R1",
+      "E17/KBM7/R2",
+      "E17/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 446,
+    "combined_var_id": "chr17-31225226-G-T_chr17-31225220-T-G",
+    "var_id": "chr17-31225226-G-T",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225220-T-G",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/K562/R1",
+      "E17/K562/R2",
+      "E17/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 447,
+    "combined_var_id": "chr17-31225226-G-T_chr17-31225220-T-G",
+    "var_id": "chr17-31225226-G-T",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225220-T-G",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/K562/R1",
+      "E17/K562/R2",
+      "E17/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 448,
+    "combined_var_id": "chr17-31225226-G-T_chr17-31225220-T-G",
+    "var_id": "chr17-31225226-G-T",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225220-T-G",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/K562/R1",
+      "E17/K562/R2",
+      "E17/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 449,
+    "combined_var_id": "chr17-31225226-G-T_chr17-31225220-T-G",
+    "var_id": "chr17-31225226-G-T",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225220-T-G",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/KBM7/R1",
+      "E17/KBM7/R2",
+      "E17/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 450,
+    "combined_var_id": "chr17-31225226-G-T_chr17-31225220-T-G",
+    "var_id": "chr17-31225226-G-T",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225220-T-G",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/KBM7/R1",
+      "E17/KBM7/R2",
+      "E17/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 451,
+    "combined_var_id": "chr17-31225226-G-T_chr17-31225220-T-G",
+    "var_id": "chr17-31225226-G-T",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225220-T-G",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/KBM7/R1",
+      "E17/KBM7/R2",
+      "E17/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 452,
+    "combined_var_id": "chr17-31225226-G-T_chr17-31225229-G-A",
+    "var_id": "chr17-31225226-G-T",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225229-G-A",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/K562/R1",
+      "E17/K562/R2",
+      "E17/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 453,
+    "combined_var_id": "chr17-31225226-G-T_chr17-31225229-G-A",
+    "var_id": "chr17-31225226-G-T",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225229-G-A",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/K562/R1",
+      "E17/K562/R2",
+      "E17/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 454,
+    "combined_var_id": "chr17-31225226-G-T_chr17-31225229-G-A",
+    "var_id": "chr17-31225226-G-T",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225229-G-A",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/K562/R1",
+      "E17/K562/R2",
+      "E17/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 455,
+    "combined_var_id": "chr17-31225226-G-T_chr17-31225229-G-A",
+    "var_id": "chr17-31225226-G-T",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225229-G-A",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/KBM7/R1",
+      "E17/KBM7/R2",
+      "E17/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 456,
+    "combined_var_id": "chr17-31225226-G-T_chr17-31225229-G-A",
+    "var_id": "chr17-31225226-G-T",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225229-G-A",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/KBM7/R1",
+      "E17/KBM7/R2",
+      "E17/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 457,
+    "combined_var_id": "chr17-31225226-G-T_chr17-31225229-G-A",
+    "var_id": "chr17-31225226-G-T",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225229-G-A",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/KBM7/R1",
+      "E17/KBM7/R2",
+      "E17/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 506,
+    "combined_var_id": "chr17-31225232-A-G_chr17-31225226-G-A",
+    "var_id": "chr17-31225232-A-G",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225226-G-A",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/K562/R1",
+      "E17/K562/R2",
+      "E17/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 507,
+    "combined_var_id": "chr17-31225232-A-G_chr17-31225226-G-A",
+    "var_id": "chr17-31225232-A-G",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225226-G-A",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/K562/R1",
+      "E17/K562/R2",
+      "E17/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 508,
+    "combined_var_id": "chr17-31225232-A-G_chr17-31225226-G-A",
+    "var_id": "chr17-31225232-A-G",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225226-G-A",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/K562/R1",
+      "E17/K562/R2",
+      "E17/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 509,
+    "combined_var_id": "chr17-31225232-A-G_chr17-31225226-G-A",
+    "var_id": "chr17-31225232-A-G",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225226-G-A",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/KBM7/R1",
+      "E17/KBM7/R2",
+      "E17/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 510,
+    "combined_var_id": "chr17-31225232-A-G_chr17-31225226-G-A",
+    "var_id": "chr17-31225232-A-G",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225226-G-A",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/KBM7/R1",
+      "E17/KBM7/R2",
+      "E17/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 511,
+    "combined_var_id": "chr17-31225232-A-G_chr17-31225226-G-A",
+    "var_id": "chr17-31225232-A-G",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225226-G-A",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/KBM7/R1",
+      "E17/KBM7/R2",
+      "E17/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 512,
+    "combined_var_id": "chr17-31225232-A-G_chr17-31225241-C-T",
+    "var_id": "chr17-31225232-A-G",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225241-C-T",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/K562/R1",
+      "E17/K562/R2",
+      "E17/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 513,
+    "combined_var_id": "chr17-31225232-A-G_chr17-31225241-C-T",
+    "var_id": "chr17-31225232-A-G",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225241-C-T",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/K562/R1",
+      "E17/K562/R2",
+      "E17/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 514,
+    "combined_var_id": "chr17-31225232-A-G_chr17-31225241-C-T",
+    "var_id": "chr17-31225232-A-G",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225241-C-T",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/K562/R1",
+      "E17/K562/R2",
+      "E17/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 515,
+    "combined_var_id": "chr17-31225232-A-G_chr17-31225241-C-T",
+    "var_id": "chr17-31225232-A-G",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225241-C-T",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/KBM7/R1",
+      "E17/KBM7/R2",
+      "E17/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 516,
+    "combined_var_id": "chr17-31225232-A-G_chr17-31225241-C-T",
+    "var_id": "chr17-31225232-A-G",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225241-C-T",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/KBM7/R1",
+      "E17/KBM7/R2",
+      "E17/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 517,
+    "combined_var_id": "chr17-31225232-A-G_chr17-31225241-C-T",
+    "var_id": "chr17-31225232-A-G",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225241-C-T",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/KBM7/R1",
+      "E17/KBM7/R2",
+      "E17/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 518,
+    "combined_var_id": "chr17-31225232-A-T_chr17-31225223-C-G",
+    "var_id": "chr17-31225232-A-T",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225223-C-G",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/K562/R1",
+      "E17/K562/R2",
+      "E17/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 519,
+    "combined_var_id": "chr17-31225232-A-T_chr17-31225223-C-G",
+    "var_id": "chr17-31225232-A-T",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225223-C-G",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/K562/R1",
+      "E17/K562/R2",
+      "E17/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 520,
+    "combined_var_id": "chr17-31225232-A-T_chr17-31225223-C-G",
+    "var_id": "chr17-31225232-A-T",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225223-C-G",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/K562/R1",
+      "E17/K562/R2",
+      "E17/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 521,
+    "combined_var_id": "chr17-31225232-A-T_chr17-31225223-C-G",
+    "var_id": "chr17-31225232-A-T",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225223-C-G",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/KBM7/R1",
+      "E17/KBM7/R2",
+      "E17/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 522,
+    "combined_var_id": "chr17-31225232-A-T_chr17-31225223-C-G",
+    "var_id": "chr17-31225232-A-T",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225223-C-G",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/KBM7/R1",
+      "E17/KBM7/R2",
+      "E17/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 523,
+    "combined_var_id": "chr17-31225232-A-T_chr17-31225223-C-G",
+    "var_id": "chr17-31225232-A-T",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225223-C-G",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/KBM7/R1",
+      "E17/KBM7/R2",
+      "E17/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 524,
+    "combined_var_id": "chr17-31225232-A-T_chr17-31225238-G-C",
+    "var_id": "chr17-31225232-A-T",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225238-G-C",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/K562/R1",
+      "E17/K562/R2",
+      "E17/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 525,
+    "combined_var_id": "chr17-31225232-A-T_chr17-31225238-G-C",
+    "var_id": "chr17-31225232-A-T",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225238-G-C",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/K562/R1",
+      "E17/K562/R2",
+      "E17/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 526,
+    "combined_var_id": "chr17-31225232-A-T_chr17-31225238-G-C",
+    "var_id": "chr17-31225232-A-T",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225238-G-C",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/K562/R1",
+      "E17/K562/R2",
+      "E17/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 527,
+    "combined_var_id": "chr17-31225232-A-T_chr17-31225238-G-C",
+    "var_id": "chr17-31225232-A-T",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225238-G-C",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/KBM7/R1",
+      "E17/KBM7/R2",
+      "E17/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 528,
+    "combined_var_id": "chr17-31225232-A-T_chr17-31225238-G-C",
+    "var_id": "chr17-31225232-A-T",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225238-G-C",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/KBM7/R1",
+      "E17/KBM7/R2",
+      "E17/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 529,
+    "combined_var_id": "chr17-31225232-A-T_chr17-31225238-G-C",
+    "var_id": "chr17-31225232-A-T",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225238-G-C",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/KBM7/R1",
+      "E17/KBM7/R2",
+      "E17/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 542,
+    "combined_var_id": "chr17-31225238-G-A_chr17-31225244-C-A",
+    "var_id": "chr17-31225238-G-A",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225244-C-A",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/K562/R1",
+      "E17/K562/R2",
+      "E17/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 543,
+    "combined_var_id": "chr17-31225238-G-A_chr17-31225244-C-A",
+    "var_id": "chr17-31225238-G-A",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225244-C-A",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/K562/R1",
+      "E17/K562/R2",
+      "E17/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 544,
+    "combined_var_id": "chr17-31225238-G-A_chr17-31225244-C-A",
+    "var_id": "chr17-31225238-G-A",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225244-C-A",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/K562/R1",
+      "E17/K562/R2",
+      "E17/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 545,
+    "combined_var_id": "chr17-31225238-G-A_chr17-31225244-C-A",
+    "var_id": "chr17-31225238-G-A",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225244-C-A",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/KBM7/R1",
+      "E17/KBM7/R2",
+      "E17/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 546,
+    "combined_var_id": "chr17-31225238-G-A_chr17-31225244-C-A",
+    "var_id": "chr17-31225238-G-A",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225244-C-A",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/KBM7/R1",
+      "E17/KBM7/R2",
+      "E17/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 547,
+    "combined_var_id": "chr17-31225238-G-A_chr17-31225244-C-A",
+    "var_id": "chr17-31225238-G-A",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225244-C-A",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/KBM7/R1",
+      "E17/KBM7/R2",
+      "E17/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 548,
+    "combined_var_id": "chr17-31225238-G-A_chr17-31225244-C-G",
+    "var_id": "chr17-31225238-G-A",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225244-C-G",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/K562/R1",
+      "E17/K562/R2",
+      "E17/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 549,
+    "combined_var_id": "chr17-31225238-G-A_chr17-31225244-C-G",
+    "var_id": "chr17-31225238-G-A",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225244-C-G",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/K562/R1",
+      "E17/K562/R2",
+      "E17/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 550,
+    "combined_var_id": "chr17-31225238-G-A_chr17-31225244-C-G",
+    "var_id": "chr17-31225238-G-A",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225244-C-G",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/K562/R1",
+      "E17/K562/R2",
+      "E17/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 551,
+    "combined_var_id": "chr17-31225238-G-A_chr17-31225244-C-G",
+    "var_id": "chr17-31225238-G-A",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225244-C-G",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/KBM7/R1",
+      "E17/KBM7/R2",
+      "E17/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 552,
+    "combined_var_id": "chr17-31225238-G-A_chr17-31225244-C-G",
+    "var_id": "chr17-31225238-G-A",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225244-C-G",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/KBM7/R1",
+      "E17/KBM7/R2",
+      "E17/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 553,
+    "combined_var_id": "chr17-31225238-G-A_chr17-31225244-C-G",
+    "var_id": "chr17-31225238-G-A",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225244-C-G",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/KBM7/R1",
+      "E17/KBM7/R2",
+      "E17/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 554,
+    "combined_var_id": "chr17-31225238-G-T_chr17-31225241-C-T",
+    "var_id": "chr17-31225238-G-T",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225241-C-T",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/K562/R1",
+      "E17/K562/R2",
+      "E17/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 555,
+    "combined_var_id": "chr17-31225238-G-T_chr17-31225241-C-T",
+    "var_id": "chr17-31225238-G-T",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225241-C-T",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/K562/R1",
+      "E17/K562/R2",
+      "E17/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 556,
+    "combined_var_id": "chr17-31225238-G-T_chr17-31225241-C-T",
+    "var_id": "chr17-31225238-G-T",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225241-C-T",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/K562/R1",
+      "E17/K562/R2",
+      "E17/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 557,
+    "combined_var_id": "chr17-31225238-G-T_chr17-31225241-C-T",
+    "var_id": "chr17-31225238-G-T",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225241-C-T",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/KBM7/R1",
+      "E17/KBM7/R2",
+      "E17/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 558,
+    "combined_var_id": "chr17-31225238-G-T_chr17-31225241-C-T",
+    "var_id": "chr17-31225238-G-T",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225241-C-T",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/KBM7/R1",
+      "E17/KBM7/R2",
+      "E17/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 559,
+    "combined_var_id": "chr17-31225238-G-T_chr17-31225241-C-T",
+    "var_id": "chr17-31225238-G-T",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225241-C-T",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/KBM7/R1",
+      "E17/KBM7/R2",
+      "E17/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 560,
+    "combined_var_id": "chr17-31225238-G-T_chr17-31225244-C-T",
+    "var_id": "chr17-31225238-G-T",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225244-C-T",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/K562/R1",
+      "E17/K562/R2",
+      "E17/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 561,
+    "combined_var_id": "chr17-31225238-G-T_chr17-31225244-C-T",
+    "var_id": "chr17-31225238-G-T",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225244-C-T",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/K562/R1",
+      "E17/K562/R2",
+      "E17/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 562,
+    "combined_var_id": "chr17-31225238-G-T_chr17-31225244-C-T",
+    "var_id": "chr17-31225238-G-T",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225244-C-T",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/K562/R1",
+      "E17/K562/R2",
+      "E17/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 563,
+    "combined_var_id": "chr17-31225238-G-T_chr17-31225244-C-T",
+    "var_id": "chr17-31225238-G-T",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225244-C-T",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/KBM7/R1",
+      "E17/KBM7/R2",
+      "E17/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 564,
+    "combined_var_id": "chr17-31225238-G-T_chr17-31225244-C-T",
+    "var_id": "chr17-31225238-G-T",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225244-C-T",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/KBM7/R1",
+      "E17/KBM7/R2",
+      "E17/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 565,
+    "combined_var_id": "chr17-31225238-G-T_chr17-31225244-C-T",
+    "var_id": "chr17-31225238-G-T",
+    "exon_number": "17.0",
+    "syn_var": "chr17-31225244-C-T",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E17/KBM7/R1",
+      "E17/KBM7/R2",
+      "E17/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 638,
+    "combined_var_id": "chr17-31232145-A-T_chr17-31232142-A-G",
+    "var_id": "chr17-31232145-A-T",
+    "exon_number": "25.0",
+    "syn_var": "chr17-31232142-A-G",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E25/K562/R1",
+      "E25/K562/R2",
+      "E25/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 639,
+    "combined_var_id": "chr17-31232145-A-T_chr17-31232142-A-G",
+    "var_id": "chr17-31232145-A-T",
+    "exon_number": "25.0",
+    "syn_var": "chr17-31232142-A-G",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E25/K562/R1",
+      "E25/K562/R2",
+      "E25/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 640,
+    "combined_var_id": "chr17-31232145-A-T_chr17-31232142-A-G",
+    "var_id": "chr17-31232145-A-T",
+    "exon_number": "25.0",
+    "syn_var": "chr17-31232142-A-G",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E25/K562/R1",
+      "E25/K562/R2",
+      "E25/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 641,
+    "combined_var_id": "chr17-31232145-A-T_chr17-31232142-A-G",
+    "var_id": "chr17-31232145-A-T",
+    "exon_number": "25.0",
+    "syn_var": "chr17-31232142-A-G",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E25/KBM7/R1",
+      "E25/KBM7/R2",
+      "E25/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 642,
+    "combined_var_id": "chr17-31232145-A-T_chr17-31232142-A-G",
+    "var_id": "chr17-31232145-A-T",
+    "exon_number": "25.0",
+    "syn_var": "chr17-31232142-A-G",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E25/KBM7/R1",
+      "E25/KBM7/R2",
+      "E25/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 643,
+    "combined_var_id": "chr17-31232145-A-T_chr17-31232142-A-G",
+    "var_id": "chr17-31232145-A-T",
+    "exon_number": "25.0",
+    "syn_var": "chr17-31232142-A-G",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E25/KBM7/R1",
+      "E25/KBM7/R2",
+      "E25/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 644,
+    "combined_var_id": "chr17-31232145-A-T_chr17-31232154-G-C",
+    "var_id": "chr17-31232145-A-T",
+    "exon_number": "25.0",
+    "syn_var": "chr17-31232154-G-C",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E25/K562/R1",
+      "E25/K562/R2",
+      "E25/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 645,
+    "combined_var_id": "chr17-31232145-A-T_chr17-31232154-G-C",
+    "var_id": "chr17-31232145-A-T",
+    "exon_number": "25.0",
+    "syn_var": "chr17-31232154-G-C",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E25/K562/R1",
+      "E25/K562/R2",
+      "E25/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 646,
+    "combined_var_id": "chr17-31232145-A-T_chr17-31232154-G-C",
+    "var_id": "chr17-31232145-A-T",
+    "exon_number": "25.0",
+    "syn_var": "chr17-31232154-G-C",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E25/K562/R1",
+      "E25/K562/R2",
+      "E25/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 647,
+    "combined_var_id": "chr17-31232145-A-T_chr17-31232154-G-C",
+    "var_id": "chr17-31232145-A-T",
+    "exon_number": "25.0",
+    "syn_var": "chr17-31232154-G-C",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E25/KBM7/R1",
+      "E25/KBM7/R2",
+      "E25/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 648,
+    "combined_var_id": "chr17-31232145-A-T_chr17-31232154-G-C",
+    "var_id": "chr17-31232145-A-T",
+    "exon_number": "25.0",
+    "syn_var": "chr17-31232154-G-C",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E25/KBM7/R1",
+      "E25/KBM7/R2",
+      "E25/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 649,
+    "combined_var_id": "chr17-31232145-A-T_chr17-31232154-G-C",
+    "var_id": "chr17-31232145-A-T",
+    "exon_number": "25.0",
+    "syn_var": "chr17-31232154-G-C",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E25/KBM7/R1",
+      "E25/KBM7/R2",
+      "E25/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 668,
+    "combined_var_id": "chr17-31232148-T-C_chr17-31232145-A-G",
+    "var_id": "chr17-31232148-T-C",
+    "exon_number": "25.0",
+    "syn_var": "chr17-31232145-A-G",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E25/K562/R1",
+      "E25/K562/R2",
+      "E25/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 669,
+    "combined_var_id": "chr17-31232148-T-C_chr17-31232145-A-G",
+    "var_id": "chr17-31232148-T-C",
+    "exon_number": "25.0",
+    "syn_var": "chr17-31232145-A-G",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E25/K562/R1",
+      "E25/K562/R2",
+      "E25/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 670,
+    "combined_var_id": "chr17-31232148-T-C_chr17-31232145-A-G",
+    "var_id": "chr17-31232148-T-C",
+    "exon_number": "25.0",
+    "syn_var": "chr17-31232145-A-G",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E25/K562/R1",
+      "E25/K562/R2",
+      "E25/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 671,
+    "combined_var_id": "chr17-31232148-T-C_chr17-31232145-A-G",
+    "var_id": "chr17-31232148-T-C",
+    "exon_number": "25.0",
+    "syn_var": "chr17-31232145-A-G",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E25/KBM7/R1",
+      "E25/KBM7/R2",
+      "E25/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 672,
+    "combined_var_id": "chr17-31232148-T-C_chr17-31232145-A-G",
+    "var_id": "chr17-31232148-T-C",
+    "exon_number": "25.0",
+    "syn_var": "chr17-31232145-A-G",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E25/KBM7/R1",
+      "E25/KBM7/R2",
+      "E25/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 673,
+    "combined_var_id": "chr17-31232148-T-C_chr17-31232145-A-G",
+    "var_id": "chr17-31232148-T-C",
+    "exon_number": "25.0",
+    "syn_var": "chr17-31232145-A-G",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E25/KBM7/R1",
+      "E25/KBM7/R2",
+      "E25/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 674,
+    "combined_var_id": "chr17-31232148-T-C_chr17-31232151-T-G",
+    "var_id": "chr17-31232148-T-C",
+    "exon_number": "25.0",
+    "syn_var": "chr17-31232151-T-G",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E25/K562/R1",
+      "E25/K562/R2",
+      "E25/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 675,
+    "combined_var_id": "chr17-31232148-T-C_chr17-31232151-T-G",
+    "var_id": "chr17-31232148-T-C",
+    "exon_number": "25.0",
+    "syn_var": "chr17-31232151-T-G",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E25/K562/R1",
+      "E25/K562/R2",
+      "E25/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 676,
+    "combined_var_id": "chr17-31232148-T-C_chr17-31232151-T-G",
+    "var_id": "chr17-31232148-T-C",
+    "exon_number": "25.0",
+    "syn_var": "chr17-31232151-T-G",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E25/K562/R1",
+      "E25/K562/R2",
+      "E25/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 677,
+    "combined_var_id": "chr17-31232148-T-C_chr17-31232151-T-G",
+    "var_id": "chr17-31232148-T-C",
+    "exon_number": "25.0",
+    "syn_var": "chr17-31232151-T-G",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E25/KBM7/R1",
+      "E25/KBM7/R2",
+      "E25/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 678,
+    "combined_var_id": "chr17-31232148-T-C_chr17-31232151-T-G",
+    "var_id": "chr17-31232148-T-C",
+    "exon_number": "25.0",
+    "syn_var": "chr17-31232151-T-G",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E25/KBM7/R1",
+      "E25/KBM7/R2",
+      "E25/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 679,
+    "combined_var_id": "chr17-31232148-T-C_chr17-31232151-T-G",
+    "var_id": "chr17-31232148-T-C",
+    "exon_number": "25.0",
+    "syn_var": "chr17-31232151-T-G",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E25/KBM7/R1",
+      "E25/KBM7/R2",
+      "E25/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 992,
+    "combined_var_id": "chr17-31233072-A-G_chr17-31233075-C-A",
+    "var_id": "chr17-31233072-A-G",
+    "exon_number": "27.0",
+    "syn_var": "chr17-31233075-C-A",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E27/K562/R1",
+      "E27/K562/R2",
+      "E27/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 993,
+    "combined_var_id": "chr17-31233072-A-G_chr17-31233075-C-A",
+    "var_id": "chr17-31233072-A-G",
+    "exon_number": "27.0",
+    "syn_var": "chr17-31233075-C-A",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E27/K562/R1",
+      "E27/K562/R2",
+      "E27/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 994,
+    "combined_var_id": "chr17-31233072-A-G_chr17-31233075-C-A",
+    "var_id": "chr17-31233072-A-G",
+    "exon_number": "27.0",
+    "syn_var": "chr17-31233075-C-A",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E27/K562/R1",
+      "E27/K562/R2",
+      "E27/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 995,
+    "combined_var_id": "chr17-31233072-A-G_chr17-31233075-C-A",
+    "var_id": "chr17-31233072-A-G",
+    "exon_number": "27.0",
+    "syn_var": "chr17-31233075-C-A",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E27/KBM7/R1",
+      "E27/KBM7/R2",
+      "E27/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 996,
+    "combined_var_id": "chr17-31233072-A-G_chr17-31233075-C-A",
+    "var_id": "chr17-31233072-A-G",
+    "exon_number": "27.0",
+    "syn_var": "chr17-31233075-C-A",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E27/KBM7/R1",
+      "E27/KBM7/R2",
+      "E27/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 997,
+    "combined_var_id": "chr17-31233072-A-G_chr17-31233075-C-A",
+    "var_id": "chr17-31233072-A-G",
+    "exon_number": "27.0",
+    "syn_var": "chr17-31233075-C-A",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E27/KBM7/R1",
+      "E27/KBM7/R2",
+      "E27/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 998,
+    "combined_var_id": "chr17-31233072-A-G_chr17-31233078-A-C",
+    "var_id": "chr17-31233072-A-G",
+    "exon_number": "27.0",
+    "syn_var": "chr17-31233078-A-C",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E27/K562/R1",
+      "E27/K562/R2",
+      "E27/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 999,
+    "combined_var_id": "chr17-31233072-A-G_chr17-31233078-A-C",
+    "var_id": "chr17-31233072-A-G",
+    "exon_number": "27.0",
+    "syn_var": "chr17-31233078-A-C",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E27/K562/R1",
+      "E27/K562/R2",
+      "E27/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1000,
+    "combined_var_id": "chr17-31233072-A-G_chr17-31233078-A-C",
+    "var_id": "chr17-31233072-A-G",
+    "exon_number": "27.0",
+    "syn_var": "chr17-31233078-A-C",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E27/K562/R1",
+      "E27/K562/R2",
+      "E27/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1001,
+    "combined_var_id": "chr17-31233072-A-G_chr17-31233078-A-C",
+    "var_id": "chr17-31233072-A-G",
+    "exon_number": "27.0",
+    "syn_var": "chr17-31233078-A-C",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E27/KBM7/R1",
+      "E27/KBM7/R2",
+      "E27/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1002,
+    "combined_var_id": "chr17-31233072-A-G_chr17-31233078-A-C",
+    "var_id": "chr17-31233072-A-G",
+    "exon_number": "27.0",
+    "syn_var": "chr17-31233078-A-C",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E27/KBM7/R1",
+      "E27/KBM7/R2",
+      "E27/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1003,
+    "combined_var_id": "chr17-31233072-A-G_chr17-31233078-A-C",
+    "var_id": "chr17-31233072-A-G",
+    "exon_number": "27.0",
+    "syn_var": "chr17-31233078-A-C",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E27/KBM7/R1",
+      "E27/KBM7/R2",
+      "E27/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1004,
+    "combined_var_id": "chr17-31233072-A-G_chr17-31233081-A-G",
+    "var_id": "chr17-31233072-A-G",
+    "exon_number": "27.0",
+    "syn_var": "chr17-31233081-A-G",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E27/K562/R1",
+      "E27/K562/R2",
+      "E27/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1005,
+    "combined_var_id": "chr17-31233072-A-G_chr17-31233081-A-G",
+    "var_id": "chr17-31233072-A-G",
+    "exon_number": "27.0",
+    "syn_var": "chr17-31233081-A-G",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E27/K562/R1",
+      "E27/K562/R2",
+      "E27/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1006,
+    "combined_var_id": "chr17-31233072-A-G_chr17-31233081-A-G",
+    "var_id": "chr17-31233072-A-G",
+    "exon_number": "27.0",
+    "syn_var": "chr17-31233081-A-G",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E27/K562/R1",
+      "E27/K562/R2",
+      "E27/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1007,
+    "combined_var_id": "chr17-31233072-A-G_chr17-31233081-A-G",
+    "var_id": "chr17-31233072-A-G",
+    "exon_number": "27.0",
+    "syn_var": "chr17-31233081-A-G",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E27/KBM7/R1",
+      "E27/KBM7/R2",
+      "E27/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1008,
+    "combined_var_id": "chr17-31233072-A-G_chr17-31233081-A-G",
+    "var_id": "chr17-31233072-A-G",
+    "exon_number": "27.0",
+    "syn_var": "chr17-31233081-A-G",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E27/KBM7/R1",
+      "E27/KBM7/R2",
+      "E27/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1009,
+    "combined_var_id": "chr17-31233072-A-G_chr17-31233081-A-G",
+    "var_id": "chr17-31233072-A-G",
+    "exon_number": "27.0",
+    "syn_var": "chr17-31233081-A-G",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E27/KBM7/R1",
+      "E27/KBM7/R2",
+      "E27/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1016,
+    "combined_var_id": "chr17-31233123-G-A_chr17-31233117-G-A",
+    "var_id": "chr17-31233123-G-A",
+    "exon_number": "27.0",
+    "syn_var": "chr17-31233117-G-A",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E27/K562/R1",
+      "E27/K562/R2",
+      "E27/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1017,
+    "combined_var_id": "chr17-31233123-G-A_chr17-31233117-G-A",
+    "var_id": "chr17-31233123-G-A",
+    "exon_number": "27.0",
+    "syn_var": "chr17-31233117-G-A",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E27/K562/R1",
+      "E27/K562/R2",
+      "E27/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1018,
+    "combined_var_id": "chr17-31233123-G-A_chr17-31233117-G-A",
+    "var_id": "chr17-31233123-G-A",
+    "exon_number": "27.0",
+    "syn_var": "chr17-31233117-G-A",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E27/K562/R1",
+      "E27/K562/R2",
+      "E27/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1019,
+    "combined_var_id": "chr17-31233123-G-A_chr17-31233117-G-A",
+    "var_id": "chr17-31233123-G-A",
+    "exon_number": "27.0",
+    "syn_var": "chr17-31233117-G-A",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E27/KBM7/R1",
+      "E27/KBM7/R2",
+      "E27/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1020,
+    "combined_var_id": "chr17-31233123-G-A_chr17-31233117-G-A",
+    "var_id": "chr17-31233123-G-A",
+    "exon_number": "27.0",
+    "syn_var": "chr17-31233117-G-A",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E27/KBM7/R1",
+      "E27/KBM7/R2",
+      "E27/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1021,
+    "combined_var_id": "chr17-31233123-G-A_chr17-31233117-G-A",
+    "var_id": "chr17-31233123-G-A",
+    "exon_number": "27.0",
+    "syn_var": "chr17-31233117-G-A",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E27/KBM7/R1",
+      "E27/KBM7/R2",
+      "E27/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1022,
+    "combined_var_id": "chr17-31233123-G-A_chr17-31233120-T-C",
+    "var_id": "chr17-31233123-G-A",
+    "exon_number": "27.0",
+    "syn_var": "chr17-31233120-T-C",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E27/K562/R1",
+      "E27/K562/R2",
+      "E27/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1023,
+    "combined_var_id": "chr17-31233123-G-A_chr17-31233120-T-C",
+    "var_id": "chr17-31233123-G-A",
+    "exon_number": "27.0",
+    "syn_var": "chr17-31233120-T-C",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E27/K562/R1",
+      "E27/K562/R2",
+      "E27/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1024,
+    "combined_var_id": "chr17-31233123-G-A_chr17-31233120-T-C",
+    "var_id": "chr17-31233123-G-A",
+    "exon_number": "27.0",
+    "syn_var": "chr17-31233120-T-C",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E27/K562/R1",
+      "E27/K562/R2",
+      "E27/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1025,
+    "combined_var_id": "chr17-31233123-G-A_chr17-31233120-T-C",
+    "var_id": "chr17-31233123-G-A",
+    "exon_number": "27.0",
+    "syn_var": "chr17-31233120-T-C",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E27/KBM7/R1",
+      "E27/KBM7/R2",
+      "E27/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1026,
+    "combined_var_id": "chr17-31233123-G-A_chr17-31233120-T-C",
+    "var_id": "chr17-31233123-G-A",
+    "exon_number": "27.0",
+    "syn_var": "chr17-31233120-T-C",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E27/KBM7/R1",
+      "E27/KBM7/R2",
+      "E27/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1027,
+    "combined_var_id": "chr17-31233123-G-A_chr17-31233120-T-C",
+    "var_id": "chr17-31233123-G-A",
+    "exon_number": "27.0",
+    "syn_var": "chr17-31233120-T-C",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E27/KBM7/R1",
+      "E27/KBM7/R2",
+      "E27/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1034,
+    "combined_var_id": "chr17-31233126-A-G_chr17-31233117-G-C",
+    "var_id": "chr17-31233126-A-G",
+    "exon_number": "27.0",
+    "syn_var": "chr17-31233117-G-C",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E27/K562/R1",
+      "E27/K562/R2",
+      "E27/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1035,
+    "combined_var_id": "chr17-31233126-A-G_chr17-31233117-G-C",
+    "var_id": "chr17-31233126-A-G",
+    "exon_number": "27.0",
+    "syn_var": "chr17-31233117-G-C",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E27/K562/R1",
+      "E27/K562/R2",
+      "E27/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1036,
+    "combined_var_id": "chr17-31233126-A-G_chr17-31233117-G-C",
+    "var_id": "chr17-31233126-A-G",
+    "exon_number": "27.0",
+    "syn_var": "chr17-31233117-G-C",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E27/K562/R1",
+      "E27/K562/R2",
+      "E27/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1037,
+    "combined_var_id": "chr17-31233126-A-G_chr17-31233117-G-C",
+    "var_id": "chr17-31233126-A-G",
+    "exon_number": "27.0",
+    "syn_var": "chr17-31233117-G-C",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E27/KBM7/R1",
+      "E27/KBM7/R2",
+      "E27/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1038,
+    "combined_var_id": "chr17-31233126-A-G_chr17-31233117-G-C",
+    "var_id": "chr17-31233126-A-G",
+    "exon_number": "27.0",
+    "syn_var": "chr17-31233117-G-C",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E27/KBM7/R1",
+      "E27/KBM7/R2",
+      "E27/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1039,
+    "combined_var_id": "chr17-31233126-A-G_chr17-31233117-G-C",
+    "var_id": "chr17-31233126-A-G",
+    "exon_number": "27.0",
+    "syn_var": "chr17-31233117-G-C",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E27/KBM7/R1",
+      "E27/KBM7/R2",
+      "E27/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1040,
+    "combined_var_id": "chr17-31233126-A-G_chr17-31233129-G-A",
+    "var_id": "chr17-31233126-A-G",
+    "exon_number": "27.0",
+    "syn_var": "chr17-31233129-G-A",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E27/K562/R1",
+      "E27/K562/R2",
+      "E27/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1041,
+    "combined_var_id": "chr17-31233126-A-G_chr17-31233129-G-A",
+    "var_id": "chr17-31233126-A-G",
+    "exon_number": "27.0",
+    "syn_var": "chr17-31233129-G-A",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E27/K562/R1",
+      "E27/K562/R2",
+      "E27/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1042,
+    "combined_var_id": "chr17-31233126-A-G_chr17-31233129-G-A",
+    "var_id": "chr17-31233126-A-G",
+    "exon_number": "27.0",
+    "syn_var": "chr17-31233129-G-A",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E27/K562/R1",
+      "E27/K562/R2",
+      "E27/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1043,
+    "combined_var_id": "chr17-31233126-A-G_chr17-31233129-G-A",
+    "var_id": "chr17-31233126-A-G",
+    "exon_number": "27.0",
+    "syn_var": "chr17-31233129-G-A",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E27/KBM7/R1",
+      "E27/KBM7/R2",
+      "E27/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1044,
+    "combined_var_id": "chr17-31233126-A-G_chr17-31233129-G-A",
+    "var_id": "chr17-31233126-A-G",
+    "exon_number": "27.0",
+    "syn_var": "chr17-31233129-G-A",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E27/KBM7/R1",
+      "E27/KBM7/R2",
+      "E27/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1045,
+    "combined_var_id": "chr17-31233126-A-G_chr17-31233129-G-A",
+    "var_id": "chr17-31233126-A-G",
+    "exon_number": "27.0",
+    "syn_var": "chr17-31233129-G-A",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E27/KBM7/R1",
+      "E27/KBM7/R2",
+      "E27/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1046,
+    "combined_var_id": "chr17-31233126-A-G_chr17-31233132-G-C",
+    "var_id": "chr17-31233126-A-G",
+    "exon_number": "27.0",
+    "syn_var": "chr17-31233132-G-C",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E27/K562/R1",
+      "E27/K562/R2",
+      "E27/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1047,
+    "combined_var_id": "chr17-31233126-A-G_chr17-31233132-G-C",
+    "var_id": "chr17-31233126-A-G",
+    "exon_number": "27.0",
+    "syn_var": "chr17-31233132-G-C",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E27/K562/R1",
+      "E27/K562/R2",
+      "E27/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1048,
+    "combined_var_id": "chr17-31233126-A-G_chr17-31233132-G-C",
+    "var_id": "chr17-31233126-A-G",
+    "exon_number": "27.0",
+    "syn_var": "chr17-31233132-G-C",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E27/K562/R1",
+      "E27/K562/R2",
+      "E27/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1049,
+    "combined_var_id": "chr17-31233126-A-G_chr17-31233132-G-C",
+    "var_id": "chr17-31233126-A-G",
+    "exon_number": "27.0",
+    "syn_var": "chr17-31233132-G-C",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E27/KBM7/R1",
+      "E27/KBM7/R2",
+      "E27/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1050,
+    "combined_var_id": "chr17-31233126-A-G_chr17-31233132-G-C",
+    "var_id": "chr17-31233126-A-G",
+    "exon_number": "27.0",
+    "syn_var": "chr17-31233132-G-C",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E27/KBM7/R1",
+      "E27/KBM7/R2",
+      "E27/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1051,
+    "combined_var_id": "chr17-31233126-A-G_chr17-31233132-G-C",
+    "var_id": "chr17-31233126-A-G",
+    "exon_number": "27.0",
+    "syn_var": "chr17-31233132-G-C",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E27/KBM7/R1",
+      "E27/KBM7/R2",
+      "E27/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1100,
+    "combined_var_id": "chr17-31233156-T-C_chr17-31233159-A-G",
+    "var_id": "chr17-31233156-T-C",
+    "exon_number": "27.0",
+    "syn_var": "chr17-31233159-A-G",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E27/K562/R1",
+      "E27/K562/R2",
+      "E27/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1101,
+    "combined_var_id": "chr17-31233156-T-C_chr17-31233159-A-G",
+    "var_id": "chr17-31233156-T-C",
+    "exon_number": "27.0",
+    "syn_var": "chr17-31233159-A-G",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E27/K562/R1",
+      "E27/K562/R2",
+      "E27/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1102,
+    "combined_var_id": "chr17-31233156-T-C_chr17-31233159-A-G",
+    "var_id": "chr17-31233156-T-C",
+    "exon_number": "27.0",
+    "syn_var": "chr17-31233159-A-G",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E27/K562/R1",
+      "E27/K562/R2",
+      "E27/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1103,
+    "combined_var_id": "chr17-31233156-T-C_chr17-31233159-A-G",
+    "var_id": "chr17-31233156-T-C",
+    "exon_number": "27.0",
+    "syn_var": "chr17-31233159-A-G",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E27/KBM7/R1",
+      "E27/KBM7/R2",
+      "E27/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1104,
+    "combined_var_id": "chr17-31233156-T-C_chr17-31233159-A-G",
+    "var_id": "chr17-31233156-T-C",
+    "exon_number": "27.0",
+    "syn_var": "chr17-31233159-A-G",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E27/KBM7/R1",
+      "E27/KBM7/R2",
+      "E27/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1105,
+    "combined_var_id": "chr17-31233156-T-C_chr17-31233159-A-G",
+    "var_id": "chr17-31233156-T-C",
+    "exon_number": "27.0",
+    "syn_var": "chr17-31233159-A-G",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E27/KBM7/R1",
+      "E27/KBM7/R2",
+      "E27/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1106,
+    "combined_var_id": "chr17-31233156-T-C_chr17-31233162-A-G",
+    "var_id": "chr17-31233156-T-C",
+    "exon_number": "27.0",
+    "syn_var": "chr17-31233162-A-G",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E27/K562/R1",
+      "E27/K562/R2",
+      "E27/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1107,
+    "combined_var_id": "chr17-31233156-T-C_chr17-31233162-A-G",
+    "var_id": "chr17-31233156-T-C",
+    "exon_number": "27.0",
+    "syn_var": "chr17-31233162-A-G",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E27/K562/R1",
+      "E27/K562/R2",
+      "E27/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1108,
+    "combined_var_id": "chr17-31233156-T-C_chr17-31233162-A-G",
+    "var_id": "chr17-31233156-T-C",
+    "exon_number": "27.0",
+    "syn_var": "chr17-31233162-A-G",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E27/K562/R1",
+      "E27/K562/R2",
+      "E27/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1109,
+    "combined_var_id": "chr17-31233156-T-C_chr17-31233162-A-G",
+    "var_id": "chr17-31233156-T-C",
+    "exon_number": "27.0",
+    "syn_var": "chr17-31233162-A-G",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E27/KBM7/R1",
+      "E27/KBM7/R2",
+      "E27/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1110,
+    "combined_var_id": "chr17-31233156-T-C_chr17-31233162-A-G",
+    "var_id": "chr17-31233156-T-C",
+    "exon_number": "27.0",
+    "syn_var": "chr17-31233162-A-G",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E27/KBM7/R1",
+      "E27/KBM7/R2",
+      "E27/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1111,
+    "combined_var_id": "chr17-31233156-T-C_chr17-31233162-A-G",
+    "var_id": "chr17-31233156-T-C",
+    "exon_number": "27.0",
+    "syn_var": "chr17-31233162-A-G",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E27/KBM7/R1",
+      "E27/KBM7/R2",
+      "E27/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1460,
+    "combined_var_id": "chr17-31330380-A-G_chr17-31330371-A-T",
+    "var_id": "chr17-31330380-A-G",
+    "exon_number": "39.0",
+    "syn_var": "chr17-31330371-A-T",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E39/K562/R1",
+      "E39/K562/R2",
+      "E39/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1461,
+    "combined_var_id": "chr17-31330380-A-G_chr17-31330371-A-T",
+    "var_id": "chr17-31330380-A-G",
+    "exon_number": "39.0",
+    "syn_var": "chr17-31330371-A-T",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E39/K562/R1",
+      "E39/K562/R2",
+      "E39/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1462,
+    "combined_var_id": "chr17-31330380-A-G_chr17-31330371-A-T",
+    "var_id": "chr17-31330380-A-G",
+    "exon_number": "39.0",
+    "syn_var": "chr17-31330371-A-T",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E39/K562/R1",
+      "E39/K562/R2",
+      "E39/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1463,
+    "combined_var_id": "chr17-31330380-A-G_chr17-31330371-A-T",
+    "var_id": "chr17-31330380-A-G",
+    "exon_number": "39.0",
+    "syn_var": "chr17-31330371-A-T",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E39/KBM7/R1",
+      "E39/KBM7/R2",
+      "E39/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1464,
+    "combined_var_id": "chr17-31330380-A-G_chr17-31330371-A-T",
+    "var_id": "chr17-31330380-A-G",
+    "exon_number": "39.0",
+    "syn_var": "chr17-31330371-A-T",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E39/KBM7/R1",
+      "E39/KBM7/R2",
+      "E39/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1465,
+    "combined_var_id": "chr17-31330380-A-G_chr17-31330371-A-T",
+    "var_id": "chr17-31330380-A-G",
+    "exon_number": "39.0",
+    "syn_var": "chr17-31330371-A-T",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E39/KBM7/R1",
+      "E39/KBM7/R2",
+      "E39/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1466,
+    "combined_var_id": "chr17-31330380-A-G_chr17-31330377-T-G",
+    "var_id": "chr17-31330380-A-G",
+    "exon_number": "39.0",
+    "syn_var": "chr17-31330377-T-G",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E39/K562/R1",
+      "E39/K562/R2",
+      "E39/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1467,
+    "combined_var_id": "chr17-31330380-A-G_chr17-31330377-T-G",
+    "var_id": "chr17-31330380-A-G",
+    "exon_number": "39.0",
+    "syn_var": "chr17-31330377-T-G",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E39/K562/R1",
+      "E39/K562/R2",
+      "E39/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1468,
+    "combined_var_id": "chr17-31330380-A-G_chr17-31330377-T-G",
+    "var_id": "chr17-31330380-A-G",
+    "exon_number": "39.0",
+    "syn_var": "chr17-31330377-T-G",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E39/K562/R1",
+      "E39/K562/R2",
+      "E39/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1469,
+    "combined_var_id": "chr17-31330380-A-G_chr17-31330377-T-G",
+    "var_id": "chr17-31330380-A-G",
+    "exon_number": "39.0",
+    "syn_var": "chr17-31330377-T-G",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E39/KBM7/R1",
+      "E39/KBM7/R2",
+      "E39/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1470,
+    "combined_var_id": "chr17-31330380-A-G_chr17-31330377-T-G",
+    "var_id": "chr17-31330380-A-G",
+    "exon_number": "39.0",
+    "syn_var": "chr17-31330377-T-G",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E39/KBM7/R1",
+      "E39/KBM7/R2",
+      "E39/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1471,
+    "combined_var_id": "chr17-31330380-A-G_chr17-31330377-T-G",
+    "var_id": "chr17-31330380-A-G",
+    "exon_number": "39.0",
+    "syn_var": "chr17-31330377-T-G",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E39/KBM7/R1",
+      "E39/KBM7/R2",
+      "E39/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1472,
+    "combined_var_id": "chr17-31330380-A-G_chr17-31330389-T-A",
+    "var_id": "chr17-31330380-A-G",
+    "exon_number": "39.0",
+    "syn_var": "chr17-31330389-T-A",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E39/K562/R1",
+      "E39/K562/R2",
+      "E39/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1473,
+    "combined_var_id": "chr17-31330380-A-G_chr17-31330389-T-A",
+    "var_id": "chr17-31330380-A-G",
+    "exon_number": "39.0",
+    "syn_var": "chr17-31330389-T-A",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E39/K562/R1",
+      "E39/K562/R2",
+      "E39/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1474,
+    "combined_var_id": "chr17-31330380-A-G_chr17-31330389-T-A",
+    "var_id": "chr17-31330380-A-G",
+    "exon_number": "39.0",
+    "syn_var": "chr17-31330389-T-A",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E39/K562/R1",
+      "E39/K562/R2",
+      "E39/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1475,
+    "combined_var_id": "chr17-31330380-A-G_chr17-31330389-T-A",
+    "var_id": "chr17-31330380-A-G",
+    "exon_number": "39.0",
+    "syn_var": "chr17-31330389-T-A",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E39/KBM7/R1",
+      "E39/KBM7/R2",
+      "E39/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1476,
+    "combined_var_id": "chr17-31330380-A-G_chr17-31330389-T-A",
+    "var_id": "chr17-31330380-A-G",
+    "exon_number": "39.0",
+    "syn_var": "chr17-31330389-T-A",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E39/KBM7/R1",
+      "E39/KBM7/R2",
+      "E39/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1477,
+    "combined_var_id": "chr17-31330380-A-G_chr17-31330389-T-A",
+    "var_id": "chr17-31330380-A-G",
+    "exon_number": "39.0",
+    "syn_var": "chr17-31330389-T-A",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E39/KBM7/R1",
+      "E39/KBM7/R2",
+      "E39/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1478,
+    "combined_var_id": "chr17-31330392-C-T_chr17-31330386-C-T",
+    "var_id": "chr17-31330392-C-T",
+    "exon_number": "39.0",
+    "syn_var": "chr17-31330386-C-T",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E39/K562/R1",
+      "E39/K562/R2",
+      "E39/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1479,
+    "combined_var_id": "chr17-31330392-C-T_chr17-31330386-C-T",
+    "var_id": "chr17-31330392-C-T",
+    "exon_number": "39.0",
+    "syn_var": "chr17-31330386-C-T",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E39/K562/R1",
+      "E39/K562/R2",
+      "E39/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1480,
+    "combined_var_id": "chr17-31330392-C-T_chr17-31330386-C-T",
+    "var_id": "chr17-31330392-C-T",
+    "exon_number": "39.0",
+    "syn_var": "chr17-31330386-C-T",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E39/K562/R1",
+      "E39/K562/R2",
+      "E39/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1481,
+    "combined_var_id": "chr17-31330392-C-T_chr17-31330386-C-T",
+    "var_id": "chr17-31330392-C-T",
+    "exon_number": "39.0",
+    "syn_var": "chr17-31330386-C-T",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E39/KBM7/R1",
+      "E39/KBM7/R2",
+      "E39/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1482,
+    "combined_var_id": "chr17-31330392-C-T_chr17-31330386-C-T",
+    "var_id": "chr17-31330392-C-T",
+    "exon_number": "39.0",
+    "syn_var": "chr17-31330386-C-T",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E39/KBM7/R1",
+      "E39/KBM7/R2",
+      "E39/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1483,
+    "combined_var_id": "chr17-31330392-C-T_chr17-31330386-C-T",
+    "var_id": "chr17-31330392-C-T",
+    "exon_number": "39.0",
+    "syn_var": "chr17-31330386-C-T",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E39/KBM7/R1",
+      "E39/KBM7/R2",
+      "E39/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1484,
+    "combined_var_id": "chr17-31330392-C-T_chr17-31330389-T-C",
+    "var_id": "chr17-31330392-C-T",
+    "exon_number": "39.0",
+    "syn_var": "chr17-31330389-T-C",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E39/K562/R1",
+      "E39/K562/R2",
+      "E39/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1485,
+    "combined_var_id": "chr17-31330392-C-T_chr17-31330389-T-C",
+    "var_id": "chr17-31330392-C-T",
+    "exon_number": "39.0",
+    "syn_var": "chr17-31330389-T-C",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E39/K562/R1",
+      "E39/K562/R2",
+      "E39/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1486,
+    "combined_var_id": "chr17-31330392-C-T_chr17-31330389-T-C",
+    "var_id": "chr17-31330392-C-T",
+    "exon_number": "39.0",
+    "syn_var": "chr17-31330389-T-C",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E39/K562/R1",
+      "E39/K562/R2",
+      "E39/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1487,
+    "combined_var_id": "chr17-31330392-C-T_chr17-31330389-T-C",
+    "var_id": "chr17-31330392-C-T",
+    "exon_number": "39.0",
+    "syn_var": "chr17-31330389-T-C",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E39/KBM7/R1",
+      "E39/KBM7/R2",
+      "E39/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1488,
+    "combined_var_id": "chr17-31330392-C-T_chr17-31330389-T-C",
+    "var_id": "chr17-31330392-C-T",
+    "exon_number": "39.0",
+    "syn_var": "chr17-31330389-T-C",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E39/KBM7/R1",
+      "E39/KBM7/R2",
+      "E39/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1489,
+    "combined_var_id": "chr17-31330392-C-T_chr17-31330389-T-C",
+    "var_id": "chr17-31330392-C-T",
+    "exon_number": "39.0",
+    "syn_var": "chr17-31330389-T-C",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E39/KBM7/R1",
+      "E39/KBM7/R2",
+      "E39/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1502,
+    "combined_var_id": "chr17-31330395-C-T_chr17-31330392-C-A",
+    "var_id": "chr17-31330395-C-T",
+    "exon_number": "39.0",
+    "syn_var": "chr17-31330392-C-A",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E39/K562/R1",
+      "E39/K562/R2",
+      "E39/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1503,
+    "combined_var_id": "chr17-31330395-C-T_chr17-31330392-C-A",
+    "var_id": "chr17-31330395-C-T",
+    "exon_number": "39.0",
+    "syn_var": "chr17-31330392-C-A",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E39/K562/R1",
+      "E39/K562/R2",
+      "E39/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1504,
+    "combined_var_id": "chr17-31330395-C-T_chr17-31330392-C-A",
+    "var_id": "chr17-31330395-C-T",
+    "exon_number": "39.0",
+    "syn_var": "chr17-31330392-C-A",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E39/K562/R1",
+      "E39/K562/R2",
+      "E39/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1505,
+    "combined_var_id": "chr17-31330395-C-T_chr17-31330392-C-A",
+    "var_id": "chr17-31330395-C-T",
+    "exon_number": "39.0",
+    "syn_var": "chr17-31330392-C-A",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E39/KBM7/R1",
+      "E39/KBM7/R2",
+      "E39/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1506,
+    "combined_var_id": "chr17-31330395-C-T_chr17-31330392-C-A",
+    "var_id": "chr17-31330395-C-T",
+    "exon_number": "39.0",
+    "syn_var": "chr17-31330392-C-A",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E39/KBM7/R1",
+      "E39/KBM7/R2",
+      "E39/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1507,
+    "combined_var_id": "chr17-31330395-C-T_chr17-31330392-C-A",
+    "var_id": "chr17-31330395-C-T",
+    "exon_number": "39.0",
+    "syn_var": "chr17-31330392-C-A",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E39/KBM7/R1",
+      "E39/KBM7/R2",
+      "E39/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1508,
+    "combined_var_id": "chr17-31330395-C-T_chr17-31330401-C-A",
+    "var_id": "chr17-31330395-C-T",
+    "exon_number": "39.0",
+    "syn_var": "chr17-31330401-C-A",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E39/K562/R1",
+      "E39/K562/R2",
+      "E39/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1509,
+    "combined_var_id": "chr17-31330395-C-T_chr17-31330401-C-A",
+    "var_id": "chr17-31330395-C-T",
+    "exon_number": "39.0",
+    "syn_var": "chr17-31330401-C-A",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E39/K562/R1",
+      "E39/K562/R2",
+      "E39/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1510,
+    "combined_var_id": "chr17-31330395-C-T_chr17-31330401-C-A",
+    "var_id": "chr17-31330395-C-T",
+    "exon_number": "39.0",
+    "syn_var": "chr17-31330401-C-A",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E39/K562/R1",
+      "E39/K562/R2",
+      "E39/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1511,
+    "combined_var_id": "chr17-31330395-C-T_chr17-31330401-C-A",
+    "var_id": "chr17-31330395-C-T",
+    "exon_number": "39.0",
+    "syn_var": "chr17-31330401-C-A",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E39/KBM7/R1",
+      "E39/KBM7/R2",
+      "E39/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1512,
+    "combined_var_id": "chr17-31330395-C-T_chr17-31330401-C-A",
+    "var_id": "chr17-31330395-C-T",
+    "exon_number": "39.0",
+    "syn_var": "chr17-31330401-C-A",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E39/KBM7/R1",
+      "E39/KBM7/R2",
+      "E39/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1513,
+    "combined_var_id": "chr17-31330395-C-T_chr17-31330401-C-A",
+    "var_id": "chr17-31330395-C-T",
+    "exon_number": "39.0",
+    "syn_var": "chr17-31330401-C-A",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E39/KBM7/R1",
+      "E39/KBM7/R2",
+      "E39/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1574,
+    "combined_var_id": "chr17-31330422-T-C_chr17-31330416-T-C",
+    "var_id": "chr17-31330422-T-C",
+    "exon_number": "39.0",
+    "syn_var": "chr17-31330416-T-C",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E39/K562/R1",
+      "E39/K562/R2",
+      "E39/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1575,
+    "combined_var_id": "chr17-31330422-T-C_chr17-31330416-T-C",
+    "var_id": "chr17-31330422-T-C",
+    "exon_number": "39.0",
+    "syn_var": "chr17-31330416-T-C",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E39/K562/R1",
+      "E39/K562/R2",
+      "E39/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1576,
+    "combined_var_id": "chr17-31330422-T-C_chr17-31330416-T-C",
+    "var_id": "chr17-31330422-T-C",
+    "exon_number": "39.0",
+    "syn_var": "chr17-31330416-T-C",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E39/K562/R1",
+      "E39/K562/R2",
+      "E39/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1577,
+    "combined_var_id": "chr17-31330422-T-C_chr17-31330416-T-C",
+    "var_id": "chr17-31330422-T-C",
+    "exon_number": "39.0",
+    "syn_var": "chr17-31330416-T-C",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E39/KBM7/R1",
+      "E39/KBM7/R2",
+      "E39/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1578,
+    "combined_var_id": "chr17-31330422-T-C_chr17-31330416-T-C",
+    "var_id": "chr17-31330422-T-C",
+    "exon_number": "39.0",
+    "syn_var": "chr17-31330416-T-C",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E39/KBM7/R1",
+      "E39/KBM7/R2",
+      "E39/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1579,
+    "combined_var_id": "chr17-31330422-T-C_chr17-31330416-T-C",
+    "var_id": "chr17-31330422-T-C",
+    "exon_number": "39.0",
+    "syn_var": "chr17-31330416-T-C",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E39/KBM7/R1",
+      "E39/KBM7/R2",
+      "E39/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1580,
+    "combined_var_id": "chr17-31330422-T-C_chr17-31330431-G-T",
+    "var_id": "chr17-31330422-T-C",
+    "exon_number": "39.0",
+    "syn_var": "chr17-31330431-G-T",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E39/K562/R1",
+      "E39/K562/R2",
+      "E39/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1581,
+    "combined_var_id": "chr17-31330422-T-C_chr17-31330431-G-T",
+    "var_id": "chr17-31330422-T-C",
+    "exon_number": "39.0",
+    "syn_var": "chr17-31330431-G-T",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E39/K562/R1",
+      "E39/K562/R2",
+      "E39/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1582,
+    "combined_var_id": "chr17-31330422-T-C_chr17-31330431-G-T",
+    "var_id": "chr17-31330422-T-C",
+    "exon_number": "39.0",
+    "syn_var": "chr17-31330431-G-T",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E39/K562/R1",
+      "E39/K562/R2",
+      "E39/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1583,
+    "combined_var_id": "chr17-31330422-T-C_chr17-31330431-G-T",
+    "var_id": "chr17-31330422-T-C",
+    "exon_number": "39.0",
+    "syn_var": "chr17-31330431-G-T",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E39/KBM7/R1",
+      "E39/KBM7/R2",
+      "E39/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1584,
+    "combined_var_id": "chr17-31330422-T-C_chr17-31330431-G-T",
+    "var_id": "chr17-31330422-T-C",
+    "exon_number": "39.0",
+    "syn_var": "chr17-31330431-G-T",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E39/KBM7/R1",
+      "E39/KBM7/R2",
+      "E39/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1585,
+    "combined_var_id": "chr17-31330422-T-C_chr17-31330431-G-T",
+    "var_id": "chr17-31330422-T-C",
+    "exon_number": "39.0",
+    "syn_var": "chr17-31330431-G-T",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E39/KBM7/R1",
+      "E39/KBM7/R2",
+      "E39/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1682,
+    "combined_var_id": "chr17-31336736-C-A_chr17-31336733-A-C",
+    "var_id": "chr17-31336736-C-A",
+    "exon_number": "42.0",
+    "syn_var": "chr17-31336733-A-C",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E42/K562/R1",
+      "E42/K562/R2",
+      "E42/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1683,
+    "combined_var_id": "chr17-31336736-C-A_chr17-31336733-A-C",
+    "var_id": "chr17-31336736-C-A",
+    "exon_number": "42.0",
+    "syn_var": "chr17-31336733-A-C",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E42/K562/R1",
+      "E42/K562/R2",
+      "E42/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1684,
+    "combined_var_id": "chr17-31336736-C-A_chr17-31336733-A-C",
+    "var_id": "chr17-31336736-C-A",
+    "exon_number": "42.0",
+    "syn_var": "chr17-31336733-A-C",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E42/K562/R1",
+      "E42/K562/R2",
+      "E42/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1685,
+    "combined_var_id": "chr17-31336736-C-A_chr17-31336733-A-C",
+    "var_id": "chr17-31336736-C-A",
+    "exon_number": "42.0",
+    "syn_var": "chr17-31336733-A-C",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E42/KBM7/R1",
+      "E42/KBM7/R2",
+      "E42/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1686,
+    "combined_var_id": "chr17-31336736-C-A_chr17-31336733-A-C",
+    "var_id": "chr17-31336736-C-A",
+    "exon_number": "42.0",
+    "syn_var": "chr17-31336733-A-C",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E42/KBM7/R1",
+      "E42/KBM7/R2",
+      "E42/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1687,
+    "combined_var_id": "chr17-31336736-C-A_chr17-31336733-A-C",
+    "var_id": "chr17-31336736-C-A",
+    "exon_number": "42.0",
+    "syn_var": "chr17-31336733-A-C",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E42/KBM7/R1",
+      "E42/KBM7/R2",
+      "E42/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1688,
+    "combined_var_id": "chr17-31336736-C-A_chr17-31336733-A-T",
+    "var_id": "chr17-31336736-C-A",
+    "exon_number": "42.0",
+    "syn_var": "chr17-31336733-A-T",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E42/K562/R1",
+      "E42/K562/R2",
+      "E42/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1689,
+    "combined_var_id": "chr17-31336736-C-A_chr17-31336733-A-T",
+    "var_id": "chr17-31336736-C-A",
+    "exon_number": "42.0",
+    "syn_var": "chr17-31336733-A-T",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E42/K562/R1",
+      "E42/K562/R2",
+      "E42/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1690,
+    "combined_var_id": "chr17-31336736-C-A_chr17-31336733-A-T",
+    "var_id": "chr17-31336736-C-A",
+    "exon_number": "42.0",
+    "syn_var": "chr17-31336733-A-T",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E42/K562/R1",
+      "E42/K562/R2",
+      "E42/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1691,
+    "combined_var_id": "chr17-31336736-C-A_chr17-31336733-A-T",
+    "var_id": "chr17-31336736-C-A",
+    "exon_number": "42.0",
+    "syn_var": "chr17-31336733-A-T",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E42/KBM7/R1",
+      "E42/KBM7/R2",
+      "E42/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1692,
+    "combined_var_id": "chr17-31336736-C-A_chr17-31336733-A-T",
+    "var_id": "chr17-31336736-C-A",
+    "exon_number": "42.0",
+    "syn_var": "chr17-31336733-A-T",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E42/KBM7/R1",
+      "E42/KBM7/R2",
+      "E42/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1693,
+    "combined_var_id": "chr17-31336736-C-A_chr17-31336733-A-T",
+    "var_id": "chr17-31336736-C-A",
+    "exon_number": "42.0",
+    "syn_var": "chr17-31336733-A-T",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E42/KBM7/R1",
+      "E42/KBM7/R2",
+      "E42/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1694,
+    "combined_var_id": "chr17-31336736-C-G_chr17-31336727-T-A",
+    "var_id": "chr17-31336736-C-G",
+    "exon_number": "42.0",
+    "syn_var": "chr17-31336727-T-A",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E42/K562/R1",
+      "E42/K562/R2",
+      "E42/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1695,
+    "combined_var_id": "chr17-31336736-C-G_chr17-31336727-T-A",
+    "var_id": "chr17-31336736-C-G",
+    "exon_number": "42.0",
+    "syn_var": "chr17-31336727-T-A",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E42/K562/R1",
+      "E42/K562/R2",
+      "E42/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1696,
+    "combined_var_id": "chr17-31336736-C-G_chr17-31336727-T-A",
+    "var_id": "chr17-31336736-C-G",
+    "exon_number": "42.0",
+    "syn_var": "chr17-31336727-T-A",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E42/K562/R1",
+      "E42/K562/R2",
+      "E42/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1697,
+    "combined_var_id": "chr17-31336736-C-G_chr17-31336727-T-A",
+    "var_id": "chr17-31336736-C-G",
+    "exon_number": "42.0",
+    "syn_var": "chr17-31336727-T-A",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E42/KBM7/R1",
+      "E42/KBM7/R2",
+      "E42/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1698,
+    "combined_var_id": "chr17-31336736-C-G_chr17-31336727-T-A",
+    "var_id": "chr17-31336736-C-G",
+    "exon_number": "42.0",
+    "syn_var": "chr17-31336727-T-A",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E42/KBM7/R1",
+      "E42/KBM7/R2",
+      "E42/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1699,
+    "combined_var_id": "chr17-31336736-C-G_chr17-31336727-T-A",
+    "var_id": "chr17-31336736-C-G",
+    "exon_number": "42.0",
+    "syn_var": "chr17-31336727-T-A",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E42/KBM7/R1",
+      "E42/KBM7/R2",
+      "E42/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1700,
+    "combined_var_id": "chr17-31336736-C-G_chr17-31336745-G-A",
+    "var_id": "chr17-31336736-C-G",
+    "exon_number": "42.0",
+    "syn_var": "chr17-31336745-G-A",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E42/K562/R1",
+      "E42/K562/R2",
+      "E42/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1701,
+    "combined_var_id": "chr17-31336736-C-G_chr17-31336745-G-A",
+    "var_id": "chr17-31336736-C-G",
+    "exon_number": "42.0",
+    "syn_var": "chr17-31336745-G-A",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E42/K562/R1",
+      "E42/K562/R2",
+      "E42/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1702,
+    "combined_var_id": "chr17-31336736-C-G_chr17-31336745-G-A",
+    "var_id": "chr17-31336736-C-G",
+    "exon_number": "42.0",
+    "syn_var": "chr17-31336745-G-A",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E42/K562/R1",
+      "E42/K562/R2",
+      "E42/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1703,
+    "combined_var_id": "chr17-31336736-C-G_chr17-31336745-G-A",
+    "var_id": "chr17-31336736-C-G",
+    "exon_number": "42.0",
+    "syn_var": "chr17-31336745-G-A",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E42/KBM7/R1",
+      "E42/KBM7/R2",
+      "E42/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1704,
+    "combined_var_id": "chr17-31336736-C-G_chr17-31336745-G-A",
+    "var_id": "chr17-31336736-C-G",
+    "exon_number": "42.0",
+    "syn_var": "chr17-31336745-G-A",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E42/KBM7/R1",
+      "E42/KBM7/R2",
+      "E42/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1705,
+    "combined_var_id": "chr17-31336736-C-G_chr17-31336745-G-A",
+    "var_id": "chr17-31336736-C-G",
+    "exon_number": "42.0",
+    "syn_var": "chr17-31336745-G-A",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E42/KBM7/R1",
+      "E42/KBM7/R2",
+      "E42/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1706,
+    "combined_var_id": "chr17-31336736-C-T_chr17-31336728-T-C",
+    "var_id": "chr17-31336736-C-T",
+    "exon_number": "42.0",
+    "syn_var": "chr17-31336728-T-C",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E42/K562/R1",
+      "E42/K562/R2",
+      "E42/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1707,
+    "combined_var_id": "chr17-31336736-C-T_chr17-31336728-T-C",
+    "var_id": "chr17-31336736-C-T",
+    "exon_number": "42.0",
+    "syn_var": "chr17-31336728-T-C",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E42/K562/R1",
+      "E42/K562/R2",
+      "E42/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1708,
+    "combined_var_id": "chr17-31336736-C-T_chr17-31336728-T-C",
+    "var_id": "chr17-31336736-C-T",
+    "exon_number": "42.0",
+    "syn_var": "chr17-31336728-T-C",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E42/K562/R1",
+      "E42/K562/R2",
+      "E42/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1709,
+    "combined_var_id": "chr17-31336736-C-T_chr17-31336728-T-C",
+    "var_id": "chr17-31336736-C-T",
+    "exon_number": "42.0",
+    "syn_var": "chr17-31336728-T-C",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E42/KBM7/R1",
+      "E42/KBM7/R2",
+      "E42/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1710,
+    "combined_var_id": "chr17-31336736-C-T_chr17-31336728-T-C",
+    "var_id": "chr17-31336736-C-T",
+    "exon_number": "42.0",
+    "syn_var": "chr17-31336728-T-C",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E42/KBM7/R1",
+      "E42/KBM7/R2",
+      "E42/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1711,
+    "combined_var_id": "chr17-31336736-C-T_chr17-31336728-T-C",
+    "var_id": "chr17-31336736-C-T",
+    "exon_number": "42.0",
+    "syn_var": "chr17-31336728-T-C",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E42/KBM7/R1",
+      "E42/KBM7/R2",
+      "E42/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1712,
+    "combined_var_id": "chr17-31336736-C-T_chr17-31336743-C-T",
+    "var_id": "chr17-31336736-C-T",
+    "exon_number": "42.0",
+    "syn_var": "chr17-31336743-C-T",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E42/K562/R1",
+      "E42/K562/R2",
+      "E42/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1713,
+    "combined_var_id": "chr17-31336736-C-T_chr17-31336743-C-T",
+    "var_id": "chr17-31336736-C-T",
+    "exon_number": "42.0",
+    "syn_var": "chr17-31336743-C-T",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E42/K562/R1",
+      "E42/K562/R2",
+      "E42/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1714,
+    "combined_var_id": "chr17-31336736-C-T_chr17-31336743-C-T",
+    "var_id": "chr17-31336736-C-T",
+    "exon_number": "42.0",
+    "syn_var": "chr17-31336743-C-T",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E42/K562/R1",
+      "E42/K562/R2",
+      "E42/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1715,
+    "combined_var_id": "chr17-31336736-C-T_chr17-31336743-C-T",
+    "var_id": "chr17-31336736-C-T",
+    "exon_number": "42.0",
+    "syn_var": "chr17-31336743-C-T",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E42/KBM7/R1",
+      "E42/KBM7/R2",
+      "E42/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1716,
+    "combined_var_id": "chr17-31336736-C-T_chr17-31336743-C-T",
+    "var_id": "chr17-31336736-C-T",
+    "exon_number": "42.0",
+    "syn_var": "chr17-31336743-C-T",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E42/KBM7/R1",
+      "E42/KBM7/R2",
+      "E42/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1717,
+    "combined_var_id": "chr17-31336736-C-T_chr17-31336743-C-T",
+    "var_id": "chr17-31336736-C-T",
+    "exon_number": "42.0",
+    "syn_var": "chr17-31336743-C-T",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E42/KBM7/R1",
+      "E42/KBM7/R2",
+      "E42/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1718,
+    "combined_var_id": "chr17-31336772-T-C_chr17-31336766-C-T",
+    "var_id": "chr17-31336772-T-C",
+    "exon_number": "42.0",
+    "syn_var": "chr17-31336766-C-T",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E42/K562/R1",
+      "E42/K562/R2",
+      "E42/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1719,
+    "combined_var_id": "chr17-31336772-T-C_chr17-31336766-C-T",
+    "var_id": "chr17-31336772-T-C",
+    "exon_number": "42.0",
+    "syn_var": "chr17-31336766-C-T",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E42/K562/R1",
+      "E42/K562/R2",
+      "E42/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1720,
+    "combined_var_id": "chr17-31336772-T-C_chr17-31336766-C-T",
+    "var_id": "chr17-31336772-T-C",
+    "exon_number": "42.0",
+    "syn_var": "chr17-31336766-C-T",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E42/K562/R1",
+      "E42/K562/R2",
+      "E42/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1721,
+    "combined_var_id": "chr17-31336772-T-C_chr17-31336766-C-T",
+    "var_id": "chr17-31336772-T-C",
+    "exon_number": "42.0",
+    "syn_var": "chr17-31336766-C-T",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E42/KBM7/R1",
+      "E42/KBM7/R2",
+      "E42/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1722,
+    "combined_var_id": "chr17-31336772-T-C_chr17-31336766-C-T",
+    "var_id": "chr17-31336772-T-C",
+    "exon_number": "42.0",
+    "syn_var": "chr17-31336766-C-T",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E42/KBM7/R1",
+      "E42/KBM7/R2",
+      "E42/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1723,
+    "combined_var_id": "chr17-31336772-T-C_chr17-31336766-C-T",
+    "var_id": "chr17-31336772-T-C",
+    "exon_number": "42.0",
+    "syn_var": "chr17-31336766-C-T",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E42/KBM7/R1",
+      "E42/KBM7/R2",
+      "E42/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1724,
+    "combined_var_id": "chr17-31336772-T-C_chr17-31336781-T-A",
+    "var_id": "chr17-31336772-T-C",
+    "exon_number": "42.0",
+    "syn_var": "chr17-31336781-T-A",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E42/K562/R1",
+      "E42/K562/R2",
+      "E42/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1725,
+    "combined_var_id": "chr17-31336772-T-C_chr17-31336781-T-A",
+    "var_id": "chr17-31336772-T-C",
+    "exon_number": "42.0",
+    "syn_var": "chr17-31336781-T-A",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E42/K562/R1",
+      "E42/K562/R2",
+      "E42/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1726,
+    "combined_var_id": "chr17-31336772-T-C_chr17-31336781-T-A",
+    "var_id": "chr17-31336772-T-C",
+    "exon_number": "42.0",
+    "syn_var": "chr17-31336781-T-A",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E42/K562/R1",
+      "E42/K562/R2",
+      "E42/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1727,
+    "combined_var_id": "chr17-31336772-T-C_chr17-31336781-T-A",
+    "var_id": "chr17-31336772-T-C",
+    "exon_number": "42.0",
+    "syn_var": "chr17-31336781-T-A",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E42/KBM7/R1",
+      "E42/KBM7/R2",
+      "E42/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1728,
+    "combined_var_id": "chr17-31336772-T-C_chr17-31336781-T-A",
+    "var_id": "chr17-31336772-T-C",
+    "exon_number": "42.0",
+    "syn_var": "chr17-31336781-T-A",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E42/KBM7/R1",
+      "E42/KBM7/R2",
+      "E42/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1729,
+    "combined_var_id": "chr17-31336772-T-C_chr17-31336781-T-A",
+    "var_id": "chr17-31336772-T-C",
+    "exon_number": "42.0",
+    "syn_var": "chr17-31336781-T-A",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E42/KBM7/R1",
+      "E42/KBM7/R2",
+      "E42/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1826,
+    "combined_var_id": "chr17-31336802-C-T_chr17-31336793-C-T",
+    "var_id": "chr17-31336802-C-T",
+    "exon_number": "42.0",
+    "syn_var": "chr17-31336793-C-T",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E42/K562/R1",
+      "E42/K562/R2",
+      "E42/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1827,
+    "combined_var_id": "chr17-31336802-C-T_chr17-31336793-C-T",
+    "var_id": "chr17-31336802-C-T",
+    "exon_number": "42.0",
+    "syn_var": "chr17-31336793-C-T",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E42/K562/R1",
+      "E42/K562/R2",
+      "E42/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1828,
+    "combined_var_id": "chr17-31336802-C-T_chr17-31336793-C-T",
+    "var_id": "chr17-31336802-C-T",
+    "exon_number": "42.0",
+    "syn_var": "chr17-31336793-C-T",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E42/K562/R1",
+      "E42/K562/R2",
+      "E42/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1829,
+    "combined_var_id": "chr17-31336802-C-T_chr17-31336793-C-T",
+    "var_id": "chr17-31336802-C-T",
+    "exon_number": "42.0",
+    "syn_var": "chr17-31336793-C-T",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E42/KBM7/R1",
+      "E42/KBM7/R2",
+      "E42/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1830,
+    "combined_var_id": "chr17-31336802-C-T_chr17-31336793-C-T",
+    "var_id": "chr17-31336802-C-T",
+    "exon_number": "42.0",
+    "syn_var": "chr17-31336793-C-T",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E42/KBM7/R1",
+      "E42/KBM7/R2",
+      "E42/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1831,
+    "combined_var_id": "chr17-31336802-C-T_chr17-31336793-C-T",
+    "var_id": "chr17-31336802-C-T",
+    "exon_number": "42.0",
+    "syn_var": "chr17-31336793-C-T",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E42/KBM7/R1",
+      "E42/KBM7/R2",
+      "E42/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1832,
+    "combined_var_id": "chr17-31336802-C-T_chr17-31336796-C-A",
+    "var_id": "chr17-31336802-C-T",
+    "exon_number": "42.0",
+    "syn_var": "chr17-31336796-C-A",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E42/K562/R1",
+      "E42/K562/R2",
+      "E42/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1833,
+    "combined_var_id": "chr17-31336802-C-T_chr17-31336796-C-A",
+    "var_id": "chr17-31336802-C-T",
+    "exon_number": "42.0",
+    "syn_var": "chr17-31336796-C-A",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E42/K562/R1",
+      "E42/K562/R2",
+      "E42/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1834,
+    "combined_var_id": "chr17-31336802-C-T_chr17-31336796-C-A",
+    "var_id": "chr17-31336802-C-T",
+    "exon_number": "42.0",
+    "syn_var": "chr17-31336796-C-A",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E42/K562/R1",
+      "E42/K562/R2",
+      "E42/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1835,
+    "combined_var_id": "chr17-31336802-C-T_chr17-31336796-C-A",
+    "var_id": "chr17-31336802-C-T",
+    "exon_number": "42.0",
+    "syn_var": "chr17-31336796-C-A",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E42/KBM7/R1",
+      "E42/KBM7/R2",
+      "E42/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1836,
+    "combined_var_id": "chr17-31336802-C-T_chr17-31336796-C-A",
+    "var_id": "chr17-31336802-C-T",
+    "exon_number": "42.0",
+    "syn_var": "chr17-31336796-C-A",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E42/KBM7/R1",
+      "E42/KBM7/R2",
+      "E42/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1837,
+    "combined_var_id": "chr17-31336802-C-T_chr17-31336796-C-A",
+    "var_id": "chr17-31336802-C-T",
+    "exon_number": "42.0",
+    "syn_var": "chr17-31336796-C-A",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E42/KBM7/R1",
+      "E42/KBM7/R2",
+      "E42/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1952,
+    "combined_var_id": "chr17-31336865-C-A_chr17-31336862-G-C",
+    "var_id": "chr17-31336865-C-A",
+    "exon_number": "42.0",
+    "syn_var": "chr17-31336862-G-C",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E42/K562/R1",
+      "E42/K562/R2",
+      "E42/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1953,
+    "combined_var_id": "chr17-31336865-C-A_chr17-31336862-G-C",
+    "var_id": "chr17-31336865-C-A",
+    "exon_number": "42.0",
+    "syn_var": "chr17-31336862-G-C",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E42/K562/R1",
+      "E42/K562/R2",
+      "E42/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1954,
+    "combined_var_id": "chr17-31336865-C-A_chr17-31336862-G-C",
+    "var_id": "chr17-31336865-C-A",
+    "exon_number": "42.0",
+    "syn_var": "chr17-31336862-G-C",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E42/K562/R1",
+      "E42/K562/R2",
+      "E42/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1955,
+    "combined_var_id": "chr17-31336865-C-A_chr17-31336862-G-C",
+    "var_id": "chr17-31336865-C-A",
+    "exon_number": "42.0",
+    "syn_var": "chr17-31336862-G-C",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E42/KBM7/R1",
+      "E42/KBM7/R2",
+      "E42/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1956,
+    "combined_var_id": "chr17-31336865-C-A_chr17-31336862-G-C",
+    "var_id": "chr17-31336865-C-A",
+    "exon_number": "42.0",
+    "syn_var": "chr17-31336862-G-C",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E42/KBM7/R1",
+      "E42/KBM7/R2",
+      "E42/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1957,
+    "combined_var_id": "chr17-31336865-C-A_chr17-31336862-G-C",
+    "var_id": "chr17-31336865-C-A",
+    "exon_number": "42.0",
+    "syn_var": "chr17-31336862-G-C",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E42/KBM7/R1",
+      "E42/KBM7/R2",
+      "E42/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1958,
+    "combined_var_id": "chr17-31336865-C-A_chr17-31336871-T-C",
+    "var_id": "chr17-31336865-C-A",
+    "exon_number": "42.0",
+    "syn_var": "chr17-31336871-T-C",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E42/K562/R1",
+      "E42/K562/R2",
+      "E42/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1959,
+    "combined_var_id": "chr17-31336865-C-A_chr17-31336871-T-C",
+    "var_id": "chr17-31336865-C-A",
+    "exon_number": "42.0",
+    "syn_var": "chr17-31336871-T-C",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E42/K562/R1",
+      "E42/K562/R2",
+      "E42/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1960,
+    "combined_var_id": "chr17-31336865-C-A_chr17-31336871-T-C",
+    "var_id": "chr17-31336865-C-A",
+    "exon_number": "42.0",
+    "syn_var": "chr17-31336871-T-C",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E42/K562/R1",
+      "E42/K562/R2",
+      "E42/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1961,
+    "combined_var_id": "chr17-31336865-C-A_chr17-31336871-T-C",
+    "var_id": "chr17-31336865-C-A",
+    "exon_number": "42.0",
+    "syn_var": "chr17-31336871-T-C",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E42/KBM7/R1",
+      "E42/KBM7/R2",
+      "E42/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1962,
+    "combined_var_id": "chr17-31336865-C-A_chr17-31336871-T-C",
+    "var_id": "chr17-31336865-C-A",
+    "exon_number": "42.0",
+    "syn_var": "chr17-31336871-T-C",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E42/KBM7/R1",
+      "E42/KBM7/R2",
+      "E42/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1963,
+    "combined_var_id": "chr17-31336865-C-A_chr17-31336871-T-C",
+    "var_id": "chr17-31336865-C-A",
+    "exon_number": "42.0",
+    "syn_var": "chr17-31336871-T-C",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E42/KBM7/R1",
+      "E42/KBM7/R2",
+      "E42/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1964,
+    "combined_var_id": "chr17-31336865-C-A_chr17-31336874-C-A",
+    "var_id": "chr17-31336865-C-A",
+    "exon_number": "42.0",
+    "syn_var": "chr17-31336874-C-A",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E42/K562/R1",
+      "E42/K562/R2",
+      "E42/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1965,
+    "combined_var_id": "chr17-31336865-C-A_chr17-31336874-C-A",
+    "var_id": "chr17-31336865-C-A",
+    "exon_number": "42.0",
+    "syn_var": "chr17-31336874-C-A",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E42/K562/R1",
+      "E42/K562/R2",
+      "E42/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1966,
+    "combined_var_id": "chr17-31336865-C-A_chr17-31336874-C-A",
+    "var_id": "chr17-31336865-C-A",
+    "exon_number": "42.0",
+    "syn_var": "chr17-31336874-C-A",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E42/K562/R1",
+      "E42/K562/R2",
+      "E42/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1967,
+    "combined_var_id": "chr17-31336865-C-A_chr17-31336874-C-A",
+    "var_id": "chr17-31336865-C-A",
+    "exon_number": "42.0",
+    "syn_var": "chr17-31336874-C-A",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E42/KBM7/R1",
+      "E42/KBM7/R2",
+      "E42/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1968,
+    "combined_var_id": "chr17-31336865-C-A_chr17-31336874-C-A",
+    "var_id": "chr17-31336865-C-A",
+    "exon_number": "42.0",
+    "syn_var": "chr17-31336874-C-A",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E42/KBM7/R1",
+      "E42/KBM7/R2",
+      "E42/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1969,
+    "combined_var_id": "chr17-31336865-C-A_chr17-31336874-C-A",
+    "var_id": "chr17-31336865-C-A",
+    "exon_number": "42.0",
+    "syn_var": "chr17-31336874-C-A",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E42/KBM7/R1",
+      "E42/KBM7/R2",
+      "E42/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1970,
+    "combined_var_id": "chr17-31336865-C-G_chr17-31336860-C-T",
+    "var_id": "chr17-31336865-C-G",
+    "exon_number": "42.0",
+    "syn_var": "chr17-31336860-C-T",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E42/K562/R1",
+      "E42/K562/R2",
+      "E42/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1971,
+    "combined_var_id": "chr17-31336865-C-G_chr17-31336860-C-T",
+    "var_id": "chr17-31336865-C-G",
+    "exon_number": "42.0",
+    "syn_var": "chr17-31336860-C-T",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E42/K562/R1",
+      "E42/K562/R2",
+      "E42/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1972,
+    "combined_var_id": "chr17-31336865-C-G_chr17-31336860-C-T",
+    "var_id": "chr17-31336865-C-G",
+    "exon_number": "42.0",
+    "syn_var": "chr17-31336860-C-T",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E42/K562/R1",
+      "E42/K562/R2",
+      "E42/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1973,
+    "combined_var_id": "chr17-31336865-C-G_chr17-31336860-C-T",
+    "var_id": "chr17-31336865-C-G",
+    "exon_number": "42.0",
+    "syn_var": "chr17-31336860-C-T",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E42/KBM7/R1",
+      "E42/KBM7/R2",
+      "E42/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1974,
+    "combined_var_id": "chr17-31336865-C-G_chr17-31336860-C-T",
+    "var_id": "chr17-31336865-C-G",
+    "exon_number": "42.0",
+    "syn_var": "chr17-31336860-C-T",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E42/KBM7/R1",
+      "E42/KBM7/R2",
+      "E42/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1975,
+    "combined_var_id": "chr17-31336865-C-G_chr17-31336860-C-T",
+    "var_id": "chr17-31336865-C-G",
+    "exon_number": "42.0",
+    "syn_var": "chr17-31336860-C-T",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E42/KBM7/R1",
+      "E42/KBM7/R2",
+      "E42/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1976,
+    "combined_var_id": "chr17-31336865-C-G_chr17-31336868-T-A",
+    "var_id": "chr17-31336865-C-G",
+    "exon_number": "42.0",
+    "syn_var": "chr17-31336868-T-A",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E42/K562/R1",
+      "E42/K562/R2",
+      "E42/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1977,
+    "combined_var_id": "chr17-31336865-C-G_chr17-31336868-T-A",
+    "var_id": "chr17-31336865-C-G",
+    "exon_number": "42.0",
+    "syn_var": "chr17-31336868-T-A",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E42/K562/R1",
+      "E42/K562/R2",
+      "E42/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1978,
+    "combined_var_id": "chr17-31336865-C-G_chr17-31336868-T-A",
+    "var_id": "chr17-31336865-C-G",
+    "exon_number": "42.0",
+    "syn_var": "chr17-31336868-T-A",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E42/K562/R1",
+      "E42/K562/R2",
+      "E42/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1979,
+    "combined_var_id": "chr17-31336865-C-G_chr17-31336868-T-A",
+    "var_id": "chr17-31336865-C-G",
+    "exon_number": "42.0",
+    "syn_var": "chr17-31336868-T-A",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E42/KBM7/R1",
+      "E42/KBM7/R2",
+      "E42/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1980,
+    "combined_var_id": "chr17-31336865-C-G_chr17-31336868-T-A",
+    "var_id": "chr17-31336865-C-G",
+    "exon_number": "42.0",
+    "syn_var": "chr17-31336868-T-A",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E42/KBM7/R1",
+      "E42/KBM7/R2",
+      "E42/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1981,
+    "combined_var_id": "chr17-31336865-C-G_chr17-31336868-T-A",
+    "var_id": "chr17-31336865-C-G",
+    "exon_number": "42.0",
+    "syn_var": "chr17-31336868-T-A",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E42/KBM7/R1",
+      "E42/KBM7/R2",
+      "E42/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1982,
+    "combined_var_id": "chr17-31336865-C-T_chr17-31336856-T-C",
+    "var_id": "chr17-31336865-C-T",
+    "exon_number": "42.0",
+    "syn_var": "chr17-31336856-T-C",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E42/K562/R1",
+      "E42/K562/R2",
+      "E42/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1983,
+    "combined_var_id": "chr17-31336865-C-T_chr17-31336856-T-C",
+    "var_id": "chr17-31336865-C-T",
+    "exon_number": "42.0",
+    "syn_var": "chr17-31336856-T-C",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E42/K562/R1",
+      "E42/K562/R2",
+      "E42/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1984,
+    "combined_var_id": "chr17-31336865-C-T_chr17-31336856-T-C",
+    "var_id": "chr17-31336865-C-T",
+    "exon_number": "42.0",
+    "syn_var": "chr17-31336856-T-C",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E42/K562/R1",
+      "E42/K562/R2",
+      "E42/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1985,
+    "combined_var_id": "chr17-31336865-C-T_chr17-31336856-T-C",
+    "var_id": "chr17-31336865-C-T",
+    "exon_number": "42.0",
+    "syn_var": "chr17-31336856-T-C",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E42/KBM7/R1",
+      "E42/KBM7/R2",
+      "E42/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1986,
+    "combined_var_id": "chr17-31336865-C-T_chr17-31336856-T-C",
+    "var_id": "chr17-31336865-C-T",
+    "exon_number": "42.0",
+    "syn_var": "chr17-31336856-T-C",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E42/KBM7/R1",
+      "E42/KBM7/R2",
+      "E42/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1987,
+    "combined_var_id": "chr17-31336865-C-T_chr17-31336856-T-C",
+    "var_id": "chr17-31336865-C-T",
+    "exon_number": "42.0",
+    "syn_var": "chr17-31336856-T-C",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E42/KBM7/R1",
+      "E42/KBM7/R2",
+      "E42/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1988,
+    "combined_var_id": "chr17-31336865-C-T_chr17-31336868-T-A",
+    "var_id": "chr17-31336865-C-T",
+    "exon_number": "42.0",
+    "syn_var": "chr17-31336868-T-A",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E42/K562/R1",
+      "E42/K562/R2",
+      "E42/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1989,
+    "combined_var_id": "chr17-31336865-C-T_chr17-31336868-T-A",
+    "var_id": "chr17-31336865-C-T",
+    "exon_number": "42.0",
+    "syn_var": "chr17-31336868-T-A",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E42/K562/R1",
+      "E42/K562/R2",
+      "E42/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1990,
+    "combined_var_id": "chr17-31336865-C-T_chr17-31336868-T-A",
+    "var_id": "chr17-31336865-C-T",
+    "exon_number": "42.0",
+    "syn_var": "chr17-31336868-T-A",
+    "cell_line": "K562",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E42/K562/R1",
+      "E42/K562/R2",
+      "E42/K562/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1991,
+    "combined_var_id": "chr17-31336865-C-T_chr17-31336868-T-A",
+    "var_id": "chr17-31336865-C-T",
+    "exon_number": "42.0",
+    "syn_var": "chr17-31336868-T-A",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E42/KBM7/R1",
+      "E42/KBM7/R2",
+      "E42/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1992,
+    "combined_var_id": "chr17-31336865-C-T_chr17-31336868-T-A",
+    "var_id": "chr17-31336865-C-T",
+    "exon_number": "42.0",
+    "syn_var": "chr17-31336868-T-A",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E42/KBM7/R1",
+      "E42/KBM7/R2",
+      "E42/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  },
+  {
+    "worksheet_row": 1993,
+    "combined_var_id": "chr17-31336865-C-T_chr17-31336868-T-A",
+    "var_id": "chr17-31336865-C-T",
+    "exon_number": "42.0",
+    "syn_var": "chr17-31336868-T-A",
+    "cell_line": "KBM7",
+    "authoritative_replicate_assignment": null,
+    "candidate_source_label_pairs": [
+      "E42/KBM7/R1",
+      "E42/KBM7/R2",
+      "E42/KBM7/R3"
+    ],
+    "status": "unresolved_three_way_row_assignment; no ordinal pairing assumed"
+  }
+]

@@ -1,0 +1,15 @@
+# FAS short-certificate audit
+
+This is an exploratory interpretation of already exposed, independently checked measurements. It does not change the frozen primary model, envelopes, endpoints, thresholds or graph, and is not independent biological validation.
+
+Question: what is the smallest number of forced comparisons needed to contradict the declared codon-additive score followed by a common nondecreasing response? Enumerate every positive cancellation with support size one, two or three among all primary forced comparisons. If a certificate is found, and every smaller support is excluded, its cardinality is globally minimum. Enumeration through three does not enumerate larger minimal certificates. A minimum number of comparisons is not a minimum number of genotypes or additional measurements.
+
+Input: Cycle 6 full_result_v1.json, decoded SHA256 3f34f322acc8bc9a6f6b414278d6581c458bce08f0f3bb18a3bcccee7320e466. Retain all 72 states and the original 8-column treatment-coded codon design. Forced comparisons use strict U_i<L_j. No original source outcomes or simulations are newly opened.
+
+Closest prior: the theorem of alternatives for strict linear inequalities, illustrated in Boyd and Vandenberghe, Convex Optimization (2004), Example 2.21, printed page50. Author-hosted full PDF inspected at https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf on 2026-10-25. Positive dependence and support enumeration are established mathematics. The additional result, if any, is a complete small-support audit for these specified observations and its sensitivity to the already declared anchored widening.
+
+For each certificate retain all edges, positive normalized rational weights, cancellation, involved vertices and the first loss of an edge under the existing anchored multiplicative family. Anchor46 stays fixed. With t=gamma squared and a_i in{0,1}, an edge is retained iff t < (L_j/U_i)^(2/(a_i+a_j)). All observed endpoints are positive and at least one endpoint of each edge is unanchored. The certificate persists exactly below the minimum edge threshold. This selected-support persistence is distinct from the globally verified feasibility boundary; compare, do not replace, that boundary.
+
+Use exact arithmetic. Test one-edge zero vector, two-edge opposite vectors, three-edge positive dependence, same-direction negatives and boundary equality. Independent review must check the actual support enumeration and mathematical scope before manuscript admission. Failure to find small certificates would be informative, not justification to tune the model. All results, including weaker certificates, remain available.
+
+Additional E4 decision: independent unstructured multiplicative measurement widening by gamma and recovery allowance eta with identical fixed-reference semantics composes into gamma*eta. A two-axis plot of that same product does not identify recovery or separate the mechanisms. Retire this redundant extension unless an authenticated structured recovery restriction or calibration is supplied. No such calibration is currently authenticated.

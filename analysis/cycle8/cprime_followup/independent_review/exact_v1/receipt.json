@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "checks": 6350,
+  "input_sha256": {
+    "b1": "eeeb40c167e689ae4266bbe49fdef7c8711163ca426b217adaee14f0b4a6afdf",
+    "result": "851bbf75b66dd0186d0b99d7536409773de1afdae5c3ea83c57563655d55308e",
+    "protocol": "a3acdaad3beedba8793352fe402a587850c66a92bfb6c33b7ee42ca539c1decd",
+    "derivation": "fda4f419b8f6e3b906a58bba93bad31a94dca7130f67356ea57ef63fdc8f00d6",
+    "analysis": "45f75f86ef97325ae17bcabd306504dc57f5d885e81d3244a71eb43a5870619f"
+  },
+  "reviewer_source_sha256": "d4a0edfd7d1ed037cd17fd0d95b01aa2b99fbe29203e4c467129531168b72e49",
+  "reconstruction_sha256": "17eed16928c98b6c1fb2d38299921cab508cce5d152fbc4279006f20a085aafd",
+  "synthetic_checks": {
+    "matching_graphs": 512,
+    "boundary_total_order_comparisons": 48,
+    "assignment_hand_cases": 3,
+    "touching_case": 1
+  },
+  "elapsed_seconds": 0.16065689999959432,
+  "python": "3.12.14",
+  "maximum_exact_discrepancy": "0",
+  "new_source_outcomes_read": false,
+  "review_identity": "Separately authored computational review with inherited project context; not blinded or external."
+}

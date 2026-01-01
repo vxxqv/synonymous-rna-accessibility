@@ -1,0 +1,20 @@
+{
+  "status": "SINGLE_EXPLORATORY_EXECUTION_COMPLETE_PENDING_SEPARATE_REVIEW",
+  "files_sha256": {
+    "actual_v1/invocation.json": "572ddcf00d9cf2cd39982c790d5e7766db10a6598f04b25d4083712c588cd8f4",
+    "actual_v1/progress.json": "aecd9d507da396be5f7263f1abe267e3bd0407640e4355bc23e0643d58bd3bb1",
+    "actual_v1/receipt.json": "74a141d54b7d4d0ad243b72f59775f5e8f2bdb212b780edc9494ef99009bec6a",
+    "actual_v1/result.json": "9b9726f456a0309412df34530ec03b826e70f7ac5610617142ac96cf6e827e2e",
+    "authorization.json": "f56059a7c5a95ad48556d302fefe34388ec64d0cbc91d3999ba3ab84d1f00202",
+    "freeze.json": "7b0492085b009303790fb1994d02fcfe8bf0760f48dd7eace12a78b3fac1c13e",
+    "input_addendum.md": "804d28c2b6e2625f565ed8d27e46100e6efd1bd097f4aac6eb99094e02533e3d",
+    "result_report.md": "e1f79f4c4c13ac0af2383404336085ba6db2dedafbe66849f149c88c9b17a90f",
+    "runner.py": "2a58c52ee80ea234bc1466a207ae5e4f9b020f142088721b239abcf1a5b86cc9",
+    "synthetic_receipt.json": "46763342539a0f9eb3d450a45ea865a3fe79fe30345a2b1d923f2bc56612c680",
+    "test_runner.py": "aab5088bd5b5f8a576c744c347c9541ae39acddf5398c10ec83e18a487cc40b8"
+  },
+  "frozen_code_unchanged": true,
+  "joint_cases": 60,
+  "individual_cases": 80,
+  "source_scope": "Existing selected B1 intervals only; raw phenotype workbook not opened; no other source outcomes accessed."
+}

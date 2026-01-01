@@ -1,0 +1,644 @@
+{
+  "status": "metadata_design_audit_complete",
+  "outcome_values_read": false,
+  "states": 66,
+  "groups": 30,
+  "exons": [
+    17,
+    25,
+    27,
+    39,
+    42
+  ],
+  "descriptor_alleles": 87,
+  "additive_columns": 92,
+  "additive_rank": 65,
+  "additive_residual_df": 1,
+  "all_pair_rank": 66,
+  "all_pair_columns": 158,
+  "interaction_span_gain": 1,
+  "context_ranks": {
+    "strict_shared": 65,
+    "shared_slopes_context_exon_offsets": 70,
+    "context_specific_additive": 130,
+    "context_specific_all_observed_pairs": 132
+  },
+  "context_rows": 132,
+  "by_exon": [
+    {
+      "exon": 17,
+      "states": 26,
+      "groups": 12,
+      "rank": 25,
+      "residual_df": 1
+    },
+    {
+      "exon": 25,
+      "states": 4,
+      "groups": 2,
+      "rank": 4,
+      "residual_df": 0
+    },
+    {
+      "exon": 27,
+      "states": 10,
+      "groups": 4,
+      "rank": 10,
+      "residual_df": 0
+    },
+    {
+      "exon": 39,
+      "states": 9,
+      "groups": 4,
+      "rank": 9,
+      "residual_df": 0
+    },
+    {
+      "exon": 42,
+      "states": 17,
+      "groups": 8,
+      "rank": 17,
+      "residual_df": 0
+    }
+  ],
+  "incidence_components": [
+    {
+      "alleles": [
+        "chr17-31225100-A-T",
+        "chr17-31225103-T-C",
+        "chr17-31225106-A-G",
+        "chr17-31225109-T-C",
+        "chr17-31225112-C-A",
+        "chr17-31225112-C-T"
+      ],
+      "vertices": 6,
+      "edges": 6,
+      "bipartite": true,
+      "rank": 5,
+      "color_classes": [
+        [
+          "chr17-31225100-A-T",
+          "chr17-31225112-C-A",
+          "chr17-31225112-C-T"
+        ],
+        [
+          "chr17-31225103-T-C",
+          "chr17-31225106-A-G",
+          "chr17-31225109-T-C"
+        ]
+      ]
+    },
+    {
+      "alleles": [
+        "chr17-31225133-C-T",
+        "chr17-31225136-G-C",
+        "chr17-31225136-G-T",
+        "chr17-31225142-A-C",
+        "chr17-31225142-A-G",
+        "chr17-31225145-T-C"
+      ],
+      "vertices": 6,
+      "edges": 5,
+      "bipartite": true,
+      "rank": 5,
+      "color_classes": [
+        [
+          "chr17-31225133-C-T",
+          "chr17-31225136-G-T"
+        ],
+        [
+          "chr17-31225136-G-C",
+          "chr17-31225142-A-C",
+          "chr17-31225142-A-G",
+          "chr17-31225145-T-C"
+        ]
+      ]
+    },
+    {
+      "alleles": [
+        "chr17-31225197-T-C",
+        "chr17-31225200-C-T",
+        "chr17-31225205-T-C"
+      ],
+      "vertices": 3,
+      "edges": 2,
+      "bipartite": true,
+      "rank": 2,
+      "color_classes": [
+        [
+          "chr17-31225197-T-C",
+          "chr17-31225205-T-C"
+        ],
+        [
+          "chr17-31225200-C-T"
+        ]
+      ]
+    },
+    {
+      "alleles": [
+        "chr17-31225220-T-C",
+        "chr17-31225220-T-G",
+        "chr17-31225223-C-G",
+        "chr17-31225226-G-A",
+        "chr17-31225226-G-T",
+        "chr17-31225229-G-A",
+        "chr17-31225232-A-G",
+        "chr17-31225232-A-T",
+        "chr17-31225238-G-C",
+        "chr17-31225238-G-T",
+        "chr17-31225241-C-T",
+        "chr17-31225244-C-T"
+      ],
+      "vertices": 12,
+      "edges": 11,
+      "bipartite": true,
+      "rank": 11,
+      "color_classes": [
+        [
+          "chr17-31225220-T-C",
+          "chr17-31225220-T-G",
+          "chr17-31225223-C-G",
+          "chr17-31225229-G-A",
+          "chr17-31225232-A-G",
+          "chr17-31225238-G-C",
+          "chr17-31225238-G-T"
+        ],
+        [
+          "chr17-31225226-G-A",
+          "chr17-31225226-G-T",
+          "chr17-31225232-A-T",
+          "chr17-31225241-C-T",
+          "chr17-31225244-C-T"
+        ]
+      ]
+    },
+    {
+      "alleles": [
+        "chr17-31225238-G-A",
+        "chr17-31225244-C-A",
+        "chr17-31225244-C-G"
+      ],
+      "vertices": 3,
+      "edges": 2,
+      "bipartite": true,
+      "rank": 2,
+      "color_classes": [
+        [
+          "chr17-31225238-G-A"
+        ],
+        [
+          "chr17-31225244-C-A",
+          "chr17-31225244-C-G"
+        ]
+      ]
+    },
+    {
+      "alleles": [
+        "chr17-31232142-A-G",
+        "chr17-31232145-A-T",
+        "chr17-31232154-G-C"
+      ],
+      "vertices": 3,
+      "edges": 2,
+      "bipartite": true,
+      "rank": 2,
+      "color_classes": [
+        [
+          "chr17-31232142-A-G",
+          "chr17-31232154-G-C"
+        ],
+        [
+          "chr17-31232145-A-T"
+        ]
+      ]
+    },
+    {
+      "alleles": [
+        "chr17-31232145-A-G",
+        "chr17-31232148-T-C",
+        "chr17-31232151-T-G"
+      ],
+      "vertices": 3,
+      "edges": 2,
+      "bipartite": true,
+      "rank": 2,
+      "color_classes": [
+        [
+          "chr17-31232145-A-G",
+          "chr17-31232151-T-G"
+        ],
+        [
+          "chr17-31232148-T-C"
+        ]
+      ]
+    },
+    {
+      "alleles": [
+        "chr17-31233072-A-G",
+        "chr17-31233075-C-A",
+        "chr17-31233078-A-C",
+        "chr17-31233081-A-G"
+      ],
+      "vertices": 4,
+      "edges": 3,
+      "bipartite": true,
+      "rank": 3,
+      "color_classes": [
+        [
+          "chr17-31233072-A-G"
+        ],
+        [
+          "chr17-31233075-C-A",
+          "chr17-31233078-A-C",
+          "chr17-31233081-A-G"
+        ]
+      ]
+    },
+    {
+      "alleles": [
+        "chr17-31233117-G-A",
+        "chr17-31233120-T-C",
+        "chr17-31233123-G-A"
+      ],
+      "vertices": 3,
+      "edges": 2,
+      "bipartite": true,
+      "rank": 2,
+      "color_classes": [
+        [
+          "chr17-31233117-G-A",
+          "chr17-31233120-T-C"
+        ],
+        [
+          "chr17-31233123-G-A"
+        ]
+      ]
+    },
+    {
+      "alleles": [
+        "chr17-31233117-G-C",
+        "chr17-31233126-A-G",
+        "chr17-31233129-G-A",
+        "chr17-31233132-G-C"
+      ],
+      "vertices": 4,
+      "edges": 3,
+      "bipartite": true,
+      "rank": 3,
+      "color_classes": [
+        [
+          "chr17-31233117-G-C",
+          "chr17-31233129-G-A",
+          "chr17-31233132-G-C"
+        ],
+        [
+          "chr17-31233126-A-G"
+        ]
+      ]
+    },
+    {
+      "alleles": [
+        "chr17-31233156-T-C",
+        "chr17-31233159-A-G",
+        "chr17-31233162-A-G"
+      ],
+      "vertices": 3,
+      "edges": 2,
+      "bipartite": true,
+      "rank": 2,
+      "color_classes": [
+        [
+          "chr17-31233156-T-C"
+        ],
+        [
+          "chr17-31233159-A-G",
+          "chr17-31233162-A-G"
+        ]
+      ]
+    },
+    {
+      "alleles": [
+        "chr17-31330371-A-T",
+        "chr17-31330377-T-G",
+        "chr17-31330380-A-G",
+        "chr17-31330389-T-A"
+      ],
+      "vertices": 4,
+      "edges": 3,
+      "bipartite": true,
+      "rank": 3,
+      "color_classes": [
+        [
+          "chr17-31330371-A-T",
+          "chr17-31330377-T-G",
+          "chr17-31330389-T-A"
+        ],
+        [
+          "chr17-31330380-A-G"
+        ]
+      ]
+    },
+    {
+      "alleles": [
+        "chr17-31330386-C-T",
+        "chr17-31330389-T-C",
+        "chr17-31330392-C-T"
+      ],
+      "vertices": 3,
+      "edges": 2,
+      "bipartite": true,
+      "rank": 2,
+      "color_classes": [
+        [
+          "chr17-31330386-C-T",
+          "chr17-31330389-T-C"
+        ],
+        [
+          "chr17-31330392-C-T"
+        ]
+      ]
+    },
+    {
+      "alleles": [
+        "chr17-31330392-C-A",
+        "chr17-31330395-C-T",
+        "chr17-31330401-C-A"
+      ],
+      "vertices": 3,
+      "edges": 2,
+      "bipartite": true,
+      "rank": 2,
+      "color_classes": [
+        [
+          "chr17-31330392-C-A",
+          "chr17-31330401-C-A"
+        ],
+        [
+          "chr17-31330395-C-T"
+        ]
+      ]
+    },
+    {
+      "alleles": [
+        "chr17-31330416-T-C",
+        "chr17-31330422-T-C",
+        "chr17-31330431-G-T"
+      ],
+      "vertices": 3,
+      "edges": 2,
+      "bipartite": true,
+      "rank": 2,
+      "color_classes": [
+        [
+          "chr17-31330416-T-C",
+          "chr17-31330431-G-T"
+        ],
+        [
+          "chr17-31330422-T-C"
+        ]
+      ]
+    },
+    {
+      "alleles": [
+        "chr17-31336727-T-A",
+        "chr17-31336736-C-G",
+        "chr17-31336745-G-A"
+      ],
+      "vertices": 3,
+      "edges": 2,
+      "bipartite": true,
+      "rank": 2,
+      "color_classes": [
+        [
+          "chr17-31336727-T-A",
+          "chr17-31336745-G-A"
+        ],
+        [
+          "chr17-31336736-C-G"
+        ]
+      ]
+    },
+    {
+      "alleles": [
+        "chr17-31336728-T-C",
+        "chr17-31336736-C-T",
+        "chr17-31336743-C-T"
+      ],
+      "vertices": 3,
+      "edges": 2,
+      "bipartite": true,
+      "rank": 2,
+      "color_classes": [
+        [
+          "chr17-31336728-T-C",
+          "chr17-31336743-C-T"
+        ],
+        [
+          "chr17-31336736-C-T"
+        ]
+      ]
+    },
+    {
+      "alleles": [
+        "chr17-31336733-A-C",
+        "chr17-31336733-A-T",
+        "chr17-31336736-C-A"
+      ],
+      "vertices": 3,
+      "edges": 2,
+      "bipartite": true,
+      "rank": 2,
+      "color_classes": [
+        [
+          "chr17-31336733-A-C",
+          "chr17-31336733-A-T"
+        ],
+        [
+          "chr17-31336736-C-A"
+        ]
+      ]
+    },
+    {
+      "alleles": [
+        "chr17-31336766-C-T",
+        "chr17-31336772-T-C",
+        "chr17-31336781-T-A"
+      ],
+      "vertices": 3,
+      "edges": 2,
+      "bipartite": true,
+      "rank": 2,
+      "color_classes": [
+        [
+          "chr17-31336766-C-T",
+          "chr17-31336781-T-A"
+        ],
+        [
+          "chr17-31336772-T-C"
+        ]
+      ]
+    },
+    {
+      "alleles": [
+        "chr17-31336793-C-T",
+        "chr17-31336796-C-A",
+        "chr17-31336802-C-T"
+      ],
+      "vertices": 3,
+      "edges": 2,
+      "bipartite": true,
+      "rank": 2,
+      "color_classes": [
+        [
+          "chr17-31336793-C-T",
+          "chr17-31336796-C-A"
+        ],
+        [
+          "chr17-31336802-C-T"
+        ]
+      ]
+    },
+    {
+      "alleles": [
+        "chr17-31336856-T-C",
+        "chr17-31336860-C-T",
+        "chr17-31336865-C-G",
+        "chr17-31336865-C-T",
+        "chr17-31336868-T-A"
+      ],
+      "vertices": 5,
+      "edges": 4,
+      "bipartite": true,
+      "rank": 4,
+      "color_classes": [
+        [
+          "chr17-31336856-T-C",
+          "chr17-31336860-C-T",
+          "chr17-31336868-T-A"
+        ],
+        [
+          "chr17-31336865-C-G",
+          "chr17-31336865-C-T"
+        ]
+      ]
+    },
+    {
+      "alleles": [
+        "chr17-31336862-G-C",
+        "chr17-31336865-C-A",
+        "chr17-31336871-T-C",
+        "chr17-31336874-C-A"
+      ],
+      "vertices": 4,
+      "edges": 3,
+      "bipartite": true,
+      "rank": 3,
+      "color_classes": [
+        [
+          "chr17-31336862-G-C",
+          "chr17-31336871-T-C",
+          "chr17-31336874-C-A"
+        ],
+        [
+          "chr17-31336865-C-A"
+        ]
+      ]
+    }
+  ],
+  "independent_incidence_rank": 65,
+  "rectangles": [
+    {
+      "row_indices": [
+        0,
+        1,
+        4,
+        5
+      ],
+      "ids": [
+        "chr17-31225100-A-T_chr17-31225106-A-G",
+        "chr17-31225100-A-T_chr17-31225109-T-C",
+        "chr17-31225112-C-T_chr17-31225106-A-G",
+        "chr17-31225112-C-T_chr17-31225109-T-C"
+      ],
+      "descriptor_choices": [
+        [
+          "chr17-31225100-A-T",
+          "chr17-31225112-C-T"
+        ],
+        [
+          "chr17-31225106-A-G",
+          "chr17-31225109-T-C"
+        ]
+      ],
+      "contrast_signs": [
+        1,
+        -1,
+        -1,
+        1
+      ],
+      "common_observed_start": 31225099,
+      "common_observed_end": 31225116,
+      "common_observed_covers_all_specified_changes": true,
+      "variable_coordinates": [
+        31225100,
+        31225106,
+        31225109,
+        31225112
+      ],
+      "variable_levels": [
+        [
+          "A",
+          "T"
+        ],
+        [
+          "A",
+          "G"
+        ],
+        [
+          "C",
+          "T"
+        ],
+        [
+          "C",
+          "T"
+        ]
+      ],
+      "two_site_nucleotide_factorial": false,
+      "all_unshown_context_unknown": true
+    }
+  ],
+  "descriptor_rectangles": 1,
+  "verified_two_site_common_window_factorials": 0,
+  "reference_recoding_span_equal": true,
+  "source_inputs_sha256": {
+    "eligibility": "c5c2b20e6729918219c5cf3deb757ff242241cdf53f0f635f1dc7d677282ee32",
+    "design": "cca2431ba5ae166a403a267a09944f62b4bfb81c7a39cbd4719f92fb03d6e821",
+    "assay_metadata": "4a0bf731a768b100d98cd03ee24a41474b4e6cb5924b33270cf0ae00180bb2c0",
+    "search_words": "3d3e0b4405283d748ff03c19e8cbdec639018c0270672114e8230c7d27eff814",
+    "contract": "c7ec5a1d8868758362ef3ac4878d130a89be401cb1a8e09c0ff3dc55ab7b80c2"
+  },
+  "synthetic_checks": {
+    "tree_rows": 3,
+    "tree_rank": 3,
+    "rectangle_rows": 4,
+    "rectangle_additive_rank": 3,
+    "rectangle_interaction_rank": 4,
+    "missing_corner_observations": {
+      "00": 0,
+      "10": 1,
+      "01": 1
+    },
+    "compatible_missing_values": [
+      2,
+      7
+    ],
+    "paired_context_rank_additive": 6,
+    "all_exact_checks_passed": true
+  },
+  "limits": [
+    "Recorded pair descriptors are not complete genotypes.",
+    "All context outside each counted DNA word is unknown.",
+    "Cell contexts and source rows do not imply independent preparations.",
+    "No source expression values or LP fits were read or run."
+  ]
+}

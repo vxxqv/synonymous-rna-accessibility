@@ -1,0 +1,11 @@
+{
+  "scope": "Metadata-only exact design and estimability audit. No phenotype values, source count rows or outcome missingness are read.",
+  "source_commit": "30125415304664c33370cd7801f820a345834e40",
+  "selected_units": "All 66 previously fixed local states, 30 intended-variant groups, five exons, two cell contexts.",
+  "alignment": "Parse the two source-design substitution brackets, authenticate their genomic coordinate spacing and reference/alternative bases, then require a unique exact counted DNA word in the alternative designed context. Record every observed coordinate and mark all positions outside that word as unknown.",
+  "descriptor_model": "Separate exon intercepts plus one indicator per recorded physical nonreference allele. Zero means absence from the recorded pair descriptor, not a verified wild-type base outside the counted window.",
+  "interactions": "Products for every distinct observed pair of physical allele indicators. Evaluate span gain and parameter aliases. Do not fit outcomes.",
+  "context_models": "Strict shared descriptor model; shared descriptor slopes with cell-specific exon offsets; fully context-specific descriptor model; context-specific observed-pair model.",
+  "exact_checks": ["Fraction-based row reduction", "Unsigned allele-incidence graph rank formula", "Exact left and right nullspace verification", "Column-space invariance under descriptor reference recoding", "Complete recorded-pair rectangle enumeration", "Common observed-window agreement for each rectangle", "Synthetic saturated and unsaturated examples"],
+  "interpretation": "Standard finite design rank and estimability, not a novel theorem or a full haplotype/protein claim. Any factorial contrast is conditional on the authenticated common local sequence window. No outcome test is authorized by this audit."
+}

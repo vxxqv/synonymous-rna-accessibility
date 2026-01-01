@@ -1,0 +1,107 @@
+{
+  "status": "PASS",
+  "input_sha256": {
+    "mapping.json": "a2f428f5308cb78a827bfbd23f7d7756b98980e3585f0ccf6a733859c2388436",
+    "certificates.json": "64297d0dcc537a1fd7304af4a925fcca8c01e6a9ac2e9c39af1919ba9a526534",
+    "result.json": "5e187464cb7bba26dd25fda08566dacf17ab7dbab08365a84b7a83e2c6271809"
+  },
+  "source_sha256": "0a63fcc04e60226b691aee930865fac2f27018e639c7023b51249b40d76ac447",
+  "rank_mod_prime": 65,
+  "prime": 1000003,
+  "exact_rank_lower_bound": 65,
+  "exact_rank_upper_bound_left": 65,
+  "exact_rank_upper_bound_right": 65,
+  "left_null_independence_coordinates": [
+    0
+  ],
+  "right_null_independence_coordinates": [
+    5,
+    12,
+    17,
+    20,
+    32,
+    23,
+    38,
+    36,
+    35,
+    42,
+    48,
+    46,
+    52,
+    53,
+    55,
+    62,
+    61,
+    66,
+    65,
+    72,
+    69,
+    68,
+    77,
+    82,
+    87,
+    83,
+    85
+  ],
+  "exact_null_dot_products": 1874,
+  "all_within_exon_quartets": 17667,
+  "quartets_with_common_word_covering_every_specified_change": 129,
+  "two_site_nucleotide_factorials": [],
+  "rectangle_common_words": [
+    "CTGATAGGAGTTCCTGTC",
+    "CTGATAGAAGCTCCTGTC",
+    "CAGATAGGAGTTCTTGTC",
+    "CAGATAGAAGCTCTTGTC"
+  ],
+  "rectangle_hamming_distances": [
+    [
+      0,
+      2,
+      2,
+      4
+    ],
+    [
+      2,
+      0,
+      4,
+      2
+    ],
+    [
+      2,
+      4,
+      0,
+      2
+    ],
+    [
+      4,
+      2,
+      2,
+      0
+    ]
+  ],
+  "gauge_nonidentifiable_alleles": [
+    "chr17-31225100-A-T",
+    "chr17-31225103-T-C",
+    "chr17-31225106-A-G",
+    "chr17-31225109-T-C",
+    "chr17-31225112-C-A",
+    "chr17-31225112-C-T"
+  ],
+  "scale_counterexample": {
+    "latent_additive": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "strictly_order_preserving_square_output": [
+      0,
+      1,
+      4,
+      9
+    ],
+    "output_rectangle_contrast": 4
+  },
+  "outcome_values_read": false,
+  "limit": "Independent algorithm and representation, same author and inherited project context. No blinded or separately authored biological review claimed."
+}

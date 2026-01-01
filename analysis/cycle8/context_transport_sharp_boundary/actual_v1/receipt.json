@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "result_sha256": "3477a640e9b16220498edbdf92ee7a2fd46292dc715c1fb58136344e93293afc",
+  "code_sha256": "9d52f4b0a714f18907150b420827787c5cff1b7433bd31de095a00f0744b7e11",
+  "input_manifest_sha256": "42f2977ddeadf6f562498dcdca5b5c20390161287e48b54ee83a400083c93235",
+  "protocol_sha256": "664b4eca29fbbd3bbf7d8eede14b6ce39e4a52fa651860df122d905ff981a293",
+  "seal_sha256": "e9bc84096ee646c2df82014203e799fba9b5cab4ad9dad7571e1e847a450f720",
+  "authorization_sha256": "eda5e45364ee668428a76f0fd3eed0ccb5982f5a50e865821fbfb09a2e4f2fbd"
+}

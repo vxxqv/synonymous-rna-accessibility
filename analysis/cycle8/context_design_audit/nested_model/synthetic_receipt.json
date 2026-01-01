@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "checks": 566,
+  "independent_rectangle_interval_cases": 256,
+  "strict_order_cases": 24,
+  "full_synthetic_protocol_records": 140,
+  "outcome_values_read": false,
+  "runner_sha256": "2a58c52ee80ea234bc1466a207ae5e4f9b020f142088721b239abcf1a5b86cc9",
+  "test_source_sha256": "aab5088bd5b5f8a576c744c347c9541ae39acddf5398c10ec83e18a487cc40b8",
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1"
+  },
+  "limits": "Independent finite gap-cone oracle within the same authored implementation lane. Root will separately verify observed certificates."
+}

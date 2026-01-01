@@ -1,0 +1,17 @@
+{
+  "status": "BOUNDED_SOURCE_LINEAGE_COMPLETE_PARTIAL_MAPPING_ONLY",
+  "files_sha256": {
+    "analyze_source_with_cells.py": "d978251d5f22cd469d2d1c0a25134d7a37667cc9e2e282c456add37267eb6d62",
+    "audit_lineage.py": "01b084055b2f3c2e591503407cb50dd1f0d176c8f51ef3ef22ad4093a2e7f25d",
+    "gmm_pinned_unread_outputs.ipynb": "167ef7a8d1f23d9b39167cf40f04a7fb3a99d349f400c3eb8b4def9ed953e016",
+    "gmm_retrieval.json": "8e3bd73d9d2c35789f32f706f19c62816aba6d00cd4e1b951048983d35804844",
+    "gmm_source_only.py": "ba0aba7d9a2a4cc04bd8998dc046bb7a34bf60ab0203b43bff4566ba4e945bde",
+    "labelled_library_pairs.json": "614c53b1d02310724ac1c4d0927663cb672c888e2d4611f6ba6d0532670a2280",
+    "lineage_receipt.json": "d9d2ab0171d7a9b40099d8eb322cb4f159dcd595491604990ae6b8c534c78faa",
+    "report.md": "1969481b74ca6b23145558883a7566ce93f541da74cb0f6c5f02ae2d65e5e6e5",
+    "selected_row_candidate_map.json": "7643f02188d07c7e81e1f38421f104b8c276c24d85140f6047f290e18776025c",
+    "trace_notebook_source.py": "f3479477364a50236728aa359acd4eef46091cb8b59ca74a7d6e1d369e437b1f"
+  },
+  "new_phenotype_values_read": 0,
+  "frozen_analysis_changed": false
+}

@@ -1,0 +1,32 @@
+{
+  "primary_verdict": "correct_only_after_stated_scale_domain_restriction",
+  "empirical_gate": "CLOSED_NO_AUTHENTICATED_ABSOLUTE_INTERACTION_CAP_OR_MATCHED_COMPLETE_CONTROL_CONTRACT",
+  "guard_checks": {
+    "-O": true,
+    "-OO": true,
+    "-B": true
+  },
+  "reviewed_sources": {
+    "work/research_cycle8/marker_interval_review/derivation.md": "427b698637ac49738046fb24cafae59d8913d1505ccca3a7919733f8d3a79ff3",
+    "work/research_cycle8/marker_interval_review/synthetic_checks.py": "8382bfa9243f8831cc37669ded33724825d8469988503adaedf15c3d5b8af20e",
+    "work/research_cycle8/marker_interval_review/obligation_ledger.md": "ddf5a68ca2524ea90b099b2f39b982c60a9dd271c9e15beb4fa57e9684958182",
+    "work/research_cycle8/cprime_gate/report.md": "e2e49e332f37038a19585a96c451916bfc456b83f254eec9bf66b75ed9fb13a6",
+    "work/research_cycle8/cprime_gate/measurement_contract.json": "f8114d02891cfdcd643de8e022c480aee3f7ab40d5ec1b178f093cf0310b657f",
+    "work/research_cycle8/cprime_gate/article.xml": "9583663d9c088aa9759944c0ad4a0e4e12cccf57d092a89b336b5c8ae86d0049",
+    "work/research_cycle8/cprime_gate/methods_and_availability.txt": "4c91042aeca3e75c22dbe0c6f17cc474c9651e009ea2d3593ca11dbcf880c8d5",
+    "work/research_cycle8/cprime_gate/marker_context_primary.txt": "360abe3f61ec1b25f98a4aca77879dd5f39e9ba4297fbf7abc760983dc712c16",
+    "work/research_cycle8/context_design_audit/exact_v1/mapping.json": "a2f428f5308cb78a827bfbd23f7d7756b98980e3585f0ccf6a733859c2388436",
+    "work/research_cycle8/expansion_plan_extracted.txt": "4f4821f0b8104b98cb0f47cdd8bd5edaa6b8c37e80f953265bc69710dc6aaa68"
+  },
+  "owned_files": {
+    "guard_B.log": "b54387ea8d889f1e8e12c04605c7f796ee29629b42d495e07599b703d601a592",
+    "guard_O.log": "fb10b166df271d6f9a061e4756cce2180aa1508d36eaeafb30582648284ab765",
+    "guard_OO.log": "fb10b166df271d6f9a061e4756cce2180aa1508d36eaeafb30582648284ab765",
+    "independent_checks.py": "2fead6d339576d0b57adb553fb5eda5ffdbfc1b3de1733b6ac209660a5d34a18",
+    "metadata_receipt.json": "78c1d7a98744d8c5fb98fa649e0672a1887b4c948a4411850c701b40d664c9b2",
+    "plugin_discovery.json": "980dfb2d8c8fd715db768a4f599c3058db01d921f4cc42e2dee1fc00e16f5438",
+    "primary_sources.json": "0099e8340cc40790753bcc9592fd3325afd9ea6c3b6043f1bb0501cde757a3ae",
+    "receipt.json": "87a81f55c2d02f287a3f93f3c2a3c8a64d6ea3aaca3fd775041af2e1053effd7",
+    "review.md": "459ad84772fcae10d0966f6215c89a08b09c4e2d850650daa8f6729f153f7de1"
+  }
+}

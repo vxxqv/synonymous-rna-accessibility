@@ -1,0 +1,9 @@
+{
+  "files": {
+    "all_group_profiles.csv": "cabb717d23642c3668b72e62164ea75fe1fbba1c5a0b786b39832ae6789f3301",
+    "result.json": "851bbf75b66dd0186d0b99d7536409773de1afdae5c3ea83c57563655d55308e"
+  },
+  "source_sha256": "eeeb40c167e689ae4266bbe49fdef7c8711163ca426b217adaee14f0b4a6afdf",
+  "code_sha256": "45f75f86ef97325ae17bcabd306504dc57f5d885e81d3244a71eb43a5870619f",
+  "protocol_sha256": "a3acdaad3beedba8793352fe402a587850c66a92bfb6c33b7ee42ca539c1decd"
+}

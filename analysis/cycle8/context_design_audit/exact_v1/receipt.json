@@ -1,0 +1,19 @@
+{
+  "source_sha256": "563117aa19d4fea9fa916a12d636822dda9d527b54637e3f7cac538d2554d813",
+  "input_sha256": {
+    "eligibility": "c5c2b20e6729918219c5cf3deb757ff242241cdf53f0f635f1dc7d677282ee32",
+    "design": "cca2431ba5ae166a403a267a09944f62b4bfb81c7a39cbd4719f92fb03d6e821",
+    "assay_metadata": "4a0bf731a768b100d98cd03ee24a41474b4e6cb5924b33270cf0ae00180bb2c0",
+    "search_words": "3d3e0b4405283d748ff03c19e8cbdec639018c0270672114e8230c7d27eff814",
+    "contract": "c7ec5a1d8868758362ef3ac4878d130a89be401cb1a8e09c0ff3dc55ab7b80c2"
+  },
+  "outputs_sha256": {
+    "mapping.json": "a2f428f5308cb78a827bfbd23f7d7756b98980e3585f0ccf6a733859c2388436",
+    "certificates.json": "64297d0dcc537a1fd7304af4a925fcca8c01e6a9ac2e9c39af1919ba9a526534",
+    "result.json": "5e187464cb7bba26dd25fda08566dacf17ab7dbab08365a84b7a83e2c6271809"
+  },
+  "python": "3.12.14",
+  "runtime_seconds": 1.3456820999854244,
+  "all_exact_checks_passed": true,
+  "outcomes_read": false
+}

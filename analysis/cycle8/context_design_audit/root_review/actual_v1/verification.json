@@ -1,0 +1,1034 @@
+{
+  "status": "PASS_SEPARATE_EXACT_CERTIFICATE_AND_DESIGN_RECONSTRUCTION",
+  "input_hashes": {
+    "map": "a2f428f5308cb78a827bfbd23f7d7756b98980e3585f0ccf6a733859c2388436",
+    "matrix": "665c4d0586310d09868b07f01163875e82708c3441201ab7757d7c897b3ab874",
+    "certificates": "64297d0dcc537a1fd7304af4a925fcca8c01e6a9ac2e9c39af1919ba9a526534",
+    "result": "9b9726f456a0309412df34530ec03b826e70f7ac5610617142ac96cf6e827e2e",
+    "source": "eeeb40c167e689ae4266bbe49fdef7c8711163ca426b217adaee14f0b4a6afdf"
+  },
+  "rank": 65,
+  "per_exon_rank": {
+    "17": 25,
+    "25": 4,
+    "27": 10,
+    "39": 9,
+    "42": 17
+  },
+  "left_null_support_ids": [
+    "chr17-31225100-A-T_chr17-31225106-A-G",
+    "chr17-31225100-A-T_chr17-31225109-T-C",
+    "chr17-31225112-C-T_chr17-31225106-A-G",
+    "chr17-31225112-C-T_chr17-31225109-T-C"
+  ],
+  "parameter_nullity": 27,
+  "matrix_entries_checked": 78144,
+  "cases": 140,
+  "forced_pairs_checked": 4360,
+  "feasible_response_values_checked": 2568,
+  "dual_rows_checked": 4,
+  "status_counts": {
+    "infeasible": 2,
+    "feasible": 138
+  },
+  "infeasible_cases": [
+    {
+      "gamma": "1",
+      "exon": 17,
+      "model": "strict_shared",
+      "arm": "both",
+      "status": "infeasible"
+    },
+    {
+      "gamma": "1",
+      "exon": 27,
+      "model": "strict_shared",
+      "arm": "both",
+      "status": "infeasible"
+    }
+  ],
+  "all_classifications": [
+    {
+      "gamma": "1",
+      "exon": 17,
+      "model": "strict_shared",
+      "arm": "both",
+      "status": "infeasible"
+    },
+    {
+      "gamma": "1",
+      "exon": 17,
+      "model": "context_specific_additive",
+      "arm": "both",
+      "status": "feasible"
+    },
+    {
+      "gamma": "1",
+      "exon": 17,
+      "model": "context_specific_additive",
+      "arm": "K562",
+      "status": "feasible"
+    },
+    {
+      "gamma": "1",
+      "exon": 17,
+      "model": "context_specific_additive",
+      "arm": "KBM7",
+      "status": "feasible"
+    },
+    {
+      "gamma": "1",
+      "exon": 17,
+      "model": "context_specific_all_observed_pairs",
+      "arm": "both",
+      "status": "feasible"
+    },
+    {
+      "gamma": "1",
+      "exon": 17,
+      "model": "context_specific_all_observed_pairs",
+      "arm": "K562",
+      "status": "feasible"
+    },
+    {
+      "gamma": "1",
+      "exon": 17,
+      "model": "context_specific_all_observed_pairs",
+      "arm": "KBM7",
+      "status": "feasible"
+    },
+    {
+      "gamma": "1",
+      "exon": 25,
+      "model": "strict_shared",
+      "arm": "both",
+      "status": "feasible"
+    },
+    {
+      "gamma": "1",
+      "exon": 25,
+      "model": "context_specific_additive",
+      "arm": "both",
+      "status": "feasible"
+    },
+    {
+      "gamma": "1",
+      "exon": 25,
+      "model": "context_specific_additive",
+      "arm": "K562",
+      "status": "feasible"
+    },
+    {
+      "gamma": "1",
+      "exon": 25,
+      "model": "context_specific_additive",
+      "arm": "KBM7",
+      "status": "feasible"
+    },
+    {
+      "gamma": "1",
+      "exon": 25,
+      "model": "context_specific_all_observed_pairs",
+      "arm": "both",
+      "status": "feasible"
+    },
+    {
+      "gamma": "1",
+      "exon": 25,
+      "model": "context_specific_all_observed_pairs",
+      "arm": "K562",
+      "status": "feasible"
+    },
+    {
+      "gamma": "1",
+      "exon": 25,
+      "model": "context_specific_all_observed_pairs",
+      "arm": "KBM7",
+      "status": "feasible"
+    },
+    {
+      "gamma": "1",
+      "exon": 27,
+      "model": "strict_shared",
+      "arm": "both",
+      "status": "infeasible"
+    },
+    {
+      "gamma": "1",
+      "exon": 27,
+      "model": "context_specific_additive",
+      "arm": "both",
+      "status": "feasible"
+    },
+    {
+      "gamma": "1",
+      "exon": 27,
+      "model": "context_specific_additive",
+      "arm": "K562",
+      "status": "feasible"
+    },
+    {
+      "gamma": "1",
+      "exon": 27,
+      "model": "context_specific_additive",
+      "arm": "KBM7",
+      "status": "feasible"
+    },
+    {
+      "gamma": "1",
+      "exon": 27,
+      "model": "context_specific_all_observed_pairs",
+      "arm": "both",
+      "status": "feasible"
+    },
+    {
+      "gamma": "1",
+      "exon": 27,
+      "model": "context_specific_all_observed_pairs",
+      "arm": "K562",
+      "status": "feasible"
+    },
+    {
+      "gamma": "1",
+      "exon": 27,
+      "model": "context_specific_all_observed_pairs",
+      "arm": "KBM7",
+      "status": "feasible"
+    },
+    {
+      "gamma": "1",
+      "exon": 39,
+      "model": "strict_shared",
+      "arm": "both",
+      "status": "feasible"
+    },
+    {
+      "gamma": "1",
+      "exon": 39,
+      "model": "context_specific_additive",
+      "arm": "both",
+      "status": "feasible"
+    },
+    {
+      "gamma": "1",
+      "exon": 39,
+      "model": "context_specific_additive",
+      "arm": "K562",
+      "status": "feasible"
+    },
+    {
+      "gamma": "1",
+      "exon": 39,
+      "model": "context_specific_additive",
+      "arm": "KBM7",
+      "status": "feasible"
+    },
+    {
+      "gamma": "1",
+      "exon": 39,
+      "model": "context_specific_all_observed_pairs",
+      "arm": "both",
+      "status": "feasible"
+    },
+    {
+      "gamma": "1",
+      "exon": 39,
+      "model": "context_specific_all_observed_pairs",
+      "arm": "K562",
+      "status": "feasible"
+    },
+    {
+      "gamma": "1",
+      "exon": 39,
+      "model": "context_specific_all_observed_pairs",
+      "arm": "KBM7",
+      "status": "feasible"
+    },
+    {
+      "gamma": "1",
+      "exon": 42,
+      "model": "strict_shared",
+      "arm": "both",
+      "status": "feasible"
+    },
+    {
+      "gamma": "1",
+      "exon": 42,
+      "model": "context_specific_additive",
+      "arm": "both",
+      "status": "feasible"
+    },
+    {
+      "gamma": "1",
+      "exon": 42,
+      "model": "context_specific_additive",
+      "arm": "K562",
+      "status": "feasible"
+    },
+    {
+      "gamma": "1",
+      "exon": 42,
+      "model": "context_specific_additive",
+      "arm": "KBM7",
+      "status": "feasible"
+    },
+    {
+      "gamma": "1",
+      "exon": 42,
+      "model": "context_specific_all_observed_pairs",
+      "arm": "both",
+      "status": "feasible"
+    },
+    {
+      "gamma": "1",
+      "exon": 42,
+      "model": "context_specific_all_observed_pairs",
+      "arm": "K562",
+      "status": "feasible"
+    },
+    {
+      "gamma": "1",
+      "exon": 42,
+      "model": "context_specific_all_observed_pairs",
+      "arm": "KBM7",
+      "status": "feasible"
+    },
+    {
+      "gamma": "5/4",
+      "exon": 17,
+      "model": "strict_shared",
+      "arm": "both",
+      "status": "feasible"
+    },
+    {
+      "gamma": "5/4",
+      "exon": 17,
+      "model": "context_specific_additive",
+      "arm": "both",
+      "status": "feasible"
+    },
+    {
+      "gamma": "5/4",
+      "exon": 17,
+      "model": "context_specific_additive",
+      "arm": "K562",
+      "status": "feasible"
+    },
+    {
+      "gamma": "5/4",
+      "exon": 17,
+      "model": "context_specific_additive",
+      "arm": "KBM7",
+      "status": "feasible"
+    },
+    {
+      "gamma": "5/4",
+      "exon": 17,
+      "model": "context_specific_all_observed_pairs",
+      "arm": "both",
+      "status": "feasible"
+    },
+    {
+      "gamma": "5/4",
+      "exon": 17,
+      "model": "context_specific_all_observed_pairs",
+      "arm": "K562",
+      "status": "feasible"
+    },
+    {
+      "gamma": "5/4",
+      "exon": 17,
+      "model": "context_specific_all_observed_pairs",
+      "arm": "KBM7",
+      "status": "feasible"
+    },
+    {
+      "gamma": "5/4",
+      "exon": 25,
+      "model": "strict_shared",
+      "arm": "both",
+      "status": "feasible"
+    },
+    {
+      "gamma": "5/4",
+      "exon": 25,
+      "model": "context_specific_additive",
+      "arm": "both",
+      "status": "feasible"
+    },
+    {
+      "gamma": "5/4",
+      "exon": 25,
+      "model": "context_specific_additive",
+      "arm": "K562",
+      "status": "feasible"
+    },
+    {
+      "gamma": "5/4",
+      "exon": 25,
+      "model": "context_specific_additive",
+      "arm": "KBM7",
+      "status": "feasible"
+    },
+    {
+      "gamma": "5/4",
+      "exon": 25,
+      "model": "context_specific_all_observed_pairs",
+      "arm": "both",
+      "status": "feasible"
+    },
+    {
+      "gamma": "5/4",
+      "exon": 25,
+      "model": "context_specific_all_observed_pairs",
+      "arm": "K562",
+      "status": "feasible"
+    },
+    {
+      "gamma": "5/4",
+      "exon": 25,
+      "model": "context_specific_all_observed_pairs",
+      "arm": "KBM7",
+      "status": "feasible"
+    },
+    {
+      "gamma": "5/4",
+      "exon": 27,
+      "model": "strict_shared",
+      "arm": "both",
+      "status": "feasible"
+    },
+    {
+      "gamma": "5/4",
+      "exon": 27,
+      "model": "context_specific_additive",
+      "arm": "both",
+      "status": "feasible"
+    },
+    {
+      "gamma": "5/4",
+      "exon": 27,
+      "model": "context_specific_additive",
+      "arm": "K562",
+      "status": "feasible"
+    },
+    {
+      "gamma": "5/4",
+      "exon": 27,
+      "model": "context_specific_additive",
+      "arm": "KBM7",
+      "status": "feasible"
+    },
+    {
+      "gamma": "5/4",
+      "exon": 27,
+      "model": "context_specific_all_observed_pairs",
+      "arm": "both",
+      "status": "feasible"
+    },
+    {
+      "gamma": "5/4",
+      "exon": 27,
+      "model": "context_specific_all_observed_pairs",
+      "arm": "K562",
+      "status": "feasible"
+    },
+    {
+      "gamma": "5/4",
+      "exon": 27,
+      "model": "context_specific_all_observed_pairs",
+      "arm": "KBM7",
+      "status": "feasible"
+    },
+    {
+      "gamma": "5/4",
+      "exon": 39,
+      "model": "strict_shared",
+      "arm": "both",
+      "status": "feasible"
+    },
+    {
+      "gamma": "5/4",
+      "exon": 39,
+      "model": "context_specific_additive",
+      "arm": "both",
+      "status": "feasible"
+    },
+    {
+      "gamma": "5/4",
+      "exon": 39,
+      "model": "context_specific_additive",
+      "arm": "K562",
+      "status": "feasible"
+    },
+    {
+      "gamma": "5/4",
+      "exon": 39,
+      "model": "context_specific_additive",
+      "arm": "KBM7",
+      "status": "feasible"
+    },
+    {
+      "gamma": "5/4",
+      "exon": 39,
+      "model": "context_specific_all_observed_pairs",
+      "arm": "both",
+      "status": "feasible"
+    },
+    {
+      "gamma": "5/4",
+      "exon": 39,
+      "model": "context_specific_all_observed_pairs",
+      "arm": "K562",
+      "status": "feasible"
+    },
+    {
+      "gamma": "5/4",
+      "exon": 39,
+      "model": "context_specific_all_observed_pairs",
+      "arm": "KBM7",
+      "status": "feasible"
+    },
+    {
+      "gamma": "5/4",
+      "exon": 42,
+      "model": "strict_shared",
+      "arm": "both",
+      "status": "feasible"
+    },
+    {
+      "gamma": "5/4",
+      "exon": 42,
+      "model": "context_specific_additive",
+      "arm": "both",
+      "status": "feasible"
+    },
+    {
+      "gamma": "5/4",
+      "exon": 42,
+      "model": "context_specific_additive",
+      "arm": "K562",
+      "status": "feasible"
+    },
+    {
+      "gamma": "5/4",
+      "exon": 42,
+      "model": "context_specific_additive",
+      "arm": "KBM7",
+      "status": "feasible"
+    },
+    {
+      "gamma": "5/4",
+      "exon": 42,
+      "model": "context_specific_all_observed_pairs",
+      "arm": "both",
+      "status": "feasible"
+    },
+    {
+      "gamma": "5/4",
+      "exon": 42,
+      "model": "context_specific_all_observed_pairs",
+      "arm": "K562",
+      "status": "feasible"
+    },
+    {
+      "gamma": "5/4",
+      "exon": 42,
+      "model": "context_specific_all_observed_pairs",
+      "arm": "KBM7",
+      "status": "feasible"
+    },
+    {
+      "gamma": "3/2",
+      "exon": 17,
+      "model": "strict_shared",
+      "arm": "both",
+      "status": "feasible"
+    },
+    {
+      "gamma": "3/2",
+      "exon": 17,
+      "model": "context_specific_additive",
+      "arm": "both",
+      "status": "feasible"
+    },
+    {
+      "gamma": "3/2",
+      "exon": 17,
+      "model": "context_specific_additive",
+      "arm": "K562",
+      "status": "feasible"
+    },
+    {
+      "gamma": "3/2",
+      "exon": 17,
+      "model": "context_specific_additive",
+      "arm": "KBM7",
+      "status": "feasible"
+    },
+    {
+      "gamma": "3/2",
+      "exon": 17,
+      "model": "context_specific_all_observed_pairs",
+      "arm": "both",
+      "status": "feasible"
+    },
+    {
+      "gamma": "3/2",
+      "exon": 17,
+      "model": "context_specific_all_observed_pairs",
+      "arm": "K562",
+      "status": "feasible"
+    },
+    {
+      "gamma": "3/2",
+      "exon": 17,
+      "model": "context_specific_all_observed_pairs",
+      "arm": "KBM7",
+      "status": "feasible"
+    },
+    {
+      "gamma": "3/2",
+      "exon": 25,
+      "model": "strict_shared",
+      "arm": "both",
+      "status": "feasible"
+    },
+    {
+      "gamma": "3/2",
+      "exon": 25,
+      "model": "context_specific_additive",
+      "arm": "both",
+      "status": "feasible"
+    },
+    {
+      "gamma": "3/2",
+      "exon": 25,
+      "model": "context_specific_additive",
+      "arm": "K562",
+      "status": "feasible"
+    },
+    {
+      "gamma": "3/2",
+      "exon": 25,
+      "model": "context_specific_additive",
+      "arm": "KBM7",
+      "status": "feasible"
+    },
+    {
+      "gamma": "3/2",
+      "exon": 25,
+      "model": "context_specific_all_observed_pairs",
+      "arm": "both",
+      "status": "feasible"
+    },
+    {
+      "gamma": "3/2",
+      "exon": 25,
+      "model": "context_specific_all_observed_pairs",
+      "arm": "K562",
+      "status": "feasible"
+    },
+    {
+      "gamma": "3/2",
+      "exon": 25,
+      "model": "context_specific_all_observed_pairs",
+      "arm": "KBM7",
+      "status": "feasible"
+    },
+    {
+      "gamma": "3/2",
+      "exon": 27,
+      "model": "strict_shared",
+      "arm": "both",
+      "status": "feasible"
+    },
+    {
+      "gamma": "3/2",
+      "exon": 27,
+      "model": "context_specific_additive",
+      "arm": "both",
+      "status": "feasible"
+    },
+    {
+      "gamma": "3/2",
+      "exon": 27,
+      "model": "context_specific_additive",
+      "arm": "K562",
+      "status": "feasible"
+    },
+    {
+      "gamma": "3/2",
+      "exon": 27,
+      "model": "context_specific_additive",
+      "arm": "KBM7",
+      "status": "feasible"
+    },
+    {
+      "gamma": "3/2",
+      "exon": 27,
+      "model": "context_specific_all_observed_pairs",
+      "arm": "both",
+      "status": "feasible"
+    },
+    {
+      "gamma": "3/2",
+      "exon": 27,
+      "model": "context_specific_all_observed_pairs",
+      "arm": "K562",
+      "status": "feasible"
+    },
+    {
+      "gamma": "3/2",
+      "exon": 27,
+      "model": "context_specific_all_observed_pairs",
+      "arm": "KBM7",
+      "status": "feasible"
+    },
+    {
+      "gamma": "3/2",
+      "exon": 39,
+      "model": "strict_shared",
+      "arm": "both",
+      "status": "feasible"
+    },
+    {
+      "gamma": "3/2",
+      "exon": 39,
+      "model": "context_specific_additive",
+      "arm": "both",
+      "status": "feasible"
+    },
+    {
+      "gamma": "3/2",
+      "exon": 39,
+      "model": "context_specific_additive",
+      "arm": "K562",
+      "status": "feasible"
+    },
+    {
+      "gamma": "3/2",
+      "exon": 39,
+      "model": "context_specific_additive",
+      "arm": "KBM7",
+      "status": "feasible"
+    },
+    {
+      "gamma": "3/2",
+      "exon": 39,
+      "model": "context_specific_all_observed_pairs",
+      "arm": "both",
+      "status": "feasible"
+    },
+    {
+      "gamma": "3/2",
+      "exon": 39,
+      "model": "context_specific_all_observed_pairs",
+      "arm": "K562",
+      "status": "feasible"
+    },
+    {
+      "gamma": "3/2",
+      "exon": 39,
+      "model": "context_specific_all_observed_pairs",
+      "arm": "KBM7",
+      "status": "feasible"
+    },
+    {
+      "gamma": "3/2",
+      "exon": 42,
+      "model": "strict_shared",
+      "arm": "both",
+      "status": "feasible"
+    },
+    {
+      "gamma": "3/2",
+      "exon": 42,
+      "model": "context_specific_additive",
+      "arm": "both",
+      "status": "feasible"
+    },
+    {
+      "gamma": "3/2",
+      "exon": 42,
+      "model": "context_specific_additive",
+      "arm": "K562",
+      "status": "feasible"
+    },
+    {
+      "gamma": "3/2",
+      "exon": 42,
+      "model": "context_specific_additive",
+      "arm": "KBM7",
+      "status": "feasible"
+    },
+    {
+      "gamma": "3/2",
+      "exon": 42,
+      "model": "context_specific_all_observed_pairs",
+      "arm": "both",
+      "status": "feasible"
+    },
+    {
+      "gamma": "3/2",
+      "exon": 42,
+      "model": "context_specific_all_observed_pairs",
+      "arm": "K562",
+      "status": "feasible"
+    },
+    {
+      "gamma": "3/2",
+      "exon": 42,
+      "model": "context_specific_all_observed_pairs",
+      "arm": "KBM7",
+      "status": "feasible"
+    },
+    {
+      "gamma": "2",
+      "exon": 17,
+      "model": "strict_shared",
+      "arm": "both",
+      "status": "feasible"
+    },
+    {
+      "gamma": "2",
+      "exon": 17,
+      "model": "context_specific_additive",
+      "arm": "both",
+      "status": "feasible"
+    },
+    {
+      "gamma": "2",
+      "exon": 17,
+      "model": "context_specific_additive",
+      "arm": "K562",
+      "status": "feasible"
+    },
+    {
+      "gamma": "2",
+      "exon": 17,
+      "model": "context_specific_additive",
+      "arm": "KBM7",
+      "status": "feasible"
+    },
+    {
+      "gamma": "2",
+      "exon": 17,
+      "model": "context_specific_all_observed_pairs",
+      "arm": "both",
+      "status": "feasible"
+    },
+    {
+      "gamma": "2",
+      "exon": 17,
+      "model": "context_specific_all_observed_pairs",
+      "arm": "K562",
+      "status": "feasible"
+    },
+    {
+      "gamma": "2",
+      "exon": 17,
+      "model": "context_specific_all_observed_pairs",
+      "arm": "KBM7",
+      "status": "feasible"
+    },
+    {
+      "gamma": "2",
+      "exon": 25,
+      "model": "strict_shared",
+      "arm": "both",
+      "status": "feasible"
+    },
+    {
+      "gamma": "2",
+      "exon": 25,
+      "model": "context_specific_additive",
+      "arm": "both",
+      "status": "feasible"
+    },
+    {
+      "gamma": "2",
+      "exon": 25,
+      "model": "context_specific_additive",
+      "arm": "K562",
+      "status": "feasible"
+    },
+    {
+      "gamma": "2",
+      "exon": 25,
+      "model": "context_specific_additive",
+      "arm": "KBM7",
+      "status": "feasible"
+    },
+    {
+      "gamma": "2",
+      "exon": 25,
+      "model": "context_specific_all_observed_pairs",
+      "arm": "both",
+      "status": "feasible"
+    },
+    {
+      "gamma": "2",
+      "exon": 25,
+      "model": "context_specific_all_observed_pairs",
+      "arm": "K562",
+      "status": "feasible"
+    },
+    {
+      "gamma": "2",
+      "exon": 25,
+      "model": "context_specific_all_observed_pairs",
+      "arm": "KBM7",
+      "status": "feasible"
+    },
+    {
+      "gamma": "2",
+      "exon": 27,
+      "model": "strict_shared",
+      "arm": "both",
+      "status": "feasible"
+    },
+    {
+      "gamma": "2",
+      "exon": 27,
+      "model": "context_specific_additive",
+      "arm": "both",
+      "status": "feasible"
+    },
+    {
+      "gamma": "2",
+      "exon": 27,
+      "model": "context_specific_additive",
+      "arm": "K562",
+      "status": "feasible"
+    },
+    {
+      "gamma": "2",
+      "exon": 27,
+      "model": "context_specific_additive",
+      "arm": "KBM7",
+      "status": "feasible"
+    },
+    {
+      "gamma": "2",
+      "exon": 27,
+      "model": "context_specific_all_observed_pairs",
+      "arm": "both",
+      "status": "feasible"
+    },
+    {
+      "gamma": "2",
+      "exon": 27,
+      "model": "context_specific_all_observed_pairs",
+      "arm": "K562",
+      "status": "feasible"
+    },
+    {
+      "gamma": "2",
+      "exon": 27,
+      "model": "context_specific_all_observed_pairs",
+      "arm": "KBM7",
+      "status": "feasible"
+    },
+    {
+      "gamma": "2",
+      "exon": 39,
+      "model": "strict_shared",
+      "arm": "both",
+      "status": "feasible"
+    },
+    {
+      "gamma": "2",
+      "exon": 39,
+      "model": "context_specific_additive",
+      "arm": "both",
+      "status": "feasible"
+    },
+    {
+      "gamma": "2",
+      "exon": 39,
+      "model": "context_specific_additive",
+      "arm": "K562",
+      "status": "feasible"
+    },
+    {
+      "gamma": "2",
+      "exon": 39,
+      "model": "context_specific_additive",
+      "arm": "KBM7",
+      "status": "feasible"
+    },
+    {
+      "gamma": "2",
+      "exon": 39,
+      "model": "context_specific_all_observed_pairs",
+      "arm": "both",
+      "status": "feasible"
+    },
+    {
+      "gamma": "2",
+      "exon": 39,
+      "model": "context_specific_all_observed_pairs",
+      "arm": "K562",
+      "status": "feasible"
+    },
+    {
+      "gamma": "2",
+      "exon": 39,
+      "model": "context_specific_all_observed_pairs",
+      "arm": "KBM7",
+      "status": "feasible"
+    },
+    {
+      "gamma": "2",
+      "exon": 42,
+      "model": "strict_shared",
+      "arm": "both",
+      "status": "feasible"
+    },
+    {
+      "gamma": "2",
+      "exon": 42,
+      "model": "context_specific_additive",
+      "arm": "both",
+      "status": "feasible"
+    },
+    {
+      "gamma": "2",
+      "exon": 42,
+      "model": "context_specific_additive",
+      "arm": "K562",
+      "status": "feasible"
+    },
+    {
+      "gamma": "2",
+      "exon": 42,
+      "model": "context_specific_additive",
+      "arm": "KBM7",
+      "status": "feasible"
+    },
+    {
+      "gamma": "2",
+      "exon": 42,
+      "model": "context_specific_all_observed_pairs",
+      "arm": "both",
+      "status": "feasible"
+    },
+    {
+      "gamma": "2",
+      "exon": 42,
+      "model": "context_specific_all_observed_pairs",
+      "arm": "K562",
+      "status": "feasible"
+    },
+    {
+      "gamma": "2",
+      "exon": 42,
+      "model": "context_specific_all_observed_pairs",
+      "arm": "KBM7",
+      "status": "feasible"
+    }
+  ],
+  "checker_sha256": "f768ce2028f1becf02bab216d23b990745f41b54762204090946d870b49a2408",
+  "limits": "Checks pinned local-word mapping and certificates with independent matrix construction and SymPy rank, without refitting. Not independent source extraction, biological replication, calibration or full-haplotype authentication."
+}

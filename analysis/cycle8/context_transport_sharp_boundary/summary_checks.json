@@ -1,0 +1,66 @@
+{
+  "status": "passed",
+  "records": [
+    {
+      "exon": 17,
+      "M0_t": "93879593957252713537248224332/75376766187456267816510953587",
+      "arbitrary_t": "93879593957252713537248224332/75376766187456267816510953587",
+      "same_boundary": true,
+      "gamma_bracket": [
+        "1.116006825003",
+        "1.116006825004"
+      ],
+      "strict_forced_constraints": 171
+    },
+    {
+      "exon": 25,
+      "M0_t": "1",
+      "arbitrary_t": "1",
+      "same_boundary": true,
+      "gamma_bracket": [
+        "1",
+        "1.000000000001"
+      ],
+      "strict_forced_constraints": 2
+    },
+    {
+      "exon": 27,
+      "M0_t": "2231614986674747133934520244/2018200771857116191904050067",
+      "arbitrary_t": "2231614986674747133934520244/2018200771857116191904050067",
+      "same_boundary": true,
+      "gamma_bracket": [
+        "1.051544002416",
+        "1.051544002417"
+      ],
+      "strict_forced_constraints": 21
+    },
+    {
+      "exon": 39,
+      "M0_t": "1",
+      "arbitrary_t": "1",
+      "same_boundary": true,
+      "gamma_bracket": [
+        "1",
+        "1.000000000001"
+      ],
+      "strict_forced_constraints": 25
+    },
+    {
+      "exon": 42,
+      "M0_t": "1",
+      "arbitrary_t": "1",
+      "same_boundary": true,
+      "gamma_bracket": [
+        "1",
+        "1.000000000001"
+      ],
+      "strict_forced_constraints": 103
+    }
+  ],
+  "all_five_equal": true,
+  "optimizer_calls": 1,
+  "source_workbook_opened": false,
+  "outcome_scope": "B1/D1 and B exact-boundary saved results already exposed; no source acquisition or source workbook. B1 values outside the interval/identity whitelist skipped by the held parser. Boundary result and historical D1 JSON decoded in full, but only exon boundary records and declared old witness records used. Unused group/assignment and other model fields were already exposed; no new analysis of them occurred.",
+  "report_sha256": "b55c3c4ac971e137983db6298de9217c4b3405322196783a869e4b9e2e69a8b0",
+  "result_sha256": "3477a640e9b16220498edbdf92ee7a2fd46292dc715c1fb58136344e93293afc"
+}

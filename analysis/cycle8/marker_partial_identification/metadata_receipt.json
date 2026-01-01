@@ -1,0 +1,15 @@
+{
+  "status": "metadata_only",
+  "mapping_sha256": "a2f428f5308cb78a827bfbd23f7d7756b98980e3585f0ccf6a733859c2388436",
+  "states": 66,
+  "declared_local_physical_allele_counts": {
+    "0": 0,
+    "1": 0,
+    "2": 66,
+    "3": 0
+  },
+  "single_allele_or_WT_states_present": false,
+  "full_haplotype_claim": false,
+  "outcome_values_read": false,
+  "boundary": "Only pre-existing mapping ID, exon and allele descriptors inspected; no B1 intervals or phenotype tables opened."
+}

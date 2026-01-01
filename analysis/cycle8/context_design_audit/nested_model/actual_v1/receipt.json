@@ -1,0 +1,17 @@
+{
+  "status": "COMPLETE_EXPLORATORY_CERTIFIED_AUDIT",
+  "result_sha256": "9b9726f456a0309412df34530ec03b826e70f7ac5610617142ac96cf6e827e2e",
+  "freeze_sha256": "7b0492085b009303790fb1994d02fcfe8bf0760f48dd7eace12a78b3fac1c13e",
+  "input_sha256": {
+    "b1": "eeeb40c167e689ae4266bbe49fdef7c8711163ca426b217adaee14f0b4a6afdf",
+    "matrices": "665c4d0586310d09868b07f01163875e82708c3441201ab7757d7c897b3ab874",
+    "mapping": "a2f428f5308cb78a827bfbd23f7d7756b98980e3585f0ccf6a733859c2388436"
+  },
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1"
+  },
+  "elapsed_seconds": 9.457548599981237,
+  "scope": "Exploratory reuse of exposed local-state proxy intervals. Recorded descriptors, not complete haplotypes. No individual interaction identification, calibrated confidence, causal attribution or new validation."
+}

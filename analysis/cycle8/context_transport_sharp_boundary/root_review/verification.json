@@ -1,0 +1,54 @@
+{
+  "status": "PASS_INDEPENDENT_EXACT_BOUNDARY_CERTIFICATES",
+  "pins": {
+    "result": "3477a640e9b16220498edbdf92ee7a2fd46292dc715c1fb58136344e93293afc",
+    "mapping": "a2f428f5308cb78a827bfbd23f7d7756b98980e3585f0ccf6a733859c2388436",
+    "source": "eeeb40c167e689ae4266bbe49fdef7c8711163ca426b217adaee14f0b4a6afdf"
+  },
+  "counts": {
+    "primal_cases": 10,
+    "forced_comparisons": 724,
+    "responses": 264,
+    "isotonic_checks": 3029,
+    "cycle_edges": 4
+  },
+  "conclusions": [
+    {
+      "exon": 17,
+      "t": "93879593957252713537248224332/75376766187456267816510953587",
+      "rank": 25,
+      "local_states": 26,
+      "same_as_arbitrary_order": true
+    },
+    {
+      "exon": 25,
+      "t": "1",
+      "rank": 4,
+      "local_states": 4,
+      "same_as_arbitrary_order": true
+    },
+    {
+      "exon": 27,
+      "t": "2231614986674747133934520244/2018200771857116191904050067",
+      "rank": 10,
+      "local_states": 10,
+      "same_as_arbitrary_order": true
+    },
+    {
+      "exon": 39,
+      "t": "1",
+      "rank": 9,
+      "local_states": 9,
+      "same_as_arbitrary_order": true
+    },
+    {
+      "exon": 42,
+      "t": "1",
+      "rank": 17,
+      "local_states": 17,
+      "same_as_arbitrary_order": true
+    }
+  ],
+  "checker_sha256": "c6bcb31c10eea093208743638c60206a5092114840a99df03e53ff30da5d226d",
+  "scope": "Separate matrix reconstruction and rational primal/cycle check without optimization. Numerical verification, not independent biological replication or calibrated uncertainty."
+}

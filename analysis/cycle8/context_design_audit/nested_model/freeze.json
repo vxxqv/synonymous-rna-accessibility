@@ -1,0 +1,32 @@
+{
+  "status": "FROZEN_BEFORE_D1_EXPLORATORY_FITS",
+  "created_utc": "2026-10-25T20:22:54.499556+00:00",
+  "code_sha256": {
+    "runner.py": "2a58c52ee80ea234bc1466a207ae5e4f9b020f142088721b239abcf1a5b86cc9",
+    "test_runner.py": "aab5088bd5b5f8a576c744c347c9541ae39acddf5398c10ec83e18a487cc40b8",
+    "input_addendum.md": "804d28c2b6e2625f565ed8d27e46100e6efd1bd097f4aac6eb99094e02533e3d",
+    "synthetic_receipt.json": "46763342539a0f9eb3d450a45ea865a3fe79fe30345a2b1d923f2bc56612c680",
+    "../nested_protocol.md": "53d9cd73e405a94741b9e25ef00bfe81f9cb4bc5e2a34776d0e6fa29f0b5f9c8"
+  },
+  "input_sha256": {
+    "b1": "eeeb40c167e689ae4266bbe49fdef7c8711163ca426b217adaee14f0b4a6afdf",
+    "matrices": "665c4d0586310d09868b07f01163875e82708c3441201ab7757d7c897b3ab874",
+    "mapping": "a2f428f5308cb78a827bfbd23f7d7756b98980e3585f0ccf6a733859c2388436"
+  },
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1"
+  },
+  "expected_joint_cases": 60,
+  "expected_individual_cases": 80,
+  "expected_total_cases": 140,
+  "gamma": [
+    "1",
+    "5/4",
+    "3/2",
+    "2"
+  ],
+  "selection": "All 66 states and both cells, unchanged",
+  "authorization_basis": "Parent authorized one execution after freeze and synthetic guards. Outcomes already exposed under B1; this successor is exploratory."
+}

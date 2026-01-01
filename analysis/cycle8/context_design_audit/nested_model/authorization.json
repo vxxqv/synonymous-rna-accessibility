@@ -1,0 +1,6 @@
+{
+  "permit_exploratory_fit": true,
+  "freeze_sha256": "7b0492085b009303790fb1994d02fcfe8bf0760f48dd7eace12a78b3fac1c13e",
+  "basis": "Parent authorized one execution after freeze and synthetic guards. Outcomes already exposed under B1; this successor is exploratory.",
+  "output_directory": "actual_v1"
+}

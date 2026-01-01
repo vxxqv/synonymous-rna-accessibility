@@ -1,0 +1,3215 @@
+{
+  "status": "PASS",
+  "summaries": {
+    "group_cells": 60,
+    "enumerated_group_cell_assignments": 720,
+    "all_three_preparations_twofold_under_every_assignment": 8,
+    "at_least_one_preparation_twofold_under_every_assignment": 40,
+    "assignment_changes_twofold_preparation_count": 23,
+    "no_assignment_has_twofold_preparation": 13
+  },
+  "two_marker_cases": 48,
+  "three_marker_cases": 12,
+  "assignment_records_checked": 720,
+  "exact_assignment_fold_values_checked": 2160,
+  "original_group_grid_records_checked": 240,
+  "original_order_statuses_checked": 20,
+  "profile_records": [
+    {
+      "intended": "chr17-31225100-A-T",
+      "cell": "K562",
+      "markers": [
+        "chr17-31225100-A-T_chr17-31225106-A-G",
+        "chr17-31225100-A-T_chr17-31225109-T-C"
+      ],
+      "A": "293702768689025445438860212546/1302704653516578495917382879315",
+      "B": "651083501838970046648172221405/68109793401591270794298601157",
+      "minimum_count": 1,
+      "maximum_count": 2,
+      "matching_certificate": {
+        "good_edges": [
+          [],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "bad_edges": [
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            0
+          ],
+          [
+            0
+          ]
+        ],
+        "maximum_good_matching": [
+          [
+            2,
+            1
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "maximum_bad_matching": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "minimum_count": 1,
+        "maximum_count": 2
+      },
+      "assignment_count": 6
+    },
+    {
+      "intended": "chr17-31225100-A-T",
+      "cell": "KBM7",
+      "markers": [
+        "chr17-31225100-A-T_chr17-31225106-A-G",
+        "chr17-31225100-A-T_chr17-31225109-T-C"
+      ],
+      "A": "328640569676924478044253482961/547001907798681778752793463593",
+      "B": "937681719787039/468840859893519",
+      "minimum_count": 0,
+      "maximum_count": 1,
+      "matching_certificate": {
+        "good_edges": [
+          [
+            1,
+            2
+          ],
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            0,
+            1,
+            2
+          ]
+        ],
+        "bad_edges": [
+          [
+            0
+          ],
+          [],
+          []
+        ],
+        "maximum_good_matching": [
+          [
+            2,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            2
+          ]
+        ],
+        "maximum_bad_matching": [
+          [
+            0,
+            0
+          ]
+        ],
+        "minimum_count": 0,
+        "maximum_count": 1
+      },
+      "assignment_count": 6
+    },
+    {
+      "intended": "chr17-31225112-C-A",
+      "cell": "K562",
+      "markers": [
+        "chr17-31225112-C-A_chr17-31225103-T-C",
+        "chr17-31225112-C-A_chr17-31225106-A-G"
+      ],
+      "A": "28474353385587044892139781413/118906932703964535617229970300",
+      "B": "792385717707555740776602184500/132064286284592564162380774667",
+      "minimum_count": 1,
+      "maximum_count": 3,
+      "matching_certificate": {
+        "good_edges": [
+          [
+            0,
+            1
+          ],
+          [
+            2
+          ],
+          [
+            2
+          ]
+        ],
+        "bad_edges": [
+          [
+            2
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "maximum_good_matching": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "maximum_bad_matching": [
+          [
+            2,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            2
+          ]
+        ],
+        "minimum_count": 1,
+        "maximum_count": 3
+      },
+      "assignment_count": 6
+    },
+    {
+      "intended": "chr17-31225112-C-A",
+      "cell": "KBM7",
+      "markers": [
+        "chr17-31225112-C-A_chr17-31225103-T-C",
+        "chr17-31225112-C-A_chr17-31225106-A-G"
+      ],
+      "A": "2/5",
+      "B": "1314562278707689256941245356300/91166984633113532566194370451",
+      "minimum_count": 1,
+      "maximum_count": 3,
+      "matching_certificate": {
+        "good_edges": [
+          [
+            2
+          ],
+          [
+            2
+          ],
+          [
+            1
+          ]
+        ],
+        "bad_edges": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ]
+        ],
+        "maximum_good_matching": [
+          [
+            2,
+            1
+          ],
+          [
+            0,
+            2
+          ]
+        ],
+        "maximum_bad_matching": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            2,
+            2
+          ]
+        ],
+        "minimum_count": 1,
+        "maximum_count": 3
+      },
+      "assignment_count": 6
+    },
+    {
+      "intended": "chr17-31225112-C-T",
+      "cell": "K562",
+      "markers": [
+        "chr17-31225112-C-T_chr17-31225106-A-G",
+        "chr17-31225112-C-T_chr17-31225109-T-C"
+      ],
+      "A": "58740553737804980174385513434/104216372281326170292383220329",
+      "B": "104173360294235316844714965441/16346350416381895167071160944",
+      "minimum_count": 2,
+      "maximum_count": 3,
+      "matching_certificate": {
+        "good_edges": [
+          [
+            0
+          ],
+          [
+            0
+          ],
+          []
+        ],
+        "bad_edges": [
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            0,
+            1,
+            2
+          ]
+        ],
+        "maximum_good_matching": [
+          [
+            0,
+            0
+          ]
+        ],
+        "maximum_bad_matching": [
+          [
+            2,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            2
+          ]
+        ],
+        "minimum_count": 2,
+        "maximum_count": 3
+      },
+      "assignment_count": 6
+    },
+    {
+      "intended": "chr17-31225112-C-T",
+      "cell": "KBM7",
+      "markers": [
+        "chr17-31225112-C-T_chr17-31225106-A-G",
+        "chr17-31225112-C-T_chr17-31225109-T-C"
+      ],
+      "A": "60039275205219820927229402161/263734555800976854529956519150",
+      "B": "1451583382461516541553341860/192639385685196290314183853",
+      "minimum_count": 1,
+      "maximum_count": 3,
+      "matching_certificate": {
+        "good_edges": [
+          [
+            0
+          ],
+          [
+            0
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "bad_edges": [
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            0
+          ]
+        ],
+        "maximum_good_matching": [
+          [
+            0,
+            0
+          ],
+          [
+            2,
+            1
+          ]
+        ],
+        "maximum_bad_matching": [
+          [
+            2,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            2
+          ]
+        ],
+        "minimum_count": 1,
+        "maximum_count": 3
+      },
+      "assignment_count": 6
+    },
+    {
+      "intended": "chr17-31225133-C-T",
+      "cell": "K562",
+      "markers": [
+        "chr17-31225133-C-T_chr17-31225136-G-C",
+        "chr17-31225133-C-T_chr17-31225142-A-C",
+        "chr17-31225133-C-T_chr17-31225142-A-G"
+      ],
+      "A": "342500363466263846569597631045/26862773605197071314017405976",
+      "B": "1133771897753228671514625794200/5942892882806661815845229787",
+      "minimum_count": 3,
+      "maximum_count": 3,
+      "matching_certificate": null,
+      "assignment_count": 36
+    },
+    {
+      "intended": "chr17-31225133-C-T",
+      "cell": "KBM7",
+      "markers": [
+        "chr17-31225133-C-T_chr17-31225136-G-C",
+        "chr17-31225133-C-T_chr17-31225142-A-C",
+        "chr17-31225133-C-T_chr17-31225142-A-G"
+      ],
+      "A": "82050286169802288705775575227/108451387993385070529672854819",
+      "B": "2046793472905214910586023718350/84125855119928819999866236527",
+      "minimum_count": 2,
+      "maximum_count": 3,
+      "matching_certificate": null,
+      "assignment_count": 36
+    },
+    {
+      "intended": "chr17-31225136-G-T",
+      "cell": "K562",
+      "markers": [
+        "chr17-31225136-G-T_chr17-31225142-A-C",
+        "chr17-31225136-G-T_chr17-31225145-T-C"
+      ],
+      "A": "80588320815591022525289250400/36533372103068033472011686189",
+      "B": "348793669264961528480890295680/110860149181219327452051594819",
+      "minimum_count": 3,
+      "maximum_count": 3,
+      "matching_certificate": {
+        "good_edges": [
+          [],
+          [],
+          []
+        ],
+        "bad_edges": [
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            0,
+            1,
+            2
+          ]
+        ],
+        "maximum_good_matching": [],
+        "maximum_bad_matching": [
+          [
+            2,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            2
+          ]
+        ],
+        "minimum_count": 3,
+        "maximum_count": 3
+      },
+      "assignment_count": 6
+    },
+    {
+      "intended": "chr17-31225136-G-T",
+      "cell": "KBM7",
+      "markers": [
+        "chr17-31225136-G-T_chr17-31225142-A-C",
+        "chr17-31225136-G-T_chr17-31225145-T-C"
+      ],
+      "A": "8808464749412989646289439551/18854875896040730940151357610",
+      "B": "367454064503013067166085282505/33305410952826227537564197364",
+      "minimum_count": 1,
+      "maximum_count": 3,
+      "matching_certificate": {
+        "good_edges": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          []
+        ],
+        "bad_edges": [
+          [
+            2
+          ],
+          [
+            1
+          ],
+          [
+            0,
+            1,
+            2
+          ]
+        ],
+        "maximum_good_matching": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "maximum_bad_matching": [
+          [
+            2,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            2
+          ]
+        ],
+        "minimum_count": 1,
+        "maximum_count": 3
+      },
+      "assignment_count": 6
+    },
+    {
+      "intended": "chr17-31225200-C-T",
+      "cell": "K562",
+      "markers": [
+        "chr17-31225200-C-T_chr17-31225197-T-C",
+        "chr17-31225200-C-T_chr17-31225205-T-C"
+      ],
+      "A": "20417978617670107475031393149/23702208103753771288175853330",
+      "B": "99089110586637043681255124175/7972818947964408982437434869",
+      "minimum_count": 3,
+      "maximum_count": 3,
+      "matching_certificate": {
+        "good_edges": [
+          [],
+          [],
+          []
+        ],
+        "bad_edges": [
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            0,
+            1,
+            2
+          ]
+        ],
+        "maximum_good_matching": [],
+        "maximum_bad_matching": [
+          [
+            2,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            2
+          ]
+        ],
+        "minimum_count": 3,
+        "maximum_count": 3
+      },
+      "assignment_count": 6
+    },
+    {
+      "intended": "chr17-31225200-C-T",
+      "cell": "KBM7",
+      "markers": [
+        "chr17-31225200-C-T_chr17-31225197-T-C",
+        "chr17-31225200-C-T_chr17-31225205-T-C"
+      ],
+      "A": "78430568057302802357930602132/97489931066532351060382095697",
+      "B": "116059441745871667439651187634/57040413132583634033430419231",
+      "minimum_count": 0,
+      "maximum_count": 1,
+      "matching_certificate": {
+        "good_edges": [
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            2
+          ]
+        ],
+        "bad_edges": [
+          [],
+          [
+            2
+          ],
+          []
+        ],
+        "maximum_good_matching": [
+          [
+            2,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            2
+          ]
+        ],
+        "maximum_bad_matching": [
+          [
+            1,
+            2
+          ]
+        ],
+        "minimum_count": 0,
+        "maximum_count": 1
+      },
+      "assignment_count": 6
+    },
+    {
+      "intended": "chr17-31225226-G-A",
+      "cell": "K562",
+      "markers": [
+        "chr17-31225226-G-A_chr17-31225220-T-C",
+        "chr17-31225226-G-A_chr17-31225223-C-G"
+      ],
+      "A": "208954834783807409776638644375/221042925608693259874581270332",
+      "B": "3297375367106961435596332627/2523425082042295007957344086",
+      "minimum_count": 0,
+      "maximum_count": 0,
+      "matching_certificate": {
+        "good_edges": [
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            0,
+            1,
+            2
+          ]
+        ],
+        "bad_edges": [
+          [],
+          [],
+          []
+        ],
+        "maximum_good_matching": [
+          [
+            2,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            2
+          ]
+        ],
+        "maximum_bad_matching": [],
+        "minimum_count": 0,
+        "maximum_count": 0
+      },
+      "assignment_count": 6
+    },
+    {
+      "intended": "chr17-31225226-G-A",
+      "cell": "KBM7",
+      "markers": [
+        "chr17-31225226-G-A_chr17-31225220-T-C",
+        "chr17-31225226-G-A_chr17-31225223-C-G"
+      ],
+      "A": "323873464519123995577326812829/331964968631669047213354834930",
+      "B": "60695498371852628459814312738/43276347814739976126275507137",
+      "minimum_count": 0,
+      "maximum_count": 0,
+      "matching_certificate": {
+        "good_edges": [
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            0,
+            1,
+            2
+          ]
+        ],
+        "bad_edges": [
+          [],
+          [],
+          []
+        ],
+        "maximum_good_matching": [
+          [
+            2,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            2
+          ]
+        ],
+        "maximum_bad_matching": [],
+        "minimum_count": 0,
+        "maximum_count": 0
+      },
+      "assignment_count": 6
+    },
+    {
+      "intended": "chr17-31225226-G-T",
+      "cell": "K562",
+      "markers": [
+        "chr17-31225226-G-T_chr17-31225220-T-C",
+        "chr17-31225226-G-T_chr17-31225220-T-G",
+        "chr17-31225226-G-T_chr17-31225229-G-A"
+      ],
+      "A": "105703408821941107974792969723/110269732274162257748653828352",
+      "B": "82386103927204561190260958190/35366815867013899155346962451",
+      "minimum_count": 0,
+      "maximum_count": 1,
+      "matching_certificate": null,
+      "assignment_count": 36
+    },
+    {
+      "intended": "chr17-31225226-G-T",
+      "cell": "KBM7",
+      "markers": [
+        "chr17-31225226-G-T_chr17-31225220-T-C",
+        "chr17-31225226-G-T_chr17-31225220-T-G",
+        "chr17-31225226-G-T_chr17-31225229-G-A"
+      ],
+      "A": "19619200987156342735752219800/21672431751987425479219733539",
+      "B": "24993729645569869188446637550/15858297405419964652357743291",
+      "minimum_count": 0,
+      "maximum_count": 0,
+      "matching_certificate": null,
+      "assignment_count": 36
+    },
+    {
+      "intended": "chr17-31225232-A-G",
+      "cell": "K562",
+      "markers": [
+        "chr17-31225232-A-G_chr17-31225226-G-A",
+        "chr17-31225232-A-G_chr17-31225241-C-T"
+      ],
+      "A": "8076768851802764796784672976/7349911786442857751922070727",
+      "B": "24920616630159952336169399410/8934312497456988633652059547",
+      "minimum_count": 1,
+      "maximum_count": 2,
+      "matching_certificate": {
+        "good_edges": [
+          [
+            0
+          ],
+          [
+            0
+          ],
+          [
+            0,
+            2
+          ]
+        ],
+        "bad_edges": [
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1
+          ]
+        ],
+        "maximum_good_matching": [
+          [
+            0,
+            0
+          ],
+          [
+            2,
+            2
+          ]
+        ],
+        "maximum_bad_matching": [
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            2
+          ]
+        ],
+        "minimum_count": 1,
+        "maximum_count": 2
+      },
+      "assignment_count": 6
+    },
+    {
+      "intended": "chr17-31225232-A-G",
+      "cell": "KBM7",
+      "markers": [
+        "chr17-31225232-A-G_chr17-31225226-G-A",
+        "chr17-31225232-A-G_chr17-31225241-C-T"
+      ],
+      "A": "2937745615048582578012285666/3680148626612626063220166085",
+      "B": "6468437000171331869927369985/4379455767526192103127648104",
+      "minimum_count": 0,
+      "maximum_count": 0,
+      "matching_certificate": {
+        "good_edges": [
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            0,
+            1,
+            2
+          ]
+        ],
+        "bad_edges": [
+          [],
+          [],
+          []
+        ],
+        "maximum_good_matching": [
+          [
+            2,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            2
+          ]
+        ],
+        "maximum_bad_matching": [],
+        "minimum_count": 0,
+        "maximum_count": 0
+      },
+      "assignment_count": 6
+    },
+    {
+      "intended": "chr17-31225232-A-T",
+      "cell": "K562",
+      "markers": [
+        "chr17-31225232-A-T_chr17-31225223-C-G",
+        "chr17-31225232-A-T_chr17-31225238-G-C"
+      ],
+      "A": "772895062575768143333059713755/212133932722624710648362113262",
+      "B": "178189731581140506004287205900/3581703147359614048802493241",
+      "minimum_count": 3,
+      "maximum_count": 3,
+      "matching_certificate": {
+        "good_edges": [
+          [],
+          [],
+          []
+        ],
+        "bad_edges": [
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            0,
+            1,
+            2
+          ]
+        ],
+        "maximum_good_matching": [],
+        "maximum_bad_matching": [
+          [
+            2,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            2
+          ]
+        ],
+        "minimum_count": 3,
+        "maximum_count": 3
+      },
+      "assignment_count": 6
+    },
+    {
+      "intended": "chr17-31225232-A-T",
+      "cell": "KBM7",
+      "markers": [
+        "chr17-31225232-A-T_chr17-31225223-C-G",
+        "chr17-31225232-A-T_chr17-31225238-G-C"
+      ],
+      "A": "5223044798586317829699610115/1993782766342309770192117828",
+      "B": "633921660967983529003815678200/46423776698348650513323443127",
+      "minimum_count": 3,
+      "maximum_count": 3,
+      "matching_certificate": {
+        "good_edges": [
+          [],
+          [],
+          []
+        ],
+        "bad_edges": [
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            0,
+            1,
+            2
+          ]
+        ],
+        "maximum_good_matching": [],
+        "maximum_bad_matching": [
+          [
+            2,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            2
+          ]
+        ],
+        "minimum_count": 3,
+        "maximum_count": 3
+      },
+      "assignment_count": 6
+    },
+    {
+      "intended": "chr17-31225238-G-A",
+      "cell": "K562",
+      "markers": [
+        "chr17-31225238-G-A_chr17-31225244-C-A",
+        "chr17-31225238-G-A_chr17-31225244-C-G"
+      ],
+      "A": "2317314844956406969628626315/3908113960549723601594482776",
+      "B": "24326927776866486018774480459/13538837897019315360793802068",
+      "minimum_count": 0,
+      "maximum_count": 0,
+      "matching_certificate": {
+        "good_edges": [
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            0,
+            1,
+            2
+          ]
+        ],
+        "bad_edges": [
+          [],
+          [],
+          []
+        ],
+        "maximum_good_matching": [
+          [
+            2,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            2
+          ]
+        ],
+        "maximum_bad_matching": [],
+        "minimum_count": 0,
+        "maximum_count": 0
+      },
+      "assignment_count": 6
+    },
+    {
+      "intended": "chr17-31225238-G-A",
+      "cell": "KBM7",
+      "markers": [
+        "chr17-31225238-G-A_chr17-31225244-C-A",
+        "chr17-31225238-G-A_chr17-31225244-C-G"
+      ],
+      "A": "83001462277603950795698210898/100241655116508830321306064667",
+      "B": "7656279341976006334535345005/6250561057160836503757636483",
+      "minimum_count": 0,
+      "maximum_count": 0,
+      "matching_certificate": {
+        "good_edges": [
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            0,
+            1,
+            2
+          ]
+        ],
+        "bad_edges": [
+          [],
+          [],
+          []
+        ],
+        "maximum_good_matching": [
+          [
+            2,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            2
+          ]
+        ],
+        "maximum_bad_matching": [],
+        "minimum_count": 0,
+        "maximum_count": 0
+      },
+      "assignment_count": 6
+    },
+    {
+      "intended": "chr17-31225238-G-T",
+      "cell": "K562",
+      "markers": [
+        "chr17-31225238-G-T_chr17-31225241-C-T",
+        "chr17-31225238-G-T_chr17-31225244-C-T"
+      ],
+      "A": "684327451045426366858265289160/442919582195636633921406473959",
+      "B": "13222452233193275972075473363175/58740553737804999394396023899",
+      "minimum_count": 2,
+      "maximum_count": 3,
+      "matching_certificate": {
+        "good_edges": [
+          [],
+          [],
+          [
+            0
+          ]
+        ],
+        "bad_edges": [
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "maximum_good_matching": [
+          [
+            2,
+            0
+          ]
+        ],
+        "maximum_bad_matching": [
+          [
+            0,
+            0
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "minimum_count": 2,
+        "maximum_count": 3
+      },
+      "assignment_count": 6
+    },
+    {
+      "intended": "chr17-31225238-G-T",
+      "cell": "KBM7",
+      "markers": [
+        "chr17-31225238-G-T_chr17-31225241-C-T",
+        "chr17-31225238-G-T_chr17-31225244-C-T"
+      ],
+      "A": "93879593957252713537248224332/75376766187456267816510953587",
+      "B": "42276549655213588557902311666000/177529675644540078945500785953",
+      "minimum_count": 2,
+      "maximum_count": 2,
+      "matching_certificate": {
+        "good_edges": [
+          [
+            0,
+            1,
+            2
+          ],
+          [],
+          []
+        ],
+        "bad_edges": [
+          [],
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            0,
+            1,
+            2
+          ]
+        ],
+        "maximum_good_matching": [
+          [
+            0,
+            0
+          ]
+        ],
+        "maximum_bad_matching": [
+          [
+            2,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "minimum_count": 2,
+        "maximum_count": 2
+      },
+      "assignment_count": 6
+    },
+    {
+      "intended": "chr17-31232145-A-T",
+      "cell": "K562",
+      "markers": [
+        "chr17-31232145-A-T_chr17-31232142-A-G",
+        "chr17-31232145-A-T_chr17-31232154-G-C"
+      ],
+      "A": "14566787781197843543441647463/17811598869474961476321294185",
+      "B": "168824824063155223579840455700/23560138449088663729668975787",
+      "minimum_count": 2,
+      "maximum_count": 2,
+      "matching_certificate": {
+        "good_edges": [
+          [
+            0
+          ],
+          [
+            0
+          ],
+          [
+            0
+          ]
+        ],
+        "bad_edges": [
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "maximum_good_matching": [
+          [
+            0,
+            0
+          ]
+        ],
+        "maximum_bad_matching": [
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            2
+          ]
+        ],
+        "minimum_count": 2,
+        "maximum_count": 2
+      },
+      "assignment_count": 6
+    },
+    {
+      "intended": "chr17-31232145-A-T",
+      "cell": "KBM7",
+      "markers": [
+        "chr17-31232145-A-T_chr17-31232142-A-G",
+        "chr17-31232145-A-T_chr17-31232154-G-C"
+      ],
+      "A": "18374382118315195719904781544/23660510910086830222750442789",
+      "B": "29231487644923726526082873375/2406201886838882488864451392",
+      "minimum_count": 1,
+      "maximum_count": 1,
+      "matching_certificate": {
+        "good_edges": [
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            2
+          ]
+        ],
+        "bad_edges": [
+          [
+            1
+          ],
+          [
+            1
+          ],
+          [
+            1
+          ]
+        ],
+        "maximum_good_matching": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            2
+          ]
+        ],
+        "maximum_bad_matching": [
+          [
+            0,
+            1
+          ]
+        ],
+        "minimum_count": 1,
+        "maximum_count": 1
+      },
+      "assignment_count": 6
+    },
+    {
+      "intended": "chr17-31232148-T-C",
+      "cell": "K562",
+      "markers": [
+        "chr17-31232148-T-C_chr17-31232145-A-G",
+        "chr17-31232148-T-C_chr17-31232151-T-G"
+      ],
+      "A": "34569148597117202206403135208/28043004348780020662995937187",
+      "B": "4075599267588917124745131224/2774617401144951937933071291",
+      "minimum_count": 0,
+      "maximum_count": 0,
+      "matching_certificate": {
+        "good_edges": [
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            0,
+            1,
+            2
+          ]
+        ],
+        "bad_edges": [
+          [],
+          [],
+          []
+        ],
+        "maximum_good_matching": [
+          [
+            2,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            2
+          ]
+        ],
+        "maximum_bad_matching": [],
+        "minimum_count": 0,
+        "maximum_count": 0
+      },
+      "assignment_count": 6
+    },
+    {
+      "intended": "chr17-31232148-T-C",
+      "cell": "KBM7",
+      "markers": [
+        "chr17-31232148-T-C_chr17-31232145-A-G",
+        "chr17-31232148-T-C_chr17-31232151-T-G"
+      ],
+      "A": "24398522918709129064395226888/32245052745893344577949804415",
+      "B": "8829161186679326764945593875/1574092144446698829997599612",
+      "minimum_count": 2,
+      "maximum_count": 2,
+      "matching_certificate": {
+        "good_edges": [
+          [
+            0
+          ],
+          [
+            0
+          ],
+          [
+            0
+          ]
+        ],
+        "bad_edges": [
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "maximum_good_matching": [
+          [
+            0,
+            0
+          ]
+        ],
+        "maximum_bad_matching": [
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            2
+          ]
+        ],
+        "minimum_count": 2,
+        "maximum_count": 2
+      },
+      "assignment_count": 6
+    },
+    {
+      "intended": "chr17-31233072-A-G",
+      "cell": "K562",
+      "markers": [
+        "chr17-31233072-A-G_chr17-31233075-C-A",
+        "chr17-31233072-A-G_chr17-31233078-A-C",
+        "chr17-31233072-A-G_chr17-31233081-A-G"
+      ],
+      "A": "4983619774384316992018411552/5229913971625837445547696331",
+      "B": "1530867050245362543916686376/636949259579965706322439139",
+      "minimum_count": 1,
+      "maximum_count": 1,
+      "matching_certificate": null,
+      "assignment_count": 36
+    },
+    {
+      "intended": "chr17-31233072-A-G",
+      "cell": "KBM7",
+      "markers": [
+        "chr17-31233072-A-G_chr17-31233075-C-A",
+        "chr17-31233072-A-G_chr17-31233078-A-C",
+        "chr17-31233072-A-G_chr17-31233081-A-G"
+      ],
+      "A": "116261072300239011275814827213/132689124261006263712909433416",
+      "B": "510308939480074002733865092875/185566887083664666779077734482",
+      "minimum_count": 0,
+      "maximum_count": 1,
+      "matching_certificate": null,
+      "assignment_count": 36
+    },
+    {
+      "intended": "chr17-31233123-G-A",
+      "cell": "K562",
+      "markers": [
+        "chr17-31233123-G-A_chr17-31233117-G-A",
+        "chr17-31233123-G-A_chr17-31233120-T-C"
+      ],
+      "A": "2049330998617901504291839840/4059101596410402041744953751",
+      "B": "4704605387053840650218330534/1305584270091487972172203047",
+      "minimum_count": 0,
+      "maximum_count": 1,
+      "matching_certificate": {
+        "good_edges": [
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            0
+          ]
+        ],
+        "bad_edges": [
+          [],
+          [],
+          [
+            1,
+            2
+          ]
+        ],
+        "maximum_good_matching": [
+          [
+            2,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            2
+          ]
+        ],
+        "maximum_bad_matching": [
+          [
+            2,
+            1
+          ]
+        ],
+        "minimum_count": 0,
+        "maximum_count": 1
+      },
+      "assignment_count": 6
+    },
+    {
+      "intended": "chr17-31233123-G-A",
+      "cell": "KBM7",
+      "markers": [
+        "chr17-31233123-G-A_chr17-31233117-G-A",
+        "chr17-31233123-G-A_chr17-31233120-T-C"
+      ],
+      "A": "155828287862633644877035518246/277797589720546681727933286901",
+      "B": "67366133651184406785948278550/15116798063292973399151804527",
+      "minimum_count": 1,
+      "maximum_count": 1,
+      "matching_certificate": {
+        "good_edges": [
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "bad_edges": [
+          [
+            0
+          ],
+          [
+            0
+          ],
+          [
+            0
+          ]
+        ],
+        "maximum_good_matching": [
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            2
+          ]
+        ],
+        "maximum_bad_matching": [
+          [
+            0,
+            0
+          ]
+        ],
+        "minimum_count": 1,
+        "maximum_count": 1
+      },
+      "assignment_count": 6
+    },
+    {
+      "intended": "chr17-31233126-A-G",
+      "cell": "K562",
+      "markers": [
+        "chr17-31233126-A-G_chr17-31233117-G-C",
+        "chr17-31233126-A-G_chr17-31233129-G-A",
+        "chr17-31233126-A-G_chr17-31233132-G-C"
+      ],
+      "A": "131919057019453866596239260400/18401905145035017185046466441",
+      "B": "52971624009774431961222131820/1359271861382890130179393279",
+      "minimum_count": 3,
+      "maximum_count": 3,
+      "matching_certificate": null,
+      "assignment_count": 36
+    },
+    {
+      "intended": "chr17-31233126-A-G",
+      "cell": "KBM7",
+      "markers": [
+        "chr17-31233126-A-G_chr17-31233117-G-C",
+        "chr17-31233126-A-G_chr17-31233129-G-A",
+        "chr17-31233126-A-G_chr17-31233132-G-C"
+      ],
+      "A": "5279778751998679399582736625/168333027012102584185031246",
+      "B": "67408817913132914828035438700/257204628252989425688905549",
+      "minimum_count": 3,
+      "maximum_count": 3,
+      "matching_certificate": null,
+      "assignment_count": 36
+    },
+    {
+      "intended": "chr17-31233156-T-C",
+      "cell": "K562",
+      "markers": [
+        "chr17-31233156-T-C_chr17-31233159-A-G",
+        "chr17-31233156-T-C_chr17-31233162-A-G"
+      ],
+      "A": "83201185585550089060230143406/83475414696236492729197280389",
+      "B": "495531687081862690792876654875/431324166307910791894234498448",
+      "minimum_count": 0,
+      "maximum_count": 0,
+      "matching_certificate": {
+        "good_edges": [
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            0,
+            1,
+            2
+          ]
+        ],
+        "bad_edges": [
+          [],
+          [],
+          []
+        ],
+        "maximum_good_matching": [
+          [
+            2,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            2
+          ]
+        ],
+        "maximum_bad_matching": [],
+        "minimum_count": 0,
+        "maximum_count": 0
+      },
+      "assignment_count": 6
+    },
+    {
+      "intended": "chr17-31233156-T-C",
+      "cell": "KBM7",
+      "markers": [
+        "chr17-31233156-T-C_chr17-31233159-A-G",
+        "chr17-31233156-T-C_chr17-31233162-A-G"
+      ],
+      "A": "25194786523195273805972086785/24909023571061677722759984341",
+      "B": "2862455449854102343031404157/2503200452541251403597765179",
+      "minimum_count": 0,
+      "maximum_count": 0,
+      "matching_certificate": {
+        "good_edges": [
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            0,
+            1,
+            2
+          ]
+        ],
+        "bad_edges": [
+          [],
+          [],
+          []
+        ],
+        "maximum_good_matching": [
+          [
+            2,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            2
+          ]
+        ],
+        "maximum_bad_matching": [],
+        "minimum_count": 0,
+        "maximum_count": 0
+      },
+      "assignment_count": 6
+    },
+    {
+      "intended": "chr17-31330380-A-G",
+      "cell": "K562",
+      "markers": [
+        "chr17-31330380-A-G_chr17-31330371-A-T",
+        "chr17-31330380-A-G_chr17-31330377-T-G",
+        "chr17-31330380-A-G_chr17-31330389-T-A"
+      ],
+      "A": "273870614622390738386144699928/456158266983885242204170775711",
+      "B": "468410309667717402960872458353/39082254824908846139104552106",
+      "minimum_count": 2,
+      "maximum_count": 3,
+      "matching_certificate": null,
+      "assignment_count": 36
+    },
+    {
+      "intended": "chr17-31330380-A-G",
+      "cell": "KBM7",
+      "markers": [
+        "chr17-31330380-A-G_chr17-31330371-A-T",
+        "chr17-31330380-A-G_chr17-31330377-T-G",
+        "chr17-31330380-A-G_chr17-31330389-T-A"
+      ],
+      "A": "3039261792543931654421412574/3400217079547025975989953969",
+      "B": "1361505356442660738695436088200/13572221900513816462971475437",
+      "minimum_count": 1,
+      "maximum_count": 3,
+      "matching_certificate": null,
+      "assignment_count": 36
+    },
+    {
+      "intended": "chr17-31330392-C-T",
+      "cell": "K562",
+      "markers": [
+        "chr17-31330392-C-T_chr17-31330386-C-T",
+        "chr17-31330392-C-T_chr17-31330389-T-C"
+      ],
+      "A": "27651869842420155193697265765/22849646889172633885390819606",
+      "B": "12146339596564429185129529000/4533683081644111358641506613",
+      "minimum_count": 2,
+      "maximum_count": 2,
+      "matching_certificate": {
+        "good_edges": [
+          [
+            0,
+            1,
+            2
+          ],
+          [],
+          []
+        ],
+        "bad_edges": [
+          [],
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            0,
+            1,
+            2
+          ]
+        ],
+        "maximum_good_matching": [
+          [
+            0,
+            0
+          ]
+        ],
+        "maximum_bad_matching": [
+          [
+            2,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "minimum_count": 2,
+        "maximum_count": 2
+      },
+      "assignment_count": 6
+    },
+    {
+      "intended": "chr17-31330392-C-T",
+      "cell": "KBM7",
+      "markers": [
+        "chr17-31330392-C-T_chr17-31330386-C-T",
+        "chr17-31330392-C-T_chr17-31330389-T-C"
+      ],
+      "A": "14346252372612220627968160297/27751997006511017377010020322",
+      "B": "13827549456824559444391178161/3039261792543931654421412574",
+      "minimum_count": 0,
+      "maximum_count": 1,
+      "matching_certificate": {
+        "good_edges": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "bad_edges": [
+          [
+            2
+          ],
+          [],
+          [
+            2
+          ]
+        ],
+        "maximum_good_matching": [
+          [
+            2,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "maximum_bad_matching": [
+          [
+            0,
+            2
+          ]
+        ],
+        "minimum_count": 0,
+        "maximum_count": 1
+      },
+      "assignment_count": 6
+    },
+    {
+      "intended": "chr17-31330395-C-T",
+      "cell": "K562",
+      "markers": [
+        "chr17-31330395-C-T_chr17-31330392-C-A",
+        "chr17-31330395-C-T_chr17-31330401-C-A"
+      ],
+      "A": "20879904608468370605197830863/21948708639130549109895788041",
+      "B": "12545560290325648564029946055/2280909812814705822052068607",
+      "minimum_count": 1,
+      "maximum_count": 1,
+      "matching_certificate": {
+        "good_edges": [
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "bad_edges": [
+          [
+            0
+          ],
+          [
+            0
+          ],
+          [
+            0
+          ]
+        ],
+        "maximum_good_matching": [
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            2
+          ]
+        ],
+        "maximum_bad_matching": [
+          [
+            0,
+            0
+          ]
+        ],
+        "minimum_count": 1,
+        "maximum_count": 1
+      },
+      "assignment_count": 6
+    },
+    {
+      "intended": "chr17-31330395-C-T",
+      "cell": "KBM7",
+      "markers": [
+        "chr17-31330395-C-T_chr17-31330392-C-A",
+        "chr17-31330395-C-T_chr17-31330401-C-A"
+      ],
+      "A": "35456072492902255064947746032/35262988731864875343315292901",
+      "B": "99036908150125410176473503790/20745141174935358132092278499",
+      "minimum_count": 1,
+      "maximum_count": 2,
+      "matching_certificate": {
+        "good_edges": [
+          [
+            2
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            2
+          ]
+        ],
+        "bad_edges": [
+          [
+            0,
+            1
+          ],
+          [
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "maximum_good_matching": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            2
+          ]
+        ],
+        "maximum_bad_matching": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "minimum_count": 1,
+        "maximum_count": 2
+      },
+      "assignment_count": 6
+    },
+    {
+      "intended": "chr17-31330422-T-C",
+      "cell": "K562",
+      "markers": [
+        "chr17-31330422-T-C_chr17-31330416-T-C",
+        "chr17-31330422-T-C_chr17-31330431-G-T"
+      ],
+      "A": "137501135259160609214339636132/18509768207964021909683096645",
+      "B": "312959855250517608109170337000/5234230556907425784543838449",
+      "minimum_count": 3,
+      "maximum_count": 3,
+      "matching_certificate": {
+        "good_edges": [
+          [],
+          [],
+          []
+        ],
+        "bad_edges": [
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            0,
+            1,
+            2
+          ]
+        ],
+        "maximum_good_matching": [],
+        "maximum_bad_matching": [
+          [
+            2,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            2
+          ]
+        ],
+        "minimum_count": 3,
+        "maximum_count": 3
+      },
+      "assignment_count": 6
+    },
+    {
+      "intended": "chr17-31330422-T-C",
+      "cell": "KBM7",
+      "markers": [
+        "chr17-31330422-T-C_chr17-31330416-T-C",
+        "chr17-31330422-T-C_chr17-31330431-G-T"
+      ],
+      "A": "604483036363915571469677601/1435206957590189129247430594",
+      "B": "23072777230873465086452932103/3781959323451823565624867400",
+      "minimum_count": 1,
+      "maximum_count": 3,
+      "matching_certificate": {
+        "good_edges": [
+          [
+            2
+          ],
+          [
+            0
+          ],
+          [
+            0
+          ]
+        ],
+        "bad_edges": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "maximum_good_matching": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            2
+          ]
+        ],
+        "maximum_bad_matching": [
+          [
+            0,
+            0
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "minimum_count": 1,
+        "maximum_count": 3
+      },
+      "assignment_count": 6
+    },
+    {
+      "intended": "chr17-31336736-C-A",
+      "cell": "K562",
+      "markers": [
+        "chr17-31336736-C-A_chr17-31336733-A-C",
+        "chr17-31336736-C-A_chr17-31336733-A-T"
+      ],
+      "A": "16834474236505137280906897800/21842599682966514087959767997",
+      "B": "21842599682966514087959767997/16834474236505137280906897800",
+      "minimum_count": 0,
+      "maximum_count": 0,
+      "matching_certificate": {
+        "good_edges": [
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            0,
+            1,
+            2
+          ]
+        ],
+        "bad_edges": [
+          [],
+          [],
+          []
+        ],
+        "maximum_good_matching": [
+          [
+            2,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            2
+          ]
+        ],
+        "maximum_bad_matching": [],
+        "minimum_count": 0,
+        "maximum_count": 0
+      },
+      "assignment_count": 6
+    },
+    {
+      "intended": "chr17-31336736-C-A",
+      "cell": "KBM7",
+      "markers": [
+        "chr17-31336736-C-A_chr17-31336733-A-C",
+        "chr17-31336736-C-A_chr17-31336733-A-T"
+      ],
+      "A": "531426344962383684772687892668/546193649861346856216949993459",
+      "B": "546193649861346856216949993459/531426344962383684772687892668",
+      "minimum_count": 0,
+      "maximum_count": 0,
+      "matching_certificate": {
+        "good_edges": [
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            0,
+            1,
+            2
+          ]
+        ],
+        "bad_edges": [
+          [],
+          [],
+          []
+        ],
+        "maximum_good_matching": [
+          [
+            2,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            2
+          ]
+        ],
+        "maximum_bad_matching": [],
+        "minimum_count": 0,
+        "maximum_count": 0
+      },
+      "assignment_count": 6
+    },
+    {
+      "intended": "chr17-31336736-C-G",
+      "cell": "K562",
+      "markers": [
+        "chr17-31336736-C-G_chr17-31336727-T-A",
+        "chr17-31336736-C-G_chr17-31336745-G-A"
+      ],
+      "A": "16834474236505137280906897800/21842599682966514087959767997",
+      "B": "21842599682966514087959767997/16834474236505137280906897800",
+      "minimum_count": 0,
+      "maximum_count": 0,
+      "matching_certificate": {
+        "good_edges": [
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            0,
+            1,
+            2
+          ]
+        ],
+        "bad_edges": [
+          [],
+          [],
+          []
+        ],
+        "maximum_good_matching": [
+          [
+            2,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            2
+          ]
+        ],
+        "maximum_bad_matching": [],
+        "minimum_count": 0,
+        "maximum_count": 0
+      },
+      "assignment_count": 6
+    },
+    {
+      "intended": "chr17-31336736-C-G",
+      "cell": "KBM7",
+      "markers": [
+        "chr17-31336736-C-G_chr17-31336727-T-A",
+        "chr17-31336736-C-G_chr17-31336745-G-A"
+      ],
+      "A": "531426344962383684772687892668/546193649861346856216949993459",
+      "B": "546193649861343094764149032335/265713172481191842386343946334",
+      "minimum_count": 0,
+      "maximum_count": 1,
+      "matching_certificate": {
+        "good_edges": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            2
+          ]
+        ],
+        "bad_edges": [
+          [
+            2
+          ],
+          [
+            2
+          ],
+          []
+        ],
+        "maximum_good_matching": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            2,
+            2
+          ]
+        ],
+        "maximum_bad_matching": [
+          [
+            0,
+            2
+          ]
+        ],
+        "minimum_count": 0,
+        "maximum_count": 1
+      },
+      "assignment_count": 6
+    },
+    {
+      "intended": "chr17-31336736-C-T",
+      "cell": "K562",
+      "markers": [
+        "chr17-31336736-C-T_chr17-31336728-T-C",
+        "chr17-31336736-C-T_chr17-31336743-C-T"
+      ],
+      "A": "1427505634250382569207755117/5366093240582372459201556654",
+      "B": "1506545293638590/161415567175563",
+      "minimum_count": 2,
+      "maximum_count": 3,
+      "matching_certificate": {
+        "good_edges": [
+          [
+            1,
+            2
+          ],
+          [],
+          []
+        ],
+        "bad_edges": [
+          [
+            0
+          ],
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            0,
+            1,
+            2
+          ]
+        ],
+        "maximum_good_matching": [
+          [
+            0,
+            1
+          ]
+        ],
+        "maximum_bad_matching": [
+          [
+            0,
+            0
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "minimum_count": 2,
+        "maximum_count": 3
+      },
+      "assignment_count": 6
+    },
+    {
+      "intended": "chr17-31336736-C-T",
+      "cell": "KBM7",
+      "markers": [
+        "chr17-31336736-C-T_chr17-31336728-T-C",
+        "chr17-31336736-C-T_chr17-31336743-C-T"
+      ],
+      "A": "47828371046614468938546012245/65543237983361571853379965316",
+      "B": "569383434802812769295241224659/125264355656618332803429396000",
+      "minimum_count": 1,
+      "maximum_count": 1,
+      "matching_certificate": {
+        "good_edges": [
+          [],
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            0,
+            1,
+            2
+          ]
+        ],
+        "bad_edges": [
+          [
+            0,
+            1,
+            2
+          ],
+          [],
+          []
+        ],
+        "maximum_good_matching": [
+          [
+            2,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "maximum_bad_matching": [
+          [
+            0,
+            0
+          ]
+        ],
+        "minimum_count": 1,
+        "maximum_count": 1
+      },
+      "assignment_count": 6
+    },
+    {
+      "intended": "chr17-31336772-T-C",
+      "cell": "K562",
+      "markers": [
+        "chr17-31336772-T-C_chr17-31336766-C-T",
+        "chr17-31336772-T-C_chr17-31336781-T-A"
+      ],
+      "A": "84845750151986622328026907591/86496694744547750255994424128",
+      "B": "134451178423627023737930215900/73510299580649546730527062763",
+      "minimum_count": 0,
+      "maximum_count": 0,
+      "matching_certificate": {
+        "good_edges": [
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            0,
+            1,
+            2
+          ]
+        ],
+        "bad_edges": [
+          [],
+          [],
+          []
+        ],
+        "maximum_good_matching": [
+          [
+            2,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            2
+          ]
+        ],
+        "maximum_bad_matching": [],
+        "minimum_count": 0,
+        "maximum_count": 0
+      },
+      "assignment_count": 6
+    },
+    {
+      "intended": "chr17-31336772-T-C",
+      "cell": "KBM7",
+      "markers": [
+        "chr17-31336772-T-C_chr17-31336766-C-T",
+        "chr17-31336772-T-C_chr17-31336781-T-A"
+      ],
+      "A": "65936516991175943031440689504/78174250391365196952913424109",
+      "B": "1183419574699583758046324705500/233827591783449159561113858143",
+      "minimum_count": 2,
+      "maximum_count": 2,
+      "matching_certificate": {
+        "good_edges": [
+          [
+            1
+          ],
+          [
+            1
+          ],
+          [
+            1
+          ]
+        ],
+        "bad_edges": [
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            2
+          ]
+        ],
+        "maximum_good_matching": [
+          [
+            0,
+            1
+          ]
+        ],
+        "maximum_bad_matching": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            2
+          ]
+        ],
+        "minimum_count": 2,
+        "maximum_count": 2
+      },
+      "assignment_count": 6
+    },
+    {
+      "intended": "chr17-31336802-C-T",
+      "cell": "K562",
+      "markers": [
+        "chr17-31336802-C-T_chr17-31336793-C-T",
+        "chr17-31336802-C-T_chr17-31336796-C-A"
+      ],
+      "A": "32975111873954642144793347872/49087290155331392925372407625",
+      "B": "32660776513541172247332831490/7280615086371895265422234911",
+      "minimum_count": 1,
+      "maximum_count": 1,
+      "matching_certificate": {
+        "good_edges": [
+          [],
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            0,
+            1,
+            2
+          ]
+        ],
+        "bad_edges": [
+          [
+            0,
+            1,
+            2
+          ],
+          [],
+          []
+        ],
+        "maximum_good_matching": [
+          [
+            2,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "maximum_bad_matching": [
+          [
+            0,
+            0
+          ]
+        ],
+        "minimum_count": 1,
+        "maximum_count": 1
+      },
+      "assignment_count": 6
+    },
+    {
+      "intended": "chr17-31336802-C-T",
+      "cell": "KBM7",
+      "markers": [
+        "chr17-31336802-C-T_chr17-31336793-C-T",
+        "chr17-31336802-C-T_chr17-31336796-C-A"
+      ],
+      "A": "302103194080756563251932858/392464009226475173435755129",
+      "B": "1125959908458582993377112030/209772613311212140069504397",
+      "minimum_count": 1,
+      "maximum_count": 1,
+      "matching_certificate": {
+        "good_edges": [
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            0,
+            1,
+            2
+          ],
+          []
+        ],
+        "bad_edges": [
+          [],
+          [],
+          [
+            0,
+            1,
+            2
+          ]
+        ],
+        "maximum_good_matching": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "maximum_bad_matching": [
+          [
+            2,
+            0
+          ]
+        ],
+        "minimum_count": 1,
+        "maximum_count": 1
+      },
+      "assignment_count": 6
+    },
+    {
+      "intended": "chr17-31336865-C-A",
+      "cell": "K562",
+      "markers": [
+        "chr17-31336865-C-A_chr17-31336862-G-C",
+        "chr17-31336865-C-A_chr17-31336871-T-C",
+        "chr17-31336865-C-A_chr17-31336874-C-A"
+      ],
+      "A": "31312122079899544992142153080/33419177514938903852519155009",
+      "B": "463939331131372989862793950/5589680458939930808086281",
+      "minimum_count": 1,
+      "maximum_count": 3,
+      "matching_certificate": null,
+      "assignment_count": 36
+    },
+    {
+      "intended": "chr17-31336865-C-A",
+      "cell": "KBM7",
+      "markers": [
+        "chr17-31336865-C-A_chr17-31336862-G-C",
+        "chr17-31336865-C-A_chr17-31336871-T-C",
+        "chr17-31336865-C-A_chr17-31336874-C-A"
+      ],
+      "A": "250463082040745387143403178783/219558131180479426827875173921",
+      "B": "813139202113560993142525732560/203284800528390916615429348667",
+      "minimum_count": 1,
+      "maximum_count": 2,
+      "matching_certificate": null,
+      "assignment_count": 36
+    },
+    {
+      "intended": "chr17-31336865-C-G",
+      "cell": "K562",
+      "markers": [
+        "chr17-31336865-C-G_chr17-31336860-C-T",
+        "chr17-31336865-C-G_chr17-31336868-T-A"
+      ],
+      "A": "71465958027408657306228876800/56431332851614342461381620579",
+      "B": "14384141945638761403390989482/4970696447834368613762243673",
+      "minimum_count": 1,
+      "maximum_count": 1,
+      "matching_certificate": {
+        "good_edges": [
+          [],
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            0,
+            1,
+            2
+          ]
+        ],
+        "bad_edges": [
+          [
+            0,
+            1,
+            2
+          ],
+          [],
+          []
+        ],
+        "maximum_good_matching": [
+          [
+            2,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "maximum_bad_matching": [
+          [
+            0,
+            0
+          ]
+        ],
+        "minimum_count": 1,
+        "maximum_count": 1
+      },
+      "assignment_count": 6
+    },
+    {
+      "intended": "chr17-31336865-C-G",
+      "cell": "KBM7",
+      "markers": [
+        "chr17-31336865-C-G_chr17-31336860-C-T",
+        "chr17-31336865-C-G_chr17-31336868-T-A"
+      ],
+      "A": "93543463775656277788226892142/66877794598560095825630785357",
+      "B": "375781231104606795058279235867/181216383632172566837784581930",
+      "minimum_count": 1,
+      "maximum_count": 1,
+      "matching_certificate": {
+        "good_edges": [
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            0,
+            1,
+            2
+          ],
+          []
+        ],
+        "bad_edges": [
+          [],
+          [],
+          [
+            0,
+            1,
+            2
+          ]
+        ],
+        "maximum_good_matching": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "maximum_bad_matching": [
+          [
+            2,
+            0
+          ]
+        ],
+        "minimum_count": 1,
+        "maximum_count": 1
+      },
+      "assignment_count": 6
+    },
+    {
+      "intended": "chr17-31336865-C-T",
+      "cell": "K562",
+      "markers": [
+        "chr17-31336865-C-T_chr17-31336856-T-C",
+        "chr17-31336865-C-T_chr17-31336868-T-A"
+      ],
+      "A": "10955357849294864926094934000/9073079868309185758000774529",
+      "B": "58475591885831165884577920678/21002942737328438582183396931",
+      "minimum_count": 1,
+      "maximum_count": 1,
+      "matching_certificate": {
+        "good_edges": [
+          [],
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            0,
+            1,
+            2
+          ]
+        ],
+        "bad_edges": [
+          [
+            0,
+            1,
+            2
+          ],
+          [],
+          []
+        ],
+        "maximum_good_matching": [
+          [
+            2,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "maximum_bad_matching": [
+          [
+            0,
+            0
+          ]
+        ],
+        "minimum_count": 1,
+        "maximum_count": 1
+      },
+      "assignment_count": 6
+    },
+    {
+      "intended": "chr17-31336865-C-T",
+      "cell": "KBM7",
+      "markers": [
+        "chr17-31336865-C-T_chr17-31336856-T-C",
+        "chr17-31336865-C-T_chr17-31336868-T-A"
+      ],
+      "A": "10960668364849141077292617083/7851533716756838187833049706",
+      "B": "78515337167568628212996566065/29892731904134097452568535712",
+      "minimum_count": 1,
+      "maximum_count": 1,
+      "matching_certificate": {
+        "good_edges": [
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            0,
+            1,
+            2
+          ],
+          []
+        ],
+        "bad_edges": [
+          [],
+          [],
+          [
+            0,
+            1,
+            2
+          ]
+        ],
+        "maximum_good_matching": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "maximum_bad_matching": [
+          [
+            2,
+            0
+          ]
+        ],
+        "minimum_count": 1,
+        "maximum_count": 1
+      },
+      "assignment_count": 6
+    }
+  ],
+  "exon_results": [
+    {
+      "exon": 17,
+      "state_count": 26,
+      "t_exact": "93879593957252713537248224332/75376766187456267816510953587",
+      "gamma_bracket": [
+        "1.116006825003",
+        "1.116006825004"
+      ],
+      "closure_diagonal": [
+        "21342401191402471652476952972/22580213994287351068070581161",
+        "198422525510318689851160504623/230871377173616803270720938115",
+        "56537381962619501258868903079/79495549391829627077192136064",
+        "56948706771174327881739901027/158542576938619103490560556100",
+        "146851384344512573230470075256/260540930703315699183476575863",
+        "51026041266972228154365806313/108998021645300477650278217400",
+        "56843840304535842924161828881/160918902839808154393990485025",
+        "56843840304535842924161828881/160918902839808154393990485025",
+        "66140841836772896617053501541/84652838296992840152687145585",
+        "4298043776831531024909263355/7127589263245620240171488236",
+        "1514394159713018399397126183/1747531473699700663594247332",
+        "57040413132583634033430419231/116059441745871667439651187634",
+        "56537381962619501258868903079/79495549391829627077192136064",
+        "21342401191402471652476952972/22580213994287351068070581161",
+        "53677491807465676346486495553/58842514096937415073799890685",
+        "113545316823377420544093682290/126904442609294144669577975991",
+        "145381839332450209386252690309/162417631085030910520284144640",
+        "145381839332450209386252690309/162417631085030910520284144640",
+        "53677491807465676346486495553/58842514096937415073799890685",
+        "396845051020637802921674278463/464051468118966681997629920500",
+        "56843840304535842924161828881/160918902839808154393990485025",
+        "4298043776831531024909263355/7127589263245620240171488236",
+        "57522197437891789635719378380/65298307259934163158302302989",
+        "113545316823377420544093682290/126904442609294144669577975991",
+        "93879593957252713537248224332/75376766187456267816510953587",
+        "93879593957252713537248224332/75376766187456267816510953587"
+      ],
+      "cycle_edges": 2,
+      "boundary_certificate_passed": true
+    },
+    {
+      "exon": 25,
+      "state_count": 4,
+      "t_exact": "1",
+      "gamma_bracket": [
+        "1",
+        "1.000000000001"
+      ],
+      "closure_diagonal": [
+        "32060175652981756478818283144/39941549407304717746673833897",
+        "42836615361979250951304127611/179935863643118054675968981310",
+        "32060175652981756478818283144/39941549407304717746673833897",
+        "2774617401144951937933071291/4075599267588917124745131224"
+      ],
+      "cycle_edges": 0,
+      "boundary_certificate_passed": true
+    },
+    {
+      "exon": 27,
+      "state_count": 10,
+      "t_exact": "2231614986674747133934520244/2018200771857116191904050067",
+      "gamma_bracket": [
+        "1.051544002416",
+        "1.051544002417"
+      ],
+      "closure_diagonal": [
+        "2406034267203504256421555785/2283276761126397037356639842",
+        "32149107029478567837538705392/38782954268603560022519868193",
+        "21266497958866166454428299137/21907528888227501892155696068",
+        "41554210096702247134088400876/51173240211679562597046561679",
+        "2049330998617901504291839840/4059101596410402041744953751",
+        "2231614986674747133934520244/2018200771857116191904050067",
+        "1394124986033730927003812347/39117506961064186585542344625",
+        "36899343147336525493684093075/42928250838026118591055014098",
+        "158032262429717009822857814048/148497607611716907592789123435",
+        "2231614986674747133934520244/2018200771857116191904050067"
+      ],
+      "cycle_edges": 2,
+      "boundary_certificate_passed": true
+    },
+    {
+      "exon": 39,
+      "state_count": 9,
+      "t_exact": "1",
+      "gamma_bracket": [
+        "1",
+        "1.000000000001"
+      ],
+      "closure_diagonal": [
+        "61553029361219934356191122785/113526447851916133516209917667",
+        "117878879035588189513292051000/227169418733231299548902879671",
+        "43337286443479410618989303533/95346258206474751088769429575",
+        "75330126195917691313757774523/107976307909715220818344335253",
+        "129116271353509582128633185960/166511982039066455698475141993",
+        "75330126195917691313757774523/107976307909715220818344335253",
+        "12188744674578451692164763450/34534776577972308791947082231",
+        "12188744674578451692164763450/34534776577972308791947082231",
+        "129116271353509582128633185960/166511982039066455698475141993"
+      ],
+      "cycle_edges": 0,
+      "boundary_certificate_passed": true
+    },
+    {
+      "exon": 42,
+      "state_count": 17,
+      "t_exact": "1",
+      "gamma_bracket": [
+        "1",
+        "1.000000000001"
+      ],
+      "closure_diagonal": [
+        "531426344962383684772687892668/546193649861346856216949993459",
+        "531426344962383684772687892668/546193649861346856216949993459",
+        "531426344962383684772687892668/546193649861346856216949993459",
+        "16834474236505137280906897800/21842599682966514087959767997",
+        "1617914463638198947871607758/3786756697222173366710374311",
+        "1617914463638198947871607758/3786756697222173366710374311",
+        "378052969271912540141569847011/526280326972482890125198799115",
+        "50964305604603266857955644377/89462126971873772747988446155",
+        "39856975872178754483664693703/106507761722962424961802410600",
+        "7892481458884141051195429931/10673233632774115061786930380",
+        "82652817073445756130128778824/120756972149263452485620886307",
+        "218742868982471/437485737964940",
+        "531426344962383684772687892668/546193649861346856216949993459",
+        "1430649222782464666312268150/1986308761588477290425147299",
+        "531426344962383684772687892668/546193649861346856216949993459",
+        "7892481458884141051195429931/10673233632774115061786930380",
+        "531426344962383684772687892668/546193649861346856216949993459"
+      ],
+      "cycle_edges": 0,
+      "boundary_certificate_passed": true
+    }
+  ],
+  "decimal_boundary_diagnostics": {
+    "diagnostic_only_absolute_nearness_to_two": "1/1000000000000",
+    "not_a_new_decision_rule": true,
+    "cases_with_assignment_folds_near_two": 5,
+    "case_records": [
+      {
+        "intended": "chr17-31225100-A-T",
+        "cell": "K562",
+        "exact_fold_minus_two": [
+          "-4/554664825475267",
+          "1/491178025166684"
+        ],
+        "minimum_preparations": 1,
+        "maximum_preparations": 2,
+        "has_exact_tie": false
+      },
+      {
+        "intended": "chr17-31225100-A-T",
+        "cell": "KBM7",
+        "exact_fold_minus_two": [
+          "-8/524698200153999",
+          "1/468840859893519"
+        ],
+        "minimum_preparations": 0,
+        "maximum_preparations": 1,
+        "has_exact_tie": false
+      },
+      {
+        "intended": "chr17-31330380-A-G",
+        "cell": "KBM7",
+        "exact_fold_minus_two": [
+          "-2/1438375878014601"
+        ],
+        "minimum_preparations": 1,
+        "maximum_preparations": 3,
+        "has_exact_tie": false
+      },
+      {
+        "intended": "chr17-31336736-C-G",
+        "cell": "KBM7",
+        "exact_fold_minus_two": [
+          "-8/580832650322539"
+        ],
+        "minimum_preparations": 0,
+        "maximum_preparations": 1,
+        "has_exact_tie": false
+      },
+      {
+        "intended": "chr17-31336865-C-A",
+        "cell": "K562",
+        "exact_fold_minus_two": [
+          "1/487939525555905",
+          "1/103503446768280"
+        ],
+        "minimum_preparations": 1,
+        "maximum_preparations": 3,
+        "has_exact_tie": false
+      }
+    ],
+    "transition_and_all_three_margins": [
+      {
+        "intended": "chr17-31225133-C-T",
+        "cell": "K562",
+        "quantity": "smallest_recorded_assignment_fold_minus_two",
+        "exact_minus_two": "288774816255869703941562819093/26862773605197071314017405976",
+        "near_display_boundary": false
+      },
+      {
+        "intended": "chr17-31225136-G-T",
+        "cell": "K562",
+        "quantity": "smallest_recorded_assignment_fold_minus_two",
+        "exact_minus_two": "7521576609454955581265878022/36533372103068033472011686189",
+        "near_display_boundary": false
+      },
+      {
+        "intended": "chr17-31225200-C-T",
+        "cell": "K562",
+        "quantity": "smallest_recorded_assignment_fold_minus_two",
+        "exact_minus_two": "562427653717511781797930407/14303056614334166591159647955",
+        "near_display_boundary": false
+      },
+      {
+        "intended": "chr17-31225232-A-T",
+        "cell": "K562",
+        "quantity": "smallest_recorded_assignment_fold_minus_two",
+        "exact_minus_two": "348627197130518722036335487231/212133932722624710648362113262",
+        "near_display_boundary": false
+      },
+      {
+        "intended": "chr17-31225232-A-T",
+        "cell": "KBM7",
+        "quantity": "smallest_recorded_assignment_fold_minus_two",
+        "exact_minus_two": "1235479265901698289315374459/1993782766342309770192117828",
+        "near_display_boundary": false
+      },
+      {
+        "intended": "chr17-31233126-A-G",
+        "cell": "K562",
+        "quantity": "smallest_recorded_assignment_fold_minus_two",
+        "exact_minus_two": "95115246729383832226146327518/18401905145035017185046466441",
+        "near_display_boundary": false
+      },
+      {
+        "intended": "chr17-31233126-A-G",
+        "cell": "KBM7",
+        "quantity": "smallest_recorded_assignment_fold_minus_two",
+        "exact_minus_two": "4943112697974474231212674133/168333027012102584185031246",
+        "near_display_boundary": false
+      },
+      {
+        "intended": "chr17-31330422-T-C",
+        "cell": "K562",
+        "quantity": "smallest_recorded_assignment_fold_minus_two",
+        "exact_minus_two": "100481598843232565394973442842/18509768207964021909683096645",
+        "near_display_boundary": false
+      }
+    ]
+  },
+  "maximum_exact_numerical_discrepancy": "0",
+  "limitations": [
+    "Finite stored decimal ratios only.",
+    "Anonymous assignments are not authenticated replicate labels.",
+    "No calibrated uncertainty or independent-assay replication.",
+    "Point-set assignment robustness differs from continuous-envelope inference."
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "scope": "Bounded prior positioning and fresh review of existing section 3; no source phenotype outcomes.",
+  "review_date": "2026-10-26",
+  "primary_sources": [
+    {
+      "doi": "10.1038/s41467-026-78344-9",
+      "url": "https://doi.org/10.1038/s41467-026-78344-9",
+      "mode": "Reused authenticated cached primary article, methods and source gate; no fresh source acquisition.",
+      "local_primary": "work/research_cycle8/cprime_gate/article.xml",
+      "local_source_contract": "work/research_cycle8/cprime_gate/measurement_contract.json",
+      "claim": "Local-motif RNA/DNA readout and reported marker non-neutrality, not a full-haplotype isolated-edit or absolute-interaction calibration.",
+      "correction_scope": "Earlier gate checked bibliographic notices on 25 October; no refreshed correction status asserted."
+    },
+    {
+      "doi": "10.1073/pnas.1804015115",
+      "url": "https://www.pnas.org/content/pnas/115/32/E7550.full.pdf",
+      "title": "Inferring the shape of global epistasis",
+      "authors": ["Jakub Otwinowski", "David M. McCandlish", "Joshua B. Plotkin"],
+      "year": 2018,
+      "journal": "Proceedings of the National Academy of Sciences",
+      "volume": 115,
+      "issue": 32,
+      "pages": "E7550-E7558",
+      "mode": "Ordinary publisher PDF read through web tool; nine pages; primary equations 1-2 on printed E7551 inspected.",
+      "access_failure": "Initial ordinary PMC page presented browser challenge; left untouched. Publisher PDF readable without credentials.",
+      "byte_hash_status": "Web-tool extracted primary text inspected; original PDF bytes not downloaded or hashed in this task.",
+      "evidence_limit": "Prior additive-latent/monotonic-response framework only; no cPRIME calibration imported."
+    },
+    {
+      "doi": "10.7554/eLife.51004",
+      "url": "https://elifesciences.org/articles/51004",
+      "title": "Rank orders and signed interactions in evolutionary biology",
+      "authors": ["Kristina Crona"],
+      "year": 2020,
+      "journal": "eLife",
+      "volume": 9,
+      "article": "e51004",
+      "mode": "Full primary page read through web tool; Additivity and rank orders, and General circuits sections inspected.",
+      "byte_hash_status": "Web-tool extracted primary text inspected; original HTML bytes not downloaded or hashed in this task.",
+      "evidence_limit": "Rank/order compatibility and interaction circuits are established prior, not numeric missing-state identification."
+    },
+    {
+      "doi": "10.1111/1468-0262.00294",
+      "url": "https://doi.org/10.1111/1468-0262.00294",
+      "title": "Inference on Regressions with Interval Data on a Regressor or Outcome",
+      "authors": ["Charles F. Manski", "Elie Tamer"],
+      "year": 2002,
+      "journal": "Econometrica",
+      "volume": 70,
+      "issue": 2,
+      "pages": "519-546",
+      "mode": "Publisher-indexed search abstract/metadata inspected; ordinary DOI open returned 403.",
+      "access_failure": "403 Forbidden; no identical retry, alternate access-control route or credentials.",
+      "evidence_limit": "Broad identification-region context only. No unread theorem is cited as proof of the B5 intersection."
+    }
+  ],
+  "exposure_ledger": [
+    "Read existing section 3 and its old synthetic proof fixtures, source-gate reports and pre-existing sequence-only local-state mapping.",
+    "Inspected primary literature prose and equations; publisher PDF tool output also exposed unrelated published protein aggregate results incidentally. No source dataset or numerical protein table was opened, and none of those aggregates was used.",
+    "Consensus search returned abstracts and metadata about causal sensitivity analysis; not cited as theorem evidence, no follow-up fetch or research thread creation.",
+    "No B1 measurement envelopes, source workbook outcomes, observed count/RPM/score rows or new missingness fields were opened in this task.",
+    "All new numerical examples are invented rational fixtures and a metadata-only count of the existing 66-state mapping."
+  ]
+}

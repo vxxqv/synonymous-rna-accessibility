@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "input_sha256": "17eed16928c98b6c1fb2d38299921cab508cce5d152fbc4279006f20a085aafd",
+  "source_sha256": "ff38d3fcb6465566f50a705fab7c2e71960d74366403dca97b3c6bbdc941e864",
+  "transition_boundary_cases": [
+    {
+      "intended": "chr17-31225100-A-T",
+      "cell": "KBM7",
+      "quantity": "B",
+      "value": "937681719787039/468840859893519",
+      "minus_two_exact": "1/468840859893519",
+      "at_least_two": true,
+      "at_most_two": false,
+      "interpretation": "Exact stored-decimal classification only. This closeness cutoff diagnoses display precision and is not a changed biological decision rule."
+    }
+  ],
+  "point_assignment_cases_near_two": 5,
+  "all_three_robust_cases": 8,
+  "smallest_all_three_margin_exact": "562427653717511781797930407/14303056614334166591159647955",
+  "all_primary_classifications_retained": true,
+  "new_phenotype_evaluation": false
+}

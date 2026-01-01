@@ -1,0 +1,12 @@
+{
+  "url": "https://raw.githubusercontent.com/Boettcher-Lab/cPRIME/30125415304664c33370cd7801f820a345834e40/multi_exon_screen/analysis/gmm.ipynb",
+  "status": 200,
+  "author_commit": "30125415304664c33370cd7801f820a345834e40",
+  "git_blob_sha1": "6de1e13283f45b0cfd66d9a7b79f2cb853a7ed58",
+  "raw_sha256": "167ef7a8d1f23d9b39167cf40f04a7fb3a99d349f400c3eb8b4def9ed953e016",
+  "bytes": 429068,
+  "source_only_sha256": "ba0aba7d9a2a4cc04bd8998dc046bb7a34bf60ab0203b43bff4566ba4e945bde",
+  "outputs_and_metadata_JSON_values_decoded": false,
+  "author_code_executed": false,
+  "selective_parser_sha256": "f3479477364a50236728aa359acd4eef46091cb8b59ca74a7d6e1d369e437b1f"
+}

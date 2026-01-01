@@ -1,0 +1,80 @@
+{
+  "status": "PARTIAL_LINEAGE_RECOVERED_ROW_PAIRING_AND_RPM_TOTALS_UNRESOLVED",
+  "author_commit": "30125415304664c33370cd7801f820a345834e40",
+  "source_blob_checks": {
+    "multi_exon_screen/analysis/analyze.ipynb": {
+      "git_blob_sha1": "a302cac2411ca4c92be886b21aa1ebc7339ee8d1",
+      "sha256": "6137cde169ed534fa189577f3c0bceeada390cc7c974e77565536125c22c3f95"
+    },
+    "multi_exon_screen/count_edits_in_fastq/count_ss.py": {
+      "git_blob_sha1": "e042da739a68258adc7716ae742d73e0411aafde",
+      "sha256": "7c1e8893fc89f5825f4fb509ee524cad61262e3bcb076293ca20c82825bbb25a"
+    },
+    "multi_exon_screen/count_edits_in_fastq/count_edits_fast.sh": {
+      "git_blob_sha1": "3ef84f3f12cf8ff54630c60c44864abba699d0a4",
+      "sha256": "ef4863292bc97c84301881f911cbec255ce2a30b4677375662bf952887d6c276"
+    },
+    "multi_exon_screen/count_edits_in_fastq/merge_output.py": {
+      "git_blob_sha1": "cb35f3a4b7592a75c6548f091e2b52ce6724187b",
+      "sha256": "0adbaa441dd46a4695c2c30a444c940c9819773bd2ffbe6ad527177a682751a5"
+    }
+  },
+  "selected_rows": 396,
+  "selected_state_cell_triplets": 132,
+  "selected_states": 66,
+  "selected_intended_edits": 30,
+  "selected_exons": [
+    17,
+    25,
+    27,
+    39,
+    42
+  ],
+  "source_labelled_RNA_DNA_pairs": 30,
+  "source_labelled_libraries": 60,
+  "authoritative_row_replicate_assignments": 0,
+  "authenticated_RPM_total_values": 0,
+  "export_cell_zero_based": 10,
+  "export_schema_columns": 44,
+  "export_schema_exactly_matches_supplement": true,
+  "omitted_fields": [
+    "replicate",
+    "file",
+    "counts_complete",
+    "total_reads"
+  ],
+  "missing_in_pinned_repository": [
+    "wide_annotated_new.tsv",
+    "rpm_new.tsv",
+    "Supplementary_Table_3_Multi_exo",
+    "Supplementary Data 8.xlsx"
+  ],
+  "workbook_metadata": {
+    "sheet": "Supplementary_Table_3_Multi_exo",
+    "xml_member": "xl/worksheets/sheet1.xml",
+    "allowed_columns": {
+      "A": "combined_var_id",
+      "B": "var_id",
+      "E": "exon_number",
+      "F": "syn_var",
+      "G": "cell_line"
+    },
+    "external_link_members": [],
+    "defined_names": []
+  },
+  "new_phenotype_cells_accessed": 0,
+  "notebook_outputs_decoded": false,
+  "source_code_executed": false,
+  "input_sha256": {
+    "cprime_pilot\\eligibility.json": "c5c2b20e6729918219c5cf3deb757ff242241cdf53f0f635f1dc7d677282ee32",
+    "cprime_gate\\github_tree.json": "be5a0c644d5362c11530fb7a9fd03500aa720b3bc055128ae1be3eebf479c089",
+    "cprime_gate\\ena_samples.tsv": "1c854cfaf2f84155473c92620654cfb8c3a93eb0eb10cc060f64228b58f0af2c",
+    "cprime_gate\\supp_Supplementary Data 8.xlsx": "6a8f0c21100c57e30bce6d1ca9d62f3eb5999c4dce1870baa7eabe20fc4a9f9b",
+    "cprime_gate\\supplement_schema_headers_only.json": "286c752189d7cdb53baa7867374682ecb736f919838d4d520d094282296dae27"
+  },
+  "output_sha256": {
+    "selected_row_candidate_map.json": "7643f02188d07c7e81e1f38421f104b8c276c24d85140f6047f290e18776025c",
+    "labelled_library_pairs.json": "614c53b1d02310724ac1c4d0927663cb672c888e2d4611f6ba6d0532670a2280"
+  },
+  "audit_code_sha256": "01b084055b2f3c2e591503407cb50dd1f0d176c8f51ef3ef22ad4093a2e7f25d"
+}

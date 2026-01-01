@@ -1,0 +1,7 @@
+# Preserved reference-checker failure
+
+The first root checker stopped before outcome certificate checks at the exact M2 matrix comparison. It incorrectly assumed that the added pair columns followed canonical state-ID order. The declared matrix instead orders unordered physical allele pairs lexicographically. These are both identity bases up to column permutation, but they are not the same stored column order. All M0 and M1 entries agreed; 84 M2 entries differed by this permutation.
+
+The original checker is retained as check_before_pair_column_correction.py. The corrected checker constructs sorted physical-allele pairs from the source map and verifies the stored column labels before constructing the indicators. No model, input, certificate, fit or scientific criterion was changed. This is a reference representation correction, not a failed scientific result. The first run created no output directory.
+
+The second checker then stopped at forced-pair list comparison. It had used the lower-first pair orientation from the older FAS schema; the D protocol explicitly records higher-first pairs, L_i>U_j. The corrected checker swaps both the comparison orientation and the corresponding design difference, without changing the inequality. The second version is retained as check_before_order_orientation_correction.py. No certificate check was weakened and no scientific output was recomputed. The second run also created no output directory.

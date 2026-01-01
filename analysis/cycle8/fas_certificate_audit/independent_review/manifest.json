@@ -1,0 +1,28 @@
+{
+  "status": "passed",
+  "checks": {
+    "author_analysis_hash": true,
+    "author_protocol_hash": true,
+    "author_result_hash": true,
+    "no_em_dash": true,
+    "optimization_refusal": true,
+    "overwrite_refusal": true
+  },
+  "ownership": "independent_review only",
+  "author_analysis_read": false,
+  "author_analysis_imported": false,
+  "inputs": {
+    "work\\research_cycle8\\fas_certificate_audit\\protocol.md": "37a8d6dd8e21c7d23a00e2e330650eb3490474fac5214a068415b3bdcbaaa1b4",
+    "work\\research_cycle8\\fas_certificate_audit\\results_v1\\result.json": "06fd96ac198fe24be5c6fbf73af213162b0d9fbc2f76c5a589a3ae41bc6393a2",
+    "work\\research_cycle8\\fas_certificate_audit\\results_v1\\manifest.json": "207efee3636d58ae311c03a4e17f70dea588d2c0f6ba4608b8386baa137d41df",
+    "work/research_cycle6/fas_results/full_result_v1.json": "3f34f322acc8bc9a6f6b414278d6581c458bce08f0f3bb18a3bcccee7320e466",
+    "work/research_cycle7/results/robustness.json": "861b7061db34532698b074c22409aceb16925a56348b5dcdbf313bcb2dbd40aa"
+  },
+  "owned_files": {
+    "optimization_refusal.log": "aec188ce289854a9ef1a959c356688cba69a653d17355fc425837efd743c2224",
+    "overwrite_refusal.log": "1e5455a918b2ca5f7f00236e0ec9587fad350e962760c712d758afe496c3025b",
+    "receipt.json": "74366567c63944fe4c2d368f890d35bd48fef45f27e5e0e1ee23c4a8258cafb3",
+    "report.md": "f28f2975eee81aaf90726779dc5367dab33ecdfa562aeb20b42f72386cf48e6c",
+    "verify.py": "2f938e0ee8c912b252400c592adae6debce5c20a67dac408422e5c0a85ed3013"
+  }
+}

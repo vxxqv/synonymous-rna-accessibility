@@ -1,0 +1,8 @@
+{
+  "status": "SEALED_AFTER_SYNTHETIC_BEFORE_EXPOSED_BOUNDARY_EXECUTION",
+  "code_sha256": "9d52f4b0a714f18907150b420827787c5cff1b7433bd31de095a00f0744b7e11",
+  "protocol_sha256": "664b4eca29fbbd3bbf7d8eede14b6ce39e4a52fa651860df122d905ff981a293",
+  "input_manifest_sha256": "42f2977ddeadf6f562498dcdca5b5c20390161287e48b54ee83a400083c93235",
+  "synthetic_receipt_sha256": "7d5efc7042958d4a8daeec40e284287144b563d270121684da46367433225d7e",
+  "guard_receipt_sha256": "793f7bc687fb2db5fe6e9976d1efbde9c48e19b30df0960528031f5494b3cb9a"
+}

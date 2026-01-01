@@ -1,0 +1,10 @@
+{
+  "biological_outcome_tables_opened": false,
+  "new_source_counts_or_missingness_opened": false,
+  "observed_fits_or_tests_run": false,
+  "metadata_inputs": ["cprime_pilot/eligibility.json", "cprime_gate/multi_exon_selected_metadata.json", "cprime_gate/selected_assay_metadata.json", "cprime_gate/search_sequence_metadata.json"],
+  "previously_exposed_published_material_read": ["cprime_gate/marker_context_primary.txt: published marker removal/substitution descriptions and aggregate example values. These are prior source claims, not new row-level observations."],
+  "existing_protocol_read": "cprime_pilot/protocol.md and interval_core.py for the already declared interval and gamma conventions; no saved biological result was opened.",
+  "new_quantities": "Exact metadata design ranks, aliases, coordinate coverage and synthetic mathematical checks only.",
+  "successor_status": "Proposed exploratory use of already exposed B1 intervals, held pending root review and a new exact freeze."
+}

@@ -1,0 +1,58 @@
+{
+  "query": "partial identification additive interaction sensitivity bounds unobserved factorial treatment combinations monotone transformations",
+  "provider": "Consensus",
+  "purpose": "Bounded methodological discovery before review; not an empirical analysis.",
+  "results": [
+    {
+      "title": "Sharp Bounds for Generalized Causal Sensitivity Analysis",
+      "year": 2023,
+      "url": "https://consensus.app/papers/details/6f97d44e1c2b56ee998645b0a836843c/?utm_source=chatgpt"
+    },
+    {
+      "title": "Copula-based Sensitivity Analysis for Multi-Treatment Causal Inference with Unobserved Confounding",
+      "year": 2021,
+      "url": "https://consensus.app/papers/details/cdc7e76468ff52eaa42e79c759444081/?utm_source=chatgpt"
+    },
+    {
+      "title": "Doubly-Valid/Doubly-Sharp Sensitivity Analysis for Causal Inference with Unmeasured Confounding",
+      "year": 2021,
+      "url": "https://consensus.app/papers/details/b5821a6015215a419148e50ec9548124/?utm_source=chatgpt"
+    },
+    {
+      "title": "Sharp Sensitivity Analysis for Inverse Propensity Weighting via Quantile Balancing",
+      "year": 2021,
+      "url": "https://consensus.app/papers/details/68e5895ac2f754b6a46cee1ea70ab21f/?utm_source=chatgpt"
+    },
+    {
+      "title": "Causal Inference for Statistics, Social, and Biomedical Sciences: Sensitivity Analysis and Bounds",
+      "year": 2015,
+      "url": "https://consensus.app/papers/details/54836e650c675178bffc401913ffa1b2/?utm_source=chatgpt"
+    },
+    {
+      "title": "Sensitivity Analysis under the f -Sensitivity Models: Definition, Estimation and Inference",
+      "year": 2022,
+      "url": "https://consensus.app/papers/details/aadcc19eee5e54d2b29e70acc1243fa3/?utm_source=chatgpt"
+    },
+    {
+      "title": "An Automated Approach to Causal Inference in Discrete Settings",
+      "year": 2021,
+      "url": "https://consensus.app/papers/details/6da50972e7bb52cc9624d46c24675894/?utm_source=chatgpt"
+    },
+    {
+      "title": "Partial Identification of Treatment Effects with Implicit Generative Models",
+      "year": 2022,
+      "url": "https://consensus.app/papers/details/ccd1702b8263542fb88dcdffedcce6d8/?utm_source=chatgpt"
+    },
+    {
+      "title": "A Differential Effect Approach to Partial Identification of Treatment Effects",
+      "year": 2023,
+      "url": "https://consensus.app/papers/details/668a9718a8dc5977b7ab73fb931afe5c/?utm_source=chatgpt"
+    },
+    {
+      "title": "Policy evaluation with multiple instrumental variables",
+      "year": 2024,
+      "url": "https://consensus.app/papers/details/d16114ef067c50998477b66377a0ff86/?utm_source=chatgpt"
+    }
+  ],
+  "use": "No returned search result is cited as theorem evidence; papers focused on causal assignment/confounding do not authenticate marker-interaction bounds. No fetch was necessary for an uncited result."
+}

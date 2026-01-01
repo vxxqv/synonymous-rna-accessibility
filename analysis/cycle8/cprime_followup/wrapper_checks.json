@@ -1,0 +1,28 @@
+{
+  "wrapper_sha256": "4682f9fe14599f1bf9b4f5a2c62a78eb87a172d51abb49d11d1cff87b2beec23",
+  "checks": [
+    {
+      "flags": [],
+      "returncode": 0,
+      "stdout": "usage: run_verified.py [-h] --input INPUT --out OUT\n\nExact reviewed calculation in a fresh directory; outputs are under\nOUT/results_v1\n\noptions:\n  -h, --help     show this help message and exit\n  --input INPUT\n  --out OUT\n",
+      "stderr": ""
+    },
+    {
+      "flags": [
+        "-O"
+      ],
+      "returncode": 1,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\work\\research_cycle8\\cprime_followup\\run_verified.py\", line 3, in <module>\n    raise RuntimeError('Optimized Python is prohibited before any data access')\nRuntimeError: Optimized Python is prohibited before any data access\n"
+    },
+    {
+      "flags": [
+        "-OO"
+      ],
+      "returncode": 1,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\work\\research_cycle8\\cprime_followup\\run_verified.py\", line 3, in <module>\n    raise RuntimeError('Optimized Python is prohibited before any data access')\nRuntimeError: Optimized Python is prohibited before any data access\n"
+    }
+  ],
+  "outcomes_accessed": false
+}

@@ -1,0 +1,26 @@
+{
+  "status": "COMPLETE_AWAITING_FRESH_ROOT_NUMERICAL_REVIEW",
+  "protocol_sha256": "664b4eca29fbbd3bbf7d8eede14b6ce39e4a52fa651860df122d905ff981a293",
+  "inputs_unchanged": true,
+  "files": {
+    "actual_v1/progress.json": "caa97dcdee096e693d793e6199e68d9496f20d45a8d4e7dd176cc0a33d94334b",
+    "actual_v1/receipt.json": "1c6647cf4f32585afe3e3f0eee9c3e340852fb86308802c06f3d7503f883703d",
+    "actual_v1/result.json": "3477a640e9b16220498edbdf92ee7a2fd46292dc715c1fb58136344e93293afc",
+    "authorization.json": "eda5e45364ee668428a76f0fd3eed0ccb5982f5a50e865821fbfb09a2e4f2fbd",
+    "double_optimized.log": "6cf31eed2a62df5bcbace13260f59262eeb1fc632f553e07d99f9649b07b0db2",
+    "guard_receipt.json": "793f7bc687fb2db5fe6e9976d1efbde9c48e19b30df0960528031f5494b3cb9a",
+    "hash_drift.log": "7ba10cc4b5ae5162a5e253cd60a7735507fcd1132a0ee85e88a2abed6e52f5cd",
+    "input_manifest.json": "42f2977ddeadf6f562498dcdca5b5c20390161287e48b54ee83a400083c93235",
+    "invented_bad_hash_manifest.json": "efae0c99022f62c408fb6d97a1101d59d6660a11da95f69bb06710b4efbc5ad1",
+    "optimized.log": "6cf31eed2a62df5bcbace13260f59262eeb1fc632f553e07d99f9649b07b0db2",
+    "overwrite.log": "bc87f5e98d378a2b2d51698f68f2e8eec020e1ec7df37cccc6e4866a80f91726",
+    "protocol.md": "664b4eca29fbbd3bbf7d8eede14b6ce39e4a52fa651860df122d905ff981a293",
+    "report.md": "b55c3c4ac971e137983db6298de9217c4b3405322196783a869e4b9e2e69a8b0",
+    "run.py": "9d52f4b0a714f18907150b420827787c5cff1b7433bd31de095a00f0744b7e11",
+    "seal.json": "e9bc84096ee646c2df82014203e799fba9b5cab4ad9dad7571e1e847a450f720",
+    "summary_checks.json": "75fe4e1b7cc27376a2948823e969cde690a114f18d66f057c69a690c9a2a865c",
+    "synthetic_v1/receipt.json": "7d5efc7042958d4a8daeec40e284287144b563d270121684da46367433225d7e",
+    "unauthorized.log": "a1fe97eb13831754746cc828388fa77b3a4c080808513c533c4bb11656f26f23"
+  },
+  "read_boundary_disclosure": "B1 selective; already-exposed saved B boundary and D1 artifacts decoded in full; only specified boundary/witness fields used; no source workbook."
+}

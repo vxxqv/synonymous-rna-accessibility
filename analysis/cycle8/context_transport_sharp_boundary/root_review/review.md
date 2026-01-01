@@ -1,0 +1,7 @@
+# Root independent review of exact context boundaries
+
+PASS. The separate checker reconstructs the design directly from the pinned local-state mapping, without importing either solver. It checks all five new M0 boundary witnesses and all five M1-at-one witnesses: 724 forced comparisons, 264 response values, 3,029 within-context monotonicity conditions and four cycle edges. SymPy independently checks the per-exon ranks. The cycle lower bound and attained primal upper bound agree exactly for both nontrivial thresholds; the domain lower bound one closes the other three. No new fitting or outcome rerun was needed.
+
+The claim is specific to these deposited intervals and this local descriptor design. The exon-27 surjectivity argument is valid for arbitrary responses on that fixed full-row-rank design. No universal equivalence for rank-deficient designs follows. At a boundary, equality removes a forced comparison because the test is strict. Positive response completions and flat segments are checked explicitly. Numerical reconstruction is separate from biological replication and calibration.
+
+The implementation's disclosed broader decoding of already exposed saved JSON is retained as a protocol inspection deviation. It did not access a new source workbook, alter the frozen model or enter unused fields into the calculation. This does not turn the exploratory follow-up into prespecified biological validation.

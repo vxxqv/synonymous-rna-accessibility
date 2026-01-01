@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "checks": 11,
+  "fixture_boundary_t": "3/2",
+  "scope": "Invented inputs only; no saved B1 intervals or outcome breakpoints decoded.",
+  "code_sha256": "9d52f4b0a714f18907150b420827787c5cff1b7433bd31de095a00f0744b7e11",
+  "input_manifest_sha256": "42f2977ddeadf6f562498dcdca5b5c20390161287e48b54ee83a400083c93235"
+}

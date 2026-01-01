@@ -1,0 +1,16 @@
+{
+  "status": "PROTOCOL_AWAITING_ROOT_REVIEW_NO_NEW_BOUNDARY_COMPUTATIONS",
+  "protocol_sha256": "664b4eca29fbbd3bbf7d8eede14b6ce39e4a52fa651860df122d905ff981a293",
+  "inputs": {
+    "work/research_cycle8/cprime_results/primary_v1/result.json": "eeeb40c167e689ae4266bbe49fdef7c8711163ca426b217adaee14f0b4a6afdf",
+    "work/research_cycle8/context_design_audit/inventory_v1/nested_matrices.json": "665c4d0586310d09868b07f01163875e82708c3441201ab7757d7c897b3ab874",
+    "work/research_cycle8/context_design_audit/exact_v1/mapping.json": "a2f428f5308cb78a827bfbd23f7d7756b98980e3585f0ccf6a733859c2388436",
+    "work/research_cycle8/cprime_followup/results_v1/result.json": "851bbf75b66dd0186d0b99d7536409773de1afdae5c3ea83c57563655d55308e",
+    "work/research_cycle8/context_design_audit/nested_model/runner.py": "2a58c52ee80ea234bc1466a207ae5e4f9b020f142088721b239abcf1a5b86cc9",
+    "work/research_cycle8/context_design_audit/nested_protocol.md": "53d9cd73e405a94741b9e25ef00bfe81f9cb4bc5e2a34776d0e6fa29f0b5f9c8",
+    "work/research_cycle8/context_design_audit/nested_model/input_addendum.md": "804d28c2b6e2625f565ed8d27e46100e6efd1bd097f4aac6eb99094e02533e3d",
+    "work/research_cycle8/context_design_audit/nested_model/freeze.json": "7b0492085b009303790fb1994d02fcfe8bf0760f48dd7eace12a78b3fac1c13e",
+    "work/research_cycle8/context_design_audit/nested_model/actual_v1/result.json": "9b9726f456a0309412df34530ec03b826e70f7ac5610617142ac96cf6e827e2e"
+  },
+  "scope": "Previously exposed saved results only; no workbook/source-count access; no new outcome-derived breakpoints or fits yet."
+}

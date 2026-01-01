@@ -1,0 +1,254 @@
+[
+  {
+    "group": "chr17-31225100-A-T",
+    "minus_state": "chr17-31225100-A-T_chr17-31225106-A-G",
+    "plus_state": "chr17-31225100-A-T_chr17-31225109-T-C",
+    "interpretation": "Difference between two combined intended-edit/marker local states, not an isolated intended-edit effect.",
+    "both_in_sole_additive_constraint": true
+  },
+  {
+    "group": "chr17-31225112-C-A",
+    "minus_state": "chr17-31225112-C-A_chr17-31225103-T-C",
+    "plus_state": "chr17-31225112-C-A_chr17-31225106-A-G",
+    "interpretation": "Difference between two combined intended-edit/marker local states, not an isolated intended-edit effect.",
+    "both_in_sole_additive_constraint": false
+  },
+  {
+    "group": "chr17-31225112-C-T",
+    "minus_state": "chr17-31225112-C-T_chr17-31225106-A-G",
+    "plus_state": "chr17-31225112-C-T_chr17-31225109-T-C",
+    "interpretation": "Difference between two combined intended-edit/marker local states, not an isolated intended-edit effect.",
+    "both_in_sole_additive_constraint": true
+  },
+  {
+    "group": "chr17-31225133-C-T",
+    "minus_state": "chr17-31225133-C-T_chr17-31225136-G-C",
+    "plus_state": "chr17-31225133-C-T_chr17-31225142-A-C",
+    "interpretation": "Difference between two combined intended-edit/marker local states, not an isolated intended-edit effect.",
+    "both_in_sole_additive_constraint": false
+  },
+  {
+    "group": "chr17-31225133-C-T",
+    "minus_state": "chr17-31225133-C-T_chr17-31225136-G-C",
+    "plus_state": "chr17-31225133-C-T_chr17-31225142-A-G",
+    "interpretation": "Difference between two combined intended-edit/marker local states, not an isolated intended-edit effect.",
+    "both_in_sole_additive_constraint": false
+  },
+  {
+    "group": "chr17-31225136-G-T",
+    "minus_state": "chr17-31225136-G-T_chr17-31225142-A-C",
+    "plus_state": "chr17-31225136-G-T_chr17-31225145-T-C",
+    "interpretation": "Difference between two combined intended-edit/marker local states, not an isolated intended-edit effect.",
+    "both_in_sole_additive_constraint": false
+  },
+  {
+    "group": "chr17-31225200-C-T",
+    "minus_state": "chr17-31225200-C-T_chr17-31225197-T-C",
+    "plus_state": "chr17-31225200-C-T_chr17-31225205-T-C",
+    "interpretation": "Difference between two combined intended-edit/marker local states, not an isolated intended-edit effect.",
+    "both_in_sole_additive_constraint": false
+  },
+  {
+    "group": "chr17-31225226-G-A",
+    "minus_state": "chr17-31225226-G-A_chr17-31225220-T-C",
+    "plus_state": "chr17-31225226-G-A_chr17-31225223-C-G",
+    "interpretation": "Difference between two combined intended-edit/marker local states, not an isolated intended-edit effect.",
+    "both_in_sole_additive_constraint": false
+  },
+  {
+    "group": "chr17-31225226-G-T",
+    "minus_state": "chr17-31225226-G-T_chr17-31225220-T-C",
+    "plus_state": "chr17-31225226-G-T_chr17-31225220-T-G",
+    "interpretation": "Difference between two combined intended-edit/marker local states, not an isolated intended-edit effect.",
+    "both_in_sole_additive_constraint": false
+  },
+  {
+    "group": "chr17-31225226-G-T",
+    "minus_state": "chr17-31225226-G-T_chr17-31225220-T-C",
+    "plus_state": "chr17-31225226-G-T_chr17-31225229-G-A",
+    "interpretation": "Difference between two combined intended-edit/marker local states, not an isolated intended-edit effect.",
+    "both_in_sole_additive_constraint": false
+  },
+  {
+    "group": "chr17-31225232-A-G",
+    "minus_state": "chr17-31225232-A-G_chr17-31225226-G-A",
+    "plus_state": "chr17-31225232-A-G_chr17-31225241-C-T",
+    "interpretation": "Difference between two combined intended-edit/marker local states, not an isolated intended-edit effect.",
+    "both_in_sole_additive_constraint": false
+  },
+  {
+    "group": "chr17-31225232-A-T",
+    "minus_state": "chr17-31225232-A-T_chr17-31225223-C-G",
+    "plus_state": "chr17-31225232-A-T_chr17-31225238-G-C",
+    "interpretation": "Difference between two combined intended-edit/marker local states, not an isolated intended-edit effect.",
+    "both_in_sole_additive_constraint": false
+  },
+  {
+    "group": "chr17-31225238-G-A",
+    "minus_state": "chr17-31225238-G-A_chr17-31225244-C-A",
+    "plus_state": "chr17-31225238-G-A_chr17-31225244-C-G",
+    "interpretation": "Difference between two combined intended-edit/marker local states, not an isolated intended-edit effect.",
+    "both_in_sole_additive_constraint": false
+  },
+  {
+    "group": "chr17-31225238-G-T",
+    "minus_state": "chr17-31225238-G-T_chr17-31225241-C-T",
+    "plus_state": "chr17-31225238-G-T_chr17-31225244-C-T",
+    "interpretation": "Difference between two combined intended-edit/marker local states, not an isolated intended-edit effect.",
+    "both_in_sole_additive_constraint": false
+  },
+  {
+    "group": "chr17-31232145-A-T",
+    "minus_state": "chr17-31232145-A-T_chr17-31232142-A-G",
+    "plus_state": "chr17-31232145-A-T_chr17-31232154-G-C",
+    "interpretation": "Difference between two combined intended-edit/marker local states, not an isolated intended-edit effect.",
+    "both_in_sole_additive_constraint": false
+  },
+  {
+    "group": "chr17-31232148-T-C",
+    "minus_state": "chr17-31232148-T-C_chr17-31232145-A-G",
+    "plus_state": "chr17-31232148-T-C_chr17-31232151-T-G",
+    "interpretation": "Difference between two combined intended-edit/marker local states, not an isolated intended-edit effect.",
+    "both_in_sole_additive_constraint": false
+  },
+  {
+    "group": "chr17-31233072-A-G",
+    "minus_state": "chr17-31233072-A-G_chr17-31233075-C-A",
+    "plus_state": "chr17-31233072-A-G_chr17-31233078-A-C",
+    "interpretation": "Difference between two combined intended-edit/marker local states, not an isolated intended-edit effect.",
+    "both_in_sole_additive_constraint": false
+  },
+  {
+    "group": "chr17-31233072-A-G",
+    "minus_state": "chr17-31233072-A-G_chr17-31233075-C-A",
+    "plus_state": "chr17-31233072-A-G_chr17-31233081-A-G",
+    "interpretation": "Difference between two combined intended-edit/marker local states, not an isolated intended-edit effect.",
+    "both_in_sole_additive_constraint": false
+  },
+  {
+    "group": "chr17-31233123-G-A",
+    "minus_state": "chr17-31233123-G-A_chr17-31233117-G-A",
+    "plus_state": "chr17-31233123-G-A_chr17-31233120-T-C",
+    "interpretation": "Difference between two combined intended-edit/marker local states, not an isolated intended-edit effect.",
+    "both_in_sole_additive_constraint": false
+  },
+  {
+    "group": "chr17-31233126-A-G",
+    "minus_state": "chr17-31233126-A-G_chr17-31233117-G-C",
+    "plus_state": "chr17-31233126-A-G_chr17-31233129-G-A",
+    "interpretation": "Difference between two combined intended-edit/marker local states, not an isolated intended-edit effect.",
+    "both_in_sole_additive_constraint": false
+  },
+  {
+    "group": "chr17-31233126-A-G",
+    "minus_state": "chr17-31233126-A-G_chr17-31233117-G-C",
+    "plus_state": "chr17-31233126-A-G_chr17-31233132-G-C",
+    "interpretation": "Difference between two combined intended-edit/marker local states, not an isolated intended-edit effect.",
+    "both_in_sole_additive_constraint": false
+  },
+  {
+    "group": "chr17-31233156-T-C",
+    "minus_state": "chr17-31233156-T-C_chr17-31233159-A-G",
+    "plus_state": "chr17-31233156-T-C_chr17-31233162-A-G",
+    "interpretation": "Difference between two combined intended-edit/marker local states, not an isolated intended-edit effect.",
+    "both_in_sole_additive_constraint": false
+  },
+  {
+    "group": "chr17-31330380-A-G",
+    "minus_state": "chr17-31330380-A-G_chr17-31330371-A-T",
+    "plus_state": "chr17-31330380-A-G_chr17-31330377-T-G",
+    "interpretation": "Difference between two combined intended-edit/marker local states, not an isolated intended-edit effect.",
+    "both_in_sole_additive_constraint": false
+  },
+  {
+    "group": "chr17-31330380-A-G",
+    "minus_state": "chr17-31330380-A-G_chr17-31330371-A-T",
+    "plus_state": "chr17-31330380-A-G_chr17-31330389-T-A",
+    "interpretation": "Difference between two combined intended-edit/marker local states, not an isolated intended-edit effect.",
+    "both_in_sole_additive_constraint": false
+  },
+  {
+    "group": "chr17-31330392-C-T",
+    "minus_state": "chr17-31330392-C-T_chr17-31330386-C-T",
+    "plus_state": "chr17-31330392-C-T_chr17-31330389-T-C",
+    "interpretation": "Difference between two combined intended-edit/marker local states, not an isolated intended-edit effect.",
+    "both_in_sole_additive_constraint": false
+  },
+  {
+    "group": "chr17-31330395-C-T",
+    "minus_state": "chr17-31330395-C-T_chr17-31330392-C-A",
+    "plus_state": "chr17-31330395-C-T_chr17-31330401-C-A",
+    "interpretation": "Difference between two combined intended-edit/marker local states, not an isolated intended-edit effect.",
+    "both_in_sole_additive_constraint": false
+  },
+  {
+    "group": "chr17-31330422-T-C",
+    "minus_state": "chr17-31330422-T-C_chr17-31330416-T-C",
+    "plus_state": "chr17-31330422-T-C_chr17-31330431-G-T",
+    "interpretation": "Difference between two combined intended-edit/marker local states, not an isolated intended-edit effect.",
+    "both_in_sole_additive_constraint": false
+  },
+  {
+    "group": "chr17-31336736-C-A",
+    "minus_state": "chr17-31336736-C-A_chr17-31336733-A-C",
+    "plus_state": "chr17-31336736-C-A_chr17-31336733-A-T",
+    "interpretation": "Difference between two combined intended-edit/marker local states, not an isolated intended-edit effect.",
+    "both_in_sole_additive_constraint": false
+  },
+  {
+    "group": "chr17-31336736-C-G",
+    "minus_state": "chr17-31336736-C-G_chr17-31336727-T-A",
+    "plus_state": "chr17-31336736-C-G_chr17-31336745-G-A",
+    "interpretation": "Difference between two combined intended-edit/marker local states, not an isolated intended-edit effect.",
+    "both_in_sole_additive_constraint": false
+  },
+  {
+    "group": "chr17-31336736-C-T",
+    "minus_state": "chr17-31336736-C-T_chr17-31336728-T-C",
+    "plus_state": "chr17-31336736-C-T_chr17-31336743-C-T",
+    "interpretation": "Difference between two combined intended-edit/marker local states, not an isolated intended-edit effect.",
+    "both_in_sole_additive_constraint": false
+  },
+  {
+    "group": "chr17-31336772-T-C",
+    "minus_state": "chr17-31336772-T-C_chr17-31336766-C-T",
+    "plus_state": "chr17-31336772-T-C_chr17-31336781-T-A",
+    "interpretation": "Difference between two combined intended-edit/marker local states, not an isolated intended-edit effect.",
+    "both_in_sole_additive_constraint": false
+  },
+  {
+    "group": "chr17-31336802-C-T",
+    "minus_state": "chr17-31336802-C-T_chr17-31336793-C-T",
+    "plus_state": "chr17-31336802-C-T_chr17-31336796-C-A",
+    "interpretation": "Difference between two combined intended-edit/marker local states, not an isolated intended-edit effect.",
+    "both_in_sole_additive_constraint": false
+  },
+  {
+    "group": "chr17-31336865-C-A",
+    "minus_state": "chr17-31336865-C-A_chr17-31336862-G-C",
+    "plus_state": "chr17-31336865-C-A_chr17-31336871-T-C",
+    "interpretation": "Difference between two combined intended-edit/marker local states, not an isolated intended-edit effect.",
+    "both_in_sole_additive_constraint": false
+  },
+  {
+    "group": "chr17-31336865-C-A",
+    "minus_state": "chr17-31336865-C-A_chr17-31336862-G-C",
+    "plus_state": "chr17-31336865-C-A_chr17-31336874-C-A",
+    "interpretation": "Difference between two combined intended-edit/marker local states, not an isolated intended-edit effect.",
+    "both_in_sole_additive_constraint": false
+  },
+  {
+    "group": "chr17-31336865-C-G",
+    "minus_state": "chr17-31336865-C-G_chr17-31336860-C-T",
+    "plus_state": "chr17-31336865-C-G_chr17-31336868-T-A",
+    "interpretation": "Difference between two combined intended-edit/marker local states, not an isolated intended-edit effect.",
+    "both_in_sole_additive_constraint": false
+  },
+  {
+    "group": "chr17-31336865-C-T",
+    "minus_state": "chr17-31336865-C-T_chr17-31336856-T-C",
+    "plus_state": "chr17-31336865-C-T_chr17-31336868-T-A",
+    "interpretation": "Difference between two combined intended-edit/marker local states, not an isolated intended-edit effect.",
+    "both_in_sole_additive_constraint": false
+  }
+]

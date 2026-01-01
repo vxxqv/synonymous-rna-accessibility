@@ -1,0 +1,22 @@
+{
+  "freeze_sha256": "7b0492085b009303790fb1994d02fcfe8bf0760f48dd7eace12a78b3fac1c13e",
+  "authorization_sha256": "f56059a7c5a95ad48556d302fefe34388ec64d0cbc91d3999ba3ab84d1f00202",
+  "input_sha256": {
+    "b1": "eeeb40c167e689ae4266bbe49fdef7c8711163ca426b217adaee14f0b4a6afdf",
+    "matrices": "665c4d0586310d09868b07f01163875e82708c3441201ab7757d7c897b3ab874",
+    "mapping": "a2f428f5308cb78a827bfbd23f7d7756b98980e3585f0ccf6a733859c2388436"
+  },
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1"
+  },
+  "command_arguments": {
+    "freeze": "work\\research_cycle8\\context_design_audit\\nested_model\\freeze.json",
+    "authorization": "work\\research_cycle8\\context_design_audit\\nested_model\\authorization.json",
+    "b1": "work\\research_cycle8\\cprime_results\\primary_v1\\result.json",
+    "matrices": "work\\research_cycle8\\context_design_audit\\inventory_v1\\nested_matrices.json",
+    "mapping": "work\\research_cycle8\\context_design_audit\\exact_v1\\mapping.json",
+    "out": "work\\research_cycle8\\context_design_audit\\nested_model\\actual_v1"
+  }
+}

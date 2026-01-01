@@ -1,0 +1,190 @@
+{
+  "status": "passed",
+  "source_sha256": "3f34f322acc8bc9a6f6b414278d6581c458bce08f0f3bb18a3bcccee7320e466",
+  "author_result_sha256": "06fd96ac198fe24be5c6fbf73af213162b0d9fbc2f76c5a589a3ae41bc6393a2",
+  "previous_robustness_sha256": "861b7061db34532698b074c22409aceb16925a56348b5dcdbf313bcb2dbd40aa",
+  "states": 72,
+  "design_columns": 8,
+  "levels": [
+    [
+      "CTG",
+      "CTT",
+      "TTG"
+    ],
+    [
+      "CTC",
+      "CTG",
+      "TTG"
+    ],
+    [
+      "CTC",
+      "CTT"
+    ],
+    [
+      "CTG",
+      "CTT"
+    ],
+    [
+      "CCA",
+      "CCG"
+    ]
+  ],
+  "columns": [
+    [
+      "intercept"
+    ],
+    [
+      0,
+      "CTT"
+    ],
+    [
+      0,
+      "TTG"
+    ],
+    [
+      1,
+      "CTG"
+    ],
+    [
+      1,
+      "TTG"
+    ],
+    [
+      2,
+      "CTT"
+    ],
+    [
+      3,
+      "CTT"
+    ],
+    [
+      4,
+      "CCG"
+    ]
+  ],
+  "forced_orders": 74,
+  "enumeration": {
+    "1": {
+      "combinations": 74,
+      "nonminimal_skipped": 0,
+      "certificates": 0
+    },
+    "2": {
+      "combinations": 2701,
+      "nonminimal_skipped": 0,
+      "certificates": 0
+    },
+    "3": {
+      "combinations": 64824,
+      "nonminimal_skipped": 0,
+      "certificates": 1
+    }
+  },
+  "certificates": [
+    {
+      "support": [
+        12,
+        31,
+        41
+      ],
+      "weights": [
+        "1/3",
+        "1/3",
+        "1/3"
+      ],
+      "edges": [
+        {
+          "i": 16,
+          "j": 46,
+          "row": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "loss_t": "61905156488289/48559156033600"
+        },
+        {
+          "i": 42,
+          "j": 13,
+          "row": [
+            0,
+            -1,
+            0,
+            0,
+            0,
+            0,
+            -1,
+            1
+          ],
+          "loss_t": "9128860950384/8609574801263"
+        },
+        {
+          "i": 47,
+          "j": 46,
+          "row": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            -1
+          ],
+          "loss_t": "15507410823025/10617848318016"
+        }
+      ],
+      "cancellation": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "vertices": [
+        13,
+        16,
+        42,
+        46,
+        47
+      ],
+      "persistence_t_exclusive": "9128860950384/8609574801263"
+    }
+  ],
+  "minimum_comparisons": 3,
+  "boundary_tied_comparisons": [
+    [
+      42,
+      13
+    ]
+  ],
+  "boundary_forced_orders": 50,
+  "boundary_beta": [
+    "0",
+    "0",
+    "-4",
+    "3",
+    "4",
+    "1",
+    "1",
+    "-1"
+  ],
+  "isotonic_completion_pair_checks": 2894,
+  "synthetic_checks": 45,
+  "author_analysis_imported_or_executed": false,
+  "limitations": [
+    "Finite support audit covers every support of sizes 1,2,3 only.",
+    "Global feasibility at the boundary is independently checked from supplied exact beta.",
+    "No new source outcomes, calibrated uncertainty, molecular mechanism or independent biological validation."
+  ],
+  "reviewer_code_sha256": "2f938e0ee8c912b252400c592adae6debce5c20a67dac408422e5c0a85ed3013",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]"
+}

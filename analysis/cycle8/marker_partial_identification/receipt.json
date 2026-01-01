@@ -1,0 +1,122 @@
+{
+  "status": "passed",
+  "scale": "Exact rational synthetic examples; no empirical bounds",
+  "single_marker_alpha_membership_checks": 2376,
+  "two_marker_systems": 5184,
+  "constructive_witnesses": 17400,
+  "opposite_effect_observationally_identical_worlds": [
+    {
+      "alpha_log2": "-10",
+      "WT_ratio": 1,
+      "marker_only_ratios": [
+        1,
+        1
+      ],
+      "edit_only_ratio": "1/1024",
+      "combined_log2": {
+        "a/e": "2",
+        "b/e": "3",
+        "a/b": "4"
+      },
+      "interactions_log2": {
+        "a/e": "12",
+        "b/e": "13",
+        "a/b": "4"
+      }
+    },
+    {
+      "alpha_log2": "10",
+      "WT_ratio": 1,
+      "marker_only_ratios": [
+        1,
+        1
+      ],
+      "edit_only_ratio": "1024",
+      "combined_log2": {
+        "a/e": "2",
+        "b/e": "3",
+        "a/b": "4"
+      },
+      "interactions_log2": {
+        "a/e": "-8",
+        "b/e": "-7",
+        "a/b": "4"
+      }
+    }
+  ],
+  "raw_main_bound_domain_counterexample": {
+    "mu": "1",
+    "combined": "1",
+    "B": "2",
+    "I": "0",
+    "nominal_alpha_interval": [
+      "-2",
+      "2"
+    ],
+    "admitted_alpha": "2",
+    "implied_beta": "-2",
+    "invalid_marker_only": "-1",
+    "correct_sharp_alpha_set": "(-1,1) under these strictly positive raw-cell assumptions"
+  },
+  "bounded_interaction_positive_example": {
+    "sharp_alpha_set": [
+      "1",
+      "2"
+    ],
+    "endpoint_witnesses": [
+      {
+        "alpha": "1",
+        "witnesses": [
+          {
+            "combined": "2",
+            "marker_only": "1",
+            "interaction": "0"
+          },
+          {
+            "combined": "3",
+            "marker_only": "1",
+            "interaction": "1"
+          }
+        ]
+      },
+      {
+        "alpha": "2",
+        "witnesses": [
+          {
+            "combined": "2",
+            "marker_only": "1",
+            "interaction": "-1"
+          },
+          {
+            "combined": "3",
+            "marker_only": "1",
+            "interaction": "0"
+          }
+        ]
+      }
+    ]
+  },
+  "monotone_latent_vs_observed_log": {
+    "latent": {
+      "00": 0,
+      "e0": 1,
+      "0m": 1,
+      "em": 2
+    },
+    "raw": {
+      "00": 1,
+      "e0": 2,
+      "0m": 2,
+      "em": 16
+    },
+    "observed_log2": {
+      "00": 0,
+      "e0": 1,
+      "0m": 1,
+      "em": 4
+    },
+    "observed_log_interaction": 2
+  },
+  "code_sha256": "2fead6d339576d0b57adb553fb5eda5ffdbfc1b3de1733b6ac209660a5d34a18",
+  "scope": "Finite corroboration of independently reconstructed algebra, not a universal proof or real-data calibration."
+}

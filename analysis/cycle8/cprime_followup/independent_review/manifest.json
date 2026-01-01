@@ -1,0 +1,13 @@
+{
+  "status": "PASS_NUMERICS_AND_PROOFS_WITH_EXECUTION_GUARD_QUALIFICATION",
+  "files_sha256": {
+    "decimal_boundary_check.py": "ff38d3fcb6465566f50a705fab7c2e71960d74366403dca97b3c6bbdc941e864",
+    "decimal_v1/receipt.json": "c5a3d6f20e8565abf62a1d79a737eae7fe5d6dbf1cb1c46c64692da1bafcd0f1",
+    "exact_v1/receipt.json": "9c6ded046562dc7ea327eec0f6ac76032507435ac7f58feefde43e3e83acdc49",
+    "exact_v1/reconstruction.json": "17eed16928c98b6c1fb2d38299921cab508cce5d152fbc4279006f20a085aafd",
+    "review.md": "e872ba894592594b0793277f0f1732fac09d7f9b951f41efd3c5226d9ef7f263",
+    "verify.py": "d4a0edfd7d1ed037cd17fd0d95b01aa2b99fbe29203e4c467129531168b72e49"
+  },
+  "root_source_unchanged": true,
+  "no_new_source_outcomes": true
+}

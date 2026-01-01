@@ -1,0 +1,88 @@
+{
+  "status": "PASS",
+  "source_sha256": "3048792fd15224077be2a77984899315bb5aa334c8962685435c1893abd16251",
+  "cases": [
+    "additive checkerboard exact normalized dual",
+    "saturated pair-model exact feasible witness",
+    "unrestricted order not equivalent to additivity",
+    "touching intervals and latent ties",
+    "unknown open-zero positive completion",
+    "strict finite gaps rescale to unit margin",
+    "shared versus cell-specific separation",
+    "all four fixed widening factors"
+  ],
+  "checkerboard_constraints": [
+    {
+      "higher": 0,
+      "lower": 1,
+      "a": [
+        "0",
+        "0",
+        "-1"
+      ]
+    },
+    {
+      "higher": 0,
+      "lower": 2,
+      "a": [
+        "0",
+        "-1",
+        "0"
+      ]
+    },
+    {
+      "higher": 3,
+      "lower": 1,
+      "a": [
+        "0",
+        "1",
+        "0"
+      ]
+    },
+    {
+      "higher": 3,
+      "lower": 2,
+      "a": [
+        "0",
+        "0",
+        "1"
+      ]
+    }
+  ],
+  "checkerboard_dual": [
+    "1/2",
+    "0",
+    "0",
+    "1/2"
+  ],
+  "pair_model_values": [
+    "2",
+    "1",
+    "1",
+    "2"
+  ],
+  "tied_values": [
+    "2",
+    "2",
+    "2"
+  ],
+  "widening": [
+    {
+      "gamma": "1",
+      "forced_pairs": 4
+    },
+    {
+      "gamma": "5/4",
+      "forced_pairs": 4
+    },
+    {
+      "gamma": "3/2",
+      "forced_pairs": 0
+    },
+    {
+      "gamma": "2",
+      "forced_pairs": 0
+    }
+  ],
+  "biological_outcomes_read": false
+}

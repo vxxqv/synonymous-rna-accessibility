@@ -1,0 +1,11 @@
+# Exact cPRIME sensitivity and assignment follow-up
+
+This exploratory follow-up reuses exposed B1 intervals and row ratios. It is not prospective validation. The original analysis source and result remain unchanged. The separate independent review checks all60 group/cell profiles,720 representative assignments, five sharp common-order boundaries,240 frozen grid profiles and20 prior order decisions.
+
+Use run_verified.py as the archive entry point with the arguments printed by --help. It refuses optimized Python before input access and checks the exact reviewed analysis hash. Direct execution of the historical analysis.py is not the guarded archive interface because its assertion checks can be disabled by Python optimization. The wrapper does not alter a numerical operation or rerun the observed result.
+
+The portable entry point takes --input for the unchanged decoded B1 result and --out for a fresh directory. It changes only the original filesystem constants and copies the exact pinned protocol into that destination; numerical outputs appear in results_v1. One portability replay is compared byte-for-byte with the already verified result. An initial wrapper assumed the historical script accepted --help; it instead reached the existing-directory refusal before any outcome access. That wrapper is retained as run_verified_before_cli.py. The corrected command parser handles help before loading the historical module.
+
+Every source RNA/DNA row remains paired internally. Cross-marker preparation identity is unresolved. The assignment enumeration bounds facts about recorded rows under every local bijection. These are different estimands from continuous preparation envelopes and are not confidence statements. Exact decisions near the deposited-decimal twofold boundary remain unchanged and are separately flagged by the review. The eight all-three-under-every-assignment cases do not rely on near-two ties.
+
+The common-order transition concerns an arbitrary scalar per local state, not an additive sequence model. The nested local-descriptor model is separately reported in context_design_audit. Generic finite-order, matching and interval reasoning are established methods; the contribution is the complete specified-data calculation and its explicit observation limits.

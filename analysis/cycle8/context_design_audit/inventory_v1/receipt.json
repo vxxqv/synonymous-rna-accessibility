@@ -1,0 +1,21 @@
+{
+  "status": "metadata_only",
+  "source_sha256": "fd314a04cab1ba12e23cb363ba15f4ae611c8f27322903323cf36f8699fe65f3",
+  "input_sha256": {
+    "mapping.json": "a2f428f5308cb78a827bfbd23f7d7756b98980e3585f0ccf6a733859c2388436",
+    "certificates.json": "64297d0dcc537a1fd7304af4a925fcca8c01e6a9ac2e9c39af1919ba9a526534",
+    "result.json": "5e187464cb7bba26dd25fda08566dacf17ab7dbab08365a84b7a83e2c6271809"
+  },
+  "states": 66,
+  "states_with_unknown_selected_coordinates": 62,
+  "within_group_contrast_basis_count": 36,
+  "leave_one_state_out_estimable": 4,
+  "leave_one_state_out_nonestimable": 62,
+  "outcomes_read": false,
+  "outputs_sha256": {
+    "coordinate_inventory.json": "4bc8de13fdf706ec5477225dbf7c6f99caee08a5394fb87612b9c1d09814fd2f",
+    "leave_one_state_out_estimability.json": "ff55c22168f790ac9961a8fbda53fecc3efdf946d584f0e4352b4aa4f907f1a3",
+    "marker_contrast_inventory.json": "f09f067e591f77a072369a3436dafb659a5892aed0ae37a5b33f5f34842170ea",
+    "nested_matrices.json": "665c4d0586310d09868b07f01163875e82708c3441201ab7757d7c897b3ab874"
+  }
+}
