@@ -1,0 +1,12 @@
+{
+  "id": "MEASURED_FUNCTION_FEASIBILITY_AMENDMENT_V2",
+  "reason": "The user's new data/inference brief explicitly requires measurement provenance, cutoff selection, genotype/sample mappings and eligibility decisions before interpreting outcomes, then execution of the strongest eligible pilot.",
+  "timing": "No new numerical GFP/URA3 fitness, RNA abundance or mitochondrial ribosome-profiling outcomes have been extracted or analyzed at this amendment. The v1 gate and endpoint freeze remain unchanged and are not overwritten.",
+  "additional_gates": [
+    "Recover and read the original 2022 GFP/URA3 endpoint/replicate/selection methods. Establish whether the 2026 below-0.5 rule applies to the older URA3 condition and whether its pre/post-pooling order is recoverable. Do not infer either from a selected table's minimum alone.",
+    "Audit original genotype identities versus selected condition presence where a preselection list exists. If counts/read coverage and exclusion flags are absent, report complete-group availability but do not attribute every missing group to the fitness cutoff.",
+    "Publish an explicit structural/RNA/ribosome assay mapping including cell-line labels, culture, perturbation, replicate labels, coordinate and normalization conventions. Distinguish genotype-compatible cross-study data from same-sample matching.",
+    "Before functional outcome extraction, publish eligibility decisions and select the strongest branch. The other branch can remain a sequence/measurement feasibility audit; lack of uncertainty is not repaired with mutant resampling."
+  ],
+  "scope": "No raw-read pipeline or new experiment. A source-table cutoff audit, if needed, must be logged separately from model fitting and cannot retrospectively create an independent validation claim. No altered endpoint may silently replace the frozen v1 endpoint."
+}
