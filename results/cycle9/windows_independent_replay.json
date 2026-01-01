@@ -1,0 +1,69 @@
+{
+  "status": "PASS_ALL_THREE_CYCLE9_NUMERICAL_REPLAYS",
+  "manifest_sha256": "9e4992216181d57e3ad245dd825036afe1baf50439b347e74fd7a1a850545090",
+  "archive_files": 91,
+  "restored_files": 37,
+  "checks": [
+    {
+      "name": "cprime_persistence",
+      "status": "PASS_EXACT_SCIENTIFIC_RECEIPT",
+      "coverage": {
+        "status": "PASS_EXACT_INDEPENDENT_RECONSTRUCTION",
+        "profiles": 60,
+        "source_rows_checked": 396,
+        "assignments_checked": 720,
+        "folds_checked": 2160
+      },
+      "receipt_sha256": "bc74a06d083b8305420b80c980473fbd66bef702d1cc36e52e557eef3a65c3e2",
+      "unchanged_checker_sha256": "65b96cf5594c50a101b8fe429e79d51fbd2298c8b753de3c5d17c34d8f6dfb50"
+    },
+    {
+      "name": "comt_local_order",
+      "status": "PASS_EXACT_SCIENTIFIC_RECEIPT",
+      "coverage": {
+        "status": "PASS_FRESH_EXACT_RECONSTRUCTION",
+        "pairs": 134,
+        "joint_case_checks": 17152
+      },
+      "receipt_sha256": "55544ed65f56163a111ac56ea8af26ab91c58a1762d300992586ad7eda7b00a6",
+      "unchanged_checker_sha256": "e21fc82db1e000fc65a20d507aae1b54e8fb4efb0d490c90b657b46a6d179304"
+    },
+    {
+      "name": "control_source_cells",
+      "status": "PASS_EXACT_SCIENTIFIC_RECEIPT",
+      "coverage": {
+        "status": "PASS",
+        "source_cells": 18,
+        "state_ratios": 27,
+        "contrast_quotients": 162,
+        "joint_completions": 729
+      },
+      "receipt_sha256": "5a304ca2885f4b1cad95f860b1886314ff0147cf6728f4cab01f7162cad640fb",
+      "unchanged_checker_sha256": "bb0e3f160451b97558d023809d2fd570f71f627027dce14d60a7fb7bee571a74"
+    },
+    {
+      "name": "control_joint_links",
+      "status": "PASS_EXACT_SCIENTIFIC_RECEIPT",
+      "coverage": {
+        "status": "PASS",
+        "all_joint_links": 729,
+        "shared_C_verified": true,
+        "case_quotient_checks": 1458
+      },
+      "receipt_sha256": "3a936ade2c8eab72c832d37cbceb6a914205594e4f75d7b57fd58b40f5d17671",
+      "unchanged_checker_sha256": "3046486bd6b095caf80123c2b492bf09c594183dccbebcca114298c6ddaef948"
+    }
+  ],
+  "profile_csv_rows": 60,
+  "runtime": {
+    "implementation": "CPython",
+    "python": "3.12.14",
+    "platform": "Windows-11-10.0.26300-SP0"
+  },
+  "network_used": false,
+  "git_used": false,
+  "author_models_or_RF_rerun": false,
+  "frozen_files_modified": false,
+  "receipt_comparison": "All parsed fields equal; absolute input path labels canonicalized to work-relative suffixes, all hash values retained.",
+  "scope": "Replay of existing exposed numerical verifications only, not new outcomes or historical access-order authentication."
+}
