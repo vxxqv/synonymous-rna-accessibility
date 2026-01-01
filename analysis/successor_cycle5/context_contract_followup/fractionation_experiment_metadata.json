@@ -1,0 +1,538 @@
+[
+  {
+    "run_accession": "SRR10714538",
+    "experiment_accession": "SRX7391404",
+    "sample_accession": "SAMN13612107",
+    "study_accession": "PRJNA596086",
+    "library_name": "CM6_ni2",
+    "experiment_title": "Illumina MiSeq sequencing: Subcellular fractionation of RNA in HEK293 cells",
+    "metadata": [
+      {
+        "tag": "DESIGN_DESCRIPTION",
+        "attributes": {},
+        "text": "To prepare RNA subcellular fractionation libraries, cells were separatedinto nuclear and cytoplasmic fractions, followed by RT-PCR with primers specific to GFP 5'- and 3'-UTR sequences"
+      },
+      {
+        "tag": "SAMPLE_DESCRIPTOR",
+        "attributes": {
+          "accession": "SRS5839590"
+        },
+        "text": "SRS5839590\n        CM6_HeLamRNALocalizationWithIntron_Nuclear"
+      },
+      {
+        "tag": "LIBRARY_NAME",
+        "attributes": {},
+        "text": "CM6_ni2"
+      },
+      {
+        "tag": "LIBRARY_STRATEGY",
+        "attributes": {},
+        "text": "AMPLICON"
+      },
+      {
+        "tag": "LIBRARY_SOURCE",
+        "attributes": {},
+        "text": "SYNTHETIC"
+      },
+      {
+        "tag": "LIBRARY_SELECTION",
+        "attributes": {},
+        "text": "RT-PCR"
+      },
+      {
+        "tag": "EXPERIMENT_LINK",
+        "attributes": {},
+        "text": "ENA-SAMPLE\n        SRS5839590"
+      },
+      {
+        "tag": "EXPERIMENT_LINK",
+        "attributes": {},
+        "text": "ENA-SUBMISSION\n        SRA1013027"
+      },
+      {
+        "tag": "EXPERIMENT_LINK",
+        "attributes": {},
+        "text": "ENA-FASTQ-FILES\n        https://www.ebi.ac.uk/ena/portal/api/filereport?accession=SRX7391404&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes"
+      },
+      {
+        "tag": "EXPERIMENT_LINK",
+        "attributes": {},
+        "text": "ENA-SUBMITTED-FILES\n        https://www.ebi.ac.uk/ena/portal/api/filereport?accession=SRX7391404&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format"
+      },
+      {
+        "tag": "EXPERIMENT_ATTRIBUTE",
+        "attributes": {},
+        "text": "ENA-STATUS\n      PUBLIC"
+      }
+    ]
+  },
+  {
+    "run_accession": "SRR10714540",
+    "experiment_accession": "SRX7391402",
+    "sample_accession": "SAMN13612106",
+    "study_accession": "PRJNA596086",
+    "library_name": "CM6_n2",
+    "experiment_title": "Illumina MiSeq sequencing: Subcellular fractionation of RNA in HEK293 cells",
+    "metadata": [
+      {
+        "tag": "DESIGN_DESCRIPTION",
+        "attributes": {},
+        "text": "To prepare RNA subcellular fractionation libraries, cells were separatedinto nuclear and cytoplasmic fractions, followed by RT-PCR with primers specific to GFP 5'- and 3'-UTR sequences"
+      },
+      {
+        "tag": "SAMPLE_DESCRIPTOR",
+        "attributes": {
+          "accession": "SRS5839591"
+        },
+        "text": "SRS5839591\n        CM6_HeLamRNALocalizationNoIntron_Nuclear"
+      },
+      {
+        "tag": "LIBRARY_NAME",
+        "attributes": {},
+        "text": "CM6_n2"
+      },
+      {
+        "tag": "LIBRARY_STRATEGY",
+        "attributes": {},
+        "text": "AMPLICON"
+      },
+      {
+        "tag": "LIBRARY_SOURCE",
+        "attributes": {},
+        "text": "SYNTHETIC"
+      },
+      {
+        "tag": "LIBRARY_SELECTION",
+        "attributes": {},
+        "text": "RT-PCR"
+      },
+      {
+        "tag": "EXPERIMENT_LINK",
+        "attributes": {},
+        "text": "ENA-SAMPLE\n        SRS5839591"
+      },
+      {
+        "tag": "EXPERIMENT_LINK",
+        "attributes": {},
+        "text": "ENA-SUBMISSION\n        SRA1013027"
+      },
+      {
+        "tag": "EXPERIMENT_LINK",
+        "attributes": {},
+        "text": "ENA-FASTQ-FILES\n        https://www.ebi.ac.uk/ena/portal/api/filereport?accession=SRX7391402&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes"
+      },
+      {
+        "tag": "EXPERIMENT_LINK",
+        "attributes": {},
+        "text": "ENA-SUBMITTED-FILES\n        https://www.ebi.ac.uk/ena/portal/api/filereport?accession=SRX7391402&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format"
+      },
+      {
+        "tag": "EXPERIMENT_ATTRIBUTE",
+        "attributes": {},
+        "text": "ENA-STATUS\n      PUBLIC"
+      }
+    ]
+  },
+  {
+    "run_accession": "SRR10714541",
+    "experiment_accession": "SRX7391401",
+    "sample_accession": "SAMN13612106",
+    "study_accession": "PRJNA596086",
+    "library_name": "CM6_n1",
+    "experiment_title": "Illumina MiSeq sequencing: Subcellular fractionation of RNA in HEK293 cells",
+    "metadata": [
+      {
+        "tag": "DESIGN_DESCRIPTION",
+        "attributes": {},
+        "text": "To prepare RNA subcellular fractionation libraries, cells were separatedinto nuclear and cytoplasmic fractions, followed by RT-PCR with primers specific to GFP 5'- and 3'-UTR sequences"
+      },
+      {
+        "tag": "SAMPLE_DESCRIPTOR",
+        "attributes": {
+          "accession": "SRS5839591"
+        },
+        "text": "SRS5839591\n        CM6_HeLamRNALocalizationNoIntron_Nuclear"
+      },
+      {
+        "tag": "LIBRARY_NAME",
+        "attributes": {},
+        "text": "CM6_n1"
+      },
+      {
+        "tag": "LIBRARY_STRATEGY",
+        "attributes": {},
+        "text": "AMPLICON"
+      },
+      {
+        "tag": "LIBRARY_SOURCE",
+        "attributes": {},
+        "text": "SYNTHETIC"
+      },
+      {
+        "tag": "LIBRARY_SELECTION",
+        "attributes": {},
+        "text": "RT-PCR"
+      },
+      {
+        "tag": "EXPERIMENT_LINK",
+        "attributes": {},
+        "text": "ENA-SAMPLE\n        SRS5839591"
+      },
+      {
+        "tag": "EXPERIMENT_LINK",
+        "attributes": {},
+        "text": "ENA-SUBMISSION\n        SRA1013027"
+      },
+      {
+        "tag": "EXPERIMENT_LINK",
+        "attributes": {},
+        "text": "ENA-FASTQ-FILES\n        https://www.ebi.ac.uk/ena/portal/api/filereport?accession=SRX7391401&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes"
+      },
+      {
+        "tag": "EXPERIMENT_LINK",
+        "attributes": {},
+        "text": "ENA-SUBMITTED-FILES\n        https://www.ebi.ac.uk/ena/portal/api/filereport?accession=SRX7391401&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format"
+      },
+      {
+        "tag": "EXPERIMENT_ATTRIBUTE",
+        "attributes": {},
+        "text": "ENA-STATUS\n      PUBLIC"
+      }
+    ]
+  },
+  {
+    "run_accession": "SRR10714567",
+    "experiment_accession": "SRX7391375",
+    "sample_accession": "SAMN13612105",
+    "study_accession": "PRJNA596086",
+    "library_name": "CM6_ci1",
+    "experiment_title": "Illumina MiSeq sequencing: Subcellular fractionation of RNA in HEK293 cells",
+    "metadata": [
+      {
+        "tag": "DESIGN_DESCRIPTION",
+        "attributes": {},
+        "text": "To prepare RNA subcellular fractionation libraries, cells were separatedinto nuclear and cytoplasmic fractions, followed by RT-PCR with primers specific to GFP 5'- and 3'-UTR sequences"
+      },
+      {
+        "tag": "SAMPLE_DESCRIPTOR",
+        "attributes": {
+          "accession": "SRS5839581"
+        },
+        "text": "SRS5839581\n        CM6_HeLamRNALocalizationWithIntron_Cytoplasmic"
+      },
+      {
+        "tag": "LIBRARY_NAME",
+        "attributes": {},
+        "text": "CM6_ci1"
+      },
+      {
+        "tag": "LIBRARY_STRATEGY",
+        "attributes": {},
+        "text": "AMPLICON"
+      },
+      {
+        "tag": "LIBRARY_SOURCE",
+        "attributes": {},
+        "text": "SYNTHETIC"
+      },
+      {
+        "tag": "LIBRARY_SELECTION",
+        "attributes": {},
+        "text": "RT-PCR"
+      },
+      {
+        "tag": "EXPERIMENT_LINK",
+        "attributes": {},
+        "text": "ENA-SAMPLE\n        SRS5839581"
+      },
+      {
+        "tag": "EXPERIMENT_LINK",
+        "attributes": {},
+        "text": "ENA-SUBMISSION\n        SRA1013027"
+      },
+      {
+        "tag": "EXPERIMENT_LINK",
+        "attributes": {},
+        "text": "ENA-FASTQ-FILES\n        https://www.ebi.ac.uk/ena/portal/api/filereport?accession=SRX7391375&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes"
+      },
+      {
+        "tag": "EXPERIMENT_LINK",
+        "attributes": {},
+        "text": "ENA-SUBMITTED-FILES\n        https://www.ebi.ac.uk/ena/portal/api/filereport?accession=SRX7391375&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format"
+      },
+      {
+        "tag": "EXPERIMENT_ATTRIBUTE",
+        "attributes": {},
+        "text": "ENA-STATUS\n      PUBLIC"
+      }
+    ]
+  },
+  {
+    "run_accession": "SRR10714568",
+    "experiment_accession": "SRX7391374",
+    "sample_accession": "SAMN13612104",
+    "study_accession": "PRJNA596086",
+    "library_name": "CM6_c2",
+    "experiment_title": "Illumina MiSeq sequencing: Subcellular fractionation of RNA in HEK293 cells",
+    "metadata": [
+      {
+        "tag": "DESIGN_DESCRIPTION",
+        "attributes": {},
+        "text": "To prepare RNA subcellular fractionation libraries, cells were separatedinto nuclear and cytoplasmic fractions, followed by RT-PCR with primers specific to GFP 5'- and 3'-UTR sequences"
+      },
+      {
+        "tag": "SAMPLE_DESCRIPTOR",
+        "attributes": {
+          "accession": "SRS5839584"
+        },
+        "text": "SRS5839584\n        CM6_HeLamRNALocalizationNoIntron_Cytoplasmic"
+      },
+      {
+        "tag": "LIBRARY_NAME",
+        "attributes": {},
+        "text": "CM6_c2"
+      },
+      {
+        "tag": "LIBRARY_STRATEGY",
+        "attributes": {},
+        "text": "AMPLICON"
+      },
+      {
+        "tag": "LIBRARY_SOURCE",
+        "attributes": {},
+        "text": "SYNTHETIC"
+      },
+      {
+        "tag": "LIBRARY_SELECTION",
+        "attributes": {},
+        "text": "RT-PCR"
+      },
+      {
+        "tag": "EXPERIMENT_LINK",
+        "attributes": {},
+        "text": "ENA-SAMPLE\n        SRS5839584"
+      },
+      {
+        "tag": "EXPERIMENT_LINK",
+        "attributes": {},
+        "text": "ENA-SUBMISSION\n        SRA1013027"
+      },
+      {
+        "tag": "EXPERIMENT_LINK",
+        "attributes": {},
+        "text": "ENA-FASTQ-FILES\n        https://www.ebi.ac.uk/ena/portal/api/filereport?accession=SRX7391374&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes"
+      },
+      {
+        "tag": "EXPERIMENT_LINK",
+        "attributes": {},
+        "text": "ENA-SUBMITTED-FILES\n        https://www.ebi.ac.uk/ena/portal/api/filereport?accession=SRX7391374&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format"
+      },
+      {
+        "tag": "EXPERIMENT_ATTRIBUTE",
+        "attributes": {},
+        "text": "ENA-STATUS\n      PUBLIC"
+      }
+    ]
+  },
+  {
+    "run_accession": "SRR10714569",
+    "experiment_accession": "SRX7391373",
+    "sample_accession": "SAMN13612104",
+    "study_accession": "PRJNA596086",
+    "library_name": "CM6_c1",
+    "experiment_title": "Illumina MiSeq sequencing: Subcellular fractionation of RNA in HEK293 cells",
+    "metadata": [
+      {
+        "tag": "DESIGN_DESCRIPTION",
+        "attributes": {},
+        "text": "To prepare RNA subcellular fractionation libraries, cells were separatedinto nuclear and cytoplasmic fractions, followed by RT-PCR with primers specific to GFP 5'- and 3'-UTR sequences"
+      },
+      {
+        "tag": "SAMPLE_DESCRIPTOR",
+        "attributes": {
+          "accession": "SRS5839584"
+        },
+        "text": "SRS5839584\n        CM6_HeLamRNALocalizationNoIntron_Cytoplasmic"
+      },
+      {
+        "tag": "LIBRARY_NAME",
+        "attributes": {},
+        "text": "CM6_c1"
+      },
+      {
+        "tag": "LIBRARY_STRATEGY",
+        "attributes": {},
+        "text": "AMPLICON"
+      },
+      {
+        "tag": "LIBRARY_SOURCE",
+        "attributes": {},
+        "text": "SYNTHETIC"
+      },
+      {
+        "tag": "LIBRARY_SELECTION",
+        "attributes": {},
+        "text": "RT-PCR"
+      },
+      {
+        "tag": "EXPERIMENT_LINK",
+        "attributes": {},
+        "text": "ENA-SAMPLE\n        SRS5839584"
+      },
+      {
+        "tag": "EXPERIMENT_LINK",
+        "attributes": {},
+        "text": "ENA-SUBMISSION\n        SRA1013027"
+      },
+      {
+        "tag": "EXPERIMENT_LINK",
+        "attributes": {},
+        "text": "ENA-FASTQ-FILES\n        https://www.ebi.ac.uk/ena/portal/api/filereport?accession=SRX7391373&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes"
+      },
+      {
+        "tag": "EXPERIMENT_LINK",
+        "attributes": {},
+        "text": "ENA-SUBMITTED-FILES\n        https://www.ebi.ac.uk/ena/portal/api/filereport?accession=SRX7391373&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format"
+      },
+      {
+        "tag": "EXPERIMENT_ATTRIBUTE",
+        "attributes": {},
+        "text": "ENA-STATUS\n      PUBLIC"
+      }
+    ]
+  },
+  {
+    "run_accession": "SRR10714542",
+    "experiment_accession": "SRX7391400",
+    "sample_accession": "SAMN13612105",
+    "study_accession": "PRJNA596086",
+    "library_name": "CM6_ci2",
+    "experiment_title": "Illumina MiSeq sequencing: Subcellular fractionation of RNA in HEK293 cells",
+    "metadata": [
+      {
+        "tag": "DESIGN_DESCRIPTION",
+        "attributes": {},
+        "text": "To prepare RNA subcellular fractionation libraries, cells were separatedinto nuclear and cytoplasmic fractions, followed by RT-PCR with primers specific to GFP 5'- and 3'-UTR sequences"
+      },
+      {
+        "tag": "SAMPLE_DESCRIPTOR",
+        "attributes": {
+          "accession": "SRS5839581"
+        },
+        "text": "SRS5839581\n        CM6_HeLamRNALocalizationWithIntron_Cytoplasmic"
+      },
+      {
+        "tag": "LIBRARY_NAME",
+        "attributes": {},
+        "text": "CM6_ci2"
+      },
+      {
+        "tag": "LIBRARY_STRATEGY",
+        "attributes": {},
+        "text": "AMPLICON"
+      },
+      {
+        "tag": "LIBRARY_SOURCE",
+        "attributes": {},
+        "text": "SYNTHETIC"
+      },
+      {
+        "tag": "LIBRARY_SELECTION",
+        "attributes": {},
+        "text": "RT-PCR"
+      },
+      {
+        "tag": "EXPERIMENT_LINK",
+        "attributes": {},
+        "text": "ENA-SAMPLE\n        SRS5839581"
+      },
+      {
+        "tag": "EXPERIMENT_LINK",
+        "attributes": {},
+        "text": "ENA-SUBMISSION\n        SRA1013027"
+      },
+      {
+        "tag": "EXPERIMENT_LINK",
+        "attributes": {},
+        "text": "ENA-FASTQ-FILES\n        https://www.ebi.ac.uk/ena/portal/api/filereport?accession=SRX7391400&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes"
+      },
+      {
+        "tag": "EXPERIMENT_LINK",
+        "attributes": {},
+        "text": "ENA-SUBMITTED-FILES\n        https://www.ebi.ac.uk/ena/portal/api/filereport?accession=SRX7391400&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format"
+      },
+      {
+        "tag": "EXPERIMENT_ATTRIBUTE",
+        "attributes": {},
+        "text": "ENA-STATUS\n      PUBLIC"
+      }
+    ]
+  },
+  {
+    "run_accession": "SRR10714539",
+    "experiment_accession": "SRX7391403",
+    "sample_accession": "SAMN13612107",
+    "study_accession": "PRJNA596086",
+    "library_name": "CM6_ni1",
+    "experiment_title": "Illumina MiSeq sequencing: Subcellular fractionation of RNA in HEK293 cells",
+    "metadata": [
+      {
+        "tag": "DESIGN_DESCRIPTION",
+        "attributes": {},
+        "text": "To prepare RNA subcellular fractionation libraries, cells were separatedinto nuclear and cytoplasmic fractions, followed by RT-PCR with primers specific to GFP 5'- and 3'-UTR sequences"
+      },
+      {
+        "tag": "SAMPLE_DESCRIPTOR",
+        "attributes": {
+          "accession": "SRS5839590"
+        },
+        "text": "SRS5839590\n        CM6_HeLamRNALocalizationWithIntron_Nuclear"
+      },
+      {
+        "tag": "LIBRARY_NAME",
+        "attributes": {},
+        "text": "CM6_ni1"
+      },
+      {
+        "tag": "LIBRARY_STRATEGY",
+        "attributes": {},
+        "text": "AMPLICON"
+      },
+      {
+        "tag": "LIBRARY_SOURCE",
+        "attributes": {},
+        "text": "SYNTHETIC"
+      },
+      {
+        "tag": "LIBRARY_SELECTION",
+        "attributes": {},
+        "text": "RT-PCR"
+      },
+      {
+        "tag": "EXPERIMENT_LINK",
+        "attributes": {},
+        "text": "ENA-SAMPLE\n        SRS5839590"
+      },
+      {
+        "tag": "EXPERIMENT_LINK",
+        "attributes": {},
+        "text": "ENA-SUBMISSION\n        SRA1013027"
+      },
+      {
+        "tag": "EXPERIMENT_LINK",
+        "attributes": {},
+        "text": "ENA-FASTQ-FILES\n        https://www.ebi.ac.uk/ena/portal/api/filereport?accession=SRX7391403&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes"
+      },
+      {
+        "tag": "EXPERIMENT_LINK",
+        "attributes": {},
+        "text": "ENA-SUBMITTED-FILES\n        https://www.ebi.ac.uk/ena/portal/api/filereport?accession=SRX7391403&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format"
+      },
+      {
+        "tag": "EXPERIMENT_ATTRIBUTE",
+        "attributes": {},
+        "text": "ENA-STATUS\n      PUBLIC"
+      }
+    ]
+  }
+]

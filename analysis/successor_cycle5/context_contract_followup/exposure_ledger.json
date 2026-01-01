@@ -1,0 +1,28 @@
+{
+  "scope": "Metadata and source contract only",
+  "new_variant_level_expression_or_PSI_values_read": false,
+  "new_count_or_processed_outcome_tables_read": false,
+  "raw_reads_downloaded": false,
+  "phenotype_models_fit": false,
+  "supplement_zip_handling": "Downloaded the official package and read its directory entries only. No article figure or table inside it was opened.",
+  "incidental_search_exposure": {
+    "occurred": true,
+    "content": "Search results returned already published source-paper aggregate conclusions and correlations, and unrelated literature/thesis aggregate summaries. No per-construct table was opened or analyzed.",
+    "queries": [
+      "Mordstein 2020 GC Content github data",
+      "10.1016/j.cels.2020.03.001 data code sequences",
+      "Mordstein codon github.com",
+      "pnas.1810022115.sd01.xlsx",
+      "PRJNA596086 reference sequences code",
+      "Codon Usage and Splicing Jointly dataset code data repository",
+      "Mordstein 217 GFP sequences",
+      "PRJNA596086 CM6",
+      "Codon usage influences fitness through RNA toxicity Dataset S1"
+    ],
+    "used_for_outcome_selection_or_fitting": false,
+    "reported_to_root": true
+  },
+  "local_source_inspection": "Prior eligibility report, metadata manifests, availability sections, supplement linkage, cached Methods, accession XML and run/library/sample metadata. A first overbroad ext-link print also emitted bibliographic titles and then hit a console encoding error; no phenotype table was emitted.",
+  "prior_audit_preserved": true,
+  "same_project_context_not_blinded": true
+}

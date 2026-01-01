@@ -1,0 +1,1792 @@
+{
+  "accno": "E-MTAB-16553",
+  "attributes": [
+    {
+      "name": "Title",
+      "value": "Amplicon sequencing of splicing reporter mini-genes in a massively parallel reporter assay"
+    },
+    {
+      "name": "DOI",
+      "value": "10.6019/E-MTAB-16553"
+    },
+    {
+      "name": "ReleaseDate",
+      "value": "2026-07-03"
+    },
+    {
+      "name": "RootPath",
+      "value": "E-MTAB-16553"
+    },
+    {
+      "name": "AttachTo",
+      "value": "ArrayExpress"
+    }
+  ],
+  "section": {
+    "accno": "s-E-MTAB-16553",
+    "type": "Study",
+    "attributes": [
+      {
+        "name": "Title",
+        "value": "Amplicon sequencing of splicing reporter mini-genes in a massively parallel reporter assay"
+      },
+      {
+        "name": "ReleaseDate",
+        "value": "2026-07-03"
+      },
+      {
+        "name": "Study type",
+        "value": "RNA-seq of coding RNA"
+      },
+      {
+        "name": "Organism",
+        "value": "Homo sapiens"
+      },
+      {
+        "name": "Description",
+        "value": "A library of cassette exon splicing reporter mini-genes was cloned under the control of five different promoters and tested, alongside pharmacological treatments affecting transcription, by transfection into HEK293 cells, isolation of the mRNA and targeted high-throughput sequencing of the reporter constructs to determine the effect of promoter identity and pharmacological treatment on splicing behavior."
+      }
+    ],
+    "links": [
+      [
+        {
+          "url": "ERP187993",
+          "attributes": [
+            {
+              "name": "Type",
+              "value": "ENA"
+            }
+          ]
+        }
+      ]
+    ],
+    "subsections": [
+      [
+        {
+          "accno": "P-MTAB-166318",
+          "type": "Protocols",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-MTAB-166318"
+            },
+            {
+              "name": "Type",
+              "value": "sample collection protocol",
+              "valqual": [
+                {
+                  "name": "Ontology",
+                  "value": "EFO"
+                },
+                {
+                  "name": "TermId",
+                  "value": "EFO_0005518"
+                }
+              ]
+            },
+            {
+              "name": "Description",
+              "value": "Plasmid libraries were transfected into HEK293 cells (2 million cells per sample) using Polyjet (SignaGen). 6 hours after transfection, medium was replaced with DMEM/10%FBS/PenStrep for the experiment comparing different promoter constructs and with DMEM/10%FBS/PenStrep containing one of the following compounds at the indicated concentration: \u03b1-Amanitin (SC  2024400, Santa Cruze Biotechnology): 2.5 ug/mL and 5 ug/mL; Actinomycin D (SBR00013, Merck): 1 ug/mL and 5 ug/mL; Camptothecin (208925, Sigma-Aldrich): 1 uM and 5 uM; Doxorubicin (D2975000, Sigma-Aldrich): 50 and 100 nM. 24 hours after transfection, cells were harvested."
+            },
+            {
+              "name": "Hardware"
+            }
+          ]
+        },
+        {
+          "accno": "P-MTAB-166319",
+          "type": "Protocols",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-MTAB-166319"
+            },
+            {
+              "name": "Type",
+              "value": "nucleic acid extraction protocol",
+              "valqual": [
+                {
+                  "name": "Ontology",
+                  "value": "EFO"
+                },
+                {
+                  "name": "TermId",
+                  "value": "EFO_0002944"
+                }
+              ]
+            },
+            {
+              "name": "Description",
+              "value": "Cell pellets were resuspended in 600 mL Trizol and RNA was isolated using RNA Miniprep kits (Zymo) including DNase treatment according to the manufacturer\u2019s protocol."
+            },
+            {
+              "name": "Hardware"
+            }
+          ]
+        },
+        {
+          "accno": "P-MTAB-166320",
+          "type": "Protocols",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-MTAB-166320"
+            },
+            {
+              "name": "Type",
+              "value": "nucleic acid library construction protocol",
+              "valqual": [
+                {
+                  "name": "Ontology",
+                  "value": "EFO"
+                },
+                {
+                  "name": "TermId",
+                  "value": "EFO_0004184"
+                }
+              ]
+            },
+            {
+              "name": "Description",
+              "value": "For amplicon sequencing of splicing reporters, cDNA was synthesized from up to 5 ug total RNA using Maxima H minus reverse transcriptase (ThermoFisher) according to the manufacturer\u2019s protocol, with oligo-dT primers containing 18 Ts, a 12 nt unique molecular identifier (UMI) and a partial Illumina read 1 primer sequence. For library preparation, reporter cDNA was PCR amplified using reporter specific forward  (GAGTTCAGACGTGTGCTCTTCCGATCTATGGGGTTCGGTATGCGC) and reverse (TTCCCTACACGACGCTCTTCCGATCTNNNNNNNNNNNNGAGCGCACCCGTCCGAGC) primers and introducing partial Illumina Read1 and Read2 sequences, respectively. After cleaning up the reaction with 1x Ampure beads (Beckman-Coulter) Illumina sequencing adaptors (NEBNext Multiplex Oligos for Illumina, NEB #E7600S) were added in a second PCR reaction. The reactions were cleaned up with Ampure beads (0.75 x) and the size of the product was verified using Tapestation (Agilent High Sensitivity D1000 ScreenTape).  For 3\u2032 end mRNA sequencing, total RNA was fragmented using the NEBNext Magnesium RNA Fragmentation Module (New England Biolabs). Briefly, RNA was incubated in 1\u00d7 fragmentation buffer at 94\u00b0C for 75 seconds, and the reaction was terminated with RNA Fragmentation Stop Solution. Fragmented RNA was purified using Agencourt AMPure XP beads (Beckman Coulter) at a 1.5x bead-to-sample ratio and analyzed using High Sensitivity RNA ScreenTape (Agilent Technologies). First-strand cDNA synthesis was performed using Maxima H Minus Reverse Transcriptase (Thermo Fisher Scientific) with an oligo(dT) primer containing the Illumina Read 1 sequence and a template-switching oligonucleotide (TSO) containing the Illumina Read 2 sequence. RNA, oligo(dT) primer, and dNTPs were first incubated at 65\u00b0C for 5 min, followed by reverse transcription (42\u00b0C for 90 minutes, 10 cycles of 2 minutes 50\u00b0C and 2 minutes 42\u00b0C, inactivation for 5 minutes at 85\u00b0C). Resulting cDNA was purified using AMPure XP beads (1.5x ratio), quantified using a Qubit fluorometer (Thermo Fisher Scientific), and amplified by PCR using KAPA HiFi polymerase (Roche) and indexed i5/i7 primers (NEB Next Multiplex Oligos for Illumina, NEB #E7600S). Standard amplification consisted of an initial denaturation at 98\u00b0C for 3 min, followed by 14 cycles of 98\u00b0C for 15 s, 65\u00b0C for 15 s, and 72\u00b0C for 20 s, with a final extension at 72\u00b0C for 1 min. Amplified libraries were purified using AMPure XP beads (0.75x ratio), quantified by Qubit, and assessed for size distribution using the D1000 ScreenTape system (Agilent Technologies) prior to sequencing."
+            },
+            {
+              "name": "Hardware"
+            }
+          ]
+        },
+        {
+          "accno": "P-MTAB-166321",
+          "type": "Protocols",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-MTAB-166321"
+            },
+            {
+              "name": "Type",
+              "value": "nucleic acid sequencing protocol",
+              "valqual": [
+                {
+                  "name": "Ontology",
+                  "value": "EFO"
+                },
+                {
+                  "name": "TermId",
+                  "value": "EFO_0004170"
+                }
+              ]
+            },
+            {
+              "name": "Description",
+              "value": "Sequencing was performed on a NovaSeq X plus instrument with 2x 150 cycles (Admera Health, New Jersey, USA)."
+            },
+            {
+              "name": "Hardware",
+              "value": "Illumina NovaSeq X"
+            }
+          ]
+        },
+        {
+          "accno": "P-MTAB-166322",
+          "type": "Protocols",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-MTAB-166322"
+            },
+            {
+              "name": "Type",
+              "value": "high throughput sequence alignment protocol",
+              "valqual": [
+                {
+                  "name": "Ontology",
+                  "value": "EFO"
+                },
+                {
+                  "name": "TermId",
+                  "value": "EFO_0004917"
+                }
+              ]
+            },
+            {
+              "name": "Description",
+              "value": "Demultiplexed sequencing reads (by library variant) were mapped to the corresponding reference sequence using STAR (v2.7.11b). The code used for mapping is available on github: https://github.com/shakedshanas/Splicing-MPRA-data-processing.  For 3' mRNA sequencing reads, after demultiplexing of samples by Read 1 (reverse) using ultraplex according to barcodes included in the oligo(dT) primer and extraction of the 6 bp UMI, Read 2 (forward) was trimmed using cutadapt (parameter -a AAAAAAAAAAAA) and mapped against the human genome (GRCh38) using subread. The resulting bam files were sorted and indexed using samtools, demultiplexed using umi_tools (umi_tools dedup) not allowing multimappers and reads per gene were counted using featureCounts (-t exon -g gene_id)."
+            },
+            {
+              "name": "Hardware"
+            }
+          ]
+        },
+        {
+          "accno": "P-MTAB-166323",
+          "type": "Protocols",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-MTAB-166323"
+            },
+            {
+              "name": "Type",
+              "value": "normalization data transformation protocol",
+              "valqual": [
+                {
+                  "name": "Ontology",
+                  "value": "EFO"
+                },
+                {
+                  "name": "TermId",
+                  "value": "EFO_0003816"
+                }
+              ]
+            },
+            {
+              "name": "Description",
+              "value": "Processed datafiles contain isoform-level quantification for all library variants in each sample. The mapping and processing pipeline used to generate the processed datafiles is available on github: https://github.com/shakedshanas/Splicing-MPRA-data-processing."
+            },
+            {
+              "name": "Hardware"
+            }
+          ]
+        }
+      ],
+      {
+        "type": "Author",
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Martin Mikl"
+          },
+          {
+            "name": "Email",
+            "value": "mmikl@univ.haifa.ac.il"
+          },
+          {
+            "name": "Role",
+            "value": "submitter"
+          },
+          {
+            "name": "affiliation",
+            "value": "o1",
+            "reference": true
+          }
+        ]
+      },
+      {
+        "accno": "o1",
+        "type": "Organization",
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "University of Haifa"
+          },
+          {
+            "name": "Address",
+            "value": "Department of Human Biology Faculty of Natural Sciences University of Haifa Abba Khoushy Ave 199, Haifa, 3498838, Israel"
+          }
+        ]
+      },
+      {
+        "accno": "s-samples-factors-E-MTAB-16553",
+        "type": "Samples",
+        "attributes": [
+          {
+            "name": "Sample count",
+            "value": "50"
+          },
+          {
+            "name": "Experimental Factors",
+            "value": "stimulus",
+            "valqual": [
+              {
+                "name": "TermName",
+                "value": "stimulus"
+              }
+            ]
+          }
+        ],
+        "subsections": [
+          {
+            "accno": "exp_factor-E-MTAB-16553",
+            "type": "Experimental Factors",
+            "attributes": [
+              {
+                "name": "Stimulus",
+                "value": "doxorubicin"
+              },
+              {
+                "name": "Stimulus",
+                "value": "alpha-amanitin"
+              },
+              {
+                "name": "Stimulus",
+                "value": "actinomycin D"
+              },
+              {
+                "name": "Stimulus",
+                "value": "camptothecin"
+              }
+            ],
+            "subsections": [
+              [
+                {
+                  "accno": "factors_0",
+                  "type": "Factors Table",
+                  "attributes": [
+                    {
+                      "name": "stimulus",
+                      "value": "actinomycin D"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "2",
+                      "valqual": [
+                        {
+                          "name": "url",
+                          "value": "https://www.ebi.ac.uk/ena/browser/view/ERS28513039-ERS28513040"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "accno": "factors_1",
+                  "type": "Factors Table",
+                  "attributes": [
+                    {
+                      "name": "stimulus",
+                      "value": "alpha-amanitin"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "2",
+                      "valqual": [
+                        {
+                          "name": "url",
+                          "value": "https://www.ebi.ac.uk/ena/browser/view/ERS28513041-ERS28513042"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "accno": "factors_2",
+                  "type": "Factors Table",
+                  "attributes": [
+                    {
+                      "name": "stimulus"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "42",
+                      "valqual": [
+                        {
+                          "name": "url",
+                          "value": "https://www.ebi.ac.uk/ena/browser/view/ERS28513043,ERS28513044,ERS28513049,ERS28513050,ERS28513051,ERS28513052,ERS28513053,ERS28513054,ERS28513055,ERS28513056,ERS28513057,ERS28513058,ERS30471005,ERS30471006,ERS30471007,ERS30471008,ERS30471009,ERS30471010,ERS30471011,ERS30471012,ERS30471013,ERS30471014,ERS30471015,ERS30471016,ERS30471017,ERS30471018,ERS30471019,ERS30471020,ERS30471021,ERS30471022,ERS30471023,ERS30471024,ERS30471025,ERS30471026,ERS30471027,ERS30471028,ERS30471029,ERS30471030,ERS30471031,ERS30471032,ERS30471033,ERS30471034"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "accno": "factors_3",
+                  "type": "Factors Table",
+                  "attributes": [
+                    {
+                      "name": "stimulus",
+                      "value": "camptothecin"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "2",
+                      "valqual": [
+                        {
+                          "name": "url",
+                          "value": "https://www.ebi.ac.uk/ena/browser/view/ERS28513045-ERS28513046"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "accno": "factors_4",
+                  "type": "Factors Table",
+                  "attributes": [
+                    {
+                      "name": "stimulus",
+                      "value": "doxorubicin"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "2",
+                      "valqual": [
+                        {
+                          "name": "url",
+                          "value": "https://www.ebi.ac.uk/ena/browser/view/ERS28513047-ERS28513048"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          {
+            "accno": "source_chars-E-MTAB-16553",
+            "type": "Source Characteristics",
+            "attributes": [
+              {
+                "name": "Organism",
+                "value": "Homo sapiens"
+              },
+              {
+                "name": "Cell line",
+                "value": "HEK293"
+              },
+              {
+                "name": "Genetic modification",
+                "value": "pEF1a promoter driving splicing library"
+              },
+              {
+                "name": "Genetic modification",
+                "value": "episomally expressed full CMV promoter (pZDONOR) driving splicing library"
+              },
+              {
+                "name": "Genetic modification",
+                "value": "3' end RNA sequencing"
+              },
+              {
+                "name": "Genetic modification",
+                "value": "minimal CMV  promoter driving splicing library"
+              },
+              {
+                "name": "Genetic modification",
+                "value": "ACTB  promoter driving splicing library"
+              },
+              {
+                "name": "Genetic modification",
+                "value": "MYC-1 promoter driving splicing library"
+              },
+              {
+                "name": "Genetic modification",
+                "value": "full CMV promoter with bglobin intron driving splicing library"
+              },
+              {
+                "name": "Genetic modification",
+                "value": "p73-1 promoter driving splicing library"
+              },
+              {
+                "name": "Genetic modification",
+                "value": "MYC-2 promoter driving splicing library"
+              },
+              {
+                "name": "Genetic modification",
+                "value": "p73-2 promoter driving splicing library"
+              },
+              {
+                "name": "Genetic modification",
+                "value": "full CMV promoter with EF1a intron driving splicing library"
+              },
+              {
+                "name": "Genetic modification",
+                "value": "full CMV promoter driving splicing library"
+              },
+              {
+                "name": "Genetic modification",
+                "value": "short CMV  promoter driving splicing library"
+              },
+              {
+                "name": "Genetic modification",
+                "value": "genomically integrated full CMV promoter driving splicing library"
+              },
+              {
+                "name": "Genetic modification",
+                "value": "genomically integrated pEF1a promoter driving splicing library"
+              },
+              {
+                "name": "Replicate",
+                "value": "1"
+              },
+              {
+                "name": "Replicate",
+                "value": "2"
+              }
+            ],
+            "subsections": [
+              [
+                {
+                  "accno": "source_0",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "genetic modification",
+                      "value": "pEF1a promoter driving splicing library"
+                    },
+                    {
+                      "name": "replicate",
+                      "value": "1"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "10",
+                      "valqual": [
+                        {
+                          "name": "url",
+                          "value": "https://www.ebi.ac.uk/ena/browser/view/ERS28513039,ERS28513040,ERS28513041,ERS28513042,ERS28513043,ERS28513045,ERS28513046,ERS28513047,ERS28513048,ERS28513049"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_1",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "genetic modification",
+                      "value": "pEF1a promoter driving splicing library"
+                    },
+                    {
+                      "name": "replicate",
+                      "value": "2"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "2",
+                      "valqual": [
+                        {
+                          "name": "url",
+                          "value": "https://www.ebi.ac.uk/ena/browser/view/ERS28513044,ERS28513050"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_2",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "genetic modification",
+                      "value": "full CMV promoter driving splicing library"
+                    },
+                    {
+                      "name": "replicate",
+                      "value": "1"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "2",
+                      "valqual": [
+                        {
+                          "name": "url",
+                          "value": "https://www.ebi.ac.uk/ena/browser/view/ERS28513051,ERS30471005"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_3",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "genetic modification",
+                      "value": "full CMV promoter driving splicing library"
+                    },
+                    {
+                      "name": "replicate",
+                      "value": "2"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "2",
+                      "valqual": [
+                        {
+                          "name": "url",
+                          "value": "https://www.ebi.ac.uk/ena/browser/view/ERS28513052,ERS30471006"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_4",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "genetic modification",
+                      "value": "short CMV  promoter driving splicing library"
+                    },
+                    {
+                      "name": "replicate",
+                      "value": "1"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1",
+                      "valqual": [
+                        {
+                          "name": "url",
+                          "value": "https://www.ebi.ac.uk/ena/browser/view/ERS28513053"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_5",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "genetic modification",
+                      "value": "short CMV  promoter driving splicing library"
+                    },
+                    {
+                      "name": "replicate",
+                      "value": "2"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1",
+                      "valqual": [
+                        {
+                          "name": "url",
+                          "value": "https://www.ebi.ac.uk/ena/browser/view/ERS28513054"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_6",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "genetic modification",
+                      "value": "ACTB  promoter driving splicing library"
+                    },
+                    {
+                      "name": "replicate",
+                      "value": "1"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1",
+                      "valqual": [
+                        {
+                          "name": "url",
+                          "value": "https://www.ebi.ac.uk/ena/browser/view/ERS28513055"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_7",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "genetic modification",
+                      "value": "ACTB  promoter driving splicing library"
+                    },
+                    {
+                      "name": "replicate",
+                      "value": "2"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1",
+                      "valqual": [
+                        {
+                          "name": "url",
+                          "value": "https://www.ebi.ac.uk/ena/browser/view/ERS28513056"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_8",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "genetic modification",
+                      "value": "minimal CMV  promoter driving splicing library"
+                    },
+                    {
+                      "name": "replicate",
+                      "value": "1"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1",
+                      "valqual": [
+                        {
+                          "name": "url",
+                          "value": "https://www.ebi.ac.uk/ena/browser/view/ERS28513057"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_9",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "genetic modification",
+                      "value": "minimal CMV  promoter driving splicing library"
+                    },
+                    {
+                      "name": "replicate",
+                      "value": "2"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1",
+                      "valqual": [
+                        {
+                          "name": "url",
+                          "value": "https://www.ebi.ac.uk/ena/browser/view/ERS28513058"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_10",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "genetic modification",
+                      "value": "genomically integrated pEF1a promoter driving splicing library"
+                    },
+                    {
+                      "name": "replicate",
+                      "value": "1"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1",
+                      "valqual": [
+                        {
+                          "name": "url",
+                          "value": "https://www.ebi.ac.uk/ena/browser/view/ERS30471007"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_11",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "genetic modification",
+                      "value": "genomically integrated pEF1a promoter driving splicing library"
+                    },
+                    {
+                      "name": "replicate",
+                      "value": "2"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1",
+                      "valqual": [
+                        {
+                          "name": "url",
+                          "value": "https://www.ebi.ac.uk/ena/browser/view/ERS30471008"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_12",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "genetic modification",
+                      "value": "genomically integrated full CMV promoter driving splicing library"
+                    },
+                    {
+                      "name": "replicate",
+                      "value": "1"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1",
+                      "valqual": [
+                        {
+                          "name": "url",
+                          "value": "https://www.ebi.ac.uk/ena/browser/view/ERS30471009"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_13",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "genetic modification",
+                      "value": "episomally expressed full CMV promoter (pZDONOR) driving splicing library"
+                    },
+                    {
+                      "name": "replicate",
+                      "value": "1"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1",
+                      "valqual": [
+                        {
+                          "name": "url",
+                          "value": "https://www.ebi.ac.uk/ena/browser/view/ERS30471010"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_14",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "genetic modification",
+                      "value": "genomically integrated full CMV promoter driving splicing library"
+                    },
+                    {
+                      "name": "replicate",
+                      "value": "2"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1",
+                      "valqual": [
+                        {
+                          "name": "url",
+                          "value": "https://www.ebi.ac.uk/ena/browser/view/ERS30471011"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_15",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "genetic modification",
+                      "value": "episomally expressed full CMV promoter (pZDONOR) driving splicing library"
+                    },
+                    {
+                      "name": "replicate",
+                      "value": "2"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1",
+                      "valqual": [
+                        {
+                          "name": "url",
+                          "value": "https://www.ebi.ac.uk/ena/browser/view/ERS30471012"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_16",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "genetic modification",
+                      "value": "full CMV promoter with EF1a intron driving splicing library"
+                    },
+                    {
+                      "name": "replicate",
+                      "value": "1"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1",
+                      "valqual": [
+                        {
+                          "name": "url",
+                          "value": "https://www.ebi.ac.uk/ena/browser/view/ERS30471013"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_17",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "genetic modification",
+                      "value": "full CMV promoter with EF1a intron driving splicing library"
+                    },
+                    {
+                      "name": "replicate",
+                      "value": "2"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1",
+                      "valqual": [
+                        {
+                          "name": "url",
+                          "value": "https://www.ebi.ac.uk/ena/browser/view/ERS30471014"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_18",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "genetic modification",
+                      "value": "full CMV promoter with bglobin intron driving splicing library"
+                    },
+                    {
+                      "name": "replicate",
+                      "value": "1"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1",
+                      "valqual": [
+                        {
+                          "name": "url",
+                          "value": "https://www.ebi.ac.uk/ena/browser/view/ERS30471015"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_19",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "genetic modification",
+                      "value": "full CMV promoter with bglobin intron driving splicing library"
+                    },
+                    {
+                      "name": "replicate",
+                      "value": "2"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1",
+                      "valqual": [
+                        {
+                          "name": "url",
+                          "value": "https://www.ebi.ac.uk/ena/browser/view/ERS30471016"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_20",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "genetic modification",
+                      "value": "MYC-1 promoter driving splicing library"
+                    },
+                    {
+                      "name": "replicate",
+                      "value": "1"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1",
+                      "valqual": [
+                        {
+                          "name": "url",
+                          "value": "https://www.ebi.ac.uk/ena/browser/view/ERS30471017"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_21",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "genetic modification",
+                      "value": "MYC-1 promoter driving splicing library"
+                    },
+                    {
+                      "name": "replicate",
+                      "value": "2"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1",
+                      "valqual": [
+                        {
+                          "name": "url",
+                          "value": "https://www.ebi.ac.uk/ena/browser/view/ERS30471018"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_22",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "genetic modification",
+                      "value": "MYC-2 promoter driving splicing library"
+                    },
+                    {
+                      "name": "replicate",
+                      "value": "1"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1",
+                      "valqual": [
+                        {
+                          "name": "url",
+                          "value": "https://www.ebi.ac.uk/ena/browser/view/ERS30471019"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_23",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "genetic modification",
+                      "value": "MYC-2 promoter driving splicing library"
+                    },
+                    {
+                      "name": "replicate",
+                      "value": "2"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1",
+                      "valqual": [
+                        {
+                          "name": "url",
+                          "value": "https://www.ebi.ac.uk/ena/browser/view/ERS30471020"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_24",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "genetic modification",
+                      "value": "p73-1 promoter driving splicing library"
+                    },
+                    {
+                      "name": "replicate",
+                      "value": "1"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1",
+                      "valqual": [
+                        {
+                          "name": "url",
+                          "value": "https://www.ebi.ac.uk/ena/browser/view/ERS30471021"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_25",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "genetic modification",
+                      "value": "p73-1 promoter driving splicing library"
+                    },
+                    {
+                      "name": "replicate",
+                      "value": "2"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1",
+                      "valqual": [
+                        {
+                          "name": "url",
+                          "value": "https://www.ebi.ac.uk/ena/browser/view/ERS30471022"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_26",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "genetic modification",
+                      "value": "p73-2 promoter driving splicing library"
+                    },
+                    {
+                      "name": "replicate",
+                      "value": "1"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1",
+                      "valqual": [
+                        {
+                          "name": "url",
+                          "value": "https://www.ebi.ac.uk/ena/browser/view/ERS30471023"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_27",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "genetic modification",
+                      "value": "p73-2 promoter driving splicing library"
+                    },
+                    {
+                      "name": "replicate",
+                      "value": "2"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1",
+                      "valqual": [
+                        {
+                          "name": "url",
+                          "value": "https://www.ebi.ac.uk/ena/browser/view/ERS30471024"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_28",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "genetic modification",
+                      "value": "3' end RNA sequencing"
+                    },
+                    {
+                      "name": "replicate",
+                      "value": "1"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "5",
+                      "valqual": [
+                        {
+                          "name": "url",
+                          "value": "https://www.ebi.ac.uk/ena/browser/view/ERS30471025,ERS30471027,ERS30471029,ERS30471031,ERS30471033"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_29",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "genetic modification",
+                      "value": "3' end RNA sequencing"
+                    },
+                    {
+                      "name": "replicate",
+                      "value": "2"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "5",
+                      "valqual": [
+                        {
+                          "name": "url",
+                          "value": "https://www.ebi.ac.uk/ena/browser/view/ERS30471026,ERS30471028,ERS30471030,ERS30471032,ERS30471034"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "accno": "s-assays-data-E-MTAB-16553",
+        "type": "Assays and Data",
+        "attributes": [
+          {
+            "name": "Assay count",
+            "value": "50"
+          },
+          {
+            "name": "Technology",
+            "value": "Sequencing assay"
+          }
+        ],
+        "subsections": [
+          {
+            "accno": "processed-data",
+            "type": "Processed Data",
+            "files": [
+              [
+                {
+                  "path": "ceadd.pm747a_6mio42R.2026-05-01.csv",
+                  "size": 10212715,
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "type": "file"
+                },
+                {
+                  "path": "ceint.pm734aNEWINT_R.2026-04-22.csv",
+                  "size": 6437190,
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "type": "file"
+                },
+                {
+                  "path": "ceadd.pm740a_6mio42R.2026-05-01.csv",
+                  "size": 10187111,
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "type": "file"
+                },
+                {
+                  "path": "ceadd.pm747b_6mio42R.2026-05-01.csv",
+                  "size": 10039398,
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "type": "file"
+                },
+                {
+                  "path": "ceadd.pm739a_6mio42R.2026-05-01.csv",
+                  "size": 10776086,
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "type": "file"
+                },
+                {
+                  "path": "cedrugs.pm425control2.2025-07-15.csv",
+                  "size": 15972586,
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "type": "file"
+                },
+                {
+                  "path": "RNAseq_counts.csv",
+                  "size": 39970634,
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "type": "file"
+                },
+                {
+                  "path": "cedrugs.pm425ActDHigh.2025-07-16.csv",
+                  "size": 12320623,
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "type": "file"
+                },
+                {
+                  "path": "cedrugs.pm425DoxorubicinLow.2025-07-22.csv",
+                  "size": 15745290,
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "type": "file"
+                },
+                {
+                  "path": "ceprom.pm454a.2025-05-16.csv",
+                  "size": 10834484,
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "type": "file"
+                },
+                {
+                  "path": "ceprom.pm425a.2025-05-16.csv",
+                  "size": 12023713,
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "type": "file"
+                },
+                {
+                  "path": "ceprom.pm456b.2025-05-16.csv",
+                  "size": 10575653,
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "type": "file"
+                },
+                {
+                  "path": "ceint.pm734bTRANS_R.2026-04-22.csv",
+                  "size": 7973953,
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "type": "file"
+                },
+                {
+                  "path": "ceadd.pm744b_6mio42R.2026-05-01.csv",
+                  "size": 9357317,
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "type": "file"
+                },
+                {
+                  "path": "ceadd.pm743b_6mio42R.2026-05-01.csv",
+                  "size": 10992293,
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "type": "file"
+                },
+                {
+                  "path": "ceprom.pm456a.2025-05-16.csv",
+                  "size": 10682999,
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "type": "file"
+                },
+                {
+                  "path": "cedrugs.pm425AmanitinLow.2025-07-17.csv",
+                  "size": 15710220,
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "type": "file"
+                },
+                {
+                  "path": "ceint.pm734bNEWINT_R.2026-04-22.csv",
+                  "size": 7501833,
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "type": "file"
+                },
+                {
+                  "path": "ceprom.pm457a.2025-05-16.csv",
+                  "size": 12045922,
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "type": "file"
+                },
+                {
+                  "path": "ceadd.pm740b_6mio42R.2026-05-01.csv",
+                  "size": 10498576,
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "type": "file"
+                },
+                {
+                  "path": "ceadd.pm743a_6mio42R.2026-05-01.csv",
+                  "size": 11417111,
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "type": "file"
+                },
+                {
+                  "path": "cedrugs.pm425ActDLow.2025-07-16.csv",
+                  "size": 13900089,
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "type": "file"
+                },
+                {
+                  "path": "cedrugs.pm425AmanitinHigh.2025-07-17.csv",
+                  "size": 14631891,
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "type": "file"
+                },
+                {
+                  "path": "ceprom.pm457b.2025-05-16.csv",
+                  "size": 11338789,
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "type": "file"
+                },
+                {
+                  "path": "ceprom.pm454b.2025-05-16.csv",
+                  "size": 10917938,
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "type": "file"
+                },
+                {
+                  "path": "ceint.pm733bNEWINT_R.2026-04-22.csv",
+                  "size": 7326338,
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "type": "file"
+                },
+                {
+                  "path": "ceadd.pm744a_6mio42R.2026-05-01.csv",
+                  "size": 9037634,
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "type": "file"
+                },
+                {
+                  "path": "ceadd.pm454b_6mio42R.2026-05-01.csv",
+                  "size": 11749671,
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "type": "file"
+                },
+                {
+                  "path": "cedrugs.pm425CPTLow.2025-07-19.csv",
+                  "size": 15660991,
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "type": "file"
+                },
+                {
+                  "path": "ceadd.pm745b_6mio42R.2026-05-01.csv",
+                  "size": 10130736,
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "type": "file"
+                },
+                {
+                  "path": "ceprom.pm455b.2025-09-09.csv",
+                  "size": 11552888,
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "type": "file"
+                },
+                {
+                  "path": "ceint.pm733aNEWINT_R.2026-04-22.csv",
+                  "size": 7030550,
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "type": "file"
+                },
+                {
+                  "path": "ceadd.pm739b_6mio42R.2026-05-01.csv",
+                  "size": 10996713,
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "type": "file"
+                },
+                {
+                  "path": "ceprom.pm455a.2025-09-09.csv",
+                  "size": 12250387,
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "type": "file"
+                },
+                {
+                  "path": "cedrugs.pm425DoxorubicinHigh.2025-07-22.csv",
+                  "size": 16784654,
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "type": "file"
+                },
+                {
+                  "path": "ceadd.pm454a_6mio42R.2026-05-01.csv",
+                  "size": 11791119,
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "type": "file"
+                },
+                {
+                  "path": "ceint.pm734aTRANS_R.2026-04-22.csv",
+                  "size": 8452048,
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "type": "file"
+                },
+                {
+                  "path": "cedrugs.pm425control.2025-07-15.csv",
+                  "size": 17633581,
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "type": "file"
+                },
+                {
+                  "path": "cedrugs.pm425CPTHigh.2025-07-20.csv",
+                  "size": 13180086,
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "type": "file"
+                },
+                {
+                  "path": "ceprom.pm425b.2025-05-16.csv",
+                  "size": 11695877,
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "type": "file"
+                },
+                {
+                  "path": "ceadd.pm745a_6mio42R.2026-05-01.csv",
+                  "size": 10325069,
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "type": "file"
+                }
+              ]
+            ]
+          },
+          {
+            "accno": "mt-E-MTAB-16553",
+            "type": "MAGE-TAB Files",
+            "files": [
+              [
+                {
+                  "path": "E-MTAB-16553.idf.txt",
+                  "size": 9977,
+                  "attributes": [
+                    {
+                      "name": "Type",
+                      "value": "IDF File"
+                    },
+                    {
+                      "name": "Format",
+                      "value": "tab-delimited text"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Investigation Design Format (IDF)"
+                    }
+                  ],
+                  "type": "file"
+                },
+                {
+                  "path": "E-MTAB-16553.sdrf.txt",
+                  "size": 63991,
+                  "attributes": [
+                    {
+                      "name": "Type",
+                      "value": "SDRF File"
+                    },
+                    {
+                      "name": "Format",
+                      "value": "tab-delimited text"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Sample and Data Relationship Format (SDRF)"
+                    }
+                  ],
+                  "type": "file"
+                }
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "accno": "score-E-MTAB-16553",
+        "type": "MINSEQE Score",
+        "attributes": [
+          {
+            "name": "Exp. Design",
+            "value": "-"
+          },
+          {
+            "name": "Protocols",
+            "value": "*"
+          },
+          {
+            "name": "Variables",
+            "value": "-"
+          },
+          {
+            "name": "Processed",
+            "value": "*"
+          },
+          {
+            "name": "Raw",
+            "value": "*"
+          }
+        ]
+      }
+    ]
+  },
+  "type": "submission"
+}

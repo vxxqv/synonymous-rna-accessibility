@@ -1,0 +1,99 @@
+{
+  "status": "bounded_primary_source_review_complete_no_outcome_authorization",
+  "date": "2026-10-25",
+  "source_contracts": [
+    {
+      "label": "shanas2026",
+      "primary_file": "shanas2026.xml",
+      "sha256": "9d05575f8002c5478ded9cba8677500d0e85476a2dc3d73435be6f9716444d20",
+      "title": "Promoter identity shapes splicing outcomes and fidelity",
+      "dois": [
+        "10.1038/s41467-026-76370-1"
+      ],
+      "linked_related_articles": [],
+      "access": "Public institutional fullTextXML; method/discussion inspection, not outcome table parsing."
+    },
+    {
+      "label": "rank2025",
+      "primary_file": "rank2025.xml",
+      "sha256": "15a5be1e9e849989cd2bd6d3dbef460362f5aee4aff91cc9dd282acfc722d149",
+      "title": "Distinguishing direct interactions from global epistasis using rank statistics",
+      "dois": [
+        "10.1073/pnas.2509444122"
+      ],
+      "linked_related_articles": [],
+      "access": "Public institutional fullTextXML; method/discussion inspection, not outcome table parsing."
+    },
+    {
+      "label": "pdz_extension2026",
+      "primary_file": "pdz_extension2026.xml",
+      "sha256": "94fd477b246efdf1351fea38bed98ee882c7821d3bb590a9f71a586586327935",
+      "title": "Allosteric and energetic remodeling of a PDZ domain by protein domain extensions",
+      "dois": [
+        "10.1038/s41467-026-69673-w"
+      ],
+      "linked_related_articles": [],
+      "access": "Public institutional fullTextXML; method/discussion inspection, not outcome table parsing."
+    },
+    {
+      "label": "pdz_homolog2026",
+      "primary_file": "pdz_homolog2026.xml",
+      "sha256": "b55d3a9cd4e1e10f8277b2d68f922b2ea5b2c68b5042ce2a2ff0b9d662044e9a",
+      "title": "Seven complete comparative maps of allosteric mutations in a protein family",
+      "dois": [
+        "10.1038/s41467-026-71005-x"
+      ],
+      "linked_related_articles": [],
+      "access": "Public institutional fullTextXML; method/discussion inspection, not outcome table parsing."
+    },
+    {
+      "label": "10.1186/s13059-024-03444-y",
+      "primary_file": "primary_amass_1.json",
+      "sha256": "7981dea2297664fded74aa82bb01a7db00c4b2c988bbe32f7b88ec68208a546f",
+      "title": "MoCHI: neural networks to fit interpretable models and quantify energies, energetic couplings, epistasis, and allostery from deep mutational scanning data",
+      "isRetracted": false,
+      "access": "Amass primary full text, not publisher PDF byte identity",
+      "fulltext_characters": 67044
+    },
+    {
+      "label": "10.1186/s13059-026-03934-1",
+      "primary_file": "primary_amass_2.json",
+      "sha256": "e90c79ec3a21f1ce7762013141b58ff4c3ea64005255e11e454c6eae3f222872",
+      "title": "Accurate variant effect estimation in FACS-based deep mutational scanning data with Lilace",
+      "isRetracted": false,
+      "access": "Amass primary full text, not publisher PDF byte identity",
+      "fulltext_characters": 52376
+    }
+  ],
+  "reused_local_audits": [
+    {
+      "path": "work/joint_function_cycle5/combined_interpretation_review/review.md",
+      "sha256": "6e3ec679817562c68c6644b85373c2d96debf4ef17998c8e8be0bc4c8f96646c",
+      "scope": "Reused exact earlier source/claim boundary audit, not current publication-status reauthentication."
+    },
+    {
+      "path": "work/joint_function_cycle5/measurement_limits/report.md",
+      "sha256": "1171ef7242e299214c8449ee0222b5f50f1a982bdb73b1b36169aab77d7d3740",
+      "scope": "Reused exact earlier source/claim boundary audit, not current publication-status reauthentication."
+    },
+    {
+      "path": "work/joint_function_cycle5/mordstein_eligibility/review.md",
+      "sha256": "97a32eb1027857a679756e9f5fd3a420d54d6a5ea04a960db44d3f17ed4fac28",
+      "scope": "Reused exact earlier source/claim boundary audit, not current publication-status reauthentication."
+    },
+    {
+      "path": "work/joint_function_cycle5/splicing_sources/review.md",
+      "sha256": "1f201464a06b1f3d8a89bdce2a35d08f494b3d49aad559a3d26f8bad873bf682",
+      "scope": "Reused exact earlier source/claim boundary audit, not current publication-status reauthentication."
+    }
+  ],
+  "unresolved": [
+    "strict same-CDS/ORF identity in new context source",
+    "exact source-level context/graph overlap",
+    "independent preparation covariance",
+    "novelty beyond published context/biophysical findings",
+    "calibrated practical margin"
+  ],
+  "first_next_action": "Only route1 metadata and source-code-only contract gate if root authorizes; no outcomes.",
+  "excluded_release_material": "Full texts, caches and publisher/source files are local verification evidence, not computational archive content."
+}

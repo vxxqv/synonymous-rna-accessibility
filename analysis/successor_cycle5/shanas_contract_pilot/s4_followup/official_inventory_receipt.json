@@ -1,0 +1,113 @@
+{
+  "url": "https://pmc-oa-opendata.s3.amazonaws.com/?list-type=2&prefix=PMC13534650&max-keys=100",
+  "status": 200,
+  "bytes": 7073,
+  "sha256": "0a1b753358d2e2eb8f13072c342840f1b3cc9a766c5f0c93131ab6e04f54d9cb",
+  "files": [
+    {
+      "key": "PMC13534650.1/41467_2026_76370_Fig1_HTML.webp",
+      "size": "176922",
+      "etag": "\"919580a16f52da4b3f528792d1453658\""
+    },
+    {
+      "key": "PMC13534650.1/41467_2026_76370_Fig2_HTML.webp",
+      "size": "239892",
+      "etag": "\"57d0ef5751fbf44b89036ac0f5b14d87\""
+    },
+    {
+      "key": "PMC13534650.1/41467_2026_76370_Fig3_HTML.webp",
+      "size": "159342",
+      "etag": "\"254fb89ed289b503139beceaa0fd8ba6\""
+    },
+    {
+      "key": "PMC13534650.1/41467_2026_76370_Fig4_HTML.webp",
+      "size": "197578",
+      "etag": "\"517d08f324b75226f038f9e44572080d\""
+    },
+    {
+      "key": "PMC13534650.1/41467_2026_76370_Fig5_HTML.webp",
+      "size": "233406",
+      "etag": "\"03df0ac8d1f5980f8a9624e98e3d5879\""
+    },
+    {
+      "key": "PMC13534650.1/41467_2026_76370_Fig6_HTML.webp",
+      "size": "270988",
+      "etag": "\"a1fbd9a971e2dc9e5cebb983a1d05f51\""
+    },
+    {
+      "key": "PMC13534650.1/41467_2026_76370_Fig7_HTML.webp",
+      "size": "227662",
+      "etag": "\"e962e23ea2b82fa08179fc753db6d043\""
+    },
+    {
+      "key": "PMC13534650.1/41467_2026_76370_MOESM10_ESM.xlsx",
+      "size": "215494",
+      "etag": "\"62cb8f144f95cc29a7d1a2f9578681ab\""
+    },
+    {
+      "key": "PMC13534650.1/41467_2026_76370_MOESM1_ESM.pdf",
+      "size": "13117783",
+      "etag": "\"79a204ed0d23f09db16c3249e605736d-2\""
+    },
+    {
+      "key": "PMC13534650.1/41467_2026_76370_MOESM2_ESM.pdf",
+      "size": "134744",
+      "etag": "\"a5241e1a7dc593d2db72ed0fe1790eb5\""
+    },
+    {
+      "key": "PMC13534650.1/41467_2026_76370_MOESM3_ESM.csv",
+      "size": "7395",
+      "etag": "\"9751b72f38ab6b0f522e57e6397dc5bd\""
+    },
+    {
+      "key": "PMC13534650.1/41467_2026_76370_MOESM4_ESM.csv",
+      "size": "2410100",
+      "etag": "\"82a81e53960103733d203a616834726a\""
+    },
+    {
+      "key": "PMC13534650.1/41467_2026_76370_MOESM5_ESM.zip",
+      "size": "58023350",
+      "etag": "\"52d9db6bf0e000d914f940dfcf8e50e5-7\""
+    },
+    {
+      "key": "PMC13534650.1/41467_2026_76370_MOESM6_ESM.xlsx",
+      "size": "11971",
+      "etag": "\"29902e2f98b9db0ef88781246ee32aa7\""
+    },
+    {
+      "key": "PMC13534650.1/41467_2026_76370_MOESM7_ESM.zip",
+      "size": "2368518",
+      "etag": "\"95760e8db894055b6d4c07bfe2821433\""
+    },
+    {
+      "key": "PMC13534650.1/41467_2026_76370_MOESM8_ESM.pdf",
+      "size": "107115",
+      "etag": "\"d50b8bb94f67256db37aaf790ffc2613\""
+    },
+    {
+      "key": "PMC13534650.1/41467_2026_76370_MOESM9_ESM.pdf",
+      "size": "39992",
+      "etag": "\"0e77f18283261c035567e27c6461e938\""
+    },
+    {
+      "key": "PMC13534650.1/PMC13534650.1.json",
+      "size": "2537",
+      "etag": "\"4ce49d73c0ca1c86bbcdfcbf3865ee4f\""
+    },
+    {
+      "key": "PMC13534650.1/PMC13534650.1.pdf",
+      "size": "4926420",
+      "etag": "\"7bbe47150ce3555b7ae9a7d2d82da2f0\""
+    },
+    {
+      "key": "PMC13534650.1/PMC13534650.1.txt",
+      "size": "126668",
+      "etag": "\"8c58c9f240c0db48b989b12c2e2cf84a\""
+    },
+    {
+      "key": "PMC13534650.1/PMC13534650.1.xml",
+      "size": "212273",
+      "etag": "\"1bd7c3ee505b6a5ffa09431e0e7d373b\""
+    }
+  ]
+}

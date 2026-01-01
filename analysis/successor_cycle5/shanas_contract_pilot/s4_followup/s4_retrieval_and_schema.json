@@ -1,0 +1,18 @@
+{
+  "url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC13534650.1/41467_2026_76370_MOESM6_ESM.xlsx",
+  "status": 200,
+  "bytes": 11971,
+  "sha256": "9acf21d4b939451248dbebb911fc3769228a079ea64da6404db49779eeac316e",
+  "md5": "29902e2f98b9db0ef88781246ee32aa7",
+  "schema": [
+    {
+      "sheet_name": "Sheet1",
+      "xml_path": "xl/worksheets/sheet1.xml",
+      "first_row": {
+        "A1": "promoter construct",
+        "B1": "sequence"
+      }
+    }
+  ],
+  "access_scope": "Workbook sheet names and first-row metadata only; no subsequent cell value decoded yet."
+}

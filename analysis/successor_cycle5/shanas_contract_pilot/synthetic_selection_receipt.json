@@ -1,0 +1,14 @@
+{
+  "status": "synthetic selectors passed; no real outcomes",
+  "selector_sha256": "1878561a5be88adcbcc42ee7f8921f2b6fda2fe99d276f216321736da85d193d",
+  "code_execution_scope": "Own selector and metadata checks only; deposited author code only AST-parsed/read, never executed.",
+  "real_input_whitelist": [
+    "library index",
+    "subset",
+    "gene name",
+    "exonlength",
+    "exonstart in sequence",
+    "exonend in sequence",
+    "sequence"
+  ]
+}

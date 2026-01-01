@@ -1,0 +1,107 @@
+{
+  "files": {
+    "author_code/1.create_bcread_dict.py": {
+      "bytes": 4384,
+      "sha256": "c109a46ef705bb718a5f8036752c0484513a22b19828a982f688e9e0c4d033e6"
+    },
+    "author_code/README.md": {
+      "bytes": 9558,
+      "sha256": "a8bca52010c95385b76e0c9fde8d9355d9c1115fd5d1bcf83f45ae917a3fe66f"
+    },
+    "author_code/ce.detect_splicesites.py": {
+      "bytes": 18611,
+      "sha256": "2c4d9550f83345709443219ae4a61d8b41744a164589c8810b2d3fe3e39f2315"
+    },
+    "author_code/ce.pipeline.py": {
+      "bytes": 11999,
+      "sha256": "3af3f3e01d716738b6751f879bc50711e48900c3082a3048b5c8da307b2b4d02"
+    },
+    "author_code/notebook_code_only.py": {
+      "bytes": 231455,
+      "sha256": "d58dca5d2e977693f705881362f8388a626a7d9e73404e3be8aa5f1686bb0021"
+    },
+    "contract_checks.py": {
+      "bytes": 6806,
+      "sha256": "caa8202627a7b69be0fe42ba8373bc24e7119c75aca76f60db2665c92cb10e86"
+    },
+    "evidence.json": {
+      "bytes": 3386,
+      "sha256": "18a72c42bc4b380dc4079ad9538803010dd343a0156b87e7a73a93d583303d41"
+    },
+    "exposure_and_failure_ledger.md": {
+      "bytes": 3062,
+      "sha256": "5e8ef9363faf4a2de169ee6e93349f531da740e9f713723f83f82f546dd1b4f1"
+    },
+    "github_tree_1.json": {
+      "bytes": 8567,
+      "sha256": "67cb4f86d7e2dab0a428964bec03e43cb51f08c14b29e79b9e716c3ce97e0886"
+    },
+    "github_tree_2.json": {
+      "bytes": 69669,
+      "sha256": "132de8e0b3b80d4f900cd73ce0d4dd1b641c61e64f8db3f1aa3c28da56356d24"
+    },
+    "history_add_xlsx_failed.py": {
+      "bytes": 9312,
+      "sha256": "1e99da9a86d549605b591039f8a16dd68b5c5079cd253e9d2a0b3d48e63833d9"
+    },
+    "library_csv_header.txt": {
+      "bytes": 442,
+      "sha256": "3c8356ff0a236dd58d7d8eee9ba1fce47be12aae374ed081f94a988e303e6e70"
+    },
+    "library_header_receipt.json": {
+      "bytes": 701,
+      "sha256": "6783c9638882926cbe533951b81afcc5d58b3499aa8211b8f2704cece6e9b0c2"
+    },
+    "library_selection_receipt.json": {
+      "bytes": 1239,
+      "sha256": "84a5ae6dacb87d2800054eed54c7e2bfed5049206fa264b8b7d1a419114c74ab"
+    },
+    "notebook_selection_receipt.json": {
+      "bytes": 668,
+      "sha256": "e8af2f77aa2d55618e5b5b1d28bf30b27c3bf1f256026cdafddefa722efa1721"
+    },
+    "reader_repair_receipt.json": {
+      "bytes": 439,
+      "sha256": "18b8f72714941970ac6ca87fd53c389a4085dbd8c4088675f4657c8eb89f246f"
+    },
+    "report.md": {
+      "bytes": 13845,
+      "sha256": "5c367415cab5c3278bf168668e08c473ca07d43cba6d1b0ce30da8f9be20c1da"
+    },
+    "sample_unit_map.json": {
+      "bytes": 32846,
+      "sha256": "ecb985b9b98139b785b58229dfa1b54b7c7244a750b90cc6a3f9b3171442c2e7"
+    },
+    "selected_library_metadata.json": {
+      "bytes": 4139452,
+      "sha256": "943e5313292567988716a571c0956f14ed13b120340495f0b42d86d0866e7193"
+    },
+    "selected_workbook_metadata.json": {
+      "bytes": 4122446,
+      "sha256": "eaf4c065e33d7672928a7dddb421b14ca0e0622741a2b82fabda7c61b8071309"
+    },
+    "selective_readers.py": {
+      "bytes": 12491,
+      "sha256": "1878561a5be88adcbcc42ee7f8921f2b6fda2fe99d276f216321736da85d193d"
+    },
+    "source_manifest.json": {
+      "bytes": 3551,
+      "sha256": "ea641f2606d2983211284716d7c3b12d16612c63c2bd5dac4b609a063dbe45e4"
+    },
+    "supplement4_access_failure.json": {
+      "bytes": 536,
+      "sha256": "a467de4c6a4a6e8b84ad091673321433f275c9080a6234e948ed890f641c59fe"
+    },
+    "synthetic_selection_receipt.json": {
+      "bytes": 468,
+      "sha256": "7c3ae40c5006f0cc4447f25c1be2042e288914186e381b31b0364b252608f529"
+    },
+    "workbook_selection_receipt.json": {
+      "bytes": 12823,
+      "sha256": "91f0e0719ce921011138f7dd10db738296fce8e2b8c99ffaa1ddf02212921ef2"
+    }
+  },
+  "integration": "Only reports, receipts, readers and selected necessary metadata. Exclude primary paper caches, raw mixed tables, notebook outputs, failed helper from runtime, and author full plotting source unless needed for audited provenance.",
+  "scope": "Metadata/code feasibility only; no new phenotype or graph analysis.",
+  "status": "REPORT_READY"
+}

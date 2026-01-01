@@ -1,0 +1,22 @@
+[
+  {
+    "doi": "10.1038/s41467-026-69673-w",
+    "metadata_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1038%2Fs41467-026-69673-w&format=json",
+    "status": 200,
+    "metadata_sha256": "1d9e0f4ec93c4702989548f3a0ef71e1b67902ef436c4725f93292658ce4cb9b",
+    "xml_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13031967/fullTextXML",
+    "xml_status": 200,
+    "xml_sha256": "94fd477b246efdf1351fea38bed98ee882c7821d3bb590a9f71a586586327935",
+    "xml_bytes": 178259
+  },
+  {
+    "doi": "10.1038/s41467-026-71005-x",
+    "metadata_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1038%2Fs41467-026-71005-x&format=json",
+    "status": 200,
+    "metadata_sha256": "a00673df843666b90b72b071fa8c6d2f09d33fe5634f940ebb6f6603197e187f",
+    "xml_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13284222/fullTextXML",
+    "xml_status": 200,
+    "xml_sha256": "b55d3a9cd4e1e10f8277b2d68f922b2ea5b2c68b5042ce2a2ff0b9d662044e9a",
+    "xml_bytes": 206115
+  }
+]

@@ -1,0 +1,46 @@
+{
+  "artifacts": {
+    "addendum.md": {
+      "bytes": 3771,
+      "sha256": "3909a7a0e0fc0eb63199af11a006ff0ef226ecb5165f9cf6418ae19b8755c14d"
+    },
+    "closure_receipt.json": {
+      "bytes": 1361,
+      "sha256": "43f7a0cf6bfc39b629cb90bc6424e32d90c92a18d0415c8b2dcc224ea8232496"
+    },
+    "history_schema_summary_pre_N_counts.json": {
+      "bytes": 2899,
+      "sha256": "3fe5f76d0cc304d0c0602a46697445c955a76e38b3cafff69b06be766ee05882"
+    },
+    "official_SupplementaryData4.xlsx": {
+      "bytes": 11971,
+      "sha256": "9acf21d4b939451248dbebb911fc3769228a079ea64da6404db49779eeac316e"
+    },
+    "official_inventory_receipt.json": {
+      "bytes": 3490,
+      "sha256": "48de67187f31605d4d66eef0a10a01070167aff7e1e57ac551d3b1332535de01"
+    },
+    "official_pmc_file_inventory_response.xml": {
+      "bytes": 7073,
+      "sha256": "0a1b753358d2e2eb8f13072c342840f1b3cc9a766c5f0c93131ab6e04f54d9cb"
+    },
+    "older_oa_service_failure.json": {
+      "bytes": 479,
+      "sha256": "37687e5fc19746943d8ac4e5aeba894464b9c0313f909cb630bfae0f061294ea"
+    },
+    "s4_retrieval_and_schema.json": {
+      "bytes": 587,
+      "sha256": "16f5af00e4663725a78c517654bc9b5d00fdbcbff76c3a406ec0b5a3a3b9c357"
+    },
+    "s4_sequence_schema_summary.json": {
+      "bytes": 3810,
+      "sha256": "266fab1f0cd73c0752c14fb251a2f21870f1157ca8697b4dbf621b376266d7ca"
+    },
+    "selected_s4_metadata.json": {
+      "bytes": 10315,
+      "sha256": "89f9b67693821369d6bcbf7216471b3a3b09708be78c203f443e004f55526d86"
+    }
+  },
+  "runtime_or_release_note": "Publisher workbook is a source-verification copy. Root may retain reports/receipts and selected metadata without packaging original workbook or primary texts.",
+  "status": "FINAL_ADDENDUM_READY"
+}

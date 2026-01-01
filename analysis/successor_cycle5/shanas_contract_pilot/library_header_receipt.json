@@ -1,0 +1,6 @@
+{
+  "url": "https://raw.githubusercontent.com/shakedshanas/Splicing-MPRA-data-processing/main/demo/41467_2019_12642_MOESM10_ESM.csv",
+  "status": 200,
+  "scope": "Header only; response closed before subsequent line access. No row read.",
+  "header": "library index,subset,gene name,exonlength,exonstart in sequence,exonend in sequence,maxent5,maxent3,MFE intron1,MFE acceptor,MFE exon5,MFE exoncenter,MFE exon3,MFE donor,MFE intron2,splicing ratio (log2),fraction exon included,wild-type splicing ratio (log2),normalized splicing ratio,normalized fraction exon included,changes,combination,first_ss,second_ss,firstss,secondss,first_SF,second_SF,rnareads_effective,fraction_canonical,sequence"
+}

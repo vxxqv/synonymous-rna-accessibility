@@ -1,0 +1,9 @@
+library_name,run_accession,experiment_accession,sample_accession,structured_cell_line,intron,fraction,label_suffix,independent_preparation_ID,matched_preparation_group_ID,exact_variant_CDS_index,title_vs_structured_cell_line_conflict
+CM6_c1,SRR10714569,SRX7391373,SAMN13612104,HeLa,False,Cytoplasmic,1,,,,True
+CM6_c2,SRR10714568,SRX7391374,SAMN13612104,HeLa,False,Cytoplasmic,2,,,,True
+CM6_ci1,SRR10714567,SRX7391375,SAMN13612105,HeLa,True,Cytoplasmic,1,,,,True
+CM6_ci2,SRR10714542,SRX7391400,SAMN13612105,HeLa,True,Cytoplasmic,2,,,,True
+CM6_n1,SRR10714541,SRX7391401,SAMN13612106,HeLa,False,Nuclear,1,,,,True
+CM6_n2,SRR10714540,SRX7391402,SAMN13612106,HeLa,False,Nuclear,2,,,,True
+CM6_ni1,SRR10714539,SRX7391403,SAMN13612107,HeLa,True,Nuclear,1,,,,True
+CM6_ni2,SRR10714538,SRX7391404,SAMN13612107,HeLa,True,Nuclear,2,,,,True

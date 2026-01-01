@@ -1,0 +1,35 @@
+{
+  "verdict": "S4_ACCESS_RESOLVED_SAME_PROTEIN_GATE_UNCHANGED",
+  "blocking_findings": [],
+  "primary_cross_reference_verified": true,
+  "official_inventory_file_bytes_verified": true,
+  "selected_metadata_rows": 11,
+  "selected_columns": [
+    "promoter construct",
+    "sequence"
+  ],
+  "ambiguous_N": {
+    "pACTB": 1
+  },
+  "annotated_full_CDS_supplied": false,
+  "synonymous_graph_counts": "not authenticated or computed; not zero",
+  "source_pins": {
+    "addendum.md": "3909a7a0e0fc0eb63199af11a006ff0ef226ecb5165f9cf6418ae19b8755c14d",
+    "closure_receipt.json": "43f7a0cf6bfc39b629cb90bc6424e32d90c92a18d0415c8b2dcc224ea8232496",
+    "delivery_manifest.json": "41a52d48501114beb4bf92f122626b90a44efb41eefb5702c56356d99789c6cd",
+    "s4_sequence_schema_summary.json": "266fab1f0cd73c0752c14fb251a2f21870f1157ca8697b4dbf621b376266d7ca"
+  },
+  "source_workbook_sha256": "9acf21d4b939451248dbebb911fc3769228a079ea64da6404db49779eeac316e",
+  "selected_metadata_sha256": "89f9b67693821369d6bcbf7216471b3a3b09708be78c203f443e004f55526d86",
+  "parent_report_evidence_selector_unchanged": {
+    "report.md": "5c367415cab5c3278bf168668e08c473ca07d43cba6d1b0ce30da8f9be20c1da",
+    "evidence.json": "18a72c42bc4b380dc4079ad9538803010dd343a0156b87e7a73a93d583303d41",
+    "selective_readers.py": "1878561a5be88adcbcc42ee7f8921f2b6fda2fe99d276f216321736da85d193d"
+  },
+  "prior_review_and_receipt_unchanged": true,
+  "addendum_sha256": "e68461aba2c1fa8cc10bf08a2839e45e0dcdb368a6af5917e7334498f8331d9e",
+  "audit_code_sha256": "ce446648ecc0d7464d7d8019423c09d2b94559ae09b6277f9997ff29a01fcafe",
+  "phenotype_or_missingness_access": false,
+  "new_retrieval_or_shared_edit": false,
+  "limits": "Metadata/reference audit only. No assertion that absent exact GFP anchor exhaustively rules out coding; no measured overlap or validation result computed."
+}

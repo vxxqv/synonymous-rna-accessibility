@@ -1,0 +1,18 @@
+[
+  {
+    "url": "https://www.ebi.ac.uk/biostudies/files/E-MTAB-16553/E-MTAB-16553.idf.txt",
+    "status": 200,
+    "final_url": "https://ftp.ebi.ac.uk/biostudies/fire/E-MTAB-/553/E-MTAB-16553/Files/E-MTAB-16553.idf.txt",
+    "content_type": "text/plain; charset=UTF-8",
+    "bytes": 9977,
+    "sha256": "4e2110e3028f789a9c39403d0e22270f87635db9451fcbb587ee230d2f9e8a85"
+  },
+  {
+    "url": "https://www.ebi.ac.uk/biostudies/files/E-MTAB-16553/E-MTAB-16553.sdrf.txt",
+    "status": 200,
+    "final_url": "https://ftp.ebi.ac.uk/biostudies/fire/E-MTAB-/553/E-MTAB-16553/Files/E-MTAB-16553.sdrf.txt",
+    "content_type": "text/plain; charset=UTF-8",
+    "bytes": 63991,
+    "sha256": "a2e2163fe46b3f0f948197783e2603bacff1928e6bc083d9195bf1798647480d"
+  }
+]

@@ -1,0 +1,427 @@
+{
+  "scope": "Actual successor metadata/method archive members, excluding this manifest.",
+  "full_primary_text_or_author_plotting_code_included": false,
+  "phenotype_analysis_performed": false,
+  "files": [
+    {
+      "path": "context_contract_followup/build_contract_map.py",
+      "sha256": "c832d1705719eae913343c0b70df8bd3963ec55e11759b2aabf1e888b56da4c7",
+      "bytes": 3537
+    },
+    {
+      "path": "context_contract_followup/connected_search_receipts.json",
+      "sha256": "16ead397e3f632fc2fbc91b396fc6e972c956ba5f02783a5b72454c08f81e8b4",
+      "bytes": 607
+    },
+    {
+      "path": "context_contract_followup/contract_map.json",
+      "sha256": "f4ca82e22b9f1aa05ec2c5249f70ab491028ba66e4b41b59eb6c61d033ea424d",
+      "bytes": 9404
+    },
+    {
+      "path": "context_contract_followup/ena_analyses.json",
+      "sha256": "2ba33ca0557f1bb5b7ba88d67f9d0093c7185a36ec51fe2b7bd9372d3e001d6d",
+      "bytes": 5
+    },
+    {
+      "path": "context_contract_followup/ena_runs.json",
+      "sha256": "ecd8c53ffbb535405aa3ce9f383a7e6a211d02ded729fc6c804b86736ddfb0be",
+      "bytes": 19981
+    },
+    {
+      "path": "context_contract_followup/ena_study.xml",
+      "sha256": "980ce0792d148864de2bcc1612d7026b24346a4903d1580410c67e96cdb7756e",
+      "bytes": 2306
+    },
+    {
+      "path": "context_contract_followup/experiment_retrieval_receipts.json",
+      "sha256": "e2b27f106563996cbc50c0ae5ade8e5c96d80a852ea3948b85d5427a8c934561",
+      "bytes": 3493
+    },
+    {
+      "path": "context_contract_followup/exposure_ledger.json",
+      "sha256": "701920dc717747cb9242dfd1278358ea691c1dafbf635114172bd9c443a30f66",
+      "bytes": 1584
+    },
+    {
+      "path": "context_contract_followup/fractionation_accession_map.csv",
+      "sha256": "97a008bb39fe12264cb5fc2150909f24a737281b08591f52ad0daf90d61c81fe",
+      "bytes": 835
+    },
+    {
+      "path": "context_contract_followup/fractionation_experiment_metadata.json",
+      "sha256": "521982fa5f01c5bb2b13af041e5462fb87050718a091f8198386a9377fe45324",
+      "bytes": 17765
+    },
+    {
+      "path": "context_contract_followup/manifest.json",
+      "sha256": "424dde6a1b4b259bf9018068e2cd93e7991946aea2bbc26f958042305005e647",
+      "bytes": 6281
+    },
+    {
+      "path": "context_contract_followup/mittal_cloud_inventory.xml",
+      "sha256": "362147189906ca57e37c223d354da402fe9766147142cc43c2924f981b4d3393",
+      "bytes": 3091
+    },
+    {
+      "path": "context_contract_followup/mittal_package_inventory.json",
+      "sha256": "a2e73fb2798c76f58b8f12931c04aa12b5d346572b8d54b2d9b043975e1d320b",
+      "bytes": 1100
+    },
+    {
+      "path": "context_contract_followup/mordstein_cloud_inventory.xml",
+      "sha256": "5835eccf2257e59cd0f8ce374673f91c5303e6017eb305b88d9f349cb61bcc21",
+      "bytes": 3910
+    },
+    {
+      "path": "context_contract_followup/PMC6112741_oa_response.json",
+      "sha256": "1713800a595ed5fe4e09d730492fdc2789e8ccd97c8358a44e5b96d455de80f1",
+      "bytes": 196
+    },
+    {
+      "path": "context_contract_followup/PMC7181179_oa_response.json",
+      "sha256": "70b6955e82774977e36908d68a4ba13bda479b0854ad66f0b4d63a105fb92651",
+      "bytes": 196
+    },
+    {
+      "path": "context_contract_followup/primary_availability_extract.json",
+      "sha256": "23883df5ccac114945319115204e20064dd1849651a20a224be6d14f31c4cd9a",
+      "bytes": 1725
+    },
+    {
+      "path": "context_contract_followup/prior_hash_check.json",
+      "sha256": "9f597f7554930cd2ae6a11c926fca4841c0dc3444367a2ac7f264f936d8547ab",
+      "bytes": 6828
+    },
+    {
+      "path": "context_contract_followup/report.md",
+      "sha256": "07c27d18eecc6f90fc9a37cc664e9ebde1528079b935648dba67156f272f78dc",
+      "bytes": 7154
+    },
+    {
+      "path": "context_contract_followup/retrieval_receipts.json",
+      "sha256": "f7985743c6be82c3b64edfdf1efafea6f72dc963e90737b673e53ea1768f6bbc",
+      "bytes": 4193
+    },
+    {
+      "path": "context_contract_followup/retrieve_metadata.py",
+      "sha256": "8a09191ea772db33272c6c26e762b4c9aa62aa71cdfc6f8a85dcd55c6b4a07e9",
+      "bytes": 2586
+    },
+    {
+      "path": "context_contract_followup/SAMN13612105.xml",
+      "sha256": "2cfb015b94259c31b060004e9d9016e7dc1657ab0d8757f20eda575415ae2b17",
+      "bytes": 3437
+    },
+    {
+      "path": "context_contract_followup/SAMN13612106.xml",
+      "sha256": "01342d60017071c6330c79e1eb04797cba46e5a6134c2ac9eb6d15e712cbea7a",
+      "bytes": 3422
+    },
+    {
+      "path": "context_contract_followup/SRX7391373.xml",
+      "sha256": "0f82257d96719e9f335d96567405f4fa107020b010e4f7000376c46102c87b75",
+      "bytes": 2562
+    },
+    {
+      "path": "context_contract_followup/SRX7391374.xml",
+      "sha256": "f0c7d200d67b05c86651eeb01625aac52dc54798296e9d7d56a4953ae968a0a0",
+      "bytes": 2562
+    },
+    {
+      "path": "context_contract_followup/SRX7391375.xml",
+      "sha256": "63176689699622b699fe7bfecb87797f0ed4d376f11c1e7bf6d2fbb686985f75",
+      "bytes": 2567
+    },
+    {
+      "path": "context_contract_followup/SRX7391400.xml",
+      "sha256": "a3cad3a5fd373c32b0eb957110da0ad8ffbd7c4990d6809441eb631bddcb72b6",
+      "bytes": 2567
+    },
+    {
+      "path": "context_contract_followup/SRX7391401.xml",
+      "sha256": "a065d06f0b33b1b9458949b75eecd1d2dbe7f125ffd669d671cee762bae54db3",
+      "bytes": 2558
+    },
+    {
+      "path": "context_contract_followup/SRX7391402.xml",
+      "sha256": "f34b39f38adb14865e8179fb90de510aa0cb29776a622d5ac6ea426dcfeda45e",
+      "bytes": 2558
+    },
+    {
+      "path": "context_contract_followup/SRX7391403.xml",
+      "sha256": "c2d2f0b58eac21c9c7918c52cd39f4d5c9dac6f9866a4918fb3acacf65c9d0a7",
+      "bytes": 2563
+    },
+    {
+      "path": "context_contract_followup/SRX7391404.xml",
+      "sha256": "c826f94e69ceb18fd7229d33f91aa24e02eff30ddf64ac44d03776b7affa1a78",
+      "bytes": 2563
+    },
+    {
+      "path": "README.md",
+      "sha256": "846de7758afd140ff27ddadaf218b0868dc3578439dffab60ae936915c2c181c",
+      "bytes": 1984
+    },
+    {
+      "path": "shanas_contract_pilot/contract_checks.py",
+      "sha256": "caa8202627a7b69be0fe42ba8373bc24e7119c75aca76f60db2665c92cb10e86",
+      "bytes": 6806
+    },
+    {
+      "path": "shanas_contract_pilot/delivery_manifest.json",
+      "sha256": "c146c2e334e3116be1550edc8a9af37ae0c0f90c08da0f6a6967bdc5652a3da6",
+      "bytes": 4154
+    },
+    {
+      "path": "shanas_contract_pilot/evidence.json",
+      "sha256": "18a72c42bc4b380dc4079ad9538803010dd343a0156b87e7a73a93d583303d41",
+      "bytes": 3386
+    },
+    {
+      "path": "shanas_contract_pilot/exposure_and_failure_ledger.md",
+      "sha256": "5e8ef9363faf4a2de169ee6e93349f531da740e9f713723f83f82f546dd1b4f1",
+      "bytes": 3062
+    },
+    {
+      "path": "shanas_contract_pilot/github_tree_1.json",
+      "sha256": "67cb4f86d7e2dab0a428964bec03e43cb51f08c14b29e79b9e716c3ce97e0886",
+      "bytes": 8567
+    },
+    {
+      "path": "shanas_contract_pilot/github_tree_2.json",
+      "sha256": "132de8e0b3b80d4f900cd73ce0d4dd1b641c61e64f8db3f1aa3c28da56356d24",
+      "bytes": 69669
+    },
+    {
+      "path": "shanas_contract_pilot/history_add_xlsx_failed.py",
+      "sha256": "1e99da9a86d549605b591039f8a16dd68b5c5079cd253e9d2a0b3d48e63833d9",
+      "bytes": 9312
+    },
+    {
+      "path": "shanas_contract_pilot/library_csv_header.txt",
+      "sha256": "3c8356ff0a236dd58d7d8eee9ba1fce47be12aae374ed081f94a988e303e6e70",
+      "bytes": 442
+    },
+    {
+      "path": "shanas_contract_pilot/library_header_receipt.json",
+      "sha256": "6783c9638882926cbe533951b81afcc5d58b3499aa8211b8f2704cece6e9b0c2",
+      "bytes": 701
+    },
+    {
+      "path": "shanas_contract_pilot/library_selection_receipt.json",
+      "sha256": "84a5ae6dacb87d2800054eed54c7e2bfed5049206fa264b8b7d1a419114c74ab",
+      "bytes": 1239
+    },
+    {
+      "path": "shanas_contract_pilot/notebook_selection_receipt.json",
+      "sha256": "e8af2f77aa2d55618e5b5b1d28bf30b27c3bf1f256026cdafddefa722efa1721",
+      "bytes": 668
+    },
+    {
+      "path": "shanas_contract_pilot/reader_repair_receipt.json",
+      "sha256": "18b8f72714941970ac6ca87fd53c389a4085dbd8c4088675f4657c8eb89f246f",
+      "bytes": 439
+    },
+    {
+      "path": "shanas_contract_pilot/report.md",
+      "sha256": "5c367415cab5c3278bf168668e08c473ca07d43cba6d1b0ce30da8f9be20c1da",
+      "bytes": 13845
+    },
+    {
+      "path": "shanas_contract_pilot/s4_followup/addendum.md",
+      "sha256": "3909a7a0e0fc0eb63199af11a006ff0ef226ecb5165f9cf6418ae19b8755c14d",
+      "bytes": 3771
+    },
+    {
+      "path": "shanas_contract_pilot/s4_followup/closure_receipt.json",
+      "sha256": "43f7a0cf6bfc39b629cb90bc6424e32d90c92a18d0415c8b2dcc224ea8232496",
+      "bytes": 1361
+    },
+    {
+      "path": "shanas_contract_pilot/s4_followup/delivery_manifest.json",
+      "sha256": "41a52d48501114beb4bf92f122626b90a44efb41eefb5702c56356d99789c6cd",
+      "bytes": 1794
+    },
+    {
+      "path": "shanas_contract_pilot/s4_followup/history_schema_summary_pre_N_counts.json",
+      "sha256": "3fe5f76d0cc304d0c0602a46697445c955a76e38b3cafff69b06be766ee05882",
+      "bytes": 2899
+    },
+    {
+      "path": "shanas_contract_pilot/s4_followup/official_inventory_receipt.json",
+      "sha256": "48de67187f31605d4d66eef0a10a01070167aff7e1e57ac551d3b1332535de01",
+      "bytes": 3490
+    },
+    {
+      "path": "shanas_contract_pilot/s4_followup/official_pmc_file_inventory_response.xml",
+      "sha256": "0a1b753358d2e2eb8f13072c342840f1b3cc9a766c5f0c93131ab6e04f54d9cb",
+      "bytes": 7073
+    },
+    {
+      "path": "shanas_contract_pilot/s4_followup/older_oa_service_failure.json",
+      "sha256": "37687e5fc19746943d8ac4e5aeba894464b9c0313f909cb630bfae0f061294ea",
+      "bytes": 479
+    },
+    {
+      "path": "shanas_contract_pilot/s4_followup/s4_retrieval_and_schema.json",
+      "sha256": "16f5af00e4663725a78c517654bc9b5d00fdbcbff76c3a406ec0b5a3a3b9c357",
+      "bytes": 587
+    },
+    {
+      "path": "shanas_contract_pilot/s4_followup/s4_sequence_schema_summary.json",
+      "sha256": "266fab1f0cd73c0752c14fb251a2f21870f1157ca8697b4dbf621b376266d7ca",
+      "bytes": 3810
+    },
+    {
+      "path": "shanas_contract_pilot/s4_followup/selected_s4_metadata.json",
+      "sha256": "89f9b67693821369d6bcbf7216471b3a3b09708be78c203f443e004f55526d86",
+      "bytes": 10315
+    },
+    {
+      "path": "shanas_contract_pilot/sample_unit_map.json",
+      "sha256": "ecb985b9b98139b785b58229dfa1b54b7c7244a750b90cc6a3f9b3171442c2e7",
+      "bytes": 32846
+    },
+    {
+      "path": "shanas_contract_pilot/selected_library_metadata.json",
+      "sha256": "943e5313292567988716a571c0956f14ed13b120340495f0b42d86d0866e7193",
+      "bytes": 4139452
+    },
+    {
+      "path": "shanas_contract_pilot/selected_workbook_metadata.json",
+      "sha256": "eaf4c065e33d7672928a7dddb421b14ca0e0622741a2b82fabda7c61b8071309",
+      "bytes": 4122446
+    },
+    {
+      "path": "shanas_contract_pilot/selective_readers.py",
+      "sha256": "1878561a5be88adcbcc42ee7f8921f2b6fda2fe99d276f216321736da85d193d",
+      "bytes": 12491
+    },
+    {
+      "path": "shanas_contract_pilot/source_manifest.json",
+      "sha256": "ea641f2606d2983211284716d7c3b12d16612c63c2bd5dac4b609a063dbe45e4",
+      "bytes": 3551
+    },
+    {
+      "path": "shanas_contract_pilot/supplement4_access_failure.json",
+      "sha256": "a467de4c6a4a6e8b84ad091673321433f275c9080a6234e948ed890f641c59fe",
+      "bytes": 536
+    },
+    {
+      "path": "shanas_contract_pilot/synthetic_selection_receipt.json",
+      "sha256": "7c3ae40c5006f0cc4447f25c1be2042e288914186e381b31b0364b252608f529",
+      "bytes": 468
+    },
+    {
+      "path": "shanas_contract_pilot/workbook_selection_receipt.json",
+      "sha256": "91f0e0719ce921011138f7dd10db738296fce8e2b8c99ffaa1ddf02212921ef2",
+      "bytes": 12823
+    },
+    {
+      "path": "shanas_contract_review/check_metadata.py",
+      "sha256": "7aec347280c8703f9ab7fde8f5aaf719ec3181365f2720fd6b8922450087f2ae",
+      "bytes": 4176
+    },
+    {
+      "path": "shanas_contract_review/check_s4.py",
+      "sha256": "ce446648ecc0d7464d7d8019423c09d2b94559ae09b6277f9997ff29a01fcafe",
+      "bytes": 4924
+    },
+    {
+      "path": "shanas_contract_review/metadata_checks.json",
+      "sha256": "0ca4f4d5b88470181bd44a8e098d494f07542c9ab94b532bd45fabb83439d753",
+      "bytes": 1576
+    },
+    {
+      "path": "shanas_contract_review/receipt.json",
+      "sha256": "a65187daabefd01eec12eae4ca90779e0f05b7629d611edaae438207c18d1964",
+      "bytes": 3609
+    },
+    {
+      "path": "shanas_contract_review/review.md",
+      "sha256": "fdd164d933c691dc542bf1510525428daad1d2b2ad08ad2c74ed967c6aa61340",
+      "bytes": 8500
+    },
+    {
+      "path": "shanas_contract_review/s4_addendum.md",
+      "sha256": "e68461aba2c1fa8cc10bf08a2839e45e0dcdb368a6af5917e7334498f8331d9e",
+      "bytes": 2647
+    },
+    {
+      "path": "shanas_contract_review/s4_addendum_receipt.json",
+      "sha256": "00fcdb216006246a01a72fe5a30da61f6d7c22f99793ed201d7080143dc4bcce",
+      "bytes": 1884
+    },
+    {
+      "path": "successor_methods_review/arrayexpress_E-MTAB-16553.json",
+      "sha256": "3222771c2ddc42b2fb25fd5a85bb13b476dd9ce314f94c47cf47a6f7d2ec4c1a",
+      "bytes": 64744
+    },
+    {
+      "path": "successor_methods_review/decision_summary.md",
+      "sha256": "6cbe4a40e1ac05082ab1c992066accf8a70819c56aa9ac91501857369ce74246",
+      "bytes": 3799
+    },
+    {
+      "path": "successor_methods_review/delivery_manifest.json",
+      "sha256": "c73f0898175c03f600dacba823288616cb875159ac039e3379f621669655e182",
+      "bytes": 5221
+    },
+    {
+      "path": "successor_methods_review/E-MTAB-16553.idf.txt",
+      "sha256": "4e2110e3028f789a9c39403d0e22270f87635db9451fcbb587ee230d2f9e8a85",
+      "bytes": 9977
+    },
+    {
+      "path": "successor_methods_review/E-MTAB-16553.sdrf.txt",
+      "sha256": "a2e2163fe46b3f0f948197783e2603bacff1928e6bc083d9195bf1798647480d",
+      "bytes": 63991
+    },
+    {
+      "path": "successor_methods_review/metadata_download_receipt.json",
+      "sha256": "6eac3859f51df2eecc21a49061f61a5b4d333aff9f682fb09d8ccc058a391c51",
+      "bytes": 772
+    },
+    {
+      "path": "successor_methods_review/pdz_extension2026_metadata.json",
+      "sha256": "1d9e0f4ec93c4702989548f3a0ef71e1b67902ef436c4725f93292658ce4cb9b",
+      "bytes": 1074
+    },
+    {
+      "path": "successor_methods_review/pdz_homolog2026_metadata.json",
+      "sha256": "a00673df843666b90b72b071fa8c6d2f09d33fe5634f940ebb6f6603197e187f",
+      "bytes": 1017
+    },
+    {
+      "path": "successor_methods_review/pdz_primary_receipt.json",
+      "sha256": "59e96eb3e7851bcc4bf76d12d40c4289e64f526c9fe694156cfbf5d2d6835567",
+      "bytes": 1057
+    },
+    {
+      "path": "successor_methods_review/primary_xml_download_receipt.json",
+      "sha256": "7541890330b7d3b532af1eb1e7a184b75b8131d3de5de5d2f19a453eeef8f04a",
+      "bytes": 824
+    },
+    {
+      "path": "successor_methods_review/review.md",
+      "sha256": "b2ea2776e0492958ade12d82cb5474120c6df0d8fb7f0c3f95f14b7ea18434eb",
+      "bytes": 21216
+    },
+    {
+      "path": "successor_methods_review/sample_metadata_map.json",
+      "sha256": "ab061fb2b8317f6fe34f3127a34839b68af0f0dd58af7a14866c143f72704062",
+      "bytes": 26529
+    },
+    {
+      "path": "successor_methods_review/search_and_exposure_ledger.md",
+      "sha256": "b77e8de0d11665ff2abec057e49cd821dee15f5bd7a23b4e92135a34997c8535",
+      "bytes": 5171
+    },
+    {
+      "path": "successor_methods_review/source_manifest.json",
+      "sha256": "96b61df8b135e0a317671e2139205bd15d89894fa3621d84c8526ef4311f81cb",
+      "bytes": 4763
+    }
+  ]
+}

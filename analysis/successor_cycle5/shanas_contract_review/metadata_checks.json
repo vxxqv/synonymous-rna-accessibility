@@ -1,0 +1,34 @@
+{
+  "verdict": "METADATA_IDENTITIES_COUNTS_AND_REFERENCE_ARITHMETIC_AGREE",
+  "counts": {
+    "rows": 9608,
+    "unique_library_IDs": 9608,
+    "unique_full210_sequences": 9608,
+    "unique_barcodes_18_30": 9608,
+    "unique_variable147_sequences_45_192": 8924,
+    "cassette_filtered_rows": 264,
+    "cassette_filtered_unique_genes": 132,
+    "cassette_filtered_unique_variable_sequences": 132,
+    "cassette_filtered_gene_multiplicities": {
+      "2": 132
+    },
+    "unlabeled_gene_rows": 773,
+    "exon_length_mod3_counts": {
+      "2": 9608
+    }
+  },
+  "numeric_phenotype_fields_read": false,
+  "assay_coverage_missingness_read": false,
+  "author_code_executed": false,
+  "synonymous_graph_counts": "not computed; not zero",
+  "reference": "1316nt mapping amplicon, not authenticated full coding construct",
+  "source_hashes": {
+    "selected_library_metadata.json": "943e5313292567988716a571c0956f14ed13b120340495f0b42d86d0866e7193",
+    "selected_workbook_metadata.json": "eaf4c065e33d7672928a7dddb421b14ca0e0622741a2b82fabda7c61b8071309",
+    "evidence.json": "18a72c42bc4b380dc4079ad9538803010dd343a0156b87e7a73a93d583303d41",
+    "selective_readers.py": "1878561a5be88adcbcc42ee7f8921f2b6fda2fe99d276f216321736da85d193d",
+    "author_code/ce.pipeline.py": "3af3f3e01d716738b6751f879bc50711e48900c3082a3048b5c8da307b2b4d02",
+    "author_code/notebook_code_only.py": "d58dca5d2e977693f705881362f8388a626a7d9e73404e3be8aa5f1686bb0021"
+  },
+  "audit_source_sha256": "7aec347280c8703f9ab7fde8f5aaf719ec3181365f2720fd6b8922450087f2ae"
+}

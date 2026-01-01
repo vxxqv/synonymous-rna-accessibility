@@ -1,0 +1,153 @@
+[
+{"run_accession":"SRR10714530","experiment_accession":"SRX7391412","sample_accession":"SAMN13612111","study_accession":"PRJNA596086","library_name":"CM9a_Bin4","experiment_title":"Illumina MiSeq sequencing: Flow-Seq of GFP library with intron in HeLa cells"}
+,
+{"run_accession":"SRR10714532","experiment_accession":"SRX7391410","sample_accession":"SAMN13612110","study_accession":"PRJNA596086","library_name":"CM9a_Bin3","experiment_title":"Illumina MiSeq sequencing: Flow-Seq of GFP library with intron in HeLa cells"}
+,
+{"run_accession":"SRR10714535","experiment_accession":"SRX7391407","sample_accession":"SAMN13612108","study_accession":"PRJNA596086","library_name":"CM9b_Bin1","experiment_title":"Illumina MiSeq sequencing: Flow-Seq of GFP library with intron in HeLa cells"}
+,
+{"run_accession":"SRR10714538","experiment_accession":"SRX7391404","sample_accession":"SAMN13612107","study_accession":"PRJNA596086","library_name":"CM6_ni2","experiment_title":"Illumina MiSeq sequencing: Subcellular fractionation of RNA in HEK293 cells"}
+,
+{"run_accession":"SRR10714540","experiment_accession":"SRX7391402","sample_accession":"SAMN13612106","study_accession":"PRJNA596086","library_name":"CM6_n2","experiment_title":"Illumina MiSeq sequencing: Subcellular fractionation of RNA in HEK293 cells"}
+,
+{"run_accession":"SRR10714541","experiment_accession":"SRX7391401","sample_accession":"SAMN13612106","study_accession":"PRJNA596086","library_name":"CM6_n1","experiment_title":"Illumina MiSeq sequencing: Subcellular fractionation of RNA in HEK293 cells"}
+,
+{"run_accession":"SRR10714544","experiment_accession":"SRX7391398","sample_accession":"SAMN13612099","study_accession":"PRJNA596086","library_name":"CM5e_Bin4","experiment_title":"Illumina MiSeq sequencing: Flow-Seq of GFP library without intron in HeLa cells"}
+,
+{"run_accession":"SRR10714559","experiment_accession":"SRX7391383","sample_accession":"SAMN13612097","study_accession":"PRJNA596086","library_name":"CM5b_Bin2","experiment_title":"Illumina MiSeq sequencing: Flow-Seq of GFP library without intron in HeLa cells"}
+,
+{"run_accession":"SRR10714562","experiment_accession":"SRX7391380","sample_accession":"SAMN13612096","study_accession":"PRJNA596086","library_name":"CM5d_Bin1","experiment_title":"Illumina MiSeq sequencing: Flow-Seq of GFP library without intron in HeLa cells"}
+,
+{"run_accession":"SRR10714564","experiment_accession":"SRX7391378","sample_accession":"SAMN13612096","study_accession":"PRJNA596086","library_name":"CM5b_Bin1","experiment_title":"Illumina MiSeq sequencing: Flow-Seq of GFP library without intron in HeLa cells"}
+,
+{"run_accession":"SRR10714565","experiment_accession":"SRX7391377","sample_accession":"SAMN13612096","study_accession":"PRJNA596086","library_name":"CM5a_Bin1","experiment_title":"Illumina MiSeq sequencing: Flow-Seq of GFP library without intron in HeLa cells"}
+,
+{"run_accession":"SRR10714591","experiment_accession":"SRX7391351","sample_accession":"SAMN13612094","study_accession":"PRJNA596086","library_name":"CM4_Light_polysomes","experiment_title":"Illumina MiSeq sequencing: Polysome profiling of GFP library in HeLa cells"}
+,
+{"run_accession":"SRR10714518","experiment_accession":"SRX7391424","sample_accession":"SAMN13612093","study_accession":"PRJNA596086","library_name":"CM4_Monosomes","experiment_title":"Illumina MiSeq sequencing: Polysome profiling of GFP library in HeLa cells"}
+,
+{"run_accession":"SRR10714520","experiment_accession":"SRX7391422","sample_accession":"SAMN13612115","study_accession":"PRJNA596086","library_name":"CM9b_Bin8","experiment_title":"Illumina MiSeq sequencing: Flow-Seq of GFP library with intron in HeLa cells"}
+,
+{"run_accession":"SRR10714522","experiment_accession":"SRX7391420","sample_accession":"SAMN13612114","study_accession":"PRJNA596086","library_name":"CM9b_Bin7","experiment_title":"Illumina MiSeq sequencing: Flow-Seq of GFP library with intron in HeLa cells"}
+,
+{"run_accession":"SRR10714527","experiment_accession":"SRX7391415","sample_accession":"SAMN13612112","study_accession":"PRJNA596086","library_name":"CM9b_Bin5","experiment_title":"Illumina MiSeq sequencing: Flow-Seq of GFP library with intron in HeLa cells"}
+,
+{"run_accession":"SRR10714528","experiment_accession":"SRX7391414","sample_accession":"SAMN13612112","study_accession":"PRJNA596086","library_name":"CM9a_Bin5","experiment_title":"Illumina MiSeq sequencing: Flow-Seq of GFP library with intron in HeLa cells"}
+,
+{"run_accession":"SRR10714534","experiment_accession":"SRX7391408","sample_accession":"SAMN13612109","study_accession":"PRJNA596086","library_name":"CM9a_Bin2","experiment_title":"Illumina MiSeq sequencing: Flow-Seq of GFP library with intron in HeLa cells"}
+,
+{"run_accession":"SRR10714536","experiment_accession":"SRX7391406","sample_accession":"SAMN13612108","study_accession":"PRJNA596086","library_name":"CM9a_Bin1","experiment_title":"Illumina MiSeq sequencing: Flow-Seq of GFP library with intron in HeLa cells"}
+,
+{"run_accession":"SRR10714543","experiment_accession":"SRX7391399","sample_accession":"SAMN13612100","study_accession":"PRJNA596086","library_name":"CM5a_Bin5","experiment_title":"Illumina MiSeq sequencing: Flow-Seq of GFP library without intron in HeLa cells"}
+,
+{"run_accession":"SRR10714545","experiment_accession":"SRX7391397","sample_accession":"SAMN13612099","study_accession":"PRJNA596086","library_name":"CM5d_Bin4","experiment_title":"Illumina MiSeq sequencing: Flow-Seq of GFP library without intron in HeLa cells"}
+,
+{"run_accession":"SRR10714548","experiment_accession":"SRX7391394","sample_accession":"SAMN13612099","study_accession":"PRJNA596086","library_name":"CM5b_Bin4","experiment_title":"Illumina MiSeq sequencing: Flow-Seq of GFP library without intron in HeLa cells"}
+,
+{"run_accession":"SRR10714560","experiment_accession":"SRX7391382","sample_accession":"SAMN13612097","study_accession":"PRJNA596086","library_name":"CM5a_Bin2","experiment_title":"Illumina MiSeq sequencing: Flow-Seq of GFP library without intron in HeLa cells"}
+,
+{"run_accession":"SRR10714571","experiment_accession":"SRX7391371","sample_accession":"SAMN13612103","study_accession":"PRJNA596086","library_name":"CM5d_Bin8","experiment_title":"Illumina MiSeq sequencing: Flow-Seq of GFP library without intron in HeLa cells"}
+,
+{"run_accession":"SRR10714577","experiment_accession":"SRX7391365","sample_accession":"SAMN13612102","study_accession":"PRJNA596086","library_name":"CM5d_Bin7","experiment_title":"Illumina MiSeq sequencing: Flow-Seq of GFP library without intron in HeLa cells"}
+,
+{"run_accession":"SRR10714581","experiment_accession":"SRX7391361","sample_accession":"SAMN13612101","study_accession":"PRJNA596086","library_name":"CM5e_Bin6","experiment_title":"Illumina MiSeq sequencing: Flow-Seq of GFP library without intron in HeLa cells"}
+,
+{"run_accession":"SRR10714584","experiment_accession":"SRX7391358","sample_accession":"SAMN13612101","study_accession":"PRJNA596086","library_name":"CM5c_Bin6","experiment_title":"Illumina MiSeq sequencing: Flow-Seq of GFP library without intron in HeLa cells"}
+,
+{"run_accession":"SRR10714587","experiment_accession":"SRX7391355","sample_accession":"SAMN13612100","study_accession":"PRJNA596086","library_name":"CM5e_Bin5","experiment_title":"Illumina MiSeq sequencing: Flow-Seq of GFP library without intron in HeLa cells"}
+,
+{"run_accession":"SRR10714588","experiment_accession":"SRX7391354","sample_accession":"SAMN13612100","study_accession":"PRJNA596086","library_name":"CM5d_Bin5","experiment_title":"Illumina MiSeq sequencing: Flow-Seq of GFP library without intron in HeLa cells"}
+,
+{"run_accession":"SRR10714590","experiment_accession":"SRX7391352","sample_accession":"SAMN13612100","study_accession":"PRJNA596086","library_name":"CM5b_Bin5","experiment_title":"Illumina MiSeq sequencing: Flow-Seq of GFP library without intron in HeLa cells"}
+,
+{"run_accession":"SRR10714521","experiment_accession":"SRX7391421","sample_accession":"SAMN13612115","study_accession":"PRJNA596086","library_name":"CM9a_Bin8","experiment_title":"Illumina MiSeq sequencing: Flow-Seq of GFP library with intron in HeLa cells"}
+,
+{"run_accession":"SRR10714525","experiment_accession":"SRX7391417","sample_accession":"SAMN13612113","study_accession":"PRJNA596086","library_name":"CM9a_Bin6","experiment_title":"Illumina MiSeq sequencing: Flow-Seq of GFP library with intron in HeLa cells"}
+,
+{"run_accession":"SRR10714533","experiment_accession":"SRX7391409","sample_accession":"SAMN13612109","study_accession":"PRJNA596086","library_name":"CM9b_Bin2","experiment_title":"Illumina MiSeq sequencing: Flow-Seq of GFP library with intron in HeLa cells"}
+,
+{"run_accession":"SRR10714551","experiment_accession":"SRX7391391","sample_accession":"SAMN13612098","study_accession":"PRJNA596086","library_name":"CM5d_Bin3","experiment_title":"Illumina MiSeq sequencing: Flow-Seq of GFP library without intron in HeLa cells"}
+,
+{"run_accession":"SRR10714552","experiment_accession":"SRX7391390","sample_accession":"SAMN13612098","study_accession":"PRJNA596086","library_name":"CM5c_Bin3","experiment_title":"Illumina MiSeq sequencing: Flow-Seq of GFP library without intron in HeLa cells"}
+,
+{"run_accession":"SRR10714557","experiment_accession":"SRX7391385","sample_accession":"SAMN13612086","study_accession":"PRJNA596086","library_name":"CM2_Bin3","experiment_title":"Illumina MiSeq sequencing: Flow-Seq of GFP library without intron in HEK293 cells"}
+,
+{"run_accession":"SRR10714558","experiment_accession":"SRX7391384","sample_accession":"SAMN13612097","study_accession":"PRJNA596086","library_name":"CM5c_Bin2","experiment_title":"Illumina MiSeq sequencing: Flow-Seq of GFP library without intron in HeLa cells"}
+,
+{"run_accession":"SRR10714567","experiment_accession":"SRX7391375","sample_accession":"SAMN13612105","study_accession":"PRJNA596086","library_name":"CM6_ci1","experiment_title":"Illumina MiSeq sequencing: Subcellular fractionation of RNA in HEK293 cells"}
+,
+{"run_accession":"SRR10714568","experiment_accession":"SRX7391374","sample_accession":"SAMN13612104","study_accession":"PRJNA596086","library_name":"CM6_c2","experiment_title":"Illumina MiSeq sequencing: Subcellular fractionation of RNA in HEK293 cells"}
+,
+{"run_accession":"SRR10714569","experiment_accession":"SRX7391373","sample_accession":"SAMN13612104","study_accession":"PRJNA596086","library_name":"CM6_c1","experiment_title":"Illumina MiSeq sequencing: Subcellular fractionation of RNA in HEK293 cells"}
+,
+{"run_accession":"SRR10714570","experiment_accession":"SRX7391372","sample_accession":"SAMN13612103","study_accession":"PRJNA596086","library_name":"CM5e_Bin8","experiment_title":"Illumina MiSeq sequencing: Flow-Seq of GFP library without intron in HeLa cells"}
+,
+{"run_accession":"SRR10714575","experiment_accession":"SRX7391367","sample_accession":"SAMN13612103","study_accession":"PRJNA596086","library_name":"CM5a_Bin8","experiment_title":"Illumina MiSeq sequencing: Flow-Seq of GFP library without intron in HeLa cells"}
+,
+{"run_accession":"SRR10714576","experiment_accession":"SRX7391366","sample_accession":"SAMN13612102","study_accession":"PRJNA596086","library_name":"CM5e_Bin7","experiment_title":"Illumina MiSeq sequencing: Flow-Seq of GFP library without intron in HeLa cells"}
+,
+{"run_accession":"SRR10714585","experiment_accession":"SRX7391357","sample_accession":"SAMN13612101","study_accession":"PRJNA596086","library_name":"CM5b_Bin6","experiment_title":"Illumina MiSeq sequencing: Flow-Seq of GFP library without intron in HeLa cells"}
+,
+{"run_accession":"SRR10714589","experiment_accession":"SRX7391353","sample_accession":"SAMN13612100","study_accession":"PRJNA596086","library_name":"CM5c_Bin5","experiment_title":"Illumina MiSeq sequencing: Flow-Seq of GFP library without intron in HeLa cells"}
+,
+{"run_accession":"SRR10714592","experiment_accession":"SRX7391350","sample_accession":"SAMN13612085","study_accession":"PRJNA596086","library_name":"CM2_Bin2","experiment_title":"Illumina MiSeq sequencing: Flow-Seq of GFP library without intron in HEK293 cells"}
+,
+{"run_accession":"SRR10714593","experiment_accession":"SRX7391349","sample_accession":"SAMN13612084","study_accession":"PRJNA596086","library_name":"CM2_Bin1","experiment_title":"Illumina MiSeq sequencing: Flow-Seq of GFP library without intron in HEK293 cells"}
+,
+{"run_accession":"SRR10714526","experiment_accession":"SRX7391416","sample_accession":"SAMN13612091","study_accession":"PRJNA596086","library_name":"CM2_Bin8","experiment_title":"Illumina MiSeq sequencing: Flow-Seq of GFP library without intron in HEK293 cells"}
+,
+{"run_accession":"SRR10714531","experiment_accession":"SRX7391411","sample_accession":"SAMN13612110","study_accession":"PRJNA596086","library_name":"CM9b_Bin3","experiment_title":"Illumina MiSeq sequencing: Flow-Seq of GFP library with intron in HeLa cells"}
+,
+{"run_accession":"SRR10714537","experiment_accession":"SRX7391405","sample_accession":"SAMN13612090","study_accession":"PRJNA596086","library_name":"CM2_Bin7","experiment_title":"Illumina MiSeq sequencing: Flow-Seq of GFP library without intron in HEK293 cells"}
+,
+{"run_accession":"SRR10714542","experiment_accession":"SRX7391400","sample_accession":"SAMN13612105","study_accession":"PRJNA596086","library_name":"CM6_ci2","experiment_title":"Illumina MiSeq sequencing: Subcellular fractionation of RNA in HEK293 cells"}
+,
+{"run_accession":"SRR10714546","experiment_accession":"SRX7391396","sample_accession":"SAMN13612087","study_accession":"PRJNA596086","library_name":"CM2_Bin4","experiment_title":"Illumina MiSeq sequencing: Flow-Seq of GFP library without intron in HEK293 cells"}
+,
+{"run_accession":"SRR10714547","experiment_accession":"SRX7391395","sample_accession":"SAMN13612099","study_accession":"PRJNA596086","library_name":"CM5c_Bin4","experiment_title":"Illumina MiSeq sequencing: Flow-Seq of GFP library without intron in HeLa cells"}
+,
+{"run_accession":"SRR10714550","experiment_accession":"SRX7391392","sample_accession":"SAMN13612098","study_accession":"PRJNA596086","library_name":"CM5e_Bin3","experiment_title":"Illumina MiSeq sequencing: Flow-Seq of GFP library without intron in HeLa cells"}
+,
+{"run_accession":"SRR10714553","experiment_accession":"SRX7391389","sample_accession":"SAMN13612098","study_accession":"PRJNA596086","library_name":"CM5b_Bin3","experiment_title":"Illumina MiSeq sequencing: Flow-Seq of GFP library without intron in HeLa cells"}
+,
+{"run_accession":"SRR10714556","experiment_accession":"SRX7391386","sample_accession":"SAMN13612097","study_accession":"PRJNA596086","library_name":"CM5d_Bin2","experiment_title":"Illumina MiSeq sequencing: Flow-Seq of GFP library without intron in HeLa cells"}
+,
+{"run_accession":"SRR10714563","experiment_accession":"SRX7391379","sample_accession":"SAMN13612096","study_accession":"PRJNA596086","library_name":"CM5c_Bin1","experiment_title":"Illumina MiSeq sequencing: Flow-Seq of GFP library without intron in HeLa cells"}
+,
+{"run_accession":"SRR10714566","experiment_accession":"SRX7391376","sample_accession":"SAMN13612095","study_accession":"PRJNA596086","library_name":"CM4_Heavy_polysomes","experiment_title":"Illumina MiSeq sequencing: Polysome profiling of GFP library in HeLa cells"}
+,
+{"run_accession":"SRR10714572","experiment_accession":"SRX7391370","sample_accession":"SAMN13612089","study_accession":"PRJNA596086","library_name":"CM2_Bin6","experiment_title":"Illumina MiSeq sequencing: Flow-Seq of GFP library without intron in HEK293 cells"}
+,
+{"run_accession":"SRR10714574","experiment_accession":"SRX7391368","sample_accession":"SAMN13612103","study_accession":"PRJNA596086","library_name":"CM5b_Bin8","experiment_title":"Illumina MiSeq sequencing: Flow-Seq of GFP library without intron in HeLa cells"}
+,
+{"run_accession":"SRR10714580","experiment_accession":"SRX7391362","sample_accession":"SAMN13612102","study_accession":"PRJNA596086","library_name":"CM5a_Bin7","experiment_title":"Illumina MiSeq sequencing: Flow-Seq of GFP library without intron in HeLa cells"}
+,
+{"run_accession":"SRR10714582","experiment_accession":"SRX7391360","sample_accession":"SAMN13612101","study_accession":"PRJNA596086","library_name":"CM5d_Bin6","experiment_title":"Illumina MiSeq sequencing: Flow-Seq of GFP library without intron in HeLa cells"}
+,
+{"run_accession":"SRR10714519","experiment_accession":"SRX7391423","sample_accession":"SAMN13612092","study_accession":"PRJNA596086","library_name":"CM4_Free_RNA","experiment_title":"Illumina MiSeq sequencing: Polysome profiling of GFP library in HeLa cells"}
+,
+{"run_accession":"SRR10714523","experiment_accession":"SRX7391419","sample_accession":"SAMN13612114","study_accession":"PRJNA596086","library_name":"CM9a_Bin7","experiment_title":"Illumina MiSeq sequencing: Flow-Seq of GFP library with intron in HeLa cells"}
+,
+{"run_accession":"SRR10714524","experiment_accession":"SRX7391418","sample_accession":"SAMN13612113","study_accession":"PRJNA596086","library_name":"CM9b_Bin6","experiment_title":"Illumina MiSeq sequencing: Flow-Seq of GFP library with intron in HeLa cells"}
+,
+{"run_accession":"SRR10714529","experiment_accession":"SRX7391413","sample_accession":"SAMN13612111","study_accession":"PRJNA596086","library_name":"CM9b_Bin4","experiment_title":"Illumina MiSeq sequencing: Flow-Seq of GFP library with intron in HeLa cells"}
+,
+{"run_accession":"SRR10714539","experiment_accession":"SRX7391403","sample_accession":"SAMN13612107","study_accession":"PRJNA596086","library_name":"CM6_ni1","experiment_title":"Illumina MiSeq sequencing: Subcellular fractionation of RNA in HEK293 cells"}
+,
+{"run_accession":"SRR10714549","experiment_accession":"SRX7391393","sample_accession":"SAMN13612099","study_accession":"PRJNA596086","library_name":"CM5a_Bin4","experiment_title":"Illumina MiSeq sequencing: Flow-Seq of GFP library without intron in HeLa cells"}
+,
+{"run_accession":"SRR10714554","experiment_accession":"SRX7391388","sample_accession":"SAMN13612098","study_accession":"PRJNA596086","library_name":"CM5a_Bin3","experiment_title":"Illumina MiSeq sequencing: Flow-Seq of GFP library without intron in HeLa cells"}
+,
+{"run_accession":"SRR10714555","experiment_accession":"SRX7391387","sample_accession":"SAMN13612097","study_accession":"PRJNA596086","library_name":"CM5e_Bin2","experiment_title":"Illumina MiSeq sequencing: Flow-Seq of GFP library without intron in HeLa cells"}
+,
+{"run_accession":"SRR10714561","experiment_accession":"SRX7391381","sample_accession":"SAMN13612096","study_accession":"PRJNA596086","library_name":"CM5e_Bin1","experiment_title":"Illumina MiSeq sequencing: Flow-Seq of GFP library without intron in HeLa cells"}
+,
+{"run_accession":"SRR10714573","experiment_accession":"SRX7391369","sample_accession":"SAMN13612103","study_accession":"PRJNA596086","library_name":"CM5c_Bin8","experiment_title":"Illumina MiSeq sequencing: Flow-Seq of GFP library without intron in HeLa cells"}
+,
+{"run_accession":"SRR10714578","experiment_accession":"SRX7391364","sample_accession":"SAMN13612102","study_accession":"PRJNA596086","library_name":"CM5c_Bin7","experiment_title":"Illumina MiSeq sequencing: Flow-Seq of GFP library without intron in HeLa cells"}
+,
+{"run_accession":"SRR10714579","experiment_accession":"SRX7391363","sample_accession":"SAMN13612102","study_accession":"PRJNA596086","library_name":"CM5b_Bin7","experiment_title":"Illumina MiSeq sequencing: Flow-Seq of GFP library without intron in HeLa cells"}
+,
+{"run_accession":"SRR10714583","experiment_accession":"SRX7391359","sample_accession":"SAMN13612088","study_accession":"PRJNA596086","library_name":"CM2_Bin5","experiment_title":"Illumina MiSeq sequencing: Flow-Seq of GFP library without intron in HEK293 cells"}
+,
+{"run_accession":"SRR10714586","experiment_accession":"SRX7391356","sample_accession":"SAMN13612101","study_accession":"PRJNA596086","library_name":"CM5a_Bin6","experiment_title":"Illumina MiSeq sequencing: Flow-Seq of GFP library without intron in HeLa cells"}
+]

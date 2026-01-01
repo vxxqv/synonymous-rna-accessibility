@@ -1,0 +1,812 @@
+{
+  "bulk_sources": 10,
+  "distinct_ENA_samples": 50,
+  "distinct_extract_names": 50,
+  "distinct_sources": 50,
+  "file_rows": 100,
+  "independence": "Distinct documented samples/extracts and labeled biological replicates; no complete clone/culture lineage or cross-context covariance authenticated.",
+  "samples": {
+    "RNAseq(min. pCMV)-rep1": {
+      "mate_file_rows": 2,
+      "metadata": {
+        "Assay Name": "RNAseq(min. pCMV)-rep1",
+        "Characteristics[cell line]": "HEK293",
+        "Characteristics[genetic modification]": "3' end RNA sequencing",
+        "Characteristics[replicate]": "1",
+        "Comment[ENA_EXPERIMENT]": "ERX16759589",
+        "Comment[ENA_RUN]": "ERR17369996",
+        "Comment[ENA_SAMPLE]": "ERS30471025",
+        "Derived Array Data File": "RNAseq_counts.csv",
+        "Extract Name": "RNAseq(min. pCMV)-rep1",
+        "Factor Value[stimulus]": "",
+        "Source Name": "RNAseq(min. pCMV)-rep1"
+      }
+    },
+    "RNAseq(min. pCMV)-rep2": {
+      "mate_file_rows": 2,
+      "metadata": {
+        "Assay Name": "RNAseq(min. pCMV)-rep2",
+        "Characteristics[cell line]": "HEK293",
+        "Characteristics[genetic modification]": "3' end RNA sequencing",
+        "Characteristics[replicate]": "2",
+        "Comment[ENA_EXPERIMENT]": "ERX16759590",
+        "Comment[ENA_RUN]": "ERR17369997",
+        "Comment[ENA_SAMPLE]": "ERS30471026",
+        "Derived Array Data File": "RNAseq_counts.csv",
+        "Extract Name": "RNAseq(min. pCMV)-rep2",
+        "Factor Value[stimulus]": "",
+        "Source Name": "RNAseq(min. pCMV)-rep2"
+      }
+    },
+    "RNAseq(pACTB)-rep1": {
+      "mate_file_rows": 2,
+      "metadata": {
+        "Assay Name": "RNAseq(pACTB)-rep1",
+        "Characteristics[cell line]": "HEK293",
+        "Characteristics[genetic modification]": "3' end RNA sequencing",
+        "Characteristics[replicate]": "1",
+        "Comment[ENA_EXPERIMENT]": "ERX16759591",
+        "Comment[ENA_RUN]": "ERR17369998",
+        "Comment[ENA_SAMPLE]": "ERS30471027",
+        "Derived Array Data File": "RNAseq_counts.csv",
+        "Extract Name": "RNAseq(pACTB)-rep1",
+        "Factor Value[stimulus]": "",
+        "Source Name": "RNAseq(pACTB)-rep1"
+      }
+    },
+    "RNAseq(pACTB)-rep2": {
+      "mate_file_rows": 2,
+      "metadata": {
+        "Assay Name": "RNAseq(pACTB)-rep2",
+        "Characteristics[cell line]": "HEK293",
+        "Characteristics[genetic modification]": "3' end RNA sequencing",
+        "Characteristics[replicate]": "2",
+        "Comment[ENA_EXPERIMENT]": "ERX16759592",
+        "Comment[ENA_RUN]": "ERR17369999",
+        "Comment[ENA_SAMPLE]": "ERS30471028",
+        "Derived Array Data File": "RNAseq_counts.csv",
+        "Extract Name": "RNAseq(pACTB)-rep2",
+        "Factor Value[stimulus]": "",
+        "Source Name": "RNAseq(pACTB)-rep2"
+      }
+    },
+    "RNAseq(pCMV-full)-rep1": {
+      "mate_file_rows": 2,
+      "metadata": {
+        "Assay Name": "RNAseq(pCMV-full)-rep1",
+        "Characteristics[cell line]": "HEK293",
+        "Characteristics[genetic modification]": "3' end RNA sequencing",
+        "Characteristics[replicate]": "1",
+        "Comment[ENA_EXPERIMENT]": "ERX16759593",
+        "Comment[ENA_RUN]": "ERR17370000",
+        "Comment[ENA_SAMPLE]": "ERS30471029",
+        "Derived Array Data File": "RNAseq_counts.csv",
+        "Extract Name": "RNAseq(pCMV-full)-rep1",
+        "Factor Value[stimulus]": "",
+        "Source Name": "RNAseq(pCMV-full)-rep1"
+      }
+    },
+    "RNAseq(pCMV-full)-rep2": {
+      "mate_file_rows": 2,
+      "metadata": {
+        "Assay Name": "RNAseq(pCMV-full)-rep2",
+        "Characteristics[cell line]": "HEK293",
+        "Characteristics[genetic modification]": "3' end RNA sequencing",
+        "Characteristics[replicate]": "2",
+        "Comment[ENA_EXPERIMENT]": "ERX16759594",
+        "Comment[ENA_RUN]": "ERR17370001",
+        "Comment[ENA_SAMPLE]": "ERS30471030",
+        "Derived Array Data File": "RNAseq_counts.csv",
+        "Extract Name": "RNAseq(pCMV-full)-rep2",
+        "Factor Value[stimulus]": "",
+        "Source Name": "RNAseq(pCMV-full)-rep2"
+      }
+    },
+    "RNAseq(pCMV-short)-rep1": {
+      "mate_file_rows": 2,
+      "metadata": {
+        "Assay Name": "RNAseq(pCMV-short)-rep1",
+        "Characteristics[cell line]": "HEK293",
+        "Characteristics[genetic modification]": "3' end RNA sequencing",
+        "Characteristics[replicate]": "1",
+        "Comment[ENA_EXPERIMENT]": "ERX16759595",
+        "Comment[ENA_RUN]": "ERR17370002",
+        "Comment[ENA_SAMPLE]": "ERS30471031",
+        "Derived Array Data File": "RNAseq_counts.csv",
+        "Extract Name": "RNAseq(pCMV-short)-rep1",
+        "Factor Value[stimulus]": "",
+        "Source Name": "RNAseq(pCMV-short)-rep1"
+      }
+    },
+    "RNAseq(pCMV-short)-rep2": {
+      "mate_file_rows": 2,
+      "metadata": {
+        "Assay Name": "RNAseq(pCMV-short)-rep2",
+        "Characteristics[cell line]": "HEK293",
+        "Characteristics[genetic modification]": "3' end RNA sequencing",
+        "Characteristics[replicate]": "2",
+        "Comment[ENA_EXPERIMENT]": "ERX16759596",
+        "Comment[ENA_RUN]": "ERR17370003",
+        "Comment[ENA_SAMPLE]": "ERS30471032",
+        "Derived Array Data File": "RNAseq_counts.csv",
+        "Extract Name": "RNAseq(pCMV-short)-rep2",
+        "Factor Value[stimulus]": "",
+        "Source Name": "RNAseq(pCMV-short)-rep2"
+      }
+    },
+    "RNAseq(pEF1a)-rep1": {
+      "mate_file_rows": 2,
+      "metadata": {
+        "Assay Name": "RNAseq(pEF1a)-rep1",
+        "Characteristics[cell line]": "HEK293",
+        "Characteristics[genetic modification]": "3' end RNA sequencing",
+        "Characteristics[replicate]": "1",
+        "Comment[ENA_EXPERIMENT]": "ERX16759597",
+        "Comment[ENA_RUN]": "ERR17370004",
+        "Comment[ENA_SAMPLE]": "ERS30471033",
+        "Derived Array Data File": "RNAseq_counts.csv",
+        "Extract Name": "RNAseq(pEF1a)-rep1",
+        "Factor Value[stimulus]": "",
+        "Source Name": "RNAseq(pEF1a)-rep1"
+      }
+    },
+    "RNAseq(pEF1a)-rep2": {
+      "mate_file_rows": 2,
+      "metadata": {
+        "Assay Name": "RNAseq(pEF1a)-rep2",
+        "Characteristics[cell line]": "HEK293",
+        "Characteristics[genetic modification]": "3' end RNA sequencing",
+        "Characteristics[replicate]": "2",
+        "Comment[ENA_EXPERIMENT]": "ERX16759598",
+        "Comment[ENA_RUN]": "ERR17370005",
+        "Comment[ENA_SAMPLE]": "ERS30471034",
+        "Derived Array Data File": "RNAseq_counts.csv",
+        "Extract Name": "RNAseq(pEF1a)-rep2",
+        "Factor Value[stimulus]": "",
+        "Source Name": "RNAseq(pEF1a)-rep2"
+      }
+    },
+    "pm425_ActD High": {
+      "mate_file_rows": 2,
+      "metadata": {
+        "Assay Name": "pm425_ActD High",
+        "Characteristics[cell line]": "HEK293",
+        "Characteristics[genetic modification]": "pEF1a promoter driving splicing library",
+        "Characteristics[replicate]": "1",
+        "Comment[ENA_EXPERIMENT]": "ERX15515184",
+        "Comment[ENA_RUN]": "ERR16125432",
+        "Comment[ENA_SAMPLE]": "ERS28513039",
+        "Derived Array Data File": "cedrugs.pm425ActDHigh.2025-07-16.csv",
+        "Extract Name": "pm425_ActD High",
+        "Factor Value[stimulus]": "actinomycin D",
+        "Source Name": "pm425_ActD High"
+      }
+    },
+    "pm425_ActD Low": {
+      "mate_file_rows": 2,
+      "metadata": {
+        "Assay Name": "pm425_ActD Low",
+        "Characteristics[cell line]": "HEK293",
+        "Characteristics[genetic modification]": "pEF1a promoter driving splicing library",
+        "Characteristics[replicate]": "1",
+        "Comment[ENA_EXPERIMENT]": "ERX15515185",
+        "Comment[ENA_RUN]": "ERR16125433",
+        "Comment[ENA_SAMPLE]": "ERS28513040",
+        "Derived Array Data File": "cedrugs.pm425ActDLow.2025-07-16.csv",
+        "Extract Name": "pm425_ActD Low",
+        "Factor Value[stimulus]": "actinomycin D",
+        "Source Name": "pm425_ActD Low"
+      }
+    },
+    "pm425_Amanitin High": {
+      "mate_file_rows": 2,
+      "metadata": {
+        "Assay Name": "pm425_Amanitin High",
+        "Characteristics[cell line]": "HEK293",
+        "Characteristics[genetic modification]": "pEF1a promoter driving splicing library",
+        "Characteristics[replicate]": "1",
+        "Comment[ENA_EXPERIMENT]": "ERX15515186",
+        "Comment[ENA_RUN]": "ERR16125434",
+        "Comment[ENA_SAMPLE]": "ERS28513041",
+        "Derived Array Data File": "cedrugs.pm425AmanitinHigh.2025-07-17.csv",
+        "Extract Name": "pm425_Amanitin High",
+        "Factor Value[stimulus]": "alpha-amanitin",
+        "Source Name": "pm425_Amanitin High"
+      }
+    },
+    "pm425_Amanitin Low": {
+      "mate_file_rows": 2,
+      "metadata": {
+        "Assay Name": "pm425_Amanitin Low",
+        "Characteristics[cell line]": "HEK293",
+        "Characteristics[genetic modification]": "pEF1a promoter driving splicing library",
+        "Characteristics[replicate]": "1",
+        "Comment[ENA_EXPERIMENT]": "ERX15515187",
+        "Comment[ENA_RUN]": "ERR16125435",
+        "Comment[ENA_SAMPLE]": "ERS28513042",
+        "Derived Array Data File": "cedrugs.pm425AmanitinLow.2025-07-17.csv",
+        "Extract Name": "pm425_Amanitin Low",
+        "Factor Value[stimulus]": "alpha-amanitin",
+        "Source Name": "pm425_Amanitin Low"
+      }
+    },
+    "pm425_CPT High": {
+      "mate_file_rows": 2,
+      "metadata": {
+        "Assay Name": "pm425_CPT High",
+        "Characteristics[cell line]": "HEK293",
+        "Characteristics[genetic modification]": "pEF1a promoter driving splicing library",
+        "Characteristics[replicate]": "1",
+        "Comment[ENA_EXPERIMENT]": "ERX15515190",
+        "Comment[ENA_RUN]": "ERR16125438",
+        "Comment[ENA_SAMPLE]": "ERS28513045",
+        "Derived Array Data File": "cedrugs.pm425CPTHigh.2025-07-20.csv",
+        "Extract Name": "pm425_CPT High",
+        "Factor Value[stimulus]": "camptothecin",
+        "Source Name": "pm425_CPT High"
+      }
+    },
+    "pm425_CPT Low": {
+      "mate_file_rows": 2,
+      "metadata": {
+        "Assay Name": "pm425_CPT Low",
+        "Characteristics[cell line]": "HEK293",
+        "Characteristics[genetic modification]": "pEF1a promoter driving splicing library",
+        "Characteristics[replicate]": "1",
+        "Comment[ENA_EXPERIMENT]": "ERX15515191",
+        "Comment[ENA_RUN]": "ERR16125439",
+        "Comment[ENA_SAMPLE]": "ERS28513046",
+        "Derived Array Data File": "cedrugs.pm425CPTLow.2025-07-19.csv",
+        "Extract Name": "pm425_CPT Low",
+        "Factor Value[stimulus]": "camptothecin",
+        "Source Name": "pm425_CPT Low"
+      }
+    },
+    "pm425_Doxorubicin High": {
+      "mate_file_rows": 2,
+      "metadata": {
+        "Assay Name": "pm425_Doxorubicin High",
+        "Characteristics[cell line]": "HEK293",
+        "Characteristics[genetic modification]": "pEF1a promoter driving splicing library",
+        "Characteristics[replicate]": "1",
+        "Comment[ENA_EXPERIMENT]": "ERX15515192",
+        "Comment[ENA_RUN]": "ERR16125440",
+        "Comment[ENA_SAMPLE]": "ERS28513047",
+        "Derived Array Data File": "cedrugs.pm425DoxorubicinHigh.2025-07-22.csv",
+        "Extract Name": "pm425_Doxorubicin High",
+        "Factor Value[stimulus]": "doxorubicin",
+        "Source Name": "pm425_Doxorubicin High"
+      }
+    },
+    "pm425_Doxorubicin Low": {
+      "mate_file_rows": 2,
+      "metadata": {
+        "Assay Name": "pm425_Doxorubicin Low",
+        "Characteristics[cell line]": "HEK293",
+        "Characteristics[genetic modification]": "pEF1a promoter driving splicing library",
+        "Characteristics[replicate]": "1",
+        "Comment[ENA_EXPERIMENT]": "ERX15515193",
+        "Comment[ENA_RUN]": "ERR16125441",
+        "Comment[ENA_SAMPLE]": "ERS28513048",
+        "Derived Array Data File": "cedrugs.pm425DoxorubicinLow.2025-07-22.csv",
+        "Extract Name": "pm425_Doxorubicin Low",
+        "Factor Value[stimulus]": "doxorubicin",
+        "Source Name": "pm425_Doxorubicin Low"
+      }
+    },
+    "pm425_control": {
+      "mate_file_rows": 2,
+      "metadata": {
+        "Assay Name": "pm425_control",
+        "Characteristics[cell line]": "HEK293",
+        "Characteristics[genetic modification]": "pEF1a promoter driving splicing library",
+        "Characteristics[replicate]": "1",
+        "Comment[ENA_EXPERIMENT]": "ERX15515188",
+        "Comment[ENA_RUN]": "ERR16125436",
+        "Comment[ENA_SAMPLE]": "ERS28513043",
+        "Derived Array Data File": "cedrugs.pm425control.2025-07-15.csv",
+        "Extract Name": "pm425_control",
+        "Factor Value[stimulus]": "",
+        "Source Name": "pm425_control"
+      }
+    },
+    "pm425_control2": {
+      "mate_file_rows": 2,
+      "metadata": {
+        "Assay Name": "pm425_control2",
+        "Characteristics[cell line]": "HEK293",
+        "Characteristics[genetic modification]": "pEF1a promoter driving splicing library",
+        "Characteristics[replicate]": "2",
+        "Comment[ENA_EXPERIMENT]": "ERX15515189",
+        "Comment[ENA_RUN]": "ERR16125437",
+        "Comment[ENA_SAMPLE]": "ERS28513044",
+        "Derived Array Data File": "cedrugs.pm425control2.2025-07-15.csv",
+        "Extract Name": "pm425_control2",
+        "Factor Value[stimulus]": "",
+        "Source Name": "pm425_control2"
+      }
+    },
+    "pm425a": {
+      "mate_file_rows": 2,
+      "metadata": {
+        "Assay Name": "pm425a",
+        "Characteristics[cell line]": "HEK293",
+        "Characteristics[genetic modification]": "pEF1a promoter driving splicing library",
+        "Characteristics[replicate]": "1",
+        "Comment[ENA_EXPERIMENT]": "ERX15515194",
+        "Comment[ENA_RUN]": "ERR16125442",
+        "Comment[ENA_SAMPLE]": "ERS28513049",
+        "Derived Array Data File": "ceprom.pm425a.2025-05-16.csv",
+        "Extract Name": "pm425a",
+        "Factor Value[stimulus]": "",
+        "Source Name": "pm425a"
+      }
+    },
+    "pm425b": {
+      "mate_file_rows": 2,
+      "metadata": {
+        "Assay Name": "pm425b",
+        "Characteristics[cell line]": "HEK293",
+        "Characteristics[genetic modification]": "pEF1a promoter driving splicing library",
+        "Characteristics[replicate]": "2",
+        "Comment[ENA_EXPERIMENT]": "ERX15515195",
+        "Comment[ENA_RUN]": "ERR16125443",
+        "Comment[ENA_SAMPLE]": "ERS28513050",
+        "Derived Array Data File": "ceprom.pm425b.2025-05-16.csv",
+        "Extract Name": "pm425b",
+        "Factor Value[stimulus]": "",
+        "Source Name": "pm425b"
+      }
+    },
+    "pm454a": {
+      "mate_file_rows": 2,
+      "metadata": {
+        "Assay Name": "pm454a",
+        "Characteristics[cell line]": "HEK293",
+        "Characteristics[genetic modification]": "full CMV promoter driving splicing library",
+        "Characteristics[replicate]": "1",
+        "Comment[ENA_EXPERIMENT]": "ERX15515196",
+        "Comment[ENA_RUN]": "ERR16125444",
+        "Comment[ENA_SAMPLE]": "ERS28513051",
+        "Derived Array Data File": "ceprom.pm454a.2025-05-16.csv",
+        "Extract Name": "pm454a",
+        "Factor Value[stimulus]": "",
+        "Source Name": "pm454a"
+      }
+    },
+    "pm454a_R": {
+      "mate_file_rows": 2,
+      "metadata": {
+        "Assay Name": "pm454a_R",
+        "Characteristics[cell line]": "HEK293",
+        "Characteristics[genetic modification]": "full CMV promoter driving splicing library",
+        "Characteristics[replicate]": "1",
+        "Comment[ENA_EXPERIMENT]": "ERX16759569",
+        "Comment[ENA_RUN]": "ERR17369976",
+        "Comment[ENA_SAMPLE]": "ERS30471005",
+        "Derived Array Data File": "ceadd.pm454a_6mio42R.2026-05-01.csv",
+        "Extract Name": "pm454a_R",
+        "Factor Value[stimulus]": "",
+        "Source Name": "pm454a_R"
+      }
+    },
+    "pm454b": {
+      "mate_file_rows": 2,
+      "metadata": {
+        "Assay Name": "pm454b",
+        "Characteristics[cell line]": "HEK293",
+        "Characteristics[genetic modification]": "full CMV promoter driving splicing library",
+        "Characteristics[replicate]": "2",
+        "Comment[ENA_EXPERIMENT]": "ERX15515197",
+        "Comment[ENA_RUN]": "ERR16125445",
+        "Comment[ENA_SAMPLE]": "ERS28513052",
+        "Derived Array Data File": "ceprom.pm454b.2025-05-16.csv",
+        "Extract Name": "pm454b",
+        "Factor Value[stimulus]": "",
+        "Source Name": "pm454b"
+      }
+    },
+    "pm454b_R": {
+      "mate_file_rows": 2,
+      "metadata": {
+        "Assay Name": "pm454b_R",
+        "Characteristics[cell line]": "HEK293",
+        "Characteristics[genetic modification]": "full CMV promoter driving splicing library",
+        "Characteristics[replicate]": "2",
+        "Comment[ENA_EXPERIMENT]": "ERX16759570",
+        "Comment[ENA_RUN]": "ERR17369977",
+        "Comment[ENA_SAMPLE]": "ERS30471006",
+        "Derived Array Data File": "ceadd.pm454b_6mio42R.2026-05-01.csv",
+        "Extract Name": "pm454b_R",
+        "Factor Value[stimulus]": "",
+        "Source Name": "pm454b_R"
+      }
+    },
+    "pm455a": {
+      "mate_file_rows": 2,
+      "metadata": {
+        "Assay Name": "pm455a",
+        "Characteristics[cell line]": "HEK293",
+        "Characteristics[genetic modification]": "short CMV  promoter driving splicing library",
+        "Characteristics[replicate]": "1",
+        "Comment[ENA_EXPERIMENT]": "ERX15515198",
+        "Comment[ENA_RUN]": "ERR16125446",
+        "Comment[ENA_SAMPLE]": "ERS28513053",
+        "Derived Array Data File": "ceprom.pm455a.2025-09-09.csv",
+        "Extract Name": "pm455a",
+        "Factor Value[stimulus]": "",
+        "Source Name": "pm455a"
+      }
+    },
+    "pm455b": {
+      "mate_file_rows": 2,
+      "metadata": {
+        "Assay Name": "pm455b",
+        "Characteristics[cell line]": "HEK293",
+        "Characteristics[genetic modification]": "short CMV  promoter driving splicing library",
+        "Characteristics[replicate]": "2",
+        "Comment[ENA_EXPERIMENT]": "ERX15515199",
+        "Comment[ENA_RUN]": "ERR16125447",
+        "Comment[ENA_SAMPLE]": "ERS28513054",
+        "Derived Array Data File": "ceprom.pm455b.2025-09-09.csv",
+        "Extract Name": "pm455b",
+        "Factor Value[stimulus]": "",
+        "Source Name": "pm455b"
+      }
+    },
+    "pm456a": {
+      "mate_file_rows": 2,
+      "metadata": {
+        "Assay Name": "pm456a",
+        "Characteristics[cell line]": "HEK293",
+        "Characteristics[genetic modification]": "ACTB  promoter driving splicing library",
+        "Characteristics[replicate]": "1",
+        "Comment[ENA_EXPERIMENT]": "ERX15515200",
+        "Comment[ENA_RUN]": "ERR16125448",
+        "Comment[ENA_SAMPLE]": "ERS28513055",
+        "Derived Array Data File": "ceprom.pm456a.2025-05-16.csv",
+        "Extract Name": "pm456a",
+        "Factor Value[stimulus]": "",
+        "Source Name": "pm456a"
+      }
+    },
+    "pm456b": {
+      "mate_file_rows": 2,
+      "metadata": {
+        "Assay Name": "pm456b",
+        "Characteristics[cell line]": "HEK293",
+        "Characteristics[genetic modification]": "ACTB  promoter driving splicing library",
+        "Characteristics[replicate]": "2",
+        "Comment[ENA_EXPERIMENT]": "ERX15515201",
+        "Comment[ENA_RUN]": "ERR16125449",
+        "Comment[ENA_SAMPLE]": "ERS28513056",
+        "Derived Array Data File": "ceprom.pm456b.2025-05-16.csv",
+        "Extract Name": "pm456b",
+        "Factor Value[stimulus]": "",
+        "Source Name": "pm456b"
+      }
+    },
+    "pm457a": {
+      "mate_file_rows": 2,
+      "metadata": {
+        "Assay Name": "pm457a",
+        "Characteristics[cell line]": "HEK293",
+        "Characteristics[genetic modification]": "minimal CMV  promoter driving splicing library",
+        "Characteristics[replicate]": "1",
+        "Comment[ENA_EXPERIMENT]": "ERX15515202",
+        "Comment[ENA_RUN]": "ERR16125450",
+        "Comment[ENA_SAMPLE]": "ERS28513057",
+        "Derived Array Data File": "ceprom.pm457a.2025-05-16.csv",
+        "Extract Name": "pm457a",
+        "Factor Value[stimulus]": "",
+        "Source Name": "pm457a"
+      }
+    },
+    "pm457b": {
+      "mate_file_rows": 2,
+      "metadata": {
+        "Assay Name": "pm457b",
+        "Characteristics[cell line]": "HEK293",
+        "Characteristics[genetic modification]": "minimal CMV  promoter driving splicing library",
+        "Characteristics[replicate]": "2",
+        "Comment[ENA_EXPERIMENT]": "ERX15515203",
+        "Comment[ENA_RUN]": "ERR16125451",
+        "Comment[ENA_SAMPLE]": "ERS28513058",
+        "Derived Array Data File": "ceprom.pm457b.2025-05-16.csv",
+        "Extract Name": "pm457b",
+        "Factor Value[stimulus]": "",
+        "Source Name": "pm457b"
+      }
+    },
+    "pm733aINT": {
+      "mate_file_rows": 2,
+      "metadata": {
+        "Assay Name": "pm733aINT",
+        "Characteristics[cell line]": "HEK293",
+        "Characteristics[genetic modification]": "genomically integrated pEF1a promoter driving splicing library",
+        "Characteristics[replicate]": "1",
+        "Comment[ENA_EXPERIMENT]": "ERX16759571",
+        "Comment[ENA_RUN]": "ERR17369978",
+        "Comment[ENA_SAMPLE]": "ERS30471007",
+        "Derived Array Data File": "ceint.pm733aNEWINT_R.2026-04-22.csv",
+        "Extract Name": "pm733aINT",
+        "Factor Value[stimulus]": "",
+        "Source Name": "pm733aINT"
+      }
+    },
+    "pm733bINT": {
+      "mate_file_rows": 2,
+      "metadata": {
+        "Assay Name": "pm733bINT",
+        "Characteristics[cell line]": "HEK293",
+        "Characteristics[genetic modification]": "genomically integrated pEF1a promoter driving splicing library",
+        "Characteristics[replicate]": "2",
+        "Comment[ENA_EXPERIMENT]": "ERX16759572",
+        "Comment[ENA_RUN]": "ERR17369979",
+        "Comment[ENA_SAMPLE]": "ERS30471008",
+        "Derived Array Data File": "ceint.pm733bNEWINT_R.2026-04-22.csv",
+        "Extract Name": "pm733bINT",
+        "Factor Value[stimulus]": "",
+        "Source Name": "pm733bINT"
+      }
+    },
+    "pm734aINT": {
+      "mate_file_rows": 2,
+      "metadata": {
+        "Assay Name": "pm734aINT",
+        "Characteristics[cell line]": "HEK293",
+        "Characteristics[genetic modification]": "genomically integrated full CMV promoter driving splicing library",
+        "Characteristics[replicate]": "1",
+        "Comment[ENA_EXPERIMENT]": "ERX16759573",
+        "Comment[ENA_RUN]": "ERR17369980",
+        "Comment[ENA_SAMPLE]": "ERS30471009",
+        "Derived Array Data File": "ceint.pm734aNEWINT_R.2026-04-22.csv",
+        "Extract Name": "pm734aINT",
+        "Factor Value[stimulus]": "",
+        "Source Name": "pm734aINT"
+      }
+    },
+    "pm734aTRANS": {
+      "mate_file_rows": 2,
+      "metadata": {
+        "Assay Name": "pm734aTRANS",
+        "Characteristics[cell line]": "HEK293",
+        "Characteristics[genetic modification]": "episomally expressed full CMV promoter (pZDONOR) driving splicing library",
+        "Characteristics[replicate]": "1",
+        "Comment[ENA_EXPERIMENT]": "ERX16759574",
+        "Comment[ENA_RUN]": "ERR17369981",
+        "Comment[ENA_SAMPLE]": "ERS30471010",
+        "Derived Array Data File": "ceint.pm734aTRANS_R.2026-04-22.csv",
+        "Extract Name": "pm734aTRANS",
+        "Factor Value[stimulus]": "",
+        "Source Name": "pm734aTRANS"
+      }
+    },
+    "pm734bINT": {
+      "mate_file_rows": 2,
+      "metadata": {
+        "Assay Name": "pm734bINT",
+        "Characteristics[cell line]": "HEK293",
+        "Characteristics[genetic modification]": "genomically integrated full CMV promoter driving splicing library",
+        "Characteristics[replicate]": "2",
+        "Comment[ENA_EXPERIMENT]": "ERX16759575",
+        "Comment[ENA_RUN]": "ERR17369982",
+        "Comment[ENA_SAMPLE]": "ERS30471011",
+        "Derived Array Data File": "ceint.pm734bNEWINT_R.2026-04-22.csv",
+        "Extract Name": "pm734bINT",
+        "Factor Value[stimulus]": "",
+        "Source Name": "pm734bINT"
+      }
+    },
+    "pm734bTRANS": {
+      "mate_file_rows": 2,
+      "metadata": {
+        "Assay Name": "pm734bTRANS",
+        "Characteristics[cell line]": "HEK293",
+        "Characteristics[genetic modification]": "episomally expressed full CMV promoter (pZDONOR) driving splicing library",
+        "Characteristics[replicate]": "2",
+        "Comment[ENA_EXPERIMENT]": "ERX16759576",
+        "Comment[ENA_RUN]": "ERR17369983",
+        "Comment[ENA_SAMPLE]": "ERS30471012",
+        "Derived Array Data File": "ceint.pm734bTRANS_R.2026-04-22.csv",
+        "Extract Name": "pm734bTRANS",
+        "Factor Value[stimulus]": "",
+        "Source Name": "pm734bTRANS"
+      }
+    },
+    "pm739a": {
+      "mate_file_rows": 2,
+      "metadata": {
+        "Assay Name": "pm739a",
+        "Characteristics[cell line]": "HEK293",
+        "Characteristics[genetic modification]": "full CMV promoter with EF1a intron driving splicing library",
+        "Characteristics[replicate]": "1",
+        "Comment[ENA_EXPERIMENT]": "ERX16759577",
+        "Comment[ENA_RUN]": "ERR17369984",
+        "Comment[ENA_SAMPLE]": "ERS30471013",
+        "Derived Array Data File": "ceadd.pm739a_6mio42R.2026-05-01.csv",
+        "Extract Name": "pm739a",
+        "Factor Value[stimulus]": "",
+        "Source Name": "pm739a"
+      }
+    },
+    "pm739b": {
+      "mate_file_rows": 2,
+      "metadata": {
+        "Assay Name": "pm739b",
+        "Characteristics[cell line]": "HEK293",
+        "Characteristics[genetic modification]": "full CMV promoter with EF1a intron driving splicing library",
+        "Characteristics[replicate]": "2",
+        "Comment[ENA_EXPERIMENT]": "ERX16759578",
+        "Comment[ENA_RUN]": "ERR17369985",
+        "Comment[ENA_SAMPLE]": "ERS30471014",
+        "Derived Array Data File": "ceadd.pm739b_6mio42R.2026-05-01.csv",
+        "Extract Name": "pm739b",
+        "Factor Value[stimulus]": "",
+        "Source Name": "pm739b"
+      }
+    },
+    "pm740a": {
+      "mate_file_rows": 2,
+      "metadata": {
+        "Assay Name": "pm740a",
+        "Characteristics[cell line]": "HEK293",
+        "Characteristics[genetic modification]": "full CMV promoter with bglobin intron driving splicing library",
+        "Characteristics[replicate]": "1",
+        "Comment[ENA_EXPERIMENT]": "ERX16759579",
+        "Comment[ENA_RUN]": "ERR17369986",
+        "Comment[ENA_SAMPLE]": "ERS30471015",
+        "Derived Array Data File": "ceadd.pm740a_6mio42R.2026-05-01.csv",
+        "Extract Name": "pm740a",
+        "Factor Value[stimulus]": "",
+        "Source Name": "pm740a"
+      }
+    },
+    "pm740b": {
+      "mate_file_rows": 2,
+      "metadata": {
+        "Assay Name": "pm740b",
+        "Characteristics[cell line]": "HEK293",
+        "Characteristics[genetic modification]": "full CMV promoter with bglobin intron driving splicing library",
+        "Characteristics[replicate]": "2",
+        "Comment[ENA_EXPERIMENT]": "ERX16759580",
+        "Comment[ENA_RUN]": "ERR17369987",
+        "Comment[ENA_SAMPLE]": "ERS30471016",
+        "Derived Array Data File": "ceadd.pm740b_6mio42R.2026-05-01.csv",
+        "Extract Name": "pm740b",
+        "Factor Value[stimulus]": "",
+        "Source Name": "pm740b"
+      }
+    },
+    "pm743a": {
+      "mate_file_rows": 2,
+      "metadata": {
+        "Assay Name": "pm743a",
+        "Characteristics[cell line]": "HEK293",
+        "Characteristics[genetic modification]": "MYC-1 promoter driving splicing library",
+        "Characteristics[replicate]": "1",
+        "Comment[ENA_EXPERIMENT]": "ERX16759581",
+        "Comment[ENA_RUN]": "ERR17369988",
+        "Comment[ENA_SAMPLE]": "ERS30471017",
+        "Derived Array Data File": "ceadd.pm743a_6mio42R.2026-05-01.csv",
+        "Extract Name": "pm743a",
+        "Factor Value[stimulus]": "",
+        "Source Name": "pm743a"
+      }
+    },
+    "pm743b": {
+      "mate_file_rows": 2,
+      "metadata": {
+        "Assay Name": "pm743b",
+        "Characteristics[cell line]": "HEK293",
+        "Characteristics[genetic modification]": "MYC-1 promoter driving splicing library",
+        "Characteristics[replicate]": "2",
+        "Comment[ENA_EXPERIMENT]": "ERX16759582",
+        "Comment[ENA_RUN]": "ERR17369989",
+        "Comment[ENA_SAMPLE]": "ERS30471018",
+        "Derived Array Data File": "ceadd.pm743b_6mio42R.2026-05-01.csv",
+        "Extract Name": "pm743b",
+        "Factor Value[stimulus]": "",
+        "Source Name": "pm743b"
+      }
+    },
+    "pm744a": {
+      "mate_file_rows": 2,
+      "metadata": {
+        "Assay Name": "pm744a",
+        "Characteristics[cell line]": "HEK293",
+        "Characteristics[genetic modification]": "MYC-2 promoter driving splicing library",
+        "Characteristics[replicate]": "1",
+        "Comment[ENA_EXPERIMENT]": "ERX16759583",
+        "Comment[ENA_RUN]": "ERR17369990",
+        "Comment[ENA_SAMPLE]": "ERS30471019",
+        "Derived Array Data File": "ceadd.pm744a_6mio42R.2026-05-01.csv",
+        "Extract Name": "pm744a",
+        "Factor Value[stimulus]": "",
+        "Source Name": "pm744a"
+      }
+    },
+    "pm744b": {
+      "mate_file_rows": 2,
+      "metadata": {
+        "Assay Name": "pm744b",
+        "Characteristics[cell line]": "HEK293",
+        "Characteristics[genetic modification]": "MYC-2 promoter driving splicing library",
+        "Characteristics[replicate]": "2",
+        "Comment[ENA_EXPERIMENT]": "ERX16759584",
+        "Comment[ENA_RUN]": "ERR17369991",
+        "Comment[ENA_SAMPLE]": "ERS30471020",
+        "Derived Array Data File": "ceadd.pm744b_6mio42R.2026-05-01.csv",
+        "Extract Name": "pm744b",
+        "Factor Value[stimulus]": "",
+        "Source Name": "pm744b"
+      }
+    },
+    "pm745a": {
+      "mate_file_rows": 2,
+      "metadata": {
+        "Assay Name": "pm745a",
+        "Characteristics[cell line]": "HEK293",
+        "Characteristics[genetic modification]": "p73-1 promoter driving splicing library",
+        "Characteristics[replicate]": "1",
+        "Comment[ENA_EXPERIMENT]": "ERX16759585",
+        "Comment[ENA_RUN]": "ERR17369992",
+        "Comment[ENA_SAMPLE]": "ERS30471021",
+        "Derived Array Data File": "ceadd.pm745a_6mio42R.2026-05-01.csv",
+        "Extract Name": "pm745a",
+        "Factor Value[stimulus]": "",
+        "Source Name": "pm745a"
+      }
+    },
+    "pm745b": {
+      "mate_file_rows": 2,
+      "metadata": {
+        "Assay Name": "pm745b",
+        "Characteristics[cell line]": "HEK293",
+        "Characteristics[genetic modification]": "p73-1 promoter driving splicing library",
+        "Characteristics[replicate]": "2",
+        "Comment[ENA_EXPERIMENT]": "ERX16759586",
+        "Comment[ENA_RUN]": "ERR17369993",
+        "Comment[ENA_SAMPLE]": "ERS30471022",
+        "Derived Array Data File": "ceadd.pm745b_6mio42R.2026-05-01.csv",
+        "Extract Name": "pm745b",
+        "Factor Value[stimulus]": "",
+        "Source Name": "pm745b"
+      }
+    },
+    "pm747a": {
+      "mate_file_rows": 2,
+      "metadata": {
+        "Assay Name": "pm747a",
+        "Characteristics[cell line]": "HEK293",
+        "Characteristics[genetic modification]": "p73-2 promoter driving splicing library",
+        "Characteristics[replicate]": "1",
+        "Comment[ENA_EXPERIMENT]": "ERX16759587",
+        "Comment[ENA_RUN]": "ERR17369994",
+        "Comment[ENA_SAMPLE]": "ERS30471023",
+        "Derived Array Data File": "ceadd.pm747a_6mio42R.2026-05-01.csv",
+        "Extract Name": "pm747a",
+        "Factor Value[stimulus]": "",
+        "Source Name": "pm747a"
+      }
+    },
+    "pm747b": {
+      "mate_file_rows": 2,
+      "metadata": {
+        "Assay Name": "pm747b",
+        "Characteristics[cell line]": "HEK293",
+        "Characteristics[genetic modification]": "p73-2 promoter driving splicing library",
+        "Characteristics[replicate]": "2",
+        "Comment[ENA_EXPERIMENT]": "ERX16759588",
+        "Comment[ENA_RUN]": "ERR17369995",
+        "Comment[ENA_SAMPLE]": "ERS30471024",
+        "Derived Array Data File": "ceadd.pm747b_6mio42R.2026-05-01.csv",
+        "Extract Name": "pm747b",
+        "Factor Value[stimulus]": "",
+        "Source Name": "pm747b"
+      }
+    }
+  },
+  "scope": "Sample documentation only; no assay outcomes, per-variant coverage or outcome missingness.",
+  "targeted_sources": 40
+}

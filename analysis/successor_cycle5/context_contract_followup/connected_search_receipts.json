@@ -1,0 +1,33 @@
+{
+  "github_accession_search": {
+    "status": "fulfilled",
+    "value": {
+      "content": [
+        {
+          "type": "text",
+          "text": "Action completed."
+        }
+      ],
+      "structuredContent": {
+        "results": []
+      },
+      "isError": false
+    }
+  },
+  "github_repository_search": {
+    "status": "fulfilled",
+    "value": {
+      "content": [
+        {
+          "type": "text",
+          "text": "Action completed."
+        }
+      ],
+      "structuredContent": {
+        "archive_filter_applied": null,
+        "repositories": []
+      },
+      "isError": false
+    }
+  }
+}

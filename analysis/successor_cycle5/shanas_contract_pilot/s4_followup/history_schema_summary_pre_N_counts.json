@@ -1,0 +1,98 @@
+{
+  "rows": 11,
+  "selected_columns": [
+    "promoter construct",
+    "sequence"
+  ],
+  "records": [
+    {
+      "construct": "pEF1a",
+      "sequence_length": 1327,
+      "non_DNA_characters": [],
+      "prefix": "catacaaaaggactcgcccctg",
+      "suffix": "tcttccatttcaggtgtcgtga",
+      "GFP_Nterminal_exact_anchor_count": 0
+    },
+    {
+      "construct": "pACTB",
+      "sequence_length": 1703,
+      "non_DNA_characters": [],
+      "prefix": "TATTAATAGTAATCAATTACGG",
+      "suffix": "GCTGTCTCATCATTTTGGCAAA",
+      "GFP_Nterminal_exact_anchor_count": 0
+    },
+    {
+      "construct": "pCMV-full",
+      "sequence_length": 564,
+      "non_DNA_characters": [],
+      "prefix": "tattaatagtaatcaattacgg",
+      "suffix": "ggaggtctatataagcagagct",
+      "GFP_Nterminal_exact_anchor_count": 0
+    },
+    {
+      "construct": "pCMV-short",
+      "sequence_length": 204,
+      "non_DNA_characters": [],
+      "prefix": "gtgatgcggttttggcagtaca",
+      "suffix": "ggaggtctatataagcagagct",
+      "GFP_Nterminal_exact_anchor_count": 0
+    },
+    {
+      "construct": "min. pCMV",
+      "sequence_length": 46,
+      "non_DNA_characters": [],
+      "prefix": "TATGTCGAGGTGGCGTGTACGG",
+      "suffix": "GGAGGCCTATATAAGCAGAGCT",
+      "GFP_Nterminal_exact_anchor_count": 0
+    },
+    {
+      "construct": "pCMV-full-EF1alpha intron",
+      "sequence_length": 1562,
+      "non_DNA_characters": [],
+      "prefix": "gacattgattattgactagtta",
+      "suffix": "tcttccatttcaggtgtcgtga",
+      "GFP_Nterminal_exact_anchor_count": 0
+    },
+    {
+      "construct": "pCMV-full-betaglobin intron",
+      "sequence_length": 1185,
+      "non_DNA_characters": [],
+      "prefix": "gacattgattattgactagtta",
+      "suffix": "ttcttctctttcctacagctcc",
+      "GFP_Nterminal_exact_anchor_count": 0
+    },
+    {
+      "construct": "pMYC-1",
+      "sequence_length": 434,
+      "non_DNA_characters": [],
+      "prefix": "GAGTCTCCTCCCCACCTTCCCC",
+      "suffix": "CCTGGGAAGGGAGATCCGGAGC",
+      "GFP_Nterminal_exact_anchor_count": 0
+    },
+    {
+      "construct": "pMYC-2",
+      "sequence_length": 421,
+      "non_DNA_characters": [],
+      "prefix": "GAGGTGTTAGGACGTGGTGTTG",
+      "suffix": "GGCAAAAGGAGTGTTGGACGGG",
+      "GFP_Nterminal_exact_anchor_count": 0
+    },
+    {
+      "construct": "pTP73-1",
+      "sequence_length": 1307,
+      "non_DNA_characters": [],
+      "prefix": "GAAGATGTGCGAGTCAGCCGGA",
+      "suffix": "GCGCCCGCGAAGGGGACGCAGC",
+      "GFP_Nterminal_exact_anchor_count": 0
+    },
+    {
+      "construct": "pTP73-2",
+      "sequence_length": 759,
+      "non_DNA_characters": [],
+      "prefix": "GGCAACAGTGGCTTGTCCCTGT",
+      "suffix": "CACGACCGTGACCCTTCCCCTC",
+      "GFP_Nterminal_exact_anchor_count": 0
+    }
+  ],
+  "selected_sha256": "89f9b67693821369d6bcbf7216471b3a3b09708be78c203f443e004f55526d86"
+}

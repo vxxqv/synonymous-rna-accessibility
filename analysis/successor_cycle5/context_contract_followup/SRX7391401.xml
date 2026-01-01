@@ -1,0 +1,70 @@
+<EXPERIMENT_SET>
+<EXPERIMENT accession="SRX7391401" alias="CM6_n1" center_name="SUB6698455" broker_name="NCBI">
+  <IDENTIFIERS>
+    <PRIMARY_ID>SRX7391401</PRIMARY_ID>
+    <SUBMITTER_ID namespace="SUB6698455">CM6_n1</SUBMITTER_ID>
+  </IDENTIFIERS>
+  <TITLE>Subcellular fractionation of RNA in HEK293 cells</TITLE>
+  <STUDY_REF accession="SRP237851">
+    <IDENTIFIERS>
+      <PRIMARY_ID>SRP237851</PRIMARY_ID>
+      <SUBMITTER_ID namespace="SUB6698455">bp0</SUBMITTER_ID>
+    </IDENTIFIERS>
+  </STUDY_REF>
+  <DESIGN>
+    <DESIGN_DESCRIPTION>To prepare RNA subcellular fractionation libraries, cells were separatedinto nuclear and cytoplasmic fractions, followed by RT-PCR with primers specific to GFP 5'- and 3'-UTR sequences</DESIGN_DESCRIPTION>
+    <SAMPLE_DESCRIPTOR accession="SRS5839591">
+      <IDENTIFIERS>
+        <PRIMARY_ID>SRS5839591</PRIMARY_ID>
+        <SUBMITTER_ID namespace="pda|gkudla">CM6_HeLamRNALocalizationNoIntron_Nuclear</SUBMITTER_ID>
+      </IDENTIFIERS>
+    </SAMPLE_DESCRIPTOR>
+    <LIBRARY_DESCRIPTOR>
+      <LIBRARY_NAME>CM6_n1</LIBRARY_NAME>
+      <LIBRARY_STRATEGY>AMPLICON</LIBRARY_STRATEGY>
+      <LIBRARY_SOURCE>SYNTHETIC</LIBRARY_SOURCE>
+      <LIBRARY_SELECTION>RT-PCR</LIBRARY_SELECTION>
+      <LIBRARY_LAYOUT>
+        <PAIRED/>
+      </LIBRARY_LAYOUT>
+    </LIBRARY_DESCRIPTOR>
+  </DESIGN>
+  <PLATFORM>
+    <ILLUMINA>
+      <INSTRUMENT_MODEL>Illumina MiSeq</INSTRUMENT_MODEL>
+    </ILLUMINA>
+  </PLATFORM>
+  <EXPERIMENT_LINKS>
+    <EXPERIMENT_LINK>
+      <XREF_LINK>
+        <DB>ENA-SAMPLE</DB>
+        <ID>SRS5839591</ID>
+      </XREF_LINK>
+    </EXPERIMENT_LINK>
+    <EXPERIMENT_LINK>
+      <XREF_LINK>
+        <DB>ENA-SUBMISSION</DB>
+        <ID>SRA1013027</ID>
+      </XREF_LINK>
+    </EXPERIMENT_LINK>
+    <EXPERIMENT_LINK>
+      <XREF_LINK>
+        <DB>ENA-FASTQ-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=SRX7391401&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+      </XREF_LINK>
+    </EXPERIMENT_LINK>
+    <EXPERIMENT_LINK>
+      <XREF_LINK>
+        <DB>ENA-SUBMITTED-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=SRX7391401&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+      </XREF_LINK>
+    </EXPERIMENT_LINK>
+  </EXPERIMENT_LINKS>
+  <EXPERIMENT_ATTRIBUTES>
+    <EXPERIMENT_ATTRIBUTE>
+      <TAG>ENA-STATUS</TAG>
+      <VALUE>PUBLIC</VALUE>
+    </EXPERIMENT_ATTRIBUTE>
+  </EXPERIMENT_ATTRIBUTES>
+</EXPERIMENT>
+</EXPERIMENT_SET>

@@ -1,0 +1,90 @@
+[
+  {
+    "bytes": 3910,
+    "content_type": "application/xml",
+    "file": "mordstein_cloud_inventory.xml",
+    "final_url": "https://pmc-oa-opendata.s3.amazonaws.com/?list-type=2&prefix=PMC7181179",
+    "limit_bytes": 5000000,
+    "requested_at_utc": "2026-10-25T15:54:22.144713+00:00",
+    "sha256": "5835eccf2257e59cd0f8ce374673f91c5303e6017eb305b88d9f349cb61bcc21",
+    "status": 200,
+    "url": "https://pmc-oa-opendata.s3.amazonaws.com/?list-type=2&prefix=PMC7181179"
+  },
+  {
+    "bytes": 3091,
+    "content_type": "application/xml",
+    "file": "mittal_cloud_inventory.xml",
+    "final_url": "https://pmc-oa-opendata.s3.amazonaws.com/?list-type=2&prefix=PMC6112741",
+    "limit_bytes": 5000000,
+    "requested_at_utc": "2026-10-25T15:54:22.145713+00:00",
+    "sha256": "362147189906ca57e37c223d354da402fe9766147142cc43c2924f981b4d3393",
+    "status": 200,
+    "url": "https://pmc-oa-opendata.s3.amazonaws.com/?list-type=2&prefix=PMC6112741"
+  },
+  {
+    "bytes": 2306,
+    "content_type": "application/xml",
+    "file": "ena_study.xml",
+    "final_url": "https://www.ebi.ac.uk/ena/browser/api/xml/PRJNA596086",
+    "limit_bytes": 5000000,
+    "requested_at_utc": "2026-10-25T15:54:22.145713+00:00",
+    "sha256": "980ce0792d148864de2bcc1612d7026b24346a4903d1580410c67e96cdb7756e",
+    "status": 200,
+    "url": "https://www.ebi.ac.uk/ena/browser/api/xml/PRJNA596086"
+  },
+  {
+    "bytes": 3422,
+    "content_type": "application/xml",
+    "file": "SAMN13612106.xml",
+    "final_url": "https://www.ebi.ac.uk/ena/browser/api/xml/SAMN13612106",
+    "limit_bytes": 5000000,
+    "requested_at_utc": "2026-10-25T15:54:22.146712+00:00",
+    "sha256": "01342d60017071c6330c79e1eb04797cba46e5a6134c2ac9eb6d15e712cbea7a",
+    "status": 200,
+    "url": "https://www.ebi.ac.uk/ena/browser/api/xml/SAMN13612106"
+  },
+  {
+    "bytes": 3437,
+    "content_type": "application/xml",
+    "file": "SAMN13612105.xml",
+    "final_url": "https://www.ebi.ac.uk/ena/browser/api/xml/SAMN13612105",
+    "limit_bytes": 5000000,
+    "requested_at_utc": "2026-10-25T15:54:22.798748+00:00",
+    "sha256": "2cfb015b94259c31b060004e9d9016e7dc1657ab0d8757f20eda575415ae2b17",
+    "status": 200,
+    "url": "https://www.ebi.ac.uk/ena/browser/api/xml/SAMN13612105"
+  },
+  {
+    "bytes": 19981,
+    "content_type": "application/json",
+    "file": "ena_runs.json",
+    "final_url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA596086&result=read_run&fields=run_accession,experiment_accession,sample_accession,study_accession,library_name,experiment_title&format=json",
+    "limit_bytes": 5000000,
+    "requested_at_utc": "2026-10-25T15:54:22.877067+00:00",
+    "sha256": "ecd8c53ffbb535405aa3ce9f383a7e6a211d02ded729fc6c804b86736ddfb0be",
+    "status": 200,
+    "url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA596086&result=read_run&fields=run_accession,experiment_accession,sample_accession,study_accession,library_name,experiment_title&format=json"
+  },
+  {
+    "bytes": 5,
+    "content_type": "application/json",
+    "file": "ena_analyses.json",
+    "final_url": "https://www.ebi.ac.uk/ena/portal/api/search?result=analysis&query=study_accession%3D%22PRJNA596086%22&fields=analysis_accession,study_accession&format=json",
+    "limit_bytes": 5000000,
+    "requested_at_utc": "2026-10-25T15:54:22.880553+00:00",
+    "sha256": "2ba33ca0557f1bb5b7ba88d67f9d0093c7185a36ec51fe2b7bd9372d3e001d6d",
+    "status": 200,
+    "url": "https://www.ebi.ac.uk/ena/portal/api/search?result=analysis&query=study_accession%3D%22PRJNA596086%22&fields=analysis_accession,study_accession&format=json"
+  },
+  {
+    "bytes": 1397995,
+    "content_type": "application/zip",
+    "file": "mittal_supplementary_files.response",
+    "final_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6112741/supplementaryFiles",
+    "limit_bytes": 5000000,
+    "requested_at_utc": "2026-10-25T15:54:22.909351+00:00",
+    "sha256": "6bb245ecfede580fa374b8568419ae68ef0c4d51f3cbab77e5fee5c5b6a46fa2",
+    "status": 200,
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6112741/supplementaryFiles"
+  }
+]

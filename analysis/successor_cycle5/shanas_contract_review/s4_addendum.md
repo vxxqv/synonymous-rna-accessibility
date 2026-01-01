@@ -1,0 +1,13 @@
+# Supplementary Data 4: narrow review addendum
+
+Verdict: **the file-access gap is resolved; the authenticated same-protein gate remains unmet.** This does not revise the original review or receipt.
+
+The primary XML explicitly labels media ID `MOESM6` as Supplementary Data 4 and links `41467_2026_76370_MOESM6_ESM.xlsx`. That filename matches the official PMC inventory and the recovered 11971-byte workbook. The selected schema and metadata contain exactly 11 rows and two fields, `promoter construct` and `sequence`. They describe promoter and upstream-intron constructs, not an annotated full reporter/CDS or splice-isoform coding map. Their sequence lengths agree with the metadata summary. One pACTB base is `N`, so the sequences must not collectively be described as unambiguous A/C/G/T.
+
+The supplement improves authenticated context-sequence provenance. It does not supply the missing GFP coding-prefix/junction, coding phase, complete context-specific reporter, terminal stop and isoform translation annotations required by the strict contract. Zero occurrences of one exact GFP N-terminal anchor are only a limited string check; they are not, by themselves, proof that no coding sequence exists or that an alternate sequence could not encode GFP. The decisive conclusion is that these promoter-fragment records do not authenticate the required complete coding object.
+
+Thus synonymous edge and square counts remain not computed, not zero. No phenotype analysis is licensed by successful retrieval. A distinct matched-cassette RNA-context study still needs the frozen endpoint, sample/preparation mapping, family grouping, normalization and coverage/failure contract stated in the original review. No phenotype cells, outcome missingness, model, raw reads, new source retrieval or shared-file edits were used in this addendum.
+
+Provenance note: the original metadata-check receipt records the selector snapshot then observed, while the final source report pins a different finalized selector hash. These are not claimed byte-identical. This review independently checked the retained metadata rather than importing either selector; its metadata, evidence and author-source inputs remained unchanged. No exact historical selector byte delta is certified without both snapshots.
+
+The final source addendum was reviewed at SHA256 `3909a7a0e0fc0eb63199af11a006ff0ef226ecb5165f9cf6418ae19b8755c14d`; its closure receipt is `43f7a0cf6bfc39b629cb90bc6424e32d90c92a18d0415c8b2dcc224ea8232496`. No blocking correction remains. Exact source and review hashes, cross-reference and selected-metadata checks are recorded in `s4_addendum_receipt.json`.

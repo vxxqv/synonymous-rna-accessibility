@@ -1,0 +1,179 @@
+{
+  "code_sha256": "c832d1705719eae913343c0b70df8bd3963ec55e11759b2aabf1e888b56da4c7",
+  "complete_matched_CDS_unit_map_recovered": false,
+  "contract_sha256": "f4ca82e22b9f1aa05ec2c5249f70ab491028ba66e4b41b59eb6c61d033ea424d",
+  "downloaded_bytes": 1454647,
+  "files": [
+    {
+      "bytes": 3537,
+      "file": "build_contract_map.py",
+      "sha256": "c832d1705719eae913343c0b70df8bd3963ec55e11759b2aabf1e888b56da4c7"
+    },
+    {
+      "bytes": 607,
+      "file": "connected_search_receipts.json",
+      "sha256": "16ead397e3f632fc2fbc91b396fc6e972c956ba5f02783a5b72454c08f81e8b4"
+    },
+    {
+      "bytes": 9404,
+      "file": "contract_map.json",
+      "sha256": "f4ca82e22b9f1aa05ec2c5249f70ab491028ba66e4b41b59eb6c61d033ea424d"
+    },
+    {
+      "bytes": 5,
+      "file": "ena_analyses.json",
+      "sha256": "2ba33ca0557f1bb5b7ba88d67f9d0093c7185a36ec51fe2b7bd9372d3e001d6d"
+    },
+    {
+      "bytes": 19981,
+      "file": "ena_runs.json",
+      "sha256": "ecd8c53ffbb535405aa3ce9f383a7e6a211d02ded729fc6c804b86736ddfb0be"
+    },
+    {
+      "bytes": 2306,
+      "file": "ena_study.xml",
+      "sha256": "980ce0792d148864de2bcc1612d7026b24346a4903d1580410c67e96cdb7756e"
+    },
+    {
+      "bytes": 3493,
+      "file": "experiment_retrieval_receipts.json",
+      "sha256": "e2b27f106563996cbc50c0ae5ade8e5c96d80a852ea3948b85d5427a8c934561"
+    },
+    {
+      "bytes": 1584,
+      "file": "exposure_ledger.json",
+      "sha256": "701920dc717747cb9242dfd1278358ea691c1dafbf635114172bd9c443a30f66"
+    },
+    {
+      "bytes": 835,
+      "file": "fractionation_accession_map.csv",
+      "sha256": "97a008bb39fe12264cb5fc2150909f24a737281b08591f52ad0daf90d61c81fe"
+    },
+    {
+      "bytes": 17765,
+      "file": "fractionation_experiment_metadata.json",
+      "sha256": "521982fa5f01c5bb2b13af041e5462fb87050718a091f8198386a9377fe45324"
+    },
+    {
+      "bytes": 3091,
+      "file": "mittal_cloud_inventory.xml",
+      "sha256": "362147189906ca57e37c223d354da402fe9766147142cc43c2924f981b4d3393"
+    },
+    {
+      "bytes": 1100,
+      "file": "mittal_package_inventory.json",
+      "sha256": "a2e73fb2798c76f58b8f12931c04aa12b5d346572b8d54b2d9b043975e1d320b"
+    },
+    {
+      "bytes": 1397995,
+      "file": "mittal_supplementary_files.response",
+      "sha256": "6bb245ecfede580fa374b8568419ae68ef0c4d51f3cbab77e5fee5c5b6a46fa2"
+    },
+    {
+      "bytes": 3910,
+      "file": "mordstein_cloud_inventory.xml",
+      "sha256": "5835eccf2257e59cd0f8ce374673f91c5303e6017eb305b88d9f349cb61bcc21"
+    },
+    {
+      "bytes": 196,
+      "file": "PMC6112741_oa_response.json",
+      "sha256": "1713800a595ed5fe4e09d730492fdc2789e8ccd97c8358a44e5b96d455de80f1"
+    },
+    {
+      "bytes": 196,
+      "file": "PMC7181179_oa_response.json",
+      "sha256": "70b6955e82774977e36908d68a4ba13bda479b0854ad66f0b4d63a105fb92651"
+    },
+    {
+      "bytes": 1725,
+      "file": "primary_availability_extract.json",
+      "sha256": "23883df5ccac114945319115204e20064dd1849651a20a224be6d14f31c4cd9a"
+    },
+    {
+      "bytes": 6828,
+      "file": "prior_hash_check.json",
+      "sha256": "9f597f7554930cd2ae6a11c926fca4841c0dc3444367a2ac7f264f936d8547ab"
+    },
+    {
+      "bytes": 7154,
+      "file": "report.md",
+      "sha256": "07c27d18eecc6f90fc9a37cc664e9ebde1528079b935648dba67156f272f78dc"
+    },
+    {
+      "bytes": 4193,
+      "file": "retrieval_receipts.json",
+      "sha256": "f7985743c6be82c3b64edfdf1efafea6f72dc963e90737b673e53ea1768f6bbc"
+    },
+    {
+      "bytes": 2586,
+      "file": "retrieve_metadata.py",
+      "sha256": "8a09191ea772db33272c6c26e762b4c9aa62aa71cdfc6f8a85dcd55c6b4a07e9"
+    },
+    {
+      "bytes": 3437,
+      "file": "SAMN13612105.xml",
+      "sha256": "2cfb015b94259c31b060004e9d9016e7dc1657ab0d8757f20eda575415ae2b17"
+    },
+    {
+      "bytes": 3422,
+      "file": "SAMN13612106.xml",
+      "sha256": "01342d60017071c6330c79e1eb04797cba46e5a6134c2ac9eb6d15e712cbea7a"
+    },
+    {
+      "bytes": 2562,
+      "file": "SRX7391373.xml",
+      "sha256": "0f82257d96719e9f335d96567405f4fa107020b010e4f7000376c46102c87b75"
+    },
+    {
+      "bytes": 2562,
+      "file": "SRX7391374.xml",
+      "sha256": "f0c7d200d67b05c86651eeb01625aac52dc54798296e9d7d56a4953ae968a0a0"
+    },
+    {
+      "bytes": 2567,
+      "file": "SRX7391375.xml",
+      "sha256": "63176689699622b699fe7bfecb87797f0ed4d376f11c1e7bf6d2fbb686985f75"
+    },
+    {
+      "bytes": 2567,
+      "file": "SRX7391400.xml",
+      "sha256": "a3cad3a5fd373c32b0eb957110da0ad8ffbd7c4990d6809441eb631bddcb72b6"
+    },
+    {
+      "bytes": 2558,
+      "file": "SRX7391401.xml",
+      "sha256": "a065d06f0b33b1b9458949b75eecd1d2dbe7f125ffd669d671cee762bae54db3"
+    },
+    {
+      "bytes": 2558,
+      "file": "SRX7391402.xml",
+      "sha256": "f34b39f38adb14865e8179fb90de510aa0cb29776a622d5ac6ea426dcfeda45e"
+    },
+    {
+      "bytes": 2563,
+      "file": "SRX7391403.xml",
+      "sha256": "c2d2f0b58eac21c9c7918c52cd39f4d5c9dac6f9866a4918fb3acacf65c9d0a7"
+    },
+    {
+      "bytes": 2563,
+      "file": "SRX7391404.xml",
+      "sha256": "c826f94e69ceb18fd7229d33f91aa24e02eff30ddf64ac44d03776b7affa1a78"
+    }
+  ],
+  "incidental_published_search_summary_exposure": true,
+  "independent_preparation_pairing_recovered": false,
+  "new_bounded_fetches": 16,
+  "newly_closed_gap": "SAMN13612106 structured metadata confirms HeLa nuclear intronless sample; all8 CM6 experiments mapped",
+  "no_external_publication_or_author_contact": true,
+  "no_repository_or_manuscript_edits": true,
+  "phenotype_row_values_read": false,
+  "prior_files_unchanged_after_followup": 31,
+  "prior_manifest_sha256": "62551c55ed5d28d56797f120447797e470dd67a3e0940648cdb779f5cd618de8",
+  "protected_publisher_retry": false,
+  "raw_reads_downloaded": false,
+  "report_sha256": "07c27d18eecc6f90fc9a37cc664e9ebde1528079b935648dba67156f272f78dc",
+  "skill_legacy_endpoint_failures": 2,
+  "source_discrepancy_retained": "217 nominal library vs219 source-category sum; HEK293 experiment titles vsHeLa structured sample fields",
+  "status": "NO_GO_EXACT_MATCHED_UNIT_CONTRACT_UNRESOLVED",
+  "successful_metadata_package_fetches": 16
+}

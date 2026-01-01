@@ -1,0 +1,85 @@
+{
+  "CSV_XLSX_exact_field_difference_counts": {
+    "exonend in sequence": 0,
+    "exonlength": 0,
+    "exonstart in sequence": 0,
+    "library index": 0,
+    "sequence": 0,
+    "subset": 0
+  },
+  "assay_coverage_or_missingness": "Not accessed. Design identity is not measured context intersection.",
+  "gene_name_differences_after_empty_normalization": 0,
+  "gene_name_empty_representation_differences": 773,
+  "graph_count_reason": "NOT COMPUTED: full coding phase, terminating stop and isoform protein consequence not authenticated. Null does not mean zero.",
+  "intended_isoform_coordinate_map": {
+    "acceptor_preceding_dinucleotide": "AG",
+    "amplicon_formula": "sequence[:30] + const1 + sequence[45:] + const2",
+    "amplicon_length": 1316,
+    "barcode_reference_interval": [
+      18,
+      30
+    ],
+    "canonical_included_amplicon": "ref[:88] + ref[exonstart+273:435] + ref[1214:]",
+    "canonical_skipped_amplicon": "ref[:88] + ref[1214:]",
+    "cassette_exon_end": 435,
+    "cassette_exon_start": "exonstart in sequence + 273",
+    "const1_length": 288,
+    "const2_length": 833,
+    "constant_downstream_acceptor": 1214,
+    "constant_upstream_donor": 88,
+    "coordinate_convention": "0-based half-open source slices; same convention checked in notebook source.",
+    "do_not_infer": "Unused const0/tot_seq and legacy reporter tail are not proof of the 2026 promoter-specific full coding construct or terminating stop.",
+    "full_ORF_status": "not_authenticated; amplication/mapping reference is not complete coding sequence",
+    "source_to_reference_offset_after_library45": 273,
+    "unused_legacy_const0_length": 717,
+    "upstream_donor_dinucleotide": "GT",
+    "variable_reference_interval": [
+      318,
+      465
+    ]
+  },
+  "original_CV": "StratifiedKFold(n_splits=5,shuffle=True,random_state=42), no gene/context grouping passed at the inspected calls.",
+  "protected_fields": "No assay phenotype, PSI, expression, outcome missingness or count data read.",
+  "sequence_metadata_counts": {
+    "cassette_filtered_gene_multiplicities": {
+      "2": 132
+    },
+    "cassette_filtered_rows": 264,
+    "cassette_filtered_unique_genes": 132,
+    "cassette_filtered_unique_variable_sequences": 132,
+    "exon_end_in_library_sequence_counts": {
+      "162": 9608
+    },
+    "exon_length_max": 89,
+    "exon_length_min": 2,
+    "exon_length_mod3_counts": {
+      "2": 9608
+    },
+    "nonempty_gene_labels": 134,
+    "rows": 9608,
+    "sequence_lengths": {
+      "210": 9608
+    },
+    "subset_counts": {
+      "cassetteSFRosenberg": 430,
+      "cassetteSFcombvar": 576,
+      "cassetteSFvar": 1806,
+      "cassette_comb_with_constitutive": 1055,
+      "cassette_filtered": 264,
+      "cassettecomb": 773,
+      "cassetteconstvar": 359,
+      "cassettelengthvar": 368,
+      "cassettenuc": 1989,
+      "cassettesecvar": 584,
+      "cassetteswitchvar": 1404
+    },
+    "unique_barcodes_18_30": 9608,
+    "unique_full210_sequences": 9608,
+    "unique_library_IDs": 9608,
+    "unique_variable147_sequences_45_192": 8924,
+    "unlabeled_gene_rows": 773
+  },
+  "synonymous_edge_count": null,
+  "synonymous_square_count": null,
+  "verdict": "NO-GO for authenticated full-CDS/synonymous accessibility; conditional metadata feasibility for matched-cassette RNA-context transfer only."
+}

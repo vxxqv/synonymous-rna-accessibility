@@ -1,0 +1,9 @@
+{
+  "url": "https://static-content.springer-cdn.com/esm/art%3A10.1038%2Fs41467-026-76370-1/MediaObjects/41467_2026_76370_MOESM6_ESM.xlsx",
+  "status": "no_HTTP_response",
+  "exception": "requests.exceptions.ConnectionError caused by urllib3 NameResolutionError / socket.gaierror [Errno11001] getaddrinfo failed",
+  "attempts": 1,
+  "body_received": false,
+  "authorization_or_permission_denial": false,
+  "interpretation": "Technical name resolution failure, not evidence that the identified supplement is absent. No retry."
+}

@@ -1,0 +1,18 @@
+[
+  {
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13534650/fullTextXML",
+    "status": 200,
+    "bytes": 220596,
+    "final_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13534650/fullTextXML",
+    "article_title": "Promoter identity shapes splicing outcomes and fidelity",
+    "sha256": "9d05575f8002c5478ded9cba8677500d0e85476a2dc3d73435be6f9716444d20"
+  },
+  {
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12501145/fullTextXML",
+    "status": 200,
+    "bytes": 218848,
+    "final_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12501145/fullTextXML",
+    "article_title": "Distinguishing direct interactions from global epistasis using rank statistics",
+    "sha256": "15a5be1e9e849989cd2bd6d3dbef460362f5aee4aff91cc9dd282acfc722d149"
+  }
+]

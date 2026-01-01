@@ -1,0 +1,12 @@
+{
+  "url": "https://raw.githubusercontent.com/martinmikl/Shanas2026_PromoterSplicing/main/FiguresShanas2026.ipynb",
+  "status": 200,
+  "bytes_transferred": 6562081,
+  "notebook_sha256": "f139c91791ac524cffcac558abfee7c8d8563691abd01ea1ed0a316a4bfec425",
+  "git_blob_sha1": "2100269266db24477ca212ba516ae957276a5e95",
+  "cells": 248,
+  "code_cells": 230,
+  "retained_file": "author_code/notebook_code_only.py",
+  "retained_sha256": "d58dca5d2e977693f705881362f8388a626a7d9e73404e3be8aa5f1686bb0021",
+  "selection": "Lexical skipping of all output values and metadata; JSON-decoded only cell_type and source. Full notebook not saved. No author execution."
+}

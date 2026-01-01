@@ -1,0 +1,56 @@
+{
+  "verdict": "AGREE_STRICT_FULL_CDS_NO_GO_CONDITIONAL_CASSETTE_SCOPE_ONLY",
+  "blocking_corrections_to_final_source_report": [],
+  "phenotype_analysis_authorized": false,
+  "independently_verified_metadata": true,
+  "numeric_phenotype_or_missingness_fields_read": false,
+  "author_code_executed": false,
+  "raw_reads_or_notebook_outputs_read": false,
+  "graph_counts": {
+    "synonymous_edges": null,
+    "synonymous_squares": null,
+    "reason": "not authenticated or computed; not zero"
+  },
+  "highest_value_next_requirement": "An explicit distinct matched-cassette endpoint and sample/construct crosswalk, preparation hierarchy, related-sequence grouping, training-defined labels/normalization, comparators and coverage/failure rules before any outcomes. Strict synonymy instead requires complete authenticated context-specific construct and isoform-CDS map.",
+  "final_source_pins": {
+    "report.md": "5c367415cab5c3278bf168668e08c473ca07d43cba6d1b0ce30da8f9be20c1da",
+    "source_manifest.json": "ea641f2606d2983211284716d7c3b12d16612c63c2bd5dac4b609a063dbe45e4",
+    "evidence.json": "18a72c42bc4b380dc4079ad9538803010dd343a0156b87e7a73a93d583303d41",
+    "selective_readers.py": "1878561a5be88adcbcc42ee7f8921f2b6fda2fe99d276f216321736da85d193d",
+    "synthetic_selection_receipt.json": "7c3ae40c5006f0cc4447f25c1be2042e288914186e381b31b0364b252608f529"
+  },
+  "primary_source_references": [
+    {
+      "path": "work\\joint_function_cycle5\\successor_methods_review\\shanas2026.xml",
+      "sha256": "9d05575f8002c5478ded9cba8677500d0e85476a2dc3d73435be6f9716444d20",
+      "role": "Existing authenticated primary/documentation source, reused read-only"
+    },
+    {
+      "path": "work\\joint_function_cycle5\\successor_methods_review\\E-MTAB-16553.idf.txt",
+      "sha256": "4e2110e3028f789a9c39403d0e22270f87635db9451fcbb587ee230d2f9e8a85",
+      "role": "Existing authenticated primary/documentation source, reused read-only"
+    },
+    {
+      "path": "work\\joint_function_cycle5\\successor_methods_review\\E-MTAB-16553.sdrf.txt",
+      "sha256": "a2e2163fe46b3f0f948197783e2603bacff1928e6bc083d9195bf1798647480d",
+      "role": "Existing authenticated primary/documentation source, reused read-only"
+    },
+    {
+      "path": "work\\joint_function_cycle5\\successor_methods_review\\arrayexpress_E-MTAB-16553.json",
+      "sha256": "3222771c2ddc42b2fb25fd5a85bb13b476dd9ce314f94c47cf47a6f7d2ec4c1a",
+      "role": "Existing authenticated primary/documentation source, reused read-only"
+    }
+  ],
+  "metadata_check_sha256": "0ca4f4d5b88470181bd44a8e098d494f07542c9ab94b532bd45fabb83439d753",
+  "check_source_sha256": "7aec347280c8703f9ab7fde8f5aaf719ec3181365f2720fd6b8922450087f2ae",
+  "review_sha256": "fdd164d933c691dc542bf1510525428daad1d2b2ad08ad2c74ed967c6aa61340",
+  "selector_provenance_note": "Initial metadata snapshot recorded77cc0f...; source owner finalized187856... before report lock. The independent identity/count check does not import either selector. All selected metadata, evidence and original author source hashes stayed identical.",
+  "limits": [
+    "Metadata-only retrospective applicability challenge with inherited project context; not external blinded review",
+    "No measured context intersection, coverage, outcome availability, model performance or biological uncertainty estimated",
+    "Exact cassette identity does not establish identical full transcripts, proteins or independent biological units"
+  ],
+  "shared_files_edited": false,
+  "new_source_retrieval": false,
+  "external_actions": false
+}

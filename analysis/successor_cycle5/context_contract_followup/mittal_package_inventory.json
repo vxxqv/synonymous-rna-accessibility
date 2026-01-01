@@ -1,0 +1,56 @@
+[
+  {
+    "name": "pnas.1810022115.sapp.pdf",
+    "bytes": 1267104,
+    "compressed": 1106231,
+    "crc": 2291144701
+  },
+  {
+    "name": "pnas.1810022115fig02.gif",
+    "bytes": 4144,
+    "compressed": 4149,
+    "crc": 1595222673
+  },
+  {
+    "name": "pnas.1810022115fig03.jpg",
+    "bytes": 55269,
+    "compressed": 53931,
+    "crc": 2696564616
+  },
+  {
+    "name": "pnas.1810022115fig01.jpg",
+    "bytes": 49381,
+    "compressed": 48457,
+    "crc": 3030435631
+  },
+  {
+    "name": "pnas.1810022115fig02.jpg",
+    "bytes": 36527,
+    "compressed": 35098,
+    "crc": 457471374
+  },
+  {
+    "name": "pnas.1810022115fig03.gif",
+    "bytes": 4399,
+    "compressed": 4404,
+    "crc": 3809388309
+  },
+  {
+    "name": "pnas.1810022115fig01.gif",
+    "bytes": 4980,
+    "compressed": 4921,
+    "crc": 2918709189
+  },
+  {
+    "name": "pnas.1810022115fig04.gif",
+    "bytes": 5430,
+    "compressed": 5402,
+    "crc": 2735343043
+  },
+  {
+    "name": "pnas.1810022115fig04.jpg",
+    "bytes": 146207,
+    "compressed": 134120,
+    "crc": 2992190103
+  }
+]

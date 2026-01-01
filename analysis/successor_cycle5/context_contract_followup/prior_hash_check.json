@@ -1,0 +1,161 @@
+{
+  "prior_manifest_sha256": "62551c55ed5d28d56797f120447797e470dd67a3e0940648cdb779f5cd618de8",
+  "files_checked": [
+    {
+      "path": "work\\joint_function_cycle5\\mordstein_eligibility\\biosample_metadata_receipts.json",
+      "sha256": "f597c6a9b70d639e17147d3b6e00aec1867d8579c58cef37f54fd5d2ec9c9c56",
+      "bytes": 3265
+    },
+    {
+      "path": "work\\joint_function_cycle5\\mordstein_eligibility\\decision.json",
+      "sha256": "fe49236977f6b552a03d3ca64cf59d7e1306eb44dac106f07c827cb20970254d",
+      "bytes": 732
+    },
+    {
+      "path": "work\\joint_function_cycle5\\mordstein_eligibility\\design_metadata_receipts.json",
+      "sha256": "303f7aaae28f6efe0ba04fd81263c27b37acf55e9ea6414f1e3884794fed70e1",
+      "bytes": 510
+    },
+    {
+      "path": "work\\joint_function_cycle5\\mordstein_eligibility\\design_retrieval_receipts.json",
+      "sha256": "90acad2876e7919c8fd8ba38d327791735a234595429d933e307d892806642dc",
+      "bytes": 508
+    },
+    {
+      "path": "work\\joint_function_cycle5\\mordstein_eligibility\\ena_sample_run_map.json",
+      "sha256": "16b84e796e5321b22ed78315fda1d36a39ffa7ff4180f20b165f9a8a8f77cde1",
+      "bytes": 9550
+    },
+    {
+      "path": "work\\joint_function_cycle5\\mordstein_eligibility\\exposure_ledger.json",
+      "sha256": "2170463b982d116457b72b06a30d64ce8af50286d0056052db766df5dfdd863e",
+      "bytes": 1652
+    },
+    {
+      "path": "work\\joint_function_cycle5\\mordstein_eligibility\\input_pins.json",
+      "sha256": "54085d17dd86765ef22ba651fe17420c7fbfc8735a70618c817988244273ab40",
+      "bytes": 265
+    },
+    {
+      "path": "work\\joint_function_cycle5\\mordstein_eligibility\\kudla2009_metadata.json",
+      "sha256": "c2133b5b60c11b33bbb6fc845e2df191f9a8fe01baf83f25d9704715c5befebc",
+      "bytes": 990
+    },
+    {
+      "path": "work\\joint_function_cycle5\\mordstein_eligibility\\methods_selected.json",
+      "sha256": "14fcc71bb22501edb17541d388904c7d3cac314de7ba80166ce6df473fd5d57c",
+      "bytes": 24673
+    },
+    {
+      "path": "work\\joint_function_cycle5\\mordstein_eligibility\\mittal.xml",
+      "sha256": "cf3687c86cd2f92f02217c7f846bb065eebe09aa6f748c81d94049008d321e79",
+      "bytes": 70930
+    },
+    {
+      "path": "work\\joint_function_cycle5\\mordstein_eligibility\\mittal2018_metadata.json",
+      "sha256": "de170ca7067fe86fb5729aca5c05a5cff9c8ef39c45dc262193a7503fb4935e3",
+      "bytes": 1011
+    },
+    {
+      "path": "work\\joint_function_cycle5\\mordstein_eligibility\\mittal_attachment_metadata.json",
+      "sha256": "8c3a7ae6b2ece4ae2becc8df887bf4c07fe094aacebc29f8c52ff5dfd21ae89d",
+      "bytes": 596
+    },
+    {
+      "path": "work\\joint_function_cycle5\\mordstein_eligibility\\mittal_dataset_retrieval.json",
+      "sha256": "bfdf6f416026ece1da341f3553afb7b81bf2ece4c3a4f439145e0c6617d47da3",
+      "bytes": 403
+    },
+    {
+      "path": "work\\joint_function_cycle5\\mordstein_eligibility\\mittal_dataset_retrieval_body.bin",
+      "sha256": "55d0650a0fdafefc27b8be230b206723f32785f44068a443ef3c058752cd38de",
+      "bytes": 5730
+    },
+    {
+      "path": "work\\joint_function_cycle5\\mordstein_eligibility\\mittal_heading_inventory.json",
+      "sha256": "d4217cfb78ce486cd78af9c93e75c879fb1a643a88fb8ed65389ac6f1ad02791",
+      "bytes": 6318
+    },
+    {
+      "path": "work\\joint_function_cycle5\\mordstein_eligibility\\mittal_inventory.xml",
+      "sha256": "362147189906ca57e37c223d354da402fe9766147142cc43c2924f981b4d3393",
+      "bytes": 3091
+    },
+    {
+      "path": "work\\joint_function_cycle5\\mordstein_eligibility\\mittal_sapp.pdf",
+      "sha256": "0038b7f6bc445785e61bf25febdbfd1d92875aa9007d87fa92ffdbfa9613f277",
+      "bytes": 1267104
+    },
+    {
+      "path": "work\\joint_function_cycle5\\mordstein_eligibility\\mittal_supp_receipt.json",
+      "sha256": "20ef52b212bec13497ab463b63e865cf7044974433703020f0135993103a1716",
+      "bytes": 215
+    },
+    {
+      "path": "work\\joint_function_cycle5\\mordstein_eligibility\\mmc1.pdf",
+      "sha256": "32224be30e7839f3fc714651e0a0acd3049ff5e8f09018163f227a66bd2cf418",
+      "bytes": 2819897
+    },
+    {
+      "path": "work\\joint_function_cycle5\\mordstein_eligibility\\pmc_cloud_inventory.xml",
+      "sha256": "5835eccf2257e59cd0f8ce374673f91c5303e6017eb305b88d9f349cb61bcc21",
+      "bytes": 3910
+    },
+    {
+      "path": "work\\joint_function_cycle5\\mordstein_eligibility\\primer_table_page12.txt",
+      "sha256": "266e6f18aa2ac4c88456be7ef1888f12db9c82a5e9be01a7b0debb3afe3521dd",
+      "bytes": 1581
+    },
+    {
+      "path": "work\\joint_function_cycle5\\mordstein_eligibility\\primer_table_page13.txt",
+      "sha256": "9d91b80fb0f71653b08036ad992128797d775b9d1b0c25ee85923a8f364b5a25",
+      "bytes": 529
+    },
+    {
+      "path": "work\\joint_function_cycle5\\mordstein_eligibility\\retrieval1.json",
+      "sha256": "d0454d2df57fbef7dc709094771f90f0071b12712efbc0b316f6483d014669fa",
+      "bytes": 205
+    },
+    {
+      "path": "work\\joint_function_cycle5\\mordstein_eligibility\\retrieval2.json",
+      "sha256": "a0353851a1b5134b42f8d95d4fd8330b913b6052a55db544b83ee480b01d0ea2",
+      "bytes": 241
+    },
+    {
+      "path": "work\\joint_function_cycle5\\mordstein_eligibility\\review.md",
+      "sha256": "97a32eb1027857a679756e9f5fd3a420d54d6a5ea04a960db44d3f17ed4fac28",
+      "bytes": 13564
+    },
+    {
+      "path": "work\\joint_function_cycle5\\mordstein_eligibility\\SAMN13612096.xml",
+      "sha256": "613aa65a6391a9acccf7003bf8d47d6d7da2673270a72a46f1674d05eea237b7",
+      "bytes": 3386
+    },
+    {
+      "path": "work\\joint_function_cycle5\\mordstein_eligibility\\SAMN13612104.xml",
+      "sha256": "755b19df4711cf8960c6a829daebb64c05c76717f587c80de70261431245883d",
+      "bytes": 3434
+    },
+    {
+      "path": "work\\joint_function_cycle5\\mordstein_eligibility\\SAMN13612107.xml",
+      "sha256": "b175b6019962f06c87597c5a3ebd5ed8315aff5111d7fd801d46105dfddfc42d",
+      "bytes": 3425
+    },
+    {
+      "path": "work\\joint_function_cycle5\\mordstein_eligibility\\SAMN13612108.xml",
+      "sha256": "86eaee9d387b8b5fcab71c8fa6bc85bd639eb97ed578ae6a74167a993f26cfe4",
+      "bytes": 3389
+    },
+    {
+      "path": "work\\joint_function_cycle5\\mordstein_eligibility\\supplement_heading_inventory.json",
+      "sha256": "9f7c043cfeab03b80e24b7ab70b0a7e653edf94737ce6df3a6c270017dc732fd",
+      "bytes": 1745
+    },
+    {
+      "path": "work\\joint_function_cycle5\\mordstein_eligibility\\web_source_receipts.json",
+      "sha256": "e0d5ccaec1b717802a0751add4b10fe12f6880942a06b06e06dcadaf69d57f87",
+      "bytes": 906
+    }
+  ],
+  "primary_xml_sha256": "225ebd71010836d6e4053cb8d28f8d08d4a91ac111f26f98cccff49bd9c007a9"
+}

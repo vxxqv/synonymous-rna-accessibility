@@ -1,0 +1,26 @@
+{
+  "status": "exact_S4_recovered_coding_gate_unchanged",
+  "retrieval_scope": "One official inventory prefix followed by one exact supported workbook GET; preceding installed older official OA inventory endpoint404 retained.",
+  "source_workbook_sha256": "9acf21d4b939451248dbebb911fc3769228a079ea64da6404db49779eeac316e",
+  "source_workbook_md5": "29902e2f98b9db0ef88781246ee32aa7",
+  "source_bytes": 11971,
+  "schema": [
+    "promoter construct",
+    "sequence"
+  ],
+  "rows": 11,
+  "ambiguous_N": {
+    "pACTB": 1
+  },
+  "no_source_sequence_changed": true,
+  "no_phenotype_or_missingness_access": true,
+  "no_graphs_models_or_interventions": true,
+  "coding_gate_effect": "Public access gap resolved, no full CDS/isoform annotation supplied. Same-protein NO-GO unchanged; graph counts remain not computed.",
+  "frozen_parent_artifacts_unchanged": {
+    "report.md": "5c367415cab5c3278bf168668e08c473ca07d43cba6d1b0ce30da8f9be20c1da",
+    "evidence.json": "18a72c42bc4b380dc4079ad9538803010dd343a0156b87e7a73a93d583303d41",
+    "selective_readers.py": "1878561a5be88adcbcc42ee7f8921f2b6fda2fe99d276f216321736da85d193d"
+  },
+  "selected_reader_sha256": "1878561a5be88adcbcc42ee7f8921f2b6fda2fe99d276f216321736da85d193d",
+  "phenotype_scope": "Only existing promoter/construct sequences and schema, no values from any assay table."
+}

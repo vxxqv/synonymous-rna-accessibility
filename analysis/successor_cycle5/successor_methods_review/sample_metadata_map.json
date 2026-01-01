@@ -1,0 +1,661 @@
+{
+  "bulk_RNAseq_sources": 10,
+  "distinct_source_names": 50,
+  "file_rows": 100,
+  "sample_map": {
+    "RNAseq(min. pCMV)-rep1": {
+      "file_rows": 2,
+      "metadata": {
+        "Characteristics[cell line]": "HEK293",
+        "Characteristics[genetic modification]": "3' end RNA sequencing",
+        "Characteristics[organism]": "Homo sapiens",
+        "Characteristics[replicate]": "1",
+        "Comment[ENA_SAMPLE]": "ERS30471025",
+        "Derived Array Data File": "RNAseq_counts.csv",
+        "Factor Value[stimulus]": "",
+        "Source Name": "RNAseq(min. pCMV)-rep1"
+      }
+    },
+    "RNAseq(min. pCMV)-rep2": {
+      "file_rows": 2,
+      "metadata": {
+        "Characteristics[cell line]": "HEK293",
+        "Characteristics[genetic modification]": "3' end RNA sequencing",
+        "Characteristics[organism]": "Homo sapiens",
+        "Characteristics[replicate]": "2",
+        "Comment[ENA_SAMPLE]": "ERS30471026",
+        "Derived Array Data File": "RNAseq_counts.csv",
+        "Factor Value[stimulus]": "",
+        "Source Name": "RNAseq(min. pCMV)-rep2"
+      }
+    },
+    "RNAseq(pACTB)-rep1": {
+      "file_rows": 2,
+      "metadata": {
+        "Characteristics[cell line]": "HEK293",
+        "Characteristics[genetic modification]": "3' end RNA sequencing",
+        "Characteristics[organism]": "Homo sapiens",
+        "Characteristics[replicate]": "1",
+        "Comment[ENA_SAMPLE]": "ERS30471027",
+        "Derived Array Data File": "RNAseq_counts.csv",
+        "Factor Value[stimulus]": "",
+        "Source Name": "RNAseq(pACTB)-rep1"
+      }
+    },
+    "RNAseq(pACTB)-rep2": {
+      "file_rows": 2,
+      "metadata": {
+        "Characteristics[cell line]": "HEK293",
+        "Characteristics[genetic modification]": "3' end RNA sequencing",
+        "Characteristics[organism]": "Homo sapiens",
+        "Characteristics[replicate]": "2",
+        "Comment[ENA_SAMPLE]": "ERS30471028",
+        "Derived Array Data File": "RNAseq_counts.csv",
+        "Factor Value[stimulus]": "",
+        "Source Name": "RNAseq(pACTB)-rep2"
+      }
+    },
+    "RNAseq(pCMV-full)-rep1": {
+      "file_rows": 2,
+      "metadata": {
+        "Characteristics[cell line]": "HEK293",
+        "Characteristics[genetic modification]": "3' end RNA sequencing",
+        "Characteristics[organism]": "Homo sapiens",
+        "Characteristics[replicate]": "1",
+        "Comment[ENA_SAMPLE]": "ERS30471029",
+        "Derived Array Data File": "RNAseq_counts.csv",
+        "Factor Value[stimulus]": "",
+        "Source Name": "RNAseq(pCMV-full)-rep1"
+      }
+    },
+    "RNAseq(pCMV-full)-rep2": {
+      "file_rows": 2,
+      "metadata": {
+        "Characteristics[cell line]": "HEK293",
+        "Characteristics[genetic modification]": "3' end RNA sequencing",
+        "Characteristics[organism]": "Homo sapiens",
+        "Characteristics[replicate]": "2",
+        "Comment[ENA_SAMPLE]": "ERS30471030",
+        "Derived Array Data File": "RNAseq_counts.csv",
+        "Factor Value[stimulus]": "",
+        "Source Name": "RNAseq(pCMV-full)-rep2"
+      }
+    },
+    "RNAseq(pCMV-short)-rep1": {
+      "file_rows": 2,
+      "metadata": {
+        "Characteristics[cell line]": "HEK293",
+        "Characteristics[genetic modification]": "3' end RNA sequencing",
+        "Characteristics[organism]": "Homo sapiens",
+        "Characteristics[replicate]": "1",
+        "Comment[ENA_SAMPLE]": "ERS30471031",
+        "Derived Array Data File": "RNAseq_counts.csv",
+        "Factor Value[stimulus]": "",
+        "Source Name": "RNAseq(pCMV-short)-rep1"
+      }
+    },
+    "RNAseq(pCMV-short)-rep2": {
+      "file_rows": 2,
+      "metadata": {
+        "Characteristics[cell line]": "HEK293",
+        "Characteristics[genetic modification]": "3' end RNA sequencing",
+        "Characteristics[organism]": "Homo sapiens",
+        "Characteristics[replicate]": "2",
+        "Comment[ENA_SAMPLE]": "ERS30471032",
+        "Derived Array Data File": "RNAseq_counts.csv",
+        "Factor Value[stimulus]": "",
+        "Source Name": "RNAseq(pCMV-short)-rep2"
+      }
+    },
+    "RNAseq(pEF1a)-rep1": {
+      "file_rows": 2,
+      "metadata": {
+        "Characteristics[cell line]": "HEK293",
+        "Characteristics[genetic modification]": "3' end RNA sequencing",
+        "Characteristics[organism]": "Homo sapiens",
+        "Characteristics[replicate]": "1",
+        "Comment[ENA_SAMPLE]": "ERS30471033",
+        "Derived Array Data File": "RNAseq_counts.csv",
+        "Factor Value[stimulus]": "",
+        "Source Name": "RNAseq(pEF1a)-rep1"
+      }
+    },
+    "RNAseq(pEF1a)-rep2": {
+      "file_rows": 2,
+      "metadata": {
+        "Characteristics[cell line]": "HEK293",
+        "Characteristics[genetic modification]": "3' end RNA sequencing",
+        "Characteristics[organism]": "Homo sapiens",
+        "Characteristics[replicate]": "2",
+        "Comment[ENA_SAMPLE]": "ERS30471034",
+        "Derived Array Data File": "RNAseq_counts.csv",
+        "Factor Value[stimulus]": "",
+        "Source Name": "RNAseq(pEF1a)-rep2"
+      }
+    },
+    "pm425_ActD High": {
+      "file_rows": 2,
+      "metadata": {
+        "Characteristics[cell line]": "HEK293",
+        "Characteristics[genetic modification]": "pEF1a promoter driving splicing library",
+        "Characteristics[organism]": "Homo sapiens",
+        "Characteristics[replicate]": "1",
+        "Comment[ENA_SAMPLE]": "ERS28513039",
+        "Derived Array Data File": "cedrugs.pm425ActDHigh.2025-07-16.csv",
+        "Factor Value[stimulus]": "actinomycin D",
+        "Source Name": "pm425_ActD High"
+      }
+    },
+    "pm425_ActD Low": {
+      "file_rows": 2,
+      "metadata": {
+        "Characteristics[cell line]": "HEK293",
+        "Characteristics[genetic modification]": "pEF1a promoter driving splicing library",
+        "Characteristics[organism]": "Homo sapiens",
+        "Characteristics[replicate]": "1",
+        "Comment[ENA_SAMPLE]": "ERS28513040",
+        "Derived Array Data File": "cedrugs.pm425ActDLow.2025-07-16.csv",
+        "Factor Value[stimulus]": "actinomycin D",
+        "Source Name": "pm425_ActD Low"
+      }
+    },
+    "pm425_Amanitin High": {
+      "file_rows": 2,
+      "metadata": {
+        "Characteristics[cell line]": "HEK293",
+        "Characteristics[genetic modification]": "pEF1a promoter driving splicing library",
+        "Characteristics[organism]": "Homo sapiens",
+        "Characteristics[replicate]": "1",
+        "Comment[ENA_SAMPLE]": "ERS28513041",
+        "Derived Array Data File": "cedrugs.pm425AmanitinHigh.2025-07-17.csv",
+        "Factor Value[stimulus]": "alpha-amanitin",
+        "Source Name": "pm425_Amanitin High"
+      }
+    },
+    "pm425_Amanitin Low": {
+      "file_rows": 2,
+      "metadata": {
+        "Characteristics[cell line]": "HEK293",
+        "Characteristics[genetic modification]": "pEF1a promoter driving splicing library",
+        "Characteristics[organism]": "Homo sapiens",
+        "Characteristics[replicate]": "1",
+        "Comment[ENA_SAMPLE]": "ERS28513042",
+        "Derived Array Data File": "cedrugs.pm425AmanitinLow.2025-07-17.csv",
+        "Factor Value[stimulus]": "alpha-amanitin",
+        "Source Name": "pm425_Amanitin Low"
+      }
+    },
+    "pm425_CPT High": {
+      "file_rows": 2,
+      "metadata": {
+        "Characteristics[cell line]": "HEK293",
+        "Characteristics[genetic modification]": "pEF1a promoter driving splicing library",
+        "Characteristics[organism]": "Homo sapiens",
+        "Characteristics[replicate]": "1",
+        "Comment[ENA_SAMPLE]": "ERS28513045",
+        "Derived Array Data File": "cedrugs.pm425CPTHigh.2025-07-20.csv",
+        "Factor Value[stimulus]": "camptothecin",
+        "Source Name": "pm425_CPT High"
+      }
+    },
+    "pm425_CPT Low": {
+      "file_rows": 2,
+      "metadata": {
+        "Characteristics[cell line]": "HEK293",
+        "Characteristics[genetic modification]": "pEF1a promoter driving splicing library",
+        "Characteristics[organism]": "Homo sapiens",
+        "Characteristics[replicate]": "1",
+        "Comment[ENA_SAMPLE]": "ERS28513046",
+        "Derived Array Data File": "cedrugs.pm425CPTLow.2025-07-19.csv",
+        "Factor Value[stimulus]": "camptothecin",
+        "Source Name": "pm425_CPT Low"
+      }
+    },
+    "pm425_Doxorubicin High": {
+      "file_rows": 2,
+      "metadata": {
+        "Characteristics[cell line]": "HEK293",
+        "Characteristics[genetic modification]": "pEF1a promoter driving splicing library",
+        "Characteristics[organism]": "Homo sapiens",
+        "Characteristics[replicate]": "1",
+        "Comment[ENA_SAMPLE]": "ERS28513047",
+        "Derived Array Data File": "cedrugs.pm425DoxorubicinHigh.2025-07-22.csv",
+        "Factor Value[stimulus]": "doxorubicin",
+        "Source Name": "pm425_Doxorubicin High"
+      }
+    },
+    "pm425_Doxorubicin Low": {
+      "file_rows": 2,
+      "metadata": {
+        "Characteristics[cell line]": "HEK293",
+        "Characteristics[genetic modification]": "pEF1a promoter driving splicing library",
+        "Characteristics[organism]": "Homo sapiens",
+        "Characteristics[replicate]": "1",
+        "Comment[ENA_SAMPLE]": "ERS28513048",
+        "Derived Array Data File": "cedrugs.pm425DoxorubicinLow.2025-07-22.csv",
+        "Factor Value[stimulus]": "doxorubicin",
+        "Source Name": "pm425_Doxorubicin Low"
+      }
+    },
+    "pm425_control": {
+      "file_rows": 2,
+      "metadata": {
+        "Characteristics[cell line]": "HEK293",
+        "Characteristics[genetic modification]": "pEF1a promoter driving splicing library",
+        "Characteristics[organism]": "Homo sapiens",
+        "Characteristics[replicate]": "1",
+        "Comment[ENA_SAMPLE]": "ERS28513043",
+        "Derived Array Data File": "cedrugs.pm425control.2025-07-15.csv",
+        "Factor Value[stimulus]": "",
+        "Source Name": "pm425_control"
+      }
+    },
+    "pm425_control2": {
+      "file_rows": 2,
+      "metadata": {
+        "Characteristics[cell line]": "HEK293",
+        "Characteristics[genetic modification]": "pEF1a promoter driving splicing library",
+        "Characteristics[organism]": "Homo sapiens",
+        "Characteristics[replicate]": "2",
+        "Comment[ENA_SAMPLE]": "ERS28513044",
+        "Derived Array Data File": "cedrugs.pm425control2.2025-07-15.csv",
+        "Factor Value[stimulus]": "",
+        "Source Name": "pm425_control2"
+      }
+    },
+    "pm425a": {
+      "file_rows": 2,
+      "metadata": {
+        "Characteristics[cell line]": "HEK293",
+        "Characteristics[genetic modification]": "pEF1a promoter driving splicing library",
+        "Characteristics[organism]": "Homo sapiens",
+        "Characteristics[replicate]": "1",
+        "Comment[ENA_SAMPLE]": "ERS28513049",
+        "Derived Array Data File": "ceprom.pm425a.2025-05-16.csv",
+        "Factor Value[stimulus]": "",
+        "Source Name": "pm425a"
+      }
+    },
+    "pm425b": {
+      "file_rows": 2,
+      "metadata": {
+        "Characteristics[cell line]": "HEK293",
+        "Characteristics[genetic modification]": "pEF1a promoter driving splicing library",
+        "Characteristics[organism]": "Homo sapiens",
+        "Characteristics[replicate]": "2",
+        "Comment[ENA_SAMPLE]": "ERS28513050",
+        "Derived Array Data File": "ceprom.pm425b.2025-05-16.csv",
+        "Factor Value[stimulus]": "",
+        "Source Name": "pm425b"
+      }
+    },
+    "pm454a": {
+      "file_rows": 2,
+      "metadata": {
+        "Characteristics[cell line]": "HEK293",
+        "Characteristics[genetic modification]": "full CMV promoter driving splicing library",
+        "Characteristics[organism]": "Homo sapiens",
+        "Characteristics[replicate]": "1",
+        "Comment[ENA_SAMPLE]": "ERS28513051",
+        "Derived Array Data File": "ceprom.pm454a.2025-05-16.csv",
+        "Factor Value[stimulus]": "",
+        "Source Name": "pm454a"
+      }
+    },
+    "pm454a_R": {
+      "file_rows": 2,
+      "metadata": {
+        "Characteristics[cell line]": "HEK293",
+        "Characteristics[genetic modification]": "full CMV promoter driving splicing library",
+        "Characteristics[organism]": "Homo sapiens",
+        "Characteristics[replicate]": "1",
+        "Comment[ENA_SAMPLE]": "ERS30471005",
+        "Derived Array Data File": "ceadd.pm454a_6mio42R.2026-05-01.csv",
+        "Factor Value[stimulus]": "",
+        "Source Name": "pm454a_R"
+      }
+    },
+    "pm454b": {
+      "file_rows": 2,
+      "metadata": {
+        "Characteristics[cell line]": "HEK293",
+        "Characteristics[genetic modification]": "full CMV promoter driving splicing library",
+        "Characteristics[organism]": "Homo sapiens",
+        "Characteristics[replicate]": "2",
+        "Comment[ENA_SAMPLE]": "ERS28513052",
+        "Derived Array Data File": "ceprom.pm454b.2025-05-16.csv",
+        "Factor Value[stimulus]": "",
+        "Source Name": "pm454b"
+      }
+    },
+    "pm454b_R": {
+      "file_rows": 2,
+      "metadata": {
+        "Characteristics[cell line]": "HEK293",
+        "Characteristics[genetic modification]": "full CMV promoter driving splicing library",
+        "Characteristics[organism]": "Homo sapiens",
+        "Characteristics[replicate]": "2",
+        "Comment[ENA_SAMPLE]": "ERS30471006",
+        "Derived Array Data File": "ceadd.pm454b_6mio42R.2026-05-01.csv",
+        "Factor Value[stimulus]": "",
+        "Source Name": "pm454b_R"
+      }
+    },
+    "pm455a": {
+      "file_rows": 2,
+      "metadata": {
+        "Characteristics[cell line]": "HEK293",
+        "Characteristics[genetic modification]": "short CMV  promoter driving splicing library",
+        "Characteristics[organism]": "Homo sapiens",
+        "Characteristics[replicate]": "1",
+        "Comment[ENA_SAMPLE]": "ERS28513053",
+        "Derived Array Data File": "ceprom.pm455a.2025-09-09.csv",
+        "Factor Value[stimulus]": "",
+        "Source Name": "pm455a"
+      }
+    },
+    "pm455b": {
+      "file_rows": 2,
+      "metadata": {
+        "Characteristics[cell line]": "HEK293",
+        "Characteristics[genetic modification]": "short CMV  promoter driving splicing library",
+        "Characteristics[organism]": "Homo sapiens",
+        "Characteristics[replicate]": "2",
+        "Comment[ENA_SAMPLE]": "ERS28513054",
+        "Derived Array Data File": "ceprom.pm455b.2025-09-09.csv",
+        "Factor Value[stimulus]": "",
+        "Source Name": "pm455b"
+      }
+    },
+    "pm456a": {
+      "file_rows": 2,
+      "metadata": {
+        "Characteristics[cell line]": "HEK293",
+        "Characteristics[genetic modification]": "ACTB  promoter driving splicing library",
+        "Characteristics[organism]": "Homo sapiens",
+        "Characteristics[replicate]": "1",
+        "Comment[ENA_SAMPLE]": "ERS28513055",
+        "Derived Array Data File": "ceprom.pm456a.2025-05-16.csv",
+        "Factor Value[stimulus]": "",
+        "Source Name": "pm456a"
+      }
+    },
+    "pm456b": {
+      "file_rows": 2,
+      "metadata": {
+        "Characteristics[cell line]": "HEK293",
+        "Characteristics[genetic modification]": "ACTB  promoter driving splicing library",
+        "Characteristics[organism]": "Homo sapiens",
+        "Characteristics[replicate]": "2",
+        "Comment[ENA_SAMPLE]": "ERS28513056",
+        "Derived Array Data File": "ceprom.pm456b.2025-05-16.csv",
+        "Factor Value[stimulus]": "",
+        "Source Name": "pm456b"
+      }
+    },
+    "pm457a": {
+      "file_rows": 2,
+      "metadata": {
+        "Characteristics[cell line]": "HEK293",
+        "Characteristics[genetic modification]": "minimal CMV  promoter driving splicing library",
+        "Characteristics[organism]": "Homo sapiens",
+        "Characteristics[replicate]": "1",
+        "Comment[ENA_SAMPLE]": "ERS28513057",
+        "Derived Array Data File": "ceprom.pm457a.2025-05-16.csv",
+        "Factor Value[stimulus]": "",
+        "Source Name": "pm457a"
+      }
+    },
+    "pm457b": {
+      "file_rows": 2,
+      "metadata": {
+        "Characteristics[cell line]": "HEK293",
+        "Characteristics[genetic modification]": "minimal CMV  promoter driving splicing library",
+        "Characteristics[organism]": "Homo sapiens",
+        "Characteristics[replicate]": "2",
+        "Comment[ENA_SAMPLE]": "ERS28513058",
+        "Derived Array Data File": "ceprom.pm457b.2025-05-16.csv",
+        "Factor Value[stimulus]": "",
+        "Source Name": "pm457b"
+      }
+    },
+    "pm733aINT": {
+      "file_rows": 2,
+      "metadata": {
+        "Characteristics[cell line]": "HEK293",
+        "Characteristics[genetic modification]": "genomically integrated pEF1a promoter driving splicing library",
+        "Characteristics[organism]": "Homo sapiens",
+        "Characteristics[replicate]": "1",
+        "Comment[ENA_SAMPLE]": "ERS30471007",
+        "Derived Array Data File": "ceint.pm733aNEWINT_R.2026-04-22.csv",
+        "Factor Value[stimulus]": "",
+        "Source Name": "pm733aINT"
+      }
+    },
+    "pm733bINT": {
+      "file_rows": 2,
+      "metadata": {
+        "Characteristics[cell line]": "HEK293",
+        "Characteristics[genetic modification]": "genomically integrated pEF1a promoter driving splicing library",
+        "Characteristics[organism]": "Homo sapiens",
+        "Characteristics[replicate]": "2",
+        "Comment[ENA_SAMPLE]": "ERS30471008",
+        "Derived Array Data File": "ceint.pm733bNEWINT_R.2026-04-22.csv",
+        "Factor Value[stimulus]": "",
+        "Source Name": "pm733bINT"
+      }
+    },
+    "pm734aINT": {
+      "file_rows": 2,
+      "metadata": {
+        "Characteristics[cell line]": "HEK293",
+        "Characteristics[genetic modification]": "genomically integrated full CMV promoter driving splicing library",
+        "Characteristics[organism]": "Homo sapiens",
+        "Characteristics[replicate]": "1",
+        "Comment[ENA_SAMPLE]": "ERS30471009",
+        "Derived Array Data File": "ceint.pm734aNEWINT_R.2026-04-22.csv",
+        "Factor Value[stimulus]": "",
+        "Source Name": "pm734aINT"
+      }
+    },
+    "pm734aTRANS": {
+      "file_rows": 2,
+      "metadata": {
+        "Characteristics[cell line]": "HEK293",
+        "Characteristics[genetic modification]": "episomally expressed full CMV promoter (pZDONOR) driving splicing library",
+        "Characteristics[organism]": "Homo sapiens",
+        "Characteristics[replicate]": "1",
+        "Comment[ENA_SAMPLE]": "ERS30471010",
+        "Derived Array Data File": "ceint.pm734aTRANS_R.2026-04-22.csv",
+        "Factor Value[stimulus]": "",
+        "Source Name": "pm734aTRANS"
+      }
+    },
+    "pm734bINT": {
+      "file_rows": 2,
+      "metadata": {
+        "Characteristics[cell line]": "HEK293",
+        "Characteristics[genetic modification]": "genomically integrated full CMV promoter driving splicing library",
+        "Characteristics[organism]": "Homo sapiens",
+        "Characteristics[replicate]": "2",
+        "Comment[ENA_SAMPLE]": "ERS30471011",
+        "Derived Array Data File": "ceint.pm734bNEWINT_R.2026-04-22.csv",
+        "Factor Value[stimulus]": "",
+        "Source Name": "pm734bINT"
+      }
+    },
+    "pm734bTRANS": {
+      "file_rows": 2,
+      "metadata": {
+        "Characteristics[cell line]": "HEK293",
+        "Characteristics[genetic modification]": "episomally expressed full CMV promoter (pZDONOR) driving splicing library",
+        "Characteristics[organism]": "Homo sapiens",
+        "Characteristics[replicate]": "2",
+        "Comment[ENA_SAMPLE]": "ERS30471012",
+        "Derived Array Data File": "ceint.pm734bTRANS_R.2026-04-22.csv",
+        "Factor Value[stimulus]": "",
+        "Source Name": "pm734bTRANS"
+      }
+    },
+    "pm739a": {
+      "file_rows": 2,
+      "metadata": {
+        "Characteristics[cell line]": "HEK293",
+        "Characteristics[genetic modification]": "full CMV promoter with EF1a intron driving splicing library",
+        "Characteristics[organism]": "Homo sapiens",
+        "Characteristics[replicate]": "1",
+        "Comment[ENA_SAMPLE]": "ERS30471013",
+        "Derived Array Data File": "ceadd.pm739a_6mio42R.2026-05-01.csv",
+        "Factor Value[stimulus]": "",
+        "Source Name": "pm739a"
+      }
+    },
+    "pm739b": {
+      "file_rows": 2,
+      "metadata": {
+        "Characteristics[cell line]": "HEK293",
+        "Characteristics[genetic modification]": "full CMV promoter with EF1a intron driving splicing library",
+        "Characteristics[organism]": "Homo sapiens",
+        "Characteristics[replicate]": "2",
+        "Comment[ENA_SAMPLE]": "ERS30471014",
+        "Derived Array Data File": "ceadd.pm739b_6mio42R.2026-05-01.csv",
+        "Factor Value[stimulus]": "",
+        "Source Name": "pm739b"
+      }
+    },
+    "pm740a": {
+      "file_rows": 2,
+      "metadata": {
+        "Characteristics[cell line]": "HEK293",
+        "Characteristics[genetic modification]": "full CMV promoter with bglobin intron driving splicing library",
+        "Characteristics[organism]": "Homo sapiens",
+        "Characteristics[replicate]": "1",
+        "Comment[ENA_SAMPLE]": "ERS30471015",
+        "Derived Array Data File": "ceadd.pm740a_6mio42R.2026-05-01.csv",
+        "Factor Value[stimulus]": "",
+        "Source Name": "pm740a"
+      }
+    },
+    "pm740b": {
+      "file_rows": 2,
+      "metadata": {
+        "Characteristics[cell line]": "HEK293",
+        "Characteristics[genetic modification]": "full CMV promoter with bglobin intron driving splicing library",
+        "Characteristics[organism]": "Homo sapiens",
+        "Characteristics[replicate]": "2",
+        "Comment[ENA_SAMPLE]": "ERS30471016",
+        "Derived Array Data File": "ceadd.pm740b_6mio42R.2026-05-01.csv",
+        "Factor Value[stimulus]": "",
+        "Source Name": "pm740b"
+      }
+    },
+    "pm743a": {
+      "file_rows": 2,
+      "metadata": {
+        "Characteristics[cell line]": "HEK293",
+        "Characteristics[genetic modification]": "MYC-1 promoter driving splicing library",
+        "Characteristics[organism]": "Homo sapiens",
+        "Characteristics[replicate]": "1",
+        "Comment[ENA_SAMPLE]": "ERS30471017",
+        "Derived Array Data File": "ceadd.pm743a_6mio42R.2026-05-01.csv",
+        "Factor Value[stimulus]": "",
+        "Source Name": "pm743a"
+      }
+    },
+    "pm743b": {
+      "file_rows": 2,
+      "metadata": {
+        "Characteristics[cell line]": "HEK293",
+        "Characteristics[genetic modification]": "MYC-1 promoter driving splicing library",
+        "Characteristics[organism]": "Homo sapiens",
+        "Characteristics[replicate]": "2",
+        "Comment[ENA_SAMPLE]": "ERS30471018",
+        "Derived Array Data File": "ceadd.pm743b_6mio42R.2026-05-01.csv",
+        "Factor Value[stimulus]": "",
+        "Source Name": "pm743b"
+      }
+    },
+    "pm744a": {
+      "file_rows": 2,
+      "metadata": {
+        "Characteristics[cell line]": "HEK293",
+        "Characteristics[genetic modification]": "MYC-2 promoter driving splicing library",
+        "Characteristics[organism]": "Homo sapiens",
+        "Characteristics[replicate]": "1",
+        "Comment[ENA_SAMPLE]": "ERS30471019",
+        "Derived Array Data File": "ceadd.pm744a_6mio42R.2026-05-01.csv",
+        "Factor Value[stimulus]": "",
+        "Source Name": "pm744a"
+      }
+    },
+    "pm744b": {
+      "file_rows": 2,
+      "metadata": {
+        "Characteristics[cell line]": "HEK293",
+        "Characteristics[genetic modification]": "MYC-2 promoter driving splicing library",
+        "Characteristics[organism]": "Homo sapiens",
+        "Characteristics[replicate]": "2",
+        "Comment[ENA_SAMPLE]": "ERS30471020",
+        "Derived Array Data File": "ceadd.pm744b_6mio42R.2026-05-01.csv",
+        "Factor Value[stimulus]": "",
+        "Source Name": "pm744b"
+      }
+    },
+    "pm745a": {
+      "file_rows": 2,
+      "metadata": {
+        "Characteristics[cell line]": "HEK293",
+        "Characteristics[genetic modification]": "p73-1 promoter driving splicing library",
+        "Characteristics[organism]": "Homo sapiens",
+        "Characteristics[replicate]": "1",
+        "Comment[ENA_SAMPLE]": "ERS30471021",
+        "Derived Array Data File": "ceadd.pm745a_6mio42R.2026-05-01.csv",
+        "Factor Value[stimulus]": "",
+        "Source Name": "pm745a"
+      }
+    },
+    "pm745b": {
+      "file_rows": 2,
+      "metadata": {
+        "Characteristics[cell line]": "HEK293",
+        "Characteristics[genetic modification]": "p73-1 promoter driving splicing library",
+        "Characteristics[organism]": "Homo sapiens",
+        "Characteristics[replicate]": "2",
+        "Comment[ENA_SAMPLE]": "ERS30471022",
+        "Derived Array Data File": "ceadd.pm745b_6mio42R.2026-05-01.csv",
+        "Factor Value[stimulus]": "",
+        "Source Name": "pm745b"
+      }
+    },
+    "pm747a": {
+      "file_rows": 2,
+      "metadata": {
+        "Characteristics[cell line]": "HEK293",
+        "Characteristics[genetic modification]": "p73-2 promoter driving splicing library",
+        "Characteristics[organism]": "Homo sapiens",
+        "Characteristics[replicate]": "1",
+        "Comment[ENA_SAMPLE]": "ERS30471023",
+        "Derived Array Data File": "ceadd.pm747a_6mio42R.2026-05-01.csv",
+        "Factor Value[stimulus]": "",
+        "Source Name": "pm747a"
+      }
+    },
+    "pm747b": {
+      "file_rows": 2,
+      "metadata": {
+        "Characteristics[cell line]": "HEK293",
+        "Characteristics[genetic modification]": "p73-2 promoter driving splicing library",
+        "Characteristics[organism]": "Homo sapiens",
+        "Characteristics[replicate]": "2",
+        "Comment[ENA_SAMPLE]": "ERS30471024",
+        "Derived Array Data File": "ceadd.pm747b_6mio42R.2026-05-01.csv",
+        "Factor Value[stimulus]": "",
+        "Source Name": "pm747b"
+      }
+    }
+  },
+  "scope": "Documentation only; no outcome files or FASTQ opened. Labeled replicates do not independently establish covariance.",
+  "sha256": "a2e2163fe46b3f0f948197783e2603bacff1928e6bc083d9195bf1798647480d",
+  "source": "E-MTAB-16553.sdrf.txt",
+  "targeted_reporter_sources": 40
+}

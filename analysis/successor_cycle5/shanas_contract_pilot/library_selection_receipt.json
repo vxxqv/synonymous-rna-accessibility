@@ -1,0 +1,32 @@
+{
+  "url": "https://raw.githubusercontent.com/shakedshanas/Splicing-MPRA-data-processing/main/demo/41467_2019_12642_MOESM10_ESM.csv",
+  "status": 200,
+  "bytes_transferred": 4166059,
+  "git_blob_sha1": "10f715fba2e81982031e2c8edd0166228d2e6e36",
+  "source_sha256": "44c24c2f6f0d62d17c04a274bbd744e4d26f4304c185378a1b2c9d6311b20d05",
+  "whitelist": [
+    "exonend in sequence",
+    "exonlength",
+    "exonstart in sequence",
+    "gene name",
+    "library index",
+    "sequence",
+    "subset"
+  ],
+  "rows_selected": 9608,
+  "subset_counts": {
+    "cassettecomb": 773,
+    "cassetteconstvar": 359,
+    "cassetteSFvar": 1806,
+    "cassetteSFcombvar": 576,
+    "cassetteSFRosenberg": 430,
+    "cassettesecvar": 584,
+    "cassette_comb_with_constitutive": 1055,
+    "cassettenuc": 1989,
+    "cassetteswitchvar": 1404,
+    "cassettelengthvar": 368,
+    "cassette_filtered": 264
+  },
+  "selected_sha256": "943e5313292567988716a571c0956f14ed13b120340495f0b42d86d0866e7193",
+  "scope": "Only header and whitelisted identity/sequence/exon annotations retained. All other fields consumed without accumulation; no numeric phenotype conversion, print, storage, filtering or missingness read. Mixed raw CSV not saved."
+}

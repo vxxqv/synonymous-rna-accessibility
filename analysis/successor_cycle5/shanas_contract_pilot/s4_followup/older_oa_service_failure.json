@@ -1,0 +1,12 @@
+{
+  "endpoint": "https://www.ncbi.nlm.nih.gov/pmc/utils/oa/oa.fcgi?id=PMC13534650",
+  "tool": "Installed ncbi-pmc-skill scripts/ncbi_pmc.py",
+  "result": {
+    "ok": false,
+    "error": {
+      "code": "network_error",
+      "message": "Request failed: 404 Client Error: Not Found for url: https://www.ncbi.nlm.nih.gov/pmc/utils/oa/oa.fcgi?id=PMC13534650"
+    }
+  },
+  "scope": "Official inventory attempt, not S4 body download. No retry or authentication action."
+}

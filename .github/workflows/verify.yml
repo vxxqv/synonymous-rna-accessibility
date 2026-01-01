@@ -77,6 +77,21 @@ jobs:
           path: ${{ runner.temp }}/ci-cnot3-numerical/
           if-no-files-found: warn
           retention-days: 14
+      - name: Independently replay both joint-function pilot arms
+        id: joint_function
+        run: |
+          python -I -B analysis/cycle5/observed_result_review/verify_observed.py --authorization analysis/cycle5/cambray_pilot/authorization_development_independent_check.json --root . --out "${{ runner.temp }}/cycle5-development-core"
+          python -I -B analysis/cycle5/observed_result_review/verify_observed.py --authorization analysis/cycle5/cambray_pilot/authorization_reserved_validation_independent_check.json --root . --out "${{ runner.temp }}/cycle5-reserved-core"
+          python -I -B analysis/cycle5/replay_supplement_reviews.py --repo . --arm development --out "${{ runner.temp }}/cycle5-development-supplement"
+          python -I -B analysis/cycle5/replay_supplement_reviews.py --repo . --arm reserved_validation --out "${{ runner.temp }}/cycle5-reserved-supplement"
+      - name: Retain joint-function pilot verification
+        if: ${{ always() && steps.joint_function.outcome != 'skipped' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: cycle5-verification-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ runner.temp }}/cycle5-*/
+          if-no-files-found: warn
+          retention-days: 14
       - name: Independently replay frozen synthetic predictions
         run: python analysis/verify_prediction_pilot.py
       - name: Replay finite exact verification

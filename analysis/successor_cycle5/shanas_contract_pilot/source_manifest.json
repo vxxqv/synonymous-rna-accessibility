@@ -1,0 +1,68 @@
+{
+  "status": "REPORT_READY_SOURCE_CONTRACT_ONLY",
+  "date": "2026-10-25",
+  "verdict": "NO-GO same-protein/synonymous accessibility; conditional matched-cassette context-transfer scope only, no phenotype authorization.",
+  "source_refs": [
+    {
+      "path": "work\\joint_function_cycle5\\successor_methods_review\\shanas2026.xml",
+      "sha256": "9d05575f8002c5478ded9cba8677500d0e85476a2dc3d73435be6f9716444d20",
+      "role": "Existing authenticated primary/documentation source, reused read-only"
+    },
+    {
+      "path": "work\\joint_function_cycle5\\successor_methods_review\\E-MTAB-16553.idf.txt",
+      "sha256": "4e2110e3028f789a9c39403d0e22270f87635db9451fcbb587ee230d2f9e8a85",
+      "role": "Existing authenticated primary/documentation source, reused read-only"
+    },
+    {
+      "path": "work\\joint_function_cycle5\\successor_methods_review\\E-MTAB-16553.sdrf.txt",
+      "sha256": "a2e2163fe46b3f0f948197783e2603bacff1928e6bc083d9195bf1798647480d",
+      "role": "Existing authenticated primary/documentation source, reused read-only"
+    },
+    {
+      "path": "work\\joint_function_cycle5\\successor_methods_review\\arrayexpress_E-MTAB-16553.json",
+      "sha256": "3222771c2ddc42b2fb25fd5a85bb13b476dd9ce314f94c47cf47a6f7d2ec4c1a",
+      "role": "Existing authenticated primary/documentation source, reused read-only"
+    }
+  ],
+  "author_code_sources": [
+    {
+      "retained_path": "author_code/ce.pipeline.py",
+      "retained_sha256": "3af3f3e01d716738b6751f879bc50711e48900c3082a3048b5c8da307b2b4d02",
+      "upstream_blob_from_tree": "380cba071e9cbc04c9396277475cc4a49ecd17da",
+      "representation": "GitHub connector UTF-8 text, normalized retained line endings; retained SHA is not asserted to equal upstream byte blob."
+    },
+    {
+      "retained_path": "author_code/ce.detect_splicesites.py",
+      "retained_sha256": "2c4d9550f83345709443219ae4a61d8b41744a164589c8810b2d3fe3e39f2315",
+      "upstream_blob_from_tree": "026a97af43c2da466dfabf28d5e131b4121a3c17",
+      "representation": "GitHub connector UTF-8 text, normalized retained line endings; retained SHA is not asserted to equal upstream byte blob."
+    },
+    {
+      "retained_path": "author_code/1.create_bcread_dict.py",
+      "retained_sha256": "c109a46ef705bb718a5f8036752c0484513a22b19828a982f688e9e0c4d033e6",
+      "upstream_blob_from_tree": "50fa450756ed9b96cc60ff1be96facba544df9b5",
+      "representation": "GitHub connector UTF-8 text, normalized retained line endings; retained SHA is not asserted to equal upstream byte blob."
+    },
+    {
+      "retained_path": "author_code/README.md",
+      "retained_sha256": "a8bca52010c95385b76e0c9fde8d9355d9c1115fd5d1bcf83f45ae917a3fe66f",
+      "upstream_blob_from_tree": "efcbb8da9006d5f26bd9a0ef4f34bd58f518050f",
+      "representation": "GitHub connector UTF-8 text, normalized retained line endings; retained SHA is not asserted to equal upstream byte blob."
+    }
+  ],
+  "metadata_whitelist": [
+    "library index",
+    "subset",
+    "gene name",
+    "exonlength",
+    "exonstart in sequence",
+    "exonend in sequence",
+    "sequence"
+  ],
+  "phenotype_columns_read": false,
+  "outcome_missingness_read": false,
+  "author_code_executed": false,
+  "graph_counts": "not_identifiable_not_computed_not_zero",
+  "primary_papers_and_embedded_outputs_for_release": false,
+  "historical_summary_correction": "Mordstein follow-up completed; reference-index/pairing gate remains unresolved. No generic unperformed retry claim."
+}

@@ -1,0 +1,50 @@
+{
+  "Lead Contact and Materials Availability": "Lead Contact and Materials AvailabilityFurther information and requests for resources and reagents should be directed to, and will be fulfilled by, Grzegorz Kudla (gkudla@gmail.com). Plasmids generated in this study will be distributed by Grzegorz Kudla.",
+  "Data and Code availability": "Data and Code availabilityRaw sequencing files have been deposited in SRA and can be accessed under database accession number PRJNA596086.",
+  "supplements": [
+    {
+      "id": "mmc1",
+      "title": "Document S1. Figures S1\u2013S6 and Tables S1 and S2",
+      "media": [
+        {
+          "{http://www.w3.org/1999/xlink}href": "mmc1.pdf",
+          "mimetype": "application",
+          "mime-subtype": "pdf"
+        }
+      ]
+    },
+    {
+      "id": "mmc2",
+      "title": "Document S2. Article plus Supplemental Information",
+      "media": [
+        {
+          "{http://www.w3.org/1999/xlink}href": "mmc2.pdf",
+          "mimetype": "application",
+          "mime-subtype": "pdf"
+        }
+      ]
+    },
+    {
+      "id": "db_ds_supplementary-material1_reqid_",
+      "title": "Document S1. Figures S1\u2013S6 and Tables S1 and S2",
+      "media": [
+        {
+          "{http://www.w3.org/1999/xlink}href": "mmc1.pdf",
+          "mimetype": "application",
+          "mime-subtype": "pdf"
+        }
+      ]
+    },
+    {
+      "id": "db_ds_supplementary-material2_reqid_",
+      "title": "Document S2. Article plus Supplemental Information",
+      "media": [
+        {
+          "{http://www.w3.org/1999/xlink}href": "mmc2.pdf",
+          "mimetype": "application",
+          "mime-subtype": "pdf"
+        }
+      ]
+    }
+  ]
+}

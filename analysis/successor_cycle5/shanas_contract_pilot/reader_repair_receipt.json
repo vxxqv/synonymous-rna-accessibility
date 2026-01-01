@@ -1,0 +1,6 @@
+{
+  "failure": "IndentationError during import after adding XLSX helper; request was never reached. No new source body or row read in failed command.",
+  "failed_sha256": "1e99da9a86d549605b591039f8a16dd68b5c5079cd253e9d2a0b3d48e63833d9",
+  "repair": "Move XLSX helpers after complete existing CSV function; no CSV formula/selection change.",
+  "repaired_sha256": "77cc0f5a179b820ab274e8c9e5ca8765baff88d97f8c680ccd53c0c7e4fc7fed"
+}
