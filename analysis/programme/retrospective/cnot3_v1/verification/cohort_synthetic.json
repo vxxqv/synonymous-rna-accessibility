@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "tests": 18,
+  "failures": 0,
+  "errors": 0,
+  "scope": "Synthetic fixtures only, including5481 invented genes; no real grouping/partition/assay inputs",
+  "code_sha256": {
+    "cohort.py": "d86c257b6f0b79bf35b1cf7bbc0a8b0fbe0e9b891cc32c579a4da4f51ab60c50",
+    "pipeline.py": "55eafcd00c3ea0a4da7fbb732b740272dd08be0bde5c7e76490f8050ec1bafb8",
+    "test_cohort.py": "2d895e5147272a6e1fd8c7e09adf45874bc5c265f1934e0e03a93af5f0d1c01b"
+  },
+  "real_outcome_reads": 0,
+  "real_gene_alignments": 0,
+  "real_partitions": 0
+}

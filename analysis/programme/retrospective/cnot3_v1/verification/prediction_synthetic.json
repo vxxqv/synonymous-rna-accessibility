@@ -1,0 +1,38 @@
+{
+  "artifact_sha256": {
+    "evaluation": "bad79c19a6075dd4d26e80d68eba18c956523056045ba410ed293f36bebcc72a",
+    "predictions": "55c1436b1f3385e92752dedca6c5d59bdbf5957c2c8ffe8438fcdee48d310478",
+    "test_log": "454bc4018e66be5e95dc39b0666674c6ddc9c1a5625175bd9568cd78c547643b"
+  },
+  "errors": 0,
+  "failures": 0,
+  "holdout_genes": 88,
+  "null_control_success": false,
+  "null_no_change_MAE": 0.0,
+  "null_relative_gain": null,
+  "numpy": "2.5.4",
+  "positive_control_MAE": {
+    "amino_acid_core": 1.278781753560984,
+    "association": 0.0494155343572729,
+    "association_noSE": 0.04825132834486112,
+    "association_nonlinear": 0.049803964655253136,
+    "baseline_core": 1.2978448604874573,
+    "baseline_linear": 1.2099251622904608,
+    "codon_core": 1.2814451070902577,
+    "codon_noSE": 1.2833263743523398,
+    "no_change": 1.2148801101837798
+  },
+  "positive_control_codon_gain": 0.9614376502872766,
+  "positive_control_success": true,
+  "python": "3.12.14",
+  "real_fits": 0,
+  "real_outcome_reads": 0,
+  "source_sha256": {
+    "predict.py": "6c2c5eb1e5123807a200702249d76143cc2524aa154e76f68977a1ab371ba16e",
+    "run_synthetic.py": "0abf7a28b00f42cf48e4f07ca54f7983414c204b0b5c89b821813e5ff7a7606d",
+    "test_predict.py": "e3b7dfe64bae043c06451e550af498f7011931238341deaa3a770114802b31d8"
+  },
+  "status": "synthetic_checks_passed",
+  "tests_run": 19,
+  "training_genes": 272
+}

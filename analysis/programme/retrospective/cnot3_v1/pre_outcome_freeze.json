@@ -1,0 +1,172 @@
+{
+  "schema": "CNOT3_pre_outcome_freeze_v1",
+  "status": "scientific_rules_frozen_pending_commit_before_outcome_decoding",
+  "prior_commit": "31fe1aee0ab9fe8bbe2ca8f68145cbabe120de61",
+  "protocol_sha256": "0d9c20e8cf5438c08a4a688a84f70197ae1c9acf78bda7106b80382dc5388011",
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.5.4",
+    "Biopython": "1.88"
+  },
+  "files": {
+    "analysis/programme/retrospective/cnot3_v1/cohort/cohort.py": {
+      "sha256": "d86c257b6f0b79bf35b1cf7bbc0a8b0fbe0e9b891cc32c579a4da4f51ab60c50",
+      "bytes": 18339
+    },
+    "analysis/programme/retrospective/cnot3_v1/cohort/pipeline.py": {
+      "sha256": "55eafcd00c3ea0a4da7fbb732b740272dd08be0bde5c7e76490f8050ec1bafb8",
+      "bytes": 16074
+    },
+    "analysis/programme/retrospective/cnot3_v1/cohort/test_cohort.py": {
+      "sha256": "2d895e5147272a6e1fd8c7e09adf45874bc5c265f1934e0e03a93af5f0d1c01b",
+      "bytes": 17237
+    },
+    "analysis/programme/retrospective/cnot3_v1/guarded_phase.py": {
+      "sha256": "ebcbdc065fd6f185cdd91480b62f6e8366bfac317e1ab94328249863f6ef5961",
+      "bytes": 2062
+    },
+    "analysis/programme/retrospective/cnot3_v1/kinetics/derivation.md": {
+      "sha256": "c9e2a82f62c97949b01f87d541ccdf0ed6ca1e1445f5e9f0cb288471b85cc2b9",
+      "bytes": 11335
+    },
+    "analysis/programme/retrospective/cnot3_v1/kinetics/kinetic_bounds.py": {
+      "sha256": "1b5f4b33f40d71dc5331bdf367bbb9839dbd14000ece0d633df0e04983899664",
+      "bytes": 3420
+    },
+    "analysis/programme/retrospective/cnot3_v1/kinetics/verify.py": {
+      "sha256": "7d89361c6f9aac5944ba40e0ce08f0121c955d8b0583964ef657219b65a0bc80",
+      "bytes": 8639
+    },
+    "analysis/programme/retrospective/cnot3_v1/prediction/predict.py": {
+      "sha256": "6c2c5eb1e5123807a200702249d76143cc2524aa154e76f68977a1ab371ba16e",
+      "bytes": 36069
+    },
+    "analysis/programme/retrospective/cnot3_v1/prediction/run_synthetic.py": {
+      "sha256": "0abf7a28b00f42cf48e4f07ca54f7983414c204b0b5c89b821813e5ff7a7606d",
+      "bytes": 4488
+    },
+    "analysis/programme/retrospective/cnot3_v1/prediction/test_predict.py": {
+      "sha256": "e3b7dfe64bae043c06451e550af498f7011931238341deaa3a770114802b31d8",
+      "bytes": 19867
+    },
+    "analysis/programme/retrospective/cnot3_v1/principal_gate.py": {
+      "sha256": "e394ecfa64c110f756e1cc76f9a8099a8332e06eace326b4af80206375396b98",
+      "bytes": 4252
+    },
+    "analysis/programme/retrospective/cnot3_v1/protocol.md": {
+      "sha256": "0d9c20e8cf5438c08a4a688a84f70197ae1c9acf78bda7106b80382dc5388011",
+      "bytes": 17962
+    },
+    "analysis/programme/retrospective/cnot3_v1/reference/build_features.py": {
+      "sha256": "1076a227107d8062817e40ed4713e97745764b74f67143a3e6ea6d80f52a21bf",
+      "bytes": 16802
+    },
+    "analysis/programme/retrospective/cnot3_v1/reference/grouping_proof.md": {
+      "sha256": "0482c28b29231acaf203fed13df2a3b507930fa32a257fa217223cb5a83f4a6d",
+      "bytes": 5404
+    },
+    "analysis/programme/retrospective/cnot3_v1/reference/test_features.py": {
+      "sha256": "336b91fae9504b99aeea8835583f4e24a2f121e4ae35d8bbeb4dba663bb1e5bb",
+      "bytes": 3664
+    },
+    "analysis/programme/retrospective/cnot3_v1/reproduction/protocol.draft.json": {
+      "sha256": "5d6b38d5351baacd4fe873931159aa4052a8ff89f7c9c00247322c0f8d61652a",
+      "bytes": 4430
+    },
+    "analysis/programme/retrospective/cnot3_v1/reproduction/reproduce.py": {
+      "sha256": "af2a256b38009f3f439caea2dd777bb26180814098a641e17c9f1bd0bc684ffa",
+      "bytes": 17830
+    },
+    "analysis/programme/retrospective/cnot3_v1/reproduction/test_reproduce.py": {
+      "sha256": "f1c40b66658ef97cf937ee77fdefc8ebe84db2c4b120583a24dd410f8b732d35",
+      "bytes": 9803
+    },
+    "analysis/programme/retrospective/cnot3_v1/test_principal_gate.py": {
+      "sha256": "0e4fd29dc691e423fd9e5644fa3ee3fc34649d9866d1a78ed2911faaa010c64d",
+      "bytes": 2306
+    },
+    "analysis/programme/retrospective/cnot3_v1/verification/cohort_independent.json": {
+      "sha256": "32c9df6cd34c9f444fc28912c33b3017bb79bc7a27eb4e027e96001a8af14c98",
+      "bytes": 857
+    },
+    "analysis/programme/retrospective/cnot3_v1/verification/cohort_synthetic.json": {
+      "sha256": "93387b23f36cf0be0f5d8413fd94f6c44341683c698a236e4046e305024a557f",
+      "bytes": 561
+    },
+    "analysis/programme/retrospective/cnot3_v1/verification/guard_independent.json": {
+      "sha256": "655ae134f9d50dbd1db3cd35de1b7d5f68297d63b80b1d64dc88bf0d5fde0cf5",
+      "bytes": 2315
+    },
+    "analysis/programme/retrospective/cnot3_v1/verification/implementation_review.md": {
+      "sha256": "1e458926588a53db3a583e1c768d0ee5672790944533f73f85398f3557eb1399",
+      "bytes": 11731
+    },
+    "analysis/programme/retrospective/cnot3_v1/verification/kinetic_review.md": {
+      "sha256": "a12fe2fc7cea113787d1b5e4d23c9c0144048e55865f8fe1ba7fa788982344c8",
+      "bytes": 9153
+    },
+    "analysis/programme/retrospective/cnot3_v1/verification/measurement_audit.md": {
+      "sha256": "3c1aebc4051a3154eabf3f655ea2b9cdc11b5ff5e661ae5b7d1a84b5d3e7dc96",
+      "bytes": 14819
+    },
+    "analysis/programme/retrospective/cnot3_v1/verification/prediction_independent.json": {
+      "sha256": "9185a0f20bded65cab419d44206608986b69a2e2784701957f77aa4f64fa5cfc",
+      "bytes": 6508
+    },
+    "analysis/programme/retrospective/cnot3_v1/verification/prediction_synthetic.json": {
+      "sha256": "85b6e436fb2af826bf283450ff6aef0e1a12418d1c125ad540f493eb3ceaee5d",
+      "bytes": 1394
+    },
+    "analysis/programme/retrospective/cnot3_v1/verification/printed_unit_addendum.md": {
+      "sha256": "35b452fc73e8472c83d036840f4db97f9f67743193729a7521a1eb0a967a7362",
+      "bytes": 4853
+    },
+    "analysis/programme/retrospective/cnot3_v1/verification/protocol_review.md": {
+      "sha256": "1b0698479c139f88c9c8d780596897ba512cfc4c7ec36dadeca1c91a03d00b86",
+      "bytes": 19159
+    },
+    "analysis/programme/retrospective/cnot3_v1/verification/reference_audit.md": {
+      "sha256": "e8ec248606fbeed45e6c82f44f764a2d74067fd6df7b10b33de9e7ee73332d47",
+      "bytes": 9670
+    },
+    "analysis/programme/retrospective/cnot3_v1/verification/reference_numeric.json": {
+      "sha256": "c74bda6d6624c545d3ef3172b7dd824a9e7ba01a33eb337c59b61e2dab5e1b5c",
+      "bytes": 840
+    },
+    "analysis/programme/retrospective/cnot3_v1/verification/score_independent.json": {
+      "sha256": "1db2cc956cb87a90b338c6d4f0812f45bd4ff08b71443a00816f04c9b472bd3c",
+      "bytes": 4151
+    },
+    "data/programme/cnot3_v1/Carneiro_gene_level_TableS2.xlsx": {
+      "sha256": "a338e7211fcb0ad6bed0b1bfdb57433a5a43266f3a8d93e473b1bf50c583d712",
+      "bytes": 4690560
+    },
+    "data/programme/cnot3_v1/features.csv.gz": {
+      "sha256": "8c16aef6e62290b89d79ccf5629c61bd99d0dbb74d90e3d390046966e3d47947",
+      "bytes": 6207677
+    },
+    "data/programme/cnot3_v1/gencode.v48.pc_transcripts.fa.gz": {
+      "sha256": "d29486ce127cf4ab0f681fdcfa9bcd9fe2cfd18e7331b75257eb12c4cbb385f5",
+      "bytes": 52617517
+    },
+    "data/programme/cnot3_v1/original_gene_ids_only.json": {
+      "sha256": "fac8da906ac3f2aac8c9b8ef228abdc210dc471df2cc92fb4833ce3668772e34",
+      "bytes": 2249131
+    },
+    "data/programme/cnot3_v1/provenance.json": {
+      "sha256": "855bb939db0045391acae76b31b5624854c231ed63f5d55263e5caf524ec2264",
+      "bytes": 1397
+    },
+    "data/programme/cnot3_v1/reanalysis_gene_ids_only.json": {
+      "sha256": "85fb60552f3c12477d28dbeeafbd171d52828ecb66e30591cefa60f77f482c52",
+      "bytes": 2537202
+    },
+    "data/programme/cnot3_v1/selected_transcripts.jsonl.gz": {
+      "sha256": "5f557bbd33810668ee44114c7ace1cc0c0e9f19395f5a203846187361f931497",
+      "bytes": 5205477
+    }
+  },
+  "source_outcomes_decoded_before_this_freeze": false,
+  "published_aggregate_results_previously_known": true,
+  "scope": "One operational published reconstruction followed only on gate success by the locked named-algorithm gene-heldout comparison. No causal-rate or independent-experiment claim."
+}

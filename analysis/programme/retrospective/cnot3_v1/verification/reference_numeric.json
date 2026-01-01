@@ -1,0 +1,18 @@
+{
+  "status": "passed_all_selected_reference_rows",
+  "selected_rows": 19567,
+  "numeric_or_missing_comparisons": 1702329,
+  "maximum_absolute_difference": 0,
+  "full_translation_verified_with_Biopython": "1.88",
+  "selection_rule_verified_for_all_selected_genes": true,
+  "AA_fraction_nesting_identity_verified": true,
+  "sequence_hashes_per_selected_row": 5,
+  "real_gene_pairs_aligned": 0,
+  "outcome_reads": 0,
+  "code_sha256": "63bfcc418a78cce6dd3939f39b985af64cf6ed600671ad486dfdfa93ff55ede4",
+  "inputs_sha256": {
+    "features.csv.gz": "8c16aef6e62290b89d79ccf5629c61bd99d0dbb74d90e3d390046966e3d47947",
+    "selected_transcripts.jsonl.gz": "5f557bbd33810668ee44114c7ace1cc0c0e9f19395f5a203846187361f931497",
+    "candidate_audit.jsonl.gz": "dcab5792c887b65e5759cf27684cc532abe2aafa0b7239e29fdd9be9b9646d4a"
+  }
+}

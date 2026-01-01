@@ -1,0 +1,43 @@
+{
+  "candidate_sha256": "ebcbdc065fd6f185cdd91480b62f6e8366bfac317e1ab94328249863f6ef5961",
+  "mismatch_fields_refused": [
+    "implementation",
+    "python",
+    "numpy",
+    "Biopython"
+  ],
+  "runs": [
+    {
+      "name": "success",
+      "returncode": 0,
+      "receipt_created": true,
+      "child_created": true,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "name": "child_failure",
+      "returncode": 7,
+      "receipt_created": true,
+      "child_created": true,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "name": "hash_refusal",
+      "returncode": 1,
+      "receipt_created": false,
+      "child_created": false,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\work\\decay_cycle4\\guarded_phase.py\", line 39, in <module>\n    if __name__=='__main__':main()\n                            ^^^^^^\n  File \"C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\work\\decay_cycle4\\guarded_phase.py\", line 24, in main\n    if digest!=a.expected_sha256:raise RuntimeError('Frozen phase script hash mismatch')\n                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: Frozen phase script hash mismatch\n"
+    },
+    {
+      "name": "optimized_refusal",
+      "returncode": 1,
+      "receipt_created": false,
+      "child_created": false,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\work\\decay_cycle4\\guarded_phase.py\", line 39, in <module>\n    if __name__=='__main__':main()\n                            ^^^^^^\n  File \"C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\work\\decay_cycle4\\guarded_phase.py\", line 16, in main\n    if not __debug__:raise RuntimeError('Optimized execution is refused')\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: Optimized execution is refused\n"
+    }
+  ]
+}

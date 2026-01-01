@@ -1,0 +1,9 @@
+{
+  "status": "root_authorized_outcome_read",
+  "protocol_sha256": "5d6b38d5351baacd4fe873931159aa4052a8ff89f7c9c00247322c0f8d61652a",
+  "implementation_sha256": "af2a256b38009f3f439caea2dd777bb26180814098a641e17c9f1bd0bc684ffa",
+  "workbook_sha256": "a338e7211fcb0ad6bed0b1bfdb57433a5a43266f3a8d93e473b1bf50c583d712",
+  "prediction_protocol_sha256": "0d9c20e8cf5438c08a4a688a84f70197ae1c9acf78bda7106b80382dc5388011",
+  "scientific_freeze_sha256": "ec6ddc93189273907b9834abda0eaf2b93a0bfc5411bb621fbf45e8a0ad59037",
+  "execution_condition": "Run only after the scientific freeze and this authorization are committed and remote SHA verified."
+}

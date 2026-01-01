@@ -1,0 +1,13 @@
+{
+  "source_study_doi": "10.1126/science.adq8587",
+  "reanalysis_doi": "10.1002/2211-5463.70277",
+  "same_experiment": true,
+  "gene_table_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC13398649.1/FEB4-9999-0-s002.xlsx?md5=e44bf579167ec8a242b182c0fd926faa",
+  "original_identifiers_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE268nnn/GSE268322/suppl/GSE268322_CNOT3_SLAM-seq_to_C_convertion_ratio.xlsx",
+  "reference_fasta_url": "https://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_48/gencode.v48.pc_transcripts.fa.gz",
+  "optional_reference_gtf_url": "https://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_48/gencode.v48.annotation.gtf.gz",
+  "optional_gtf_sha256": "37a298c2b57e41988cfe12667134106523c69c24a1807347679d19e88aa1f4a9",
+  "reference_proxy": "GENCODE48; longest valid standard-code CDS selected before downstream biotype/UTR exclusions; not an expressed-isoform annotation",
+  "source_limits": "Printed half-life axes say minutes; file-to-axis calibration, fit/censoring/growth rules and half-life errors remain unverified. SE_IP is enrichment precision only.",
+  "correction_check": "The retained Crossref metadata expose no update-to or relation correction for either DOI. Bounded primary-source searches identified the same-source reanalysis and no qualifying independent decay/IP replication. This is not an exhaustive guarantee of absence."
+}

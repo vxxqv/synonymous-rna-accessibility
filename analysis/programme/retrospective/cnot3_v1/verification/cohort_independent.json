@@ -1,0 +1,30 @@
+{
+  "candidate_hashes": {
+    "cohort.py": "d86c257b6f0b79bf35b1cf7bbc0a8b0fbe0e9b891cc32c579a4da4f51ab60c50",
+    "pipeline.py": "55eafcd00c3ea0a4da7fbb732b740272dd08be0bde5c7e76490f8050ec1bafb8"
+  },
+  "synthetic_seed": 81743,
+  "proteins": 58,
+  "all_pairs_DP": 1653,
+  "component_count": 27,
+  "all_filtered_components_exact": true,
+  "hash_assignments_checked": 58,
+  "failed_closed_caps": [
+    "posting_pair_events_preflight",
+    "candidate_pairs",
+    "alignment_cells",
+    "elapsed_seconds"
+  ],
+  "eligibility": {
+    "P": 7,
+    "S": 6,
+    "A": 2,
+    "expected_kept": [
+      "ENSG00000000001",
+      "ENSG00000000006"
+    ]
+  },
+  "no_KO_predictor_leak": true,
+  "source_version_collision_refused": true,
+  "scope": "Synthetic pure functions and selective writer; no real input decoding, grouping or fitting"
+}
