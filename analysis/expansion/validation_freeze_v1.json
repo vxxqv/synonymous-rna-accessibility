@@ -1,0 +1,65 @@
+{
+  "version": "1.0",
+  "status": "prospective protocol for material not yet analyzed; not a completed validation",
+  "discovery_boundary": {
+    "already_examined": ["404 Mustoe-2018 mirror-derived coding windows in three target conditions", "20 overlapping PAIR-MaP windows at two E. coli loci", "primary-cohort context and Turner-parameter sensitivities", "24 primary-cohort hash-selected windows with RNAstructure 6.6", "7-, 9-, and 11-codon extensions of primary windows", "uniform, degree-matched and score-permutation controls", "first24 discovery windows in heat-rank and exact roughness-matched control pilot"],
+    "interpretation": "all are discovery, robustness or model sensitivity; none is newly prospective independent biological validation of the emerging connectivity hypothesis",
+    "metadata_only": ["FoldAtlas article and repository inventory, one unrestrained example displayed in help", "Cambray reporter data inventory and first503 complete rows"],
+    "no_relabeling": "Previously inspected PAIR-MaP outcomes cannot be relabeled as validation of a hypothesis formulated after seeing those outcomes"
+  },
+  "hypotheses": {
+    "H1": "A fixed standard peptide plus simultaneous allowed-pair constraints has no hidden same-signature point-mutation obstruction; its biological application requires independently supported obligations, not merely a union of hypothesized mutually exclusive folds",
+    "H2": "Folding retention fields preserve connectivity beyond an uncorrelated score-permutation reference on the same complete local graph",
+    "H3_stronger_at_risk": "The all-threshold organization exceeds that of generic smooth graph fields after controlling the component-specific score distribution and local edge roughness",
+    "interpretation_rule": "If H3 fails, retain H2 only as generic score-geometry organization; do not claim RNA-specific adaptation, selection or a universal biological protection principle"
+  },
+  "prospective_material": {
+    "source_gate": "An independent original probing study with exact transcript sequences, reference-version-matched complete CDS annotation, unambiguous original or explicitly reconstructed partner tables, known measurement conditions, and usable source terms",
+    "priority": "nonviral cross-species probing source; choose by the source gate before evaluating accessibility outcomes",
+    "negative_gate": "If no qualifying source is recovered, report independent validation as unavailable rather than replacing it with another target model of the discovery cohort",
+    "fixed_example_exclusion": "Any example structure already inspected during source recovery is excluded from the prospective cohort"
+  },
+  "selection": {
+    "variable_codons": 5,
+    "context_nt": 150,
+    "minimum_touching_pairs": 3,
+    "minimum_pair_span_nt": 4,
+    "coverage": "at least12 of15 finite probing values; negative finite values count as observed",
+    "genetic_code": "standard internal code only; fix initiator and stop, exclude recoding and overlapping-CDS variable bases",
+    "complete_compatible_cap": 4096,
+    "search_node_cap": 200000,
+    "selection_key": "SHA256(source_accession:transcript_id:locus_id:window_start0:2689)",
+    "sampling": "one smallest-key eligible block per CDS, then first48 distinct nonoverlapping transcript units by smallest key, all selected outcomes retained",
+    "resource_failures": "log before folding; never interpret a sampled or truncated graph as disconnected"
+  },
+  "independence_and_leakage": {
+    "source": "study and measurement provenance independent from both Mustoe studies",
+    "overlap": "reject exact15nt variable-sequence and150nt-context duplicates of discovery; group overlapping windows and alternate transcript isoforms from the same locus",
+    "sequence_relation": "screen150nt contexts for local alignments covering at least100nt with at least80percent identity to discovery contexts; flag or exclude before scoring",
+    "homology_limit": "absence of shared local sequence is not proof of unrelated full-length proteins or phylogenetic independence; report annotated homologous families and species explicitly",
+    "models": "no prediction model trained on discovery outcomes; heat-time nuisance calibration is performed per graph by the frozen algorithm and is not evidence of held-out functional prediction"
+  },
+  "primary_endpoint": {
+    "name": "integrated extra fragmentation",
+    "definition": "integral over threshold0to1 of E_F(threshold), with zero integrand where the selected set is empty; baseline compatibility components held fixed",
+    "comparison": "mean generic-reference-minus-observed integral over all selected graphs; primary correlation-aware heat-rank reference, 199 evaluation draws following independent64-draw nuisance calibration",
+    "controls": "uncorrelated within-component score permutation; coarse degree-conditioned cutoff control; exhaustive roughness-matched score permutations when resource gate permits",
+    "success": "positive contrast with a95percent cluster interval excluding zero, AND no material explanation by heat-fit mismatch/influential cluster; exact conditional control is corroborative only where informative",
+    "failure": "contrast consistent with zero, sign reversal, fit failure that prevents the comparison, or disappearance under an adequately matched control",
+    "supporting": "longest positive persistence interval, local roughness, empty-set rates and primary0.5-cutoff summaries; no selection of a favorable threshold"
+  },
+  "uncertainty": {
+    "cluster": "10000 resamples of independent transcript/locus units with seed2689; these quantify variation across the sampled modeled transcript collection",
+    "monte_carlo": "report conditional simulation error separately from cluster variation",
+    "model": "report context/engine/target-table changes separately; bootstrap does not quantify structural-model correctness",
+    "biological": "do not interpret transcript resampling as biological-replicate or population-evolution uncertainty"
+  },
+  "robustness": {
+    "thresholds": "full critical-value filtration, no threshold tuning",
+    "influence": "leave-one-transcript-cluster-out contrast and top1/top5cluster exclusions declared sensitivities; report every sign change",
+    "context": "210nt and300nt where source boundaries permit on the same selected blocks, with availability denominator explicit",
+    "engine": "ViennaRNA2.7.2 Turner2004 and independent RNAstructure6.6 at310.15K; no mutant probing restraints",
+    "target_uncertainty": "separate published partner tables or documented reconstruction alternatives; arbitrary unions are not treated as occupied joint folds"
+  },
+  "claims_not_tested": ["fitness or expression improvement", "historical natural selection", "folding or evolutionary kinetics", "native conformational switching", "joint physical occupancy of a multiple-partner graph"]
+}
