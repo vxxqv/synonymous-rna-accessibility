@@ -1,0 +1,15 @@
+# OPTIONAL PROPOSAL ONLY. Root may create a separate diagnostic job from this.
+# Checkout/setup/install are the same frozen prerequisite steps as existing CI.
+# This command does NOT execute the feature replay or any folding function.
+- name: Inspect frozen runtime and model configuration without folding
+  id: persist_config
+  run: python -I -B analysis/programme/retrospective/persist_v2/feature_replay/config_preflight.py --repo-root . --output "${{ runner.temp }}/persist-config-only"
+
+- name: Retain configuration-only diagnostic
+  if: ${{ always() }}
+  uses: actions/upload-artifact@v4
+  with:
+    name: persist-config-only-${{ github.run_id }}-${{ github.run_attempt }}
+    path: ${{ runner.temp }}/persist-config-only/
+    if-no-files-found: warn
+    retention-days: 14

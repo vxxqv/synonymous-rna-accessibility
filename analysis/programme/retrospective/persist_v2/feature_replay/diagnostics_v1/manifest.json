@@ -1,0 +1,37 @@
+{
+  "scope": "Read-only diagnostic investigation and synthetic tests; no actual folding",
+  "repository_review_revision": "602ac0559efcc9c5e10410d85f6a164761dc2b3f",
+  "github_run_id": 40178313369,
+  "github_job_id": 121123714821,
+  "retained_artifact_count": 0,
+  "actual_child_stdout_stderr_available": false,
+  "actual_child_exit_code_available": false,
+  "cause": "unresolved; no diagnosis inferred from generic parent exception",
+  "real_folds_executed": 0,
+  "outcome_reads": 0,
+  "shared_files_modified": [],
+  "inspected_repository_sha256": {
+    ".github/workflows/verify.yml": "8414fd1b4b0aa863291611e10697fae7ba52ac65ed9be42c0bc0a4e967df1fb6",
+    "requirements-tested.txt": "b030f13d6e8e77a1d6ceabda8b7aa04f235350e04b1455ebe70d2e715fc4ab50",
+    "analysis/programme/retrospective/persist_v2/feature_replay/replay.py": "45acb89825bf2555974da9d146b7c48e4a9b98f627cdc5d72c46fcf60507fdd9",
+    "analysis/programme/retrospective/persist_v2/feature_replay/manifest.json": "0deb9bbf5c703f3dc59bac52a5f22e8b3fb465a502be707cf5e0a2801d03547e",
+    "analysis/programme/retrospective/persist_v2/feature_replay/README.md": "ae3eac0cda261d5bee20ee080118341c6e132a3aaa6649735595841cef37ed21",
+    "analysis/programme/retrospective/persist_v2/persist_prediction.py": "962f953ed17574db96f5ba0cde4827486830244941ea745bb34fb697a5514aaa",
+    "analysis/programme/retrospective/persist_v2/protocol.json": "a3dc686a23acaa12af2f2f44154b8baac819cb6df3a0a6d81328dd3ebdc5fd24",
+    "analysis/programme/retrospective/persist_v2/Turner2004.par": "f4a71a542533ce5420515004a0b51f6949e93d4087204185a35eb38fff30d466",
+    "results/programme/persist_v2/feature_replay/verification_receipt.json": "f17aa1e5d9d5854bcbde2ba02ff9a8c94225168c4f9950e860baba00ffd67f4c"
+  },
+  "delivered_sha256": {
+    "config_preflight.py": "98e0a1d47d76d8de2f77b4ea5171643f78c2cc880af314514246b6fb9fa5c8ff",
+    "github_artifacts.json": "fb09a9699b26ad536855bb4263ff01baa31a107d9af48b348e96cb4a9eb2b8d9",
+    "job_121123714821.log": "1c10bb72af7842d161d449f7c0c65d605bde9415b94cce6803051b813e948a9c",
+    "make_manifest.py": "0a55b16e4ce22eee4fc5afe5d885253115983d7ed4ff542884cded49096fac2d",
+    "observe_failure.py": "0298c1557b9ad131e45031c6a29aa14f959369df8f0b99466d9724dad6347f37",
+    "report.md": "5e4677b2e91884fbdb84499658a5c456e5fc66962927c5e9600aefce840bb2ee",
+    "synthetic_receipt.json": "33afe5f7c05a597f6e7b75682b966e476b7e2ff268ad90ee6b8e0207d84fdef8",
+    "synthetic_receipt_pre_wording.json": "33afe5f7c05a597f6e7b75682b966e476b7e2ff268ad90ee6b8e0207d84fdef8",
+    "test_synthetic.py": "8865b9d263b1d75dd450bce88d3b659120aca7defca3e58978013cd515b1bc36",
+    "workflow_config_only_fragment.yml": "7cfe26201824730ac299e854d485b3516ecd6aa9acffc83f46ba03d836a930e5",
+    "workflow_diagnostic_fragment.yml": "6492368731fe84f6a4cd93734697afe2fe2d680b5850a8ca1038f1af5a5ac6fa"
+  }
+}

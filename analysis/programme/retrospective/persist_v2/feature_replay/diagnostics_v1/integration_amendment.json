@@ -1,0 +1,12 @@
+{
+  "change": "Place synthetic temporary fixtures in the system temporary directory to avoid Windows path-length failures from the deep repository location. Scientific code and assertions unchanged.",
+  "failed_integration_test": {
+    "failed": 5,
+    "passed": 2,
+    "cause": "WinError206/3 creating deep synthetic fixture directories before scientific mock checks"
+  },
+  "test_sha256_before": "8865b9d263b1d75dd450bce88d3b659120aca7defca3e58978013cd515b1bc36",
+  "test_sha256_after": "94dccfabf12c61f51494074b770c047e7be5dab263de555fa81bfd239009a882",
+  "original_delivery_zip_sha256": "0b843493a6507922f0315435a9fcb3319ba9f98b2322a493abbeccd643f8cf22",
+  "original_manifest_is_historical": true
+}

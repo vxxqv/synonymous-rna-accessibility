@@ -1,0 +1,20 @@
+# PROPOSAL ONLY. Root must integrate/commit before any authorized CI execution.
+# Add this id to the existing replay step; retain its command and failure policy.
+- name: Replay the frozen full-length reporter sequence features
+  id: persist_features
+  run: python -I -B analysis/programme/retrospective/persist_v2/feature_replay/replay.py --repo-root . --output "${{ runner.temp }}/ci-persist-features"
+
+# Proposed script integration path. No scientific source replacement.
+- name: Expose existing frozen-feature failure diagnostics
+  if: ${{ always() && steps.persist_features.outcome == 'failure' }}
+  run: python -I -B analysis/programme/retrospective/persist_v2/feature_replay/observe_failure.py --root "${{ runner.temp }}/ci-persist-features"
+
+# This must run even if the observation step also fails. Upload only feature output.
+- name: Retain existing frozen-feature failure evidence
+  if: ${{ always() && steps.persist_features.outcome == 'failure' }}
+  uses: actions/upload-artifact@v4
+  with:
+    name: persist-feature-failure-${{ github.run_id }}-${{ github.run_attempt }}
+    path: ${{ runner.temp }}/ci-persist-features/
+    if-no-files-found: warn
+    retention-days: 14

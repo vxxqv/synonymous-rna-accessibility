@@ -1,0 +1,532 @@
+{
+  "status": "descriptive_summary_of_frozen_comparisons",
+  "source_sha256": "cdbdd83d6861c54d1cd5094990cbeb306803349c63bdd0519caf391676c819f6",
+  "comparisons": 270,
+  "settings": [
+    {
+      "partition": "development",
+      "pseudocount": "0.25",
+      "groups": 1124,
+      "categories": {
+        "different_RNA_shared_DNA": {
+          "n": 9,
+          "minimum": 0.7031935450684937,
+          "maximum": 0.8316523071843606
+        },
+        "different_RNA_different_DNA": {
+          "n": 18,
+          "minimum": 0.00018879608705319676,
+          "maximum": 0.07142096038171704
+        },
+        "same_RNA_different_DNA": {
+          "n": 9,
+          "minimum": 0.16502426713123713,
+          "maximum": 0.3399870437479762
+        },
+        "identical_scenario": {
+          "n": 9,
+          "minimum": 1.0,
+          "maximum": 1.0
+        }
+      },
+      "raw_rank_agreement": {
+        "DNA_rank_correlations": [
+          {
+            "defined": 1124,
+            "mean_defined": 0.8625552984198639,
+            "range_defined": [
+              0.14285714285714285,
+              1.0
+            ],
+            "undefined": 0
+          },
+          {
+            "defined": 1124,
+            "mean_defined": 0.8723296872720558,
+            "range_defined": [
+              0.23809523809523808,
+              1.0
+            ],
+            "undefined": 0
+          },
+          {
+            "defined": 1124,
+            "mean_defined": 0.8889384991863238,
+            "range_defined": [
+              0.14285714285714285,
+              1.0
+            ],
+            "undefined": 0
+          }
+        ],
+        "RNA_rank_correlations": [
+          {
+            "defined": 1124,
+            "mean_defined": 0.9531029664186456,
+            "range_defined": [
+              0.5,
+              1.0
+            ],
+            "undefined": 0
+          },
+          {
+            "defined": 1124,
+            "mean_defined": 0.9464190868640006,
+            "range_defined": [
+              0.5476190476190477,
+              1.0
+            ],
+            "undefined": 0
+          },
+          {
+            "defined": 1124,
+            "mean_defined": 0.9450002326549075,
+            "range_defined": [
+              0.5030030300035688,
+              1.0
+            ],
+            "undefined": 0
+          }
+        ]
+      }
+    },
+    {
+      "partition": "validation",
+      "pseudocount": "0.25",
+      "groups": 1052,
+      "categories": {
+        "different_RNA_shared_DNA": {
+          "n": 9,
+          "minimum": 0.7038920614051863,
+          "maximum": 0.8285343610784378
+        },
+        "different_RNA_different_DNA": {
+          "n": 18,
+          "minimum": 0.0016301170658791896,
+          "maximum": 0.10286057200853807
+        },
+        "same_RNA_different_DNA": {
+          "n": 9,
+          "minimum": 0.17245293424139654,
+          "maximum": 0.35225183123583453
+        },
+        "identical_scenario": {
+          "n": 9,
+          "minimum": 1.0,
+          "maximum": 1.0
+        }
+      },
+      "raw_rank_agreement": {
+        "DNA_rank_correlations": [
+          {
+            "defined": 1052,
+            "mean_defined": 0.8688499331456934,
+            "range_defined": [
+              0.19047619047619047,
+              1.0
+            ],
+            "undefined": 0
+          },
+          {
+            "defined": 1052,
+            "mean_defined": 0.8815311287271947,
+            "range_defined": [
+              0.40476190476190477,
+              1.0
+            ],
+            "undefined": 0
+          },
+          {
+            "defined": 1052,
+            "mean_defined": 0.8951855518275166,
+            "range_defined": [
+              0.3592878785739777,
+              1.0
+            ],
+            "undefined": 0
+          }
+        ],
+        "RNA_rank_correlations": [
+          {
+            "defined": 1052,
+            "mean_defined": 0.95128896970434,
+            "range_defined": [
+              0.29940656547831473,
+              1.0
+            ],
+            "undefined": 0
+          },
+          {
+            "defined": 1052,
+            "mean_defined": 0.9514021417877765,
+            "range_defined": [
+              0.5476190476190477,
+              1.0
+            ],
+            "undefined": 0
+          },
+          {
+            "defined": 1052,
+            "mean_defined": 0.9438705797024027,
+            "range_defined": [
+              0.2619047619047619,
+              1.0
+            ],
+            "undefined": 0
+          }
+        ]
+      }
+    },
+    {
+      "partition": "development",
+      "pseudocount": "0.5",
+      "groups": 1124,
+      "categories": {
+        "different_RNA_shared_DNA": {
+          "n": 9,
+          "minimum": 0.7011081885955122,
+          "maximum": 0.8274796562558597
+        },
+        "different_RNA_different_DNA": {
+          "n": 18,
+          "minimum": 0.0061158269306619325,
+          "maximum": 0.07205102247163164
+        },
+        "same_RNA_different_DNA": {
+          "n": 9,
+          "minimum": 0.17763757688476647,
+          "maximum": 0.34756710124090995
+        },
+        "identical_scenario": {
+          "n": 9,
+          "minimum": 1.0,
+          "maximum": 1.0
+        }
+      },
+      "raw_rank_agreement": {
+        "DNA_rank_correlations": [
+          {
+            "defined": 1124,
+            "mean_defined": 0.8625552984198639,
+            "range_defined": [
+              0.14285714285714285,
+              1.0
+            ],
+            "undefined": 0
+          },
+          {
+            "defined": 1124,
+            "mean_defined": 0.8723296872720558,
+            "range_defined": [
+              0.23809523809523808,
+              1.0
+            ],
+            "undefined": 0
+          },
+          {
+            "defined": 1124,
+            "mean_defined": 0.8889384991863238,
+            "range_defined": [
+              0.14285714285714285,
+              1.0
+            ],
+            "undefined": 0
+          }
+        ],
+        "RNA_rank_correlations": [
+          {
+            "defined": 1124,
+            "mean_defined": 0.9531029664186456,
+            "range_defined": [
+              0.5,
+              1.0
+            ],
+            "undefined": 0
+          },
+          {
+            "defined": 1124,
+            "mean_defined": 0.9464190868640006,
+            "range_defined": [
+              0.5476190476190477,
+              1.0
+            ],
+            "undefined": 0
+          },
+          {
+            "defined": 1124,
+            "mean_defined": 0.9450002326549075,
+            "range_defined": [
+              0.5030030300035688,
+              1.0
+            ],
+            "undefined": 0
+          }
+        ]
+      }
+    },
+    {
+      "partition": "validation",
+      "pseudocount": "0.5",
+      "groups": 1052,
+      "categories": {
+        "different_RNA_shared_DNA": {
+          "n": 9,
+          "minimum": 0.7085509800730332,
+          "maximum": 0.8288751830862626
+        },
+        "different_RNA_different_DNA": {
+          "n": 18,
+          "minimum": 0.008425965834963701,
+          "maximum": 0.09762585173628778
+        },
+        "same_RNA_different_DNA": {
+          "n": 9,
+          "minimum": 0.1809770590911884,
+          "maximum": 0.3544727661471247
+        },
+        "identical_scenario": {
+          "n": 9,
+          "minimum": 1.0,
+          "maximum": 1.0
+        }
+      },
+      "raw_rank_agreement": {
+        "DNA_rank_correlations": [
+          {
+            "defined": 1052,
+            "mean_defined": 0.8688499331456934,
+            "range_defined": [
+              0.19047619047619047,
+              1.0
+            ],
+            "undefined": 0
+          },
+          {
+            "defined": 1052,
+            "mean_defined": 0.8815311287271947,
+            "range_defined": [
+              0.40476190476190477,
+              1.0
+            ],
+            "undefined": 0
+          },
+          {
+            "defined": 1052,
+            "mean_defined": 0.8951855518275166,
+            "range_defined": [
+              0.3592878785739777,
+              1.0
+            ],
+            "undefined": 0
+          }
+        ],
+        "RNA_rank_correlations": [
+          {
+            "defined": 1052,
+            "mean_defined": 0.95128896970434,
+            "range_defined": [
+              0.29940656547831473,
+              1.0
+            ],
+            "undefined": 0
+          },
+          {
+            "defined": 1052,
+            "mean_defined": 0.9514021417877765,
+            "range_defined": [
+              0.5476190476190477,
+              1.0
+            ],
+            "undefined": 0
+          },
+          {
+            "defined": 1052,
+            "mean_defined": 0.9438705797024027,
+            "range_defined": [
+              0.2619047619047619,
+              1.0
+            ],
+            "undefined": 0
+          }
+        ]
+      }
+    },
+    {
+      "partition": "development",
+      "pseudocount": "1.0",
+      "groups": 1124,
+      "categories": {
+        "different_RNA_shared_DNA": {
+          "n": 9,
+          "minimum": 0.6996130294981266,
+          "maximum": 0.8238139869502442
+        },
+        "different_RNA_different_DNA": {
+          "n": 18,
+          "minimum": 0.012850846413243935,
+          "maximum": 0.07276126359036614
+        },
+        "same_RNA_different_DNA": {
+          "n": 9,
+          "minimum": 0.1908568390953638,
+          "maximum": 0.3544977888983294
+        },
+        "identical_scenario": {
+          "n": 9,
+          "minimum": 1.0,
+          "maximum": 1.0
+        }
+      },
+      "raw_rank_agreement": {
+        "DNA_rank_correlations": [
+          {
+            "defined": 1124,
+            "mean_defined": 0.8625552984198639,
+            "range_defined": [
+              0.14285714285714285,
+              1.0
+            ],
+            "undefined": 0
+          },
+          {
+            "defined": 1124,
+            "mean_defined": 0.8723296872720558,
+            "range_defined": [
+              0.23809523809523808,
+              1.0
+            ],
+            "undefined": 0
+          },
+          {
+            "defined": 1124,
+            "mean_defined": 0.8889384991863238,
+            "range_defined": [
+              0.14285714285714285,
+              1.0
+            ],
+            "undefined": 0
+          }
+        ],
+        "RNA_rank_correlations": [
+          {
+            "defined": 1124,
+            "mean_defined": 0.9531029664186456,
+            "range_defined": [
+              0.5,
+              1.0
+            ],
+            "undefined": 0
+          },
+          {
+            "defined": 1124,
+            "mean_defined": 0.9464190868640006,
+            "range_defined": [
+              0.5476190476190477,
+              1.0
+            ],
+            "undefined": 0
+          },
+          {
+            "defined": 1124,
+            "mean_defined": 0.9450002326549075,
+            "range_defined": [
+              0.5030030300035688,
+              1.0
+            ],
+            "undefined": 0
+          }
+        ]
+      }
+    },
+    {
+      "partition": "validation",
+      "pseudocount": "1.0",
+      "groups": 1052,
+      "categories": {
+        "different_RNA_shared_DNA": {
+          "n": 9,
+          "minimum": 0.7120858821970485,
+          "maximum": 0.828761636401413
+        },
+        "different_RNA_different_DNA": {
+          "n": 18,
+          "minimum": 0.015680532470076003,
+          "maximum": 0.0930901955670561
+        },
+        "same_RNA_different_DNA": {
+          "n": 9,
+          "minimum": 0.1901102120055354,
+          "maximum": 0.3580388715430196
+        },
+        "identical_scenario": {
+          "n": 9,
+          "minimum": 1.0,
+          "maximum": 1.0
+        }
+      },
+      "raw_rank_agreement": {
+        "DNA_rank_correlations": [
+          {
+            "defined": 1052,
+            "mean_defined": 0.8688499331456934,
+            "range_defined": [
+              0.19047619047619047,
+              1.0
+            ],
+            "undefined": 0
+          },
+          {
+            "defined": 1052,
+            "mean_defined": 0.8815311287271947,
+            "range_defined": [
+              0.40476190476190477,
+              1.0
+            ],
+            "undefined": 0
+          },
+          {
+            "defined": 1052,
+            "mean_defined": 0.8951855518275166,
+            "range_defined": [
+              0.3592878785739777,
+              1.0
+            ],
+            "undefined": 0
+          }
+        ],
+        "RNA_rank_correlations": [
+          {
+            "defined": 1052,
+            "mean_defined": 0.95128896970434,
+            "range_defined": [
+              0.29940656547831473,
+              1.0
+            ],
+            "undefined": 0
+          },
+          {
+            "defined": 1052,
+            "mean_defined": 0.9514021417877765,
+            "range_defined": [
+              0.5476190476190477,
+              1.0
+            ],
+            "undefined": 0
+          },
+          {
+            "defined": 1052,
+            "mean_defined": 0.9438705797024027,
+            "range_defined": [
+              0.2619047619047619,
+              1.0
+            ],
+            "undefined": 0
+          }
+        ]
+      }
+    }
+  ],
+  "interpretation": "Comparisons share libraries and genotypes. They are dependent diagnostics, not biological replicates or calibrated uncertainty.",
+  "selection": "Every original partition, pseudocount and pair retained. Category ranges summarized after validation; not a new prospective endpoint.",
+  "anchor_invariance": "A scalar reference subtraction within each class is annihilated by Q because Q1=0. It also preserves within-class ranks and endpoint-relative barriers. No shared reference anchor was used by the frozen analysis."
+}
