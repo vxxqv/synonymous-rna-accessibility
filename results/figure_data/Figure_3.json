@@ -648,10 +648,11 @@
     "width_mm": 174,
     "height_mm": 129.0,
     "clipped_text_preflight": [],
+    "text_overlap_preflight": [],
     "ordinary_font_pt": 8.5
   },
   "provenance": {
-    "renderer_sha256": "759236a2f2188de2b15d10972c16115c90200d06ace5d7d88e3c26cd7fd0e09d",
+    "renderer_sha256": "861b88e1065368a1ddc1b77e693ee58b7dcfa58cf7f30817f182eb9ecd51f795",
     "inputs": [
       {
         "path": "analysis/exact/exact_bridge_threshold_automata.json",

@@ -19,10 +19,12 @@ def load(path):
     path=Path(path);SEEN.add(path.as_posix());return json.loads((ROOT/path).read_text())
 def family(name):return [load(p.relative_to(ROOT)) for p in sorted((ROOT/'results'/name).glob('*.json')) if p.name!='summary.json']
 def panel(ax,letter,title):
-    ax.text(-.15,1.08,letter,transform=ax.transAxes,fontsize=10,fontweight='bold',va='bottom')
-    ax.set_title(textwrap.fill(title,30),loc='left',pad=9,fontweight='bold',fontsize=8.5)
-def grid(rows=3,cols=2,height=153):
-    fig,axes=plt.subplots(rows,cols,figsize=(174/25.4,height/25.4),squeeze=False)
+    # Reserve separate horizontal slots; panel letters never share the y-label gutter.
+    ax.text(0,1.08,letter,transform=ax.transAxes,fontsize=10,fontweight='bold',va='bottom')
+    ax.set_title(textwrap.fill(title,27),loc='left',x=.105,pad=9,fontweight='bold',fontsize=8.5)
+def grid(rows=3,cols=2,height=153,height_ratios=None):
+    fig,axes=plt.subplots(rows,cols,figsize=(174/25.4,height/25.4),squeeze=False,
+                         gridspec_kw={'height_ratios':height_ratios} if height_ratios else None)
     fig.subplots_adjust(left=.17,right=.975,top=.91,bottom=.095,wspace=.65,hspace=1.05)
     return fig,axes
 def ecdf(ax,values,**kwargs):
@@ -43,7 +45,14 @@ def save(fig,name,out,data):
         b=t.get_window_extent(renderer)
         if b.x0<bbox.x0-1 or b.y0<bbox.y0-1 or b.x1>bbox.x1+1 or b.y1>bbox.y1+1:clipped.append(t.get_text())
     if clipped:raise ValueError(name+': clipped text '+str(clipped))
-    data['export']={'width_mm':174,'height_mm':float(fig.get_figheight()*25.4),'clipped_text_preflight':clipped,'ordinary_font_pt':8.5}
+    texts=[t for t in fig.findobj(matplotlib.text.Text) if t.get_visible() and t.get_text().strip()]
+    overlaps=[]
+    for first,second in itertools.combinations(texts,2):
+        a,b=first.get_window_extent(renderer),second.get_window_extent(renderer)
+        if min(a.x1,b.x1)-max(a.x0,b.x0)>.5 and min(a.y1,b.y1)-max(a.y0,b.y0)>.5:
+            overlaps.append([first.get_text(),second.get_text()])
+    if overlaps:raise ValueError(name+': overlapping text '+str(overlaps))
+    data['export']={'width_mm':174,'height_mm':float(fig.get_figheight()*25.4),'clipped_text_preflight':clipped,'text_overlap_preflight':overlaps,'ordinary_font_pt':8.5}
     data['provenance']={'renderer_sha256':hashlib.sha256(Path(__file__).read_bytes()).hexdigest(),'inputs':[{'path':p,'sha256':hashlib.sha256((ROOT/p).read_bytes()).hexdigest()} for p in sorted(SEEN)],'matplotlib':matplotlib.__version__,'numpy':np.__version__}
     (ROOT/'results/figure_data'/f'{name}.json').write_text(json.dumps(data,indent=2,allow_nan=False))
     for ext in ('pdf','svg','eps'):fig.savefig(out/f'{name}.{ext}',dpi=600)
@@ -57,7 +66,10 @@ def figure1(out):
     use=[r for r in filt if r['condition']=='incell'];suse=[r for r in smooth if r['condition']=='incell'];ause=[r for r in add if r['condition']=='incell']
     series=[('Folding score',[r['observed']['integrated_excess'] for r in use],TEAL,'-'),('Score shuffle',[r['null']['integrated_excess']['mean'] for r in use],GREY,':'),('Smooth reference',[r['heat']['integrated_excess']['mean'] for r in suse],BLUE,'--'),('Additive codon',[r['approximations']['codon']['rank_restored']['integrated_excess']['mean'] for r in ause],PURPLE,'-.')]
     for label,values,col,ls in series:ecdf(ax,values,color=col,ls=ls,label=label)
-    ax.set(xlabel=r'Integrated excess  $I_E$',ylabel='Cumulative fraction',xlim=(0,.24),ylim=(0,1.03));ax.legend(loc='lower right',handlelength=1.6,fontsize=7.2,labelspacing=.2,borderaxespad=.3)
+    ax.set(xlabel=r'Integrated excess  $I_E$',ylabel='Cumulative fraction',xlim=(0,.24),ylim=(0,1.03))
+    handles,_=ax.get_legend_handles_labels()
+    ax.legend(handles,['Folding','Shuffled','Smooth','Additive'],loc='lower right',ncol=2,
+              handlelength=1.4,fontsize=7.2,labelspacing=.3,columnspacing=.8,borderaxespad=.3)
     data['panels']['a']={k:v for k,v,_,_ in series}
     ax=axes[0,1];panel(ax,'b','Observed versus smooth reference')
     for c,mark in zip(CONDITIONS,('o','x')):
@@ -69,7 +81,7 @@ def figure1(out):
     for j,(src,key,label) in enumerate(keys):
         for k,c in enumerate(CONDITIONS):
             row=inf[f'{src}/{c}/{key}/null_minus_observed'];interval(ax,row,j+(k-.5)*.18,COLORS[c],('o','s')[k]);rows.append({'reference':label,'condition':c,**row})
-    ax.axvline(0,color=GREY,lw=.8,ls=':');ax.set(yticks=range(3),yticklabels=[k[2] for k in keys],xlabel=r'Reference − folding-score mean $I_E$',ylim=(-.6,2.7));ax.invert_yaxis();data['panels']['c']=rows
+    ax.axvline(0,color=GREY,lw=.8,ls=':');ax.set(yticks=range(3),yticklabels=[k[2] for k in keys],xlabel=r'Reference − folding-score mean $I_E$',ylim=(-.6,2.7));ax.invert_yaxis();ax.xaxis.set_major_locator(MaxNLocator(3));data['panels']['c']=rows
     ax=axes[1,1];panel(ax,'d','Degree matching at cutoff 0.5')
     rows=[]
     for j,name in enumerate(('uniform','degree')):
@@ -81,7 +93,7 @@ def figure1(out):
     for k,c in enumerate(CONDITIONS):
         for j,t in enumerate(('0.05','0.1','0.2')):
             row=inf[f'smoothness/{c}/exact_conditional/{t}'];interval(ax,row,j+(k-.5)*.18,COLORS[c],('o','s')[k]);rows.append({'tolerance':t,'condition':c,**row})
-    ax.axvline(0,color=GREY,lw=.8,ls=':');ax.set(yticks=range(3),yticklabels=['±5%','±10%','±20%'],xlabel=r'Reference − observed mean $I_E$',ylim=(-.6,2.7));ax.invert_yaxis();data['panels']['e']=rows
+    ax.axvline(0,color=GREY,lw=.8,ls=':');ax.set(yticks=range(3),yticklabels=['±5%','±10%','±20%'],xlabel=r'Reference − observed mean $I_E$',ylim=(-.6,2.7));ax.invert_yaxis();ax.xaxis.set_major_locator(MaxNLocator(3));data['panels']['e']=rows
     ax=axes[2,1];panel(ax,'f','Additive approximation is descriptive')
     for c,mark in zip(CONDITIONS,('o','x')):
         rr=[r for r in add if r['condition']==c];x=[r['approximations']['codon']['in_sample_R_squared'] for r in rr];y=[r['observed']['integrated_excess']-r['approximations']['codon']['rank_restored']['integrated_excess']['mean'] for r in rr]
@@ -103,7 +115,8 @@ def figure3(out):
     for j,(l,u,col) in enumerate(zip(lam,mu,cols)):
         axes[3].plot([u,l],[j,j],color=LIGHT,lw=2);axes[3].plot(l,j,'o',color=col,ms=5);axes[3].plot(u,j,'s',mfc='white',mec=col,ms=5)
         axes[3].text(l+.5,j,f'{l:.3f}',va='center',fontsize=8)
-    axes[3].set(yticks=range(3),yticklabels=['Shift 1','Shift 2','Shift 3'],xlabel='Integer-matrix growth root',xlim=(0,34));axes[3].invert_yaxis();axes[3].legend([Line2D([],[],marker='o',ls='',color=INK),Line2D([],[],marker='s',ls='',mfc='white',color=INK)],[r'Both targets $\lambda_d$',r'Near transition $\mu_d$'],loc='lower left',bbox_to_anchor=(-.05,1.22),ncol=2,fontsize=7.2,handlelength=.8,columnspacing=.8)
+    axes[3].set(yticks=range(3),yticklabels=['Shift 1','Shift 2','Shift 3'],xlabel='Integer-matrix growth root',xlim=(0,35),ylim=(-.35,3.25));axes[3].invert_yaxis()
+    axes[3].legend([Line2D([],[],marker='o',ls='',color=INK),Line2D([],[],marker='s',ls='',mfc='white',color=INK)],[r'Both targets $\lambda_d$',r'Near transition $\mu_d$'],loc='lower left',ncol=1,fontsize=7.2,handlelength=.8,labelspacing=.2,borderaxespad=.2)
     save(fig,'Figure_3',out,data)
 
 def figure2(out):
@@ -127,8 +140,8 @@ def field_grid(row,thresholds):
     return out
 
 def figure4(out):
-    rows=family('expansion/filtration');fig,axes=grid(height=159);fig.subplots_adjust(right=.89);data={'claim':'A cutoff can miss barriers, while most observed barriers have short retention-threshold lifetimes','panels':{}};thresholds=np.linspace(0,1,101)
-    by={(r['id'],r['condition']):r for r in rows};ids=sorted(set(r['id'] for r in rows),key=lambda i:-max(by[i,c]['observed']['longest_lifetime'] for c in CONDITIONS));cmap=LinearSegmentedColormap.from_list('excess',['#FFFFFF','#6EAAA2','#134D4B'])
+    rows=family('expansion/filtration');fig,axes=grid(height=177,height_ratios=[1,1,1.4]);fig.subplots_adjust(right=.89,hspace=.9);data={'claim':'A cutoff can miss barriers, while most observed barriers have short retention-threshold lifetimes','panels':{}};thresholds=np.linspace(0,1,101)
+    by={(r['id'],r['condition']):r for r in rows};ids=sorted(set(r['id'] for r in rows),key=lambda i:(-max(by[i,c]['observed']['longest_lifetime'] for c in CONDITIONS),i));cmap=LinearSegmentedColormap.from_list('excess',['#FFFFFF','#6EAAA2','#134D4B'])
     affected=[i for i in ids if any(by[i,c]['observed']['positive_bar_count']>0 for c in CONDITIONS)]
     for j,c in enumerate(CONDITIONS):
         ax=axes[0,j];n=sum(by[i,c]['observed']['positive_bar_count']>0 for i in ids);panel(ax,chr(97+j),f'{LABELS[c]}: {n}/404 with a bar');all_values=np.array([field_grid(by[i,c],thresholds) for i in ids]);values=np.array([field_grid(by[i,c],thresholds) for i in affected]);im=ax.imshow(values,aspect='auto',origin='upper',extent=(0,1,len(affected),0),cmap=cmap,vmin=0,vmax=1,interpolation='nearest',rasterized=True)
@@ -152,7 +165,7 @@ def figure4(out):
     save(fig,'Figure_4',out,data)
 
 def figure5(out):
-    rs=family('expansion/rnastructure');long=family('expansion/longer');sens=load('results/sensitivity_summary.json');data={'claim':'Robustness checks support a bounded model result and expose limits; none supplies prospective biological validation','panels':{}};fig,axes=grid(height=158)
+    rs=family('expansion/rnastructure');long=family('expansion/longer');sens=load('results/sensitivity_summary.json');data={'claim':'Robustness checks support a bounded model result and expose limits; none supplies prospective biological validation','panels':{}};fig,axes=grid(height=174);fig.subplots_adjust(bottom=.17)
     ax=axes[0,0];panel(ax,'a','Independent engine, same sequences')
     for c,marker in zip(CONDITIONS,('o','x')):
         rr=[r for r in rs if r['condition']==c];x=[r['vienna_filtration']['integrated_excess'] for r in rr];y=[r['filtration']['integrated_excess'] for r in rr];ax.scatter(x,y,s=21,marker=marker,c=COLORS[c],lw=.8,label=LABELS[c]);data['panels'][f'a_{c}']={'ViennaRNA':x,'RNAstructure':y}
@@ -185,7 +198,7 @@ def figure5(out):
         for k,value in enumerate(row):ax.plot(k,j,'o' if value else 'x',ms=5,color=TEAL if value else GREY,mfc=TEAL if value else 'white',mew=.8)
     ax.set(xticks=range(3),xticklabels=['New source','New engine','Prospective'],yticks=range(5),yticklabels=sources,xlim=(-.4,2.4),ylim=(5.7,-.7));ax.tick_params(axis='x',labelrotation=25);ax.text(1,5.25,'Prospective validation pending',ha='center',fontsize=8,color=ORANGE)
     ax.spines['left'].set_visible(False);ax.spines['bottom'].set_visible(False);ax.tick_params(length=0);data['panels']['f']={'sources':sources,'flags':matrix,'zero_marker':'x','one_marker':'filled circle'}
-    fig.legend([Line2D([],[],lw=5,color=c) for c in (ORANGE,TEAL,LIGHT)],['Excess persists','Nonempty; no excess','Empty'],ncol=3,loc='lower center',bbox_to_anchor=(.55,.005),handlelength=.9,columnspacing=1.)
+    fig.legend([Line2D([],[],lw=5,color=c) for c in (ORANGE,TEAL,LIGHT)],['Excess persists','Nonempty; no excess','Empty'],ncol=3,loc='lower center',bbox_to_anchor=(.55,.015),handlelength=.9,columnspacing=1.)
     save(fig,'Figure_5',out,data)
 
 def supplement1(out):
