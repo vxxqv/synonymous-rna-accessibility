@@ -1,0 +1,12 @@
+{
+  "status": "Amendment specified after original development results but before any validation outcome",
+  "reason": "Primary source review found that the frozen path midpoint rule is not Dellin and Srinivasa's bisection selector. Correct attribution requires a separate canonical baseline rather than silently changing an existing policy.",
+  "source": "https://www.ri.cmu.edu/pub_files/2016/3/paper-lazysp.pdf",
+  "source_locator": "Dellin and Srinivasa 2016, Algorithm 2 and Simple selectors paragraph on PDF page 3",
+  "preserved_policy": "Retain lazy_bisection as its existing internal key and unchanged rule, but label it Path midpoint. Retain path_cut unchanged, using that midpoint rule on its path turns.",
+  "additional_policy": "lazy_vertex_bisection: vertex adaptation of canonical bisection. On the selected shortest possible path, choose an unknown vertex maximizing distance in path positions to the nearest evaluated vertex. Endpoints count as evaluated. Resolve ties by lowest vertex index.",
+  "primary_criterion": "Preserve the original criterion against degree, forward and path midpoint. The added canonical bisection comparison is reported separately and does not replace or relax that criterion.",
+  "development": "Evaluate only the added policy on every one of the 760 recorded development worlds. Preserve the original five-policy receipt and recorded truth worlds. Include every additional result without exclusions.",
+  "validation": "Freeze all six policies before evaluating seeds 2000 through 2049: 3800 worlds, 22800 policy runs. No policy tuning based on the new development comparison or validation outcomes.",
+  "non_claims": ["The original source studies edge selection; this implementation is a vertex adaptation", "The original development analysis was not prespecified with this sixth baseline", "No claim that path/cut is superior follows from correcting a comparator's attribution"]
+}

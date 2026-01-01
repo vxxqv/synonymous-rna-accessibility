@@ -1,7 +1,10 @@
-"""Frozen synthetic query benchmark. Validation is disabled in this version.
+"""Frozen synthetic query benchmark with separate development and validation.
 
 Run from repository root:
-    python analysis/programme/acquisition_benchmark.py --output PATH
+    python analysis/programme/acquisition_benchmark.py --phase development --output NEW_PATH
+
+Validation requires the recorded source hashes in validation_freeze.json.
+Use a new result directory, including when running beneath a bounded runner.
 """
 import argparse
 from collections import Counter
@@ -18,9 +21,39 @@ import numpy as np
 
 ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT))
-from src.acquisition import (POLICIES, certificate, choose_query,
+from src.acquisition import (POLICIES, POLICY_LABELS, certificate, choose_query,
     clairvoyant_additional_cost, exact_minimax, minimum_unknown_separator)
 from src.barrier_identification import threshold_status
+
+VALIDATION_FREEZE = ROOT/'results/programme/acquisition_v1/validation_freeze.json'
+EXECUTION_INPUTS = (
+    'src/acquisition.py', 'src/barrier_identification.py',
+    'analysis/programme/acquisition_benchmark.py',
+    'analysis/programme/acquisition_protocol_v1.json',
+    'analysis/programme/acquisition_conventions_v1.json',
+    'analysis/programme/acquisition_bisection_amendment_v1.json',
+    'analysis/programme/acquisition_validation_contract_v1.json',
+    'tests/test_acquisition.py', 'requirements-tested.txt')
+
+
+def verify_validation_freeze():
+    """Fail before generating heldout outcomes if any frozen input changed."""
+    frozen = json.loads(VALIDATION_FREEZE.read_text(encoding='utf-8'))
+    if set(frozen['input_sha256']) != set(EXECUTION_INPUTS):
+        raise ValueError('Validation freeze does not cover the exact execution inputs')
+    if frozen['validation_seeds'] != list(range(2000, 2050)):
+        raise ValueError('Validation seed range differs from the frozen protocol')
+    if frozen['expected_worlds'] != 3800 or frozen['expected_policy_runs'] != 22800:
+        raise ValueError('Validation coverage differs from the frozen protocol')
+    for relative, expected in frozen['input_sha256'].items():
+        observed = sha256((ROOT/relative).read_bytes()).hexdigest()
+        if observed != expected:
+            raise ValueError(f'Validation freeze hash mismatch: {relative}')
+    software = {'python': platform.python_version(), 'numpy': np.__version__,
+                'networkx': nx.__version__}
+    if software != frozen['software']:
+        raise ValueError('Validation software versions differ from the freeze')
+    return sha256(VALIDATION_FREEZE.read_bytes()).hexdigest()
 
 
 def adjacency_for(labels):
@@ -174,7 +207,7 @@ def exact_checks():
     return dict(counts)
 
 
-def paired_summary(records):
+def paired_summary(records, phase):
     by_world = {}
     for row in records:
         by_world.setdefault(row['world_id'], {})[row['policy']] = row
@@ -199,6 +232,31 @@ def paired_summary(records):
             'losses': sum(d > 0 for d in differences),
             'largest_extra_queries': max(differences),
             'largest_saved_queries': -min(differences)}
+        if phase == 'validation':
+            # Each seed contributes the complete fixed mix of 76 graph, field
+            # and initial-observation worlds. No resampling of individual
+            # worlds or biological population interpretation is intended.
+            blocks = {}
+            for world in by_world.values():
+                seed = world['path_cut']['seed']
+                blocks.setdefault(seed, []).append(
+                    world['path_cut']['queries']-world[baseline]['queries'])
+            if sorted(blocks) != list(range(2000, 2050)) or any(
+                    len(values) != 76 for values in blocks.values()):
+                raise AssertionError('Incomplete validation seed blocks')
+            block_means = [float(np.mean(blocks[seed])) for seed in sorted(blocks)]
+            mean = float(np.mean(block_means))
+            standard_error = float(np.std(block_means, ddof=1)/np.sqrt(50))
+            # 0.975 quantile of Student t with 49 degrees of freedom.
+            critical = 2.0095752371292397
+            paired[baseline]['mean_difference_uncertainty'] = {
+                'method': 'Approximate Student t interval across 50 seed block means',
+                'level': .95, 'degrees_of_freedom': 49,
+                'standard_error': standard_error,
+                'interval': [mean-critical*standard_error, mean+critical*standard_error],
+                'seed_block_means': dict(zip(sorted(blocks), block_means)),
+                'worlds_per_seed': 76,
+                'scope': 'Monte Carlo design uncertainty for the fixed graph, field and initial observation mix; not biological uncertainty or a simultaneous interval across policies'}
     strata = []
     keys = sorted(set((r['graph'], r['family'], r['initial_condition']) for r in records))
     for graph, family, initial in keys:
@@ -214,14 +272,28 @@ def paired_summary(records):
                   and overall['path_cut']['maximum_queries'] <= overall[p]['maximum_queries']
                   for p in ('degree', 'lazy_forward', 'lazy_bisection'))
     return {'overall': overall, 'paired_path_cut_minus_baseline': paired,
+            'policy_labels': POLICY_LABELS,
             'graph_field_initial_strata': strata,
-            'development_only_efficiency_criterion_met': success,
-            'interpretation': 'Development simulations only. This is not validation or biological evidence.'}
+            'efficiency_criterion_met': success,
+            'primary_criterion_baselines': ['degree', 'lazy_forward', 'lazy_bisection'],
+            'canonical_bisection_comparison_separate': {
+                'median_query_ratio': (overall['path_cut']['median_queries']/overall['lazy_vertex_bisection']['median_queries']
+                                       if overall['lazy_vertex_bisection']['median_queries'] else None),
+                'maximum_query_difference': overall['path_cut']['maximum_queries']-overall['lazy_vertex_bisection']['maximum_queries']},
+            'interpretation': ('Heldout synthetic simulation comparison. This is not biological evidence.'
+                               if phase == 'validation' else
+                               'Development simulations only. This is not validation or biological evidence.')}
 
 
-def run(output):
+def run(output, phase='development'):
     start = perf_counter()
-    output.mkdir(parents=True, exist_ok=True)
+    if output.exists():
+        raise FileExistsError(f'Results require a new output directory: {output}')
+    if phase not in ('development', 'validation'):
+        raise ValueError('Expected development or validation phase')
+    freeze_hash = verify_validation_freeze() if phase == 'validation' else None
+    seeds = range(2000, 2050) if phase == 'validation' else range(1000, 1010)
+    output.mkdir(parents=True, exist_ok=False)
     checks = exact_checks()
     records = []
     worlds = []
@@ -240,9 +312,11 @@ def run(output):
             'diameter': diameter, 'families': families})
         minimax = exact_minimax(adjacency, a, b) if name == 'Q3' else None
         for fi, family in enumerate(families):
-            for seed in range(1000, 1010):
+            for seed in seeds:
                 rng = np.random.default_rng(np.random.SeedSequence([seed, gi, fi, 0]))
                 truth, threshold = field_values(family, labels, heat, rng)
+                # The protocol forces endpoint occupancy. This edit need not
+                # preserve an exact superlevel set of the generating field.
                 truth[a] = truth[b] = 1
                 truth = truth.tolist()
                 actual = truth_status(graph, truth, a, b)
@@ -281,30 +355,29 @@ def run(output):
                             'clairvoyant_additional': lower_bound, 'q3_minimax_remaining': minimax_cost,
                             'policy_seconds': perf_counter()-policy_start})
         print(json.dumps({'graph_completed': name, 'worlds': len(worlds), 'policy_runs': len(records)}), flush=True)
-    if len(worlds) != 760 or len(records) != 3800:
+    if len(worlds) != 76*len(seeds) or len(records) != 456*len(seeds):
         raise AssertionError('Coverage differs from frozen contract')
-    summary = paired_summary(records)
-    summary.update({'phase': 'development', 'validation_outcomes_examined': False,
+    summary = paired_summary(records, phase)
+    summary.update({'phase': phase, 'validation_outcomes_examined': phase == 'validation',
+        'validation_freeze_sha256': freeze_hash,
+        'occupancy_interpretation': 'Forcing endpoints present is an occupancy edit. In particular, additive-derived worlds are not asserted to remain exact additive superlevel restrictions.',
         'worlds': len(worlds), 'policy_runs': len(records), 'checked_query_prefixes': prefixes,
         'false_certificates': 0, 'exact_checks': checks,
         'connected_worlds': sum(w['truth_status'] == 'connected' for w in worlds),
         'separated_worlds': sum(w['truth_status'] == 'separated' for w in worlds),
         'runtime_seconds': perf_counter()-start,
         'software': {'python': platform.python_version(), 'numpy': np.__version__, 'networkx': nx.__version__},
-        'input_sha256': {p: sha256((ROOT/p).read_bytes()).hexdigest() for p in (
-            'src/acquisition.py', 'src/barrier_identification.py',
-            'analysis/programme/acquisition_benchmark.py',
-            'analysis/programme/acquisition_protocol_v1.json',
-            'analysis/programme/acquisition_conventions_v1.json')}})
+        'input_sha256': {p: sha256((ROOT/p).read_bytes()).hexdigest() for p in EXECUTION_INPUTS}})
     for name, data in [('summary.json', summary), ('worlds.json', worlds),
                        ('policy_results.json', records), ('graphs.json', inventory)]:
         (output/name).write_text(json.dumps(data, indent=2)+'\n', encoding='utf-8')
     print(json.dumps({k: summary[k] for k in ('worlds', 'policy_runs', 'checked_query_prefixes',
-        'false_certificates', 'exact_checks', 'overall', 'development_only_efficiency_criterion_met')}), flush=True)
+        'false_certificates', 'exact_checks', 'overall', 'efficiency_criterion_met')}), flush=True)
 
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--output', type=Path, required=True)
+    parser.add_argument('--phase', choices=('development', 'validation'), default='development')
     arguments = parser.parse_args()
-    run(arguments.output)
+    run(arguments.output, arguments.phase)

@@ -11,7 +11,13 @@ from heapq import heappop, heappush
 import networkx as nx
 
 
-POLICIES = ('random', 'degree', 'lazy_forward', 'lazy_bisection', 'path_cut')
+POLICIES = ('random', 'degree', 'lazy_forward', 'lazy_bisection', 'path_cut',
+            'lazy_vertex_bisection')
+POLICY_LABELS = {'random': 'Uniform random', 'degree': 'Highest degree',
+                 'lazy_forward': 'LazySP forward, vertex adaptation',
+                 'lazy_bisection': 'Path midpoint',
+                 'path_cut': 'Path/cut alternation',
+                 'lazy_vertex_bisection': 'LazySP bisection, vertex adaptation'}
 
 
 def validate(adjacency, state, a, b):
@@ -121,8 +127,14 @@ def choose_query(adjacency, state, a, b, policy, step, rng):
     candidates = [v for v in path if state[v] == -1]
     if policy == 'lazy_forward':
         return candidates[0]
-    # Central unqueried position on the complete possible path. Index, not
-    # path order, resolves equal distance from the path midpoint.
+    if policy == 'lazy_vertex_bisection':
+        evaluated_positions = [i for i, v in enumerate(path) if state[v] != -1]
+        positions = {v: i for i, v in enumerate(path)}
+        return min(candidates, key=lambda v: (
+            -min(abs(positions[v]-i) for i in evaluated_positions), v))
+    # Historical internal key lazy_bisection denotes our path midpoint rule,
+    # not the published bisection selector. Preserve it and path/cut behavior.
+    # Index, not path order, resolves equal distance from the path midpoint.
     locations = {v: i for i, v in enumerate(path)}
     return min(candidates, key=lambda v: (abs(2*locations[v]-(len(path)-1)), v))
 

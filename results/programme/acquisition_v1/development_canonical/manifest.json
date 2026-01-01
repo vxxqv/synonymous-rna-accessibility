@@ -1,0 +1,180 @@
+{
+  "schema_version": 2,
+  "claim_id": "ACQUISITION_V1_CANONICAL_BISECTION_DEVELOPMENT",
+  "repository": {
+    "commit": "1e1259477f116ebdc1d69a903bb1552c5c2c92b6",
+    "dirty": true
+  },
+  "command": [
+    "C:/Users/VIVAAN/Documents/Codex/2026-10-24/protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2/work/env/Scripts/python.exe",
+    "analysis/programme/acquisition_additional_baseline.py",
+    "--output",
+    "results/programme/acquisition_v1/development_canonical/results"
+  ],
+  "environment": {
+    "software": [
+      {
+        "name": "runner-python",
+        "version": "3.12.14"
+      },
+      {
+        "name": "Python",
+        "version": "3.12.14"
+      },
+      {
+        "name": "numpy",
+        "version": "2.5.4"
+      },
+      {
+        "name": "networkx",
+        "version": "3.7"
+      }
+    ],
+    "hardware": "Windows-11-10.0.26300-SP0"
+  },
+  "mathematics": {
+    "assertion_tested": "The additional canonical vertex bisection baseline produces sound certificates on every recorded development world; original policy costs and worlds are preserved.",
+    "coefficient_domain": "Exact binary graph states and integer query costs",
+    "conventions": "The added selector maximizes distance along the possible path to the nearest evaluated position; ties use lowest vertex index. This is a vertex adaptation of Dellin and Srinivasa 2016 Algorithm 2, specified in the amendment.",
+    "inputs": [
+      "All 760 recorded development worlds, seeds 1000 through 1009",
+      "Original five-policy results for comparison only"
+    ],
+    "bounds": {
+      "maximum_vertices": 64,
+      "additional_policy_evaluations": 760,
+      "validation_worlds_examined": 0
+    },
+    "non_claims": [
+      "No biological data",
+      "No heldout validation",
+      "No policy tuning",
+      "No alteration of the original five-policy efficiency criterion"
+    ]
+  },
+  "randomness": {
+    "used": false,
+    "generator": "Recorded development worlds only; added policy is deterministic",
+    "seed": null
+  },
+  "run": {
+    "started_at": "2026-10-25T04:34:52.527807+00:00",
+    "runtime_seconds": 2.39,
+    "exit_status": 0,
+    "status": "completed",
+    "timeout_seconds": 60.0,
+    "max_output_bytes": 1048576,
+    "resource_limits": {
+      "memory_bytes": null,
+      "cpu_seconds": null,
+      "max_cores": null,
+      "max_threads": null
+    },
+    "missing_results": [],
+    "invalid_results": []
+  },
+  "execution_artifacts": [
+    "src/acquisition.py",
+    "src/barrier_identification.py",
+    "analysis/programme/acquisition_benchmark.py",
+    "analysis/programme/acquisition_additional_baseline.py",
+    "analysis/programme/acquisition_bisection_amendment_v1.json",
+    "results/programme/acquisition_v1/development/worlds.json",
+    "results/programme/acquisition_v1/development/graphs.json",
+    "results/programme/acquisition_v1/development/policy_results.json",
+    "results/programme/acquisition_v1/development/summary.json"
+  ],
+  "input_artifacts": [
+    {
+      "path": "src/acquisition.py",
+      "sha256": "6005d30d709dc8100a1de64822d8e80cf8a8dbc8d9c3a18de8d21f69622be6ee",
+      "sha256_after": "6005d30d709dc8100a1de64822d8e80cf8a8dbc8d9c3a18de8d21f69622be6ee"
+    },
+    {
+      "path": "src/barrier_identification.py",
+      "sha256": "035902bf255c42a43843570abf1145e8d17a9d872fa0eadc605d53087fd4823e",
+      "sha256_after": "035902bf255c42a43843570abf1145e8d17a9d872fa0eadc605d53087fd4823e"
+    },
+    {
+      "path": "analysis/programme/acquisition_benchmark.py",
+      "sha256": "fc45ec4438b194bf06c1826948e1b7e2f97c826d4a498572fc660e39203a155a",
+      "sha256_after": "fc45ec4438b194bf06c1826948e1b7e2f97c826d4a498572fc660e39203a155a"
+    },
+    {
+      "path": "analysis/programme/acquisition_additional_baseline.py",
+      "sha256": "c2d33ec2a4c59ab42be71b2be1897499f9b3ef5a065625782ea08fb90f5c5add",
+      "sha256_after": "c2d33ec2a4c59ab42be71b2be1897499f9b3ef5a065625782ea08fb90f5c5add"
+    },
+    {
+      "path": "analysis/programme/acquisition_bisection_amendment_v1.json",
+      "sha256": "5354e8297e9af62cd423861abc184bdd8495d1c7579363169251ff5f32384e23",
+      "sha256_after": "5354e8297e9af62cd423861abc184bdd8495d1c7579363169251ff5f32384e23"
+    },
+    {
+      "path": "results/programme/acquisition_v1/development/worlds.json",
+      "sha256": "07e7809cd524655099b7a347138e3349e419dc555c4e5d813b8afb6a1dfbea75",
+      "sha256_after": "07e7809cd524655099b7a347138e3349e419dc555c4e5d813b8afb6a1dfbea75"
+    },
+    {
+      "path": "results/programme/acquisition_v1/development/graphs.json",
+      "sha256": "bc7859250f6a350364803581f5ea8ec4bd1732694f76ca78fe61f2fd84744ba8",
+      "sha256_after": "bc7859250f6a350364803581f5ea8ec4bd1732694f76ca78fe61f2fd84744ba8"
+    },
+    {
+      "path": "results/programme/acquisition_v1/development/policy_results.json",
+      "sha256": "4db9d983e5e2860125f6a7101e41c6dba53f496f2f33c2145aaa523d58f2f0be",
+      "sha256_after": "4db9d983e5e2860125f6a7101e41c6dba53f496f2f33c2145aaa523d58f2f0be"
+    },
+    {
+      "path": "results/programme/acquisition_v1/development/summary.json",
+      "sha256": "5755e7b0734320016649f996717e745635e83eb6b944f5a85ad5fa6b563579da",
+      "sha256_after": "5755e7b0734320016649f996717e745635e83eb6b944f5a85ad5fa6b563579da"
+    }
+  ],
+  "output_directory": "results/programme/acquisition_v1/development_canonical",
+  "declared_results": [
+    "results/programme/acquisition_v1/development_canonical/results/summary.json",
+    "results/programme/acquisition_v1/development_canonical/results/policy_results.json"
+  ],
+  "outputs": [
+    {
+      "path": "results/programme/acquisition_v1/development_canonical/stdout.txt",
+      "sha256": "b1ece48f1e07e4eb306b9253f059620fdecd03b97156a9c5bd85c4a1155e9b0f",
+      "kind": "log"
+    },
+    {
+      "path": "results/programme/acquisition_v1/development_canonical/stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "kind": "log"
+    },
+    {
+      "path": "results/programme/acquisition_v1/development_canonical/results/summary.json",
+      "sha256": "ff6c3d845d88ae8a537200da387062e2a9daa24c1fdb6d166cccad1d876b57ba",
+      "kind": "result"
+    },
+    {
+      "path": "results/programme/acquisition_v1/development_canonical/results/policy_results.json",
+      "sha256": "282e23e95b7f8a6cce8ce06fdbcdfabc32c0716bcd47700a01d76741ba0f22f4",
+      "kind": "result"
+    }
+  ],
+  "checks": [
+    {
+      "check": "input hashes unchanged",
+      "passed": true
+    },
+    {
+      "check": "process exited successfully within enforced limits",
+      "passed": true
+    },
+    {
+      "check": "declared result files are present and regular",
+      "passed": true
+    }
+  ],
+  "result": "Run completed; mathematical assertion requires interpretation and review.",
+  "residual_risks": [
+    "Command success does not establish the mathematical interpretation.",
+    "Only listed input artifacts are pinned; external dependencies need recorded versions."
+  ]
+}
