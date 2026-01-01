@@ -1,0 +1,28 @@
+{
+  "numerical_checks": "PASS",
+  "all_measurements": 72,
+  "all_endpoint_pairs": 2556,
+  "all_scenarios_including_point": 28,
+  "all_certificate_orders": 5,
+  "minimum_separation_ratio_exact": "1654983897462/1632704052467",
+  "minimum_percent_excess": 1.3645978866369182,
+  "canvas_inches": [
+    8.5,
+    9.2
+  ],
+  "final_width_mm": 174,
+  "scale": 0.8059286706808708,
+  "minimum_note_native_pt": 8.3,
+  "minimum_note_final_pt": 6.689207966651228,
+  "hashes": {
+    "outputs\\Research_Cycle_6\\FAS_All_Endpoint_Pairs.csv": "6005f795eecb0a04ce5a4dd67bd881897a3a06a05e7ed31318cf6b5db6b3d98e",
+    "outputs\\Research_Cycle_6\\FAS_All_Scenario_Results.csv": "53c3d7d1f9bb083e2c5fe481d71962caa9ab972cf1732c8c2f3f3747b851dfe7",
+    "outputs\\Research_Cycle_6\\FAS_Exact_Order_Certificate.csv": "9c69357976e77c247375128dd361f2cfc70ccc684b182792b820c3c1f5eba6b4",
+    "outputs\\Research_Cycle_6\\FAS_Ordinal_Evidence.png": "9cf66cb599a18918f8a2c1b951add5a67e13a95421811b91f4eee159e72368f8",
+    "outputs\\Research_Cycle_6\\FAS_Result_Summary.json": "61ba7ab088f10535f78cabf0c6059c1ae934600edaa0c130753bc505ce1d8ad6",
+    "outputs\\Research_Cycle_6\\FAS_Verified_Measurements.csv": "4b3ea2fca1dc55fcab7bb88dfcbe2c3397ab62bb8f3b77652b319d8adc8c100f",
+    "outputs\\Research_Cycle_6\\Figure_FAS_Ordinal.pdf": "0f228cfe4581e80448fc8602a4c7abb90452ea07741675d84b1127b31d2d8597",
+    "outputs\\Research_Cycle_6\\figure_provenance.json": "653599446a02f7aedb3e032e612b02acd756bda1c65e7f87f66306ce1575dbc2",
+    "work\\research_cycle6\\make_figure.py": "77444ad59b92eab28aabd6baa8ce9e40f9f602b6d05ac33d7e313c775e4cf1e8"
+  }
+}

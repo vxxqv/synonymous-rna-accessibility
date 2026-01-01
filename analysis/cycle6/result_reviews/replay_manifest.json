@@ -1,0 +1,170 @@
+{
+  "schema": "fas_independent_offline_replay_v1",
+  "files": [
+    {
+      "path": "analysis/cycle6/fas_pilot/protocol_v1.md",
+      "sha256": "2b21f044d5d4eb8488d8e8c8752977f45927d6ee85c4da466bca23a1f0bb7bef",
+      "bytes": 12460
+    },
+    {
+      "path": "analysis/cycle6/fas_pilot/ordinal_geometry.py",
+      "sha256": "8872d6452afe4ccbf84e61450d4b1bfbdadf26469f20c0e24452f3abc205f9ac",
+      "bytes": 6242
+    },
+    {
+      "path": "analysis/cycle6/fas_pilot/count_analysis.py",
+      "sha256": "97a65f22b3baced94a4c5b916284c8bbdcda807f8e3392904c3447d0796953a2",
+      "bytes": 9105
+    },
+    {
+      "path": "analysis/cycle6/fas_pilot/verify_synthetic.py",
+      "sha256": "a098549d48dcce62b4292cd433266e09265ba3f5c46bd08cf845c1a34e998656",
+      "bytes": 5343
+    },
+    {
+      "path": "analysis/cycle6/fas_pilot/verify_count_reader.py",
+      "sha256": "c98b989f207eef44168edce0319ea14d13911dbeb0c374af4608f8336da2b945",
+      "bytes": 3242
+    },
+    {
+      "path": "analysis/cycle6/fas_pilot/source_contract.json",
+      "sha256": "f0fb3d2ced5dc36d0794eb76b7a257351534f8dd3a784f33c024be4b500a9c38",
+      "bytes": 9259
+    },
+    {
+      "path": "analysis/cycle6/fas_pilot/preflight_corrections.md",
+      "sha256": "da84b3c1a335dd522c70dd81bd573261f0430edfa0af7ee1afaa2e105172dd6f",
+      "bytes": 2589
+    },
+    {
+      "path": "analysis/cycle6/fas_pilot/synthetic_verification.json",
+      "sha256": "7e128ed621ceaeb430f090f9460a4cd7fda27f78a375a85ebd75f587c4ad4bcf",
+      "bytes": 2589
+    },
+    {
+      "path": "analysis/cycle6/fas_pilot/count_reader_verification.json",
+      "sha256": "38ed4b9705adff93e63e727627ff8348955cf6943b70d0ea159a6f0dbd64d576",
+      "bytes": 335
+    },
+    {
+      "path": "analysis/cycle6/fas_pilot/freeze.json",
+      "sha256": "7bddb75dcdb4b401a120dcb518bd34fcfb5f6a801a492ee1a59f1fced90be3eb",
+      "bytes": 1439
+    },
+    {
+      "path": "analysis/cycle6/fas_pilot/format_freeze.json",
+      "sha256": "d3b69ed44015a712d4dbe436cdb7399c009e521f3444a6a5736c547a04094041",
+      "bytes": 897
+    },
+    {
+      "path": "analysis/cycle6/fas_pilot/run_headerless.py",
+      "sha256": "11addfe6ee9c02f7fc17b9b6a414167cc0d98baccbab71bf7fa899fd7b713bb6",
+      "bytes": 1119
+    },
+    {
+      "path": "analysis/cycle6/fas_pilot/format_amendment_v1.md",
+      "sha256": "73a89257046695a1882c01b98971018d78aba95a144afb5e6752a9e10d2b9a62",
+      "bytes": 2616
+    },
+    {
+      "path": "data/cycle6/fas_counts/Phylogeny_HEK293_BR_Rep_1.3072.counts",
+      "sha256": "f563a81ffffd91524ae377dd74d1f2d43688d7e35d4fff7a2b757f89394a801c",
+      "bytes": 215615
+    },
+    {
+      "path": "data/cycle6/fas_counts/Phylogeny_HEK293_BR_Rep_2.3072.counts",
+      "sha256": "536f9087bebe6f89a8e24a8e158719ffc65936cfb1b002076320c94320ffdeb2",
+      "bytes": 215509
+    },
+    {
+      "path": "data/cycle6/fas_counts/Phylogeny_HEK293_BR_Rep_3.3072.counts",
+      "sha256": "6f32bcfc8374c52aae0954baeab534037bf922430ebe1418a8e90d6194e40465",
+      "bytes": 216687
+    },
+    {
+      "path": "data/cycle6/fas_counts/Phylogeny_HEK293_BR_Rep_4.3072.counts",
+      "sha256": "066791f89013e63f257408c23898b2ff3ceaa86a5ce41cbcf250ef65c9193764",
+      "bytes": 215820
+    },
+    {
+      "path": "data/cycle6/fas_counts/Phylogeny_HEK293_BR_Rep_5.3072.counts",
+      "sha256": "8b16b01d11789f557398107389123988e1d7d95a1997c871df5c08f144edb25d",
+      "bytes": 215149
+    },
+    {
+      "path": "data/cycle6/fas_counts/Phylogeny_HEK293_BR_Rep_6.3072.counts",
+      "sha256": "3957adb532ec9df6a58ee38aaa60318fe433a527a818628f434a83e0acb79ea7",
+      "bytes": 216960
+    },
+    {
+      "path": "data/cycle6/fas_counts/Phylogeny_HEK293_BR_Rep_7.3072.counts",
+      "sha256": "775f6136c61cf86da747a0a3feeade4f9a7c5a818c4d9c948f378ad9b2ca5248",
+      "bytes": 216191
+    },
+    {
+      "path": "data/cycle6/fas_counts/Phylogeny_HEK293_BR_Rep_8.3072.counts",
+      "sha256": "bed22f625660b616ed110e8b158b9b23be400349c01dda957d3340659ce3f07c",
+      "bytes": 215720
+    },
+    {
+      "path": "data/cycle6/fas_counts/Phylogeny_HEK293_BR_Rep_9.3072.counts",
+      "sha256": "69a3e13ab930a93ae4b67edfcf77cad5acee7e58d4778ea7ed4dd4b4c40f32e7",
+      "bytes": 216064
+    },
+    {
+      "path": "data/cycle6/fas_counts/Phylogeny_HEK293_TR_Rep_1.3072.counts",
+      "sha256": "db447ded160b8b04054fad62e4a7cdb5a6ae0bfb262ab45689549a9b8b32e623",
+      "bytes": 216213
+    },
+    {
+      "path": "data/cycle6/fas_counts/Phylogeny_HEK293_TR_Rep_2.3072.counts",
+      "sha256": "95a1e4c05b60721cbdb01a89a73f983c0f7b02c45cef46e7cdd10b5e6635c78a",
+      "bytes": 216016
+    },
+    {
+      "path": "data/cycle6/fas_counts/Phylogeny_HEK293_TR_Rep_3.3072.counts",
+      "sha256": "2f165a215b991683cfe7650d2fafb7f2dd471c483b4b8539740e3f48cf65e14c",
+      "bytes": 217547
+    },
+    {
+      "path": "results/cycle6/full_result_v1.json.gz",
+      "sha256": "e3c3d061052643046de58dc789866899b0fb14ade83f06170e2cf32e9e54e145",
+      "bytes": 681232
+    },
+    {
+      "path": "analysis/cycle6/result_reviews/numerical/verify_counts.py",
+      "sha256": "f5a932166d3cd8ddefc47020e190610b0b845aea9a72a1d6a3531f9693ffd840",
+      "bytes": 13037
+    },
+    {
+      "path": "analysis/cycle6/result_reviews/numerical/verify_counts_offline.py",
+      "sha256": "41cb805ae2cbf0142a35bd7714f347d04e9f71a6eb97a4453cb42e92896c0e39",
+      "bytes": 13118
+    },
+    {
+      "path": "analysis/cycle6/result_reviews/numerical/observed_receipt.json",
+      "sha256": "b241c91c1b639b4753eacbc119d32d99aadb1e7ad57b1b9ac92e2a258accad77",
+      "bytes": 4635
+    },
+    {
+      "path": "analysis/cycle6/result_reviews/numerical/synthetic_receipt.json",
+      "sha256": "47d7d57f65d50f774d5ac6b21a6e948e2b3e2d1236b06afe124c1e66002af36c",
+      "bytes": 483
+    },
+    {
+      "path": "analysis/cycle6/result_reviews/mathematical/verify_result.py",
+      "sha256": "047846795d9383eeef60ad8f74887783f706406fde0f4a75f916bd33af667db2",
+      "bytes": 14073
+    },
+    {
+      "path": "analysis/cycle6/result_reviews/mathematical/verification.json",
+      "sha256": "b797d7d71e312e17c41a802721ad1d99efddeaf36ddedd28d6697e3afe029d71",
+      "bytes": 147022
+    }
+  ],
+  "decompressed_result_sha256": "3f34f322acc8bc9a6f6b414278d6581c458bce08f0f3bb18a3bcccee7320e466",
+  "decompressed_result_bytes": 29145849,
+  "original_amendment_commit": "9ed05ad8ab75c596e87a5ce7b63eb1bb38e71ba5",
+  "git_history_required": false,
+  "network_required": false
+}

@@ -1,0 +1,978 @@
+{
+  "status": "completed_primary_and_independently_verified",
+  "protocol_commit": "7d8faf59fddde21ef4f1177f13ab5d2144d192e6",
+  "format_commit": "9ed05ad8ab75c596e87a5ce7b63eb1bb38e71ba5",
+  "archive_release": "not_updated",
+  "files": [
+    {
+      "path": "analysis/cycle6/closure_reviews/fas_biological_interpretation/authorized_summary.json",
+      "sha256": "bfc2b2ca3494b6be8453649196b9d2a0acad6d91dddc88521bfe247aa54d3e8c",
+      "bytes": 2181
+    },
+    {
+      "path": "analysis/cycle6/closure_reviews/fas_biological_interpretation/BaezaCenturion2019_crossref.json",
+      "sha256": "7a9c9bc8d86a53e31ac9b958b0b42660c52bbfb74fedc4615c355f207789a218",
+      "bytes": 25937
+    },
+    {
+      "path": "analysis/cycle6/closure_reviews/fas_biological_interpretation/bibliography_metadata.json",
+      "sha256": "b1fcfb21f10c03b0e70343528ff78c261a9750956a9d1824887a82c6dea878f9",
+      "bytes": 6808
+    },
+    {
+      "path": "analysis/cycle6/closure_reviews/fas_biological_interpretation/bibliography_retrieval.json",
+      "sha256": "d6dab7dcf131aa5887cad7f520e6faf294755e25f26fe8f987d9913a33ec6cf5",
+      "bytes": 1033
+    },
+    {
+      "path": "analysis/cycle6/closure_reviews/fas_biological_interpretation/certificate_algebra_check.json",
+      "sha256": "3f9d6279f8b5f22377a7dd4711040bbe547f0c2857d2953842d96c8a5418a658",
+      "bytes": 458
+    },
+    {
+      "path": "analysis/cycle6/closure_reviews/fas_biological_interpretation/claim_scope_matrix.json",
+      "sha256": "b92d21dff6404a3975fae518041979c018b37fe2659d2aab521f0a6b999f66b9",
+      "bytes": 2081
+    },
+    {
+      "path": "analysis/cycle6/closure_reviews/fas_biological_interpretation/delivery_manifest.json",
+      "sha256": "e6d9ee4dc412dc3dc9fb52b9fae56661562fc9b5acbff886eb3abe70bcbd625c",
+      "bytes": 2484
+    },
+    {
+      "path": "analysis/cycle6/closure_reviews/fas_biological_interpretation/Julien2016_crossref.json",
+      "sha256": "956df6e06515f860098755ce1ee70ef32b9e3b6b88f80889f69f5dca2e9f2d32",
+      "bytes": 15136
+    },
+    {
+      "path": "analysis/cycle6/closure_reviews/fas_biological_interpretation/MoCHI2024_crossref.json",
+      "sha256": "b08cf20ad2abf26db1e55638e0cac5336e33a1ec61b0ac401b42946ba22f83db",
+      "bytes": 28063
+    },
+    {
+      "path": "analysis/cycle6/closure_reviews/fas_biological_interpretation/report.md",
+      "sha256": "bd2ec756e74769c93dabdc2965206bd9aad07df9822e9c695a94674ee1d31f4e",
+      "bytes": 13170
+    },
+    {
+      "path": "analysis/cycle6/closure_reviews/fas_biological_interpretation/Scott1964_crossref.json",
+      "sha256": "c00b60d9edd89314ac4464ebf04037c42ebec456b285fb55afb8770b077aa267",
+      "bytes": 3932
+    },
+    {
+      "path": "analysis/cycle6/closure_reviews/fas_biological_interpretation/select_summary.py",
+      "sha256": "eb026a86fc7db536fb98fadb36c80d06c78c5308a39c515b14a208fa5fa1238f",
+      "bytes": 2607
+    },
+    {
+      "path": "analysis/cycle6/closure_reviews/fas_biological_interpretation/source_manifest.json",
+      "sha256": "020824fc12b37738362c78556b7174fb9b8c56f131cdd2857ae373f1c21a23bf",
+      "bytes": 2257
+    },
+    {
+      "path": "analysis/cycle6/closure_reviews/fas_biological_interpretation/summary_exposure_receipt.json",
+      "sha256": "963f8a8732d5821d17d527817b32a75690a273c45ba248f84593156363ff4bbe",
+      "bytes": 1035
+    },
+    {
+      "path": "analysis/cycle6/closure_reviews/fas_biological_interpretation/verified_references.csl.json",
+      "sha256": "b4e0ccd021c28ea7d91a285b31d6f4e33e8f775dcbd587c232e8bc6c05e59b5c",
+      "bytes": 3113
+    },
+    {
+      "path": "analysis/cycle6/closure_reviews/fas_figure_review/checks.json",
+      "sha256": "c7e7dfbd849461e26f21ca627041d7cdadc2e6ccef084dc7c075f7db43d6f096",
+      "bytes": 1640
+    },
+    {
+      "path": "analysis/cycle6/closure_reviews/fas_figure_review/correction_delta_1.json",
+      "sha256": "8100f649807cd6540df1af2120f3874f67be2b45ee0852f74dda4e8704e3d58d",
+      "bytes": 1175
+    },
+    {
+      "path": "analysis/cycle6/closure_reviews/fas_figure_review/correction_delta_1.md",
+      "sha256": "f32040f7e2d840c259b6926f497941175f4674b5103c09a9f661b8b8d44fce64",
+      "bytes": 677
+    },
+    {
+      "path": "analysis/cycle6/closure_reviews/fas_figure_review/receipt.json",
+      "sha256": "bf0e0b74bcc88d46bddfc990928dd142518595dd82e514a687b8d34d629db301",
+      "bytes": 376
+    },
+    {
+      "path": "analysis/cycle6/closure_reviews/fas_figure_review/review.md",
+      "sha256": "a2654a704a65e1f701cfa7030d9a820384ea7761271e060dd5e5ef2c670205d2",
+      "bytes": 4673
+    },
+    {
+      "path": "analysis/cycle6/closure_reviews/fas_manuscript_review/final_manifest.json",
+      "sha256": "82543832950d94147439015cf63771f1a832d306cea63b1ecc6eb0a06becd7a5",
+      "bytes": 565
+    },
+    {
+      "path": "analysis/cycle6/closure_reviews/fas_manuscript_review/receipt.json",
+      "sha256": "47450d8d52a672f3c4ec368903c7355bf223000f311d40f9b8ecc4c33a09e7a8",
+      "bytes": 1256
+    },
+    {
+      "path": "analysis/cycle6/closure_reviews/fas_manuscript_review/review.md",
+      "sha256": "4fe81d71149a83dc1f6c2911e8133404438c3f7449f9eeccef663b75a2d99c71",
+      "bytes": 6663
+    },
+    {
+      "path": "analysis/cycle6/closure_reviews/fas_manuscript_review/source_delta.md",
+      "sha256": "6e4daeef6604cb58fdef9a3f8cb67437140fc99ff4cbd9e4067ca2c3fbd1ef66",
+      "bytes": 1339
+    },
+    {
+      "path": "analysis/cycle6/closure_reviews/fas_portable_review/adapter.diff",
+      "sha256": "b11dd336e852fabd73f2370748308fa282ef444a5869cc70e19316ef22257df1",
+      "bytes": 2792
+    },
+    {
+      "path": "analysis/cycle6/closure_reviews/fas_portable_review/portability_receipt.json",
+      "sha256": "28d84b34460064f1bd78841ae804c9a0c7c0b5101cf966556422002b7e3575b9",
+      "bytes": 1940
+    },
+    {
+      "path": "analysis/cycle6/closure_reviews/fas_portable_review/preparation_receipt.json",
+      "sha256": "7785bdf41f1edd824ba10c4c44af9f3a5eca0cceed57ba0151383686c74dd34f",
+      "bytes": 1192
+    },
+    {
+      "path": "analysis/cycle6/closure_reviews/fas_portable_review/prepare_package.py",
+      "sha256": "aa2f7daa2b0dc0b0347718e9e7b4471813fb9aa60c97be67db0f6f66e785d353",
+      "bytes": 7658
+    },
+    {
+      "path": "analysis/cycle6/closure_reviews/fas_portable_review/review.md",
+      "sha256": "61819567521b33fb41f7af70d70b0e58e7460594394ffbaa3c06e643fbdc2330",
+      "bytes": 4288
+    },
+    {
+      "path": "analysis/cycle6/closure_reviews/fas_portable_review/verify_portability.py",
+      "sha256": "14011967f4c9a5b93d7c60e46cfa933b685bde86b5d9ffb0497efb9b929436c8",
+      "bytes": 4761
+    },
+    {
+      "path": "analysis/cycle6/closure_reviews/fas_result_math_audit/manifest.json",
+      "sha256": "419bc0c31754ef94e347d841cdf0e7d7588f3de51fb3062fa2db5fc3bf65a90b",
+      "bytes": 743
+    },
+    {
+      "path": "analysis/cycle6/closure_reviews/fas_result_math_audit/primary_certificate.csv",
+      "sha256": "55b6f2b0002a63db494c31d1393eff846e5d52590344dec15003088145eb8d46",
+      "bytes": 700
+    },
+    {
+      "path": "analysis/cycle6/closure_reviews/fas_result_math_audit/receipt.json",
+      "sha256": "18656e19ad78296dd3a6f43b94c7b3fbf6b29e34fdfbddbfa4982fcf2e9f6cab",
+      "bytes": 1631
+    },
+    {
+      "path": "analysis/cycle6/closure_reviews/fas_result_math_audit/review.md",
+      "sha256": "fe1e883c3d3b5f1810d59976fd83125d51048997a71c123d8ddc100f0550ca63",
+      "bytes": 7414
+    },
+    {
+      "path": "analysis/cycle6/closure_reviews/fas_result_math_audit/synthetic_receipt.json",
+      "sha256": "608ad85ee0ad91bd1c1e00ea4303e70691266d7582a2b38b8341271ec4bda7bd",
+      "bytes": 600
+    },
+    {
+      "path": "analysis/cycle6/closure_reviews/fas_result_math_audit/test_synthetic.py",
+      "sha256": "292ff3c9f799ee863bd28983bd6a5d1ab3876c4df5bd7e73d7cdb2538cc4a414",
+      "bytes": 4504
+    },
+    {
+      "path": "analysis/cycle6/closure_reviews/fas_result_math_audit/verify_result.py",
+      "sha256": "047846795d9383eeef60ad8f74887783f706406fde0f4a75f916bd33af667db2",
+      "bytes": 14073
+    },
+    {
+      "path": "analysis/cycle6/closure_reviews/fas_result_numerical_audit/observed_receipt.json",
+      "sha256": "b241c91c1b639b4753eacbc119d32d99aadb1e7ad57b1b9ac92e2a258accad77",
+      "bytes": 4635
+    },
+    {
+      "path": "analysis/cycle6/closure_reviews/fas_result_numerical_audit/review.md",
+      "sha256": "42b7ffc54597357962c08bb8b1d4c39758a9d5424f8a23bc14f4bb937cf62e0a",
+      "bytes": 6515
+    },
+    {
+      "path": "analysis/cycle6/closure_reviews/fas_result_numerical_audit/synthetic_receipt.json",
+      "sha256": "47d7d57f65d50f774d5ac6b21a6e948e2b3e2d1236b06afe124c1e66002af36c",
+      "bytes": 483
+    },
+    {
+      "path": "analysis/cycle6/closure_reviews/fas_result_numerical_audit/verify_counts.py",
+      "sha256": "f5a932166d3cd8ddefc47020e190610b0b845aea9a72a1d6a3531f9693ffd840",
+      "bytes": 13037
+    },
+    {
+      "path": "analysis/cycle6/closure_reviews/fas_successor_metadata_gate/check_membership.py",
+      "sha256": "59af0a659bace39fb50f58c6f065a32875862c7c4e7864bdb1fa79d80fe5d869",
+      "bytes": 2422
+    },
+    {
+      "path": "analysis/cycle6/closure_reviews/fas_successor_metadata_gate/delivery_manifest.json",
+      "sha256": "da51a3573b24e259da1820aa346b1321f055f8d530fc5bd4c300ddce845d8d08",
+      "bytes": 821
+    },
+    {
+      "path": "analysis/cycle6/closure_reviews/fas_successor_metadata_gate/membership_receipt.json",
+      "sha256": "d5f6744ebc060cfa3d9f5973ad6539dfc95f4f42b8aac88449b8967e13d1d7e3",
+      "bytes": 7572
+    },
+    {
+      "path": "analysis/cycle6/closure_reviews/fas_successor_metadata_gate/report.md",
+      "sha256": "382503c8b287174317f561a3a5e1c2d32f75c37e901ca8f2a253be501d394579",
+      "bytes": 8704
+    },
+    {
+      "path": "analysis/cycle6/closure_reviews/fas_successor_metadata_gate/selected_methods_only.json",
+      "sha256": "1f09cca554184904153b7edbb69941bb29075f96d12c1b16915e7671cd03da0e",
+      "bytes": 5566
+    },
+    {
+      "path": "analysis/cycle6/closure_reviews/fas_successor_metadata_gate/source_manifest.json",
+      "sha256": "4b642e1344dcb2ff246daaf19f5da6c83565353f069ea71cbccc15cd2330832d",
+      "bytes": 1557
+    },
+    {
+      "path": "analysis/cycle6/fas_pilot/count_analysis.py",
+      "sha256": "97a65f22b3baced94a4c5b916284c8bbdcda807f8e3392904c3447d0796953a2",
+      "bytes": 9105
+    },
+    {
+      "path": "analysis/cycle6/fas_pilot/count_reader_verification.json",
+      "sha256": "38ed4b9705adff93e63e727627ff8348955cf6943b70d0ea159a6f0dbd64d576",
+      "bytes": 335
+    },
+    {
+      "path": "analysis/cycle6/fas_pilot/format_amendment_v1.md",
+      "sha256": "73a89257046695a1882c01b98971018d78aba95a144afb5e6752a9e10d2b9a62",
+      "bytes": 2616
+    },
+    {
+      "path": "analysis/cycle6/fas_pilot/format_freeze.json",
+      "sha256": "d3b69ed44015a712d4dbe436cdb7399c009e521f3444a6a5736c547a04094041",
+      "bytes": 897
+    },
+    {
+      "path": "analysis/cycle6/fas_pilot/freeze.json",
+      "sha256": "7bddb75dcdb4b401a120dcb518bd34fcfb5f6a801a492ee1a59f1fced90be3eb",
+      "bytes": 1439
+    },
+    {
+      "path": "analysis/cycle6/fas_pilot/ordinal_geometry.py",
+      "sha256": "8872d6452afe4ccbf84e61450d4b1bfbdadf26469f20c0e24452f3abc205f9ac",
+      "bytes": 6242
+    },
+    {
+      "path": "analysis/cycle6/fas_pilot/preflight_corrections.md",
+      "sha256": "da84b3c1a335dd522c70dd81bd573261f0430edfa0af7ee1afaa2e105172dd6f",
+      "bytes": 2589
+    },
+    {
+      "path": "analysis/cycle6/fas_pilot/protocol_draft_v1.md",
+      "sha256": "eb6e76ed299f27227f68c541b9a0a3af2aee1792ca3efac239e1a46fe211eb51",
+      "bytes": 12290
+    },
+    {
+      "path": "analysis/cycle6/fas_pilot/protocol_v1.md",
+      "sha256": "2b21f044d5d4eb8488d8e8c8752977f45927d6ee85c4da466bca23a1f0bb7bef",
+      "bytes": 12460
+    },
+    {
+      "path": "analysis/cycle6/fas_pilot/run_headerless.py",
+      "sha256": "11addfe6ee9c02f7fc17b9b6a414167cc0d98baccbab71bf7fa899fd7b713bb6",
+      "bytes": 1119
+    },
+    {
+      "path": "analysis/cycle6/fas_pilot/source_contract.json",
+      "sha256": "f0fb3d2ced5dc36d0794eb76b7a257351534f8dd3a784f33c024be4b500a9c38",
+      "bytes": 9259
+    },
+    {
+      "path": "analysis/cycle6/fas_pilot/synthetic_verification.json",
+      "sha256": "7e128ed621ceaeb430f090f9460a4cd7fda27f78a375a85ebd75f587c4ad4bcf",
+      "bytes": 2589
+    },
+    {
+      "path": "analysis/cycle6/fas_pilot/verify_count_reader.py",
+      "sha256": "c98b989f207eef44168edce0319ea14d13911dbeb0c374af4608f8336da2b945",
+      "bytes": 3242
+    },
+    {
+      "path": "analysis/cycle6/fas_pilot/verify_synthetic.py",
+      "sha256": "a098549d48dcce62b4292cd433266e09265ba3f5c46bd08cf845c1a34e998656",
+      "bytes": 5343
+    },
+    {
+      "path": "analysis/cycle6/format_review/fas_acquisition_receipt.json",
+      "sha256": "cada5684d9244516aa4977b5f27f0cdda234c387a5a1df33782e3e7700a1102d",
+      "bytes": 2686
+    },
+    {
+      "path": "analysis/cycle6/format_review/fas_adapter_review/receipt.json",
+      "sha256": "373892aa747161d267b7ce6f1ecacf2dfef07599f6b9aa6712af23ea000eec42",
+      "bytes": 6120
+    },
+    {
+      "path": "analysis/cycle6/format_review/fas_adapter_review/review.md",
+      "sha256": "8d740ea1c50732eaa9495410b8b9afe1cc576b906f49516d19543642ad7170a2",
+      "bytes": 2998
+    },
+    {
+      "path": "analysis/cycle6/format_review/fas_adapter_review/review_adapter.py",
+      "sha256": "d84c3dfd7687cb0d85f9fad0d238c1bd6bb4f05b92d221bc34e3a1f56c793cc6",
+      "bytes": 6610
+    },
+    {
+      "path": "analysis/cycle6/format_review/fas_format_audit/audit_receipt.json",
+      "sha256": "2015257eb9f1c7ff929bbd90d430473ca7aa21424c6b36e6d93352241af7617b",
+      "bytes": 2404
+    },
+    {
+      "path": "analysis/cycle6/format_review/fas_format_audit/delivery_manifest.json",
+      "sha256": "d4a76908845f49b2ad963c77938a9ad8d8ef470e771487445dad6183cef72052",
+      "bytes": 1166
+    },
+    {
+      "path": "analysis/cycle6/format_review/fas_format_audit/filter_source_verification.json",
+      "sha256": "e180643b20d47cbae03153f81720fc35ba71119424d5a5a2b10e7827e4779ea7",
+      "bytes": 568
+    },
+    {
+      "path": "analysis/cycle6/format_review/fas_format_audit/first_record_receipt.json",
+      "sha256": "87047b92493d4008b3bffaf631b3f019f89f5bd4bd01320f084b754ff6b8c4a2",
+      "bytes": 9978
+    },
+    {
+      "path": "analysis/cycle6/format_review/fas_format_audit/initial_failure.json",
+      "sha256": "ffad31992a3c2136b6a6125b551df5b8f844548c1794dcc28cb26681653236e5",
+      "bytes": 269
+    },
+    {
+      "path": "analysis/cycle6/format_review/fas_format_audit/inspect_first_record.py",
+      "sha256": "92248c151542444c0ce6d9ed3c1fae162bf9b7fbcab8ec55e2d7ff4a5ea3d1ae",
+      "bytes": 3329
+    },
+    {
+      "path": "analysis/cycle6/format_review/fas_format_audit/inspect_first_record_initial_failed.py",
+      "sha256": "d7acd0ae235b9ac12b88c149fe85b08f7d07dab99f7e801358db404abb9c758d",
+      "bytes": 3328
+    },
+    {
+      "path": "analysis/cycle6/format_review/fas_format_audit/review.md",
+      "sha256": "c01588981c7fd1c9f7cdf787e51e8e2cd0e0b62647f4c202f18be0cd434ce522",
+      "bytes": 7398
+    },
+    {
+      "path": "analysis/cycle6/format_review/fas_initial_execution_failure.json",
+      "sha256": "585b5a42056e454ff62bbff3b391f6ceaedf80d5ec0dd9adfc2961338bc587b3",
+      "bytes": 516
+    },
+    {
+      "path": "analysis/cycle6/preflight_manifest.json",
+      "sha256": "abf962521bd815fc638263f43dd40a08142392f7613b68b92db5ade88c807bc1",
+      "bytes": 13854
+    },
+    {
+      "path": "analysis/cycle6/preflight_reviews/fas_count_reader_review/corrected_count_analysis.py",
+      "sha256": "307c3a3fe27720bceeffb4a348d9b10b7cc048e2a47a19049ab529a23454edd4",
+      "bytes": 8993
+    },
+    {
+      "path": "analysis/cycle6/preflight_reviews/fas_count_reader_review/corrected_ordinal_geometry.py",
+      "sha256": "8872d6452afe4ccbf84e61450d4b1bfbdadf26469f20c0e24452f3abc205f9ac",
+      "bytes": 6242
+    },
+    {
+      "path": "analysis/cycle6/preflight_reviews/fas_count_reader_review/corrected_protocol_draft_v1.md",
+      "sha256": "eb6e76ed299f27227f68c541b9a0a3af2aee1792ca3efac239e1a46fe211eb51",
+      "bytes": 12290
+    },
+    {
+      "path": "analysis/cycle6/preflight_reviews/fas_count_reader_review/corrected_source_contract.json",
+      "sha256": "f0fb3d2ced5dc36d0794eb76b7a257351534f8dd3a784f33c024be4b500a9c38",
+      "bytes": 9259
+    },
+    {
+      "path": "analysis/cycle6/preflight_reviews/fas_count_reader_review/corrected_verify_count_reader.py",
+      "sha256": "c98b989f207eef44168edce0319ea14d13911dbeb0c374af4608f8336da2b945",
+      "bytes": 3242
+    },
+    {
+      "path": "analysis/cycle6/preflight_reviews/fas_count_reader_review/delivery_manifest.json",
+      "sha256": "cb03dfc3f98427beda48d20c0d58df9f83bd37cb6a9d4fccf357e006ea3f83dc",
+      "bytes": 2679
+    },
+    {
+      "path": "analysis/cycle6/preflight_reviews/fas_count_reader_review/independent_checks.json",
+      "sha256": "a20622f873dbdfb3b59566c6bca764b5eca2e2928b2d5dcd87ee9fb608590552",
+      "bytes": 2310
+    },
+    {
+      "path": "analysis/cycle6/preflight_reviews/fas_count_reader_review/independent_checks.py",
+      "sha256": "9f73ec8f58c671b3325b46fc69bde236f56c725c5415bdb0be93b88663b8d533",
+      "bytes": 5846
+    },
+    {
+      "path": "analysis/cycle6/preflight_reviews/fas_count_reader_review/independent_checks_v2.json",
+      "sha256": "ab39937088bc022cb9261057efbb03e79531adf44eab5f177f83ffd1efea22a3",
+      "bytes": 1032
+    },
+    {
+      "path": "analysis/cycle6/preflight_reviews/fas_count_reader_review/independent_checks_v2.py",
+      "sha256": "150f634d2d413c2023405c358c46272d2bbd99d31f70154cd8826605ab992048",
+      "bytes": 6264
+    },
+    {
+      "path": "analysis/cycle6/preflight_reviews/fas_count_reader_review/review.md",
+      "sha256": "0fd8d76b36a553f4618a13d4d904be52cc7e7d9ac9177ca9106a2c33ef350974",
+      "bytes": 8868
+    },
+    {
+      "path": "analysis/cycle6/preflight_reviews/fas_count_reader_review/review_receipt.json",
+      "sha256": "a4817e883bf8bb487e0533f24832a4220abce42fec98dc2614035b741558398d",
+      "bytes": 2030
+    },
+    {
+      "path": "analysis/cycle6/preflight_reviews/fas_count_reader_review/reviewed_count_analysis.py",
+      "sha256": "b0ee9e7282f6cffae5f48be1739a04167093c093650eb4fe94a8afac7cb9e7ce",
+      "bytes": 8591
+    },
+    {
+      "path": "analysis/cycle6/preflight_reviews/fas_count_reader_review/reviewed_ordinal_geometry.py",
+      "sha256": "8872d6452afe4ccbf84e61450d4b1bfbdadf26469f20c0e24452f3abc205f9ac",
+      "bytes": 6242
+    },
+    {
+      "path": "analysis/cycle6/preflight_reviews/fas_count_reader_review/reviewed_protocol_draft_v1.md",
+      "sha256": "731620b9d8d4057053b80143b2c476b94f8c3feb46c6342c9841ff531ad3393d",
+      "bytes": 11395
+    },
+    {
+      "path": "analysis/cycle6/preflight_reviews/fas_count_reader_review/reviewed_source_contract.json",
+      "sha256": "f0fb3d2ced5dc36d0794eb76b7a257351534f8dd3a784f33c024be4b500a9c38",
+      "bytes": 9259
+    },
+    {
+      "path": "analysis/cycle6/preflight_reviews/fas_count_reader_review/reviewed_verify_count_reader.py",
+      "sha256": "af10d05960320d42dc8f187b530b16d6c79ba155b9b3032b431e6f7302d8ea1a",
+      "bytes": 3025
+    },
+    {
+      "path": "analysis/cycle6/preflight_reviews/fas_implementation_review/adversarial_check.py",
+      "sha256": "b3410889ec158c57ab8f09704329cd33720b1e285b92844a0fbdd79e7b3c9269",
+      "bytes": 9653
+    },
+    {
+      "path": "analysis/cycle6/preflight_reviews/fas_implementation_review/candidate_v1/ordinal_geometry.py",
+      "sha256": "8872d6452afe4ccbf84e61450d4b1bfbdadf26469f20c0e24452f3abc205f9ac",
+      "bytes": 6242
+    },
+    {
+      "path": "analysis/cycle6/preflight_reviews/fas_implementation_review/candidate_v1/synthetic_verification.json",
+      "sha256": "93f4753d9c33b004bf5cd7acec68e688b1fc387c43be21e9cab7059d0774ccfe",
+      "bytes": 2514
+    },
+    {
+      "path": "analysis/cycle6/preflight_reviews/fas_implementation_review/candidate_v1/verify_synthetic.py",
+      "sha256": "85a1b2fdba3a56d526cf941db9d7aa2e6d1c91b7b80732b8e9998c0228bdb4fb",
+      "bytes": 5018
+    },
+    {
+      "path": "analysis/cycle6/preflight_reviews/fas_implementation_review/closing_receipt.json",
+      "sha256": "6be45557b196922a5bc85b474dccc2328812b36eb9959f36bfd3e0fc61546502",
+      "bytes": 1582
+    },
+    {
+      "path": "analysis/cycle6/preflight_reviews/fas_implementation_review/delta_receipt.json",
+      "sha256": "2b1015447185d0fdd81744256d30df7bf1fcb7eef43ca209f19ba6125ac0e977",
+      "bytes": 3303
+    },
+    {
+      "path": "analysis/cycle6/preflight_reviews/fas_implementation_review/delta_review.md",
+      "sha256": "3f3c7dd919facd15a046d988d983587a9faa190674112d507a3262a4d551e024",
+      "bytes": 1763
+    },
+    {
+      "path": "analysis/cycle6/preflight_reviews/fas_implementation_review/harness_delta/normal/ordinal_geometry.py",
+      "sha256": "8872d6452afe4ccbf84e61450d4b1bfbdadf26469f20c0e24452f3abc205f9ac",
+      "bytes": 6242
+    },
+    {
+      "path": "analysis/cycle6/preflight_reviews/fas_implementation_review/harness_delta/normal/synthetic_verification.json",
+      "sha256": "7e128ed621ceaeb430f090f9460a4cd7fda27f78a375a85ebd75f587c4ad4bcf",
+      "bytes": 2589
+    },
+    {
+      "path": "analysis/cycle6/preflight_reviews/fas_implementation_review/harness_delta/normal/verify_synthetic.py",
+      "sha256": "a098549d48dcce62b4292cd433266e09265ba3f5c46bd08cf845c1a34e998656",
+      "bytes": 5343
+    },
+    {
+      "path": "analysis/cycle6/preflight_reviews/fas_implementation_review/harness_delta/O/ordinal_geometry.py",
+      "sha256": "8872d6452afe4ccbf84e61450d4b1bfbdadf26469f20c0e24452f3abc205f9ac",
+      "bytes": 6242
+    },
+    {
+      "path": "analysis/cycle6/preflight_reviews/fas_implementation_review/harness_delta/O/verify_synthetic.py",
+      "sha256": "a098549d48dcce62b4292cd433266e09265ba3f5c46bd08cf845c1a34e998656",
+      "bytes": 5343
+    },
+    {
+      "path": "analysis/cycle6/preflight_reviews/fas_implementation_review/harness_delta/OO/ordinal_geometry.py",
+      "sha256": "8872d6452afe4ccbf84e61450d4b1bfbdadf26469f20c0e24452f3abc205f9ac",
+      "bytes": 6242
+    },
+    {
+      "path": "analysis/cycle6/preflight_reviews/fas_implementation_review/harness_delta/OO/verify_synthetic.py",
+      "sha256": "a098549d48dcce62b4292cd433266e09265ba3f5c46bd08cf845c1a34e998656",
+      "bytes": 5343
+    },
+    {
+      "path": "analysis/cycle6/preflight_reviews/fas_implementation_review/harness_delta_check.py",
+      "sha256": "a705f12e879cd1a3b5c48a73de2a2eff7d3c7a91aa5480a09ad487fd180cd52b",
+      "bytes": 2729
+    },
+    {
+      "path": "analysis/cycle6/preflight_reviews/fas_implementation_review/history_iterator_bug/bug_receipt.json",
+      "sha256": "846f6dfd1dfdf351fcd06faf5dc93b585805478f32616aa8e92ae87d92bf3561",
+      "bytes": 1444
+    },
+    {
+      "path": "analysis/cycle6/preflight_reviews/fas_implementation_review/history_iterator_bug/ordinal_geometry.py",
+      "sha256": "e94fba1d5ad7961b08677661a1d81274a12a66b912536c646af4a4ca0d0dda14",
+      "bytes": 6198
+    },
+    {
+      "path": "analysis/cycle6/preflight_reviews/fas_implementation_review/independent_v1.json",
+      "sha256": "f22abec7e53d44ddfd0df3c894c005ac2f1a58b60946accf39a21e5b30525bb7",
+      "bytes": 735
+    },
+    {
+      "path": "analysis/cycle6/preflight_reviews/fas_implementation_review/receipt.json",
+      "sha256": "029dedef80036a0c882f8227ed8609586351db23e430f2e28595dc7d262ce1e5",
+      "bytes": 1893
+    },
+    {
+      "path": "analysis/cycle6/preflight_reviews/fas_implementation_review/review.md",
+      "sha256": "0204610b1b223d29b97ff3b0fa9fc41eb62768245b81d93c43d9dcfe4a9f272e",
+      "bytes": 8365
+    },
+    {
+      "path": "analysis/cycle6/preflight_reviews/fas_implementation_review/targeted_cases.py",
+      "sha256": "0b7ae8ccd6ecfd5b213effeeee64c8b9d7fce4ef88333022ebe09b8efdd8d184",
+      "bytes": 3038
+    },
+    {
+      "path": "analysis/cycle6/preflight_reviews/fas_implementation_review/targeted_results.json",
+      "sha256": "02efdea7ef5a5d284a9ec6531c38453d4897dae114e0ed115f3308b3792208f2",
+      "bytes": 4110
+    },
+    {
+      "path": "analysis/cycle6/preflight_reviews/fas_independent_verification/check_provenance.py",
+      "sha256": "f28fcc06af2b336d8a5e69c4ab8274db153b9a19a30827927755f5cd98bf630f",
+      "bytes": 4084
+    },
+    {
+      "path": "analysis/cycle6/preflight_reviews/fas_independent_verification/history_manifest_schema/manifest.json",
+      "sha256": "8f06b2bfe57c76e8aeda38e9610e51060ef0910d414c5ffff334b62b791c1273",
+      "bytes": 5742
+    },
+    {
+      "path": "analysis/cycle6/preflight_reviews/fas_independent_verification/history_manifest_schema/result.json",
+      "sha256": "12c4f87cc30a8075404be708659837cc75df3f28908af55042f925da1841141f",
+      "bytes": 6011
+    },
+    {
+      "path": "analysis/cycle6/preflight_reviews/fas_independent_verification/history_manifest_schema/verify.py",
+      "sha256": "aabd9502e877b25360a4db81150f767ba4d28273a7a58459cfa83980cd1450bd",
+      "bytes": 14902
+    },
+    {
+      "path": "analysis/cycle6/preflight_reviews/fas_independent_verification/manifest.json",
+      "sha256": "04a42b12a638e530c6160a4361fcb9dcdbacf7232466ddd5bcf0a9f09a425279",
+      "bytes": 5650
+    },
+    {
+      "path": "analysis/cycle6/preflight_reviews/fas_independent_verification/provenance_and_exposure.json",
+      "sha256": "3d18d5c39549de4f70b11835aff43e69cf00905292649ea1e7c7a52e976bc36b",
+      "bytes": 2457
+    },
+    {
+      "path": "analysis/cycle6/preflight_reviews/fas_independent_verification/receipt.json",
+      "sha256": "68682488e03c2a3142dbc5c343006694531cb842cc7c4565b35fc83a082f417f",
+      "bytes": 1122
+    },
+    {
+      "path": "analysis/cycle6/preflight_reviews/fas_independent_verification/result.json",
+      "sha256": "12c4f87cc30a8075404be708659837cc75df3f28908af55042f925da1841141f",
+      "bytes": 6011
+    },
+    {
+      "path": "analysis/cycle6/preflight_reviews/fas_independent_verification/review.md",
+      "sha256": "745f8ba8738a680bd387c2236f16a35b82b69ebeb19faecaa5ccb2fb7431f0c3",
+      "bytes": 8386
+    },
+    {
+      "path": "analysis/cycle6/preflight_reviews/fas_independent_verification/verify.py",
+      "sha256": "8fd570649fb2be6b701349434d4eaa7888200908721e9520109f0ed4c37d329a",
+      "bytes": 14833
+    },
+    {
+      "path": "analysis/cycle6/preflight_reviews/fas_measurement_protocol_review/calibration_formula_properties.json",
+      "sha256": "dfa9836dc310ef0eb29067c6009180955ca0138a5dc22121ab87c70b32376214",
+      "bytes": 443
+    },
+    {
+      "path": "analysis/cycle6/preflight_reviews/fas_measurement_protocol_review/calibration_source_receipt.json",
+      "sha256": "9b9d4567fdf9810de9ad03d19cb77fbbad978566e8d909770f1765740f3f9cf7",
+      "bytes": 611
+    },
+    {
+      "path": "analysis/cycle6/preflight_reviews/fas_measurement_protocol_review/delivery_manifest.json",
+      "sha256": "cfb0947470ac660def9f9f6493c58f95e955247e94db721638fd490c9d75db39",
+      "bytes": 1680
+    },
+    {
+      "path": "analysis/cycle6/preflight_reviews/fas_measurement_protocol_review/mask_calibration_source.py",
+      "sha256": "de86427f2003abdbbcf6cce402f9b8551b069a49f831cd5b62452370fde7e8ae",
+      "bytes": 1987
+    },
+    {
+      "path": "analysis/cycle6/preflight_reviews/fas_measurement_protocol_review/review.md",
+      "sha256": "e3d4f42571cb89ef670ab1a092541b08ccde1c5cb4efe41a87775cebf6cfdc03",
+      "bytes": 19718
+    },
+    {
+      "path": "analysis/cycle6/preflight_reviews/fas_measurement_protocol_review/review_receipt.json",
+      "sha256": "2f7e899319b0110c079dccc053802d89284a41a25ce944f30f76e8db2998c0ee",
+      "bytes": 3892
+    },
+    {
+      "path": "analysis/cycle6/preflight_reviews/fas_measurement_protocol_review/reviewed_protocol_snapshot.md",
+      "sha256": "731620b9d8d4057053b80143b2c476b94f8c3feb46c6342c9841ff531ad3393d",
+      "bytes": 11395
+    },
+    {
+      "path": "analysis/cycle6/preflight_reviews/fas_measurement_protocol_review/synthetic_checks.json",
+      "sha256": "e2f2c3650418a9942c1e78ba140f5298479b11337e54d0359e00010d43784ed2",
+      "bytes": 1050
+    },
+    {
+      "path": "analysis/cycle6/preflight_reviews/fas_measurement_protocol_review/synthetic_contract_checks.py",
+      "sha256": "adb8d766c166c052f0b3a1655391826dd2e2c6c0af4773e19e7091ee51e8c5ff",
+      "bytes": 2734
+    },
+    {
+      "path": "analysis/cycle6/preflight_reviews/measured_constraint_design/baseline_equivalence_checks.json",
+      "sha256": "3af3405f482f871df7191de97990eeb0e3aeb985f129df53d69200628462e5a1",
+      "bytes": 572
+    },
+    {
+      "path": "analysis/cycle6/preflight_reviews/measured_constraint_design/baseline_equivalence_correction.md",
+      "sha256": "867f69d5ada9f0bb5f5b74fabbfab7b0df03d3e652f46717bfeea1a5d553cad3",
+      "bytes": 3838
+    },
+    {
+      "path": "analysis/cycle6/preflight_reviews/measured_constraint_design/check_equivalence.py",
+      "sha256": "d1b621f433e2bdf72a884347afa436c76b02f3eea8623030123ab367cb9c7733",
+      "bytes": 2057
+    },
+    {
+      "path": "analysis/cycle6/preflight_reviews/measured_constraint_design/correction_receipt.json",
+      "sha256": "32ebfd977ecfdc1259376daf1e44b9c1b9e6cc37b014db2b1f394ff425a38f9e",
+      "bytes": 2669
+    },
+    {
+      "path": "analysis/cycle6/preflight_reviews/measured_constraint_design/fixtures.json",
+      "sha256": "25dc77c94df2f7df0138ecc82b7388550940f240fc485d9feb536e1d30d1c3b7",
+      "bytes": 743
+    },
+    {
+      "path": "analysis/cycle6/preflight_reviews/measured_constraint_design/fixtures.py",
+      "sha256": "c1892f0927cd1159c9e5ccc62748442a2488624dc0c69c3603456f1fa5f11547",
+      "bytes": 4862
+    },
+    {
+      "path": "analysis/cycle6/preflight_reviews/measured_constraint_design/fixtures_v2.json",
+      "sha256": "ded4197ed7ad0099b6ab5a170689f652403ae85bee5ff5b08062f7cc03bd5b72",
+      "bytes": 965
+    },
+    {
+      "path": "analysis/cycle6/preflight_reviews/measured_constraint_design/ordinal_interval_audit.py",
+      "sha256": "1b958aebdafbc46f4a434b14a71abb8a091a1caba298ee2f1f43ff867d95b01a",
+      "bytes": 7251
+    },
+    {
+      "path": "analysis/cycle6/preflight_reviews/measured_constraint_design/ordinal_interval_characterization.md",
+      "sha256": "562ae01efeee05a6c46ee53fa7fa89165d5e7c4acf9b970ab85447915227a463",
+      "bytes": 7912
+    },
+    {
+      "path": "analysis/cycle6/preflight_reviews/measured_constraint_design/ordinal_interval_checks.json",
+      "sha256": "56c9ff73a1013d9d06dcc04e62a069f2eb2f281e77132ac70a0cfe35a949f7ef",
+      "bytes": 866
+    },
+    {
+      "path": "analysis/cycle6/preflight_reviews/measured_constraint_design/ordinal_interval_checks_v2.json",
+      "sha256": "0ce8e034ea86178b754dea2ecbba80b7ce7bbe34a869b1a6b5f1ee18b7663cd8",
+      "bytes": 977
+    },
+    {
+      "path": "analysis/cycle6/preflight_reviews/measured_constraint_design/ordinal_interval_checks_v3.json",
+      "sha256": "04aa8fd48041927fadb6f1ca92eb169d303b084ef8e054c8f2faf4f76df5e7d9",
+      "bytes": 977
+    },
+    {
+      "path": "analysis/cycle6/preflight_reviews/measured_constraint_design/prior_map.md",
+      "sha256": "0eeed8b47563ca7c496b19bd8f752fa3ba8788afd58fb3258e37d15c2c2f304d",
+      "bytes": 6395
+    },
+    {
+      "path": "analysis/cycle6/preflight_reviews/measured_constraint_design/protocol_math_review.md",
+      "sha256": "4439ff1ca7b0236023c4930c791799debb30ad27b7d6a26af0d0bea04237b75a",
+      "bytes": 4097
+    },
+    {
+      "path": "analysis/cycle6/preflight_reviews/measured_constraint_design/README.md",
+      "sha256": "ce30f91c32b3641d7b7c05f1045cab08e3a72ce43e6a20ce6c12b1cb3f01a9f0",
+      "bytes": 2554
+    },
+    {
+      "path": "analysis/cycle6/preflight_reviews/measured_constraint_design/receipt.json",
+      "sha256": "a6187f7b575e009e16853b4dacd5eb6778ab1b767f2b34bb4c2c0f61265e3b31",
+      "bytes": 5021
+    },
+    {
+      "path": "analysis/cycle6/preflight_reviews/measured_constraint_design/report.md",
+      "sha256": "3b52354fe80e5aa3fc4df6036cb9a7f5483d332f3112ab9fbb81eef2260b872e",
+      "bytes": 13756
+    },
+    {
+      "path": "analysis/cycle6/prior_and_claim_scope.md",
+      "sha256": "cd11583090a51e062af50d3bc33c6ec21774fdc0047f78e57ff813411c3b88c6",
+      "bytes": 3152
+    },
+    {
+      "path": "analysis/cycle6/README.md",
+      "sha256": "fa1446b5bfce60d0166d5594ddb8a5b6cd693853e9cbc66251dca66b3a7ee471",
+      "bytes": 3527
+    },
+    {
+      "path": "analysis/cycle6/render_figure.py",
+      "sha256": "12cb7095676f4d041038dfd8be7b90c494a3044cea3c5604304d0f439d40a74e",
+      "bytes": 5756
+    },
+    {
+      "path": "analysis/cycle6/result_reviews/mathematical/verification.json",
+      "sha256": "b797d7d71e312e17c41a802721ad1d99efddeaf36ddedd28d6697e3afe029d71",
+      "bytes": 147022
+    },
+    {
+      "path": "analysis/cycle6/result_reviews/mathematical/verify_result.py",
+      "sha256": "047846795d9383eeef60ad8f74887783f706406fde0f4a75f916bd33af667db2",
+      "bytes": 14073
+    },
+    {
+      "path": "analysis/cycle6/result_reviews/numerical/observed_receipt.json",
+      "sha256": "b241c91c1b639b4753eacbc119d32d99aadb1e7ad57b1b9ac92e2a258accad77",
+      "bytes": 4635
+    },
+    {
+      "path": "analysis/cycle6/result_reviews/numerical/synthetic_receipt.json",
+      "sha256": "47d7d57f65d50f774d5ac6b21a6e948e2b3e2d1236b06afe124c1e66002af36c",
+      "bytes": 483
+    },
+    {
+      "path": "analysis/cycle6/result_reviews/numerical/verify_counts.py",
+      "sha256": "f5a932166d3cd8ddefc47020e190610b0b845aea9a72a1d6a3531f9693ffd840",
+      "bytes": 13037
+    },
+    {
+      "path": "analysis/cycle6/result_reviews/numerical/verify_counts_offline.py",
+      "sha256": "41cb805ae2cbf0142a35bd7714f347d04e9f71a6eb97a4453cb42e92896c0e39",
+      "bytes": 13118
+    },
+    {
+      "path": "analysis/cycle6/result_reviews/README.md",
+      "sha256": "54297efd2975e08836708302fe823cdefca83c5c82b75b723ef04912c487b398",
+      "bytes": 4288
+    },
+    {
+      "path": "analysis/cycle6/result_reviews/replay.py",
+      "sha256": "278a6e4424ea35550fed1e137ada1302822b129cf1338dab2307e0ef220603d2",
+      "bytes": 7156
+    },
+    {
+      "path": "analysis/cycle6/result_reviews/replay_manifest.json",
+      "sha256": "2aaf5ceee510b1fb51458e6c733152d1864232ef8ba5062c3791071a1a1982bc",
+      "bytes": 6419
+    },
+    {
+      "path": "analysis/cycle6/source_eligibility/declared_human_reference_class_sequences.json",
+      "sha256": "f527c4ad96823eec2c096361f95d557d0c0bc839c7b822956edc32c6b9ed4ebe",
+      "bytes": 5339
+    },
+    {
+      "path": "analysis/cycle6/source_eligibility/existing_evidence_triage.md",
+      "sha256": "97fb7bd2cf7a2f3db9d085c176461758be53b4c7a7265ed2ecd883b1a74cb61e",
+      "bytes": 16034
+    },
+    {
+      "path": "analysis/cycle6/source_eligibility/human_screen_decision.md",
+      "sha256": "a98a1a7c747cd76abd5ce5b61d69bdb76a2ea47ede6188dee3fbe0485cd2c5b3",
+      "bytes": 3303
+    },
+    {
+      "path": "analysis/cycle6/source_eligibility/native_refseq.gb",
+      "sha256": "e8964c4db7d19acd5f6a1075106ec67087ad4bc5a8dc3a986f7eccb0a7f31ca7",
+      "bytes": 24241
+    },
+    {
+      "path": "analysis/cycle6/source_eligibility/native_refseq_receipt.json",
+      "sha256": "425a9c65ad4ef59f8672df3f130826353358a1f7c3a3919548c3003fa01c154b",
+      "bytes": 565
+    },
+    {
+      "path": "analysis/cycle6/source_eligibility/report.md",
+      "sha256": "38c2b7e80b3c109fc8548c3cbfc1f6a3e93dd7b6c0d0508767c08c40751efebc",
+      "bytes": 20336
+    },
+    {
+      "path": "analysis/cycle6/source_eligibility/sample_contract.json",
+      "sha256": "914cf26c020af2d99540c5199c395507f4f1202d0d45970f0d718cf35b01e291",
+      "bytes": 5353
+    },
+    {
+      "path": "analysis/cycle6/source_eligibility/scaling_law_tree.json",
+      "sha256": "df0d5fe452ed30a91d53df2e00507db019ce4accdeb9211787d569742797c507",
+      "bytes": 116904
+    },
+    {
+      "path": "analysis/cycle6/source_eligibility/sequence_contract_check.json",
+      "sha256": "f9694812e82e2255fba6cb025446b4ae639882536c78e72a297326e46feacdf5",
+      "bytes": 6913
+    },
+    {
+      "path": "analysis/cycle6/source_eligibility/sequence_contract_check.py",
+      "sha256": "b6540abed46ed0ee7f79e19face385c2f75b977bef514f89cfe5fae3ce9a862a",
+      "bytes": 5691
+    },
+    {
+      "path": "analysis/cycle6/source_eligibility/source_inventory.json",
+      "sha256": "0d21b039ffd305f9f47714ab47c1154ad9c5b347b24cc908a04f9a7225574496",
+      "bytes": 11523
+    },
+    {
+      "path": "data/cycle6/fas_counts/Phylogeny_HEK293_BR_Rep_1.3072.counts",
+      "sha256": "f563a81ffffd91524ae377dd74d1f2d43688d7e35d4fff7a2b757f89394a801c",
+      "bytes": 215615
+    },
+    {
+      "path": "data/cycle6/fas_counts/Phylogeny_HEK293_BR_Rep_2.3072.counts",
+      "sha256": "536f9087bebe6f89a8e24a8e158719ffc65936cfb1b002076320c94320ffdeb2",
+      "bytes": 215509
+    },
+    {
+      "path": "data/cycle6/fas_counts/Phylogeny_HEK293_BR_Rep_3.3072.counts",
+      "sha256": "6f32bcfc8374c52aae0954baeab534037bf922430ebe1418a8e90d6194e40465",
+      "bytes": 216687
+    },
+    {
+      "path": "data/cycle6/fas_counts/Phylogeny_HEK293_BR_Rep_4.3072.counts",
+      "sha256": "066791f89013e63f257408c23898b2ff3ceaa86a5ce41cbcf250ef65c9193764",
+      "bytes": 215820
+    },
+    {
+      "path": "data/cycle6/fas_counts/Phylogeny_HEK293_BR_Rep_5.3072.counts",
+      "sha256": "8b16b01d11789f557398107389123988e1d7d95a1997c871df5c08f144edb25d",
+      "bytes": 215149
+    },
+    {
+      "path": "data/cycle6/fas_counts/Phylogeny_HEK293_BR_Rep_6.3072.counts",
+      "sha256": "3957adb532ec9df6a58ee38aaa60318fe433a527a818628f434a83e0acb79ea7",
+      "bytes": 216960
+    },
+    {
+      "path": "data/cycle6/fas_counts/Phylogeny_HEK293_BR_Rep_7.3072.counts",
+      "sha256": "775f6136c61cf86da747a0a3feeade4f9a7c5a818c4d9c948f378ad9b2ca5248",
+      "bytes": 216191
+    },
+    {
+      "path": "data/cycle6/fas_counts/Phylogeny_HEK293_BR_Rep_8.3072.counts",
+      "sha256": "bed22f625660b616ed110e8b158b9b23be400349c01dda957d3340659ce3f07c",
+      "bytes": 215720
+    },
+    {
+      "path": "data/cycle6/fas_counts/Phylogeny_HEK293_BR_Rep_9.3072.counts",
+      "sha256": "69a3e13ab930a93ae4b67edfcf77cad5acee7e58d4778ea7ed4dd4b4c40f32e7",
+      "bytes": 216064
+    },
+    {
+      "path": "data/cycle6/fas_counts/Phylogeny_HEK293_TR_Rep_1.3072.counts",
+      "sha256": "db447ded160b8b04054fad62e4a7cdb5a6ae0bfb262ab45689549a9b8b32e623",
+      "bytes": 216213
+    },
+    {
+      "path": "data/cycle6/fas_counts/Phylogeny_HEK293_TR_Rep_2.3072.counts",
+      "sha256": "95a1e4c05b60721cbdb01a89a73f983c0f7b02c45cef46e7cdd10b5e6635c78a",
+      "bytes": 216016
+    },
+    {
+      "path": "data/cycle6/fas_counts/Phylogeny_HEK293_TR_Rep_3.3072.counts",
+      "sha256": "2f165a215b991683cfe7650d2fafb7f2dd471c483b4b8539740e3f48cf65e14c",
+      "bytes": 217547
+    },
+    {
+      "path": "results/cycle6/claim_register.csv",
+      "sha256": "feddc7a6fafc731c61b76cc5ddd1bc62df8639784ba55054b087a5b74b22c49d",
+      "bytes": 31344
+    },
+    {
+      "path": "results/cycle6/decision.md",
+      "sha256": "3c86f76702a24d2113503b1283b536d022ceabf01022638fd24baa6e119da2be",
+      "bytes": 8821
+    },
+    {
+      "path": "results/cycle6/FAS_All_Endpoint_Pairs.csv",
+      "sha256": "6005f795eecb0a04ce5a4dd67bd881897a3a06a05e7ed31318cf6b5db6b3d98e",
+      "bytes": 347572
+    },
+    {
+      "path": "results/cycle6/FAS_All_Scenario_Results.csv",
+      "sha256": "53c3d7d1f9bb083e2c5fe481d71962caa9ab972cf1732c8c2f3f3747b851dfe7",
+      "bytes": 2159
+    },
+    {
+      "path": "results/cycle6/FAS_Exact_Order_Certificate.csv",
+      "sha256": "9c69357976e77c247375128dd361f2cfc70ccc684b182792b820c3c1f5eba6b4",
+      "bytes": 1004
+    },
+    {
+      "path": "results/cycle6/FAS_Verified_Measurements.csv",
+      "sha256": "4b3ea2fca1dc55fcab7bb88dfcbe2c3397ab62bb8f3b77652b319d8adc8c100f",
+      "bytes": 53658
+    },
+    {
+      "path": "results/cycle6/full_result_v1.json.gz",
+      "sha256": "e3c3d061052643046de58dc789866899b0fb14ade83f06170e2cf32e9e54e145",
+      "bytes": 681232
+    },
+    {
+      "path": "results/cycle6/independent_replay_receipt.json",
+      "sha256": "0e400ca14fecaf500f0004c6ed4e25e35ebbf86fa46ca268aba32addc6c9c45e",
+      "bytes": 1846
+    },
+    {
+      "path": "results/cycle6/summary.json",
+      "sha256": "d1b17408a80a3ce463a75f9fe0aac3758878bf75c52165e5b8d812310f283044",
+      "bytes": 1313
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "verdict": "FIX_REQUIRED_RIGHT_NOTE_CLIPPING",
+  "numerical_CSV_hashes_unchanged": true,
+  "source_and_pdf_provenance_match": true,
+  "scope_subtitle_corrected": true,
+  "common_monotone_codon_additive_title_corrected": true,
+  "min_native_font_pt": 9,
+  "min_final_font_pt": 7.253358036127838,
+  "pdf_media_box_pt": [
+    612,
+    662.4
+  ],
+  "max_text_right_pt": 617.9747187499981,
+  "right_overflow_pt": 5.9747187499981,
+  "location": "Lower-right explanatory note, last line dependent",
+  "hashes": {
+    "outputs\\Research_Cycle_6\\Figure_FAS_Ordinal.pdf": "48c25c85d65696a70592323d8beb8cce734fea7e0a1844cb7e664ce612473c4f",
+    "outputs\\Research_Cycle_6\\FAS_Ordinal_Evidence.png": "f6adf27a1f54180793cf68b14d0e2c297f63fb437c918e3d9d8e6b2365119dc1",
+    "outputs\\Research_Cycle_6\\figure_provenance.json": "0dc350c079329147928c6760c6734173a662160f31b451dbe95f6e386a10ecde",
+    "work\\research_cycle6\\make_figure.py": "2ab01866c1974743aa875a50b46350d2272e15b14466a0ff6c8b3d985203fcae",
+    "work\\research_cycle6\\fas_figure_review\\corrected_at_174mm_300dpi.png": "5d7051ee4027307a74f7d9ff4af83f1885ffb3646d93d8049fd0c36b398d9205"
+  }
+}

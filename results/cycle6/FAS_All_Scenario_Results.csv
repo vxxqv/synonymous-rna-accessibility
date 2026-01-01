@@ -1,0 +1,29 @@
+scenario,unknown_vertices,ordinal_null,forced_orders,barrier_pairs,interpretation
+BR1_TR1,0,infeasible,2556,170,shared-preparation normalization scenario
+BR1_TR2,0,infeasible,2556,233,shared-preparation normalization scenario
+BR1_TR3,0,infeasible,2556,170,shared-preparation normalization scenario
+BR2_TR1,0,infeasible,2556,240,shared-preparation normalization scenario
+BR2_TR2,0,infeasible,2555,233,shared-preparation normalization scenario
+BR2_TR3,0,infeasible,2556,266,shared-preparation normalization scenario
+BR3_TR1,0,infeasible,2556,160,shared-preparation normalization scenario
+BR3_TR2,0,infeasible,2556,230,shared-preparation normalization scenario
+BR3_TR3,0,infeasible,2556,250,shared-preparation normalization scenario
+BR4_TR1,0,infeasible,2556,307,shared-preparation normalization scenario
+BR4_TR2,0,infeasible,2556,202,shared-preparation normalization scenario
+BR4_TR3,0,infeasible,2556,275,shared-preparation normalization scenario
+BR5_TR1,0,infeasible,2556,143,shared-preparation normalization scenario
+BR5_TR2,0,infeasible,2556,139,shared-preparation normalization scenario
+BR5_TR3,0,infeasible,2556,177,shared-preparation normalization scenario
+BR6_TR1,0,infeasible,2556,218,shared-preparation normalization scenario
+BR6_TR2,0,infeasible,2556,209,shared-preparation normalization scenario
+BR6_TR3,0,infeasible,2556,226,shared-preparation normalization scenario
+BR7_TR1,0,infeasible,2556,160,shared-preparation normalization scenario
+BR7_TR2,0,infeasible,2556,148,shared-preparation normalization scenario
+BR7_TR3,0,infeasible,2556,168,shared-preparation normalization scenario
+BR8_TR1,0,infeasible,2555,196,shared-preparation normalization scenario
+BR8_TR2,0,infeasible,2556,212,shared-preparation normalization scenario
+BR8_TR3,0,infeasible,2556,234,shared-preparation normalization scenario
+BR9_TR1,0,infeasible,2556,87,shared-preparation normalization scenario
+BR9_TR2,0,infeasible,2556,91,shared-preparation normalization scenario
+BR9_TR3,0,infeasible,2556,62,shared-preparation normalization scenario
+mean_author_per_output_relative_ES,0,infeasible,2556,73,corrected headerless source-formula reconstruction

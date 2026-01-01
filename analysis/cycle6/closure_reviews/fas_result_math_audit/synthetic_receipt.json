@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "graph_score_cases": 16932,
+  "simple_path_capacity_values": 167012,
+  "certificate_fixtures": "feasible, plateau/infinite upper, exact dual, altered weights/differences/orders, weak touching intervals",
+  "optimization_rejected": [
+    "-O",
+    "-OO"
+  ],
+  "source_hashes": {
+    "test_synthetic.py": "292ff3c9f799ee863bd28983bd6a5d1ab3876c4df5bd7e73d7cdb2538cc4a414",
+    "verify_result.py": "047846795d9383eeef60ad8f74887783f706406fde0f4a75f916bd33af667db2"
+  },
+  "scope": "Synthetic finite oracle checks, not a theorem or source-count authentication."
+}

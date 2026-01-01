@@ -1,0 +1,58 @@
+{
+  "status": "PASS",
+  "scope": "Portability and guard verification only; original scientific algorithms unchanged.",
+  "checks": [
+    {
+      "test": "optimization_-O",
+      "status": "PASS",
+      "no_output_created": true
+    },
+    {
+      "test": "optimization_-OO",
+      "status": "PASS",
+      "no_output_created": true
+    },
+    {
+      "test": "overwrite_before_inputs",
+      "status": "PASS"
+    },
+    {
+      "test": "manifest_tamper_before_output",
+      "status": "PASS"
+    },
+    {
+      "test": "input_tamper_before_output",
+      "input": "data/cycle6/fas_counts/Phylogeny_HEK293_BR_Rep_1.3072.counts",
+      "status": "PASS"
+    },
+    {
+      "test": "input_tamper_before_output",
+      "input": "analysis/cycle6/result_reviews/numerical/verify_counts_offline.py",
+      "status": "PASS"
+    },
+    {
+      "test": "input_tamper_before_output",
+      "input": "results/cycle6/full_result_v1.json.gz",
+      "status": "PASS"
+    },
+    {
+      "test": "missing_input_before_output",
+      "status": "PASS"
+    },
+    {
+      "test": "relocated_no_git_metadata_empty_PATH_full_replay",
+      "status": "PASS",
+      "certificates": 30,
+      "pair_records": 74124,
+      "selected_field_comparisons": 3816
+    }
+  ],
+  "git_metadata_absent": true,
+  "process_PATH_empty": true,
+  "no_network_code_or_requests": "Source inspection: neither replay path imports network clients or makes requests.",
+  "wrapper_sha256": "278a6e4424ea35550fed1e137ada1302822b129cf1338dab2307e0ef220603d2",
+  "manifest_sha256": "2aaf5ceee510b1fb51458e6c733152d1864232ef8ba5062c3791071a1a1982bc",
+  "replay_receipt_sha256": "b5954a3907280c313dfa4f715d5e13909292a447b0b15ee652c9d22b1c604106",
+  "preparation_receipt_sha256": "7785bdf41f1edd824ba10c4c44af9f3a5eca0cceed57ba0151383686c74dd34f",
+  "verifier_sha256": "14011967f4c9a5b93d7c60e46cfa933b685bde86b5d9ffb0497efb9b929436c8"
+}

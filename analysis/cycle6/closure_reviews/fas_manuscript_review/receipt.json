@@ -1,0 +1,27 @@
+{
+  "verdict": "PASS_with_two_nonblocking_wording_clarifications",
+  "all_numerical_csv_hashes_unchanged": true,
+  "figure_provenance_matches": true,
+  "visual_render": "work/research_cycle6/fas_figure_review/final_at_174mm_300dpi.png",
+  "pdf_bounds_pt": {
+    "media_box": [
+      612,
+      662.4
+    ],
+    "text": [
+      2.0841015625,
+      12.487999999999943,
+      601.824917968749,
+      653.9256
+    ]
+  },
+  "minimum_font_final_pt": 7.253358036127838,
+  "reviewed_hashes": {
+    "outputs\\BMB_Programme\\fas_extension.tex": "0fc894dee29a5078111dfb4c64320d70e51f2cdc3cc3a7aaa439c35b15087d96",
+    "outputs\\Research_Cycle_6\\Figure_FAS_Ordinal.pdf": "07f7248e83b46bea0b399133df23fcc37e64cd1f24f3b50f55b8f74714dfcc8c",
+    "outputs\\Research_Cycle_6\\FAS_Ordinal_Evidence.png": "686e82a98bf9db9316c2c703411c62f09b0d1f05e1437989915c033de5edccd9",
+    "outputs\\Research_Cycle_6\\figure_provenance.json": "09b59964ff42f8db28c154eedba2be5b820019942b1a6d46e5e77028dbfc2cb9",
+    "work\\research_cycle6\\make_figure.py": "12cb7095676f4d041038dfd8be7b90c494a3044cea3c5604304d0f439d40a74e",
+    "work\\research_cycle6\\fas_manuscript_review\\review.md": "4fe81d71149a83dc1f6c2911e8133404438c3f7449f9eeccef663b75a2d99c71"
+  }
+}

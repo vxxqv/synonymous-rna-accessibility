@@ -1,0 +1,101 @@
+{
+  "status": "completed",
+  "scope": "Descriptive relative included-RNA enrichment; no calibrated confidence intervals or independent validation",
+  "vertices": 72,
+  "edges": 204,
+  "finite_envelopes": 72,
+  "unknown_envelopes": 0,
+  "codon_design_columns": 8,
+  "nucleotide_design_columns": 8,
+  "primary_codon_null": {
+    "status": "infeasible",
+    "forced_orders": 74,
+    "exact_checked": true,
+    "dual": [
+      {
+        "lower_vertex": 16,
+        "higher_vertex": 46,
+        "weight": "1/5",
+        "difference": [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "lower_vertex": 35,
+        "higher_vertex": 46,
+        "weight": "1/5",
+        "difference": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -1
+        ]
+      },
+      {
+        "lower_vertex": 39,
+        "higher_vertex": 46,
+        "weight": "1/5",
+        "difference": [
+          0,
+          0,
+          0,
+          -1,
+          1,
+          0,
+          1,
+          -1
+        ]
+      },
+      {
+        "lower_vertex": 42,
+        "higher_vertex": 51,
+        "weight": "1/5",
+        "difference": [
+          0,
+          -1,
+          1,
+          1,
+          0,
+          -1,
+          -1,
+          1
+        ]
+      },
+      {
+        "lower_vertex": 70,
+        "higher_vertex": 13,
+        "weight": "1/5",
+        "difference": [
+          0,
+          0,
+          -1,
+          0,
+          -1,
+          0,
+          -1,
+          1
+        ]
+      }
+    ]
+  },
+  "conservative_barrier_pairs": 0,
+  "limitations": [
+    "Same-library transfection variation only.",
+    "Empirical envelopes are not confidence intervals.",
+    "Unknown genotype-dependent recovery can mimic interactions.",
+    "Domain excludes unmeasured synonymous bypasses.",
+    "Null rejection and barriers do not attribute a particular barrier to interactions."
+  ],
+  "freeze_sha256": "7bddb75dcdb4b401a120dcb518bd34fcfb5f6a801a492ee1a59f1fced90be3eb"
+}

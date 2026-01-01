@@ -1,0 +1,31 @@
+{
+  "vertices": 72,
+  "edges": 204,
+  "finite_envelopes": 72,
+  "unknown_envelopes": 0,
+  "conservative_barrier_pairs": 0,
+  "primary_ordinal_status": "infeasible",
+  "forced_orders": 74,
+  "witness_comparisons": 5,
+  "minimum_witness_ratio": 1.0136459788663692,
+  "minimum_witness_gap": 0.007567413977870934,
+  "single_scenario_barrier_range": [
+    62,
+    307
+  ],
+  "corrected_point_barrier_pairs": 73,
+  "source_commit": "b87064c39a553b0759d86c2b428813c58dc17ae2",
+  "protocol_commit": "7d8faf59fddde21ef4f1177f13ab5d2144d192e6",
+  "format_amendment_commit": "9ed05ad8ab75c596e87a5ce7b63eb1bb38e71ba5",
+  "full_result_sha256": "3f34f322acc8bc9a6f6b414278d6581c458bce08f0f3bb18a3bcccee7320e466",
+  "compressed_result_sha256": "e3c3d061052643046de58dc789866899b0fb14ade83f06170e2cf32e9e54e145",
+  "review_status": "independent_numerical_mathematical_and_portable_replay_passed",
+  "limits": [
+    "Empirical envelope, not confidence interval.",
+    "One shared library; dependent normalizations.",
+    "Relative included-RNA recovery, not calibrated PSI or protein function.",
+    "No independent biological validation.",
+    "No certified barrier does not prove the unknown biological landscape connected.",
+    "Witness separation is not an optimized robustness radius."
+  ]
+}

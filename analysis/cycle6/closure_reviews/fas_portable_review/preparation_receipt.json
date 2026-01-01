@@ -1,0 +1,29 @@
+{
+  "unchanged_functions": [
+    "need",
+    "sha",
+    "blob",
+    "enc",
+    "parse",
+    "midpoint_order_stat",
+    "reference",
+    "synthetic",
+    "main"
+  ],
+  "changed_functions": [
+    "observed"
+  ],
+  "observed_numerical_body_ast_identical": true,
+  "changes": "Git provenance gate replaced by exact archived-byte hashes; one explicit Git-history-not-checked metadata field.",
+  "original_sources_preserved": true,
+  "manifest_sha256": "2aaf5ceee510b1fb51458e6c733152d1864232ef8ba5062c3791071a1a1982bc",
+  "input_files": 32,
+  "files": {
+    "numerical/verify_counts.py": "f5a932166d3cd8ddefc47020e190610b0b845aea9a72a1d6a3531f9693ffd840",
+    "numerical/verify_counts_offline.py": "41cb805ae2cbf0142a35bd7714f347d04e9f71a6eb97a4453cb42e92896c0e39",
+    "numerical/observed_receipt.json": "b241c91c1b639b4753eacbc119d32d99aadb1e7ad57b1b9ac92e2a258accad77",
+    "numerical/synthetic_receipt.json": "47d7d57f65d50f774d5ac6b21a6e948e2b3e2d1236b06afe124c1e66002af36c",
+    "mathematical/verify_result.py": "047846795d9383eeef60ad8f74887783f706406fde0f4a75f916bd33af667db2",
+    "mathematical/verification.json": "b797d7d71e312e17c41a802721ad1d99efddeaf36ddedd28d6697e3afe029d71"
+  }
+}

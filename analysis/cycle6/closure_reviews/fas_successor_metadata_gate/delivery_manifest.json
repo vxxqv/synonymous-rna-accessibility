@@ -1,0 +1,29 @@
+{
+  "files": [
+    {
+      "file": "check_membership.py",
+      "sha256": "59af0a659bace39fb50f58c6f065a32875862c7c4e7864bdb1fa79d80fe5d869",
+      "bytes": 2422
+    },
+    {
+      "file": "membership_receipt.json",
+      "sha256": "d5f6744ebc060cfa3d9f5973ad6539dfc95f4f42b8aac88449b8967e13d1d7e3",
+      "bytes": 7572
+    },
+    {
+      "file": "report.md",
+      "sha256": "382503c8b287174317f561a3a5e1c2d32f75c37e901ca8f2a253be501d394579",
+      "bytes": 8704
+    },
+    {
+      "file": "selected_methods_only.json",
+      "sha256": "1f09cca554184904153b7edbb69941bb29075f96d12c1b16915e7671cd03da0e",
+      "bytes": 5566
+    },
+    {
+      "file": "source_manifest.json",
+      "sha256": "4b642e1344dcb2ff246daaf19f5da6c83565353f069ea71cbccc15cd2330832d",
+      "bytes": 1557
+    }
+  ]
+}

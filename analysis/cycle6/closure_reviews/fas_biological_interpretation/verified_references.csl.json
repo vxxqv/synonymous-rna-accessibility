@@ -1,0 +1,140 @@
+[
+  {
+    "id": "Julien2016",
+    "type": "article-journal",
+    "title": "The complete local genotype–phenotype landscape for the alternative splicing of a human exon",
+    "author": [
+      {
+        "given": "Philippe",
+        "family": "Julien"
+      },
+      {
+        "given": "Belén",
+        "family": "Miñana"
+      },
+      {
+        "given": "Pablo",
+        "family": "Baeza-Centurion"
+      },
+      {
+        "given": "Juan",
+        "family": "Valcárcel"
+      },
+      {
+        "given": "Ben",
+        "family": "Lehner"
+      }
+    ],
+    "container-title": "Nature Communications",
+    "issued": {
+      "date-parts": [
+        [
+          2016,
+          5,
+          10
+        ]
+      ]
+    },
+    "volume": "7",
+    "issue": "1",
+    "page": "11558",
+    "DOI": "10.1038/ncomms11558",
+    "URL": "https://doi.org/10.1038/ncomms11558"
+  },
+  {
+    "id": "BaezaCenturion2019",
+    "type": "article-journal",
+    "title": "Combinatorial Genetics Reveals a Scaling Law for the Effects of Mutations on Splicing",
+    "author": [
+      {
+        "given": "Pablo",
+        "family": "Baeza-Centurion"
+      },
+      {
+        "given": "Belén",
+        "family": "Miñana"
+      },
+      {
+        "given": "Jörn M.",
+        "family": "Schmiedel"
+      },
+      {
+        "given": "Juan",
+        "family": "Valcárcel"
+      },
+      {
+        "given": "Ben",
+        "family": "Lehner"
+      }
+    ],
+    "container-title": "Cell",
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          1
+        ]
+      ]
+    },
+    "volume": "176",
+    "issue": "3",
+    "page": "549-563.e23",
+    "DOI": "10.1016/j.cell.2018.12.010",
+    "URL": "https://doi.org/10.1016/j.cell.2018.12.010"
+  },
+  {
+    "id": "MoCHI2024",
+    "type": "article-journal",
+    "title": "MoCHI: neural networks to fit interpretable models and quantify energies, energetic couplings, epistasis, and allostery from deep mutational scanning data",
+    "author": [
+      {
+        "given": "Andre J.",
+        "family": "Faure"
+      },
+      {
+        "given": "Ben",
+        "family": "Lehner"
+      }
+    ],
+    "container-title": "Genome Biology",
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          12,
+          2
+        ]
+      ]
+    },
+    "volume": "25",
+    "issue": "1",
+    "page": "303",
+    "DOI": "10.1186/s13059-024-03444-y",
+    "URL": "https://doi.org/10.1186/s13059-024-03444-y"
+  },
+  {
+    "id": "Scott1964",
+    "type": "article-journal",
+    "title": "Measurement structures and linear inequalities",
+    "author": [
+      {
+        "given": "Dana",
+        "family": "Scott"
+      }
+    ],
+    "container-title": "Journal of Mathematical Psychology",
+    "issued": {
+      "date-parts": [
+        [
+          1964,
+          7
+        ]
+      ]
+    },
+    "volume": "1",
+    "issue": "2",
+    "page": "233-247",
+    "DOI": "10.1016/0022-2496(64)90002-1",
+    "URL": "https://doi.org/10.1016/0022-2496(64)90002-1"
+  }
+]

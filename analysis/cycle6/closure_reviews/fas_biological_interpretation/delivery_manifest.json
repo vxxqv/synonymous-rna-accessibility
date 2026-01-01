@@ -1,0 +1,79 @@
+{
+  "files": [
+    {
+      "file": "authorized_summary.json",
+      "sha256": "bfc2b2ca3494b6be8453649196b9d2a0acad6d91dddc88521bfe247aa54d3e8c",
+      "bytes": 2181
+    },
+    {
+      "file": "BaezaCenturion2019_crossref.json",
+      "sha256": "7a9c9bc8d86a53e31ac9b958b0b42660c52bbfb74fedc4615c355f207789a218",
+      "bytes": 25937
+    },
+    {
+      "file": "bibliography_metadata.json",
+      "sha256": "b1fcfb21f10c03b0e70343528ff78c261a9750956a9d1824887a82c6dea878f9",
+      "bytes": 6808
+    },
+    {
+      "file": "bibliography_retrieval.json",
+      "sha256": "d6dab7dcf131aa5887cad7f520e6faf294755e25f26fe8f987d9913a33ec6cf5",
+      "bytes": 1033
+    },
+    {
+      "file": "certificate_algebra_check.json",
+      "sha256": "3f9d6279f8b5f22377a7dd4711040bbe547f0c2857d2953842d96c8a5418a658",
+      "bytes": 458
+    },
+    {
+      "file": "claim_scope_matrix.json",
+      "sha256": "b92d21dff6404a3975fae518041979c018b37fe2659d2aab521f0a6b999f66b9",
+      "bytes": 2081
+    },
+    {
+      "file": "Julien2016_crossref.json",
+      "sha256": "956df6e06515f860098755ce1ee70ef32b9e3b6b88f80889f69f5dca2e9f2d32",
+      "bytes": 15136
+    },
+    {
+      "file": "MoCHI2024_crossref.json",
+      "sha256": "b08cf20ad2abf26db1e55638e0cac5336e33a1ec61b0ac401b42946ba22f83db",
+      "bytes": 28063
+    },
+    {
+      "file": "report.md",
+      "sha256": "bd2ec756e74769c93dabdc2965206bd9aad07df9822e9c695a94674ee1d31f4e",
+      "bytes": 13170
+    },
+    {
+      "file": "Scott1964_crossref.json",
+      "sha256": "c00b60d9edd89314ac4464ebf04037c42ebec456b285fb55afb8770b077aa267",
+      "bytes": 3932
+    },
+    {
+      "file": "select_summary.py",
+      "sha256": "eb026a86fc7db536fb98fadb36c80d06c78c5308a39c515b14a208fa5fa1238f",
+      "bytes": 2607
+    },
+    {
+      "file": "source_manifest.json",
+      "sha256": "020824fc12b37738362c78556b7174fb9b8c56f131cdd2857ae373f1c21a23bf",
+      "bytes": 2257
+    },
+    {
+      "file": "summary_exposure_receipt.json",
+      "sha256": "963f8a8732d5821d17d527817b32a75690a273c45ba248f84593156363ff4bbe",
+      "bytes": 1035
+    },
+    {
+      "file": "verified_references.bib",
+      "sha256": "ac5d58d94a22bb4356a847c4eb709da673e81e29e47e6e48a03576801b011a77",
+      "bytes": 1684
+    },
+    {
+      "file": "verified_references.csl.json",
+      "sha256": "b4e0ccd021c28ea7d91a285b31d6f4e33e8f775dcbd587c232e8bc6c05e59b5c",
+      "bytes": 3113
+    }
+  ]
+}

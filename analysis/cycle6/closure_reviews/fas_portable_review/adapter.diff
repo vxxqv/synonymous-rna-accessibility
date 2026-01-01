@@ -1,0 +1,41 @@
+--- numerical/verify_counts.py
++++ numerical/verify_counts_offline.py
+@@ -9,7 +9,6 @@
+ import hashlib
+ import json
+ import re
+-import subprocess
+ import sys
+ import time
+ 
+@@ -134,13 +133,15 @@
+  need(args.authorized_observed,'Observed mode requires root authorization flag')
+  need(args.repo and args.input_directory and args.result,'Explicit observed paths required')
+  repo=args.repo.resolve();src=repo/'analysis/cycle6/fas_pilot'
+- commit=subprocess.check_output(['git','-C',str(repo),'rev-parse',COMMIT+'^{commit}'],text=True).strip()
+- need(commit==COMMIT,'Amendment commit unavailable')
+- # Verify both immutable freeze manifests and each scientific source, before count decoding.
++ # Offline replay verifies the archived amendment bytes, not local Git history.
+  core_freeze_raw=(src/'freeze.json').read_bytes();format_freeze_raw=(src/'format_freeze.json').read_bytes()
+- for name in ['freeze.json','format_freeze.json','run_headerless.py','format_amendment_v1.md']:
+-  committed=subprocess.check_output(['git','-C',str(repo),'show',f'{COMMIT}:analysis/cycle6/fas_pilot/{name}'])
+-  need(committed==(src/name).read_bytes(),'Committed amendment byte drift: '+name)
++ offline_pins = {
++  'freeze.json':'7bddb75dcdb4b401a120dcb518bd34fcfb5f6a801a492ee1a59f1fced90be3eb',
++  'format_freeze.json':'d3b69ed44015a712d4dbe436cdb7399c009e521f3444a6a5736c547a04094041',
++  'run_headerless.py':'11addfe6ee9c02f7fc17b9b6a414167cc0d98baccbab71bf7fa899fd7b713bb6',
++  'format_amendment_v1.md':'73a89257046695a1882c01b98971018d78aba95a144afb5e6752a9e10d2b9a62'}
++ for name,expected_hash in offline_pins.items():
++  need(sha((src/name).read_bytes())==expected_hash,'Archived amendment byte drift: '+name)
+  freeze=json.loads(core_freeze_raw);amendment=json.loads(format_freeze_raw)
+  need(amendment['scientific_freeze_sha256']==sha(core_freeze_raw),'Science freeze mismatch')
+  pins=dict(freeze['frozen_files']);pins.update(amendment['files'])
+@@ -180,7 +181,7 @@
+  # No result changes or source changes during verification.
+  need(args.result.read_bytes()==result_raw,'Result changed during verification')
+  for item,receipt in zip(cfg['files'],receipts):need(sha((args.input_directory/item['local_name']).read_bytes())==receipt['sha256'],'Source changed during audit')
+- return {'status':'EXACT_REFERENCE_AGREEMENT','amendment_commit':COMMIT,'result_sha256':RESULT_SHA,
++ return {'status':'EXACT_REFERENCE_AGREEMENT','git_history_checked_in_this_replay':False,'amendment_commit':COMMIT,'result_sha256':RESULT_SHA,
+          'contract_sha256':CONTRACT_SHA,'scientific_freeze_sha256':sha(core_freeze_raw),
+          'format_freeze_sha256':sha(format_freeze_raw),'source_receipts':receipts,
+          'selected_genotypes':72,'scenario_ratios_checked':72*27,'per_output_corrected_points_checked':72*9,

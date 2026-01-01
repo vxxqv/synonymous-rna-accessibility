@@ -1,0 +1,36 @@
+{
+  "scope": "One source-only successorCgate; no outcomes/counts/observed coverage",
+  "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4866304/",
+  "source_doi": "10.1038/ncomms11558",
+  "source_xml_sha256": "2d8c4b9d954bc4bffcac9f485c1f7d22d57960775736446637ea4b015e3d2209",
+  "metadata_contract": "Published analyzed WT/single/double radius2 design; separate25single-clone inclusion/skipping validations.",
+  "result": "NO_GO currentlyauthenticated exact8 pairedmeasurement contract",
+  "existing_primary_source_reused": true,
+  "new_source_retrievals": 0,
+  "first_record_or_outcome_tables_read": false,
+  "observed_measurement_presence_examined": false,
+  "memberships_are_theoretical": true,
+  "next_required_record": "Sequence-linked perclone/perpreparation direct included+skipped or independentlycalibrated inclusion for exact8,WTcontrol,uncertainty/recovery metadata",
+  "files": [
+    {
+      "file": "check_membership.py",
+      "sha256": "59af0a659bace39fb50f58c6f065a32875862c7c4e7864bdb1fa79d80fe5d869",
+      "bytes": 2422
+    },
+    {
+      "file": "membership_receipt.json",
+      "sha256": "d5f6744ebc060cfa3d9f5973ad6539dfc95f4f42b8aac88449b8967e13d1d7e3",
+      "bytes": 7572
+    },
+    {
+      "file": "report.md",
+      "sha256": "382503c8b287174317f561a3a5e1c2d32f75c37e901ca8f2a253be501d394579",
+      "bytes": 8704
+    },
+    {
+      "file": "selected_methods_only.json",
+      "sha256": "1f09cca554184904153b7edbb69941bb29075f96d12c1b16915e7671cd03da0e",
+      "bytes": 5566
+    }
+  ]
+}

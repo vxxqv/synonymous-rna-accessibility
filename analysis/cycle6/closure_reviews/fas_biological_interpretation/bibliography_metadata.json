@@ -1,0 +1,314 @@
+{
+  "Julien2016": {
+    "DOI": "10.1038/ncomms11558",
+    "title": [
+      "The complete local genotype–phenotype landscape for the alternative splicing of a human exon"
+    ],
+    "author": [
+      {
+        "given": "Philippe",
+        "family": "Julien",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Belén",
+        "family": "Miñana",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Pablo",
+        "family": "Baeza-Centurion",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Juan",
+        "family": "Valcárcel",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ben",
+        "family": "Lehner",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "Nature Communications"
+    ],
+    "volume": "7",
+    "issue": "1",
+    "page": null,
+    "article-number": "11558",
+    "published": {
+      "date-parts": [
+        [
+          2016,
+          5,
+          10
+        ]
+      ]
+    },
+    "published-print": null,
+    "published-online": {
+      "date-parts": [
+        [
+          2016,
+          5,
+          10
+        ]
+      ]
+    },
+    "URL": "https://doi.org/10.1038/ncomms11558",
+    "relation": {},
+    "update-to": null
+  },
+  "BaezaCenturion2019": {
+    "DOI": "10.1016/j.cell.2018.12.010",
+    "title": [
+      "Combinatorial Genetics Reveals a Scaling Law for the Effects of Mutations on Splicing"
+    ],
+    "author": [
+      {
+        "given": "Pablo",
+        "family": "Baeza-Centurion",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Belén",
+        "family": "Miñana",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jörn M.",
+        "family": "Schmiedel",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Juan",
+        "family": "Valcárcel",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ben",
+        "family": "Lehner",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "Cell"
+    ],
+    "volume": "176",
+    "issue": "3",
+    "page": "549-563.e23",
+    "article-number": null,
+    "published": {
+      "date-parts": [
+        [
+          2019,
+          1
+        ]
+      ]
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2019,
+          1
+        ]
+      ]
+    },
+    "published-online": null,
+    "URL": "https://doi.org/10.1016/j.cell.2018.12.010",
+    "relation": {},
+    "update-to": null
+  },
+  "MoCHI2024": {
+    "DOI": "10.1186/s13059-024-03444-y",
+    "title": [
+      "MoCHI: neural networks to fit interpretable models and quantify energies, energetic couplings, epistasis, and allostery from deep mutational scanning data"
+    ],
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-4471-5994",
+        "authenticated-orcid": false,
+        "given": "Andre J.",
+        "family": "Faure",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8817-1124",
+        "authenticated-orcid": false,
+        "given": "Ben",
+        "family": "Lehner",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "Genome Biology"
+    ],
+    "volume": "25",
+    "issue": "1",
+    "page": null,
+    "article-number": "303",
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          12,
+          2
+        ]
+      ]
+    },
+    "published-print": null,
+    "published-online": {
+      "date-parts": [
+        [
+          2024,
+          12,
+          2
+        ]
+      ]
+    },
+    "URL": "https://doi.org/10.1186/s13059-024-03444-y",
+    "relation": {
+      "has-preprint": [
+        {
+          "id-type": "doi",
+          "id": "10.1101/2024.01.21.575681",
+          "asserted-by": "object"
+        }
+      ]
+    },
+    "update-to": null
+  },
+  "Scott1964": {
+    "DOI": "10.1016/0022-2496(64)90002-1",
+    "title": [
+      "Measurement structures and linear inequalities"
+    ],
+    "author": [
+      {
+        "given": "Dana",
+        "family": "Scott",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "Journal of Mathematical Psychology"
+    ],
+    "volume": "1",
+    "issue": "2",
+    "page": "233-247",
+    "article-number": null,
+    "published": {
+      "date-parts": [
+        [
+          1964,
+          7
+        ]
+      ]
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          1964,
+          7
+        ]
+      ]
+    },
+    "published-online": null,
+    "URL": "https://doi.org/10.1016/0022-2496(64)90002-1",
+    "relation": {},
+    "update-to": null
+  }
+}

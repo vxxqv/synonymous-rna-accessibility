@@ -1,0 +1,48 @@
+{
+  "classification": "conditional assay-order incompatibility; no empirical-envelope-certified barrier; independent numerical audit pending",
+  "supported_summary": {
+    "vertices": 72,
+    "edges": 204,
+    "finite_envelopes": 72,
+    "unknown_envelopes": 0,
+    "conservative_barrier_pairs": 0
+  },
+  "ordinal_status": "infeasible",
+  "strongest_claim": "No score assignment inside the declared empirical envelope has a common nondecreasing codon-unary latent representation on the fixed native-protein class.",
+  "not_established": [
+    "Splicing-specific causal mechanism",
+    "First synonymous or FAS epistasis discovery",
+    "Envelope-certified barrier",
+    "Connected underlying biological field",
+    "Calibrated confidence or population effect",
+    "Independent biological validation",
+    "Actual minigene isoform protein identity/output",
+    "Barrier-specific necessity of interactions"
+  ],
+  "closest_priors": [
+    {
+      "doi": "10.1038/ncomms11558",
+      "overlap": "Synonymous splicing effects, epistasis and two-step near-neutral network already reported"
+    },
+    {
+      "doi": "10.1016/j.cell.2018.12.010",
+      "overlap": "Source3072landscape, scaling and specific interactions at overlapping synonymous coordinates"
+    },
+    {
+      "doi": "10.1186/s13059-024-03444-y",
+      "overlap": "SameFASdata used to model global and specific epistasis"
+    },
+    {
+      "doi": "10.1016/0022-2496(64)90002-1",
+      "overlap": "Established finite additive-order/linear-inequality ancestry; full theorem priority unresolved"
+    }
+  ],
+  "remaining_alternatives": [
+    "Genotype-dependent RNA abundance/stability",
+    "RT/PCR/sequence recovery bias",
+    "Effective intracellular template versus input mismatch",
+    "Dependent finite sampling/preprocessing",
+    "Multiple latent processes or noncommon/nonmonotone response"
+  ],
+  "priority_verdict": "No identical restricted-domain empirical-envelope/certificate result found in inspected sources, but no exhaustive or first-use priority claim."
+}

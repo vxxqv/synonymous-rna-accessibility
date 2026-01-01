@@ -1,0 +1,48 @@
+{
+  "scope": "Frozen scientific contract, prior-source evidence and authorized summary/certificate only",
+  "files": [
+    {
+      "path": "outputs/synonymous-rna-accessibility/analysis/cycle6/prior_and_claim_scope.md",
+      "sha256": "cd11583090a51e062af50d3bc33c6ec21774fdc0047f78e57ff813411c3b88c6",
+      "bytes": 3152
+    },
+    {
+      "path": "outputs/synonymous-rna-accessibility/analysis/cycle6/fas_pilot/protocol_v1.md",
+      "sha256": "2b21f044d5d4eb8488d8e8c8752977f45927d6ee85c4da466bca23a1f0bb7bef",
+      "bytes": 12460
+    },
+    {
+      "path": "outputs/synonymous-rna-accessibility/analysis/cycle6/fas_pilot/freeze.json",
+      "sha256": "7bddb75dcdb4b401a120dcb518bd34fcfb5f6a801a492ee1a59f1fced90be3eb",
+      "bytes": 1439
+    },
+    {
+      "path": "outputs/synonymous-rna-accessibility/analysis/cycle6/fas_pilot/format_amendment_v1.md",
+      "sha256": "73a89257046695a1882c01b98971018d78aba95a144afb5e6752a9e10d2b9a62",
+      "bytes": 2616
+    },
+    {
+      "path": "work/research_cycle6/measured_synonymy_sources/fas2016.xml",
+      "sha256": "2d8c4b9d954bc4bffcac9f485c1f7d22d57960775736446637ea4b015e3d2209",
+      "bytes": 80370
+    },
+    {
+      "path": "work/joint_function_cycle5/successor_methods_review/primary_amass_1.json",
+      "sha256": "7981dea2297664fded74aa82bb01a7db00c4b2c988bbe32f7b88ec68208a546f",
+      "bytes": 146399
+    },
+    {
+      "path": "work/research_cycle6/fas_measurement_protocol_review/review.md",
+      "sha256": "e3d4f42571cb89ef670ab1a092541b08ccde1c5cb4efe41a87775cebf6cfdc03",
+      "bytes": 19718
+    }
+  ],
+  "metadata_provenance": "Crossref DOI registry, raw responses and SHA256 retained in bibliography_retrieval.json",
+  "primary_source_limit": "Cell2019 primary indexed passages verified earlier; directfulltext403 remains, no exhaustive proof/priority audit. Scott1964 fulltheorem notread.",
+  "exposure_log": [
+    "Published prior aggregate findings and named interactions exposed asliterature",
+    "Result top-level summary and5-row algebra certificate authorized byroot",
+    "No count,vertexratio,pairbottleneck,outcomemissingness or2016validation rowsdecoded",
+    "No new model,threshold,selection or outcomeanalysis"
+  ]
+}

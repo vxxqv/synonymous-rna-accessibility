@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "schema": "fas_independent_offline_replay_receipt_v1",
+  "manifest_sha256": "2aaf5ceee510b1fb51458e6c733152d1864232ef8ba5062c3791071a1a1982bc",
+  "wrapper_sha256": "278a6e4424ea35550fed1e137ada1302822b129cf1338dab2307e0ef220603d2",
+  "verified_archived_inputs": 32,
+  "decompressed_result_sha256": "3f34f322acc8bc9a6f6b414278d6581c458bce08f0f3bb18a3bcccee7320e466",
+  "original_numerical_evidence_equal_except_runtime_and_adapter_hash": true,
+  "original_mathematical_evidence_equal_as_complete_json": true,
+  "selected_field_scalar_comparisons": 3816,
+  "exact_numerical_discrepancy": "0",
+  "certificates_checked": 30,
+  "pair_records_checked": 74124,
+  "synthetic_checks": 10,
+  "git_history_checked": false,
+  "network_used": false,
+  "runtime": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "runtime_seconds": 6.3074511000013445,
+  "stdout": {
+    "synthetic": "{\"status\": \"PASS\", \"runtime_seconds\": 0.0018118000007234514, \"receipt_sha256\": \"5f15108ec5cb866a93f89c8faa06513635725b26c0dde768153b8d270268fc03\"}",
+    "numerical": "{\"status\": \"EXACT_REFERENCE_AGREEMENT\", \"runtime_seconds\": 0.3828399000049103, \"receipt_sha256\": \"e0da3d04155aadaf7b53937239e18dc42e1907eb32b18c75583b96a18f3527f6\"}",
+    "mathematical": "{\"status\": \"PASS\", \"certificate_count\": 30, \"pair_records_checked\": 74124}"
+  },
+  "outputs": {
+    "synthetic.json": "5f15108ec5cb866a93f89c8faa06513635725b26c0dde768153b8d270268fc03",
+    "numerical.json": "e0da3d04155aadaf7b53937239e18dc42e1907eb32b18c75583b96a18f3527f6",
+    "mathematical/verification.json": "b797d7d71e312e17c41a802721ad1d99efddeaf36ddedd28d6697e3afe029d71"
+  },
+  "scope": "Exact offline replay of the fixed saved-data audits, not a new validation experiment or Git-history authentication."
+}

@@ -1,0 +1,29 @@
+{
+  "source": "C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\work\\research_cycle6\\fas_results\\full_result_v1.json",
+  "source_sha256": "3f34f322acc8bc9a6f6b414278d6581c458bce08f0f3bb18a3bcccee7320e466",
+  "selected_keys": [
+    "codon_design_columns",
+    "conservative_barrier_pairs",
+    "edges",
+    "finite_envelopes",
+    "freeze_sha256",
+    "limitations",
+    "nucleotide_design_columns",
+    "primary_codon_null",
+    "scope",
+    "status",
+    "unknown_envelopes",
+    "vertices"
+  ],
+  "skipped_top_level_keys": [
+    "nucleotide_encoding_equivalence_check",
+    "normalization",
+    "vertices_data",
+    "bounded_pairs",
+    "scenario_results",
+    "all_scenario_pairs",
+    "source_receipts"
+  ],
+  "read_boundary": "Unselected values lexically skipped without JSON decoding or display. No count/ratio/bottleneck rows inspected.",
+  "code_sha256": "eb026a86fc7db536fb98fadb36c80d06c78c5308a39c515b14a208fa5fa1238f"
+}

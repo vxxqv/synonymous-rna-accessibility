@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Julien2016",
+    "doi": "10.1038/ncomms11558",
+    "url": "https://api.crossref.org/works/10.1038%2Fncomms11558",
+    "status": 200,
+    "sha256": "956df6e06515f860098755ce1ee70ef32b9e3b6b88f80889f69f5dca2e9f2d32"
+  },
+  {
+    "name": "BaezaCenturion2019",
+    "doi": "10.1016/j.cell.2018.12.010",
+    "url": "https://api.crossref.org/works/10.1016%2Fj.cell.2018.12.010",
+    "status": 200,
+    "sha256": "7a9c9bc8d86a53e31ac9b958b0b42660c52bbfb74fedc4615c355f207789a218"
+  },
+  {
+    "name": "MoCHI2024",
+    "doi": "10.1186/s13059-024-03444-y",
+    "url": "https://api.crossref.org/works/10.1186%2Fs13059-024-03444-y",
+    "status": 200,
+    "sha256": "b08cf20ad2abf26db1e55638e0cac5336e33a1ec61b0ac401b42946ba22f83db"
+  },
+  {
+    "name": "Scott1964",
+    "doi": "10.1016/0022-2496(64)90002-1",
+    "url": "https://api.crossref.org/works/10.1016%2F0022-2496%2864%2990002-1",
+    "status": 200,
+    "sha256": "c00b60d9edd89314ac4464ebf04037c42ebec456b285fb55afb8770b077aa267"
+  }
+]

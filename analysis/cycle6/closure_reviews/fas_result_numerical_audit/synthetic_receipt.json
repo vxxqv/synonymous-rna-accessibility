@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "checks": [
+    "known27ratios",
+    "median_source_point",
+    "TR1_alignment",
+    "whole_vs_aligned_totals",
+    "missing_TR2",
+    "zero_TR2",
+    "zero_output",
+    "missing_output",
+    "zero_WT_output",
+    "missing_TR1"
+  ],
+  "scope": "Pure synthetic dictionaries; no raw source or result opened",
+  "verifier_sha256": "f5a932166d3cd8ddefc47020e190610b0b845aea9a72a1d6a3531f9693ffd840",
+  "runtime_seconds": 0.0018213000003015622
+}

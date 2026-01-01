@@ -1,0 +1,19 @@
+{
+  "scope": "Certificate algebra only; strict empirical orders not independently re-read from outcome rows",
+  "source_summary_sha256": "bfc2b2ca3494b6be8453649196b9d2a0acad6d91dddc88521bfe247aa54d3e8c",
+  "nonnegative_weights": true,
+  "weight_sum": "1",
+  "weighted_column_sums": [
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0"
+  ],
+  "exact_algebra_valid": true,
+  "orders_used": 5,
+  "distinct_vertices": 8
+}

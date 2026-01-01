@@ -1,0 +1,34 @@
+{
+  "status": "PASS",
+  "result_sha256": "3f34f322acc8bc9a6f6b414278d6581c458bce08f0f3bb18a3bcccee7320e466",
+  "production_frozen_file_hashes_unchanged": {
+    "protocol_v1.md": true,
+    "ordinal_geometry.py": true,
+    "count_analysis.py": true,
+    "verify_synthetic.py": true,
+    "verify_count_reader.py": true,
+    "source_contract.json": true,
+    "preflight_corrections.md": true,
+    "synthetic_verification.json": true,
+    "count_reader_verification.json": true
+  },
+  "result_freeze_hash_matches": true,
+  "overwrite_refused_before_input_read": true,
+  "source_hashes": {
+    "work\\research_cycle6\\fas_result_math_audit\\verify_result.py": "047846795d9383eeef60ad8f74887783f706406fde0f4a75f916bd33af667db2",
+    "work\\research_cycle6\\fas_result_math_audit\\test_synthetic.py": "292ff3c9f799ee863bd28983bd6a5d1ab3876c4df5bd7e73d7cdb2538cc4a414",
+    "work\\research_cycle6\\fas_result_math_audit\\synthetic_receipt.json": "608ad85ee0ad91bd1c1e00ea4303e70691266d7582a2b38b8341271ec4bda7bd",
+    "work\\research_cycle6\\fas_result_math_audit\\observed_v1\\verification.json": "b797d7d71e312e17c41a802721ad1d99efddeaf36ddedd28d6697e3afe029d71",
+    "work\\research_cycle6\\fas_result_math_audit\\primary_certificate.csv": "55b6f2b0002a63db494c31d1393eff846e5d52590344dec15003088145eb8d46"
+  },
+  "counts": {
+    "certificate_checks": 30,
+    "pair_records": 74124,
+    "primary_forced_orders": 74,
+    "primary_dual_support": 5,
+    "primary_conservative_barrier_pairs": 0,
+    "scenario_barrier_pair_min": 62,
+    "scenario_barrier_pair_max": 307,
+    "point_barrier_pairs": 73
+  }
+}

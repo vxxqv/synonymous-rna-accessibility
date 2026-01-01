@@ -1,0 +1,237 @@
+{
+  "scope": "Theoretical source-design membership, NOT observed outcome or coverage",
+  "index_base": 0,
+  "source_contract_sha256": "f0fb3d2ced5dc36d0794eb76b7a257351534f8dd3a784f33c024be4b500a9c38",
+  "fixed_vertices": [
+    13,
+    16,
+    35,
+    39,
+    42,
+    46,
+    51,
+    70
+  ],
+  "rows": [
+    {
+      "vertex_zero_based": 13,
+      "sequence": "GATCCAGATCTAACTTGGGGTGGCTGTGTCTTCTGCTTCTCCCGATTCCACTAATTGTTTGGG",
+      "distance_from_native_WT": 5,
+      "substitutions_relative_native_WT": [
+        {
+          "exon_position1": 26,
+          "WT_base": "T",
+          "variant_base": "G"
+        },
+        {
+          "exon_position1": 35,
+          "WT_base": "T",
+          "variant_base": "G"
+        },
+        {
+          "exon_position1": 39,
+          "WT_base": "T",
+          "variant_base": "C"
+        },
+        {
+          "exon_position1": 41,
+          "WT_base": "G",
+          "variant_base": "C"
+        },
+        {
+          "exon_position1": 44,
+          "WT_base": "A",
+          "variant_base": "G"
+        }
+      ],
+      "within_declared_2016_analyzed_radius2_design": false,
+      "is_native_WT": false,
+      "is_single_substitution": false,
+      "within_documented_individually_validated_single_mutant_category": false,
+      "observed_2016_measurement_presence": null,
+      "direct_2016_inclusion_skip_record_authenticated": false
+    },
+    {
+      "vertex_zero_based": 16,
+      "sequence": "GATCCAGATCTAACTTGGGGTGGCTGTGTCTTCTGCTTTTGCCAATTCCACTAATTGTTTGGG",
+      "distance_from_native_WT": 2,
+      "substitutions_relative_native_WT": [
+        {
+          "exon_position1": 26,
+          "WT_base": "T",
+          "variant_base": "G"
+        },
+        {
+          "exon_position1": 35,
+          "WT_base": "T",
+          "variant_base": "G"
+        }
+      ],
+      "within_declared_2016_analyzed_radius2_design": true,
+      "is_native_WT": false,
+      "is_single_substitution": false,
+      "within_documented_individually_validated_single_mutant_category": false,
+      "observed_2016_measurement_presence": null,
+      "direct_2016_inclusion_skip_record_authenticated": false
+    },
+    {
+      "vertex_zero_based": 35,
+      "sequence": "GATCCAGATCTAACTTGGGGTGGCTTTGTCTCCTTCTTTTGCCGATTCCACTAATTGTTTGGG",
+      "distance_from_native_WT": 2,
+      "substitutions_relative_native_WT": [
+        {
+          "exon_position1": 32,
+          "WT_base": "T",
+          "variant_base": "C"
+        },
+        {
+          "exon_position1": 44,
+          "WT_base": "A",
+          "variant_base": "G"
+        }
+      ],
+      "within_declared_2016_analyzed_radius2_design": true,
+      "is_native_WT": false,
+      "is_single_substitution": false,
+      "within_documented_individually_validated_single_mutant_category": false,
+      "observed_2016_measurement_presence": null,
+      "direct_2016_inclusion_skip_record_authenticated": false
+    },
+    {
+      "vertex_zero_based": 39,
+      "sequence": "GATCCAGATCTAACTTGGGGTGGCTTTGTCTTCTGCTTCTGCCGATTCCACTAATTGTTTGGG",
+      "distance_from_native_WT": 3,
+      "substitutions_relative_native_WT": [
+        {
+          "exon_position1": 35,
+          "WT_base": "T",
+          "variant_base": "G"
+        },
+        {
+          "exon_position1": 39,
+          "WT_base": "T",
+          "variant_base": "C"
+        },
+        {
+          "exon_position1": 44,
+          "WT_base": "A",
+          "variant_base": "G"
+        }
+      ],
+      "within_declared_2016_analyzed_radius2_design": false,
+      "is_native_WT": false,
+      "is_single_substitution": false,
+      "within_documented_individually_validated_single_mutant_category": false,
+      "observed_2016_measurement_presence": null,
+      "direct_2016_inclusion_skip_record_authenticated": false
+    },
+    {
+      "vertex_zero_based": 42,
+      "sequence": "GATCCAGATCTAACTTGGGGTGGCTTTGTCTTCTTCTTCTCCCAATTCCACTAATTGTTTGGG",
+      "distance_from_native_WT": 2,
+      "substitutions_relative_native_WT": [
+        {
+          "exon_position1": 39,
+          "WT_base": "T",
+          "variant_base": "C"
+        },
+        {
+          "exon_position1": 41,
+          "WT_base": "G",
+          "variant_base": "C"
+        }
+      ],
+      "within_declared_2016_analyzed_radius2_design": true,
+      "is_native_WT": false,
+      "is_single_substitution": false,
+      "within_documented_individually_validated_single_mutant_category": false,
+      "observed_2016_measurement_presence": null,
+      "direct_2016_inclusion_skip_record_authenticated": false
+    },
+    {
+      "vertex_zero_based": 46,
+      "sequence": "GATCCAGATCTAACTTGGGGTGGCTTTGTCTTCTTCTTTTGCCAATTCCACTAATTGTTTGGG",
+      "distance_from_native_WT": 0,
+      "substitutions_relative_native_WT": [],
+      "within_declared_2016_analyzed_radius2_design": true,
+      "is_native_WT": true,
+      "is_single_substitution": false,
+      "within_documented_individually_validated_single_mutant_category": false,
+      "observed_2016_measurement_presence": null,
+      "direct_2016_inclusion_skip_record_authenticated": false
+    },
+    {
+      "vertex_zero_based": 51,
+      "sequence": "GATCCAGATCTAACTTGGGGTGGTTGTGTCTCCTGCTTCTGCCGATTCCACTAATTGTTTGGG",
+      "distance_from_native_WT": 6,
+      "substitutions_relative_native_WT": [
+        {
+          "exon_position1": 24,
+          "WT_base": "C",
+          "variant_base": "T"
+        },
+        {
+          "exon_position1": 26,
+          "WT_base": "T",
+          "variant_base": "G"
+        },
+        {
+          "exon_position1": 32,
+          "WT_base": "T",
+          "variant_base": "C"
+        },
+        {
+          "exon_position1": 35,
+          "WT_base": "T",
+          "variant_base": "G"
+        },
+        {
+          "exon_position1": 39,
+          "WT_base": "T",
+          "variant_base": "C"
+        },
+        {
+          "exon_position1": 44,
+          "WT_base": "A",
+          "variant_base": "G"
+        }
+      ],
+      "within_declared_2016_analyzed_radius2_design": false,
+      "is_native_WT": false,
+      "is_single_substitution": false,
+      "within_documented_individually_validated_single_mutant_category": false,
+      "observed_2016_measurement_presence": null,
+      "direct_2016_inclusion_skip_record_authenticated": false
+    },
+    {
+      "vertex_zero_based": 70,
+      "sequence": "GATCCAGATCTAACTTGGGGTGGTTGTGTCTTCTTCTTTTGCCAATTCCACTAATTGTTTGGG",
+      "distance_from_native_WT": 2,
+      "substitutions_relative_native_WT": [
+        {
+          "exon_position1": 24,
+          "WT_base": "C",
+          "variant_base": "T"
+        },
+        {
+          "exon_position1": 26,
+          "WT_base": "T",
+          "variant_base": "G"
+        }
+      ],
+      "within_declared_2016_analyzed_radius2_design": true,
+      "is_native_WT": false,
+      "is_single_substitution": false,
+      "within_documented_individually_validated_single_mutant_category": false,
+      "observed_2016_measurement_presence": null,
+      "direct_2016_inclusion_skip_record_authenticated": false
+    }
+  ],
+  "declared_radius2_members": 5,
+  "declared_radius2_nonWT_members": 4,
+  "outside_declared_radius2": 3,
+  "single_mutants_among_nonWT_certificate_vertices": 0,
+  "observed_coverage_inspected": false,
+  "outcome_tables_or_counts_read": false,
+  "code_sha256": "59af0a659bace39fb50f58c6f065a32875862c7c4e7864bdb1fa79d80fe5d869"
+}

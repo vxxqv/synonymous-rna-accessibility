@@ -1,0 +1,10 @@
+{
+  "status": "PASS_current_source_and_final_figure",
+  "current_source_sha256": "0fc894dee29a5078111dfb4c64320d70e51f2cdc3cc3a7aaa439c35b15087d96",
+  "manifest": {
+    "receipt.json": "47450d8d52a672f3c4ec368903c7355bf223000f311d40f9b8ecc4c33a09e7a8",
+    "review.md": "4fe81d71149a83dc1f6c2911e8133404438c3f7449f9eeccef663b75a2d99c71",
+    "source_delta.md": "6e4daeef6604cb58fdef9a3f8cb67437140fc99ff4cbd9e4067ca2c3fbd1ef66"
+  },
+  "issues": "Two nonblocking wording clarifications retained in review.md; no material proof/numerical/layout defects."
+}
