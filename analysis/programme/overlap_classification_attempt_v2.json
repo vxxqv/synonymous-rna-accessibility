@@ -1,0 +1,10 @@
+{
+  "id": "OVERLAP_CLASSIFICATION_ATTEMPT_V2",
+  "adaptive_reason": "The genotype-only COMPASS audit exposes multiple reading-frame distinctions. The existing overlap branch has finite checks but no general geodesicity proof. The standard genetic code has a potentially useful two-literal compilation after fixing serine families and pairing orientations.",
+  "claim_to_attempt": "Every connected component of a standard-code synonymous compatibility graph remains Hamming-geodesic under arbitrarily overlapping reading frames and logical canonical/wobble pairing obligations. A 2-CNF quotient with complete within-class nucleotide fibers should classify components.",
+  "proposed_reduction": "Fix each serine codon's UCN versus AGY family and each nontrivial pairing component's R/Y orientation. Intersect codon unary domains. Leucine and arginine contribute one implication each; wobble pairing contributes one forbidden binary combination. Any domain of size at least three can only be tested for purine/pyrimidine membership. Encode size-two domains directly and larger domains by that membership; retain within-class base multiplicity.",
+  "closest_prior": "Connected components of 2-CNF solution graphs are isometric; this is established reconfiguration theory, not a new general theorem. The proposed advance is a verified reduction for overlapping standard-code constraints and precise nucleotide-distance lifting.",
+  "decisive_checks": ["Truth-table equivalence for all 20 amino-acid codon relations and both serine families", "Reject self-pairing and inconsistent R/Y orientation", "Compare the quotient compiler to direct translation and pairing enumeration on all short two-frame geometries", "Verify complete graph-component partition, not just feasibility", "Search nonstandard code tables for failures rather than extrapolating"],
+  "success": "A complete self-contained reduction and lifting proof, with a primary-source prior comparison and independent finite checks.",
+  "failure": "Preserve the counterexample and retain finite-only status. Do not repair the definition to exclude a valid biological configuration after finding a failure."
+}

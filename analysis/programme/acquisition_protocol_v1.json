@@ -1,0 +1,19 @@
+{
+  "id": "ACQUISITION_V1",
+  "question": "How many exact vertex-threshold queries are required to certify connectivity or separation, and when do path- or cut-based choices beat simple alternatives?",
+  "interpretation": "Known-answer computational benchmark. No biological validation and no universal optimality claim. Conditional certificates are standard monotone-connectivity consequences; LazySP is a necessary baseline.",
+  "graphs": ["Q3 and Q4 Boolean cubes", "Q6 Boolean cube", "independent-set flip graphs of paths with 5 and 7 loci", "standard-code leucine codon graph and its two-factor product"],
+  "endpoints": "Lexicographically first pair of maximum graph distance, selected without field scores. Their threshold states are forced present and never queried.",
+  "fields": ["independent Bernoulli occupancy at 0.25, 0.5 and 0.75", "graph heat-smoothed Gaussian score at median threshold", "coordinate-additive Gaussian score at median threshold where binary coordinates exist", "coordinate-pairwise-interaction score at median threshold where binary coordinates exist"],
+  "development_seeds": [1000,1001,1002,1003,1004,1005,1006,1007,1008,1009],
+  "validation_seeds": "2000 through 2049 inclusive; do not evaluate until implementation and all policy choices are frozen",
+  "initial_observations": "Endpoints only, and separately a fixed 25% set selected without outcomes using a seeded permutation. Negative observations are never inferred from missingness.",
+  "policies": ["uniform random remaining vertex", "highest degree remaining vertex", "LazySP forward: first unqueried vertex on a shortest possible path", "LazySP bisection: central unqueried vertex on a shortest possible path", "path/cut alternation: alternate LazySP bisection with first unqueried member of a minimum unknown-vertex separator; known retained vertices have prohibitive capacity"],
+  "tie_rule": "All graph, shortest-path and min-cut inputs sorted; select lowest vertex index among tied selector candidates. Random policy uses only the frozen seed.",
+  "primary_endpoint": "Number of additional vertex queries until a sound certificate; paired within identical graph, field and initial observations. Count all validation worlds, including losses and tied costs.",
+  "primary_safety_endpoint": "Zero incorrect certificates against complete truth, for every query prefix in every executed case.",
+  "baselines": "Report exhaustive truth, clairvoyant minimum certificate size where affordable, and exact minimax decision-tree cost for Q3 as reference bounds. A clairvoyant certificate is not an implementable prediction policy.",
+  "uncertainty": "Paired differences across fixed simulated worlds; cluster summaries by graph and field family. Intervals across seeds describe this simulation design, not biological populations or arbitrary score fields.",
+  "success": "All safety checks pass. Report efficiency descriptively; an algorithmic improvement requires at least 10% lower median query count than both LazySP selectors and degree selection across validation cases, without an increased worst-case query count. Otherwise retain software and report no general improvement.",
+  "failure": "Any false certificate halts validation and requires a new version. Avoid tuning on validation seeds. Do not expand to costly folding measurements solely to seek a favorable result."
+}
