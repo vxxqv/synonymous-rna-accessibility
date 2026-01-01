@@ -1,0 +1,14 @@
+{
+  "claim_id": "BIO2_CODE2_COMPILER_ELIGIBILITY",
+  "mathematics": {
+    "assertion_tested": "Each vertebrate-mitochondrial sense-codon relation equals its entailed two-CNF truth set in the existing two-bit nucleotide encoding, and the source table matches Biopython table 2.",
+    "coefficient_domain": "Exact finite Boolean relations and RNA alphabet",
+    "conventions": "Internal complete codons only; A=11,G=10,C=01,U=00. Translation starts, incomplete stops, recoding and processing are not inferred from the internal table.",
+    "inputs": ["NCBI gc.prt table 2, pinned by source SHA-256", "All 64 triplets for all 20 sense amino acids", "All triples within each encoded relation"],
+    "bounds": {"truth_assignments": 1280, "maximum_codon_relation_size": 6},
+    "non_claims": ["No automatic transfer of standard-code numerical results", "No general nucleotide-reachability theorem for overlapping frames", "No mutant functional or pathogenicity inference"]
+  },
+  "execution_artifacts": ["analysis/programme/code2_audit.py", "analysis/expansion/feasibility_2sat.py", "analysis/exact/independent_oracle.py", "data/programme/ncbi_code2.json", "analysis/programme/biological_priorities_v1.json"],
+  "software": [{"name":"Python","version":"3.12.14"},{"name":"Biopython","version":"1.88"}],
+  "randomness": {"used":false,"generator":"","seed":null}
+}

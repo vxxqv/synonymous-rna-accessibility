@@ -1,0 +1,145 @@
+{
+  "schema_version": 2,
+  "claim_id": "BIO2_CODE2_COMPILER_ELIGIBILITY",
+  "repository": {
+    "commit": "1762411e9efe82de311e38eb5548e552ad1455c5",
+    "dirty": true
+  },
+  "command": [
+    "C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\work\\env\\Scripts\\python.exe",
+    "analysis/programme/code2_audit.py",
+    "--out",
+    "results/programme/code2_audit_v1/results.json"
+  ],
+  "environment": {
+    "software": [
+      {
+        "name": "runner-python",
+        "version": "3.12.14"
+      },
+      {
+        "name": "Python",
+        "version": "3.12.14"
+      },
+      {
+        "name": "Biopython",
+        "version": "1.88"
+      }
+    ],
+    "hardware": "Windows-11-10.0.26300-SP0"
+  },
+  "mathematics": {
+    "assertion_tested": "Each vertebrate-mitochondrial sense-codon relation equals its entailed two-CNF truth set in the existing two-bit nucleotide encoding, and the source table matches Biopython table 2.",
+    "coefficient_domain": "Exact finite Boolean relations and RNA alphabet",
+    "conventions": "Internal complete codons only; A=11,G=10,C=01,U=00. Translation starts, incomplete stops, recoding and processing are not inferred from the internal table.",
+    "inputs": [
+      "NCBI gc.prt table 2, pinned by source SHA-256",
+      "All 64 triplets for all 20 sense amino acids",
+      "All triples within each encoded relation"
+    ],
+    "bounds": {
+      "truth_assignments": 1280,
+      "maximum_codon_relation_size": 6
+    },
+    "non_claims": [
+      "No automatic transfer of standard-code numerical results",
+      "No general nucleotide-reachability theorem for overlapping frames",
+      "No mutant functional or pathogenicity inference"
+    ]
+  },
+  "randomness": {
+    "used": false,
+    "generator": "",
+    "seed": null
+  },
+  "run": {
+    "started_at": "2026-10-24T19:02:11.261678+00:00",
+    "runtime_seconds": 0.172,
+    "exit_status": 0,
+    "status": "completed",
+    "timeout_seconds": 60.0,
+    "max_output_bytes": 1048576,
+    "resource_limits": {
+      "memory_bytes": null,
+      "cpu_seconds": null,
+      "max_cores": null,
+      "max_threads": null
+    },
+    "missing_results": [],
+    "invalid_results": []
+  },
+  "execution_artifacts": [
+    "analysis/programme/code2_audit.py",
+    "analysis/expansion/feasibility_2sat.py",
+    "analysis/exact/independent_oracle.py",
+    "data/programme/ncbi_code2.json",
+    "analysis/programme/biological_priorities_v1.json"
+  ],
+  "input_artifacts": [
+    {
+      "path": "analysis/programme/code2_audit.py",
+      "sha256": "eb0f1db1ffc721805e43d4500097cb39566c096a96b1c2219f3c2cbe145124a1",
+      "sha256_after": "eb0f1db1ffc721805e43d4500097cb39566c096a96b1c2219f3c2cbe145124a1"
+    },
+    {
+      "path": "analysis/expansion/feasibility_2sat.py",
+      "sha256": "ab0ac0bb93505a2386a4e34fbe6ea0cd5ddaa185f897a12c31b13f9bcb4fd7c5",
+      "sha256_after": "ab0ac0bb93505a2386a4e34fbe6ea0cd5ddaa185f897a12c31b13f9bcb4fd7c5"
+    },
+    {
+      "path": "analysis/exact/independent_oracle.py",
+      "sha256": "b0145f8f37197bd3f6da0843a535963bf83db7c6886137cf1c487b554f493cab",
+      "sha256_after": "b0145f8f37197bd3f6da0843a535963bf83db7c6886137cf1c487b554f493cab"
+    },
+    {
+      "path": "data/programme/ncbi_code2.json",
+      "sha256": "624d3c88f458cce615aeff1c72d407cb6f756f06e0705010e03d878a32e0efa3",
+      "sha256_after": "624d3c88f458cce615aeff1c72d407cb6f756f06e0705010e03d878a32e0efa3"
+    },
+    {
+      "path": "analysis/programme/biological_priorities_v1.json",
+      "sha256": "6495bfca1873858ddb0199c2e44212cfd4073e4b857b388e28b3ff56e964307e",
+      "sha256_after": "6495bfca1873858ddb0199c2e44212cfd4073e4b857b388e28b3ff56e964307e"
+    }
+  ],
+  "output_directory": "results/programme/code2_audit_v1",
+  "declared_results": [
+    "results/programme/code2_audit_v1/results.json"
+  ],
+  "outputs": [
+    {
+      "path": "results/programme/code2_audit_v1/stdout.txt",
+      "sha256": "674de6d61bc18899abb9fbe664347f2961b44e06af3f7f5d2ac5584a61f53fb6",
+      "kind": "log"
+    },
+    {
+      "path": "results/programme/code2_audit_v1/stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "kind": "log"
+    },
+    {
+      "path": "results/programme/code2_audit_v1/results.json",
+      "sha256": "9fcb50a1ffbb57b1b33ace130d40504acf8abdc4ebdc5baee4a73c65e0b557a1",
+      "kind": "result"
+    }
+  ],
+  "checks": [
+    {
+      "check": "input hashes unchanged",
+      "passed": true
+    },
+    {
+      "check": "process exited successfully within enforced limits",
+      "passed": true
+    },
+    {
+      "check": "declared result files are present and regular",
+      "passed": true
+    }
+  ],
+  "result": "Run completed; mathematical assertion requires interpretation and review.",
+  "residual_risks": [
+    "Command success does not establish the mathematical interpretation.",
+    "Only listed input artifacts are pinned; external dependencies need recorded versions."
+  ]
+}
