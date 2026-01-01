@@ -1,0 +1,634 @@
+{
+  "scope": "No numerical fitness outcomes extracted. Numeric-cell presence only.",
+  "source_sha256": "7b612a56351fd4815397df67325fef5e94e7adf3910303a03114dc9aacb4a1b6",
+  "unique_S7_labels": 50690,
+  "reference_CDS_sha256": {
+    "GFP": "06112f0439bf210328831afad9b758fea7d0449679a57cd2260f3310b7185038",
+    "URA3": "3ff4fdac0521afd8709dd6800e02d8dd9d02461277165ed7e4602462bcf71053"
+  },
+  "conditions": {
+    "B": {
+      "coverage": {
+        "reporter": "GFP",
+        "promoter": "PTDH3",
+        "medium": "SC",
+        "column": "B",
+        "selected_genotypes": 16729,
+        "selected_single_mutants": 2180,
+        "selected_doubles": 14549,
+        "synonymous_singles": 450,
+        "synonymous_doubles": 702,
+        "complete_synonymous_groups": 695,
+        "participating_unique_singles": 419,
+        "unique_doubles": 695,
+        "unique_position_pairs": 640,
+        "synonymous_doubles_missing_single": 7,
+        "outside_CDS_exclusions": 685,
+        "allele_mismatch_exclusions": 0,
+        "protein_change_exclusions": 14892,
+        "S5_rows": 16729,
+        "S5_unique_genotypes": 16729,
+        "S5_duplicate_rows": 0,
+        "S5_unique_not_in_S7": 0,
+        "S7_not_in_S5_unique": 0,
+        "dependency_components": 3,
+        "largest_component_groups": 693,
+        "shared_normalized_WT": true
+      },
+      "component_sizes": [
+        {
+          "single_mutants": 415,
+          "groups": 693
+        },
+        {
+          "single_mutants": 2,
+          "groups": 1
+        },
+        {
+          "single_mutants": 2,
+          "groups": 1
+        }
+      ]
+    },
+    "C": {
+      "coverage": {
+        "reporter": "GFP",
+        "promoter": "PAGP1",
+        "medium": "SC",
+        "column": "C",
+        "selected_genotypes": 9690,
+        "selected_single_mutants": 2059,
+        "selected_doubles": 7631,
+        "synonymous_singles": 431,
+        "synonymous_doubles": 452,
+        "complete_synonymous_groups": 434,
+        "participating_unique_singles": 342,
+        "unique_doubles": 434,
+        "unique_position_pairs": 423,
+        "synonymous_doubles_missing_single": 18,
+        "outside_CDS_exclusions": 571,
+        "allele_mismatch_exclusions": 0,
+        "protein_change_exclusions": 8236,
+        "S5_rows": 9690,
+        "S5_unique_genotypes": 9690,
+        "S5_duplicate_rows": 0,
+        "S5_unique_not_in_S7": 0,
+        "S7_not_in_S5_unique": 0,
+        "dependency_components": 15,
+        "largest_component_groups": 416,
+        "shared_normalized_WT": true
+      },
+      "component_sizes": [
+        {
+          "single_mutants": 310,
+          "groups": 416
+        },
+        {
+          "single_mutants": 3,
+          "groups": 2
+        },
+        {
+          "single_mutants": 3,
+          "groups": 2
+        },
+        {
+          "single_mutants": 3,
+          "groups": 2
+        },
+        {
+          "single_mutants": 3,
+          "groups": 2
+        },
+        {
+          "single_mutants": 2,
+          "groups": 1
+        },
+        {
+          "single_mutants": 2,
+          "groups": 1
+        },
+        {
+          "single_mutants": 2,
+          "groups": 1
+        },
+        {
+          "single_mutants": 2,
+          "groups": 1
+        },
+        {
+          "single_mutants": 2,
+          "groups": 1
+        },
+        {
+          "single_mutants": 2,
+          "groups": 1
+        },
+        {
+          "single_mutants": 2,
+          "groups": 1
+        },
+        {
+          "single_mutants": 2,
+          "groups": 1
+        },
+        {
+          "single_mutants": 2,
+          "groups": 1
+        },
+        {
+          "single_mutants": 2,
+          "groups": 1
+        }
+      ]
+    },
+    "D": {
+      "coverage": {
+        "reporter": "URA3",
+        "promoter": "PTDH3",
+        "medium": "SC",
+        "column": "D",
+        "selected_genotypes": 15149,
+        "selected_single_mutants": 2373,
+        "selected_doubles": 12776,
+        "synonymous_singles": 529,
+        "synonymous_doubles": 704,
+        "complete_synonymous_groups": 684,
+        "participating_unique_singles": 464,
+        "unique_doubles": 684,
+        "unique_position_pairs": 614,
+        "synonymous_doubles_missing_single": 20,
+        "outside_CDS_exclusions": 0,
+        "allele_mismatch_exclusions": 0,
+        "protein_change_exclusions": 13916,
+        "S5_rows": 30298,
+        "S5_unique_genotypes": 15149,
+        "S5_duplicate_rows": 15149,
+        "S5_unique_not_in_S7": 0,
+        "S7_not_in_S5_unique": 0,
+        "dependency_components": 11,
+        "largest_component_groups": 668,
+        "shared_normalized_WT": true
+      },
+      "component_sizes": [
+        {
+          "single_mutants": 438,
+          "groups": 668
+        },
+        {
+          "single_mutants": 5,
+          "groups": 4
+        },
+        {
+          "single_mutants": 5,
+          "groups": 4
+        },
+        {
+          "single_mutants": 2,
+          "groups": 1
+        },
+        {
+          "single_mutants": 2,
+          "groups": 1
+        },
+        {
+          "single_mutants": 2,
+          "groups": 1
+        },
+        {
+          "single_mutants": 2,
+          "groups": 1
+        },
+        {
+          "single_mutants": 2,
+          "groups": 1
+        },
+        {
+          "single_mutants": 2,
+          "groups": 1
+        },
+        {
+          "single_mutants": 2,
+          "groups": 1
+        },
+        {
+          "single_mutants": 2,
+          "groups": 1
+        }
+      ]
+    },
+    "E": {
+      "coverage": {
+        "reporter": "URA3",
+        "promoter": "PAGP1",
+        "medium": "SC",
+        "column": "E",
+        "selected_genotypes": 15123,
+        "selected_single_mutants": 2382,
+        "selected_doubles": 12741,
+        "synonymous_singles": 531,
+        "synonymous_doubles": 732,
+        "complete_synonymous_groups": 720,
+        "participating_unique_singles": 484,
+        "unique_doubles": 720,
+        "unique_position_pairs": 671,
+        "synonymous_doubles_missing_single": 12,
+        "outside_CDS_exclusions": 0,
+        "allele_mismatch_exclusions": 0,
+        "protein_change_exclusions": 13860,
+        "S5_rows": 30246,
+        "S5_unique_genotypes": 15123,
+        "S5_duplicate_rows": 15123,
+        "S5_unique_not_in_S7": 0,
+        "S7_not_in_S5_unique": 0,
+        "dependency_components": 3,
+        "largest_component_groups": 718,
+        "shared_normalized_WT": true
+      },
+      "component_sizes": [
+        {
+          "single_mutants": 480,
+          "groups": 718
+        },
+        {
+          "single_mutants": 2,
+          "groups": 1
+        },
+        {
+          "single_mutants": 2,
+          "groups": 1
+        }
+      ]
+    },
+    "F": {
+      "coverage": {
+        "reporter": "GFP",
+        "promoter": "PTDH3",
+        "medium": "YPD",
+        "column": "F",
+        "selected_genotypes": 16729,
+        "selected_single_mutants": 2180,
+        "selected_doubles": 14549,
+        "synonymous_singles": 450,
+        "synonymous_doubles": 702,
+        "complete_synonymous_groups": 695,
+        "participating_unique_singles": 419,
+        "unique_doubles": 695,
+        "unique_position_pairs": 640,
+        "synonymous_doubles_missing_single": 7,
+        "outside_CDS_exclusions": 685,
+        "allele_mismatch_exclusions": 0,
+        "protein_change_exclusions": 14892,
+        "S5_rows": 16729,
+        "S5_unique_genotypes": 16729,
+        "S5_duplicate_rows": 0,
+        "S5_unique_not_in_S7": 0,
+        "S7_not_in_S5_unique": 0,
+        "dependency_components": 3,
+        "largest_component_groups": 693,
+        "shared_normalized_WT": true
+      },
+      "component_sizes": [
+        {
+          "single_mutants": 415,
+          "groups": 693
+        },
+        {
+          "single_mutants": 2,
+          "groups": 1
+        },
+        {
+          "single_mutants": 2,
+          "groups": 1
+        }
+      ]
+    },
+    "G": {
+      "coverage": {
+        "reporter": "GFP",
+        "promoter": "PAGP1",
+        "medium": "YPD",
+        "column": "G",
+        "selected_genotypes": 9690,
+        "selected_single_mutants": 2059,
+        "selected_doubles": 7631,
+        "synonymous_singles": 431,
+        "synonymous_doubles": 452,
+        "complete_synonymous_groups": 434,
+        "participating_unique_singles": 342,
+        "unique_doubles": 434,
+        "unique_position_pairs": 423,
+        "synonymous_doubles_missing_single": 18,
+        "outside_CDS_exclusions": 571,
+        "allele_mismatch_exclusions": 0,
+        "protein_change_exclusions": 8236,
+        "S5_rows": 9690,
+        "S5_unique_genotypes": 9690,
+        "S5_duplicate_rows": 0,
+        "S5_unique_not_in_S7": 0,
+        "S7_not_in_S5_unique": 0,
+        "dependency_components": 15,
+        "largest_component_groups": 416,
+        "shared_normalized_WT": true
+      },
+      "component_sizes": [
+        {
+          "single_mutants": 310,
+          "groups": 416
+        },
+        {
+          "single_mutants": 3,
+          "groups": 2
+        },
+        {
+          "single_mutants": 3,
+          "groups": 2
+        },
+        {
+          "single_mutants": 3,
+          "groups": 2
+        },
+        {
+          "single_mutants": 3,
+          "groups": 2
+        },
+        {
+          "single_mutants": 2,
+          "groups": 1
+        },
+        {
+          "single_mutants": 2,
+          "groups": 1
+        },
+        {
+          "single_mutants": 2,
+          "groups": 1
+        },
+        {
+          "single_mutants": 2,
+          "groups": 1
+        },
+        {
+          "single_mutants": 2,
+          "groups": 1
+        },
+        {
+          "single_mutants": 2,
+          "groups": 1
+        },
+        {
+          "single_mutants": 2,
+          "groups": 1
+        },
+        {
+          "single_mutants": 2,
+          "groups": 1
+        },
+        {
+          "single_mutants": 2,
+          "groups": 1
+        },
+        {
+          "single_mutants": 2,
+          "groups": 1
+        }
+      ]
+    },
+    "H": {
+      "coverage": {
+        "reporter": "URA3",
+        "promoter": "PTDH3",
+        "medium": "YPD",
+        "column": "H",
+        "selected_genotypes": 15149,
+        "selected_single_mutants": 2373,
+        "selected_doubles": 12776,
+        "synonymous_singles": 529,
+        "synonymous_doubles": 704,
+        "complete_synonymous_groups": 684,
+        "participating_unique_singles": 464,
+        "unique_doubles": 684,
+        "unique_position_pairs": 614,
+        "synonymous_doubles_missing_single": 20,
+        "outside_CDS_exclusions": 0,
+        "allele_mismatch_exclusions": 0,
+        "protein_change_exclusions": 13916,
+        "S5_rows": 15149,
+        "S5_unique_genotypes": 15149,
+        "S5_duplicate_rows": 0,
+        "S5_unique_not_in_S7": 0,
+        "S7_not_in_S5_unique": 0,
+        "dependency_components": 11,
+        "largest_component_groups": 668,
+        "shared_normalized_WT": true
+      },
+      "component_sizes": [
+        {
+          "single_mutants": 438,
+          "groups": 668
+        },
+        {
+          "single_mutants": 5,
+          "groups": 4
+        },
+        {
+          "single_mutants": 5,
+          "groups": 4
+        },
+        {
+          "single_mutants": 2,
+          "groups": 1
+        },
+        {
+          "single_mutants": 2,
+          "groups": 1
+        },
+        {
+          "single_mutants": 2,
+          "groups": 1
+        },
+        {
+          "single_mutants": 2,
+          "groups": 1
+        },
+        {
+          "single_mutants": 2,
+          "groups": 1
+        },
+        {
+          "single_mutants": 2,
+          "groups": 1
+        },
+        {
+          "single_mutants": 2,
+          "groups": 1
+        },
+        {
+          "single_mutants": 2,
+          "groups": 1
+        }
+      ]
+    },
+    "I": {
+      "coverage": {
+        "reporter": "URA3",
+        "promoter": "PAGP1",
+        "medium": "YPD",
+        "column": "I",
+        "selected_genotypes": 15123,
+        "selected_single_mutants": 2382,
+        "selected_doubles": 12741,
+        "synonymous_singles": 531,
+        "synonymous_doubles": 732,
+        "complete_synonymous_groups": 720,
+        "participating_unique_singles": 484,
+        "unique_doubles": 720,
+        "unique_position_pairs": 671,
+        "synonymous_doubles_missing_single": 12,
+        "outside_CDS_exclusions": 0,
+        "allele_mismatch_exclusions": 0,
+        "protein_change_exclusions": 13860,
+        "S5_rows": 15123,
+        "S5_unique_genotypes": 15123,
+        "S5_duplicate_rows": 0,
+        "S5_unique_not_in_S7": 0,
+        "S7_not_in_S5_unique": 0,
+        "dependency_components": 3,
+        "largest_component_groups": 718,
+        "shared_normalized_WT": true
+      },
+      "component_sizes": [
+        {
+          "single_mutants": 480,
+          "groups": 718
+        },
+        {
+          "single_mutants": 2,
+          "groups": 1
+        },
+        {
+          "single_mutants": 2,
+          "groups": 1
+        }
+      ]
+    },
+    "J": {
+      "coverage": {
+        "reporter": "URA3",
+        "promoter": "PTDH3",
+        "medium": "SC-URA",
+        "column": "J",
+        "selected_genotypes": 15149,
+        "selected_single_mutants": 2373,
+        "selected_doubles": 12776,
+        "synonymous_singles": 529,
+        "synonymous_doubles": 704,
+        "complete_synonymous_groups": 684,
+        "participating_unique_singles": 464,
+        "unique_doubles": 684,
+        "unique_position_pairs": 614,
+        "synonymous_doubles_missing_single": 20,
+        "outside_CDS_exclusions": 0,
+        "allele_mismatch_exclusions": 0,
+        "protein_change_exclusions": 13916,
+        "S5_rows": 15149,
+        "S5_unique_genotypes": 15149,
+        "S5_duplicate_rows": 0,
+        "S5_unique_not_in_S7": 0,
+        "S7_not_in_S5_unique": 0,
+        "dependency_components": 11,
+        "largest_component_groups": 668,
+        "shared_normalized_WT": true
+      },
+      "component_sizes": [
+        {
+          "single_mutants": 438,
+          "groups": 668
+        },
+        {
+          "single_mutants": 5,
+          "groups": 4
+        },
+        {
+          "single_mutants": 5,
+          "groups": 4
+        },
+        {
+          "single_mutants": 2,
+          "groups": 1
+        },
+        {
+          "single_mutants": 2,
+          "groups": 1
+        },
+        {
+          "single_mutants": 2,
+          "groups": 1
+        },
+        {
+          "single_mutants": 2,
+          "groups": 1
+        },
+        {
+          "single_mutants": 2,
+          "groups": 1
+        },
+        {
+          "single_mutants": 2,
+          "groups": 1
+        },
+        {
+          "single_mutants": 2,
+          "groups": 1
+        },
+        {
+          "single_mutants": 2,
+          "groups": 1
+        }
+      ]
+    },
+    "K": {
+      "coverage": {
+        "reporter": "URA3",
+        "promoter": "PAGP1",
+        "medium": "SC-URA",
+        "column": "K",
+        "selected_genotypes": 15123,
+        "selected_single_mutants": 2382,
+        "selected_doubles": 12741,
+        "synonymous_singles": 531,
+        "synonymous_doubles": 732,
+        "complete_synonymous_groups": 720,
+        "participating_unique_singles": 484,
+        "unique_doubles": 720,
+        "unique_position_pairs": 671,
+        "synonymous_doubles_missing_single": 12,
+        "outside_CDS_exclusions": 0,
+        "allele_mismatch_exclusions": 0,
+        "protein_change_exclusions": 13860,
+        "S5_rows": 15123,
+        "S5_unique_genotypes": 15123,
+        "S5_duplicate_rows": 0,
+        "S5_unique_not_in_S7": 0,
+        "S7_not_in_S5_unique": 0,
+        "dependency_components": 3,
+        "largest_component_groups": 718,
+        "shared_normalized_WT": true
+      },
+      "component_sizes": [
+        {
+          "single_mutants": 480,
+          "groups": 718
+        },
+        {
+          "single_mutants": 2,
+          "groups": 1
+        },
+        {
+          "single_mutants": 2,
+          "groups": 1
+        }
+      ]
+    }
+  },
+  "cutoff_identifiability": "S5 is the reported measured-genotype list, not an independently documented pre-cutoff universe. Its duplicates are not replicates. Missingness cannot be attributed individually to the cutoff rather than read coverage/mapping. Lost complete-group counts are not identified."
+}

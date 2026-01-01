@@ -1,0 +1,62 @@
+{
+  "id": "MEASURED_SOURCES_V1",
+  "files": [
+    {
+      "work_relative_path": "programme_sources/gfp_supplementary_data.xlsx",
+      "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41467-026-69969-x/MediaObjects/41467_2026_69969_MOESM3_ESM.xlsx",
+      "bytes": 7660811,
+      "sha256": "7b612a56351fd4815397df67325fef5e94e7adf3910303a03114dc9aacb4a1b6",
+      "license_or_scope": "CC-BY-4.0 journal supplement"
+    },
+    {
+      "work_relative_path": "primary_biology/Ref_GFP.fasta",
+      "url": "https://raw.githubusercontent.com/woson2020/Experror/286f6894fef31a82d26691a9b61f0f6e39b63af7/Genotype_barcode_calling/Ref_GFP.fasta",
+      "bytes": 928,
+      "sha256": "864ed60b7184b36e58545775122274c9f64cadda96c5f250cea929226f3affbf",
+      "license_or_scope": "No explicit repository license; source cached externally, derived factual sequence hashes only redistributed"
+    },
+    {
+      "work_relative_path": "primary_biology/Ref_URA3.fasta",
+      "url": "https://raw.githubusercontent.com/woson2020/Experror/286f6894fef31a82d26691a9b61f0f6e39b63af7/Genotype_barcode_calling/Ref_URA3.fasta",
+      "bytes": 1000,
+      "sha256": "ff7e9c5150f16b3fca21cf22a757315016e9fdf7c906f23a3744e5cdd1bf7865",
+      "license_or_scope": "No explicit repository license; source cached externally, derived factual sequence hashes only redistributed"
+    },
+    {
+      "work_relative_path": "primary_biology/assets/NC_012920.1.gb",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=NC_012920.1&rettype=gbwithparts&retmode=text",
+      "bytes": 64640,
+      "sha256": "7530d659e7174272372814edfecb2ece1f87a444395a861fcdf1b977c4aa5c1f",
+      "license_or_scope": "NCBI public reference"
+    },
+    {
+      "work_relative_path": "primary_biology/assets/mito_processed.tar",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE246nnn/GSE246523/suppl/GSE246523_RAW.tar",
+      "bytes": 942080,
+      "sha256": "300772d61b2ff0e88f7951242d19c857deec5c1718b097778c11064907bbd711",
+      "license_or_scope": "Public GEO processed measurements"
+    },
+    {
+      "work_relative_path": "primary_biology/assets/mitoDMS-repo.zip",
+      "url": "https://zenodo.org/records/11235856/files/mitoDMS-repo.zip?download=1",
+      "bytes": 26424943,
+      "sha256": "4682257e1ec8176c4933c60f23afc04329da9105b424390189aa1b59882efa8a",
+      "license_or_scope": "CC-BY-4.0 author archive"
+    },
+    {
+      "work_relative_path": "primary_biology/functional_mito_reference.fasta",
+      "url": "https://raw.githubusercontent.com/churchmanlab/human-mitoribosome-profiling/0e38f0c8f5453b22595e7d362c25b985b16340f1/Annotations/hMitoGenome.fasta",
+      "bytes": 16863,
+      "sha256": "e079ae179d1f8c6210604dd05c81fa0fdecb463b4137e252fc75d90ad38192c9",
+      "license_or_scope": "No explicit repository license; external cache only"
+    },
+    {
+      "work_relative_path": "primary_biology/assets/mito_OXPHOS_RelativeExpression.xlsx",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE173nnn/GSE173283/suppl/GSE173283_OXPHOS_RelativeExpression.xlsx",
+      "bytes": 25363,
+      "sha256": "49696d7fce78127ff4e0294458b0ae8967b8de79a833158611a638cf41f6f67b",
+      "license_or_scope": "Public GEO processed table; numerical outcomes not read"
+    }
+  ],
+  "note": "Inputs cached outside the repository. File hashes describe this run; FASTA text may have normalized terminal line endings. Sequence identities are separately certified in audit outputs. Manuscript texts and external code are not redistributed."
+}

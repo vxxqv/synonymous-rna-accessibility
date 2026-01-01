@@ -1,0 +1,752 @@
+{
+  "population_sequence_checks": [
+    {
+      "source": "GSM7870476_WT1_popavg_reacts_HeavyStrand.txt.gz",
+      "positions": 16500,
+      "reference": "NC_012920.1 minus N3107; reverse-complement for L",
+      "sequence_mismatches": 0
+    },
+    {
+      "source": "GSM7870476_WT1_popavg_reacts_LightStrand.txt.gz",
+      "positions": 16500,
+      "reference": "NC_012920.1 minus N3107; reverse-complement for L",
+      "sequence_mismatches": 0
+    },
+    {
+      "source": "GSM7870477_WT2_popavg_reacts_HeavyStrand.txt.gz",
+      "positions": 16500,
+      "reference": "NC_012920.1 minus N3107; reverse-complement for L",
+      "sequence_mismatches": 0
+    },
+    {
+      "source": "GSM7870477_WT2_popavg_reacts_LightStrand.txt.gz",
+      "positions": 16500,
+      "reference": "NC_012920.1 minus N3107; reverse-complement for L",
+      "sequence_mismatches": 0
+    },
+    {
+      "source": "GSM7870478_KO1_popavg_reacts_HeavyStrand.txt.gz",
+      "positions": 16500,
+      "reference": "NC_012920.1 minus N3107; reverse-complement for L",
+      "sequence_mismatches": 0
+    },
+    {
+      "source": "GSM7870478_KO1_popavg_reacts_LightStrand.txt.gz",
+      "positions": 16500,
+      "reference": "NC_012920.1 minus N3107; reverse-complement for L",
+      "sequence_mismatches": 0
+    },
+    {
+      "source": "GSM7870479_KO2_popavg_reacts_HeavyStrand.txt.gz",
+      "positions": 16500,
+      "reference": "NC_012920.1 minus N3107; reverse-complement for L",
+      "sequence_mismatches": 0
+    },
+    {
+      "source": "GSM7870479_KO2_popavg_reacts_LightStrand.txt.gz",
+      "positions": 16500,
+      "reference": "NC_012920.1 minus N3107; reverse-complement for L",
+      "sequence_mismatches": 0
+    }
+  ],
+  "functional_reference_exactly_matches_native_reference": true,
+  "cluster_sequence_map": [
+    {
+      "condition": "WT",
+      "source_gene_label": "ND1",
+      "unit": "ND1",
+      "sequence_origin0": 3304,
+      "orientation": "forward",
+      "bases": 786,
+      "mismatches": 0,
+      "anchor_support": 38
+    },
+    {
+      "condition": "WT",
+      "source_gene_label": "ND2",
+      "unit": "ND2",
+      "sequence_origin0": 4469,
+      "orientation": "forward",
+      "bases": 1044,
+      "mismatches": 2,
+      "anchor_support": 48
+    },
+    {
+      "condition": "WT",
+      "source_gene_label": "COX1",
+      "unit": "COX1",
+      "sequence_origin0": 5900,
+      "orientation": "forward",
+      "bases": 1545,
+      "mismatches": 1,
+      "anchor_support": 74
+    },
+    {
+      "condition": "WT",
+      "source_gene_label": "COX2",
+      "unit": "COX2",
+      "sequence_origin0": 7585,
+      "orientation": "forward",
+      "bases": 684,
+      "mismatches": 0,
+      "anchor_support": 33
+    },
+    {
+      "condition": "WT",
+      "source_gene_label": "ATP68",
+      "unit": "ATP68",
+      "sequence_origin0": 8364,
+      "orientation": "forward",
+      "bases": 842,
+      "mismatches": 1,
+      "anchor_support": 40
+    },
+    {
+      "condition": "WT",
+      "source_gene_label": "COX3",
+      "unit": "COX3",
+      "sequence_origin0": 9206,
+      "orientation": "forward",
+      "bases": 786,
+      "mismatches": 1,
+      "anchor_support": 38
+    },
+    {
+      "condition": "WT",
+      "source_gene_label": "ND3",
+      "unit": "ND3",
+      "sequence_origin0": 10058,
+      "orientation": "forward",
+      "bases": 348,
+      "mismatches": 2,
+      "anchor_support": 16
+    },
+    {
+      "condition": "WT",
+      "source_gene_label": "ND44L",
+      "unit": "ND44L",
+      "sequence_origin0": 10469,
+      "orientation": "forward",
+      "bases": 1650,
+      "mismatches": 1,
+      "anchor_support": 80
+    },
+    {
+      "condition": "WT",
+      "source_gene_label": "ND5",
+      "unit": "ND5",
+      "sequence_origin0": 12336,
+      "orientation": "forward",
+      "bases": 1812,
+      "mismatches": 1,
+      "anchor_support": 88
+    },
+    {
+      "condition": "WT",
+      "source_gene_label": "ND6",
+      "unit": "ND6",
+      "sequence_origin0": 1896,
+      "orientation": "reverse_complement",
+      "bases": 525,
+      "mismatches": 0,
+      "anchor_support": 25
+    },
+    {
+      "condition": "WT",
+      "source_gene_label": "CYTB",
+      "unit": "CYTB",
+      "sequence_origin0": 14746,
+      "orientation": "forward",
+      "bases": 1143,
+      "mismatches": 6,
+      "anchor_support": 51
+    },
+    {
+      "condition": "KO",
+      "source_gene_label": "ND1",
+      "unit": "ND1",
+      "sequence_origin0": 3304,
+      "orientation": "forward",
+      "bases": 786,
+      "mismatches": 0,
+      "anchor_support": 38
+    },
+    {
+      "condition": "KO",
+      "source_gene_label": "ND2",
+      "unit": "ND2",
+      "sequence_origin0": 4469,
+      "orientation": "forward",
+      "bases": 1044,
+      "mismatches": 2,
+      "anchor_support": 48
+    },
+    {
+      "condition": "KO",
+      "source_gene_label": "COX1",
+      "unit": "COX1",
+      "sequence_origin0": 5900,
+      "orientation": "forward",
+      "bases": 1545,
+      "mismatches": 1,
+      "anchor_support": 74
+    },
+    {
+      "condition": "KO",
+      "source_gene_label": "COX2",
+      "unit": "COX2",
+      "sequence_origin0": 7585,
+      "orientation": "forward",
+      "bases": 684,
+      "mismatches": 0,
+      "anchor_support": 33
+    },
+    {
+      "condition": "KO",
+      "source_gene_label": "ATP68",
+      "unit": "ATP68",
+      "sequence_origin0": 8364,
+      "orientation": "forward",
+      "bases": 842,
+      "mismatches": 1,
+      "anchor_support": 40
+    },
+    {
+      "condition": "KO",
+      "source_gene_label": "COX3",
+      "unit": "COX3",
+      "sequence_origin0": 9206,
+      "orientation": "forward",
+      "bases": 786,
+      "mismatches": 1,
+      "anchor_support": 38
+    },
+    {
+      "condition": "KO",
+      "source_gene_label": "ND3",
+      "unit": "ND3",
+      "sequence_origin0": 10058,
+      "orientation": "forward",
+      "bases": 348,
+      "mismatches": 2,
+      "anchor_support": 16
+    },
+    {
+      "condition": "KO",
+      "source_gene_label": "ND44L",
+      "unit": "ND44L",
+      "sequence_origin0": 10469,
+      "orientation": "forward",
+      "bases": 1670,
+      "mismatches": 3,
+      "anchor_support": 81
+    },
+    {
+      "condition": "KO",
+      "source_gene_label": "ND5",
+      "unit": "ND5",
+      "sequence_origin0": 12336,
+      "orientation": "forward",
+      "bases": 1812,
+      "mismatches": 1,
+      "anchor_support": 88
+    },
+    {
+      "condition": "KO",
+      "source_gene_label": "ND6",
+      "unit": "ND6",
+      "sequence_origin0": 1896,
+      "orientation": "reverse_complement",
+      "bases": 525,
+      "mismatches": 0,
+      "anchor_support": 25
+    },
+    {
+      "condition": "KO",
+      "source_gene_label": "NA",
+      "unit": "CYTB",
+      "sequence_origin0": 14746,
+      "orientation": "forward",
+      "bases": 1143,
+      "mismatches": 6,
+      "anchor_support": 51
+    }
+  ],
+  "coverage": [
+    {
+      "unit": "ND1",
+      "window": 15,
+      "passed": true,
+      "starts": [
+        {
+          "gene": "ND1",
+          "eligible_shared_AC": 11,
+          "usable_AC": 11,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "unit": "ND2",
+      "window": 15,
+      "passed": true,
+      "starts": [
+        {
+          "gene": "ND2",
+          "eligible_shared_AC": 9,
+          "usable_AC": 9,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "unit": "COX1",
+      "window": 15,
+      "passed": false,
+      "starts": [
+        {
+          "gene": "COX1",
+          "eligible_shared_AC": 7,
+          "usable_AC": 0,
+          "passed": false
+        }
+      ]
+    },
+    {
+      "unit": "COX2",
+      "window": 15,
+      "passed": true,
+      "starts": [
+        {
+          "gene": "COX2",
+          "eligible_shared_AC": 8,
+          "usable_AC": 8,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "unit": "ATP68",
+      "window": 15,
+      "passed": true,
+      "starts": [
+        {
+          "gene": "ATP8",
+          "eligible_shared_AC": 11,
+          "usable_AC": 11,
+          "passed": true
+        },
+        {
+          "gene": "ATP6",
+          "eligible_shared_AC": 9,
+          "usable_AC": 9,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "unit": "COX3",
+      "window": 15,
+      "passed": false,
+      "starts": [
+        {
+          "gene": "COX3",
+          "eligible_shared_AC": 12,
+          "usable_AC": 0,
+          "passed": false
+        }
+      ]
+    },
+    {
+      "unit": "ND3",
+      "window": 15,
+      "passed": false,
+      "starts": [
+        {
+          "gene": "ND3",
+          "eligible_shared_AC": 9,
+          "usable_AC": 0,
+          "passed": false
+        }
+      ]
+    },
+    {
+      "unit": "ND44L",
+      "window": 15,
+      "passed": true,
+      "starts": [
+        {
+          "gene": "ND4L",
+          "eligible_shared_AC": 9,
+          "usable_AC": 9,
+          "passed": true
+        },
+        {
+          "gene": "ND4",
+          "eligible_shared_AC": 10,
+          "usable_AC": 10,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "unit": "ND5",
+      "window": 15,
+      "passed": false,
+      "starts": [
+        {
+          "gene": "ND5",
+          "eligible_shared_AC": 11,
+          "usable_AC": 0,
+          "passed": false
+        }
+      ]
+    },
+    {
+      "unit": "ND6",
+      "window": 15,
+      "passed": false,
+      "starts": [
+        {
+          "gene": "ND6",
+          "eligible_shared_AC": 4,
+          "usable_AC": 4,
+          "passed": false
+        }
+      ]
+    },
+    {
+      "unit": "CYTB",
+      "window": 15,
+      "passed": true,
+      "starts": [
+        {
+          "gene": "CYTB",
+          "eligible_shared_AC": 11,
+          "usable_AC": 11,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "unit": "ND1",
+      "window": 30,
+      "passed": true,
+      "starts": [
+        {
+          "gene": "ND1",
+          "eligible_shared_AC": 20,
+          "usable_AC": 20,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "unit": "ND2",
+      "window": 30,
+      "passed": true,
+      "starts": [
+        {
+          "gene": "ND2",
+          "eligible_shared_AC": 20,
+          "usable_AC": 20,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "unit": "COX1",
+      "window": 30,
+      "passed": false,
+      "starts": [
+        {
+          "gene": "COX1",
+          "eligible_shared_AC": 15,
+          "usable_AC": 0,
+          "passed": false
+        }
+      ]
+    },
+    {
+      "unit": "COX2",
+      "window": 30,
+      "passed": true,
+      "starts": [
+        {
+          "gene": "COX2",
+          "eligible_shared_AC": 17,
+          "usable_AC": 17,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "unit": "ATP68",
+      "window": 30,
+      "passed": true,
+      "starts": [
+        {
+          "gene": "ATP8",
+          "eligible_shared_AC": 20,
+          "usable_AC": 19,
+          "passed": true
+        },
+        {
+          "gene": "ATP6",
+          "eligible_shared_AC": 15,
+          "usable_AC": 15,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "unit": "COX3",
+      "window": 30,
+      "passed": false,
+      "starts": [
+        {
+          "gene": "COX3",
+          "eligible_shared_AC": 21,
+          "usable_AC": 0,
+          "passed": false
+        }
+      ]
+    },
+    {
+      "unit": "ND3",
+      "window": 30,
+      "passed": false,
+      "starts": [
+        {
+          "gene": "ND3",
+          "eligible_shared_AC": 18,
+          "usable_AC": 0,
+          "passed": false
+        }
+      ]
+    },
+    {
+      "unit": "ND44L",
+      "window": 30,
+      "passed": true,
+      "starts": [
+        {
+          "gene": "ND4L",
+          "eligible_shared_AC": 18,
+          "usable_AC": 18,
+          "passed": true
+        },
+        {
+          "gene": "ND4",
+          "eligible_shared_AC": 20,
+          "usable_AC": 20,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "unit": "ND5",
+      "window": 30,
+      "passed": false,
+      "starts": [
+        {
+          "gene": "ND5",
+          "eligible_shared_AC": 23,
+          "usable_AC": 0,
+          "passed": false
+        }
+      ]
+    },
+    {
+      "unit": "ND6",
+      "window": 30,
+      "passed": false,
+      "starts": [
+        {
+          "gene": "ND6",
+          "eligible_shared_AC": 6,
+          "usable_AC": 6,
+          "passed": false
+        }
+      ]
+    },
+    {
+      "unit": "CYTB",
+      "window": 30,
+      "passed": true,
+      "starts": [
+        {
+          "gene": "CYTB",
+          "eligible_shared_AC": 23,
+          "usable_AC": 23,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "unit": "ND1",
+      "window": 45,
+      "passed": true,
+      "starts": [
+        {
+          "gene": "ND1",
+          "eligible_shared_AC": 29,
+          "usable_AC": 29,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "unit": "ND2",
+      "window": 45,
+      "passed": true,
+      "starts": [
+        {
+          "gene": "ND2",
+          "eligible_shared_AC": 28,
+          "usable_AC": 28,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "unit": "COX1",
+      "window": 45,
+      "passed": false,
+      "starts": [
+        {
+          "gene": "COX1",
+          "eligible_shared_AC": 27,
+          "usable_AC": 0,
+          "passed": false
+        }
+      ]
+    },
+    {
+      "unit": "COX2",
+      "window": 45,
+      "passed": true,
+      "starts": [
+        {
+          "gene": "COX2",
+          "eligible_shared_AC": 26,
+          "usable_AC": 26,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "unit": "ATP68",
+      "window": 45,
+      "passed": true,
+      "starts": [
+        {
+          "gene": "ATP8",
+          "eligible_shared_AC": 32,
+          "usable_AC": 31,
+          "passed": true
+        },
+        {
+          "gene": "ATP6",
+          "eligible_shared_AC": 27,
+          "usable_AC": 27,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "unit": "COX3",
+      "window": 45,
+      "passed": false,
+      "starts": [
+        {
+          "gene": "COX3",
+          "eligible_shared_AC": 33,
+          "usable_AC": 0,
+          "passed": false
+        }
+      ]
+    },
+    {
+      "unit": "ND3",
+      "window": 45,
+      "passed": false,
+      "starts": [
+        {
+          "gene": "ND3",
+          "eligible_shared_AC": 28,
+          "usable_AC": 0,
+          "passed": false
+        }
+      ]
+    },
+    {
+      "unit": "ND44L",
+      "window": 45,
+      "passed": true,
+      "starts": [
+        {
+          "gene": "ND4L",
+          "eligible_shared_AC": 27,
+          "usable_AC": 27,
+          "passed": true
+        },
+        {
+          "gene": "ND4",
+          "eligible_shared_AC": 30,
+          "usable_AC": 28,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "unit": "ND5",
+      "window": 45,
+      "passed": false,
+      "starts": [
+        {
+          "gene": "ND5",
+          "eligible_shared_AC": 33,
+          "usable_AC": 0,
+          "passed": false
+        }
+      ]
+    },
+    {
+      "unit": "ND6",
+      "window": 45,
+      "passed": true,
+      "starts": [
+        {
+          "gene": "ND6",
+          "eligible_shared_AC": 9,
+          "usable_AC": 9,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "unit": "CYTB",
+      "window": 45,
+      "passed": true,
+      "starts": [
+        {
+          "gene": "CYTB",
+          "eligible_shared_AC": 33,
+          "usable_AC": 33,
+          "passed": true
+        }
+      ]
+    }
+  ],
+  "primary_eligible_units": [
+    "ND1",
+    "ND2",
+    "COX2",
+    "ATP68",
+    "ND44L",
+    "CYTB"
+  ],
+  "functional_outcomes_read": false,
+  "interpretation": "Local normalized probing-mixture variance, not thermodynamic conformer occupancy."
+}

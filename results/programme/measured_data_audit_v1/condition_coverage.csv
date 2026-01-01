@@ -1,0 +1,11 @@
+reporter,promoter,medium,column,selected_genotypes,selected_single_mutants,selected_doubles,synonymous_singles,synonymous_doubles,complete_synonymous_groups,participating_unique_singles,unique_doubles,unique_position_pairs,synonymous_doubles_missing_single,outside_CDS_exclusions,allele_mismatch_exclusions,protein_change_exclusions,S5_rows,S5_unique_genotypes,S5_duplicate_rows,S5_unique_not_in_S7,S7_not_in_S5_unique,dependency_components,largest_component_groups,shared_normalized_WT
+GFP,PTDH3,SC,B,16729,2180,14549,450,702,695,419,695,640,7,685,0,14892,16729,16729,0,0,0,3,693,True
+GFP,PAGP1,SC,C,9690,2059,7631,431,452,434,342,434,423,18,571,0,8236,9690,9690,0,0,0,15,416,True
+URA3,PTDH3,SC,D,15149,2373,12776,529,704,684,464,684,614,20,0,0,13916,30298,15149,15149,0,0,11,668,True
+URA3,PAGP1,SC,E,15123,2382,12741,531,732,720,484,720,671,12,0,0,13860,30246,15123,15123,0,0,3,718,True
+GFP,PTDH3,YPD,F,16729,2180,14549,450,702,695,419,695,640,7,685,0,14892,16729,16729,0,0,0,3,693,True
+GFP,PAGP1,YPD,G,9690,2059,7631,431,452,434,342,434,423,18,571,0,8236,9690,9690,0,0,0,15,416,True
+URA3,PTDH3,YPD,H,15149,2373,12776,529,704,684,464,684,614,20,0,0,13916,15149,15149,0,0,0,11,668,True
+URA3,PAGP1,YPD,I,15123,2382,12741,531,732,720,484,720,671,12,0,0,13860,15123,15123,0,0,0,3,718,True
+URA3,PTDH3,SC-URA,J,15149,2373,12776,529,704,684,464,684,614,20,0,0,13916,15149,15149,0,0,0,11,668,True
+URA3,PAGP1,SC-URA,K,15123,2382,12741,531,732,720,484,720,671,12,0,0,13860,15123,15123,0,0,0,3,718,True
