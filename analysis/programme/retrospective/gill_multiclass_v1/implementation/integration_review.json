@@ -1,0 +1,49 @@
+{
+  "status": "accepted_before_new_RNA_outcomes",
+  "protocol_commit": "d640324987908a87fa6ce9ef60288d80e30da032",
+  "protocol_sha256": "4ab4e85c14203c0ab8c983e8433c766f1566f373a335fd3fda4fb3981371c1aa",
+  "code_sha256": "9d60eabe28cf8a8f6c37f17a39c1adcbec049eca04e526c04751605657569268",
+  "primary_review_scope": [
+    "Selective cell reader and frozen row identity",
+    "Uniform four-factor projection and class-balanced pooled residual cosine",
+    "All-nine normalization scenarios and signed four-term decomposition",
+    "Validation gates verified before protected D access",
+    "No classwise outcome selection or loss of undefined cases",
+    "All-pair maximum barrier union-find identity and tie behavior",
+    "Centered shape error is not level prediction",
+    "Raw barriers retained with fixed numerical precision flags"
+  ],
+  "required_correction": "Floating tiny positive barriers now have a separate unresolved precision flag; raw values and primary endpoint unchanged.",
+  "verification": "Primary integration reran the 27 synthetic tests: all passed. Earlier projection review independently compared all 20 eligible architectures to an indicator-matrix pseudoinverse.",
+  "uncertainty": "No independent biological preparation, calibrated confidence interval, molecular interaction or noise ceiling is established.",
+  "next_gate": "Commit implementation before B/C training. Commit immutable training receipt and predictions before D validation.",
+  "new_RNA_outcomes_read": false,
+  "integration_note": "Windows path length interrupted the first history-directory copy after six current files were copied. Those six files were committed as 82284f7 before any outcome access. This completion preserves historical bytes in history.zip to avoid nested path limits. Current code is unchanged.",
+  "history_bundle_sha256": "749f7c2d9a6ee09df220f92bb5279a0c81d305f060bcd5e6f9f08bb1fed7a985",
+  "files_copied_byte_for_byte": [
+    {
+      "path": "gill_multiclass.py",
+      "sha256": "9d60eabe28cf8a8f6c37f17a39c1adcbec049eca04e526c04751605657569268"
+    },
+    {
+      "path": "test_gill_multiclass.py",
+      "sha256": "4874bb513005084b36a1a10cfd548f3f3743f0e69c14297de4cc599bf42fd570"
+    },
+    {
+      "path": "Implementation_Handoff.md",
+      "sha256": "e91992ef50439272de00ae33b32c5557e3e4c86f117625f428c9cd217ba8bb52"
+    },
+    {
+      "path": "metadata_preflight.json",
+      "sha256": "31c7622d71dd447a0ea410943126ce993e5b07fcfba45b7c58b2899e7e5bf054"
+    },
+    {
+      "path": "synthetic_receipt.json",
+      "sha256": "42ad2a032bfe411725e203a062b468eb895745f9f3b4ef26812988fa5b2744de"
+    },
+    {
+      "path": "precision_amendment_parity.json",
+      "sha256": "dc56aaf6436ead5908b3d3ec53212176cf8b95a8bffe3370cddc9ec30c400df0"
+    }
+  ]
+}
