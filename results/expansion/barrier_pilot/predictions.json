@@ -1,0 +1,4252 @@
+{
+  "scope": "new synthetic computational predictions before ensemble evaluation",
+  "protocol_sha256": "80b7c56e01b5cdf7b753c4f4fafcfbbcb02517f09eabb334e21ae978bf6a7e34",
+  "implementation_sha256": "71c7092fc50126796f8349a9dc89df50b083c12c14829aba2b89dceed4e6ae41",
+  "ViennaRNA": "2.7.2",
+  "rows": [
+    {
+      "scaffold": "S01",
+      "baseline": "AUCUGUGUCAGUGGCCAACAAAUGCGGACGAAGCUAUUUAGCGCUGAGCAAGAAUUUUGUGGCGAGGUUGCGGGGCAUGGGUCACUGCUG",
+      "targeted": "AUCUGUGUCAGUGGCCAACAAAUGCGGACGAAGUUAUUUAGCGCUGAGCAAGAAUUUUGUGGCGAGGUUGCGGGGCAUGGGUCACUGCUG",
+      "control": "AUCUGUGUCAGUGGUCAACAAAUGCGGACGAAGCUAUUUAGCGCUGAGCAAGAAUUUUGUGGCGAGGUUGCGGGGCAUGGGUCACUGCUG",
+      "peptide": "ICVSGQQMRTKLFSAEQEFCGEVAGHGSLL",
+      "direction": "C_to_U",
+      "targeted_position0": 33,
+      "control_position0": 14,
+      "pair0": [
+        32,
+        38
+      ],
+      "maximum_prior90nt_identity": 0.43333333333333335,
+      "predictions": {
+        "baseline": {
+          "sequences": [
+            "AUCUGUGUCAGUGGCCAACAAAUGCGGACGAAACUAUUUAGCGCUGAGCAAGAAUUUUGUGGCGAGGUUGCGGGGCAUGGGUCACUGCUG",
+            "AUCUGUGUCAGUGGCCAACAAAUGCGGACGAAGCUAUUUAGCGCUGAGCAAGAAUUUUGUGGCGAGGUUGCGGGGCAUGGGUCACUGCUG",
+            "AUCUGUGUCAGUGGCCAACAAAUGCGGACGAAGCUAUUCAGCGCUGAGCAAGAAUUUUGUGGCGAGGUUGCGGGGCAUGGGUCACUGCUG"
+          ],
+          "scores": [
+            0.0002996730849175233,
+            0.0002996730849175233,
+            0.002464585780939057
+          ],
+          "isolated_hairpin_energies": [
+            5.0,
+            5.0,
+            3.700000047683716
+          ],
+          "filtration": {
+            "positive_bar_count": 0,
+            "longest_lifetime": 0.0,
+            "integrated_excess": 0.0,
+            "maximum_excess": 0.0,
+            "baseline_components": 1,
+            "threshold_at_maximum": 0.002464585780939057,
+            "bars": [],
+            "curve": [
+              {
+                "threshold": 0.002464585780939057,
+                "excess": 0.0,
+                "retained": 1,
+                "filtered_components": 1
+              },
+              {
+                "threshold": 0.0002996730849175233,
+                "excess": 0.0,
+                "retained": 3,
+                "filtered_components": 1
+              }
+            ]
+          }
+        },
+        "targeted": {
+          "sequences": [
+            "AUCUGUGUCAGUGGCCAACAAAUGCGGACGAAAUUAUUUAGCGCUGAGCAAGAAUUUUGUGGCGAGGUUGCGGGGCAUGGGUCACUGCUG",
+            "AUCUGUGUCAGUGGCCAACAAAUGCGGACGAAGUUAUUUAGCGCUGAGCAAGAAUUUUGUGGCGAGGUUGCGGGGCAUGGGUCACUGCUG",
+            "AUCUGUGUCAGUGGCCAACAAAUGCGGACGAAGUUAUUCAGCGCUGAGCAAGAAUUUUGUGGCGAGGUUGCGGGGCAUGGGUCACUGCUG"
+          ],
+          "scores": [
+            0.0015162238934932906,
+            0.00109652136922465,
+            0.014507016798586025
+          ],
+          "isolated_hairpin_energies": [
+            4.0,
+            4.199999809265137,
+            2.5999999046325684
+          ],
+          "filtration": {
+            "positive_bar_count": 1,
+            "longest_lifetime": 0.00041970252426864053,
+            "integrated_excess": 0.00020985126213432027,
+            "maximum_excess": 0.5,
+            "baseline_components": 1,
+            "threshold_at_maximum": 0.0015162238934932906,
+            "bars": [
+              {
+                "birth": 0.0015162238934932906,
+                "death": 0.00109652136922465,
+                "lifetime": 0.00041970252426864053,
+                "peak_vertex": 0,
+                "merge_edge": [
+                  1,
+                  2
+                ],
+                "baseline_component": 0
+              }
+            ],
+            "curve": [
+              {
+                "threshold": 0.014507016798586025,
+                "excess": 0.0,
+                "retained": 1,
+                "filtered_components": 1
+              },
+              {
+                "threshold": 0.0015162238934932906,
+                "excess": 0.5,
+                "retained": 2,
+                "filtered_components": 2
+              },
+              {
+                "threshold": 0.00109652136922465,
+                "excess": 0.0,
+                "retained": 3,
+                "filtered_components": 1
+              }
+            ]
+          }
+        },
+        "control": {
+          "sequences": [
+            "AUCUGUGUCAGUGGUCAACAAAUGCGGACGAAACUAUUUAGCGCUGAGCAAGAAUUUUGUGGCGAGGUUGCGGGGCAUGGGUCACUGCUG",
+            "AUCUGUGUCAGUGGUCAACAAAUGCGGACGAAGCUAUUUAGCGCUGAGCAAGAAUUUUGUGGCGAGGUUGCGGGGCAUGGGUCACUGCUG",
+            "AUCUGUGUCAGUGGUCAACAAAUGCGGACGAAGCUAUUCAGCGCUGAGCAAGAAUUUUGUGGCGAGGUUGCGGGGCAUGGGUCACUGCUG"
+          ],
+          "scores": [
+            0.0002996730849175233,
+            0.0002996730849175233,
+            0.002464585780939057
+          ],
+          "isolated_hairpin_energies": [
+            5.0,
+            5.0,
+            3.700000047683716
+          ],
+          "filtration": {
+            "positive_bar_count": 0,
+            "longest_lifetime": 0.0,
+            "integrated_excess": 0.0,
+            "maximum_excess": 0.0,
+            "baseline_components": 1,
+            "threshold_at_maximum": 0.002464585780939057,
+            "bars": [],
+            "curve": [
+              {
+                "threshold": 0.002464585780939057,
+                "excess": 0.0,
+                "retained": 1,
+                "filtered_components": 1
+              },
+              {
+                "threshold": 0.0002996730849175233,
+                "excess": 0.0,
+                "retained": 3,
+                "filtered_components": 1
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "scaffold": "S02",
+      "baseline": "GAUGCGAUGGGGGGUGGCGAGUUCACGGCAAAGUUAUUUUUAGCCGAAAUACUUGGUUAUAAUUACAACCCUUCUGUGAGCCAACGGUUU",
+      "targeted": "GAUGCGAUGGGGGGUGGCGAGUUCACGGCAAAGCUAUUUUUAGCCGAAAUACUUGGUUAUAAUUACAACCCUUCUGUGAGCCAACGGUUU",
+      "control": "GAUGCGAUGGGGGGCGGCGAGUUCACGGCAAAGUUAUUUUUAGCCGAAAUACUUGGUUAUAAUUACAACCCUUCUGUGAGCCAACGGUUU",
+      "peptide": "DAMGGGEFTAKLFLAEILGYNYNPSVSQRF",
+      "direction": "U_to_C",
+      "targeted_position0": 33,
+      "control_position0": 14,
+      "pair0": [
+        32,
+        38
+      ],
+      "maximum_prior90nt_identity": 0.4666666666666667,
+      "predictions": {
+        "baseline": {
+          "sequences": [
+            "GAUGCGAUGGGGGGUGGCGAGUUCACGGCAAAAUUAUUUUUAGCCGAAAUACUUGGUUAUAAUUACAACCCUUCUGUGAGCCAACGGUUU",
+            "GAUGCGAUGGGGGGUGGCGAGUUCACGGCAAAGUUAUUUUUAGCCGAAAUACUUGGUUAUAAUUACAACCCUUCUGUGAGCCAACGGUUU",
+            "GAUGCGAUGGGGGGUGGCGAGUUCACGGCAAAGUUAUUCUUAGCCGAAAUACUUGGUUAUAAUUACAACCCUUCUGUGAGCCAACGGUUU"
+          ],
+          "scores": [
+            0.0009324460603445761,
+            0.0006742286475945491,
+            0.006497872261952122
+          ],
+          "isolated_hairpin_energies": [
+            4.300000190734863,
+            4.5,
+            3.0999999046325684
+          ],
+          "filtration": {
+            "positive_bar_count": 1,
+            "longest_lifetime": 0.000258217412750027,
+            "integrated_excess": 0.0001291087063750135,
+            "maximum_excess": 0.5,
+            "baseline_components": 1,
+            "threshold_at_maximum": 0.0009324460603445761,
+            "bars": [
+              {
+                "birth": 0.0009324460603445761,
+                "death": 0.0006742286475945491,
+                "lifetime": 0.000258217412750027,
+                "peak_vertex": 0,
+                "merge_edge": [
+                  1,
+                  2
+                ],
+                "baseline_component": 0
+              }
+            ],
+            "curve": [
+              {
+                "threshold": 0.006497872261952122,
+                "excess": 0.0,
+                "retained": 1,
+                "filtered_components": 1
+              },
+              {
+                "threshold": 0.0009324460603445761,
+                "excess": 0.5,
+                "retained": 2,
+                "filtered_components": 2
+              },
+              {
+                "threshold": 0.0006742286475945491,
+                "excess": 0.0,
+                "retained": 3,
+                "filtered_components": 1
+              }
+            ]
+          }
+        },
+        "targeted": {
+          "sequences": [
+            "GAUGCGAUGGGGGGUGGCGAGUUCACGGCAAAACUAUUUUUAGCCGAAAUACUUGGUUAUAAUUACAACCCUUCUGUGAGCCAACGGUUU",
+            "GAUGCGAUGGGGGGUGGCGAGUUCACGGCAAAGCUAUUUUUAGCCGAAAUACUUGGUUAUAAUUACAACCCUUCUGUGAGCCAACGGUUU",
+            "GAUGCGAUGGGGGGUGGCGAGUUCACGGCAAAGCUAUUCUUAGCCGAAAUACUUGGUUAUAAUUACAACCCUUCUGUGAGCCAACGGUUU"
+          ],
+          "scores": [
+            0.0001842062821398559,
+            0.0001842062821398559,
+            0.00109652136922465
+          ],
+          "isolated_hairpin_energies": [
+            5.300000190734863,
+            5.300000190734863,
+            4.199999809265137
+          ],
+          "filtration": {
+            "positive_bar_count": 0,
+            "longest_lifetime": 0.0,
+            "integrated_excess": 0.0,
+            "maximum_excess": 0.0,
+            "baseline_components": 1,
+            "threshold_at_maximum": 0.00109652136922465,
+            "bars": [],
+            "curve": [
+              {
+                "threshold": 0.00109652136922465,
+                "excess": 0.0,
+                "retained": 1,
+                "filtered_components": 1
+              },
+              {
+                "threshold": 0.0001842062821398559,
+                "excess": 0.0,
+                "retained": 3,
+                "filtered_components": 1
+              }
+            ]
+          }
+        },
+        "control": {
+          "sequences": [
+            "GAUGCGAUGGGGGGCGGCGAGUUCACGGCAAAAUUAUUUUUAGCCGAAAUACUUGGUUAUAAUUACAACCCUUCUGUGAGCCAACGGUUU",
+            "GAUGCGAUGGGGGGCGGCGAGUUCACGGCAAAGUUAUUUUUAGCCGAAAUACUUGGUUAUAAUUACAACCCUUCUGUGAGCCAACGGUUU",
+            "GAUGCGAUGGGGGGCGGCGAGUUCACGGCAAAGUUAUUCUUAGCCGAAAUACUUGGUUAUAAUUACAACCCUUCUGUGAGCCAACGGUUU"
+          ],
+          "scores": [
+            0.0009324460603445761,
+            0.0006742286475945491,
+            0.006497872261952122
+          ],
+          "isolated_hairpin_energies": [
+            4.300000190734863,
+            4.5,
+            3.0999999046325684
+          ],
+          "filtration": {
+            "positive_bar_count": 1,
+            "longest_lifetime": 0.000258217412750027,
+            "integrated_excess": 0.0001291087063750135,
+            "maximum_excess": 0.5,
+            "baseline_components": 1,
+            "threshold_at_maximum": 0.0009324460603445761,
+            "bars": [
+              {
+                "birth": 0.0009324460603445761,
+                "death": 0.0006742286475945491,
+                "lifetime": 0.000258217412750027,
+                "peak_vertex": 0,
+                "merge_edge": [
+                  1,
+                  2
+                ],
+                "baseline_component": 0
+              }
+            ],
+            "curve": [
+              {
+                "threshold": 0.006497872261952122,
+                "excess": 0.0,
+                "retained": 1,
+                "filtered_components": 1
+              },
+              {
+                "threshold": 0.0009324460603445761,
+                "excess": 0.5,
+                "retained": 2,
+                "filtered_components": 2
+              },
+              {
+                "threshold": 0.0006742286475945491,
+                "excess": 0.0,
+                "retained": 3,
+                "filtered_components": 1
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "scaffold": "S03",
+      "baseline": "AGCACAGAUACAGGCCCGAUGAGCAAGUCGAAGCUAUUUUCACUCCGGCGCGCUCCAGGGCGGUCAAGAAGUGGGAACGUCCUGCUCUAU",
+      "targeted": "AGCACAGAUACAGGCCCGAUGAGCAAGUCGAAGUUAUUUUCACUCCGGCGCGCUCCAGGGCGGUCAAGAAGUGGGAACGUCCUGCUCUAU",
+      "control": "AGCACAGAUACAGGUCCGAUGAGCAAGUCGAAGCUAUUUUCACUCCGGCGCGCUCCAGGGCGGUCAAGAAGUGGGAACGUCCUGCUCUAU",
+      "peptide": "STDTGPMSKSKLFSLRRAPGRSRSGNVLLY",
+      "direction": "C_to_U",
+      "targeted_position0": 33,
+      "control_position0": 14,
+      "pair0": [
+        32,
+        38
+      ],
+      "maximum_prior90nt_identity": 0.45555555555555555,
+      "predictions": {
+        "baseline": {
+          "sequences": [
+            "AGCACAGAUACAGGCCCGAUGAGCAAGUCGAAACUAUUUUCACUCCGGCGCGCUCCAGGGCGGUCAAGAAGUGGGAACGUCCUGCUCUAU",
+            "AGCACAGAUACAGGCCCGAUGAGCAAGUCGAAGCUAUUUUCACUCCGGCGCGCUCCAGGGCGGUCAAGAAGUGGGAACGUCCUGCUCUAU",
+            "AGCACAGAUACAGGCCCGAUGAGCAAGUCGAAGCUAUUCUCACUCCGGCGCGCUCCAGGGCGGUCAAGAAGUGGGAACGUCCUGCUCUAU"
+          ],
+          "scores": [
+            0.0001842062821398559,
+            0.0001842062821398559,
+            0.00109652136922465
+          ],
+          "isolated_hairpin_energies": [
+            5.300000190734863,
+            5.300000190734863,
+            4.199999809265137
+          ],
+          "filtration": {
+            "positive_bar_count": 0,
+            "longest_lifetime": 0.0,
+            "integrated_excess": 0.0,
+            "maximum_excess": 0.0,
+            "baseline_components": 1,
+            "threshold_at_maximum": 0.00109652136922465,
+            "bars": [],
+            "curve": [
+              {
+                "threshold": 0.00109652136922465,
+                "excess": 0.0,
+                "retained": 1,
+                "filtered_components": 1
+              },
+              {
+                "threshold": 0.0001842062821398559,
+                "excess": 0.0,
+                "retained": 3,
+                "filtered_components": 1
+              }
+            ]
+          }
+        },
+        "targeted": {
+          "sequences": [
+            "AGCACAGAUACAGGCCCGAUGAGCAAGUCGAAAUUAUUUUCACUCCGGCGCGCUCCAGGGCGGUCAAGAAGUGGGAACGUCCUGCUCUAU",
+            "AGCACAGAUACAGGCCCGAUGAGCAAGUCGAAGUUAUUUUCACUCCGGCGCGCUCCAGGGCGGUCAAGAAGUGGGAACGUCCUGCUCUAU",
+            "AGCACAGAUACAGGCCCGAUGAGCAAGUCGAAGUUAUUCUCACUCCGGCGCGCUCCAGGGCGGUCAAGAAGUGGGAACGUCCUGCUCUAU"
+          ],
+          "scores": [
+            0.0009324460603445761,
+            0.0006742286475945491,
+            0.006497872261952122
+          ],
+          "isolated_hairpin_energies": [
+            4.300000190734863,
+            4.5,
+            3.0999999046325684
+          ],
+          "filtration": {
+            "positive_bar_count": 1,
+            "longest_lifetime": 0.000258217412750027,
+            "integrated_excess": 0.0001291087063750135,
+            "maximum_excess": 0.5,
+            "baseline_components": 1,
+            "threshold_at_maximum": 0.0009324460603445761,
+            "bars": [
+              {
+                "birth": 0.0009324460603445761,
+                "death": 0.0006742286475945491,
+                "lifetime": 0.000258217412750027,
+                "peak_vertex": 0,
+                "merge_edge": [
+                  1,
+                  2
+                ],
+                "baseline_component": 0
+              }
+            ],
+            "curve": [
+              {
+                "threshold": 0.006497872261952122,
+                "excess": 0.0,
+                "retained": 1,
+                "filtered_components": 1
+              },
+              {
+                "threshold": 0.0009324460603445761,
+                "excess": 0.5,
+                "retained": 2,
+                "filtered_components": 2
+              },
+              {
+                "threshold": 0.0006742286475945491,
+                "excess": 0.0,
+                "retained": 3,
+                "filtered_components": 1
+              }
+            ]
+          }
+        },
+        "control": {
+          "sequences": [
+            "AGCACAGAUACAGGUCCGAUGAGCAAGUCGAAACUAUUUUCACUCCGGCGCGCUCCAGGGCGGUCAAGAAGUGGGAACGUCCUGCUCUAU",
+            "AGCACAGAUACAGGUCCGAUGAGCAAGUCGAAGCUAUUUUCACUCCGGCGCGCUCCAGGGCGGUCAAGAAGUGGGAACGUCCUGCUCUAU",
+            "AGCACAGAUACAGGUCCGAUGAGCAAGUCGAAGCUAUUCUCACUCCGGCGCGCUCCAGGGCGGUCAAGAAGUGGGAACGUCCUGCUCUAU"
+          ],
+          "scores": [
+            0.0001842062821398559,
+            0.0001842062821398559,
+            0.00109652136922465
+          ],
+          "isolated_hairpin_energies": [
+            5.300000190734863,
+            5.300000190734863,
+            4.199999809265137
+          ],
+          "filtration": {
+            "positive_bar_count": 0,
+            "longest_lifetime": 0.0,
+            "integrated_excess": 0.0,
+            "maximum_excess": 0.0,
+            "baseline_components": 1,
+            "threshold_at_maximum": 0.00109652136922465,
+            "bars": [],
+            "curve": [
+              {
+                "threshold": 0.00109652136922465,
+                "excess": 0.0,
+                "retained": 1,
+                "filtered_components": 1
+              },
+              {
+                "threshold": 0.0001842062821398559,
+                "excess": 0.0,
+                "retained": 3,
+                "filtered_components": 1
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "scaffold": "S04",
+      "baseline": "CGCAUGUGCCAUGGUUGCAUUAAAACGCGUAAGUUAUUUUCCAGCACAUGUAGUUGUGCAAAAGUGCAAGAACCAGAGAACACCACGUGG",
+      "targeted": "CGCAUGUGCCAUGGUUGCAUUAAAACGCGUAAGCUAUUUUCCAGCACAUGUAGUUGUGCAAAAGUGCAAGAACCAGAGAACACCACGUGG",
+      "control": "CGCAUGUGCCAUGGCUGCAUUAAAACGCGUAAGUUAUUUUCCAGCACAUGUAGUUGUGCAAAAGUGCAAGAACCAGAGAACACCACGUGG",
+      "peptide": "RMCHGCIKTRKLFSSTCSCAKVQEPENTTW",
+      "direction": "U_to_C",
+      "targeted_position0": 33,
+      "control_position0": 14,
+      "pair0": [
+        32,
+        38
+      ],
+      "maximum_prior90nt_identity": 0.4666666666666667,
+      "predictions": {
+        "baseline": {
+          "sequences": [
+            "CGCAUGUGCCAUGGUUGCAUUAAAACGCGUAAAUUAUUUUCCAGCACAUGUAGUUGUGCAAAAGUGCAAGAACCAGAGAACACCACGUGG",
+            "CGCAUGUGCCAUGGUUGCAUUAAAACGCGUAAGUUAUUUUCCAGCACAUGUAGUUGUGCAAAAGUGCAAGAACCAGAGAACACCACGUGG",
+            "CGCAUGUGCCAUGGUUGCAUUAAAACGCGUAAGUUAUUCUCCAGCACAUGUAGUUGUGCAAAAGUGCAAGAACCAGAGAACACCACGUGG"
+          ],
+          "scores": [
+            0.0009324460603445761,
+            0.0006742286475945491,
+            0.006497872261952122
+          ],
+          "isolated_hairpin_energies": [
+            4.300000190734863,
+            4.5,
+            3.0999999046325684
+          ],
+          "filtration": {
+            "positive_bar_count": 1,
+            "longest_lifetime": 0.000258217412750027,
+            "integrated_excess": 0.0001291087063750135,
+            "maximum_excess": 0.5,
+            "baseline_components": 1,
+            "threshold_at_maximum": 0.0009324460603445761,
+            "bars": [
+              {
+                "birth": 0.0009324460603445761,
+                "death": 0.0006742286475945491,
+                "lifetime": 0.000258217412750027,
+                "peak_vertex": 0,
+                "merge_edge": [
+                  1,
+                  2
+                ],
+                "baseline_component": 0
+              }
+            ],
+            "curve": [
+              {
+                "threshold": 0.006497872261952122,
+                "excess": 0.0,
+                "retained": 1,
+                "filtered_components": 1
+              },
+              {
+                "threshold": 0.0009324460603445761,
+                "excess": 0.5,
+                "retained": 2,
+                "filtered_components": 2
+              },
+              {
+                "threshold": 0.0006742286475945491,
+                "excess": 0.0,
+                "retained": 3,
+                "filtered_components": 1
+              }
+            ]
+          }
+        },
+        "targeted": {
+          "sequences": [
+            "CGCAUGUGCCAUGGUUGCAUUAAAACGCGUAAACUAUUUUCCAGCACAUGUAGUUGUGCAAAAGUGCAAGAACCAGAGAACACCACGUGG",
+            "CGCAUGUGCCAUGGUUGCAUUAAAACGCGUAAGCUAUUUUCCAGCACAUGUAGUUGUGCAAAAGUGCAAGAACCAGAGAACACCACGUGG",
+            "CGCAUGUGCCAUGGUUGCAUUAAAACGCGUAAGCUAUUCUCCAGCACAUGUAGUUGUGCAAAAGUGCAAGAACCAGAGAACACCACGUGG"
+          ],
+          "scores": [
+            0.0001842062821398559,
+            0.0001842062821398559,
+            0.00109652136922465
+          ],
+          "isolated_hairpin_energies": [
+            5.300000190734863,
+            5.300000190734863,
+            4.199999809265137
+          ],
+          "filtration": {
+            "positive_bar_count": 0,
+            "longest_lifetime": 0.0,
+            "integrated_excess": 0.0,
+            "maximum_excess": 0.0,
+            "baseline_components": 1,
+            "threshold_at_maximum": 0.00109652136922465,
+            "bars": [],
+            "curve": [
+              {
+                "threshold": 0.00109652136922465,
+                "excess": 0.0,
+                "retained": 1,
+                "filtered_components": 1
+              },
+              {
+                "threshold": 0.0001842062821398559,
+                "excess": 0.0,
+                "retained": 3,
+                "filtered_components": 1
+              }
+            ]
+          }
+        },
+        "control": {
+          "sequences": [
+            "CGCAUGUGCCAUGGCUGCAUUAAAACGCGUAAAUUAUUUUCCAGCACAUGUAGUUGUGCAAAAGUGCAAGAACCAGAGAACACCACGUGG",
+            "CGCAUGUGCCAUGGCUGCAUUAAAACGCGUAAGUUAUUUUCCAGCACAUGUAGUUGUGCAAAAGUGCAAGAACCAGAGAACACCACGUGG",
+            "CGCAUGUGCCAUGGCUGCAUUAAAACGCGUAAGUUAUUCUCCAGCACAUGUAGUUGUGCAAAAGUGCAAGAACCAGAGAACACCACGUGG"
+          ],
+          "scores": [
+            0.0009324460603445761,
+            0.0006742286475945491,
+            0.006497872261952122
+          ],
+          "isolated_hairpin_energies": [
+            4.300000190734863,
+            4.5,
+            3.0999999046325684
+          ],
+          "filtration": {
+            "positive_bar_count": 1,
+            "longest_lifetime": 0.000258217412750027,
+            "integrated_excess": 0.0001291087063750135,
+            "maximum_excess": 0.5,
+            "baseline_components": 1,
+            "threshold_at_maximum": 0.0009324460603445761,
+            "bars": [
+              {
+                "birth": 0.0009324460603445761,
+                "death": 0.0006742286475945491,
+                "lifetime": 0.000258217412750027,
+                "peak_vertex": 0,
+                "merge_edge": [
+                  1,
+                  2
+                ],
+                "baseline_component": 0
+              }
+            ],
+            "curve": [
+              {
+                "threshold": 0.006497872261952122,
+                "excess": 0.0,
+                "retained": 1,
+                "filtered_components": 1
+              },
+              {
+                "threshold": 0.0009324460603445761,
+                "excess": 0.5,
+                "retained": 2,
+                "filtered_components": 2
+              },
+              {
+                "threshold": 0.0006742286475945491,
+                "excess": 0.0,
+                "retained": 3,
+                "filtered_components": 1
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "scaffold": "S05",
+      "baseline": "UGGGGUCUGGAGGGCUAUAUUAAGGCGUCGAAGCUAUUUACACGAAUUUCUGCUAUUCCUGUGGUGCCCGACACGUUCGACCGAGGUCGA",
+      "targeted": "UGGGGUCUGGAGGGCUAUAUUAAGGCGUCGAAGUUAUUUACACGAAUUUCUGCUAUUCCUGUGGUGCCCGACACGUUCGACCGAGGUCGA",
+      "control": "UGGGGUCUGGAGGGUUAUAUUAAGGCGUCGAAGCUAUUUACACGAAUUUCUGCUAUUCCUGUGGUGCCCGACACGUUCGACCGAGGUCGA",
+      "peptide": "WGLEGYIKASKLFTRISAIPVVPDTFDRGR",
+      "direction": "C_to_U",
+      "targeted_position0": 33,
+      "control_position0": 14,
+      "pair0": [
+        32,
+        38
+      ],
+      "maximum_prior90nt_identity": 0.4666666666666667,
+      "predictions": {
+        "baseline": {
+          "sequences": [
+            "UGGGGUCUGGAGGGCUAUAUUAAGGCGUCGAAACUAUUUACACGAAUUUCUGCUAUUCCUGUGGUGCCCGACACGUUCGACCGAGGUCGA",
+            "UGGGGUCUGGAGGGCUAUAUUAAGGCGUCGAAGCUAUUUACACGAAUUUCUGCUAUUCCUGUGGUGCCCGACACGUUCGACCGAGGUCGA",
+            "UGGGGUCUGGAGGGCUAUAUUAAGGCGUCGAAGCUAUUCACACGAAUUUCUGCUAUUCCUGUGGUGCCCGACACGUUCGACCGAGGUCGA"
+          ],
+          "scores": [
+            0.0002996730849175233,
+            0.0002996730849175233,
+            0.002464585780939057
+          ],
+          "isolated_hairpin_energies": [
+            5.0,
+            5.0,
+            3.700000047683716
+          ],
+          "filtration": {
+            "positive_bar_count": 0,
+            "longest_lifetime": 0.0,
+            "integrated_excess": 0.0,
+            "maximum_excess": 0.0,
+            "baseline_components": 1,
+            "threshold_at_maximum": 0.002464585780939057,
+            "bars": [],
+            "curve": [
+              {
+                "threshold": 0.002464585780939057,
+                "excess": 0.0,
+                "retained": 1,
+                "filtered_components": 1
+              },
+              {
+                "threshold": 0.0002996730849175233,
+                "excess": 0.0,
+                "retained": 3,
+                "filtered_components": 1
+              }
+            ]
+          }
+        },
+        "targeted": {
+          "sequences": [
+            "UGGGGUCUGGAGGGCUAUAUUAAGGCGUCGAAAUUAUUUACACGAAUUUCUGCUAUUCCUGUGGUGCCCGACACGUUCGACCGAGGUCGA",
+            "UGGGGUCUGGAGGGCUAUAUUAAGGCGUCGAAGUUAUUUACACGAAUUUCUGCUAUUCCUGUGGUGCCCGACACGUUCGACCGAGGUCGA",
+            "UGGGGUCUGGAGGGCUAUAUUAAGGCGUCGAAGUUAUUCACACGAAUUUCUGCUAUUCCUGUGGUGCCCGACACGUUCGACCGAGGUCGA"
+          ],
+          "scores": [
+            0.0015162238934932906,
+            0.00109652136922465,
+            0.014507016798586025
+          ],
+          "isolated_hairpin_energies": [
+            4.0,
+            4.199999809265137,
+            2.5999999046325684
+          ],
+          "filtration": {
+            "positive_bar_count": 1,
+            "longest_lifetime": 0.00041970252426864053,
+            "integrated_excess": 0.00020985126213432027,
+            "maximum_excess": 0.5,
+            "baseline_components": 1,
+            "threshold_at_maximum": 0.0015162238934932906,
+            "bars": [
+              {
+                "birth": 0.0015162238934932906,
+                "death": 0.00109652136922465,
+                "lifetime": 0.00041970252426864053,
+                "peak_vertex": 0,
+                "merge_edge": [
+                  1,
+                  2
+                ],
+                "baseline_component": 0
+              }
+            ],
+            "curve": [
+              {
+                "threshold": 0.014507016798586025,
+                "excess": 0.0,
+                "retained": 1,
+                "filtered_components": 1
+              },
+              {
+                "threshold": 0.0015162238934932906,
+                "excess": 0.5,
+                "retained": 2,
+                "filtered_components": 2
+              },
+              {
+                "threshold": 0.00109652136922465,
+                "excess": 0.0,
+                "retained": 3,
+                "filtered_components": 1
+              }
+            ]
+          }
+        },
+        "control": {
+          "sequences": [
+            "UGGGGUCUGGAGGGUUAUAUUAAGGCGUCGAAACUAUUUACACGAAUUUCUGCUAUUCCUGUGGUGCCCGACACGUUCGACCGAGGUCGA",
+            "UGGGGUCUGGAGGGUUAUAUUAAGGCGUCGAAGCUAUUUACACGAAUUUCUGCUAUUCCUGUGGUGCCCGACACGUUCGACCGAGGUCGA",
+            "UGGGGUCUGGAGGGUUAUAUUAAGGCGUCGAAGCUAUUCACACGAAUUUCUGCUAUUCCUGUGGUGCCCGACACGUUCGACCGAGGUCGA"
+          ],
+          "scores": [
+            0.0002996730849175233,
+            0.0002996730849175233,
+            0.002464585780939057
+          ],
+          "isolated_hairpin_energies": [
+            5.0,
+            5.0,
+            3.700000047683716
+          ],
+          "filtration": {
+            "positive_bar_count": 0,
+            "longest_lifetime": 0.0,
+            "integrated_excess": 0.0,
+            "maximum_excess": 0.0,
+            "baseline_components": 1,
+            "threshold_at_maximum": 0.002464585780939057,
+            "bars": [],
+            "curve": [
+              {
+                "threshold": 0.002464585780939057,
+                "excess": 0.0,
+                "retained": 1,
+                "filtered_components": 1
+              },
+              {
+                "threshold": 0.0002996730849175233,
+                "excess": 0.0,
+                "retained": 3,
+                "filtered_components": 1
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "scaffold": "S06",
+      "baseline": "UCGGGUCAAACCGGUAAGCGACUCGAGCAGAAGUUAUUUGAUUAUACACGGCGAAUACUGCAUUUACUACUUAUGCACAUUGUAAAAUUU",
+      "targeted": "UCGGGUCAAACCGGUAAGCGACUCGAGCAGAAGCUAUUUGAUUAUACACGGCGAAUACUGCAUUUACUACUUAUGCACAUUGUAAAAUUU",
+      "control": "UCGGGUCAAACCGGCAAGCGACUCGAGCAGAAGUUAUUUGAUUAUACACGGCGAAUACUGCAUUUACUACUUAUGCACAUUGUAAAAUUU",
+      "peptide": "SGQTGKRLEQKLFDYTRRILHLLLMHIVKF",
+      "direction": "U_to_C",
+      "targeted_position0": 33,
+      "control_position0": 14,
+      "pair0": [
+        32,
+        38
+      ],
+      "maximum_prior90nt_identity": 0.43333333333333335,
+      "predictions": {
+        "baseline": {
+          "sequences": [
+            "UCGGGUCAAACCGGUAAGCGACUCGAGCAGAAAUUAUUUGAUUAUACACGGCGAAUACUGCAUUUACUACUUAUGCACAUUGUAAAAUUU",
+            "UCGGGUCAAACCGGUAAGCGACUCGAGCAGAAGUUAUUUGAUUAUACACGGCGAAUACUGCAUUUACUACUUAUGCACAUUGUAAAAUUU",
+            "UCGGGUCAAACCGGUAAGCGACUCGAGCAGAAGUUAUUCGAUUAUACACGGCGAAUACUGCAUUUACUACUUAUGCACAUUGUAAAAUUU"
+          ],
+          "scores": [
+            0.0017828373786126209,
+            0.0004874831421282589,
+            0.012361130980326401
+          ],
+          "isolated_hairpin_energies": [
+            3.9000000953674316,
+            4.699999809265137,
+            2.700000047683716
+          ],
+          "filtration": {
+            "positive_bar_count": 1,
+            "longest_lifetime": 0.001295354236484362,
+            "integrated_excess": 0.000647677118242181,
+            "maximum_excess": 0.5,
+            "baseline_components": 1,
+            "threshold_at_maximum": 0.0017828373786126209,
+            "bars": [
+              {
+                "birth": 0.0017828373786126209,
+                "death": 0.0004874831421282589,
+                "lifetime": 0.001295354236484362,
+                "peak_vertex": 0,
+                "merge_edge": [
+                  1,
+                  2
+                ],
+                "baseline_component": 0
+              }
+            ],
+            "curve": [
+              {
+                "threshold": 0.012361130980326401,
+                "excess": 0.0,
+                "retained": 1,
+                "filtered_components": 1
+              },
+              {
+                "threshold": 0.0017828373786126209,
+                "excess": 0.5,
+                "retained": 2,
+                "filtered_components": 2
+              },
+              {
+                "threshold": 0.0004874831421282589,
+                "excess": 0.0,
+                "retained": 3,
+                "filtered_components": 1
+              }
+            ]
+          }
+        },
+        "targeted": {
+          "sequences": [
+            "UCGGGUCAAACCGGUAAGCGACUCGAGCAGAAACUAUUUGAUUAUACACGGCGAAUACUGCAUUUACUACUUAUGCACAUUGUAAAAUUU",
+            "UCGGGUCAAACCGGUAAGCGACUCGAGCAGAAGCUAUUUGAUUAUACACGGCGAAUACUGCAUUUACUACUUAUGCACAUUGUAAAAUUU",
+            "UCGGGUCAAACCGGUAAGCGACUCGAGCAGAAGCUAUUCGAUUAUACACGGCGAAUACUGCAUUUACUACUUAUGCACAUUGUAAAAUUU"
+          ],
+          "scores": [
+            0.0003524432424516764,
+            0.00013316738058949038,
+            0.002096234683283119
+          ],
+          "isolated_hairpin_energies": [
+            4.900000095367432,
+            5.5,
+            3.799999952316284
+          ],
+          "filtration": {
+            "positive_bar_count": 1,
+            "longest_lifetime": 0.000219275861862186,
+            "integrated_excess": 0.000109637930931093,
+            "maximum_excess": 0.5,
+            "baseline_components": 1,
+            "threshold_at_maximum": 0.0003524432424516764,
+            "bars": [
+              {
+                "birth": 0.0003524432424516764,
+                "death": 0.00013316738058949038,
+                "lifetime": 0.000219275861862186,
+                "peak_vertex": 0,
+                "merge_edge": [
+                  1,
+                  2
+                ],
+                "baseline_component": 0
+              }
+            ],
+            "curve": [
+              {
+                "threshold": 0.002096234683283119,
+                "excess": 0.0,
+                "retained": 1,
+                "filtered_components": 1
+              },
+              {
+                "threshold": 0.0003524432424516764,
+                "excess": 0.5,
+                "retained": 2,
+                "filtered_components": 2
+              },
+              {
+                "threshold": 0.00013316738058949038,
+                "excess": 0.0,
+                "retained": 3,
+                "filtered_components": 1
+              }
+            ]
+          }
+        },
+        "control": {
+          "sequences": [
+            "UCGGGUCAAACCGGCAAGCGACUCGAGCAGAAAUUAUUUGAUUAUACACGGCGAAUACUGCAUUUACUACUUAUGCACAUUGUAAAAUUU",
+            "UCGGGUCAAACCGGCAAGCGACUCGAGCAGAAGUUAUUUGAUUAUACACGGCGAAUACUGCAUUUACUACUUAUGCACAUUGUAAAAUUU",
+            "UCGGGUCAAACCGGCAAGCGACUCGAGCAGAAGUUAUUCGAUUAUACACGGCGAAUACUGCAUUUACUACUUAUGCACAUUGUAAAAUUU"
+          ],
+          "scores": [
+            0.0017828373786126209,
+            0.0004874831421282589,
+            0.012361130980326401
+          ],
+          "isolated_hairpin_energies": [
+            3.9000000953674316,
+            4.699999809265137,
+            2.700000047683716
+          ],
+          "filtration": {
+            "positive_bar_count": 1,
+            "longest_lifetime": 0.001295354236484362,
+            "integrated_excess": 0.000647677118242181,
+            "maximum_excess": 0.5,
+            "baseline_components": 1,
+            "threshold_at_maximum": 0.0017828373786126209,
+            "bars": [
+              {
+                "birth": 0.0017828373786126209,
+                "death": 0.0004874831421282589,
+                "lifetime": 0.001295354236484362,
+                "peak_vertex": 0,
+                "merge_edge": [
+                  1,
+                  2
+                ],
+                "baseline_component": 0
+              }
+            ],
+            "curve": [
+              {
+                "threshold": 0.012361130980326401,
+                "excess": 0.0,
+                "retained": 1,
+                "filtered_components": 1
+              },
+              {
+                "threshold": 0.0017828373786126209,
+                "excess": 0.5,
+                "retained": 2,
+                "filtered_components": 2
+              },
+              {
+                "threshold": 0.0004874831421282589,
+                "excess": 0.0,
+                "retained": 3,
+                "filtered_components": 1
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "scaffold": "S07",
+      "baseline": "UUACCGCUCGUCGGCGGCGAAUCGGGCCUUAAGCUAUUUAGGGGCACCCUCGGUGGGGCGAUAGUCCCAUACGGUCUGCAAGCGGGAAUG",
+      "targeted": "UUACCGCUCGUCGGCGGCGAAUCGGGCCUUAAGUUAUUUAGGGGCACCCUCGGUGGGGCGAUAGUCCCAUACGGUCUGCAAGCGGGAAUG",
+      "control": "UUACCGCUCGUCGGUGGCGAAUCGGGCCUUAAGCUAUUUAGGGGCACCCUCGGUGGGGCGAUAGUCCCAUACGGUCUGCAAGCGGGAAUG",
+      "peptide": "LPLVGGESGLKLFRGTLGGAIVPYGLQAGM",
+      "direction": "C_to_U",
+      "targeted_position0": 33,
+      "control_position0": 14,
+      "pair0": [
+        32,
+        38
+      ],
+      "maximum_prior90nt_identity": 0.4666666666666667,
+      "predictions": {
+        "baseline": {
+          "sequences": [
+            "UUACCGCUCGUCGGCGGCGAAUCGGGCCUUAAACUAUUUAGGGGCACCCUCGGUGGGGCGAUAGUCCCAUACGGUCUGCAAGCGGGAAUG",
+            "UUACCGCUCGUCGGCGGCGAAUCGGGCCUUAAGCUAUUUAGGGGCACCCUCGGUGGGGCGAUAGUCCCAUACGGUCUGCAAGCGGGAAUG",
+            "UUACCGCUCGUCGGCGGCGAAUCGGGCCUUAAGCUAUUCAGGGGCACCCUCGGUGGGGCGAUAGUCCCAUACGGUCUGCAAGCGGGAAUG"
+          ],
+          "scores": [
+            0.0002996730849175233,
+            0.0002996730849175233,
+            0.002464585780939057
+          ],
+          "isolated_hairpin_energies": [
+            5.0,
+            5.0,
+            3.700000047683716
+          ],
+          "filtration": {
+            "positive_bar_count": 0,
+            "longest_lifetime": 0.0,
+            "integrated_excess": 0.0,
+            "maximum_excess": 0.0,
+            "baseline_components": 1,
+            "threshold_at_maximum": 0.002464585780939057,
+            "bars": [],
+            "curve": [
+              {
+                "threshold": 0.002464585780939057,
+                "excess": 0.0,
+                "retained": 1,
+                "filtered_components": 1
+              },
+              {
+                "threshold": 0.0002996730849175233,
+                "excess": 0.0,
+                "retained": 3,
+                "filtered_components": 1
+              }
+            ]
+          }
+        },
+        "targeted": {
+          "sequences": [
+            "UUACCGCUCGUCGGCGGCGAAUCGGGCCUUAAAUUAUUUAGGGGCACCCUCGGUGGGGCGAUAGUCCCAUACGGUCUGCAAGCGGGAAUG",
+            "UUACCGCUCGUCGGCGGCGAAUCGGGCCUUAAGUUAUUUAGGGGCACCCUCGGUGGGGCGAUAGUCCCAUACGGUCUGCAAGCGGGAAUG",
+            "UUACCGCUCGUCGGCGGCGAAUCGGGCCUUAAGUUAUUCAGGGGCACCCUCGGUGGGGCGAUAGUCCCAUACGGUCUGCAAGCGGGAAUG"
+          ],
+          "scores": [
+            0.0015162238934932906,
+            0.00109652136922465,
+            0.014507016798586025
+          ],
+          "isolated_hairpin_energies": [
+            4.0,
+            4.199999809265137,
+            2.5999999046325684
+          ],
+          "filtration": {
+            "positive_bar_count": 1,
+            "longest_lifetime": 0.00041970252426864053,
+            "integrated_excess": 0.00020985126213432027,
+            "maximum_excess": 0.5,
+            "baseline_components": 1,
+            "threshold_at_maximum": 0.0015162238934932906,
+            "bars": [
+              {
+                "birth": 0.0015162238934932906,
+                "death": 0.00109652136922465,
+                "lifetime": 0.00041970252426864053,
+                "peak_vertex": 0,
+                "merge_edge": [
+                  1,
+                  2
+                ],
+                "baseline_component": 0
+              }
+            ],
+            "curve": [
+              {
+                "threshold": 0.014507016798586025,
+                "excess": 0.0,
+                "retained": 1,
+                "filtered_components": 1
+              },
+              {
+                "threshold": 0.0015162238934932906,
+                "excess": 0.5,
+                "retained": 2,
+                "filtered_components": 2
+              },
+              {
+                "threshold": 0.00109652136922465,
+                "excess": 0.0,
+                "retained": 3,
+                "filtered_components": 1
+              }
+            ]
+          }
+        },
+        "control": {
+          "sequences": [
+            "UUACCGCUCGUCGGUGGCGAAUCGGGCCUUAAACUAUUUAGGGGCACCCUCGGUGGGGCGAUAGUCCCAUACGGUCUGCAAGCGGGAAUG",
+            "UUACCGCUCGUCGGUGGCGAAUCGGGCCUUAAGCUAUUUAGGGGCACCCUCGGUGGGGCGAUAGUCCCAUACGGUCUGCAAGCGGGAAUG",
+            "UUACCGCUCGUCGGUGGCGAAUCGGGCCUUAAGCUAUUCAGGGGCACCCUCGGUGGGGCGAUAGUCCCAUACGGUCUGCAAGCGGGAAUG"
+          ],
+          "scores": [
+            0.0002996730849175233,
+            0.0002996730849175233,
+            0.002464585780939057
+          ],
+          "isolated_hairpin_energies": [
+            5.0,
+            5.0,
+            3.700000047683716
+          ],
+          "filtration": {
+            "positive_bar_count": 0,
+            "longest_lifetime": 0.0,
+            "integrated_excess": 0.0,
+            "maximum_excess": 0.0,
+            "baseline_components": 1,
+            "threshold_at_maximum": 0.002464585780939057,
+            "bars": [],
+            "curve": [
+              {
+                "threshold": 0.002464585780939057,
+                "excess": 0.0,
+                "retained": 1,
+                "filtered_components": 1
+              },
+              {
+                "threshold": 0.0002996730849175233,
+                "excess": 0.0,
+                "retained": 3,
+                "filtered_components": 1
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "scaffold": "S08",
+      "baseline": "GCUACUCUUCAUGGUCUGCCAGGUCACAAGAAGUUAUUUGGGGGAAGAUCCGUAGUAAGUUCUCUCAACGACGCCAGAUCGGACACUAUC",
+      "targeted": "GCUACUCUUCAUGGUCUGCCAGGUCACAAGAAGCUAUUUGGGGGAAGAUCCGUAGUAAGUUCUCUCAACGACGCCAGAUCGGACACUAUC",
+      "control": "GCUACUCUUCAUGGCCUGCCAGGUCACAAGAAGUUAUUUGGGGGAAGAUCCGUAGUAAGUUCUCUCAACGACGCCAGAUCGGACACUAUC",
+      "peptide": "ATLHGLPGHKKLFGGRSVVSSLNDARSDTI",
+      "direction": "U_to_C",
+      "targeted_position0": 33,
+      "control_position0": 14,
+      "pair0": [
+        32,
+        38
+      ],
+      "maximum_prior90nt_identity": 0.43333333333333335,
+      "predictions": {
+        "baseline": {
+          "sequences": [
+            "GCUACUCUUCAUGGUCUGCCAGGUCACAAGAAAUUAUUUGGGGGAAGAUCCGUAGUAAGUUCUCUCAACGACGCCAGAUCGGACACUAUC",
+            "GCUACUCUUCAUGGUCUGCCAGGUCACAAGAAGUUAUUUGGGGGAAGAUCCGUAGUAAGUUCUCUCAACGACGCCAGAUCGGACACUAUC",
+            "GCUACUCUUCAUGGUCUGCCAGGUCACAAGAAGUUAUUCGGGGGAAGAUCCGUAGUAAGUUCUCUCAACGACGCCAGAUCGGACACUAUC"
+          ],
+          "scores": [
+            0.0017828373786126209,
+            0.0004874831421282589,
+            0.012361130980326401
+          ],
+          "isolated_hairpin_energies": [
+            3.9000000953674316,
+            4.699999809265137,
+            2.700000047683716
+          ],
+          "filtration": {
+            "positive_bar_count": 1,
+            "longest_lifetime": 0.001295354236484362,
+            "integrated_excess": 0.000647677118242181,
+            "maximum_excess": 0.5,
+            "baseline_components": 1,
+            "threshold_at_maximum": 0.0017828373786126209,
+            "bars": [
+              {
+                "birth": 0.0017828373786126209,
+                "death": 0.0004874831421282589,
+                "lifetime": 0.001295354236484362,
+                "peak_vertex": 0,
+                "merge_edge": [
+                  1,
+                  2
+                ],
+                "baseline_component": 0
+              }
+            ],
+            "curve": [
+              {
+                "threshold": 0.012361130980326401,
+                "excess": 0.0,
+                "retained": 1,
+                "filtered_components": 1
+              },
+              {
+                "threshold": 0.0017828373786126209,
+                "excess": 0.5,
+                "retained": 2,
+                "filtered_components": 2
+              },
+              {
+                "threshold": 0.0004874831421282589,
+                "excess": 0.0,
+                "retained": 3,
+                "filtered_components": 1
+              }
+            ]
+          }
+        },
+        "targeted": {
+          "sequences": [
+            "GCUACUCUUCAUGGUCUGCCAGGUCACAAGAAACUAUUUGGGGGAAGAUCCGUAGUAAGUUCUCUCAACGACGCCAGAUCGGACACUAUC",
+            "GCUACUCUUCAUGGUCUGCCAGGUCACAAGAAGCUAUUUGGGGGAAGAUCCGUAGUAAGUUCUCUCAACGACGCCAGAUCGGACACUAUC",
+            "GCUACUCUUCAUGGUCUGCCAGGUCACAAGAAGCUAUUCGGGGGAAGAUCCGUAGUAAGUUCUCUCAACGACGCCAGAUCGGACACUAUC"
+          ],
+          "scores": [
+            0.0003524432424516764,
+            0.00013316738058949038,
+            0.002096234683283119
+          ],
+          "isolated_hairpin_energies": [
+            4.900000095367432,
+            5.5,
+            3.799999952316284
+          ],
+          "filtration": {
+            "positive_bar_count": 1,
+            "longest_lifetime": 0.000219275861862186,
+            "integrated_excess": 0.000109637930931093,
+            "maximum_excess": 0.5,
+            "baseline_components": 1,
+            "threshold_at_maximum": 0.0003524432424516764,
+            "bars": [
+              {
+                "birth": 0.0003524432424516764,
+                "death": 0.00013316738058949038,
+                "lifetime": 0.000219275861862186,
+                "peak_vertex": 0,
+                "merge_edge": [
+                  1,
+                  2
+                ],
+                "baseline_component": 0
+              }
+            ],
+            "curve": [
+              {
+                "threshold": 0.002096234683283119,
+                "excess": 0.0,
+                "retained": 1,
+                "filtered_components": 1
+              },
+              {
+                "threshold": 0.0003524432424516764,
+                "excess": 0.5,
+                "retained": 2,
+                "filtered_components": 2
+              },
+              {
+                "threshold": 0.00013316738058949038,
+                "excess": 0.0,
+                "retained": 3,
+                "filtered_components": 1
+              }
+            ]
+          }
+        },
+        "control": {
+          "sequences": [
+            "GCUACUCUUCAUGGCCUGCCAGGUCACAAGAAAUUAUUUGGGGGAAGAUCCGUAGUAAGUUCUCUCAACGACGCCAGAUCGGACACUAUC",
+            "GCUACUCUUCAUGGCCUGCCAGGUCACAAGAAGUUAUUUGGGGGAAGAUCCGUAGUAAGUUCUCUCAACGACGCCAGAUCGGACACUAUC",
+            "GCUACUCUUCAUGGCCUGCCAGGUCACAAGAAGUUAUUCGGGGGAAGAUCCGUAGUAAGUUCUCUCAACGACGCCAGAUCGGACACUAUC"
+          ],
+          "scores": [
+            0.0017828373786126209,
+            0.0004874831421282589,
+            0.012361130980326401
+          ],
+          "isolated_hairpin_energies": [
+            3.9000000953674316,
+            4.699999809265137,
+            2.700000047683716
+          ],
+          "filtration": {
+            "positive_bar_count": 1,
+            "longest_lifetime": 0.001295354236484362,
+            "integrated_excess": 0.000647677118242181,
+            "maximum_excess": 0.5,
+            "baseline_components": 1,
+            "threshold_at_maximum": 0.0017828373786126209,
+            "bars": [
+              {
+                "birth": 0.0017828373786126209,
+                "death": 0.0004874831421282589,
+                "lifetime": 0.001295354236484362,
+                "peak_vertex": 0,
+                "merge_edge": [
+                  1,
+                  2
+                ],
+                "baseline_component": 0
+              }
+            ],
+            "curve": [
+              {
+                "threshold": 0.012361130980326401,
+                "excess": 0.0,
+                "retained": 1,
+                "filtered_components": 1
+              },
+              {
+                "threshold": 0.0017828373786126209,
+                "excess": 0.5,
+                "retained": 2,
+                "filtered_components": 2
+              },
+              {
+                "threshold": 0.0004874831421282589,
+                "excess": 0.0,
+                "retained": 3,
+                "filtered_components": 1
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "scaffold": "S09",
+      "baseline": "GAGGCAUCAAACGGCUUGCGUUCUGUAGGCAAGCUAUUUCACAGCGAAAAUACGAUGCCGUUGAACAAUAAGCAGUAUACCCUAUUUCCC",
+      "targeted": "GAGGCAUCAAACGGCUUGCGUUCUGUAGGCAAGUUAUUUCACAGCGAAAAUACGAUGCCGUUGAACAAUAAGCAGUAUACCCUAUUUCCC",
+      "control": "GAGGCAUCAAACGGUUUGCGUUCUGUAGGCAAGCUAUUUCACAGCGAAAAUACGAUGCCGUUGAACAAUAAGCAGUAUACCCUAUUUCCC",
+      "peptide": "EASNGLRSVGKLFHSENTMPLNNKQYTLFP",
+      "direction": "C_to_U",
+      "targeted_position0": 33,
+      "control_position0": 14,
+      "pair0": [
+        32,
+        38
+      ],
+      "maximum_prior90nt_identity": 0.5,
+      "predictions": {
+        "baseline": {
+          "sequences": [
+            "GAGGCAUCAAACGGCUUGCGUUCUGUAGGCAAACUAUUUCACAGCGAAAAUACGAUGCCGUUGAACAAUAAGCAGUAUACCCUAUUUCCC",
+            "GAGGCAUCAAACGGCUUGCGUUCUGUAGGCAAGCUAUUUCACAGCGAAAAUACGAUGCCGUUGAACAAUAAGCAGUAUACCCUAUUUCCC",
+            "GAGGCAUCAAACGGCUUGCGUUCUGUAGGCAAGCUAUUCCACAGCGAAAAUACGAUGCCGUUGAACAAUAAGCAGUAUACCCUAUUUCCC"
+          ],
+          "scores": [
+            0.0001842062821398559,
+            0.0001842062821398559,
+            0.00109652136922465
+          ],
+          "isolated_hairpin_energies": [
+            5.300000190734863,
+            5.300000190734863,
+            4.199999809265137
+          ],
+          "filtration": {
+            "positive_bar_count": 0,
+            "longest_lifetime": 0.0,
+            "integrated_excess": 0.0,
+            "maximum_excess": 0.0,
+            "baseline_components": 1,
+            "threshold_at_maximum": 0.00109652136922465,
+            "bars": [],
+            "curve": [
+              {
+                "threshold": 0.00109652136922465,
+                "excess": 0.0,
+                "retained": 1,
+                "filtered_components": 1
+              },
+              {
+                "threshold": 0.0001842062821398559,
+                "excess": 0.0,
+                "retained": 3,
+                "filtered_components": 1
+              }
+            ]
+          }
+        },
+        "targeted": {
+          "sequences": [
+            "GAGGCAUCAAACGGCUUGCGUUCUGUAGGCAAAUUAUUUCACAGCGAAAAUACGAUGCCGUUGAACAAUAAGCAGUAUACCCUAUUUCCC",
+            "GAGGCAUCAAACGGCUUGCGUUCUGUAGGCAAGUUAUUUCACAGCGAAAAUACGAUGCCGUUGAACAAUAAGCAGUAUACCCUAUUUCCC",
+            "GAGGCAUCAAACGGCUUGCGUUCUGUAGGCAAGUUAUUCCACAGCGAAAAUACGAUGCCGUUGAACAAUAAGCAGUAUACCCUAUUUCCC"
+          ],
+          "scores": [
+            0.0009324460603445761,
+            0.0006742286475945491,
+            0.006497872261952122
+          ],
+          "isolated_hairpin_energies": [
+            4.300000190734863,
+            4.5,
+            3.0999999046325684
+          ],
+          "filtration": {
+            "positive_bar_count": 1,
+            "longest_lifetime": 0.000258217412750027,
+            "integrated_excess": 0.0001291087063750135,
+            "maximum_excess": 0.5,
+            "baseline_components": 1,
+            "threshold_at_maximum": 0.0009324460603445761,
+            "bars": [
+              {
+                "birth": 0.0009324460603445761,
+                "death": 0.0006742286475945491,
+                "lifetime": 0.000258217412750027,
+                "peak_vertex": 0,
+                "merge_edge": [
+                  1,
+                  2
+                ],
+                "baseline_component": 0
+              }
+            ],
+            "curve": [
+              {
+                "threshold": 0.006497872261952122,
+                "excess": 0.0,
+                "retained": 1,
+                "filtered_components": 1
+              },
+              {
+                "threshold": 0.0009324460603445761,
+                "excess": 0.5,
+                "retained": 2,
+                "filtered_components": 2
+              },
+              {
+                "threshold": 0.0006742286475945491,
+                "excess": 0.0,
+                "retained": 3,
+                "filtered_components": 1
+              }
+            ]
+          }
+        },
+        "control": {
+          "sequences": [
+            "GAGGCAUCAAACGGUUUGCGUUCUGUAGGCAAACUAUUUCACAGCGAAAAUACGAUGCCGUUGAACAAUAAGCAGUAUACCCUAUUUCCC",
+            "GAGGCAUCAAACGGUUUGCGUUCUGUAGGCAAGCUAUUUCACAGCGAAAAUACGAUGCCGUUGAACAAUAAGCAGUAUACCCUAUUUCCC",
+            "GAGGCAUCAAACGGUUUGCGUUCUGUAGGCAAGCUAUUCCACAGCGAAAAUACGAUGCCGUUGAACAAUAAGCAGUAUACCCUAUUUCCC"
+          ],
+          "scores": [
+            0.0001842062821398559,
+            0.0001842062821398559,
+            0.00109652136922465
+          ],
+          "isolated_hairpin_energies": [
+            5.300000190734863,
+            5.300000190734863,
+            4.199999809265137
+          ],
+          "filtration": {
+            "positive_bar_count": 0,
+            "longest_lifetime": 0.0,
+            "integrated_excess": 0.0,
+            "maximum_excess": 0.0,
+            "baseline_components": 1,
+            "threshold_at_maximum": 0.00109652136922465,
+            "bars": [],
+            "curve": [
+              {
+                "threshold": 0.00109652136922465,
+                "excess": 0.0,
+                "retained": 1,
+                "filtered_components": 1
+              },
+              {
+                "threshold": 0.0001842062821398559,
+                "excess": 0.0,
+                "retained": 3,
+                "filtered_components": 1
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "scaffold": "S10",
+      "baseline": "CUUGAACUCUAUGGUACCCCCGGCCUCCAAAAGUUAUUUGGCUACCACCUAUUGCACUCCGCCCCGUCUGAGAGCCCUCCGAUCCGCGAG",
+      "targeted": "CUUGAACUCUAUGGUACCCCCGGCCUCCAAAAGCUAUUUGGCUACCACCUAUUGCACUCCGCCCCGUCUGAGAGCCCUCCGAUCCGCGAG",
+      "control": "CUUGAACUCUAUGGCACCCCCGGCCUCCAAAAGUUAUUUGGCUACCACCUAUUGCACUCCGCCCCGUCUGAGAGCCCUCCGAUCCGCGAG",
+      "peptide": "LELYGTPGLQKLFGYHLLHSAPSESPPIRE",
+      "direction": "U_to_C",
+      "targeted_position0": 33,
+      "control_position0": 14,
+      "pair0": [
+        32,
+        38
+      ],
+      "maximum_prior90nt_identity": 0.4444444444444444,
+      "predictions": {
+        "baseline": {
+          "sequences": [
+            "CUUGAACUCUAUGGUACCCCCGGCCUCCAAAAAUUAUUUGGCUACCACCUAUUGCACUCCGCCCCGUCUGAGAGCCCUCCGAUCCGCGAG",
+            "CUUGAACUCUAUGGUACCCCCGGCCUCCAAAAGUUAUUUGGCUACCACCUAUUGCACUCCGCCCCGUCUGAGAGCCCUCCGAUCCGCGAG",
+            "CUUGAACUCUAUGGUACCCCCGGCCUCCAAAAGUUAUUCGGCUACCACCUAUUGCACUCCGCCCCGUCUGAGAGCCCUCCGAUCCGCGAG"
+          ],
+          "scores": [
+            0.0017828373786126209,
+            0.0004874831421282589,
+            0.012361130980326401
+          ],
+          "isolated_hairpin_energies": [
+            3.9000000953674316,
+            4.699999809265137,
+            2.700000047683716
+          ],
+          "filtration": {
+            "positive_bar_count": 1,
+            "longest_lifetime": 0.001295354236484362,
+            "integrated_excess": 0.000647677118242181,
+            "maximum_excess": 0.5,
+            "baseline_components": 1,
+            "threshold_at_maximum": 0.0017828373786126209,
+            "bars": [
+              {
+                "birth": 0.0017828373786126209,
+                "death": 0.0004874831421282589,
+                "lifetime": 0.001295354236484362,
+                "peak_vertex": 0,
+                "merge_edge": [
+                  1,
+                  2
+                ],
+                "baseline_component": 0
+              }
+            ],
+            "curve": [
+              {
+                "threshold": 0.012361130980326401,
+                "excess": 0.0,
+                "retained": 1,
+                "filtered_components": 1
+              },
+              {
+                "threshold": 0.0017828373786126209,
+                "excess": 0.5,
+                "retained": 2,
+                "filtered_components": 2
+              },
+              {
+                "threshold": 0.0004874831421282589,
+                "excess": 0.0,
+                "retained": 3,
+                "filtered_components": 1
+              }
+            ]
+          }
+        },
+        "targeted": {
+          "sequences": [
+            "CUUGAACUCUAUGGUACCCCCGGCCUCCAAAAACUAUUUGGCUACCACCUAUUGCACUCCGCCCCGUCUGAGAGCCCUCCGAUCCGCGAG",
+            "CUUGAACUCUAUGGUACCCCCGGCCUCCAAAAGCUAUUUGGCUACCACCUAUUGCACUCCGCCCCGUCUGAGAGCCCUCCGAUCCGCGAG",
+            "CUUGAACUCUAUGGUACCCCCGGCCUCCAAAAGCUAUUCGGCUACCACCUAUUGCACUCCGCCCCGUCUGAGAGCCCUCCGAUCCGCGAG"
+          ],
+          "scores": [
+            0.0003524432424516764,
+            0.00013316738058949038,
+            0.002096234683283119
+          ],
+          "isolated_hairpin_energies": [
+            4.900000095367432,
+            5.5,
+            3.799999952316284
+          ],
+          "filtration": {
+            "positive_bar_count": 1,
+            "longest_lifetime": 0.000219275861862186,
+            "integrated_excess": 0.000109637930931093,
+            "maximum_excess": 0.5,
+            "baseline_components": 1,
+            "threshold_at_maximum": 0.0003524432424516764,
+            "bars": [
+              {
+                "birth": 0.0003524432424516764,
+                "death": 0.00013316738058949038,
+                "lifetime": 0.000219275861862186,
+                "peak_vertex": 0,
+                "merge_edge": [
+                  1,
+                  2
+                ],
+                "baseline_component": 0
+              }
+            ],
+            "curve": [
+              {
+                "threshold": 0.002096234683283119,
+                "excess": 0.0,
+                "retained": 1,
+                "filtered_components": 1
+              },
+              {
+                "threshold": 0.0003524432424516764,
+                "excess": 0.5,
+                "retained": 2,
+                "filtered_components": 2
+              },
+              {
+                "threshold": 0.00013316738058949038,
+                "excess": 0.0,
+                "retained": 3,
+                "filtered_components": 1
+              }
+            ]
+          }
+        },
+        "control": {
+          "sequences": [
+            "CUUGAACUCUAUGGCACCCCCGGCCUCCAAAAAUUAUUUGGCUACCACCUAUUGCACUCCGCCCCGUCUGAGAGCCCUCCGAUCCGCGAG",
+            "CUUGAACUCUAUGGCACCCCCGGCCUCCAAAAGUUAUUUGGCUACCACCUAUUGCACUCCGCCCCGUCUGAGAGCCCUCCGAUCCGCGAG",
+            "CUUGAACUCUAUGGCACCCCCGGCCUCCAAAAGUUAUUCGGCUACCACCUAUUGCACUCCGCCCCGUCUGAGAGCCCUCCGAUCCGCGAG"
+          ],
+          "scores": [
+            0.0017828373786126209,
+            0.0004874831421282589,
+            0.012361130980326401
+          ],
+          "isolated_hairpin_energies": [
+            3.9000000953674316,
+            4.699999809265137,
+            2.700000047683716
+          ],
+          "filtration": {
+            "positive_bar_count": 1,
+            "longest_lifetime": 0.001295354236484362,
+            "integrated_excess": 0.000647677118242181,
+            "maximum_excess": 0.5,
+            "baseline_components": 1,
+            "threshold_at_maximum": 0.0017828373786126209,
+            "bars": [
+              {
+                "birth": 0.0017828373786126209,
+                "death": 0.0004874831421282589,
+                "lifetime": 0.001295354236484362,
+                "peak_vertex": 0,
+                "merge_edge": [
+                  1,
+                  2
+                ],
+                "baseline_component": 0
+              }
+            ],
+            "curve": [
+              {
+                "threshold": 0.012361130980326401,
+                "excess": 0.0,
+                "retained": 1,
+                "filtered_components": 1
+              },
+              {
+                "threshold": 0.0017828373786126209,
+                "excess": 0.5,
+                "retained": 2,
+                "filtered_components": 2
+              },
+              {
+                "threshold": 0.0004874831421282589,
+                "excess": 0.0,
+                "retained": 3,
+                "filtered_components": 1
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "scaffold": "S11",
+      "baseline": "UUGCAGGCCGGCGGCGGGGGCUCGGUCCGGAAGCUAUUUGGUAACUCUCGACAUGGAGCCACGCGGAUGGCUUCAACUGAGAUCCAUCGU",
+      "targeted": "UUGCAGGCCGGCGGCGGGGGCUCGGUCCGGAAGUUAUUUGGUAACUCUCGACAUGGAGCCACGCGGAUGGCUUCAACUGAGAUCCAUCGU",
+      "control": "UUGCAGGCCGGCGGUGGGGGCUCGGUCCGGAAGCUAUUUGGUAACUCUCGACAUGGAGCCACGCGGAUGGCUUCAACUGAGAUCCAUCGU",
+      "peptide": "LQAGGGGSVRKLFGNSRHGATRMASTEIHR",
+      "direction": "C_to_U",
+      "targeted_position0": 33,
+      "control_position0": 14,
+      "pair0": [
+        32,
+        38
+      ],
+      "maximum_prior90nt_identity": 0.45555555555555555,
+      "predictions": {
+        "baseline": {
+          "sequences": [
+            "UUGCAGGCCGGCGGCGGGGGCUCGGUCCGGAAACUAUUUGGUAACUCUCGACAUGGAGCCACGCGGAUGGCUUCAACUGAGAUCCAUCGU",
+            "UUGCAGGCCGGCGGCGGGGGCUCGGUCCGGAAGCUAUUUGGUAACUCUCGACAUGGAGCCACGCGGAUGGCUUCAACUGAGAUCCAUCGU",
+            "UUGCAGGCCGGCGGCGGGGGCUCGGUCCGGAAGCUAUUCGGUAACUCUCGACAUGGAGCCACGCGGAUGGCUUCAACUGAGAUCCAUCGU"
+          ],
+          "scores": [
+            0.0003524432424516764,
+            0.00013316738058949038,
+            0.002096234683283119
+          ],
+          "isolated_hairpin_energies": [
+            4.900000095367432,
+            5.5,
+            3.799999952316284
+          ],
+          "filtration": {
+            "positive_bar_count": 1,
+            "longest_lifetime": 0.000219275861862186,
+            "integrated_excess": 0.000109637930931093,
+            "maximum_excess": 0.5,
+            "baseline_components": 1,
+            "threshold_at_maximum": 0.0003524432424516764,
+            "bars": [
+              {
+                "birth": 0.0003524432424516764,
+                "death": 0.00013316738058949038,
+                "lifetime": 0.000219275861862186,
+                "peak_vertex": 0,
+                "merge_edge": [
+                  1,
+                  2
+                ],
+                "baseline_component": 0
+              }
+            ],
+            "curve": [
+              {
+                "threshold": 0.002096234683283119,
+                "excess": 0.0,
+                "retained": 1,
+                "filtered_components": 1
+              },
+              {
+                "threshold": 0.0003524432424516764,
+                "excess": 0.5,
+                "retained": 2,
+                "filtered_components": 2
+              },
+              {
+                "threshold": 0.00013316738058949038,
+                "excess": 0.0,
+                "retained": 3,
+                "filtered_components": 1
+              }
+            ]
+          }
+        },
+        "targeted": {
+          "sequences": [
+            "UUGCAGGCCGGCGGCGGGGGCUCGGUCCGGAAAUUAUUUGGUAACUCUCGACAUGGAGCCACGCGGAUGGCUUCAACUGAGAUCCAUCGU",
+            "UUGCAGGCCGGCGGCGGGGGCUCGGUCCGGAAGUUAUUUGGUAACUCUCGACAUGGAGCCACGCGGAUGGCUUCAACUGAGAUCCAUCGU",
+            "UUGCAGGCCGGCGGCGGGGGCUCGGUCCGGAAGUUAUUCGGUAACUCUCGACAUGGAGCCACGCGGAUGGCUUCAACUGAGAUCCAUCGU"
+          ],
+          "scores": [
+            0.0017828373786126209,
+            0.0004874831421282589,
+            0.012361130980326401
+          ],
+          "isolated_hairpin_energies": [
+            3.9000000953674316,
+            4.699999809265137,
+            2.700000047683716
+          ],
+          "filtration": {
+            "positive_bar_count": 1,
+            "longest_lifetime": 0.001295354236484362,
+            "integrated_excess": 0.000647677118242181,
+            "maximum_excess": 0.5,
+            "baseline_components": 1,
+            "threshold_at_maximum": 0.0017828373786126209,
+            "bars": [
+              {
+                "birth": 0.0017828373786126209,
+                "death": 0.0004874831421282589,
+                "lifetime": 0.001295354236484362,
+                "peak_vertex": 0,
+                "merge_edge": [
+                  1,
+                  2
+                ],
+                "baseline_component": 0
+              }
+            ],
+            "curve": [
+              {
+                "threshold": 0.012361130980326401,
+                "excess": 0.0,
+                "retained": 1,
+                "filtered_components": 1
+              },
+              {
+                "threshold": 0.0017828373786126209,
+                "excess": 0.5,
+                "retained": 2,
+                "filtered_components": 2
+              },
+              {
+                "threshold": 0.0004874831421282589,
+                "excess": 0.0,
+                "retained": 3,
+                "filtered_components": 1
+              }
+            ]
+          }
+        },
+        "control": {
+          "sequences": [
+            "UUGCAGGCCGGCGGUGGGGGCUCGGUCCGGAAACUAUUUGGUAACUCUCGACAUGGAGCCACGCGGAUGGCUUCAACUGAGAUCCAUCGU",
+            "UUGCAGGCCGGCGGUGGGGGCUCGGUCCGGAAGCUAUUUGGUAACUCUCGACAUGGAGCCACGCGGAUGGCUUCAACUGAGAUCCAUCGU",
+            "UUGCAGGCCGGCGGUGGGGGCUCGGUCCGGAAGCUAUUCGGUAACUCUCGACAUGGAGCCACGCGGAUGGCUUCAACUGAGAUCCAUCGU"
+          ],
+          "scores": [
+            0.0003524432424516764,
+            0.00013316738058949038,
+            0.002096234683283119
+          ],
+          "isolated_hairpin_energies": [
+            4.900000095367432,
+            5.5,
+            3.799999952316284
+          ],
+          "filtration": {
+            "positive_bar_count": 1,
+            "longest_lifetime": 0.000219275861862186,
+            "integrated_excess": 0.000109637930931093,
+            "maximum_excess": 0.5,
+            "baseline_components": 1,
+            "threshold_at_maximum": 0.0003524432424516764,
+            "bars": [
+              {
+                "birth": 0.0003524432424516764,
+                "death": 0.00013316738058949038,
+                "lifetime": 0.000219275861862186,
+                "peak_vertex": 0,
+                "merge_edge": [
+                  1,
+                  2
+                ],
+                "baseline_component": 0
+              }
+            ],
+            "curve": [
+              {
+                "threshold": 0.002096234683283119,
+                "excess": 0.0,
+                "retained": 1,
+                "filtered_components": 1
+              },
+              {
+                "threshold": 0.0003524432424516764,
+                "excess": 0.5,
+                "retained": 2,
+                "filtered_components": 2
+              },
+              {
+                "threshold": 0.00013316738058949038,
+                "excess": 0.0,
+                "retained": 3,
+                "filtered_components": 1
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "scaffold": "S12",
+      "baseline": "AAGACGCAGAGCGGUUCUCUAAUUUGGGGUAAGUUAUUUCGCCGCCAGUCCCCAAGUCAGAACCUUUGCGAGACAGCAAAGAAGUUAAGG",
+      "targeted": "AAGACGCAGAGCGGUUCUCUAAUUUGGGGUAAGCUAUUUCGCCGCCAGUCCCCAAGUCAGAACCUUUGCGAGACAGCAAAGAAGUUAAGG",
+      "control": "AAGACGCAGAGCGGCUCUCUAAUUUGGGGUAAGUUAUUUCGCCGCCAGUCCCCAAGUCAGAACCUUUGCGAGACAGCAAAGAAGUUAAGG",
+      "peptide": "KTQSGSLIWGKLFRRQSPSQNLCETAKKLR",
+      "direction": "U_to_C",
+      "targeted_position0": 33,
+      "control_position0": 14,
+      "pair0": [
+        32,
+        38
+      ],
+      "maximum_prior90nt_identity": 0.4444444444444444,
+      "predictions": {
+        "baseline": {
+          "sequences": [
+            "AAGACGCAGAGCGGUUCUCUAAUUUGGGGUAAAUUAUUUCGCCGCCAGUCCCCAAGUCAGAACCUUUGCGAGACAGCAAAGAAGUUAAGG",
+            "AAGACGCAGAGCGGUUCUCUAAUUUGGGGUAAGUUAUUUCGCCGCCAGUCCCCAAGUCAGAACCUUUGCGAGACAGCAAAGAAGUUAAGG",
+            "AAGACGCAGAGCGGUUCUCUAAUUUGGGGUAAGUUAUUCCGCCGCCAGUCCCCAAGUCAGAACCUUUGCGAGACAGCAAAGAAGUUAAGG"
+          ],
+          "scores": [
+            0.0009324460603445761,
+            0.0006742286475945491,
+            0.006497872261952122
+          ],
+          "isolated_hairpin_energies": [
+            4.300000190734863,
+            4.5,
+            3.0999999046325684
+          ],
+          "filtration": {
+            "positive_bar_count": 1,
+            "longest_lifetime": 0.000258217412750027,
+            "integrated_excess": 0.0001291087063750135,
+            "maximum_excess": 0.5,
+            "baseline_components": 1,
+            "threshold_at_maximum": 0.0009324460603445761,
+            "bars": [
+              {
+                "birth": 0.0009324460603445761,
+                "death": 0.0006742286475945491,
+                "lifetime": 0.000258217412750027,
+                "peak_vertex": 0,
+                "merge_edge": [
+                  1,
+                  2
+                ],
+                "baseline_component": 0
+              }
+            ],
+            "curve": [
+              {
+                "threshold": 0.006497872261952122,
+                "excess": 0.0,
+                "retained": 1,
+                "filtered_components": 1
+              },
+              {
+                "threshold": 0.0009324460603445761,
+                "excess": 0.5,
+                "retained": 2,
+                "filtered_components": 2
+              },
+              {
+                "threshold": 0.0006742286475945491,
+                "excess": 0.0,
+                "retained": 3,
+                "filtered_components": 1
+              }
+            ]
+          }
+        },
+        "targeted": {
+          "sequences": [
+            "AAGACGCAGAGCGGUUCUCUAAUUUGGGGUAAACUAUUUCGCCGCCAGUCCCCAAGUCAGAACCUUUGCGAGACAGCAAAGAAGUUAAGG",
+            "AAGACGCAGAGCGGUUCUCUAAUUUGGGGUAAGCUAUUUCGCCGCCAGUCCCCAAGUCAGAACCUUUGCGAGACAGCAAAGAAGUUAAGG",
+            "AAGACGCAGAGCGGUUCUCUAAUUUGGGGUAAGCUAUUCCGCCGCCAGUCCCCAAGUCAGAACCUUUGCGAGACAGCAAAGAAGUUAAGG"
+          ],
+          "scores": [
+            0.0001842062821398559,
+            0.0001842062821398559,
+            0.00109652136922465
+          ],
+          "isolated_hairpin_energies": [
+            5.300000190734863,
+            5.300000190734863,
+            4.199999809265137
+          ],
+          "filtration": {
+            "positive_bar_count": 0,
+            "longest_lifetime": 0.0,
+            "integrated_excess": 0.0,
+            "maximum_excess": 0.0,
+            "baseline_components": 1,
+            "threshold_at_maximum": 0.00109652136922465,
+            "bars": [],
+            "curve": [
+              {
+                "threshold": 0.00109652136922465,
+                "excess": 0.0,
+                "retained": 1,
+                "filtered_components": 1
+              },
+              {
+                "threshold": 0.0001842062821398559,
+                "excess": 0.0,
+                "retained": 3,
+                "filtered_components": 1
+              }
+            ]
+          }
+        },
+        "control": {
+          "sequences": [
+            "AAGACGCAGAGCGGCUCUCUAAUUUGGGGUAAAUUAUUUCGCCGCCAGUCCCCAAGUCAGAACCUUUGCGAGACAGCAAAGAAGUUAAGG",
+            "AAGACGCAGAGCGGCUCUCUAAUUUGGGGUAAGUUAUUUCGCCGCCAGUCCCCAAGUCAGAACCUUUGCGAGACAGCAAAGAAGUUAAGG",
+            "AAGACGCAGAGCGGCUCUCUAAUUUGGGGUAAGUUAUUCCGCCGCCAGUCCCCAAGUCAGAACCUUUGCGAGACAGCAAAGAAGUUAAGG"
+          ],
+          "scores": [
+            0.0009324460603445761,
+            0.0006742286475945491,
+            0.006497872261952122
+          ],
+          "isolated_hairpin_energies": [
+            4.300000190734863,
+            4.5,
+            3.0999999046325684
+          ],
+          "filtration": {
+            "positive_bar_count": 1,
+            "longest_lifetime": 0.000258217412750027,
+            "integrated_excess": 0.0001291087063750135,
+            "maximum_excess": 0.5,
+            "baseline_components": 1,
+            "threshold_at_maximum": 0.0009324460603445761,
+            "bars": [
+              {
+                "birth": 0.0009324460603445761,
+                "death": 0.0006742286475945491,
+                "lifetime": 0.000258217412750027,
+                "peak_vertex": 0,
+                "merge_edge": [
+                  1,
+                  2
+                ],
+                "baseline_component": 0
+              }
+            ],
+            "curve": [
+              {
+                "threshold": 0.006497872261952122,
+                "excess": 0.0,
+                "retained": 1,
+                "filtered_components": 1
+              },
+              {
+                "threshold": 0.0009324460603445761,
+                "excess": 0.5,
+                "retained": 2,
+                "filtered_components": 2
+              },
+              {
+                "threshold": 0.0006742286475945491,
+                "excess": 0.0,
+                "retained": 3,
+                "filtered_components": 1
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "scaffold": "S13",
+      "baseline": "GAGAAAGCAGGUGGCACCAUUUCUUUGUUAAAGCUAUUUCCGCCAUCCAUAAGGGCCACAAAGUGCGAUUUAGGGGGUAACAUGGUACAG",
+      "targeted": "GAGAAAGCAGGUGGCACCAUUUCUUUGUUAAAGUUAUUUCCGCCAUCCAUAAGGGCCACAAAGUGCGAUUUAGGGGGUAACAUGGUACAG",
+      "control": "GAGAAAGCAGGUGGUACCAUUUCUUUGUUAAAGCUAUUUCCGCCAUCCAUAAGGGCCACAAAGUGCGAUUUAGGGGGUAACAUGGUACAG",
+      "peptide": "EKAGGTISLLKLFPPSIRATKCDLGGNMVQ",
+      "direction": "C_to_U",
+      "targeted_position0": 33,
+      "control_position0": 14,
+      "pair0": [
+        32,
+        38
+      ],
+      "maximum_prior90nt_identity": 0.43333333333333335,
+      "predictions": {
+        "baseline": {
+          "sequences": [
+            "GAGAAAGCAGGUGGCACCAUUUCUUUGUUAAAACUAUUUCCGCCAUCCAUAAGGGCCACAAAGUGCGAUUUAGGGGGUAACAUGGUACAG",
+            "GAGAAAGCAGGUGGCACCAUUUCUUUGUUAAAGCUAUUUCCGCCAUCCAUAAGGGCCACAAAGUGCGAUUUAGGGGGUAACAUGGUACAG",
+            "GAGAAAGCAGGUGGCACCAUUUCUUUGUUAAAGCUAUUCCCGCCAUCCAUAAGGGCCACAAAGUGCGAUUUAGGGGGUAACAUGGUACAG"
+          ],
+          "scores": [
+            0.0001842062821398559,
+            0.0001842062821398559,
+            0.00109652136922465
+          ],
+          "isolated_hairpin_energies": [
+            5.300000190734863,
+            5.300000190734863,
+            4.199999809265137
+          ],
+          "filtration": {
+            "positive_bar_count": 0,
+            "longest_lifetime": 0.0,
+            "integrated_excess": 0.0,
+            "maximum_excess": 0.0,
+            "baseline_components": 1,
+            "threshold_at_maximum": 0.00109652136922465,
+            "bars": [],
+            "curve": [
+              {
+                "threshold": 0.00109652136922465,
+                "excess": 0.0,
+                "retained": 1,
+                "filtered_components": 1
+              },
+              {
+                "threshold": 0.0001842062821398559,
+                "excess": 0.0,
+                "retained": 3,
+                "filtered_components": 1
+              }
+            ]
+          }
+        },
+        "targeted": {
+          "sequences": [
+            "GAGAAAGCAGGUGGCACCAUUUCUUUGUUAAAAUUAUUUCCGCCAUCCAUAAGGGCCACAAAGUGCGAUUUAGGGGGUAACAUGGUACAG",
+            "GAGAAAGCAGGUGGCACCAUUUCUUUGUUAAAGUUAUUUCCGCCAUCCAUAAGGGCCACAAAGUGCGAUUUAGGGGGUAACAUGGUACAG",
+            "GAGAAAGCAGGUGGCACCAUUUCUUUGUUAAAGUUAUUCCCGCCAUCCAUAAGGGCCACAAAGUGCGAUUUAGGGGGUAACAUGGUACAG"
+          ],
+          "scores": [
+            0.0009324460603445761,
+            0.0006742286475945491,
+            0.006497872261952122
+          ],
+          "isolated_hairpin_energies": [
+            4.300000190734863,
+            4.5,
+            3.0999999046325684
+          ],
+          "filtration": {
+            "positive_bar_count": 1,
+            "longest_lifetime": 0.000258217412750027,
+            "integrated_excess": 0.0001291087063750135,
+            "maximum_excess": 0.5,
+            "baseline_components": 1,
+            "threshold_at_maximum": 0.0009324460603445761,
+            "bars": [
+              {
+                "birth": 0.0009324460603445761,
+                "death": 0.0006742286475945491,
+                "lifetime": 0.000258217412750027,
+                "peak_vertex": 0,
+                "merge_edge": [
+                  1,
+                  2
+                ],
+                "baseline_component": 0
+              }
+            ],
+            "curve": [
+              {
+                "threshold": 0.006497872261952122,
+                "excess": 0.0,
+                "retained": 1,
+                "filtered_components": 1
+              },
+              {
+                "threshold": 0.0009324460603445761,
+                "excess": 0.5,
+                "retained": 2,
+                "filtered_components": 2
+              },
+              {
+                "threshold": 0.0006742286475945491,
+                "excess": 0.0,
+                "retained": 3,
+                "filtered_components": 1
+              }
+            ]
+          }
+        },
+        "control": {
+          "sequences": [
+            "GAGAAAGCAGGUGGUACCAUUUCUUUGUUAAAACUAUUUCCGCCAUCCAUAAGGGCCACAAAGUGCGAUUUAGGGGGUAACAUGGUACAG",
+            "GAGAAAGCAGGUGGUACCAUUUCUUUGUUAAAGCUAUUUCCGCCAUCCAUAAGGGCCACAAAGUGCGAUUUAGGGGGUAACAUGGUACAG",
+            "GAGAAAGCAGGUGGUACCAUUUCUUUGUUAAAGCUAUUCCCGCCAUCCAUAAGGGCCACAAAGUGCGAUUUAGGGGGUAACAUGGUACAG"
+          ],
+          "scores": [
+            0.0001842062821398559,
+            0.0001842062821398559,
+            0.00109652136922465
+          ],
+          "isolated_hairpin_energies": [
+            5.300000190734863,
+            5.300000190734863,
+            4.199999809265137
+          ],
+          "filtration": {
+            "positive_bar_count": 0,
+            "longest_lifetime": 0.0,
+            "integrated_excess": 0.0,
+            "maximum_excess": 0.0,
+            "baseline_components": 1,
+            "threshold_at_maximum": 0.00109652136922465,
+            "bars": [],
+            "curve": [
+              {
+                "threshold": 0.00109652136922465,
+                "excess": 0.0,
+                "retained": 1,
+                "filtered_components": 1
+              },
+              {
+                "threshold": 0.0001842062821398559,
+                "excess": 0.0,
+                "retained": 3,
+                "filtered_components": 1
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "scaffold": "S14",
+      "baseline": "CACUCGGGGGACGGUCGGGAUUGGGAAAAGAAGUUAUUUAUCAUGGGAGCGACUUCAGUGCUCUCAAAAACGGGUAGUAAGCGCGCGGUC",
+      "targeted": "CACUCGGGGGACGGUCGGGAUUGGGAAAAGAAGCUAUUUAUCAUGGGAGCGACUUCAGUGCUCUCAAAAACGGGUAGUAAGCGCGCGGUC",
+      "control": "CACUCGGGGGACGGCCGGGAUUGGGAAAAGAAGUUAUUUAUCAUGGGAGCGACUUCAGUGCUCUCAAAAACGGGUAGUAAGCGCGCGGUC",
+      "peptide": "HSGDGRDWEKKLFIMGATSVLSKTGSKRAV",
+      "direction": "U_to_C",
+      "targeted_position0": 33,
+      "control_position0": 14,
+      "pair0": [
+        32,
+        38
+      ],
+      "maximum_prior90nt_identity": 0.4222222222222222,
+      "predictions": {
+        "baseline": {
+          "sequences": [
+            "CACUCGGGGGACGGUCGGGAUUGGGAAAAGAAAUUAUUUAUCAUGGGAGCGACUUCAGUGCUCUCAAAAACGGGUAGUAAGCGCGCGGUC",
+            "CACUCGGGGGACGGUCGGGAUUGGGAAAAGAAGUUAUUUAUCAUGGGAGCGACUUCAGUGCUCUCAAAAACGGGUAGUAAGCGCGCGGUC",
+            "CACUCGGGGGACGGUCGGGAUUGGGAAAAGAAGUUAUUCAUCAUGGGAGCGACUUCAGUGCUCUCAAAAACGGGUAGUAAGCGCGCGGUC"
+          ],
+          "scores": [
+            0.0015162238934932906,
+            0.00109652136922465,
+            0.014507016798586025
+          ],
+          "isolated_hairpin_energies": [
+            4.0,
+            4.199999809265137,
+            2.5999999046325684
+          ],
+          "filtration": {
+            "positive_bar_count": 1,
+            "longest_lifetime": 0.00041970252426864053,
+            "integrated_excess": 0.00020985126213432027,
+            "maximum_excess": 0.5,
+            "baseline_components": 1,
+            "threshold_at_maximum": 0.0015162238934932906,
+            "bars": [
+              {
+                "birth": 0.0015162238934932906,
+                "death": 0.00109652136922465,
+                "lifetime": 0.00041970252426864053,
+                "peak_vertex": 0,
+                "merge_edge": [
+                  1,
+                  2
+                ],
+                "baseline_component": 0
+              }
+            ],
+            "curve": [
+              {
+                "threshold": 0.014507016798586025,
+                "excess": 0.0,
+                "retained": 1,
+                "filtered_components": 1
+              },
+              {
+                "threshold": 0.0015162238934932906,
+                "excess": 0.5,
+                "retained": 2,
+                "filtered_components": 2
+              },
+              {
+                "threshold": 0.00109652136922465,
+                "excess": 0.0,
+                "retained": 3,
+                "filtered_components": 1
+              }
+            ]
+          }
+        },
+        "targeted": {
+          "sequences": [
+            "CACUCGGGGGACGGUCGGGAUUGGGAAAAGAAACUAUUUAUCAUGGGAGCGACUUCAGUGCUCUCAAAAACGGGUAGUAAGCGCGCGGUC",
+            "CACUCGGGGGACGGUCGGGAUUGGGAAAAGAAGCUAUUUAUCAUGGGAGCGACUUCAGUGCUCUCAAAAACGGGUAGUAAGCGCGCGGUC",
+            "CACUCGGGGGACGGUCGGGAUUGGGAAAAGAAGCUAUUCAUCAUGGGAGCGACUUCAGUGCUCUCAAAAACGGGUAGUAAGCGCGCGGUC"
+          ],
+          "scores": [
+            0.0002996730849175233,
+            0.0002996730849175233,
+            0.002464585780939057
+          ],
+          "isolated_hairpin_energies": [
+            5.0,
+            5.0,
+            3.700000047683716
+          ],
+          "filtration": {
+            "positive_bar_count": 0,
+            "longest_lifetime": 0.0,
+            "integrated_excess": 0.0,
+            "maximum_excess": 0.0,
+            "baseline_components": 1,
+            "threshold_at_maximum": 0.002464585780939057,
+            "bars": [],
+            "curve": [
+              {
+                "threshold": 0.002464585780939057,
+                "excess": 0.0,
+                "retained": 1,
+                "filtered_components": 1
+              },
+              {
+                "threshold": 0.0002996730849175233,
+                "excess": 0.0,
+                "retained": 3,
+                "filtered_components": 1
+              }
+            ]
+          }
+        },
+        "control": {
+          "sequences": [
+            "CACUCGGGGGACGGCCGGGAUUGGGAAAAGAAAUUAUUUAUCAUGGGAGCGACUUCAGUGCUCUCAAAAACGGGUAGUAAGCGCGCGGUC",
+            "CACUCGGGGGACGGCCGGGAUUGGGAAAAGAAGUUAUUUAUCAUGGGAGCGACUUCAGUGCUCUCAAAAACGGGUAGUAAGCGCGCGGUC",
+            "CACUCGGGGGACGGCCGGGAUUGGGAAAAGAAGUUAUUCAUCAUGGGAGCGACUUCAGUGCUCUCAAAAACGGGUAGUAAGCGCGCGGUC"
+          ],
+          "scores": [
+            0.0015162238934932906,
+            0.00109652136922465,
+            0.014507016798586025
+          ],
+          "isolated_hairpin_energies": [
+            4.0,
+            4.199999809265137,
+            2.5999999046325684
+          ],
+          "filtration": {
+            "positive_bar_count": 1,
+            "longest_lifetime": 0.00041970252426864053,
+            "integrated_excess": 0.00020985126213432027,
+            "maximum_excess": 0.5,
+            "baseline_components": 1,
+            "threshold_at_maximum": 0.0015162238934932906,
+            "bars": [
+              {
+                "birth": 0.0015162238934932906,
+                "death": 0.00109652136922465,
+                "lifetime": 0.00041970252426864053,
+                "peak_vertex": 0,
+                "merge_edge": [
+                  1,
+                  2
+                ],
+                "baseline_component": 0
+              }
+            ],
+            "curve": [
+              {
+                "threshold": 0.014507016798586025,
+                "excess": 0.0,
+                "retained": 1,
+                "filtered_components": 1
+              },
+              {
+                "threshold": 0.0015162238934932906,
+                "excess": 0.5,
+                "retained": 2,
+                "filtered_components": 2
+              },
+              {
+                "threshold": 0.00109652136922465,
+                "excess": 0.0,
+                "retained": 3,
+                "filtered_components": 1
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "scaffold": "S15",
+      "baseline": "UGCGUAACGCGCGGCUCUAGGAAUGUGGGAAAGCUAUUUAAAUGCCCAGAGGCUGUUCAUGCCUCUGGAGCGGCAUGGCCUCCCGGAGGU",
+      "targeted": "UGCGUAACGCGCGGCUCUAGGAAUGUGGGAAAGUUAUUUAAAUGCCCAGAGGCUGUUCAUGCCUCUGGAGCGGCAUGGCCUCCCGGAGGU",
+      "control": "UGCGUAACGCGCGGUUCUAGGAAUGUGGGAAAGCUAUUUAAAUGCCCAGAGGCUGUUCAUGCCUCUGGAGCGGCAUGGCCUCCCGGAGGU",
+      "peptide": "CVTRGSRNVGKLFKCPEAVHASGAAWPPGG",
+      "direction": "C_to_U",
+      "targeted_position0": 33,
+      "control_position0": 14,
+      "pair0": [
+        32,
+        38
+      ],
+      "maximum_prior90nt_identity": 0.45555555555555555,
+      "predictions": {
+        "baseline": {
+          "sequences": [
+            "UGCGUAACGCGCGGCUCUAGGAAUGUGGGAAAACUAUUUAAAUGCCCAGAGGCUGUUCAUGCCUCUGGAGCGGCAUGGCCUCCCGGAGGU",
+            "UGCGUAACGCGCGGCUCUAGGAAUGUGGGAAAGCUAUUUAAAUGCCCAGAGGCUGUUCAUGCCUCUGGAGCGGCAUGGCCUCCCGGAGGU",
+            "UGCGUAACGCGCGGCUCUAGGAAUGUGGGAAAGCUAUUCAAAUGCCCAGAGGCUGUUCAUGCCUCUGGAGCGGCAUGGCCUCCCGGAGGU"
+          ],
+          "scores": [
+            0.0002996730849175233,
+            0.0002996730849175233,
+            0.002464585780939057
+          ],
+          "isolated_hairpin_energies": [
+            5.0,
+            5.0,
+            3.700000047683716
+          ],
+          "filtration": {
+            "positive_bar_count": 0,
+            "longest_lifetime": 0.0,
+            "integrated_excess": 0.0,
+            "maximum_excess": 0.0,
+            "baseline_components": 1,
+            "threshold_at_maximum": 0.002464585780939057,
+            "bars": [],
+            "curve": [
+              {
+                "threshold": 0.002464585780939057,
+                "excess": 0.0,
+                "retained": 1,
+                "filtered_components": 1
+              },
+              {
+                "threshold": 0.0002996730849175233,
+                "excess": 0.0,
+                "retained": 3,
+                "filtered_components": 1
+              }
+            ]
+          }
+        },
+        "targeted": {
+          "sequences": [
+            "UGCGUAACGCGCGGCUCUAGGAAUGUGGGAAAAUUAUUUAAAUGCCCAGAGGCUGUUCAUGCCUCUGGAGCGGCAUGGCCUCCCGGAGGU",
+            "UGCGUAACGCGCGGCUCUAGGAAUGUGGGAAAGUUAUUUAAAUGCCCAGAGGCUGUUCAUGCCUCUGGAGCGGCAUGGCCUCCCGGAGGU",
+            "UGCGUAACGCGCGGCUCUAGGAAUGUGGGAAAGUUAUUCAAAUGCCCAGAGGCUGUUCAUGCCUCUGGAGCGGCAUGGCCUCCCGGAGGU"
+          ],
+          "scores": [
+            0.0015162238934932906,
+            0.00109652136922465,
+            0.014507016798586025
+          ],
+          "isolated_hairpin_energies": [
+            4.0,
+            4.199999809265137,
+            2.5999999046325684
+          ],
+          "filtration": {
+            "positive_bar_count": 1,
+            "longest_lifetime": 0.00041970252426864053,
+            "integrated_excess": 0.00020985126213432027,
+            "maximum_excess": 0.5,
+            "baseline_components": 1,
+            "threshold_at_maximum": 0.0015162238934932906,
+            "bars": [
+              {
+                "birth": 0.0015162238934932906,
+                "death": 0.00109652136922465,
+                "lifetime": 0.00041970252426864053,
+                "peak_vertex": 0,
+                "merge_edge": [
+                  1,
+                  2
+                ],
+                "baseline_component": 0
+              }
+            ],
+            "curve": [
+              {
+                "threshold": 0.014507016798586025,
+                "excess": 0.0,
+                "retained": 1,
+                "filtered_components": 1
+              },
+              {
+                "threshold": 0.0015162238934932906,
+                "excess": 0.5,
+                "retained": 2,
+                "filtered_components": 2
+              },
+              {
+                "threshold": 0.00109652136922465,
+                "excess": 0.0,
+                "retained": 3,
+                "filtered_components": 1
+              }
+            ]
+          }
+        },
+        "control": {
+          "sequences": [
+            "UGCGUAACGCGCGGUUCUAGGAAUGUGGGAAAACUAUUUAAAUGCCCAGAGGCUGUUCAUGCCUCUGGAGCGGCAUGGCCUCCCGGAGGU",
+            "UGCGUAACGCGCGGUUCUAGGAAUGUGGGAAAGCUAUUUAAAUGCCCAGAGGCUGUUCAUGCCUCUGGAGCGGCAUGGCCUCCCGGAGGU",
+            "UGCGUAACGCGCGGUUCUAGGAAUGUGGGAAAGCUAUUCAAAUGCCCAGAGGCUGUUCAUGCCUCUGGAGCGGCAUGGCCUCCCGGAGGU"
+          ],
+          "scores": [
+            0.0002996730849175233,
+            0.0002996730849175233,
+            0.002464585780939057
+          ],
+          "isolated_hairpin_energies": [
+            5.0,
+            5.0,
+            3.700000047683716
+          ],
+          "filtration": {
+            "positive_bar_count": 0,
+            "longest_lifetime": 0.0,
+            "integrated_excess": 0.0,
+            "maximum_excess": 0.0,
+            "baseline_components": 1,
+            "threshold_at_maximum": 0.002464585780939057,
+            "bars": [],
+            "curve": [
+              {
+                "threshold": 0.002464585780939057,
+                "excess": 0.0,
+                "retained": 1,
+                "filtered_components": 1
+              },
+              {
+                "threshold": 0.0002996730849175233,
+                "excess": 0.0,
+                "retained": 3,
+                "filtered_components": 1
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "scaffold": "S16",
+      "baseline": "CACAGCCGGAAGGGUGCGCAUUCGAAUGCGAAGUUAUUUAGUGCACUGGCGGUCGGAAGACCCUAUACUGGGAGAACGACGGGGCCUAAG",
+      "targeted": "CACAGCCGGAAGGGUGCGCAUUCGAAUGCGAAGCUAUUUAGUGCACUGGCGGUCGGAAGACCCUAUACUGGGAGAACGACGGGGCCUAAG",
+      "control": "CACAGCCGGAAGGGCGCGCAUUCGAAUGCGAAGUUAUUUAGUGCACUGGCGGUCGGAAGACCCUAUACUGGGAGAACGACGGGGCCUAAG",
+      "peptide": "HSRKGAHSNAKLFSALAVGRPYTGRTTGPK",
+      "direction": "U_to_C",
+      "targeted_position0": 33,
+      "control_position0": 14,
+      "pair0": [
+        32,
+        38
+      ],
+      "maximum_prior90nt_identity": 0.45555555555555555,
+      "predictions": {
+        "baseline": {
+          "sequences": [
+            "CACAGCCGGAAGGGUGCGCAUUCGAAUGCGAAAUUAUUUAGUGCACUGGCGGUCGGAAGACCCUAUACUGGGAGAACGACGGGGCCUAAG",
+            "CACAGCCGGAAGGGUGCGCAUUCGAAUGCGAAGUUAUUUAGUGCACUGGCGGUCGGAAGACCCUAUACUGGGAGAACGACGGGGCCUAAG",
+            "CACAGCCGGAAGGGUGCGCAUUCGAAUGCGAAGUUAUUCAGUGCACUGGCGGUCGGAAGACCCUAUACUGGGAGAACGACGGGGCCUAAG"
+          ],
+          "scores": [
+            0.0015162238934932906,
+            0.00109652136922465,
+            0.014507016798586025
+          ],
+          "isolated_hairpin_energies": [
+            4.0,
+            4.199999809265137,
+            2.5999999046325684
+          ],
+          "filtration": {
+            "positive_bar_count": 1,
+            "longest_lifetime": 0.00041970252426864053,
+            "integrated_excess": 0.00020985126213432027,
+            "maximum_excess": 0.5,
+            "baseline_components": 1,
+            "threshold_at_maximum": 0.0015162238934932906,
+            "bars": [
+              {
+                "birth": 0.0015162238934932906,
+                "death": 0.00109652136922465,
+                "lifetime": 0.00041970252426864053,
+                "peak_vertex": 0,
+                "merge_edge": [
+                  1,
+                  2
+                ],
+                "baseline_component": 0
+              }
+            ],
+            "curve": [
+              {
+                "threshold": 0.014507016798586025,
+                "excess": 0.0,
+                "retained": 1,
+                "filtered_components": 1
+              },
+              {
+                "threshold": 0.0015162238934932906,
+                "excess": 0.5,
+                "retained": 2,
+                "filtered_components": 2
+              },
+              {
+                "threshold": 0.00109652136922465,
+                "excess": 0.0,
+                "retained": 3,
+                "filtered_components": 1
+              }
+            ]
+          }
+        },
+        "targeted": {
+          "sequences": [
+            "CACAGCCGGAAGGGUGCGCAUUCGAAUGCGAAACUAUUUAGUGCACUGGCGGUCGGAAGACCCUAUACUGGGAGAACGACGGGGCCUAAG",
+            "CACAGCCGGAAGGGUGCGCAUUCGAAUGCGAAGCUAUUUAGUGCACUGGCGGUCGGAAGACCCUAUACUGGGAGAACGACGGGGCCUAAG",
+            "CACAGCCGGAAGGGUGCGCAUUCGAAUGCGAAGCUAUUCAGUGCACUGGCGGUCGGAAGACCCUAUACUGGGAGAACGACGGGGCCUAAG"
+          ],
+          "scores": [
+            0.0002996730849175233,
+            0.0002996730849175233,
+            0.002464585780939057
+          ],
+          "isolated_hairpin_energies": [
+            5.0,
+            5.0,
+            3.700000047683716
+          ],
+          "filtration": {
+            "positive_bar_count": 0,
+            "longest_lifetime": 0.0,
+            "integrated_excess": 0.0,
+            "maximum_excess": 0.0,
+            "baseline_components": 1,
+            "threshold_at_maximum": 0.002464585780939057,
+            "bars": [],
+            "curve": [
+              {
+                "threshold": 0.002464585780939057,
+                "excess": 0.0,
+                "retained": 1,
+                "filtered_components": 1
+              },
+              {
+                "threshold": 0.0002996730849175233,
+                "excess": 0.0,
+                "retained": 3,
+                "filtered_components": 1
+              }
+            ]
+          }
+        },
+        "control": {
+          "sequences": [
+            "CACAGCCGGAAGGGCGCGCAUUCGAAUGCGAAAUUAUUUAGUGCACUGGCGGUCGGAAGACCCUAUACUGGGAGAACGACGGGGCCUAAG",
+            "CACAGCCGGAAGGGCGCGCAUUCGAAUGCGAAGUUAUUUAGUGCACUGGCGGUCGGAAGACCCUAUACUGGGAGAACGACGGGGCCUAAG",
+            "CACAGCCGGAAGGGCGCGCAUUCGAAUGCGAAGUUAUUCAGUGCACUGGCGGUCGGAAGACCCUAUACUGGGAGAACGACGGGGCCUAAG"
+          ],
+          "scores": [
+            0.0015162238934932906,
+            0.00109652136922465,
+            0.014507016798586025
+          ],
+          "isolated_hairpin_energies": [
+            4.0,
+            4.199999809265137,
+            2.5999999046325684
+          ],
+          "filtration": {
+            "positive_bar_count": 1,
+            "longest_lifetime": 0.00041970252426864053,
+            "integrated_excess": 0.00020985126213432027,
+            "maximum_excess": 0.5,
+            "baseline_components": 1,
+            "threshold_at_maximum": 0.0015162238934932906,
+            "bars": [
+              {
+                "birth": 0.0015162238934932906,
+                "death": 0.00109652136922465,
+                "lifetime": 0.00041970252426864053,
+                "peak_vertex": 0,
+                "merge_edge": [
+                  1,
+                  2
+                ],
+                "baseline_component": 0
+              }
+            ],
+            "curve": [
+              {
+                "threshold": 0.014507016798586025,
+                "excess": 0.0,
+                "retained": 1,
+                "filtered_components": 1
+              },
+              {
+                "threshold": 0.0015162238934932906,
+                "excess": 0.5,
+                "retained": 2,
+                "filtered_components": 2
+              },
+              {
+                "threshold": 0.00109652136922465,
+                "excess": 0.0,
+                "retained": 3,
+                "filtered_components": 1
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "scaffold": "S17",
+      "baseline": "CCCUAUCAUGGGGGCCAGACGUCACUCAGGAAGCUAUUUUGUCGUAGUUUGCUCCCCACGGCACGAUCUGCAAUGAAUAUUACGCUUAGU",
+      "targeted": "CCCUAUCAUGGGGGCCAGACGUCACUCAGGAAGUUAUUUUGUCGUAGUUUGCUCCCCACGGCACGAUCUGCAAUGAAUAUUACGCUUAGU",
+      "control": "CCCUAUCAUGGGGGUCAGACGUCACUCAGGAAGCUAUUUUGUCGUAGUUUGCUCCCCACGGCACGAUCUGCAAUGAAUAUUACGCUUAGU",
+      "peptide": "PYHGGQTSLRKLFCRSLLPTARSAMNITLS",
+      "direction": "C_to_U",
+      "targeted_position0": 33,
+      "control_position0": 14,
+      "pair0": [
+        32,
+        38
+      ],
+      "maximum_prior90nt_identity": 0.4444444444444444,
+      "predictions": {
+        "baseline": {
+          "sequences": [
+            "CCCUAUCAUGGGGGCCAGACGUCACUCAGGAAACUAUUUUGUCGUAGUUUGCUCCCCACGGCACGAUCUGCAAUGAAUAUUACGCUUAGU",
+            "CCCUAUCAUGGGGGCCAGACGUCACUCAGGAAGCUAUUUUGUCGUAGUUUGCUCCCCACGGCACGAUCUGCAAUGAAUAUUACGCUUAGU",
+            "CCCUAUCAUGGGGGCCAGACGUCACUCAGGAAGCUAUUCUGUCGUAGUUUGCUCCCCACGGCACGAUCUGCAAUGAAUAUUACGCUUAGU"
+          ],
+          "scores": [
+            0.0001842062821398559,
+            0.0001842062821398559,
+            0.00109652136922465
+          ],
+          "isolated_hairpin_energies": [
+            5.300000190734863,
+            5.300000190734863,
+            4.199999809265137
+          ],
+          "filtration": {
+            "positive_bar_count": 0,
+            "longest_lifetime": 0.0,
+            "integrated_excess": 0.0,
+            "maximum_excess": 0.0,
+            "baseline_components": 1,
+            "threshold_at_maximum": 0.00109652136922465,
+            "bars": [],
+            "curve": [
+              {
+                "threshold": 0.00109652136922465,
+                "excess": 0.0,
+                "retained": 1,
+                "filtered_components": 1
+              },
+              {
+                "threshold": 0.0001842062821398559,
+                "excess": 0.0,
+                "retained": 3,
+                "filtered_components": 1
+              }
+            ]
+          }
+        },
+        "targeted": {
+          "sequences": [
+            "CCCUAUCAUGGGGGCCAGACGUCACUCAGGAAAUUAUUUUGUCGUAGUUUGCUCCCCACGGCACGAUCUGCAAUGAAUAUUACGCUUAGU",
+            "CCCUAUCAUGGGGGCCAGACGUCACUCAGGAAGUUAUUUUGUCGUAGUUUGCUCCCCACGGCACGAUCUGCAAUGAAUAUUACGCUUAGU",
+            "CCCUAUCAUGGGGGCCAGACGUCACUCAGGAAGUUAUUCUGUCGUAGUUUGCUCCCCACGGCACGAUCUGCAAUGAAUAUUACGCUUAGU"
+          ],
+          "scores": [
+            0.0009324460603445761,
+            0.0006742286475945491,
+            0.006497872261952122
+          ],
+          "isolated_hairpin_energies": [
+            4.300000190734863,
+            4.5,
+            3.0999999046325684
+          ],
+          "filtration": {
+            "positive_bar_count": 1,
+            "longest_lifetime": 0.000258217412750027,
+            "integrated_excess": 0.0001291087063750135,
+            "maximum_excess": 0.5,
+            "baseline_components": 1,
+            "threshold_at_maximum": 0.0009324460603445761,
+            "bars": [
+              {
+                "birth": 0.0009324460603445761,
+                "death": 0.0006742286475945491,
+                "lifetime": 0.000258217412750027,
+                "peak_vertex": 0,
+                "merge_edge": [
+                  1,
+                  2
+                ],
+                "baseline_component": 0
+              }
+            ],
+            "curve": [
+              {
+                "threshold": 0.006497872261952122,
+                "excess": 0.0,
+                "retained": 1,
+                "filtered_components": 1
+              },
+              {
+                "threshold": 0.0009324460603445761,
+                "excess": 0.5,
+                "retained": 2,
+                "filtered_components": 2
+              },
+              {
+                "threshold": 0.0006742286475945491,
+                "excess": 0.0,
+                "retained": 3,
+                "filtered_components": 1
+              }
+            ]
+          }
+        },
+        "control": {
+          "sequences": [
+            "CCCUAUCAUGGGGGUCAGACGUCACUCAGGAAACUAUUUUGUCGUAGUUUGCUCCCCACGGCACGAUCUGCAAUGAAUAUUACGCUUAGU",
+            "CCCUAUCAUGGGGGUCAGACGUCACUCAGGAAGCUAUUUUGUCGUAGUUUGCUCCCCACGGCACGAUCUGCAAUGAAUAUUACGCUUAGU",
+            "CCCUAUCAUGGGGGUCAGACGUCACUCAGGAAGCUAUUCUGUCGUAGUUUGCUCCCCACGGCACGAUCUGCAAUGAAUAUUACGCUUAGU"
+          ],
+          "scores": [
+            0.0001842062821398559,
+            0.0001842062821398559,
+            0.00109652136922465
+          ],
+          "isolated_hairpin_energies": [
+            5.300000190734863,
+            5.300000190734863,
+            4.199999809265137
+          ],
+          "filtration": {
+            "positive_bar_count": 0,
+            "longest_lifetime": 0.0,
+            "integrated_excess": 0.0,
+            "maximum_excess": 0.0,
+            "baseline_components": 1,
+            "threshold_at_maximum": 0.00109652136922465,
+            "bars": [],
+            "curve": [
+              {
+                "threshold": 0.00109652136922465,
+                "excess": 0.0,
+                "retained": 1,
+                "filtered_components": 1
+              },
+              {
+                "threshold": 0.0001842062821398559,
+                "excess": 0.0,
+                "retained": 3,
+                "filtered_components": 1
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "scaffold": "S18",
+      "baseline": "AACGCCAGCAACGGUAGAGUGGUCCCGGCGAAGUUAUUUAAAAGAACAUGCAGCUGUUGUCUUAUCCUGGUCGUGAUCGCGAAGAGUACA",
+      "targeted": "AACGCCAGCAACGGUAGAGUGGUCCCGGCGAAGCUAUUUAAAAGAACAUGCAGCUGUUGUCUUAUCCUGGUCGUGAUCGCGAAGAGUACA",
+      "control": "AACGCCAGCAACGGCAGAGUGGUCCCGGCGAAGUUAUUUAAAAGAACAUGCAGCUGUUGUCUUAUCCUGGUCGUGAUCGCGAAGAGUACA",
+      "peptide": "NASNGRVVPAKLFKRTCSCCLILVVIAKST",
+      "direction": "U_to_C",
+      "targeted_position0": 33,
+      "control_position0": 14,
+      "pair0": [
+        32,
+        38
+      ],
+      "maximum_prior90nt_identity": 0.4444444444444444,
+      "predictions": {
+        "baseline": {
+          "sequences": [
+            "AACGCCAGCAACGGUAGAGUGGUCCCGGCGAAAUUAUUUAAAAGAACAUGCAGCUGUUGUCUUAUCCUGGUCGUGAUCGCGAAGAGUACA",
+            "AACGCCAGCAACGGUAGAGUGGUCCCGGCGAAGUUAUUUAAAAGAACAUGCAGCUGUUGUCUUAUCCUGGUCGUGAUCGCGAAGAGUACA",
+            "AACGCCAGCAACGGUAGAGUGGUCCCGGCGAAGUUAUUCAAAAGAACAUGCAGCUGUUGUCUUAUCCUGGUCGUGAUCGCGAAGAGUACA"
+          ],
+          "scores": [
+            0.0015162238934932906,
+            0.00109652136922465,
+            0.014507016798586025
+          ],
+          "isolated_hairpin_energies": [
+            4.0,
+            4.199999809265137,
+            2.5999999046325684
+          ],
+          "filtration": {
+            "positive_bar_count": 1,
+            "longest_lifetime": 0.00041970252426864053,
+            "integrated_excess": 0.00020985126213432027,
+            "maximum_excess": 0.5,
+            "baseline_components": 1,
+            "threshold_at_maximum": 0.0015162238934932906,
+            "bars": [
+              {
+                "birth": 0.0015162238934932906,
+                "death": 0.00109652136922465,
+                "lifetime": 0.00041970252426864053,
+                "peak_vertex": 0,
+                "merge_edge": [
+                  1,
+                  2
+                ],
+                "baseline_component": 0
+              }
+            ],
+            "curve": [
+              {
+                "threshold": 0.014507016798586025,
+                "excess": 0.0,
+                "retained": 1,
+                "filtered_components": 1
+              },
+              {
+                "threshold": 0.0015162238934932906,
+                "excess": 0.5,
+                "retained": 2,
+                "filtered_components": 2
+              },
+              {
+                "threshold": 0.00109652136922465,
+                "excess": 0.0,
+                "retained": 3,
+                "filtered_components": 1
+              }
+            ]
+          }
+        },
+        "targeted": {
+          "sequences": [
+            "AACGCCAGCAACGGUAGAGUGGUCCCGGCGAAACUAUUUAAAAGAACAUGCAGCUGUUGUCUUAUCCUGGUCGUGAUCGCGAAGAGUACA",
+            "AACGCCAGCAACGGUAGAGUGGUCCCGGCGAAGCUAUUUAAAAGAACAUGCAGCUGUUGUCUUAUCCUGGUCGUGAUCGCGAAGAGUACA",
+            "AACGCCAGCAACGGUAGAGUGGUCCCGGCGAAGCUAUUCAAAAGAACAUGCAGCUGUUGUCUUAUCCUGGUCGUGAUCGCGAAGAGUACA"
+          ],
+          "scores": [
+            0.0002996730849175233,
+            0.0002996730849175233,
+            0.002464585780939057
+          ],
+          "isolated_hairpin_energies": [
+            5.0,
+            5.0,
+            3.700000047683716
+          ],
+          "filtration": {
+            "positive_bar_count": 0,
+            "longest_lifetime": 0.0,
+            "integrated_excess": 0.0,
+            "maximum_excess": 0.0,
+            "baseline_components": 1,
+            "threshold_at_maximum": 0.002464585780939057,
+            "bars": [],
+            "curve": [
+              {
+                "threshold": 0.002464585780939057,
+                "excess": 0.0,
+                "retained": 1,
+                "filtered_components": 1
+              },
+              {
+                "threshold": 0.0002996730849175233,
+                "excess": 0.0,
+                "retained": 3,
+                "filtered_components": 1
+              }
+            ]
+          }
+        },
+        "control": {
+          "sequences": [
+            "AACGCCAGCAACGGCAGAGUGGUCCCGGCGAAAUUAUUUAAAAGAACAUGCAGCUGUUGUCUUAUCCUGGUCGUGAUCGCGAAGAGUACA",
+            "AACGCCAGCAACGGCAGAGUGGUCCCGGCGAAGUUAUUUAAAAGAACAUGCAGCUGUUGUCUUAUCCUGGUCGUGAUCGCGAAGAGUACA",
+            "AACGCCAGCAACGGCAGAGUGGUCCCGGCGAAGUUAUUCAAAAGAACAUGCAGCUGUUGUCUUAUCCUGGUCGUGAUCGCGAAGAGUACA"
+          ],
+          "scores": [
+            0.0015162238934932906,
+            0.00109652136922465,
+            0.014507016798586025
+          ],
+          "isolated_hairpin_energies": [
+            4.0,
+            4.199999809265137,
+            2.5999999046325684
+          ],
+          "filtration": {
+            "positive_bar_count": 1,
+            "longest_lifetime": 0.00041970252426864053,
+            "integrated_excess": 0.00020985126213432027,
+            "maximum_excess": 0.5,
+            "baseline_components": 1,
+            "threshold_at_maximum": 0.0015162238934932906,
+            "bars": [
+              {
+                "birth": 0.0015162238934932906,
+                "death": 0.00109652136922465,
+                "lifetime": 0.00041970252426864053,
+                "peak_vertex": 0,
+                "merge_edge": [
+                  1,
+                  2
+                ],
+                "baseline_component": 0
+              }
+            ],
+            "curve": [
+              {
+                "threshold": 0.014507016798586025,
+                "excess": 0.0,
+                "retained": 1,
+                "filtered_components": 1
+              },
+              {
+                "threshold": 0.0015162238934932906,
+                "excess": 0.5,
+                "retained": 2,
+                "filtered_components": 2
+              },
+              {
+                "threshold": 0.00109652136922465,
+                "excess": 0.0,
+                "retained": 3,
+                "filtered_components": 1
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "scaffold": "S19",
+      "baseline": "UAUCUGCUAGGUGGCGCCAGCGAUUUCUCAAAGCUAUUUGUUAUUGCCAUUCUUCGCCUUCCAGAGCAGGCGUCUGCUUGCCGCACAUAU",
+      "targeted": "UAUCUGCUAGGUGGCGCCAGCGAUUUCUCAAAGUUAUUUGUUAUUGCCAUUCUUCGCCUUCCAGAGCAGGCGUCUGCUUGCCGCACAUAU",
+      "control": "UAUCUGCUAGGUGGUGCCAGCGAUUUCUCAAAGCUAUUUGUUAUUGCCAUUCUUCGCCUUCCAGAGCAGGCGUCUGCUUGCCGCACAUAU",
+      "peptide": "YLLGGASDFSKLFVIAILRLPEQASACRTY",
+      "direction": "C_to_U",
+      "targeted_position0": 33,
+      "control_position0": 14,
+      "pair0": [
+        32,
+        38
+      ],
+      "maximum_prior90nt_identity": 0.4666666666666667,
+      "predictions": {
+        "baseline": {
+          "sequences": [
+            "UAUCUGCUAGGUGGCGCCAGCGAUUUCUCAAAACUAUUUGUUAUUGCCAUUCUUCGCCUUCCAGAGCAGGCGUCUGCUUGCCGCACAUAU",
+            "UAUCUGCUAGGUGGCGCCAGCGAUUUCUCAAAGCUAUUUGUUAUUGCCAUUCUUCGCCUUCCAGAGCAGGCGUCUGCUUGCCGCACAUAU",
+            "UAUCUGCUAGGUGGCGCCAGCGAUUUCUCAAAGCUAUUCGUUAUUGCCAUUCUUCGCCUUCCAGAGCAGGCGUCUGCUUGCCGCACAUAU"
+          ],
+          "scores": [
+            0.0003524432424516764,
+            0.00013316738058949038,
+            0.002096234683283119
+          ],
+          "isolated_hairpin_energies": [
+            4.900000095367432,
+            5.5,
+            3.799999952316284
+          ],
+          "filtration": {
+            "positive_bar_count": 1,
+            "longest_lifetime": 0.000219275861862186,
+            "integrated_excess": 0.000109637930931093,
+            "maximum_excess": 0.5,
+            "baseline_components": 1,
+            "threshold_at_maximum": 0.0003524432424516764,
+            "bars": [
+              {
+                "birth": 0.0003524432424516764,
+                "death": 0.00013316738058949038,
+                "lifetime": 0.000219275861862186,
+                "peak_vertex": 0,
+                "merge_edge": [
+                  1,
+                  2
+                ],
+                "baseline_component": 0
+              }
+            ],
+            "curve": [
+              {
+                "threshold": 0.002096234683283119,
+                "excess": 0.0,
+                "retained": 1,
+                "filtered_components": 1
+              },
+              {
+                "threshold": 0.0003524432424516764,
+                "excess": 0.5,
+                "retained": 2,
+                "filtered_components": 2
+              },
+              {
+                "threshold": 0.00013316738058949038,
+                "excess": 0.0,
+                "retained": 3,
+                "filtered_components": 1
+              }
+            ]
+          }
+        },
+        "targeted": {
+          "sequences": [
+            "UAUCUGCUAGGUGGCGCCAGCGAUUUCUCAAAAUUAUUUGUUAUUGCCAUUCUUCGCCUUCCAGAGCAGGCGUCUGCUUGCCGCACAUAU",
+            "UAUCUGCUAGGUGGCGCCAGCGAUUUCUCAAAGUUAUUUGUUAUUGCCAUUCUUCGCCUUCCAGAGCAGGCGUCUGCUUGCCGCACAUAU",
+            "UAUCUGCUAGGUGGCGCCAGCGAUUUCUCAAAGUUAUUCGUUAUUGCCAUUCUUCGCCUUCCAGAGCAGGCGUCUGCUUGCCGCACAUAU"
+          ],
+          "scores": [
+            0.0017828373786126209,
+            0.0004874831421282589,
+            0.012361130980326401
+          ],
+          "isolated_hairpin_energies": [
+            3.9000000953674316,
+            4.699999809265137,
+            2.700000047683716
+          ],
+          "filtration": {
+            "positive_bar_count": 1,
+            "longest_lifetime": 0.001295354236484362,
+            "integrated_excess": 0.000647677118242181,
+            "maximum_excess": 0.5,
+            "baseline_components": 1,
+            "threshold_at_maximum": 0.0017828373786126209,
+            "bars": [
+              {
+                "birth": 0.0017828373786126209,
+                "death": 0.0004874831421282589,
+                "lifetime": 0.001295354236484362,
+                "peak_vertex": 0,
+                "merge_edge": [
+                  1,
+                  2
+                ],
+                "baseline_component": 0
+              }
+            ],
+            "curve": [
+              {
+                "threshold": 0.012361130980326401,
+                "excess": 0.0,
+                "retained": 1,
+                "filtered_components": 1
+              },
+              {
+                "threshold": 0.0017828373786126209,
+                "excess": 0.5,
+                "retained": 2,
+                "filtered_components": 2
+              },
+              {
+                "threshold": 0.0004874831421282589,
+                "excess": 0.0,
+                "retained": 3,
+                "filtered_components": 1
+              }
+            ]
+          }
+        },
+        "control": {
+          "sequences": [
+            "UAUCUGCUAGGUGGUGCCAGCGAUUUCUCAAAACUAUUUGUUAUUGCCAUUCUUCGCCUUCCAGAGCAGGCGUCUGCUUGCCGCACAUAU",
+            "UAUCUGCUAGGUGGUGCCAGCGAUUUCUCAAAGCUAUUUGUUAUUGCCAUUCUUCGCCUUCCAGAGCAGGCGUCUGCUUGCCGCACAUAU",
+            "UAUCUGCUAGGUGGUGCCAGCGAUUUCUCAAAGCUAUUCGUUAUUGCCAUUCUUCGCCUUCCAGAGCAGGCGUCUGCUUGCCGCACAUAU"
+          ],
+          "scores": [
+            0.0003524432424516764,
+            0.00013316738058949038,
+            0.002096234683283119
+          ],
+          "isolated_hairpin_energies": [
+            4.900000095367432,
+            5.5,
+            3.799999952316284
+          ],
+          "filtration": {
+            "positive_bar_count": 1,
+            "longest_lifetime": 0.000219275861862186,
+            "integrated_excess": 0.000109637930931093,
+            "maximum_excess": 0.5,
+            "baseline_components": 1,
+            "threshold_at_maximum": 0.0003524432424516764,
+            "bars": [
+              {
+                "birth": 0.0003524432424516764,
+                "death": 0.00013316738058949038,
+                "lifetime": 0.000219275861862186,
+                "peak_vertex": 0,
+                "merge_edge": [
+                  1,
+                  2
+                ],
+                "baseline_component": 0
+              }
+            ],
+            "curve": [
+              {
+                "threshold": 0.002096234683283119,
+                "excess": 0.0,
+                "retained": 1,
+                "filtered_components": 1
+              },
+              {
+                "threshold": 0.0003524432424516764,
+                "excess": 0.5,
+                "retained": 2,
+                "filtered_components": 2
+              },
+              {
+                "threshold": 0.00013316738058949038,
+                "excess": 0.0,
+                "retained": 3,
+                "filtered_components": 1
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "scaffold": "S20",
+      "baseline": "UCCAACCCCCAUGGUGCUCAGCGUCUGUUGAAGUUAUUUAUGCUUCUCAGCGUAAAAUUCACACUGGAACCUGUUAUCUCCCUCACACGG",
+      "targeted": "UCCAACCCCCAUGGUGCUCAGCGUCUGUUGAAGCUAUUUAUGCUUCUCAGCGUAAAAUUCACACUGGAACCUGUUAUCUCCCUCACACGG",
+      "control": "UCCAACCCCCAUGGCGCUCAGCGUCUGUUGAAGUUAUUUAUGCUUCUCAGCGUAAAAUUCACACUGGAACCUGUUAUCUCCCUCACACGG",
+      "peptide": "SNPHGAQRLLKLFMLLSVKFTLEPVISLTR",
+      "direction": "U_to_C",
+      "targeted_position0": 33,
+      "control_position0": 14,
+      "pair0": [
+        32,
+        38
+      ],
+      "maximum_prior90nt_identity": 0.4444444444444444,
+      "predictions": {
+        "baseline": {
+          "sequences": [
+            "UCCAACCCCCAUGGUGCUCAGCGUCUGUUGAAAUUAUUUAUGCUUCUCAGCGUAAAAUUCACACUGGAACCUGUUAUCUCCCUCACACGG",
+            "UCCAACCCCCAUGGUGCUCAGCGUCUGUUGAAGUUAUUUAUGCUUCUCAGCGUAAAAUUCACACUGGAACCUGUUAUCUCCCUCACACGG",
+            "UCCAACCCCCAUGGUGCUCAGCGUCUGUUGAAGUUAUUCAUGCUUCUCAGCGUAAAAUUCACACUGGAACCUGUUAUCUCCCUCACACGG"
+          ],
+          "scores": [
+            0.0015162238934932906,
+            0.00109652136922465,
+            0.014507016798586025
+          ],
+          "isolated_hairpin_energies": [
+            4.0,
+            4.199999809265137,
+            2.5999999046325684
+          ],
+          "filtration": {
+            "positive_bar_count": 1,
+            "longest_lifetime": 0.00041970252426864053,
+            "integrated_excess": 0.00020985126213432027,
+            "maximum_excess": 0.5,
+            "baseline_components": 1,
+            "threshold_at_maximum": 0.0015162238934932906,
+            "bars": [
+              {
+                "birth": 0.0015162238934932906,
+                "death": 0.00109652136922465,
+                "lifetime": 0.00041970252426864053,
+                "peak_vertex": 0,
+                "merge_edge": [
+                  1,
+                  2
+                ],
+                "baseline_component": 0
+              }
+            ],
+            "curve": [
+              {
+                "threshold": 0.014507016798586025,
+                "excess": 0.0,
+                "retained": 1,
+                "filtered_components": 1
+              },
+              {
+                "threshold": 0.0015162238934932906,
+                "excess": 0.5,
+                "retained": 2,
+                "filtered_components": 2
+              },
+              {
+                "threshold": 0.00109652136922465,
+                "excess": 0.0,
+                "retained": 3,
+                "filtered_components": 1
+              }
+            ]
+          }
+        },
+        "targeted": {
+          "sequences": [
+            "UCCAACCCCCAUGGUGCUCAGCGUCUGUUGAAACUAUUUAUGCUUCUCAGCGUAAAAUUCACACUGGAACCUGUUAUCUCCCUCACACGG",
+            "UCCAACCCCCAUGGUGCUCAGCGUCUGUUGAAGCUAUUUAUGCUUCUCAGCGUAAAAUUCACACUGGAACCUGUUAUCUCCCUCACACGG",
+            "UCCAACCCCCAUGGUGCUCAGCGUCUGUUGAAGCUAUUCAUGCUUCUCAGCGUAAAAUUCACACUGGAACCUGUUAUCUCCCUCACACGG"
+          ],
+          "scores": [
+            0.0002996730849175233,
+            0.0002996730849175233,
+            0.002464585780939057
+          ],
+          "isolated_hairpin_energies": [
+            5.0,
+            5.0,
+            3.700000047683716
+          ],
+          "filtration": {
+            "positive_bar_count": 0,
+            "longest_lifetime": 0.0,
+            "integrated_excess": 0.0,
+            "maximum_excess": 0.0,
+            "baseline_components": 1,
+            "threshold_at_maximum": 0.002464585780939057,
+            "bars": [],
+            "curve": [
+              {
+                "threshold": 0.002464585780939057,
+                "excess": 0.0,
+                "retained": 1,
+                "filtered_components": 1
+              },
+              {
+                "threshold": 0.0002996730849175233,
+                "excess": 0.0,
+                "retained": 3,
+                "filtered_components": 1
+              }
+            ]
+          }
+        },
+        "control": {
+          "sequences": [
+            "UCCAACCCCCAUGGCGCUCAGCGUCUGUUGAAAUUAUUUAUGCUUCUCAGCGUAAAAUUCACACUGGAACCUGUUAUCUCCCUCACACGG",
+            "UCCAACCCCCAUGGCGCUCAGCGUCUGUUGAAGUUAUUUAUGCUUCUCAGCGUAAAAUUCACACUGGAACCUGUUAUCUCCCUCACACGG",
+            "UCCAACCCCCAUGGCGCUCAGCGUCUGUUGAAGUUAUUCAUGCUUCUCAGCGUAAAAUUCACACUGGAACCUGUUAUCUCCCUCACACGG"
+          ],
+          "scores": [
+            0.0015162238934932906,
+            0.00109652136922465,
+            0.014507016798586025
+          ],
+          "isolated_hairpin_energies": [
+            4.0,
+            4.199999809265137,
+            2.5999999046325684
+          ],
+          "filtration": {
+            "positive_bar_count": 1,
+            "longest_lifetime": 0.00041970252426864053,
+            "integrated_excess": 0.00020985126213432027,
+            "maximum_excess": 0.5,
+            "baseline_components": 1,
+            "threshold_at_maximum": 0.0015162238934932906,
+            "bars": [
+              {
+                "birth": 0.0015162238934932906,
+                "death": 0.00109652136922465,
+                "lifetime": 0.00041970252426864053,
+                "peak_vertex": 0,
+                "merge_edge": [
+                  1,
+                  2
+                ],
+                "baseline_component": 0
+              }
+            ],
+            "curve": [
+              {
+                "threshold": 0.014507016798586025,
+                "excess": 0.0,
+                "retained": 1,
+                "filtered_components": 1
+              },
+              {
+                "threshold": 0.0015162238934932906,
+                "excess": 0.5,
+                "retained": 2,
+                "filtered_components": 2
+              },
+              {
+                "threshold": 0.00109652136922465,
+                "excess": 0.0,
+                "retained": 3,
+                "filtered_components": 1
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "scaffold": "S21",
+      "baseline": "GAGAAGCACGCCGGCCGGGGUGUAUUUUCCAAGCUAUUUCGGGUGACACACUUCGUCCAAUCUGCGGUACCUCAAGAGUUGGCCGUACGG",
+      "targeted": "GAGAAGCACGCCGGCCGGGGUGUAUUUUCCAAGUUAUUUCGGGUGACACACUUCGUCCAAUCUGCGGUACCUCAAGAGUUGGCCGUACGG",
+      "control": "GAGAAGCACGCCGGUCGGGGUGUAUUUUCCAAGCUAUUUCGGGUGACACACUUCGUCCAAUCUGCGGUACCUCAAGAGUUGGCCGUACGG",
+      "peptide": "EKHAGRGVFSKLFRVTHFVQSAVPQELAVR",
+      "direction": "C_to_U",
+      "targeted_position0": 33,
+      "control_position0": 14,
+      "pair0": [
+        32,
+        38
+      ],
+      "maximum_prior90nt_identity": 0.4444444444444444,
+      "predictions": {
+        "baseline": {
+          "sequences": [
+            "GAGAAGCACGCCGGCCGGGGUGUAUUUUCCAAACUAUUUCGGGUGACACACUUCGUCCAAUCUGCGGUACCUCAAGAGUUGGCCGUACGG",
+            "GAGAAGCACGCCGGCCGGGGUGUAUUUUCCAAGCUAUUUCGGGUGACACACUUCGUCCAAUCUGCGGUACCUCAAGAGUUGGCCGUACGG",
+            "GAGAAGCACGCCGGCCGGGGUGUAUUUUCCAAGCUAUUCCGGGUGACACACUUCGUCCAAUCUGCGGUACCUCAAGAGUUGGCCGUACGG"
+          ],
+          "scores": [
+            0.0001842062821398559,
+            0.0001842062821398559,
+            0.00109652136922465
+          ],
+          "isolated_hairpin_energies": [
+            5.300000190734863,
+            5.300000190734863,
+            4.199999809265137
+          ],
+          "filtration": {
+            "positive_bar_count": 0,
+            "longest_lifetime": 0.0,
+            "integrated_excess": 0.0,
+            "maximum_excess": 0.0,
+            "baseline_components": 1,
+            "threshold_at_maximum": 0.00109652136922465,
+            "bars": [],
+            "curve": [
+              {
+                "threshold": 0.00109652136922465,
+                "excess": 0.0,
+                "retained": 1,
+                "filtered_components": 1
+              },
+              {
+                "threshold": 0.0001842062821398559,
+                "excess": 0.0,
+                "retained": 3,
+                "filtered_components": 1
+              }
+            ]
+          }
+        },
+        "targeted": {
+          "sequences": [
+            "GAGAAGCACGCCGGCCGGGGUGUAUUUUCCAAAUUAUUUCGGGUGACACACUUCGUCCAAUCUGCGGUACCUCAAGAGUUGGCCGUACGG",
+            "GAGAAGCACGCCGGCCGGGGUGUAUUUUCCAAGUUAUUUCGGGUGACACACUUCGUCCAAUCUGCGGUACCUCAAGAGUUGGCCGUACGG",
+            "GAGAAGCACGCCGGCCGGGGUGUAUUUUCCAAGUUAUUCCGGGUGACACACUUCGUCCAAUCUGCGGUACCUCAAGAGUUGGCCGUACGG"
+          ],
+          "scores": [
+            0.0009324460603445761,
+            0.0006742286475945491,
+            0.006497872261952122
+          ],
+          "isolated_hairpin_energies": [
+            4.300000190734863,
+            4.5,
+            3.0999999046325684
+          ],
+          "filtration": {
+            "positive_bar_count": 1,
+            "longest_lifetime": 0.000258217412750027,
+            "integrated_excess": 0.0001291087063750135,
+            "maximum_excess": 0.5,
+            "baseline_components": 1,
+            "threshold_at_maximum": 0.0009324460603445761,
+            "bars": [
+              {
+                "birth": 0.0009324460603445761,
+                "death": 0.0006742286475945491,
+                "lifetime": 0.000258217412750027,
+                "peak_vertex": 0,
+                "merge_edge": [
+                  1,
+                  2
+                ],
+                "baseline_component": 0
+              }
+            ],
+            "curve": [
+              {
+                "threshold": 0.006497872261952122,
+                "excess": 0.0,
+                "retained": 1,
+                "filtered_components": 1
+              },
+              {
+                "threshold": 0.0009324460603445761,
+                "excess": 0.5,
+                "retained": 2,
+                "filtered_components": 2
+              },
+              {
+                "threshold": 0.0006742286475945491,
+                "excess": 0.0,
+                "retained": 3,
+                "filtered_components": 1
+              }
+            ]
+          }
+        },
+        "control": {
+          "sequences": [
+            "GAGAAGCACGCCGGUCGGGGUGUAUUUUCCAAACUAUUUCGGGUGACACACUUCGUCCAAUCUGCGGUACCUCAAGAGUUGGCCGUACGG",
+            "GAGAAGCACGCCGGUCGGGGUGUAUUUUCCAAGCUAUUUCGGGUGACACACUUCGUCCAAUCUGCGGUACCUCAAGAGUUGGCCGUACGG",
+            "GAGAAGCACGCCGGUCGGGGUGUAUUUUCCAAGCUAUUCCGGGUGACACACUUCGUCCAAUCUGCGGUACCUCAAGAGUUGGCCGUACGG"
+          ],
+          "scores": [
+            0.0001842062821398559,
+            0.0001842062821398559,
+            0.00109652136922465
+          ],
+          "isolated_hairpin_energies": [
+            5.300000190734863,
+            5.300000190734863,
+            4.199999809265137
+          ],
+          "filtration": {
+            "positive_bar_count": 0,
+            "longest_lifetime": 0.0,
+            "integrated_excess": 0.0,
+            "maximum_excess": 0.0,
+            "baseline_components": 1,
+            "threshold_at_maximum": 0.00109652136922465,
+            "bars": [],
+            "curve": [
+              {
+                "threshold": 0.00109652136922465,
+                "excess": 0.0,
+                "retained": 1,
+                "filtered_components": 1
+              },
+              {
+                "threshold": 0.0001842062821398559,
+                "excess": 0.0,
+                "retained": 3,
+                "filtered_components": 1
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "scaffold": "S22",
+      "baseline": "CUCUACCGCGACGGUCAACCCGGACGGCGCAAGUUAUUUCUAGAUACAUUUAUGCUGCCAAUUGCAAGAUGCUUCCAUGAAAUUCCUACC",
+      "targeted": "CUCUACCGCGACGGUCAACCCGGACGGCGCAAGCUAUUUCUAGAUACAUUUAUGCUGCCAAUUGCAAGAUGCUUCCAUGAAAUUCCUACC",
+      "control": "CUCUACCGCGACGGCCAACCCGGACGGCGCAAGUUAUUUCUAGAUACAUUUAUGCUGCCAAUUGCAAGAUGCUUCCAUGAAAUUCCUACC",
+      "peptide": "LYRDGQPGRRKLFLDTFMLPIARCFHEIPT",
+      "direction": "U_to_C",
+      "targeted_position0": 33,
+      "control_position0": 14,
+      "pair0": [
+        32,
+        38
+      ],
+      "maximum_prior90nt_identity": 0.45555555555555555,
+      "predictions": {
+        "baseline": {
+          "sequences": [
+            "CUCUACCGCGACGGUCAACCCGGACGGCGCAAAUUAUUUCUAGAUACAUUUAUGCUGCCAAUUGCAAGAUGCUUCCAUGAAAUUCCUACC",
+            "CUCUACCGCGACGGUCAACCCGGACGGCGCAAGUUAUUUCUAGAUACAUUUAUGCUGCCAAUUGCAAGAUGCUUCCAUGAAAUUCCUACC",
+            "CUCUACCGCGACGGUCAACCCGGACGGCGCAAGUUAUUCCUAGAUACAUUUAUGCUGCCAAUUGCAAGAUGCUUCCAUGAAAUUCCUACC"
+          ],
+          "scores": [
+            0.0009324460603445761,
+            0.0006742286475945491,
+            0.006497872261952122
+          ],
+          "isolated_hairpin_energies": [
+            4.300000190734863,
+            4.5,
+            3.0999999046325684
+          ],
+          "filtration": {
+            "positive_bar_count": 1,
+            "longest_lifetime": 0.000258217412750027,
+            "integrated_excess": 0.0001291087063750135,
+            "maximum_excess": 0.5,
+            "baseline_components": 1,
+            "threshold_at_maximum": 0.0009324460603445761,
+            "bars": [
+              {
+                "birth": 0.0009324460603445761,
+                "death": 0.0006742286475945491,
+                "lifetime": 0.000258217412750027,
+                "peak_vertex": 0,
+                "merge_edge": [
+                  1,
+                  2
+                ],
+                "baseline_component": 0
+              }
+            ],
+            "curve": [
+              {
+                "threshold": 0.006497872261952122,
+                "excess": 0.0,
+                "retained": 1,
+                "filtered_components": 1
+              },
+              {
+                "threshold": 0.0009324460603445761,
+                "excess": 0.5,
+                "retained": 2,
+                "filtered_components": 2
+              },
+              {
+                "threshold": 0.0006742286475945491,
+                "excess": 0.0,
+                "retained": 3,
+                "filtered_components": 1
+              }
+            ]
+          }
+        },
+        "targeted": {
+          "sequences": [
+            "CUCUACCGCGACGGUCAACCCGGACGGCGCAAACUAUUUCUAGAUACAUUUAUGCUGCCAAUUGCAAGAUGCUUCCAUGAAAUUCCUACC",
+            "CUCUACCGCGACGGUCAACCCGGACGGCGCAAGCUAUUUCUAGAUACAUUUAUGCUGCCAAUUGCAAGAUGCUUCCAUGAAAUUCCUACC",
+            "CUCUACCGCGACGGUCAACCCGGACGGCGCAAGCUAUUCCUAGAUACAUUUAUGCUGCCAAUUGCAAGAUGCUUCCAUGAAAUUCCUACC"
+          ],
+          "scores": [
+            0.0001842062821398559,
+            0.0001842062821398559,
+            0.00109652136922465
+          ],
+          "isolated_hairpin_energies": [
+            5.300000190734863,
+            5.300000190734863,
+            4.199999809265137
+          ],
+          "filtration": {
+            "positive_bar_count": 0,
+            "longest_lifetime": 0.0,
+            "integrated_excess": 0.0,
+            "maximum_excess": 0.0,
+            "baseline_components": 1,
+            "threshold_at_maximum": 0.00109652136922465,
+            "bars": [],
+            "curve": [
+              {
+                "threshold": 0.00109652136922465,
+                "excess": 0.0,
+                "retained": 1,
+                "filtered_components": 1
+              },
+              {
+                "threshold": 0.0001842062821398559,
+                "excess": 0.0,
+                "retained": 3,
+                "filtered_components": 1
+              }
+            ]
+          }
+        },
+        "control": {
+          "sequences": [
+            "CUCUACCGCGACGGCCAACCCGGACGGCGCAAAUUAUUUCUAGAUACAUUUAUGCUGCCAAUUGCAAGAUGCUUCCAUGAAAUUCCUACC",
+            "CUCUACCGCGACGGCCAACCCGGACGGCGCAAGUUAUUUCUAGAUACAUUUAUGCUGCCAAUUGCAAGAUGCUUCCAUGAAAUUCCUACC",
+            "CUCUACCGCGACGGCCAACCCGGACGGCGCAAGUUAUUCCUAGAUACAUUUAUGCUGCCAAUUGCAAGAUGCUUCCAUGAAAUUCCUACC"
+          ],
+          "scores": [
+            0.0009324460603445761,
+            0.0006742286475945491,
+            0.006497872261952122
+          ],
+          "isolated_hairpin_energies": [
+            4.300000190734863,
+            4.5,
+            3.0999999046325684
+          ],
+          "filtration": {
+            "positive_bar_count": 1,
+            "longest_lifetime": 0.000258217412750027,
+            "integrated_excess": 0.0001291087063750135,
+            "maximum_excess": 0.5,
+            "baseline_components": 1,
+            "threshold_at_maximum": 0.0009324460603445761,
+            "bars": [
+              {
+                "birth": 0.0009324460603445761,
+                "death": 0.0006742286475945491,
+                "lifetime": 0.000258217412750027,
+                "peak_vertex": 0,
+                "merge_edge": [
+                  1,
+                  2
+                ],
+                "baseline_component": 0
+              }
+            ],
+            "curve": [
+              {
+                "threshold": 0.006497872261952122,
+                "excess": 0.0,
+                "retained": 1,
+                "filtered_components": 1
+              },
+              {
+                "threshold": 0.0009324460603445761,
+                "excess": 0.5,
+                "retained": 2,
+                "filtered_components": 2
+              },
+              {
+                "threshold": 0.0006742286475945491,
+                "excess": 0.0,
+                "retained": 3,
+                "filtered_components": 1
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "scaffold": "S23",
+      "baseline": "AGACCGGUGAGAGGCUGGCCCGCUCCGAACAAGCUAUUUGUACAACCACUGAAAUACUGUAGAACGUGCAGAUUACGCCGAUGUAACCCU",
+      "targeted": "AGACCGGUGAGAGGCUGGCCCGCUCCGAACAAGUUAUUUGUACAACCACUGAAAUACUGUAGAACGUGCAGAUUACGCCGAUGUAACCCU",
+      "control": "AGACCGGUGAGAGGUUGGCCCGCUCCGAACAAGCUAUUUGUACAACCACUGAAAUACUGUAGAACGUGCAGAUUACGCCGAUGUAACCCU",
+      "peptide": "RPVRGWPAPNKLFVQPLKYCRTCRLRRCNP",
+      "direction": "C_to_U",
+      "targeted_position0": 33,
+      "control_position0": 14,
+      "pair0": [
+        32,
+        38
+      ],
+      "maximum_prior90nt_identity": 0.45555555555555555,
+      "predictions": {
+        "baseline": {
+          "sequences": [
+            "AGACCGGUGAGAGGCUGGCCCGCUCCGAACAAACUAUUUGUACAACCACUGAAAUACUGUAGAACGUGCAGAUUACGCCGAUGUAACCCU",
+            "AGACCGGUGAGAGGCUGGCCCGCUCCGAACAAGCUAUUUGUACAACCACUGAAAUACUGUAGAACGUGCAGAUUACGCCGAUGUAACCCU",
+            "AGACCGGUGAGAGGCUGGCCCGCUCCGAACAAGCUAUUCGUACAACCACUGAAAUACUGUAGAACGUGCAGAUUACGCCGAUGUAACCCU"
+          ],
+          "scores": [
+            0.0003524432424516764,
+            0.00013316738058949038,
+            0.002096234683283119
+          ],
+          "isolated_hairpin_energies": [
+            4.900000095367432,
+            5.5,
+            3.799999952316284
+          ],
+          "filtration": {
+            "positive_bar_count": 1,
+            "longest_lifetime": 0.000219275861862186,
+            "integrated_excess": 0.000109637930931093,
+            "maximum_excess": 0.5,
+            "baseline_components": 1,
+            "threshold_at_maximum": 0.0003524432424516764,
+            "bars": [
+              {
+                "birth": 0.0003524432424516764,
+                "death": 0.00013316738058949038,
+                "lifetime": 0.000219275861862186,
+                "peak_vertex": 0,
+                "merge_edge": [
+                  1,
+                  2
+                ],
+                "baseline_component": 0
+              }
+            ],
+            "curve": [
+              {
+                "threshold": 0.002096234683283119,
+                "excess": 0.0,
+                "retained": 1,
+                "filtered_components": 1
+              },
+              {
+                "threshold": 0.0003524432424516764,
+                "excess": 0.5,
+                "retained": 2,
+                "filtered_components": 2
+              },
+              {
+                "threshold": 0.00013316738058949038,
+                "excess": 0.0,
+                "retained": 3,
+                "filtered_components": 1
+              }
+            ]
+          }
+        },
+        "targeted": {
+          "sequences": [
+            "AGACCGGUGAGAGGCUGGCCCGCUCCGAACAAAUUAUUUGUACAACCACUGAAAUACUGUAGAACGUGCAGAUUACGCCGAUGUAACCCU",
+            "AGACCGGUGAGAGGCUGGCCCGCUCCGAACAAGUUAUUUGUACAACCACUGAAAUACUGUAGAACGUGCAGAUUACGCCGAUGUAACCCU",
+            "AGACCGGUGAGAGGCUGGCCCGCUCCGAACAAGUUAUUCGUACAACCACUGAAAUACUGUAGAACGUGCAGAUUACGCCGAUGUAACCCU"
+          ],
+          "scores": [
+            0.0017828373786126209,
+            0.0004874831421282589,
+            0.012361130980326401
+          ],
+          "isolated_hairpin_energies": [
+            3.9000000953674316,
+            4.699999809265137,
+            2.700000047683716
+          ],
+          "filtration": {
+            "positive_bar_count": 1,
+            "longest_lifetime": 0.001295354236484362,
+            "integrated_excess": 0.000647677118242181,
+            "maximum_excess": 0.5,
+            "baseline_components": 1,
+            "threshold_at_maximum": 0.0017828373786126209,
+            "bars": [
+              {
+                "birth": 0.0017828373786126209,
+                "death": 0.0004874831421282589,
+                "lifetime": 0.001295354236484362,
+                "peak_vertex": 0,
+                "merge_edge": [
+                  1,
+                  2
+                ],
+                "baseline_component": 0
+              }
+            ],
+            "curve": [
+              {
+                "threshold": 0.012361130980326401,
+                "excess": 0.0,
+                "retained": 1,
+                "filtered_components": 1
+              },
+              {
+                "threshold": 0.0017828373786126209,
+                "excess": 0.5,
+                "retained": 2,
+                "filtered_components": 2
+              },
+              {
+                "threshold": 0.0004874831421282589,
+                "excess": 0.0,
+                "retained": 3,
+                "filtered_components": 1
+              }
+            ]
+          }
+        },
+        "control": {
+          "sequences": [
+            "AGACCGGUGAGAGGUUGGCCCGCUCCGAACAAACUAUUUGUACAACCACUGAAAUACUGUAGAACGUGCAGAUUACGCCGAUGUAACCCU",
+            "AGACCGGUGAGAGGUUGGCCCGCUCCGAACAAGCUAUUUGUACAACCACUGAAAUACUGUAGAACGUGCAGAUUACGCCGAUGUAACCCU",
+            "AGACCGGUGAGAGGUUGGCCCGCUCCGAACAAGCUAUUCGUACAACCACUGAAAUACUGUAGAACGUGCAGAUUACGCCGAUGUAACCCU"
+          ],
+          "scores": [
+            0.0003524432424516764,
+            0.00013316738058949038,
+            0.002096234683283119
+          ],
+          "isolated_hairpin_energies": [
+            4.900000095367432,
+            5.5,
+            3.799999952316284
+          ],
+          "filtration": {
+            "positive_bar_count": 1,
+            "longest_lifetime": 0.000219275861862186,
+            "integrated_excess": 0.000109637930931093,
+            "maximum_excess": 0.5,
+            "baseline_components": 1,
+            "threshold_at_maximum": 0.0003524432424516764,
+            "bars": [
+              {
+                "birth": 0.0003524432424516764,
+                "death": 0.00013316738058949038,
+                "lifetime": 0.000219275861862186,
+                "peak_vertex": 0,
+                "merge_edge": [
+                  1,
+                  2
+                ],
+                "baseline_component": 0
+              }
+            ],
+            "curve": [
+              {
+                "threshold": 0.002096234683283119,
+                "excess": 0.0,
+                "retained": 1,
+                "filtered_components": 1
+              },
+              {
+                "threshold": 0.0003524432424516764,
+                "excess": 0.5,
+                "retained": 2,
+                "filtered_components": 2
+              },
+              {
+                "threshold": 0.00013316738058949038,
+                "excess": 0.0,
+                "retained": 3,
+                "filtered_components": 1
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "scaffold": "S24",
+      "baseline": "CUGAGUCAAUUAGGUAGAACGGAGCCCAAUAAGUUAUUUAGGAUAUUUGCUGAGAAUCGAUCCGACACCAUUCGUGUCGUCCUCGCCCCC",
+      "targeted": "CUGAGUCAAUUAGGUAGAACGGAGCCCAAUAAGCUAUUUAGGAUAUUUGCUGAGAAUCGAUCCGACACCAUUCGUGUCGUCCUCGCCCCC",
+      "control": "CUGAGUCAAUUAGGCAGAACGGAGCCCAAUAAGUUAUUUAGGAUAUUUGCUGAGAAUCGAUCCGACACCAUUCGUGUCGUCCUCGCCCCC",
+      "peptide": "LSQLGRTEPNKLFRIFAENRSDTIRVVLAP",
+      "direction": "U_to_C",
+      "targeted_position0": 33,
+      "control_position0": 14,
+      "pair0": [
+        32,
+        38
+      ],
+      "maximum_prior90nt_identity": 0.4444444444444444,
+      "predictions": {
+        "baseline": {
+          "sequences": [
+            "CUGAGUCAAUUAGGUAGAACGGAGCCCAAUAAAUUAUUUAGGAUAUUUGCUGAGAAUCGAUCCGACACCAUUCGUGUCGUCCUCGCCCCC",
+            "CUGAGUCAAUUAGGUAGAACGGAGCCCAAUAAGUUAUUUAGGAUAUUUGCUGAGAAUCGAUCCGACACCAUUCGUGUCGUCCUCGCCCCC",
+            "CUGAGUCAAUUAGGUAGAACGGAGCCCAAUAAGUUAUUCAGGAUAUUUGCUGAGAAUCGAUCCGACACCAUUCGUGUCGUCCUCGCCCCC"
+          ],
+          "scores": [
+            0.0015162238934932906,
+            0.00109652136922465,
+            0.014507016798586025
+          ],
+          "isolated_hairpin_energies": [
+            4.0,
+            4.199999809265137,
+            2.5999999046325684
+          ],
+          "filtration": {
+            "positive_bar_count": 1,
+            "longest_lifetime": 0.00041970252426864053,
+            "integrated_excess": 0.00020985126213432027,
+            "maximum_excess": 0.5,
+            "baseline_components": 1,
+            "threshold_at_maximum": 0.0015162238934932906,
+            "bars": [
+              {
+                "birth": 0.0015162238934932906,
+                "death": 0.00109652136922465,
+                "lifetime": 0.00041970252426864053,
+                "peak_vertex": 0,
+                "merge_edge": [
+                  1,
+                  2
+                ],
+                "baseline_component": 0
+              }
+            ],
+            "curve": [
+              {
+                "threshold": 0.014507016798586025,
+                "excess": 0.0,
+                "retained": 1,
+                "filtered_components": 1
+              },
+              {
+                "threshold": 0.0015162238934932906,
+                "excess": 0.5,
+                "retained": 2,
+                "filtered_components": 2
+              },
+              {
+                "threshold": 0.00109652136922465,
+                "excess": 0.0,
+                "retained": 3,
+                "filtered_components": 1
+              }
+            ]
+          }
+        },
+        "targeted": {
+          "sequences": [
+            "CUGAGUCAAUUAGGUAGAACGGAGCCCAAUAAACUAUUUAGGAUAUUUGCUGAGAAUCGAUCCGACACCAUUCGUGUCGUCCUCGCCCCC",
+            "CUGAGUCAAUUAGGUAGAACGGAGCCCAAUAAGCUAUUUAGGAUAUUUGCUGAGAAUCGAUCCGACACCAUUCGUGUCGUCCUCGCCCCC",
+            "CUGAGUCAAUUAGGUAGAACGGAGCCCAAUAAGCUAUUCAGGAUAUUUGCUGAGAAUCGAUCCGACACCAUUCGUGUCGUCCUCGCCCCC"
+          ],
+          "scores": [
+            0.0002996730849175233,
+            0.0002996730849175233,
+            0.002464585780939057
+          ],
+          "isolated_hairpin_energies": [
+            5.0,
+            5.0,
+            3.700000047683716
+          ],
+          "filtration": {
+            "positive_bar_count": 0,
+            "longest_lifetime": 0.0,
+            "integrated_excess": 0.0,
+            "maximum_excess": 0.0,
+            "baseline_components": 1,
+            "threshold_at_maximum": 0.002464585780939057,
+            "bars": [],
+            "curve": [
+              {
+                "threshold": 0.002464585780939057,
+                "excess": 0.0,
+                "retained": 1,
+                "filtered_components": 1
+              },
+              {
+                "threshold": 0.0002996730849175233,
+                "excess": 0.0,
+                "retained": 3,
+                "filtered_components": 1
+              }
+            ]
+          }
+        },
+        "control": {
+          "sequences": [
+            "CUGAGUCAAUUAGGCAGAACGGAGCCCAAUAAAUUAUUUAGGAUAUUUGCUGAGAAUCGAUCCGACACCAUUCGUGUCGUCCUCGCCCCC",
+            "CUGAGUCAAUUAGGCAGAACGGAGCCCAAUAAGUUAUUUAGGAUAUUUGCUGAGAAUCGAUCCGACACCAUUCGUGUCGUCCUCGCCCCC",
+            "CUGAGUCAAUUAGGCAGAACGGAGCCCAAUAAGUUAUUCAGGAUAUUUGCUGAGAAUCGAUCCGACACCAUUCGUGUCGUCCUCGCCCCC"
+          ],
+          "scores": [
+            0.0015162238934932906,
+            0.00109652136922465,
+            0.014507016798586025
+          ],
+          "isolated_hairpin_energies": [
+            4.0,
+            4.199999809265137,
+            2.5999999046325684
+          ],
+          "filtration": {
+            "positive_bar_count": 1,
+            "longest_lifetime": 0.00041970252426864053,
+            "integrated_excess": 0.00020985126213432027,
+            "maximum_excess": 0.5,
+            "baseline_components": 1,
+            "threshold_at_maximum": 0.0015162238934932906,
+            "bars": [
+              {
+                "birth": 0.0015162238934932906,
+                "death": 0.00109652136922465,
+                "lifetime": 0.00041970252426864053,
+                "peak_vertex": 0,
+                "merge_edge": [
+                  1,
+                  2
+                ],
+                "baseline_component": 0
+              }
+            ],
+            "curve": [
+              {
+                "threshold": 0.014507016798586025,
+                "excess": 0.0,
+                "retained": 1,
+                "filtered_components": 1
+              },
+              {
+                "threshold": 0.0015162238934932906,
+                "excess": 0.5,
+                "retained": 2,
+                "filtered_components": 2
+              },
+              {
+                "threshold": 0.00109652136922465,
+                "excess": 0.0,
+                "retained": 3,
+                "filtered_components": 1
+              }
+            ]
+          }
+        }
+      }
+    }
+  ],
+  "selection_audit": [
+    {
+      "scaffold": 1,
+      "attempt": 0,
+      "maximum_prior90nt_identity": 0.43333333333333335,
+      "accepted": true
+    },
+    {
+      "scaffold": 2,
+      "attempt": 0,
+      "maximum_prior90nt_identity": 0.4666666666666667,
+      "accepted": true
+    },
+    {
+      "scaffold": 3,
+      "attempt": 0,
+      "maximum_prior90nt_identity": 0.45555555555555555,
+      "accepted": true
+    },
+    {
+      "scaffold": 4,
+      "attempt": 0,
+      "maximum_prior90nt_identity": 0.4666666666666667,
+      "accepted": true
+    },
+    {
+      "scaffold": 5,
+      "attempt": 0,
+      "maximum_prior90nt_identity": 0.4666666666666667,
+      "accepted": true
+    },
+    {
+      "scaffold": 6,
+      "attempt": 0,
+      "maximum_prior90nt_identity": 0.43333333333333335,
+      "accepted": true
+    },
+    {
+      "scaffold": 7,
+      "attempt": 0,
+      "maximum_prior90nt_identity": 0.4666666666666667,
+      "accepted": true
+    },
+    {
+      "scaffold": 8,
+      "attempt": 0,
+      "maximum_prior90nt_identity": 0.43333333333333335,
+      "accepted": true
+    },
+    {
+      "scaffold": 9,
+      "attempt": 0,
+      "maximum_prior90nt_identity": 0.5,
+      "accepted": true
+    },
+    {
+      "scaffold": 10,
+      "attempt": 0,
+      "maximum_prior90nt_identity": 0.4444444444444444,
+      "accepted": true
+    },
+    {
+      "scaffold": 11,
+      "attempt": 0,
+      "maximum_prior90nt_identity": 0.45555555555555555,
+      "accepted": true
+    },
+    {
+      "scaffold": 12,
+      "attempt": 0,
+      "maximum_prior90nt_identity": 0.4444444444444444,
+      "accepted": true
+    },
+    {
+      "scaffold": 13,
+      "attempt": 0,
+      "maximum_prior90nt_identity": 0.43333333333333335,
+      "accepted": true
+    },
+    {
+      "scaffold": 14,
+      "attempt": 0,
+      "maximum_prior90nt_identity": 0.4222222222222222,
+      "accepted": true
+    },
+    {
+      "scaffold": 15,
+      "attempt": 0,
+      "maximum_prior90nt_identity": 0.45555555555555555,
+      "accepted": true
+    },
+    {
+      "scaffold": 16,
+      "attempt": 0,
+      "maximum_prior90nt_identity": 0.45555555555555555,
+      "accepted": true
+    },
+    {
+      "scaffold": 17,
+      "attempt": 0,
+      "maximum_prior90nt_identity": 0.4444444444444444,
+      "accepted": true
+    },
+    {
+      "scaffold": 18,
+      "attempt": 0,
+      "maximum_prior90nt_identity": 0.4444444444444444,
+      "accepted": true
+    },
+    {
+      "scaffold": 19,
+      "attempt": 0,
+      "maximum_prior90nt_identity": 0.4666666666666667,
+      "accepted": true
+    },
+    {
+      "scaffold": 20,
+      "attempt": 0,
+      "maximum_prior90nt_identity": 0.4444444444444444,
+      "accepted": true
+    },
+    {
+      "scaffold": 21,
+      "attempt": 0,
+      "maximum_prior90nt_identity": 0.4444444444444444,
+      "accepted": true
+    },
+    {
+      "scaffold": 22,
+      "attempt": 0,
+      "maximum_prior90nt_identity": 0.45555555555555555,
+      "accepted": true
+    },
+    {
+      "scaffold": 23,
+      "attempt": 0,
+      "maximum_prior90nt_identity": 0.45555555555555555,
+      "accepted": true
+    },
+    {
+      "scaffold": 24,
+      "attempt": 0,
+      "maximum_prior90nt_identity": 0.4444444444444444,
+      "accepted": true
+    }
+  ]
+}
