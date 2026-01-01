@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "genetic_code": "NCBI standard code table 1",
+  "alphabet": "RNA",
+  "allowed_pairs": ["AU", "UA", "GC", "CG", "GU", "UG"],
+  "moves": "one synonymous nucleotide substitution; no indels",
+  "primary_questions": [
+    "Do pairing orientations and serine codon families completely classify components under one matching?",
+    "Do direct mutation precedence constraints yield chains of at most three mutations and an exact shortest-path count?",
+    "How do coding phase and helix-register shifts determine intersection and interlayer distance?",
+    "What additional fragmentation remains after folding-model filtering when both metrics use identical endpoints?",
+    "How do native condition comparisons change after pair count, codon composition, and structural uncertainty controls?"
+  ],
+  "native_source": {"study_doi": "10.1016/j.cell.2018.02.034", "processed_mirror": "BackofenLab/ShaKer", "commit": "6f29547d70a2b72ceccf28218c790c45406946e8", "reference": "U00096.2, to be verified against study sequences"},
+  "local_spaces": {"variable_codons": 6, "max_synonymous_combinations": 50000, "complete_cartesian_domain": true, "context_nt": [150, 210, 300], "selection": "coverage, correct phase, source integrity and computational size before accessibility outcomes"},
+  "folding": {"engine": "ViennaRNA", "temperature_celsius": 37, "parameters": "Turner 2004", "pseudoknots": false, "mutant_shape_restraints": false, "criteria": "must be fixed before mutant evaluation"},
+  "inference": {"unit": "transcript, preserving within-transcript dependence", "seed": 1729, "bootstrap_replicates": 10000, "same_endpoint_baseline": true},
+  "stop_rules": ["No novelty claim from absent search hits", "No biological inference from coordinate-ambiguous or lossy pair tables", "No measured mutant structures inferred from wild-type SHAPE", "No significance-driven window selection", "No phase transition from a finite-length threshold"],
+  "status": "Initial specification; implementation-level eligibility and filter definitions must be frozen before the corresponding outcomes are evaluated"
+}
