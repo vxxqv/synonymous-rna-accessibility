@@ -1,0 +1,5 @@
+{
+  "scope": "Explicitly invented trace fixture, not an actual phase freeze",
+  "verifier_python_sha256": "04540a406360b55bbec3d1b80486020f98904520015a353f436a919f1911eff4",
+  "verifier_r_sha256": "f3cefa6185e274030f69849f8c629cfb0897c839d91c3a2777ea14a5f17a52c2"
+}

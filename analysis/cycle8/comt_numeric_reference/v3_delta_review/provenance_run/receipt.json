@@ -1,0 +1,32 @@
+{
+  "status": "PASS_INDEPENDENT_SYNTHETIC_SUCCESSOR_PROVENANCE_GUARDS",
+  "checks": [
+    "valid_legacy_extract_RF_successor_seals_reach_only_invented_sentinels",
+    "refuse_repeated_extract",
+    "refuse_repeated_rf",
+    "refuse_legacy_authorization_status",
+    "refuse_extract_protocol_semantic_mismatch",
+    "refuse_extract_amendment_semantic_mismatch",
+    "refuse_extract_integration_addendum_semantic_mismatch",
+    "refuse_extract_contract_semantic_mismatch",
+    "refuse_extract_code_manifest_semantic_mismatch",
+    "refuse_rf_protocol_semantic_mismatch",
+    "refuse_rf_amendment_semantic_mismatch",
+    "refuse_rf_integration_addendum_semantic_mismatch",
+    "refuse_rf_contract_semantic_mismatch",
+    "refuse_rf_code_manifest_semantic_mismatch",
+    "refuse_cross_extraction_RF_link",
+    "refuse_missing_normalization_amendment",
+    "refuse_missing_predecessor_code_manifest",
+    "refuse_old_normalization_as_successor_stage",
+    "overwrite_guard_before_authorization_read",
+    "optimization_refused_-O",
+    "optimization_refused_-OO"
+  ],
+  "check_count": 21,
+  "candidate_files_unchanged": true,
+  "actual_source_fields_or_outcomes_decoded": false,
+  "scientific_calls_mocked_in_memory": true,
+  "driver_sha256": "8e927fcff9a35cb4dc65776a84e1713ebfb81ccde6dddd3870958172a5053c5f",
+  "test_sha256": "832f1d418e486046cfeb82b513b146693c7e6d500c69b6dee88f5c92dd02a02e"
+}

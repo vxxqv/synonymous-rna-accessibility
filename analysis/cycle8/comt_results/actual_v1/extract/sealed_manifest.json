@@ -1,0 +1,23 @@
+{
+  "schema": "COMT_A1_stage_seal_v1",
+  "phase": "extract",
+  "authorization_sha256": "861c774f3b5847e8c4fe64cac74ddaf09a40d72b97cadae5d6178b09375cdc0e",
+  "input_hashes": {
+    "protocol": "97aea7e56ddf9c74a2fcbf4a17ce2bbd9280c8417d2534997835878b2a368d61",
+    "amendment": "2f15418daf1e417193493eeb7c3370dae3451e8e69618427bfd13a73e28ff5e8",
+    "integration_addendum": "c480ca92ce36b6e95849fceaea3e6bf49d14bcd7842b1e5fe1efd543ff33f4d2",
+    "contract": "091ab6a57b7d64ab56638430e95befca5dbffd790eec9c62ea5d6a504d450ce5",
+    "code_manifest": "f63371f105738b2e360482291ad2ed7b90e623585d872564472bc4ea023097fb",
+    "archive": "e3fc127f268c10efbb1d1c736423c51bc5aa900e9e363d66cc8683490516cbe2",
+    "runtime_manifest": "a97c2057080245e691640ca955af6248aa93102b58341b76f37f473461231c95"
+  },
+  "files": {
+    "receipt.json": "1e24e486518aef2199383668e4cfc113bdb68527c4456e273ecaf31202490f53",
+    "rows_1.tsv": "e5bac4cc61921f857ff7b4cbbf771159d099a78f68c2a67ae004f55d83515d94",
+    "rows_2.tsv": "c422d868c1e8eea4a451e2ac481d47135ad0398661608a92a5ab3b91339c25ba",
+    "simulation_1.tsv": "d06b8bd31e246fc5bc5aac65b171b37d0c2d54b9dd35760766d4bf26c268d831",
+    "simulation_2.tsv": "4e2d99f97f4fe5072689e2611c7ddda71b6e7cfa58b240bff346eb4ea93f9124",
+    "truth_1.tsv": "2eea8cbcafe170e7a59dd849ed578079493baadd1686d88078fd03a3fb576431",
+    "truth_2.tsv": "60f6e2dd8040e9ecd31f471ba8710c2c70341bf4c21bb1578e824548cd09f09c"
+  }
+}

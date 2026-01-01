@@ -1,0 +1,36 @@
+{
+  "status": "FROZEN_BEFORE_ACTUAL_DP_FIELD_DECODE",
+  "UTC": "2026-10-25T20:01:13.599706+00:00",
+  "probe_sha256": "275b982ccb9b9cb2cd4db3293a74f1804107a540986bc03c868ee1f47a9031e7",
+  "self_test": "PASS_SYNTHETIC_DP_ONLY_7_CHECKS",
+  "optimized_flags_refused": [
+    "-O",
+    "-OO"
+  ],
+  "synthetic_construction_history": "Initial self-test failed because a nested Fraction in diagnostic JSON was not serialized. Added JSON default=str before any actual field decode.",
+  "permitted_actual_fields": [
+    "record_id",
+    "Sample",
+    "#CHROM",
+    "POS",
+    "REF",
+    "ALT",
+    "POS_NT",
+    "REF_NT",
+    "ALT_NT",
+    "DP"
+  ],
+  "forbidden_actual_fields_not_decoded": [
+    "CAO",
+    "CAF",
+    "WT",
+    "q",
+    "log_q",
+    "contrasts",
+    "predictions"
+  ],
+  "source_formula_files": {
+    "work/research_cycle8/comt_gate/analysis__integrative_MAVEs.Rmd": "ac267a0a5e1f07d3eadc30a2c3643a166349f0a67259ee31c649454229a869f0",
+    "work/research_cycle8/comt_pilot/summarization_utils.r": "f0a741b087e9e06e6d32cd947f2faf2dcedd59272d3e0a87921de118bad740bd"
+  }
+}

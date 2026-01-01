@@ -1,0 +1,21 @@
+{
+  "instruction": "Decompress stored gzip files to original names before running unchanged trace receipts. Original content hashes are unchanged.",
+  "files": [
+    {
+      "original_name": "trace_1.tsv",
+      "stored_name": "trace_1.tsv.gz",
+      "uncompressed_sha256": "b4c658341332e12a8f30d968203a2154b82bba1459b7e937c4f4b10ef3cdddd1",
+      "gzip_sha256": "1e1fa2182f924db24e1231fd78bac7edcdec07a43f110175a3bdec34719c323a",
+      "original_bytes": 23540075,
+      "stored_bytes": 1517853
+    },
+    {
+      "original_name": "trace_2.tsv",
+      "stored_name": "trace_2.tsv.gz",
+      "uncompressed_sha256": "06de79681db83740969ec37ed01eafd429a69078737456ce1ab0ec234d8cbe81",
+      "gzip_sha256": "c5c8e612d6802be436e336f9f1ed0e5f9ec1eb3035e1d1bc741050884d72f274",
+      "original_bytes": 15519581,
+      "stored_bytes": 985535
+    }
+  ]
+}

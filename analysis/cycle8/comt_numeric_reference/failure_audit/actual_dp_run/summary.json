@@ -1,0 +1,31 @@
+{
+  "counts": {
+    "selected_extracted_rows": 327584,
+    "retained_per_base_rows": 252872,
+    "collapsed_retained_alleles": 111448,
+    "collapsed_alleles_with_per_base_DP_variation": 0
+  },
+  "retained_sample_start_groups": 5535,
+  "conflicting_groups": 1091,
+  "conflicting_samples": 61,
+  "conflicting_starts": 155,
+  "target_containing_conflicting_groups_all_traits": 364,
+  "target_containing_conflicting_groups_nonNC": 364,
+  "direct_target_impacts_all_traits": {
+    "target_sample_records": 740,
+    "target_IDs": 116,
+    "SNV_target_IDs": 105,
+    "nonSNV_target_IDs": 11
+  },
+  "direct_target_impacts_nonNC": {
+    "target_sample_records": 740,
+    "target_IDs": 116,
+    "SNV_target_IDs": 105,
+    "nonSNV_target_IDs": 11
+  },
+  "conflicts_with_single_common_raw_SNV_depth": 1091,
+  "conflicts_with_every_MNP_depth_strictly_below_raw_SNV_depth": 769,
+  "conflicts_with_source_lexical_first_allele_raw_SNV": 1091,
+  "normalization_failed_unique_depth_assumption": true,
+  "actual_CAO_CAF_WT_q_log_contrasts_or_predictions_decoded": false
+}

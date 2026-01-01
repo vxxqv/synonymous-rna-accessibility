@@ -1,0 +1,11 @@
+{
+  "scope": "Secondary DP-only relation check of the frozen independent diagnostic CSV; no additional source fields read",
+  "counts": {
+    "groups": 1091,
+    "all_MNP_at_or_below_common_SNV": 1091,
+    "at_least_one_MNP_strictly_below_common_SNV": 1091,
+    "some_MNP_equal_common_SNV": 322,
+    "any_MNP_above_common_SNV": 0
+  },
+  "input_sha256": "8c4e7339110daa218eae376f25d6c5380422f2a419e5759844cd7a96f802576a"
+}

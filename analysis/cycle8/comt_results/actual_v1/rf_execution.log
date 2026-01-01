@@ -1,0 +1,25 @@
+{
+  "schema": "COMT_A1_stage_seal_v1",
+  "phase": "rf",
+  "authorization_sha256": "c48a25a56a345fb1e7453ff2878050d7f3b89b81adf8990536ebe9f1637baa63",
+  "input_hashes": {
+    "protocol": "97aea7e56ddf9c74a2fcbf4a17ce2bbd9280c8417d2534997835878b2a368d61",
+    "amendment": "2f15418daf1e417193493eeb7c3370dae3451e8e69618427bfd13a73e28ff5e8",
+    "integration_addendum": "c480ca92ce36b6e95849fceaea3e6bf49d14bcd7842b1e5fe1efd543ff33f4d2",
+    "contract": "091ab6a57b7d64ab56638430e95befca5dbffd790eec9c62ea5d6a504d450ce5",
+    "code_manifest": "f63371f105738b2e360482291ad2ed7b90e623585d872564472bc4ea023097fb",
+    "extract_manifest": "4e365b305c356a25762c540092083c1a6e87bbc89041c97eb90a2e8f0436d7f0",
+    "runtime_manifest": "a97c2057080245e691640ca955af6248aa93102b58341b76f37f473461231c95"
+  },
+  "files": {
+    "execution_log.txt": "3806a6d95e250be1182802bd53cc573f3fae6899a76847e5944ea041f998e420",
+    "model_1.rds": "8bfa6d04243b6fb5daad0bc047f03b0e3e26103886c8060d682bc44d22d1d0b2",
+    "model_2.rds": "08c7d5f1c0d1f8caf29f855c10e68faa8618d225a40e20ccadf78e1e57437f9b",
+    "predictions_1.tsv": "722008a3d334224dbec425e5ba8a056fb359134fa6b75e50dc59243e7d3c6783",
+    "predictions_2.tsv": "67a4ffc355ef6648e8ce9342a622900506df5c002185235768fa5eefa94ea424",
+    "rejections.tsv": "5885dffdf04b5692748f4730064b7defb61bf688c91c8b6bab8a7ab330ab65bd",
+    "row_status_1.tsv": "43589e5f30afe88e3893f8a51ef45f75c64dc4fbf1932e162d3b61b3d9f73dcd",
+    "row_status_2.tsv": "07101bd7880ef4d1c42f878ed82e67ca022d390a9b7c41282b524e0f0f0cbf87",
+    "status.txt": "4b02c653e7cbe81fa9adcacd9c6067b4570b4173a98282423569c35e0708a3e6"
+  }
+}

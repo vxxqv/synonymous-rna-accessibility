@@ -1,0 +1,37 @@
+{
+  "status": "COMPLETED_AUTHORIZED_DP_ONLY_FAILURE_AUDIT",
+  "code_sha256": "275b982ccb9b9cb2cd4db3293a74f1804107a540986bc03c868ee1f47a9031e7",
+  "selected_fields": [
+    "record_id",
+    "Sample",
+    "#CHROM",
+    "POS",
+    "REF",
+    "ALT",
+    "POS_NT",
+    "REF_NT",
+    "ALT_NT",
+    "DP"
+  ],
+  "RF_fields": [
+    "record_id",
+    "VAR_ID",
+    "frequency_pass",
+    "globally_rejected"
+  ],
+  "input_hashes": {
+    "work\\research_cycle8\\comt_results\\actual_v1\\extract\\rows_1.tsv": "e5bac4cc61921f857ff7b4cbbf771159d099a78f68c2a67ae004f55d83515d94",
+    "work\\research_cycle8\\comt_results\\actual_v1\\rf\\row_status_1.tsv": "43589e5f30afe88e3893f8a51ef45f75c64dc4fbf1932e162d3b61b3d9f73dcd",
+    "work\\research_cycle8\\comt_results\\actual_v1\\extract\\rows_2.tsv": "c422d868c1e8eea4a451e2ac481d47135ad0398661608a92a5ab3b91339c25ba",
+    "work\\research_cycle8\\comt_results\\actual_v1\\rf\\row_status_2.tsv": "07101bd7880ef4d1c42f878ed82e67ca022d390a9b7c41282b524e0f0f0cbf87"
+  },
+  "extract_seal": "4e365b305c356a25762c540092083c1a6e87bbc89041c97eb90a2e8f0436d7f0",
+  "RF_seal": "091b66e102669f466121244e65a85c5434eafd514e903285074515a51bdd7564",
+  "contract_sha256": "091ab6a57b7d64ab56638430e95befca5dbffd790eec9c62ea5d6a504d450ce5",
+  "output_hashes": {
+    "conflicting_groups.csv": "8c4e7339110daa218eae376f25d6c5380422f2a419e5759844cd7a96f802576a",
+    "direct_target_impacts.csv": "8a84f4219d6aa289b025e0c6dbc5a1e5459b7dc2caa6fface2b58a046b1b41e7",
+    "summary.json": "f494a259b4d49824c110b841030ba0dbf41a466558de2d1973822974f5416a76"
+  },
+  "no_CAO_CAF_normalization_or_downstream_values_decoded": true
+}

@@ -1,0 +1,9 @@
+{
+  "phase": "rf",
+  "returncode": 0,
+  "authorization_sha256": "c48a25a56a345fb1e7453ff2878050d7f3b89b81adf8990536ebe9f1637baa63",
+  "log_sha256": "091b66e102669f466121244e65a85c5434eafd514e903285074515a51bdd7564",
+  "sealed_manifest_exists": true,
+  "freeze_revision": "13b900f704b76b1b3d3059a3bbec8ac1f510b715",
+  "sealed_manifest_sha256": "091b66e102669f466121244e65a85c5434eafd514e903285074515a51bdd7564"
+}

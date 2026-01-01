@@ -1,0 +1,50 @@
+{
+  "schema": "COMT_RF_trace_authorization_v1",
+  "status": "approved_fixed_trace_only",
+  "mode": "actual",
+  "actual_RF_result_access_authorized": true,
+  "pilot_root": "C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\work\\research_cycle8\\comt_pilot",
+  "verifier_python_sha256": "04540a406360b55bbec3d1b80486020f98904520015a353f436a919f1911eff4",
+  "inputs": {
+    "protocol": {
+      "path": "C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\work\\research_cycle8\\comt_pilot\\protocol_v2.md",
+      "sha256": "97aea7e56ddf9c74a2fcbf4a17ce2bbd9280c8417d2534997835878b2a368d61"
+    },
+    "amendment": {
+      "path": "C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\work\\research_cycle8\\comt_pilot\\prospective_reconstruction_amendment.md",
+      "sha256": "2f15418daf1e417193493eeb7c3370dae3451e8e69618427bfd13a73e28ff5e8"
+    },
+    "integration_addendum": {
+      "path": "C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\work\\research_cycle8\\comt_pilot\\implementation_v2\\integration_addendum.md",
+      "sha256": "c480ca92ce36b6e95849fceaea3e6bf49d14bcd7842b1e5fe1efd543ff33f4d2"
+    },
+    "contract": {
+      "path": "C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\work\\research_cycle8\\comt_pilot\\implementation_v2\\selective_contract.json",
+      "sha256": "091ab6a57b7d64ab56638430e95befca5dbffd790eec9c62ea5d6a504d450ce5"
+    },
+    "code_manifest": {
+      "path": "C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\work\\research_cycle8\\comt_pilot\\code_freeze_v1.json",
+      "sha256": "f63371f105738b2e360482291ad2ed7b90e623585d872564472bc4ea023097fb"
+    },
+    "extract_manifest": {
+      "path": "C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\work\\research_cycle8\\comt_results\\actual_v1\\extract\\sealed_manifest.json",
+      "sha256": "4e365b305c356a25762c540092083c1a6e87bbc89041c97eb90a2e8f0436d7f0"
+    },
+    "runtime_manifest": {
+      "path": "C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\work\\research_cycle8\\comt_pilot\\runtime\\runtime_manifest.json",
+      "sha256": "a97c2057080245e691640ca955af6248aa93102b58341b76f37f473461231c95"
+    },
+    "rf_manifest": {
+      "path": "C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\work\\research_cycle8\\comt_results\\actual_v1\\rf\\sealed_manifest.json",
+      "sha256": "091b66e102669f466121244e65a85c5434eafd514e903285074515a51bdd7564"
+    },
+    "verifier_r": {
+      "path": "C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\work\\research_cycle8\\comt_rf_independent_audit\\replay_forest.R",
+      "sha256": "f3cefa6185e274030f69849f8c629cfb0897c839d91c3a2777ea14a5f17a52c2"
+    }
+  },
+  "authorization_source": "Root explicit actual-RF trace replay authorization in current agent message, after preaccess seal; no retraining or predictive models.",
+  "public_freeze_supplied_by_root": "13b900f704b76b1b3d3059a3bbec8ac1f510b715",
+  "preaccess_seal_sha256": "4e369a6b7a61d517e6af1d4e544bf05ed8ef9980572401fa77e8024eba506dfb",
+  "scope": "All extracted rows and saved RF outputs only, no later normalization repair, fitting, selection or source acquisition."
+}

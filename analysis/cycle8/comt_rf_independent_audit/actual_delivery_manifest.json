@@ -1,0 +1,13 @@
+{
+  "status": "PASS_SAVED_RF_TRACE",
+  "files": {
+    "actual_report.md": "b32bf61567c31120b2c815c3b0c65aea29cb1bdeaeca7a18132a8296dcbc377a",
+    "actual_authorization_v1.json": "6228f4f7401b5826078b4448f816b735be79a645dfd29ff746cf5f35be8cc7c6",
+    "preaccess_seal.json": "4e369a6b7a61d517e6af1d4e544bf05ed8ef9980572401fa77e8024eba506dfb",
+    "actual_v1/verification.json": "669d7464ed71ff96be8ba1f2406ff78f09fd4367314c722ba2594f96288075df",
+    "after_check.json": "9120dfc31b4519e922d06a63f0381c150c535a59ca05512d860c4076e75c4772"
+  },
+  "scope": "Saved-model replay only, not training or biological calibration",
+  "run_count": 1,
+  "new_forest_training": false
+}

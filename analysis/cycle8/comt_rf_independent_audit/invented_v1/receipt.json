@@ -1,0 +1,9 @@
+{
+  "status": "PASS_INVENTED_TRACE_AND_GUARDS",
+  "actual_source_rows": 0,
+  "actual_simulation_rows": 0,
+  "saved_forests_retrained": false,
+  "baseline_verification_sha256": "80e007e0633bacda1332c7fcd26ee8fed3371b9a990e7308e515858319a2db5e",
+  "summary": "ROI\textracted_rows\tpredicted_rows\trejected_SNPs\tfrequency_pass\tmax_probability_difference\tclass_mismatches\tsaved_training_rows\tsource_seed_metadata\tntree\tmtry\n1\t280\t280\t20\t280\t0\t0\t240\t9\t500\t3\n2\t160\t160\t20\t160\t0\t0\t240\t9\t500\t3\n",
+  "source_sha256": "9ad088daf9ae7d5513b355866a14e5226386024ce399f3b0916ed2c2fccd1117"
+}

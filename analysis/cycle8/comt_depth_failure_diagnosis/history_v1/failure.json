@@ -1,0 +1,6 @@
+{
+  "status": "FAILED_TEST_COMPARISON",
+  "message": "identical(c,c2) is not TRUE for data.table objects",
+  "scope": "Invented fixture only; source algorithm had not yet reached WT assertion",
+  "next": "Compare only relevant collapsed fields with all.equal, retaining old failed source."
+}

@@ -1,0 +1,16 @@
+{
+  "status": "PASS_AFTER_RUN_IMMUTABILITY",
+  "checks": {
+    "protocol": true,
+    "amendment": true,
+    "integration_addendum": true,
+    "contract": true,
+    "code_manifest": true,
+    "extract_manifest": true,
+    "runtime_manifest": true,
+    "rf_manifest": true,
+    "verifier_r": true,
+    "all_sealed_extraction_and_RF_payloads": true,
+    "all_preaccess_sources_unchanged": true
+  }
+}

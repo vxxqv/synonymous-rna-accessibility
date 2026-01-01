@@ -1,0 +1,13 @@
+{
+  "status": "PASS_FINAL_DOCUMENTATION_DELTA",
+  "candidate_manifest_sha256": "de000670c9754395de5a0394a4f4c05532b8b129df1a9eb022162b3c434c300c",
+  "README_sha256": "ce216ee4ae0e7524b5a4bbcdaf27d33d6abb6dd80b615edcd27dcc5930116ba7",
+  "only_candidate_file_changed_since_tests": [
+    "README.md"
+  ],
+  "scientific_source_hashes_unchanged": true,
+  "final_candidate_file_checks": 15,
+  "prior_check_count": 58,
+  "tested_normalizer_sha256": "bd5d6671eb3ac2f69e0a7ec7a2321c36828320e682ea9373cb5015f0153c8322",
+  "tested_driver_sha256": "8e927fcff9a35cb4dc65776a84e1713ebfb81ccde6dddd3870958172a5053c5f"
+}

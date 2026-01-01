@@ -1,0 +1,14 @@
+{
+  "status": "PASS_INVENTED_ORIGINAL_SOURCE_VERSUS_V3_NORMALIZATION",
+  "candidate_manifest_sha256": "74b1287c63bef20237a06d180e9c147d81d294b1dfd9b29df71df4176d497b44",
+  "normalizer_sha256": "bd5d6671eb3ac2f69e0a7ec7a2321c36828320e682ea9373cb5015f0153c8322",
+  "fixture_cases": 6,
+  "input_permutations_each": 4,
+  "collapsed_comparisons": 288,
+  "negative_WT_refused": true,
+  "first_lower_than_maximum_control_passed": true,
+  "candidate_files_unchanged": true,
+  "real_CAO_CAF_or_downstream_outcomes_accessed": false,
+  "code_sha256": "b0f08200803e6e9a0a9fd92f6d43be360b1ed4693f87178b83510f4f216423ab",
+  "R_fixture_sha256": "f4a86123df3cf86b1e54bfb0b2892c843aa4535f4f760f1190ad96a3a3171c84"
+}

@@ -1,0 +1,5 @@
+PASS_INVENTED_SOURCE_RULE
+No unique post-collapse depth requirement exists in the executed source expression.
+Two distinct DP values emit two WT rows; match chooses the first.
+Source helper key sorting makes the supplied raw-row reversal immaterial in this fixture.
+Manually reversing collapsed rows changes first-match WT from65to55.

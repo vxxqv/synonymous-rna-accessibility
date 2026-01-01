@@ -1,0 +1,27 @@
+{
+  "status": "PASS_SAVED_RF_TRACE",
+  "authorization_sha256": "c529761daf86fe24c8407ec53e46701b2a33243cd33b21ec6a741f4b1f3569cd",
+  "mode": "synthetic",
+  "input_hashes": {
+    "protocol": "97aea7e56ddf9c74a2fcbf4a17ce2bbd9280c8417d2534997835878b2a368d61",
+    "amendment": "2f15418daf1e417193493eeb7c3370dae3451e8e69618427bfd13a73e28ff5e8",
+    "integration_addendum": "c480ca92ce36b6e95849fceaea3e6bf49d14bcd7842b1e5fe1efd543ff33f4d2",
+    "contract": "091ab6a57b7d64ab56638430e95befca5dbffd790eec9c62ea5d6a504d450ce5",
+    "code_manifest": "c5a4f98ea2644c3b30ff3271d4ec90ae4d09fc5a2c99846660217b7a64ada44a",
+    "runtime_manifest": "a97c2057080245e691640ca955af6248aa93102b58341b76f37f473461231c95",
+    "extract_manifest": "79a4fcd6c266c740da989ace69d9a3c82ee9396024e9bc1092e4584689b07cfc",
+    "rf_manifest": "f506ebb631714c6a32f337db79f83f8417128c334409c4b53c6bad688af15c9e",
+    "verifier_r": "f3cefa6185e274030f69849f8c629cfb0897c839d91c3a2777ea14a5f17a52c2"
+  },
+  "returncode": 0,
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "probability_absolute_tolerance": 1e-14,
+  "claim": "Replay of saved states and source masks, not independent training, historical seed authentication or biological calibration.",
+  "outputs": {
+    "execution.log": "6436abe33742aa36badfc70227730c23917321e80edf4f3f0a27433ad50f6b3e",
+    "trace/status.txt": "fbdd618bc9b8e1825db82e56e93d174a2969f85966969a2f8f80bba833925b5c",
+    "trace/summary.tsv": "3ecb06116cbed2d29dd3720923ba18378021b3f9b3037887763e6d7cc555a6ca",
+    "trace/trace_1.tsv": "e8895a7ee7a6a5329dc1e8b60c70ff6f59dd2601debba2a894b071a52222921e",
+    "trace/trace_2.tsv": "3b5abc1f1ec682ac47f3a66fadf7d40fa9c90af787f244768585d630a5f71eb2"
+  }
+}

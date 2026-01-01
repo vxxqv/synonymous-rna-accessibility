@@ -1,0 +1,20 @@
+{
+  "schema": "COMT_A1_stage_seal_v1",
+  "phase": "extract",
+  "input_hashes": {
+    "protocol": "97aea7e56ddf9c74a2fcbf4a17ce2bbd9280c8417d2534997835878b2a368d61",
+    "amendment": "2f15418daf1e417193493eeb7c3370dae3451e8e69618427bfd13a73e28ff5e8",
+    "integration_addendum": "c480ca92ce36b6e95849fceaea3e6bf49d14bcd7842b1e5fe1efd543ff33f4d2",
+    "contract": "091ab6a57b7d64ab56638430e95befca5dbffd790eec9c62ea5d6a504d450ce5",
+    "code_manifest": "c5a4f98ea2644c3b30ff3271d4ec90ae4d09fc5a2c99846660217b7a64ada44a",
+    "runtime_manifest": "a97c2057080245e691640ca955af6248aa93102b58341b76f37f473461231c95"
+  },
+  "files": {
+    "rows_1.tsv": "2802abdd7aafcc3513cee36ffd30a774b0a5f411584f051f81f7cee20120b79c",
+    "rows_2.tsv": "1540ca40478913f05daa0dbf4ec80fff7d1bf9eb699ffb9a012d8a5f3b9320b0",
+    "simulation_1.tsv": "06b614887fb7c6f0091d40ec819602b71e9346c371278757728e7ba760a8430e",
+    "simulation_2.tsv": "d174cb96a1ab75f568744c705611671e17ad6b9ed34f475c3d07581300a631a8",
+    "truth_1.tsv": "599a9e74d30855a978421673dd0c86998ed27096b5934d8f46f02f3dd1643c70",
+    "truth_2.tsv": "43481eee6911e2ea16a1242a268b272de9fd3fe13a368c1d5d11d33d91408156"
+  }
+}

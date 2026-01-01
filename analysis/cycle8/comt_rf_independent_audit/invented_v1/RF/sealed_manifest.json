@@ -1,0 +1,23 @@
+{
+  "schema": "COMT_A1_stage_seal_v1",
+  "phase": "rf",
+  "input_hashes": {
+    "protocol": "97aea7e56ddf9c74a2fcbf4a17ce2bbd9280c8417d2534997835878b2a368d61",
+    "amendment": "2f15418daf1e417193493eeb7c3370dae3451e8e69618427bfd13a73e28ff5e8",
+    "integration_addendum": "c480ca92ce36b6e95849fceaea3e6bf49d14bcd7842b1e5fe1efd543ff33f4d2",
+    "contract": "091ab6a57b7d64ab56638430e95befca5dbffd790eec9c62ea5d6a504d450ce5",
+    "code_manifest": "c5a4f98ea2644c3b30ff3271d4ec90ae4d09fc5a2c99846660217b7a64ada44a",
+    "runtime_manifest": "a97c2057080245e691640ca955af6248aa93102b58341b76f37f473461231c95",
+    "extract_manifest": "79a4fcd6c266c740da989ace69d9a3c82ee9396024e9bc1092e4584689b07cfc"
+  },
+  "files": {
+    "model_1.rds": "56b795b24d112a93790aab0509a9dbbe82b6b35656f0b556996b22c8df331ac7",
+    "model_2.rds": "5d60a9677e8e4f1f2f5ad6bb65da2c68240a6878dc4e17c01fab5959dfbabe93",
+    "predictions_1.tsv": "82b63decac561edf0b0fb70f5e3e8b3198fcebf047d62e1432f55a90525b7d38",
+    "predictions_2.tsv": "f7271053024fef6d0ab5a8891e8d47791b7ed94f90bf2c12c930d12df7b36f7e",
+    "rejections.tsv": "ba08f0caf880f102fab4478c63c9b52fcbe4d12e2fe1b4a231de66ccdc701d31",
+    "row_status_1.tsv": "f28e0eb54543b8680641d2416a6dea4527b0f919ac0fe56d52de875e1db91306",
+    "row_status_2.tsv": "0edbb2d62d7bd61438620c3bdfb7e6576c88c797b837845750e062a7302e621c",
+    "status.txt": "4b02c653e7cbe81fa9adcacd9c6067b4570b4173a98282423569c35e0708a3e6"
+  }
+}

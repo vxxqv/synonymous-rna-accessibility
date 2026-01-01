@@ -1,0 +1,3 @@
+ROI	extracted_rows	predicted_rows	rejected_SNPs	frequency_pass	max_probability_difference	class_mismatches	saved_training_rows	source_seed_metadata	ntree	mtry
+1	280	280	20	280	0	0	240	9	500	3
+2	160	160	20	160	0	0	240	9	500	3

@@ -1,0 +1,105 @@
+--- v2/normalize.py
++++ v3/normalize.py
+@@ -48,12 +48,18 @@
+     for r in collapsed:positions[(r['Sample'],r['POS'])].append(r)
+     lineage=[]
+     for (sample,pos),rr in sorted(positions.items()):
+-        dp={r['DP'] for r in rr}
+-        if len(dp)!=1:raise ValueError('Conflicting source-median DP at sample/position')
+-        depth=dp.pop();total=sum(r['CAO'] for r in rr);wt=depth-total
++        # Source helper sorts raw VAR_ID; unique(DP) preserves that order,
++        # then match(Sample:POS) selects its first row. This is not max(DP).
++        rr=sorted(rr,key=lambda r:r['VAR_ID'])
++        depths=list(dict.fromkeys(r['DP'] for r in rr))
++        depth=depths[0];total=sum(r['CAO'] for r in rr);wt=depth-total
+         if wt<0:raise ValueError('Negative reconstructed WT denominator')
+         lineage.append({'Sample':sample,'POS':pos,'DP':str(depth),'sum_retained_CAO':str(total),'WT':str(wt),
+-                        'alleles':[{'VAR_ID':r['VAR_ID'],'CAO':str(r['CAO'])} for r in rr]})
++                        'ordered_unique_DP':[str(d) for d in depths],
++                        'selected_depth_variant':rr[0]['VAR_ID'],
++                        'depth_conflict':len(depths)>1,
++                        'depth_rule':'source_sorted_VAR_ID_first_match',
++                        'alleles':[{'VAR_ID':r['VAR_ID'],'CAO':str(r['CAO']),'DP':str(r['DP'])} for r in rr]})
+         for r in rr:r['WT']=wt;r['q']=(r['CAO']+F(1,2))/(wt+F(1,2))
+     controls=defaultdict(list)
+     for r in collapsed:
+@@ -86,7 +92,7 @@
+             key=(target['hgvs_nt'],sample)
+             if key in measurements:all_measurements.append(measurements[key])
+             else:all_measurements.append({'hgvs_nt':target['hgvs_nt'],'Sample':sample,'trait':meta['trait'],'log_q':None,'status':'absent_after_declared_source_filter_or_not_in_source'})
+-    return {'schema':'COMT_source_normalization_v1','units':'natural_log_corrected_variant_to_position_WT_ratio',
++    return {'schema':'COMT_source_normalization_v3_source_contract_successor','units':'natural_log_corrected_variant_to_position_WT_ratio',
+             'measurements':all_measurements,'denominator_lineage':lineage,'row_exclusions':exclusions,
+             'target_raw_representations':{k:sorted(v) for k,v in target_sources.items()},
+             'source_allowed_background_alleles':len(collapsed),'unavailable_is_not_zero':True}
+--- v2/driver.py
++++ v3/driver.py
+@@ -9,7 +9,8 @@
+ 
+ P=Path(__file__).resolve().parent
+ PHASES=('extract','rf','normalize','predict','evaluate')
+-COMMON_PINS=('protocol','amendment','integration_addendum','contract','code_manifest')
++LEGACY_PINS=('protocol','amendment','integration_addendum','contract','code_manifest')
++COMMON_PINS=LEGACY_PINS+('normalization_amendment','predecessor_code_manifest')
+ STAGE_FILES={'extract':{'rows_1.tsv','rows_2.tsv','simulation_1.tsv','simulation_2.tsv','truth_1.tsv','truth_2.tsv','receipt.json'},
+              'rf':{'row_status_1.tsv','row_status_2.tsv','status.txt'},
+              'normalize':{'normalization.json','contrasts.json'},'predict':{'predictions.json'},'evaluate':{'evaluation.json'}}
+@@ -44,14 +45,14 @@
+     return payload
+ 
+ 
+-def stage_manifest(path,phase,expected_inputs=None):
++def stage_manifest(path,phase,expected_inputs=None,pin_names=COMMON_PINS):
+     m=json.loads(Path(path).read_text())
+     if m.get('schema')!='COMT_A1_stage_seal_v1' or m.get('phase')!=phase:raise ValueError('Wrong prior stage')
+     if not STAGE_FILES[phase]<=set(m['files']):raise ValueError('Required prior output is not sealed')
+     for n,h in m['files'].items():
+         if Path(n).name!=n or reader.sha(Path(path).parent/n)!=h:raise ValueError('Sealed prior file changed')
+     if expected_inputs is not None:
+-        for name in COMMON_PINS:
++        for name in pin_names:
+             if m['input_hashes'].get(name)!=expected_inputs[name]:raise ValueError('Prior stage provenance mismatch '+name)
+     return m
+ 
+@@ -81,7 +82,7 @@
+     out=Path(out).resolve()
+     if out.exists():raise FileExistsError('New output directory required before any input decoding')
+     auth_path=Path(auth_path);auth=json.loads(auth_path.read_text())
+-    if auth.get('schema')!='COMT_A1_authorization_v1' or auth.get('phase')!=phase or auth.get('status')!='approved_frozen_preoutcome':
++    if auth.get('schema')!='COMT_A1_authorization_v1' or auth.get('phase')!=phase or auth.get('status')!='approved_frozen_normalization_successor':
+         raise ValueError('Missing exact frozen phase authorization')
+     if auth.get('historical_reproduction_claim') is not False:raise ValueError('Historical-state claim forbidden')
+     if auth.get('outcome_access_authorized') is not True:raise ValueError('Outcome access not authorized')
+@@ -90,7 +91,8 @@
+         p=Path(item['path']).resolve()
+         if reader.sha(p)!=item['sha256']:raise ValueError('Input hash mismatch '+role)
+         roles[role]=p
+-    required={'protocol','amendment','integration_addendum','contract','code_manifest'}
++    if phase not in ('normalize','predict','evaluate'):raise ValueError('Successor reuses sealed extraction and RF; no rerun permitted')
++    required=set(COMMON_PINS)
+     extra={'extract':{'archive','runtime_manifest'},'rf':{'extract_manifest','runtime_manifest'},'normalize':{'extract_manifest','rf_manifest'},'predict':{'normalization_manifest'},'evaluate':{'normalization_manifest','prediction_manifest'}}[phase]
+     if not required|extra<=set(roles):raise ValueError('Missing input-role pin')
+     code=json.loads(roles['code_manifest'].read_text())
+@@ -107,7 +109,7 @@
+         raise ValueError('Fixed target IDs/sites are incomplete')
+     if sum(r['is_SNV'] is True for r in targets)!=113 or len({r['site'] for r in targets if r['is_SNV']})!=52:
+         raise ValueError('Fixed SNV subset mismatch')
+-    for name in ('protocol','amendment','integration_addendum','contract'):
++    for name in ('protocol','amendment','integration_addendum','contract','normalization_amendment','predecessor_code_manifest'):
+         if code['named_input_hashes'].get(name)!=reader.sha(roles[name]):raise ValueError('Code/contract association changed')
+     inputs={k:reader.sha(v) for k,v in roles.items()}
+     auth_hash=reader.sha(auth_path)
+@@ -124,7 +126,12 @@
+         if completed.returncode!=0:raise RuntimeError('RF source reconstruction failed; preserved execution log')
+         if (out/'status.txt').read_text().strip()!='PASS_NEW_FIXED_RUNTIME_RF_APPLICATION':raise ValueError('Missing RF completion')
+     elif phase=='normalize':
+-        stage_manifest(roles['extract_manifest'],'extract',inputs);rm=stage_manifest(roles['rf_manifest'],'rf',inputs)
++        predecessor=json.loads(roles['predecessor_code_manifest'].read_text())
++        oldpins={**predecessor['named_input_hashes'],'code_manifest':inputs['predecessor_code_manifest']}
++        for name in LEGACY_PINS[:-1]:
++            if oldpins[name]!=inputs[name]:raise ValueError('Successor changed frozen scientific input '+name)
++        stage_manifest(roles['extract_manifest'],'extract',oldpins,LEGACY_PINS)
++        rm=stage_manifest(roles['rf_manifest'],'rf',oldpins,LEGACY_PINS)
+         if rm['input_hashes'].get('extract_manifest')!=inputs['extract_manifest']:raise ValueError('RF used another extraction')
+         result=norm.normalized(load_rows(roles['extract_manifest'].parent),load_status(roles['rf_manifest'].parent),contract)
+         summaries=norm.contrast_summaries(result,contract)

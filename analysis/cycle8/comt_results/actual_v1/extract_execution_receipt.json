@@ -1,0 +1,9 @@
+{
+  "phase": "extract",
+  "returncode": 0,
+  "authorization_sha256": "861c774f3b5847e8c4fe64cac74ddaf09a40d72b97cadae5d6178b09375cdc0e",
+  "log_sha256": "4e365b305c356a25762c540092083c1a6e87bbc89041c97eb90a2e8f0436d7f0",
+  "sealed_manifest_exists": true,
+  "freeze_revision": "13b900f704b76b1b3d3059a3bbec8ac1f510b715",
+  "sealed_manifest_sha256": "4e365b305c356a25762c540092083c1a6e87bbc89041c97eb90a2e8f0436d7f0"
+}

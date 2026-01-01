@@ -1,0 +1,8 @@
+{
+  "phase": "normalize",
+  "returncode": 1,
+  "authorization_sha256": "781765cccdf5e4b4b56252f1dda10849b796350272143ef6da44f3a51dc77193",
+  "log_sha256": "f9f68a525be71120c8e5acfe8b9ea00baaa719d2ffaa5c42a20118d35fde20bd",
+  "sealed_manifest_exists": false,
+  "freeze_revision": "13b900f704b76b1b3d3059a3bbec8ac1f510b715"
+}

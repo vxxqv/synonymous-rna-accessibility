@@ -1,0 +1,4 @@
+{
+  "note": "Large extracted rows and full RF row tables remain reproducible from the externally pinned source archive and saved forests. Their complete stage hashes are retained. Original failure and independent trace review are retained. No publishing assets or source archive bundled.",
+  "source_archive_sha256": "e3fc127f268c10efbb1d1c736423c51bc5aa900e9e363d66cc8683490516cbe2"
+}

@@ -1,0 +1,35 @@
+{
+  "status": "PASS_INDEPENDENT_DEPTH_FAILURE_DIAGNOSIS",
+  "created_utc": "2026-10-25T20:04:15.066087+00:00",
+  "files": {
+    "report.md": "3a3048e9c696b9d6a5dbe3334d71d13e0d88e291876a5dafeedd40ae184a63d1",
+    "depth_only_probe.py": "275b982ccb9b9cb2cd4db3293a74f1804107a540986bc03c868ee1f47a9031e7",
+    "probe_preaccess_freeze.json": "777ea8dbf291a89accb9bd943b4cfe756db114b3a4b629e8ed4ae561629bda60",
+    "check_mnp_relation.py": "4fc2e3fd1b05cddf448f4b2059a18a3dfeb5edf620ef2adf348f273104c0ef4b",
+    "source_match_synthetic.R": "773b69080a514354937ac2d52fa715f820f615c65058b103526e45ca9189a495",
+    "source_match_synthetic.txt": "2486f975c0194971fe5fcc4a029fc6a62959c0626032f220cb61b185b9b66b89",
+    "mnp_depth_relations.json": "b6f0096fb9601019caa36e4a7df639a8971f30eceef1f8b84215bf0c9f18c35a",
+    "mnp_depth_relations_replay.json": "3a6ef5dd176169bb0737f798569b34ffccffdd111ae078558faf08710efd809e",
+    "actual_dp_run/summary.json": "f494a259b4d49824c110b841030ba0dbf41a466558de2d1973822974f5416a76",
+    "actual_dp_run/receipt.json": "45e1439a689f7b60268281e5b5a67e0ba28e04bf8c1d7fa800327e58d52b9fdc",
+    "actual_dp_run/conflicting_groups.csv": "8c4e7339110daa218eae376f25d6c5380422f2a419e5759844cd7a96f802576a",
+    "actual_dp_run/direct_target_impacts.csv": "8a84f4219d6aa289b025e0c6dbc5a1e5459b7dc2caa6fface2b58a046b1b41e7"
+  },
+  "original_numerical_reference_unchanged": "4c26b90d20b34ff7d1146ff8b796b571248b01e2c3bd33a5eab2fed61b05967f",
+  "source_file_hashes": {
+    "work/research_cycle8/comt_gate/analysis__integrative_MAVEs.Rmd": "ac267a0a5e1f07d3eadc30a2c3643a166349f0a67259ee31c649454229a869f0",
+    "work/research_cycle8/comt_pilot/summarization_utils.r": "f0a741b087e9e06e6d32cd947f2faf2dcedd59272d3e0a87921de118bad740bd"
+  },
+  "actual_CAO_CAF_WT_q_logs_contrasts_predictions_read": false,
+  "actual_access": "Selected identities, DP, RF row-status masks and source metadata only",
+  "source_first_match_rule": "A normalization-contract amendment after frozen failure, not format-only repair",
+  "new_normalization_executed": false,
+  "production_or_repository_files_changed": false,
+  "synthetic_R_startup_warnings": [
+    "Setting LC_COLLATE=C.UTF-8 failed",
+    "Setting LC_CTYPE=C.UTF-8 failed",
+    "Setting LC_MONETARY=C.UTF-8 failed",
+    "Setting LC_TIME=C.UTF-8 failed"
+  ],
+  "R_synthetic_assertions_passed": true
+}

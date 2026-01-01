@@ -1,0 +1,312 @@
+{
+  "status": "PASS_HELD_HASH_INTEGRITY",
+  "checks": {
+    "v2/README.md": {
+      "expected": "df8aa0fda7180a4facc7bcac898585f1db909e1ae70b5102745ece2a01fc3e3f",
+      "actual": "df8aa0fda7180a4facc7bcac898585f1db909e1ae70b5102745ece2a01fc3e3f",
+      "matches": true
+    },
+    "v2/apply_source_rf.R": {
+      "expected": "5beb00a26a323aebe9c2c152fafc848d53ca84345ccc680f5e0e972da3a5fd85",
+      "actual": "5beb00a26a323aebe9c2c152fafc848d53ca84345ccc680f5e0e972da3a5fd85",
+      "matches": true
+    },
+    "v2/build_contract.py": {
+      "expected": "1c59e17ccf7744fb29a10566b4e48994daf9985864908098834f76dc03276621",
+      "actual": "1c59e17ccf7744fb29a10566b4e48994daf9985864908098834f76dc03276621",
+      "matches": true
+    },
+    "v2/correction.diff": {
+      "expected": "079012bf0b8660b16474e30acc4717f134d63fcc2efe76c687a0acb60a25210f",
+      "actual": "079012bf0b8660b16474e30acc4717f134d63fcc2efe76c687a0acb60a25210f",
+      "matches": true
+    },
+    "v2/correction_report.md": {
+      "expected": "dfff3e372c2091d0663e5949b33c750f01d5b0f9d72eb8ec1b325cf3176e12f7",
+      "actual": "dfff3e372c2091d0663e5949b33c750f01d5b0f9d72eb8ec1b325cf3176e12f7",
+      "matches": true
+    },
+    "v2/delta_receipt.json": {
+      "expected": "f87b0eeeed20fa0f294a8c5abd713d00c45fde85d7376af9470dee1ac9a7a4ca",
+      "actual": "f87b0eeeed20fa0f294a8c5abd713d00c45fde85d7376af9470dee1ac9a7a4ca",
+      "matches": true
+    },
+    "v2/delta_unit_tests.log": {
+      "expected": "83bb852c4f1a36c0c945b3d7df2c0035c5a850ce230e4c8854d50d3234b8293a",
+      "actual": "83bb852c4f1a36c0c945b3d7df2c0035c5a850ce230e4c8854d50d3234b8293a",
+      "matches": true
+    },
+    "v2/driver.py": {
+      "expected": "2fa6c139fc54cf0f5e1f63fa74fa8cbf8400d7ab0664883406ab1f66d3150eed",
+      "actual": "2fa6c139fc54cf0f5e1f63fa74fa8cbf8400d7ab0664883406ab1f66d3150eed",
+      "matches": true
+    },
+    "v2/integration_addendum.md": {
+      "expected": "c480ca92ce36b6e95849fceaea3e6bf49d14bcd7842b1e5fe1efd543ff33f4d2",
+      "actual": "c480ca92ce36b6e95849fceaea3e6bf49d14bcd7842b1e5fe1efd543ff33f4d2",
+      "matches": true
+    },
+    "v2/normalize.py": {
+      "expected": "e6776b4d0afef9aca5972dfe0935769da9e2f7c61cdaaebc0813c47e17b54061",
+      "actual": "e6776b4d0afef9aca5972dfe0935769da9e2f7c61cdaaebc0813c47e17b54061",
+      "matches": true
+    },
+    "v2/prediction.py": {
+      "expected": "92d0d46fda3b7b3c49c5a4d8780c8b57bcf9c15d9c8095aeca27555f38e2dede",
+      "actual": "92d0d46fda3b7b3c49c5a4d8780c8b57bcf9c15d9c8095aeca27555f38e2dede",
+      "matches": true
+    },
+    "v2/selective_contract.json": {
+      "expected": "091ab6a57b7d64ab56638430e95befca5dbffd790eec9c62ea5d6a504d450ce5",
+      "actual": "091ab6a57b7d64ab56638430e95befca5dbffd790eec9c62ea5d6a504d450ce5",
+      "matches": true
+    },
+    "v2/selective_reader.py": {
+      "expected": "17d443582488a7c7a935bb222ba55c2b1f8e7cea80ff5ff8071f092127155752",
+      "actual": "17d443582488a7c7a935bb222ba55c2b1f8e7cea80ff5ff8071f092127155752",
+      "matches": true
+    },
+    "v2/synthetic_RF_v1/receipt.json": {
+      "expected": "0244e890a6e3df3706be4ecb1cfc866a58c1e8aa50088d85a76841de36ff81cd",
+      "actual": "0244e890a6e3df3706be4ecb1cfc866a58c1e8aa50088d85a76841de36ff81cd",
+      "matches": true
+    },
+    "v2/synthetic_delta_stages_v1/receipt.json": {
+      "expected": "963bf1187f2d8562eaf0010e314a4aa54c534c107849309066f4ce52dfea3eb5",
+      "actual": "963bf1187f2d8562eaf0010e314a4aa54c534c107849309066f4ce52dfea3eb5",
+      "matches": true
+    },
+    "v2/synthetic_source_normalization_receipt.json": {
+      "expected": "0afc85d45936191e59568bf0ebcfe799314d2c3e6ab9045304378d5238816076",
+      "actual": "0afc85d45936191e59568bf0ebcfe799314d2c3e6ab9045304378d5238816076",
+      "matches": true
+    },
+    "v2/test_implementation.py": {
+      "expected": "8ea87973f4c3dc2cb52b03b7b2f8ce7d5419df2139deca8bf2ff1cbf5fed2d64",
+      "actual": "8ea87973f4c3dc2cb52b03b7b2f8ce7d5419df2139deca8bf2ff1cbf5fed2d64",
+      "matches": true
+    },
+    "v2/verify_RF_adapter.py": {
+      "expected": "5bcd60fd0618b58eaecbc8d25bfaf85765fd35fe8c80568ac4d8ae9db109e998",
+      "actual": "5bcd60fd0618b58eaecbc8d25bfaf85765fd35fe8c80568ac4d8ae9db109e998",
+      "matches": true
+    },
+    "v2/verify_source_normalization.R": {
+      "expected": "01c324e94ad8c21afac613ea2f0b616d725a6e679e89b68aeb313c4152db8499",
+      "actual": "01c324e94ad8c21afac613ea2f0b616d725a6e679e89b68aeb313c4152db8499",
+      "matches": true
+    },
+    "v2/verify_source_normalization.py": {
+      "expected": "e98ef4596fb0d84d24a96f2977a05b72c4da761ceecc882e17ba2bb82a93079e",
+      "actual": "e98ef4596fb0d84d24a96f2977a05b72c4da761ceecc882e17ba2bb82a93079e",
+      "matches": true
+    },
+    "v2/verify_staged_cli.py": {
+      "expected": "8a9e5300b4482fd433bf85ef674a1ea1aa74cdfdf111767f2b5d3818567327d5",
+      "actual": "8a9e5300b4482fd433bf85ef674a1ea1aa74cdfdf111767f2b5d3818567327d5",
+      "matches": true
+    },
+    "source/protocol_v2.md": {
+      "expected": "97aea7e56ddf9c74a2fcbf4a17ce2bbd9280c8417d2534997835878b2a368d61",
+      "actual": "97aea7e56ddf9c74a2fcbf4a17ce2bbd9280c8417d2534997835878b2a368d61",
+      "matches": true
+    },
+    "source/prospective_reconstruction_amendment.md": {
+      "expected": "2f15418daf1e417193493eeb7c3370dae3451e8e69618427bfd13a73e28ff5e8",
+      "actual": "2f15418daf1e417193493eeb7c3370dae3451e8e69618427bfd13a73e28ff5e8",
+      "matches": true
+    },
+    "source/proxy_models.py": {
+      "expected": "8811af9750e813c798122c7e936b6279a0f3b0e53fea1924cb2d633162a34093",
+      "actual": "8811af9750e813c798122c7e936b6279a0f3b0e53fea1924cb2d633162a34093",
+      "matches": true
+    },
+    "source/source_helpers.R": {
+      "expected": "884a47503530854694729922a11a06556ab1478ec68f82c5862dc8ead7a14db5",
+      "actual": "884a47503530854694729922a11a06556ab1478ec68f82c5862dc8ead7a14db5",
+      "matches": true
+    },
+    "source/runtime/runtime_manifest.json": {
+      "expected": "a97c2057080245e691640ca955af6248aa93102b58341b76f37f473461231c95",
+      "actual": "a97c2057080245e691640ca955af6248aa93102b58341b76f37f473461231c95",
+      "matches": true
+    },
+    "source/fold_manifest.json": {
+      "expected": "b222dcd6a6c313c948e9f9de2d1725d08ccc1cd0776a36afa8ed727aa4848fd8",
+      "actual": "b222dcd6a6c313c948e9f9de2d1725d08ccc1cd0776a36afa8ed727aa4848fd8",
+      "matches": true
+    },
+    "v3/apply_source_rf.R": {
+      "expected": "5beb00a26a323aebe9c2c152fafc848d53ca84345ccc680f5e0e972da3a5fd85",
+      "actual": "5beb00a26a323aebe9c2c152fafc848d53ca84345ccc680f5e0e972da3a5fd85",
+      "matches": true
+    },
+    "v3/build_contract.py": {
+      "expected": "1c59e17ccf7744fb29a10566b4e48994daf9985864908098834f76dc03276621",
+      "actual": "1c59e17ccf7744fb29a10566b4e48994daf9985864908098834f76dc03276621",
+      "matches": true
+    },
+    "v3/driver.py": {
+      "expected": "8e927fcff9a35cb4dc65776a84e1713ebfb81ccde6dddd3870958172a5053c5f",
+      "actual": "8e927fcff9a35cb4dc65776a84e1713ebfb81ccde6dddd3870958172a5053c5f",
+      "matches": true
+    },
+    "v3/integration_addendum.md": {
+      "expected": "c480ca92ce36b6e95849fceaea3e6bf49d14bcd7842b1e5fe1efd543ff33f4d2",
+      "actual": "c480ca92ce36b6e95849fceaea3e6bf49d14bcd7842b1e5fe1efd543ff33f4d2",
+      "matches": true
+    },
+    "v3/normalize.py": {
+      "expected": "bd5d6671eb3ac2f69e0a7ec7a2321c36828320e682ea9373cb5015f0153c8322",
+      "actual": "bd5d6671eb3ac2f69e0a7ec7a2321c36828320e682ea9373cb5015f0153c8322",
+      "matches": true
+    },
+    "v3/prediction.py": {
+      "expected": "92d0d46fda3b7b3c49c5a4d8780c8b57bcf9c15d9c8095aeca27555f38e2dede",
+      "actual": "92d0d46fda3b7b3c49c5a4d8780c8b57bcf9c15d9c8095aeca27555f38e2dede",
+      "matches": true
+    },
+    "v3/README.md": {
+      "expected": "d1a94b01147f589577ce53ae9844b44ddd48b354fb9954fad146b845b6bb959a",
+      "actual": "d1a94b01147f589577ce53ae9844b44ddd48b354fb9954fad146b845b6bb959a",
+      "matches": true
+    },
+    "v3/selective_contract.json": {
+      "expected": "091ab6a57b7d64ab56638430e95befca5dbffd790eec9c62ea5d6a504d450ce5",
+      "actual": "091ab6a57b7d64ab56638430e95befca5dbffd790eec9c62ea5d6a504d450ce5",
+      "matches": true
+    },
+    "v3/selective_reader.py": {
+      "expected": "17d443582488a7c7a935bb222ba55c2b1f8e7cea80ff5ff8071f092127155752",
+      "actual": "17d443582488a7c7a935bb222ba55c2b1f8e7cea80ff5ff8071f092127155752",
+      "matches": true
+    },
+    "v3/source_contract_delta.diff": {
+      "expected": "f6f9cc1528e2bfaaef1ec7cd685b17274a662f8327f3c49c60b8e36cd9d3de6a",
+      "actual": "f6f9cc1528e2bfaaef1ec7cd685b17274a662f8327f3c49c60b8e36cd9d3de6a",
+      "matches": true
+    },
+    "v3/test_implementation.py": {
+      "expected": "27f9f3ecd743a1d846b712f92babbcbbe8c9852d7f912c5f6f7e2415057c4bde",
+      "actual": "27f9f3ecd743a1d846b712f92babbcbbe8c9852d7f912c5f6f7e2415057c4bde",
+      "matches": true
+    },
+    "v3/verify_RF_adapter.py": {
+      "expected": "5bcd60fd0618b58eaecbc8d25bfaf85765fd35fe8c80568ac4d8ae9db109e998",
+      "actual": "5bcd60fd0618b58eaecbc8d25bfaf85765fd35fe8c80568ac4d8ae9db109e998",
+      "matches": true
+    },
+    "v3/verify_source_normalization.py": {
+      "expected": "e98ef4596fb0d84d24a96f2977a05b72c4da761ceecc882e17ba2bb82a93079e",
+      "actual": "e98ef4596fb0d84d24a96f2977a05b72c4da761ceecc882e17ba2bb82a93079e",
+      "matches": true
+    },
+    "v3/verify_source_normalization.R": {
+      "expected": "01c324e94ad8c21afac613ea2f0b616d725a6e679e89b68aeb313c4152db8499",
+      "actual": "01c324e94ad8c21afac613ea2f0b616d725a6e679e89b68aeb313c4152db8499",
+      "matches": true
+    },
+    "v3/verify_staged_cli.py": {
+      "expected": "8a9e5300b4482fd433bf85ef674a1ea1aa74cdfdf111767f2b5d3818567327d5",
+      "actual": "8a9e5300b4482fd433bf85ef674a1ea1aa74cdfdf111767f2b5d3818567327d5",
+      "matches": true
+    },
+    "original_sealed_extract/receipt.json": {
+      "expected": "1e24e486518aef2199383668e4cfc113bdb68527c4456e273ecaf31202490f53",
+      "actual": "1e24e486518aef2199383668e4cfc113bdb68527c4456e273ecaf31202490f53",
+      "matches": true
+    },
+    "original_sealed_extract/rows_1.tsv": {
+      "expected": "e5bac4cc61921f857ff7b4cbbf771159d099a78f68c2a67ae004f55d83515d94",
+      "actual": "e5bac4cc61921f857ff7b4cbbf771159d099a78f68c2a67ae004f55d83515d94",
+      "matches": true
+    },
+    "original_sealed_extract/rows_2.tsv": {
+      "expected": "c422d868c1e8eea4a451e2ac481d47135ad0398661608a92a5ab3b91339c25ba",
+      "actual": "c422d868c1e8eea4a451e2ac481d47135ad0398661608a92a5ab3b91339c25ba",
+      "matches": true
+    },
+    "original_sealed_extract/simulation_1.tsv": {
+      "expected": "d06b8bd31e246fc5bc5aac65b171b37d0c2d54b9dd35760766d4bf26c268d831",
+      "actual": "d06b8bd31e246fc5bc5aac65b171b37d0c2d54b9dd35760766d4bf26c268d831",
+      "matches": true
+    },
+    "original_sealed_extract/simulation_2.tsv": {
+      "expected": "4e2d99f97f4fe5072689e2611c7ddda71b6e7cfa58b240bff346eb4ea93f9124",
+      "actual": "4e2d99f97f4fe5072689e2611c7ddda71b6e7cfa58b240bff346eb4ea93f9124",
+      "matches": true
+    },
+    "original_sealed_extract/truth_1.tsv": {
+      "expected": "2eea8cbcafe170e7a59dd849ed578079493baadd1686d88078fd03a3fb576431",
+      "actual": "2eea8cbcafe170e7a59dd849ed578079493baadd1686d88078fd03a3fb576431",
+      "matches": true
+    },
+    "original_sealed_extract/truth_2.tsv": {
+      "expected": "60f6e2dd8040e9ecd31f471ba8710c2c70341bf4c21bb1578e824548cd09f09c",
+      "actual": "60f6e2dd8040e9ecd31f471ba8710c2c70341bf4c21bb1578e824548cd09f09c",
+      "matches": true
+    },
+    "original_sealed_rf/execution_log.txt": {
+      "expected": "3806a6d95e250be1182802bd53cc573f3fae6899a76847e5944ea041f998e420",
+      "actual": "3806a6d95e250be1182802bd53cc573f3fae6899a76847e5944ea041f998e420",
+      "matches": true
+    },
+    "original_sealed_rf/model_1.rds": {
+      "expected": "8bfa6d04243b6fb5daad0bc047f03b0e3e26103886c8060d682bc44d22d1d0b2",
+      "actual": "8bfa6d04243b6fb5daad0bc047f03b0e3e26103886c8060d682bc44d22d1d0b2",
+      "matches": true
+    },
+    "original_sealed_rf/model_2.rds": {
+      "expected": "08c7d5f1c0d1f8caf29f855c10e68faa8618d225a40e20ccadf78e1e57437f9b",
+      "actual": "08c7d5f1c0d1f8caf29f855c10e68faa8618d225a40e20ccadf78e1e57437f9b",
+      "matches": true
+    },
+    "original_sealed_rf/predictions_1.tsv": {
+      "expected": "722008a3d334224dbec425e5ba8a056fb359134fa6b75e50dc59243e7d3c6783",
+      "actual": "722008a3d334224dbec425e5ba8a056fb359134fa6b75e50dc59243e7d3c6783",
+      "matches": true
+    },
+    "original_sealed_rf/predictions_2.tsv": {
+      "expected": "67a4ffc355ef6648e8ce9342a622900506df5c002185235768fa5eefa94ea424",
+      "actual": "67a4ffc355ef6648e8ce9342a622900506df5c002185235768fa5eefa94ea424",
+      "matches": true
+    },
+    "original_sealed_rf/rejections.tsv": {
+      "expected": "5885dffdf04b5692748f4730064b7defb61bf688c91c8b6bab8a7ab330ab65bd",
+      "actual": "5885dffdf04b5692748f4730064b7defb61bf688c91c8b6bab8a7ab330ab65bd",
+      "matches": true
+    },
+    "original_sealed_rf/row_status_1.tsv": {
+      "expected": "43589e5f30afe88e3893f8a51ef45f75c64dc4fbf1932e162d3b61b3d9f73dcd",
+      "actual": "43589e5f30afe88e3893f8a51ef45f75c64dc4fbf1932e162d3b61b3d9f73dcd",
+      "matches": true
+    },
+    "original_sealed_rf/row_status_2.tsv": {
+      "expected": "07101bd7880ef4d1c42f878ed82e67ca022d390a9b7c41282b524e0f0f0cbf87",
+      "actual": "07101bd7880ef4d1c42f878ed82e67ca022d390a9b7c41282b524e0f0f0cbf87",
+      "matches": true
+    },
+    "original_sealed_rf/status.txt": {
+      "expected": "4b02c653e7cbe81fa9adcacd9c6067b4570b4173a98282423569c35e0708a3e6",
+      "actual": "4b02c653e7cbe81fa9adcacd9c6067b4570b4173a98282423569c35e0708a3e6",
+      "matches": true
+    }
+  },
+  "check_count": 58,
+  "common_files_changed_v2_to_v3": [
+    "README.md",
+    "driver.py",
+    "normalize.py",
+    "test_implementation.py"
+  ],
+  "new_v3_files": [
+    "source_contract_delta.diff"
+  ],
+  "metadata_contract_samples_unique": true,
+  "old_reference_sha256": "4c26b90d20b34ff7d1146ff8b796b571248b01e2c3bd33a5eab2fed61b05967f",
+  "old_reference_seal_sha256": "06d352c497352646b0deef67b33cd027eacf6e78e9948884f5985d956c991c9f",
+  "candidate_manifest_sha256": "74b1287c63bef20237a06d180e9c147d81d294b1dfd9b29df71df4176d497b44",
+  "hashing_only_for_actual_sealed_artifacts": true,
+  "no_actual_numeric_fields_decoded_in_this_review": true,
+  "metadata_contract_sample_count": 63
+}

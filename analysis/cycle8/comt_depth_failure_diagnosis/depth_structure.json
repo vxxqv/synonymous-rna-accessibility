@@ -1,0 +1,17 @@
+{
+  "all_conflict_groups": 1091,
+  "depth_structure": {
+    "with_SNV": 1091,
+    "without_SNV": 0,
+    "first_is_SNV": 1091,
+    "first_is_multi": 0,
+    "all_multi_DP_le_SNV": 1091,
+    "any_multi_DP_gt_SNV": 0,
+    "some_multi_DP_lt_SNV": 1091,
+    "raw_ref_contains_comma": 0
+  },
+  "affected_SNV_targets": 105,
+  "affected_nonSNV_targets": 11,
+  "actual_ratio_or_contrast_computed": false,
+  "source_interpretation": "Observed retained allele-specific DP differences; upstream caller reason is not established by this table."
+}

@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "C:\Users\VIVAAN\Documents\Codex\2026-10-24\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\work\research_cycle8\comt_pilot\implementation_v2\driver.py", line 153, in <module>
+    a=p.parse_args();print(json.dumps(execute(a.phase,a.authorization,a.out),indent=2))
+                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\VIVAAN\Documents\Codex\2026-10-24\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\work\research_cycle8\comt_pilot\implementation_v2\driver.py", line 129, in execute
+    result=norm.normalized(load_rows(roles['extract_manifest'].parent),load_status(roles['rf_manifest'].parent),contract)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\VIVAAN\Documents\Codex\2026-10-24\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\work\research_cycle8\comt_pilot\implementation_v2\normalize.py", line 52, in normalized
+    if len(dp)!=1:raise ValueError('Conflicting source-median DP at sample/position')
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: Conflicting source-median DP at sample/position

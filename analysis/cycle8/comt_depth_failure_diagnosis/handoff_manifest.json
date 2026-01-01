@@ -1,0 +1,25 @@
+{
+  "status": "BOUNDED_FAILURE_DIAGNOSIS_COMPLETE_NO_PIPELINE_REPAIR",
+  "files_sha256": {
+    "affected_target_sample_rows.csv": "3a70b909bfcfeb2a86e0c65f2c2279274894cc38917b470bd717b57467ec493e",
+    "all_conflict_variant_lineage.json.gz": "e3aa087577001f845f9e456322fb9d8ebe9024b553e71f4333e3e2632451ef04",
+    "all_conflicts.csv": "c0cb947f1ef14ec6c367bf156f87710ad7f24c231ea6cce08415acfe1aa2a561",
+    "depth_audit.py": "7d22097f5a52d9734be2cb859d940a054d1d3ecdd20d2e39fb66131d45bbab73",
+    "depth_structure.json": "89cd93d58af80aea003b1dcf7ba617ad2bce973de53c4aff72875c458f558a35",
+    "history_v1/failure.json": "4c4d041a7bcfc3704015f81c2b8c1c00e3238cd45c78b186119f91a7f1b1fe2a",
+    "history_v1/source_rule_invented.R": "4950ada651666b21d666b8e626ae2322bbc90b45fd6a56a1f150dbaeb8e0e2aa",
+    "invented_R_v2/assigned.tsv": "eb3c91c9b5071353b3bced8dafbcb421ee845971b67ab858081bf1aaa6198ef8",
+    "invented_R_v2/multiple_denominators.tsv": "a236f6afc883d299d0a9e150bbf74458c620119701574075f3a1a826c6ee4ec6",
+    "invented_R_v2/receipt.txt": "5ef20d216d7c761e3ca527b0bce162620b7c03fd5e63ea9a8b894adce58a0419",
+    "preserved_failure/normalize_execution.log": "f9f68a525be71120c8e5acfe8b9ea00baaa719d2ffaa5c42a20118d35fde20bd",
+    "preserved_failure/normalize_execution_receipt.json": "217009f5a7323fd1f13d132eb7d8b4288cd2e2c94c4a9c3bf14cf86c66252817",
+    "receipt.json": "14468b853dba53fc0304e6ee2c4cc0ce5c1cd15fcc9f3891d9772cb8b40929c2",
+    "report.md": "b7afa0b368acbf045bbedb316ddd03239634b46cbfe264b646a95433cffcf5c1",
+    "source_rule_invented.R": "630dc2d4d9dc35679e43da791ee2f9506fd226321d498f32f9834d76444b29bf"
+  },
+  "frozen_candidate_manifest_sha256": "f666dc9415d523b18350ffdedf5606e050803fa3e5c5da2efdd86f50f33e750d",
+  "frozen_candidate_declared_files_unchanged": true,
+  "actual_inputs_unchanged": true,
+  "new_assay_contrasts_or_predictions": false,
+  "independent_review_pending": true
+}

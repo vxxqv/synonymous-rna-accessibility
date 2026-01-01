@@ -1,0 +1,25 @@
+{
+  "schema": "COMT_independent_RF_trace_preaccess_seal_v1",
+  "status": "SEALED_SYNTHETIC_READY_ACTUAL_ACCESS_CLOSED",
+  "files": {
+    "replay.py": "04540a406360b55bbec3d1b80486020f98904520015a353f436a919f1911eff4",
+    "replay_forest.R": "f3cefa6185e274030f69849f8c629cfb0897c839d91c3a2777ea14a5f17a52c2",
+    "test_invented.py": "9ad088daf9ae7d5513b355866a14e5226386024ce399f3b0916ed2c2fccd1117",
+    "README.md": "fe29d4fe369f0b012b8cbc225ed9b60e5b602dd84e002aa18dae7e68fd37b0d2",
+    "invented_v1/receipt.json": "8403c940bf6a7505f719d5198a0d45e7fbfc026768deacb0cd4c2729fd6c626a",
+    "invented_v1/trace_baseline/verification.json": "80e007e0633bacda1332c7fcd26ee8fed3371b9a990e7308e515858319a2db5e"
+  },
+  "probability_absolute_tolerance": 1e-14,
+  "exact_fields": [
+    "record identities/order",
+    "class labels",
+    "frequency mask",
+    "global rejection mask",
+    "rejection counts/sets",
+    "feature columns"
+  ],
+  "actual_COMT_source_rows_accessed": 0,
+  "actual_source_simulation_rows_accessed": 0,
+  "training_or_tuning_performed": false,
+  "historical_git_authentication": false
+}

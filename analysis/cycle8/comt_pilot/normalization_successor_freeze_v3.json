@@ -1,0 +1,24 @@
+{
+  "schema": "COMT_source_contract_successor_freeze_v3",
+  "status": "FROZEN_AWAITING_PUBLIC_COMMIT",
+  "candidate_sha256": "de000670c9754395de5a0394a4f4c05532b8b129df1a9eb022162b3c434c300c",
+  "code_freeze_sha256": "8292bce1941d7a080176771c9b2a132e3693513273b868f2843109ac8deb9fdb",
+  "review_receipt_sha256": "6a9bd81313dddb0d134aaf7774f2ea4c03b7351658a4b1c6cfb49c9210b8377e",
+  "input_pins": {
+    "protocol": "97aea7e56ddf9c74a2fcbf4a17ce2bbd9280c8417d2534997835878b2a368d61",
+    "amendment": "2f15418daf1e417193493eeb7c3370dae3451e8e69618427bfd13a73e28ff5e8",
+    "integration_addendum": "c480ca92ce36b6e95849fceaea3e6bf49d14bcd7842b1e5fe1efd543ff33f4d2",
+    "contract": "091ab6a57b7d64ab56638430e95befca5dbffd790eec9c62ea5d6a504d450ce5",
+    "normalization_amendment": "c72377c83f74c0f09324f850659071320bd68dcad13fe4b70c1f615961b02bfc",
+    "predecessor_code_manifest": "f63371f105738b2e360482291ad2ed7b90e623585d872564472bc4ea023097fb"
+  },
+  "original_freeze_sha256": "e53fc6a72e621a2ccc1493e5edaf404255da12f18e5b0487106054c6da1c7a57",
+  "original_failure_log_sha256": "f9f68a525be71120c8e5acfe8b9ea00baaa719d2ffaa5c42a20118d35fde20bd",
+  "extract_manifest_sha256": "4e365b305c356a25762c540092083c1a6e87bbc89041c97eb90a2e8f0436d7f0",
+  "rf_manifest_sha256": "091b66e102669f466121244e65a85c5434eafd514e903285074515a51bdd7564",
+  "exposure": "Extraction/RF plus identities, DP and fixed masks inspected; no normalized contrasts or performance evaluated. This is a post-diagnostic successor, not original prospective execution.",
+  "scientific_delta": "Restore source sorted-VAR_ID first-match depth selection. Preserve all target/fold/model/threshold rules and the negative-WT guard.",
+  "historical_reproduction_claim": false,
+  "source_defined_WT_is_physical_count_claim": false,
+  "preserved_primary_rule": "At least100variants/40sites and10percent improvement over everyfourbaselines underbothmaps; midsensitivitycannotrescue."
+}

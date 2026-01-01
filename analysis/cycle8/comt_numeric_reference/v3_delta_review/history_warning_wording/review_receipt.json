@@ -1,0 +1,25 @@
+{
+  "status": "PASS_BOUNDED_V3_DELTA_REVIEW",
+  "created_utc": "2026-10-25T20:13:57.344878+00:00",
+  "files": {
+    "review.md": "49f3cbef14b248cb22642b525a4ee0a47b28edf5f7ecf2601501f2101f8c1444",
+    "test_delta.py": "b0f08200803e6e9a0a9fd92f6d43be360b1ed4693f87178b83510f4f216423ab",
+    "source_fixture.R": "f4a86123df3cf86b1e54bfb0b2892c843aa4535f4f760f1190ad96a3a3171c84",
+    "invented_run_v2/receipt.json": "91f06c62d88a3514fe83c050318bfe3f35815de3666ba478676029e450043d11",
+    "invented_run_v2/source_R_execution.log": "0ad5e542be70d6e6c35192c2191c3307cf11c2eac058cb18313e8a7026c6bc19",
+    "test_provenance.py": "832f1d418e486046cfeb82b513b146693c7e6d500c69b6dee88f5c92dd02a02e",
+    "provenance_run/receipt.json": "a075880bea2c46c17c0d8f3a7414d86222dd53e9076f54a7d7f7b76672257e10",
+    "integrity_checks.json": "e637bae6e258ecc8842ee89eddc1f81c7302f2a18def02c7bbe577c5f973bdec",
+    "final_delta.json": "968420ad6f4c9231505b6bc75a6c8a67d1fcb795ddb0ab94eb73d210bceaba1e"
+  },
+  "accepted_candidate_manifest_sha256": "de000670c9754395de5a0394a4f4c05532b8b129df1a9eb022162b3c434c300c",
+  "accepted_normalizer_sha256": "bd5d6671eb3ac2f69e0a7ec7a2321c36828320e682ea9373cb5015f0153c8322",
+  "accepted_driver_sha256": "8e927fcff9a35cb4dc65776a84e1713ebfb81ccde6dddd3870958172a5053c5f",
+  "accepted_amendment_sha256": "c72377c83f74c0f09324f850659071320bd68dcad13fe4b70c1f615961b02bfc",
+  "actual_CAO_CAF_WT_q_contrasts_predictions_or_performance_values_read": false,
+  "original_frozen_failure_preserved": true,
+  "original_reference_unchanged": true,
+  "production_edits_by_reviewer": false,
+  "remaining_blocking_findings": [],
+  "reference_successor_implemented": false
+}
