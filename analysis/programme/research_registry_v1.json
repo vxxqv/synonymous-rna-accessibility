@@ -1,0 +1,66 @@
+{
+  "registry_version": 1,
+  "baseline_commit": "948a3082561c5b641fd4112ee6bf52b4c04396f6",
+  "scope": "Discovery-priority audit and bounded feasibility work. This registry is an adaptive research record, not a retrospective registration of the discovery cohort.",
+  "known_before_registration": [
+    "Generic correlation controls attenuate approximately 94-95 percent of the original all-threshold score-permutation contrast.",
+    "The three-state prediction pilot failed its error and direction gates and had a saturated additive design.",
+    "No independent prospective biological validation has been completed.",
+    "Published rpsT compensatory-mutation outcomes, including 3 of 9 partial or full rescues, were read during source discovery; any reanalysis of them is retrospective."
+  ],
+  "ranking_policy": "Ordinal scientific judgement, not numerical probabilities. Prioritize tests capable of overturning a central interpretation; do not confuse likely completion with likely consequential discovery. Cost estimates are planning ranges until measured.",
+  "routes": [
+    {
+      "id": "R1_IDENTIFIABLE_PREDICTION",
+      "rank": 1,
+      "question": "Can a finite competing-conformation predictor forecast endpoint-specific barriers and synonymous intervention effects on new complete eight-genotype coding spaces, beyond independent-hairpin and simple feature baselines?",
+      "initial_status": "active_design_gate",
+      "hypotheses": ["A complete Q3 cube has rank 4 for the reference-coded additive model and rank 7 including all pairwise terms.", "A competing-structure predictor may outperform an additive independent-hairpin model; this is a hypothesis, not an expected positive result."],
+      "pilot_gate": "Before any new partition-function outcomes: exact ranks, synthetic additive/pairwise/three-way controls, endpoint-preserving intervention controls, and score-error bounds must pass. Then freeze sequence-selection and predictions in a separate revision before validation.",
+      "failure_rule": "Revise the design if it cannot identify interactions. Stop predictive expansion if held-out error does not beat simple baselines or intervention coverage/direction gates fail. Preserve every scaffold and unsuccessful intervention.",
+      "initial_budget": "Exact algebra and controls first. At most 12 discovery and 12 held-out computational scaffolds with 3 landscapes of 8 genotypes each, if the design gate passes. No biological-function or cross-engine expansion without a further recorded decision."
+    },
+    {
+      "id": "R2_ROBUST_CERTIFICATES",
+      "rank": 2,
+      "question": "Which fixed-endpoint barriers, if any, survive the entire box of score values spanned by two folding engines on the existing 48 matched graphs?",
+      "initial_status": "active_cached_data_falsification",
+      "hypotheses": ["Monotone bottleneck bounds give valid interval certificates.", "Some apparent barriers may lose certification under engine disagreement; lack of a certificate alone is inconclusive."],
+      "pilot_gate": "Check graph and genotype alignment, prove interval implications, recover known synthetic certificates, then scan all critical interval endpoints without threshold selection.",
+      "failure_rule": "If no positive robust barrier interval exists, report that result and do not market model-dependent fragmentation as a robust biological barrier.",
+      "initial_budget": "Cached 48 paired engine outputs only, exact graph algorithms, no new folding runs."
+    },
+    {
+      "id": "R3_OVERLAPPING_CODE_BOUNDARY",
+      "rank": 3,
+      "question": "Does standard-code feasibility remain tractable under overlapping translated frames, and what additional invariants or counterexamples govern nucleotide-mutation reachability?",
+      "initial_status": "active_ambitious_theory_probe",
+      "hypotheses": ["Identification of codon variables and reverse-complement literal negation preserve the existing 2-CNF feasibility encoding.", "The one-frame component signature may be insufficient under overlapping frames; the truth of a general geodesicity extension is open at registration."],
+      "pilot_gate": "Prove compiler transfer, compare it with direct translation, and enumerate at most 4^7 sequences per frame configuration to look for new components or non-Hamming distances. A finite negative search is not a theorem.",
+      "failure_rule": "If the proposed obstruction does not occur, pursue a restricted structural lemma rather than increasing length blindly. If established CSP results subsume the extension, label it a corollary and demote it as a central novelty.",
+      "initial_budget": "Exact short-sequence compiler and counterexample search; no large genomic scan."
+    },
+    {
+      "id": "R4_INDEPENDENT_MEASURED_EVIDENCE",
+      "rank": 4,
+      "question": "Can independent measured synonymous genotype panels test an accessibility or intervention prediction, with full sequence provenance and an endpoint that matches the claim?",
+      "initial_status": "active_source_eligibility_only",
+      "hypotheses": ["Published synonymous double-mutant panels may support retrospective interaction checks but are unlikely to validate a three-way barrier predictor prospectively.", "Independent probing data may test structural association, not mutant functional rescue."],
+      "pilot_gate": "Recover complete genotypes, construct context, readout definitions, replicates, licensing, and study/family independence before computing predictions. Mark every already-seen outcome as retrospective.",
+      "failure_rule": "No functional-validation claim without compatible complete measurements. No treating DMS G/U values as measured zeros, no relabeling another folding engine as biological validation, and no rebuilding a prospective story from published selected rescues.",
+      "initial_budget": "Primary-source and table eligibility audit only. No raw-read processing, full library download or new intervention design in pathogens."
+    },
+    {
+      "id": "R5_WEIGHTED_ENTROPIC_ACCESSIBILITY",
+      "rank": 5,
+      "question": "Can code-realizable constraints create large kinetic bottlenecks despite geodesic connectivity and a constant score field, and do empirical codon weights materially change their relevant masses?",
+      "initial_status": "deferred_novelty_gate",
+      "hypotheses": ["Hard-core Glauber bottlenecks are established; a codon embedding alone is insufficient novelty.", "A useful contribution would require a code-specific tractable classification or an independently supported weighting effect."],
+      "pilot_gate": "First identify an exact statement beyond existing independent-set and hard-core results. Only then compare a small explicit family with a direct Markov-chain oracle.",
+      "failure_rule": "If it reduces to a standard hard-core example with a change of symbols, retain an explanatory example only and do not launch broad simulations.",
+      "initial_budget": "Literature and analytic triage only; no dynamics simulations in this cycle."
+    }
+  ],
+  "portfolio_decision": "Execute the R1 algebra/control gate, R2 cached-data falsification, and a bounded R3 theoretical probe. Keep R4 as the required independent-evidence eligibility route. Defer R5. R1 folding outcomes require a later committed freeze, not this registry alone.",
+  "claim_boundaries": ["Compatibility is not structural occupancy.", "Engine agreement is not experimental validation.", "A fitted additive residual is descriptive, not held-out predictive performance.", "Nonzero epistasis is neither necessary at order three nor sufficient for an endpoint barrier.", "No exceptional-discovery label without verified novelty and evidence."]
+}
