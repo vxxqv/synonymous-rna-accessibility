@@ -1,0 +1,39 @@
+{
+  "status": "passed",
+  "authorization_status": "root_authorized_actual_output_verification",
+  "input_sha256": {
+    "training_features": "d51ea66a4e358d62fc1574b5f9936367e906e219cd460d43c2698c35ec119ef5",
+    "training_targets": "ed0d9565982cf12118e8c38efd447b1873ea4fca2f2107498e68801630e0d303",
+    "holdout_features": "95c0ab32ac6a050ec96653ff172361898fe50b508a474b1d25156aef679108c2",
+    "design_receipt": "4dbb14a5da828025e13fc0725b8c05a442c52ae779a8f4c7e265d3db5461aa40",
+    "predictions": "41661565bf1eb49398fa5cc9141811db4b0f81b10ff77f55a075984897718b93",
+    "protocol": "219dda125d7a8167b2a45fa67499ac4dc24118e6edcbdee83b540f8b77e27f22",
+    "author_code": "be75c90e4076f29952553fa2a22529c2640db0691cc8237e5078c1d1e2cc25d7",
+    "evaluation": "95fb1c15cfe6148c41a543240e1c84db0d54b910cbe974eeec26914202ceb2ac",
+    "holdout_targets": "a58306954614e71adde4e8bb2032622e311c00160fdacb4a30bf2c86e0f60817",
+    "commit_receipt": "b61e51aa81df4faa3685c3e4436aaf38328b8d6f96117c6f8dd7f866edb1991a"
+  },
+  "verifier_sha256": "896f580c33b8f24e3f44180501c51fd141c2b379b1d6f0631aecf5a75558c246",
+  "reference_core_sha256": "a5255167a8182d36e107db804d42b87a488e3dc22361cc75c57772a7729c8786",
+  "runtime": {
+    "implementation": "CPython",
+    "python": "3.12.14",
+    "numpy": "2.5.4",
+    "Biopython": "1.88"
+  },
+  "checks": 59268,
+  "numerical_values_compared": 240144,
+  "maximum_abs_difference": 3.397282455352979e-13,
+  "failures": [],
+  "prediction_vectors": 9,
+  "OOF_vectors": 35,
+  "ridge_penalty_selections": 7,
+  "evaluation_checked": true,
+  "tolerances": {
+    "prediction_atol": 1e-09,
+    "prediction_rtol": 1e-10,
+    "score_atol": 1e-12,
+    "score_rtol": 1e-10
+  },
+  "limits": "Author code hashed, never imported. No source eligibility/protein-group recomputation. Historical Git not reauthenticated. Named algorithms only; not biological validity or causal calibration."
+}

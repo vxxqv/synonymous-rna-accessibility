@@ -1,0 +1,65 @@
+{
+  "status": "ready_for_root_visual_review",
+  "authoritative_export_directory": "final_v5",
+  "integration_panel_data": "panel_data/Figure_12_v5.json",
+  "files": {
+    "render_figure12.py": {
+      "sha256": "4b190746f0523812cf2c03b2b40c57d78da1a2b52c62beebc21970c5079531cc",
+      "bytes": 8783
+    },
+    "prepare_panel_data.py": {
+      "sha256": "2a9ec32a41ca5c1f14de3a891a7cdae71ddde0ddf5677b06f2f206734d9a53cf",
+      "bytes": 7349
+    },
+    "check_layout.py": {
+      "sha256": "eb8bcda4c173fc1ad7af8762bcc5ec84b8ec69f88e661c60392d61706028f725",
+      "bytes": 3085
+    },
+    "visual_spec.json": {
+      "sha256": "19ffd0f10e12fce9110ca931d1eeb3c5af655ed0efe07b649f4389b77ab2dbb0",
+      "bytes": 1489
+    },
+    "panel_data/Figure_12_v5.json": {
+      "sha256": "3f40c1d627effd1fb0934b6ff676952bcca7030ae88e00b774b5576d061dbf31",
+      "bytes": 1605663
+    },
+    "final_v5/Figure_12.pdf": {
+      "sha256": "bf03b6d6216db24fc54786ba7adebe13d1154eb437353df287853052f17035e4",
+      "bytes": 122793
+    },
+    "final_v5/Figure_12.svg": {
+      "sha256": "3dce3ab532cdeef6685f492e6ca9086facf80f4d41882e0a7bbd3c12a892a527",
+      "bytes": 933290
+    },
+    "final_v5/Figure_12.png": {
+      "sha256": "535880fdfd39a14c5f7cfb91a501fad87025b82b648455a68f3b2b84e4c91969",
+      "bytes": 1563313
+    },
+    "final_v5/render_receipt.json": {
+      "sha256": "7b759a3dca3ff36d83b7511084e6eb76a5f99265a37a208ad4cec32059a0cec5",
+      "bytes": 1019
+    },
+    "qa_v5/layout_receipt.json": {
+      "sha256": "fc096f60658e7e37ae9a8e720068117c44445aeb1c4f7f9f6d4f04bf49dd2549",
+      "bytes": 530
+    },
+    "qa_v5/Figure_12_pdf_review.png": {
+      "sha256": "4ab883ec2976934d713ee1185dcb39ef82afbd04aa8967e42c30a6d30f6a6266",
+      "bytes": 341115
+    },
+    "qa_v5/Figure_12_grayscale.png": {
+      "sha256": "a3d15e3007ca12b2fdb8a23f0fc971ffc88ba28abc7d84b74959948d411347c3",
+      "bytes": 175637
+    },
+    "Figure_12_Review.md": {
+      "sha256": "ee85ce22004845b112bb32e94da5dd46959c53ced84d482b43645aa3aea7b3cb",
+      "bytes": 6289
+    },
+    "qa_v5/guard_receipt.json": {
+      "sha256": "6ab637466c1be8e9ce1589c4eb6e8f39836e8e37ce275d9fdd14bd20966aa2fd",
+      "bytes": 184
+    }
+  },
+  "no_shared_source_edits": true,
+  "no_new_scientific_analyses": true
+}

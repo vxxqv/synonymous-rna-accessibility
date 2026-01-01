@@ -1,0 +1,32 @@
+{
+  "command": [
+    "C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\work\\env\\Scripts\\python.exe",
+    "-I",
+    "-B",
+    "\\\\?\\C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\outputs\\synonymous-rna-accessibility\\analysis\\programme\\retrospective\\cnot3_v2_exploratory\\independent_review\\verifier_copy\\verify.py",
+    "--training-features",
+    "\\\\?\\C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\work\\decay_cycle4\\execution\\operational_cohort_v2\\model_inputs\\training_predictors.json",
+    "--training-targets",
+    "\\\\?\\C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\work\\decay_cycle4\\execution\\operational_cohort_v2\\model_inputs\\training_targets.json",
+    "--holdout-features",
+    "\\\\?\\C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\work\\decay_cycle4\\execution\\operational_cohort_v2\\model_inputs\\holdout_predictors.json",
+    "--design-receipt",
+    "\\\\?\\C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\work\\decay_cycle4\\execution\\operational_design_receipt.json",
+    "--predictions",
+    "\\\\?\\C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\work\\decay_cycle4\\execution\\operational_prediction_v2\\predictions.json",
+    "--protocol",
+    "\\\\?\\C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\outputs\\synonymous-rna-accessibility\\analysis\\programme\\retrospective\\cnot3_v2_exploratory\\protocol.md",
+    "--author-code",
+    "\\\\?\\C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\outputs\\synonymous-rna-accessibility\\analysis\\programme\\retrospective\\cnot3_v2_exploratory\\implementation\\predict.py",
+    "--evaluation",
+    "\\\\?\\C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\work\\decay_cycle4\\execution\\operational_evaluation_v2\\evaluation.json",
+    "--holdout-targets",
+    "\\\\?\\C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\work\\decay_cycle4\\execution\\operational_cohort_v2\\sealed_evaluation\\holdout_targets.json",
+    "--commit-receipt",
+    "\\\\?\\C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\work\\decay_cycle4\\execution\\operational_prediction_commit_receipt.json",
+    "--authorization",
+    "\\\\?\\C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\work\\decay_cycle4\\execution\\independent_evaluation_authorization.json",
+    "--out",
+    "\\\\?\\C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\work\\decay_cycle4\\execution\\independent_evaluation_v2"
+  ]
+}

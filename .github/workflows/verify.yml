@@ -62,6 +62,21 @@ jobs:
           path: ${{ runner.temp }}/ci-persist-features/
           if-no-files-found: warn
           retention-days: 14
+      - name: Replay exact CNOT3 source diagnosis without network or Git
+        run: python -I -B analysis/programme/retrospective/cnot3_v2_exploratory/source_diagnosis/portable_replay/replay.py --repo . --out "${{ runner.temp }}/ci-cnot3-source"
+      - name: Check CNOT3 numerical replay guards
+        run: python -I -B analysis/programme/retrospective/cnot3_v2_exploratory/final_numerical_replay/test_replay.py
+      - name: Independently replay all CNOT3 predictions and scored diagnostics
+        id: cnot3_numerical
+        run: python -I -B analysis/programme/retrospective/cnot3_v2_exploratory/final_numerical_replay/replay.py --archive-root . --out "${{ runner.temp }}/ci-cnot3-numerical"
+      - name: Retain CNOT3 numerical replay evidence
+        if: ${{ always() && steps.cnot3_numerical.outcome != 'skipped' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: cnot3-replay-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ runner.temp }}/ci-cnot3-numerical/
+          if-no-files-found: warn
+          retention-days: 14
       - name: Independently replay frozen synthetic predictions
         run: python analysis/verify_prediction_pilot.py
       - name: Replay finite exact verification

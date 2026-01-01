@@ -1,5 +1,5 @@
 {
-  "status": "cycle3_scientific_checkpoint_closed_cycle4_data_eligibility_active_release_pending",
+  "status": "scientific_comparisons_closed_cnot3_practical_criterion_failed",
   "claims": [
     {
       "id": "C01",
@@ -168,21 +168,46 @@
       "strongest_challenge": "Public data availability alone does not establish that measurements answer the proposed synonymous-accessibility question.",
       "limitation": "Missing metadata or incompatible endpoints could be resolved by future data recovery; no result is inferred from the missing analysis.",
       "decision": "Stop expansion on these sources. Preserve the gap and required next evidence."
+    },
+    {
+      "id": "C22",
+      "status": "Failed practical prediction criterion; exploratory after source exposure",
+      "claim": "CNOT3 association adds only a small increment to the fixed baseline/composition prediction comparison.",
+      "strongest_challenge": "Noisy association, baseline coupling, endpoint error and strong composition baselines can limit incremental prediction; a failed model criterion does not refute CNOT3 function.",
+      "limitation": "Source-exposed operational cohort, one study, no calibrated biological uncertainty, unresolved 5,480 versus 5,481 discrepancy.",
+      "decision": "Retire the examined holdout from tuning. Retain the small gain and practical failure without causal or folding-mechanism inference."
+    },
+    {
+      "id": "C23",
+      "status": "Established conditional identification calculation; measured allocation unresolved",
+      "claim": "Baseline stability, relative lifetime response and pathway-specific decay contribution are distinct.",
+      "strongest_challenge": "Single-exponential kinetics, additive rates and independent nuisance ranges are assumptions; a positive residual-activity lower bound can narrow the full interval.",
+      "limitation": "Elementary elimination is not a new general decay theory. No justified biological nuisance bounds or half-life error model were recovered.",
+      "decision": "Retain conditional bounds and descriptive perturbation effects; do not allocate a molecular pathway rate."
+    },
+    {
+      "id": "C24",
+      "status": "Unresolved exact reproduction; operational source diagnosis verified",
+      "claim": "The deposited CNOT3 table supports an exact operational cohort but does not reproduce the published count.",
+      "strongest_challenge": "The undocumented historical selector and rounding operation cannot be reconstructed uniquely from numerical compatibility.",
+      "limitation": "A missing identifier is not proven a typographical error, and the original gate remains failed.",
+      "decision": "Preserve the original failure and separate the explicitly exploratory operational successor."
     }
   ],
   "examined_validation_sets_retired": [
     "acquisition_v1",
     "gill_reference_pilot",
     "gill_multiclass_v1",
-    "persist_v2"
+    "persist_v2",
+    "cnot3_v2_exploratory"
   ],
   "adaptation_boundary": "No examined validation cohort is available for further tuning described as confirmation.",
-  "scope": "Abstract mathematics, synthetic benchmarks and retrospective eligible reporter data. No new experimental engineering.",
-  "next_scientific_step": "Recover biologically independent preparation and paired normalization metadata, or obtain an eligible independent complete genotype landscape. Do not increase model complexity on these failed validation sets.",
-  "next_cycle": {
-    "scope": "Human CNOT3 RNA decay source and identifiability audit; a separate biological question from the bacterial reporter.",
-    "validation_outcomes_opened": false,
-    "protocol_status": "Not yet frozen; source and measurement eligibility first.",
-    "archive_status": "Next Zenodo version remains an unpublished draft."
+  "scope": "Abstract mathematics, synthetic benchmarks and retrospective eligible reporter and human transcript measurements. No new experimental engineering.",
+  "next_scientific_step": "No expansion on examined holdouts. New source-processing, biological-unit and endpoint-error evidence or independent material is needed before stronger claims.",
+  "cnot3_cycle": {
+    "scope": "CNOT3 source diagnosis, fixed exploratory prediction and kinetic identifiability completed.",
+    "validation_outcomes_opened": true,
+    "protocol_status": "Original gate remains failed. One post-exposure operational amendment frozen, predictions committed before scoring, criterion failed.",
+    "archive_status": "Release certification is external to this computational tree; consult the versioned archive record and exact commit."
   }
 }

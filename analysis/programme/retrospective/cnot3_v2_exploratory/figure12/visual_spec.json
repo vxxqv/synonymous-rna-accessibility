@@ -1,0 +1,14 @@
+{
+  "claim": "The source-exposed exploratory association model misses the practical5% criterion; coupled contrasts do not identify a pathway rate.",
+  "audience": "expert",
+  "visual_form": "table_plus_chart",
+  "metric": {"name":"Held-out MAE of natural-log half-life","unit":"log scale","direction":"lower","aggregation":"equal-gene mean absolute error","denominator":"1112 model-held-out genes","precision_decimals":5,"scale":"linear"},
+  "series_order": ["no_change","baseline_linear","baseline_core","amino_acid_core","codon_core","association","codon_noSE","association_noSE","association_nonlinear"],
+  "uncertainty": {"available":false,"type":"none","sample_or_seed_count":1112,"note":"No calibrated biological confidence interval; deterministic frozen scores only."},
+  "target": {"medium":"paper","width":174,"height":164,"unit":"mm","minimum_text_size_pt":8.5,"background":"white"},
+  "annotations": [{"purpose":"threshold","text":"5% primary practical criterion","target":"panel b"},{"purpose":"counterexample","text":"Same observed rates permit different pathway p","target":"panel d"}],
+  "selected_reference_ids": ["OAI-VIS-002","OAI-VIS-005","OAI-VIS-008"],
+  "output_formats": ["pdf","svg","png"],
+  "caption_requirements": ["task","sample","estimator","uncertainty","exclusions","metric_direction"],
+  "exceptions": [{"rule":"Default palette","reason":"Reuse the established Figure10/11 DejaVuSans and ink/teal/grey/orange palette for manuscript-family consistency."}]
+}

@@ -153,7 +153,7 @@ python -I -B analysis/programme/retrospective/persist_v2/independent_replay/repl
 
 This independently reconstructs tuning, predictions, metrics and influence diagnostics from immutable features and the 37 selected target cells. It treats MUP as an input and does not refold sequences. Deposited cellular coefficient units are not calibrated physical half-lives; source-family separation does not establish independent biological preparations or complete mutation paths. The protocol's original Windows binary hashes remain historical provenance. See the module README for scope and source attribution.
 
-The separate frozen feature replay reconstructs all 83 features for all 37 selected constructs, including the fixed ViennaRNA ensemble calculation. Its sole local full replay reproduces every value exactly. It uses the original scientific functions and parameters, checks selected sequence hashes, and stops on warnings or discrepancies. The archived original wrapper and its pre-execution warning-guard correction remain visible. This verifies the specified calculation, not biological validity or measured structure.
+The separate frozen feature replay reconstructs all 83 features for all 37 selected constructs, including the fixed ViennaRNA ensemble calculation. Full Windows and Linux replays reproduce every value exactly. The initial Linux guard failure was traced to CRLF versus LF in an otherwise identical parameter file; the original failure and a narrowly scoped line-ending correction remain archived. It uses the original scientific functions and parameters, checks selected sequence hashes, and stops on warnings or discrepancies. The archived original wrapper and its pre-execution warning-guard correction remain visible. This verifies the specified calculation, not biological validity or measured structure.
 
 ```text
 python -I -B analysis/programme/retrospective/persist_v2/feature_replay/check_guards.py --output /new/path/outside/repository/persist-feature-guards
@@ -161,6 +161,26 @@ python -I -B analysis/programme/retrospective/persist_v2/feature_replay/replay.p
 ```
 
 These commands require the pinned dependencies already installed. They use no Git, network, outcome access, refitting, retries or fallback settings. The runtime records its actual platform and binary hashes; original Windows binary identity is not required for cross-platform replay.
+
+### CNOT3 association and baseline lifetime
+
+The original published-cohort gate remains failed: independent readers recover 5,480 rather than 5,481 genes, and the historical missing identifier remains unresolved. One documented operational-cohort amendment preserved all scientific model choices. It is exploratory after source-outcome exposure, not untouched or independent experimental validation. No original value was corrected to repair the gate.
+
+The fixed models use 4,304 training and 1,112 held-out genes with related-protein grouping. Primary MAE is 0.339316. Association improves MAE by only 0.113113% relative to codon and 0.041944% relative to the strongest primary baseline, failing the 5% criterion. All nine models, fixed sensitivities, component deletions and 10,008 held-out prediction/error rows remain. Independent numerical reconstruction passed 59,268 checks over 240,144 numerical values. The examined holdout is retired from tuning.
+
+`results/programme/cnot3_v2_exploratory/result_report.md` gives complete interpretation and source-exposure limits. The original failed gate and source evidence are preserved alongside the explicitly amended successor. Half-life uncertainty is uncalibrated; component deletions are influence diagnostics. Elementary kinetic bounds are conditional identification sets, not confidence intervals or a pathway-specific molecular rate estimate.
+
+```text
+python -I -B analysis/programme/retrospective/cnot3_v2_exploratory/source_diagnosis/portable_replay/replay.py --repo . --out /new/path/outside/repository/cnot3-source
+```
+
+This byte-pinned offline source replay checks the complete deposited population and arithmetic diagnosis without Git or network. The final independent numerical replay and its ten guard tests are available in `analysis/programme/retrospective/cnot3_v2_exploratory/final_numerical_replay/`. Run the following from the archive root with the pinned runtime:
+
+```text
+python -I -B analysis/programme/retrospective/cnot3_v2_exploratory/final_numerical_replay/replay.py --archive-root . --out /new/path/outside/repository/cnot3-numerical
+```
+
+It verifies every frozen prediction and all scored diagnostics without importing author code. The source and numerical replays require new output directories. Historical access order is not authenticated by numerical reconstruction.
 
 ### Figure-source reproduction
 
@@ -173,6 +193,7 @@ python analysis/render_joint_uncertainty_figure.py --out /path/outside/this/repo
 python analysis/render_gill_pilot_figure.py --outdir /path/outside/this/repository/figures --qa /path/outside/this/repository/figure9qa
 python analysis/render_gill_multiclass_figure.py --outdir /path/outside/this/repository/figures --qa /path/outside/this/repository/figure10qa
 python analysis/render_persist_figure.py --outdir /path/outside/this/repository/figures --qa /path/outside/this/repository/figure11qa --manifest /path/outside/this/repository/Figure_11.json
+python analysis/render_cnot3_figure.py --data results/figure_data/Figure_12.json --expected-data-sha256 3f40c1d627effd1fb0934b6ff676952bcca7030ae88e00b774b5576d061dbf31 --out /new/path/outside/repository/figure12
 ```
 
 Figure 9 uses the frozen panel-data manifest `results/figure_data/Figure_9.json`. Its renderer verifies the saved training and validation source hashes, recomputes the displayed summaries, and exports the complete failed prediction comparison without opening the source workbook or refitting models. The required `--outdir` and `--qa` arguments are confirmed by `python analysis/render_gill_pilot_figure.py --help`.

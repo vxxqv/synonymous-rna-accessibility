@@ -1,0 +1,30 @@
+{
+  "schema": "Figure12_render_receipt_v1",
+  "data_sha256": "3f40c1d627effd1fb0934b6ff676952bcca7030ae88e00b774b5576d061dbf31",
+  "renderer_sha256": "4b190746f0523812cf2c03b2b40c57d78da1a2b52c62beebc21970c5079531cc",
+  "physical_dimensions_mm": [
+    174,
+    164
+  ],
+  "minimum_text_pt": 8.5,
+  "visible_text_count": 73,
+  "text_outside_page": [],
+  "models_plotted": 9,
+  "kinetic_points_plotted": 5416,
+  "points_excluded": 0,
+  "x_plot_range_rank_percent": [
+    -2,
+    102
+  ],
+  "y_plot_range_rank_percent": [
+    -2,
+    102
+  ],
+  "manual_visual_review": "Pending separate review report",
+  "asset_sha256": {
+    "Figure_12.pdf": "bf03b6d6216db24fc54786ba7adebe13d1154eb437353df287853052f17035e4",
+    "Figure_12.png": "535880fdfd39a14c5f7cfb91a501fad87025b82b648455a68f3b2b84e4c91969",
+    "Figure_12.svg": "3dce3ab532cdeef6685f492e6ca9086facf80f4d41882e0a7bbd3c12a892a527",
+    "Figure_12_preview.png": "35492e342a4eba53e35034948b001c91ef4e3ed4b29d3cf8c648152b0181bb3a"
+  }
+}

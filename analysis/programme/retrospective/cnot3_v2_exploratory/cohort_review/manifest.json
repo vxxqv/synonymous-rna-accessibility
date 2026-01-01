@@ -1,0 +1,11 @@
+{
+  "status": "complete_pass",
+  "sha256": {
+    "plan.md": "9352e078771937be269bca514a769f57205a8d0ffabafb0b887dc3d549e47bdf",
+    "check_cohort.py": "e269c7b3c4f1407d0659f2b4c7000706768a6efac7e6dafbda6b6d95cbb3243b",
+    "result.json": "59801f702ea851992be07bbba2121e50cf6e85b1ddbbf817ee96086a5a692d1e",
+    "independent_candidate_distances.json": "aa693f0d2d965e136719ef1dcd87f8c143cd6b9e7be16e566699a1e18229d68c",
+    "review.md": "34f9f16717b67213673850e7d28bbcf08fff53ba5041db887b5ef16c324b01c1"
+  },
+  "scope": "Independent operational eligibility/partition/fullcandidate grouping audit; no target decoding or fitting"
+}

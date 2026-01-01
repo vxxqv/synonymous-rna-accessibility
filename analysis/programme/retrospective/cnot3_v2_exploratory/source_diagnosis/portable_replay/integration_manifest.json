@@ -1,0 +1,53 @@
+{
+  "status": "portable_replay_verified_ready_for_root_integration",
+  "files": [
+    {
+      "source_name": "replay.py",
+      "repository_target": "analysis/programme/retrospective/cnot3_v2_exploratory/source_diagnosis/portable_replay/replay.py",
+      "bytes": 8631,
+      "sha256": "bee4d91e3d72788a0c1164d2e8557e5e40fa083ccc6865a4a6a131dee9da51b1"
+    },
+    {
+      "source_name": "README.md",
+      "repository_target": "analysis/programme/retrospective/cnot3_v2_exploratory/source_diagnosis/portable_replay/README.md",
+      "bytes": 3941,
+      "sha256": "feb89a728c0ad9a28f2eaa4942c43ea5a84d3558a4827ff2cd2fa8abded1488d"
+    },
+    {
+      "source_name": "input_manifest.json",
+      "repository_target": "analysis/programme/retrospective/cnot3_v2_exploratory/source_diagnosis/portable_replay/input_manifest.json",
+      "bytes": 3113,
+      "sha256": "93c1d16351c814018cc8b3d9db7c468964aeaf8d6c677c57243051aa52f3be84"
+    },
+    {
+      "source_name": "verification_receipt.json",
+      "repository_target": "analysis/programme/retrospective/cnot3_v2_exploratory/source_diagnosis/portable_replay/verification_receipt.json",
+      "bytes": 1393,
+      "sha256": "bbfbb763afca0366037ddbda641c221c14e923208005ffeb82f9cfbcf09c4799"
+    },
+    {
+      "source_name": "verified_replay_receipt.json",
+      "repository_target": "analysis/programme/retrospective/cnot3_v2_exploratory/source_diagnosis/portable_replay/verified_replay_receipt.json",
+      "bytes": 6148,
+      "sha256": "da367ed6c1eda3a1ab3253e82aba8f03e31f9fd06d160cccaffe13ac41e664d3"
+    }
+  ],
+  "self_repository_target": "analysis/programme/retrospective/cnot3_v2_exploratory/source_diagnosis/portable_replay/integration_manifest.json",
+  "excluded_local_paths": [
+    "archive_fixture/",
+    "verification_archive/",
+    "verification_run/",
+    "verify_portability.py",
+    "make_handoff.py"
+  ],
+  "source_scripts_changed": false,
+  "all_complete_comparisons_passed": true,
+  "provenance_fields_ignored": [],
+  "guard_checks": [
+    "overwrite",
+    "in_repository_output",
+    "-O",
+    "-OO"
+  ],
+  "original_failed_gate_preserved": true
+}

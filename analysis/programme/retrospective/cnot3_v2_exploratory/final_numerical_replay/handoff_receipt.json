@@ -1,0 +1,66 @@
+{
+  "status": "passed",
+  "task": "offline final independent numerical replay",
+  "delivered_files": {
+    "replay.py": "71ce3599cc4f9636644eae7bb77841f54fcb0bc987ba5b99e425acf0b747d20b",
+    "manifest.json": "379b1cdbe4fd394fa6137e45e2fe3eec9b3a0352cda3108d7c0d733ee523a2ff",
+    "README.md": "411ae62bfa5d0728d346b7d54b4d7fd9ce45946805e5d3d4d56cd5be8e72d440",
+    "test_replay.py": "efdbabe6f18ce617d76bb257c9dd0ce9e3015e01e81b2b12a1b065996e493118",
+    "report.md": "15309cecf25c1c009f728a75172e7123f6627796a6a8d13b1b740d1c2f162ef2",
+    "guard_tests_stdout.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "guard_tests_stderr.txt": "9b65884629c38599505ee417f067d1c0cef1e5c9535d0d029f12c7ed1e11e2f0",
+    "isolated_replay_v1/replay_receipt.json": "bcd4b58da47f597c9281704910c2eaab2433324f3f6a24a1cf3697a145f4fb3b",
+    "isolated_replay_v1/verification/verification.json": "9594b34f602488594a855a249a7e34db260de108a7afdf87d1eae3e631840c45"
+  },
+  "archive_fixture_exact_files": [
+    "analysis/programme/retrospective/cnot3_v2_exploratory/cohort_review/check_cohort.py",
+    "analysis/programme/retrospective/cnot3_v2_exploratory/cohort_review/independent_candidate_distances.json",
+    "analysis/programme/retrospective/cnot3_v2_exploratory/cohort_review/manifest.json",
+    "analysis/programme/retrospective/cnot3_v2_exploratory/cohort_review/plan.md",
+    "analysis/programme/retrospective/cnot3_v2_exploratory/cohort_review/result.json",
+    "analysis/programme/retrospective/cnot3_v2_exploratory/cohort_review/review.md",
+    "analysis/programme/retrospective/cnot3_v2_exploratory/implementation/predict.py",
+    "analysis/programme/retrospective/cnot3_v2_exploratory/independent_review/verifier_copy/reference_core.py",
+    "analysis/programme/retrospective/cnot3_v2_exploratory/independent_review/verifier_copy/verify.py",
+    "analysis/programme/retrospective/cnot3_v2_exploratory/protocol.md",
+    "results/programme/cnot3_v2_exploratory/cohort/model_inputs/holdout_predictors.json",
+    "results/programme/cnot3_v2_exploratory/cohort/model_inputs/training_predictors.json",
+    "results/programme/cnot3_v2_exploratory/cohort/model_inputs/training_targets.json",
+    "results/programme/cnot3_v2_exploratory/cohort/receipt.json",
+    "results/programme/cnot3_v2_exploratory/cohort/sealed_evaluation/holdout_targets.json",
+    "results/programme/cnot3_v2_exploratory/evaluation/evaluation.json",
+    "results/programme/cnot3_v2_exploratory/evaluation/receipt.json",
+    "results/programme/cnot3_v2_exploratory/independent_evaluation/verification.json",
+    "results/programme/cnot3_v2_exploratory/independent_evaluation_authorization.json",
+    "results/programme/cnot3_v2_exploratory/independent_prediction/verification.json",
+    "results/programme/cnot3_v2_exploratory/operational_design_receipt.json",
+    "results/programme/cnot3_v2_exploratory/operational_prediction_commit_receipt.json",
+    "results/programme/cnot3_v2_exploratory/prediction/predictions.json",
+    "results/programme/cnot3_v2_exploratory/prediction/receipt.json"
+  ],
+  "fixture_has_git_directory": false,
+  "all_24_integrated_repository_files_match_manifest": true,
+  "guard_test_count": 10,
+  "guard_test_returncode": 0,
+  "replay": {
+    "checks": 59268,
+    "numerical_values_compared": 240144,
+    "maximum_abs_difference": 3.397282455352979e-13,
+    "exact_receipt_content_match": true,
+    "exact_receipt_bytes_match": true,
+    "runtime": {
+      "implementation": "CPython",
+      "python": "3.12.14",
+      "numpy": "2.5.4",
+      "Biopython": "1.88"
+    },
+    "tolerances": {
+      "prediction_atol": 1e-09,
+      "prediction_rtol": 1e-10,
+      "score_atol": 1e-12,
+      "score_rtol": 1e-10
+    }
+  },
+  "no_original_repository_files_modified": true,
+  "limitations": "No fresh source audit, historical Git authentication, causal inference or biological generalization. Existing frozen numerical definitions only."
+}

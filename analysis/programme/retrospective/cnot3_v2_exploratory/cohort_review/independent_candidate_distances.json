@@ -1,0 +1,362 @@
+[
+  {
+    "left": "ENSG00000006125",
+    "right": "ENSG00000100280",
+    "distance": 158
+  },
+  {
+    "left": "ENSG00000008256",
+    "right": "ENSG00000108669",
+    "distance": 66
+  },
+  {
+    "left": "ENSG00000025800",
+    "right": "ENSG00000196911",
+    "distance": 104
+  },
+  {
+    "left": "ENSG00000055163",
+    "right": "ENSG00000273749",
+    "distance": 203
+  },
+  {
+    "left": "ENSG00000057608",
+    "right": "ENSG00000203879",
+    "distance": 63
+  },
+  {
+    "left": "ENSG00000058262",
+    "right": "ENSG00000065665",
+    "distance": 40
+  },
+  {
+    "left": "ENSG00000065135",
+    "right": "ENSG00000114353",
+    "distance": 50
+  },
+  {
+    "left": "ENSG00000067560",
+    "right": "ENSG00000143878",
+    "distance": 32
+  },
+  {
+    "left": "ENSG00000072110",
+    "right": "ENSG00000130402",
+    "distance": 195
+  },
+  {
+    "left": "ENSG00000072401",
+    "right": "ENSG00000131508",
+    "distance": 16
+  },
+  {
+    "left": "ENSG00000078369",
+    "right": "ENSG00000114450",
+    "distance": 31
+  },
+  {
+    "left": "ENSG00000078369",
+    "right": "ENSG00000172354",
+    "distance": 33
+  },
+  {
+    "left": "ENSG00000083312",
+    "right": "ENSG00000105576",
+    "distance": 146
+  },
+  {
+    "left": "ENSG00000092847",
+    "right": "ENSG00000126070",
+    "distance": 135
+  },
+  {
+    "left": "ENSG00000092847",
+    "right": "ENSG00000134698",
+    "distance": 150
+  },
+  {
+    "left": "ENSG00000101911",
+    "right": "ENSG00000147224",
+    "distance": 63
+  },
+  {
+    "left": "ENSG00000102054",
+    "right": "ENSG00000162521",
+    "distance": 87
+  },
+  {
+    "left": "ENSG00000102753",
+    "right": "ENSG00000186432",
+    "distance": 74
+  },
+  {
+    "left": "ENSG00000103769",
+    "right": "ENSG00000185236",
+    "distance": 19
+  },
+  {
+    "left": "ENSG00000104388",
+    "right": "ENSG00000129472",
+    "distance": 34
+  },
+  {
+    "left": "ENSG00000104695",
+    "right": "ENSG00000113575",
+    "distance": 16
+  },
+  {
+    "left": "ENSG00000105443",
+    "right": "ENSG00000108669",
+    "distance": 76
+  },
+  {
+    "left": "ENSG00000105968",
+    "right": "ENSG00000164032",
+    "distance": 3
+  },
+  {
+    "left": "ENSG00000106829",
+    "right": "ENSG00000196781",
+    "distance": 141
+  },
+  {
+    "left": "ENSG00000109332",
+    "right": "ENSG00000131508",
+    "distance": 10
+  },
+  {
+    "left": "ENSG00000109971",
+    "right": "ENSG00000204388",
+    "distance": 93
+  },
+  {
+    "left": "ENSG00000111196",
+    "right": "ENSG00000162385",
+    "distance": 3
+  },
+  {
+    "left": "ENSG00000112763",
+    "right": "ENSG00000124508",
+    "distance": 106
+  },
+  {
+    "left": "ENSG00000113552",
+    "right": "ENSG00000163281",
+    "distance": 48
+  },
+  {
+    "left": "ENSG00000113658",
+    "right": "ENSG00000170365",
+    "distance": 48
+  },
+  {
+    "left": "ENSG00000114450",
+    "right": "ENSG00000172354",
+    "distance": 34
+  },
+  {
+    "left": "ENSG00000115073",
+    "right": "ENSG00000138107",
+    "distance": 36
+  },
+  {
+    "left": "ENSG00000115091",
+    "right": "ENSG00000133627",
+    "distance": 39
+  },
+  {
+    "left": "ENSG00000116478",
+    "right": "ENSG00000196591",
+    "distance": 78
+  },
+  {
+    "left": "ENSG00000120693",
+    "right": "ENSG00000170365",
+    "distance": 89
+  },
+  {
+    "left": "ENSG00000120696",
+    "right": "ENSG00000165572",
+    "distance": 79
+  },
+  {
+    "left": "ENSG00000123136",
+    "right": "ENSG00000198563",
+    "distance": 43
+  },
+  {
+    "left": "ENSG00000123416",
+    "right": "ENSG00000167552",
+    "distance": 2
+  },
+  {
+    "left": "ENSG00000124635",
+    "right": "ENSG00000158373",
+    "distance": 3
+  },
+  {
+    "left": "ENSG00000125249",
+    "right": "ENSG00000181467",
+    "distance": 17
+  },
+  {
+    "left": "ENSG00000126945",
+    "right": "ENSG00000169045",
+    "distance": 47
+  },
+  {
+    "left": "ENSG00000128245",
+    "right": "ENSG00000170027",
+    "distance": 33
+  },
+  {
+    "left": "ENSG00000132475",
+    "right": "ENSG00000278828",
+    "distance": 5
+  },
+  {
+    "left": "ENSG00000133275",
+    "right": "ENSG00000151292",
+    "distance": 107
+  },
+  {
+    "left": "ENSG00000134287",
+    "right": "ENSG00000143761",
+    "distance": 7
+  },
+  {
+    "left": "ENSG00000134590",
+    "right": "ENSG00000203950",
+    "distance": 7
+  },
+  {
+    "left": "ENSG00000137267",
+    "right": "ENSG00000137285",
+    "distance": 2
+  },
+  {
+    "left": "ENSG00000137267",
+    "right": "ENSG00000176014",
+    "distance": 42
+  },
+  {
+    "left": "ENSG00000137267",
+    "right": "ENSG00000188229",
+    "distance": 16
+  },
+  {
+    "left": "ENSG00000137267",
+    "right": "ENSG00000196230",
+    "distance": 21
+  },
+  {
+    "left": "ENSG00000137285",
+    "right": "ENSG00000176014",
+    "distance": 41
+  },
+  {
+    "left": "ENSG00000137285",
+    "right": "ENSG00000188229",
+    "distance": 14
+  },
+  {
+    "left": "ENSG00000137285",
+    "right": "ENSG00000196230",
+    "distance": 19
+  },
+  {
+    "left": "ENSG00000138069",
+    "right": "ENSG00000174903",
+    "distance": 17
+  },
+  {
+    "left": "ENSG00000139133",
+    "right": "ENSG00000175548",
+    "distance": 19
+  },
+  {
+    "left": "ENSG00000143761",
+    "right": "ENSG00000168374",
+    "distance": 36
+  },
+  {
+    "left": "ENSG00000156976",
+    "right": "ENSG00000161960",
+    "distance": 40
+  },
+  {
+    "left": "ENSG00000157349",
+    "right": "ENSG00000168872",
+    "distance": 36
+  },
+  {
+    "left": "ENSG00000160072",
+    "right": "ENSG00000197785",
+    "distance": 144
+  },
+  {
+    "left": "ENSG00000164924",
+    "right": "ENSG00000166913",
+    "distance": 33
+  },
+  {
+    "left": "ENSG00000167081",
+    "right": "ENSG00000185630",
+    "distance": 90
+  },
+  {
+    "left": "ENSG00000169564",
+    "right": "ENSG00000197111",
+    "distance": 62
+  },
+  {
+    "left": "ENSG00000170142",
+    "right": "ENSG00000182247",
+    "distance": 33
+  },
+  {
+    "left": "ENSG00000173914",
+    "right": "ENSG00000173933",
+    "distance": 37
+  },
+  {
+    "left": "ENSG00000175470",
+    "right": "ENSG00000221914",
+    "distance": 62
+  },
+  {
+    "left": "ENSG00000175745",
+    "right": "ENSG00000185551",
+    "distance": 57
+  },
+  {
+    "left": "ENSG00000176014",
+    "right": "ENSG00000188229",
+    "distance": 41
+  },
+  {
+    "left": "ENSG00000176014",
+    "right": "ENSG00000196230",
+    "distance": 42
+  },
+  {
+    "left": "ENSG00000178988",
+    "right": "ENSG00000179010",
+    "distance": 18
+  },
+  {
+    "left": "ENSG00000188229",
+    "right": "ENSG00000196230",
+    "distance": 11
+  },
+  {
+    "left": "ENSG00000189180",
+    "right": "ENSG00000196693",
+    "distance": 108
+  },
+  {
+    "left": "ENSG00000196313",
+    "right": "ENSG00000272391",
+    "distance": 66
+  }
+]

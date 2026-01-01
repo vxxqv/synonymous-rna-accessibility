@@ -1,0 +1,762 @@
+{
+  "status": "pass_after_kinetic_quantifier_correction",
+  "checks_count": 109,
+  "failed_checks": [],
+  "checks": [
+    {
+      "name": "evaluation_hash_matches_independent_receipt",
+      "passed": true,
+      "actual": "95fb1c15cfe6148c41a543240e1c84db0d54b910cbe974eeec26914202ceb2ac",
+      "expected": "95fb1c15cfe6148c41a543240e1c84db0d54b910cbe974eeec26914202ceb2ac"
+    },
+    {
+      "name": "independent_check_status",
+      "passed": true,
+      "actual": "passed",
+      "expected": "passed"
+    },
+    {
+      "name": "independent_failures_empty",
+      "passed": true,
+      "actual": [],
+      "expected": []
+    },
+    {
+      "name": "primary_criterion_failed",
+      "passed": true,
+      "actual": false,
+      "expected": false
+    },
+    {
+      "name": "verified_values",
+      "passed": true,
+      "actual": 240144,
+      "expected": 240144
+    },
+    {
+      "name": "verified_max_below_reported",
+      "passed": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "name": "prediction_commit_status",
+      "passed": true,
+      "actual": "root_verified_operational_prediction_commit",
+      "expected": "root_verified_operational_prediction_commit"
+    },
+    {
+      "name": "prediction_commit_verified",
+      "passed": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "name": "prediction_commit_prefix",
+      "passed": true,
+      "actual": "b709472",
+      "expected": "b709472"
+    },
+    {
+      "name": "committed_prediction_hash",
+      "passed": true,
+      "actual": "41661565bf1eb49398fa5cc9141811db4b0f81b10ff77f55a075984897718b93",
+      "expected": "41661565bf1eb49398fa5cc9141811db4b0f81b10ff77f55a075984897718b93"
+    },
+    {
+      "name": "rounded_MAE_association",
+      "passed": true,
+      "actual": 0.339316,
+      "expected": 0.339316
+    },
+    {
+      "name": "rounded_MAE_codon_core",
+      "passed": true,
+      "actual": 0.3397,
+      "expected": 0.3397
+    },
+    {
+      "name": "rounded_MAE_amino_acid_core",
+      "passed": true,
+      "actual": 0.339458,
+      "expected": 0.339458
+    },
+    {
+      "name": "gain_arithmetic_codon_core",
+      "passed": true,
+      "actual": 0.0011311254976537162,
+      "expected": 0.0011311254976537162,
+      "absolute_tolerance": 1e-12
+    },
+    {
+      "name": "rounded_percent_gain_codon_core",
+      "passed": true,
+      "actual": 0.113,
+      "expected": 0.113
+    },
+    {
+      "name": "gain_arithmetic_amino_acid_core",
+      "passed": true,
+      "actual": 0.0004194394675575249,
+      "expected": 0.0004194394675575249,
+      "absolute_tolerance": 1e-12
+    },
+    {
+      "name": "rounded_percent_gain_amino_acid_core",
+      "passed": true,
+      "actual": 0.042,
+      "expected": 0.042
+    },
+    {
+      "name": "gain_arithmetic_no_change",
+      "passed": true,
+      "actual": 0.2834884574396128,
+      "expected": 0.2834884574396128,
+      "absolute_tolerance": 1e-12
+    },
+    {
+      "name": "rounded_percent_gain_no_change",
+      "passed": true,
+      "actual": 28.349,
+      "expected": 28.349
+    },
+    {
+      "name": "gain_arithmetic_baseline_linear",
+      "passed": true,
+      "actual": 0.06394325988275626,
+      "expected": 0.06394325988275626,
+      "absolute_tolerance": 1e-12
+    },
+    {
+      "name": "rounded_percent_gain_baseline_linear",
+      "passed": true,
+      "actual": 6.394,
+      "expected": 6.394
+    },
+    {
+      "name": "gain_arithmetic_baseline_core",
+      "passed": true,
+      "actual": 0.007073687672417713,
+      "expected": 0.007073687672417713,
+      "absolute_tolerance": 1e-12
+    },
+    {
+      "name": "rounded_percent_gain_baseline_core",
+      "passed": true,
+      "actual": 0.707,
+      "expected": 0.707
+    },
+    {
+      "name": "rounded_sensitivity_percent_association_noSE",
+      "passed": true,
+      "actual": 0.1,
+      "expected": 0.1
+    },
+    {
+      "name": "rounded_sensitivity_percent_association_nonlinear",
+      "passed": true,
+      "actual": 0.319,
+      "expected": 0.319
+    },
+    {
+      "name": "primary_RMSE_above_codon",
+      "passed": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "name": "heldout_genes",
+      "passed": true,
+      "actual": 1112,
+      "expected": 1112
+    },
+    {
+      "name": "all9models",
+      "passed": true,
+      "actual": 9,
+      "expected": 9
+    },
+    {
+      "name": "heldout_groups",
+      "passed": true,
+      "actual": 1109,
+      "expected": 1109
+    },
+    {
+      "name": "gain_positive_all_codon_deletions",
+      "passed": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "name": "positive_gain_all_baselines_all_deletions",
+      "passed": true,
+      "actual": false,
+      "expected": false
+    },
+    {
+      "name": "all_deletions5percent",
+      "passed": true,
+      "actual": false,
+      "expected": false
+    },
+    {
+      "name": "rounded_min_deletion_percent",
+      "passed": true,
+      "actual": 0.0783,
+      "expected": 0.0783
+    },
+    {
+      "name": "rounded_max_deletion_percent",
+      "passed": true,
+      "actual": 0.1398,
+      "expected": 0.1398
+    },
+    {
+      "name": "eligible_count",
+      "passed": true,
+      "actual": 5416,
+      "expected": 5416
+    },
+    {
+      "name": "source_overlap",
+      "passed": true,
+      "actual": 5480,
+      "expected": 5480
+    },
+    {
+      "name": "rounded_reference_coverage_percent",
+      "passed": true,
+      "actual": 98.83,
+      "expected": 98.83
+    },
+    {
+      "name": "training_genes",
+      "passed": true,
+      "actual": 4304,
+      "expected": 4304
+    },
+    {
+      "name": "training_groups",
+      "passed": true,
+      "actual": 4280,
+      "expected": 4280
+    },
+    {
+      "name": "holdout_genes",
+      "passed": true,
+      "actual": 1112,
+      "expected": 1112
+    },
+    {
+      "name": "holdout_groups",
+      "passed": true,
+      "actual": 1109,
+      "expected": 1109
+    },
+    {
+      "name": "reproduction_n_input",
+      "passed": true,
+      "actual": 22848,
+      "expected": 22848
+    },
+    {
+      "name": "reproduction_n_IP_candidates",
+      "passed": true,
+      "actual": 7359,
+      "expected": 7359
+    },
+    {
+      "name": "reproduction_n_cohort",
+      "passed": true,
+      "actual": 5480,
+      "expected": 5480
+    },
+    {
+      "name": "reproduction_n_high",
+      "passed": true,
+      "actual": 1000,
+      "expected": 1000
+    },
+    {
+      "name": "reproduction_n_remainder",
+      "passed": true,
+      "actual": 4480,
+      "expected": 4480
+    },
+    {
+      "name": "missing_all_three_fields",
+      "passed": true,
+      "actual": {
+        "missing_or_nonfinite_HL_WT": 1879,
+        "missing_or_nonfinite_HL_CNOT3KO": 1879,
+        "missing_or_nonfinite_HL_FC_LOG2": 1879
+      },
+      "expected": {
+        "missing_or_nonfinite_HL_WT": 1879,
+        "missing_or_nonfinite_HL_CNOT3KO": 1879,
+        "missing_or_nonfinite_HL_FC_LOG2": 1879
+      }
+    },
+    {
+      "name": "raw_ratio_discrepancies",
+      "passed": true,
+      "actual": 49,
+      "expected": 49
+    },
+    {
+      "name": "rounded_max_ratio_error",
+      "passed": true,
+      "actual": "1.23e-09",
+      "expected": "1.23e-09"
+    },
+    {
+      "name": "rounded_10sig_residual",
+      "passed": true,
+      "actual": "5.29e-15",
+      "expected": "5.29e-15"
+    },
+    {
+      "name": "10sig_procedure_not_proven",
+      "passed": true,
+      "actual": false,
+      "expected": false
+    },
+    {
+      "name": "rounded_FC_median_high",
+      "passed": true,
+      "actual": 0.567464,
+      "expected": 0.567464
+    },
+    {
+      "name": "rounded_FC_median_remainder",
+      "passed": true,
+      "actual": 0.479661,
+      "expected": 0.479661
+    },
+    {
+      "name": "rounded_FC_median_difference",
+      "passed": true,
+      "actual": 0.087803,
+      "expected": 0.087803
+    },
+    {
+      "name": "rounded_FC_rank_biserial",
+      "passed": true,
+      "actual": 0.070404,
+      "expected": 0.070404
+    },
+    {
+      "name": "rounded_baseline_rank_biserial",
+      "passed": true,
+      "actual": -0.001822,
+      "expected": -0.001822
+    },
+    {
+      "name": "kinetic_eligible",
+      "passed": true,
+      "actual": 5416,
+      "expected": 5416
+    },
+    {
+      "name": "negative_rates_retained",
+      "passed": true,
+      "actual": 912,
+      "expected": 912
+    },
+    {
+      "name": "rounded_kinetic_rho_log2_lifetime_change__dimensionless_rate_contrast",
+      "passed": true,
+      "actual": 0.826797,
+      "expected": 0.826797
+    },
+    {
+      "name": "rounded_kinetic_rho_baseline_HL__dimensionless_rate_contrast",
+      "passed": true,
+      "actual": -0.581621,
+      "expected": -0.581621
+    },
+    {
+      "name": "rounded_kinetic_rho_baseline_HL__log2_lifetime_change",
+      "passed": true,
+      "actual": -0.141675,
+      "expected": -0.141675
+    },
+    {
+      "name": "rounded_component_MAE_primary",
+      "passed": true,
+      "actual": 0.339724,
+      "expected": 0.339724
+    },
+    {
+      "name": "rounded_component_MAE_codon",
+      "passed": true,
+      "actual": 0.340098,
+      "expected": 0.340098
+    },
+    {
+      "name": "model_CSV_rows",
+      "passed": true,
+      "actual": 9,
+      "expected": 9
+    },
+    {
+      "name": "exported_model_gene_rows",
+      "passed": true,
+      "actual": 10008,
+      "expected": 10008
+    },
+    {
+      "name": "unique_model_gene_rows",
+      "passed": true,
+      "actual": 10008,
+      "expected": 10008
+    },
+    {
+      "name": "influence_CSV_rows",
+      "passed": true,
+      "actual": 1109,
+      "expected": 1109
+    },
+    {
+      "name": "kinetic_CSV_rows",
+      "passed": true,
+      "actual": 5416,
+      "expected": 5416
+    },
+    {
+      "name": "arithmetic_CSV_discrepancy_rows",
+      "passed": true,
+      "actual": 49,
+      "expected": 49
+    },
+    {
+      "name": "arithmetic49_all_failed_original_tolerance",
+      "passed": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "name": "arithmetic49_match_10sig_diagnostic",
+      "passed": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "name": "maximum_export_vs_archive_difference",
+      "passed": true,
+      "actual": 0.0,
+      "expected": 0.0
+    },
+    {
+      "name": "user_report_and_computational_report_byte_identical",
+      "passed": true
+    },
+    {
+      "name": "complete_report_model_rows",
+      "passed": true,
+      "actual": 9,
+      "expected": 9
+    },
+    {
+      "name": "report_rounded_no_change_MAE",
+      "passed": true,
+      "actual": 0.473567,
+      "expected": 0.473567
+    },
+    {
+      "name": "report_rounded_no_change_RMSE",
+      "passed": true,
+      "actual": 0.633015,
+      "expected": 0.633015
+    },
+    {
+      "name": "report_rounded_no_change_spearman",
+      "passed": true,
+      "actual": 0.806023,
+      "expected": 0.806023
+    },
+    {
+      "name": "report_rounded_baseline_linear_MAE",
+      "passed": true,
+      "actual": 0.362495,
+      "expected": 0.362495
+    },
+    {
+      "name": "report_rounded_baseline_linear_RMSE",
+      "passed": true,
+      "actual": 0.484391,
+      "expected": 0.484391
+    },
+    {
+      "name": "report_rounded_baseline_linear_spearman",
+      "passed": true,
+      "actual": 0.806023,
+      "expected": 0.806023
+    },
+    {
+      "name": "report_rounded_baseline_core_MAE",
+      "passed": true,
+      "actual": 0.341733,
+      "expected": 0.341733
+    },
+    {
+      "name": "report_rounded_baseline_core_RMSE",
+      "passed": true,
+      "actual": 0.45646,
+      "expected": 0.45646
+    },
+    {
+      "name": "report_rounded_baseline_core_spearman",
+      "passed": true,
+      "actual": 0.829597,
+      "expected": 0.829597
+    },
+    {
+      "name": "report_rounded_amino_acid_core_MAE",
+      "passed": true,
+      "actual": 0.339458,
+      "expected": 0.339458
+    },
+    {
+      "name": "report_rounded_amino_acid_core_RMSE",
+      "passed": true,
+      "actual": 0.455163,
+      "expected": 0.455163
+    },
+    {
+      "name": "report_rounded_amino_acid_core_spearman",
+      "passed": true,
+      "actual": 0.830842,
+      "expected": 0.830842
+    },
+    {
+      "name": "report_rounded_codon_core_MAE",
+      "passed": true,
+      "actual": 0.3397,
+      "expected": 0.3397
+    },
+    {
+      "name": "report_rounded_codon_core_RMSE",
+      "passed": true,
+      "actual": 0.455042,
+      "expected": 0.455042
+    },
+    {
+      "name": "report_rounded_codon_core_spearman",
+      "passed": true,
+      "actual": 0.83184,
+      "expected": 0.83184
+    },
+    {
+      "name": "report_rounded_association_MAE",
+      "passed": true,
+      "actual": 0.339316,
+      "expected": 0.339316
+    },
+    {
+      "name": "report_rounded_association_RMSE",
+      "passed": true,
+      "actual": 0.455127,
+      "expected": 0.455127
+    },
+    {
+      "name": "report_rounded_association_spearman",
+      "passed": true,
+      "actual": 0.832215,
+      "expected": 0.832215
+    },
+    {
+      "name": "report_rounded_codon_noSE_MAE",
+      "passed": true,
+      "actual": 0.339756,
+      "expected": 0.339756
+    },
+    {
+      "name": "report_rounded_codon_noSE_RMSE",
+      "passed": true,
+      "actual": 0.455048,
+      "expected": 0.455048
+    },
+    {
+      "name": "report_rounded_codon_noSE_spearman",
+      "passed": true,
+      "actual": 0.831871,
+      "expected": 0.831871
+    },
+    {
+      "name": "report_rounded_association_noSE_MAE",
+      "passed": true,
+      "actual": 0.339418,
+      "expected": 0.339418
+    },
+    {
+      "name": "report_rounded_association_noSE_RMSE",
+      "passed": true,
+      "actual": 0.455141,
+      "expected": 0.455141
+    },
+    {
+      "name": "report_rounded_association_noSE_spearman",
+      "passed": true,
+      "actual": 0.832195,
+      "expected": 0.832195
+    },
+    {
+      "name": "report_rounded_association_nonlinear_MAE",
+      "passed": true,
+      "actual": 0.338615,
+      "expected": 0.338615
+    },
+    {
+      "name": "report_rounded_association_nonlinear_RMSE",
+      "passed": true,
+      "actual": 0.454404,
+      "expected": 0.454404
+    },
+    {
+      "name": "report_rounded_association_nonlinear_spearman",
+      "passed": true,
+      "actual": 0.832647,
+      "expected": 0.832647
+    },
+    {
+      "name": "independent_candidate_distance_count",
+      "passed": true,
+      "actual": 72,
+      "expected": 72
+    },
+    {
+      "name": "independent_cohort_audit_passed",
+      "passed": true
+    },
+    {
+      "name": "reference_percent3dp",
+      "passed": true
+    },
+    {
+      "name": "report_has_5percent_failure",
+      "passed": true
+    },
+    {
+      "name": "report_has_exposed_exploratory_scope",
+      "passed": true
+    },
+    {
+      "name": "kinetic_quantifier_corrected_in_final_tex",
+      "passed": true
+    },
+    {
+      "name": "arithmetic49_unique_identifiers",
+      "passed": true,
+      "actual": 49,
+      "expected": 49
+    },
+    {
+      "name": "arithmetic49_ID_set_matches_original_failed_diagnostics",
+      "passed": true
+    }
+  ],
+  "input_sha256": {
+    "evaluation": {
+      "path": "work/decay_cycle4/execution/operational_evaluation_v2/evaluation.json",
+      "sha256": "95fb1c15cfe6148c41a543240e1c84db0d54b910cbe974eeec26914202ceb2ac"
+    },
+    "independent_verification": {
+      "path": "work/decay_cycle4/execution/independent_evaluation_v2/verification.json",
+      "sha256": "9594b34f602488594a855a249a7e34db260de108a7afdf87d1eae3e631840c45"
+    },
+    "prediction_receipt": {
+      "path": "work/decay_cycle4/execution/operational_prediction_v2/receipt.json",
+      "sha256": "1cc29ead47abd0a88e9b2675f71668b9a8875d5c9bf5d6ff548ccf8f15141c03"
+    },
+    "commit_receipt": {
+      "path": "work/decay_cycle4/execution/operational_prediction_commit_receipt.json",
+      "sha256": "b61e51aa81df4faa3685c3e4436aaf38328b8d6f96117c6f8dd7f866edb1991a"
+    },
+    "reproduction": {
+      "path": "work/decay_cycle4/execution/reproduction_v1/result.json",
+      "sha256": "67fa85f42354c8f6413b167d38a55ca3630f7ea12d3b2dad6658b302bb3f2376"
+    },
+    "source_diagnosis": {
+      "path": "work/decay_cycle4/source_discrepancy_review/observed_v2/summary.json",
+      "sha256": "b4279c33b1f425229a3267ac92b21d9589cc65904b93be69db0846125dbcc635"
+    },
+    "candidate_universe": {
+      "path": "work/decay_cycle4/source_discrepancy_review/candidate_universe_check.json",
+      "sha256": "8e2788e581f5729af27b1ca0bcc473b3233792dee82a9608f75a94bfc49667b5"
+    },
+    "eligibility": {
+      "path": "work/decay_cycle4/execution/operational_cohort_v2/eligibility.json",
+      "sha256": "ca2fbb376c10c551d2c53a0a74bacbae27cea09cb63906bbb1778e3c09fddb6f"
+    },
+    "design": {
+      "path": "work/decay_cycle4/execution/operational_cohort_v2/design_guards.json",
+      "sha256": "f4883cd4757117062a2d217b5b3f67559b1047d40d3813d9d00f77628d77612d"
+    },
+    "extension": {
+      "path": "outputs/BMB_Programme/cnot3_extension.tex",
+      "sha256": "dccd300f07d30e210f89f516578cf836ad79625558f3f7913ec4458054010a16",
+      "initial_review_sha256_before_root_correction": "dccd300f07d30e210f89f516578cf836ad79625558f3f7913ec4458054010a16"
+    },
+    "main": {
+      "path": "outputs/BMB_Programme/main.tex",
+      "sha256": "1834322014f5a0e5bff7dfb2c4fe18722054d78fbea773e10003a9a25cd3195c",
+      "initial_review_sha256_before_root_correction": "5ef7423fff8a2c59b0254d75a1f0bb341fa0beea8cba3a8765d1528629e64e36"
+    },
+    "supplement": {
+      "path": "outputs/BMB_Programme/supplement.tex",
+      "sha256": "eea28f08fa5eb1ae16a50615ed7e79ab7a2b6867faec2683a1c0a48c0d4eb5de"
+    },
+    "CNOT3_All_Model_Results.csv": {
+      "path": "outputs\\CNOT3_All_Model_Results.csv",
+      "sha256": "5d992c9f4eb13912f7a8b6f18dfc7faaa3c687686956682b5cbf1990037ff4d6"
+    },
+    "CNOT3_Arithmetic_Diagnostics.csv": {
+      "path": "outputs\\CNOT3_Arithmetic_Diagnostics.csv",
+      "sha256": "ca8a1e6c0e2f056316912e29a0b1b391bf03cb9d5a5f2c56fae969944ebe7ae4"
+    },
+    "CNOT3_Component_Influence.csv": {
+      "path": "outputs\\CNOT3_Component_Influence.csv",
+      "sha256": "7fcc1b410c419ef0ca686c0948e1aeded9b01142516118ecfb51d5ffbf27c206"
+    },
+    "CNOT3_Kinetic_Comparisons.csv": {
+      "path": "outputs\\CNOT3_Kinetic_Comparisons.csv",
+      "sha256": "e7067dd75a536f4f5563cef75c76accf2d5811d6feb3aa9bee7cc1c17871c566"
+    },
+    "CNOT3_Verified_Heldout_Predictions.csv": {
+      "path": "outputs\\CNOT3_Verified_Heldout_Predictions.csv",
+      "sha256": "8a135021b7d21aaf0ec96ed957081d09af6eff87ee95a4536b1ce08aea21be6f"
+    },
+    "user_report": {
+      "path": "outputs/CNOT3_Results_and_Decisions.md",
+      "sha256": "408b10ec3d464124e89d37db4cb68d656ac88fc333cc5ee36cdb68fa7c7dfeec"
+    },
+    "computational_report": {
+      "path": "outputs/synonymous-rna-accessibility/results/programme/cnot3_v2_exploratory/result_report.md",
+      "sha256": "408b10ec3d464124e89d37db4cb68d656ac88fc333cc5ee36cdb68fa7c7dfeec"
+    },
+    "cohort_audit": {
+      "path": "work/decay_cycle4/operational_successor/cohort_review/result.json",
+      "sha256": "59801f702ea851992be07bbba2121e50cf6e85b1ddbbf817ee96086a5a692d1e"
+    }
+  },
+  "source_scope": "Provided existing phase JSONs, user-facing CSVs, manuscript, prior source-diagnosis aggregate records; no source XLSX or new modeling",
+  "required_math_correction": {
+    "location": "cnot3_extension.tex, unrestricted-delta sentence near line143",
+    "issue": "Must also permit r=0 when claiming every p remains feasible with physical background",
+    "counterexample": {
+      "k0": 2,
+      "k1": 1,
+      "rL": 1,
+      "rU": 1,
+      "physical_background": true,
+      "maximum_p": 1,
+      "infeasible_p": 2
+    },
+    "resolved_in_final_review": true,
+    "corrected_wording": "If r=0 remains admissible and delta is unrestricted"
+  },
+  "strongest_defensible_claim": "Exploratory named-algorithm prediction shows0.11311255% MAE gain vs codon and0.04194395% vs AA on1112 model-heldout genes, failing5% every-baseline criterion; no causal/mechanistic inference or independent biological validation",
+  "export_comparison_scope": "Exact numeric comparison for model/prediction/influence/kinetic CSVs. Arithmetic CSV checked for original49ID membership, failure of old tolerance and10sig diagnostic; not all raw/Decimal columns regenerated."
+}

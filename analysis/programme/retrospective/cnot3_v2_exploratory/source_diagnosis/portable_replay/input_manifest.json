@@ -1,0 +1,32 @@
+{
+  "repository_inputs_sha256": {
+    "analysis/programme/retrospective/cnot3_v2_exploratory/source_diagnosis/audit_source.py": "fa3dfe63521b26fc23a3c8850ab2b5e2d5f99be47a23a6d030a3ce3858256be0",
+    "analysis/programme/retrospective/cnot3_v2_exploratory/source_diagnosis/check_candidate_universe.py": "21f02e6e2fce5e4a6ca39e2ff1dafb58a3a20e2f70de1d449f4bdab2af0f576a",
+    "data/programme/cnot3_v1/Carneiro_gene_level_TableS2.xlsx": "a338e7211fcb0ad6bed0b1bfdb57433a5a43266f3a8d93e473b1bf50c583d712",
+    "data/programme/cnot3_v1/reanalysis_gene_ids_only.json": "85fb60552f3c12477d28dbeeafbd171d52828ecb66e30591cefa60f77f482c52",
+    "results/programme/cnot3_v1/reproduction/result.json": "67fa85f42354c8f6413b167d38a55ca3630f7ea12d3b2dad6658b302bb3f2376",
+    "results/programme/cnot3_v1/reproduction/exposure.json": "b8bae6cc9e71f7740f54a304b6182c108fa2e69d6fc577660e2522ec86490159",
+    "results/programme/cnot3_v1/reproduction/cohort_rows.json": "cfd4cededb5be6719795fa88262793ca580eb267649127cdf9cf300f75d9df1e",
+    "analysis/programme/retrospective/cnot3_v2_exploratory/source_diagnosis/observed_v2/summary.json": "b4279c33b1f425229a3267ac92b21d9589cc65904b93be69db0846125dbcc635",
+    "analysis/programme/retrospective/cnot3_v2_exploratory/source_diagnosis/observed_v2/ratio_mismatches.csv": "ca8a1e6c0e2f056316912e29a0b1b391bf03cb9d5a5f2c56fae969944ebe7ae4",
+    "analysis/programme/retrospective/cnot3_v2_exploratory/source_diagnosis/observed_v2/candidate_exclusions.json": "498995d9dc0f77708547181d0d592780deab1680b10c518cfb18ce8d1bef9278",
+    "analysis/programme/retrospective/cnot3_v2_exploratory/source_diagnosis/candidate_universe_check.json": "8e2788e581f5729af27b1ca0bcc473b3233792dee82a9608f75a94bfc49667b5"
+  },
+  "staged_input_layout": {
+    "analysis/programme/retrospective/cnot3_v2_exploratory/source_diagnosis/audit_source.py": "source_discrepancy_review/audit_source.py",
+    "analysis/programme/retrospective/cnot3_v2_exploratory/source_diagnosis/check_candidate_universe.py": "source_discrepancy_review/check_candidate_universe.py",
+    "data/programme/cnot3_v1/Carneiro_gene_level_TableS2.xlsx": "data_eligibility/Carneiro_gene_level_TableS2.xlsx",
+    "data/programme/cnot3_v1/reanalysis_gene_ids_only.json": "data_eligibility/reanalysis_gene_ids_only.json",
+    "results/programme/cnot3_v1/reproduction/result.json": "execution/reproduction_v1/result.json",
+    "results/programme/cnot3_v1/reproduction/exposure.json": "execution/reproduction_v1/exposure.json",
+    "results/programme/cnot3_v1/reproduction/cohort_rows.json": "execution/reproduction_v1/cohort_rows.json"
+  },
+  "original_script_hashes": {
+    "analysis/programme/retrospective/cnot3_v2_exploratory/source_diagnosis/audit_source.py": "fa3dfe63521b26fc23a3c8850ab2b5e2d5f99be47a23a6d030a3ce3858256be0",
+    "analysis/programme/retrospective/cnot3_v2_exploratory/source_diagnosis/check_candidate_universe.py": "21f02e6e2fce5e4a6ca39e2ff1dafb58a3a20e2f70de1d449f4bdab2af0f576a"
+  },
+  "no_original_work_directory_dependency": true,
+  "runtime_Git": false,
+  "runtime_network": false,
+  "runtime_installation": false
+}

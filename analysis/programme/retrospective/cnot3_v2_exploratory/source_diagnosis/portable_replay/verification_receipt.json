@@ -1,0 +1,51 @@
+{
+  "status": "isolated_archived_input_replay_verified",
+  "archive_has_Git_metadata": false,
+  "only_pinned_archive_files_present": true,
+  "archive_input_files": 11,
+  "receipt_sha256": "da367ed6c1eda3a1ab3253e82aba8f03e31f9fd06d160cccaffe13ac41e664d3",
+  "wrapper_sha256": "bee4d91e3d72788a0c1164d2e8557e5e40fa083ccc6865a4a6a131dee9da51b1",
+  "complete_comparisons": {
+    "complete_ratio_summary": {
+      "all_fields_equal": true,
+      "provenance_fields_ignored": [],
+      "byte_identical": true
+    },
+    "complete_candidate_summary": {
+      "all_fields_equal": true,
+      "provenance_fields_ignored": [],
+      "byte_identical": true
+    },
+    "complete_candidate_exclusion_ledger": {
+      "all_fields_equal": true,
+      "provenance_fields_ignored": [],
+      "byte_identical": true
+    },
+    "complete_ratio_mismatch_CSV": {
+      "all_headers_fields_rows_equal": true,
+      "data_rows": 49
+    }
+  },
+  "guards": [
+    {
+      "case": "overwrite",
+      "refused": true,
+      "destination_created": false
+    },
+    {
+      "case": "inside_input",
+      "refused": true,
+      "destination_created": false
+    },
+    {
+      "case": "-O",
+      "refused_before_arguments_or_inputs": true
+    },
+    {
+      "case": "-OO",
+      "refused_before_arguments_or_inputs": true
+    }
+  ],
+  "source_references_original_workspace": false,
+  "scientific_failure_preserved": true
+}

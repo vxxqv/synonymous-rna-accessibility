@@ -1,0 +1,12 @@
+# Independent cohort audit plan
+
+Root confirmed the actual cohort phase complete before any of its output files were opened in this lane. Use the final `grouping.json` and completion receipt, not the last progress checkpoint. No model fitting and no decoding of any held-out target value are authorized.
+
+1. Verify actual input/output byte hashes against the final receipt and source-gate references. Hashing a sealed target file, if necessary, does not decode its content; prefer leaving it unopened when its hash is not required for this review.
+2. Independently normalize original IDs by terminal numeric ENSG version only, reconstruct original/reference eligibility and compare all retained/excluded ID sets and reason counts. Read only GeneID, baseline and enrichment fields from source cohort rows; explicitly skip the knockout half-life value. Rely on the independently completed source audit for positive paired half-lives.
+3. Compare all92 predictor fields with the pinned reference and allowed source inputs, verify no knockout/change-score/target column, and check UTR missingness remains un-imputed. Read no sealed target files.
+4. Reconstruct selected proteins independently from pinned transcript FASTA coordinates and the standard code, verify sequence hashes, identity groups, every stored near edge and final connected components. Where bounded, independently regenerate the complete lossless5-mer candidate set and compute global unit-cost edit distances with a separate bit-vector implementation checked against elementary dynamic programming on synthetic strings. Keep the exact10*d<=max(length) rule. Report the scope if full candidate verification cannot finish within the bounded budget.
+5. Recompute each group ID, complete SHA256 outer/inner salt, assignments and coverage/count guards. Check no gene or stored protein component crosses outer or inner folds. Broader unmeasured relationships and experimental dependence remain outside this grouping claim.
+6. Write a reproducible audit script, hashes/counts receipt and concise verdict. Stop immediately on a material mismatch rather than modifying the implementation or choosing another cohort.
+
+This is an independent calculation using shared project context, not a blinded review. Original author cohort functions will not be imported. The reviewer previously authored only the operational guard adaptation; the underlying reference/eligibility/grouping implementation was authored in another lane.
