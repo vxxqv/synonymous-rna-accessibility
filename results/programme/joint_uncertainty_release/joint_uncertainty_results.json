@@ -1,0 +1,1131 @@
+{
+  "claim_id": "JOINT_AFFINE_UNCERTAINTY_EXACT_EXTREMA",
+  "counts": {
+    "simple_paths_enumerated": 11479,
+    "interior_cell_certificate_checks": 52017,
+    "box_corners_enumerated": 101830,
+    "connected_instances": 7744,
+    "strict_adaptivity_gaps": 41,
+    "total_instances": 11327,
+    "disconnected_instances": 3583,
+    "invalid_input_cases": 4
+  },
+  "diamond": {
+    "status": "connected",
+    "fixed": "-1",
+    "fixed_path": [
+      0,
+      1,
+      3
+    ],
+    "guaranteed": "0",
+    "possible": "1",
+    "capacity_range": [
+      "0",
+      "1"
+    ],
+    "barrier_range": [
+      "0",
+      "1"
+    ],
+    "capacity_minimizer": "0",
+    "capacity_maximizer": "-1",
+    "barrier_minimizer": "-1",
+    "barrier_maximizer": "0",
+    "box_guaranteed": "-1",
+    "box_possible": "1",
+    "box_barrier_range": [
+      "0",
+      "2"
+    ],
+    "lower_field": [
+      "1",
+      "-1",
+      "-1",
+      "1"
+    ],
+    "upper_field": [
+      "1",
+      "1",
+      "1",
+      "1"
+    ],
+    "breakpoints": [
+      "-1",
+      "0",
+      "1"
+    ],
+    "evaluations": [
+      {
+        "theta": "-1",
+        "capacity": "1",
+        "barrier": "0",
+        "path": [
+          0,
+          2,
+          3
+        ]
+      },
+      {
+        "theta": "0",
+        "capacity": "0",
+        "barrier": "1",
+        "path": [
+          0,
+          1,
+          3
+        ]
+      },
+      {
+        "theta": "1",
+        "capacity": "1",
+        "barrier": "0",
+        "path": [
+          0,
+          1,
+          3
+        ]
+      }
+    ],
+    "cells": [
+      {
+        "lower": "-1",
+        "upper": "0",
+        "capacity_line": [
+          "0",
+          "-1"
+        ],
+        "barrier_line": [
+          "1",
+          "1"
+        ],
+        "path": [
+          0,
+          2,
+          3
+        ],
+        "capacity_vertex": 2,
+        "endpoint_vertex": 0
+      },
+      {
+        "lower": "0",
+        "upper": "1",
+        "capacity_line": [
+          "0",
+          "1"
+        ],
+        "barrier_line": [
+          "1",
+          "-1"
+        ],
+        "path": [
+          0,
+          1,
+          3
+        ],
+        "capacity_vertex": 1,
+        "endpoint_vertex": 0
+      }
+    ]
+  },
+  "shared_affine_offset": {
+    "status": "connected",
+    "fixed": "2",
+    "fixed_path": [
+      0,
+      2,
+      3
+    ],
+    "guaranteed": "2",
+    "possible": "6",
+    "capacity_range": [
+      "2",
+      "6"
+    ],
+    "barrier_range": [
+      "0",
+      "1"
+    ],
+    "capacity_minimizer": "-1",
+    "capacity_maximizer": "1",
+    "barrier_minimizer": "-1",
+    "barrier_maximizer": "0",
+    "box_guaranteed": "2",
+    "box_possible": "6",
+    "box_barrier_range": [
+      "0",
+      "4"
+    ],
+    "lower_field": [
+      "2",
+      "0",
+      "2",
+      "2"
+    ],
+    "upper_field": [
+      "6",
+      "6",
+      "4",
+      "6"
+    ],
+    "breakpoints": [
+      "-1",
+      "0",
+      "1"
+    ],
+    "evaluations": [
+      {
+        "theta": "-1",
+        "capacity": "2",
+        "barrier": "0",
+        "path": [
+          0,
+          2,
+          3
+        ]
+      },
+      {
+        "theta": "0",
+        "capacity": "3",
+        "barrier": "1",
+        "path": [
+          0,
+          1,
+          3
+        ]
+      },
+      {
+        "theta": "1",
+        "capacity": "6",
+        "barrier": "0",
+        "path": [
+          0,
+          1,
+          3
+        ]
+      }
+    ],
+    "cells": [
+      {
+        "lower": "-1",
+        "upper": "0",
+        "capacity_line": [
+          "3",
+          "1"
+        ],
+        "barrier_line": [
+          "1",
+          "1"
+        ],
+        "path": [
+          0,
+          2,
+          3
+        ],
+        "capacity_vertex": 2,
+        "endpoint_vertex": 0
+      },
+      {
+        "lower": "0",
+        "upper": "1",
+        "capacity_line": [
+          "3",
+          "3"
+        ],
+        "barrier_line": [
+          "1",
+          "-1"
+        ],
+        "path": [
+          0,
+          1,
+          3
+        ],
+        "capacity_vertex": 1,
+        "endpoint_vertex": 0
+      }
+    ]
+  },
+  "positive_scale": {
+    "status": "connected",
+    "fixed": "-1",
+    "fixed_path": [
+      0,
+      1,
+      3
+    ],
+    "guaranteed": "2",
+    "possible": "5",
+    "capacity_range": [
+      "2",
+      "5"
+    ],
+    "barrier_range": [
+      "0",
+      "3"
+    ],
+    "capacity_minimizer": "0",
+    "capacity_maximizer": "-1",
+    "barrier_minimizer": "-1",
+    "barrier_maximizer": "0",
+    "box_guaranteed": "-1",
+    "box_possible": "5",
+    "box_barrier_range": [
+      "0",
+      "6"
+    ],
+    "lower_field": [
+      "5",
+      "-1",
+      "-1",
+      "5"
+    ],
+    "upper_field": [
+      "5",
+      "5",
+      "5",
+      "5"
+    ],
+    "breakpoints": [
+      "-1",
+      "0",
+      "1"
+    ],
+    "evaluations": [
+      {
+        "theta": "-1",
+        "capacity": "5",
+        "barrier": "0",
+        "path": [
+          0,
+          2,
+          3
+        ]
+      },
+      {
+        "theta": "0",
+        "capacity": "2",
+        "barrier": "3",
+        "path": [
+          0,
+          1,
+          3
+        ]
+      },
+      {
+        "theta": "1",
+        "capacity": "5",
+        "barrier": "0",
+        "path": [
+          0,
+          1,
+          3
+        ]
+      }
+    ],
+    "cells": [
+      {
+        "lower": "-1",
+        "upper": "0",
+        "capacity_line": [
+          "2",
+          "-3"
+        ],
+        "barrier_line": [
+          "3",
+          "3"
+        ],
+        "path": [
+          0,
+          2,
+          3
+        ],
+        "capacity_vertex": 2,
+        "endpoint_vertex": 0
+      },
+      {
+        "lower": "0",
+        "upper": "1",
+        "capacity_line": [
+          "2",
+          "3"
+        ],
+        "barrier_line": [
+          "3",
+          "-3"
+        ],
+        "path": [
+          0,
+          1,
+          3
+        ],
+        "capacity_vertex": 1,
+        "endpoint_vertex": 0
+      }
+    ]
+  },
+  "reference_coordinate_error": {
+    "status": "connected",
+    "fixed": "0",
+    "fixed_path": [
+      0,
+      1,
+      2
+    ],
+    "guaranteed": "0",
+    "possible": "0",
+    "capacity_range": [
+      "0",
+      "0"
+    ],
+    "barrier_range": [
+      "0",
+      "1"
+    ],
+    "capacity_minimizer": "-1",
+    "capacity_maximizer": "-1",
+    "barrier_minimizer": "-1",
+    "barrier_maximizer": "0",
+    "box_guaranteed": "0",
+    "box_possible": "0",
+    "box_barrier_range": [
+      "0",
+      "1"
+    ],
+    "lower_field": [
+      "0",
+      "0",
+      "1"
+    ],
+    "upper_field": [
+      "2",
+      "0",
+      "1"
+    ],
+    "breakpoints": [
+      "-1",
+      "0",
+      "1"
+    ],
+    "evaluations": [
+      {
+        "theta": "-1",
+        "capacity": "0",
+        "barrier": "0",
+        "path": [
+          0,
+          1,
+          2
+        ]
+      },
+      {
+        "theta": "0",
+        "capacity": "0",
+        "barrier": "1",
+        "path": [
+          0,
+          1,
+          2
+        ]
+      },
+      {
+        "theta": "1",
+        "capacity": "0",
+        "barrier": "1",
+        "path": [
+          0,
+          1,
+          2
+        ]
+      }
+    ],
+    "cells": [
+      {
+        "lower": "-1",
+        "upper": "0",
+        "capacity_line": [
+          "0",
+          "0"
+        ],
+        "barrier_line": [
+          "1",
+          "1"
+        ],
+        "path": [
+          0,
+          1,
+          2
+        ],
+        "capacity_vertex": 1,
+        "endpoint_vertex": 0
+      },
+      {
+        "lower": "0",
+        "upper": "1",
+        "capacity_line": [
+          "0",
+          "0"
+        ],
+        "barrier_line": [
+          "1",
+          "0"
+        ],
+        "path": [
+          0,
+          1,
+          2
+        ],
+        "capacity_vertex": 1,
+        "endpoint_vertex": 2
+      }
+    ]
+  },
+  "after_shared_reference_normalization": {
+    "status": "connected",
+    "fixed": "-2",
+    "fixed_path": [
+      0,
+      1,
+      2
+    ],
+    "guaranteed": "-2",
+    "possible": "0",
+    "capacity_range": [
+      "-2",
+      "0"
+    ],
+    "barrier_range": [
+      "0",
+      "1"
+    ],
+    "capacity_minimizer": "1",
+    "capacity_maximizer": "-1",
+    "barrier_minimizer": "-1",
+    "barrier_maximizer": "0",
+    "box_guaranteed": "-2",
+    "box_possible": "0",
+    "box_barrier_range": [
+      "0",
+      "2"
+    ],
+    "lower_field": [
+      "0",
+      "-2",
+      "-1"
+    ],
+    "upper_field": [
+      "0",
+      "0",
+      "1"
+    ],
+    "breakpoints": [
+      "-1",
+      "0",
+      "1"
+    ],
+    "evaluations": [
+      {
+        "theta": "-1",
+        "capacity": "0",
+        "barrier": "0",
+        "path": [
+          0,
+          1,
+          2
+        ]
+      },
+      {
+        "theta": "0",
+        "capacity": "-1",
+        "barrier": "1",
+        "path": [
+          0,
+          1,
+          2
+        ]
+      },
+      {
+        "theta": "1",
+        "capacity": "-2",
+        "barrier": "1",
+        "path": [
+          0,
+          1,
+          2
+        ]
+      }
+    ],
+    "cells": [
+      {
+        "lower": "-1",
+        "upper": "0",
+        "capacity_line": [
+          "-1",
+          "-1"
+        ],
+        "barrier_line": [
+          "1",
+          "1"
+        ],
+        "path": [
+          0,
+          1,
+          2
+        ],
+        "capacity_vertex": 1,
+        "endpoint_vertex": 0
+      },
+      {
+        "lower": "0",
+        "upper": "1",
+        "capacity_line": [
+          "-1",
+          "-1"
+        ],
+        "barrier_line": [
+          "1",
+          "0"
+        ],
+        "path": [
+          0,
+          1,
+          2
+        ],
+        "capacity_vertex": 1,
+        "endpoint_vertex": 2
+      }
+    ]
+  },
+  "boundary_cases": [
+    {
+      "status": "connected",
+      "fixed": "-5",
+      "fixed_path": [
+        0
+      ],
+      "guaranteed": "-5",
+      "possible": "1",
+      "capacity_range": [
+        "-5",
+        "1"
+      ],
+      "barrier_range": [
+        "0",
+        "0"
+      ],
+      "capacity_minimizer": "-1",
+      "capacity_maximizer": "1",
+      "barrier_minimizer": "-1",
+      "barrier_maximizer": "-1",
+      "box_guaranteed": "-5",
+      "box_possible": "1",
+      "box_barrier_range": [
+        "0",
+        "0"
+      ],
+      "lower_field": [
+        "-5"
+      ],
+      "upper_field": [
+        "1"
+      ],
+      "breakpoints": [
+        "-1",
+        "1"
+      ],
+      "evaluations": [
+        {
+          "theta": "-1",
+          "capacity": "-5",
+          "barrier": "0",
+          "path": [
+            0
+          ]
+        },
+        {
+          "theta": "1",
+          "capacity": "1",
+          "barrier": "0",
+          "path": [
+            0
+          ]
+        }
+      ],
+      "cells": [
+        {
+          "lower": "-1",
+          "upper": "1",
+          "capacity_line": [
+            "-2",
+            "3"
+          ],
+          "barrier_line": [
+            "0",
+            "0"
+          ],
+          "path": [
+            0
+          ],
+          "capacity_vertex": 0,
+          "endpoint_vertex": 0
+        }
+      ]
+    },
+    {
+      "status": "connected",
+      "fixed": "-1",
+      "fixed_path": [
+        0,
+        1,
+        2
+      ],
+      "guaranteed": "-1",
+      "possible": "3",
+      "capacity_range": [
+        "-1",
+        "3"
+      ],
+      "barrier_range": [
+        "0",
+        "0"
+      ],
+      "capacity_minimizer": "-1",
+      "capacity_maximizer": "1",
+      "barrier_minimizer": "-1",
+      "barrier_maximizer": "-1",
+      "box_guaranteed": "-1",
+      "box_possible": "3",
+      "box_barrier_range": [
+        "0",
+        "4"
+      ],
+      "lower_field": [
+        "-1",
+        "-1",
+        "-1"
+      ],
+      "upper_field": [
+        "3",
+        "3",
+        "3"
+      ],
+      "breakpoints": [
+        "-1",
+        "1"
+      ],
+      "evaluations": [
+        {
+          "theta": "-1",
+          "capacity": "-1",
+          "barrier": "0",
+          "path": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "theta": "1",
+          "capacity": "3",
+          "barrier": "0",
+          "path": [
+            0,
+            1,
+            2
+          ]
+        }
+      ],
+      "cells": [
+        {
+          "lower": "-1",
+          "upper": "1",
+          "capacity_line": [
+            "1",
+            "2"
+          ],
+          "barrier_line": [
+            "0",
+            "0"
+          ],
+          "path": [
+            0,
+            1,
+            2
+          ],
+          "capacity_vertex": 0,
+          "endpoint_vertex": 0
+        }
+      ]
+    },
+    {
+      "status": "connected",
+      "fixed": "-3",
+      "fixed_path": [
+        0,
+        1,
+        2
+      ],
+      "guaranteed": "-3",
+      "possible": "1",
+      "capacity_range": [
+        "-3",
+        "1"
+      ],
+      "barrier_range": [
+        "2",
+        "2"
+      ],
+      "capacity_minimizer": "-1",
+      "capacity_maximizer": "1",
+      "barrier_minimizer": "-1",
+      "barrier_maximizer": "-1",
+      "box_guaranteed": "-3",
+      "box_possible": "1",
+      "box_barrier_range": [
+        "0",
+        "6"
+      ],
+      "lower_field": [
+        "-1",
+        "-3",
+        "0"
+      ],
+      "upper_field": [
+        "3",
+        "1",
+        "4"
+      ],
+      "breakpoints": [
+        "-1",
+        "1"
+      ],
+      "evaluations": [
+        {
+          "theta": "-1",
+          "capacity": "-3",
+          "barrier": "2",
+          "path": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "theta": "1",
+          "capacity": "1",
+          "barrier": "2",
+          "path": [
+            0,
+            1,
+            2
+          ]
+        }
+      ],
+      "cells": [
+        {
+          "lower": "-1",
+          "upper": "1",
+          "capacity_line": [
+            "-1",
+            "2"
+          ],
+          "barrier_line": [
+            "2",
+            "0"
+          ],
+          "path": [
+            0,
+            1,
+            2
+          ],
+          "capacity_vertex": 1,
+          "endpoint_vertex": 0
+        }
+      ]
+    },
+    {
+      "status": "connected",
+      "fixed": "1/3",
+      "fixed_path": [
+        0,
+        1,
+        2
+      ],
+      "guaranteed": "1/3",
+      "possible": "1/3",
+      "capacity_range": [
+        "1/3",
+        "1/3"
+      ],
+      "barrier_range": [
+        "1/3",
+        "1/3"
+      ],
+      "capacity_minimizer": "2/3",
+      "capacity_maximizer": "2/3",
+      "barrier_minimizer": "2/3",
+      "barrier_maximizer": "2/3",
+      "box_guaranteed": "1/3",
+      "box_possible": "1/3",
+      "box_barrier_range": [
+        "1/3",
+        "1/3"
+      ],
+      "lower_field": [
+        "2/3",
+        "1/3",
+        "4"
+      ],
+      "upper_field": [
+        "2/3",
+        "1/3",
+        "4"
+      ],
+      "breakpoints": [
+        "2/3"
+      ],
+      "evaluations": [
+        {
+          "theta": "2/3",
+          "capacity": "1/3",
+          "barrier": "1/3",
+          "path": [
+            0,
+            1,
+            2
+          ]
+        }
+      ],
+      "cells": []
+    },
+    {
+      "status": "disconnected",
+      "capacity_extended_value": "-infinity",
+      "barrier_extended_value": "+infinity",
+      "fixed": null,
+      "guaranteed": null,
+      "possible": null,
+      "capacity_range": null,
+      "barrier_range": null,
+      "breakpoints": [],
+      "cells": [],
+      "fixed_path": null
+    },
+    {
+      "status": "connected",
+      "fixed": "0",
+      "fixed_path": [
+        1
+      ],
+      "guaranteed": "0",
+      "possible": "2",
+      "capacity_range": [
+        "0",
+        "2"
+      ],
+      "barrier_range": [
+        "0",
+        "0"
+      ],
+      "capacity_minimizer": "1",
+      "capacity_maximizer": "-1",
+      "barrier_minimizer": "-1",
+      "barrier_maximizer": "-1",
+      "box_guaranteed": "0",
+      "box_possible": "2",
+      "box_barrier_range": [
+        "0",
+        "0"
+      ],
+      "lower_field": [
+        "-1",
+        "0",
+        "-1"
+      ],
+      "upper_field": [
+        "1",
+        "2",
+        "5"
+      ],
+      "breakpoints": [
+        "-1",
+        "-1/4",
+        "1/2",
+        "1"
+      ],
+      "evaluations": [
+        {
+          "theta": "-1",
+          "capacity": "2",
+          "barrier": "0",
+          "path": [
+            1
+          ]
+        },
+        {
+          "theta": "-1/4",
+          "capacity": "5/4",
+          "barrier": "0",
+          "path": [
+            1
+          ]
+        },
+        {
+          "theta": "1/2",
+          "capacity": "1/2",
+          "barrier": "0",
+          "path": [
+            1
+          ]
+        },
+        {
+          "theta": "1",
+          "capacity": "0",
+          "barrier": "0",
+          "path": [
+            1
+          ]
+        }
+      ],
+      "cells": [
+        {
+          "lower": "-1",
+          "upper": "-1/4",
+          "capacity_line": [
+            "1",
+            "-1"
+          ],
+          "barrier_line": [
+            "0",
+            "0"
+          ],
+          "path": [
+            1
+          ],
+          "capacity_vertex": 1,
+          "endpoint_vertex": 1
+        },
+        {
+          "lower": "-1/4",
+          "upper": "1/2",
+          "capacity_line": [
+            "1",
+            "-1"
+          ],
+          "barrier_line": [
+            "0",
+            "0"
+          ],
+          "path": [
+            1
+          ],
+          "capacity_vertex": 1,
+          "endpoint_vertex": 1
+        },
+        {
+          "lower": "1/2",
+          "upper": "1",
+          "capacity_line": [
+            "1",
+            "-1"
+          ],
+          "barrier_line": [
+            "0",
+            "0"
+          ],
+          "path": [
+            1
+          ],
+          "capacity_vertex": 1,
+          "endpoint_vertex": 1
+        }
+      ]
+    },
+    {
+      "status": "connected",
+      "fixed": "0",
+      "fixed_path": [
+        0,
+        1
+      ],
+      "guaranteed": "0",
+      "possible": "0",
+      "capacity_range": [
+        "0",
+        "0"
+      ],
+      "barrier_range": [
+        "0",
+        "0"
+      ],
+      "capacity_minimizer": "-1",
+      "capacity_maximizer": "-1",
+      "barrier_minimizer": "-1",
+      "barrier_maximizer": "-1",
+      "box_guaranteed": "0",
+      "box_possible": "0",
+      "box_barrier_range": [
+        "0",
+        "0"
+      ],
+      "lower_field": [
+        "1",
+        "0"
+      ],
+      "upper_field": [
+        "1",
+        "0"
+      ],
+      "breakpoints": [
+        "-1",
+        "1"
+      ],
+      "evaluations": [
+        {
+          "theta": "-1",
+          "capacity": "0",
+          "barrier": "0",
+          "path": [
+            0,
+            1
+          ]
+        },
+        {
+          "theta": "1",
+          "capacity": "0",
+          "barrier": "0",
+          "path": [
+            0,
+            1
+          ]
+        }
+      ],
+      "cells": [
+        {
+          "lower": "-1",
+          "upper": "1",
+          "capacity_line": [
+            "0",
+            "0"
+          ],
+          "barrier_line": [
+            "0",
+            "0"
+          ],
+          "path": [
+            0,
+            1
+          ],
+          "capacity_vertex": 1,
+          "endpoint_vertex": 1
+        }
+      ]
+    }
+  ],
+  "seed": 2026102502,
+  "nonclaims": [
+    "Deterministic uncertainty bounds do not provide probabilistic calibration.",
+    "Generic minimax inequality, robust bottleneck envelopes and adjustable robustness are prior principles.",
+    "No biological measurements or interventions are used."
+  ]
+}

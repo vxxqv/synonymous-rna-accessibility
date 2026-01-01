@@ -1,0 +1,96 @@
+{
+  "schema_version": 2,
+  "claim_id": "JOINT_AFFINE_UNCERTAINTY_EXACT_EXTREMA",
+  "repository": {
+    "commit": "45bc296d84ade7efa824fa0b48a5e9dcefa57b1f",
+    "dirty": true
+  },
+  "command": [
+    "C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\work\\env\\Scripts\\python.exe",
+    "analysis/programme/joint_uncertainty_verify.py",
+    "--outdir",
+    "results\\programme\\joint_uncertainty_release"
+  ],
+  "environment": {
+    "software": [
+      {
+        "name": "CPython",
+        "version": "3.12.14"
+      }
+    ],
+    "hardware": "Windows-11-10.0.26300-SP0"
+  },
+  "mathematics": {
+    "assertion_tested": "Exact affine capacity/barrier extrema and fixed/guaranteed/possible quantifiers agree with independent simple-path envelope algebra",
+    "coefficient_domain": "Q, exact fractions and graph combinatorics",
+    "conventions": "Finite static undirected graphs; all path vertices include endpoints; closed rational one-parameter interval",
+    "inputs": [
+      "analysis/programme/joint_uncertainty_affine.py",
+      "analysis/programme/joint_uncertainty_verify.py"
+    ],
+    "bounds": {
+      "simple_paths_enumerated": 11479,
+      "interior_cell_certificate_checks": 52017,
+      "box_corners_enumerated": 101830,
+      "connected_instances": 7744,
+      "strict_adaptivity_gaps": 41,
+      "total_instances": 11327,
+      "disconnected_instances": 3583,
+      "invalid_input_cases": 4
+    },
+    "non_claims": [
+      "Deterministic uncertainty bounds do not provide probabilistic calibration.",
+      "Generic minimax inequality, robust bottleneck envelopes and adjustable robustness are prior principles.",
+      "No biological measurements or interventions are used."
+    ]
+  },
+  "randomness": {
+    "used": true,
+    "generator": "Python random.Random MT19937",
+    "seed": 2026102502
+  },
+  "run": {
+    "started_at": "2026-10-25T04:46:44.483675+00:00",
+    "runtime_seconds": 4.199357200006489,
+    "status": "completed",
+    "exit_status": 0,
+    "resource_limits": {
+      "memory_bytes": null,
+      "cpu_seconds": null,
+      "max_cores": null,
+      "max_threads": null
+    }
+  },
+  "input_artifacts": [
+    {
+      "path": "analysis/programme/joint_uncertainty_affine.py",
+      "sha256": "1793fbd741f6208cd9cac8c16582edcd01a260542568ee3e91ec19e316541edd",
+      "sha256_after": "1793fbd741f6208cd9cac8c16582edcd01a260542568ee3e91ec19e316541edd"
+    },
+    {
+      "path": "analysis/programme/joint_uncertainty_verify.py",
+      "sha256": "c805b2840b702cf0940fdb46632b63661c99332ca78f986534cc5577cec9a654",
+      "sha256_after": "c805b2840b702cf0940fdb46632b63661c99332ca78f986534cc5577cec9a654"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "results/programme/joint_uncertainty_release/joint_uncertainty_results.json",
+      "sha256": "6982cfe4e123bc340a50135c5af2d779a1863fe511db3622f0fd55f279c021b8",
+      "kind": "result"
+    }
+  ],
+  "checks": [
+    {
+      "name": "source-hashes-unchanged",
+      "passed": true
+    }
+  ],
+  "result": "completed",
+  "declared_results": [
+    "results/programme/joint_uncertainty_release/joint_uncertainty_results.json"
+  ],
+  "residual_risks": [
+    "No hard resource limits; finite tests supplement separate proofs."
+  ]
+}
