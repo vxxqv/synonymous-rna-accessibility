@@ -105,6 +105,16 @@ python analysis/programme/affine_polytope/verify_exact.py --out work/fresh-affin
 
 The portable exact replay compares 82 cases against a separately authored path and separator oracle, checks 400 rational quantities, and retains the original corpus and disclosed fixture correction. The README in that directory gives the precise proof, review and provenance boundaries. These additions postdate the original version 1.0 archive and must not be attributed to that archive until a later verified release includes them.
 
+### Bounded interaction certificates
+
+`analysis/programme/interaction_certificates/` contains a portable, byte-preserving replay of the reviewed projection and path bounds. Small blocks can certify an exact interacting barrier in some cases, but even one interaction edge can defeat singleton projections. A switch reduction establishes an exact-capacity hardness boundary for bounded sparse interactions, conditional on the cited established MaxCut theorem. No novel elimination method or general efficient interacting-path algorithm is claimed.
+
+```text
+python -B analysis/programme/interaction_certificates/replay.py --out work/fresh-interaction-certificates
+```
+
+The module preserves the original proof, independent review, corrected cost contract and accounting erratum. Read `revision_2/claim_and_proof.md` and `revision_2/complexity_contract.md` in the extracted payload as the current statements. Witness storage, retained envelopes, actual elimination order and baseline-component restriction are explicit. The replay needs no Git or network and does not reauthenticate historical Git events. These additions postdate the published version 1.0 archive.
+
 ### Acquisition validation remains a failed efficiency result
 
 The frozen held-out acquisition benchmark contains 3,800 worlds and 22,800 policy runs, with every result retained. The proposed path/cut rule fails the predeclared efficiency hurdle and uses 0.398 more queries on average than the strongest forward baseline. The 95% seed-block interval [0.261, 0.535] describes Monte Carlo variation in this fixed synthetic design. The examined validation set is retired from tuning. See `results/programme/acquisition_v1/validation_report.md` and its frozen protocol for the exact paired design, all comparators and failures.
