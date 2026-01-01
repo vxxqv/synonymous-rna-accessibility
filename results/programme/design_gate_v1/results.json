@@ -1,0 +1,212 @@
+{
+  "evidence_type": "exact finite verification plus separate analytic derivation",
+  "points": [
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ],
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      1,
+      1
+    ],
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      1,
+      0,
+      1
+    ],
+    [
+      1,
+      1,
+      0
+    ],
+    [
+      1,
+      1,
+      1
+    ]
+  ],
+  "fixed_endpoints": [
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      1,
+      0
+    ]
+  ],
+  "ranks": {
+    "old_three_state_additive": 3,
+    "Q2_additive": 3,
+    "Q3_additive": 4,
+    "Q3_pairwise": 7,
+    "Q3_all_orders": 8
+  },
+  "residual_degrees_of_freedom": {
+    "old": 0,
+    "Q2_additive": 1,
+    "Q3_additive": 4,
+    "Q3_pairwise": 1
+  },
+  "controls": [
+    {
+      "name": "constant_negative",
+      "scores": [
+        "1/2",
+        "1/2",
+        "1/2",
+        "1/2",
+        "1/2",
+        "1/2",
+        "1/2",
+        "1/2"
+      ],
+      "endpoint_lifetime": "0",
+      "integrated_fragmentation": "0",
+      "mobius_coefficients": {
+        "000": "1/2",
+        "001": "0",
+        "010": "0",
+        "011": "0",
+        "100": "0",
+        "101": "0",
+        "110": "0",
+        "111": "0"
+      }
+    },
+    {
+      "name": "additive_negative",
+      "scores": [
+        "0",
+        "4/7",
+        "2/7",
+        "6/7",
+        "1/7",
+        "5/7",
+        "3/7",
+        "1"
+      ],
+      "endpoint_lifetime": "0",
+      "integrated_fragmentation": "0",
+      "mobius_coefficients": {
+        "000": "0",
+        "001": "4/7",
+        "010": "2/7",
+        "011": "0",
+        "100": "1/7",
+        "101": "0",
+        "110": "0",
+        "111": "0"
+      }
+    },
+    {
+      "name": "pairwise_barrier",
+      "scores": [
+        "1",
+        "1",
+        "0",
+        "0",
+        "0",
+        "0",
+        "1",
+        "1"
+      ],
+      "endpoint_lifetime": "1",
+      "integrated_fragmentation": "1/2",
+      "mobius_coefficients": {
+        "000": "1",
+        "001": "0",
+        "010": "-1",
+        "011": "0",
+        "100": "-1",
+        "101": "0",
+        "110": "2",
+        "111": "0"
+      }
+    },
+    {
+      "name": "parity_three_way_barrier",
+      "scores": [
+        "1",
+        "0",
+        "0",
+        "1",
+        "0",
+        "1",
+        "1",
+        "0"
+      ],
+      "endpoint_lifetime": "1",
+      "integrated_fragmentation": "3/4",
+      "mobius_coefficients": {
+        "000": "1",
+        "001": "-1",
+        "010": "-1",
+        "011": "2",
+        "100": "-1",
+        "101": "2",
+        "110": "2",
+        "111": "-4"
+      }
+    },
+    {
+      "name": "cubic_interaction_without_barrier",
+      "scores": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "1"
+      ],
+      "endpoint_lifetime": "0",
+      "integrated_fragmentation": "0",
+      "mobius_coefficients": {
+        "000": "0",
+        "001": "0",
+        "010": "0",
+        "011": "0",
+        "100": "0",
+        "101": "0",
+        "110": "0",
+        "111": "1"
+      }
+    }
+  ],
+  "endpoint_intervention": {
+    "base_lifetime": 1,
+    "targeted_lifetime": 0,
+    "matched_lifetime": 1,
+    "targeted_integral": "8/25",
+    "matched_integral": "8/25",
+    "interpretation": "Global fragmentation alone cannot distinguish endpoint-specific rescue."
+  },
+  "exhaustive_tied_Q3_fields": 6561,
+  "exhaustive_Q2_fields": 81,
+  "non_claims": [
+    "Finite checks do not prove a general theorem.",
+    "The design can identify statistical interactions, not physical folding causality.",
+    "No new RNA partition functions or biological validation were performed."
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "claim_id": "R3_OVERLAP_COMPILER_AND_COUNTEREXAMPLE_PROBE",
+  "mathematics": {
+    "assertion_tested": "The transferred 2-CNF compiler agrees with direct standard-code translation, including reverse complements. Search for additional component invariants or non-Hamming detours under overlapping frames.",
+    "coefficient_domain": "Finite RNA alphabet and Boolean clauses, exact integer graph distances",
+    "conventions": "All one-nucleotide substitutions are graph moves, not individual Boolean-bit flips. Each codon occurrence retains its amino acid. Pair obligations allow AU,UA,GC,CG,GU,UG. Sense translation only.",
+    "inputs": ["All 4^n sequences at n=6,7 for five relative frames", "No pair edges and all 21 single pair edges at n=7", "18 seeded compiler truth-table instances and 4 boundary instances"],
+    "bounds": {"n_max": 7, "frame_configurations": 115, "maximum_sequences_per_configuration": 16384},
+    "non_claims": ["No general reachability theorem follows from a negative finite search", "2-SAT feasibility does not identify nucleotide-mutation components", "No protein-function or RNA-occupancy claim"]
+  },
+  "execution_artifacts": ["analysis/programme/overlap_probe.py", "analysis/programme/research_registry_v1.json", "analysis/expansion/feasibility_2sat.py", "analysis/exact/independent_oracle.py"],
+  "software": [{"name": "Python", "version": "3.12.14"}, {"name": "Biopython", "version": "1.88"}],
+  "randomness": {"used": true, "generator": "Python random.Random MT19937", "seed": 73691}
+}

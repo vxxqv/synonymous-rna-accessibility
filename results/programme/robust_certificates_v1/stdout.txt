@@ -1,0 +1,1 @@
+{"graphs": 48, "transcripts": 21, "graphs_with_Vienna_barrier": 7, "graphs_with_RNAstructure_barrier": 5, "graphs_with_certified_box_robust_barrier": 2, "maximum_certified_witness_lifetime_lower": 0.007436002805498727}

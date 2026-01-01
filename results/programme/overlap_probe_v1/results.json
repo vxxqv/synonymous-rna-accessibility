@@ -1,0 +1,2520 @@
+{
+  "scope": "Bounded exact implementation and counterexample search, not a proof of general reachability",
+  "compiler_checks": {
+    "assignment_truth_checks": 50688,
+    "random_instances": [
+      {
+        "n": 4,
+        "second_frame": [
+          "+",
+          1
+        ],
+        "peptide": [
+          "D",
+          "G"
+        ],
+        "pair_obligations": [],
+        "pins": {},
+        "solutions": 0
+      },
+      {
+        "n": 4,
+        "second_frame": [
+          "+",
+          2
+        ],
+        "peptide": [
+          "S"
+        ],
+        "pair_obligations": [
+          [
+            0,
+            1
+          ]
+        ],
+        "pins": {
+          "0": "A"
+        },
+        "solutions": 0
+      },
+      {
+        "n": 4,
+        "second_frame": [
+          "-",
+          0
+        ],
+        "peptide": [
+          "N",
+          "I"
+        ],
+        "pair_obligations": [
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            2
+          ]
+        ],
+        "pins": {},
+        "solutions": 0
+      },
+      {
+        "n": 4,
+        "second_frame": [
+          "-",
+          1
+        ],
+        "peptide": [
+          "H",
+          "H"
+        ],
+        "pair_obligations": [],
+        "pins": {
+          "2": "U"
+        },
+        "solutions": 0
+      },
+      {
+        "n": 4,
+        "second_frame": [
+          "-",
+          2
+        ],
+        "peptide": [
+          "H"
+        ],
+        "pair_obligations": [
+          [
+            2,
+            3
+          ]
+        ],
+        "pins": {},
+        "solutions": 3
+      },
+      {
+        "n": 4,
+        "second_frame": [
+          "+",
+          0
+        ],
+        "peptide": [
+          "N",
+          "T"
+        ],
+        "pair_obligations": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            3
+          ]
+        ],
+        "pins": {
+          "3": "A"
+        },
+        "solutions": 0
+      },
+      {
+        "n": 6,
+        "second_frame": [
+          "+",
+          1
+        ],
+        "peptide": [
+          "H",
+          "V",
+          "L"
+        ],
+        "pair_obligations": [],
+        "pins": {},
+        "solutions": 0
+      },
+      {
+        "n": 6,
+        "second_frame": [
+          "+",
+          2
+        ],
+        "peptide": [
+          "N",
+          "Y",
+          "H"
+        ],
+        "pair_obligations": [
+          [
+            0,
+            5
+          ]
+        ],
+        "pins": {
+          "2": "C"
+        },
+        "solutions": 0
+      },
+      {
+        "n": 6,
+        "second_frame": [
+          "-",
+          0
+        ],
+        "peptide": [
+          "Q",
+          "H",
+          "Q",
+          "H"
+        ],
+        "pair_obligations": [
+          [
+            3,
+            4
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "pins": {},
+        "solutions": 0
+      },
+      {
+        "n": 6,
+        "second_frame": [
+          "-",
+          1
+        ],
+        "peptide": [
+          "Y",
+          "T",
+          "A"
+        ],
+        "pair_obligations": [],
+        "pins": {
+          "0": "U"
+        },
+        "solutions": 0
+      },
+      {
+        "n": 6,
+        "second_frame": [
+          "-",
+          2
+        ],
+        "peptide": [
+          "C",
+          "T",
+          "M"
+        ],
+        "pair_obligations": [
+          [
+            2,
+            4
+          ]
+        ],
+        "pins": {},
+        "solutions": 0
+      },
+      {
+        "n": 6,
+        "second_frame": [
+          "+",
+          0
+        ],
+        "peptide": [
+          "S",
+          "T",
+          "R",
+          "A"
+        ],
+        "pair_obligations": [
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            5
+          ]
+        ],
+        "pins": {
+          "2": "U"
+        },
+        "solutions": 0
+      },
+      {
+        "n": 6,
+        "second_frame": [
+          "+",
+          1
+        ],
+        "peptide": [
+          "M",
+          "K",
+          "I"
+        ],
+        "pair_obligations": [],
+        "pins": {},
+        "solutions": 0
+      },
+      {
+        "n": 6,
+        "second_frame": [
+          "+",
+          2
+        ],
+        "peptide": [
+          "H",
+          "E",
+          "W"
+        ],
+        "pair_obligations": [
+          [
+            0,
+            3
+          ]
+        ],
+        "pins": {
+          "0": "C"
+        },
+        "solutions": 0
+      },
+      {
+        "n": 6,
+        "second_frame": [
+          "-",
+          0
+        ],
+        "peptide": [
+          "S",
+          "R",
+          "C",
+          "N"
+        ],
+        "pair_obligations": [
+          [
+            0,
+            5
+          ],
+          [
+            0,
+            3
+          ]
+        ],
+        "pins": {},
+        "solutions": 0
+      },
+      {
+        "n": 6,
+        "second_frame": [
+          "-",
+          1
+        ],
+        "peptide": [
+          "T",
+          "G",
+          "Q"
+        ],
+        "pair_obligations": [],
+        "pins": {
+          "2": "G"
+        },
+        "solutions": 0
+      },
+      {
+        "n": 6,
+        "second_frame": [
+          "-",
+          2
+        ],
+        "peptide": [
+          "W",
+          "D",
+          "F"
+        ],
+        "pair_obligations": [
+          [
+            3,
+            5
+          ]
+        ],
+        "pins": {},
+        "solutions": 0
+      },
+      {
+        "n": 6,
+        "second_frame": [
+          "+",
+          0
+        ],
+        "peptide": [
+          "Q",
+          "S",
+          "P",
+          "S"
+        ],
+        "pair_obligations": [
+          [
+            2,
+            4
+          ],
+          [
+            0,
+            4
+          ]
+        ],
+        "pins": {
+          "2": "C"
+        },
+        "solutions": 0
+      }
+    ],
+    "boundary_instances": 4
+  },
+  "configurations": [
+    {
+      "n": 6,
+      "second_frame": [
+        "+",
+        1
+      ],
+      "pair_edges": [],
+      "nonempty_fixed_peptide_sets": 1127,
+      "sequences": 3529,
+      "components": 1162,
+      "connected_unordered_endpoint_pairs": 5123,
+      "new_signature_obstructions": [],
+      "non_Hamming_detours": []
+    },
+    {
+      "n": 6,
+      "second_frame": [
+        "+",
+        2
+      ],
+      "pair_edges": [],
+      "nonempty_fixed_peptide_sets": 1103,
+      "sequences": 3529,
+      "components": 1140,
+      "connected_unordered_endpoint_pairs": 4903,
+      "new_signature_obstructions": [],
+      "non_Hamming_detours": []
+    },
+    {
+      "n": 6,
+      "second_frame": [
+        "-",
+        0
+      ],
+      "pair_edges": [],
+      "nonempty_fixed_peptide_sets": 2704,
+      "sequences": 3364,
+      "components": 2704,
+      "connected_unordered_endpoint_pairs": 768,
+      "new_signature_obstructions": [],
+      "non_Hamming_detours": []
+    },
+    {
+      "n": 6,
+      "second_frame": [
+        "-",
+        1
+      ],
+      "pair_edges": [],
+      "nonempty_fixed_peptide_sets": 574,
+      "sequences": 3593,
+      "components": 598,
+      "connected_unordered_endpoint_pairs": 15260,
+      "new_signature_obstructions": [],
+      "non_Hamming_detours": []
+    },
+    {
+      "n": 6,
+      "second_frame": [
+        "-",
+        2
+      ],
+      "pair_edges": [],
+      "nonempty_fixed_peptide_sets": 1214,
+      "sequences": 3529,
+      "components": 1227,
+      "connected_unordered_endpoint_pairs": 4435,
+      "new_signature_obstructions": [],
+      "non_Hamming_detours": []
+    },
+    {
+      "n": 7,
+      "second_frame": [
+        "+",
+        1
+      ],
+      "pair_edges": [],
+      "nonempty_fixed_peptide_sets": 4419,
+      "sequences": 13420,
+      "components": 4419,
+      "connected_unordered_endpoint_pairs": 18118,
+      "new_signature_obstructions": [],
+      "non_Hamming_detours": []
+    },
+    {
+      "n": 7,
+      "second_frame": [
+        "+",
+        1
+      ],
+      "pair_edges": [
+        [
+          0,
+          1
+        ]
+      ],
+      "nonempty_fixed_peptide_sets": 1566,
+      "sequences": 4506,
+      "components": 1566,
+      "connected_unordered_endpoint_pairs": 5289,
+      "new_signature_obstructions": [],
+      "non_Hamming_detours": []
+    },
+    {
+      "n": 7,
+      "second_frame": [
+        "+",
+        1
+      ],
+      "pair_edges": [
+        [
+          0,
+          2
+        ]
+      ],
+      "nonempty_fixed_peptide_sets": 1549,
+      "sequences": 4628,
+      "components": 1549,
+      "connected_unordered_endpoint_pairs": 5994,
+      "new_signature_obstructions": [],
+      "non_Hamming_detours": []
+    },
+    {
+      "n": 7,
+      "second_frame": [
+        "+",
+        1
+      ],
+      "pair_edges": [
+        [
+          0,
+          3
+        ]
+      ],
+      "nonempty_fixed_peptide_sets": 1715,
+      "sequences": 4862,
+      "components": 1715,
+      "connected_unordered_endpoint_pairs": 5557,
+      "new_signature_obstructions": [],
+      "non_Hamming_detours": []
+    },
+    {
+      "n": 7,
+      "second_frame": [
+        "+",
+        1
+      ],
+      "pair_edges": [
+        [
+          0,
+          4
+        ]
+      ],
+      "nonempty_fixed_peptide_sets": 1649,
+      "sequences": 4886,
+      "components": 1649,
+      "connected_unordered_endpoint_pairs": 6151,
+      "new_signature_obstructions": [],
+      "non_Hamming_detours": []
+    },
+    {
+      "n": 7,
+      "second_frame": [
+        "+",
+        1
+      ],
+      "pair_edges": [
+        [
+          0,
+          5
+        ]
+      ],
+      "nonempty_fixed_peptide_sets": 1740,
+      "sequences": 5044,
+      "components": 1740,
+      "connected_unordered_endpoint_pairs": 6207,
+      "new_signature_obstructions": [],
+      "non_Hamming_detours": []
+    },
+    {
+      "n": 7,
+      "second_frame": [
+        "+",
+        1
+      ],
+      "pair_edges": [
+        [
+          0,
+          6
+        ]
+      ],
+      "nonempty_fixed_peptide_sets": 3173,
+      "sequences": 4994,
+      "components": 3236,
+      "connected_unordered_endpoint_pairs": 2027,
+      "new_signature_obstructions": [],
+      "non_Hamming_detours": []
+    },
+    {
+      "n": 7,
+      "second_frame": [
+        "+",
+        1
+      ],
+      "pair_edges": [
+        [
+          1,
+          2
+        ]
+      ],
+      "nonempty_fixed_peptide_sets": 1571,
+      "sequences": 4836,
+      "components": 1571,
+      "connected_unordered_endpoint_pairs": 6671,
+      "new_signature_obstructions": [],
+      "non_Hamming_detours": []
+    },
+    {
+      "n": 7,
+      "second_frame": [
+        "+",
+        1
+      ],
+      "pair_edges": [
+        [
+          1,
+          3
+        ]
+      ],
+      "nonempty_fixed_peptide_sets": 1524,
+      "sequences": 4532,
+      "components": 1524,
+      "connected_unordered_endpoint_pairs": 5924,
+      "new_signature_obstructions": [],
+      "non_Hamming_detours": []
+    },
+    {
+      "n": 7,
+      "second_frame": [
+        "+",
+        1
+      ],
+      "pair_edges": [
+        [
+          1,
+          4
+        ]
+      ],
+      "nonempty_fixed_peptide_sets": 1547,
+      "sequences": 4900,
+      "components": 1547,
+      "connected_unordered_endpoint_pairs": 7063,
+      "new_signature_obstructions": [],
+      "non_Hamming_detours": []
+    },
+    {
+      "n": 7,
+      "second_frame": [
+        "+",
+        1
+      ],
+      "pair_edges": [
+        [
+          1,
+          5
+        ]
+      ],
+      "nonempty_fixed_peptide_sets": 1637,
+      "sequences": 5028,
+      "components": 1637,
+      "connected_unordered_endpoint_pairs": 7165,
+      "new_signature_obstructions": [],
+      "non_Hamming_detours": []
+    },
+    {
+      "n": 7,
+      "second_frame": [
+        "+",
+        1
+      ],
+      "pair_edges": [
+        [
+          1,
+          6
+        ]
+      ],
+      "nonempty_fixed_peptide_sets": 3115,
+      "sequences": 5008,
+      "components": 3115,
+      "connected_unordered_endpoint_pairs": 2682,
+      "new_signature_obstructions": [],
+      "non_Hamming_detours": []
+    },
+    {
+      "n": 7,
+      "second_frame": [
+        "+",
+        1
+      ],
+      "pair_edges": [
+        [
+          2,
+          3
+        ]
+      ],
+      "nonempty_fixed_peptide_sets": 1789,
+      "sequences": 5264,
+      "components": 1789,
+      "connected_unordered_endpoint_pairs": 6819,
+      "new_signature_obstructions": [],
+      "non_Hamming_detours": []
+    },
+    {
+      "n": 7,
+      "second_frame": [
+        "+",
+        1
+      ],
+      "pair_edges": [
+        [
+          2,
+          4
+        ]
+      ],
+      "nonempty_fixed_peptide_sets": 1592,
+      "sequences": 5064,
+      "components": 1592,
+      "connected_unordered_endpoint_pairs": 7250,
+      "new_signature_obstructions": [],
+      "non_Hamming_detours": []
+    },
+    {
+      "n": 7,
+      "second_frame": [
+        "+",
+        1
+      ],
+      "pair_edges": [
+        [
+          2,
+          5
+        ]
+      ],
+      "nonempty_fixed_peptide_sets": 1698,
+      "sequences": 5120,
+      "components": 1698,
+      "connected_unordered_endpoint_pairs": 7218,
+      "new_signature_obstructions": [],
+      "non_Hamming_detours": []
+    },
+    {
+      "n": 7,
+      "second_frame": [
+        "+",
+        1
+      ],
+      "pair_edges": [
+        [
+          2,
+          6
+        ]
+      ],
+      "nonempty_fixed_peptide_sets": 3117,
+      "sequences": 5100,
+      "components": 3117,
+      "connected_unordered_endpoint_pairs": 2577,
+      "new_signature_obstructions": [],
+      "non_Hamming_detours": []
+    },
+    {
+      "n": 7,
+      "second_frame": [
+        "+",
+        1
+      ],
+      "pair_edges": [
+        [
+          3,
+          4
+        ]
+      ],
+      "nonempty_fixed_peptide_sets": 1527,
+      "sequences": 4538,
+      "components": 1527,
+      "connected_unordered_endpoint_pairs": 5960,
+      "new_signature_obstructions": [],
+      "non_Hamming_detours": []
+    },
+    {
+      "n": 7,
+      "second_frame": [
+        "+",
+        1
+      ],
+      "pair_edges": [
+        [
+          3,
+          5
+        ]
+      ],
+      "nonempty_fixed_peptide_sets": 1473,
+      "sequences": 4624,
+      "components": 1473,
+      "connected_unordered_endpoint_pairs": 6292,
+      "new_signature_obstructions": [],
+      "non_Hamming_detours": []
+    },
+    {
+      "n": 7,
+      "second_frame": [
+        "+",
+        1
+      ],
+      "pair_edges": [
+        [
+          3,
+          6
+        ]
+      ],
+      "nonempty_fixed_peptide_sets": 3184,
+      "sequences": 4990,
+      "components": 3219,
+      "connected_unordered_endpoint_pairs": 2047,
+      "new_signature_obstructions": [],
+      "non_Hamming_detours": []
+    },
+    {
+      "n": 7,
+      "second_frame": [
+        "+",
+        1
+      ],
+      "pair_edges": [
+        [
+          4,
+          5
+        ]
+      ],
+      "nonempty_fixed_peptide_sets": 1581,
+      "sequences": 4872,
+      "components": 1581,
+      "connected_unordered_endpoint_pairs": 6828,
+      "new_signature_obstructions": [],
+      "non_Hamming_detours": []
+    },
+    {
+      "n": 7,
+      "second_frame": [
+        "+",
+        1
+      ],
+      "pair_edges": [
+        [
+          4,
+          6
+        ]
+      ],
+      "nonempty_fixed_peptide_sets": 2987,
+      "sequences": 4628,
+      "components": 2987,
+      "connected_unordered_endpoint_pairs": 2109,
+      "new_signature_obstructions": [],
+      "non_Hamming_detours": []
+    },
+    {
+      "n": 7,
+      "second_frame": [
+        "+",
+        1
+      ],
+      "pair_edges": [
+        [
+          5,
+          6
+        ]
+      ],
+      "nonempty_fixed_peptide_sets": 3368,
+      "sequences": 5324,
+      "components": 3368,
+      "connected_unordered_endpoint_pairs": 2568,
+      "new_signature_obstructions": [],
+      "non_Hamming_detours": []
+    },
+    {
+      "n": 7,
+      "second_frame": [
+        "+",
+        2
+      ],
+      "pair_edges": [],
+      "nonempty_fixed_peptide_sets": 1103,
+      "sequences": 14116,
+      "components": 1140,
+      "connected_unordered_endpoint_pairs": 99622,
+      "new_signature_obstructions": [],
+      "non_Hamming_detours": []
+    },
+    {
+      "n": 7,
+      "second_frame": [
+        "+",
+        2
+      ],
+      "pair_edges": [
+        [
+          0,
+          1
+        ]
+      ],
+      "nonempty_fixed_peptide_sets": 417,
+      "sequences": 4836,
+      "components": 417,
+      "connected_unordered_endpoint_pairs": 30246,
+      "new_signature_obstructions": [],
+      "non_Hamming_detours": []
+    },
+    {
+      "n": 7,
+      "second_frame": [
+        "+",
+        2
+      ],
+      "pair_edges": [
+        [
+          0,
+          2
+        ]
+      ],
+      "nonempty_fixed_peptide_sets": 400,
+      "sequences": 4740,
+      "components": 400,
+      "connected_unordered_endpoint_pairs": 31078,
+      "new_signature_obstructions": [],
+      "non_Hamming_detours": []
+    },
+    {
+      "n": 7,
+      "second_frame": [
+        "+",
+        2
+      ],
+      "pair_edges": [
+        [
+          0,
+          3
+        ]
+      ],
+      "nonempty_fixed_peptide_sets": 430,
+      "sequences": 5120,
+      "components": 430,
+      "connected_unordered_endpoint_pairs": 34256,
+      "new_signature_obstructions": [],
+      "non_Hamming_detours": []
+    },
+    {
+      "n": 7,
+      "second_frame": [
+        "+",
+        2
+      ],
+      "pair_edges": [
+        [
+          0,
+          4
+        ]
+      ],
+      "nonempty_fixed_peptide_sets": 451,
+      "sequences": 5284,
+      "components": 451,
+      "connected_unordered_endpoint_pairs": 34422,
+      "new_signature_obstructions": [],
+      "non_Hamming_detours": []
+    },
+    {
+      "n": 7,
+      "second_frame": [
+        "+",
+        2
+      ],
+      "pair_edges": [
+        [
+          0,
+          5
+        ]
+      ],
+      "nonempty_fixed_peptide_sets": 806,
+      "sequences": 5252,
+      "components": 840,
+      "connected_unordered_endpoint_pairs": 16694,
+      "new_signature_obstructions": [],
+      "non_Hamming_detours": []
+    },
+    {
+      "n": 7,
+      "second_frame": [
+        "+",
+        2
+      ],
+      "pair_edges": [
+        [
+          0,
+          6
+        ]
+      ],
+      "nonempty_fixed_peptide_sets": 1103,
+      "sequences": 5202,
+      "components": 1186,
+      "connected_unordered_endpoint_pairs": 12417,
+      "new_signature_obstructions": [],
+      "non_Hamming_detours": []
+    },
+    {
+      "n": 7,
+      "second_frame": [
+        "+",
+        2
+      ],
+      "pair_edges": [
+        [
+          1,
+          2
+        ]
+      ],
+      "nonempty_fixed_peptide_sets": 446,
+      "sequences": 5472,
+      "components": 446,
+      "connected_unordered_endpoint_pairs": 38192,
+      "new_signature_obstructions": [],
+      "non_Hamming_detours": []
+    },
+    {
+      "n": 7,
+      "second_frame": [
+        "+",
+        2
+      ],
+      "pair_edges": [
+        [
+          1,
+          3
+        ]
+      ],
+      "nonempty_fixed_peptide_sets": 398,
+      "sequences": 5284,
+      "components": 398,
+      "connected_unordered_endpoint_pairs": 40630,
+      "new_signature_obstructions": [],
+      "non_Hamming_detours": []
+    },
+    {
+      "n": 7,
+      "second_frame": [
+        "+",
+        2
+      ],
+      "pair_edges": [
+        [
+          1,
+          4
+        ]
+      ],
+      "nonempty_fixed_peptide_sets": 427,
+      "sequences": 5376,
+      "components": 427,
+      "connected_unordered_endpoint_pairs": 40112,
+      "new_signature_obstructions": [],
+      "non_Hamming_detours": []
+    },
+    {
+      "n": 7,
+      "second_frame": [
+        "+",
+        2
+      ],
+      "pair_edges": [
+        [
+          1,
+          5
+        ]
+      ],
+      "nonempty_fixed_peptide_sets": 790,
+      "sequences": 5344,
+      "components": 806,
+      "connected_unordered_endpoint_pairs": 20400,
+      "new_signature_obstructions": [],
+      "non_Hamming_detours": []
+    },
+    {
+      "n": 7,
+      "second_frame": [
+        "+",
+        2
+      ],
+      "pair_edges": [
+        [
+          1,
+          6
+        ]
+      ],
+      "nonempty_fixed_peptide_sets": 1103,
+      "sequences": 5324,
+      "components": 1140,
+      "connected_unordered_endpoint_pairs": 15377,
+      "new_signature_obstructions": [],
+      "non_Hamming_detours": []
+    },
+    {
+      "n": 7,
+      "second_frame": [
+        "+",
+        2
+      ],
+      "pair_edges": [
+        [
+          2,
+          3
+        ]
+      ],
+      "nonempty_fixed_peptide_sets": 380,
+      "sequences": 4772,
+      "components": 391,
+      "connected_unordered_endpoint_pairs": 32534,
+      "new_signature_obstructions": [],
+      "non_Hamming_detours": []
+    },
+    {
+      "n": 7,
+      "second_frame": [
+        "+",
+        2
+      ],
+      "pair_edges": [
+        [
+          2,
+          4
+        ]
+      ],
+      "nonempty_fixed_peptide_sets": 367,
+      "sequences": 4864,
+      "components": 378,
+      "connected_unordered_endpoint_pairs": 35408,
+      "new_signature_obstructions": [],
+      "non_Hamming_detours": []
+    },
+    {
+      "n": 7,
+      "second_frame": [
+        "+",
+        2
+      ],
+      "pair_edges": [
+        [
+          2,
+          5
+        ]
+      ],
+      "nonempty_fixed_peptide_sets": 796,
+      "sequences": 5248,
+      "components": 832,
+      "connected_unordered_endpoint_pairs": 17088,
+      "new_signature_obstructions": [],
+      "non_Hamming_detours": []
+    },
+    {
+      "n": 7,
+      "second_frame": [
+        "+",
+        2
+      ],
+      "pair_edges": [
+        [
+          2,
+          6
+        ]
+      ],
+      "nonempty_fixed_peptide_sets": 1103,
+      "sequences": 5228,
+      "components": 1167,
+      "connected_unordered_endpoint_pairs": 13175,
+      "new_signature_obstructions": [],
+      "non_Hamming_detours": []
+    },
+    {
+      "n": 7,
+      "second_frame": [
+        "+",
+        2
+      ],
+      "pair_edges": [
+        [
+          3,
+          4
+        ]
+      ],
+      "nonempty_fixed_peptide_sets": 395,
+      "sequences": 5124,
+      "components": 408,
+      "connected_unordered_endpoint_pairs": 36726,
+      "new_signature_obstructions": [],
+      "non_Hamming_detours": []
+    },
+    {
+      "n": 7,
+      "second_frame": [
+        "+",
+        2
+      ],
+      "pair_edges": [
+        [
+          3,
+          5
+        ]
+      ],
+      "nonempty_fixed_peptide_sets": 747,
+      "sequences": 4868,
+      "components": 773,
+      "connected_unordered_endpoint_pairs": 16678,
+      "new_signature_obstructions": [],
+      "non_Hamming_detours": []
+    },
+    {
+      "n": 7,
+      "second_frame": [
+        "+",
+        2
+      ],
+      "pair_edges": [
+        [
+          3,
+          6
+        ]
+      ],
+      "nonempty_fixed_peptide_sets": 1103,
+      "sequences": 5234,
+      "components": 1140,
+      "connected_unordered_endpoint_pairs": 14294,
+      "new_signature_obstructions": [],
+      "non_Hamming_detours": []
+    },
+    {
+      "n": 7,
+      "second_frame": [
+        "+",
+        2
+      ],
+      "pair_edges": [
+        [
+          4,
+          5
+        ]
+      ],
+      "nonempty_fixed_peptide_sets": 842,
+      "sequences": 5600,
+      "components": 871,
+      "connected_unordered_endpoint_pairs": 19568,
+      "new_signature_obstructions": [],
+      "non_Hamming_detours": []
+    },
+    {
+      "n": 7,
+      "second_frame": [
+        "+",
+        2
+      ],
+      "pair_edges": [
+        [
+          4,
+          6
+        ]
+      ],
+      "nonempty_fixed_peptide_sets": 1103,
+      "sequences": 5356,
+      "components": 1140,
+      "connected_unordered_endpoint_pairs": 14398,
+      "new_signature_obstructions": [],
+      "non_Hamming_detours": []
+    },
+    {
+      "n": 7,
+      "second_frame": [
+        "+",
+        2
+      ],
+      "pair_edges": [
+        [
+          5,
+          6
+        ]
+      ],
+      "nonempty_fixed_peptide_sets": 1103,
+      "sequences": 5324,
+      "components": 1644,
+      "connected_unordered_endpoint_pairs": 6969,
+      "new_signature_obstructions": [],
+      "non_Hamming_detours": []
+    },
+    {
+      "n": 7,
+      "second_frame": [
+        "-",
+        0
+      ],
+      "pair_edges": [],
+      "nonempty_fixed_peptide_sets": 11393,
+      "sequences": 13420,
+      "components": 11628,
+      "connected_unordered_endpoint_pairs": 1984,
+      "new_signature_obstructions": [],
+      "non_Hamming_detours": []
+    },
+    {
+      "n": 7,
+      "second_frame": [
+        "-",
+        0
+      ],
+      "pair_edges": [
+        [
+          0,
+          1
+        ]
+      ],
+      "nonempty_fixed_peptide_sets": 4206,
+      "sequences": 4567,
+      "components": 4251,
+      "connected_unordered_endpoint_pairs": 316,
+      "new_signature_obstructions": [],
+      "non_Hamming_detours": []
+    },
+    {
+      "n": 7,
+      "second_frame": [
+        "-",
+        0
+      ],
+      "pair_edges": [
+        [
+          0,
+          2
+        ]
+      ],
+      "nonempty_fixed_peptide_sets": 3995,
+      "sequences": 4567,
+      "components": 4035,
+      "connected_unordered_endpoint_pairs": 580,
+      "new_signature_obstructions": [],
+      "non_Hamming_detours": []
+    },
+    {
+      "n": 7,
+      "second_frame": [
+        "-",
+        0
+      ],
+      "pair_edges": [
+        [
+          0,
+          3
+        ]
+      ],
+      "nonempty_fixed_peptide_sets": 4415,
+      "sequences": 4923,
+      "components": 4461,
+      "connected_unordered_endpoint_pairs": 486,
+      "new_signature_obstructions": [],
+      "non_Hamming_detours": []
+    },
+    {
+      "n": 7,
+      "second_frame": [
+        "-",
+        0
+      ],
+      "pair_edges": [
+        [
+          0,
+          4
+        ]
+      ],
+      "nonempty_fixed_peptide_sets": 4407,
+      "sequences": 4947,
+      "components": 4461,
+      "connected_unordered_endpoint_pairs": 486,
+      "new_signature_obstructions": [],
+      "non_Hamming_detours": []
+    },
+    {
+      "n": 7,
+      "second_frame": [
+        "-",
+        0
+      ],
+      "pair_edges": [
+        [
+          0,
+          5
+        ]
+      ],
+      "nonempty_fixed_peptide_sets": 4605,
+      "sequences": 4947,
+      "components": 4607,
+      "connected_unordered_endpoint_pairs": 340,
+      "new_signature_obstructions": [],
+      "non_Hamming_detours": []
+    },
+    {
+      "n": 7,
+      "second_frame": [
+        "-",
+        0
+      ],
+      "pair_edges": [
+        [
+          0,
+          6
+        ]
+      ],
+      "nonempty_fixed_peptide_sets": 4810,
+      "sequences": 5055,
+      "components": 4835,
+      "connected_unordered_endpoint_pairs": 236,
+      "new_signature_obstructions": [],
+      "non_Hamming_detours": []
+    },
+    {
+      "n": 7,
+      "second_frame": [
+        "-",
+        0
+      ],
+      "pair_edges": [
+        [
+          1,
+          2
+        ]
+      ],
+      "nonempty_fixed_peptide_sets": 4705,
+      "sequences": 5568,
+      "components": 4752,
+      "connected_unordered_endpoint_pairs": 912,
+      "new_signature_obstructions": [],
+      "non_Hamming_detours": []
+    },
+    {
+      "n": 7,
+      "second_frame": [
+        "-",
+        0
+      ],
+      "pair_edges": [
+        [
+          1,
+          3
+        ]
+      ],
+      "nonempty_fixed_peptide_sets": 3965,
+      "sequences": 4776,
+      "components": 4008,
+      "connected_unordered_endpoint_pairs": 864,
+      "new_signature_obstructions": [],
+      "non_Hamming_detours": []
+    },
+    {
+      "n": 7,
+      "second_frame": [
+        "-",
+        0
+      ],
+      "pair_edges": [
+        [
+          1,
+          4
+        ]
+      ],
+      "nonempty_fixed_peptide_sets": 4173,
+      "sequences": 5020,
+      "components": 4236,
+      "connected_unordered_endpoint_pairs": 880,
+      "new_signature_obstructions": [],
+      "non_Hamming_detours": []
+    },
+    {
+      "n": 7,
+      "second_frame": [
+        "-",
+        0
+      ],
+      "pair_edges": [
+        [
+          1,
+          5
+        ]
+      ],
+      "nonempty_fixed_peptide_sets": 4350,
+      "sequences": 5020,
+      "components": 4356,
+      "connected_unordered_endpoint_pairs": 760,
+      "new_signature_obstructions": [],
+      "non_Hamming_detours": []
+    },
+    {
+      "n": 7,
+      "second_frame": [
+        "-",
+        0
+      ],
+      "pair_edges": [
+        [
+          1,
+          6
+        ]
+      ],
+      "nonempty_fixed_peptide_sets": 4557,
+      "sequences": 5124,
+      "components": 4564,
+      "connected_unordered_endpoint_pairs": 608,
+      "new_signature_obstructions": [],
+      "non_Hamming_detours": []
+    },
+    {
+      "n": 7,
+      "second_frame": [
+        "-",
+        0
+      ],
+      "pair_edges": [
+        [
+          2,
+          3
+        ]
+      ],
+      "nonempty_fixed_peptide_sets": 4045,
+      "sequences": 4776,
+      "components": 4146,
+      "connected_unordered_endpoint_pairs": 702,
+      "new_signature_obstructions": [],
+      "non_Hamming_detours": []
+    },
+    {
+      "n": 7,
+      "second_frame": [
+        "-",
+        0
+      ],
+      "pair_edges": [
+        [
+          2,
+          4
+        ]
+      ],
+      "nonempty_fixed_peptide_sets": 4278,
+      "sequences": 5020,
+      "components": 4372,
+      "connected_unordered_endpoint_pairs": 792,
+      "new_signature_obstructions": [],
+      "non_Hamming_detours": []
+    },
+    {
+      "n": 7,
+      "second_frame": [
+        "-",
+        0
+      ],
+      "pair_edges": [
+        [
+          2,
+          5
+        ]
+      ],
+      "nonempty_fixed_peptide_sets": 4425,
+      "sequences": 5020,
+      "components": 4460,
+      "connected_unordered_endpoint_pairs": 608,
+      "new_signature_obstructions": [],
+      "non_Hamming_detours": []
+    },
+    {
+      "n": 7,
+      "second_frame": [
+        "-",
+        0
+      ],
+      "pair_edges": [
+        [
+          2,
+          6
+        ]
+      ],
+      "nonempty_fixed_peptide_sets": 4614,
+      "sequences": 5124,
+      "components": 4646,
+      "connected_unordered_endpoint_pairs": 478,
+      "new_signature_obstructions": [],
+      "non_Hamming_detours": []
+    },
+    {
+      "n": 7,
+      "second_frame": [
+        "-",
+        0
+      ],
+      "pair_edges": [
+        [
+          3,
+          4
+        ]
+      ],
+      "nonempty_fixed_peptide_sets": 3920,
+      "sequences": 4651,
+      "components": 4017,
+      "connected_unordered_endpoint_pairs": 706,
+      "new_signature_obstructions": [],
+      "non_Hamming_detours": []
+    },
+    {
+      "n": 7,
+      "second_frame": [
+        "-",
+        0
+      ],
+      "pair_edges": [
+        [
+          3,
+          5
+        ]
+      ],
+      "nonempty_fixed_peptide_sets": 4064,
+      "sequences": 4651,
+      "components": 4107,
+      "connected_unordered_endpoint_pairs": 592,
+      "new_signature_obstructions": [],
+      "non_Hamming_detours": []
+    },
+    {
+      "n": 7,
+      "second_frame": [
+        "-",
+        0
+      ],
+      "pair_edges": [
+        [
+          3,
+          6
+        ]
+      ],
+      "nonempty_fixed_peptide_sets": 4602,
+      "sequences": 5115,
+      "components": 4653,
+      "connected_unordered_endpoint_pairs": 486,
+      "new_signature_obstructions": [],
+      "non_Hamming_detours": []
+    },
+    {
+      "n": 7,
+      "second_frame": [
+        "-",
+        0
+      ],
+      "pair_edges": [
+        [
+          4,
+          5
+        ]
+      ],
+      "nonempty_fixed_peptide_sets": 4919,
+      "sequences": 5568,
+      "components": 4968,
+      "connected_unordered_endpoint_pairs": 648,
+      "new_signature_obstructions": [],
+      "non_Hamming_detours": []
+    },
+    {
+      "n": 7,
+      "second_frame": [
+        "-",
+        0
+      ],
+      "pair_edges": [
+        [
+          4,
+          6
+        ]
+      ],
+      "nonempty_fixed_peptide_sets": 4266,
+      "sequences": 4860,
+      "components": 4308,
+      "connected_unordered_endpoint_pairs": 600,
+      "new_signature_obstructions": [],
+      "non_Hamming_detours": []
+    },
+    {
+      "n": 7,
+      "second_frame": [
+        "-",
+        0
+      ],
+      "pair_edges": [
+        [
+          5,
+          6
+        ]
+      ],
+      "nonempty_fixed_peptide_sets": 4477,
+      "sequences": 4860,
+      "components": 4524,
+      "connected_unordered_endpoint_pairs": 336,
+      "new_signature_obstructions": [],
+      "non_Hamming_detours": []
+    },
+    {
+      "n": 7,
+      "second_frame": [
+        "-",
+        1
+      ],
+      "pair_edges": [],
+      "nonempty_fixed_peptide_sets": 2704,
+      "sequences": 13456,
+      "components": 2704,
+      "connected_unordered_endpoint_pairs": 32472,
+      "new_signature_obstructions": [],
+      "non_Hamming_detours": []
+    },
+    {
+      "n": 7,
+      "second_frame": [
+        "-",
+        1
+      ],
+      "pair_edges": [
+        [
+          0,
+          1
+        ]
+      ],
+      "nonempty_fixed_peptide_sets": 1092,
+      "sequences": 4872,
+      "components": 1092,
+      "connected_unordered_endpoint_pairs": 9324,
+      "new_signature_obstructions": [],
+      "non_Hamming_detours": []
+    },
+    {
+      "n": 7,
+      "second_frame": [
+        "-",
+        1
+      ],
+      "pair_edges": [
+        [
+          0,
+          2
+        ]
+      ],
+      "nonempty_fixed_peptide_sets": 936,
+      "sequences": 4408,
+      "components": 936,
+      "connected_unordered_endpoint_pairs": 9556,
+      "new_signature_obstructions": [],
+      "non_Hamming_detours": []
+    },
+    {
+      "n": 7,
+      "second_frame": [
+        "-",
+        1
+      ],
+      "pair_edges": [
+        [
+          0,
+          3
+        ]
+      ],
+      "nonempty_fixed_peptide_sets": 1024,
+      "sequences": 4736,
+      "components": 1024,
+      "connected_unordered_endpoint_pairs": 9664,
+      "new_signature_obstructions": [],
+      "non_Hamming_detours": []
+    },
+    {
+      "n": 7,
+      "second_frame": [
+        "-",
+        1
+      ],
+      "pair_edges": [
+        [
+          0,
+          4
+        ]
+      ],
+      "nonempty_fixed_peptide_sets": 1040,
+      "sequences": 4928,
+      "components": 1040,
+      "connected_unordered_endpoint_pairs": 10896,
+      "new_signature_obstructions": [],
+      "non_Hamming_detours": []
+    },
+    {
+      "n": 7,
+      "second_frame": [
+        "-",
+        1
+      ],
+      "pair_edges": [
+        [
+          0,
+          5
+        ]
+      ],
+      "nonempty_fixed_peptide_sets": 1140,
+      "sequences": 5116,
+      "components": 1144,
+      "connected_unordered_endpoint_pairs": 10330,
+      "new_signature_obstructions": [],
+      "non_Hamming_detours": []
+    },
+    {
+      "n": 7,
+      "second_frame": [
+        "-",
+        1
+      ],
+      "pair_edges": [
+        [
+          0,
+          6
+        ]
+      ],
+      "nonempty_fixed_peptide_sets": 2704,
+      "sequences": 4930,
+      "components": 2808,
+      "connected_unordered_endpoint_pairs": 2960,
+      "new_signature_obstructions": [],
+      "non_Hamming_detours": []
+    },
+    {
+      "n": 7,
+      "second_frame": [
+        "-",
+        1
+      ],
+      "pair_edges": [
+        [
+          1,
+          2
+        ]
+      ],
+      "nonempty_fixed_peptide_sets": 1092,
+      "sequences": 5104,
+      "components": 1092,
+      "connected_unordered_endpoint_pairs": 10888,
+      "new_signature_obstructions": [],
+      "non_Hamming_detours": []
+    },
+    {
+      "n": 7,
+      "second_frame": [
+        "-",
+        1
+      ],
+      "pair_edges": [
+        [
+          1,
+          3
+        ]
+      ],
+      "nonempty_fixed_peptide_sets": 1040,
+      "sequences": 4928,
+      "components": 1040,
+      "connected_unordered_endpoint_pairs": 10896,
+      "new_signature_obstructions": [],
+      "non_Hamming_detours": []
+    },
+    {
+      "n": 7,
+      "second_frame": [
+        "-",
+        1
+      ],
+      "pair_edges": [
+        [
+          1,
+          4
+        ]
+      ],
+      "nonempty_fixed_peptide_sets": 1014,
+      "sequences": 5048,
+      "components": 1014,
+      "connected_unordered_endpoint_pairs": 12212,
+      "new_signature_obstructions": [],
+      "non_Hamming_detours": []
+    },
+    {
+      "n": 7,
+      "second_frame": [
+        "-",
+        1
+      ],
+      "pair_edges": [
+        [
+          1,
+          5
+        ]
+      ],
+      "nonempty_fixed_peptide_sets": 1079,
+      "sequences": 5172,
+      "components": 1079,
+      "connected_unordered_endpoint_pairs": 11566,
+      "new_signature_obstructions": [],
+      "non_Hamming_detours": []
+    },
+    {
+      "n": 7,
+      "second_frame": [
+        "-",
+        1
+      ],
+      "pair_edges": [
+        [
+          1,
+          6
+        ]
+      ],
+      "nonempty_fixed_peptide_sets": 2704,
+      "sequences": 5046,
+      "components": 2704,
+      "connected_unordered_endpoint_pairs": 3602,
+      "new_signature_obstructions": [],
+      "non_Hamming_detours": []
+    },
+    {
+      "n": 7,
+      "second_frame": [
+        "-",
+        1
+      ],
+      "pair_edges": [
+        [
+          2,
+          3
+        ]
+      ],
+      "nonempty_fixed_peptide_sets": 1140,
+      "sequences": 5116,
+      "components": 1144,
+      "connected_unordered_endpoint_pairs": 10330,
+      "new_signature_obstructions": [],
+      "non_Hamming_detours": []
+    },
+    {
+      "n": 7,
+      "second_frame": [
+        "-",
+        1
+      ],
+      "pair_edges": [
+        [
+          2,
+          4
+        ]
+      ],
+      "nonempty_fixed_peptide_sets": 1079,
+      "sequences": 5172,
+      "components": 1079,
+      "connected_unordered_endpoint_pairs": 11566,
+      "new_signature_obstructions": [],
+      "non_Hamming_detours": []
+    },
+    {
+      "n": 7,
+      "second_frame": [
+        "-",
+        1
+      ],
+      "pair_edges": [
+        [
+          2,
+          5
+        ]
+      ],
+      "nonempty_fixed_peptide_sets": 1116,
+      "sequences": 5248,
+      "components": 1120,
+      "connected_unordered_endpoint_pairs": 10944,
+      "new_signature_obstructions": [],
+      "non_Hamming_detours": []
+    },
+    {
+      "n": 7,
+      "second_frame": [
+        "-",
+        1
+      ],
+      "pair_edges": [
+        [
+          2,
+          6
+        ]
+      ],
+      "nonempty_fixed_peptide_sets": 2704,
+      "sequences": 5162,
+      "components": 2808,
+      "connected_unordered_endpoint_pairs": 3474,
+      "new_signature_obstructions": [],
+      "non_Hamming_detours": []
+    },
+    {
+      "n": 7,
+      "second_frame": [
+        "-",
+        1
+      ],
+      "pair_edges": [
+        [
+          3,
+          4
+        ]
+      ],
+      "nonempty_fixed_peptide_sets": 1092,
+      "sequences": 4872,
+      "components": 1092,
+      "connected_unordered_endpoint_pairs": 9324,
+      "new_signature_obstructions": [],
+      "non_Hamming_detours": []
+    },
+    {
+      "n": 7,
+      "second_frame": [
+        "-",
+        1
+      ],
+      "pair_edges": [
+        [
+          3,
+          5
+        ]
+      ],
+      "nonempty_fixed_peptide_sets": 936,
+      "sequences": 4408,
+      "components": 936,
+      "connected_unordered_endpoint_pairs": 9556,
+      "new_signature_obstructions": [],
+      "non_Hamming_detours": []
+    },
+    {
+      "n": 7,
+      "second_frame": [
+        "-",
+        1
+      ],
+      "pair_edges": [
+        [
+          3,
+          6
+        ]
+      ],
+      "nonempty_fixed_peptide_sets": 2704,
+      "sequences": 4930,
+      "components": 2808,
+      "connected_unordered_endpoint_pairs": 2960,
+      "new_signature_obstructions": [],
+      "non_Hamming_detours": []
+    },
+    {
+      "n": 7,
+      "second_frame": [
+        "-",
+        1
+      ],
+      "pair_edges": [
+        [
+          4,
+          5
+        ]
+      ],
+      "nonempty_fixed_peptide_sets": 1092,
+      "sequences": 5104,
+      "components": 1092,
+      "connected_unordered_endpoint_pairs": 10888,
+      "new_signature_obstructions": [],
+      "non_Hamming_detours": []
+    },
+    {
+      "n": 7,
+      "second_frame": [
+        "-",
+        1
+      ],
+      "pair_edges": [
+        [
+          4,
+          6
+        ]
+      ],
+      "nonempty_fixed_peptide_sets": 2704,
+      "sequences": 5046,
+      "components": 2704,
+      "connected_unordered_endpoint_pairs": 3602,
+      "new_signature_obstructions": [],
+      "non_Hamming_detours": []
+    },
+    {
+      "n": 7,
+      "second_frame": [
+        "-",
+        1
+      ],
+      "pair_edges": [
+        [
+          5,
+          6
+        ]
+      ],
+      "nonempty_fixed_peptide_sets": 2704,
+      "sequences": 5162,
+      "components": 2808,
+      "connected_unordered_endpoint_pairs": 3474,
+      "new_signature_obstructions": [],
+      "non_Hamming_detours": []
+    },
+    {
+      "n": 7,
+      "second_frame": [
+        "-",
+        2
+      ],
+      "pair_edges": [],
+      "nonempty_fixed_peptide_sets": 574,
+      "sequences": 14372,
+      "components": 598,
+      "connected_unordered_endpoint_pairs": 265718,
+      "new_signature_obstructions": [],
+      "non_Hamming_detours": []
+    },
+    {
+      "n": 7,
+      "second_frame": [
+        "-",
+        2
+      ],
+      "pair_edges": [
+        [
+          0,
+          1
+        ]
+      ],
+      "nonempty_fixed_peptide_sets": 234,
+      "sequences": 4932,
+      "components": 234,
+      "connected_unordered_endpoint_pairs": 79206,
+      "new_signature_obstructions": [],
+      "non_Hamming_detours": []
+    },
+    {
+      "n": 7,
+      "second_frame": [
+        "-",
+        2
+      ],
+      "pair_edges": [
+        [
+          0,
+          2
+        ]
+      ],
+      "nonempty_fixed_peptide_sets": 302,
+      "sequences": 4900,
+      "components": 314,
+      "connected_unordered_endpoint_pairs": 50598,
+      "new_signature_obstructions": [],
+      "non_Hamming_detours": []
+    },
+    {
+      "n": 7,
+      "second_frame": [
+        "-",
+        2
+      ],
+      "pair_edges": [
+        [
+          0,
+          3
+        ]
+      ],
+      "nonempty_fixed_peptide_sets": 230,
+      "sequences": 5184,
+      "components": 230,
+      "connected_unordered_endpoint_pairs": 89120,
+      "new_signature_obstructions": [],
+      "non_Hamming_detours": []
+    },
+    {
+      "n": 7,
+      "second_frame": [
+        "-",
+        2
+      ],
+      "pair_edges": [
+        [
+          0,
+          4
+        ]
+      ],
+      "nonempty_fixed_peptide_sets": 237,
+      "sequences": 5412,
+      "components": 237,
+      "connected_unordered_endpoint_pairs": 93494,
+      "new_signature_obstructions": [],
+      "non_Hamming_detours": []
+    },
+    {
+      "n": 7,
+      "second_frame": [
+        "-",
+        2
+      ],
+      "pair_edges": [
+        [
+          0,
+          5
+        ]
+      ],
+      "nonempty_fixed_peptide_sets": 401,
+      "sequences": 5348,
+      "components": 419,
+      "connected_unordered_endpoint_pairs": 44214,
+      "new_signature_obstructions": [],
+      "non_Hamming_detours": []
+    },
+    {
+      "n": 7,
+      "second_frame": [
+        "-",
+        2
+      ],
+      "pair_edges": [
+        [
+          0,
+          6
+        ]
+      ],
+      "nonempty_fixed_peptide_sets": 574,
+      "sequences": 5298,
+      "components": 621,
+      "connected_unordered_endpoint_pairs": 35292,
+      "new_signature_obstructions": [],
+      "non_Hamming_detours": []
+    },
+    {
+      "n": 7,
+      "second_frame": [
+        "-",
+        2
+      ],
+      "pair_edges": [
+        [
+          1,
+          2
+        ]
+      ],
+      "nonempty_fixed_peptide_sets": 348,
+      "sequences": 5632,
+      "components": 360,
+      "connected_unordered_endpoint_pairs": 63696,
+      "new_signature_obstructions": [],
+      "non_Hamming_detours": []
+    },
+    {
+      "n": 7,
+      "second_frame": [
+        "-",
+        2
+      ],
+      "pair_edges": [
+        [
+          1,
+          3
+        ]
+      ],
+      "nonempty_fixed_peptide_sets": 201,
+      "sequences": 5348,
+      "components": 201,
+      "connected_unordered_endpoint_pairs": 112278,
+      "new_signature_obstructions": [],
+      "non_Hamming_detours": []
+    },
+    {
+      "n": 7,
+      "second_frame": [
+        "-",
+        2
+      ],
+      "pair_edges": [
+        [
+          1,
+          4
+        ]
+      ],
+      "nonempty_fixed_peptide_sets": 230,
+      "sequences": 5504,
+      "components": 230,
+      "connected_unordered_endpoint_pairs": 107584,
+      "new_signature_obstructions": [],
+      "non_Hamming_detours": []
+    },
+    {
+      "n": 7,
+      "second_frame": [
+        "-",
+        2
+      ],
+      "pair_edges": [
+        [
+          1,
+          5
+        ]
+      ],
+      "nonempty_fixed_peptide_sets": 392,
+      "sequences": 5440,
+      "components": 400,
+      "connected_unordered_endpoint_pairs": 54352,
+      "new_signature_obstructions": [],
+      "non_Hamming_detours": []
+    },
+    {
+      "n": 7,
+      "second_frame": [
+        "-",
+        2
+      ],
+      "pair_edges": [
+        [
+          1,
+          6
+        ]
+      ],
+      "nonempty_fixed_peptide_sets": 574,
+      "sequences": 5420,
+      "components": 598,
+      "connected_unordered_endpoint_pairs": 43790,
+      "new_signature_obstructions": [],
+      "non_Hamming_detours": []
+    },
+    {
+      "n": 7,
+      "second_frame": [
+        "-",
+        2
+      ],
+      "pair_edges": [
+        [
+          2,
+          3
+        ]
+      ],
+      "nonempty_fixed_peptide_sets": 329,
+      "sequences": 5540,
+      "components": 341,
+      "connected_unordered_endpoint_pairs": 58534,
+      "new_signature_obstructions": [],
+      "non_Hamming_detours": []
+    },
+    {
+      "n": 7,
+      "second_frame": [
+        "-",
+        2
+      ],
+      "pair_edges": [
+        [
+          2,
+          4
+        ]
+      ],
+      "nonempty_fixed_peptide_sets": 286,
+      "sequences": 5248,
+      "components": 296,
+      "connected_unordered_endpoint_pairs": 60592,
+      "new_signature_obstructions": [],
+      "non_Hamming_detours": []
+    },
+    {
+      "n": 7,
+      "second_frame": [
+        "-",
+        2
+      ],
+      "pair_edges": [
+        [
+          2,
+          5
+        ]
+      ],
+      "nonempty_fixed_peptide_sets": 416,
+      "sequences": 5504,
+      "components": 496,
+      "connected_unordered_endpoint_pairs": 32832,
+      "new_signature_obstructions": [],
+      "non_Hamming_detours": []
+    },
+    {
+      "n": 7,
+      "second_frame": [
+        "-",
+        2
+      ],
+      "pair_edges": [
+        [
+          2,
+          6
+        ]
+      ],
+      "nonempty_fixed_peptide_sets": 574,
+      "sequences": 5388,
+      "components": 706,
+      "connected_unordered_endpoint_pairs": 24797,
+      "new_signature_obstructions": [],
+      "non_Hamming_detours": []
+    },
+    {
+      "n": 7,
+      "second_frame": [
+        "-",
+        2
+      ],
+      "pair_edges": [
+        [
+          3,
+          4
+        ]
+      ],
+      "nonempty_fixed_peptide_sets": 202,
+      "sequences": 4868,
+      "components": 211,
+      "connected_unordered_endpoint_pairs": 100934,
+      "new_signature_obstructions": [],
+      "non_Hamming_detours": []
+    },
+    {
+      "n": 7,
+      "second_frame": [
+        "-",
+        2
+      ],
+      "pair_edges": [
+        [
+          3,
+          5
+        ]
+      ],
+      "nonempty_fixed_peptide_sets": 369,
+      "sequences": 5060,
+      "components": 385,
+      "connected_unordered_endpoint_pairs": 46246,
+      "new_signature_obstructions": [],
+      "non_Hamming_detours": []
+    },
+    {
+      "n": 7,
+      "second_frame": [
+        "-",
+        2
+      ],
+      "pair_edges": [
+        [
+          3,
+          6
+        ]
+      ],
+      "nonempty_fixed_peptide_sets": 574,
+      "sequences": 5298,
+      "components": 598,
+      "connected_unordered_endpoint_pairs": 39102,
+      "new_signature_obstructions": [],
+      "non_Hamming_detours": []
+    },
+    {
+      "n": 7,
+      "second_frame": [
+        "-",
+        2
+      ],
+      "pair_edges": [
+        [
+          4,
+          5
+        ]
+      ],
+      "nonempty_fixed_peptide_sets": 418,
+      "sequences": 5664,
+      "components": 436,
+      "connected_unordered_endpoint_pairs": 50912,
+      "new_signature_obstructions": [],
+      "non_Hamming_detours": []
+    },
+    {
+      "n": 7,
+      "second_frame": [
+        "-",
+        2
+      ],
+      "pair_edges": [
+        [
+          4,
+          6
+        ]
+      ],
+      "nonempty_fixed_peptide_sets": 574,
+      "sequences": 5484,
+      "components": 598,
+      "connected_unordered_endpoint_pairs": 40758,
+      "new_signature_obstructions": [],
+      "non_Hamming_detours": []
+    },
+    {
+      "n": 7,
+      "second_frame": [
+        "-",
+        2
+      ],
+      "pair_edges": [
+        [
+          5,
+          6
+        ]
+      ],
+      "nonempty_fixed_peptide_sets": 574,
+      "sequences": 5420,
+      "components": 821,
+      "connected_unordered_endpoint_pairs": 20913,
+      "new_signature_obstructions": [],
+      "non_Hamming_detours": []
+    }
+  ],
+  "totals": {
+    "configurations": 115,
+    "connected_unordered_endpoint_pairs": 2519135,
+    "configurations_with_new_obstruction": 0,
+    "configurations_with_detour": 0
+  }
+}

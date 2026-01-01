@@ -1,0 +1,14 @@
+{
+  "claim_id": "R1_IDENTIFIABILITY_AND_KNOWN_CONTROLS",
+  "mathematics": {
+    "assertion_tested": "Exact design ranks, known additive/pairwise/third-order fields, endpoint-specific intervention discrimination, and agreement of bottleneck optimization with independent threshold BFS.",
+    "coefficient_domain": "Rational numbers with exact Python Fraction arithmetic",
+    "conventions": "Reference-coded monomials on binary cubes; superlevel sets use >= and admit ties together; fixed endpoints 000 and 110 on Q3.",
+    "inputs": ["The old three-state path, Q2 and Q3", "Five synthetic fields with declared answers", "All 3^8 fields taking values in {0,1/2,1}"],
+    "bounds": {"maximum_vertices": 8, "Q3_fields": 6561, "Q2_fields": 81},
+    "non_claims": ["No new folding or biological outcomes", "Finite enumeration does not prove a universal theorem", "Nonzero third-order coefficients do not imply barriers"]
+  },
+  "execution_artifacts": ["analysis/programme/design_controls.py", "analysis/programme/research_registry_v1.json"],
+  "software": [{"name": "Python", "version": "3.12.14"}],
+  "randomness": {"used": false, "generator": "", "seed": null}
+}

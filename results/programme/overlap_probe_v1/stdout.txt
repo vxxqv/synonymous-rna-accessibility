@@ -1,0 +1,1 @@
+{"configurations": 115, "connected_unordered_endpoint_pairs": 2519135, "configurations_with_new_obstruction": 0, "configurations_with_detour": 0}

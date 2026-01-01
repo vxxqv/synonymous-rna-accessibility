@@ -1,0 +1,49 @@
+{
+  "id": "R1_Q3_COMPETITOR_PILOT_V1",
+  "stage": "Protocol before any new RNA outcomes. Numerical predictor outputs must be committed separately before partition-function evaluation.",
+  "design_gate": "Exact ranks and all synthetic controls in results/programme/design_gate_v1 must pass. The graph is complete Q3, rank 4 additive and rank 7 pairwise. Coefficients identify statistical interactions on this score scale, not physical causality.",
+  "sequences": {
+    "generator": "NumPy default_rng PCG64, seed 8191; 40 standard sense codons per synthetic internal coding context, no initiation or termination claim",
+    "discovery_scaffolds": 12,
+    "heldout_scaffolds": 12,
+    "discovery_motif_start_codons0": [7, 17, 27],
+    "heldout_motif_start_codons0": [8, 20, 32],
+    "motif": "Three KLFF units, each AAA/AAG, CUU/CUC, UUU, UUU. Unit start s has target pairs (s,s+10),(s+1,s+9),(s+2,s+8) in nucleotide coordinates.",
+    "alleles": "Only the lysine wobble in each unit varies across eight genotypes. A/G paired with fixed U is compatible in all genotypes. Cube order is lexicographic 000,001,010,011,100,101,110,111.",
+    "control_context": "Codon 3 is AUU or AUC and codon 4 is UCU. The control wobble and the targeted leucine wobble both change UUU to UCU or its reverse in the local trinucleotide context.",
+    "identity_gate": "Reject a candidate if any ungapped 100nt alignment has >=80 percent identity against discovery-context windows, any earlier new scaffold, or any prior synthetic context of sufficient length. For the old 90nt pilot also reject >=80 percent identity over an ungapped 90nt alignment. Compare baseline and both intervention sequences. At most 100 attempts per scaffold; report all attempts. This is sequence-overlap screening, not a claim of phylogenetic independence.",
+    "shared_architecture_limit": "The repeated motif and peptide pattern are intentional and shared across splits. The holdout tests spacing/context transfer within this synthetic design, not biological-family independence."
+  },
+  "interventions": {
+    "target": "Change the central loop leucine wobble CUU<->CUC in motif index scaffold_index mod 3, consistently across all eight genotypes.",
+    "matched": "Change the remote isoleucine wobble AUU<->AUC, consistently across all eight genotypes.",
+    "direction": "Even indexed scaffolds U_to_C; odd indexed scaffolds C_to_U. Both target and control use the same direction.",
+    "held_fixed": "Peptide, all target pairs, all eight genotype labels, primary endpoints, sequence length, mutation number, transition identity, GC change, and immediate flanking bases U/U.",
+    "limitation": "Longer context and codon identity differ between intervention sites. Matching does not isolate every structural or translational effect. This is a folding-model prediction test, not functional engineering."
+  },
+  "predictors": {
+    "finite_competitor": "For each landscape take the union of the eight target-hairpin subset structures and the MFE structures from all eight genotypes. Reject structure/genotype combinations with a forbidden pair. Evaluate structure energies and Boltzmann-normalize within this finite library, with RT=0.00198720425864083*310.15 kcal/mol. Predicted score is expected fraction of the nine target pairs. This deliberately truncated predictor has no full-ensemble error guarantee.",
+    "independent_hairpins": "For each of the three isolated target hairpins, evaluate its full-context structure energy against the unpaired state, convert to two-state occupancy and average. Verify additive rank and zero target/control energy change to numerical tolerance. Its barrier prediction is identically zero on the complete cube.",
+    "prediction_freeze": "Commit protocol, implementation, every accepted sequence, all predictor scores, endpoint lifetimes, selection attempts and input hashes before any partition function is run. No outcome-dependent scaffold filtering."
+  },
+  "outcomes": {
+    "engine": "ViennaRNA 2.7.2, Turner 2004, 37 C, dangles=2, noLP=0; unrestricted partition function",
+    "score": "Mean marginal probability of nine target pairs. This is not probability of joint target occupancy.",
+    "primary": "Fixed-endpoint lifetime B for 000 and 110, with >= superlevel convention and all ties simultaneous. Genotype 001 and the rest of the third-site layer supply alternative paths.",
+    "intervention_primary": "D=B_targeted-B_control, also reporting both changes from baseline. A predicted |D|>=0.001 is covered; observed |D|<0.0001 counts as directional failure, not exclusion.",
+    "secondary": "All 28 endpoint-pair lifetimes, integrated excess fragmentation, all Mobius coefficients, predictive score error on held-out genotype labels, and complete failure tables. No alternate endpoint may replace the primary."
+  },
+  "benchmarks": {
+    "zero_and_additive": "B=0, including the independent-hairpin additive field. These are mathematically equivalent for the primary endpoint and are not counted as independent wins.",
+    "simple_features": "Mutation count, GC change and local trinucleotide change predict D=0 because the interventions are matched. For held-out B also compare the median B from all discovery landscapes, frozen before held-out outcomes.",
+    "four_anchor_additive": "Use observed scores at 000,001,010,100 to predict 011,101,110,111 by additive extrapolation. Compare score MAE on those four masked labels. This is an assay-assisted within-scaffold benchmark, not a no-assay prospective predictor. Report out-of-range predictions; do not clip silently.",
+    "correlation_reference": "For each observed landscape fix both primary endpoint scores and enumerate all 6!=720 label permutations on the other vertices. Preserve the score multiset and condition mean squared edge differences within 5 percent of the observed value. Report eligible and distinct counts, observed B and reference mean. Fewer than 20 eligible permutations is uninformative coverage. This coarse roughness-conditioned reference is descriptive, not a uniform full-correlation null or predictor."
+  },
+  "uncertainty": "Ten thousand scaffold-cluster bootstrap draws, NumPy PCG64 seed 8192. Average landscape errors within scaffold before resampling. Intervals represent variability across these generated contexts, not biological replicates, physical model accuracy, phylogenetic independence or partition-function numerical error. No p-value is attached to deterministic Mobius coefficients.",
+  "stage_gates": {
+    "development": "Evaluate only the 12 discovery scaffolds first (288 partition functions). To open held-out outcomes require >=4 distinct discovery scaffolds with primary B>=0.005 in at least one landscape, >=4 covered predicted intervention contrasts, primary B MAE below zero baseline, and direction accuracy >=0.75 among covered contrasts. All gates must pass. If any fails, preserve the holdout unopened and stop expansion of this predictor.",
+    "heldout": "On all 12 held-out scaffolds require >=4 distinct positive scaffolds, >=4 covered contrasts, >=0.75 directional accuracy, at least 10 percent lower B MAE than zero and the discovery median baseline, and positive lower 95 percent bootstrap bounds for both paired error improvements. Report uncertainty and all failure cases even if a gate passes.",
+    "no_tuning": "No parameter tuning, threshold change, endpoint selection, extra candidate screening or successful-subset analysis based on outcomes. Any revision requires a new named protocol and unseen validation material."
+  },
+  "not_claimed": ["experimental biological validation", "cellular structural occupancy", "functional or evolutionary benefit", "folding-specific causality from an epistasis coefficient", "independent protein-family generalization", "a new general theory of epistasis or persistent connectivity"]
+}

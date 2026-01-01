@@ -1,0 +1,935 @@
+{
+  "scope": "Sensitivity on 48 discovery-cohort graphs; two-engine intervals are not calibrated biological error bounds",
+  "controls": {
+    "robust_positive": {
+      "any_certified_positive_barrier": true,
+      "threshold_measure_with_some_certified_disconnected_endpoints": 0.8,
+      "critical_intervals": [
+        [
+          0.1,
+          0.9
+        ]
+      ],
+      "witness": {
+        "a": 0,
+        "b": 3,
+        "certified_lifetime_lower": 0.8,
+        "lower_endpoint_minimum": 0.9,
+        "upper_path_bottleneck": 0.1,
+        "rational_barrier_interval_open_closed": [
+          "1/10",
+          "9/10"
+        ]
+      }
+    },
+    "unresolved_box": {
+      "any_certified_positive_barrier": false,
+      "threshold_measure_with_some_certified_disconnected_endpoints": 0,
+      "critical_intervals": [],
+      "witness": null
+    },
+    "additive_negative": {
+      "any_certified_positive_barrier": false,
+      "threshold_measure_with_some_certified_disconnected_endpoints": 0,
+      "critical_intervals": [],
+      "witness": null
+    }
+  },
+  "rows": [
+    {
+      "id": "00000721ff16e8ae",
+      "condition": "cellfree",
+      "transcript_id": "ppa_190",
+      "vertices": 16,
+      "engine_input_sha256": {
+        "results/expansion/rnastructure/00000721ff16e8ae_cellfree.json": "a128fdda265787b14178df5fe5797d32c0e8783d9097eac3c514a9b64bc471dd",
+        "results/native/00000721ff16e8ae_cellfree.json": "b26ffe9ce83b83bf567f6d4f8da238c96d63069b947e2746e79ec67c0d81c909"
+      },
+      "Vienna_longest_barrier": 0.0,
+      "RNAstructure_longest_barrier": 0.0,
+      "mean_box_width": 0.018998946205090305,
+      "any_certified_positive_barrier": false,
+      "threshold_measure_with_some_certified_disconnected_endpoints": 0,
+      "critical_intervals": [],
+      "witness": null
+    },
+    {
+      "id": "00000721ff16e8ae",
+      "condition": "incell",
+      "transcript_id": "ppa_190",
+      "vertices": 16,
+      "engine_input_sha256": {
+        "results/expansion/rnastructure/00000721ff16e8ae_incell.json": "e9b62988d5fed48a804a2ee0cd53e1ac75ed8fee5a3a0579584c94b3ed5e2e67",
+        "results/native/00000721ff16e8ae_incell.json": "68308e4e009528c6da6f779e401012a8ba4a5c0bbaaca580e37ca0da4b0bee9b"
+      },
+      "Vienna_longest_barrier": 0.0,
+      "RNAstructure_longest_barrier": 0.0,
+      "mean_box_width": 0.018998946205090305,
+      "any_certified_positive_barrier": false,
+      "threshold_measure_with_some_certified_disconnected_endpoints": 0,
+      "critical_intervals": [],
+      "witness": null
+    },
+    {
+      "id": "00020d177e184cc6",
+      "condition": "cellfree",
+      "transcript_id": "metG_74",
+      "vertices": 16,
+      "engine_input_sha256": {
+        "results/expansion/rnastructure/00020d177e184cc6_cellfree.json": "f6e3a68965aa9fdfa4a9aba5c822dc01f72424f1468b3ca439d0252e1efaf08c",
+        "results/native/00020d177e184cc6_cellfree.json": "f4e3839c8f1b26eb48627de379795d0198bf32503344cc44a561155e4c0b5586"
+      },
+      "Vienna_longest_barrier": 0.0,
+      "RNAstructure_longest_barrier": 0.0,
+      "mean_box_width": 0.029291133117108167,
+      "any_certified_positive_barrier": false,
+      "threshold_measure_with_some_certified_disconnected_endpoints": 0,
+      "critical_intervals": [],
+      "witness": null
+    },
+    {
+      "id": "00020d177e184cc6",
+      "condition": "incell",
+      "transcript_id": "metG_74",
+      "vertices": 32,
+      "engine_input_sha256": {
+        "results/expansion/rnastructure/00020d177e184cc6_incell.json": "4c2ccd9d29f46099eaf8c9460e5149e2555de3f92d44c21ca6370c0e3fc320ee",
+        "results/native/00020d177e184cc6_incell.json": "eb881cb101b5aa23104d17a5d9561ed977ac9e8995bc4283095578e97b3945a3"
+      },
+      "Vienna_longest_barrier": 0.0,
+      "RNAstructure_longest_barrier": 0.0,
+      "mean_box_width": 0.050969078193953375,
+      "any_certified_positive_barrier": false,
+      "threshold_measure_with_some_certified_disconnected_endpoints": 0,
+      "critical_intervals": [],
+      "witness": null
+    },
+    {
+      "id": "000236593360017e",
+      "condition": "cellfree",
+      "transcript_id": "yrbG_kdsD_kdsC_lptC_lptA_lptB_rpoN_hpf_ptsN_yhbJ_npr_124",
+      "vertices": 24,
+      "engine_input_sha256": {
+        "results/expansion/rnastructure/000236593360017e_cellfree.json": "709c700ed1f1a685f16c2c41ff35e773db654e80d8f1473f4ecd265d68574957",
+        "results/native/000236593360017e_cellfree.json": "0e61b756945841dc3c90c7ace54a19b84cffd1dc9c9217323bf1ab794addbdf2"
+      },
+      "Vienna_longest_barrier": 0.0,
+      "RNAstructure_longest_barrier": 0.0,
+      "mean_box_width": 0.01599490523212692,
+      "any_certified_positive_barrier": false,
+      "threshold_measure_with_some_certified_disconnected_endpoints": 0,
+      "critical_intervals": [],
+      "witness": null
+    },
+    {
+      "id": "000236593360017e",
+      "condition": "incell",
+      "transcript_id": "yrbG_kdsD_kdsC_lptC_lptA_lptB_rpoN_hpf_ptsN_yhbJ_npr_124",
+      "vertices": 24,
+      "engine_input_sha256": {
+        "results/expansion/rnastructure/000236593360017e_incell.json": "161d63856e44e40ec2b3f2c34a433b8864d44cb6aee9a78d76e6d4cc1e48b2ec",
+        "results/native/000236593360017e_incell.json": "2fd89b58b8f103dc4963d1bd0af0146960356c398e6e626320405b475f54ed05"
+      },
+      "Vienna_longest_barrier": 0.0,
+      "RNAstructure_longest_barrier": 0.0,
+      "mean_box_width": 0.01599490523212692,
+      "any_certified_positive_barrier": false,
+      "threshold_measure_with_some_certified_disconnected_endpoints": 0,
+      "critical_intervals": [],
+      "witness": null
+    },
+    {
+      "id": "0002ea3d327744b2",
+      "condition": "cellfree",
+      "transcript_id": "ptsG_51",
+      "vertices": 64,
+      "engine_input_sha256": {
+        "results/expansion/rnastructure/0002ea3d327744b2_cellfree.json": "7bcc36507c500a1d88e3f4c44f44adfeb44d485e29ebd4a32a200b2a5b588f80",
+        "results/native/0002ea3d327744b2_cellfree.json": "7129056677043f57d0c6864bec52f04e68a9ba5226ce61f0e0f73a6801024960"
+      },
+      "Vienna_longest_barrier": 0.0,
+      "RNAstructure_longest_barrier": 0.0,
+      "mean_box_width": 0.0556341053454542,
+      "any_certified_positive_barrier": false,
+      "threshold_measure_with_some_certified_disconnected_endpoints": 0,
+      "critical_intervals": [],
+      "witness": null
+    },
+    {
+      "id": "0002ea3d327744b2",
+      "condition": "incell",
+      "transcript_id": "ptsG_51",
+      "vertices": 64,
+      "engine_input_sha256": {
+        "results/expansion/rnastructure/0002ea3d327744b2_incell.json": "abb592cc491aaf6257b535f931a1104c5e7a2fbd15494173be543232531bc39b",
+        "results/native/0002ea3d327744b2_incell.json": "21206c9d978a02b2e2bb357ce367e65eb30cbb6efe5b9ad1ab080543e4c01e20"
+      },
+      "Vienna_longest_barrier": 0.0,
+      "RNAstructure_longest_barrier": 0.0,
+      "mean_box_width": 0.05320557417295565,
+      "any_certified_positive_barrier": false,
+      "threshold_measure_with_some_certified_disconnected_endpoints": 0,
+      "critical_intervals": [],
+      "witness": null
+    },
+    {
+      "id": "00035cadf1513180",
+      "condition": "cellfree",
+      "transcript_id": "pnp_nlpI_yrbN_deaD_116",
+      "vertices": 16,
+      "engine_input_sha256": {
+        "results/expansion/rnastructure/00035cadf1513180_cellfree.json": "d6e4d53be7b0efd917594d810e335c4002b6a5cde706295f70e068cbc3b918fe",
+        "results/native/00035cadf1513180_cellfree.json": "3a9824f1b7ac8d33ac2e423bc5379dbeb05056b53d87f9afff523744d770e9bf"
+      },
+      "Vienna_longest_barrier": 0.0,
+      "RNAstructure_longest_barrier": 0.0,
+      "mean_box_width": 0.029629210061110786,
+      "any_certified_positive_barrier": false,
+      "threshold_measure_with_some_certified_disconnected_endpoints": 0,
+      "critical_intervals": [],
+      "witness": null
+    },
+    {
+      "id": "00035cadf1513180",
+      "condition": "incell",
+      "transcript_id": "pnp_nlpI_yrbN_deaD_116",
+      "vertices": 8,
+      "engine_input_sha256": {
+        "results/expansion/rnastructure/00035cadf1513180_incell.json": "e721d842977c4f32c4ad9675a3fec966ef31930cecfb1b256b690841cb9189cc",
+        "results/native/00035cadf1513180_incell.json": "6eaf1f771f3201e235df1d96735091854f47cd44b4dbb46c2a22326c19b445c2"
+      },
+      "Vienna_longest_barrier": 0.0,
+      "RNAstructure_longest_barrier": 0.0,
+      "mean_box_width": 0.02521608131038376,
+      "any_certified_positive_barrier": false,
+      "threshold_measure_with_some_certified_disconnected_endpoints": 0,
+      "critical_intervals": [],
+      "witness": null
+    },
+    {
+      "id": "0006bf0ba7ba303e",
+      "condition": "cellfree",
+      "transcript_id": "rplU_rpmA_yhbE_obgE_122",
+      "vertices": 16,
+      "engine_input_sha256": {
+        "results/expansion/rnastructure/0006bf0ba7ba303e_cellfree.json": "00d84ad84bbb7ca0f415ed358b777f87850dbc507886f74501a20c1a4434480e",
+        "results/native/0006bf0ba7ba303e_cellfree.json": "c5f1dd4f6948aa76c3e90f18c86e5c4f78b335d08123c82ebc69b5b14210f1d5"
+      },
+      "Vienna_longest_barrier": 0.00021392249358476167,
+      "RNAstructure_longest_barrier": 0.00018738804226947625,
+      "mean_box_width": 0.0017568370577149134,
+      "any_certified_positive_barrier": false,
+      "threshold_measure_with_some_certified_disconnected_endpoints": 0,
+      "critical_intervals": [],
+      "witness": null
+    },
+    {
+      "id": "0006bf0ba7ba303e",
+      "condition": "incell",
+      "transcript_id": "rplU_rpmA_yhbE_obgE_122",
+      "vertices": 16,
+      "engine_input_sha256": {
+        "results/expansion/rnastructure/0006bf0ba7ba303e_incell.json": "04a35d3bbe2ff72317b46753e4162544f44e31216b16a502fc07cdfc92e1f098",
+        "results/native/0006bf0ba7ba303e_incell.json": "06c08718556857b5c78c49bf683ae881d9422691329586e4deeace0d36790f18"
+      },
+      "Vienna_longest_barrier": 0.00021392249358476167,
+      "RNAstructure_longest_barrier": 0.00018738804226947625,
+      "mean_box_width": 0.0017568370577149134,
+      "any_certified_positive_barrier": false,
+      "threshold_measure_with_some_certified_disconnected_endpoints": 0,
+      "critical_intervals": [],
+      "witness": null
+    },
+    {
+      "id": "00072455b8a23f6b",
+      "condition": "cellfree",
+      "transcript_id": "iscR_iscS_iscU_iscA_hscB_hscA_fdx_iscX_pepB_sseB_89",
+      "vertices": 64,
+      "engine_input_sha256": {
+        "results/expansion/rnastructure/00072455b8a23f6b_cellfree.json": "78956863fbadd3023c1f27c84cc5eb8eb7ea562c8c300879475a662a6410f4c0",
+        "results/native/00072455b8a23f6b_cellfree.json": "a38a4664d86b819f9db9ffb9aa25362f90ef880dc9c3074e1cc16490f604d1fc"
+      },
+      "Vienna_longest_barrier": 0.0,
+      "RNAstructure_longest_barrier": 0.0,
+      "mean_box_width": 0.003083011809414001,
+      "any_certified_positive_barrier": false,
+      "threshold_measure_with_some_certified_disconnected_endpoints": 0,
+      "critical_intervals": [],
+      "witness": null
+    },
+    {
+      "id": "00072455b8a23f6b",
+      "condition": "incell",
+      "transcript_id": "iscR_iscS_iscU_iscA_hscB_hscA_fdx_iscX_pepB_sseB_89",
+      "vertices": 64,
+      "engine_input_sha256": {
+        "results/expansion/rnastructure/00072455b8a23f6b_incell.json": "24b768f26b93ef31ea33aa5b0a8eef43c3d5236b0af253bce02cdcde70c9c139",
+        "results/native/00072455b8a23f6b_incell.json": "049820b68a1498eeddccf7eb5470b3b2c17d09078c174a21adff431cfb0b2ebf"
+      },
+      "Vienna_longest_barrier": 0.0,
+      "RNAstructure_longest_barrier": 0.0,
+      "mean_box_width": 0.003083011809414001,
+      "any_certified_positive_barrier": false,
+      "threshold_measure_with_some_certified_disconnected_endpoints": 0,
+      "critical_intervals": [],
+      "witness": null
+    },
+    {
+      "id": "00073b478cf6c8dc",
+      "condition": "cellfree",
+      "transcript_id": "atpI_atpB_atpE_atpF_atpH_atpA_atpG_atpD_atpC_151",
+      "vertices": 2,
+      "engine_input_sha256": {
+        "results/expansion/rnastructure/00073b478cf6c8dc_cellfree.json": "22d6c5406c534ec1e9eba6175e8f0975703746766d8735142d33c4c8826f82c4",
+        "results/native/00073b478cf6c8dc_cellfree.json": "6e8d269f50c8417afbbbdfcfdf3d8226e9b87840aa3e7452b50456da0d056a19"
+      },
+      "Vienna_longest_barrier": 0.0,
+      "RNAstructure_longest_barrier": 0.0,
+      "mean_box_width": 0.015338325583750964,
+      "any_certified_positive_barrier": false,
+      "threshold_measure_with_some_certified_disconnected_endpoints": 0,
+      "critical_intervals": [],
+      "witness": null
+    },
+    {
+      "id": "00073b478cf6c8dc",
+      "condition": "incell",
+      "transcript_id": "atpI_atpB_atpE_atpF_atpH_atpA_atpG_atpD_atpC_151",
+      "vertices": 2,
+      "engine_input_sha256": {
+        "results/expansion/rnastructure/00073b478cf6c8dc_incell.json": "2a5ed47d8436a4ca1e4b3529820044324106b51270148180a8a5ee0348273bc0",
+        "results/native/00073b478cf6c8dc_incell.json": "f40ec2891bf7aa59acdbf01d8cc19bc6b9f38dbe7cd9c029e19812223240d894"
+      },
+      "Vienna_longest_barrier": 0.0,
+      "RNAstructure_longest_barrier": 0.0,
+      "mean_box_width": 0.01670679038091516,
+      "any_certified_positive_barrier": false,
+      "threshold_measure_with_some_certified_disconnected_endpoints": 0,
+      "critical_intervals": [],
+      "witness": null
+    },
+    {
+      "id": "000930311bdf8ee3",
+      "condition": "cellfree",
+      "transcript_id": "acnB_15",
+      "vertices": 8,
+      "engine_input_sha256": {
+        "results/expansion/rnastructure/000930311bdf8ee3_cellfree.json": "606afa3371377408b26c627a5c75d5eb34d2eeca78fec74f2fed51f3ca383144",
+        "results/native/000930311bdf8ee3_cellfree.json": "acbee4c13301182eeef095ede1f1a316aa150cf88d4d30bf71aa37c4edc5cd96"
+      },
+      "Vienna_longest_barrier": 0.0,
+      "RNAstructure_longest_barrier": 0.0,
+      "mean_box_width": 0.008190975539519724,
+      "any_certified_positive_barrier": false,
+      "threshold_measure_with_some_certified_disconnected_endpoints": 0,
+      "critical_intervals": [],
+      "witness": null
+    },
+    {
+      "id": "000930311bdf8ee3",
+      "condition": "incell",
+      "transcript_id": "acnB_15",
+      "vertices": 8,
+      "engine_input_sha256": {
+        "results/expansion/rnastructure/000930311bdf8ee3_incell.json": "6121afe73a861d39bed99c36fe032a6d1e968093f2d7d421db03308dc5519ca0",
+        "results/native/000930311bdf8ee3_incell.json": "6ac7bfd0081fb55607bcc4ac1553fff2c5cd1dcfa4e2946b73568bc650a367bd"
+      },
+      "Vienna_longest_barrier": 0.0,
+      "RNAstructure_longest_barrier": 0.0,
+      "mean_box_width": 0.008190975539519724,
+      "any_certified_positive_barrier": false,
+      "threshold_measure_with_some_certified_disconnected_endpoints": 0,
+      "critical_intervals": [],
+      "witness": null
+    },
+    {
+      "id": "000a21c9e75ef297",
+      "condition": "cellfree",
+      "transcript_id": "rimP_nusA_infB_rbfA_truB_118",
+      "vertices": 16,
+      "engine_input_sha256": {
+        "results/expansion/rnastructure/000a21c9e75ef297_cellfree.json": "81c038a994850d1e7d2432b1bab1269878d0ab3199013886e4d5537a62da039d",
+        "results/native/000a21c9e75ef297_cellfree.json": "6b328017a7e8e8abdf072e70ecfdf67433afaf4a42260f20ae09178e19cc39e2"
+      },
+      "Vienna_longest_barrier": 0.0,
+      "RNAstructure_longest_barrier": 0.0,
+      "mean_box_width": 0.10358884010467652,
+      "any_certified_positive_barrier": false,
+      "threshold_measure_with_some_certified_disconnected_endpoints": 0,
+      "critical_intervals": [],
+      "witness": null
+    },
+    {
+      "id": "000a21c9e75ef297",
+      "condition": "incell",
+      "transcript_id": "rimP_nusA_infB_rbfA_truB_118",
+      "vertices": 16,
+      "engine_input_sha256": {
+        "results/expansion/rnastructure/000a21c9e75ef297_incell.json": "a338da1d7578ea1ffde14e27111d9f015330819eab9ae26dada8aed1380b1088",
+        "results/native/000a21c9e75ef297_incell.json": "bf5e9d62a6c2bf9426eb3e5177ccdd77c20df4c1297379484730aab8fc943566"
+      },
+      "Vienna_longest_barrier": 0.0,
+      "RNAstructure_longest_barrier": 0.0,
+      "mean_box_width": 0.10358884010467652,
+      "any_certified_positive_barrier": false,
+      "threshold_measure_with_some_certified_disconnected_endpoints": 0,
+      "critical_intervals": [],
+      "witness": null
+    },
+    {
+      "id": "000cd7aeabdb066f",
+      "condition": "cellfree",
+      "transcript_id": "pyrG_eno_103",
+      "vertices": 24,
+      "engine_input_sha256": {
+        "results/expansion/rnastructure/000cd7aeabdb066f_cellfree.json": "d5d83b6ae3e5e1cedae233162a4f8b2f87126c42bccb3ffe3a73a236fbed6376",
+        "results/native/000cd7aeabdb066f_cellfree.json": "eaef12735c31f2744ddcd4a129565e54b815eef33a14b7e5f23e31ab9440f49c"
+      },
+      "Vienna_longest_barrier": 0.0012464713858042487,
+      "RNAstructure_longest_barrier": 0.0,
+      "mean_box_width": 0.08519306817206475,
+      "any_certified_positive_barrier": false,
+      "threshold_measure_with_some_certified_disconnected_endpoints": 0,
+      "critical_intervals": [],
+      "witness": null
+    },
+    {
+      "id": "000cd7aeabdb066f",
+      "condition": "incell",
+      "transcript_id": "pyrG_eno_103",
+      "vertices": 24,
+      "engine_input_sha256": {
+        "results/expansion/rnastructure/000cd7aeabdb066f_incell.json": "8bc5f5f6114f91939848aff0b0ce5804158f85d511b64bd60bc0e9f41e9eb2ed",
+        "results/native/000cd7aeabdb066f_incell.json": "90815e74531ccd5339a1a93c71c07223b6beba0316b1f4bf1d53e5b9020bfa1b"
+      },
+      "Vienna_longest_barrier": 0.0,
+      "RNAstructure_longest_barrier": 0.0,
+      "mean_box_width": 0.054492694832231764,
+      "any_certified_positive_barrier": false,
+      "threshold_measure_with_some_certified_disconnected_endpoints": 0,
+      "critical_intervals": [],
+      "witness": null
+    },
+    {
+      "id": "000d0cb443938c9f",
+      "condition": "cellfree",
+      "transcript_id": "pheS_pheT_ihfA_62",
+      "vertices": 32,
+      "engine_input_sha256": {
+        "results/expansion/rnastructure/000d0cb443938c9f_cellfree.json": "01875c12953cb2ba6b31fe7dcf9ae00782881890dd4125a8cda91a9b27bcc798",
+        "results/native/000d0cb443938c9f_cellfree.json": "bd46336de9a777b3f070c4c4ea117779b9e4c59c4b1d1e0e11c6f2aa89dad165"
+      },
+      "Vienna_longest_barrier": 0.00021826393129620314,
+      "RNAstructure_longest_barrier": 0.0,
+      "mean_box_width": 0.029295365679886363,
+      "any_certified_positive_barrier": false,
+      "threshold_measure_with_some_certified_disconnected_endpoints": 0,
+      "critical_intervals": [],
+      "witness": null
+    },
+    {
+      "id": "000d0cb443938c9f",
+      "condition": "incell",
+      "transcript_id": "pheS_pheT_ihfA_62",
+      "vertices": 32,
+      "engine_input_sha256": {
+        "results/expansion/rnastructure/000d0cb443938c9f_incell.json": "135a8cd1289c58d16e166e7fcc0328aee9a6abb33f8cc0c6df629f834cd6e5c6",
+        "results/native/000d0cb443938c9f_incell.json": "85d9df5be900aa4fd18d1f012b2c6747438e745d7264a563ed15b1443e25b352"
+      },
+      "Vienna_longest_barrier": 0.00021826393129620314,
+      "RNAstructure_longest_barrier": 0.0,
+      "mean_box_width": 0.029295365679886363,
+      "any_certified_positive_barrier": false,
+      "threshold_measure_with_some_certified_disconnected_endpoints": 0,
+      "critical_intervals": [],
+      "witness": null
+    },
+    {
+      "id": "000eb213ef559ff9",
+      "condition": "cellfree",
+      "transcript_id": "atpI_atpB_atpE_atpF_atpH_atpA_atpG_atpD_atpC_151",
+      "vertices": 24,
+      "engine_input_sha256": {
+        "results/expansion/rnastructure/000eb213ef559ff9_cellfree.json": "9fedc7bee131e99d1a84742b01f4a8c42dce84a18c552d4c5e02a98d04f69e97",
+        "results/native/000eb213ef559ff9_cellfree.json": "b04a909b1d3efcf65296432f0810d32272476c5328e686e73cf717397225ea8a"
+      },
+      "Vienna_longest_barrier": 0.0,
+      "RNAstructure_longest_barrier": 0.0,
+      "mean_box_width": 0.006667857755719024,
+      "any_certified_positive_barrier": false,
+      "threshold_measure_with_some_certified_disconnected_endpoints": 0,
+      "critical_intervals": [],
+      "witness": null
+    },
+    {
+      "id": "000eb213ef559ff9",
+      "condition": "incell",
+      "transcript_id": "atpI_atpB_atpE_atpF_atpH_atpA_atpG_atpD_atpC_151",
+      "vertices": 24,
+      "engine_input_sha256": {
+        "results/expansion/rnastructure/000eb213ef559ff9_incell.json": "37f4bc3e2b4cfc4f4e5b40eb661d63dfb1d1785b914320961b15164c79727710",
+        "results/native/000eb213ef559ff9_incell.json": "e83738feb51580d954c910e49c02f0fed3e098b297fa60b8452b151538708b45"
+      },
+      "Vienna_longest_barrier": 0.0,
+      "RNAstructure_longest_barrier": 0.0,
+      "mean_box_width": 0.006667857755719024,
+      "any_certified_positive_barrier": false,
+      "threshold_measure_with_some_certified_disconnected_endpoints": 0,
+      "critical_intervals": [],
+      "witness": null
+    },
+    {
+      "id": "000f8cc00efcc98f",
+      "condition": "cellfree",
+      "transcript_id": "leuS_lptE_29",
+      "vertices": 128,
+      "engine_input_sha256": {
+        "results/expansion/rnastructure/000f8cc00efcc98f_cellfree.json": "f5ccb426473966a0ec7495283e464b4e5e5b971f10806975a27056bba6905158",
+        "results/native/000f8cc00efcc98f_cellfree.json": "52d41ae89c1562ff28046fdbf88109213cc79ba992ebcbd0b9695295641203b4"
+      },
+      "Vienna_longest_barrier": 0.0,
+      "RNAstructure_longest_barrier": 0.0,
+      "mean_box_width": 0.007082608064730876,
+      "any_certified_positive_barrier": false,
+      "threshold_measure_with_some_certified_disconnected_endpoints": 0,
+      "critical_intervals": [],
+      "witness": null
+    },
+    {
+      "id": "000f8cc00efcc98f",
+      "condition": "incell",
+      "transcript_id": "leuS_lptE_29",
+      "vertices": 128,
+      "engine_input_sha256": {
+        "results/expansion/rnastructure/000f8cc00efcc98f_incell.json": "2c7472ddddf39ab91828a1a8178b2ab86402d8da612b490d3e6e48cfb38804e2",
+        "results/native/000f8cc00efcc98f_incell.json": "6b8bfaac36f32180e427574c320ef65ece01d03c3df214baf6658ae6bf6fbaa9"
+      },
+      "Vienna_longest_barrier": 0.0,
+      "RNAstructure_longest_barrier": 0.0,
+      "mean_box_width": 0.007082608064730876,
+      "any_certified_positive_barrier": false,
+      "threshold_measure_with_some_certified_disconnected_endpoints": 0,
+      "critical_intervals": [],
+      "witness": null
+    },
+    {
+      "id": "0011532febf8383a",
+      "condition": "cellfree",
+      "transcript_id": "rpsJ_rplC_rplD_rplW_rplB_rpsS_rplV_rpsC_rplP_rpmC_rpsQ_132",
+      "vertices": 64,
+      "engine_input_sha256": {
+        "results/expansion/rnastructure/0011532febf8383a_cellfree.json": "aa59317304e5f70845a5c5932baee0b863b6881aafc2821f20130e4fe98a0776",
+        "results/native/0011532febf8383a_cellfree.json": "aa5f41e83c003573f148d271752acf342b9f67fd70aecc325b574a209a08f51e"
+      },
+      "Vienna_longest_barrier": 0.0,
+      "RNAstructure_longest_barrier": 0.0,
+      "mean_box_width": 0.12958696466853817,
+      "any_certified_positive_barrier": false,
+      "threshold_measure_with_some_certified_disconnected_endpoints": 0,
+      "critical_intervals": [],
+      "witness": null
+    },
+    {
+      "id": "0011532febf8383a",
+      "condition": "incell",
+      "transcript_id": "rpsJ_rplC_rplD_rplW_rplB_rpsS_rplV_rpsC_rplP_rpmC_rpsQ_132",
+      "vertices": 64,
+      "engine_input_sha256": {
+        "results/expansion/rnastructure/0011532febf8383a_incell.json": "30b1ad8555ba010b0316c0ced40bf2d4a5cf227a3f6bedc440b0076262698880",
+        "results/native/0011532febf8383a_incell.json": "e8846327270fe80c9e3087fab6a731807c6ff94b78c1b182f8504208cc8e6220"
+      },
+      "Vienna_longest_barrier": 0.0,
+      "RNAstructure_longest_barrier": 0.0,
+      "mean_box_width": 0.12958696466853817,
+      "any_certified_positive_barrier": false,
+      "threshold_measure_with_some_certified_disconnected_endpoints": 0,
+      "critical_intervals": [],
+      "witness": null
+    },
+    {
+      "id": "00116a5b3495a4c1",
+      "condition": "cellfree",
+      "transcript_id": "atpI_atpB_atpE_atpF_atpH_atpA_atpG_atpD_atpC_151",
+      "vertices": 8,
+      "engine_input_sha256": {
+        "results/expansion/rnastructure/00116a5b3495a4c1_cellfree.json": "4470391a4c980e85c8592c996ce169a9492c6e4866dadf0d7a3f4e2fb7477c17",
+        "results/native/00116a5b3495a4c1_cellfree.json": "8f0af3cb47f4a140b421f61f3be0bce8747ffb7eb6d03f148f8387b019ed4ab3"
+      },
+      "Vienna_longest_barrier": 0.0,
+      "RNAstructure_longest_barrier": 0.0,
+      "mean_box_width": 0.00831418557431296,
+      "any_certified_positive_barrier": false,
+      "threshold_measure_with_some_certified_disconnected_endpoints": 0,
+      "critical_intervals": [],
+      "witness": null
+    },
+    {
+      "id": "00116a5b3495a4c1",
+      "condition": "incell",
+      "transcript_id": "atpI_atpB_atpE_atpF_atpH_atpA_atpG_atpD_atpC_151",
+      "vertices": 8,
+      "engine_input_sha256": {
+        "results/expansion/rnastructure/00116a5b3495a4c1_incell.json": "f939406f6cc7e5c3cbea10d8a472c5ad95eba0129946cfc3c7aab34e7e13f047",
+        "results/native/00116a5b3495a4c1_incell.json": "50233260b65b617126d22917be57222747d377782796b45ba8102ca807eccdf5"
+      },
+      "Vienna_longest_barrier": 0.0,
+      "RNAstructure_longest_barrier": 0.0,
+      "mean_box_width": 0.00831418557431296,
+      "any_certified_positive_barrier": false,
+      "threshold_measure_with_some_certified_disconnected_endpoints": 0,
+      "critical_intervals": [],
+      "witness": null
+    },
+    {
+      "id": "001664e6178fddfe",
+      "condition": "cellfree",
+      "transcript_id": "aspS_nudB_yebC_ruvC_71",
+      "vertices": 48,
+      "engine_input_sha256": {
+        "results/expansion/rnastructure/001664e6178fddfe_cellfree.json": "f3562402a2113d34f81c173347e9f14044ad2daa105fb88469e50ae511bf82d4",
+        "results/native/001664e6178fddfe_cellfree.json": "08fe6fe67bfd4f59659531bf72d00307cb5fd29e1e9f385962d49146725f8730"
+      },
+      "Vienna_longest_barrier": 0.0,
+      "RNAstructure_longest_barrier": 0.0,
+      "mean_box_width": 0.045925039479562134,
+      "any_certified_positive_barrier": false,
+      "threshold_measure_with_some_certified_disconnected_endpoints": 0,
+      "critical_intervals": [],
+      "witness": null
+    },
+    {
+      "id": "001664e6178fddfe",
+      "condition": "incell",
+      "transcript_id": "aspS_nudB_yebC_ruvC_71",
+      "vertices": 96,
+      "engine_input_sha256": {
+        "results/expansion/rnastructure/001664e6178fddfe_incell.json": "c7b57c677bb896711b26d76e5ce41b20365497820d7337120c3547d16f35c45a",
+        "results/native/001664e6178fddfe_incell.json": "35f4ead1f4bd099452b09d91e3500441d9aff4e9eb119d76ffde3dabc55bed4a"
+      },
+      "Vienna_longest_barrier": 0.0,
+      "RNAstructure_longest_barrier": 0.0,
+      "mean_box_width": 0.06751535605600317,
+      "any_certified_positive_barrier": false,
+      "threshold_measure_with_some_certified_disconnected_endpoints": 0,
+      "critical_intervals": [],
+      "witness": null
+    },
+    {
+      "id": "0016ca6c5c492254",
+      "condition": "cellfree",
+      "transcript_id": "miaA_hfq_hflX_hflK_hflC_186",
+      "vertices": 48,
+      "engine_input_sha256": {
+        "results/expansion/rnastructure/0016ca6c5c492254_cellfree.json": "ddab6963281b0bf55f976d2c9c5d750e837bc6a18036367dcf85cb801c8d1d67",
+        "results/native/0016ca6c5c492254_cellfree.json": "3aba50926f6dd5571dc20fd08fcdef6364f3a0b237ac1dd2afcc48ec64f2afd4"
+      },
+      "Vienna_longest_barrier": 0.021308259633050802,
+      "RNAstructure_longest_barrier": 0.11113684835051052,
+      "mean_box_width": 0.021843507229267787,
+      "any_certified_positive_barrier": true,
+      "threshold_measure_with_some_certified_disconnected_endpoints": 0.007436002805498727,
+      "critical_intervals": [
+        [
+          0.01840426355708089,
+          0.02036469353762723
+        ],
+        [
+          0.02036469353762723,
+          0.02358078187873768
+        ],
+        [
+          0.02358078187873768,
+          0.0240934429671609
+        ],
+        [
+          0.0240934429671609,
+          0.024665792241636453
+        ],
+        [
+          0.024665792241636453,
+          0.025840266362579616
+        ]
+      ],
+      "witness": {
+        "a": 24,
+        "b": 32,
+        "certified_lifetime_lower": 0.007436002805498727,
+        "lower_endpoint_minimum": 0.025840266362579616,
+        "upper_path_bottleneck": 0.01840426355708089,
+        "rational_barrier_interval_open_closed": [
+          "1840426355708089/100000000000000000",
+          "807508323830613/31250000000000000"
+        ],
+        "endpoint_genotypes": [
+          "CACCUUGAACGUCAA",
+          "CACCUUGAAAGACAA"
+        ]
+      }
+    },
+    {
+      "id": "0016ca6c5c492254",
+      "condition": "incell",
+      "transcript_id": "miaA_hfq_hflX_hflK_hflC_186",
+      "vertices": 48,
+      "engine_input_sha256": {
+        "results/expansion/rnastructure/0016ca6c5c492254_incell.json": "c2aaa70b5275df7384fa1868e2977dc0e15712c6069c8c5b8a13911e21159a8f",
+        "results/native/0016ca6c5c492254_incell.json": "78c848b5996d36222701a462a0199c7fc46cedb5c6b87c1a855e6d5de3734538"
+      },
+      "Vienna_longest_barrier": 0.021308259633050802,
+      "RNAstructure_longest_barrier": 0.11113684835051052,
+      "mean_box_width": 0.021843507229267787,
+      "any_certified_positive_barrier": true,
+      "threshold_measure_with_some_certified_disconnected_endpoints": 0.007436002805498727,
+      "critical_intervals": [
+        [
+          0.01840426355708089,
+          0.02036469353762723
+        ],
+        [
+          0.02036469353762723,
+          0.02358078187873768
+        ],
+        [
+          0.02358078187873768,
+          0.0240934429671609
+        ],
+        [
+          0.0240934429671609,
+          0.024665792241636453
+        ],
+        [
+          0.024665792241636453,
+          0.025840266362579616
+        ]
+      ],
+      "witness": {
+        "a": 24,
+        "b": 32,
+        "certified_lifetime_lower": 0.007436002805498727,
+        "lower_endpoint_minimum": 0.025840266362579616,
+        "upper_path_bottleneck": 0.01840426355708089,
+        "rational_barrier_interval_open_closed": [
+          "1840426355708089/100000000000000000",
+          "807508323830613/31250000000000000"
+        ],
+        "endpoint_genotypes": [
+          "CACCUUGAACGUCAA",
+          "CACCUUGAAAGACAA"
+        ]
+      }
+    },
+    {
+      "id": "0018707537a87db5",
+      "condition": "cellfree",
+      "transcript_id": "rplU_rpmA_yhbE_obgE_122",
+      "vertices": 8,
+      "engine_input_sha256": {
+        "results/expansion/rnastructure/0018707537a87db5_cellfree.json": "9b4dcc9f12b514aaf3cc1d9795990fd0d49130dc18ff0fa57be5f7b22d2fa527",
+        "results/native/0018707537a87db5_cellfree.json": "7d12045a4f2a0926c7e7d6240778059d94eb8e89da0f4a32586afe2c0ce645ad"
+      },
+      "Vienna_longest_barrier": 0.0,
+      "RNAstructure_longest_barrier": 0.0,
+      "mean_box_width": 0.021031135286750095,
+      "any_certified_positive_barrier": false,
+      "threshold_measure_with_some_certified_disconnected_endpoints": 0,
+      "critical_intervals": [],
+      "witness": null
+    },
+    {
+      "id": "0018707537a87db5",
+      "condition": "incell",
+      "transcript_id": "rplU_rpmA_yhbE_obgE_122",
+      "vertices": 8,
+      "engine_input_sha256": {
+        "results/expansion/rnastructure/0018707537a87db5_incell.json": "06d9e84c3d63fe8fbfeb2c9338bf5b72fd9453843fcae89e949f03b56dfe1ca7",
+        "results/native/0018707537a87db5_incell.json": "92979baa171d9fccffa60e7fc7e40bdc9283b666121562d002769c7dbce9d824"
+      },
+      "Vienna_longest_barrier": 0.0,
+      "RNAstructure_longest_barrier": 0.0,
+      "mean_box_width": 0.021031135286750095,
+      "any_certified_positive_barrier": false,
+      "threshold_measure_with_some_certified_disconnected_endpoints": 0,
+      "critical_intervals": [],
+      "witness": null
+    },
+    {
+      "id": "001b9e30bf80479d",
+      "condition": "cellfree",
+      "transcript_id": "gyrA_80",
+      "vertices": 8,
+      "engine_input_sha256": {
+        "results/expansion/rnastructure/001b9e30bf80479d_cellfree.json": "2fd6d56d9076dd1d0eb481bc6ba11b8a644ded749cc15f1ecf14950e5352a632",
+        "results/native/001b9e30bf80479d_cellfree.json": "33171a158b92fb3525727801e991e2b293878c2597604353f0b3b900727d58d2"
+      },
+      "Vienna_longest_barrier": 0.0,
+      "RNAstructure_longest_barrier": 0.0,
+      "mean_box_width": 0.022190930202059138,
+      "any_certified_positive_barrier": false,
+      "threshold_measure_with_some_certified_disconnected_endpoints": 0,
+      "critical_intervals": [],
+      "witness": null
+    },
+    {
+      "id": "001b9e30bf80479d",
+      "condition": "incell",
+      "transcript_id": "gyrA_80",
+      "vertices": 8,
+      "engine_input_sha256": {
+        "results/expansion/rnastructure/001b9e30bf80479d_incell.json": "14492e0767e832957950b2246d30b5955b7e32db6409985128f3bb88f31920e6",
+        "results/native/001b9e30bf80479d_incell.json": "19ee650973a094bc6e40f1966cea66c8f8a3e932e28ca7fdf6587252e61c324c"
+      },
+      "Vienna_longest_barrier": 0.0,
+      "RNAstructure_longest_barrier": 0.0,
+      "mean_box_width": 0.024851071702104453,
+      "any_certified_positive_barrier": false,
+      "threshold_measure_with_some_certified_disconnected_endpoints": 0,
+      "critical_intervals": [],
+      "witness": null
+    },
+    {
+      "id": "001deb837c8eaeb8",
+      "condition": "cellfree",
+      "transcript_id": "purA_187",
+      "vertices": 4,
+      "engine_input_sha256": {
+        "results/expansion/rnastructure/001deb837c8eaeb8_cellfree.json": "d5bc48ed5c05ca56cee1827c9a05614724424803db5c13c2408fe5d2a029d236",
+        "results/native/001deb837c8eaeb8_cellfree.json": "20caf6465238bc680318558da6669764fdc141c692e50f55279af3d7bc0ee595"
+      },
+      "Vienna_longest_barrier": 0.0,
+      "RNAstructure_longest_barrier": 0.0,
+      "mean_box_width": 0.0007567037064704629,
+      "any_certified_positive_barrier": false,
+      "threshold_measure_with_some_certified_disconnected_endpoints": 0,
+      "critical_intervals": [],
+      "witness": null
+    },
+    {
+      "id": "001deb837c8eaeb8",
+      "condition": "incell",
+      "transcript_id": "purA_187",
+      "vertices": 4,
+      "engine_input_sha256": {
+        "results/expansion/rnastructure/001deb837c8eaeb8_incell.json": "ed1d01120cf41bd4fbccae117c6d6ee79c37d02482c50c29c0e837b427dbf437",
+        "results/native/001deb837c8eaeb8_incell.json": "61feeb977dd0506dbbe6c810c00b572f3f02aaf9c5290aea1718c32eb4e8840c"
+      },
+      "Vienna_longest_barrier": 0.0,
+      "RNAstructure_longest_barrier": 0.0,
+      "mean_box_width": 0.0007567037064704629,
+      "any_certified_positive_barrier": false,
+      "threshold_measure_with_some_certified_disconnected_endpoints": 0,
+      "critical_intervals": [],
+      "witness": null
+    },
+    {
+      "id": "0026c5195941ac98",
+      "condition": "cellfree",
+      "transcript_id": "yifL_dapF_yigA_xerC_yigB_uvrD_159",
+      "vertices": 4,
+      "engine_input_sha256": {
+        "results/expansion/rnastructure/0026c5195941ac98_cellfree.json": "a3932f886b237c86d42eb47cb286e83f367e9eb78c27cb9daeeb5341f2762436",
+        "results/native/0026c5195941ac98_cellfree.json": "d03562293bf1e7f1935371b35fe0d9cf4d1133c3b16e508f43d40b15f5848b70"
+      },
+      "Vienna_longest_barrier": 0.0,
+      "RNAstructure_longest_barrier": 0.0,
+      "mean_box_width": 0.05471651450348289,
+      "any_certified_positive_barrier": false,
+      "threshold_measure_with_some_certified_disconnected_endpoints": 0,
+      "critical_intervals": [],
+      "witness": null
+    },
+    {
+      "id": "0026c5195941ac98",
+      "condition": "incell",
+      "transcript_id": "yifL_dapF_yigA_xerC_yigB_uvrD_159",
+      "vertices": 4,
+      "engine_input_sha256": {
+        "results/expansion/rnastructure/0026c5195941ac98_incell.json": "f11bcd7c5261103c2633f424c74bb362b7a01d4eb462bdd788bd328d1d4aac5c",
+        "results/native/0026c5195941ac98_incell.json": "704f30342744049d4f5ce0ba119900b427b3ceb4974908db94b4408b4ee3e6fe"
+      },
+      "Vienna_longest_barrier": 0.0,
+      "RNAstructure_longest_barrier": 0.0,
+      "mean_box_width": 0.08953385331461786,
+      "any_certified_positive_barrier": false,
+      "threshold_measure_with_some_certified_disconnected_endpoints": 0,
+      "critical_intervals": [],
+      "witness": null
+    },
+    {
+      "id": "002cf9674b2b549d",
+      "condition": "cellfree",
+      "transcript_id": "hisS_yfgM_bamB_88",
+      "vertices": 32,
+      "engine_input_sha256": {
+        "results/expansion/rnastructure/002cf9674b2b549d_cellfree.json": "fd606108486e431076c21275999a603140f9af76a6fbcd1eb92ed683e5467add",
+        "results/native/002cf9674b2b549d_cellfree.json": "06de269c22987059bbd68601fb7f739150f87ad054c3097befe5392671b407ee"
+      },
+      "Vienna_longest_barrier": 0.0,
+      "RNAstructure_longest_barrier": 0.0,
+      "mean_box_width": 0.014709277022159732,
+      "any_certified_positive_barrier": false,
+      "threshold_measure_with_some_certified_disconnected_endpoints": 0,
+      "critical_intervals": [],
+      "witness": null
+    },
+    {
+      "id": "002cf9674b2b549d",
+      "condition": "incell",
+      "transcript_id": "hisS_yfgM_bamB_88",
+      "vertices": 32,
+      "engine_input_sha256": {
+        "results/expansion/rnastructure/002cf9674b2b549d_incell.json": "489e801a0dbef497872444c9fb6c11244399a2b12041d8430d3a6655471c092b",
+        "results/native/002cf9674b2b549d_incell.json": "3a498a01872b28de5b664aa9cf28a661e97e79586dc9461fc94f72316e377c77"
+      },
+      "Vienna_longest_barrier": 0.0,
+      "RNAstructure_longest_barrier": 0.0,
+      "mean_box_width": 0.014709277022159732,
+      "any_certified_positive_barrier": false,
+      "threshold_measure_with_some_certified_disconnected_endpoints": 0,
+      "critical_intervals": [],
+      "witness": null
+    },
+    {
+      "id": "002e33c22bb4b5ce",
+      "condition": "cellfree",
+      "transcript_id": "lptD_surA_8",
+      "vertices": 16,
+      "engine_input_sha256": {
+        "results/expansion/rnastructure/002e33c22bb4b5ce_cellfree.json": "e406e677af224ce3860b9cec3bc82c81b6428099b7c48f66399e56829f8a5959",
+        "results/native/002e33c22bb4b5ce_cellfree.json": "d630d9e8f729ef0f547d7eaf095343813ebde2109c140ba758757b4db9a70852"
+      },
+      "Vienna_longest_barrier": 0.0,
+      "RNAstructure_longest_barrier": 0.0,
+      "mean_box_width": 0.11194217912936869,
+      "any_certified_positive_barrier": false,
+      "threshold_measure_with_some_certified_disconnected_endpoints": 0,
+      "critical_intervals": [],
+      "witness": null
+    },
+    {
+      "id": "002e33c22bb4b5ce",
+      "condition": "incell",
+      "transcript_id": "lptD_surA_8",
+      "vertices": 64,
+      "engine_input_sha256": {
+        "results/expansion/rnastructure/002e33c22bb4b5ce_incell.json": "ce9e7a32c05a2cdc921ef461dfd8b121050752ace8a1dc94c6c67d589f46a64a",
+        "results/native/002e33c22bb4b5ce_incell.json": "0eb653c9ffd53c8e9cd5d5a397a8b37a272e04bafb9dbfeaab2335e36a2c4fc4"
+      },
+      "Vienna_longest_barrier": 0.0,
+      "RNAstructure_longest_barrier": 0.00163272765727962,
+      "mean_box_width": 0.0015977652670722989,
+      "any_certified_positive_barrier": false,
+      "threshold_measure_with_some_certified_disconnected_endpoints": 0,
+      "critical_intervals": [],
+      "witness": null
+    }
+  ],
+  "summary": {
+    "graphs": 48,
+    "transcripts": 21,
+    "graphs_with_Vienna_barrier": 7,
+    "graphs_with_RNAstructure_barrier": 5,
+    "graphs_with_certified_box_robust_barrier": 2,
+    "maximum_certified_witness_lifetime_lower": 0.007436002805498727
+  },
+  "interpretation": "A positive certificate holds for every score field in the declared box. Failure to certify is inconclusive, not proof of barrier absence. All thresholds were scanned. Witnesses are not selected intervention successes."
+}

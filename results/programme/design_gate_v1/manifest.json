@@ -1,0 +1,124 @@
+{
+  "schema_version": 2,
+  "claim_id": "R1_IDENTIFIABILITY_AND_KNOWN_CONTROLS",
+  "repository": {
+    "commit": "466f18cfc0cac794d6106e1c2cf5f2689e0a8057",
+    "dirty": true
+  },
+  "command": [
+    "C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\work\\env\\Scripts\\python.exe",
+    "analysis/programme/design_controls.py",
+    "--out",
+    "results/programme/design_gate_v1/results.json"
+  ],
+  "environment": {
+    "software": [
+      {
+        "name": "runner-python",
+        "version": "3.12.14"
+      },
+      {
+        "name": "Python",
+        "version": "3.12.14"
+      }
+    ],
+    "hardware": "Windows-11-10.0.26300-SP0"
+  },
+  "mathematics": {
+    "assertion_tested": "Exact design ranks, known additive/pairwise/third-order fields, endpoint-specific intervention discrimination, and agreement of bottleneck optimization with independent threshold BFS.",
+    "coefficient_domain": "Rational numbers with exact Python Fraction arithmetic",
+    "conventions": "Reference-coded monomials on binary cubes; superlevel sets use >= and admit ties together; fixed endpoints 000 and 110 on Q3.",
+    "inputs": [
+      "The old three-state path, Q2 and Q3",
+      "Five synthetic fields with declared answers",
+      "All 3^8 fields taking values in {0,1/2,1}"
+    ],
+    "bounds": {
+      "maximum_vertices": 8,
+      "Q3_fields": 6561,
+      "Q2_fields": 81
+    },
+    "non_claims": [
+      "No new folding or biological outcomes",
+      "Finite enumeration does not prove a universal theorem",
+      "Nonzero third-order coefficients do not imply barriers"
+    ]
+  },
+  "randomness": {
+    "used": false,
+    "generator": "",
+    "seed": null
+  },
+  "run": {
+    "started_at": "2026-10-24T18:07:09.362856+00:00",
+    "runtime_seconds": 0.328,
+    "exit_status": 0,
+    "status": "completed",
+    "timeout_seconds": 60.0,
+    "max_output_bytes": 1048576,
+    "resource_limits": {
+      "memory_bytes": null,
+      "cpu_seconds": null,
+      "max_cores": null,
+      "max_threads": null
+    },
+    "missing_results": [],
+    "invalid_results": []
+  },
+  "execution_artifacts": [
+    "analysis/programme/design_controls.py",
+    "analysis/programme/research_registry_v1.json"
+  ],
+  "input_artifacts": [
+    {
+      "path": "analysis/programme/design_controls.py",
+      "sha256": "de05ed6bdc13d587a4b32f2eb269698b9e21f64f72c42fb0363494bdd924c43e",
+      "sha256_after": "de05ed6bdc13d587a4b32f2eb269698b9e21f64f72c42fb0363494bdd924c43e"
+    },
+    {
+      "path": "analysis/programme/research_registry_v1.json",
+      "sha256": "d93e919430198a8bf5520ce85dd5f0abf4b48d2d4b8ae5e53eb8f7821547f9ba",
+      "sha256_after": "d93e919430198a8bf5520ce85dd5f0abf4b48d2d4b8ae5e53eb8f7821547f9ba"
+    }
+  ],
+  "output_directory": "results/programme/design_gate_v1",
+  "declared_results": [
+    "results/programme/design_gate_v1/results.json"
+  ],
+  "outputs": [
+    {
+      "path": "results/programme/design_gate_v1/stdout.txt",
+      "sha256": "e2f6a2808b1557e011abeedacd5801da08a409ddef0247abd37557f55a0a5961",
+      "kind": "log"
+    },
+    {
+      "path": "results/programme/design_gate_v1/stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "kind": "log"
+    },
+    {
+      "path": "results/programme/design_gate_v1/results.json",
+      "sha256": "e847c050be576a56b4365c03fbe1ef5bbee827d8ded87812aea7aa0947a4cbae",
+      "kind": "result"
+    }
+  ],
+  "checks": [
+    {
+      "check": "input hashes unchanged",
+      "passed": true
+    },
+    {
+      "check": "process exited successfully within enforced limits",
+      "passed": true
+    },
+    {
+      "check": "declared result files are present and regular",
+      "passed": true
+    }
+  ],
+  "result": "Run completed; mathematical assertion requires interpretation and review.",
+  "residual_risks": [
+    "Command success does not establish the mathematical interpretation.",
+    "Only listed input artifacts are pinned; external dependencies need recorded versions."
+  ]
+}

@@ -1,0 +1,1 @@
+{"scope": "Adaptive implementation follow-up, not a new discovery or prospective validation", "known_SAT_instances": 20, "assignment_truth_checks": 81920, "explicit_UNSAT_instances": 2}

@@ -1,0 +1,42 @@
+{
+  "software": [
+    {
+      "name": "Python",
+      "version": "3.12.14"
+    },
+    {
+      "name": "Biopython",
+      "version": "1.88"
+    }
+  ],
+  "randomness": {
+    "used": true,
+    "generator": "Python random.Random MT19937",
+    "seed": 73692
+  },
+  "claim_id": "R3_POSITIVE_COMPILER_COVERAGE",
+  "mathematics": {
+    "assertion_tested": "Known-feasible overlapping-frame instances and explicit contradictions agree with direct exhaustive translation and the transferred compiler.",
+    "coefficient_domain": "Finite RNA alphabet and Boolean clauses",
+    "conventions": "The source sequence supplies a known witness before solver evaluation. All one-base nucleotide changes are distinct from bit flips.",
+    "inputs": [
+      "20 seeded known-SAT length-six instances",
+      "2 explicitly contradictory codon occurrences"
+    ],
+    "bounds": {
+      "SAT_instances": 20,
+      "assignments_per_SAT_instance": 4096
+    },
+    "non_claims": [
+      "Not a proof of general reachability",
+      "Adaptive follow-up after the initial random audit had only one satisfiable instance"
+    ]
+  },
+  "execution_artifacts": [
+    "analysis/programme/overlap_positive_checks.py",
+    "analysis/programme/overlap_probe.py",
+    "analysis/expansion/feasibility_2sat.py",
+    "analysis/exact/independent_oracle.py",
+    "analysis/programme/research_registry_v1.json"
+  ]
+}

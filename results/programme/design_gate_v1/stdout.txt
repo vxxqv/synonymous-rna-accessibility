@@ -1,0 +1,1 @@
+{"ranks": {"old_three_state_additive": 3, "Q2_additive": 3, "Q3_additive": 4, "Q3_pairwise": 7, "Q3_all_orders": 8}, "Q3_fields_checked": 6561, "synthetic_controls_passed": 5}

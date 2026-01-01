@@ -1,0 +1,703 @@
+{
+  "schema_version": 2,
+  "claim_id": "R2_ENGINE_BOX_CERTIFICATES",
+  "repository": {
+    "commit": "466f18cfc0cac794d6106e1c2cf5f2689e0a8057",
+    "dirty": true
+  },
+  "command": [
+    "C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\work\\env\\Scripts\\python.exe",
+    "analysis/programme/robust_certificates.py",
+    "--out",
+    "results/programme/robust_certificates_v1/results.json"
+  ],
+  "environment": {
+    "software": [
+      {
+        "name": "runner-python",
+        "version": "3.12.14"
+      },
+      {
+        "name": "Python",
+        "version": "3.12.14"
+      }
+    ],
+    "hardware": "Windows-11-10.0.26300-SP0"
+  },
+  "mathematics": {
+    "assertion_tested": "Every reported witness remains disconnected throughout the declared engine-disagreement box on a positive threshold interval.",
+    "coefficient_domain": "Stored decimal scores; independent rational witness recheck",
+    "conventions": "Mandatory vertices have lower>=t; possible vertices have upper>=t. Endpoints must share an unfiltered component. All critical intervals scanned.",
+    "inputs": [
+      "All 48 previously computed paired engine graphs"
+    ],
+    "bounds": {
+      "graphs": 48,
+      "new_folding_runs": 0
+    },
+    "non_claims": [
+      "Not a biological confidence interval",
+      "No certificate does not prove barrier absence",
+      "Discovery sensitivity, not independent validation"
+    ]
+  },
+  "randomness": {
+    "used": false,
+    "generator": "",
+    "seed": null
+  },
+  "run": {
+    "started_at": "2026-10-24T18:20:30.446959+00:00",
+    "runtime_seconds": 0.422,
+    "exit_status": 0,
+    "status": "completed",
+    "timeout_seconds": 60.0,
+    "max_output_bytes": 1048576,
+    "resource_limits": {
+      "memory_bytes": null,
+      "cpu_seconds": null,
+      "max_cores": null,
+      "max_threads": null
+    },
+    "missing_results": [],
+    "invalid_results": []
+  },
+  "execution_artifacts": [
+    "analysis/programme/robust_certificates.py",
+    "analysis/programme/design_controls.py",
+    "analysis/programme/research_registry_v1.json",
+    "results/expansion/rnastructure/00000721ff16e8ae_cellfree.json",
+    "results/native/00000721ff16e8ae_cellfree.json",
+    "results/expansion/rnastructure/00000721ff16e8ae_incell.json",
+    "results/native/00000721ff16e8ae_incell.json",
+    "results/expansion/rnastructure/00020d177e184cc6_cellfree.json",
+    "results/native/00020d177e184cc6_cellfree.json",
+    "results/expansion/rnastructure/00020d177e184cc6_incell.json",
+    "results/native/00020d177e184cc6_incell.json",
+    "results/expansion/rnastructure/000236593360017e_cellfree.json",
+    "results/native/000236593360017e_cellfree.json",
+    "results/expansion/rnastructure/000236593360017e_incell.json",
+    "results/native/000236593360017e_incell.json",
+    "results/expansion/rnastructure/0002ea3d327744b2_cellfree.json",
+    "results/native/0002ea3d327744b2_cellfree.json",
+    "results/expansion/rnastructure/0002ea3d327744b2_incell.json",
+    "results/native/0002ea3d327744b2_incell.json",
+    "results/expansion/rnastructure/00035cadf1513180_cellfree.json",
+    "results/native/00035cadf1513180_cellfree.json",
+    "results/expansion/rnastructure/00035cadf1513180_incell.json",
+    "results/native/00035cadf1513180_incell.json",
+    "results/expansion/rnastructure/0006bf0ba7ba303e_cellfree.json",
+    "results/native/0006bf0ba7ba303e_cellfree.json",
+    "results/expansion/rnastructure/0006bf0ba7ba303e_incell.json",
+    "results/native/0006bf0ba7ba303e_incell.json",
+    "results/expansion/rnastructure/00072455b8a23f6b_cellfree.json",
+    "results/native/00072455b8a23f6b_cellfree.json",
+    "results/expansion/rnastructure/00072455b8a23f6b_incell.json",
+    "results/native/00072455b8a23f6b_incell.json",
+    "results/expansion/rnastructure/00073b478cf6c8dc_cellfree.json",
+    "results/native/00073b478cf6c8dc_cellfree.json",
+    "results/expansion/rnastructure/00073b478cf6c8dc_incell.json",
+    "results/native/00073b478cf6c8dc_incell.json",
+    "results/expansion/rnastructure/000930311bdf8ee3_cellfree.json",
+    "results/native/000930311bdf8ee3_cellfree.json",
+    "results/expansion/rnastructure/000930311bdf8ee3_incell.json",
+    "results/native/000930311bdf8ee3_incell.json",
+    "results/expansion/rnastructure/000a21c9e75ef297_cellfree.json",
+    "results/native/000a21c9e75ef297_cellfree.json",
+    "results/expansion/rnastructure/000a21c9e75ef297_incell.json",
+    "results/native/000a21c9e75ef297_incell.json",
+    "results/expansion/rnastructure/000cd7aeabdb066f_cellfree.json",
+    "results/native/000cd7aeabdb066f_cellfree.json",
+    "results/expansion/rnastructure/000cd7aeabdb066f_incell.json",
+    "results/native/000cd7aeabdb066f_incell.json",
+    "results/expansion/rnastructure/000d0cb443938c9f_cellfree.json",
+    "results/native/000d0cb443938c9f_cellfree.json",
+    "results/expansion/rnastructure/000d0cb443938c9f_incell.json",
+    "results/native/000d0cb443938c9f_incell.json",
+    "results/expansion/rnastructure/000eb213ef559ff9_cellfree.json",
+    "results/native/000eb213ef559ff9_cellfree.json",
+    "results/expansion/rnastructure/000eb213ef559ff9_incell.json",
+    "results/native/000eb213ef559ff9_incell.json",
+    "results/expansion/rnastructure/000f8cc00efcc98f_cellfree.json",
+    "results/native/000f8cc00efcc98f_cellfree.json",
+    "results/expansion/rnastructure/000f8cc00efcc98f_incell.json",
+    "results/native/000f8cc00efcc98f_incell.json",
+    "results/expansion/rnastructure/0011532febf8383a_cellfree.json",
+    "results/native/0011532febf8383a_cellfree.json",
+    "results/expansion/rnastructure/0011532febf8383a_incell.json",
+    "results/native/0011532febf8383a_incell.json",
+    "results/expansion/rnastructure/00116a5b3495a4c1_cellfree.json",
+    "results/native/00116a5b3495a4c1_cellfree.json",
+    "results/expansion/rnastructure/00116a5b3495a4c1_incell.json",
+    "results/native/00116a5b3495a4c1_incell.json",
+    "results/expansion/rnastructure/001664e6178fddfe_cellfree.json",
+    "results/native/001664e6178fddfe_cellfree.json",
+    "results/expansion/rnastructure/001664e6178fddfe_incell.json",
+    "results/native/001664e6178fddfe_incell.json",
+    "results/expansion/rnastructure/0016ca6c5c492254_cellfree.json",
+    "results/native/0016ca6c5c492254_cellfree.json",
+    "results/expansion/rnastructure/0016ca6c5c492254_incell.json",
+    "results/native/0016ca6c5c492254_incell.json",
+    "results/expansion/rnastructure/0018707537a87db5_cellfree.json",
+    "results/native/0018707537a87db5_cellfree.json",
+    "results/expansion/rnastructure/0018707537a87db5_incell.json",
+    "results/native/0018707537a87db5_incell.json",
+    "results/expansion/rnastructure/001b9e30bf80479d_cellfree.json",
+    "results/native/001b9e30bf80479d_cellfree.json",
+    "results/expansion/rnastructure/001b9e30bf80479d_incell.json",
+    "results/native/001b9e30bf80479d_incell.json",
+    "results/expansion/rnastructure/001deb837c8eaeb8_cellfree.json",
+    "results/native/001deb837c8eaeb8_cellfree.json",
+    "results/expansion/rnastructure/001deb837c8eaeb8_incell.json",
+    "results/native/001deb837c8eaeb8_incell.json",
+    "results/expansion/rnastructure/0026c5195941ac98_cellfree.json",
+    "results/native/0026c5195941ac98_cellfree.json",
+    "results/expansion/rnastructure/0026c5195941ac98_incell.json",
+    "results/native/0026c5195941ac98_incell.json",
+    "results/expansion/rnastructure/002cf9674b2b549d_cellfree.json",
+    "results/native/002cf9674b2b549d_cellfree.json",
+    "results/expansion/rnastructure/002cf9674b2b549d_incell.json",
+    "results/native/002cf9674b2b549d_incell.json",
+    "results/expansion/rnastructure/002e33c22bb4b5ce_cellfree.json",
+    "results/native/002e33c22bb4b5ce_cellfree.json",
+    "results/expansion/rnastructure/002e33c22bb4b5ce_incell.json",
+    "results/native/002e33c22bb4b5ce_incell.json"
+  ],
+  "input_artifacts": [
+    {
+      "path": "analysis/programme/robust_certificates.py",
+      "sha256": "d36cc5b35f814465bdcb540776492332b6cb89e10b381fee8b1c545cc948ad96",
+      "sha256_after": "d36cc5b35f814465bdcb540776492332b6cb89e10b381fee8b1c545cc948ad96"
+    },
+    {
+      "path": "analysis/programme/design_controls.py",
+      "sha256": "de05ed6bdc13d587a4b32f2eb269698b9e21f64f72c42fb0363494bdd924c43e",
+      "sha256_after": "de05ed6bdc13d587a4b32f2eb269698b9e21f64f72c42fb0363494bdd924c43e"
+    },
+    {
+      "path": "analysis/programme/research_registry_v1.json",
+      "sha256": "d93e919430198a8bf5520ce85dd5f0abf4b48d2d4b8ae5e53eb8f7821547f9ba",
+      "sha256_after": "d93e919430198a8bf5520ce85dd5f0abf4b48d2d4b8ae5e53eb8f7821547f9ba"
+    },
+    {
+      "path": "results/expansion/rnastructure/00000721ff16e8ae_cellfree.json",
+      "sha256": "a128fdda265787b14178df5fe5797d32c0e8783d9097eac3c514a9b64bc471dd",
+      "sha256_after": "a128fdda265787b14178df5fe5797d32c0e8783d9097eac3c514a9b64bc471dd"
+    },
+    {
+      "path": "results/native/00000721ff16e8ae_cellfree.json",
+      "sha256": "b26ffe9ce83b83bf567f6d4f8da238c96d63069b947e2746e79ec67c0d81c909",
+      "sha256_after": "b26ffe9ce83b83bf567f6d4f8da238c96d63069b947e2746e79ec67c0d81c909"
+    },
+    {
+      "path": "results/expansion/rnastructure/00000721ff16e8ae_incell.json",
+      "sha256": "e9b62988d5fed48a804a2ee0cd53e1ac75ed8fee5a3a0579584c94b3ed5e2e67",
+      "sha256_after": "e9b62988d5fed48a804a2ee0cd53e1ac75ed8fee5a3a0579584c94b3ed5e2e67"
+    },
+    {
+      "path": "results/native/00000721ff16e8ae_incell.json",
+      "sha256": "68308e4e009528c6da6f779e401012a8ba4a5c0bbaaca580e37ca0da4b0bee9b",
+      "sha256_after": "68308e4e009528c6da6f779e401012a8ba4a5c0bbaaca580e37ca0da4b0bee9b"
+    },
+    {
+      "path": "results/expansion/rnastructure/00020d177e184cc6_cellfree.json",
+      "sha256": "f6e3a68965aa9fdfa4a9aba5c822dc01f72424f1468b3ca439d0252e1efaf08c",
+      "sha256_after": "f6e3a68965aa9fdfa4a9aba5c822dc01f72424f1468b3ca439d0252e1efaf08c"
+    },
+    {
+      "path": "results/native/00020d177e184cc6_cellfree.json",
+      "sha256": "f4e3839c8f1b26eb48627de379795d0198bf32503344cc44a561155e4c0b5586",
+      "sha256_after": "f4e3839c8f1b26eb48627de379795d0198bf32503344cc44a561155e4c0b5586"
+    },
+    {
+      "path": "results/expansion/rnastructure/00020d177e184cc6_incell.json",
+      "sha256": "4c2ccd9d29f46099eaf8c9460e5149e2555de3f92d44c21ca6370c0e3fc320ee",
+      "sha256_after": "4c2ccd9d29f46099eaf8c9460e5149e2555de3f92d44c21ca6370c0e3fc320ee"
+    },
+    {
+      "path": "results/native/00020d177e184cc6_incell.json",
+      "sha256": "eb881cb101b5aa23104d17a5d9561ed977ac9e8995bc4283095578e97b3945a3",
+      "sha256_after": "eb881cb101b5aa23104d17a5d9561ed977ac9e8995bc4283095578e97b3945a3"
+    },
+    {
+      "path": "results/expansion/rnastructure/000236593360017e_cellfree.json",
+      "sha256": "709c700ed1f1a685f16c2c41ff35e773db654e80d8f1473f4ecd265d68574957",
+      "sha256_after": "709c700ed1f1a685f16c2c41ff35e773db654e80d8f1473f4ecd265d68574957"
+    },
+    {
+      "path": "results/native/000236593360017e_cellfree.json",
+      "sha256": "0e61b756945841dc3c90c7ace54a19b84cffd1dc9c9217323bf1ab794addbdf2",
+      "sha256_after": "0e61b756945841dc3c90c7ace54a19b84cffd1dc9c9217323bf1ab794addbdf2"
+    },
+    {
+      "path": "results/expansion/rnastructure/000236593360017e_incell.json",
+      "sha256": "161d63856e44e40ec2b3f2c34a433b8864d44cb6aee9a78d76e6d4cc1e48b2ec",
+      "sha256_after": "161d63856e44e40ec2b3f2c34a433b8864d44cb6aee9a78d76e6d4cc1e48b2ec"
+    },
+    {
+      "path": "results/native/000236593360017e_incell.json",
+      "sha256": "2fd89b58b8f103dc4963d1bd0af0146960356c398e6e626320405b475f54ed05",
+      "sha256_after": "2fd89b58b8f103dc4963d1bd0af0146960356c398e6e626320405b475f54ed05"
+    },
+    {
+      "path": "results/expansion/rnastructure/0002ea3d327744b2_cellfree.json",
+      "sha256": "7bcc36507c500a1d88e3f4c44f44adfeb44d485e29ebd4a32a200b2a5b588f80",
+      "sha256_after": "7bcc36507c500a1d88e3f4c44f44adfeb44d485e29ebd4a32a200b2a5b588f80"
+    },
+    {
+      "path": "results/native/0002ea3d327744b2_cellfree.json",
+      "sha256": "7129056677043f57d0c6864bec52f04e68a9ba5226ce61f0e0f73a6801024960",
+      "sha256_after": "7129056677043f57d0c6864bec52f04e68a9ba5226ce61f0e0f73a6801024960"
+    },
+    {
+      "path": "results/expansion/rnastructure/0002ea3d327744b2_incell.json",
+      "sha256": "abb592cc491aaf6257b535f931a1104c5e7a2fbd15494173be543232531bc39b",
+      "sha256_after": "abb592cc491aaf6257b535f931a1104c5e7a2fbd15494173be543232531bc39b"
+    },
+    {
+      "path": "results/native/0002ea3d327744b2_incell.json",
+      "sha256": "21206c9d978a02b2e2bb357ce367e65eb30cbb6efe5b9ad1ab080543e4c01e20",
+      "sha256_after": "21206c9d978a02b2e2bb357ce367e65eb30cbb6efe5b9ad1ab080543e4c01e20"
+    },
+    {
+      "path": "results/expansion/rnastructure/00035cadf1513180_cellfree.json",
+      "sha256": "d6e4d53be7b0efd917594d810e335c4002b6a5cde706295f70e068cbc3b918fe",
+      "sha256_after": "d6e4d53be7b0efd917594d810e335c4002b6a5cde706295f70e068cbc3b918fe"
+    },
+    {
+      "path": "results/native/00035cadf1513180_cellfree.json",
+      "sha256": "3a9824f1b7ac8d33ac2e423bc5379dbeb05056b53d87f9afff523744d770e9bf",
+      "sha256_after": "3a9824f1b7ac8d33ac2e423bc5379dbeb05056b53d87f9afff523744d770e9bf"
+    },
+    {
+      "path": "results/expansion/rnastructure/00035cadf1513180_incell.json",
+      "sha256": "e721d842977c4f32c4ad9675a3fec966ef31930cecfb1b256b690841cb9189cc",
+      "sha256_after": "e721d842977c4f32c4ad9675a3fec966ef31930cecfb1b256b690841cb9189cc"
+    },
+    {
+      "path": "results/native/00035cadf1513180_incell.json",
+      "sha256": "6eaf1f771f3201e235df1d96735091854f47cd44b4dbb46c2a22326c19b445c2",
+      "sha256_after": "6eaf1f771f3201e235df1d96735091854f47cd44b4dbb46c2a22326c19b445c2"
+    },
+    {
+      "path": "results/expansion/rnastructure/0006bf0ba7ba303e_cellfree.json",
+      "sha256": "00d84ad84bbb7ca0f415ed358b777f87850dbc507886f74501a20c1a4434480e",
+      "sha256_after": "00d84ad84bbb7ca0f415ed358b777f87850dbc507886f74501a20c1a4434480e"
+    },
+    {
+      "path": "results/native/0006bf0ba7ba303e_cellfree.json",
+      "sha256": "c5f1dd4f6948aa76c3e90f18c86e5c4f78b335d08123c82ebc69b5b14210f1d5",
+      "sha256_after": "c5f1dd4f6948aa76c3e90f18c86e5c4f78b335d08123c82ebc69b5b14210f1d5"
+    },
+    {
+      "path": "results/expansion/rnastructure/0006bf0ba7ba303e_incell.json",
+      "sha256": "04a35d3bbe2ff72317b46753e4162544f44e31216b16a502fc07cdfc92e1f098",
+      "sha256_after": "04a35d3bbe2ff72317b46753e4162544f44e31216b16a502fc07cdfc92e1f098"
+    },
+    {
+      "path": "results/native/0006bf0ba7ba303e_incell.json",
+      "sha256": "06c08718556857b5c78c49bf683ae881d9422691329586e4deeace0d36790f18",
+      "sha256_after": "06c08718556857b5c78c49bf683ae881d9422691329586e4deeace0d36790f18"
+    },
+    {
+      "path": "results/expansion/rnastructure/00072455b8a23f6b_cellfree.json",
+      "sha256": "78956863fbadd3023c1f27c84cc5eb8eb7ea562c8c300879475a662a6410f4c0",
+      "sha256_after": "78956863fbadd3023c1f27c84cc5eb8eb7ea562c8c300879475a662a6410f4c0"
+    },
+    {
+      "path": "results/native/00072455b8a23f6b_cellfree.json",
+      "sha256": "a38a4664d86b819f9db9ffb9aa25362f90ef880dc9c3074e1cc16490f604d1fc",
+      "sha256_after": "a38a4664d86b819f9db9ffb9aa25362f90ef880dc9c3074e1cc16490f604d1fc"
+    },
+    {
+      "path": "results/expansion/rnastructure/00072455b8a23f6b_incell.json",
+      "sha256": "24b768f26b93ef31ea33aa5b0a8eef43c3d5236b0af253bce02cdcde70c9c139",
+      "sha256_after": "24b768f26b93ef31ea33aa5b0a8eef43c3d5236b0af253bce02cdcde70c9c139"
+    },
+    {
+      "path": "results/native/00072455b8a23f6b_incell.json",
+      "sha256": "049820b68a1498eeddccf7eb5470b3b2c17d09078c174a21adff431cfb0b2ebf",
+      "sha256_after": "049820b68a1498eeddccf7eb5470b3b2c17d09078c174a21adff431cfb0b2ebf"
+    },
+    {
+      "path": "results/expansion/rnastructure/00073b478cf6c8dc_cellfree.json",
+      "sha256": "22d6c5406c534ec1e9eba6175e8f0975703746766d8735142d33c4c8826f82c4",
+      "sha256_after": "22d6c5406c534ec1e9eba6175e8f0975703746766d8735142d33c4c8826f82c4"
+    },
+    {
+      "path": "results/native/00073b478cf6c8dc_cellfree.json",
+      "sha256": "6e8d269f50c8417afbbbdfcfdf3d8226e9b87840aa3e7452b50456da0d056a19",
+      "sha256_after": "6e8d269f50c8417afbbbdfcfdf3d8226e9b87840aa3e7452b50456da0d056a19"
+    },
+    {
+      "path": "results/expansion/rnastructure/00073b478cf6c8dc_incell.json",
+      "sha256": "2a5ed47d8436a4ca1e4b3529820044324106b51270148180a8a5ee0348273bc0",
+      "sha256_after": "2a5ed47d8436a4ca1e4b3529820044324106b51270148180a8a5ee0348273bc0"
+    },
+    {
+      "path": "results/native/00073b478cf6c8dc_incell.json",
+      "sha256": "f40ec2891bf7aa59acdbf01d8cc19bc6b9f38dbe7cd9c029e19812223240d894",
+      "sha256_after": "f40ec2891bf7aa59acdbf01d8cc19bc6b9f38dbe7cd9c029e19812223240d894"
+    },
+    {
+      "path": "results/expansion/rnastructure/000930311bdf8ee3_cellfree.json",
+      "sha256": "606afa3371377408b26c627a5c75d5eb34d2eeca78fec74f2fed51f3ca383144",
+      "sha256_after": "606afa3371377408b26c627a5c75d5eb34d2eeca78fec74f2fed51f3ca383144"
+    },
+    {
+      "path": "results/native/000930311bdf8ee3_cellfree.json",
+      "sha256": "acbee4c13301182eeef095ede1f1a316aa150cf88d4d30bf71aa37c4edc5cd96",
+      "sha256_after": "acbee4c13301182eeef095ede1f1a316aa150cf88d4d30bf71aa37c4edc5cd96"
+    },
+    {
+      "path": "results/expansion/rnastructure/000930311bdf8ee3_incell.json",
+      "sha256": "6121afe73a861d39bed99c36fe032a6d1e968093f2d7d421db03308dc5519ca0",
+      "sha256_after": "6121afe73a861d39bed99c36fe032a6d1e968093f2d7d421db03308dc5519ca0"
+    },
+    {
+      "path": "results/native/000930311bdf8ee3_incell.json",
+      "sha256": "6ac7bfd0081fb55607bcc4ac1553fff2c5cd1dcfa4e2946b73568bc650a367bd",
+      "sha256_after": "6ac7bfd0081fb55607bcc4ac1553fff2c5cd1dcfa4e2946b73568bc650a367bd"
+    },
+    {
+      "path": "results/expansion/rnastructure/000a21c9e75ef297_cellfree.json",
+      "sha256": "81c038a994850d1e7d2432b1bab1269878d0ab3199013886e4d5537a62da039d",
+      "sha256_after": "81c038a994850d1e7d2432b1bab1269878d0ab3199013886e4d5537a62da039d"
+    },
+    {
+      "path": "results/native/000a21c9e75ef297_cellfree.json",
+      "sha256": "6b328017a7e8e8abdf072e70ecfdf67433afaf4a42260f20ae09178e19cc39e2",
+      "sha256_after": "6b328017a7e8e8abdf072e70ecfdf67433afaf4a42260f20ae09178e19cc39e2"
+    },
+    {
+      "path": "results/expansion/rnastructure/000a21c9e75ef297_incell.json",
+      "sha256": "a338da1d7578ea1ffde14e27111d9f015330819eab9ae26dada8aed1380b1088",
+      "sha256_after": "a338da1d7578ea1ffde14e27111d9f015330819eab9ae26dada8aed1380b1088"
+    },
+    {
+      "path": "results/native/000a21c9e75ef297_incell.json",
+      "sha256": "bf5e9d62a6c2bf9426eb3e5177ccdd77c20df4c1297379484730aab8fc943566",
+      "sha256_after": "bf5e9d62a6c2bf9426eb3e5177ccdd77c20df4c1297379484730aab8fc943566"
+    },
+    {
+      "path": "results/expansion/rnastructure/000cd7aeabdb066f_cellfree.json",
+      "sha256": "d5d83b6ae3e5e1cedae233162a4f8b2f87126c42bccb3ffe3a73a236fbed6376",
+      "sha256_after": "d5d83b6ae3e5e1cedae233162a4f8b2f87126c42bccb3ffe3a73a236fbed6376"
+    },
+    {
+      "path": "results/native/000cd7aeabdb066f_cellfree.json",
+      "sha256": "eaef12735c31f2744ddcd4a129565e54b815eef33a14b7e5f23e31ab9440f49c",
+      "sha256_after": "eaef12735c31f2744ddcd4a129565e54b815eef33a14b7e5f23e31ab9440f49c"
+    },
+    {
+      "path": "results/expansion/rnastructure/000cd7aeabdb066f_incell.json",
+      "sha256": "8bc5f5f6114f91939848aff0b0ce5804158f85d511b64bd60bc0e9f41e9eb2ed",
+      "sha256_after": "8bc5f5f6114f91939848aff0b0ce5804158f85d511b64bd60bc0e9f41e9eb2ed"
+    },
+    {
+      "path": "results/native/000cd7aeabdb066f_incell.json",
+      "sha256": "90815e74531ccd5339a1a93c71c07223b6beba0316b1f4bf1d53e5b9020bfa1b",
+      "sha256_after": "90815e74531ccd5339a1a93c71c07223b6beba0316b1f4bf1d53e5b9020bfa1b"
+    },
+    {
+      "path": "results/expansion/rnastructure/000d0cb443938c9f_cellfree.json",
+      "sha256": "01875c12953cb2ba6b31fe7dcf9ae00782881890dd4125a8cda91a9b27bcc798",
+      "sha256_after": "01875c12953cb2ba6b31fe7dcf9ae00782881890dd4125a8cda91a9b27bcc798"
+    },
+    {
+      "path": "results/native/000d0cb443938c9f_cellfree.json",
+      "sha256": "bd46336de9a777b3f070c4c4ea117779b9e4c59c4b1d1e0e11c6f2aa89dad165",
+      "sha256_after": "bd46336de9a777b3f070c4c4ea117779b9e4c59c4b1d1e0e11c6f2aa89dad165"
+    },
+    {
+      "path": "results/expansion/rnastructure/000d0cb443938c9f_incell.json",
+      "sha256": "135a8cd1289c58d16e166e7fcc0328aee9a6abb33f8cc0c6df629f834cd6e5c6",
+      "sha256_after": "135a8cd1289c58d16e166e7fcc0328aee9a6abb33f8cc0c6df629f834cd6e5c6"
+    },
+    {
+      "path": "results/native/000d0cb443938c9f_incell.json",
+      "sha256": "85d9df5be900aa4fd18d1f012b2c6747438e745d7264a563ed15b1443e25b352",
+      "sha256_after": "85d9df5be900aa4fd18d1f012b2c6747438e745d7264a563ed15b1443e25b352"
+    },
+    {
+      "path": "results/expansion/rnastructure/000eb213ef559ff9_cellfree.json",
+      "sha256": "9fedc7bee131e99d1a84742b01f4a8c42dce84a18c552d4c5e02a98d04f69e97",
+      "sha256_after": "9fedc7bee131e99d1a84742b01f4a8c42dce84a18c552d4c5e02a98d04f69e97"
+    },
+    {
+      "path": "results/native/000eb213ef559ff9_cellfree.json",
+      "sha256": "b04a909b1d3efcf65296432f0810d32272476c5328e686e73cf717397225ea8a",
+      "sha256_after": "b04a909b1d3efcf65296432f0810d32272476c5328e686e73cf717397225ea8a"
+    },
+    {
+      "path": "results/expansion/rnastructure/000eb213ef559ff9_incell.json",
+      "sha256": "37f4bc3e2b4cfc4f4e5b40eb661d63dfb1d1785b914320961b15164c79727710",
+      "sha256_after": "37f4bc3e2b4cfc4f4e5b40eb661d63dfb1d1785b914320961b15164c79727710"
+    },
+    {
+      "path": "results/native/000eb213ef559ff9_incell.json",
+      "sha256": "e83738feb51580d954c910e49c02f0fed3e098b297fa60b8452b151538708b45",
+      "sha256_after": "e83738feb51580d954c910e49c02f0fed3e098b297fa60b8452b151538708b45"
+    },
+    {
+      "path": "results/expansion/rnastructure/000f8cc00efcc98f_cellfree.json",
+      "sha256": "f5ccb426473966a0ec7495283e464b4e5e5b971f10806975a27056bba6905158",
+      "sha256_after": "f5ccb426473966a0ec7495283e464b4e5e5b971f10806975a27056bba6905158"
+    },
+    {
+      "path": "results/native/000f8cc00efcc98f_cellfree.json",
+      "sha256": "52d41ae89c1562ff28046fdbf88109213cc79ba992ebcbd0b9695295641203b4",
+      "sha256_after": "52d41ae89c1562ff28046fdbf88109213cc79ba992ebcbd0b9695295641203b4"
+    },
+    {
+      "path": "results/expansion/rnastructure/000f8cc00efcc98f_incell.json",
+      "sha256": "2c7472ddddf39ab91828a1a8178b2ab86402d8da612b490d3e6e48cfb38804e2",
+      "sha256_after": "2c7472ddddf39ab91828a1a8178b2ab86402d8da612b490d3e6e48cfb38804e2"
+    },
+    {
+      "path": "results/native/000f8cc00efcc98f_incell.json",
+      "sha256": "6b8bfaac36f32180e427574c320ef65ece01d03c3df214baf6658ae6bf6fbaa9",
+      "sha256_after": "6b8bfaac36f32180e427574c320ef65ece01d03c3df214baf6658ae6bf6fbaa9"
+    },
+    {
+      "path": "results/expansion/rnastructure/0011532febf8383a_cellfree.json",
+      "sha256": "aa59317304e5f70845a5c5932baee0b863b6881aafc2821f20130e4fe98a0776",
+      "sha256_after": "aa59317304e5f70845a5c5932baee0b863b6881aafc2821f20130e4fe98a0776"
+    },
+    {
+      "path": "results/native/0011532febf8383a_cellfree.json",
+      "sha256": "aa5f41e83c003573f148d271752acf342b9f67fd70aecc325b574a209a08f51e",
+      "sha256_after": "aa5f41e83c003573f148d271752acf342b9f67fd70aecc325b574a209a08f51e"
+    },
+    {
+      "path": "results/expansion/rnastructure/0011532febf8383a_incell.json",
+      "sha256": "30b1ad8555ba010b0316c0ced40bf2d4a5cf227a3f6bedc440b0076262698880",
+      "sha256_after": "30b1ad8555ba010b0316c0ced40bf2d4a5cf227a3f6bedc440b0076262698880"
+    },
+    {
+      "path": "results/native/0011532febf8383a_incell.json",
+      "sha256": "e8846327270fe80c9e3087fab6a731807c6ff94b78c1b182f8504208cc8e6220",
+      "sha256_after": "e8846327270fe80c9e3087fab6a731807c6ff94b78c1b182f8504208cc8e6220"
+    },
+    {
+      "path": "results/expansion/rnastructure/00116a5b3495a4c1_cellfree.json",
+      "sha256": "4470391a4c980e85c8592c996ce169a9492c6e4866dadf0d7a3f4e2fb7477c17",
+      "sha256_after": "4470391a4c980e85c8592c996ce169a9492c6e4866dadf0d7a3f4e2fb7477c17"
+    },
+    {
+      "path": "results/native/00116a5b3495a4c1_cellfree.json",
+      "sha256": "8f0af3cb47f4a140b421f61f3be0bce8747ffb7eb6d03f148f8387b019ed4ab3",
+      "sha256_after": "8f0af3cb47f4a140b421f61f3be0bce8747ffb7eb6d03f148f8387b019ed4ab3"
+    },
+    {
+      "path": "results/expansion/rnastructure/00116a5b3495a4c1_incell.json",
+      "sha256": "f939406f6cc7e5c3cbea10d8a472c5ad95eba0129946cfc3c7aab34e7e13f047",
+      "sha256_after": "f939406f6cc7e5c3cbea10d8a472c5ad95eba0129946cfc3c7aab34e7e13f047"
+    },
+    {
+      "path": "results/native/00116a5b3495a4c1_incell.json",
+      "sha256": "50233260b65b617126d22917be57222747d377782796b45ba8102ca807eccdf5",
+      "sha256_after": "50233260b65b617126d22917be57222747d377782796b45ba8102ca807eccdf5"
+    },
+    {
+      "path": "results/expansion/rnastructure/001664e6178fddfe_cellfree.json",
+      "sha256": "f3562402a2113d34f81c173347e9f14044ad2daa105fb88469e50ae511bf82d4",
+      "sha256_after": "f3562402a2113d34f81c173347e9f14044ad2daa105fb88469e50ae511bf82d4"
+    },
+    {
+      "path": "results/native/001664e6178fddfe_cellfree.json",
+      "sha256": "08fe6fe67bfd4f59659531bf72d00307cb5fd29e1e9f385962d49146725f8730",
+      "sha256_after": "08fe6fe67bfd4f59659531bf72d00307cb5fd29e1e9f385962d49146725f8730"
+    },
+    {
+      "path": "results/expansion/rnastructure/001664e6178fddfe_incell.json",
+      "sha256": "c7b57c677bb896711b26d76e5ce41b20365497820d7337120c3547d16f35c45a",
+      "sha256_after": "c7b57c677bb896711b26d76e5ce41b20365497820d7337120c3547d16f35c45a"
+    },
+    {
+      "path": "results/native/001664e6178fddfe_incell.json",
+      "sha256": "35f4ead1f4bd099452b09d91e3500441d9aff4e9eb119d76ffde3dabc55bed4a",
+      "sha256_after": "35f4ead1f4bd099452b09d91e3500441d9aff4e9eb119d76ffde3dabc55bed4a"
+    },
+    {
+      "path": "results/expansion/rnastructure/0016ca6c5c492254_cellfree.json",
+      "sha256": "ddab6963281b0bf55f976d2c9c5d750e837bc6a18036367dcf85cb801c8d1d67",
+      "sha256_after": "ddab6963281b0bf55f976d2c9c5d750e837bc6a18036367dcf85cb801c8d1d67"
+    },
+    {
+      "path": "results/native/0016ca6c5c492254_cellfree.json",
+      "sha256": "3aba50926f6dd5571dc20fd08fcdef6364f3a0b237ac1dd2afcc48ec64f2afd4",
+      "sha256_after": "3aba50926f6dd5571dc20fd08fcdef6364f3a0b237ac1dd2afcc48ec64f2afd4"
+    },
+    {
+      "path": "results/expansion/rnastructure/0016ca6c5c492254_incell.json",
+      "sha256": "c2aaa70b5275df7384fa1868e2977dc0e15712c6069c8c5b8a13911e21159a8f",
+      "sha256_after": "c2aaa70b5275df7384fa1868e2977dc0e15712c6069c8c5b8a13911e21159a8f"
+    },
+    {
+      "path": "results/native/0016ca6c5c492254_incell.json",
+      "sha256": "78c848b5996d36222701a462a0199c7fc46cedb5c6b87c1a855e6d5de3734538",
+      "sha256_after": "78c848b5996d36222701a462a0199c7fc46cedb5c6b87c1a855e6d5de3734538"
+    },
+    {
+      "path": "results/expansion/rnastructure/0018707537a87db5_cellfree.json",
+      "sha256": "9b4dcc9f12b514aaf3cc1d9795990fd0d49130dc18ff0fa57be5f7b22d2fa527",
+      "sha256_after": "9b4dcc9f12b514aaf3cc1d9795990fd0d49130dc18ff0fa57be5f7b22d2fa527"
+    },
+    {
+      "path": "results/native/0018707537a87db5_cellfree.json",
+      "sha256": "7d12045a4f2a0926c7e7d6240778059d94eb8e89da0f4a32586afe2c0ce645ad",
+      "sha256_after": "7d12045a4f2a0926c7e7d6240778059d94eb8e89da0f4a32586afe2c0ce645ad"
+    },
+    {
+      "path": "results/expansion/rnastructure/0018707537a87db5_incell.json",
+      "sha256": "06d9e84c3d63fe8fbfeb2c9338bf5b72fd9453843fcae89e949f03b56dfe1ca7",
+      "sha256_after": "06d9e84c3d63fe8fbfeb2c9338bf5b72fd9453843fcae89e949f03b56dfe1ca7"
+    },
+    {
+      "path": "results/native/0018707537a87db5_incell.json",
+      "sha256": "92979baa171d9fccffa60e7fc7e40bdc9283b666121562d002769c7dbce9d824",
+      "sha256_after": "92979baa171d9fccffa60e7fc7e40bdc9283b666121562d002769c7dbce9d824"
+    },
+    {
+      "path": "results/expansion/rnastructure/001b9e30bf80479d_cellfree.json",
+      "sha256": "2fd6d56d9076dd1d0eb481bc6ba11b8a644ded749cc15f1ecf14950e5352a632",
+      "sha256_after": "2fd6d56d9076dd1d0eb481bc6ba11b8a644ded749cc15f1ecf14950e5352a632"
+    },
+    {
+      "path": "results/native/001b9e30bf80479d_cellfree.json",
+      "sha256": "33171a158b92fb3525727801e991e2b293878c2597604353f0b3b900727d58d2",
+      "sha256_after": "33171a158b92fb3525727801e991e2b293878c2597604353f0b3b900727d58d2"
+    },
+    {
+      "path": "results/expansion/rnastructure/001b9e30bf80479d_incell.json",
+      "sha256": "14492e0767e832957950b2246d30b5955b7e32db6409985128f3bb88f31920e6",
+      "sha256_after": "14492e0767e832957950b2246d30b5955b7e32db6409985128f3bb88f31920e6"
+    },
+    {
+      "path": "results/native/001b9e30bf80479d_incell.json",
+      "sha256": "19ee650973a094bc6e40f1966cea66c8f8a3e932e28ca7fdf6587252e61c324c",
+      "sha256_after": "19ee650973a094bc6e40f1966cea66c8f8a3e932e28ca7fdf6587252e61c324c"
+    },
+    {
+      "path": "results/expansion/rnastructure/001deb837c8eaeb8_cellfree.json",
+      "sha256": "d5bc48ed5c05ca56cee1827c9a05614724424803db5c13c2408fe5d2a029d236",
+      "sha256_after": "d5bc48ed5c05ca56cee1827c9a05614724424803db5c13c2408fe5d2a029d236"
+    },
+    {
+      "path": "results/native/001deb837c8eaeb8_cellfree.json",
+      "sha256": "20caf6465238bc680318558da6669764fdc141c692e50f55279af3d7bc0ee595",
+      "sha256_after": "20caf6465238bc680318558da6669764fdc141c692e50f55279af3d7bc0ee595"
+    },
+    {
+      "path": "results/expansion/rnastructure/001deb837c8eaeb8_incell.json",
+      "sha256": "ed1d01120cf41bd4fbccae117c6d6ee79c37d02482c50c29c0e837b427dbf437",
+      "sha256_after": "ed1d01120cf41bd4fbccae117c6d6ee79c37d02482c50c29c0e837b427dbf437"
+    },
+    {
+      "path": "results/native/001deb837c8eaeb8_incell.json",
+      "sha256": "61feeb977dd0506dbbe6c810c00b572f3f02aaf9c5290aea1718c32eb4e8840c",
+      "sha256_after": "61feeb977dd0506dbbe6c810c00b572f3f02aaf9c5290aea1718c32eb4e8840c"
+    },
+    {
+      "path": "results/expansion/rnastructure/0026c5195941ac98_cellfree.json",
+      "sha256": "a3932f886b237c86d42eb47cb286e83f367e9eb78c27cb9daeeb5341f2762436",
+      "sha256_after": "a3932f886b237c86d42eb47cb286e83f367e9eb78c27cb9daeeb5341f2762436"
+    },
+    {
+      "path": "results/native/0026c5195941ac98_cellfree.json",
+      "sha256": "d03562293bf1e7f1935371b35fe0d9cf4d1133c3b16e508f43d40b15f5848b70",
+      "sha256_after": "d03562293bf1e7f1935371b35fe0d9cf4d1133c3b16e508f43d40b15f5848b70"
+    },
+    {
+      "path": "results/expansion/rnastructure/0026c5195941ac98_incell.json",
+      "sha256": "f11bcd7c5261103c2633f424c74bb362b7a01d4eb462bdd788bd328d1d4aac5c",
+      "sha256_after": "f11bcd7c5261103c2633f424c74bb362b7a01d4eb462bdd788bd328d1d4aac5c"
+    },
+    {
+      "path": "results/native/0026c5195941ac98_incell.json",
+      "sha256": "704f30342744049d4f5ce0ba119900b427b3ceb4974908db94b4408b4ee3e6fe",
+      "sha256_after": "704f30342744049d4f5ce0ba119900b427b3ceb4974908db94b4408b4ee3e6fe"
+    },
+    {
+      "path": "results/expansion/rnastructure/002cf9674b2b549d_cellfree.json",
+      "sha256": "fd606108486e431076c21275999a603140f9af76a6fbcd1eb92ed683e5467add",
+      "sha256_after": "fd606108486e431076c21275999a603140f9af76a6fbcd1eb92ed683e5467add"
+    },
+    {
+      "path": "results/native/002cf9674b2b549d_cellfree.json",
+      "sha256": "06de269c22987059bbd68601fb7f739150f87ad054c3097befe5392671b407ee",
+      "sha256_after": "06de269c22987059bbd68601fb7f739150f87ad054c3097befe5392671b407ee"
+    },
+    {
+      "path": "results/expansion/rnastructure/002cf9674b2b549d_incell.json",
+      "sha256": "489e801a0dbef497872444c9fb6c11244399a2b12041d8430d3a6655471c092b",
+      "sha256_after": "489e801a0dbef497872444c9fb6c11244399a2b12041d8430d3a6655471c092b"
+    },
+    {
+      "path": "results/native/002cf9674b2b549d_incell.json",
+      "sha256": "3a498a01872b28de5b664aa9cf28a661e97e79586dc9461fc94f72316e377c77",
+      "sha256_after": "3a498a01872b28de5b664aa9cf28a661e97e79586dc9461fc94f72316e377c77"
+    },
+    {
+      "path": "results/expansion/rnastructure/002e33c22bb4b5ce_cellfree.json",
+      "sha256": "e406e677af224ce3860b9cec3bc82c81b6428099b7c48f66399e56829f8a5959",
+      "sha256_after": "e406e677af224ce3860b9cec3bc82c81b6428099b7c48f66399e56829f8a5959"
+    },
+    {
+      "path": "results/native/002e33c22bb4b5ce_cellfree.json",
+      "sha256": "d630d9e8f729ef0f547d7eaf095343813ebde2109c140ba758757b4db9a70852",
+      "sha256_after": "d630d9e8f729ef0f547d7eaf095343813ebde2109c140ba758757b4db9a70852"
+    },
+    {
+      "path": "results/expansion/rnastructure/002e33c22bb4b5ce_incell.json",
+      "sha256": "ce9e7a32c05a2cdc921ef461dfd8b121050752ace8a1dc94c6c67d589f46a64a",
+      "sha256_after": "ce9e7a32c05a2cdc921ef461dfd8b121050752ace8a1dc94c6c67d589f46a64a"
+    },
+    {
+      "path": "results/native/002e33c22bb4b5ce_incell.json",
+      "sha256": "0eb653c9ffd53c8e9cd5d5a397a8b37a272e04bafb9dbfeaab2335e36a2c4fc4",
+      "sha256_after": "0eb653c9ffd53c8e9cd5d5a397a8b37a272e04bafb9dbfeaab2335e36a2c4fc4"
+    }
+  ],
+  "output_directory": "results/programme/robust_certificates_v1",
+  "declared_results": [
+    "results/programme/robust_certificates_v1/results.json"
+  ],
+  "outputs": [
+    {
+      "path": "results/programme/robust_certificates_v1/stdout.txt",
+      "sha256": "3a9c5fb5089ce8d494459ab6068fc8fcc6430185936677631ce43051a711364f",
+      "kind": "log"
+    },
+    {
+      "path": "results/programme/robust_certificates_v1/stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "kind": "log"
+    },
+    {
+      "path": "results/programme/robust_certificates_v1/results.json",
+      "sha256": "f23b7cf3ecd0c2ac0203397887a75458e42b3ba9a717d64c0542ac1c741a4556",
+      "kind": "result"
+    }
+  ],
+  "checks": [
+    {
+      "check": "input hashes unchanged",
+      "passed": true
+    },
+    {
+      "check": "process exited successfully within enforced limits",
+      "passed": true
+    },
+    {
+      "check": "declared result files are present and regular",
+      "passed": true
+    }
+  ],
+  "result": "Run completed; mathematical assertion requires interpretation and review.",
+  "residual_risks": [
+    "Command success does not establish the mathematical interpretation.",
+    "Only listed input artifacts are pinned; external dependencies need recorded versions."
+  ]
+}

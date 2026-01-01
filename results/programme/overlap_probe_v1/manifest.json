@@ -1,0 +1,140 @@
+{
+  "schema_version": 2,
+  "claim_id": "R3_OVERLAP_COMPILER_AND_COUNTEREXAMPLE_PROBE",
+  "repository": {
+    "commit": "466f18cfc0cac794d6106e1c2cf5f2689e0a8057",
+    "dirty": true
+  },
+  "command": [
+    "C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\work\\env\\Scripts\\python.exe",
+    "analysis/programme/overlap_probe.py",
+    "--out",
+    "results/programme/overlap_probe_v1/results.json"
+  ],
+  "environment": {
+    "software": [
+      {
+        "name": "runner-python",
+        "version": "3.12.14"
+      },
+      {
+        "name": "Python",
+        "version": "3.12.14"
+      },
+      {
+        "name": "Biopython",
+        "version": "1.88"
+      }
+    ],
+    "hardware": "Windows-11-10.0.26300-SP0"
+  },
+  "mathematics": {
+    "assertion_tested": "The transferred 2-CNF compiler agrees with direct standard-code translation, including reverse complements. Search for additional component invariants or non-Hamming detours under overlapping frames.",
+    "coefficient_domain": "Finite RNA alphabet and Boolean clauses, exact integer graph distances",
+    "conventions": "All one-nucleotide substitutions are graph moves, not individual Boolean-bit flips. Each codon occurrence retains its amino acid. Pair obligations allow AU,UA,GC,CG,GU,UG. Sense translation only.",
+    "inputs": [
+      "All 4^n sequences at n=6,7 for five relative frames",
+      "No pair edges and all 21 single pair edges at n=7",
+      "18 seeded compiler truth-table instances and 4 boundary instances"
+    ],
+    "bounds": {
+      "n_max": 7,
+      "frame_configurations": 115,
+      "maximum_sequences_per_configuration": 16384
+    },
+    "non_claims": [
+      "No general reachability theorem follows from a negative finite search",
+      "2-SAT feasibility does not identify nucleotide-mutation components",
+      "No protein-function or RNA-occupancy claim"
+    ]
+  },
+  "randomness": {
+    "used": true,
+    "generator": "Python random.Random MT19937",
+    "seed": 73691
+  },
+  "run": {
+    "started_at": "2026-10-24T18:09:21.020509+00:00",
+    "runtime_seconds": 15.282,
+    "exit_status": 0,
+    "status": "completed",
+    "timeout_seconds": 180.0,
+    "max_output_bytes": 1048576,
+    "resource_limits": {
+      "memory_bytes": null,
+      "cpu_seconds": null,
+      "max_cores": null,
+      "max_threads": null
+    },
+    "missing_results": [],
+    "invalid_results": []
+  },
+  "execution_artifacts": [
+    "analysis/programme/overlap_probe.py",
+    "analysis/programme/research_registry_v1.json",
+    "analysis/expansion/feasibility_2sat.py",
+    "analysis/exact/independent_oracle.py"
+  ],
+  "input_artifacts": [
+    {
+      "path": "analysis/programme/overlap_probe.py",
+      "sha256": "9ca4d0600f28826c4999de332345ab8afee58babbc51277176fb6daccc776f66",
+      "sha256_after": "9ca4d0600f28826c4999de332345ab8afee58babbc51277176fb6daccc776f66"
+    },
+    {
+      "path": "analysis/programme/research_registry_v1.json",
+      "sha256": "d93e919430198a8bf5520ce85dd5f0abf4b48d2d4b8ae5e53eb8f7821547f9ba",
+      "sha256_after": "d93e919430198a8bf5520ce85dd5f0abf4b48d2d4b8ae5e53eb8f7821547f9ba"
+    },
+    {
+      "path": "analysis/expansion/feasibility_2sat.py",
+      "sha256": "ab0ac0bb93505a2386a4e34fbe6ea0cd5ddaa185f897a12c31b13f9bcb4fd7c5",
+      "sha256_after": "ab0ac0bb93505a2386a4e34fbe6ea0cd5ddaa185f897a12c31b13f9bcb4fd7c5"
+    },
+    {
+      "path": "analysis/exact/independent_oracle.py",
+      "sha256": "b0145f8f37197bd3f6da0843a535963bf83db7c6886137cf1c487b554f493cab",
+      "sha256_after": "b0145f8f37197bd3f6da0843a535963bf83db7c6886137cf1c487b554f493cab"
+    }
+  ],
+  "output_directory": "results/programme/overlap_probe_v1",
+  "declared_results": [
+    "results/programme/overlap_probe_v1/results.json"
+  ],
+  "outputs": [
+    {
+      "path": "results/programme/overlap_probe_v1/stdout.txt",
+      "sha256": "a069cfb747635bc888958b82253322529bd0f5a999f3e800adc0c9c9afa3d6a3",
+      "kind": "log"
+    },
+    {
+      "path": "results/programme/overlap_probe_v1/stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "kind": "log"
+    },
+    {
+      "path": "results/programme/overlap_probe_v1/results.json",
+      "sha256": "eff3f02c55595f8e7b511a42a785e18a3503a017f16191c0dd76d7d9065d7bcd",
+      "kind": "result"
+    }
+  ],
+  "checks": [
+    {
+      "check": "input hashes unchanged",
+      "passed": true
+    },
+    {
+      "check": "process exited successfully within enforced limits",
+      "passed": true
+    },
+    {
+      "check": "declared result files are present and regular",
+      "passed": true
+    }
+  ],
+  "result": "Run completed; mathematical assertion requires interpretation and review.",
+  "residual_risks": [
+    "Command success does not establish the mathematical interpretation.",
+    "Only listed input artifacts are pinned; external dependencies need recorded versions."
+  ]
+}
