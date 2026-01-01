@@ -82,3 +82,13 @@ def test_paired_copy_counting():
         assert int(single['count'])==len(seq)
         assert int(double['count'])==sum(c*c for c in counts.values())
     assert count_compatible('LG',[(0,5)],paired_copy=True,table_cap=1)['status']=='resource_limit'
+
+def test_class_fixed_codon_cartesian_domains():
+    nonempty=0
+    for aa in CODONS:
+        for classes in product((False,True),repeat=3):
+            codons=[c for c in CODONS[aa] if tuple(b in 'AG' for b in c)==classes]
+            if codons:
+                nonempty+=1
+                assert set(codons)=={''.join(x) for x in product(*(sorted({c[i] for c in codons}) for i in range(3)))}
+    assert nonempty==31

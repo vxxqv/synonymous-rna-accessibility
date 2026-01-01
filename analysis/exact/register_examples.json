@@ -1,0 +1,3154 @@
+[
+  {
+    "peptide": "AG",
+    "shift": 1,
+    "layer0": 4,
+    "layerd": 2,
+    "intersection": 0,
+    "delta": 1,
+    "component_sizes_and_degrees": []
+  },
+  {
+    "peptide": "AR",
+    "shift": 1,
+    "layer0": 2,
+    "layerd": 4,
+    "intersection": 0,
+    "delta": 2,
+    "component_sizes_and_degrees": []
+  },
+  {
+    "peptide": "AS",
+    "shift": 1,
+    "layer0": 2,
+    "layerd": 1,
+    "intersection": 0,
+    "delta": 4,
+    "component_sizes_and_degrees": []
+  },
+  {
+    "peptide": "EF",
+    "shift": 1,
+    "layer0": 4,
+    "layerd": 2,
+    "intersection": 2,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        2,
+        [
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "EL",
+    "shift": 1,
+    "layer0": 2,
+    "layerd": 2,
+    "intersection": 1,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        1,
+        [
+          0
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "FE",
+    "shift": 1,
+    "layer0": 4,
+    "layerd": 2,
+    "intersection": 2,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        2,
+        [
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "FG",
+    "shift": 1,
+    "layer0": 4,
+    "layerd": 4,
+    "intersection": 4,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        4,
+        [
+          2
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "FK",
+    "shift": 1,
+    "layer0": 2,
+    "layerd": 2,
+    "intersection": 2,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        2,
+        [
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "FR",
+    "shift": 1,
+    "layer0": 2,
+    "layerd": 8,
+    "intersection": 2,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        2,
+        [
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "GA",
+    "shift": 1,
+    "layer0": 4,
+    "layerd": 2,
+    "intersection": 0,
+    "delta": 1,
+    "component_sizes_and_degrees": []
+  },
+  {
+    "peptide": "GF",
+    "shift": 1,
+    "layer0": 4,
+    "layerd": 4,
+    "intersection": 4,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        4,
+        [
+          2
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "GI",
+    "shift": 1,
+    "layer0": 2,
+    "layerd": 4,
+    "intersection": 0,
+    "delta": 1,
+    "component_sizes_and_degrees": []
+  },
+  {
+    "peptide": "GL",
+    "shift": 1,
+    "layer0": 2,
+    "layerd": 4,
+    "intersection": 2,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        2,
+        [
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "GP",
+    "shift": 1,
+    "layer0": 2,
+    "layerd": 2,
+    "intersection": 2,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        2,
+        [
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "GS",
+    "shift": 1,
+    "layer0": 4,
+    "layerd": 6,
+    "intersection": 2,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        2,
+        [
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "GT",
+    "shift": 1,
+    "layer0": 2,
+    "layerd": 2,
+    "intersection": 0,
+    "delta": 1,
+    "component_sizes_and_degrees": []
+  },
+  {
+    "peptide": "GV",
+    "shift": 1,
+    "layer0": 4,
+    "layerd": 4,
+    "intersection": 0,
+    "delta": 1,
+    "component_sizes_and_degrees": []
+  },
+  {
+    "peptide": "IG",
+    "shift": 1,
+    "layer0": 2,
+    "layerd": 4,
+    "intersection": 0,
+    "delta": 1,
+    "component_sizes_and_degrees": []
+  },
+  {
+    "peptide": "KF",
+    "shift": 1,
+    "layer0": 2,
+    "layerd": 2,
+    "intersection": 2,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        2,
+        [
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "KL",
+    "shift": 1,
+    "layer0": 1,
+    "layerd": 2,
+    "intersection": 1,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        1,
+        [
+          0
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "LE",
+    "shift": 1,
+    "layer0": 2,
+    "layerd": 2,
+    "intersection": 1,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        1,
+        [
+          0
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "LG",
+    "shift": 1,
+    "layer0": 2,
+    "layerd": 4,
+    "intersection": 2,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        2,
+        [
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "LK",
+    "shift": 1,
+    "layer0": 1,
+    "layerd": 2,
+    "intersection": 1,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        1,
+        [
+          0
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "LQ",
+    "shift": 1,
+    "layer0": 3,
+    "layerd": 2,
+    "intersection": 0,
+    "delta": 1,
+    "component_sizes_and_degrees": []
+  },
+  {
+    "peptide": "LR",
+    "shift": 1,
+    "layer0": 4,
+    "layerd": 8,
+    "intersection": 1,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        1,
+        [
+          0
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "LW",
+    "shift": 1,
+    "layer0": 4,
+    "layerd": 2,
+    "intersection": 0,
+    "delta": 1,
+    "component_sizes_and_degrees": []
+  },
+  {
+    "peptide": "PG",
+    "shift": 1,
+    "layer0": 2,
+    "layerd": 2,
+    "intersection": 2,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        2,
+        [
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "PR",
+    "shift": 1,
+    "layer0": 2,
+    "layerd": 4,
+    "intersection": 1,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        1,
+        [
+          0
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "PW",
+    "shift": 1,
+    "layer0": 2,
+    "layerd": 2,
+    "intersection": 0,
+    "delta": 1,
+    "component_sizes_and_degrees": []
+  },
+  {
+    "peptide": "QL",
+    "shift": 1,
+    "layer0": 3,
+    "layerd": 2,
+    "intersection": 0,
+    "delta": 1,
+    "component_sizes_and_degrees": []
+  },
+  {
+    "peptide": "RA",
+    "shift": 1,
+    "layer0": 2,
+    "layerd": 4,
+    "intersection": 0,
+    "delta": 2,
+    "component_sizes_and_degrees": []
+  },
+  {
+    "peptide": "RF",
+    "shift": 1,
+    "layer0": 2,
+    "layerd": 8,
+    "intersection": 2,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        2,
+        [
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "RL",
+    "shift": 1,
+    "layer0": 4,
+    "layerd": 8,
+    "intersection": 1,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        1,
+        [
+          0
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "RP",
+    "shift": 1,
+    "layer0": 2,
+    "layerd": 4,
+    "intersection": 1,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        1,
+        [
+          0
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "RS",
+    "shift": 1,
+    "layer0": 4,
+    "layerd": 8,
+    "intersection": 1,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        1,
+        [
+          0
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "RT",
+    "shift": 1,
+    "layer0": 1,
+    "layerd": 4,
+    "intersection": 0,
+    "delta": 2,
+    "component_sizes_and_degrees": []
+  },
+  {
+    "peptide": "RV",
+    "shift": 1,
+    "layer0": 2,
+    "layerd": 8,
+    "intersection": 0,
+    "delta": 2,
+    "component_sizes_and_degrees": []
+  },
+  {
+    "peptide": "SA",
+    "shift": 1,
+    "layer0": 2,
+    "layerd": 1,
+    "intersection": 0,
+    "delta": 4,
+    "component_sizes_and_degrees": []
+  },
+  {
+    "peptide": "SG",
+    "shift": 1,
+    "layer0": 4,
+    "layerd": 6,
+    "intersection": 2,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        2,
+        [
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "SR",
+    "shift": 1,
+    "layer0": 4,
+    "layerd": 8,
+    "intersection": 1,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        1,
+        [
+          0
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "ST",
+    "shift": 1,
+    "layer0": 1,
+    "layerd": 1,
+    "intersection": 0,
+    "delta": 4,
+    "component_sizes_and_degrees": []
+  },
+  {
+    "peptide": "SV",
+    "shift": 1,
+    "layer0": 2,
+    "layerd": 2,
+    "intersection": 0,
+    "delta": 4,
+    "component_sizes_and_degrees": []
+  },
+  {
+    "peptide": "SW",
+    "shift": 1,
+    "layer0": 2,
+    "layerd": 2,
+    "intersection": 0,
+    "delta": 1,
+    "component_sizes_and_degrees": []
+  },
+  {
+    "peptide": "TG",
+    "shift": 1,
+    "layer0": 2,
+    "layerd": 2,
+    "intersection": 0,
+    "delta": 1,
+    "component_sizes_and_degrees": []
+  },
+  {
+    "peptide": "TR",
+    "shift": 1,
+    "layer0": 1,
+    "layerd": 4,
+    "intersection": 0,
+    "delta": 2,
+    "component_sizes_and_degrees": []
+  },
+  {
+    "peptide": "TS",
+    "shift": 1,
+    "layer0": 1,
+    "layerd": 1,
+    "intersection": 0,
+    "delta": 4,
+    "component_sizes_and_degrees": []
+  },
+  {
+    "peptide": "VG",
+    "shift": 1,
+    "layer0": 4,
+    "layerd": 4,
+    "intersection": 0,
+    "delta": 1,
+    "component_sizes_and_degrees": []
+  },
+  {
+    "peptide": "VR",
+    "shift": 1,
+    "layer0": 2,
+    "layerd": 8,
+    "intersection": 0,
+    "delta": 2,
+    "component_sizes_and_degrees": []
+  },
+  {
+    "peptide": "VS",
+    "shift": 1,
+    "layer0": 2,
+    "layerd": 2,
+    "intersection": 0,
+    "delta": 4,
+    "component_sizes_and_degrees": []
+  },
+  {
+    "peptide": "WL",
+    "shift": 1,
+    "layer0": 4,
+    "layerd": 2,
+    "intersection": 0,
+    "delta": 1,
+    "component_sizes_and_degrees": []
+  },
+  {
+    "peptide": "WP",
+    "shift": 1,
+    "layer0": 2,
+    "layerd": 2,
+    "intersection": 0,
+    "delta": 1,
+    "component_sizes_and_degrees": []
+  },
+  {
+    "peptide": "WS",
+    "shift": 1,
+    "layer0": 2,
+    "layerd": 2,
+    "intersection": 0,
+    "delta": 1,
+    "component_sizes_and_degrees": []
+  },
+  {
+    "peptide": "AC",
+    "shift": 2,
+    "layer0": 4,
+    "layerd": 3,
+    "intersection": 3,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        3,
+        [
+          1,
+          2
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "AG",
+    "shift": 2,
+    "layer0": 4,
+    "layerd": 6,
+    "intersection": 0,
+    "delta": 1,
+    "component_sizes_and_degrees": []
+  },
+  {
+    "peptide": "AR",
+    "shift": 2,
+    "layer0": 2,
+    "layerd": 9,
+    "intersection": 2,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        2,
+        [
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "AS",
+    "shift": 2,
+    "layer0": 2,
+    "layerd": 9,
+    "intersection": 0,
+    "delta": 1,
+    "component_sizes_and_degrees": []
+  },
+  {
+    "peptide": "CA",
+    "shift": 2,
+    "layer0": 4,
+    "layerd": 3,
+    "intersection": 3,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        3,
+        [
+          1,
+          2
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "CI",
+    "shift": 2,
+    "layer0": 1,
+    "layerd": 1,
+    "intersection": 1,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        1,
+        [
+          0
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "CM",
+    "shift": 2,
+    "layer0": 1,
+    "layerd": 2,
+    "intersection": 1,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        1,
+        [
+          0
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "CT",
+    "shift": 2,
+    "layer0": 2,
+    "layerd": 3,
+    "intersection": 2,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        2,
+        [
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "CV",
+    "shift": 2,
+    "layer0": 4,
+    "layerd": 3,
+    "intersection": 3,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        3,
+        [
+          1,
+          2
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "DI",
+    "shift": 2,
+    "layer0": 2,
+    "layerd": 1,
+    "intersection": 0,
+    "delta": 1,
+    "component_sizes_and_degrees": []
+  },
+  {
+    "peptide": "DV",
+    "shift": 2,
+    "layer0": 4,
+    "layerd": 3,
+    "intersection": 0,
+    "delta": 1,
+    "component_sizes_and_degrees": []
+  },
+  {
+    "peptide": "EF",
+    "shift": 2,
+    "layer0": 4,
+    "layerd": 3,
+    "intersection": 3,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        3,
+        [
+          1,
+          2
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "EL",
+    "shift": 2,
+    "layer0": 2,
+    "layerd": 3,
+    "intersection": 2,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        2,
+        [
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "FE",
+    "shift": 2,
+    "layer0": 4,
+    "layerd": 3,
+    "intersection": 3,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        3,
+        [
+          1,
+          2
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "FG",
+    "shift": 2,
+    "layer0": 4,
+    "layerd": 3,
+    "intersection": 3,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        3,
+        [
+          1,
+          2
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "FK",
+    "shift": 2,
+    "layer0": 2,
+    "layerd": 3,
+    "intersection": 2,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        2,
+        [
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "FR",
+    "shift": 2,
+    "layer0": 2,
+    "layerd": 6,
+    "intersection": 2,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        2,
+        [
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "GA",
+    "shift": 2,
+    "layer0": 4,
+    "layerd": 6,
+    "intersection": 0,
+    "delta": 1,
+    "component_sizes_and_degrees": []
+  },
+  {
+    "peptide": "GF",
+    "shift": 2,
+    "layer0": 4,
+    "layerd": 3,
+    "intersection": 3,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        3,
+        [
+          1,
+          2
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "GI",
+    "shift": 2,
+    "layer0": 2,
+    "layerd": 4,
+    "intersection": 0,
+    "delta": 1,
+    "component_sizes_and_degrees": []
+  },
+  {
+    "peptide": "GL",
+    "shift": 2,
+    "layer0": 2,
+    "layerd": 9,
+    "intersection": 2,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        2,
+        [
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "GP",
+    "shift": 2,
+    "layer0": 2,
+    "layerd": 6,
+    "intersection": 2,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        2,
+        [
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "GS",
+    "shift": 2,
+    "layer0": 4,
+    "layerd": 9,
+    "intersection": 3,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        3,
+        [
+          1,
+          2
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "GT",
+    "shift": 2,
+    "layer0": 2,
+    "layerd": 6,
+    "intersection": 0,
+    "delta": 1,
+    "component_sizes_and_degrees": []
+  },
+  {
+    "peptide": "GV",
+    "shift": 2,
+    "layer0": 4,
+    "layerd": 6,
+    "intersection": 0,
+    "delta": 1,
+    "component_sizes_and_degrees": []
+  },
+  {
+    "peptide": "HM",
+    "shift": 2,
+    "layer0": 1,
+    "layerd": 2,
+    "intersection": 1,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        1,
+        [
+          0
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "HV",
+    "shift": 2,
+    "layer0": 2,
+    "layerd": 3,
+    "intersection": 2,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        2,
+        [
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "IC",
+    "shift": 2,
+    "layer0": 1,
+    "layerd": 1,
+    "intersection": 1,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        1,
+        [
+          0
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "ID",
+    "shift": 2,
+    "layer0": 2,
+    "layerd": 1,
+    "intersection": 0,
+    "delta": 1,
+    "component_sizes_and_degrees": []
+  },
+  {
+    "peptide": "IG",
+    "shift": 2,
+    "layer0": 2,
+    "layerd": 4,
+    "intersection": 0,
+    "delta": 1,
+    "component_sizes_and_degrees": []
+  },
+  {
+    "peptide": "IN",
+    "shift": 2,
+    "layer0": 1,
+    "layerd": 1,
+    "intersection": 0,
+    "delta": 1,
+    "component_sizes_and_degrees": []
+  },
+  {
+    "peptide": "IS",
+    "shift": 2,
+    "layer0": 1,
+    "layerd": 5,
+    "intersection": 0,
+    "delta": 1,
+    "component_sizes_and_degrees": []
+  },
+  {
+    "peptide": "IY",
+    "shift": 2,
+    "layer0": 1,
+    "layerd": 1,
+    "intersection": 1,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        1,
+        [
+          0
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "KF",
+    "shift": 2,
+    "layer0": 2,
+    "layerd": 3,
+    "intersection": 2,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        2,
+        [
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "KL",
+    "shift": 2,
+    "layer0": 1,
+    "layerd": 3,
+    "intersection": 1,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        1,
+        [
+          0
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "LE",
+    "shift": 2,
+    "layer0": 2,
+    "layerd": 3,
+    "intersection": 2,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        2,
+        [
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "LG",
+    "shift": 2,
+    "layer0": 2,
+    "layerd": 9,
+    "intersection": 2,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        2,
+        [
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "LK",
+    "shift": 2,
+    "layer0": 1,
+    "layerd": 3,
+    "intersection": 1,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        1,
+        [
+          0
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "LQ",
+    "shift": 2,
+    "layer0": 3,
+    "layerd": 3,
+    "intersection": 0,
+    "delta": 1,
+    "component_sizes_and_degrees": []
+  },
+  {
+    "peptide": "LR",
+    "shift": 2,
+    "layer0": 4,
+    "layerd": 12,
+    "intersection": 1,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        1,
+        [
+          0
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "LW",
+    "shift": 2,
+    "layer0": 4,
+    "layerd": 2,
+    "intersection": 0,
+    "delta": 1,
+    "component_sizes_and_degrees": []
+  },
+  {
+    "peptide": "MC",
+    "shift": 2,
+    "layer0": 1,
+    "layerd": 2,
+    "intersection": 1,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        1,
+        [
+          0
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "MH",
+    "shift": 2,
+    "layer0": 1,
+    "layerd": 2,
+    "intersection": 1,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        1,
+        [
+          0
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "MR",
+    "shift": 2,
+    "layer0": 1,
+    "layerd": 2,
+    "intersection": 1,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        1,
+        [
+          0
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "MY",
+    "shift": 2,
+    "layer0": 1,
+    "layerd": 2,
+    "intersection": 1,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        1,
+        [
+          0
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "NI",
+    "shift": 2,
+    "layer0": 1,
+    "layerd": 1,
+    "intersection": 0,
+    "delta": 1,
+    "component_sizes_and_degrees": []
+  },
+  {
+    "peptide": "NV",
+    "shift": 2,
+    "layer0": 2,
+    "layerd": 3,
+    "intersection": 0,
+    "delta": 1,
+    "component_sizes_and_degrees": []
+  },
+  {
+    "peptide": "PG",
+    "shift": 2,
+    "layer0": 2,
+    "layerd": 6,
+    "intersection": 2,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        2,
+        [
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "PR",
+    "shift": 2,
+    "layer0": 2,
+    "layerd": 9,
+    "intersection": 1,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        1,
+        [
+          0
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "PW",
+    "shift": 2,
+    "layer0": 2,
+    "layerd": 2,
+    "intersection": 0,
+    "delta": 1,
+    "component_sizes_and_degrees": []
+  },
+  {
+    "peptide": "QL",
+    "shift": 2,
+    "layer0": 3,
+    "layerd": 3,
+    "intersection": 0,
+    "delta": 1,
+    "component_sizes_and_degrees": []
+  },
+  {
+    "peptide": "RA",
+    "shift": 2,
+    "layer0": 2,
+    "layerd": 9,
+    "intersection": 2,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        2,
+        [
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "RF",
+    "shift": 2,
+    "layer0": 2,
+    "layerd": 6,
+    "intersection": 2,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        2,
+        [
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "RL",
+    "shift": 2,
+    "layer0": 4,
+    "layerd": 12,
+    "intersection": 1,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        1,
+        [
+          0
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "RM",
+    "shift": 2,
+    "layer0": 1,
+    "layerd": 2,
+    "intersection": 1,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        1,
+        [
+          0
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "RP",
+    "shift": 2,
+    "layer0": 2,
+    "layerd": 9,
+    "intersection": 1,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        1,
+        [
+          0
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "RS",
+    "shift": 2,
+    "layer0": 4,
+    "layerd": 15,
+    "intersection": 2,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        2,
+        [
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "RT",
+    "shift": 2,
+    "layer0": 1,
+    "layerd": 9,
+    "intersection": 1,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        1,
+        [
+          0
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "RV",
+    "shift": 2,
+    "layer0": 2,
+    "layerd": 9,
+    "intersection": 2,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        2,
+        [
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "SA",
+    "shift": 2,
+    "layer0": 2,
+    "layerd": 9,
+    "intersection": 0,
+    "delta": 1,
+    "component_sizes_and_degrees": []
+  },
+  {
+    "peptide": "SG",
+    "shift": 2,
+    "layer0": 4,
+    "layerd": 9,
+    "intersection": 3,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        3,
+        [
+          1,
+          2
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "SI",
+    "shift": 2,
+    "layer0": 1,
+    "layerd": 5,
+    "intersection": 0,
+    "delta": 1,
+    "component_sizes_and_degrees": []
+  },
+  {
+    "peptide": "SR",
+    "shift": 2,
+    "layer0": 4,
+    "layerd": 15,
+    "intersection": 2,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        2,
+        [
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "ST",
+    "shift": 2,
+    "layer0": 1,
+    "layerd": 9,
+    "intersection": 0,
+    "delta": 1,
+    "component_sizes_and_degrees": []
+  },
+  {
+    "peptide": "SV",
+    "shift": 2,
+    "layer0": 2,
+    "layerd": 9,
+    "intersection": 0,
+    "delta": 1,
+    "component_sizes_and_degrees": []
+  },
+  {
+    "peptide": "SW",
+    "shift": 2,
+    "layer0": 2,
+    "layerd": 4,
+    "intersection": 0,
+    "delta": 1,
+    "component_sizes_and_degrees": []
+  },
+  {
+    "peptide": "TC",
+    "shift": 2,
+    "layer0": 2,
+    "layerd": 3,
+    "intersection": 2,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        2,
+        [
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "TG",
+    "shift": 2,
+    "layer0": 2,
+    "layerd": 6,
+    "intersection": 0,
+    "delta": 1,
+    "component_sizes_and_degrees": []
+  },
+  {
+    "peptide": "TR",
+    "shift": 2,
+    "layer0": 1,
+    "layerd": 9,
+    "intersection": 1,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        1,
+        [
+          0
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "TS",
+    "shift": 2,
+    "layer0": 1,
+    "layerd": 9,
+    "intersection": 0,
+    "delta": 1,
+    "component_sizes_and_degrees": []
+  },
+  {
+    "peptide": "VC",
+    "shift": 2,
+    "layer0": 4,
+    "layerd": 3,
+    "intersection": 3,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        3,
+        [
+          1,
+          2
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "VD",
+    "shift": 2,
+    "layer0": 4,
+    "layerd": 3,
+    "intersection": 0,
+    "delta": 1,
+    "component_sizes_and_degrees": []
+  },
+  {
+    "peptide": "VG",
+    "shift": 2,
+    "layer0": 4,
+    "layerd": 6,
+    "intersection": 0,
+    "delta": 1,
+    "component_sizes_and_degrees": []
+  },
+  {
+    "peptide": "VH",
+    "shift": 2,
+    "layer0": 2,
+    "layerd": 3,
+    "intersection": 2,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        2,
+        [
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "VN",
+    "shift": 2,
+    "layer0": 2,
+    "layerd": 3,
+    "intersection": 0,
+    "delta": 1,
+    "component_sizes_and_degrees": []
+  },
+  {
+    "peptide": "VR",
+    "shift": 2,
+    "layer0": 2,
+    "layerd": 9,
+    "intersection": 2,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        2,
+        [
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "VS",
+    "shift": 2,
+    "layer0": 2,
+    "layerd": 9,
+    "intersection": 0,
+    "delta": 1,
+    "component_sizes_and_degrees": []
+  },
+  {
+    "peptide": "VY",
+    "shift": 2,
+    "layer0": 4,
+    "layerd": 3,
+    "intersection": 3,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        3,
+        [
+          1,
+          2
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "WL",
+    "shift": 2,
+    "layer0": 4,
+    "layerd": 2,
+    "intersection": 0,
+    "delta": 1,
+    "component_sizes_and_degrees": []
+  },
+  {
+    "peptide": "WP",
+    "shift": 2,
+    "layer0": 2,
+    "layerd": 2,
+    "intersection": 0,
+    "delta": 1,
+    "component_sizes_and_degrees": []
+  },
+  {
+    "peptide": "WS",
+    "shift": 2,
+    "layer0": 2,
+    "layerd": 4,
+    "intersection": 0,
+    "delta": 1,
+    "component_sizes_and_degrees": []
+  },
+  {
+    "peptide": "YI",
+    "shift": 2,
+    "layer0": 1,
+    "layerd": 1,
+    "intersection": 1,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        1,
+        [
+          0
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "YM",
+    "shift": 2,
+    "layer0": 1,
+    "layerd": 2,
+    "intersection": 1,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        1,
+        [
+          0
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "YV",
+    "shift": 2,
+    "layer0": 4,
+    "layerd": 3,
+    "intersection": 3,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        3,
+        [
+          1,
+          2
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "AC",
+    "shift": 3,
+    "layer0": 4,
+    "layerd": 8,
+    "intersection": 4,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        4,
+        [
+          2
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "AG",
+    "shift": 3,
+    "layer0": 4,
+    "layerd": 16,
+    "intersection": 4,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        4,
+        [
+          2
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "AR",
+    "shift": 3,
+    "layer0": 2,
+    "layerd": 24,
+    "intersection": 2,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        2,
+        [
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "AS",
+    "shift": 3,
+    "layer0": 2,
+    "layerd": 24,
+    "intersection": 2,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        2,
+        [
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "CA",
+    "shift": 3,
+    "layer0": 4,
+    "layerd": 8,
+    "intersection": 4,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        4,
+        [
+          2
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "CI",
+    "shift": 3,
+    "layer0": 1,
+    "layerd": 6,
+    "intersection": 1,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        1,
+        [
+          0
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "CM",
+    "shift": 3,
+    "layer0": 1,
+    "layerd": 2,
+    "intersection": 1,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        1,
+        [
+          0
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "CT",
+    "shift": 3,
+    "layer0": 2,
+    "layerd": 8,
+    "intersection": 2,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        2,
+        [
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "CV",
+    "shift": 3,
+    "layer0": 4,
+    "layerd": 8,
+    "intersection": 4,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        4,
+        [
+          2
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "DI",
+    "shift": 3,
+    "layer0": 2,
+    "layerd": 6,
+    "intersection": 2,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        2,
+        [
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "DV",
+    "shift": 3,
+    "layer0": 4,
+    "layerd": 8,
+    "intersection": 4,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        4,
+        [
+          2
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "EF",
+    "shift": 3,
+    "layer0": 4,
+    "layerd": 4,
+    "intersection": 4,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        4,
+        [
+          2
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "EL",
+    "shift": 3,
+    "layer0": 2,
+    "layerd": 12,
+    "intersection": 2,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        2,
+        [
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "FE",
+    "shift": 3,
+    "layer0": 4,
+    "layerd": 4,
+    "intersection": 4,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        4,
+        [
+          2
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "FG",
+    "shift": 3,
+    "layer0": 4,
+    "layerd": 8,
+    "intersection": 4,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        4,
+        [
+          2
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "FK",
+    "shift": 3,
+    "layer0": 2,
+    "layerd": 4,
+    "intersection": 2,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        2,
+        [
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "FR",
+    "shift": 3,
+    "layer0": 2,
+    "layerd": 12,
+    "intersection": 2,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        2,
+        [
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "GA",
+    "shift": 3,
+    "layer0": 4,
+    "layerd": 16,
+    "intersection": 4,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        4,
+        [
+          2
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "GF",
+    "shift": 3,
+    "layer0": 4,
+    "layerd": 8,
+    "intersection": 4,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        4,
+        [
+          2
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "GI",
+    "shift": 3,
+    "layer0": 2,
+    "layerd": 12,
+    "intersection": 2,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        2,
+        [
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "GL",
+    "shift": 3,
+    "layer0": 2,
+    "layerd": 24,
+    "intersection": 2,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        2,
+        [
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "GP",
+    "shift": 3,
+    "layer0": 2,
+    "layerd": 16,
+    "intersection": 2,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        2,
+        [
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "GS",
+    "shift": 3,
+    "layer0": 4,
+    "layerd": 24,
+    "intersection": 4,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        4,
+        [
+          2
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "GT",
+    "shift": 3,
+    "layer0": 2,
+    "layerd": 16,
+    "intersection": 2,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        2,
+        [
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "GV",
+    "shift": 3,
+    "layer0": 4,
+    "layerd": 16,
+    "intersection": 4,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        4,
+        [
+          2
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "HM",
+    "shift": 3,
+    "layer0": 1,
+    "layerd": 2,
+    "intersection": 1,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        1,
+        [
+          0
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "HV",
+    "shift": 3,
+    "layer0": 2,
+    "layerd": 8,
+    "intersection": 2,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        2,
+        [
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "IC",
+    "shift": 3,
+    "layer0": 1,
+    "layerd": 6,
+    "intersection": 1,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        1,
+        [
+          0
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "ID",
+    "shift": 3,
+    "layer0": 2,
+    "layerd": 6,
+    "intersection": 2,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        2,
+        [
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "IG",
+    "shift": 3,
+    "layer0": 2,
+    "layerd": 12,
+    "intersection": 2,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        2,
+        [
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "IN",
+    "shift": 3,
+    "layer0": 1,
+    "layerd": 6,
+    "intersection": 1,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        1,
+        [
+          0
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "IS",
+    "shift": 3,
+    "layer0": 1,
+    "layerd": 18,
+    "intersection": 1,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        1,
+        [
+          0
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "IY",
+    "shift": 3,
+    "layer0": 1,
+    "layerd": 6,
+    "intersection": 1,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        1,
+        [
+          0
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "KF",
+    "shift": 3,
+    "layer0": 2,
+    "layerd": 4,
+    "intersection": 2,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        2,
+        [
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "KL",
+    "shift": 3,
+    "layer0": 1,
+    "layerd": 12,
+    "intersection": 1,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        1,
+        [
+          0
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "LE",
+    "shift": 3,
+    "layer0": 2,
+    "layerd": 12,
+    "intersection": 2,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        2,
+        [
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "LG",
+    "shift": 3,
+    "layer0": 2,
+    "layerd": 24,
+    "intersection": 2,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        2,
+        [
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "LK",
+    "shift": 3,
+    "layer0": 1,
+    "layerd": 12,
+    "intersection": 1,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        1,
+        [
+          0
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "LQ",
+    "shift": 3,
+    "layer0": 3,
+    "layerd": 12,
+    "intersection": 3,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        3,
+        [
+          1,
+          2
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "LR",
+    "shift": 3,
+    "layer0": 4,
+    "layerd": 36,
+    "intersection": 4,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        3,
+        [
+          1,
+          2
+        ]
+      ],
+      [
+        1,
+        [
+          0
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "LW",
+    "shift": 3,
+    "layer0": 4,
+    "layerd": 6,
+    "intersection": 4,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        4,
+        [
+          2
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "MC",
+    "shift": 3,
+    "layer0": 1,
+    "layerd": 2,
+    "intersection": 1,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        1,
+        [
+          0
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "MH",
+    "shift": 3,
+    "layer0": 1,
+    "layerd": 2,
+    "intersection": 1,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        1,
+        [
+          0
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "MR",
+    "shift": 3,
+    "layer0": 1,
+    "layerd": 6,
+    "intersection": 1,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        1,
+        [
+          0
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "MY",
+    "shift": 3,
+    "layer0": 1,
+    "layerd": 2,
+    "intersection": 1,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        1,
+        [
+          0
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "NI",
+    "shift": 3,
+    "layer0": 1,
+    "layerd": 6,
+    "intersection": 1,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        1,
+        [
+          0
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "NV",
+    "shift": 3,
+    "layer0": 2,
+    "layerd": 8,
+    "intersection": 2,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        2,
+        [
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "PG",
+    "shift": 3,
+    "layer0": 2,
+    "layerd": 16,
+    "intersection": 2,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        2,
+        [
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "PR",
+    "shift": 3,
+    "layer0": 2,
+    "layerd": 24,
+    "intersection": 2,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        1,
+        [
+          0
+        ]
+      ],
+      [
+        1,
+        [
+          0
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "PW",
+    "shift": 3,
+    "layer0": 2,
+    "layerd": 4,
+    "intersection": 2,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        2,
+        [
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "QL",
+    "shift": 3,
+    "layer0": 3,
+    "layerd": 12,
+    "intersection": 3,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        3,
+        [
+          1,
+          2
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "RA",
+    "shift": 3,
+    "layer0": 2,
+    "layerd": 24,
+    "intersection": 2,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        2,
+        [
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "RF",
+    "shift": 3,
+    "layer0": 2,
+    "layerd": 12,
+    "intersection": 2,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        2,
+        [
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "RL",
+    "shift": 3,
+    "layer0": 4,
+    "layerd": 36,
+    "intersection": 4,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        1,
+        [
+          0
+        ]
+      ],
+      [
+        3,
+        [
+          1,
+          2
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "RM",
+    "shift": 3,
+    "layer0": 1,
+    "layerd": 6,
+    "intersection": 1,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        1,
+        [
+          0
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "RP",
+    "shift": 3,
+    "layer0": 2,
+    "layerd": 24,
+    "intersection": 2,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        1,
+        [
+          0
+        ]
+      ],
+      [
+        1,
+        [
+          0
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "RS",
+    "shift": 3,
+    "layer0": 4,
+    "layerd": 36,
+    "intersection": 4,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        2,
+        [
+          1
+        ]
+      ],
+      [
+        2,
+        [
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "RT",
+    "shift": 3,
+    "layer0": 1,
+    "layerd": 24,
+    "intersection": 1,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        1,
+        [
+          0
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "RV",
+    "shift": 3,
+    "layer0": 2,
+    "layerd": 24,
+    "intersection": 2,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        2,
+        [
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "SA",
+    "shift": 3,
+    "layer0": 2,
+    "layerd": 24,
+    "intersection": 2,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        2,
+        [
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "SG",
+    "shift": 3,
+    "layer0": 4,
+    "layerd": 24,
+    "intersection": 4,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        4,
+        [
+          2
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "SI",
+    "shift": 3,
+    "layer0": 1,
+    "layerd": 18,
+    "intersection": 1,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        1,
+        [
+          0
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "SR",
+    "shift": 3,
+    "layer0": 4,
+    "layerd": 36,
+    "intersection": 4,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        2,
+        [
+          1
+        ]
+      ],
+      [
+        2,
+        [
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "ST",
+    "shift": 3,
+    "layer0": 1,
+    "layerd": 24,
+    "intersection": 1,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        1,
+        [
+          0
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "SV",
+    "shift": 3,
+    "layer0": 2,
+    "layerd": 24,
+    "intersection": 2,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        2,
+        [
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "SW",
+    "shift": 3,
+    "layer0": 2,
+    "layerd": 6,
+    "intersection": 2,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        2,
+        [
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "TC",
+    "shift": 3,
+    "layer0": 2,
+    "layerd": 8,
+    "intersection": 2,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        2,
+        [
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "TG",
+    "shift": 3,
+    "layer0": 2,
+    "layerd": 16,
+    "intersection": 2,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        2,
+        [
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "TR",
+    "shift": 3,
+    "layer0": 1,
+    "layerd": 24,
+    "intersection": 1,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        1,
+        [
+          0
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "TS",
+    "shift": 3,
+    "layer0": 1,
+    "layerd": 24,
+    "intersection": 1,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        1,
+        [
+          0
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "VC",
+    "shift": 3,
+    "layer0": 4,
+    "layerd": 8,
+    "intersection": 4,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        4,
+        [
+          2
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "VD",
+    "shift": 3,
+    "layer0": 4,
+    "layerd": 8,
+    "intersection": 4,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        4,
+        [
+          2
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "VG",
+    "shift": 3,
+    "layer0": 4,
+    "layerd": 16,
+    "intersection": 4,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        4,
+        [
+          2
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "VH",
+    "shift": 3,
+    "layer0": 2,
+    "layerd": 8,
+    "intersection": 2,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        2,
+        [
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "VN",
+    "shift": 3,
+    "layer0": 2,
+    "layerd": 8,
+    "intersection": 2,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        2,
+        [
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "VR",
+    "shift": 3,
+    "layer0": 2,
+    "layerd": 24,
+    "intersection": 2,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        2,
+        [
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "VS",
+    "shift": 3,
+    "layer0": 2,
+    "layerd": 24,
+    "intersection": 2,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        2,
+        [
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "VY",
+    "shift": 3,
+    "layer0": 4,
+    "layerd": 8,
+    "intersection": 4,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        4,
+        [
+          2
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "WL",
+    "shift": 3,
+    "layer0": 4,
+    "layerd": 6,
+    "intersection": 4,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        4,
+        [
+          2
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "WP",
+    "shift": 3,
+    "layer0": 2,
+    "layerd": 4,
+    "intersection": 2,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        2,
+        [
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "WS",
+    "shift": 3,
+    "layer0": 2,
+    "layerd": 6,
+    "intersection": 2,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        2,
+        [
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "YI",
+    "shift": 3,
+    "layer0": 1,
+    "layerd": 6,
+    "intersection": 1,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        1,
+        [
+          0
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "YM",
+    "shift": 3,
+    "layer0": 1,
+    "layerd": 2,
+    "intersection": 1,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        1,
+        [
+          0
+        ]
+      ]
+    ]
+  },
+  {
+    "peptide": "YV",
+    "shift": 3,
+    "layer0": 4,
+    "layerd": 8,
+    "intersection": 4,
+    "delta": 0,
+    "component_sizes_and_degrees": [
+      [
+        4,
+        [
+          2
+        ]
+      ]
+    ]
+  }
+]

@@ -24,8 +24,11 @@ def count_compatible(peptide,pairs,fixed=None,paired_copy=False,table_cap=100000
         a,b=i//3,j//3
         if a!=b:grouped.setdefault((a,b),[]).append((i%3,j%3))
     factors=[]
-    for k,domain in enumerate(domains):factors.append(((k,),{(v,):1 for v in range(len(domain))}))
+    for k,domain in enumerate(domains):
+        if len(domain)>table_cap:return {'count':None,'status':'resource_limit','stage':'initial_unary_factor','next_entries':len(domain),'table_cap':table_cap,'paired_copy':paired_copy}
+        factors.append(((k,),{(v,):1 for v in range(len(domain))}))
     for (a,b),edges in grouped.items():
+        if len(domains[a])*len(domains[b])>table_cap:return {'count':None,'status':'resource_limit','stage':'initial_pair_factor','next_entries':len(domains[a])*len(domains[b]),'table_cap':table_cap,'paired_copy':paired_copy}
         table={}
         for va,sa in enumerate(domains[a]):
             for vb,sb in enumerate(domains[b]):

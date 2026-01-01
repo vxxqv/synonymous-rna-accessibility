@@ -1,0 +1,287 @@
+{
+  "1": {
+    "1": {
+      "peptide": "KKFF",
+      "sequence": "AAAAAAUUUUUU",
+      "free_path_lengths": [
+        1,
+        1
+      ],
+      "fibre_size": 4,
+      "sequences": [
+        "AAAAAAUUUUUU",
+        "AAAAAGUUUUUU",
+        "AAGAAAUUUUUU",
+        "AAGAAGUUUUUU"
+      ]
+    },
+    "0": {
+      "peptide": "KELL",
+      "sequence": "AAGGAGCUUCUU",
+      "free_path_lengths": [],
+      "fibre_size": 1,
+      "sequences": [
+        "AAGGAGCUUCUU"
+      ]
+    }
+  },
+  "2": {
+    "1": {
+      "peptide": "KKFF",
+      "sequence": "AAAAAAUUUUUU",
+      "free_path_lengths": [
+        1,
+        1
+      ],
+      "fibre_size": 4,
+      "sequences": [
+        "AAAAAAUUUUUU",
+        "AAAAAGUUUUUU",
+        "AAGAAAUUUUUU",
+        "AAGAAGUUUUUU"
+      ]
+    },
+    "2": {
+      "peptide": "KEFF",
+      "sequence": "AAAGAGUUCUUU",
+      "free_path_lengths": [
+        1,
+        2
+      ],
+      "fibre_size": 6,
+      "sequences": [
+        "AAAGAGUUCUUU",
+        "AAAGAAUUUUUU",
+        "AAAGAGUUUUUU",
+        "AAGGAGUUCUUU",
+        "AAGGAAUUUUUU",
+        "AAGGAGUUUUUU"
+      ]
+    },
+    "0": {
+      "peptide": "KRPL",
+      "sequence": "AAGAGGCCUCUU",
+      "free_path_lengths": [],
+      "fibre_size": 1,
+      "sequences": [
+        "AAGAGGCCUCUU"
+      ]
+    }
+  },
+  "3": {
+    "1": {
+      "peptide": "KKFF",
+      "sequence": "AAAAAAUUUUUU",
+      "free_path_lengths": [
+        1,
+        1
+      ],
+      "fibre_size": 4,
+      "sequences": [
+        "AAAAAAUUUUUU",
+        "AAAAAGUUUUUU",
+        "AAGAAAUUUUUU",
+        "AAGAAGUUUUUU"
+      ]
+    },
+    "0": {
+      "peptide": "KKLL",
+      "sequence": "AAGAAGCUUCUU",
+      "free_path_lengths": [],
+      "fibre_size": 1,
+      "sequences": [
+        "AAGAAGCUUCUU"
+      ]
+    },
+    "4": {
+      "peptide": "QQLL",
+      "sequence": "CAACAAUUGUUG",
+      "free_path_lengths": [
+        4
+      ],
+      "fibre_size": 8,
+      "sequences": [
+        "CAACAAUUGUUG",
+        "CAACAGCUGUUG",
+        "CAACAGUUGUUG",
+        "CAGCAGCUGCUG",
+        "CAGCAGUUGCUG",
+        "CAGCAAUUGUUG",
+        "CAGCAGCUGUUG",
+        "CAGCAGUUGUUG"
+      ]
+    },
+    "3": {
+      "peptide": "QRSL",
+      "sequence": "CAACGAUCGUUG",
+      "free_path_lengths": [
+        3
+      ],
+      "fibre_size": 5,
+      "sequences": [
+        "CAACGAUCGUUG",
+        "CAACGGUCGUUG",
+        "CAGCGGUCGCUG",
+        "CAGCGAUCGUUG",
+        "CAGCGGUCGUUG"
+      ]
+    },
+    "2": {
+      "peptide": "QRPL",
+      "sequence": "CAACGGCCGUUG",
+      "free_path_lengths": [
+        2
+      ],
+      "fibre_size": 3,
+      "sequences": [
+        "CAACGGCCGUUG",
+        "CAGCGGCCGCUG",
+        "CAGCGGCCGUUG"
+      ]
+    }
+  },
+  "4": {
+    "1": {
+      "peptide": "KKFF",
+      "sequence": "AAAAAAUUUUUU",
+      "free_path_lengths": [
+        1,
+        1
+      ],
+      "fibre_size": 4,
+      "sequences": [
+        "AAAAAAUUUUUU",
+        "AAAAAGUUUUUU",
+        "AAGAAAUUUUUU",
+        "AAGAAGUUUUUU"
+      ]
+    },
+    "2": {
+      "peptide": "KQLF",
+      "sequence": "AAACAAUUGUUU",
+      "free_path_lengths": [
+        1,
+        2
+      ],
+      "fibre_size": 6,
+      "sequences": [
+        "AAACAAUUGUUU",
+        "AAACAGCUGUUU",
+        "AAACAGUUGUUU",
+        "AAGCAAUUGUUU",
+        "AAGCAGCUGUUU",
+        "AAGCAGUUGUUU"
+      ]
+    },
+    "0": {
+      "peptide": "KKLL",
+      "sequence": "AAGAAGCUUCUU",
+      "free_path_lengths": [],
+      "fibre_size": 1,
+      "sequences": [
+        "AAGAAGCUUCUU"
+      ]
+    }
+  },
+  "5": {
+    "1": {
+      "peptide": "KKFF",
+      "sequence": "AAAAAAUUUUUU",
+      "free_path_lengths": [
+        1,
+        1
+      ],
+      "fibre_size": 4,
+      "sequences": [
+        "AAAAAAUUUUUU",
+        "AAAAAGUUUUUU",
+        "AAGAAAUUUUUU",
+        "AAGAAGUUUUUU"
+      ]
+    },
+    "2": {
+      "peptide": "KQLF",
+      "sequence": "AAACAAUUGUUU",
+      "free_path_lengths": [
+        1,
+        2
+      ],
+      "fibre_size": 6,
+      "sequences": [
+        "AAACAAUUGUUU",
+        "AAACAGCUGUUU",
+        "AAACAGUUGUUU",
+        "AAGCAAUUGUUU",
+        "AAGCAGCUGUUU",
+        "AAGCAGUUGUUU"
+      ]
+    },
+    "0": {
+      "peptide": "KKLL",
+      "sequence": "AAGAAGCUUCUU",
+      "free_path_lengths": [],
+      "fibre_size": 1,
+      "sequences": [
+        "AAGAAGCUUCUU"
+      ]
+    },
+    "3": {
+      "peptide": "LNVQ",
+      "sequence": "CUGAACGUUCAG",
+      "free_path_lengths": [
+        3
+      ],
+      "fibre_size": 5,
+      "sequences": [
+        "CUGAACGUUCAG",
+        "CUGAAUGUUCAG",
+        "UUGAAUGUUCAA",
+        "UUGAACGUUCAG",
+        "UUGAAUGUUCAG"
+      ]
+    }
+  },
+  "6": {
+    "1": {
+      "peptide": "KKFF",
+      "sequence": "AAAAAAUUUUUU",
+      "free_path_lengths": [
+        1,
+        1
+      ],
+      "fibre_size": 4,
+      "sequences": [
+        "AAAAAAUUUUUU",
+        "AAAAAGUUUUUU",
+        "AAGAAAUUUUUU",
+        "AAGAAGUUUUUU"
+      ]
+    },
+    "2": {
+      "peptide": "KQLF",
+      "sequence": "AAACAAUUGUUU",
+      "free_path_lengths": [
+        1,
+        2
+      ],
+      "fibre_size": 6,
+      "sequences": [
+        "AAACAAUUGUUU",
+        "AAACAGCUGUUU",
+        "AAACAGUUGUUU",
+        "AAGCAAUUGUUU",
+        "AAGCAGCUGUUU",
+        "AAGCAGUUGUUU"
+      ]
+    },
+    "0": {
+      "peptide": "KKLL",
+      "sequence": "AAGAAGCUUCUU",
+      "free_path_lengths": [],
+      "fibre_size": 1,
+      "sequences": [
+        "AAGAAGCUUCUU"
+      ]
+    }
+  }
+}
