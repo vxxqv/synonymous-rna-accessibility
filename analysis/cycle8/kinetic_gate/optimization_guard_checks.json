@@ -1,0 +1,14 @@
+[
+  {
+    "flag": "-O",
+    "exit_code": 1,
+    "expected_rejection": true,
+    "result_preserved": true
+  },
+  {
+    "flag": "-OO",
+    "exit_code": 1,
+    "expected_rejection": true,
+    "result_preserved": true
+  }
+]

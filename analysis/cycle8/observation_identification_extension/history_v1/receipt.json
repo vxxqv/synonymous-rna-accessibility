@@ -1,0 +1,10 @@
+{
+  "status": "PASS_EXACT_SYNTHETIC_CHECKS_PENDING_FRESH_REVIEW",
+  "finite_assertion": "All1024subsets classified, every sufficient set reconstructed and every insufficient set given positive indistinguishable alternatives at five rational anchors. Universal proof separate.",
+  "subset_anchor_checks": 5123,
+  "normalization": "n=2,c=3,p=5 for finite tests; proof covers every fixed positive triple",
+  "new_nucleotide_sequences_generated": 0,
+  "source_phenotype_rows_read": 0,
+  "author_code_execution": "Only original categorize_read function AST on symbolic CIGAR/predicate reference, no script top-level or file I/O",
+  "source_sha256": "267c1c5391a5d02557bbb4700c8250b2a8c9898dc037aaab01643e1e6c7254b1"
+}

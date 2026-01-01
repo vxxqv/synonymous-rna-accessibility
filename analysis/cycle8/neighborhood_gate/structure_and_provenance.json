@@ -1,0 +1,269 @@
+{
+  "scope": "Symbolic intended design only; no measured genotype/phenotype graph certified",
+  "schmitz": {
+    "published_variable_codons_after_ATG": [
+      "TCN",
+      "AAR",
+      "GGN",
+      "GAR",
+      "GAR",
+      "CTN",
+      "TTY",
+      "ACN"
+    ],
+    "codon_domains": [
+      [
+        "TCA",
+        "TCC",
+        "TCG",
+        "TCT"
+      ],
+      [
+        "AAA",
+        "AAG"
+      ],
+      [
+        "GGA",
+        "GGC",
+        "GGG",
+        "GGT"
+      ],
+      [
+        "GAA",
+        "GAG"
+      ],
+      [
+        "GAA",
+        "GAG"
+      ],
+      [
+        "CTA",
+        "CTC",
+        "CTG",
+        "CTT"
+      ],
+      [
+        "TTC",
+        "TTT"
+      ],
+      [
+        "ACA",
+        "ACC",
+        "ACG",
+        "ACT"
+      ]
+    ],
+    "eight_residue_translation": [
+      "SKGEELFT"
+    ],
+    "verified_variable_sequences": 4096,
+    "graph": "K4^4 x K2^4",
+    "SNV_degree": 16,
+    "intended_edges": 32768,
+    "measured_complete_neighborhoods": null,
+    "deposited_variant_values_read": false,
+    "complete_construct_sequence_authenticated": false,
+    "analysis_code_version_authenticated": false,
+    "primary_share": "https://figshare.com/s/51c4820b2bee85c94007",
+    "previous_share_receipt": "work/joint_function_cycle5/splicing_sources/retrieval_initial.json",
+    "previous_access_status": "202 empty; not retried in this task"
+  },
+  "tp53": {
+    "source_DOI": "10.1158/1541-7786.MCR-17-0245",
+    "raw_accession": "PRJNA384242",
+    "data_file_map": {
+      "Supplementary_File_1": "NIHMS888465-supplement-7.gz",
+      "Supplementary_File_2_notebook": "NIHMS888465-supplement-8.txt",
+      "Supplementary_Table_1_oligonucleotides": "NIHMS888465-supplement-5.xlsx"
+    },
+    "attachment_access": "403; preserved and not retried",
+    "processed_schema_authenticated": false,
+    "multi_mutant_retention_authenticated": false,
+    "measured_complete_neighborhoods": null,
+    "analysis_notebook_version_authenticated": false,
+    "source_phenotype_values_read": false,
+    "full_native_protein_assay": false,
+    "reporter": "TP53 residues97-292 fused to EGFP with exon5-7 processing context"
+  },
+  "history": "Fixed seven-source F0 audit, two sources owned here; not exhaustive prevalence evidence",
+  "exposure": "Primary Methods and already published procedure/coverage/filter/caption summaries; no source outcome cells",
+  "acquisition_failures": [
+    "PMC browser challenges, no interaction",
+    "TP53 EuropePMC fullTextXML500",
+    "TP53 publisher403",
+    "Indexed author PDF404",
+    "Three explicit PMC media403 responses"
+  ],
+  "no_new_outcome_analysis": true,
+  "historical_git_reauthenticated": false,
+  "files": [
+    {
+      "path": "acquire_sources.py",
+      "bytes": 2042,
+      "sha256": "599b787e42647c5b7b78cb0d260333960afe45a86a47ab0560dbe3daea76fc1c",
+      "local_source_cache_not_automatic_archive_whitelist": false
+    },
+    {
+      "path": "acquisition_receipt.json",
+      "bytes": 1194,
+      "sha256": "608d806fe7271dd432b5ce2694f7f594726831e50d84ff41a22f59608374a0ed",
+      "local_source_cache_not_automatic_archive_whitelist": false
+    },
+    {
+      "path": "check_structure.py",
+      "bytes": 4012,
+      "sha256": "4fde0dc3004fa339a8d0112551d2810de19fe8cedba1f3f85b23954eab095c1c",
+      "local_source_cache_not_automatic_archive_whitelist": false
+    },
+    {
+      "path": "citation_check.json",
+      "bytes": 990,
+      "sha256": "3cef7209e440dd458d83018df4ef5ebea3224e6fc2938407dbc42a9541a317aa",
+      "local_source_cache_not_automatic_archive_whitelist": false
+    },
+    {
+      "path": "report.md",
+      "bytes": 12037,
+      "sha256": "3bc99d6dba32dc504f8b556747cf388f50d7f71f25e59db53059ecf6bf596fc6",
+      "local_source_cache_not_automatic_archive_whitelist": false
+    },
+    {
+      "path": "schmitz.xml",
+      "bytes": 112489,
+      "sha256": "d842a2ff30377b7cd69d7b7e71ed336a948ad627fccdbd64069f4f584fc412ea",
+      "local_source_cache_not_automatic_archive_whitelist": true
+    },
+    {
+      "path": "schmitz_crossref.json",
+      "bytes": 23664,
+      "sha256": "1e152d8e8ea6002751ff9ca187e15c9fee99fb74c709cf879b3241339cc27037",
+      "local_source_cache_not_automatic_archive_whitelist": false
+    },
+    {
+      "path": "schmitz_methods.txt",
+      "bytes": 14545,
+      "sha256": "eb90e4589c72ec554ac50992f79cd08eeba5f8c128fd6d1b99db8ed2f8be4765",
+      "local_source_cache_not_automatic_archive_whitelist": true
+    },
+    {
+      "path": "schmitz_primer_table1.png",
+      "bytes": 56815,
+      "sha256": "6587b119b0d0cbc0660283b75037c59c7a71c7ebcbabb4b37be54a2015dadc7c",
+      "local_source_cache_not_automatic_archive_whitelist": true
+    },
+    {
+      "path": "schmitz_primer_table1_inspection.png",
+      "bytes": 97337,
+      "sha256": "366727a043cbd4c1d54824566063253a45e54a33a8e39b373c8332321a96ee0d",
+      "local_source_cache_not_automatic_archive_whitelist": true
+    },
+    {
+      "path": "schmitz_primer_table2.png",
+      "bytes": 213614,
+      "sha256": "c287692adf59c74fd6c0e212e6bf203c05e5a16282b493a54796896e438378f4",
+      "local_source_cache_not_automatic_archive_whitelist": true
+    },
+    {
+      "path": "schmitz_primer_tables_metadata_only.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "local_source_cache_not_automatic_archive_whitelist": false
+    },
+    {
+      "path": "schmitz_supplement.docx",
+      "bytes": 2157686,
+      "sha256": "69569d31f11f1328122659e9d40c43924e6a3b5cfd540df55e930202874f25ad",
+      "local_source_cache_not_automatic_archive_whitelist": true
+    },
+    {
+      "path": "schmitz_supplement_download.json",
+      "bytes": 476,
+      "sha256": "9663d19ef48072c186984c8a24155cb655630f566c26a9123e2df6fed99ac9f2",
+      "local_source_cache_not_automatic_archive_whitelist": false
+    },
+    {
+      "path": "schmitz_supplement_first_metadata_paragraphs.json",
+      "bytes": 5081,
+      "sha256": "7b89fbe651e25ea0a9b053c59efd63b348b9d0ef4ed79f7f3c31a2be879bff62",
+      "local_source_cache_not_automatic_archive_whitelist": false
+    },
+    {
+      "path": "schmitz_supplement_record.json",
+      "bytes": 16042,
+      "sha256": "608304d72efc8185482dba1a5a9067dbc58628bbb76371f267c94af4236a80e9",
+      "local_source_cache_not_automatic_archive_whitelist": false
+    },
+    {
+      "path": "schmitz_supplement_table_inventory.json",
+      "bytes": 39,
+      "sha256": "d90eb2a3b8937c81ff9d764191794220fb8f6a54dbee3f26602c743b844b5f02",
+      "local_source_cache_not_automatic_archive_whitelist": false
+    },
+    {
+      "path": "supplement_acquisition.json",
+      "bytes": 1755,
+      "sha256": "c87ba34a5e714e29caf53c339c5374cf0bbde214a8b1edcb6ede7c2b2217f384",
+      "local_source_cache_not_automatic_archive_whitelist": false
+    },
+    {
+      "path": "tp53.xml",
+      "bytes": 150,
+      "sha256": "f5cec00abc45ebb20e2d37049ce84dec76b3a0a395b9e7220bc066e62b0736cf",
+      "local_source_cache_not_automatic_archive_whitelist": true
+    },
+    {
+      "path": "tp53_author.pdf",
+      "bytes": 162,
+      "sha256": "a753a4ee28b87bad1151a0b60cb4bb08dca3bfddb80ac7903d06aebba1ca7560",
+      "local_source_cache_not_automatic_archive_whitelist": false
+    },
+    {
+      "path": "tp53_author_receipt.json",
+      "bytes": 313,
+      "sha256": "d67fa8e0b24cda5aeff152eb6493fe847daeffc484f4fdd125ecdfd0e4d902b5",
+      "local_source_cache_not_automatic_archive_whitelist": false
+    },
+    {
+      "path": "tp53_cloud_inventory.xml",
+      "bytes": 1186,
+      "sha256": "f18bfae68f1720c41681c2711baa3f5ee97d4f90af29a308759ca72779a390b9",
+      "local_source_cache_not_automatic_archive_whitelist": true
+    },
+    {
+      "path": "tp53_crossref.json",
+      "bytes": 13912,
+      "sha256": "d72831051ea5858b4ee0f598506ea931679b5812d02a7bcebf846e3ae83d222b",
+      "local_source_cache_not_automatic_archive_whitelist": false
+    },
+    {
+      "path": "tp53_entrez.xml",
+      "bytes": 72241,
+      "sha256": "d0950bfc355704867c7b35823e617e78ac15b706679d19bea8de6a6c3aa1e867",
+      "local_source_cache_not_automatic_archive_whitelist": true
+    },
+    {
+      "path": "tp53_methods.txt",
+      "bytes": 7819,
+      "sha256": "c635b4918f10af8f983ba118e4bd7b8177475b8a46b4a876fb3d8953f6c7af7b",
+      "local_source_cache_not_automatic_archive_whitelist": true
+    },
+    {
+      "path": "tp53_supplement5.xlsx",
+      "bytes": 134,
+      "sha256": "c996c0469ef05ff6fdd1f7cefbc3f7e109bb21969de42fcf591498a828a7ad5f",
+      "local_source_cache_not_automatic_archive_whitelist": true
+    },
+    {
+      "path": "tp53_supplement7.gz",
+      "bytes": 134,
+      "sha256": "c996c0469ef05ff6fdd1f7cefbc3f7e109bb21969de42fcf591498a828a7ad5f",
+      "local_source_cache_not_automatic_archive_whitelist": true
+    },
+    {
+      "path": "tp53_supplement8.txt",
+      "bytes": 134,
+      "sha256": "c996c0469ef05ff6fdd1f7cefbc3f7e109bb21969de42fcf591498a828a7ad5f",
+      "local_source_cache_not_automatic_archive_whitelist": true
+    }
+  ]
+}

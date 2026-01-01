@@ -1,0 +1,48 @@
+[
+  {
+    "source": "cenik2015",
+    "sha256": "70611934c91cca147478b70208cf16919f7cf068e6b19c982fb66c1f69c2ebf5",
+    "title": "Integrative analysis of RNA, translation, and protein levels reveals distinct regulatory variation across humans",
+    "doi": [
+      "10.1101/gr.193342.115"
+    ],
+    "published_version": "published primary journal XML",
+    "locators": [
+      {
+        "title": "Integrative analysis of RNA expression, ribosome occupancy, and protein levels",
+        "paragraph_count": 4
+      },
+      {
+        "title": "Gene expression variability between individuals",
+        "paragraph_count": 4
+      }
+    ]
+  },
+  {
+    "source": "mueller2024",
+    "sha256": "72a7bf9eb523fc7d63dcbf40ab8f3566f68c630d15d09b964868d7b016bbc97d",
+    "title": "Nuclear export is a limiting factor in eukaryotic mRNA metabolism",
+    "doi": [
+      "10.1371/journal.pcbi.1012059",
+      "10.1371/journal.pcbi.1012059.r001",
+      "10.1371/journal.pcbi.1012059.r002",
+      "10.1371/journal.pcbi.1012059.r003",
+      "10.1371/journal.pcbi.1012059.r004"
+    ],
+    "published_version": "published primary journal XML",
+    "locators": [
+      {
+        "title": "Introduction",
+        "paragraph_count": 4
+      },
+      {
+        "title": "A two-compartment model of RNA metabolism",
+        "paragraph_count": 4
+      },
+      {
+        "title": "mRNA is more abundant in the nucleus than in the cytosol",
+        "paragraph_count": 3
+      }
+    ]
+  }
+]

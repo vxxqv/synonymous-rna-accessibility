@@ -1,0 +1,946 @@
+[
+  {
+    "id": "tp53_figshare_doi",
+    "method": "POST public read-only search",
+    "url": "https://api.figshare.com/v2/articles/search",
+    "payload": {
+      "resource_doi": "10.1158/1541-7786.MCR-17-0245",
+      "page_size": 100
+    },
+    "status": 200,
+    "final_url": "https://api.figshare.com/v2/articles/search",
+    "bytes": 2,
+    "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "records": []
+  },
+  {
+    "id": "tp53_figshare_title",
+    "method": "POST public read-only search",
+    "url": "https://api.figshare.com/v2/articles/search",
+    "payload": {
+      "search_for": "A Massively Parallel Fluorescence Assay to Characterize the Effects of Synonymous Mutations on TP53 Expression",
+      "page_size": 100
+    },
+    "status": 200,
+    "final_url": "https://api.figshare.com/v2/articles/search",
+    "bytes": 2,
+    "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "records": []
+  },
+  {
+    "id": "schmitz_public_datasets",
+    "method": "POST public read-only search",
+    "url": "https://api.figshare.com/v2/articles/search",
+    "payload": {
+      "search_for": "Schmitz",
+      "item_type": 3,
+      "page_size": 100
+    },
+    "status": 200,
+    "final_url": "https://api.figshare.com/v2/articles/search",
+    "bytes": 119290,
+    "sha256": "5325c84047bcc46e8b77296302484098922fe52174f7b54b1cef8a3a885da4e2",
+    "records": [
+      {
+        "id": 30086356,
+        "title": "Code and data for Trophic rewilding pumas and guanacos: estimating the potential to enhance carbon sequestration in a Patagonian grassland ecosystem",
+        "url_public_html": "https://figshare.com/articles/dataset/Code_and_data_for_Trophic_rewilding_pumas_and_guanacos_estimating_the_potential_to_enhance_carbon_sequestration_in_a_Patagonian_grassland_ecosystem/30086356",
+        "url": "https://api.figshare.com/v2/articles/30086356",
+        "resource_doi": "",
+        "resource_title": "",
+        "defined_type_name": "dataset"
+      },
+      {
+        "id": 28839863,
+        "title": "Code for Modeling the effects of restoring European bison on spatiotemporal carbon dynamics in a temperate grassland-forest landscape mosaic.",
+        "url_public_html": "https://figshare.com/articles/dataset/Code_for_Modeling_the_effects_of_restoring_European_bison_on_spatiotemporal_carbon_dynamics_in_a_temperate_grassland-forest_landscape_mosaic_/28839863",
+        "url": "https://api.figshare.com/v2/articles/28839863",
+        "resource_doi": "",
+        "resource_title": "",
+        "defined_type_name": "dataset"
+      },
+      {
+        "id": 34017839,
+        "title": "<p>Source data file.</p>",
+        "url_public_html": "https://plos.figshare.com/articles/dataset/_p_Source_data_file_p_/34017839",
+        "url": "https://api.figshare.com/v2/articles/34017839",
+        "resource_doi": "10.1371/journal.ppat.1014608",
+        "resource_title": "<i>Pf</i>ATG18 links V-ATPase assembly to endocytic membrane dynamics in malaria parasites",
+        "defined_type_name": "dataset"
+      },
+      {
+        "id": 34017833,
+        "title": "<p>Ultrastructural analysis of <i>atg18-mNG:loxP</i> parasites by SBF-SEM.</p>",
+        "url_public_html": "https://plos.figshare.com/articles/dataset/_p_Ultrastructural_analysis_of_i_atg18-mNG_loxP_i_parasites_by_SBF-SEM_p_/34017833",
+        "url": "https://api.figshare.com/v2/articles/34017833",
+        "resource_doi": "10.1371/journal.ppat.1014608",
+        "resource_title": "<i>Pf</i>ATG18 links V-ATPase assembly to endocytic membrane dynamics in malaria parasites",
+        "defined_type_name": "dataset"
+      },
+      {
+        "id": 33971851,
+        "title": "Data Sheet 1_Cenobamate in Dravet syndrome with electrophysiologically confirmed SCN1A loss-of-function variants: long-term real-world follow-up.pdf",
+        "url_public_html": "https://frontiersin.figshare.com/articles/dataset/Data_Sheet_1_Cenobamate_in_Dravet_syndrome_with_electrophysiologically_confirmed_SCN1A_loss-of-function_variants_long-term_real-world_follow-up_pdf/33971851",
+        "url": "https://api.figshare.com/v2/articles/33971851",
+        "resource_doi": "10.3389/fphar.2026.1894717",
+        "resource_title": "Cenobamate in Dravet syndrome with electrophysiologically confirmed SCN1A loss-of-function variants: long-term real-world follow-up",
+        "defined_type_name": "dataset"
+      },
+      {
+        "id": 33472746,
+        "title": "Additional file 1 of Targeting PFKFB3 to enhance CDK4/6 inhibitor response in ER+ breast cancer",
+        "url_public_html": "https://springernature.figshare.com/articles/dataset/Additional_file_1_of_Targeting_PFKFB3_to_enhance_CDK4_6_inhibitor_response_in_ER_breast_cancer/33472746",
+        "url": "https://api.figshare.com/v2/articles/33472746",
+        "resource_doi": "10.1186/s13058-026-02336-2",
+        "resource_title": "Targeting PFKFB3 to enhance CDK4/6 inhibitor response in ER+ breast cancer",
+        "defined_type_name": "dataset"
+      },
+      {
+        "id": 33457863,
+        "title": "Additional file 2 of Reciprocal signaling-metabolic crosstalk between fibroblasts and tumor cells drives cetuximab tolerance in head and neck cancers",
+        "url_public_html": "https://springernature.figshare.com/articles/dataset/Additional_file_2_of_Reciprocal_signaling-metabolic_crosstalk_between_fibroblasts_and_tumor_cells_drives_cetuximab_tolerance_in_head_and_neck_cancers/33457863",
+        "url": "https://api.figshare.com/v2/articles/33457863",
+        "resource_doi": "10.1186/s13046-026-03765-9",
+        "resource_title": "Reciprocal signaling-metabolic crosstalk between fibroblasts and tumor cells drives cetuximab tolerance in head and neck cancers",
+        "defined_type_name": "dataset"
+      },
+      {
+        "id": 33457579,
+        "title": "Bridging Speed and Confidence in Metabolomics: A Retention\nTime and MS<sup>2</sup>\u2011Guided HILIC-Orbitrap Workflow",
+        "url_public_html": "https://acs.figshare.com/articles/dataset/Bridging_Speed_and_Confidence_in_Metabolomics_A_Retention_Time_and_MS_sup_2_sup_Guided_HILIC-Orbitrap_Workflow/33457579",
+        "url": "https://api.figshare.com/v2/articles/33457579",
+        "resource_doi": "10.1021/jasms.6c00203",
+        "resource_title": "Bridging Speed and Confidence in Metabolomics: A Retention\nTime and MS<sup>2</sup>\u2011Guided HILIC-Orbitrap Workflow",
+        "defined_type_name": "dataset"
+      },
+      {
+        "id": 33457576,
+        "title": "Bridging Speed and Confidence in Metabolomics: A Retention\nTime and MS<sup>2</sup>\u2011Guided HILIC-Orbitrap Workflow",
+        "url_public_html": "https://acs.figshare.com/articles/dataset/Bridging_Speed_and_Confidence_in_Metabolomics_A_Retention_Time_and_MS_sup_2_sup_Guided_HILIC-Orbitrap_Workflow/33457576",
+        "url": "https://api.figshare.com/v2/articles/33457576",
+        "resource_doi": "10.1021/jasms.6c00203",
+        "resource_title": "Bridging Speed and Confidence in Metabolomics: A Retention\nTime and MS<sup>2</sup>\u2011Guided HILIC-Orbitrap Workflow",
+        "defined_type_name": "dataset"
+      },
+      {
+        "id": 33408575,
+        "title": "Structural\nand Mechanistic Studies of ADEPs Yield\nPotent Antibacterials and a Drug Formulation Strategy for Tuberculosis",
+        "url_public_html": "https://acs.figshare.com/articles/dataset/Structural_and_Mechanistic_Studies_of_ADEPs_Yield_Potent_Antibacterials_and_a_Drug_Formulation_Strategy_for_Tuberculosis/33408575",
+        "url": "https://api.figshare.com/v2/articles/33408575",
+        "resource_doi": "10.1021/acs.jmedchem.6c00893",
+        "resource_title": "Structural\nand Mechanistic Studies of ADEPs Yield\nPotent Antibacterials and a Drug Formulation Strategy for Tuberculosis",
+        "defined_type_name": "dataset"
+      },
+      {
+        "id": 33319386,
+        "title": "Data Sheet 1_Fatigue after pulmonary embolism\u2014prevalence and predictors.pdf",
+        "url_public_html": "https://frontiersin.figshare.com/articles/dataset/Data_Sheet_1_Fatigue_after_pulmonary_embolism_prevalence_and_predictors_pdf/33319386",
+        "url": "https://api.figshare.com/v2/articles/33319386",
+        "resource_doi": "10.3389/fcvm.2026.1882131",
+        "resource_title": "Fatigue after pulmonary embolism\u2014prevalence and predictors",
+        "defined_type_name": "dataset"
+      },
+      {
+        "id": 33245271,
+        "title": "Table 1_An exploratory study comparing the social behavior of intersex and female goats.docx",
+        "url_public_html": "https://frontiersin.figshare.com/articles/dataset/Table_1_An_exploratory_study_comparing_the_social_behavior_of_intersex_and_female_goats_docx/33245271",
+        "url": "https://api.figshare.com/v2/articles/33245271",
+        "resource_doi": "10.3389/fvets.2026.1895618",
+        "resource_title": "An exploratory study comparing the social behavior of intersex and female goats",
+        "defined_type_name": "dataset"
+      },
+      {
+        "id": 33216099,
+        "title": "Supplementary file 1_Differential regulation of neutrophil degranulation by p38 MAPK and mitochondrial ROS during Mycobacterium leprae infection.pdf",
+        "url_public_html": "https://frontiersin.figshare.com/articles/dataset/Supplementary_file_1_Differential_regulation_of_neutrophil_degranulation_by_p38_MAPK_and_mitochondrial_ROS_during_Mycobacterium_leprae_infection_pdf/33216099",
+        "url": "https://api.figshare.com/v2/articles/33216099",
+        "resource_doi": "10.3389/fphar.2026.1883257",
+        "resource_title": "Differential regulation of neutrophil degranulation by p38 MAPK and mitochondrial ROS during Mycobacterium leprae infection",
+        "defined_type_name": "dataset"
+      },
+      {
+        "id": 33148074,
+        "title": "<p>Raw data used to generate the panels in Figs 7a, 7b, 7f, 7g, and S7a\u2013S7e.</p>",
+        "url_public_html": "https://plos.figshare.com/articles/dataset/_p_Raw_data_used_to_generate_the_panels_in_Figs_7a_7b_7f_7g_and_S7a_S7e_p_/33148074",
+        "url": "https://api.figshare.com/v2/articles/33148074",
+        "resource_doi": "10.1371/journal.pbio.3003212",
+        "resource_title": "<p>Developmental factors drive the compartmentalized and discontinuous maturation of the small intestinal epithelium during the early postnatal period</p>",
+        "defined_type_name": "dataset"
+      },
+      {
+        "id": 33148071,
+        "title": "<p>Raw data used to generate the panels in Fig 6g, 6h.</p>",
+        "url_public_html": "https://plos.figshare.com/articles/dataset/_p_Raw_data_used_to_generate_the_panels_in_Fig_6g_6h_p_/33148071",
+        "url": "https://api.figshare.com/v2/articles/33148071",
+        "resource_doi": "10.1371/journal.pbio.3003212",
+        "resource_title": "<p>Developmental factors drive the compartmentalized and discontinuous maturation of the small intestinal epithelium during the early postnatal period</p>",
+        "defined_type_name": "dataset"
+      },
+      {
+        "id": 33148068,
+        "title": "<p>Raw data used to generate the panels in Fig 5j\u20135l and 5o\u20135q.</p>",
+        "url_public_html": "https://plos.figshare.com/articles/dataset/_p_Raw_data_used_to_generate_the_panels_in_Fig_5j_5l_and_5o_5q_p_/33148068",
+        "url": "https://api.figshare.com/v2/articles/33148068",
+        "resource_doi": "10.1371/journal.pbio.3003212",
+        "resource_title": "<p>Developmental factors drive the compartmentalized and discontinuous maturation of the small intestinal epithelium during the early postnatal period</p>",
+        "defined_type_name": "dataset"
+      },
+      {
+        "id": 33148065,
+        "title": "<p>Raw data used to generate the panels in Figs 5f, 5g, 6d, S5k, S5l and S6b.</p>",
+        "url_public_html": "https://plos.figshare.com/articles/dataset/_p_Raw_data_used_to_generate_the_panels_in_Figs_5f_5g_6d_S5k_S5l_and_S6b_p_/33148065",
+        "url": "https://api.figshare.com/v2/articles/33148065",
+        "resource_doi": "10.1371/journal.pbio.3003212",
+        "resource_title": "<p>Developmental factors drive the compartmentalized and discontinuous maturation of the small intestinal epithelium during the early postnatal period</p>",
+        "defined_type_name": "dataset"
+      },
+      {
+        "id": 33148062,
+        "title": "<p>Raw data used to generate the panels in Figs 5d and 6b and 6k.</p>",
+        "url_public_html": "https://plos.figshare.com/articles/dataset/_p_Raw_data_used_to_generate_the_panels_in_Figs_5d_and_6b_and_6k_p_/33148062",
+        "url": "https://api.figshare.com/v2/articles/33148062",
+        "resource_doi": "10.1371/journal.pbio.3003212",
+        "resource_title": "<p>Developmental factors drive the compartmentalized and discontinuous maturation of the small intestinal epithelium during the early postnatal period</p>",
+        "defined_type_name": "dataset"
+      },
+      {
+        "id": 33148059,
+        "title": "<p>Raw data used to generate the panels in S5g\u2013S5i Fig.</p>",
+        "url_public_html": "https://plos.figshare.com/articles/dataset/_p_Raw_data_used_to_generate_the_panels_in_S5g_S5i_Fig_p_/33148059",
+        "url": "https://api.figshare.com/v2/articles/33148059",
+        "resource_doi": "10.1371/journal.pbio.3003212",
+        "resource_title": "<p>Developmental factors drive the compartmentalized and discontinuous maturation of the small intestinal epithelium during the early postnatal period</p>",
+        "defined_type_name": "dataset"
+      },
+      {
+        "id": 33148056,
+        "title": "<p>Raw data used to generate the panels in Figs 5b, 5e, 6c and 6j.</p>",
+        "url_public_html": "https://plos.figshare.com/articles/dataset/_p_Raw_data_used_to_generate_the_panels_in_Figs_5b_5e_6c_and_6j_p_/33148056",
+        "url": "https://api.figshare.com/v2/articles/33148056",
+        "resource_doi": "10.1371/journal.pbio.3003212",
+        "resource_title": "<p>Developmental factors drive the compartmentalized and discontinuous maturation of the small intestinal epithelium during the early postnatal period</p>",
+        "defined_type_name": "dataset"
+      },
+      {
+        "id": 33148053,
+        "title": "<p>Raw data used to generate the panels in Figs 4d, 4e and S4b.</p>",
+        "url_public_html": "https://plos.figshare.com/articles/dataset/_p_Raw_data_used_to_generate_the_panels_in_Figs_4d_4e_and_S4b_p_/33148053",
+        "url": "https://api.figshare.com/v2/articles/33148053",
+        "resource_doi": "10.1371/journal.pbio.3003212",
+        "resource_title": "<p>Developmental factors drive the compartmentalized and discontinuous maturation of the small intestinal epithelium during the early postnatal period</p>",
+        "defined_type_name": "dataset"
+      },
+      {
+        "id": 33148050,
+        "title": "<p>Raw data used to generate the panels in Figs 4b, 4f, 4h\u20134k, S4a and S4c\u2013S4f.</p>",
+        "url_public_html": "https://plos.figshare.com/articles/dataset/_p_Raw_data_used_to_generate_the_panels_in_Figs_4b_4f_4h_4k_S4a_and_S4c_S4f_p_/33148050",
+        "url": "https://api.figshare.com/v2/articles/33148050",
+        "resource_doi": "10.1371/journal.pbio.3003212",
+        "resource_title": "<p>Developmental factors drive the compartmentalized and discontinuous maturation of the small intestinal epithelium during the early postnatal period</p>",
+        "defined_type_name": "dataset"
+      },
+      {
+        "id": 33148047,
+        "title": "<p>Raw data used to generate the panels in Figs 3b\u20133i, S3c\u2013S3h and S3j\u2013S3m.</p>",
+        "url_public_html": "https://plos.figshare.com/articles/dataset/_p_Raw_data_used_to_generate_the_panels_in_Figs_3b_3i_S3c_S3h_and_S3j_S3m_p_/33148047",
+        "url": "https://api.figshare.com/v2/articles/33148047",
+        "resource_doi": "10.1371/journal.pbio.3003212",
+        "resource_title": "<p>Developmental factors drive the compartmentalized and discontinuous maturation of the small intestinal epithelium during the early postnatal period</p>",
+        "defined_type_name": "dataset"
+      },
+      {
+        "id": 33148044,
+        "title": "<p>Raw data used to generate the panels in Figs 2a and S2h\u2013S2j.</p>",
+        "url_public_html": "https://plos.figshare.com/articles/dataset/_p_Raw_data_used_to_generate_the_panels_in_Figs_2a_and_S2h_S2j_p_/33148044",
+        "url": "https://api.figshare.com/v2/articles/33148044",
+        "resource_doi": "10.1371/journal.pbio.3003212",
+        "resource_title": "<p>Developmental factors drive the compartmentalized and discontinuous maturation of the small intestinal epithelium during the early postnatal period</p>",
+        "defined_type_name": "dataset"
+      },
+      {
+        "id": 33148041,
+        "title": "<p>Raw data used to generate the panels in S2f, S2g Fig.</p>",
+        "url_public_html": "https://plos.figshare.com/articles/dataset/_p_Raw_data_used_to_generate_the_panels_in_S2f_S2g_Fig_p_/33148041",
+        "url": "https://api.figshare.com/v2/articles/33148041",
+        "resource_doi": "10.1371/journal.pbio.3003212",
+        "resource_title": "<p>Developmental factors drive the compartmentalized and discontinuous maturation of the small intestinal epithelium during the early postnatal period</p>",
+        "defined_type_name": "dataset"
+      },
+      {
+        "id": 33148038,
+        "title": "<p>Raw data used to generate the panels in Figs 2h and S3i.</p>",
+        "url_public_html": "https://plos.figshare.com/articles/dataset/_p_Raw_data_used_to_generate_the_panels_in_Figs_2h_and_S3i_p_/33148038",
+        "url": "https://api.figshare.com/v2/articles/33148038",
+        "resource_doi": "10.1371/journal.pbio.3003212",
+        "resource_title": "<p>Developmental factors drive the compartmentalized and discontinuous maturation of the small intestinal epithelium during the early postnatal period</p>",
+        "defined_type_name": "dataset"
+      },
+      {
+        "id": 33148035,
+        "title": "<p>Raw data used to generate the panels in Fig 2b.</p>",
+        "url_public_html": "https://plos.figshare.com/articles/dataset/_p_Raw_data_used_to_generate_the_panels_in_Fig_2b_p_/33148035",
+        "url": "https://api.figshare.com/v2/articles/33148035",
+        "resource_doi": "10.1371/journal.pbio.3003212",
+        "resource_title": "<p>Developmental factors drive the compartmentalized and discontinuous maturation of the small intestinal epithelium during the early postnatal period</p>",
+        "defined_type_name": "dataset"
+      },
+      {
+        "id": 33148032,
+        "title": "<p>Raw data used to generate the panels in Figs 2c\u20132g, 2i, 2j and S2a\u2013S2e.</p>",
+        "url_public_html": "https://plos.figshare.com/articles/dataset/_p_Raw_data_used_to_generate_the_panels_in_Figs_2c_2g_2i_2j_and_S2a_S2e_p_/33148032",
+        "url": "https://api.figshare.com/v2/articles/33148032",
+        "resource_doi": "10.1371/journal.pbio.3003212",
+        "resource_title": "<p>Developmental factors drive the compartmentalized and discontinuous maturation of the small intestinal epithelium during the early postnatal period</p>",
+        "defined_type_name": "dataset"
+      },
+      {
+        "id": 33148029,
+        "title": "<p>Raw data used to generate the panels in S1g\u2013S1i Fig.</p>",
+        "url_public_html": "https://plos.figshare.com/articles/dataset/_p_Raw_data_used_to_generate_the_panels_in_S1g_S1i_Fig_p_/33148029",
+        "url": "https://api.figshare.com/v2/articles/33148029",
+        "resource_doi": "10.1371/journal.pbio.3003212",
+        "resource_title": "<p>Developmental factors drive the compartmentalized and discontinuous maturation of the small intestinal epithelium during the early postnatal period</p>",
+        "defined_type_name": "dataset"
+      },
+      {
+        "id": 33148026,
+        "title": "<p>Raw data used to generate the panels in Fig 1g, 1h.</p>",
+        "url_public_html": "https://plos.figshare.com/articles/dataset/_p_Raw_data_used_to_generate_the_panels_in_Fig_1g_1h_p_/33148026",
+        "url": "https://api.figshare.com/v2/articles/33148026",
+        "resource_doi": "10.1371/journal.pbio.3003212",
+        "resource_title": "<p>Developmental factors drive the compartmentalized and discontinuous maturation of the small intestinal epithelium during the early postnatal period</p>",
+        "defined_type_name": "dataset"
+      },
+      {
+        "id": 33148023,
+        "title": "<p>Raw data used to generate the panels in Figs 1b\u20131f, 1i, 1j, S1a\u2013S1f, S1j and </p>",
+        "url_public_html": "https://plos.figshare.com/articles/dataset/_p_Raw_data_used_to_generate_the_panels_in_Figs_1b_1f_1i_1j_S1a_S1f_S1j_and_p_/33148023",
+        "url": "https://api.figshare.com/v2/articles/33148023",
+        "resource_doi": "10.1371/journal.pbio.3003212",
+        "resource_title": "<p>Developmental factors drive the compartmentalized and discontinuous maturation of the small intestinal epithelium during the early postnatal period</p>",
+        "defined_type_name": "dataset"
+      },
+      {
+        "id": 33127847,
+        "title": "Data Sheet 2_Exploratory multi-omics analysis suggests context-dependent immune responses to vitamin D3 supplementation in PBMCs of multiple sclerosis patients.csv",
+        "url_public_html": "https://frontiersin.figshare.com/articles/dataset/Data_Sheet_2_Exploratory_multi-omics_analysis_suggests_context-dependent_immune_responses_to_vitamin_D3_supplementation_in_PBMCs_of_multiple_sclerosis_patients_csv/33127847",
+        "url": "https://api.figshare.com/v2/articles/33127847",
+        "resource_doi": "10.3389/fimmu.2026.1845005",
+        "resource_title": "Exploratory multi-omics analysis suggests context-dependent immune responses to vitamin D3 supplementation in PBMCs of multiple sclerosis patients",
+        "defined_type_name": "dataset"
+      },
+      {
+        "id": 33127814,
+        "title": "Table 3_Exploratory multi-omics analysis suggests context-dependent immune responses to vitamin D3 supplementation in PBMCs of multiple sclerosis patients.xlsx",
+        "url_public_html": "https://frontiersin.figshare.com/articles/dataset/Table_3_Exploratory_multi-omics_analysis_suggests_context-dependent_immune_responses_to_vitamin_D3_supplementation_in_PBMCs_of_multiple_sclerosis_patients_xlsx/33127814",
+        "url": "https://api.figshare.com/v2/articles/33127814",
+        "resource_doi": "10.3389/fimmu.2026.1845005",
+        "resource_title": "Exploratory multi-omics analysis suggests context-dependent immune responses to vitamin D3 supplementation in PBMCs of multiple sclerosis patients",
+        "defined_type_name": "dataset"
+      },
+      {
+        "id": 33127835,
+        "title": "Data Sheet 1_Exploratory multi-omics analysis suggests context-dependent immune responses to vitamin D3 supplementation in PBMCs of multiple sclerosis patients.pdf",
+        "url_public_html": "https://frontiersin.figshare.com/articles/dataset/Data_Sheet_1_Exploratory_multi-omics_analysis_suggests_context-dependent_immune_responses_to_vitamin_D3_supplementation_in_PBMCs_of_multiple_sclerosis_patients_pdf/33127835",
+        "url": "https://api.figshare.com/v2/articles/33127835",
+        "resource_doi": "10.3389/fimmu.2026.1845005",
+        "resource_title": "Exploratory multi-omics analysis suggests context-dependent immune responses to vitamin D3 supplementation in PBMCs of multiple sclerosis patients",
+        "defined_type_name": "dataset"
+      },
+      {
+        "id": 33127802,
+        "title": "Table 2_Exploratory multi-omics analysis suggests context-dependent immune responses to vitamin D3 supplementation in PBMCs of multiple sclerosis patients.xlsx",
+        "url_public_html": "https://frontiersin.figshare.com/articles/dataset/Table_2_Exploratory_multi-omics_analysis_suggests_context-dependent_immune_responses_to_vitamin_D3_supplementation_in_PBMCs_of_multiple_sclerosis_patients_xlsx/33127802",
+        "url": "https://api.figshare.com/v2/articles/33127802",
+        "resource_doi": "10.3389/fimmu.2026.1845005",
+        "resource_title": "Exploratory multi-omics analysis suggests context-dependent immune responses to vitamin D3 supplementation in PBMCs of multiple sclerosis patients",
+        "defined_type_name": "dataset"
+      },
+      {
+        "id": 33127790,
+        "title": "Table 1_Exploratory multi-omics analysis suggests context-dependent immune responses to vitamin D3 supplementation in PBMCs of multiple sclerosis patients.xlsx",
+        "url_public_html": "https://frontiersin.figshare.com/articles/dataset/Table_1_Exploratory_multi-omics_analysis_suggests_context-dependent_immune_responses_to_vitamin_D3_supplementation_in_PBMCs_of_multiple_sclerosis_patients_xlsx/33127790",
+        "url": "https://api.figshare.com/v2/articles/33127790",
+        "resource_doi": "10.3389/fimmu.2026.1845005",
+        "resource_title": "Exploratory multi-omics analysis suggests context-dependent immune responses to vitamin D3 supplementation in PBMCs of multiple sclerosis patients",
+        "defined_type_name": "dataset"
+      },
+      {
+        "id": 30593093,
+        "title": "Supplement to Lowe et al. 2026. Vegetation, climate, and age of the mid-Miocene Mascall flora reinvestigated: Leeward environments of the Cascade Mountains.",
+        "url_public_html": "https://figshare.com/articles/dataset/Supplement_to_Lowe_et_al_2026_Vegetation_climate_and_age_of_the_mid-Miocene_Mascall_flora_reinvestigated_Leeward_environments_of_the_Cascade_Mountains_/30593093",
+        "url": "https://api.figshare.com/v2/articles/30593093",
+        "resource_doi": "",
+        "resource_title": "",
+        "defined_type_name": "dataset"
+      },
+      {
+        "id": 33065802,
+        "title": "Machine-Learning-Assisted Pathway Optimization in\nLarge Combinatorial Design Spaces: A p\u2011Coumaric\nAcid Case Study",
+        "url_public_html": "https://acs.figshare.com/articles/dataset/Machine-Learning-Assisted_Pathway_Optimization_in_Large_Combinatorial_Design_Spaces_A_p_Coumaric_Acid_Case_Study/33065802",
+        "url": "https://api.figshare.com/v2/articles/33065802",
+        "resource_doi": "10.1021/acssynbio.5c00864",
+        "resource_title": "Machine-Learning-Assisted Pathway Optimization in\nLarge Combinatorial Design Spaces: A <i>p</i>\u2011Coumaric\nAcid Case Study",
+        "defined_type_name": "dataset"
+      },
+      {
+        "id": 33065799,
+        "title": "Machine-Learning-Assisted Pathway Optimization in\nLarge Combinatorial Design Spaces: A p\u2011Coumaric\nAcid Case Study",
+        "url_public_html": "https://acs.figshare.com/articles/dataset/Machine-Learning-Assisted_Pathway_Optimization_in_Large_Combinatorial_Design_Spaces_A_p_Coumaric_Acid_Case_Study/33065799",
+        "url": "https://api.figshare.com/v2/articles/33065799",
+        "resource_doi": "10.1021/acssynbio.5c00864",
+        "resource_title": "Machine-Learning-Assisted Pathway Optimization in\nLarge Combinatorial Design Spaces: A <i>p</i>\u2011Coumaric\nAcid Case Study",
+        "defined_type_name": "dataset"
+      },
+      {
+        "id": 33065796,
+        "title": "Machine-Learning-Assisted Pathway Optimization in\nLarge Combinatorial Design Spaces: A p\u2011Coumaric\nAcid Case Study",
+        "url_public_html": "https://acs.figshare.com/articles/dataset/Machine-Learning-Assisted_Pathway_Optimization_in_Large_Combinatorial_Design_Spaces_A_p_Coumaric_Acid_Case_Study/33065796",
+        "url": "https://api.figshare.com/v2/articles/33065796",
+        "resource_doi": "10.1021/acssynbio.5c00864",
+        "resource_title": "Machine-Learning-Assisted Pathway Optimization in\nLarge Combinatorial Design Spaces: A <i>p</i>\u2011Coumaric\nAcid Case Study",
+        "defined_type_name": "dataset"
+      },
+      {
+        "id": 33059432,
+        "title": "Dataset of the results reported in the paper NCOMMS-26-020694",
+        "url_public_html": "https://figshare.com/articles/dataset/Dataset_of_the_results_reported_in_the_paper_NCOMMS-26-020694/33059432",
+        "url": "https://api.figshare.com/v2/articles/33059432",
+        "resource_doi": "",
+        "resource_title": "",
+        "defined_type_name": "dataset"
+      },
+      {
+        "id": 32950230,
+        "title": "<p>Standardized instruments for the assessment of PCS patients.</p>",
+        "url_public_html": "https://plos.figshare.com/articles/dataset/_p_Standardized_instruments_for_the_assessment_of_PCS_patients_p_/32950230",
+        "url": "https://api.figshare.com/v2/articles/32950230",
+        "resource_doi": "10.1371/journal.pone.0353270",
+        "resource_title": "<p>Improving the care of people affected by post-COVID syndrome (LCovB):study protocol of a mixed-methods study</p>",
+        "defined_type_name": "dataset"
+      },
+      {
+        "id": 32950227,
+        "title": "<p>Variables of the routine data collection.</p>",
+        "url_public_html": "https://plos.figshare.com/articles/dataset/_p_Variables_of_the_routine_data_collection_p_/32950227",
+        "url": "https://api.figshare.com/v2/articles/32950227",
+        "resource_doi": "10.1371/journal.pone.0353270",
+        "resource_title": "<p>Improving the care of people affected by post-COVID syndrome (LCovB):study protocol of a mixed-methods study</p>",
+        "defined_type_name": "dataset"
+      },
+      {
+        "id": 32801910,
+        "title": "Data Sheet 1_Comparing metabolic engineering scenarios using simulated design-build-test-learn-cycles.pdf",
+        "url_public_html": "https://frontiersin.figshare.com/articles/dataset/Data_Sheet_1_Comparing_metabolic_engineering_scenarios_using_simulated_design-build-test-learn-cycles_pdf/32801910",
+        "url": "https://api.figshare.com/v2/articles/32801910",
+        "resource_doi": "10.3389/fbioe.2026.1802948",
+        "resource_title": "Comparing metabolic engineering scenarios using simulated design-build-test-learn-cycles",
+        "defined_type_name": "dataset"
+      },
+      {
+        "id": 32776176,
+        "title": "Supplementary file 1_Mental health support in German schools: a cross-sectional survey study of principals on demand vs. provision of support services.docx",
+        "url_public_html": "https://frontiersin.figshare.com/articles/dataset/Supplementary_file_1_Mental_health_support_in_German_schools_a_cross-sectional_survey_study_of_principals_on_demand_vs_provision_of_support_services_docx/32776176",
+        "url": "https://api.figshare.com/v2/articles/32776176",
+        "resource_doi": "10.3389/fpubh.2026.1760608",
+        "resource_title": "Mental health support in German schools: a cross-sectional survey study of principals on demand vs. provision of support services",
+        "defined_type_name": "dataset"
+      },
+      {
+        "id": 32744664,
+        "title": "Supplementary file 1_Beneficial effects of the novel first-in-class compound DX243 on ischemic outcomes following in vitro and in vivo models of stroke.docx",
+        "url_public_html": "https://frontiersin.figshare.com/articles/dataset/Supplementary_file_1_Beneficial_effects_of_the_novel_first-in-class_compound_DX243_on_ischemic_outcomes_following_in_vitro_and_in_vivo_models_of_stroke_docx/32744664",
+        "url": "https://api.figshare.com/v2/articles/32744664",
+        "resource_doi": "10.3389/fstro.2026.1802085",
+        "resource_title": "Beneficial effects of the novel first-in-class compound DX243 on ischemic outcomes following in vitro and in vivo models of stroke",
+        "defined_type_name": "dataset"
+      },
+      {
+        "id": 32703824,
+        "title": "Supplementary Table 1 from Metabolic Reprogramming Is an Initial Step in Pancreatic Carcinogenesis That Can Be Targeted to Inhibit Acinar-to-Ductal Metaplasia",
+        "url_public_html": "https://aacr.figshare.com/articles/dataset/Supplementary_Table_1_from_Metabolic_Reprogramming_Is_an_Initial_Step_in_Pancreatic_Carcinogenesis_That_Can_Be_Targeted_to_Inhibit_Acinar-to-Ductal_Metaplasia/32703824",
+        "url": "https://api.figshare.com/v2/articles/32703824",
+        "resource_doi": "10.1158/0008-5472.CAN-23-2213",
+        "resource_title": "Metabolic Reprogramming Is an Initial Step in Pancreatic Carcinogenesis That Can Be Targeted to Inhibit Acinar-to-Ductal Metaplasia",
+        "defined_type_name": "dataset"
+      },
+      {
+        "id": 32703821,
+        "title": "Supplementary Table 2 from Metabolic Reprogramming Is an Initial Step in Pancreatic Carcinogenesis That Can Be Targeted to Inhibit Acinar-to-Ductal Metaplasia",
+        "url_public_html": "https://aacr.figshare.com/articles/dataset/Supplementary_Table_2_from_Metabolic_Reprogramming_Is_an_Initial_Step_in_Pancreatic_Carcinogenesis_That_Can_Be_Targeted_to_Inhibit_Acinar-to-Ductal_Metaplasia/32703821",
+        "url": "https://api.figshare.com/v2/articles/32703821",
+        "resource_doi": "10.1158/0008-5472.CAN-23-2213",
+        "resource_title": "Metabolic Reprogramming Is an Initial Step in Pancreatic Carcinogenesis That Can Be Targeted to Inhibit Acinar-to-Ductal Metaplasia",
+        "defined_type_name": "dataset"
+      },
+      {
+        "id": 32703818,
+        "title": "Supplementary Table 3 from Metabolic Reprogramming Is an Initial Step in Pancreatic Carcinogenesis That Can Be Targeted to Inhibit Acinar-to-Ductal Metaplasia",
+        "url_public_html": "https://aacr.figshare.com/articles/dataset/Supplementary_Table_3_from_Metabolic_Reprogramming_Is_an_Initial_Step_in_Pancreatic_Carcinogenesis_That_Can_Be_Targeted_to_Inhibit_Acinar-to-Ductal_Metaplasia/32703818",
+        "url": "https://api.figshare.com/v2/articles/32703818",
+        "resource_doi": "10.1158/0008-5472.CAN-23-2213",
+        "resource_title": "Metabolic Reprogramming Is an Initial Step in Pancreatic Carcinogenesis That Can Be Targeted to Inhibit Acinar-to-Ductal Metaplasia",
+        "defined_type_name": "dataset"
+      },
+      {
+        "id": 32414070,
+        "title": "Supplementary Material for: Long-Term Efficacy of Psilocybin with Adjunct Psychotherapy in Treatment-Resistant Major Depression (EPIsoDE): 6- and 12-Month Naturalistic Follow-Up of a Phase 2b Trial",
+        "url_public_html": "https://karger.figshare.com/articles/dataset/Supplementary_Material_for_Long-Term_Efficacy_of_Psilocybin_with_Adjunct_Psychotherapy_in_Treatment-Resistant_Major_Depression_EPIsoDE_6-_and_12-Month_Naturalistic_Follow-Up_of_a_Phase_2b_Trial/32414070",
+        "url": "https://api.figshare.com/v2/articles/32414070",
+        "resource_doi": "10.1159/000552272",
+        "resource_title": "Long-Term Efficacy of Psilocybin with Adjunct Psychotherapy in Treatment-Resistant Major Depression (EPIsoDE): 6- and 12-Month Naturalistic Follow-Up of a Phase 2b Trial",
+        "defined_type_name": "dataset"
+      },
+      {
+        "id": 32403219,
+        "title": "Supplementary file 3_Integrating megafauna into blue carbon strategies: dugongs could enhance seagrass carbon storage.docx",
+        "url_public_html": "https://frontiersin.figshare.com/articles/dataset/Supplementary_file_3_Integrating_megafauna_into_blue_carbon_strategies_dugongs_could_enhance_seagrass_carbon_storage_docx/32403219",
+        "url": "https://api.figshare.com/v2/articles/32403219",
+        "resource_doi": "10.3389/fmars.2026.1816090",
+        "resource_title": "Integrating megafauna into blue carbon strategies: dugongs could enhance seagrass carbon storage",
+        "defined_type_name": "dataset"
+      },
+      {
+        "id": 32403222,
+        "title": "Supplementary file 4_Integrating megafauna into blue carbon strategies: dugongs could enhance seagrass carbon storage.xlsx",
+        "url_public_html": "https://frontiersin.figshare.com/articles/dataset/Supplementary_file_4_Integrating_megafauna_into_blue_carbon_strategies_dugongs_could_enhance_seagrass_carbon_storage_xlsx/32403222",
+        "url": "https://api.figshare.com/v2/articles/32403222",
+        "resource_doi": "10.3389/fmars.2026.1816090",
+        "resource_title": "Integrating megafauna into blue carbon strategies: dugongs could enhance seagrass carbon storage",
+        "defined_type_name": "dataset"
+      },
+      {
+        "id": 32403207,
+        "title": "Supplementary file 1_Integrating megafauna into blue carbon strategies: dugongs could enhance seagrass carbon storage.docx",
+        "url_public_html": "https://frontiersin.figshare.com/articles/dataset/Supplementary_file_1_Integrating_megafauna_into_blue_carbon_strategies_dugongs_could_enhance_seagrass_carbon_storage_docx/32403207",
+        "url": "https://api.figshare.com/v2/articles/32403207",
+        "resource_doi": "10.3389/fmars.2026.1816090",
+        "resource_title": "Integrating megafauna into blue carbon strategies: dugongs could enhance seagrass carbon storage",
+        "defined_type_name": "dataset"
+      },
+      {
+        "id": 32403213,
+        "title": "Supplementary file 2_Integrating megafauna into blue carbon strategies: dugongs could enhance seagrass carbon storage.docx",
+        "url_public_html": "https://frontiersin.figshare.com/articles/dataset/Supplementary_file_2_Integrating_megafauna_into_blue_carbon_strategies_dugongs_could_enhance_seagrass_carbon_storage_docx/32403213",
+        "url": "https://api.figshare.com/v2/articles/32403213",
+        "resource_doi": "10.3389/fmars.2026.1816090",
+        "resource_title": "Integrating megafauna into blue carbon strategies: dugongs could enhance seagrass carbon storage",
+        "defined_type_name": "dataset"
+      },
+      {
+        "id": 32211582,
+        "title": "Supplementary file 1_Reading and math anxiety in children: differential roles of state and trait components in academic performance, and the moderating effects of intelligence and time pressure.pdf",
+        "url_public_html": "https://frontiersin.figshare.com/articles/dataset/Supplementary_file_1_Reading_and_math_anxiety_in_children_differential_roles_of_state_and_trait_components_in_academic_performance_and_the_moderating_effects_of_intelligence_and_time_pressure_pdf/32211582",
+        "url": "https://api.figshare.com/v2/articles/32211582",
+        "resource_doi": "10.3389/frcha.2026.1778068",
+        "resource_title": "Reading and math anxiety in children: differential roles of state and trait components in academic performance, and the moderating effects of intelligence and time pressure",
+        "defined_type_name": "dataset"
+      },
+      {
+        "id": 32211579,
+        "title": "Supplementary file 2_Reading and math anxiety in children: differential roles of state and trait components in academic performance, and the moderating effects of intelligence and time pressure.pdf",
+        "url_public_html": "https://frontiersin.figshare.com/articles/dataset/Supplementary_file_2_Reading_and_math_anxiety_in_children_differential_roles_of_state_and_trait_components_in_academic_performance_and_the_moderating_effects_of_intelligence_and_time_pressure_pdf/32211579",
+        "url": "https://api.figshare.com/v2/articles/32211579",
+        "resource_doi": "10.3389/frcha.2026.1778068",
+        "resource_title": "Reading and math anxiety in children: differential roles of state and trait components in academic performance, and the moderating effects of intelligence and time pressure",
+        "defined_type_name": "dataset"
+      },
+      {
+        "id": 32211576,
+        "title": "Supplementary file 3_Reading and math anxiety in children: differential roles of state and trait components in academic performance, and the moderating effects of intelligence and time pressure.pdf",
+        "url_public_html": "https://frontiersin.figshare.com/articles/dataset/Supplementary_file_3_Reading_and_math_anxiety_in_children_differential_roles_of_state_and_trait_components_in_academic_performance_and_the_moderating_effects_of_intelligence_and_time_pressure_pdf/32211576",
+        "url": "https://api.figshare.com/v2/articles/32211576",
+        "resource_doi": "10.3389/frcha.2026.1778068",
+        "resource_title": "Reading and math anxiety in children: differential roles of state and trait components in academic performance, and the moderating effects of intelligence and time pressure",
+        "defined_type_name": "dataset"
+      },
+      {
+        "id": 32211555,
+        "title": "Supplementary file 4_Reading and math anxiety in children: differential roles of state and trait components in academic performance, and the moderating effects of intelligence and time pressure.pdf",
+        "url_public_html": "https://frontiersin.figshare.com/articles/dataset/Supplementary_file_4_Reading_and_math_anxiety_in_children_differential_roles_of_state_and_trait_components_in_academic_performance_and_the_moderating_effects_of_intelligence_and_time_pressure_pdf/32211555",
+        "url": "https://api.figshare.com/v2/articles/32211555",
+        "resource_doi": "10.3389/frcha.2026.1778068",
+        "resource_title": "Reading and math anxiety in children: differential roles of state and trait components in academic performance, and the moderating effects of intelligence and time pressure",
+        "defined_type_name": "dataset"
+      },
+      {
+        "id": 32211540,
+        "title": "Supplementary file 6_Reading and math anxiety in children: differential roles of state and trait components in academic performance, and the moderating effects of intelligence and time pressure.pdf",
+        "url_public_html": "https://frontiersin.figshare.com/articles/dataset/Supplementary_file_6_Reading_and_math_anxiety_in_children_differential_roles_of_state_and_trait_components_in_academic_performance_and_the_moderating_effects_of_intelligence_and_time_pressure_pdf/32211540",
+        "url": "https://api.figshare.com/v2/articles/32211540",
+        "resource_doi": "10.3389/frcha.2026.1778068",
+        "resource_title": "Reading and math anxiety in children: differential roles of state and trait components in academic performance, and the moderating effects of intelligence and time pressure",
+        "defined_type_name": "dataset"
+      },
+      {
+        "id": 32211546,
+        "title": "Supplementary file 5_Reading and math anxiety in children: differential roles of state and trait components in academic performance, and the moderating effects of intelligence and time pressure.pdf",
+        "url_public_html": "https://frontiersin.figshare.com/articles/dataset/Supplementary_file_5_Reading_and_math_anxiety_in_children_differential_roles_of_state_and_trait_components_in_academic_performance_and_the_moderating_effects_of_intelligence_and_time_pressure_pdf/32211546",
+        "url": "https://api.figshare.com/v2/articles/32211546",
+        "resource_doi": "10.3389/frcha.2026.1778068",
+        "resource_title": "Reading and math anxiety in children: differential roles of state and trait components in academic performance, and the moderating effects of intelligence and time pressure",
+        "defined_type_name": "dataset"
+      },
+      {
+        "id": 32069145,
+        "title": "SM document",
+        "url_public_html": "https://aip.figshare.com/articles/dataset/SM_document/32069145",
+        "url": "https://api.figshare.com/v2/articles/32069145",
+        "resource_doi": "",
+        "resource_title": "",
+        "defined_type_name": "dataset"
+      },
+      {
+        "id": 31821562,
+        "title": "SM document",
+        "url_public_html": "https://aip.figshare.com/articles/dataset/SM_document/31821562",
+        "url": "https://api.figshare.com/v2/articles/31821562",
+        "resource_doi": "",
+        "resource_title": "",
+        "defined_type_name": "dataset"
+      },
+      {
+        "id": 31976414,
+        "title": "Additional file 2 of Reduced plasma TIA-1: bridging established pathology and novel biomarker potential",
+        "url_public_html": "https://springernature.figshare.com/articles/dataset/Additional_file_2_of_Reduced_plasma_TIA-1_bridging_established_pathology_and_novel_biomarker_potential/31976414",
+        "url": "https://api.figshare.com/v2/articles/31976414",
+        "resource_doi": "10.1186/s13195-026-02020-9",
+        "resource_title": "Reduced plasma TIA-1: bridging established pathology and novel biomarker potential",
+        "defined_type_name": "dataset"
+      },
+      {
+        "id": 31969596,
+        "title": "Data Sheet 2_Challenging stigma and promoting mental health literacy in junior professional sports: an evaluation of an informational event.docx",
+        "url_public_html": "https://frontiersin.figshare.com/articles/dataset/Data_Sheet_2_Challenging_stigma_and_promoting_mental_health_literacy_in_junior_professional_sports_an_evaluation_of_an_informational_event_docx/31969596",
+        "url": "https://api.figshare.com/v2/articles/31969596",
+        "resource_doi": "10.3389/fspor.2026.1807417",
+        "resource_title": "Challenging stigma and promoting mental health literacy in junior professional sports: an evaluation of an informational event",
+        "defined_type_name": "dataset"
+      },
+      {
+        "id": 31969590,
+        "title": "Data Sheet 1_Challenging stigma and promoting mental health literacy in junior professional sports: an evaluation of an informational event.docx",
+        "url_public_html": "https://frontiersin.figshare.com/articles/dataset/Data_Sheet_1_Challenging_stigma_and_promoting_mental_health_literacy_in_junior_professional_sports_an_evaluation_of_an_informational_event_docx/31969590",
+        "url": "https://api.figshare.com/v2/articles/31969590",
+        "resource_doi": "10.3389/fspor.2026.1807417",
+        "resource_title": "Challenging stigma and promoting mental health literacy in junior professional sports: an evaluation of an informational event",
+        "defined_type_name": "dataset"
+      },
+      {
+        "id": 31910491,
+        "title": "Supplementary Material for: Expression of circulating miRNA before and after abdominal aneurysm repair",
+        "url_public_html": "https://karger.figshare.com/articles/dataset/Supplementary_Material_for_Expression_of_circulating_miRNA_before_and_after_abdominal_aneurysm_repair/31910491",
+        "url": "https://api.figshare.com/v2/articles/31910491",
+        "resource_doi": "10.1159/000551833",
+        "resource_title": "Expression of circulating miRNA before and after abdominal aneurysm repair",
+        "defined_type_name": "dataset"
+      },
+      {
+        "id": 31901989,
+        "title": "Supplementary file 1_Case Report: Mesh repair of a urinary bladder dorsal wall defect following repeated cystorrhaphy in a warmblood foal.pdf",
+        "url_public_html": "https://frontiersin.figshare.com/articles/dataset/Supplementary_file_1_Case_Report_Mesh_repair_of_a_urinary_bladder_dorsal_wall_defect_following_repeated_cystorrhaphy_in_a_warmblood_foal_pdf/31901989",
+        "url": "https://api.figshare.com/v2/articles/31901989",
+        "resource_doi": "10.3389/fvets.2026.1716790",
+        "resource_title": "Case Report: Mesh repair of a urinary bladder dorsal wall defect following repeated cystorrhaphy in a warmblood foal",
+        "defined_type_name": "dataset"
+      },
+      {
+        "id": 31901995,
+        "title": "Data Sheet 1_Case Report: Mesh repair of a urinary bladder dorsal wall defect following repeated cystorrhaphy in a warmblood foal.pdf",
+        "url_public_html": "https://frontiersin.figshare.com/articles/dataset/Data_Sheet_1_Case_Report_Mesh_repair_of_a_urinary_bladder_dorsal_wall_defect_following_repeated_cystorrhaphy_in_a_warmblood_foal_pdf/31901995",
+        "url": "https://api.figshare.com/v2/articles/31901995",
+        "resource_doi": "10.3389/fvets.2026.1716790",
+        "resource_title": "Case Report: Mesh repair of a urinary bladder dorsal wall defect following repeated cystorrhaphy in a warmblood foal",
+        "defined_type_name": "dataset"
+      },
+      {
+        "id": 31855341,
+        "title": "<p>Transmission pair characteristics.</p>",
+        "url_public_html": "https://plos.figshare.com/articles/dataset/_p_Transmission_pair_characteristics_p_/31855341",
+        "url": "https://api.figshare.com/v2/articles/31855341",
+        "resource_doi": "10.1371/journal.ppat.1014079",
+        "resource_title": "<p>The impact of viral and host factors on the influenza A virus transmission bottleneck</p>",
+        "defined_type_name": "dataset"
+      },
+      {
+        "id": 31855338,
+        "title": "<p>Influenza samples over four seasons within two household transmission studies.</p>",
+        "url_public_html": "https://plos.figshare.com/articles/dataset/_p_Influenza_samples_over_four_seasons_within_two_household_transmission_studies_p_/31855338",
+        "url": "https://api.figshare.com/v2/articles/31855338",
+        "resource_doi": "10.1371/journal.ppat.1014079",
+        "resource_title": "<p>The impact of viral and host factors on the influenza A virus transmission bottleneck</p>",
+        "defined_type_name": "dataset"
+      },
+      {
+        "id": 31838838,
+        "title": "Enantioselective\nHydration of Non-CoA Enoyl-Thioesters\nby Enoyl-CoA Hydratase (ECH): Activation of the Active Site Oxyanion\nHole with 3\u2032,5\u2032-Adenosine-Diphosphate Enables Competent\nCatalysis",
+        "url_public_html": "https://acs.figshare.com/articles/dataset/Enantioselective_Hydration_of_Non-CoA_Enoyl-Thioesters_by_Enoyl-CoA_Hydratase_ECH_Activation_of_the_Active_Site_Oxyanion_Hole_with_3_5_-Adenosine-Diphosphate_Enables_Competent_Catalysis/31838838",
+        "url": "https://api.figshare.com/v2/articles/31838838",
+        "resource_doi": "10.1021/jacsau.6c00054",
+        "resource_title": "Enantioselective\nHydration of Non-CoA Enoyl-Thioesters\nby Enoyl-CoA Hydratase (ECH): Activation of the Active Site Oxyanion\nHole with 3\u2032,5\u2032-Adenosine-Diphosphate Enables Competent\nCatalysis",
+        "defined_type_name": "dataset"
+      },
+      {
+        "id": 31829877,
+        "title": "Vacuum and Sonication\nTreatment Enable Efficient Transient\nGene Expression in Various Monocot and Eudicot Plant Seedlings",
+        "url_public_html": "https://acs.figshare.com/articles/dataset/Vacuum_and_Sonication_Treatment_Enable_Efficient_Transient_Gene_Expression_in_Various_Monocot_and_Eudicot_Plant_Seedlings/31829877",
+        "url": "https://api.figshare.com/v2/articles/31829877",
+        "resource_doi": "10.1021/acssynbio.5c00855",
+        "resource_title": "Vacuum and Sonication\nTreatment Enable Efficient Transient\nGene Expression in Various Monocot and Eudicot Plant Seedlings",
+        "defined_type_name": "dataset"
+      },
+      {
+        "id": 31033117,
+        "title": "Data for: A backwards view of visual adaptations: cranial specialization and predator evasion within a cursorial mammal",
+        "url_public_html": "https://adelaide.figshare.com/articles/dataset/Data_for_A_backwards_view_of_visual_adaptations_cranial_specialization_and_predator_evasion_within_a_cursorial_mammal/31033117",
+        "url": "https://api.figshare.com/v2/articles/31033117",
+        "resource_doi": "10.1098/rsos.252149",
+        "resource_title": "A backwards view of visual adaptations: cranial specialization and predator evasion within a cursorial mammal",
+        "defined_type_name": "dataset"
+      },
+      {
+        "id": 31685996,
+        "title": "<p>Group difference between intervention group and control group (intervention \u2013 control).</p>",
+        "url_public_html": "https://plos.figshare.com/articles/dataset/_p_Group_difference_between_intervention_group_and_control_group_intervention_control_p_/31685996",
+        "url": "https://api.figshare.com/v2/articles/31685996",
+        "resource_doi": "10.1371/journal.pone.0336748",
+        "resource_title": "<p>Brief daily functional strength training to improve functional performance in older adults with mobility disability: A randomized trial</p>",
+        "defined_type_name": "dataset"
+      },
+      {
+        "id": 31685993,
+        "title": "<p>Participant characteristics at baseline.</p>",
+        "url_public_html": "https://plos.figshare.com/articles/dataset/_p_Participant_characteristics_at_baseline_p_/31685993",
+        "url": "https://api.figshare.com/v2/articles/31685993",
+        "resource_doi": "10.1371/journal.pone.0336748",
+        "resource_title": "<p>Brief daily functional strength training to improve functional performance in older adults with mobility disability: A randomized trial</p>",
+        "defined_type_name": "dataset"
+      },
+      {
+        "id": 31404655,
+        "title": "Additional file 1 of Alterations in cerebrospinal fluid levels of myelin- and oligodendrocyte-related proteins in sporadic Creutzfeldt\u2013Jakob disease",
+        "url_public_html": "https://springernature.figshare.com/articles/dataset/Additional_file_1_of_Alterations_in_cerebrospinal_fluid_levels_of_myelin-_and_oligodendrocyte-related_proteins_in_sporadic_Creutzfeldt_Jakob_disease/31404655",
+        "url": "https://api.figshare.com/v2/articles/31404655",
+        "resource_doi": "10.1186/s40478-026-02247-5",
+        "resource_title": "Alterations in cerebrospinal fluid levels of myelin- and oligodendrocyte-related proteins in sporadic Creutzfeldt\u2013Jakob disease",
+        "defined_type_name": "dataset"
+      },
+      {
+        "id": 31312432,
+        "title": "Table 1_Superabsorbent polymers seed coatings modulate transcriptomic and physiological responses to drought in rapeseed.xlsx",
+        "url_public_html": "https://frontiersin.figshare.com/articles/dataset/Table_1_Superabsorbent_polymers_seed_coatings_modulate_transcriptomic_and_physiological_responses_to_drought_in_rapeseed_xlsx/31312432",
+        "url": "https://api.figshare.com/v2/articles/31312432",
+        "resource_doi": "10.3389/fpls.2026.1711479",
+        "resource_title": "Superabsorbent polymers seed coatings modulate transcriptomic and physiological responses to drought in rapeseed",
+        "defined_type_name": "dataset"
+      },
+      {
+        "id": 31312369,
+        "title": "Table 2_Superabsorbent polymers seed coatings modulate transcriptomic and physiological responses to drought in rapeseed.xlsx",
+        "url_public_html": "https://frontiersin.figshare.com/articles/dataset/Table_2_Superabsorbent_polymers_seed_coatings_modulate_transcriptomic_and_physiological_responses_to_drought_in_rapeseed_xlsx/31312369",
+        "url": "https://api.figshare.com/v2/articles/31312369",
+        "resource_doi": "10.3389/fpls.2026.1711479",
+        "resource_title": "Superabsorbent polymers seed coatings modulate transcriptomic and physiological responses to drought in rapeseed",
+        "defined_type_name": "dataset"
+      },
+      {
+        "id": 31312318,
+        "title": "Data Sheet 1_Superabsorbent polymers seed coatings modulate transcriptomic and physiological responses to drought in rapeseed.pdf",
+        "url_public_html": "https://frontiersin.figshare.com/articles/dataset/Data_Sheet_1_Superabsorbent_polymers_seed_coatings_modulate_transcriptomic_and_physiological_responses_to_drought_in_rapeseed_pdf/31312318",
+        "url": "https://api.figshare.com/v2/articles/31312318",
+        "resource_doi": "10.3389/fpls.2026.1711479",
+        "resource_title": "Superabsorbent polymers seed coatings modulate transcriptomic and physiological responses to drought in rapeseed",
+        "defined_type_name": "dataset"
+      },
+      {
+        "id": 31308271,
+        "title": "pone.0342014.t003 - <p> </p>",
+        "url_public_html": "https://plos.figshare.com/articles/dataset/pone_0342014_t003_-_p_p_/31308271",
+        "url": "https://api.figshare.com/v2/articles/31308271",
+        "resource_doi": "10.1371/journal.pone.0342014",
+        "resource_title": "<p>A novel approach towards a histone replacement system in Tetrapods</p>",
+        "defined_type_name": "dataset"
+      },
+      {
+        "id": 31308268,
+        "title": "pone.0342014.t002 - <p> </p>",
+        "url_public_html": "https://plos.figshare.com/articles/dataset/pone_0342014_t002_-_p_p_/31308268",
+        "url": "https://api.figshare.com/v2/articles/31308268",
+        "resource_doi": "10.1371/journal.pone.0342014",
+        "resource_title": "<p>A novel approach towards a histone replacement system in Tetrapods</p>",
+        "defined_type_name": "dataset"
+      },
+      {
+        "id": 31308265,
+        "title": "<p>Comparative analysis of the human and chicken genomes with respect to the number of histone genes and the similarity of their isoforms.</p>",
+        "url_public_html": "https://plos.figshare.com/articles/dataset/_p_Comparative_analysis_of_the_human_and_chicken_genomes_with_respect_to_the_number_of_histone_genes_and_the_similarity_of_their_isoforms_p_/31308265",
+        "url": "https://api.figshare.com/v2/articles/31308265",
+        "resource_doi": "10.1371/journal.pone.0342014",
+        "resource_title": "<p>A novel approach towards a histone replacement system in Tetrapods</p>",
+        "defined_type_name": "dataset"
+      },
+      {
+        "id": 31308241,
+        "title": "<p>shRNAs tested targeting chicken histone genes.</p>",
+        "url_public_html": "https://plos.figshare.com/articles/dataset/_p_shRNAs_tested_targeting_chicken_histone_genes_p_/31308241",
+        "url": "https://api.figshare.com/v2/articles/31308241",
+        "resource_doi": "10.1371/journal.pone.0342014",
+        "resource_title": "<p>A novel approach towards a histone replacement system in Tetrapods</p>",
+        "defined_type_name": "dataset"
+      },
+      {
+        "id": 31260220,
+        "title": "Table 5_Transcriptomic and physiological effects of superabsorbent polymer seed coating on maize under drought stress.xlsx",
+        "url_public_html": "https://frontiersin.figshare.com/articles/dataset/Table_5_Transcriptomic_and_physiological_effects_of_superabsorbent_polymer_seed_coating_on_maize_under_drought_stress_xlsx/31260220",
+        "url": "https://api.figshare.com/v2/articles/31260220",
+        "resource_doi": "10.3389/fpls.2026.1736004",
+        "resource_title": "Transcriptomic and physiological effects of superabsorbent polymer seed coating on maize under drought stress",
+        "defined_type_name": "dataset"
+      },
+      {
+        "id": 31260223,
+        "title": "Table 6_Transcriptomic and physiological effects of superabsorbent polymer seed coating on maize under drought stress.xlsx",
+        "url_public_html": "https://frontiersin.figshare.com/articles/dataset/Table_6_Transcriptomic_and_physiological_effects_of_superabsorbent_polymer_seed_coating_on_maize_under_drought_stress_xlsx/31260223",
+        "url": "https://api.figshare.com/v2/articles/31260223",
+        "resource_doi": "10.3389/fpls.2026.1736004",
+        "resource_title": "Transcriptomic and physiological effects of superabsorbent polymer seed coating on maize under drought stress",
+        "defined_type_name": "dataset"
+      },
+      {
+        "id": 31260208,
+        "title": "Table 7_Transcriptomic and physiological effects of superabsorbent polymer seed coating on maize under drought stress.xlsx",
+        "url_public_html": "https://frontiersin.figshare.com/articles/dataset/Table_7_Transcriptomic_and_physiological_effects_of_superabsorbent_polymer_seed_coating_on_maize_under_drought_stress_xlsx/31260208",
+        "url": "https://api.figshare.com/v2/articles/31260208",
+        "resource_doi": "10.3389/fpls.2026.1736004",
+        "resource_title": "Transcriptomic and physiological effects of superabsorbent polymer seed coating on maize under drought stress",
+        "defined_type_name": "dataset"
+      },
+      {
+        "id": 31260211,
+        "title": "Table 4_Transcriptomic and physiological effects of superabsorbent polymer seed coating on maize under drought stress.xlsx",
+        "url_public_html": "https://frontiersin.figshare.com/articles/dataset/Table_4_Transcriptomic_and_physiological_effects_of_superabsorbent_polymer_seed_coating_on_maize_under_drought_stress_xlsx/31260211",
+        "url": "https://api.figshare.com/v2/articles/31260211",
+        "resource_doi": "10.3389/fpls.2026.1736004",
+        "resource_title": "Transcriptomic and physiological effects of superabsorbent polymer seed coating on maize under drought stress",
+        "defined_type_name": "dataset"
+      },
+      {
+        "id": 31260202,
+        "title": "Table 2_Transcriptomic and physiological effects of superabsorbent polymer seed coating on maize under drought stress.docx",
+        "url_public_html": "https://frontiersin.figshare.com/articles/dataset/Table_2_Transcriptomic_and_physiological_effects_of_superabsorbent_polymer_seed_coating_on_maize_under_drought_stress_docx/31260202",
+        "url": "https://api.figshare.com/v2/articles/31260202",
+        "resource_doi": "10.3389/fpls.2026.1736004",
+        "resource_title": "Transcriptomic and physiological effects of superabsorbent polymer seed coating on maize under drought stress",
+        "defined_type_name": "dataset"
+      },
+      {
+        "id": 31260205,
+        "title": "Table 1_Transcriptomic and physiological effects of superabsorbent polymer seed coating on maize under drought stress.docx",
+        "url_public_html": "https://frontiersin.figshare.com/articles/dataset/Table_1_Transcriptomic_and_physiological_effects_of_superabsorbent_polymer_seed_coating_on_maize_under_drought_stress_docx/31260205",
+        "url": "https://api.figshare.com/v2/articles/31260205",
+        "resource_doi": "10.3389/fpls.2026.1736004",
+        "resource_title": "Transcriptomic and physiological effects of superabsorbent polymer seed coating on maize under drought stress",
+        "defined_type_name": "dataset"
+      },
+      {
+        "id": 31260190,
+        "title": "Table 3_Transcriptomic and physiological effects of superabsorbent polymer seed coating on maize under drought stress.docx",
+        "url_public_html": "https://frontiersin.figshare.com/articles/dataset/Table_3_Transcriptomic_and_physiological_effects_of_superabsorbent_polymer_seed_coating_on_maize_under_drought_stress_docx/31260190",
+        "url": "https://api.figshare.com/v2/articles/31260190",
+        "resource_doi": "10.3389/fpls.2026.1736004",
+        "resource_title": "Transcriptomic and physiological effects of superabsorbent polymer seed coating on maize under drought stress",
+        "defined_type_name": "dataset"
+      },
+      {
+        "id": 31237654,
+        "title": "Table 1_NOD-like receptor repertoire in the chromosome-level genome of the demosponge Dysidea avara (Schmidt, 1862).xlsx",
+        "url_public_html": "https://frontiersin.figshare.com/articles/dataset/Table_1_NOD-like_receptor_repertoire_in_the_chromosome-level_genome_of_the_demosponge_Dysidea_avara_Schmidt_1862_xlsx/31237654",
+        "url": "https://api.figshare.com/v2/articles/31237654",
+        "resource_doi": "10.3389/fimmu.2026.1725140",
+        "resource_title": "NOD-like receptor repertoire in the chromosome-level genome of the demosponge Dysidea avara (Schmidt, 1862)",
+        "defined_type_name": "dataset"
+      },
+      {
+        "id": 31237642,
+        "title": "Data Sheet 1_NOD-like receptor repertoire in the chromosome-level genome of the demosponge Dysidea avara (Schmidt, 1862).zip",
+        "url_public_html": "https://frontiersin.figshare.com/articles/dataset/Data_Sheet_1_NOD-like_receptor_repertoire_in_the_chromosome-level_genome_of_the_demosponge_Dysidea_avara_Schmidt_1862_zip/31237642",
+        "url": "https://api.figshare.com/v2/articles/31237642",
+        "resource_doi": "10.3389/fimmu.2026.1725140",
+        "resource_title": "NOD-like receptor repertoire in the chromosome-level genome of the demosponge Dysidea avara (Schmidt, 1862)",
+        "defined_type_name": "dataset"
+      },
+      {
+        "id": 31237618,
+        "title": "Data Sheet 2_NOD-like receptor repertoire in the chromosome-level genome of the demosponge Dysidea avara (Schmidt, 1862).pdf",
+        "url_public_html": "https://frontiersin.figshare.com/articles/dataset/Data_Sheet_2_NOD-like_receptor_repertoire_in_the_chromosome-level_genome_of_the_demosponge_Dysidea_avara_Schmidt_1862_pdf/31237618",
+        "url": "https://api.figshare.com/v2/articles/31237618",
+        "resource_doi": "10.3389/fimmu.2026.1725140",
+        "resource_title": "NOD-like receptor repertoire in the chromosome-level genome of the demosponge Dysidea avara (Schmidt, 1862)",
+        "defined_type_name": "dataset"
+      },
+      {
+        "id": 31237627,
+        "title": "Data Sheet 3_NOD-like receptor repertoire in the chromosome-level genome of the demosponge Dysidea avara (Schmidt, 1862).pdf",
+        "url_public_html": "https://frontiersin.figshare.com/articles/dataset/Data_Sheet_3_NOD-like_receptor_repertoire_in_the_chromosome-level_genome_of_the_demosponge_Dysidea_avara_Schmidt_1862_pdf/31237627",
+        "url": "https://api.figshare.com/v2/articles/31237627",
+        "resource_doi": "10.3389/fimmu.2026.1725140",
+        "resource_title": "NOD-like receptor repertoire in the chromosome-level genome of the demosponge Dysidea avara (Schmidt, 1862)",
+        "defined_type_name": "dataset"
+      },
+      {
+        "id": 31199917,
+        "title": "Data Sheet 1_Bayesian experimental design in production engineering: a comprehensive performance and robustness study.pdf",
+        "url_public_html": "https://frontiersin.figshare.com/articles/dataset/Data_Sheet_1_Bayesian_experimental_design_in_production_engineering_a_comprehensive_performance_and_robustness_study_pdf/31199917",
+        "url": "https://api.figshare.com/v2/articles/31199917",
+        "resource_doi": "10.3389/fmtec.2025.1614335",
+        "resource_title": "Bayesian experimental design in production engineering: a comprehensive performance and robustness study",
+        "defined_type_name": "dataset"
+      },
+      {
+        "id": 31072148,
+        "title": "Structure\u2013Activity\nand Structure\u2013Degradation\nRelationship Studies of 2\u2011Amino-6-(benzimidazol-2-ylmethyl)-N9-heteroarylpurines\nas Potent and Selective CDK12/13 Inhibitors and Cyclin K Degraders",
+        "url_public_html": "https://acs.figshare.com/articles/dataset/Structure_Activity_and_Structure_Degradation_Relationship_Studies_of_2_Amino-6-_benzimidazol-2-ylmethyl_-N9-heteroarylpurines_as_Potent_and_Selective_CDK12_13_Inhibitors_and_Cyclin_K_Degraders/31072148",
+        "url": "https://api.figshare.com/v2/articles/31072148",
+        "resource_doi": "10.1021/acs.jmedchem.5c02086",
+        "resource_title": "Structure\u2013Activity\nand Structure\u2013Degradation\nRelationship Studies of 2\u2011Amino-6-(benzimidazol-2-ylmethyl)-N9-heteroarylpurines\nas Potent and Selective CDK12/13 Inhibitors and Cyclin K Degraders",
+        "defined_type_name": "dataset"
+      },
+      {
+        "id": 31072145,
+        "title": "Structure\u2013Activity\nand Structure\u2013Degradation\nRelationship Studies of 2\u2011Amino-6-(benzimidazol-2-ylmethyl)-N9-heteroarylpurines\nas Potent and Selective CDK12/13 Inhibitors and Cyclin K Degraders",
+        "url_public_html": "https://acs.figshare.com/articles/dataset/Structure_Activity_and_Structure_Degradation_Relationship_Studies_of_2_Amino-6-_benzimidazol-2-ylmethyl_-N9-heteroarylpurines_as_Potent_and_Selective_CDK12_13_Inhibitors_and_Cyclin_K_Degraders/31072145",
+        "url": "https://api.figshare.com/v2/articles/31072145",
+        "resource_doi": "10.1021/acs.jmedchem.5c02086",
+        "resource_title": "Structure\u2013Activity\nand Structure\u2013Degradation\nRelationship Studies of 2\u2011Amino-6-(benzimidazol-2-ylmethyl)-N9-heteroarylpurines\nas Potent and Selective CDK12/13 Inhibitors and Cyclin K Degraders",
+        "defined_type_name": "dataset"
+      },
+      {
+        "id": 31072142,
+        "title": "Structure\u2013Activity\nand Structure\u2013Degradation\nRelationship Studies of 2\u2011Amino-6-(benzimidazol-2-ylmethyl)-N9-heteroarylpurines\nas Potent and Selective CDK12/13 Inhibitors and Cyclin K Degraders",
+        "url_public_html": "https://acs.figshare.com/articles/dataset/Structure_Activity_and_Structure_Degradation_Relationship_Studies_of_2_Amino-6-_benzimidazol-2-ylmethyl_-N9-heteroarylpurines_as_Potent_and_Selective_CDK12_13_Inhibitors_and_Cyclin_K_Degraders/31072142",
+        "url": "https://api.figshare.com/v2/articles/31072142",
+        "resource_doi": "10.1021/acs.jmedchem.5c02086",
+        "resource_title": "Structure\u2013Activity\nand Structure\u2013Degradation\nRelationship Studies of 2\u2011Amino-6-(benzimidazol-2-ylmethyl)-N9-heteroarylpurines\nas Potent and Selective CDK12/13 Inhibitors and Cyclin K Degraders",
+        "defined_type_name": "dataset"
+      },
+      {
+        "id": 31072139,
+        "title": "Structure\u2013Activity\nand Structure\u2013Degradation\nRelationship Studies of 2\u2011Amino-6-(benzimidazol-2-ylmethyl)-N9-heteroarylpurines\nas Potent and Selective CDK12/13 Inhibitors and Cyclin K Degraders",
+        "url_public_html": "https://acs.figshare.com/articles/dataset/Structure_Activity_and_Structure_Degradation_Relationship_Studies_of_2_Amino-6-_benzimidazol-2-ylmethyl_-N9-heteroarylpurines_as_Potent_and_Selective_CDK12_13_Inhibitors_and_Cyclin_K_Degraders/31072139",
+        "url": "https://api.figshare.com/v2/articles/31072139",
+        "resource_doi": "10.1021/acs.jmedchem.5c02086",
+        "resource_title": "Structure\u2013Activity\nand Structure\u2013Degradation\nRelationship Studies of 2\u2011Amino-6-(benzimidazol-2-ylmethyl)-N9-heteroarylpurines\nas Potent and Selective CDK12/13 Inhibitors and Cyclin K Degraders",
+        "defined_type_name": "dataset"
+      },
+      {
+        "id": 30941797,
+        "title": "<p>Severe Adverse Events [SAEs], study-related Adverse Events [AEs] and drop-outs.</p>",
+        "url_public_html": "https://plos.figshare.com/articles/dataset/_p_Severe_Adverse_Events_SAEs_study-related_Adverse_Events_AEs_and_drop-outs_p_/30941797",
+        "url": "https://api.figshare.com/v2/articles/30941797",
+        "resource_doi": "10.1371/journal.pone.0324422",
+        "resource_title": "<p>The use of carbogen for interruption of febrile seizures - the randomized controlled CARDIF trial</p>",
+        "defined_type_name": "dataset"
+      }
+    ]
+  }
+]

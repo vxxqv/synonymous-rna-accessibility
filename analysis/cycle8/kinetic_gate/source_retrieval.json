@@ -1,0 +1,18 @@
+[
+  {
+    "id": "cenik2015",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4617958/fullTextXML",
+    "status": 200,
+    "bytes": 158932,
+    "sha256": "70611934c91cca147478b70208cf16919f7cf068e6b19c982fb66c1f69c2ebf5",
+    "parsed_xml": true
+  },
+  {
+    "id": "mueller2024",
+    "url": "https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1012059&type=manuscript",
+    "status": 200,
+    "bytes": 219708,
+    "sha256": "72a7bf9eb523fc7d63dcbf40ab8f3566f68c630d15d09b964868d7b016bbc97d",
+    "parsed_xml": true
+  }
+]

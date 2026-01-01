@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "source_sha256": "f1ad7ce256ff2347a5eaccb20fede927a848e256eabea6ee914e23bbe9d68ca9",
+  "result": {
+    "source": "author full intended transcript FASTA; not observed isoforms",
+    "records": 6500,
+    "reference_orf_amino_acids": 239,
+    "reference_orf_end_exclusive": 720,
+    "all_records_same_reference_ORF": true,
+    "reference_variation_first_index": 741,
+    "reporter_suffix_groups": 642,
+    "barcode_group_multiplicity_counts": {
+      "10": 640,
+      "50": 2
+    },
+    "non10_groups": {
+      "7pcx4": 50,
+      "BBBB": 50
+    },
+    "phenotypes_inspected": false,
+    "spliced_products_not_inferred": true
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "category_matrix": [
+    [
+      "1",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "1",
+      "1",
+      "0"
+    ]
+  ],
+  "rank": 2,
+  "nullspace_basis": [
+    [
+      "0",
+      "1",
+      "-1",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "1"
+    ]
+  ],
+  "mixtures": [
+    [
+      "2",
+      "3",
+      "1",
+      "1"
+    ],
+    [
+      "2",
+      "1",
+      "3",
+      "1"
+    ]
+  ],
+  "same_observations": [
+    2,
+    4
+  ],
+  "same_total": 7,
+  "hypothetical_coding_contrast": [
+    "1",
+    "1",
+    "0",
+    "0"
+  ],
+  "coding_contrast_values": [
+    5,
+    3
+  ],
+  "coding_assignment_status": "admissible abstract unresolved assignment, not authenticated source transcript mixture",
+  "parser_categories": [
+    "AG_junction_low_mismatch-lastD_100_lastA_130",
+    "AG_junction_low_mismatch-lastD_100_lastA_130"
+  ],
+  "parser_fixture_status": "symbolic predicate reference, not a nucleotide sequence or assertion that actual GT-AG paths occur",
+  "six_barcode_medians": [
+    "1/10",
+    "1/10",
+    "1/10"
+  ],
+  "sum_median_fractions": "3/10",
+  "missing_preparation_example": {
+    "source_pivot_F": "19/20",
+    "source_pivot_S": "1/10",
+    "correct_zero_completed_prep_mean_S": "1/20"
+  }
+}

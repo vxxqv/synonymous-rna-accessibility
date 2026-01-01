@@ -1,0 +1,41 @@
+# C/G observation-identification extension
+
+**Decision:** the Dao architecture supports conditional read-category contrasts, but its full transcript/coding-product observation matrix remains unauthenticated. The kinetic extension has a complete global classification for the ten stipulated calibrated observations: two distinct nuclear classes plus one protein-clock class are necessary and sufficient. There are 51 minimal triples. No actual assay supplies those physical constraints merely by its label, and no kinetic fit is admissible here.
+
+This is a bounded source/mathematical result, newly authored with inherited context and pending fresh adversarial proof review. Finite synthetic checks are corroboration, not a proof of the universal statements. No source phenotype value, outcome missingness, raw read or new nucleotide sequence was opened/generated, and no experiment was designed.
+
+## Claim-to-evidence table
+
+| Claim | Evidence | Limit / falsifier |
+| --- | --- | --- |
+| A source raw count table determines fractions of retained, assigned full-length and named junction categories per reporter/preparation. | Authenticated Methods, demultiplexing/artifact/category code and raw-count processing. | This is conditional on primers, assignment, artifacts and denominator filters. It is not a census of original RNA or an identified coding-product mixture. |
+| A reported junction category need not retain a complete path. | The source sums recognized deletion lengths but records the last junction; a symbolic two-CIGAR fixture returns the same label. | No actual competing paths or their coding labels were established. Full read alignments may retain omitted information. A complete linked clone/path/product map could remove this ambiguity. |
+| The abstract captured-category matrix can have null directions that change a coding contrast. | Explicit rank 2 matrix, two positive mixtures with equal total and identical observations but contrasts5 versus3. | This is an admissible unresolved assignment, not an empirical source matrix or observed transcript mixture. No rank is assigned to the actual transcriptome. |
+| Median processed fractions need not form a normalized probability vector. | Six eligible synthetic barcodes give coordinate medians(0.1,0.1,0.1), sum 0.3. A missing preparation-category row gives a distinct pivot mean. | This tests the documented aggregation operator, not actual artifact frequency or an allegation that the source's chosen summary is invalid. It cannot be silently relabeled a molecular mixture. |
+| Every subset of the ten additional rate/flux/fraction candidates is classified globally. | Positive equilibrium coordinates(x,y,z); six explicit nuclear inverse maps; positive indistinguishable alternatives for all insufficient classes. | Requires exact calibrated n,c,p, the stated constant positive equilibrium model and consistent observations. It is not identifiability from full trajectories or from arbitrary other measurements. |
+| Exactly51 minimal triples and805 sufficient subsets exist. | Equivalence class sizes2,3,1,1,3 and counting proof; all 1,024 subsets exported. | Count applies only to this candidate list/domain. Unknown gains, product identity or extra compartments change the problem. |
+| One calibrated occupancy with unknown residence time does not replace a protein-clock constraint. | O=H*tau admits tau=O/(pz) for every z>0. | The ideal occupancy/flow relation is itself unverified for these assays. Adding a free residence time is not a new measured rate. |
+
+## What can be used now
+
+For C, retain an operational RNA-read category description and the exact missing-link requirement. Do not promote it to a new coding-synonymous landscape or true product-mixture estimate. The primary Dao result already concerns cryptic splicing and changed products. The inspected large library varies after its reference ORF; reference protein sameness alone does not fix that object problem.
+
+For G, the complete observation table is useful as an assay-specific identification checklist. It says precisely what additional information types would be sufficient under an ideal model. It supplies no new biological rate, structure mechanism or substitute for measured calibration. Algebraically sufficient information is not proof that an existing assay measures it.
+
+| Current package | Actual observation | Missing map to the kinetic theorem |
+| --- | --- | --- |
+| COMT A | Source-normalized RNA, polysome-metafraction and low-fluorescence-bin representations with shared references. | No calibrated contemporaneous n,c,p; low-bin frequency is not mean protein; occupancy is not completion flux. The source's21 h/24 h readouts do not establish one equilibrium. A successful predictor could still exploit shared measurement error. |
+| cPRIME B | Local motif RNA/DNA proxy responses and marker/cell contexts. | No complete realized haplotype/product inventory, compartment amounts or rate/flux calibration. Empirical ranges do not become exact kinetic constraints. |
+| Dao C | Retained barcode/category fractions under RT/PCR and alignment rules. | Full clone/path/coding-product mapping and relative capture efficiencies are not known. Even a transcript fraction would not supply all separate throughput/partition/protein-clock information. |
+
+The single most informative missing C record is an existing linked barcode/realized full-plasmid/complete RNA-junction-path/CDS-stop annotation with preparation identity and exclusions. Physical RNA proportions would additionally need relative recovery calibration. This is a record requirement, not a new experimental protocol. If it cannot be recovered, the empirical coding-product claim stays closed rather than being filled by a hypothetical matrix.
+
+## Prior boundary and evidence
+
+Müller et al., *Nuclear export is a limiting factor in eukaryotic mRNA metabolism*, PLOS Computational Biology 2024, [DOI 10.1371/journal.pcbi.1012059](https://doi.org/10.1371/journal.pcbi.1012059), already supplies the RNA subsystem and uses compartment-resolved labeling trajectories. Its Methods do not authenticate rates or negligible nuclear degradation for COMT. Cenik et al. 2015 [DOI 10.1101/gr.193342.115](https://doi.org/10.1101/gr.193342.115) already distinguishes RNA/translation/protein layers and competing explanations; this is not a new general buffering caveat. Chis, Banga and Balsa-Canto 2011 [DOI 10.1371/journal.pone.0027755](https://doi.org/10.1371/journal.pone.0027755) supplies standard global-versus-local identifiability context. These sources do not need to contain this exact 51-triple list for the underlying elementary algebra to remain established in character. No priority or first-discovery claim is made.
+
+SciSpace was used for targeted identifiability discovery; the selected 2011 source was then read in the official PLOS primary XML. Additional search returns, including preprints, were not used as proof or newly verified publication status. Existing Müller/Cenik authenticated primary files were reused. The new Dao XML and three necessary source-only author scripts were recovered publicly and verified to the pinned Git blobs. No notebook outputs or phenotype table was read. Primary papers are local research evidence, not computational-release assets.
+
+`rate_observation_theorem.md` contains exact hypotheses, all inverse formulas, necessity/minimality proofs, consistency conditions, conditioning and occupancy extension. `processing_observation_contract.md` separates known rows from unknown transcript columns and gives the conditional matrix/counterexamples. `derive_and_check.py` performs 5,127 rational checks, exports all subsets and the examples, and isolates only the original parser function AST on symbolic predicates. The original successful draft is retained under `history_v1`; explicit export-fraction domain guards were added before the final run. There were no real-data failures or result-driven changes.
+
+Root should obtain the planned fresh proof review before manuscript promotion. This task stops with reviewable theory/source evidence; it does not authorize new biological outcomes, parameter fitting, shared-file edits, Git or publication.

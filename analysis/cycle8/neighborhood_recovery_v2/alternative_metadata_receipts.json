@@ -1,0 +1,100 @@
+[
+  {
+    "id": "tp53_current_cloud_metadata",
+    "url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC5626615.1/PMC5626615.1.json",
+    "params": null,
+    "status": 200,
+    "final_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC5626615.1/PMC5626615.1.json",
+    "bytes": 649,
+    "sha256": "06f398273dab27b2edccf8cdcdf2c6473529127454204b210727e39f67b802a2",
+    "redirects": [],
+    "metadata": {
+      "pmcid": "PMC5626615",
+      "version": 1,
+      "pmid": 28652265,
+      "doi": "10.1158/1541-7786.MCR-17-0245",
+      "mid": "NIHMS888465",
+      "title": "A Massively Parallel Fluorescence Assay to Characterize the Effects of Synonymous Mutations on TP53 Expression",
+      "citation": "Mol Cancer Res. Author manuscript; Available in PMC 2018 Oct 1.",
+      "is_pmc_openaccess": false,
+      "is_manuscript": true,
+      "is_historical_ocr": false,
+      "is_retracted": false,
+      "license_code": "TDM",
+      "xml_url": "s3://pmc-oa-opendata/PMC5626615.1/PMC5626615.1.xml?md5=6afc1b2d2cb83821df097ae105809c84",
+      "text_url": "s3://pmc-oa-opendata/PMC5626615.1/PMC5626615.1.txt?md5=378dd13461d63670932246d2c3c259be"
+    }
+  },
+  {
+    "id": "schmitz_datacite_relation",
+    "url": "https://api.datacite.org/dois",
+    "params": {
+      "query": "relatedIdentifiers.relatedIdentifier:\"10.1186/s12864-021-07462-z\"",
+      "page[size]": 20
+    },
+    "status": 200,
+    "final_url": "https://api.datacite.org/dois?query=relatedIdentifiers.relatedIdentifier%3A%2210.1186%2Fs12864-021-07462-z%22&page%5Bsize%5D=20",
+    "bytes": 24823,
+    "sha256": "94d5429568f4960d941dbb0b1f600318fb7028195b27a148a0ee54d486d0aa8f",
+    "redirects": [],
+    "total": 4,
+    "matches": [
+      {
+        "id": "10.6084/m9.figshare.14151221.v1",
+        "title": [
+          {
+            "title": "Additional file 1 of Massively parallel gene expression variation measurement of a synonymous codon library"
+          }
+        ],
+        "url": "https://springernature.figshare.com/articles/journal_contribution/Additional_file_1_of_Massively_parallel_gene_expression_variation_measurement_of_a_synonymous_codon_library/14151221/1"
+      },
+      {
+        "id": "10.6084/m9.figshare.14151221",
+        "title": [
+          {
+            "title": "Additional file 1 of Massively parallel gene expression variation measurement of a synonymous codon library"
+          }
+        ],
+        "url": "https://springernature.figshare.com/articles/journal_contribution/Additional_file_1_of_Massively_parallel_gene_expression_variation_measurement_of_a_synonymous_codon_library/14151221"
+      },
+      {
+        "id": "10.6084/m9.figshare.c.5324753.v1",
+        "title": [
+          {
+            "title": "Massively parallel gene expression variation measurement of a synonymous codon library"
+          }
+        ],
+        "url": "https://springernature.figshare.com/collections/Massively_parallel_gene_expression_variation_measurement_of_a_synonymous_codon_library/5324753/1"
+      },
+      {
+        "id": "10.6084/m9.figshare.c.5324753",
+        "title": [
+          {
+            "title": "Massively parallel gene expression variation measurement of a synonymous codon library"
+          }
+        ],
+        "url": "https://springernature.figshare.com/collections/Massively_parallel_gene_expression_variation_measurement_of_a_synonymous_codon_library/5324753"
+      }
+    ]
+  },
+  {
+    "id": "pmc_service_retirement",
+    "url": "https://pmc.ncbi.nlm.nih.gov/tools/oa-service/",
+    "params": null,
+    "status": 403,
+    "final_url": "https://pmc.ncbi.nlm.nih.gov/tools/oa-service/",
+    "bytes": 134,
+    "sha256": "c996c0469ef05ff6fdd1f7cefbc3f7e109bb21969de42fcf591498a828a7ad5f",
+    "redirects": []
+  },
+  {
+    "id": "figshare_public_api_documentation",
+    "url": "https://docs.figshare.com/old_docs/api/articles/",
+    "params": null,
+    "status": 200,
+    "final_url": "https://docs.figshare.com/old_docs/api/articles/",
+    "bytes": 49784,
+    "sha256": "0a1431a1b975b3e93d613dbd0ff6b6987182473a0c06a37bca08769ee4f62943",
+    "redirects": []
+  }
+]

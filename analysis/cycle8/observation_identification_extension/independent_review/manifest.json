@@ -1,0 +1,17 @@
+{
+  "status": "PASS_WITH_CONDITIONING_WORDING_CLARIFICATION",
+  "authoritative_receipt": "exact_v2/receipt.json",
+  "files_sha256": {
+    "exact_v1/global_symbolic_evidence.json": "343e8ffa7743c501a6630d8150eb1fb10059c728b75dfee300b5b76ba316317e",
+    "exact_v1/processing_evidence.json": "6cb55ab7ccee1eb75c5177a264613e3e52545df8d33c75159e880dce4c812698",
+    "exact_v1/receipt.json": "32f16831675b2b84ebaed228ef357fa4c6996b6ffbab965771a1f0d79ed23d09",
+    "exact_v2/global_symbolic_evidence.json": "343e8ffa7743c501a6630d8150eb1fb10059c728b75dfee300b5b76ba316317e",
+    "exact_v2/processing_evidence.json": "6cb55ab7ccee1eb75c5177a264613e3e52545df8d33c75159e880dce4c812698",
+    "exact_v2/receipt.json": "f7f062509893c059b64b4f8dfd82cf6d8648b94e542104fe937ab93224f2b8e8",
+    "history_v1/verify_symbolic.py": "d7d3e2c98c25fca47f81348b1f1124a6496dbd458cb01c4b91b0587096c0d88c",
+    "review.md": "33541e039c44c5c65418f2fe66ef08b0f4896ed20faee312168bf350e672fad1",
+    "verify_symbolic.py": "9a6227854d757db983d8b068175978232e388e0d066cd0a3aaf428bdc622cb28"
+  },
+  "author_sources_modified": false,
+  "review_v1_v2_scientific_evidence_identical": true
+}

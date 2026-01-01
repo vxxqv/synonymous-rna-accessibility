@@ -1,0 +1,42 @@
+{
+  "kind": "audit",
+  "summary": "All 2 references verified",
+  "title": null,
+  "authorsShort": null,
+  "year": null,
+  "container": null,
+  "doi": null,
+  "identifiers": [],
+  "reference": null,
+  "style": null,
+  "verdict": null,
+  "confidence": null,
+  "mismatches": [],
+  "retraction": null,
+  "auditRows": [
+    {
+      "index": 1,
+      "verdict": "matched",
+      "title": "Massively parallel gene expression variation measurement of a synonymous codon library",
+      "doi": "10.1186/s12864-021-07462-z",
+      "retracted": false
+    },
+    {
+      "index": 2,
+      "verdict": "matched",
+      "title": "A Massively Parallel Fluorescence Assay to Characterize the Effects of Synonymous Mutations on <i>TP53</i> Expression",
+      "doi": "10.1158/1541-7786.MCR-17-0245",
+      "retracted": false
+    }
+  ],
+  "auditCounts": {
+    "total": 2,
+    "matched": 2,
+    "mismatch": 0,
+    "ambiguous": 0,
+    "not_found": 0,
+    "errored": 0,
+    "retracted": 0
+  },
+  "truncated": 0
+}

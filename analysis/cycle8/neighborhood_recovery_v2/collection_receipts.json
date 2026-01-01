@@ -1,0 +1,67 @@
+[
+  {
+    "id": "schmitz_collection",
+    "url": "https://api.figshare.com/v2/collections/5324753",
+    "method": "GET",
+    "args": null,
+    "status": 200,
+    "bytes": 3812,
+    "sha256": "51aa2b31adb59a5c7a64b4f4208b1483d25bf3081338e5a7db2d18a4b889cb58",
+    "metadata": {
+      "id": 5324753,
+      "title": "Massively parallel gene expression variation measurement of a synonymous codon library",
+      "articles_count": 1,
+      "resource_doi": "10.1186/s12864-021-07462-z",
+      "references": [
+        "https://doi.org/10.1186/s12864-021-07462-z"
+      ],
+      "url": "https://api.figshare.com/v2/collections/5324753",
+      "url_public_html": null
+    }
+  },
+  {
+    "id": "schmitz_collection_members",
+    "url": "https://api.figshare.com/v2/collections/5324753/articles",
+    "method": "GET",
+    "args": null,
+    "status": 200,
+    "bytes": 1286,
+    "sha256": "89670db5f031e90da66d6d498e7fc7441efba32521d3add9bdf7cb921f6c84e0",
+    "records": [
+      {
+        "id": 14151221,
+        "title": "Additional file 1 of Massively parallel gene expression variation measurement of a synonymous codon library",
+        "url": "https://api.figshare.com/v2/articles/14151221",
+        "url_public_html": "https://springernature.figshare.com/articles/journal_contribution/Additional_file_1_of_Massively_parallel_gene_expression_variation_measurement_of_a_synonymous_codon_library/14151221",
+        "resource_doi": "10.1186/s12864-021-07462-z"
+      }
+    ]
+  },
+  {
+    "id": "tp53_public_collections",
+    "url": "https://api.figshare.com/v2/collections/search",
+    "method": "POST",
+    "args": {
+      "resource_doi": "10.1158/1541-7786.MCR-17-0245",
+      "page_size": 100
+    },
+    "status": 200,
+    "bytes": 2,
+    "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "records": []
+  },
+  {
+    "id": "tp53_datacite_relation",
+    "url": "https://api.datacite.org/dois",
+    "method": "GET",
+    "args": {
+      "query": "relatedIdentifiers.relatedIdentifier:\"10.1158/1541-7786.MCR-17-0245\"",
+      "page[size]": 20
+    },
+    "status": 200,
+    "bytes": 209,
+    "sha256": "88e6dfcc654df202c5862900d86213b63e62174900690170be5fab21ad37ccb7",
+    "total": 0,
+    "records": []
+  }
+]

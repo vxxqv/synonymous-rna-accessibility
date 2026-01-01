@@ -1,0 +1,125 @@
+[
+  {
+    "paragraph_index": 0,
+    "text": "Supplementary Tables and Figures",
+    "images": []
+  },
+  {
+    "paragraph_index": 1,
+    "text": "",
+    "images": [
+      {
+        "{http://schemas.openxmlformats.org/officeDocument/2006/relationships}embed": "rId5"
+      }
+    ]
+  },
+  {
+    "paragraph_index": 2,
+    "text": "Supplementary Table 1: Primers used for cloning synonymously mutated GFP library. (A) Primers used to create the library. Mixed base pairs correspond to N = {A, C, G, T}, R = {A, G}, and Y = {C, T}. (B) Primers used to amplify the backbone from BglBrick plasmid pS5c-RFP.",
+    "images": []
+  },
+  {
+    "paragraph_index": 3,
+    "text": "",
+    "images": [
+      {
+        "{http://schemas.openxmlformats.org/officeDocument/2006/relationships}embed": "rId6"
+      }
+    ]
+  },
+  {
+    "paragraph_index": 4,
+    "text": "Supplemental Table 2. Primers and indexes used for high-throughput sequencing. PCR primers with Illumina adapters and indexes corresponding to each of 20 bins. (A) The forward and reverse primers used to PCR amplify the library region containing the synonymously mutated GFP. The primers contain the Illumina adapters and the 9 blank base pairs. (B) The 20 different 9 base pair indexes used for the high-throughput sequencing to identify which of the 20 bins a particular read belongs to.",
+    "images": []
+  },
+  {
+    "paragraph_index": 5,
+    "text": "",
+    "images": []
+  },
+  {
+    "paragraph_index": 6,
+    "text": "",
+    "images": [
+      {
+        "{http://schemas.openxmlformats.org/officeDocument/2006/relationships}embed": "rId7"
+      }
+    ]
+  },
+  {
+    "paragraph_index": 7,
+    "text": "Supplementary Figure 1. GFP fluorescence distribution of 10 isolated library members. Ten isolates from the synonymously mutated library were measured with flow-cytometry to provide data to validate the sort-seq method. Some library isolates have low mean GFP fluorescence (e.g. Isolate 1) while others have high mean GFP fluorescence (e.g. Isolate 6).",
+    "images": []
+  },
+  {
+    "paragraph_index": 8,
+    "text": "",
+    "images": [
+      {
+        "{http://schemas.openxmlformats.org/officeDocument/2006/relationships}embed": "rId8"
+      }
+    ]
+  },
+  {
+    "paragraph_index": 9,
+    "text": "Supplementary Figure 2. Virtual binning of 10 isolates from the library. Ten isolates from the library were measured with flow-cytometry and the data was virtually binned on either linear (yellow) or log (blue) fluorescence scales to determine which method should be used for sort-Seq. Different number of virtual bins was used. The percent error was calculated by comparing the CV2binned to CV2real measured from flow-cytometer. The black line in each plot represents 5% error.",
+    "images": []
+  },
+  {
+    "paragraph_index": 10,
+    "text": "",
+    "images": [
+      {
+        "{http://schemas.openxmlformats.org/officeDocument/2006/relationships}embed": "rId9",
+        "cstate": "print"
+      }
+    ]
+  },
+  {
+    "paragraph_index": 11,
+    "text": "Supplementary Figure 3. Sorting cells based on GFP fluorescence. Results for each of the bins from one of the sort-seq experiments. (A) The number of cells sorted into each of the bins during FACS. A total of 2.16 million cells were sorted. (B) After sequencing each bin, the number of reads within each bin was calculated. High-throughput sequencing produced a total of over 2 million reads. ",
+    "images": []
+  },
+  {
+    "paragraph_index": 12,
+    "text": "",
+    "images": [
+      {
+        "{http://schemas.openxmlformats.org/officeDocument/2006/relationships}embed": "rId10"
+      }
+    ]
+  },
+  {
+    "paragraph_index": 13,
+    "text": "Supplementary Figure 4. Sort-seq RFP fluorescence. (A) The distribution of RFP fluorescence compared to GFP fluorescence of a sample (N = 5135) of the population used in the Sort-seq experiment. (B) The RFP (red) and GFP (green) distributions falling within each Sort-seq bin for a sample population (N= 5135) with error bars representing standard deviation. ",
+    "images": []
+  },
+  {
+    "paragraph_index": 14,
+    "text": "",
+    "images": []
+  },
+  {
+    "paragraph_index": 15,
+    "text": "",
+    "images": [
+      {
+        "{http://schemas.openxmlformats.org/officeDocument/2006/relationships}embed": "rId11"
+      }
+    ]
+  },
+  {
+    "paragraph_index": 16,
+    "text": "Supplementary Figure 5. Finding the minimum number of cell to use per sequence (CPS). Different CPS values were used as cut-off. Selected cells with higher CPS values were used to calculate GFP mean (A) and CV2 (B). (C) The correlation between two separate sort-seq experiments on mean GFP fluorescence at a CPS of 20. (D) The correlation between two separate sort-seq experiments on GFP CV2 at a CPS of 20.",
+    "images": []
+  },
+  {
+    "paragraph_index": 17,
+    "text": "",
+    "images": [
+      {
+        "{http://schemas.openxmlformats.org/officeDocument/2006/relationships}embed": "rId12"
+      }
+    ]
+  }
+]

@@ -1,0 +1,30 @@
+{
+  "status": "complete",
+  "mathematics": "positive steady-state fiber proved as written; self-reviewed pending fresh independent challenge",
+  "assay_decision": "No-go for kinetic identification from current COMT proxies; does not preclude qualified proxy-level predictive comparison",
+  "inputs": {
+    "work/research_cycle8/portfolio_protocol.md": "97804053387018c0c0f8e03ad46645749ab5c095dfa439b297beefcdf678c1df",
+    "work/research_cycle8/comt_gate/source_contract.md": "eb9d4c8e86b265287724d34b3313fd06046f8f52d65ff94c3784180e7118fc9c",
+    "work/research_cycle8/comt_gate/article_methods.txt": "b9437f788ad965b67d0e533ec0a9af7bd4f8d92a2d734f9bcea90d84363ebc81",
+    "work/research_cycle8/comt_gate/pilot_recommendation.md": "78ecf7fe9e2632082c7d88be57094e118a3a969d1bfbd8baea63db17dd116018"
+  },
+  "files": {
+    "cenik2015.xml": "70611934c91cca147478b70208cf16919f7cf068e6b19c982fb66c1f69c2ebf5",
+    "cenik2015_primary_text.txt": "ef0660830bcb3ea07045adda7c2c87a02832cfe6b44690e941d4c87f35cbd6a2",
+    "decision_report.md": "53d37b429c82daeae00e7d29a0cf05731895ebd075a32c34f5eb0c4751dd183d",
+    "derivation.md": "8d457003e7f855d1fbc55a801074b00e87bf964c1789bf26960102760c4b7fcd",
+    "mueller2024.xml": "72a7bf9eb523fc7d63dcbf40ab8f3566f68c630d15d09b964868d7b016bbc97d",
+    "mueller2024_primary_text.txt": "919752eb342f5c257f7438fa11ec5dbb71acb5ed9698ebe3f58ee6cfe5e8da72",
+    "optimization_guard_checks.json": "983772c39fe1535541daf7fa8bab493c578d355e970e194c4c7075d9e17f2bd5",
+    "primary_source_records.json": "3864e43d7ba905d10dd1315fd87a799f5d3dd74b721e27c23b280479506657b7",
+    "prior_map.md": "de3b7bd338cd0d69d855e00c79012b6d52869b8f9ac7d9bd8d7f33e7c955920a",
+    "source_retrieval.json": "8e05c88c1822b83ede37b96c1cd9f3bffd435155928f885ebc293fe1ea173a90",
+    "synthetic_checks.py": "241030db4734c8e74d2e38aa58cc661b15e9580489a8d4563bc9b80b00caebd1",
+    "synthetic_results.json": "04ded942429c286267899660305e77fb7fcc6cb79d8c0f6431bb158071e65efe"
+  },
+  "synthetic_fiber_cases": 729,
+  "arithmetic": "exact rational, no tolerances",
+  "outcome_access": "None: no COMT score tails, intervals, count bodies or protected outcomes read",
+  "novelty": "No novelty or new kinetic mechanism claimed",
+  "external_actions": "Read-only primary source retrievals only; no commits, uploads, publication or other external writes"
+}

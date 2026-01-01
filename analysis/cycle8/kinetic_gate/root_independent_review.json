@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "jacobian_nonzero_minor": "-e**2*s**2/(d_C**3*d_P*(d_N + e)**3)",
+  "fiber_necessary_and_sufficient": true,
+  "exact_invented_rational_reconstruction": true,
+  "rank_scope": "Strictly positive parameters; nonzero symbolic minor proves rank three throughout.",
+  "derivation_sha256": "8d457003e7f855d1fbc55a801074b00e87bf964c1789bf26960102760c4b7fcd",
+  "review_scope": "Independent primary-agent algebraic reconstruction. No biological outcomes, finite checks not substituted for the displayed proof."
+}

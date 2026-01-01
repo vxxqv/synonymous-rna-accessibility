@@ -1,0 +1,62 @@
+[
+  {
+    "label": "tp53_mavedb_author",
+    "url": "https://api.mavedb.org/api/v1/score-sets/search",
+    "payload": {
+      "text": "Bhagavatula",
+      "limit": 20,
+      "offset": 0
+    },
+    "status": 200,
+    "bytes": 33,
+    "sha256": "c9951be6a161c9af1371c8909cc33e89f400b98249a8e185597d33d7e174ebaf",
+    "summary": {
+      "keys": [
+        "scoreSets",
+        "numScoreSets"
+      ],
+      "total": 0,
+      "records": []
+    }
+  },
+  {
+    "label": "tp53_mavedb_doi",
+    "url": "https://api.mavedb.org/api/v1/score-sets/search",
+    "payload": {
+      "text": "10.1158/1541-7786.MCR-17-0245",
+      "limit": 20,
+      "offset": 0
+    },
+    "status": 200,
+    "bytes": 33,
+    "sha256": "c9951be6a161c9af1371c8909cc33e89f400b98249a8e185597d33d7e174ebaf",
+    "summary": {
+      "keys": [
+        "scoreSets",
+        "numScoreSets"
+      ],
+      "total": 0,
+      "records": []
+    }
+  },
+  {
+    "label": "schmitz_mavedb_title",
+    "url": "https://api.mavedb.org/api/v1/score-sets/search",
+    "payload": {
+      "text": "Massively parallel gene expression variation",
+      "limit": 20,
+      "offset": 0
+    },
+    "status": 200,
+    "bytes": 33,
+    "sha256": "c9951be6a161c9af1371c8909cc33e89f400b98249a8e185597d33d7e174ebaf",
+    "summary": {
+      "keys": [
+        "scoreSets",
+        "numScoreSets"
+      ],
+      "total": 0,
+      "records": []
+    }
+  }
+]

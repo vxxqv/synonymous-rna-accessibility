@@ -1,0 +1,35 @@
+{
+  "scope": "Bounded primary source/repository recovery and closest resource comparison, no new phenotype access",
+  "scripted_requests": {
+    "public_figshare_article_searches": 3,
+    "mavedb_public_metadata_searches": 3,
+    "alternative_metadata_GETs": 4,
+    "collection_and_datacite_requests": 4,
+    "retired_OA_skill_request": 1
+  },
+  "web_checks": [
+    "Exact paper/share/attachment/title and author-lab source searches",
+    "Current Schmitz Springer article availability links",
+    "Current TP53 PMC page reCAPTCHA: no challenge attempted",
+    "Crossref-identified current AACR TP53 page403: no retry",
+    "Source author-lab https://depts.washington.edu/sfields/404: no retry",
+    "Official PMC service retirement and cloud distribution documentation",
+    "Official Figshare articles/collections documentation",
+    "Official MaveDB public API/search/data model documentation",
+    "HypercubeME primary algorithm section and author README",
+    "SynMall primary publication record/abstract; fullpage unavailable, no bypass"
+  ],
+  "incidental_published_exposure": [
+    "Schmitz published codon/noise trends and3421/219counts plus source filter/correlation descriptions already known",
+    "TP53 published16916synvariants mean3.2mutations,76of77singles, selected named assay/splicing examples and interpretations",
+    "HypercubeME published199847053cubes dimensions2-12",
+    "SynMall published annotation/resource features and summary counts"
+  ],
+  "deposited_outcome_rows_read": 0,
+  "deposited_outcome_missingness_read": false,
+  "newly_recovered_measurement_files": 0,
+  "identical_denied_attachment_retries": 0,
+  "old_empty_share_retries": 0,
+  "closed_or_retired_sources_reopened_for_outcomes": false,
+  "technical_limit": "Research browser outputs do not supply byte-level response hashes. These web-status observations are recorded as tool evidence, not invented file checksums."
+}

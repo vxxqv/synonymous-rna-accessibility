@@ -1,0 +1,47 @@
+{
+  "status": "pass",
+  "arithmetic": "fractions.Fraction, no tolerances",
+  "fiber_cases": 729,
+  "inverse_reconstruction_cases": 729,
+  "counterexample_parameter_rows": [
+    [
+      "8",
+      "3",
+      "1",
+      "2",
+      "5",
+      "3"
+    ],
+    [
+      "8",
+      "1",
+      "3",
+      "2/3",
+      "5",
+      "3"
+    ],
+    [
+      "8",
+      "3",
+      "1",
+      "2",
+      "10",
+      "6"
+    ],
+    [
+      "16",
+      "6",
+      "2",
+      "4",
+      "10",
+      "6"
+    ]
+  ],
+  "low_bin_equal_probability_different_means": true,
+  "low_bin_direction_inversion": true,
+  "occupancy_flux_confounding": true,
+  "total_RNA_protein_opposition_without_k_or_dP_change": true,
+  "boundary_rejections": 3,
+  "test_source_sha256": "241030db4734c8e74d2e38aa58cc661b15e9580489a8d4563bc9b80b00caebd1",
+  "scope": "Invented finite regression fixtures supplement the algebraic proof; no empirical data and no claim of independent proof verification."
+}

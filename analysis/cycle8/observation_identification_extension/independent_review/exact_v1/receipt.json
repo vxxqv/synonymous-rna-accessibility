@@ -1,0 +1,29 @@
+{
+  "status": "PASS_WITH_CONDITIONING_WORDING_CLARIFICATION",
+  "checks": 2495,
+  "rate_subsets": 1024,
+  "global_inverse_triples": 51,
+  "sufficient": 805,
+  "insufficient": 219,
+  "input_sha256": {
+    "rate": "72d2b9d519ac375b55a70ca573501b53bcf440dc6fb9bfbd8df1556aa94af3dc",
+    "processing": "f2a387383c8ed130b1b4f6a846b07c9364bc8eb182668ea578c3165339145ee2",
+    "subsets": "f720ff0ec5d8010485c31866bf89eb415721a707ce20d08a3994eb5d9364713b",
+    "examples": "177c027bf4b522563215ff4ff5cd19908e7a7562d61c731ab6c24f23497725c9",
+    "parser": "0eb8a7c901f9242fd8271838fcda2aab5e95900aa6eb54c46973790cd2634acf",
+    "operator": "f32b97ad006f18c1299c951c5a2682d8e10b2171585bbd15e99585b6c836da95"
+  },
+  "source_sha256": "d7d3e2c98c25fca47f81348b1f1124a6496dbd458cb01c4b91b0587096c0d88c",
+  "output_sha256": {
+    "global_symbolic_evidence.json": "343e8ffa7743c501a6630d8150eb1fb10059c728b75dfee300b5b76ba316317e",
+    "processing_evidence.json": "6cb55ab7ccee1eb75c5177a264613e3e52545df8d33c75159e880dce4c812698"
+  },
+  "runtime": {
+    "python": "3.12.14",
+    "sympy": "1.14.0"
+  },
+  "elapsed_seconds": 0.9163034000084735,
+  "observed_outcomes_read": false,
+  "new_nucleotide_sequences_created": false,
+  "limitation": "Global proofs use the explicitly positive calibrated equilibrium model. Source parser test uses symbolic slice predicates only."
+}

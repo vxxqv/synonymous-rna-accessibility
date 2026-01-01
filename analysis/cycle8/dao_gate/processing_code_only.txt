@@ -1,0 +1,128 @@
+import pandas as pd
+import sys, os
+
+def process_raw_count(fn):
+    df = pd.read_csv(fn, sep = '\t')
+    # only include full length and spliced reads
+    df = df[
+        (df['best_category'].str.contains('full_length'))|
+        (df['best_category'].str.contains('spliced'))
+            ].reset_index(drop = True)
+    
+    df['best_category'] = df['best_category'].apply(lambda g: g.split('-')[1] if 'spliced' in g else g)
+    
+    # filter out barcodes with less than 10 reads
+    total_count = df.groupby('reporter')['count'].sum()
+    reporter_less_than_10 = total_count[total_count<=10].index
+    filtered_df = df[~df['reporter'].isin(reporter_less_than_10)].reset_index(drop = True)
+    
+    # calculate fraction for each isoform
+    filtered_df['fraction'] = filtered_df.groupby('reporter')['count'].apply(lambda g: g/g.sum())
+    filtered_df['RE'] = filtered_df['reporter'].apply(lambda g: g.split('_')[0])
+    
+    return filtered_df
+
+def filter_barcode_count(df, threshold):
+    # filter out REs with less than 5 internal barcode replicates
+    full_df = df[df['best_category']=='full_length'] 
+    RE_count = full_df['RE'].value_counts()
+    reporter_less_than_threshold = RE_count[RE_count<=threshold].index
+    filtered_df = df[~df['RE'].isin(reporter_less_than_threshold)].reset_index(drop = True)
+    return filtered_df
+
+def compute_median_splice_fraction(df):
+    df_wide = pd.pivot_table(df, index = ['RE', 'reporter'], columns = 'best_category', 
+                      values = 'fraction', fill_value = 0).reset_index()
+    df_wide = df_wide.groupby('RE').median().reset_index()
+    df_long = pd.melt(df_wide, id_vars = 'RE', var_name = 'best_category', value_name = 'fraction')
+    df_long = df_long[df_long['fraction']!=0].reset_index(drop = True)
+    
+    return df_long
+
+dna1count = process_raw_count('ptreseq_raw_count/DNA-1_raw_count.txt')
+dna2count = process_raw_count('ptreseq_raw_count/DNA-2_raw_count.txt')
+
+dna = pd.concat([dna1count, dna2count]) # concatenate data frames
+dna_filtered = filter_barcode_count(dna, 5)
+# calculate median splicing fraction for each reporters across internal barcode replicates
+dna_med = compute_median_splice_fraction(dna_filtered)
+
+dna_med.to_csv('ptreseq_splicing_quantification/DNA_2rep_fraction.txt', sep = '\t', index = False)
+
+hela1count = process_raw_count('ptreseq_raw_count/HELA-1_raw_count.txt')
+hela2count = process_raw_count('ptreseq_raw_count/HELA-2_raw_count.txt')
+
+hela = pd.concat([hela1count, hela2count]) # concatenate data frames
+hela_filtered = filter_barcode_count(hela, 5)
+# calculate median splicing fraction for each reporters across internal barcode replicates
+hela_med = compute_median_splice_fraction(hela_filtered)
+
+hela_med.to_csv('ptreseq_splicing_quantification/HELA_2rep_fraction.txt', sep = '\t', index = False)
+
+mara1count = process_raw_count('ptreseq_raw_count/ETOH-1_raw_count.txt')
+mara2count = process_raw_count('ptreseq_raw_count/ETOH-2_raw_count.txt')
+
+mara = pd.concat([mara1count, mara2count]) # concatenate data frames
+mara_filtered = filter_barcode_count(mara, 5)
+# calculate median splicing fraction for each reporters across internal barcode replicates
+mara_med = compute_median_splice_fraction(mara_filtered)
+
+mara_med.to_csv('ptreseq_splicing_quantification/HELA-mara_2rep_fraction.txt', sep = '\t', index = False)
+
+hek1count = process_raw_count('ptreseq_raw_count/HEK-1_raw_count.txt')
+hek2count = process_raw_count('ptreseq_raw_count/HEK-2_raw_count.txt')
+hek3count = process_raw_count('ptreseq_raw_count/HEK-3_raw_count.txt')
+
+hek = pd.concat([hek1count, hek2count, hek3count]) # concatenate data frames
+hek_filtered = filter_barcode_count(hek, 5)
+# calculate median splicing fraction for each reporters across internal barcode replicates
+hek_med = compute_median_splice_fraction(hek_filtered)
+
+hek_med.to_csv('ptreseq_splicing_quantification/HEK_3rep_fraction.txt', sep = '\t', index = False)
+
+sh1count = process_raw_count('ptreseq_raw_count/SH-1_raw_count.txt')
+sh2count = process_raw_count('ptreseq_raw_count/SH-2_raw_count.txt')
+sh3count = process_raw_count('ptreseq_raw_count/SH-3_raw_count.txt')
+
+sh = pd.concat([sh1count, sh2count, sh3count]) # concatenate data frames
+sh_filtered = filter_barcode_count(sh, 5)
+# calculate median splicing fraction for each reporters across internal barcode replicates
+sh_med = compute_median_splice_fraction(sh_filtered)
+
+sh_med.to_csv('ptreseq_splicing_quantification/SH_3rep_fraction.txt', sep = '\t', index = False)
+
+u871count = process_raw_count('ptreseq_raw_count/U87-1_raw_count.txt')
+u872count = process_raw_count('ptreseq_raw_count/U87-2_raw_count.txt')
+u873count = process_raw_count('ptreseq_raw_count/U87-3_raw_count.txt')
+
+u87 = pd.concat([u871count, u872count, u873count])
+u87_filtered = filter_barcode_count(u87, 5)
+# calculate median splicing fraction for each reporters across internal barcode replicates
+u87_med = compute_median_splice_fraction(u87_filtered)
+
+u87_med.to_csv('ptreseq_splicing_quantification/U87_3rep_fraction.txt', sep = '\t', index = False)
+
+hela_nospacer = process_raw_count('ptreseq_raw_count/HELA-nospacer_raw_count.txt')
+
+hela_nospacer_filtered = filter_barcode_count(hela_nospacer, 3)
+# calculate median splicing fraction for each reporters across internal barcode replicates
+hela_nospacer_med = compute_median_splice_fraction(hela_nospacer_filtered)
+
+hela_nospacer_med.to_csv('ptreseq_splicing_quantification/HELA-nospacer_1rep_fraction.txt', sep = '\t', index = False)
+
+hela_epcr = process_raw_count('ptreseq_raw_count/HELA-2_raw_count.txt')
+
+hela_epcr_filtered = filter_barcode_count(hela_epcr, 3)
+# calculate median splicing fraction for each reporters across internal barcode replicates
+hela_epcr_med = compute_median_splice_fraction(hela_epcr_filtered)
+
+hela_epcr_med.to_csv('ptreseq_splicing_quantification/HELA-ePCR_1rep_fraction.txt', sep = '\t', index = False)
+
+hela_cpcr = process_raw_count('ptreseq_raw_count/HELA-cPCR_raw_count.txt')
+
+hela_cpcr_filtered = filter_barcode_count(hela_cpcr, 3)
+# calculate median splicing fraction for each reporters across internal barcode replicates
+hela_cpcr_med = compute_median_splice_fraction(hela_cpcr_filtered)
+
+hela_cpcr_med.to_csv('ptreseq_splicing_quantification/HELA-cPCR_1rep_fraction.txt', sep = '\t', index = False)
+

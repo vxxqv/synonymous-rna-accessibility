@@ -1,0 +1,12 @@
+{
+  "status": "NO_NEW_MEASUREMENT_FILE_RECOVERED_GATES_UNRESOLVED",
+  "files": {
+    "report.md": "50efce644c8c76f70298c67cf98b7e4bb851251ef7f4619fae65778ff907f403",
+    "author_route_addendum.md": "5d869481da336689baf4cd40c26bfce2cfe77497e8a9582731a043819e2c6f11",
+    "seven_source_atlas.md": "2d4d892e698d02df59a3ef4855569c51816b4331574421e9c3a5c1e284fa37fc",
+    "seven_source_atlas.json": "77d7b6609621d4429cc326c5a431c0ba5cf4dffa1c47ff43cad158376c887cbe",
+    "provenance.json": "1df150d1630a727b79390724ec73d5e695d6e923d87f19f564571ff20dc9af3b",
+    "search_and_exposure.json": "ccba4dd971518691b1a4ce019d350df0c5529cd18e1e6155492243788a826246"
+  },
+  "scope": "Seven-source fixed shortlist, not exhaustive atlas; no new outcomes"
+}

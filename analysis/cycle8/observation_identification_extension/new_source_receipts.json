@@ -1,0 +1,32 @@
+[
+  {
+    "url": "https://raw.githubusercontent.com/MustoeLab/Publications/7a8779a484af797953a154966e8b06b4afced3ed/Dao_MPRAsplicing/PROCESS_FASTQ_TO_RAWCOUNT/demultiplex_barcode.py",
+    "status": 200,
+    "bytes": 3695,
+    "sha256": "35c9465a027edc66f5c30f1f99a1da42427948892a0efa1a828517cf6844e36d",
+    "expected_git_blob": "cbc3b75c0df482493f9b4366a6a23cd471e24f10",
+    "actual_git_blob": "cbc3b75c0df482493f9b4366a6a23cd471e24f10"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/MustoeLab/Publications/7a8779a484af797953a154966e8b06b4afced3ed/Dao_MPRAsplicing/PROCESS_FASTQ_TO_RAWCOUNT/combine_report_and_check_artifacts.py",
+    "status": 200,
+    "bytes": 3860,
+    "sha256": "c6f3cb2e50206eaead9ced44c386c2f6694cb28070d06214709a0a6fb7a80b81",
+    "expected_git_blob": "7c3c7994e4abb75c1b7c67231e8fb4d5392c6dc3",
+    "actual_git_blob": "7c3c7994e4abb75c1b7c67231e8fb4d5392c6dc3"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/MustoeLab/Publications/7a8779a484af797953a154966e8b06b4afced3ed/Dao_MPRAsplicing/PROCESS_FASTQ_TO_RAWCOUNT/check_artifacts.py",
+    "status": 200,
+    "bytes": 2864,
+    "sha256": "7ffdcb05c0ba519692c9cce986f99d50cccd302035347d5366f73221b4f3a377",
+    "expected_git_blob": "efc2d1b7d8f99514668ad71c6620b64353d0ee5c",
+    "actual_git_blob": "efc2d1b7d8f99514668ad71c6620b64353d0ee5c"
+  },
+  {
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12297286/fullTextXML",
+    "status": 200,
+    "bytes": 255352,
+    "sha256": "d98694fe9a369e60126978795b023a65ad96392938c16a252a95864d9a91bdc7"
+  }
+]

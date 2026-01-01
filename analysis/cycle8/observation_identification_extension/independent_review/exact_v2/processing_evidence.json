@@ -1,0 +1,231 @@
+{
+  "known_A_rank": 2,
+  "known_A_nullity": 2,
+  "coding_contrast_in_rowspace": false,
+  "coding_contrast_in_rowspace_with_total": false,
+  "independent_positive_mixtures": [
+    [
+      "3",
+      "1",
+      "4",
+      "2"
+    ],
+    [
+      "3",
+      "3",
+      "2",
+      "2"
+    ]
+  ],
+  "same_observation": [
+    3,
+    5
+  ],
+  "same_total": 10,
+  "coding_values": [
+    4,
+    6
+  ],
+  "binary_contrast_classes": [
+    {
+      "contrast": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "determined_by_A": true,
+      "determined_by_A_and_total": true
+    },
+    {
+      "contrast": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "determined_by_A": false,
+      "determined_by_A_and_total": true
+    },
+    {
+      "contrast": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "determined_by_A": false,
+      "determined_by_A_and_total": false
+    },
+    {
+      "contrast": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "determined_by_A": false,
+      "determined_by_A_and_total": false
+    },
+    {
+      "contrast": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "determined_by_A": false,
+      "determined_by_A_and_total": false
+    },
+    {
+      "contrast": [
+        0,
+        1,
+        0,
+        1
+      ],
+      "determined_by_A": false,
+      "determined_by_A_and_total": false
+    },
+    {
+      "contrast": [
+        0,
+        1,
+        1,
+        0
+      ],
+      "determined_by_A": true,
+      "determined_by_A_and_total": true
+    },
+    {
+      "contrast": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "determined_by_A": false,
+      "determined_by_A_and_total": true
+    },
+    {
+      "contrast": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "determined_by_A": true,
+      "determined_by_A_and_total": true
+    },
+    {
+      "contrast": [
+        1,
+        0,
+        0,
+        1
+      ],
+      "determined_by_A": false,
+      "determined_by_A_and_total": true
+    },
+    {
+      "contrast": [
+        1,
+        0,
+        1,
+        0
+      ],
+      "determined_by_A": false,
+      "determined_by_A_and_total": false
+    },
+    {
+      "contrast": [
+        1,
+        0,
+        1,
+        1
+      ],
+      "determined_by_A": false,
+      "determined_by_A_and_total": false
+    },
+    {
+      "contrast": [
+        1,
+        1,
+        0,
+        0
+      ],
+      "determined_by_A": false,
+      "determined_by_A_and_total": false
+    },
+    {
+      "contrast": [
+        1,
+        1,
+        0,
+        1
+      ],
+      "determined_by_A": false,
+      "determined_by_A_and_total": false
+    },
+    {
+      "contrast": [
+        1,
+        1,
+        1,
+        0
+      ],
+      "determined_by_A": true,
+      "determined_by_A_and_total": true
+    },
+    {
+      "contrast": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "determined_by_A": false,
+      "determined_by_A_and_total": true
+    }
+  ],
+  "isolated_parser_outputs": [
+    "AG_junction_low_mismatch-terminal_donor_100_terminal_acceptor_130",
+    "AG_junction_low_mismatch-terminal_donor_100_terminal_acceptor_130"
+  ],
+  "source_function_line_ranges": {
+    "categorize_read": [
+      22,
+      78
+    ],
+    "process_raw_count": [
+      4,
+      23
+    ],
+    "filter_barcode_count": [
+      25,
+      31
+    ],
+    "compute_median_splice_fraction": [
+      33,
+      40
+    ]
+  },
+  "normalized_barcode_counterexample_medians": [
+    [
+      "1/10",
+      "1/10",
+      "1/10"
+    ],
+    [
+      "3/10",
+      "3/10",
+      "3/10"
+    ]
+  ],
+  "missing_preparation_example": {
+    "full_length_mean": "19/20",
+    "present_only_spliced_mean": "1/10",
+    "zero_completed_spliced_mean": "1/20"
+  },
+  "no_actual_category_counts_or_read_sequences_accessed": true
+}

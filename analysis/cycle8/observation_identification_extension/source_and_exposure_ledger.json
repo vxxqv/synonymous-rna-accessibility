@@ -1,0 +1,41 @@
+{
+  "sources": [
+    {
+      "title": "Dao etal2025 primary Methods and source-only scripts",
+      "new_receipts": "new_source_receipts.json",
+      "read_scope": "Selected sequencing Methods, classifier/artifact/demultiplexing code only; no count/phenotype rows or notebook outputs"
+    },
+    {
+      "title": "M\u00fcller etal2024 and Cenik etal2015",
+      "reused_files": [
+        "work/research_cycle8/kinetic_gate/mueller2024.xml",
+        "work/research_cycle8/kinetic_gate/cenik2015.xml"
+      ],
+      "read_scope": "Existing primary model/methods discussion, with previously published aggregates; no raw datasets"
+    },
+    {
+      "title": "Structural Identifiability of Systems Biology Models: A Critical Comparison of Methods",
+      "authors": [
+        "\n             Chis \n             Oana-Teodora \n          ",
+        "\n             Banga \n             Julio R. \n          ",
+        "\n             Balsa-Canto \n             Eva \n          "
+      ],
+      "doi": "10.1371/journal.pone.0027755",
+      "receipt": "identifiability_primary_receipt.json",
+      "read_scope": "Definitions/global-local uniqueness discussion; no model fitting"
+    }
+  ],
+  "connector_discovery": {
+    "tool": "SciSpace search_papers",
+    "query": "What is the established distinction between global structural parameter identifiability and local Jacobian rank in dynamical systems, as defined in Chis, Banga and Balsa-Canto's2011 comparison of systems biology methods?",
+    "status": "10 metadata/abstract results, selected2011 DOI verified in official primary text; unverified preprints not cited as current evidence"
+  },
+  "exposure": {
+    "source_phenotype_rows": 0,
+    "new_source_sequences_or_designs": 0,
+    "raw_reads": 0,
+    "notebook_outputs": 0,
+    "published_aggregate_exposure": "Primary Methods/results prose and prior source summaries may include reported counts/trends. No deposited outcomes or validation values inspected."
+  },
+  "classification_scope": "Exact steady-state snapshot and the10specified candidates, not arbitrary additional measurements or a full dynamical identifiability theorem"
+}

@@ -1,0 +1,31 @@
+[
+  {
+    "file": "tp53.xml",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5626615/fullTextXML",
+    "final_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5626615/fullTextXML",
+    "status": 500,
+    "bytes": 150,
+    "sha256": "f5cec00abc45ebb20e2d37049ce84dec76b3a0a395b9e7220bc066e62b0736cf"
+  },
+  {
+    "file": "schmitz_crossref.json",
+    "url": "https://api.crossref.org/works/10.1186/s12864-021-07462-z",
+    "final_url": "https://api.crossref.org/works/10.1186/s12864-021-07462-z",
+    "status": 200,
+    "bytes": 23664,
+    "sha256": "1e152d8e8ea6002751ff9ca187e15c9fee99fb74c709cf879b3241339cc27037"
+  },
+  {
+    "file": "tp53_crossref.json",
+    "url": "https://api.crossref.org/works/10.1158/1541-7786.MCR-17-0245",
+    "final_url": "https://api.crossref.org/works/10.1158/1541-7786.MCR-17-0245",
+    "status": 200,
+    "bytes": 13912,
+    "sha256": "d72831051ea5858b4ee0f598506ea931679b5812d02a7bcebf846e3ae83d222b"
+  },
+  {
+    "file": "schmitz.xml",
+    "reused_from": "work\\joint_function_cycle5\\splicing_sources\\schmitz.xml",
+    "sha256": "d842a2ff30377b7cd69d7b7e71ed336a948ad627fccdbd64069f4f584fc412ea"
+  }
+]

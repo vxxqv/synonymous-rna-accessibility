@@ -1,0 +1,136 @@
+{
+  "schema": "fixed_seven_source_measurement_eligibility_v2",
+  "scope": "Not exhaustive census; no new phenotype evaluation. Historical exposures are explicit.",
+  "records": [
+    {
+      "source": "COMT Hoskins etal2024",
+      "doi": "10.1038/s44320-024-00018-9",
+      "accessions": [
+        "GSE246139",
+        "urn:mavedb:00000661",
+        "Zenodo10403931"
+      ],
+      "reference": "Full6232nt authored plasmid;517aa fusion ORF authenticated",
+      "nucleotide_identity": "125 source-ascertained synonymous IDs at53native codon sites;113SNVs at52sites; same complete reference fusion translation",
+      "coverage": "Single-codon replacements; no complete cross-codon multistep library authenticated. Current source numeric RF trace opened under separate freeze; version1normalization stopped before contrasts.",
+      "endpoint": "RNA, mid/heavy-polysome and negative low-fluorescence-bin representations; physical protein/kinetic identity not established",
+      "preparations": "Four source group labels with technical multiplicities; source-code/GEO FACS map discrepancy retained; crossassay pairing unresolved",
+      "counts": "Public archive available;11gDNA,20RNA,9lowbin,10heavy,10mid,3NC requiredmembers authenticated",
+      "uncertainty": "Preparation ranges descriptive, not calibrated joint intervals; shared references",
+      "gate": "No new measured complete cross-codon graph; within-codon eligibility not a substitute. Preserve normalization failure.",
+      "source_report": "work/research_cycle8/comt_gate/source_contract.md",
+      "independent_validation": "Within-source codon holdout prospective only; source ascertainment/preprocessing shared; not independent biological study"
+    },
+    {
+      "source": "cPRIME ElKassem etal2026",
+      "doi": "10.1038/s41467-026-78344-9",
+      "accessions": [
+        "PRJNA1257064",
+        "Zenodo21991157"
+      ],
+      "reference": "NativeNF1 annotation plus short amplicon local motifs; full realised haplotypes not authenticated",
+      "nucleotide_identity": "30multimarker reference-synonymous intendedIDs selected before outcomes;66states across2contexts; one separate arrayed motif alias retained/excluded",
+      "coverage": "Matched marker contexts exist, but markers/hidden alleles do not form an authenticated complete same-protein coding graph",
+      "endpoint": "Local motif RNA RPM / DNA RPM; isoform visibility and totalRNA identity unresolved",
+      "preparations": "Three anonymous pairedRNA/DNA rows per state/cell; replicate crossmarker alignment not retained in processedsource",
+      "counts": "Author source and pairedRPM tables recovered; B1 selected396rows now exposed under frozenaudit",
+      "uncertainty": "Unordered source ranges, no confidencecoverage or unrestricted edit-effect identification",
+      "gate": "Suitable qualified marker-context descriptive comparison; not a complete synonymous-neighborhood substitute",
+      "source_report": "work/research_cycle8/cprime_gate/report.md",
+      "independent_validation": "Two cell contexts are source-dependent, not independent experimental validation; fixedB1 material exposed"
+    },
+    {
+      "source": "Dao etal2025",
+      "doi": "10.1038/s41467-025-62000-9",
+      "accessions": [
+        "PRJNA1116243",
+        "Zenodo15700943"
+      ],
+      "reference": "6500intended transcripts length1045nt; same first720nt ORF encoding239aa+stop",
+      "nucleotide_identity": "First variation starts zero-based741 after referenceCDS;642reporterlabels withbarcode multiplicity",
+      "coverage": "Large motif library varies noncoding region, not changing synonymous coding nucleotides",
+      "endpoint": "Cryptic-splicing category fractions; processed product can remove reference stop; plasmid/junction assignment incomplete",
+      "preparations": "Processed medians concatenate biological preparations; rawprep filesexist but labels/barcodes not independentunits",
+      "counts": "Public author rawfiles/reference available; no outcome rows opened in the processing gate",
+      "uncertainty": "Clone/plasmid/transcript assignment and multiplejunction paths unresolved",
+      "gate": "Fails changing-coding-genotype criterion for large motiflibrary; keep as processing counterexample",
+      "source_report": "outputs/Research_Cycle_8/Dao_Processing_Object_Audit.md",
+      "independent_validation": "Separate recoding validations do not relabel the full motiflibrary; new genotype-linked product records required"
+    },
+    {
+      "source": "FAS Julien etal2016",
+      "doi": "10.1038/ncomms11558",
+      "accessions": [
+        "PRJEB13140",
+        "PMC4866304"
+      ],
+      "reference": "NativeFASexon6 reference coding map known; actual minigene output identity distinct",
+      "nucleotide_identity": "Declared189single and17577double-substitution possibilities; source reports16728double measurements;72class overlap18withinradius2 theoretical only",
+      "coverage": "Bounded local single/double design; exact current graph membership and replicate usability not opened/recovered for proposed witness",
+      "endpoint": "IncludedRNA enrichment; selected singleclones have direct inclusion/skipping gel validation",
+      "preparations": "Triplicate output transfections and3inputPCRs; paired sequencing lanes/tags not extra biology; selected25singleclones",
+      "counts": "Source supplementary data andaccession identified, but no2016outcomes accessed for gate",
+      "uncertainty": "Shared input/compositional denominators; genotype recovery and isoform-specificRT unresolved",
+      "gate": "No full frozen8witness orthogonal test: only5theoretical designmatches inclWT; documented clone validations are singlemutants",
+      "source_report": "work/research_cycle6/fas_successor_metadata_gate/report.md",
+      "independent_validation": "Earlier separately generated material, sameexon and design-informing source; not untouched external validation"
+    },
+    {
+      "source": "FAS BaezaCenturion etal2019",
+      "doi": "10.1016/j.cell.2018.12.010",
+      "accessions": [
+        "GSE111316",
+        "PRJEB24588",
+        "PRJNA436581/SRP133782"
+      ],
+      "reference": "Human63ntexon aligned toNM_000043.6; fullnative translation verified, assay proteinoutput not proven",
+      "nucleotide_identity": "3072declaredexon genotypes;72preserve full native referenceprotein string",
+      "coverage": "Completed frozenCycle6 pilot established72finite observed enrichment responses and204SNV edges, graphP3xP3xQ3; reuse historicalaudit not a newcoveragecheck",
+      "endpoint": "IncludedRNA/input enrichment, not directPSI for everygenotype; sourcePSI calibration distinct",
+      "preparations": "9separate output transfections x3technical inputPCR normalizations, sharedlibrary andinput",
+      "counts": "All12author countfiles recovered/hashverified underprior frozen72pilot; headerless format amendment preserved",
+      "uncertainty": "27dependent empirical normalization scenarios/range, no calibrated confidencecover or pureinclusion identification",
+      "gate": "Existing complete bounded measured proxygraph; exposed completedanalysis, no freshvalidation source",
+      "source_report": "work/research_cycle6/measured_synonymy_sources/report.md",
+      "independent_validation": "Bothsource and currentselecteddata exposed; distinct matched measurement needed, not an outcome-retuned graph"
+    },
+    {
+      "source": "SchmitzZhang2021",
+      "doi": "10.1186/s12864-021-07462-z",
+      "accessions": [
+        "PMC7927243",
+        "Figshare14151221",
+        "FigshareCollection5324753"
+      ],
+      "reference": "Degenerate8codon sfGFP variable design authenticated; fullplasmid/SC101-vs-p15A issue unresolved",
+      "nucleotide_identity": "TCN,AAR,GGN,GAR,GAR,CTN,TTY,ACN afterATG allSKGEELFT",
+      "coverage": "Intended4096vertices32768edges degree16; published3421sequenced/219filtered endpoints; actual sequence-bin-prep inventory unrecovered",
+      "endpoint": "Gamma-fit fluorescence mean,variance,CV2 from20bins; not translationrate",
+      "preparations": "3sortseqexperiments share library/bin denominators; independent library/culture identity incomplete; clone map missing",
+      "counts": "Publishercollection onlytables/figuresDOCX. Authorlistedshare previously202empty; no matrixrecovered",
+      "uncertainty": "Binfit and precisionfilter dependencies; no authenticated pergenotype count/error matrix",
+      "gate": "GATED measured neighborhoods; never substitute intended4096 for observedroutes",
+      "source_report": "work/research_cycle8/neighborhood_gate/report.md",
+      "independent_validation": "Published10clones/16additionalmeanvalidation described; exactneighborhood overlap/prepdependence unresolved"
+    },
+    {
+      "source": "Bhagavatula etal2017TP53",
+      "doi": "10.1158/1541-7786.MCR-17-0245",
+      "accessions": [
+        "PMC5626615",
+        "NIHMS888465",
+        "PRJNA384242"
+      ],
+      "reference": "p53residues97-292 exon5-7 minigene-GFPfusion described; fullsequence/oligos fileunrecovered",
+      "nucleotide_identity": "Dopedexon6 synonymous design allows multi-mutants; source reports16916syn variants average3.2changes",
+      "coverage": "Observed complete local nucleotide graph notauthenticated; sourcefocus76/77singles does not implysingle-only pool",
+      "endpoint": "WT-normalized4bin inferred-cell-weighted GFPscore, not endogenousTP53 activity or isolatedsplicefraction",
+      "preparations": "2replicate scores averaged; construction/culture independence unresolved; commonWT/bin totals",
+      "counts": "Exact data7.gz/notebook8.txt/oligos5.xlsx named but prior403; normalpublisher403/currentPMCchallenge; officialcloudmetadata/XML/text only",
+      "uncertainty": "Source7500inferred-cell filter correlation-selected; rawcountlikelihood/replicatecovariance unavailable",
+      "gate": "GATED by exactsupplements andsequence/preparationalignment; no replacementaminoacidDMS",
+      "source_report": "work/research_cycle8/neighborhood_gate/report.md",
+      "independent_validation": "SelectedclonalRT-PCR/Sanger examples known; genotype-matched wholegraph products/uncertainty absent"
+    }
+  ]
+}
