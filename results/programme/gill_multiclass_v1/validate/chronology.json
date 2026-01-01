@@ -1,0 +1,10 @@
+{
+  "training_commit_before_validation": "3a10c6c74957bb7d3f559bf3067387926c1ed077",
+  "validation_receipt_sha256": "5f7535bb58622cb656ee0cb7ed4109f8daef324ac470eb948ba40ffd9ab6757c",
+  "status": "author_run_completed_independent_recalculation_pending",
+  "outcome_status": "All 38338 selected nonreference RNA3 outcomes have now been examined and are retired from untouched validation.",
+  "settings_changed_after_validation": false,
+  "primary_result": "failed frozen descriptive repeatability target",
+  "original_reference_pilot": "Retained unchanged and failed; no retuning or replacement",
+  "scope": "Processed-library measurement reproduction, not independent biological preparations or calibrated significance"
+}
