@@ -1,0 +1,29 @@
+{
+  "status": "pass",
+  "command": [
+    "C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\work\\env\\Scripts\\python.exe",
+    "-m",
+    "pytest",
+    "C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\work\\persist_cycle3\\prediction_v2\\test_persist_prediction.py",
+    "-q"
+  ],
+  "wall_seconds": 1.7967165000009118,
+  "exit_code": 0,
+  "stdout": "...............................................                          [100%]\n47 passed in 1.26s\n",
+  "stderr": "",
+  "input_sha256": {
+    "work\\persist_cycle3\\prediction_v2\\persist_prediction.py": "962f953ed17574db96f5ba0cde4827486830244941ea745bb34fb697a5514aaa",
+    "work\\persist_cycle3\\prediction_v2\\test_persist_prediction.py": "a261667742e82a83328f39940acb998303b82dc7d2434daf0a8ff26dc250934c",
+    "work\\persist_cycle3\\prediction_v2\\prepare_metadata.py": "0ff2f0b9bdda813cb94af77c8ac3a47a7cee3aec10d723b780d5b02fc1480e35",
+    "work\\persist_cycle3\\prediction_v2\\metadata_settings.json": "ebc6a30f569ae12271e74837e180a7f9d98d4e222e29a14046c9ec007e455935",
+    "work\\persist_cycle3\\prediction_v2\\metadata_settings_initial.json": "71811236b241e380cf6e6df4c4410b3f40af9d1c414032d85be84b0e6d110deb",
+    "work\\persist_cycle3\\prediction_v2\\Turner2004.par": "f4a71a542533ce5420515004a0b51f6949e93d4087204185a35eb38fff30d466",
+    "work\\persist_cycle3\\prediction_v2\\preflight_incidents.json": "1c0e0702c950e86847d5d175e96ac02c31017afc51fe682b865e94590c866227",
+    "work\\persist_cycle3\\prediction_v2\\protocol.md": "26531e3e02493af6554fb3f693a82dbaf4f6fab160a90e30b8df10708504be27",
+    "work\\persist_cycle3\\prediction_v2\\finalize_protocol.py": "9dce271afbd04178f998800322d69ca8d30928b47406af430cf80726fc4d83d8"
+  },
+  "inputs_unchanged": true,
+  "help_exit_code": 0,
+  "help_stdout": "usage: persist_prediction.py [-h] --protocol PROTOCOL --freeze FREEZE --root\n                             ROOT --output OUTPUT [--features FEATURES]\n                             [--predictions PREDICTIONS]\n                             [--prediction-freeze PREDICTION_FREEZE]\n                             [--sequence-id SEQUENCE_ID]\n                             {features,train,validate,_fold_worker}\n\npositional arguments:\n  {features,train,validate,_fold_worker}\n\noptions:\n  -h, --help            show this help message and exit\n  --protocol PROTOCOL\n  --freeze FREEZE\n  --root ROOT\n  --output OUTPUT\n  --features FEATURES\n  --predictions PREDICTIONS\n  --prediction-freeze PREDICTION_FREEZE\n  --sequence-id SEQUENCE_ID\n",
+  "scope": "Synthetic data and one 12-position synthetic fold only. No real features or cellular targets."
+}

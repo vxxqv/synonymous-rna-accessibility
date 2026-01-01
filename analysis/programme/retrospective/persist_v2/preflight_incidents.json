@@ -1,0 +1,24 @@
+{
+  "incidents": [
+    {
+      "stage": "metadata preflight before any feature or target calculation",
+      "type": "implementation assertion failure",
+      "detail": "An initial literal substring check compared deposited RNA-letter full strings against DNA-letter CDS strings. All 37 failed that unnormalized check despite matching lengths. The check was corrected to apply the already authorized T-to-U conversion to both strings.",
+      "data_change": false,
+      "cohort_change": false,
+      "outcome_exposure": false,
+      "folding_performed": false,
+      "resolution": "Check normalized sequence identity only; retain original strings and their separate hashes."
+    },
+    {
+      "stage": "synthetic interface tests before real folding or target access",
+      "type": "unsupported Python property setter",
+      "detail": "Initial suite: 43 passed, one failed because exp_param.pf_scale has no setter in ViennaRNA 2.7.2. A 12-base synthetic interface probe confirmed that exp_params_rescale(mfe) itself updates the scale. The unsupported setter was removed before any real computation.",
+      "initial_settings_sha256": "71811236b241e380cf6e6df4c4410b3f40af9d1c414032d85be84b0e6d110deb",
+      "real_sequences_folded": 0,
+      "cellular_targets_read": 0,
+      "resolution": "Exactly one supported MFE-based rescaling API call, with its effective scale recorded. No alternate parameter set or structural predictor was tried."
+    }
+  ],
+  "prior_exposures_preserved": "Earlier solution-row and published aggregate-text exposures remain in the original report and proposal review. They are not relabelled untouched. No new cellular outcome cell has been inspected in this implementation task."
+}

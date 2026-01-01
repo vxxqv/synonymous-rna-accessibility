@@ -1,0 +1,32 @@
+{
+  "status": "proposed_for_root_review",
+  "authorized_stages": [],
+  "input_sha256": {
+    "work\\persist_cycle3\\permitted_metadata_verified.json": "4bd721630232e54dc3ba699fb74d4096035249d74394e44d7d1e92188ee883de",
+    "work\\persist_cycle3\\eligibility_results.json": "eee42f388d8acd98599e64dfb9661af026d8afef2ca27b1f0f585c7c11d4e3fb",
+    "work\\persist_cycle3\\root_endpoint_proposal.md": "c04f9f04120b8fefa9e555d352b08339a48b4e748adfa69d94b5a4cebff54524",
+    "work\\persist_cycle3\\report.md": "d7250ec42b08d924892218bfd0126c839b8e78986491c94d9460251c5d5e78ad",
+    "work\\persist_cycle3\\analysis_constructs.tsv": "7e0fc06593b2fc602d33a373b5fb1af9547991318b479351c7342eb4701049a4",
+    "work\\persist_cycle3\\source_manifest.json": "3c2e07c11ff2fba58acb6aa675203ccc578b1e23d28a5d6d6e640f7c3e1a4c4c",
+    "work\\persist_cycle3\\proposal_review\\review.md": "afbbb98c3c913c4fa7cfc75ba234d4b1ff70e91819c143acd09c2deabf9f2fef",
+    "work\\persist_cycle3\\proposal_review\\recomputed_feature_addendum.md": "3c2f80f6cf1e70d0022a01b653bd99e2716ada3a57a116115351d3c6727e81da",
+    "work\\persist_cycle3\\proposal_review\\grouping_metadata.json": "81a06c507de06d568927b49d6d4e368b0bfef487284594ad6d2617d879cfdc03",
+    "work\\env\\Lib\\site-packages\\RNA\\__init__.py": "57393341520925355f766c68dea057ebf699317b99bf84f802344522c493327d",
+    "work\\env\\Lib\\site-packages\\RNA\\RNA.py": "a8dab82efec718e2c5bc77767ff17f1f9b91bbfcabb2313ffe4ced1855389406",
+    "work\\env\\Lib\\site-packages\\RNA\\_RNA.cp312-win_amd64.pyd": "f4527b33266412fbe23b1bc49ddb422693a5d81c3c784c69d8e2ba3d7642b7c2",
+    "work\\persist_cycle3\\prediction_v2\\Turner2004.par": "f4a71a542533ce5420515004a0b51f6949e93d4087204185a35eb38fff30d466",
+    "work\\persist_cycle3\\prediction_v2\\persist_prediction.py": "962f953ed17574db96f5ba0cde4827486830244941ea745bb34fb697a5514aaa",
+    "work\\persist_cycle3\\prediction_v2\\test_persist_prediction.py": "a261667742e82a83328f39940acb998303b82dc7d2434daf0a8ff26dc250934c",
+    "work\\persist_cycle3\\prediction_v2\\prepare_metadata.py": "0ff2f0b9bdda813cb94af77c8ac3a47a7cee3aec10d723b780d5b02fc1480e35",
+    "work\\persist_cycle3\\prediction_v2\\metadata_settings.json": "ebc6a30f569ae12271e74837e180a7f9d98d4e222e29a14046c9ec007e455935",
+    "work\\persist_cycle3\\prediction_v2\\metadata_settings_initial.json": "71811236b241e380cf6e6df4c4410b3f40af9d1c414032d85be84b0e6d110deb",
+    "work\\persist_cycle3\\prediction_v2\\preflight_incidents.json": "1c0e0702c950e86847d5d175e96ac02c31017afc51fe682b865e94590c866227",
+    "work\\persist_cycle3\\prediction_v2\\protocol.md": "26531e3e02493af6554fb3f693a82dbaf4f6fab160a90e30b8df10708504be27",
+    "work\\persist_cycle3\\prediction_v2\\finalize_protocol.py": "9dce271afbd04178f998800322d69ca8d30928b47406af430cf80726fc4d83d8",
+    "work\\persist_cycle3\\prediction_v2\\synthetic_test_receipt.json": "fad868cfbed9ce423be4f8c260654dfe047fdcc0ee50a8aaaa44947ccc4abaaa",
+    "work\\persist_cycle3\\prediction_v2\\protocol.json": "a3dc686a23acaa12af2f2f44154b8baac819cb6df3a0a6d81328dd3ebdc5fd24"
+  },
+  "real_sequences_folded": 0,
+  "cellular_targets_decoded": 0,
+  "required_next_action": "Independent source/protocol review, then root commits the exact freeze before authorizing features only."
+}

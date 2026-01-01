@@ -1,0 +1,40 @@
+# Addendum: newly computed ViennaRNA feature
+
+**Verdict: accept with the restrictions below.** One completely specified, sequence-only mean-unpaired-probability feature, newly computed on the same37 deposited full-RNA sequences before outcome access, is a defensible replacement in a newly declared prediction protocol. It makes the computational predictor interpretable and reproducible without authenticating the old `AUP.Vienna.FULL` column. The closed provenance gate for that deposited column remains closed. This addendum does not supersede or alter the earlier review.
+
+The valid question is whether this one frozen model-derived transcript feature adds predictive value beyond the declared composition/codon baselines for the deposited cellular RNA-decay coefficient, transferring from the22 prefix-310 rows to the15 prefix-930 rows. This remains a retrospective prediction test within one selected reporter, transcript context and study. The unresolved absolute response calibration does not itself invalidate that numerical comparison. It continues to preclude calibrated half-life and true-rate interpretations. A known source-specific response transformation would still invalidate the pooled endpoint.
+
+## What the replacement resolves
+
+The new predictor has an inspectable dependency chain: deposited sequence, explicitly normalized model input, frozen thermodynamic model/configuration, base-pairing probabilities, then a declared scalar formula. There is no undocumented per-row/source feature preprocessing and no need to infer what the historical FULL suffix included. Use a new, unambiguous field name identifying this calculation. Do not copy the deposited AUP feature, compare against it to choose settings, or describe the new feature as a reproduction of the published column.
+
+For lengthN and the chosen model's base-pair probabilities p(i,j), define
+
+`MUP = (1/N) sum_i [1 - sum_(j != i) p(i,j)]`
+
+or equivalently
+
+`MUP = 1 - (2/N) sum_(i < j) p(i,j)`.
+
+The second expression sums each base pair once and counts its two paired nucleotides. Either implementation must respect the installed interface's indexing and matrix-triangle convention. This is a dimensionless expected fraction of unpaired positions under the specified model, not the unpaired fraction of one minimum-energy structure.
+
+Official [ViennaRNA Python documentation](https://viennarna.readthedocs.io/en/latest/api_python.html#energy-parameters) identifies Turner2004 as the default RNA parameter set; its [partition-function interface documentation](https://viennarna.readthedocs.io/en/latest/api_python.html#RNA.fold_compound.pf) describes the ensemble calculation and possible numerical failure. These sources support the proposed interpretation. The actual installed version/configuration has not been checked by this review and must be recorded by the execution protocol. The latest online documentation is not a substitute for freezing the installed implementation.
+
+## Required freeze and execution boundaries
+
+1. Preserve the same37 identifiers, exact main-protein/context membership,22/15 allocation, development groups, endpoint, six-model comparison, tuning grid and failure rules. Record the new protocol revision and the reason for replacement before cellular outcome access. The feature replacement is a transparent response to missing provenance, not a search for a favorable result.
+2. Freeze input sequence hashes per identifier and the normalization rule. Use the entire deposited `RNA.sequence`, including its experimental barcode and constant/UTR sequence. If needed, an explicit DNA-letterT to RNA-letterU normalization is an alphabet conversion; do not change bases, trim positions, repair ambiguous characters, add cap/poly(A), or substitute a different construct. Unexpected sequence content must trigger the declared input gate.
+3. Freeze one package/binding version, exact Turner parameter selection, temperature37C and the complete effective model configuration. Record settings affecting the ensemble, including strand topology, permitted pairs, loop/dangle options, maximum pair span, numerical scaling and any additional constraints or special structure options. Use the same fixed configuration for every row, with no row/source-dependent adjustment, experimental structural constraints or outcomes. A word such as “default” alone is insufficient unless the version and effective defaults are archived.
+4. Compute exactly this one feature per sequence. Do not try temperatures, parameter sets, cropped regions or alternative structural summaries and choose among them from data. Computing all37 fixed sequence-only features before fitting is not response leakage: the operation is rowwise and independent of all response values. Feature standardization, constant-feature handling and ridge tuning must still use development/fold-training information only.
+5. Validate the implementation before outcome access: check indexing and double counting with a hand-constructed probability matrix; verify agreement of the two scalar formulas; require finite valid probabilities/feature values within a prespecified floating-point tolerance and record any numerical warning. Set numerical rescaling rules in advance. Do not silently clip substantial probability violations, truncate long-range pairs, impute a failed feature, drop a row, or choose another model to rescue a failure. A required value remaining invalid stops the complete-cohort comparison.
+6. Retain the corrected homogeneous penalty-tie rule and zero-comparator-error rule. Demonstrate the declared synthetic scale-equivariance and target-leakage checks before opening the transfer responses. Train/tune on22 only, then archive all15 predictions and their configuration hashes before loading those15 target values or inspecting their finiteness. Missing/invalid target coverage remains a stop, not permission to select a favorable subset.
+
+## Interpretation that remains conditional
+
+The predictor models the unmodified nucleotide string under a particular secondary-structure ensemble. It does not reproduce the physical capped/polyadenylated cellular transcript, its chemical environment, RNA-binding proteins, translation, tertiary interactions or modification effects. A partition function provides a model probability, not measured cellular structure. Numerical dynamic programming should be described at its implemented precision, not as an exact experimental structural probability.
+
+Keeping the barcode in the model is faithful to the deposited assayed construct, but full-transcript structure can reflect barcode as well as CDS differences. The existing barcode/composition controls do not make a causal coding-region interpretation identifiable. A gain therefore supports incremental prediction by this explicitly modeled transcript feature on the frozen transfer cohort; it does not establish why the cellular coefficient changes.
+
+The selection flag, shared design ancestry, nonrandom design-source distributions,15-row transfer size and unresolved biological preparation/replicate identity remain exactly as stated in the original review. They limit generalization and uncertainty claims. The new feature resolves predictor transparency; it does not resolve response provenance, selection or biological independence. Neither a positive nor a negative prediction result directly validates a measured structural accessibility barrier or complete mutational path.
+
+Subject to the exact freeze and implementation checks above, those limitations are compatible with carrying out the small, clearly labelled prediction comparison and preserving its result, including failure. No additional feature-authentication gate for the old column is needed for this different, newly computed feature. No folding, parameter inspection, feature computation, model fit, cellular outcome access or solution-table-row access was performed for this addendum. This is a separate review with inherited context, not a blinded external assessment. Only this addendum was written.

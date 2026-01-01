@@ -1,0 +1,31 @@
+{
+  "sha256": {
+    "protocol.json": "a3dc686a23acaa12af2f2f44154b8baac819cb6df3a0a6d81328dd3ebdc5fd24",
+    "protocol.md": "26531e3e02493af6554fb3f693a82dbaf4f6fab160a90e30b8df10708504be27",
+    "proposed_freeze.json": "6ea3028cf4596ad062c536874749d9a4781cfeffd4e3127673303f9836390782",
+    "persist_prediction.py": "962f953ed17574db96f5ba0cde4827486830244941ea745bb34fb697a5514aaa",
+    "test_persist_prediction.py": "a261667742e82a83328f39940acb998303b82dc7d2434daf0a8ff26dc250934c",
+    "prepare_metadata.py": "0ff2f0b9bdda813cb94af77c8ac3a47a7cee3aec10d723b780d5b02fc1480e35",
+    "finalize_protocol.py": "9dce271afbd04178f998800322d69ca8d30928b47406af430cf80726fc4d83d8",
+    "metadata_settings.json": "ebc6a30f569ae12271e74837e180a7f9d98d4e222e29a14046c9ec007e455935",
+    "metadata_settings_initial.json": "71811236b241e380cf6e6df4c4410b3f40af9d1c414032d85be84b0e6d110deb",
+    "Turner2004.par": "f4a71a542533ce5420515004a0b51f6949e93d4087204185a35eb38fff30d466",
+    "preflight_incidents.json": "1c0e0702c950e86847d5d175e96ac02c31017afc51fe682b865e94590c866227",
+    "synthetic_test_receipt.json": "fad868cfbed9ce423be4f8c260654dfe047fdcc0ee50a8aaaa44947ccc4abaaa",
+    "handoff.md": "ef628ddd7c64fcb7677d55f10f5c3251704d3df7cd7e563973e4561a1bfb6035",
+    "root_preflight.py": "20758a8f8a46ba9d5d4418223b4f57c8ec9ce8c1e2dd80b39153c1fd8663dc95",
+    "root_preflight.json": "fcec4c9c1563eab261d4b882f13154a4f40e7340987ee649868accab1a01a94a",
+    "source_manifest.json": "3c2e07c11ff2fba58acb6aa675203ccc578b1e23d28a5d6d6e640f7c3e1a4c4c",
+    "report.md": "d7250ec42b08d924892218bfd0126c839b8e78986491c94d9460251c5d5e78ad",
+    "eligibility_results.json": "eee42f388d8acd98599e64dfb9661af026d8afef2ca27b1f0f585c7c11d4e3fb",
+    "permitted_metadata_verified.json": "4bd721630232e54dc3ba699fb74d4096035249d74394e44d7d1e92188ee883de",
+    "root_endpoint_proposal.md": "c04f9f04120b8fefa9e555d352b08339a48b4e748adfa69d94b5a4cebff54524",
+    "proposal_review/review.md": "afbbb98c3c913c4fa7cfc75ba234d4b1ff70e91819c143acd09c2deabf9f2fef",
+    "proposal_review/recomputed_feature_addendum.md": "3c2f80f6cf1e70d0022a01b653bd99e2716ada3a57a116115351d3c6727e81da",
+    "proposal_review/grouping_metadata.json": "81a06c507de06d568927b49d6d4e368b0bfef487284594ad6d2617d879cfdc03",
+    "features_authorization.json": "a9e81c0e47342e7b46e0a26114d3677daee2bfcaa241ed09da8aa5150296a2be"
+  },
+  "no_outcomes_published": true,
+  "raw_target_table": "Public source identified and hashed by protocol; no endpoint cells decoded during preparation.",
+  "status": "reviewed_feature_stage_only"
+}

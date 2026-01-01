@@ -1,0 +1,355 @@
+{
+  "status": "metadata eligibility only, no outcomes evaluated",
+  "total_rows": 233,
+  "exclusion_flow": {
+    "excluded_MEV_or_CoV_group": 29,
+    "retained_cellular_labels": 119,
+    "excluded_other_or_unresolved_UTR_origin": 38,
+    "excluded_viral_UTR": 47
+  },
+  "retained_rows": 119,
+  "retained_longamp": 105,
+  "retained_solution_ID_overlap": 105,
+  "deposited_solution_rows": 192,
+  "all_longamp": 192,
+  "solution_IDs_equal_longamp_IDs": true,
+  "translation_two_routes_agree": true,
+  "retained_empty_CDS_field": 24,
+  "protein_group_sizes": {
+    "512a6805a4c59d431048682a92eb97d0be8f1edb31f7d72c98bb425f2f4a4340": 2,
+    "a9602dd7b734f7bd5f6e828f9611f63a58703ac70a963a1b35f364e329449bed": 1,
+    "f4896a2f420a4c42b90e3644f4e92c01b4323c0cd8492e736e2d60231184f4b3": 1,
+    "8175c26e35a7ec8d4f01303b04b6c78c20fcfdfb657d065e3775099b80f42c3b": 1,
+    "e78135cd4c376c17e9cb621622d1cd2a5aea0374d692b9a5be83bb32f01a8379": 23,
+    "1dc4a70273526addb759304a00e3520dd65e87685dd86a52d9df035273e5e3cf": 9,
+    "dd0e8ca4f9a41c1fdd610ac0e48d953ff55be9483e2067db5e713804931fc148": 64,
+    "a12f34999934a96cfcefc5e61a561140ec16e61b95894afb2acd8249cb708e62": 1,
+    "3a4e47c03f17cd92eb242915bcd2b65cec0498dfaacce68155fcea3b2240681e": 1,
+    "1dd2def7e192fad2ed18dcd18586015d1c39460484f9a5bf6ce997320739565f": 1,
+    "de9fff242e366d3ce6cc50520a8dd12da92efc199716460e2d85e8b6d8711fb9": 5,
+    "5bfd673e368838da199f1e56e9f30dc3a449a78e5553059a47afa32480f4e72b": 1,
+    "0defec0a832c85ca4a32bc99e677c7f5fe76605da928e9ec3296303b2cd14483": 1,
+    "b05a01a22a3aee715f9260a9f59d34365ee4ffd9ccbd7c7fd5417875e6284f1e": 1,
+    "e17c4ef9f3162c9a1c37a790b6f8f0fedbc5e650726bfd585f60acc092777825": 1,
+    "0dc77dee40f3aa90f0696319ba5eca790d6a1e2b1cb30823b8ead1fa99d4a310": 1,
+    "5dcf52e5ca7c57bc6572feb04528d7cf507793ec6c8ad2b616eb29d0028f7fd4": 1,
+    "343f6e86fbf5cf681264dcf3d45dd4b71929f439d8d7e6ec8da2744cf7a2e0b9": 1,
+    "c960b4c524df3f06646c0e1c69d2fbdfbc20d7a948ba9b317ecda3c8178f6733": 1,
+    "33bd16231c2b349f26d5640e44ebb2ebc3705cbb876957a3c9647e84b6ec4457": 1,
+    "c405010c4daf7c6f2e5f65cb7a0ad95099e633e64240427576492fb6cfaf17b5": 1
+  },
+  "families": [
+    {
+      "protein_sha256": "1dc4a70273526addb759304a00e3520dd65e87685dd86a52d9df035273e5e3cf",
+      "context_sha256": "ffa028b872a86c60192f39edc7ddcc7640aff1c4f1805a4e67e78ab875686f2d",
+      "aa": 284,
+      "all": {
+        "rows": 9,
+        "unique_CDS": 9,
+        "CDS_edges": [],
+        "full_RNA_edges": []
+      },
+      "longamp": {
+        "rows": 8,
+        "unique_CDS": 8,
+        "CDS_edges": [],
+        "full_RNA_edges": []
+      },
+      "solution_ID_overlap": 8,
+      "joint_longamp_solution_ID_overlap": 8,
+      "all_ids": [
+        "130001D1",
+        "130002D1",
+        "130003D1",
+        "130004D1",
+        "130005D1",
+        "130006D1",
+        "130010D1",
+        "130011D1",
+        "130012D1"
+      ],
+      "longamp_ids": [
+        "130001D1",
+        "130002D1",
+        "130003D1",
+        "130004D1",
+        "130005D1",
+        "130006D1",
+        "130010D1",
+        "130012D1"
+      ],
+      "longamp_id_prefix_counts": {
+        "130": 8
+      }
+    },
+    {
+      "protein_sha256": "512a6805a4c59d431048682a92eb97d0be8f1edb31f7d72c98bb425f2f4a4340",
+      "context_sha256": "ffa028b872a86c60192f39edc7ddcc7640aff1c4f1805a4e67e78ab875686f2d",
+      "aa": 264,
+      "all": {
+        "rows": 2,
+        "unique_CDS": 2,
+        "CDS_edges": [],
+        "full_RNA_edges": []
+      },
+      "longamp": {
+        "rows": 2,
+        "unique_CDS": 2,
+        "CDS_edges": [],
+        "full_RNA_edges": []
+      },
+      "solution_ID_overlap": 2,
+      "joint_longamp_solution_ID_overlap": 2,
+      "all_ids": [
+        "110006T1",
+        "110007T1"
+      ],
+      "longamp_ids": [
+        "110006T1",
+        "110007T1"
+      ],
+      "longamp_id_prefix_counts": {
+        "110": 2
+      }
+    },
+    {
+      "protein_sha256": "dd0e8ca4f9a41c1fdd610ac0e48d953ff55be9483e2067db5e713804931fc148",
+      "context_sha256": "449b0eb3d167c8cdb1f8e6f36bf6d3961b46a8bd6da9310c358ac35a2ba6e6f8",
+      "aa": 221,
+      "all": {
+        "rows": 21,
+        "unique_CDS": 17,
+        "CDS_edges": [],
+        "full_RNA_edges": []
+      },
+      "longamp": {
+        "rows": 21,
+        "unique_CDS": 17,
+        "CDS_edges": [],
+        "full_RNA_edges": []
+      },
+      "solution_ID_overlap": 21,
+      "joint_longamp_solution_ID_overlap": 21,
+      "all_ids": [
+        "310001T1",
+        "310002T1",
+        "310003T1",
+        "310004T1",
+        "310005T1",
+        "310006T1",
+        "310007T1",
+        "310008T1",
+        "310009T1",
+        "310010T1",
+        "310011T1",
+        "310012T1",
+        "310013T1",
+        "310014T1",
+        "310015T1",
+        "310016T1",
+        "320001D1",
+        "320002D1",
+        "320003D1",
+        "320004D1",
+        "320005D1"
+      ],
+      "longamp_ids": [
+        "310001T1",
+        "310002T1",
+        "310003T1",
+        "310004T1",
+        "310005T1",
+        "310006T1",
+        "310007T1",
+        "310008T1",
+        "310009T1",
+        "310010T1",
+        "310011T1",
+        "310012T1",
+        "310013T1",
+        "310014T1",
+        "310015T1",
+        "310016T1",
+        "320001D1",
+        "320002D1",
+        "320003D1",
+        "320004D1",
+        "320005D1"
+      ],
+      "longamp_id_prefix_counts": {
+        "310": 16,
+        "320": 5
+      }
+    },
+    {
+      "protein_sha256": "dd0e8ca4f9a41c1fdd610ac0e48d953ff55be9483e2067db5e713804931fc148",
+      "context_sha256": "e682ac5099bf1b6f4beb22f1f9817c89022c0bd31b279975a872546eddf726e9",
+      "aa": 221,
+      "all": {
+        "rows": 43,
+        "unique_CDS": 43,
+        "CDS_edges": [
+          [
+            "310167T3",
+            "310168T3"
+          ],
+          [
+            "310168T3",
+            "310169T3"
+          ],
+          [
+            "310169T3",
+            "310170T3"
+          ],
+          [
+            "310172T3",
+            "310174T3"
+          ],
+          [
+            "310173T3",
+            "310174T3"
+          ]
+        ],
+        "full_RNA_edges": []
+      },
+      "longamp": {
+        "rows": 37,
+        "unique_CDS": 37,
+        "CDS_edges": [
+          [
+            "310168T3",
+            "310169T3"
+          ],
+          [
+            "310169T3",
+            "310170T3"
+          ],
+          [
+            "310172T3",
+            "310174T3"
+          ],
+          [
+            "310173T3",
+            "310174T3"
+          ]
+        ],
+        "full_RNA_edges": []
+      },
+      "solution_ID_overlap": 37,
+      "joint_longamp_solution_ID_overlap": 37,
+      "all_ids": [
+        "310030T3",
+        "310031T3",
+        "310040T3",
+        "310054T3",
+        "310055T3",
+        "310076T3",
+        "310144T3",
+        "310146T3",
+        "310167T3",
+        "310168T3",
+        "310169T3",
+        "310170T3",
+        "310172T3",
+        "310173T3",
+        "310174T3",
+        "310192T3",
+        "310194T3",
+        "310222T3",
+        "310257T3",
+        "310282T3",
+        "310287T3",
+        "310304T3",
+        "310313T3",
+        "310323T3",
+        "310336T3",
+        "930011D1",
+        "930012D1",
+        "930013D1",
+        "930014D1",
+        "930015D1",
+        "930016D1",
+        "930017D1",
+        "930018D1",
+        "930019D1",
+        "930020D1",
+        "930021D1",
+        "930022D1",
+        "930023D1",
+        "930024D1",
+        "930025D1",
+        "930026D1",
+        "930027D1",
+        "930028D1"
+      ],
+      "longamp_ids": [
+        "310030T3",
+        "310031T3",
+        "310040T3",
+        "310054T3",
+        "310055T3",
+        "310076T3",
+        "310144T3",
+        "310146T3",
+        "310168T3",
+        "310169T3",
+        "310170T3",
+        "310172T3",
+        "310173T3",
+        "310174T3",
+        "310192T3",
+        "310194T3",
+        "310257T3",
+        "310282T3",
+        "310304T3",
+        "310313T3",
+        "310323T3",
+        "310336T3",
+        "930011D1",
+        "930012D1",
+        "930013D1",
+        "930014D1",
+        "930015D1",
+        "930016D1",
+        "930017D1",
+        "930018D1",
+        "930019D1",
+        "930020D1",
+        "930022D1",
+        "930023D1",
+        "930024D1",
+        "930026D1",
+        "930027D1"
+      ],
+      "longamp_id_prefix_counts": {
+        "310": 22,
+        "930": 15
+      }
+    }
+  ],
+  "cell_long_time_labels": {
+    "1": 3,
+    "7": 3,
+    "12": 3,
+    "24": 3,
+    "106": 3
+  },
+  "cell_used_long_sample_ids": [
+    "13",
+    "14",
+    "15",
+    "18",
+    "19",
+    "20",
+    "27",
+    "28",
+    "29"
+  ],
+  "replicate_identity": "not explicitly identified as biological in deposited sample sheet",
+  "limits": [
+    "longamp is a deposited processing flag, not a verified sequence-only criterion",
+    "output-field missingness and response values were not inspected",
+    "barcode-normalized contexts are for metadata grouping, not actual identical full RNA",
+    "same-protein subsets are from one study, not independent genes/studies"
+  ]
+}

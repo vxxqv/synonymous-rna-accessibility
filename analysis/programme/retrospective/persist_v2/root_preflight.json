@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "frozen_input_hashes_verified": 23,
+  "independent_augmented_lstsq_cases": 16,
+  "maximum_prediction_difference": 5.395683899678261e-14,
+  "real_sequences_folded": 0,
+  "real_target_cells_decoded": 0,
+  "source_sha256": "962f953ed17574db96f5ba0cde4827486830244941ea745bb34fb697a5514aaa",
+  "root_check_sha256": "20758a8f8a46ba9d5d4418223b4f57c8ec9ce8c1e2dd80b39153c1fd8663dc95",
+  "review": "Endpoint, six baselines, fixed selected cohort, group-wise CV, rowwise feature definition, numerical guards and stage gates inspected. Effects remain conditional predictions in deposited units, with no absolute rate calibration or independent-gene claim."
+}

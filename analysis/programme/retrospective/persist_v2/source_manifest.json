@@ -1,0 +1,217 @@
+{
+  "schema_version": 1,
+  "task": "C4 PERSIST bounded metadata and measurement eligibility cycle3",
+  "created_at": "2026-10-25T06:59:45.820526+00:00",
+  "requested_local_repository_revision": "e9846dca9f74b2c5c34e984eed970e996b9df2bf",
+  "primary_doi": "10.1038/s41467-022-28776-w",
+  "pmcid": "PMC8940940",
+  "author_tree_sha": "8922dc115acf0c3c803b15fbc97e67edce805c36",
+  "retrieval_receipts": [
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8940940/fullTextXML",
+      "final_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8940940/fullTextXML",
+      "status": 200,
+      "bytes": 281556,
+      "sha256": "0f7cf65716d9c482455abff4bbd3a85ca006715d294df6d3bbc19bc9927db881",
+      "file": "article.xml"
+    },
+    {
+      "url": "https://api.github.com/repos/barnalab/persist/git/blobs/71e581465efd8c681b948db4088a94f4e41e3e47",
+      "final_url": "https://api.github.com/repos/barnalab/persist/git/blobs/71e581465efd8c681b948db4088a94f4e41e3e47",
+      "status": 200,
+      "bytes": 1060447,
+      "sha256": "0aecc3bf33140b567c454c74c86ffe1ebb324a1ce9d43c0b92e88b6b64422881",
+      "file": "analysis_constructs.tsv.blob.json"
+    },
+    {
+      "url": "https://api.github.com/repos/barnalab/persist/git/blobs/382fb1dd4ce0655aa985ea7dab72217461091630",
+      "final_url": "https://api.github.com/repos/barnalab/persist/git/blobs/382fb1dd4ce0655aa985ea7dab72217461091630",
+      "status": 200,
+      "bytes": 9007,
+      "sha256": "641323eacba40a918d00b2e3d81f1eaa0a1cc376f2f933b9359f353023cd00bb",
+      "file": "analysis_samples.csv.blob.json"
+    },
+    {
+      "url": "https://api.github.com/repos/barnalab/persist/git/blobs/5de4e5aeda807a6356d897e03adea3b4b56048c3",
+      "final_url": "https://api.github.com/repos/barnalab/persist/git/blobs/5de4e5aeda807a6356d897e03adea3b4b56048c3",
+      "status": 200,
+      "bytes": 3147,
+      "sha256": "9cd597dba3bd377d9eb0fa3fa46f548daa8215b81fcf8619a00be62bbb5e9942",
+      "file": "README.md.blob.json"
+    },
+    {
+      "url": "https://api.github.com/repos/barnalab/persist/git/blobs/e86bc63c239033e20fdbef7236990023471dc1a8",
+      "final_url": "https://api.github.com/repos/barnalab/persist/git/blobs/e86bc63c239033e20fdbef7236990023471dc1a8",
+      "status": 200,
+      "bytes": 7911,
+      "sha256": "98d4d5fe899def4d7098704f618164681abcdfa6564bd0ee4e531e52d2673e0b",
+      "file": "analysis_persist_p.R.blob.json"
+    },
+    {
+      "url": "https://api.github.com/repos/barnalab/persist/git/blobs/7e8bac1e61789e62a73b888fcfc64762f0cc88a3",
+      "status": 200,
+      "bytes": 18044,
+      "file": "Rhiju_233x_stability_analysis_OUTPUT.txt",
+      "sha256": "25066da3d87e35a9d83c398ae71e9eff85336af0656e6180d637c9528c63eb7a",
+      "git_blob_verified": true
+    },
+    {
+      "url": "https://api.github.com/repos/barnalab/persist/git/blobs/b0ab8c5a8a60a031c2d43bf4d9d3ad1ff3fb009c",
+      "status": 200,
+      "bytes": 8709,
+      "file": "Rhiju_233x_stability_analysis_SCRIPT.m",
+      "sha256": "6c35a45e7fd2de787838bf03553873a2ec3525bf75b691e5faa5d2f7940e603a",
+      "git_blob_verified": true
+    }
+  ],
+  "pinned_author_files": [
+    {
+      "deposited_path": "analysis/constructs.tsv",
+      "git_blob": "71e581465efd8c681b948db4088a94f4e41e3e47",
+      "git_blob_matches": true,
+      "file": "work\\persist_cycle3\\analysis_constructs.tsv",
+      "sha256": "7e0fc06593b2fc602d33a373b5fb1af9547991318b479351c7342eb4701049a4",
+      "bytes": 769465
+    },
+    {
+      "deposited_path": "analysis/samples.csv",
+      "git_blob": "382fb1dd4ce0655aa985ea7dab72217461091630",
+      "git_blob_matches": true,
+      "file": "work\\persist_cycle3\\analysis_samples.csv",
+      "sha256": "6925391095e00acab7d860778b405dbb2b21b890bd61f03da03b9e31b3af59ba",
+      "bytes": 6327
+    },
+    {
+      "deposited_path": "README.md",
+      "git_blob": "5de4e5aeda807a6356d897e03adea3b4b56048c3",
+      "git_blob_matches": true,
+      "file": "work\\persist_cycle3\\README.md",
+      "sha256": "3054652aa8e524f37c294db8e822a01c2e153768c96b311f8a4204126d0abefb",
+      "bytes": 2073
+    },
+    {
+      "deposited_path": "analysis/persist_p.R",
+      "git_blob": "e86bc63c239033e20fdbef7236990023471dc1a8",
+      "git_blob_matches": true,
+      "file": "work\\persist_cycle3\\analysis_persist_p.R",
+      "sha256": "9dae027a774e6fdcf07be0f8c9dddfd27bc4435783a2fffeb2b934d59f711ca3",
+      "bytes": 5531
+    }
+  ],
+  "primary_xml": {
+    "file": "work\\persist_cycle3\\article.xml",
+    "sha256": "0f7cf65716d9c482455abff4bbd3a85ca006715d294df6d3bbc19bc9927db881"
+  },
+  "input_context": [
+    {
+      "file": "outputs/Retrospective_Source_Eligibility.md",
+      "sha256": "bb8589a0e15e6e0d255c144e0d23b0cfc565ff8238d6b4fc64dbf1d49cc6b015"
+    },
+    {
+      "file": "outputs/synonymous-rna-accessibility/analysis/programme/retrospective/source_manifest_v1.json",
+      "sha256": "3d18b017c1df78a9763bd3ed1e09d80f80527c657b525eb1aab4ca5cfe98970a"
+    },
+    {
+      "file": "work/literature_expansion/persist_tree_inventory.json",
+      "sha256": "7009103dca4a4202a5ac93158c5f72f9b5a8adf494efa7e3504beef33a15f3f4"
+    }
+  ],
+  "permitted_fields": [
+    "SequenceID",
+    "Human.readable.name",
+    "X5UTR",
+    "CDS",
+    "X3UTR",
+    "group",
+    "utr5type",
+    "cdstype",
+    "utr3type",
+    "RNA.sequence",
+    "RNA.length",
+    "X5UTR.sequence",
+    "CDS.sequence",
+    "X3UTR.sequence",
+    "CDS.sequence.longest",
+    "Barcode",
+    "T7",
+    "Constant.1",
+    "Constant.2",
+    "Constant.3",
+    "Barcode.Amplicon.Sequencing.2",
+    "cov5utrs",
+    "longamp"
+  ],
+  "protected_fields_not_selected": [
+    "ribosome_load",
+    "ribosome_load_error",
+    "degradation_coef_in_cell",
+    "degradation_coef_in_cell_error",
+    "half_life_in_cell",
+    "predicted_expression",
+    "predicted_expression_error",
+    "degradation_coef_in_solution",
+    "degradation_coef_in_solution_error",
+    "half_life_in_solution",
+    "all SUP/AUP/ensemble energy predictor columns"
+  ],
+  "actual_exposure": [
+    {
+      "source": "Earlier audit",
+      "details": "Published aggregates and selected reporter highlights already exposed, preserved in prior report."
+    },
+    {
+      "source": "Current caption replication extraction",
+      "details": "Replication text with published significance symbols and n=3 displayed."
+    },
+    {
+      "source": "Headerless Rhiju_233x_stability_analysis_OUTPUT.txt first row",
+      "SequenceID": "130006D1",
+      "fields": "Two fitted numerical solution output fields automatically displayed when line1 was misclassified as header. Values not repeated, fitted, compared or used. Root informed. Row not untouched."
+    },
+    {
+      "source": "Initial broad local filename/text search",
+      "details": "Unrelated prior-literature snippets returned automatically, not used or pursued."
+    }
+  ],
+  "outcome_evaluation": false,
+  "cellular_outcome_cells_inspected": false,
+  "author_code_executed": false,
+  "source_access_failures": [
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8940940/",
+      "result": "browser/reCAPTCHA page from web open; no challenge attempted; public EuropePMC XML independently succeeded"
+    }
+  ],
+  "outputs": [
+    {
+      "file": "work\\persist_cycle3\\report.md",
+      "sha256": "d7250ec42b08d924892218bfd0126c839b8e78986491c94d9460251c5d5e78ad"
+    },
+    {
+      "file": "work\\persist_cycle3\\eligibility_metadata_audit.py",
+      "sha256": "9ef852ff6c531a2b6e712e785bd4043e9ca5166a4fe360877ba4008630a2d0e6"
+    },
+    {
+      "file": "work\\persist_cycle3\\eligibility_results.json",
+      "sha256": "eee42f388d8acd98599e64dfb9661af026d8afef2ca27b1f0f585c7c11d4e3fb"
+    },
+    {
+      "file": "work\\persist_cycle3\\construct_metadata_only.json",
+      "sha256": "4ce3195a8cb181e41dc049ff35125e6c92dc09f5290ece15b671213a5301ca63"
+    },
+    {
+      "file": "work\\persist_cycle3\\solution_identifiers_only.json",
+      "sha256": "4c0b7e6ee8c6b88c9fcd46e1bd412016d9fe09b94ac0f30082e8713bb910b907"
+    }
+  ],
+  "decision": "Conditional source-aware single-reporter cellular-decay prediction eligibility; scale check and root freeze required before outcomes. Not complete landscape or independent-study validation.",
+  "open_gates": [
+    "stored slope/half-life scale provenance",
+    "longamp selection provenance and potentially outcome-based filtering",
+    "cellular coefficient missingness/quality not inspected",
+    "biological origin and pairing of repeated time series unresolved",
+    "source ancestry and barcode effects limit transfer interpretation"
+  ],
+  "no_repo_or_manuscript_edits": true,
+  "no_commits": true
+}
