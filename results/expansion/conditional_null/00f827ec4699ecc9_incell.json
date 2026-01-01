@@ -1,0 +1,31 @@
+{
+  "id": "00f827ec4699ecc9",
+  "transcript_id": "asnS_44",
+  "gene": "asnS",
+  "locus_tag": "b0930",
+  "condition": "incell",
+  "n_compatible": 32,
+  "n_retained": 0,
+  "run_provenance": {
+    "method": "conditional_vertex_null.py",
+    "parameters": {
+      "draws": 999,
+      "cap": 2000,
+      "seed": 1729,
+      "cutoff": 0.5
+    },
+    "source_result_sha256": "e8f824b5ba13d664ce21ade80909cdd03f12cc92061ed152fb3ab53814400719",
+    "block_sha256": "8876a9f52ae4f9c16d4ce1e66eb25c1f3f871b414bc553020d4aec49e9e55e62",
+    "code_sha256": {
+      "analysis/expansion/provenance.py": "6fe42774119f873b9a8962ca416606411a94ab0f1708ba23d652fb27be46910e",
+      "analysis/expansion/conditional_vertex_null.py": "c73dddb3861242374e2ebab688e8ae3993657900ada9fb5e2f116b0193b7f598",
+      "src/accessibility.py": "0bf96e030647fe823c0367569e936b823b386ee423187636f6381e76baf7d5e1",
+      "analysis/expansion/retention_filtration.py": "5d0a5c080505eb0f2bb97a2e33f2d526c150bf241afbd491893376398c57dac5",
+      "analysis/expansion/smoothness_controls.py": "8ae9349f8272dd132c0bcf5233ea3727ccf4c0642183ddd8d6da5b3a9895b56f"
+    },
+    "python": "3.12.14",
+    "numpy": "2.5.4",
+    "signature": "7d4442aa99cf6d5acf622e4b4057b118647f4b9ee7ef4f5c546f2fcc90cdfe68"
+  },
+  "status": "empty"
+}

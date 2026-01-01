@@ -1,0 +1,32 @@
+{
+  "incell": {
+    "n_blocks": 404,
+    "n_compatible_genotypes": 19460,
+    "nonempty_filtered_blocks": 362,
+    "blocks_with_excess": 7,
+    "mean_excess_nonempty": 0.007570601057373153,
+    "total_filtered_genotypes": 10265
+  },
+  "cellfree": {
+    "n_blocks": 404,
+    "n_compatible_genotypes": 19374,
+    "nonempty_filtered_blocks": 373,
+    "blocks_with_excess": 10,
+    "mean_excess_nonempty": 0.007570265924220023,
+    "total_filtered_genotypes": 10612
+  },
+  "kasugamycin": {
+    "n_blocks": 404,
+    "n_compatible_genotypes": 19140,
+    "nonempty_filtered_blocks": 376,
+    "blocks_with_excess": 8,
+    "mean_excess_nonempty": 0.006301065819242365,
+    "total_filtered_genotypes": 10278
+  },
+  "cohort": {
+    "blocks": 404,
+    "transcripts": 185,
+    "unique_loci": 402,
+    "cartesian_per_condition": 139204
+  }
+}

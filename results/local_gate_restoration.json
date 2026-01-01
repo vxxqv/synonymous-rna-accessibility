@@ -1,0 +1,1455 @@
+[
+  {
+    "id": "00329b0acae87324",
+    "condition": "cellfree",
+    "gene": "mraY",
+    "n_endpoints": 125,
+    "original_excess": 0.01918806076219237,
+    "gu_bridge_vertices": 0,
+    "certificates": [],
+    "restored_connected_pairs": "11041",
+    "baseline_connected_pairs": "11257",
+    "fraction_excess_recovered": 0.0,
+    "fully_explained_by_single_GU_addbacks": false,
+    "coding_gate_bridge_vertices": 11,
+    "any_single_addback_vertices": 11,
+    "fully_restored_by_GU_and_coding": true,
+    "fully_restored_by_all_single_addbacks": true
+  },
+  {
+    "id": "0034cb3574b3b785",
+    "condition": "cellfree",
+    "gene": "oppC",
+    "n_endpoints": 27,
+    "original_excess": 0.07529411764705884,
+    "gu_bridge_vertices": 4,
+    "certificates": [
+      {
+        "removed": "UUCCUGAGUUUUCUU",
+        "endpoints": [
+          "UUCCUAAGUUUUCUU",
+          "UUCCUGAGUUUUCUC"
+        ],
+        "pair_positions0": [
+          5,
+          14
+        ]
+      },
+      {
+        "removed": "UUCCUGAGUUUCCUU",
+        "endpoints": [
+          "UUCCUAAGUUUCCUU",
+          "UUCCUGAGUUUCCUC"
+        ],
+        "pair_positions0": [
+          5,
+          14
+        ]
+      },
+      {
+        "removed": "UUCCUGAGCUUUCUU",
+        "endpoints": [
+          "UUCCUAAGCUUUCUU",
+          "UUCCUGAGCUUUCUC"
+        ],
+        "pair_positions0": [
+          5,
+          14
+        ]
+      },
+      {
+        "removed": "UUCCUGAGCUUCCUU",
+        "endpoints": [
+          "UUCCUAAGCUUCCUU",
+          "UUCCUGAGCUUCCUC"
+        ],
+        "pair_positions0": [
+          5,
+          14
+        ]
+      }
+    ],
+    "restored_connected_pairs": "425",
+    "baseline_connected_pairs": "425",
+    "fraction_excess_recovered": 1.0,
+    "fully_explained_by_single_GU_addbacks": true,
+    "coding_gate_bridge_vertices": 0,
+    "any_single_addback_vertices": 4,
+    "fully_restored_by_GU_and_coding": true,
+    "fully_restored_by_all_single_addbacks": true
+  },
+  {
+    "id": "0034cb3574b3b785",
+    "condition": "incell",
+    "gene": "oppC",
+    "n_endpoints": 27,
+    "original_excess": 0.07529411764705884,
+    "gu_bridge_vertices": 4,
+    "certificates": [
+      {
+        "removed": "UUCCUGAGUUUUCUU",
+        "endpoints": [
+          "UUCCUAAGUUUUCUU",
+          "UUCCUGAGUUUUCUC"
+        ],
+        "pair_positions0": [
+          5,
+          14
+        ]
+      },
+      {
+        "removed": "UUCCUGAGUUUCCUU",
+        "endpoints": [
+          "UUCCUAAGUUUCCUU",
+          "UUCCUGAGUUUCCUC"
+        ],
+        "pair_positions0": [
+          5,
+          14
+        ]
+      },
+      {
+        "removed": "UUCCUGAGCUUUCUU",
+        "endpoints": [
+          "UUCCUAAGCUUUCUU",
+          "UUCCUGAGCUUUCUC"
+        ],
+        "pair_positions0": [
+          5,
+          14
+        ]
+      },
+      {
+        "removed": "UUCCUGAGCUUCCUU",
+        "endpoints": [
+          "UUCCUAAGCUUCCUU",
+          "UUCCUGAGCUUCCUC"
+        ],
+        "pair_positions0": [
+          5,
+          14
+        ]
+      }
+    ],
+    "restored_connected_pairs": "425",
+    "baseline_connected_pairs": "425",
+    "fraction_excess_recovered": 1.0,
+    "fully_explained_by_single_GU_addbacks": true,
+    "coding_gate_bridge_vertices": 0,
+    "any_single_addback_vertices": 4,
+    "fully_restored_by_GU_and_coding": true,
+    "fully_restored_by_all_single_addbacks": true
+  },
+  {
+    "id": "0034cb3574b3b785",
+    "condition": "kasugamycin",
+    "gene": "oppC",
+    "n_endpoints": 28,
+    "original_excess": 0.06896551724137934,
+    "gu_bridge_vertices": 4,
+    "certificates": [
+      {
+        "removed": "UUCCUGAGUUUUCUU",
+        "endpoints": [
+          "UUCCUAAGUUUUCUU",
+          "UUCCUGAGUUUUCUC"
+        ],
+        "pair_positions0": [
+          5,
+          14
+        ]
+      },
+      {
+        "removed": "UUCCUGAGUUUCCUU",
+        "endpoints": [
+          "UUCCUAAGUUUCCUU",
+          "UUCCUGAGUUUCCUC"
+        ],
+        "pair_positions0": [
+          5,
+          14
+        ]
+      },
+      {
+        "removed": "UUCCUGAGCUUUCUU",
+        "endpoints": [
+          "UUCCUAAGCUUUCUU",
+          "UUCCUGAGCUUUCUC"
+        ],
+        "pair_positions0": [
+          5,
+          14
+        ]
+      },
+      {
+        "removed": "UUCCUGAGCUUCCUU",
+        "endpoints": [
+          "UUCCUAAGCUUCCUU",
+          "UUCCUGAGCUUCCUC"
+        ],
+        "pair_positions0": [
+          5,
+          14
+        ]
+      }
+    ],
+    "restored_connected_pairs": "464",
+    "baseline_connected_pairs": "464",
+    "fraction_excess_recovered": 1.0,
+    "fully_explained_by_single_GU_addbacks": true,
+    "coding_gate_bridge_vertices": 0,
+    "any_single_addback_vertices": 4,
+    "fully_restored_by_GU_and_coding": true,
+    "fully_restored_by_all_single_addbacks": true
+  },
+  {
+    "id": "00486402aec057a7",
+    "condition": "cellfree",
+    "gene": "rplF",
+    "n_endpoints": 6,
+    "original_excess": 0.4444444444444444,
+    "gu_bridge_vertices": 2,
+    "certificates": [
+      {
+        "removed": "CCUUAUAAGGGCAAG",
+        "endpoints": [
+          "CCUUAUAAAGGCAAG",
+          "CCCUAUAAGGGCAAG"
+        ],
+        "pair_positions0": [
+          2,
+          8
+        ]
+      },
+      {
+        "removed": "CCUUACAAGGGCAAG",
+        "endpoints": [
+          "CCUUACAAAGGCAAG",
+          "CCCUACAAGGGCAAG"
+        ],
+        "pair_positions0": [
+          2,
+          8
+        ]
+      }
+    ],
+    "restored_connected_pairs": "36",
+    "baseline_connected_pairs": "36",
+    "fraction_excess_recovered": 1.0,
+    "fully_explained_by_single_GU_addbacks": true,
+    "coding_gate_bridge_vertices": 0,
+    "any_single_addback_vertices": 2,
+    "fully_restored_by_GU_and_coding": true,
+    "fully_restored_by_all_single_addbacks": true
+  },
+  {
+    "id": "00486402aec057a7",
+    "condition": "incell",
+    "gene": "rplF",
+    "n_endpoints": 14,
+    "original_excess": 0.4897959183673469,
+    "gu_bridge_vertices": 6,
+    "certificates": [
+      {
+        "removed": "CCUUAUAAGGGUAAA",
+        "endpoints": [
+          "CCUUAUAAAGGUAAA",
+          "CCCUAUAAGGGUAAA"
+        ],
+        "pair_positions0": [
+          2,
+          8
+        ]
+      },
+      {
+        "removed": "CCUUAUAAGGGUAAG",
+        "endpoints": [
+          "CCUUAUAAAGGUAAG",
+          "CCCUAUAAGGGUAAG"
+        ],
+        "pair_positions0": [
+          2,
+          8
+        ]
+      },
+      {
+        "removed": "CCUUAUAAGGGCAAA",
+        "endpoints": [
+          "CCUUAUAAAGGCAAA",
+          "CCCUAUAAGGGCAAA"
+        ],
+        "pair_positions0": [
+          2,
+          8
+        ]
+      },
+      {
+        "removed": "CCUUAUAAGGGCAAG",
+        "endpoints": [
+          "CCUUAUAAAGGCAAG",
+          "CCCUAUAAGGGCAAG"
+        ],
+        "pair_positions0": [
+          2,
+          8
+        ]
+      },
+      {
+        "removed": "CCUUACAAGGGCAAA",
+        "endpoints": [
+          "CCUUACAAAGGCAAA",
+          "CCCUACAAGGGCAAA"
+        ],
+        "pair_positions0": [
+          2,
+          8
+        ]
+      },
+      {
+        "removed": "CCUUACAAGGGCAAG",
+        "endpoints": [
+          "CCUUACAAAGGCAAG",
+          "CCCUACAAGGGCAAG"
+        ],
+        "pair_positions0": [
+          2,
+          8
+        ]
+      }
+    ],
+    "restored_connected_pairs": "196",
+    "baseline_connected_pairs": "196",
+    "fraction_excess_recovered": 1.0,
+    "fully_explained_by_single_GU_addbacks": true,
+    "coding_gate_bridge_vertices": 0,
+    "any_single_addback_vertices": 6,
+    "fully_restored_by_GU_and_coding": true,
+    "fully_restored_by_all_single_addbacks": true
+  },
+  {
+    "id": "00486402aec057a7",
+    "condition": "kasugamycin",
+    "gene": "rplF",
+    "n_endpoints": 6,
+    "original_excess": 0.4444444444444444,
+    "gu_bridge_vertices": 2,
+    "certificates": [
+      {
+        "removed": "CCUUAUAAGGGCAAG",
+        "endpoints": [
+          "CCUUAUAAAGGCAAG",
+          "CCCUAUAAGGGCAAG"
+        ],
+        "pair_positions0": [
+          2,
+          8
+        ]
+      },
+      {
+        "removed": "CCUUACAAGGGCAAG",
+        "endpoints": [
+          "CCUUACAAAGGCAAG",
+          "CCCUACAAGGGCAAG"
+        ],
+        "pair_positions0": [
+          2,
+          8
+        ]
+      }
+    ],
+    "restored_connected_pairs": "36",
+    "baseline_connected_pairs": "36",
+    "fraction_excess_recovered": 1.0,
+    "fully_explained_by_single_GU_addbacks": true,
+    "coding_gate_bridge_vertices": 0,
+    "any_single_addback_vertices": 2,
+    "fully_restored_by_GU_and_coding": true,
+    "fully_restored_by_all_single_addbacks": true
+  },
+  {
+    "id": "0051429bac02abc0",
+    "condition": "cellfree",
+    "gene": "prc",
+    "n_endpoints": 113,
+    "original_excess": 0.07972318339100348,
+    "gu_bridge_vertices": 2,
+    "certificates": [
+      {
+        "removed": "CGUAAAGGUGUGACG",
+        "endpoints": [
+          "CGUAAAGGUGUGACA",
+          "CGUAAAGGCGUGACG"
+        ],
+        "pair_positions0": [
+          8,
+          14
+        ]
+      },
+      {
+        "removed": "AGGAAGGGUGUGACG",
+        "endpoints": [
+          "AGGAAGGGUGUGACA",
+          "AGGAAGGGCGUGACG"
+        ],
+        "pair_positions0": [
+          8,
+          14
+        ]
+      }
+    ],
+    "restored_connected_pairs": "7225",
+    "baseline_connected_pairs": "7225",
+    "fraction_excess_recovered": 1.0,
+    "fully_explained_by_single_GU_addbacks": true,
+    "coding_gate_bridge_vertices": 0,
+    "any_single_addback_vertices": 2,
+    "fully_restored_by_GU_and_coding": true,
+    "fully_restored_by_all_single_addbacks": true
+  },
+  {
+    "id": "00af47a3b72609d0",
+    "condition": "cellfree",
+    "gene": "murG",
+    "n_endpoints": 4,
+    "original_excess": 0.375,
+    "gu_bridge_vertices": 0,
+    "certificates": [],
+    "restored_connected_pairs": "10",
+    "baseline_connected_pairs": "16",
+    "fraction_excess_recovered": 0.0,
+    "fully_explained_by_single_GU_addbacks": false,
+    "coding_gate_bridge_vertices": 0,
+    "any_single_addback_vertices": 3,
+    "fully_restored_by_GU_and_coding": false,
+    "fully_restored_by_all_single_addbacks": true
+  },
+  {
+    "id": "00b5d3a4086d9b77",
+    "condition": "cellfree",
+    "gene": "ygiC",
+    "n_endpoints": 3,
+    "original_excess": 0.4444444444444444,
+    "gu_bridge_vertices": 1,
+    "certificates": [
+      {
+        "removed": "UUACUGUGGGAGAUG",
+        "endpoints": [
+          "UUACUAUGGGAGAUG",
+          "CUACUGUGGGAGAUG"
+        ],
+        "pair_positions0": [
+          0,
+          5
+        ]
+      }
+    ],
+    "restored_connected_pairs": "9",
+    "baseline_connected_pairs": "9",
+    "fraction_excess_recovered": 1.0,
+    "fully_explained_by_single_GU_addbacks": true,
+    "coding_gate_bridge_vertices": 0,
+    "any_single_addback_vertices": 1,
+    "fully_restored_by_GU_and_coding": true,
+    "fully_restored_by_all_single_addbacks": true
+  },
+  {
+    "id": "00b5d3a4086d9b77",
+    "condition": "incell",
+    "gene": "ygiC",
+    "n_endpoints": 3,
+    "original_excess": 0.4444444444444444,
+    "gu_bridge_vertices": 1,
+    "certificates": [
+      {
+        "removed": "UUACUGUGGGAGAUG",
+        "endpoints": [
+          "UUACUAUGGGAGAUG",
+          "CUACUGUGGGAGAUG"
+        ],
+        "pair_positions0": [
+          0,
+          5
+        ]
+      }
+    ],
+    "restored_connected_pairs": "9",
+    "baseline_connected_pairs": "9",
+    "fraction_excess_recovered": 1.0,
+    "fully_explained_by_single_GU_addbacks": true,
+    "coding_gate_bridge_vertices": 0,
+    "any_single_addback_vertices": 1,
+    "fully_restored_by_GU_and_coding": true,
+    "fully_restored_by_all_single_addbacks": true
+  },
+  {
+    "id": "00b5d3a4086d9b77",
+    "condition": "kasugamycin",
+    "gene": "ygiC",
+    "n_endpoints": 3,
+    "original_excess": 0.4444444444444444,
+    "gu_bridge_vertices": 1,
+    "certificates": [
+      {
+        "removed": "UUACUGUGGGAGAUG",
+        "endpoints": [
+          "UUACUAUGGGAGAUG",
+          "CUACUGUGGGAGAUG"
+        ],
+        "pair_positions0": [
+          0,
+          5
+        ]
+      }
+    ],
+    "restored_connected_pairs": "9",
+    "baseline_connected_pairs": "9",
+    "fraction_excess_recovered": 1.0,
+    "fully_explained_by_single_GU_addbacks": true,
+    "coding_gate_bridge_vertices": 0,
+    "any_single_addback_vertices": 1,
+    "fully_restored_by_GU_and_coding": true,
+    "fully_restored_by_all_single_addbacks": true
+  },
+  {
+    "id": "00b748962cff65f7",
+    "condition": "kasugamycin",
+    "gene": "groL",
+    "n_endpoints": 21,
+    "original_excess": 0.14479638009049778,
+    "gu_bridge_vertices": 2,
+    "certificates": [
+      {
+        "removed": "GGGGAAGCUCUGGCU",
+        "endpoints": [
+          "GGAGAAGCUCUGGCU",
+          "GGGGAAGCCCUGGCU"
+        ],
+        "pair_positions0": [
+          2,
+          8
+        ]
+      },
+      {
+        "removed": "GGGGAGGCUCUGGCU",
+        "endpoints": [
+          "GGAGAGGCUCUGGCU",
+          "GGGGAGGCCCUGGCU"
+        ],
+        "pair_positions0": [
+          2,
+          8
+        ]
+      }
+    ],
+    "restored_connected_pairs": "221",
+    "baseline_connected_pairs": "221",
+    "fraction_excess_recovered": 1.0,
+    "fully_explained_by_single_GU_addbacks": true,
+    "coding_gate_bridge_vertices": 0,
+    "any_single_addback_vertices": 2,
+    "fully_restored_by_GU_and_coding": true,
+    "fully_restored_by_all_single_addbacks": true
+  },
+  {
+    "id": "00ea7f0614b3b896",
+    "condition": "incell",
+    "gene": "cpxA",
+    "n_endpoints": 4,
+    "original_excess": 0.625,
+    "gu_bridge_vertices": 0,
+    "certificates": [],
+    "restored_connected_pairs": "6",
+    "baseline_connected_pairs": "16",
+    "fraction_excess_recovered": 0.0,
+    "fully_explained_by_single_GU_addbacks": false,
+    "coding_gate_bridge_vertices": 1,
+    "any_single_addback_vertices": 3,
+    "fully_restored_by_GU_and_coding": false,
+    "fully_restored_by_all_single_addbacks": true
+  },
+  {
+    "id": "015088a290feb929",
+    "condition": "cellfree",
+    "gene": "aceB",
+    "n_endpoints": 8,
+    "original_excess": 0.375,
+    "gu_bridge_vertices": 0,
+    "certificates": [],
+    "restored_connected_pairs": "40",
+    "baseline_connected_pairs": "64",
+    "fraction_excess_recovered": 0.0,
+    "fully_explained_by_single_GU_addbacks": false,
+    "coding_gate_bridge_vertices": 2,
+    "any_single_addback_vertices": 2,
+    "fully_restored_by_GU_and_coding": true,
+    "fully_restored_by_all_single_addbacks": true
+  },
+  {
+    "id": "018853791f149a59",
+    "condition": "cellfree",
+    "gene": "rplR",
+    "n_endpoints": 66,
+    "original_excess": 0.23102310231023104,
+    "gu_bridge_vertices": 14,
+    "certificates": [
+      {
+        "removed": "GUUGUUCAUCGGACA",
+        "endpoints": [
+          "GUUGUUCAUCGAACA",
+          "GUUGUCCAUCGGACA"
+        ],
+        "pair_positions0": [
+          5,
+          11
+        ]
+      },
+      {
+        "removed": "GUUGUUCAUCGGACG",
+        "endpoints": [
+          "GUUGUUCAUCGAACG",
+          "GUUGUCCAUCGGACG"
+        ],
+        "pair_positions0": [
+          5,
+          11
+        ]
+      },
+      {
+        "removed": "GUUGUUCAUAGGACA",
+        "endpoints": [
+          "GUUGUUCAUAGAACA",
+          "GUUGUCCAUAGGACA"
+        ],
+        "pair_positions0": [
+          5,
+          11
+        ]
+      },
+      {
+        "removed": "GUUGUUCAUAGGACG",
+        "endpoints": [
+          "GUUGUUCAUAGAACG",
+          "GUUGUCCAUAGGACG"
+        ],
+        "pair_positions0": [
+          5,
+          11
+        ]
+      },
+      {
+        "removed": "GUUGUUCACCGGACA",
+        "endpoints": [
+          "GUUGUUCACCGAACA",
+          "GUUGUCCACCGGACA"
+        ],
+        "pair_positions0": [
+          5,
+          11
+        ]
+      },
+      {
+        "removed": "GUUGUUCACCGGACG",
+        "endpoints": [
+          "GUUGUUCACCGAACG",
+          "GUUGUCCACCGGACG"
+        ],
+        "pair_positions0": [
+          5,
+          11
+        ]
+      },
+      {
+        "removed": "GUCGUUCAUCGGACG",
+        "endpoints": [
+          "GUCGUUCAUCGAACG",
+          "GUCGUCCAUCGGACG"
+        ],
+        "pair_positions0": [
+          5,
+          11
+        ]
+      },
+      {
+        "removed": "GUCGUUCAUAGGACG",
+        "endpoints": [
+          "GUCGUUCAUAGAACG",
+          "GUCGUCCAUAGGACG"
+        ],
+        "pair_positions0": [
+          5,
+          11
+        ]
+      },
+      {
+        "removed": "GUCGUUCACCGGACG",
+        "endpoints": [
+          "GUCGUUCACCGAACG",
+          "GUCGUCCACCGGACG"
+        ],
+        "pair_positions0": [
+          5,
+          11
+        ]
+      },
+      {
+        "removed": "GUCGUUCACAGGACG",
+        "endpoints": [
+          "GUCGUUCACAGAACG",
+          "GUCGUCCACAGGACG"
+        ],
+        "pair_positions0": [
+          5,
+          11
+        ]
+      },
+      {
+        "removed": "GUGGUGCAUCGUACC",
+        "endpoints": [
+          "GUGGUACAUCGUACC",
+          "GUGGUGCAUCGCACC"
+        ],
+        "pair_positions0": [
+          5,
+          11
+        ]
+      },
+      {
+        "removed": "GUGGUGCAUCGCACU",
+        "endpoints": [
+          "GUAGUGCAUCGCACU",
+          "GUGGUGCAUCGCACC"
+        ],
+        "pair_positions0": [
+          2,
+          14
+        ]
+      },
+      {
+        "removed": "GUGGUGCACCGUACC",
+        "endpoints": [
+          "GUGGUACACCGUACC",
+          "GUGGUGCACCGCACC"
+        ],
+        "pair_positions0": [
+          5,
+          11
+        ]
+      },
+      {
+        "removed": "GUGGUGCACCGCACU",
+        "endpoints": [
+          "GUAGUGCACCGCACU",
+          "GUGGUGCACCGCACC"
+        ],
+        "pair_positions0": [
+          2,
+          14
+        ]
+      }
+    ],
+    "restored_connected_pairs": "1212",
+    "baseline_connected_pairs": "1212",
+    "fraction_excess_recovered": 1.0,
+    "fully_explained_by_single_GU_addbacks": true,
+    "coding_gate_bridge_vertices": 0,
+    "any_single_addback_vertices": 14,
+    "fully_restored_by_GU_and_coding": true,
+    "fully_restored_by_all_single_addbacks": true
+  },
+  {
+    "id": "018853791f149a59",
+    "condition": "incell",
+    "gene": "rplR",
+    "n_endpoints": 66,
+    "original_excess": 0.23102310231023104,
+    "gu_bridge_vertices": 14,
+    "certificates": [
+      {
+        "removed": "GUUGUUCAUCGGACA",
+        "endpoints": [
+          "GUUGUUCAUCGAACA",
+          "GUUGUCCAUCGGACA"
+        ],
+        "pair_positions0": [
+          5,
+          11
+        ]
+      },
+      {
+        "removed": "GUUGUUCAUCGGACG",
+        "endpoints": [
+          "GUUGUUCAUCGAACG",
+          "GUUGUCCAUCGGACG"
+        ],
+        "pair_positions0": [
+          5,
+          11
+        ]
+      },
+      {
+        "removed": "GUUGUUCAUAGGACA",
+        "endpoints": [
+          "GUUGUUCAUAGAACA",
+          "GUUGUCCAUAGGACA"
+        ],
+        "pair_positions0": [
+          5,
+          11
+        ]
+      },
+      {
+        "removed": "GUUGUUCAUAGGACG",
+        "endpoints": [
+          "GUUGUUCAUAGAACG",
+          "GUUGUCCAUAGGACG"
+        ],
+        "pair_positions0": [
+          5,
+          11
+        ]
+      },
+      {
+        "removed": "GUUGUUCACCGGACA",
+        "endpoints": [
+          "GUUGUUCACCGAACA",
+          "GUUGUCCACCGGACA"
+        ],
+        "pair_positions0": [
+          5,
+          11
+        ]
+      },
+      {
+        "removed": "GUUGUUCACCGGACG",
+        "endpoints": [
+          "GUUGUUCACCGAACG",
+          "GUUGUCCACCGGACG"
+        ],
+        "pair_positions0": [
+          5,
+          11
+        ]
+      },
+      {
+        "removed": "GUCGUUCAUCGGACG",
+        "endpoints": [
+          "GUCGUUCAUCGAACG",
+          "GUCGUCCAUCGGACG"
+        ],
+        "pair_positions0": [
+          5,
+          11
+        ]
+      },
+      {
+        "removed": "GUCGUUCAUAGGACG",
+        "endpoints": [
+          "GUCGUUCAUAGAACG",
+          "GUCGUCCAUAGGACG"
+        ],
+        "pair_positions0": [
+          5,
+          11
+        ]
+      },
+      {
+        "removed": "GUCGUUCACCGGACG",
+        "endpoints": [
+          "GUCGUUCACCGAACG",
+          "GUCGUCCACCGGACG"
+        ],
+        "pair_positions0": [
+          5,
+          11
+        ]
+      },
+      {
+        "removed": "GUCGUUCACAGGACG",
+        "endpoints": [
+          "GUCGUUCACAGAACG",
+          "GUCGUCCACAGGACG"
+        ],
+        "pair_positions0": [
+          5,
+          11
+        ]
+      },
+      {
+        "removed": "GUGGUGCAUCGUACC",
+        "endpoints": [
+          "GUGGUACAUCGUACC",
+          "GUGGUGCAUCGCACC"
+        ],
+        "pair_positions0": [
+          5,
+          11
+        ]
+      },
+      {
+        "removed": "GUGGUGCAUCGCACU",
+        "endpoints": [
+          "GUAGUGCAUCGCACU",
+          "GUGGUGCAUCGCACC"
+        ],
+        "pair_positions0": [
+          2,
+          14
+        ]
+      },
+      {
+        "removed": "GUGGUGCACCGUACC",
+        "endpoints": [
+          "GUGGUACACCGUACC",
+          "GUGGUGCACCGCACC"
+        ],
+        "pair_positions0": [
+          5,
+          11
+        ]
+      },
+      {
+        "removed": "GUGGUGCACCGCACU",
+        "endpoints": [
+          "GUAGUGCACCGCACU",
+          "GUGGUGCACCGCACC"
+        ],
+        "pair_positions0": [
+          2,
+          14
+        ]
+      }
+    ],
+    "restored_connected_pairs": "1212",
+    "baseline_connected_pairs": "1212",
+    "fraction_excess_recovered": 1.0,
+    "fully_explained_by_single_GU_addbacks": true,
+    "coding_gate_bridge_vertices": 0,
+    "any_single_addback_vertices": 14,
+    "fully_restored_by_GU_and_coding": true,
+    "fully_restored_by_all_single_addbacks": true
+  },
+  {
+    "id": "018853791f149a59",
+    "condition": "kasugamycin",
+    "gene": "rplR",
+    "n_endpoints": 66,
+    "original_excess": 0.23102310231023104,
+    "gu_bridge_vertices": 14,
+    "certificates": [
+      {
+        "removed": "GUUGUUCAUCGGACA",
+        "endpoints": [
+          "GUUGUUCAUCGAACA",
+          "GUUGUCCAUCGGACA"
+        ],
+        "pair_positions0": [
+          5,
+          11
+        ]
+      },
+      {
+        "removed": "GUUGUUCAUCGGACG",
+        "endpoints": [
+          "GUUGUUCAUCGAACG",
+          "GUUGUCCAUCGGACG"
+        ],
+        "pair_positions0": [
+          5,
+          11
+        ]
+      },
+      {
+        "removed": "GUUGUUCAUAGGACA",
+        "endpoints": [
+          "GUUGUUCAUAGAACA",
+          "GUUGUCCAUAGGACA"
+        ],
+        "pair_positions0": [
+          5,
+          11
+        ]
+      },
+      {
+        "removed": "GUUGUUCAUAGGACG",
+        "endpoints": [
+          "GUUGUUCAUAGAACG",
+          "GUUGUCCAUAGGACG"
+        ],
+        "pair_positions0": [
+          5,
+          11
+        ]
+      },
+      {
+        "removed": "GUUGUUCACCGGACA",
+        "endpoints": [
+          "GUUGUUCACCGAACA",
+          "GUUGUCCACCGGACA"
+        ],
+        "pair_positions0": [
+          5,
+          11
+        ]
+      },
+      {
+        "removed": "GUUGUUCACCGGACG",
+        "endpoints": [
+          "GUUGUUCACCGAACG",
+          "GUUGUCCACCGGACG"
+        ],
+        "pair_positions0": [
+          5,
+          11
+        ]
+      },
+      {
+        "removed": "GUCGUUCAUCGGACG",
+        "endpoints": [
+          "GUCGUUCAUCGAACG",
+          "GUCGUCCAUCGGACG"
+        ],
+        "pair_positions0": [
+          5,
+          11
+        ]
+      },
+      {
+        "removed": "GUCGUUCAUAGGACG",
+        "endpoints": [
+          "GUCGUUCAUAGAACG",
+          "GUCGUCCAUAGGACG"
+        ],
+        "pair_positions0": [
+          5,
+          11
+        ]
+      },
+      {
+        "removed": "GUCGUUCACCGGACG",
+        "endpoints": [
+          "GUCGUUCACCGAACG",
+          "GUCGUCCACCGGACG"
+        ],
+        "pair_positions0": [
+          5,
+          11
+        ]
+      },
+      {
+        "removed": "GUCGUUCACAGGACG",
+        "endpoints": [
+          "GUCGUUCACAGAACG",
+          "GUCGUCCACAGGACG"
+        ],
+        "pair_positions0": [
+          5,
+          11
+        ]
+      },
+      {
+        "removed": "GUGGUGCAUCGUACC",
+        "endpoints": [
+          "GUGGUACAUCGUACC",
+          "GUGGUGCAUCGCACC"
+        ],
+        "pair_positions0": [
+          5,
+          11
+        ]
+      },
+      {
+        "removed": "GUGGUGCAUCGCACU",
+        "endpoints": [
+          "GUAGUGCAUCGCACU",
+          "GUGGUGCAUCGCACC"
+        ],
+        "pair_positions0": [
+          2,
+          14
+        ]
+      },
+      {
+        "removed": "GUGGUGCACCGUACC",
+        "endpoints": [
+          "GUGGUACACCGUACC",
+          "GUGGUGCACCGCACC"
+        ],
+        "pair_positions0": [
+          5,
+          11
+        ]
+      },
+      {
+        "removed": "GUGGUGCACCGCACU",
+        "endpoints": [
+          "GUAGUGCACCGCACU",
+          "GUGGUGCACCGCACC"
+        ],
+        "pair_positions0": [
+          2,
+          14
+        ]
+      }
+    ],
+    "restored_connected_pairs": "1212",
+    "baseline_connected_pairs": "1212",
+    "fraction_excess_recovered": 1.0,
+    "fully_explained_by_single_GU_addbacks": true,
+    "coding_gate_bridge_vertices": 0,
+    "any_single_addback_vertices": 14,
+    "fully_restored_by_GU_and_coding": true,
+    "fully_restored_by_all_single_addbacks": true
+  },
+  {
+    "id": "024d52c22381d89c",
+    "condition": "cellfree",
+    "gene": "hemX",
+    "n_endpoints": 56,
+    "original_excess": 0.47959183673469385,
+    "gu_bridge_vertices": 19,
+    "certificates": [
+      {
+        "removed": "UUGGCUCAAGCUGAU",
+        "endpoints": [
+          "UUAGCUCAAGCUGAU",
+          "UUGGCUCAAGCCGAU"
+        ],
+        "pair_positions0": [
+          2,
+          11
+        ]
+      },
+      {
+        "removed": "UUGGCUCAAGCUGAC",
+        "endpoints": [
+          "UUAGCUCAAGCUGAC",
+          "UUGGCUCAAGCCGAC"
+        ],
+        "pair_positions0": [
+          2,
+          11
+        ]
+      },
+      {
+        "removed": "UUGGCUCAGGCUGAC",
+        "endpoints": [
+          "UUAGCUCAGGCUGAC",
+          "UUGGCUCAGGCCGAC"
+        ],
+        "pair_positions0": [
+          2,
+          11
+        ]
+      },
+      {
+        "removed": "UUGGCCCAAGCUGAU",
+        "endpoints": [
+          "UUAGCCCAAGCUGAU",
+          "UUGGCCCAAGCCGAU"
+        ],
+        "pair_positions0": [
+          2,
+          11
+        ]
+      },
+      {
+        "removed": "UUGGCGCAAGCUGAU",
+        "endpoints": [
+          "UUAGCGCAAGCUGAU",
+          "UUGGCGCAAGCCGAU"
+        ],
+        "pair_positions0": [
+          2,
+          11
+        ]
+      },
+      {
+        "removed": "UUGGCGCAAGCUGAC",
+        "endpoints": [
+          "UUAGCGCAAGCUGAC",
+          "UUGGCGCAAGCCGAC"
+        ],
+        "pair_positions0": [
+          2,
+          11
+        ]
+      },
+      {
+        "removed": "UUGGCGCAGGCUGAU",
+        "endpoints": [
+          "UUAGCGCAGGCUGAU",
+          "UUGGCGCAGGCCGAU"
+        ],
+        "pair_positions0": [
+          2,
+          11
+        ]
+      },
+      {
+        "removed": "UUGGCGCAGGCUGAC",
+        "endpoints": [
+          "UUAGCGCAGGCUGAC",
+          "UUGGCGCAGGCCGAC"
+        ],
+        "pair_positions0": [
+          2,
+          11
+        ]
+      },
+      {
+        "removed": "CUUGCUCAAGCGGAU",
+        "endpoints": [
+          "CUUGCUCAAGCAGAU",
+          "CUCGCUCAAGCGGAU"
+        ],
+        "pair_positions0": [
+          2,
+          11
+        ]
+      },
+      {
+        "removed": "CUUGCUCAGGCGGAU",
+        "endpoints": [
+          "CUUGCUCAGGCAGAU",
+          "CUCGCUCAGGCGGAU"
+        ],
+        "pair_positions0": [
+          2,
+          11
+        ]
+      },
+      {
+        "removed": "CUUGCCCAAGCGGAU",
+        "endpoints": [
+          "CUUGCCCAAGCAGAU",
+          "CUCGCCCAAGCGGAU"
+        ],
+        "pair_positions0": [
+          2,
+          11
+        ]
+      },
+      {
+        "removed": "CUUGCCCAGGCGGAU",
+        "endpoints": [
+          "CUUGCCCAGGCAGAU",
+          "CUCGCCCAGGCGGAU"
+        ],
+        "pair_positions0": [
+          2,
+          11
+        ]
+      },
+      {
+        "removed": "CUGGCUCAAGCUGAU",
+        "endpoints": [
+          "CUAGCUCAAGCUGAU",
+          "CUGGCUCAAGCCGAU"
+        ],
+        "pair_positions0": [
+          2,
+          11
+        ]
+      },
+      {
+        "removed": "CUGGCUCAAGCUGAC",
+        "endpoints": [
+          "CUAGCUCAAGCUGAC",
+          "CUGGCUCAAGCCGAC"
+        ],
+        "pair_positions0": [
+          2,
+          11
+        ]
+      },
+      {
+        "removed": "CUGGCUCAGGCUGAU",
+        "endpoints": [
+          "CUAGCUCAGGCUGAU",
+          "CUGGCUCAGGCCGAU"
+        ],
+        "pair_positions0": [
+          2,
+          11
+        ]
+      },
+      {
+        "removed": "CUGGCCCAAGCUGAU",
+        "endpoints": [
+          "CUAGCCCAAGCUGAU",
+          "CUGGCCCAAGCCGAU"
+        ],
+        "pair_positions0": [
+          2,
+          11
+        ]
+      },
+      {
+        "removed": "CUGGCCCAGGCUGAU",
+        "endpoints": [
+          "CUAGCCCAGGCUGAU",
+          "CUGGCCCAGGCCGAU"
+        ],
+        "pair_positions0": [
+          2,
+          11
+        ]
+      },
+      {
+        "removed": "CUGGCGCAAGCUGAU",
+        "endpoints": [
+          "CUAGCGCAAGCUGAU",
+          "CUGGCGCAAGCCGAU"
+        ],
+        "pair_positions0": [
+          2,
+          11
+        ]
+      },
+      {
+        "removed": "CUGGCGCAGGCUGAU",
+        "endpoints": [
+          "CUAGCGCAGGCUGAU",
+          "CUGGCGCAGGCCGAU"
+        ],
+        "pair_positions0": [
+          2,
+          11
+        ]
+      }
+    ],
+    "restored_connected_pairs": "1960",
+    "baseline_connected_pairs": "1960",
+    "fraction_excess_recovered": 1.0,
+    "fully_explained_by_single_GU_addbacks": true,
+    "coding_gate_bridge_vertices": 0,
+    "any_single_addback_vertices": 20,
+    "fully_restored_by_GU_and_coding": true,
+    "fully_restored_by_all_single_addbacks": true
+  },
+  {
+    "id": "0297d606c87e9d7d",
+    "condition": "incell",
+    "gene": "sdaB",
+    "n_endpoints": 16,
+    "original_excess": 0.375,
+    "gu_bridge_vertices": 0,
+    "certificates": [],
+    "restored_connected_pairs": "160",
+    "baseline_connected_pairs": "256",
+    "fraction_excess_recovered": 0.0,
+    "fully_explained_by_single_GU_addbacks": false,
+    "coding_gate_bridge_vertices": 0,
+    "any_single_addback_vertices": 16,
+    "fully_restored_by_GU_and_coding": false,
+    "fully_restored_by_all_single_addbacks": true
+  },
+  {
+    "id": "03eef7d51742f085",
+    "condition": "cellfree",
+    "gene": "acpP",
+    "n_endpoints": 14,
+    "original_excess": 0.30000000000000004,
+    "gu_bridge_vertices": 2,
+    "certificates": [
+      {
+        "removed": "ACGGUUGAACUUGUG",
+        "endpoints": [
+          "ACAGUUGAACUUGUG",
+          "ACGGUUGAACUCGUG"
+        ],
+        "pair_positions0": [
+          2,
+          11
+        ]
+      },
+      {
+        "removed": "ACGGUAGAACUUGUG",
+        "endpoints": [
+          "ACAGUAGAACUUGUG",
+          "ACGGUAGAACUCGUG"
+        ],
+        "pair_positions0": [
+          2,
+          11
+        ]
+      }
+    ],
+    "restored_connected_pairs": "100",
+    "baseline_connected_pairs": "100",
+    "fraction_excess_recovered": 1.0,
+    "fully_explained_by_single_GU_addbacks": true,
+    "coding_gate_bridge_vertices": 0,
+    "any_single_addback_vertices": 2,
+    "fully_restored_by_GU_and_coding": true,
+    "fully_restored_by_all_single_addbacks": true
+  },
+  {
+    "id": "07de19191ca0828c",
+    "condition": "kasugamycin",
+    "gene": "fabH",
+    "n_endpoints": 22,
+    "original_excess": 0.08677685950413228,
+    "gu_bridge_vertices": 0,
+    "certificates": [],
+    "restored_connected_pairs": "442",
+    "baseline_connected_pairs": "484",
+    "fraction_excess_recovered": 0.0,
+    "fully_explained_by_single_GU_addbacks": false,
+    "coding_gate_bridge_vertices": 1,
+    "any_single_addback_vertices": 1,
+    "fully_restored_by_GU_and_coding": true,
+    "fully_restored_by_all_single_addbacks": true
+  },
+  {
+    "id": "09951134df91d3da",
+    "condition": "kasugamycin",
+    "gene": "secM",
+    "n_endpoints": 10,
+    "original_excess": 0.48,
+    "gu_bridge_vertices": 0,
+    "certificates": [],
+    "restored_connected_pairs": "52",
+    "baseline_connected_pairs": "100",
+    "fraction_excess_recovered": 0.0,
+    "fully_explained_by_single_GU_addbacks": false,
+    "coding_gate_bridge_vertices": 0,
+    "any_single_addback_vertices": 10,
+    "fully_restored_by_GU_and_coding": false,
+    "fully_restored_by_all_single_addbacks": true
+  },
+  {
+    "id": "0fdb3d26f56c5877",
+    "condition": "kasugamycin",
+    "gene": "ybgT",
+    "n_endpoints": 8,
+    "original_excess": 0.46875,
+    "gu_bridge_vertices": 0,
+    "certificates": [],
+    "restored_connected_pairs": "34",
+    "baseline_connected_pairs": "64",
+    "fraction_excess_recovered": 0.0,
+    "fully_explained_by_single_GU_addbacks": false,
+    "coding_gate_bridge_vertices": 0,
+    "any_single_addback_vertices": 9,
+    "fully_restored_by_GU_and_coding": false,
+    "fully_restored_by_all_single_addbacks": true
+  },
+  {
+    "id": "1a7df2158410a9e6",
+    "condition": "incell",
+    "gene": "udp",
+    "n_endpoints": 2,
+    "original_excess": 0.5,
+    "gu_bridge_vertices": 0,
+    "certificates": [],
+    "restored_connected_pairs": "2",
+    "baseline_connected_pairs": "4",
+    "fraction_excess_recovered": 0.0,
+    "fully_explained_by_single_GU_addbacks": false,
+    "coding_gate_bridge_vertices": 0,
+    "any_single_addback_vertices": 2,
+    "fully_restored_by_GU_and_coding": false,
+    "fully_restored_by_all_single_addbacks": true
+  }
+]

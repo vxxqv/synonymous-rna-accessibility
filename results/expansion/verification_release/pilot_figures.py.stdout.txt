@@ -1,0 +1,1 @@
+{"branching_vertices": 12, "branching_edges": 20, "branching_shortest_paths": 2, "weighted_vertices": 8, "projected_states": 3, "projected_multiplicities": [2, 2, 4]}

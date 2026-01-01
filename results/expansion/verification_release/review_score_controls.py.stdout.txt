@@ -1,0 +1,15 @@
+{
+  "filtration_fixtures": 104,
+  "conditional_null": {
+    "exact_hand_fixtures": 4,
+    "sampling_reproducibility_draws": 10,
+    "roughness_expectation_checked": "1"
+  },
+  "additive_superlevel_characterization": {
+    "graph_vertices": 4,
+    "pair_graphs": 64,
+    "weight_vectors": 81,
+    "graph_weight_cases": 5184
+  },
+  "status": "all exact assertions passed"
+}

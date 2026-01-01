@@ -1,0 +1,44 @@
+{
+  "incell": {
+    "nonempty": 362,
+    "empty": 42,
+    "uniform": {
+      "statistic_varied": 184,
+      "exact": 160,
+      "mean_observed_excess": 0.007570601057373153,
+      "mean_null_excess": 0.11039009525002655,
+      "mean_null_minus_observed": 0.10281949419265339,
+      "informative_mean_contrast": 0.20228617879206806
+    },
+    "degree": {
+      "statistic_varied": 185,
+      "exact": 161,
+      "mean_observed_excess": 0.007570601057373153,
+      "mean_null_excess": 0.10965036736113148,
+      "mean_null_minus_observed": 0.10207976630375833,
+      "informative_mean_contrast": 0.19974527244302978
+    },
+    "median_roughness_ratio": 0.5465877559790967
+  },
+  "cellfree": {
+    "nonempty": 373,
+    "empty": 31,
+    "uniform": {
+      "statistic_varied": 188,
+      "exact": 174,
+      "mean_observed_excess": 0.007570265924220023,
+      "mean_null_excess": 0.10740498808372276,
+      "mean_null_minus_observed": 0.09983472215950273,
+      "informative_mean_contrast": 0.19807633705050273
+    },
+    "degree": {
+      "statistic_varied": 189,
+      "exact": 175,
+      "mean_observed_excess": 0.007570265924220023,
+      "mean_null_excess": 0.10908671228138132,
+      "mean_null_minus_observed": 0.10151644635716128,
+      "informative_mean_contrast": 0.20034727244032358
+    },
+    "median_roughness_ratio": 0.5576667717533089
+  }
+}

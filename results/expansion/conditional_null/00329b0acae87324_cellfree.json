@@ -1,0 +1,74 @@
+{
+  "id": "00329b0acae87324",
+  "transcript_id": "mraZ_rsmH_ftsL_ftsI_murE_murF_mraY_murD_ftsW_murG_murC_ddlB_9",
+  "gene": "mraY",
+  "locus_tag": "b0087",
+  "condition": "cellfree",
+  "n_compatible": 288,
+  "n_retained": 125,
+  "run_provenance": {
+    "method": "conditional_vertex_null.py",
+    "parameters": {
+      "draws": 999,
+      "cap": 2000,
+      "seed": 1729,
+      "cutoff": 0.5
+    },
+    "source_result_sha256": "2a549950242fe7f0904799e934a09a22751a1e9df0be6d029baca08e53a3529a",
+    "block_sha256": "854eaed6748e02002d537ba7e8123d0921a028fe47ef20b0caa9a26276b571fc",
+    "code_sha256": {
+      "analysis/expansion/provenance.py": "6fe42774119f873b9a8962ca416606411a94ab0f1708ba23d652fb27be46910e",
+      "analysis/expansion/conditional_vertex_null.py": "c73dddb3861242374e2ebab688e8ae3993657900ada9fb5e2f116b0193b7f598",
+      "src/accessibility.py": "0bf96e030647fe823c0367569e936b823b386ee423187636f6381e76baf7d5e1",
+      "analysis/expansion/retention_filtration.py": "5d0a5c080505eb0f2bb97a2e33f2d526c150bf241afbd491893376398c57dac5",
+      "analysis/expansion/smoothness_controls.py": "8ae9349f8272dd132c0bcf5233ea3727ccf4c0642183ddd8d6da5b3a9895b56f"
+    },
+    "python": "3.12.14",
+    "numpy": "2.5.4",
+    "signature": "963d745ec445922182f5992ae1c2e584da1c498b1e2f8c23c12c837d94c86a23"
+  },
+  "status": "evaluated",
+  "uniform": {
+    "exact": false,
+    "population_size": "145391965002888701281616170780356841735281904647507027653738038008932161420800",
+    "draws": 999,
+    "observed_excess": 0.01918806076219237,
+    "null_mean": 0.02369927891825378,
+    "null_sd": 0.008285712522360043,
+    "null_min": 0.0,
+    "null_max": 0.0543661721595452,
+    "null_quantiles": [
+      0.006929021941902813,
+      0.024873412099138292,
+      0.03961090876787759
+    ],
+    "statistic_varied": true,
+    "lower_tail_p": 0.277,
+    "mc_se_mean": 0.00026227964699849154,
+    "connection_denominator": "11257",
+    "observed_connection_numerator": "11041"
+  },
+  "degree": {
+    "exact": false,
+    "population_size": "1155603134452957218421939655089408800173461552171464112866894658190552064000",
+    "draws": 999,
+    "observed_excess": 0.01918806076219237,
+    "null_mean": 0.020351345393541356,
+    "null_sd": 0.007670282019991337,
+    "null_min": 0.0,
+    "null_max": 0.050457493115394825,
+    "null_quantiles": [
+      0.0035533445855912005,
+      0.020964733054988027,
+      0.03233543572887976
+    ],
+    "statistic_varied": true,
+    "lower_tail_p": 0.393,
+    "mc_se_mean": 0.0002427985348457624,
+    "connection_denominator": "11257",
+    "observed_connection_numerator": "11041"
+  },
+  "edge_retention_roughness": 98.49748930283809,
+  "permuted_expected_roughness": 191.9718071971436,
+  "roughness_ratio": 0.51308309663245
+}

@@ -1,0 +1,31 @@
+{
+  "id": "02d6e2dd13c2d326",
+  "transcript_id": "dapA_bamC_87",
+  "gene": "bamC",
+  "locus_tag": "b2477",
+  "condition": "incell",
+  "n_compatible": 32,
+  "n_retained": 0,
+  "run_provenance": {
+    "method": "conditional_vertex_null.py",
+    "parameters": {
+      "draws": 999,
+      "cap": 2000,
+      "seed": 1729,
+      "cutoff": 0.5
+    },
+    "source_result_sha256": "7d28f8b680eefa4008bdd143a34ee09fa24ecdd7e7282c488c73d8f51a3a1537",
+    "block_sha256": "ba019855d345a22f860004871bfae5f9b61d0aba6d9e9a63c841861e005ff980",
+    "code_sha256": {
+      "analysis/expansion/provenance.py": "6fe42774119f873b9a8962ca416606411a94ab0f1708ba23d652fb27be46910e",
+      "analysis/expansion/conditional_vertex_null.py": "c73dddb3861242374e2ebab688e8ae3993657900ada9fb5e2f116b0193b7f598",
+      "src/accessibility.py": "0bf96e030647fe823c0367569e936b823b386ee423187636f6381e76baf7d5e1",
+      "analysis/expansion/retention_filtration.py": "5d0a5c080505eb0f2bb97a2e33f2d526c150bf241afbd491893376398c57dac5",
+      "analysis/expansion/smoothness_controls.py": "8ae9349f8272dd132c0bcf5233ea3727ccf4c0642183ddd8d6da5b3a9895b56f"
+    },
+    "python": "3.12.14",
+    "numpy": "2.5.4",
+    "signature": "5322bdb8f016ccc8579d92a305c91e7276264cadbfe654d225b0228cebdffb74"
+  },
+  "status": "empty"
+}

@@ -1,0 +1,17 @@
+{
+  "status": "exploratory extension of the completed primary analysis; specified before running this extension",
+  "question": "Does a folding-based filter preserve local graph connectivity more than an equally sized unstructured subset?",
+  "cohort": "frozen 404 blocks, in-cell and cell-free target models, primary cutoff 0.5",
+  "pilot": "first 24 block ids in frozen SHA-256 order; no outcome-based selection",
+  "uniform_null": "uniform subsets independently within each full compatibility component, preserving the observed number of retained endpoints in each component",
+  "degree_null": "same, additionally preserving retained endpoint counts within pooled-degree strata 0,1,2-3,4-7,8+ inside each component",
+  "statistic": "E_F = 1 - sum(filtered component sizes squared) / sum(retained counts per original component squared)",
+  "degenerate_null": "report exact invariance separately; a varied pairing or vertex subset is not sufficient to establish statistic variation",
+  "enumeration_cap": 2000,
+  "monte_carlo_draws": 999,
+  "seed": 1729,
+  "local_smoothness": "mean squared retention difference across graph edges divided by within-component retention variance; label-permutation expectation computed analytically",
+  "uncertainty": "Monte Carlo error conditional on graphs, and transcript-cluster bootstrap for mean contrasts; neither estimates organismal variability",
+  "interpretation": "graph-conditioned model comparison, not an evolutionary selection test, experimental replication, or independent data validation",
+  "failure_criteria": "null statistic invariant, no contrast against matched subsets, reversal under degree matching, or effect carried by a few dependent transcripts"
+}

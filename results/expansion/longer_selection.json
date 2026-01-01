@@ -1,0 +1,58 @@
+[
+  {
+    "codons": 7,
+    "requested": 12,
+    "selected": 12,
+    "sequential_rejections": {
+      "selected": 12,
+      "coverage": 1
+    },
+    "resource_failures": []
+  },
+  {
+    "codons": 9,
+    "requested": 8,
+    "selected": 8,
+    "sequential_rejections": {
+      "selected": 8,
+      "pair_containment": 1,
+      "resource_limit": 1,
+      "coverage": 1
+    },
+    "resource_failures": [
+      {
+        "id": "0002ea3d327744b2",
+        "status": "resource_limit",
+        "reason": "Compatible output exceeds 4096; no partial answer returned"
+      }
+    ]
+  },
+  {
+    "codons": 11,
+    "requested": 4,
+    "selected": 4,
+    "sequential_rejections": {
+      "pair_containment": 2,
+      "resource_limit": 3,
+      "selected": 4,
+      "CDS_boundary": 1
+    },
+    "resource_failures": [
+      {
+        "id": "00020d177e184cc6",
+        "status": "resource_limit",
+        "reason": "Compatible output exceeds 4096; no partial answer returned"
+      },
+      {
+        "id": "0002ea3d327744b2",
+        "status": "resource_limit",
+        "reason": "Compatible output exceeds 4096; no partial answer returned"
+      },
+      {
+        "id": "00035cadf1513180",
+        "status": "resource_limit",
+        "reason": "Compatible output exceeds 4096; no partial answer returned"
+      }
+    ]
+  }
+]

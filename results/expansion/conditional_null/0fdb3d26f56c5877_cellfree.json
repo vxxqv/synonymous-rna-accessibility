@@ -1,0 +1,31 @@
+{
+  "id": "0fdb3d26f56c5877",
+  "transcript_id": "cydA_cydB_ybgT_ybgE_34",
+  "gene": "ybgT",
+  "locus_tag": "b4515",
+  "condition": "cellfree",
+  "n_compatible": 16,
+  "n_retained": 0,
+  "run_provenance": {
+    "method": "conditional_vertex_null.py",
+    "parameters": {
+      "draws": 999,
+      "cap": 2000,
+      "seed": 1729,
+      "cutoff": 0.5
+    },
+    "source_result_sha256": "7a1f4ecf905bce7aa55daa01159080610b83e2f5882c8352998d838b59349613",
+    "block_sha256": "b748d12de20722a467287fcef1b48e9c260e96591d982224e5d43d896dee1376",
+    "code_sha256": {
+      "analysis/expansion/provenance.py": "6fe42774119f873b9a8962ca416606411a94ab0f1708ba23d652fb27be46910e",
+      "analysis/expansion/conditional_vertex_null.py": "c73dddb3861242374e2ebab688e8ae3993657900ada9fb5e2f116b0193b7f598",
+      "src/accessibility.py": "0bf96e030647fe823c0367569e936b823b386ee423187636f6381e76baf7d5e1",
+      "analysis/expansion/retention_filtration.py": "5d0a5c080505eb0f2bb97a2e33f2d526c150bf241afbd491893376398c57dac5",
+      "analysis/expansion/smoothness_controls.py": "8ae9349f8272dd132c0bcf5233ea3727ccf4c0642183ddd8d6da5b3a9895b56f"
+    },
+    "python": "3.12.14",
+    "numpy": "2.5.4",
+    "signature": "acbad3ee8ca094a869ff92bfba04ddcf242fca6009f8d9433415d5caf145bdb9"
+  },
+  "status": "empty"
+}

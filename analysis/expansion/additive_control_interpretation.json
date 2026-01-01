@@ -1,0 +1,10 @@
+{
+ "status": "exploratory mechanistic diagnostic performed after heat-rank discovery controls; not prospective validation",
+ "method": "ordinary least-squares projection onto an intercept and single-nucleotide or single-codon indicator functions, fitted separately in each compatibility component",
+ "rank_restoration": "reassign the observed component score multiset in fitted-score order; average99 independent random orders for numerical ties at1e-10 times max(1,fitted range)",
+ "purpose": "test whether simple additive score organization is sufficient to produce similarly low extra fragmentation on the exact graph",
+ "not_a_predictive_test": "scores used to fit and assess the approximation are the same; R_squared is in-sample, saturated fits and residual degrees of freedom are reported",
+ "not_a_conditional_null": "the fitted additive surrogate need not match every local correlation or epistatic pattern; it is a descriptive approximation",
+ "discovery_consequence": "similarly low or lower fragmentation under additive surrogates rules out interpreting the permutation contrast alone as an RNA-specific preservation mechanism",
+ "constrained_geometry": "even a generic additive score can create barriers when positive alleles conflict under pairing/coding constraints; compatibility geometry matters independently of folding-specific interactions"
+}

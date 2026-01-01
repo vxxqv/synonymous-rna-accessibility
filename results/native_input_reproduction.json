@@ -1,0 +1,89 @@
+{
+  "unique_exact_transcripts": 194,
+  "CDS_occurrences": 409,
+  "unique_loci": 407,
+  "CDS_position_rows": 393867,
+  "overlap_position_rows": 442,
+  "mapped_CDS_with_overlap": 77,
+  "nonstandard_translation_loci": [
+    "b3894"
+  ],
+  "frozen_CDS_ledger_identical": true,
+  "format_audit": [
+    {
+      "condition": "incell",
+      "n_transcripts": 194,
+      "n_nucleotides": 442421,
+      "n_pairs": 120830,
+      "reactivity_missing": 51235
+    },
+    {
+      "condition": "cellfree",
+      "n_transcripts": 194,
+      "n_nucleotides": 442421,
+      "n_pairs": 130540,
+      "reactivity_missing": 67034
+    },
+    {
+      "condition": "kasugamycin",
+      "n_transcripts": 194,
+      "n_nucleotides": 442421,
+      "n_pairs": 132193,
+      "reactivity_missing": 192510
+    }
+  ],
+  "selection_verification": {
+    "selected_blocks": 404,
+    "unique_transcripts": 185,
+    "complete_block_objects_identical": true,
+    "selection_audit_identical": true,
+    "frozen_files_written": false
+  },
+  "sources": [
+    {
+      "file": "weeks194_orig/cellfree.dbn",
+      "url": "https://raw.githubusercontent.com/BackofenLab/ShaKer/6f29547d70a2b72ceccf28218c790c45406946e8/data/weeks194_orig/cellfree.dbn",
+      "sha256": "c7647da5a8f02bbe9025aac901c09022934f4b72384e4dd805d6401590e3cddc",
+      "bytes": 888537
+    },
+    {
+      "file": "weeks194_orig/cellfree.react",
+      "url": "https://raw.githubusercontent.com/BackofenLab/ShaKer/6f29547d70a2b72ceccf28218c790c45406946e8/data/weeks194_orig/cellfree.react",
+      "sha256": "38933dfcf33c97dedfc90dfd5d73c8c624b014f523bef18c091ae0c9a471fad3",
+      "bytes": 4187405
+    },
+    {
+      "file": "weeks194_orig/incell.dbn",
+      "url": "https://raw.githubusercontent.com/BackofenLab/ShaKer/6f29547d70a2b72ceccf28218c790c45406946e8/data/weeks194_orig/incell.dbn",
+      "sha256": "cb13b2092f594facf49ef11ca4c8c9d25c8232fcbd806d0f8ca3f06d2c0136fa",
+      "bytes": 888537
+    },
+    {
+      "file": "weeks194_orig/incell.react",
+      "url": "https://raw.githubusercontent.com/BackofenLab/ShaKer/6f29547d70a2b72ceccf28218c790c45406946e8/data/weeks194_orig/incell.react",
+      "sha256": "1be61b44ea242621f33f7e6c050b469ee05d2b66120b3e441a8e9241d3381aa6",
+      "bytes": 4202773
+    },
+    {
+      "file": "weeks194_orig/kasugamycin.dbn",
+      "url": "https://raw.githubusercontent.com/BackofenLab/ShaKer/6f29547d70a2b72ceccf28218c790c45406946e8/data/weeks194_orig/kasugamycin.dbn",
+      "sha256": "765014c9297df12c0becb4e697489f2c498e7f25d667f155853a34b09936cf79",
+      "bytes": 888537
+    },
+    {
+      "file": "weeks194_orig/kasugamycin.react",
+      "url": "https://raw.githubusercontent.com/BackofenLab/ShaKer/6f29547d70a2b72ceccf28218c790c45406946e8/data/weeks194_orig/kasugamycin.react",
+      "sha256": "1bce74c41d9a061a6ec4d91ad7d7252e4bd3beef437c42e7c0dcd572fe8aaf56",
+      "bytes": 3891652
+    }
+  ],
+  "reference": {
+    "accession": "U00096.2",
+    "sha256": "935e1c7464e8fc6315b4c777254b690ec4bec92b1cfdc55fbda928a611ea18ed"
+  },
+  "complete_position_map_byte_identical_to_original_audit": true,
+  "position_map_sha256": "0fb39ece03b24b4ec3b5e6346ac6c0920fd6a1518815f8eec7eb0287fdef6cf7",
+  "preparation_script_sha256": "35d7ce5a7cb701823330769b9bb8f7c301f232f279ef0d4d1c8ef0e48333f334",
+  "frozen_native_windows_sha256": "73bfedc76204c0a61a5a83124ab6d9e21effda8a3432e3194f1e1e8c9e7e1958",
+  "frozen_native_selection_sha256": "62213a6ac64f2fed9bdf18ce5b300a252bc116bc4c1823597d8376286ce98c35"
+}

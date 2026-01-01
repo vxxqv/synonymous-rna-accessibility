@@ -1,0 +1,74 @@
+{
+  "id": "0002ea3d327744b2",
+  "transcript_id": "ptsG_51",
+  "gene": "ptsG",
+  "locus_tag": "b1101",
+  "condition": "cellfree",
+  "n_compatible": 64,
+  "n_retained": 19,
+  "run_provenance": {
+    "method": "conditional_vertex_null.py",
+    "parameters": {
+      "draws": 999,
+      "cap": 2000,
+      "seed": 1729,
+      "cutoff": 0.5
+    },
+    "source_result_sha256": "7129056677043f57d0c6864bec52f04e68a9ba5226ce61f0e0f73a6801024960",
+    "block_sha256": "eb9488116bdf2164a272970da821ff1b4104de08d98dfa882fd7f2d08cb17480",
+    "code_sha256": {
+      "analysis/expansion/provenance.py": "6fe42774119f873b9a8962ca416606411a94ab0f1708ba23d652fb27be46910e",
+      "analysis/expansion/conditional_vertex_null.py": "c73dddb3861242374e2ebab688e8ae3993657900ada9fb5e2f116b0193b7f598",
+      "src/accessibility.py": "0bf96e030647fe823c0367569e936b823b386ee423187636f6381e76baf7d5e1",
+      "analysis/expansion/retention_filtration.py": "5d0a5c080505eb0f2bb97a2e33f2d526c150bf241afbd491893376398c57dac5",
+      "analysis/expansion/smoothness_controls.py": "8ae9349f8272dd132c0bcf5233ea3727ccf4c0642183ddd8d6da5b3a9895b56f"
+    },
+    "python": "3.12.14",
+    "numpy": "2.5.4",
+    "signature": "fd5afdd277596ac416e5097c6c6f1356d6b7d954d749a489b1739cb3465d1aff"
+  },
+  "status": "evaluated",
+  "uniform": {
+    "exact": false,
+    "population_size": "8719878125622720",
+    "draws": 999,
+    "observed_excess": 0.0,
+    "null_mean": 0.35024498182392916,
+    "null_sd": 0.21682533787546457,
+    "null_min": 0.0,
+    "null_max": 0.8310249307479225,
+    "null_quantiles": [
+      0.0,
+      0.3545706371191135,
+      0.7423822714681441
+    ],
+    "statistic_varied": true,
+    "lower_tail_p": 0.094,
+    "mc_se_mean": 0.0068634861425420765,
+    "connection_denominator": "361",
+    "observed_connection_numerator": "361"
+  },
+  "degree": {
+    "exact": false,
+    "population_size": "8719878125622720",
+    "draws": 999,
+    "observed_excess": 0.0,
+    "null_mean": 0.34259744509051987,
+    "null_sd": 0.22458212324714177,
+    "null_min": 0.0,
+    "null_max": 0.853185595567867,
+    "null_quantiles": [
+      0.0,
+      0.332409972299169,
+      0.7592797783933515
+    ],
+    "statistic_varied": true,
+    "lower_tail_p": 0.107,
+    "mc_se_mean": 0.007109022893139728,
+    "connection_denominator": "361",
+    "observed_connection_numerator": "361"
+  },
+  "edge_retention_roughness": 22.18299485165386,
+  "permuted_expected_roughness": 48.39988184292739,
+  "roughness_ratio": 0.4583274588075349
+}

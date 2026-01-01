@@ -1,0 +1,282 @@
+{
+  "schema_version": 2,
+  "claim_id": "GENERAL_PAIR_GRAPH_AND_ADDITIVE_CONTROL_PILOT",
+  "repository": {
+    "commit": "423cdc9080037009c836409470aaf77b56f39ce7",
+    "dirty": true
+  },
+  "command": [
+    "C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\work\\env\\Scripts\\python.exe",
+    "analysis/expansion/verification/run_verification.py",
+    "--outdir",
+    "results\\expansion\\verification_release"
+  ],
+  "environment": {
+    "software": [
+      {
+        "name": "CPython",
+        "version": "3.12.14"
+      },
+      {
+        "name": "NumPy",
+        "version": "2.5.4"
+      }
+    ],
+    "hardware": "Windows-11-10.0.26300-SP0 AMD64"
+  },
+  "mathematics": {
+    "assertion_tested": "Every nonempty1\u20132-codon/simple-H graph satisfies signature/geodesic/height3/order count assertions; all such signature fibres satisfy Leu-only activity2 volume law; finite control/barrier and API fixtures agree with independent exact checks.",
+    "coefficient_domain": "Z, Q and integer subset counts; ancillary float scores compared within1e-12",
+    "conventions": "standard61 sense codons, six ordered pair types, one-base moves, arbitrary simple simultaneous compatibility H; no physical multi-partner bonding",
+    "inputs": [
+      "20^m peptides and2^(choose(3m,2)) graphs for m1,2; all nonempty cases covered by H subset allowed-edges(genotype)",
+      "all fixed-base/partial-RY local codon cases",
+      "four-vertex graph/weight controls; complete capped API genotype spaces"
+    ],
+    "bounds": {
+      "all_graph_peptide_instances": 13107360,
+      "nonempty_instances_expected": 162263,
+      "connected_endpoint_pairs_expected": 719338,
+      "fixed_local_cases": 70875,
+      "additive_graph_weight_cases": 5184
+    },
+    "non_claims": [
+      "Universal claims depend on the separate structural proofs.",
+      "No new native folding or biological-selection claim is established.",
+      "No bound on whole-ensemble folding kinetics or genotype fitness."
+    ]
+  },
+  "randomness": {
+    "used": true,
+    "generator": "PythonMT19937 and NumPy default_rng for finite test fixtures only",
+    "seed": [
+      2026102402,
+      2026102403,
+      2026102404,
+      42
+    ]
+  },
+  "run": {
+    "started_at": "2026-10-24T16:25:44.794261+00:00",
+    "runtime_seconds": 44.35097880000103,
+    "exit_status": 0,
+    "status": "completed",
+    "resource_limits": {
+      "memory_bytes": null,
+      "cpu_seconds": null,
+      "max_cores": null,
+      "max_threads": null
+    },
+    "per_command_timeout_seconds": 180
+  },
+  "input_artifacts": [
+    {
+      "path": "analysis/expansion/verification/run_verification.py",
+      "sha256": "c2bed904b8c5b22afe99fb69b53e90be544c3063d42ce1176873dedfa587891a",
+      "sha256_after": "c2bed904b8c5b22afe99fb69b53e90be544c3063d42ce1176873dedfa587891a"
+    },
+    {
+      "path": "analysis/expansion/verification/arbitrary_pair_graph_oracle.py",
+      "sha256": "b6b766307d5f5e8baea96d2aecd453e67567c14c4552487260124c9c76dd7bca",
+      "sha256_after": "b6b766307d5f5e8baea96d2aecd453e67567c14c4552487260124c9c76dd7bca"
+    },
+    {
+      "path": "analysis/expansion/verification/leucine_hardcore_volume.py",
+      "sha256": "ec214e0a95c5e98d7e7df84faa96be92a5ec94f3a887bec617bcb5aeb6af41b2",
+      "sha256_after": "ec214e0a95c5e98d7e7df84faa96be92a5ec94f3a887bec617bcb5aeb6af41b2"
+    },
+    {
+      "path": "analysis/expansion/verification/review_score_controls.py",
+      "sha256": "349b6303ee9c4d12f43d18be3e67441fecc17f3812f2c7905552d663337019b5",
+      "sha256_after": "349b6303ee9c4d12f43d18be3e67441fecc17f3812f2c7905552d663337019b5"
+    },
+    {
+      "path": "analysis/exact/independent_oracle.py",
+      "sha256": "b0145f8f37197bd3f6da0843a535963bf83db7c6886137cf1c487b554f493cab",
+      "sha256_after": "b0145f8f37197bd3f6da0843a535963bf83db7c6886137cf1c487b554f493cab"
+    },
+    {
+      "path": "analysis/expansion/graph_compiler.py",
+      "sha256": "a73a68dd71f16fd1fb074d168128f26ae85ece34db19c894e05ca26dc57a55ce",
+      "sha256_after": "a73a68dd71f16fd1fb074d168128f26ae85ece34db19c894e05ca26dc57a55ce"
+    },
+    {
+      "path": "analysis/expansion/validate_graph_compiler.py",
+      "sha256": "eedfb83b2ff82d6911394ab0386eaef32ee67e348aa31372906649a75c107102",
+      "sha256_after": "eedfb83b2ff82d6911394ab0386eaef32ee67e348aa31372906649a75c107102"
+    },
+    {
+      "path": "analysis/expansion/pilot_figures.py",
+      "sha256": "db60e4658c826b1d49c0e12820b1fbc9e3219acd742dff87fbabc43e0297a171",
+      "sha256_after": "db60e4658c826b1d49c0e12820b1fbc9e3219acd742dff87fbabc43e0297a171"
+    },
+    {
+      "path": "analysis/expansion/conditional_vertex_null.py",
+      "sha256": "c73dddb3861242374e2ebab688e8ae3993657900ada9fb5e2f116b0193b7f598",
+      "sha256_after": "c73dddb3861242374e2ebab688e8ae3993657900ada9fb5e2f116b0193b7f598"
+    },
+    {
+      "path": "analysis/expansion/retention_filtration.py",
+      "sha256": "5d0a5c080505eb0f2bb97a2e33f2d526c150bf241afbd491893376398c57dac5",
+      "sha256_after": "5d0a5c080505eb0f2bb97a2e33f2d526c150bf241afbd491893376398c57dac5"
+    },
+    {
+      "path": "analysis/expansion/provenance.py",
+      "sha256": "6fe42774119f873b9a8962ca416606411a94ab0f1708ba23d652fb27be46910e",
+      "sha256_after": "6fe42774119f873b9a8962ca416606411a94ab0f1708ba23d652fb27be46910e"
+    },
+    {
+      "path": "src/accessibility.py",
+      "sha256": "0bf96e030647fe823c0367569e936b823b386ee423187636f6381e76baf7d5e1",
+      "sha256_after": "0bf96e030647fe823c0367569e936b823b386ee423187636f6381e76baf7d5e1"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "results/expansion/verification_release/arbitrary_pair_graph_oracle.py.stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "kind": "log"
+    },
+    {
+      "path": "results/expansion/verification_release/arbitrary_pair_graph_oracle.py.stdout.txt",
+      "sha256": "f1692944e69261047a763b85deec7f1a0ba17ba253a92f5616565e50ca66b259",
+      "kind": "log"
+    },
+    {
+      "path": "results/expansion/verification_release/arbitrary_pair_graph_results.json",
+      "sha256": "f1692944e69261047a763b85deec7f1a0ba17ba253a92f5616565e50ca66b259",
+      "kind": "result"
+    },
+    {
+      "path": "results/expansion/verification_release/general_graph_figure_sources.json",
+      "sha256": "8aac6698096fd3df498f6ffab7d980f16ea86bedc520db2e0a3a34132b6f04f1",
+      "kind": "result"
+    },
+    {
+      "path": "results/expansion/verification_release/graph_compiler_validation.json",
+      "sha256": "7e9d2b0ce78977196dca160ad2fe63f931af62a9cf8efd618de423804b129475",
+      "kind": "result"
+    },
+    {
+      "path": "results/expansion/verification_release/hardcore_volume_results.json",
+      "sha256": "f9f3a0cd3a5ea2b0feb7b76c4a6256d5711488963e27c301b20a7d7290e5f8a5",
+      "kind": "result"
+    },
+    {
+      "path": "results/expansion/verification_release/leucine_hardcore_volume.py.stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "kind": "log"
+    },
+    {
+      "path": "results/expansion/verification_release/leucine_hardcore_volume.py.stdout.txt",
+      "sha256": "f9f3a0cd3a5ea2b0feb7b76c4a6256d5711488963e27c301b20a7d7290e5f8a5",
+      "kind": "log"
+    },
+    {
+      "path": "results/expansion/verification_release/pilot_figures.py.stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "kind": "log"
+    },
+    {
+      "path": "results/expansion/verification_release/pilot_figures.py.stdout.txt",
+      "sha256": "834aea7bc504566f8bf63a2bbd61370d059565ba9abe132f0811119852cf6be2",
+      "kind": "log"
+    },
+    {
+      "path": "results/expansion/verification_release/review_score_controls.py.stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "kind": "log"
+    },
+    {
+      "path": "results/expansion/verification_release/review_score_controls.py.stdout.txt",
+      "sha256": "14128511d2fd1c61c6e53d770e9e0f9e312676244e7002941a822e21b7a333b7",
+      "kind": "log"
+    },
+    {
+      "path": "results/expansion/verification_release/score_controls_review_results.json",
+      "sha256": "14128511d2fd1c61c6e53d770e9e0f9e312676244e7002941a822e21b7a333b7",
+      "kind": "result"
+    },
+    {
+      "path": "results/expansion/verification_release/validate_graph_compiler.py.stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "kind": "log"
+    },
+    {
+      "path": "results/expansion/verification_release/validate_graph_compiler.py.stdout.txt",
+      "sha256": "f21aca5a0a4f602f71ff6c6f1872153ff341c9e08246ec86eb4d71a25838a64e",
+      "kind": "log"
+    }
+  ],
+  "commands": [
+    {
+      "script": "arbitrary_pair_graph_oracle.py",
+      "argv": [
+        "C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\work\\env\\Scripts\\python.exe",
+        "C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\outputs\\synonymous-rna-accessibility\\analysis\\expansion\\verification\\arbitrary_pair_graph_oracle.py",
+        "--outdir",
+        "C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\outputs\\synonymous-rna-accessibility\\results\\expansion\\verification_release"
+      ],
+      "exit_status": 0,
+      "seconds": 33.273047299997415
+    },
+    {
+      "script": "leucine_hardcore_volume.py",
+      "argv": [
+        "C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\work\\env\\Scripts\\python.exe",
+        "C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\outputs\\synonymous-rna-accessibility\\analysis\\expansion\\verification\\leucine_hardcore_volume.py",
+        "--outdir",
+        "C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\outputs\\synonymous-rna-accessibility\\results\\expansion\\verification_release"
+      ],
+      "exit_status": 0,
+      "seconds": 10.051219199995103
+    },
+    {
+      "script": "review_score_controls.py",
+      "argv": [
+        "C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\work\\env\\Scripts\\python.exe",
+        "C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\outputs\\synonymous-rna-accessibility\\analysis\\expansion\\verification\\review_score_controls.py",
+        "--outdir",
+        "C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\outputs\\synonymous-rna-accessibility\\results\\expansion\\verification_release"
+      ],
+      "exit_status": 0,
+      "seconds": 0.4712997999959043
+    },
+    {
+      "script": "validate_graph_compiler.py",
+      "argv": [
+        "C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\work\\env\\Scripts\\python.exe",
+        "C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\outputs\\synonymous-rna-accessibility\\analysis\\expansion\\validate_graph_compiler.py"
+      ],
+      "exit_status": 0,
+      "seconds": 0.16003980000095908
+    },
+    {
+      "script": "pilot_figures.py",
+      "argv": [
+        "C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\work\\env\\Scripts\\python.exe",
+        "C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\outputs\\synonymous-rna-accessibility\\analysis\\expansion\\pilot_figures.py"
+      ],
+      "exit_status": 0,
+      "seconds": 0.09400950000417652
+    }
+  ],
+  "checks": [
+    {
+      "name": "input-hashes-unchanged",
+      "passed": true
+    }
+  ],
+  "result": "completed",
+  "residual_risks": [
+    "No hard memory/CPU limits were imposed.",
+    "The independent code uses inherited model definitions and is not formal proof-assistant verification."
+  ],
+  "declared_results": [
+    "results/expansion/verification_release/arbitrary_pair_graph_results.json",
+    "results/expansion/verification_release/general_graph_figure_sources.json",
+    "results/expansion/verification_release/graph_compiler_validation.json",
+    "results/expansion/verification_release/hardcore_volume_results.json",
+    "results/expansion/verification_release/score_controls_review_results.json"
+  ]
+}
