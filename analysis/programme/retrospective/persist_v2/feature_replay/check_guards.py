@@ -29,6 +29,12 @@ def main():
   destination=out/('not_created_'+flag[1:]);p=subprocess.run([sys.executable,flag,str(here/'replay.py'),'--repo-root',str(out/'absent_repo'),'--output',str(destination)],stdout=subprocess.PIPE,stderr=subprocess.PIPE,text=True)
   if p.returncode==0 or destination.exists() or 'Python -O and -OO are refused' not in p.stderr:raise RuntimeError('Optimization guard failed')
   checks.append({'name':flag,'rejected':True,'output_created':False})
+ for name,raw,expected in [('CRLF',b'1 2\r\n3\r\n',b'1 2\n3\n'),('LF',b'1 2\n3\n',b'1 2\n3\n'),('lone_CR',b'1\r2',b'1\r2')]:
+  if m.parameter_text_bytes(raw)!=expected:raise RuntimeError('Parameter serialization guard failed: '+name)
+  checks.append({'name':'parameter_'+name,'accepted':True})
+ for name,raw in [('numeric',b'1 4\n3\n'),('space',b'1  2\n3\n'),('missing_newline',b'1 2\n3')]:
+  if m.parameter_text_bytes(raw)==b'1 2\n3\n':raise RuntimeError('Changed parameter accepted: '+name)
+  checks.append({'name':'parameter_changed_'+name,'rejected':True})
  if 'RNA' in sys.modules or 'numpy' in sys.modules:raise RuntimeError('Guard tests imported scientific dependencies')
  record={'status':'passed','checks':checks,'folds':0,'reporter_inputs_opened':False,'source_sha256':hashlib.sha256((here/'replay.py').read_bytes()).hexdigest(),'synthetic_warning_row_retained':True,'initial_wrapper_folded_rows':0,'initial_warning_rows':'not applicable: initial wrapper never executed'}
  (out/'receipt.json').write_text(json.dumps(record,indent=2)+'\n');print(json.dumps({'status':'passed','checks':len(checks),'folds':0},indent=2))

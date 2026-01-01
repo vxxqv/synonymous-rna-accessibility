@@ -22,6 +22,8 @@ def require(ok,message):
  if not ok:raise RuntimeError(message)
 def sha(p):return hashlib.sha256(Path(p).read_bytes()).hexdigest()
 def text_sha(s):return hashlib.sha256(s.encode('ascii')).hexdigest()
+def parameter_text_bytes(raw):return raw.replace(b'\r\n',b'\n')
+def parameter_sha(p):return hashlib.sha256(parameter_text_bytes(Path(p).read_bytes())).hexdigest()
 def load(p):return json.loads(Path(p).read_text(encoding='utf-8'))
 def write_new(p,value):
  with Path(p).open('x',encoding='utf-8',newline='\n') as f:json.dump(value,f,indent=2,allow_nan=False);f.write('\n')
@@ -69,10 +71,10 @@ def worker(repo,out,key):
   snapshot=module.snapshot_md(md,loaded)
   require(snapshot==protocol['vienna']['effective_md'],'Effective MD differs')
   require(bool(loaded.params_save(str(out/'Turner2004.exported.par'))),'Parameter export failed')
-  require((out/'Turner2004.exported.par').read_bytes()==(repo/PARAMETERS).read_bytes(),'Exported parameter contents differ')
+  require(parameter_text_bytes((out/'Turner2004.exported.par').read_bytes())==parameter_text_bytes((repo/PARAMETERS).read_bytes()),'Exported parameter contents differ beyond CRLF/LF')
   diagnostic=module.fold_one(row['RNA.sequence'],protocol['vienna'])
   values=module.sequence_features(row,diagnostic['value'])
- result={'SequenceID':key,'values':values,'diagnostic':diagnostic,'effective_md':snapshot,'parameter_export_sha256':sha(out/'Turner2004.exported.par'),'python_warnings':[{'category':w.category.__name__,'message':str(w.message),'filename':w.filename,'line':w.lineno} for w in caught]}
+ result={'SequenceID':key,'values':values,'diagnostic':diagnostic,'effective_md':snapshot,'parameter_export_sha256':sha(out/'Turner2004.exported.par'),'parameter_export_LF_sha256':parameter_sha(out/'Turner2004.exported.par'),'python_warnings':[{'category':w.category.__name__,'message':str(w.message),'filename':w.filename,'line':w.lineno} for w in caught]}
  save_warning_checked_row(out,result)
 def compare_value(observed,expected,path,fail,errors):
  if isinstance(expected,(bool,str,int)) or expected is None:
@@ -112,7 +114,7 @@ def run(repo,out):
    row=load(out/key/'row.json');values[key]=row['values'];diagnostics[key]=row['diagnostic']
    require(len(values[key])==83,'Feature count mismatch: '+key)
    require(row['effective_md']==protocol['vienna']['effective_md'],'Worker MD mismatch: '+key)
-   require(row['parameter_export_sha256']==manifest['repository_inputs'][PARAMETERS],'Worker parameter mismatch: '+key)
+   require(row['parameter_export_LF_sha256']==parameter_sha(repo/PARAMETERS),'Worker parameter text mismatch: '+key)
    warning_records.append({'SequenceID':key,'python_warnings':row['python_warnings'],'stderr':(out/key/'stderr.txt').read_text(encoding='utf-8')})
   observed={'ids':protocol['all_ids'],'names':names,'values':values,'diagnostics':diagnostics,'protocol_sha256':manifest['repository_inputs'][PROTOCOL]}
   compare_value(observed,expected,'features',fail,errors);write_new(out/'features.json',observed)
@@ -120,7 +122,7 @@ def run(repo,out):
   after={rel:sha(repo/rel) for rel in before};require(after==before,'Input changed during replay')
   require(not any(x['python_warnings'] or x['stderr'] for x in warning_records),'Warning present; no successful receipt permitted')
   require(not fail,'Feature/diagnostic mismatch; failed evidence retained, no retry')
-  write_new(out/'receipt.json',{'status':'passed_all37_rows_all83_features','rows':len(completed),'features_per_row':83,'feature_values':37*83,'float_comparisons':len(errors),'absolute_tolerance':TOLERANCE,'maximum_absolute_error':max((e for e,_ in errors),default=0),'all_original_sequence_hashes_verified':True,'discrete_diagnostics_exact':True,'effective_md_exact':True,'parameter_contents_exact_all37':True,'source_sha256':sha(HERE/'replay.py'),'input_sha256_before':before,'input_sha256_after':after,'inputs_immutable':True,'historical_git_reauthenticated':False,'historical_access_order_reauthenticated':False,'row_processes':37,'worker_retries':0,'fallbacks':0,'exclusions':0,'runtime_seconds':time.monotonic()-started,'environment':environment,'result_sha256':sha(out/'features.json'),'warning_rows':sum(bool(x['python_warnings'] or x['stderr']) for x in warning_records),'scope':'Replay of specified model features only. No target comparisons, fitting, measured-structure validation or biological validity claim.'})
+  write_new(out/'receipt.json',{'status':'passed_all37_rows_all83_features','rows':len(completed),'features_per_row':83,'feature_values':37*83,'float_comparisons':len(errors),'absolute_tolerance':TOLERANCE,'maximum_absolute_error':max((e for e,_ in errors),default=0),'all_original_sequence_hashes_verified':True,'discrete_diagnostics_exact':True,'effective_md_exact':True,'parameter_text_exact_after_CRLF_to_LF_all37':True,'parameter_export_raw_sha256':{key:load(out/key/'row.json')['parameter_export_sha256'] for key in protocol['all_ids']},'parameter_LF_sha256':parameter_sha(repo/PARAMETERS),'source_sha256':sha(HERE/'replay.py'),'input_sha256_before':before,'input_sha256_after':after,'inputs_immutable':True,'historical_git_reauthenticated':False,'historical_access_order_reauthenticated':False,'row_processes':37,'worker_retries':0,'fallbacks':0,'exclusions':0,'runtime_seconds':time.monotonic()-started,'environment':environment,'result_sha256':sha(out/'features.json'),'warning_rows':sum(bool(x['python_warnings'] or x['stderr']) for x in warning_records),'scope':'Replay of specified model features only. No target comparisons, fitting, measured-structure validation or biological validity claim.'})
   print(json.dumps({'status':'passed','rows':37,'features_per_row':83,'maximum_absolute_error':max((e for e,_ in errors),default=0),'output':str(out)},indent=2))
  except BaseException as exc:
   write_new(out/'FAILURE.json',{'status':'failed_without_retry','completed_ids':completed,'exception':repr(exc),'traceback':traceback.format_exc(),'inputs_after':{rel:sha(repo/rel) for rel in before}})

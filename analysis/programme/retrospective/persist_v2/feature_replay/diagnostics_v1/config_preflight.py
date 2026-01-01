@@ -22,6 +22,9 @@ PINNED = {
 def digest(path):
     return hashlib.sha256(path.read_bytes()).hexdigest()
 
+def parameter_text_bytes(raw):
+    return raw.replace(b'\r\n', b'\n')
+
 def preflight(repo, output):
     repo, output = Path(repo).resolve(), Path(output).resolve()
     if output.exists() or output.is_relative_to(repo):
@@ -62,7 +65,9 @@ def preflight(repo, output):
             if not bool(loaded.params_save(str(exported))):
                 raise RuntimeError('Parameter export failed')
             report['exported_parameter_sha256'] = digest(exported)
-            if exported.read_bytes() != (repo / (PREFIX + 'Turner2004.par')).read_bytes():
+            report['parameter_comparison'] = 'Exact after CRLF to LF only; raw input and export hashes retained'
+            report['exported_parameter_LF_sha256'] = hashlib.sha256(parameter_text_bytes(exported.read_bytes())).hexdigest()
+            if parameter_text_bytes(exported.read_bytes()) != parameter_text_bytes((repo / (PREFIX + 'Turner2004.par')).read_bytes()):
                 raise RuntimeError('Frozen parameter byte mismatch')
             report['stage'] = 'complete_without_folding'
             report['status'] = 'configuration_only_passed'

@@ -4,9 +4,9 @@
   "comparison_relative_tolerance": 0,
   "fixed_before_execution": true,
   "code_sha256": {
-    "check_guards.py": "1b7e5e738d40a0abb93638c3fb9e863ddca3706295de8304c7bd50bab1653e9b",
-    "README.md": "ae3eac0cda261d5bee20ee080118341c6e132a3aaa6649735595841cef37ed21",
-    "replay.py": "45acb89825bf2555974da9d146b7c48e4a9b98f627cdc5d72c46fcf60507fdd9",
+    "check_guards.py": "2371178de0db2aca2e16880870bfb279030e634b5f8f877e67e27c0c44f73bad",
+    "README.md": "475f11e32af9d049b834c63a9a028de272d576c9895f7defb7cc580832254f01",
+    "replay.py": "851bdd80442742ed7b9193a5d14652b7dc2cfbb0595a0eab6e906815bd544f63",
     "requirements.txt": "4a8264052c17a0b9d6268f46a1f2a80b2db960a6665e37e648ceda9930594c92",
     "history/pre_warning_guard/manifest.json": "eefc350039dd62d7cf0e8faecb1efd3a04167d402a981e65b5789ef9cc5d9006",
     "history/pre_warning_guard/README.md": "11d2aaf72355f9e7cce98944a7706b56400a924fe070970955577cbcfe3b79c1",
@@ -39,5 +39,7 @@
   "historical_git_reauthenticated": false,
   "warning_policy": "Any caught Python warning, nonempty worker stdout/stderr or nonzero return is fatal before next row; no successful receipt with warning rows",
   "initial_wrapper_folded_rows": 0,
-  "initial_warning_rows": "not applicable: initial wrapper never ran"
+  "initial_warning_rows": "not applicable: initial wrapper never ran",
+  "parameter_export_comparison": "Exact after CRLF to LF only; raw frozen input hash unchanged",
+  "portability_amendment": "history/pre_line_ending_guard/diagnosis.json"
 }

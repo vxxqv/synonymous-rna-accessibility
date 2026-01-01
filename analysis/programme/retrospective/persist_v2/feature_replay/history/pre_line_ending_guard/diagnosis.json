@@ -1,0 +1,24 @@
+{
+  "status": "verified_serialization_only_discrepancy",
+  "failed_run": 40179926068,
+  "failed_commit": "15cf3e439432e2895c64c6bdb1224edf78b9f4a9",
+  "failed_stage": "parameter_export_before_folding",
+  "frozen_bytes": 260719,
+  "linux_bytes": 250833,
+  "frozen_CRLF": 9886,
+  "linux_CRLF": 0,
+  "frozen_raw_sha256": "f4a71a542533ce5420515004a0b51f6949e93d4087204185a35eb38fff30d466",
+  "linux_raw_sha256": "9521527a251d5e68e6149595f8aa72aa72c63e00dc5af41d7164e6ecaa664777",
+  "CRLF_to_LF_sha256": "9521527a251d5e68e6149595f8aa72aa72c63e00dc5af41d7164e6ecaa664777",
+  "no_other_byte_difference": true,
+  "frozen_scientific_source_and_protocol_unchanged": true,
+  "tolerance_unchanged": 1e-10,
+  "old_files_sha256": {
+    "replay.py": "45acb89825bf2555974da9d146b7c48e4a9b98f627cdc5d72c46fcf60507fdd9",
+    "manifest.json": "0deb9bbf5c703f3dc59bac52a5f22e8b3fb465a502be707cf5e0a2801d03547e",
+    "README.md": "ae3eac0cda261d5bee20ee080118341c6e132a3aaa6649735595841cef37ed21",
+    "check_guards.py": "1b7e5e738d40a0abb93638c3fb9e863ddca3706295de8304c7bd50bab1653e9b",
+    "diagnostics_v1\\config_preflight.py": "98e0a1d47d76d8de2f77b4ea5171643f78c2cc880af314514246b6fb9fa5c8ff"
+  },
+  "amendment": "Compare parameter exports after replacing CRLF with LF only; retain raw hashes and frozen raw input checks. No token, numeric, whitespace, warning, version or folding-model relaxation."
+}
