@@ -1,0 +1,20 @@
+{
+  "status": "six_complete_predictions_frozen_before_holdout_access",
+  "feature_stage_protocol_commit": "5f321adb2ac37ca519949d8a852ffc0ac4f891b3",
+  "sha256": {
+    "predictions.json": "2a22b0977afc031bfd2eceba15f5769daffad51f01a11319e81f787c7090a103",
+    "features.json": "3d2f6cbc2804e4a07932f9850e6955c5dd2b0513dfcaa7a5f74f47ba0009229f",
+    "training_authorization.json": "ded919ee293d0fe687c9532a7ec395a5e2db3acf8cb9866164b1456826471696",
+    "authorize_training.py": "19e7e5cb09d48dde56b26fdfa74057910fbbf0073d735679246256462ddf560d",
+    "preserve_training.py": "f30b306b8ea18ad1ae696e34aa5732bb68b2b1eee06349c389e12beb33531476"
+  },
+  "development_count": 22,
+  "holdout_count": 15,
+  "holdout_cells_decoded": 0,
+  "selected_penalties": {
+    "composition_ridge": 100.0,
+    "codon_composition_ridge": 100.0,
+    "codon_composition_MUP_ridge": 100.0
+  },
+  "scope": "Prediction in reported cellular-coefficient units, one selected reporter context; no physical-rate calibration."
+}
