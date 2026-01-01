@@ -1,12 +1,26 @@
 # Synonymous RNA accessibility
 
-Exact and thermodynamic analyses of synonymous sequence spaces under RNA pairing constraints.
+Verified computations on synonymous-variant assays, exact model compatibility, accessibility and observation identification.
 
 Author: Vivaan Patni, Independent Researcher. Contact: contact.vpatni@gmail.com.
 
 This repository contains the computational workflow, input provenance, exact verification cases, derived data, and reproducibility documentation. Manuscripts and journal submission materials are maintained separately.
 
-### Current measured-function feasibility result
+## Current focused synthesis
+
+Cycle 9 adds three independently reconstructed, explicitly exploratory calculations. The complete cPRIME assignment predicate persists in both measured cell contexts for 2 of 30 labels. A source-selected K562 three-state comparison retains combined/single ratios at most 0.02746 and 0.02025 across all 729 admissible joint completions; missing WT and preparation identity prevent a factorial interaction or isolated-edit estimate. Exactly 1 of 134 same-codon COMT pairs has opposing proxy order throughout the declared preparation choices, but shared DNA normalization can explain such a reversal.
+
+The frozen COMT prediction criterion still fails. FAS excludes its declared additive-monotone model at the original envelopes but supplies no envelope-certified restriction in its complete 72-state design. None of the new calculations establishes independent biological validation, RNA folding causation or a normalization-independent trade-off. Original failures, protocols and source limitations remain preserved.
+
+The bounded Cycle 9 offline replay uses only Python 3.12 and a small, hash-pinned package:
+
+```text
+python -B analysis/cycle9/replay_cycle9.py --repo . --out /new/path/outside/repository/cycle9-replay --manifest-sha256 9e4992216181d57e3ad245dd825036afe1baf50439b347e74fd7a1a850545090
+```
+
+See `analysis/cycle9/README.md` for exact scope, source attribution, preserved amendments and historical hash compatibility. The input manifest verifies every scientific field and source hash through unchanged independent checkers. Current manuscript sources and figure exports are distributed separately. Earlier renderers below describe historical analyses and are not the current manuscript regeneration route.
+
+### Preserved earlier measured-function feasibility result
 
 `analysis/cycle5/README.md` documents the frozen joint-function pilot on 47 intended-synonymous four-genotype designs. Its protocol, explicit uncertainty amendment, global target masks, independent implementation checks and source-provenance limits are committed before new outcomes are accessed. The source archive remains external to Git and is checksum pinned. This is an author-preprocessed within-library holdout, not independent biological replication. All 12 deposited-series scenarios, source-mean gates, failed prediction criteria, observed-component bounds and group influence diagnostics are prescribed in advance. Original draft states and the initially incomplete diagnostic revision remain as historical records; `cambray_pilot/protocol_v1.md` and `freeze_v1.json` identify the authoritative specification.
 
@@ -188,9 +202,9 @@ python -I -B analysis/programme/retrospective/cnot3_v2_exploratory/final_numeric
 
 It verifies every frozen prediction and all scored diagnostics without importing author code. The source and numerical replays require new output directories. Historical access order is not authenticated by numerical reconstruction.
 
-### Figure-source reproduction
+### Historical figure-source reproduction
 
-Panel data are in `results/figure_data/`. The fresh rendering source writes assets only outside the computational repository:
+Historical panel data are in `results/figure_data/`. These commands reproduce older technical-record figures, not the current focused manuscript. The separate current publishing package has a fixed five-figure generator and one supplementary control figure; its regeneration does not call these legacy renderers. Historical rendering writes assets only outside the computational repository:
 
 ```text
 python analysis/render_figure_suite.py --out /path/outside/this/repository/figures --figures 1,2,3,4,5,6,S1,S2,S3,S4

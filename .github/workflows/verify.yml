@@ -98,6 +98,8 @@ jobs:
         run: python -B analysis/cycle8/materialize_cycle8.py --repo . --out "${{ runner.temp }}/cycle8-verified-expansion" --check-comt
       - name: Replay exact preparation, transport, FAS and observation certificates
         run: python -B analysis/cycle8/verify_materialized_cycle8.py --workspace "${{ runner.temp }}/cycle8-verified-expansion" --out "${{ runner.temp }}/cycle8-verified-expansion/verified"
+      - name: Replay all three focused Cycle 9 numerical inventories
+        run: python -B analysis/cycle9/replay_cycle9.py --repo . --out "${{ runner.temp }}/cycle9-independent" --manifest-sha256 9e4992216181d57e3ad245dd825036afe1baf50439b347e74fd7a1a850545090
       - name: Retain joint-function pilot verification
         if: ${{ always() && steps.joint_function.outcome != 'skipped' }}
         uses: actions/upload-artifact@v4
