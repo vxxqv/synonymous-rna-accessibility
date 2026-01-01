@@ -1,0 +1,12 @@
+{
+ "id":"COMPASS_MEASUREMENT_GATE_V2",
+ "preceding_protocol":"COMPASS_ELIGIBILITY_V1",
+ "state":"53 native-frame synonymous squares across 10 genes identified without phenotype inspection. Only five squares across three genes appear synonymous in reporter exon frame zero; confirm against full source backbone before claiming reporter identity.",
+ "permitted_next_read":"HeLa replicate 1 and 2 included/excluded columns may be loaded only to calculate total coverage, integer reconstruction errors, and missingness; no ratios, interaction effects or predictions may be inspected at this gate.",
+ "condition_choice":"HeLa is fixed before coverage or outcomes; it has two shared biological replicate labels for WT and variants and avoids the additional WT-only HEK batches.",
+ "gate":"Each of the four genotypes must have finite nonnegative reconstructed junction counts and total coverage at least 10 in both replicates, matching source Methods. Retain the original requirements of at least 50 eligible native synonymous squares and 10 genes; do not search other cell lines if HeLa fails this pilot gate.",
+ "dependence":"Many squares share genotypes. Split entire genes using SHA256('COMPASS_V1|' + stable gene id), sorted first five development, remaining five validation. Audit sequence similarity before any outcome fitting. A failed coverage gate preserves all ratio outcomes.",
+ "error_semantics":"The author pipeline defines included=min(inclusion_junction_1,inclusion_junction_2). These are reconstructed junction counts, not demonstrated independent Bernoulli molecule counts. No binomial confidence interval or beta-binomial biological-replicate inference is authorized without a justified observation model or the original separate junction counts.",
+ "if_pass":"Write and commit a separate outcome protocol defining finite-assay ratio prediction, gene-level validation, response-scale baselines and replicate diagnostics. Native synonymous status must remain distinct from reporter protein identity.",
+ "if_fail":"Close this pilot as insufficient eligible measured coverage under its frozen gate. Do not describe the hypothesis as disproved. Preserve the design table for future measurements."
+}
