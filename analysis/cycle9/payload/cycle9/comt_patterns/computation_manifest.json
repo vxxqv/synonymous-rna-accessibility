@@ -1,0 +1,159 @@
+{
+  "schema_version": 2,
+  "claim_id": "COMT_local_pair_order_exploratory_cycle9",
+  "repository": {
+    "commit": "057546edc0a8263d348b20440ba51705cfffe361",
+    "dirty": false
+  },
+  "command": [
+    "work/env/Scripts/python.exe",
+    "-B",
+    "work/research_cycle9/comt_patterns/analyze.py",
+    "--freeze",
+    "work\\research_cycle9\\comt_patterns\\execution_freeze.json",
+    "--input",
+    "work/research_cycle8/comt_results/actual_v3/normalize/contrasts.json",
+    "--inventory",
+    "work/research_cycle9/comt_patterns/metadata_inventory.json",
+    "--contract",
+    "work/research_cycle8/comt_pilot/implementation_v3/selective_contract.json",
+    "--out",
+    "work\\research_cycle9\\comt_patterns\\observed_v1"
+  ],
+  "environment": {
+    "software": [
+      {
+        "name": "CPython",
+        "version": "3.12.14"
+      }
+    ],
+    "hardware": "AMD64; Windows-11-10.0.26300-SP0; standard-library sequential execution"
+  },
+  "mathematics": {
+    "assertion_tested": "For each of134prespecified same-codon pairs, one fixed strict opposite orientation across all128 declared map/preparation combinations.",
+    "coefficient_domain": "Rational representations of stored binary floats",
+    "conventions": "Lexical allele orientation; shared D within each R/T case; no cross-assay label pairing; strict zero threshold; missing and mask mismatch unresolved.",
+    "inputs": [
+      "work/research_cycle8/comt_results/actual_v3/normalize/contrasts.json",
+      "work/research_cycle9/comt_patterns/metadata_inventory.json",
+      "work/research_cycle8/comt_pilot/implementation_v3/selective_contract.json"
+    ],
+    "bounds": {
+      "alleles": 125,
+      "sites": 53,
+      "pairs": 134,
+      "joint_cases": 17152,
+      "SNV_pairs": 97
+    },
+    "non_claims": [
+      "calibrated biological uncertainty",
+      "physical protein amount",
+      "causal compensation",
+      "evolutionary trade-off",
+      "independent biological validation",
+      "predictor rescue"
+    ]
+  },
+  "randomness": {
+    "used": false,
+    "generator": "",
+    "seed": null
+  },
+  "run": {
+    "started_at": "2026-10-26T13:17:29.523058+00:00",
+    "runtime_seconds": 0.5695097999996506,
+    "exit_status": 0,
+    "status": "completed",
+    "resource_limits": {
+      "memory_bytes": null,
+      "cpu_seconds": null,
+      "max_cores": null,
+      "max_threads": null
+    }
+  },
+  "outputs": [
+    {
+      "path": "work/research_cycle9/comt_patterns/observed_v1/result.json",
+      "sha256": "01136e43574d5d0e0e3b8bb649dc48cd5ac9dbe034ce3b9c6d79096c278b4727",
+      "kind": "result"
+    },
+    {
+      "path": "work/research_cycle9/comt_patterns/observed_v1/receipt.json",
+      "sha256": "cf94cccc5b99a6230427920fd41b78548eb5ad080e42a9b585404e31b10d0f3a",
+      "kind": "log"
+    },
+    {
+      "path": "work/research_cycle9/comt_patterns/reconstruction_v1/receipt.json",
+      "sha256": "515fb7a021a08bdea3d36e50d1c8f084834b0b19e113c194cc310bf24f1749d0",
+      "kind": "log"
+    },
+    {
+      "path": "work/research_cycle9/comt_patterns/tables_v1/all_134_pairs.csv",
+      "sha256": "e088ad971c965b7abbbfdaf8d26dfd85cfdce65d9dde9d139440b31dcd3ff7e6",
+      "kind": "log"
+    },
+    {
+      "path": "work/research_cycle9/comt_patterns/tables_v1/all_sites.csv",
+      "sha256": "0fec58522791485c788de3f3d9365b483602c123a51d26dbdbbdddae4a71f4d6",
+      "kind": "log"
+    },
+    {
+      "path": "work/research_cycle9/comt_patterns/tables_v1/SNV_sites.csv",
+      "sha256": "379f927b30122c0f266de4b8d7bed006942e4f14fc2d4b13274beabb924790cd",
+      "kind": "log"
+    },
+    {
+      "path": "work/research_cycle9/comt_patterns/results_report.md",
+      "sha256": "f0fed35d7838b57c7f819f1833f19a63a46a886de7696f40c64fdc5781206fdb",
+      "kind": "log"
+    },
+    {
+      "path": "work/research_cycle9/comt_patterns/REPLAY.md",
+      "sha256": "444e71d4149424be94a72f0d26ecbcffda25ee262d3767c3465cc1f2aad25975",
+      "kind": "log"
+    },
+    {
+      "path": "work/research_cycle9/comt_patterns/execution_freeze.json",
+      "sha256": "fe45cf19ec3848912ab2d9a714bf794ae35d2beec8b83cdfbba268f6e7f90f0f",
+      "kind": "log"
+    },
+    {
+      "path": "work/research_cycle9/comt_patterns/synthetic_receipt.json",
+      "sha256": "e74a21a5a69d7ae6e602a2311483f3ebe67390233743885aaec6c2f4b3662bf5",
+      "kind": "log"
+    }
+  ],
+  "checks": [
+    "18syntheticchecks",
+    "200inventedreferencefields",
+    "20665directreconstructionchecks",
+    "17152jointcasesexact",
+    "allinputhashesunchanged"
+  ],
+  "result": "1of134localpairs uniformly reverses; site149 c.330C>G versus c.330C>T.133unresolved.1of97SNVpairs. Conditional empirical radius0.003713370313814135nats.",
+  "residual_risks": [
+    "Same-source exposed observations; shared normalization and biological preparations; representation uncertainty is not calibrated noise.",
+    "Direct verifier is separately formulated by the same agent, not a fresh reviewer.",
+    "Started timestamp uses the filesystem write time of the run_started marker written before input decoding."
+  ],
+  "input_artifacts": [
+    {
+      "path": "work/research_cycle8/comt_results/actual_v3/normalize/contrasts.json",
+      "sha256": "5654df32df45840415e483a53127a12744887ac9c6b49a18f0a9387bfa04f083",
+      "sha256_after": "5654df32df45840415e483a53127a12744887ac9c6b49a18f0a9387bfa04f083"
+    },
+    {
+      "path": "work/research_cycle9/comt_patterns/metadata_inventory.json",
+      "sha256": "ec95deb93264402c7d5d0f3782a0583285fdc7799443660348fdc90ffa4920cb",
+      "sha256_after": "ec95deb93264402c7d5d0f3782a0583285fdc7799443660348fdc90ffa4920cb"
+    },
+    {
+      "path": "work/research_cycle8/comt_pilot/implementation_v3/selective_contract.json",
+      "sha256": "091ab6a57b7d64ab56638430e95befca5dbffd790eec9c62ea5d6a504d450ce5",
+      "sha256_after": "091ab6a57b7d64ab56638430e95befca5dbffd790eec9c62ea5d6a504d450ce5"
+    }
+  ],
+  "declared_results": [
+    "work/research_cycle9/comt_patterns/observed_v1/result.json"
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "status": "CONTROL_RECOVERY_COMPLETE_QUALIFIED_THREE_STATE_PROTOCOL_READY_NUMERIC_GATE_CLOSED",
+  "checks": {
+    "current_repository_same_63_blobs": true,
+    "correct_three_rows": true,
+    "18_condition_named_source_runs": true,
+    "12_earlier_runs_excluded": true,
+    "3_states_same_local_DNA_RNA_words": true,
+    "no_RPM_or_missingness_read": true,
+    "annotated_local_two_codon_reference_protein_same": true
+  },
+  "local_translation_check": {
+    "edit_only": {
+      "source_frame_codons": [
+        "AGG",
+        "TTG"
+      ],
+      "reference_translation": "RL"
+    },
+    "marker_only": {
+      "source_frame_codons": [
+        "AGA",
+        "TTA"
+      ],
+      "reference_translation": "RL"
+    },
+    "combined_A": {
+      "source_frame_codons": [
+        "AGG",
+        "TTA"
+      ],
+      "reference_translation": "RL"
+    }
+  },
+  "new_matched_WT_RNA_response_recovered": false,
+  "GtoT_discrepancy_resolved": false,
+  "new_public_repository_or_archive_version": false,
+  "qualified_narrow_question": "Complete pairing-envelope C/M and C/E source-ratio comparisons for K562 Data6 rows15-17",
+  "source_contrast_claim_limit": "conditional background readout, not isolated edit, interaction, biological confidence, full haplotype or independent replication",
+  "protocol_sha256": "93feed845877ecbe31ad1297505c13cc9c01fbcd2966d38eff10fb3d4a30e366",
+  "metadata_contract_sha256": "7b0fc2ee50581f97037248f76d29a3b80667e4c0501b96bc8efb730f988a3f6b",
+  "report_sha256": "7fc3ebae33cf1bfb252b18d7130e84aa7907115a534ba3de674fa352aba72eaf",
+  "source_ledger_sha256": "dc90f5754b8f2356f7072d760424f2a33c55b0a38fdd7e5327deb1a4f40e5d7e",
+  "prior_source_hashes": {
+    "report.md": "e2e49e332f37038a19585a96c451916bfc456b83f254eec9bf66b75ed9fb13a6",
+    "measurement_contract.json": "f8114d02891cfdcd643de8e022c480aee3f7ab40d5ec1b178f093cf0310b657f",
+    "source_manifest.json": "c7e4c093e344acd9a8ae1a800d9cd202abb7cb9fb955fdbead2381c5eaee1be6",
+    "selected_assay_metadata.json": "4a0bf731a768b100d98cd03ee24a41474b4e6cb5924b33270cf0ae00180bb2c0",
+    "published_validation_sequence_metadata.json": "0daa72390b929738d9ef5ceeb9ce5b4ce0374bc7becaffa862ee4ac65fe5b710",
+    "ex27_selected_metadata.json": "7428b430770c0a4fc6c688227297c4dace8b32f7bd432e29bd38cce5c854056b",
+    "supplement_schema_headers_only.json": "286c752189d7cdb53baa7867374682ecb736f919838d4d520d094282296dae27",
+    "supplement_descriptions.txt": "0722aead9c7fb4ed911aacb0e572d70246697d4e37bd6a4b7846fb11b918f406",
+    "methods_and_availability.txt": "4c91042aeca3e75c22dbe0c6f17cc474c9651e009ea2d3593ca11dbcf880c8d5",
+    "marker_context_primary.txt": "360abe3f61ec1b25f98a4aca77879dd5f39e9ba4297fbf7abc760983dc712c16",
+    "ena_samples.tsv": "1c854cfaf2f84155473c92620654cfb8c3a93eb0eb10cc060f64228b58f0af2c",
+    "supp_Supplementary Data 6.xlsx": "a3d18aff825b756711de622533cb730c1202e571f86a3b9b2e00edea6b073dd3",
+    "article.xml": "9583663d9c088aa9759944c0ad4a0e4e12cccf57d092a89b336b5c8ae86d0049"
+  },
+  "proposed_numeric_whitelist": {
+    "workbook_sha256": "a3d18aff825b756711de622533cb730c1202e571f86a3b9b2e00edea6b073dd3",
+    "sheet": "validation K562",
+    "cells": [
+      "F15",
+      "G15",
+      "H15",
+      "I15",
+      "J15",
+      "K15",
+      "F16",
+      "G16",
+      "H16",
+      "I16",
+      "J16",
+      "K16",
+      "F17",
+      "G17",
+      "H17",
+      "I17",
+      "J17",
+      "K17"
+    ],
+    "count": 18,
+    "currently_authorized": false
+  },
+  "author_contact_external_writes_git_or_publication": false,
+  "shared_manuscript_or_repo_edits": false
+}

@@ -1,0 +1,25 @@
+{
+  "status": "PASS_GUARD_ONLY_DELTA",
+  "old_source_sha256": "f99e6d1cb7397c931d7b0b5ac44bfb6d74da824f971de6c1f5a9b4709f1d3aff",
+  "guarded_source_sha256": "379e6647cfc1b8b5e612800ae92c3ee38600a2846fc7cbfb10660caeefd2a381",
+  "scientific_bytes_unchanged_after_removing_guard": true,
+  "optimization_checks": [
+    {
+      "flag": "-O",
+      "returncode": 1,
+      "stderr": "Traceback (most recent call last):\n  File \"C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\work\\research_cycle9\\cprime_persistence\\analyze.py\", line 88, in <module>\n    if __name__=='__main__':main()\n                            ^^^^^^\n  File \"C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\work\\research_cycle9\\cprime_persistence\\analyze.py\", line 52, in main\n    raise RuntimeError('Optimized Python is refused: exact input and join guards are required')\nRuntimeError: Optimized Python is refused: exact input and join guards are required\n"
+    },
+    {
+      "flag": "-OO",
+      "returncode": 1,
+      "stderr": "Traceback (most recent call last):\n  File \"C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\work\\research_cycle9\\cprime_persistence\\analyze.py\", line 88, in <module>\n    if __name__=='__main__':main()\n                            ^^^^^^\n  File \"C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\work\\research_cycle9\\cprime_persistence\\analyze.py\", line 52, in main\n    raise RuntimeError('Optimized Python is refused: exact input and join guards are required')\nRuntimeError: Optimized Python is refused: exact input and join guards are required\n"
+    }
+  ],
+  "original_outputs_unchanged": {
+    "work\\research_cycle9\\cprime_persistence\\synthetic_receipt.json": "a21b163bbb29217c3dc16a6d7e4c0819150354aa044588e16aa6f3a12e4fe485",
+    "work\\research_cycle9\\cprime_persistence\\results_v1\\result.json": "46fdaffece0fdc6d6803d6e492ccec5a301954978fde39b96f04e689d76de6a8",
+    "work\\research_cycle9\\cprime_persistence\\results_v1\\manifest.json": "7b97aa215af3bb36ef7efc7fb62172e0f76cb473a5be84c7fdc579c75fd8294d",
+    "work\\research_cycle9\\cprime_persistence\\results_v1\\all_60_profiles.csv": "f34e5b06d8f6a66aad5c7a28bdd6dc51e49b0a8ec730d10ea8485b644da2c186"
+  },
+  "original_review_retained": true
+}

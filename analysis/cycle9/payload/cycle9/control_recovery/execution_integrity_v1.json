@@ -1,0 +1,21 @@
+{
+  "status": "PASS_AUTHOR_TRANSFER_AND_HASH_INTEGRITY_CHECKS",
+  "checks": {
+    "18_unique_source_cells": true,
+    "27_unique_state_ratios": true,
+    "162_unique_contrast_cases": true,
+    "729_unique_joint_cases": true,
+    "joint_count_total": true,
+    "all_joint_cases_reuse_same_C": true,
+    "every_case_references_saved_state_ratio": true,
+    "all_states_and_both_contrasts_retained": true,
+    "no_unknowns_or_zeros_in_actual_source": true,
+    "unchanged_source_workbook_byte_hash": true,
+    "all_frozen_code_protocol_contract_and_prior_audit_unchanged": true
+  },
+  "count": 11,
+  "new_source_cells_read": false,
+  "scientific_calculation_rerun": false,
+  "fresh_independent_numerical_review": "pending",
+  "scope": "Mechanical completeness/link/hash checks, not independent source reconstruction"
+}

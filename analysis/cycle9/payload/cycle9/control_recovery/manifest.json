@@ -1,0 +1,37 @@
+{
+  "status": "CONTROL_RECOVERY_COMPLETE_QUALIFIED_THREE_STATE_PROTOCOL_READY_NUMERIC_GATE_CLOSED",
+  "research_handoff_files": {
+    "acquire_control_source.py": "9dc43b7059b9763a1ec6851ca8b0d1fd3e4805dc292de1c97b94b32a4d27568b",
+    "acquire_metadata.py": "01e66c3b3cd351835738367460f50c2bc445876409d7803caac938623cc63450",
+    "control_source_access_ledger.json": "fd056642a21c759344e8f7c5dd7aec79a55d42a64216284c1b5466b9200da60d",
+    "control_source_schema.json": "fc5f945c2c56eab69aaf8905c0ebd5f3bb653cd3c8f0b5e83bf59d5d13cafae5",
+    "current_github_branch.json": "3d9c39333c7239c2907da164850819ee6e03763eb3f874399cb501bd40039231",
+    "current_github_repo.json": "8f49f57107928919b161bebac577b8b83d80bac590099d25edb8a3f61276ae0a",
+    "current_github_tree.json": "6b9a6972e8d02b4d239855c7e044761969fe46c4d6afed4bc0d1b873980a627b",
+    "current_zenodo_latest.json": "ac3473d0f5c524c94db9e1ef84fbc3ddf848124d553fd484b893ac1394fa40bd",
+    "exposure_ledger.json": "6275972772aa4aba6b8d037005f28fb1e5427ac57570ec39dcad54df667a0b80",
+    "finalize_audit.py": "e2b191a4a0e4945900689c466d2f90519e225fafcbcff27e5f7d99119cebd56a",
+    "historical_inaccessibility_not_retried.json": "83c59a3604637793f3f567894d3ceec21db16f935bc9ef74c2b8150d928bbfe8",
+    "metadata_access_ledger.json": "2c60450ae398f1bb8e0edd9255ffca3abfdc2d93d1611ce9f4bb2807f01716e9",
+    "plan.md": "aaa8b502a2021493088015a19d9d77af447d677b3ca035b5f1744f8e71d11a73",
+    "receipt.json": "0a4f3be76e56da9855fed5fabb2fe8a19f0a81ed5321d04b65ddd17910d41b1f",
+    "report.md": "7fc3ebae33cf1bfb252b18d7130e84aa7907115a534ba3de674fa352aba72eaf",
+    "select_identity_metadata.py": "d73f0a3332bf5a05b852e4ce04257456ead95d665496581e2e1c19ae0ec9a341",
+    "selected_identity_metadata.json": "e7b2a003fe205d4b03eff14dbb298874fc62ac114df885afd19fdcaa9abd549b",
+    "source_ledger.csv": "dc90f5754b8f2356f7072d760424f2a33c55b0a38fdd7e5327deb1a4f40e5d7e",
+    "three_state_contract.json": "7b0fc2ee50581f97037248f76d29a3b80667e4c0501b96bc8efb730f988a3f6b",
+    "three_state_metadata_contract.py": "949374b2129b120b86efa8fafc5c3b74d08ec51bd4ab7a6e3361a8844957314d",
+    "three_state_protocol.md": "93feed845877ecbe31ad1297505c13cc9c01fbcd2966d38eff10fb3d4a30e366",
+    "tool_0.json": "427cf391b41484bbae6e59fd3ce613b7d61936ce5609ca84c36ed3e0bce71b1f",
+    "tool_1.json": "d34281d5029a0676a1527a4d36d0229d3503d85181221aea8391fe55e7735e65",
+    "tool_2.json": "9a18e786ab17c668372638a182454ae74368b2ae0f1d28e21f09d24ebe2a82b3"
+  },
+  "primary_source_cache_not_for_automatic_promotion": {
+    "author_K562_cDNA_edit_counts.xlsx": "66f3019822a8c613c96f473c85c708c1c8c017c2545d91462a1cb4930e0b8dcb",
+    "author_K562_gDNA_edit_counts.xlsx": "5fc6efc4543ba7ef86fb198f3028d201376221d2702ac8dd7188e3b7cb515c7e",
+    "author_KBM7_cDNA_edit_counts.xlsx": "4f283e8efe1c4a146cc5e8133778a5b40f3d90a9589dbd5eb0b321671cbb1ce7",
+    "author_KBM7_gDNA_edit_counts.xlsx": "03c03218c8ccf20549767ba5032b3947d7d9686cfce6fb45a24546458dbf63fd",
+    "author_Odds_Ratio.R": "7a620bd395d10e95c00e5d38e67f3a5f58c51e9872ab7b5088ce0d7919a89d34"
+  },
+  "limits": "No primary source paper/workbook or source code is automatically approved for redistribution. Root freezes source selection and code before any numeric access."
+}

@@ -1,0 +1,117 @@
+{
+  "status": "PROPOSED_READY_FOR_ROOT_REVIEW_NO_NEW_OBSERVED_COMPARISONS",
+  "repository_revision_observed": "057546edc0a8263d348b20440ba51705cfffe361",
+  "sources": {
+    "article": {
+      "path": "work/research_cycle8/comt_gate/article.xml",
+      "sha256": "1408706174c5761cda35b87bac74afcc8b163ac5cdaf9d261b72467e6e4da3a8"
+    },
+    "article_record": {
+      "path": "work/research_cycle8/comt_gate/article_record_core.json",
+      "sha256": "0b6136afd7421bb144d2d8cb4adbaa927e46046829690813200f57db928a7e4f"
+    },
+    "source_manifest": {
+      "path": "work/research_cycle8/comt_gate/source_manifest.json",
+      "sha256": "adfb85bff47299ae0f70deb6d72cec612c580ebea9e096b299b53b5b09505167"
+    },
+    "author_Rmd": {
+      "path": "work/research_cycle8/comt_gate/analysis__integrative_MAVEs.Rmd",
+      "sha256": "ac267a0a5e1f07d3eadc30a2c3643a166349f0a67259ee31c649454229a869f0"
+    },
+    "metadata_contract": {
+      "path": "work/research_cycle8/comt_pilot/implementation_v3/selective_contract.json",
+      "sha256": "091ab6a57b7d64ab56638430e95befca5dbffd790eec9c62ea5d6a504d450ce5"
+    },
+    "normalizer_source": {
+      "path": "work/research_cycle8/comt_pilot/implementation_v3/normalize.py",
+      "sha256": "bd5d6671eb3ac2f69e0a7ec7a2321c36828320e682ea9373cb5015f0153c8322"
+    },
+    "code_freeze": {
+      "path": "work/research_cycle8/comt_pilot/code_freeze_v3.json",
+      "sha256": "8292bce1941d7a080176771c9b2a132e3693513273b868f2843109ac8deb9fdb"
+    },
+    "normalization_amendment": {
+      "path": "work/research_cycle8/comt_pilot/normalization_contract_amendment_v3.md",
+      "sha256": "c72377c83f74c0f09324f850659071320bd68dcad13fe4b70c1f615961b02bfc"
+    },
+    "normalization_seal": {
+      "path": "work/research_cycle8/comt_results/actual_v3/normalize/sealed_manifest.json",
+      "sha256": "949fc885b57a230b7ec925d4c3f6e136d72774f24642651343bb98f648c1a0fd"
+    },
+    "contrasts_outcome_bytes_only": {
+      "path": "work/research_cycle8/comt_results/actual_v3/normalize/contrasts.json",
+      "sha256": "5654df32df45840415e483a53127a12744887ac9c6b49a18f0a9387bfa04f083"
+    },
+    "prior_followup_protocol": {
+      "path": "work/research_cycle8/comt_followup/protocol.md",
+      "sha256": "706825082ca7c5ebd8803131c4a395e71dfda10363c4d86b251e3c5f42efe582"
+    },
+    "prior_followup_receipt": {
+      "path": "work/research_cycle8/comt_followup/independent_review/check_v1/receipt.json",
+      "sha256": "01e1efbc655cdb8b5e0a6ca4d4630de55f42e5bdf22ea297e31ce90668f246c3"
+    },
+    "prior_exact_replay_seal": {
+      "path": "work/research_cycle8/comt_numeric_reference/v3_delta_review/reference_successor/binary_float_successor/verification_seal.json",
+      "sha256": "edcbb6afeaa3e062c7be8235166909e7992199d5f06df1832d8550f5be0a1d1f"
+    },
+    "replicate_conflict": {
+      "path": "work/research_cycle8/comt_gate/replicate_contract_result.json",
+      "sha256": "7d8085ca4e77def1bdaf34a27e13eb0ff77a77b2af89016e392aaeb4de1cc8ac"
+    }
+  },
+  "owned_files": {
+    "proposed_protocol.md": "6ebf332b56642766f3b78345e0c3a9cc85d995628be98272f0a3aee8efce594d",
+    "closest_prior.md": "4e217bd1046807923b00b58066a653441f8d9e15193dc148b4d610ca9b434c12",
+    "metadata_inventory.py": "10f9847d6d3268449978ecc1a9a55f6661a4d120ad860ec74ca1d816db2cef3a",
+    "metadata_inventory.json": "ec95deb93264402c7d5d0f3782a0583285fdc7799443660348fdc90ffa4920cb",
+    "prepare_handoff.py": "c5f1c8e8b18b45c132ae22015c425ddc2f735178ab9369a38e962679b096b2c9"
+  },
+  "primary_source_urls": [
+    "https://doi.org/10.1038/s44320-024-00018-9",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC11066095/",
+    "https://github.com/ijhoskins/integrated_MAVEs/tree/7ee507ae0cef0dad1b42b06883bb8fe3116334fc",
+    "https://doi.org/10.5281/zenodo.10403931"
+  ],
+  "source_check": {
+    "final_article_sections_read": [
+      "Sec5",
+      "Sec6",
+      "Sec8",
+      "Sec9",
+      "Fig10 (published Fig5)"
+    ],
+    "author_code_lines_read": [
+      "8855-8949",
+      "9680-9859",
+      "v3 normalizer 43-117"
+    ],
+    "targeted_source_query": "Pareto|pareto|trade.?off|within.codon|same.codon|partial order|monoton",
+    "targeted_query_matches_in_methods_and_author_Rmd": 0,
+    "query_absence_is_not_global_novelty": true,
+    "connected_metadata_check": "Scholar Sidekick check_retraction, DOI10.1038/s44320-024-00018-9",
+    "connected_metadata_result": {
+      "isRetracted": false,
+      "hasCorrections": false,
+      "hasConcern": false
+    },
+    "notice_check_is_not_exhaustive": true
+  },
+  "exposure": {
+    "prior_exposed_cycle8_results_retained": true,
+    "published_results_read_for_prior_comparison": true,
+    "new_variant_outcome_summaries_computed": false,
+    "new_source_control_outcomes_read": false,
+    "phenotype_files_decoded_this_task": [],
+    "outcome_file_access": "contrasts.json hashed as bytes only, not decoded",
+    "metadata_only_computation": "all125 identifiers,53sites,134within-sitepairs;113SNVs,52sites,97pairs"
+  },
+  "next_action": "Root reviews proposed question and quantifiers; only then implement and freeze synthetic-tested comparison before new observed summaries.",
+  "forbidden_claims": [
+    "physical protein amount",
+    "translation flux",
+    "causal compensation",
+    "evolutionary fitness trade-off",
+    "independent biological replication",
+    "calibrated confidence"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "status": "FROZEN_BEFORE_ACTUAL_NUMERIC_ACCESS",
+  "created_utc": "2026-10-26T13:25:51.890014+00:00",
+  "protocol_sha256": "93feed845877ecbe31ad1297505c13cc9c01fbcd2966d38eff10fb3d4a30e366",
+  "contract_sha256": "7b0fc2ee50581f97037248f76d29a3b80667e4c0501b96bc8efb730f988a3f6b",
+  "implementation_sha256": "b0b1c9bcd03767c81d818e39c2db7a100ecf13ae59df7b93eec01c944ca8d289",
+  "tests_sha256": "405e77dcdac2768cafe0b0446fb35a6525bdeda01d70f0f3f9992e32bd9701e8",
+  "synthetic_receipt_sha256": "d99b6dc7e66c641eb397610ef67285589b30f429cce11d82a79a0391115bb8aa",
+  "source_audit_manifest_sha256": "74fffe3e6dd6f7fa4dbbc4efb9097bcbda03c39e831b668325b44452465189ee",
+  "workbook_sha256": "a3d18aff825b756711de622533cb730c1202e571f86a3b9b2e00edea6b073dd3",
+  "runtime": {
+    "implementation": "CPython",
+    "python": "3.12.14",
+    "required_third_party_packages": []
+  },
+  "actual_numeric_cells_read_before_freeze": false,
+  "source_publication_prior_exposure": "Qualitative selected example exposed; targetnumericcells andmissingness not inspected",
+  "scientific_method_changes": false
+}

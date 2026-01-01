@@ -1,0 +1,26 @@
+{
+  "status": "COMPLETED",
+  "freeze_sha256": "fe45cf19ec3848912ab2d9a714bf794ae35d2beec8b83cdfbba268f6e7f90f0f",
+  "input_hashes_before": {
+    "input": "5654df32df45840415e483a53127a12744887ac9c6b49a18f0a9387bfa04f083",
+    "inventory": "ec95deb93264402c7d5d0f3782a0583285fdc7799443660348fdc90ffa4920cb",
+    "contract": "091ab6a57b7d64ab56638430e95befca5dbffd790eec9c62ea5d6a504d450ce5"
+  },
+  "input_hashes_after": {
+    "input": "5654df32df45840415e483a53127a12744887ac9c6b49a18f0a9387bfa04f083",
+    "inventory": "ec95deb93264402c7d5d0f3782a0583285fdc7799443660348fdc90ffa4920cb",
+    "contract": "091ab6a57b7d64ab56638430e95befca5dbffd790eec9c62ea5d6a504d450ce5"
+  },
+  "result_sha256": "01136e43574d5d0e0e3b8bb649dc48cd5ac9dbe034ce3b9c6d79096c278b4727",
+  "pairs": 134,
+  "joint_cases": 17152,
+  "python": "3.12.14",
+  "elapsed_seconds": 0.5695097999996506,
+  "argv": {
+    "freeze": "work\\research_cycle9\\comt_patterns\\execution_freeze.json",
+    "input": "work/research_cycle8/comt_results/actual_v3/normalize/contrasts.json",
+    "inventory": "work/research_cycle9/comt_patterns/metadata_inventory.json",
+    "contract": "work/research_cycle8/comt_pilot/implementation_v3/selective_contract.json",
+    "out": "work\\research_cycle9\\comt_patterns\\observed_v1"
+  }
+}

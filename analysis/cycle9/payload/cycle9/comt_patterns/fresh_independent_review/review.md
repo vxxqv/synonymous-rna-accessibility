@@ -1,0 +1,30 @@
+# Fresh independent local COMT order review
+
+PASS for the exact finite numerical and semantic claim. No result discrepancy found. The actual result location is `observed_v1`, not `results_v1`.
+
+The fresh `check.py` imports neither the production analyzer nor its same-author verifier. It reconstructs every within-native-codon pair directly from the pinned contract, with immutable UTF-8 lexical orientation. All 125 targets at 53 sites are retained; 32 sites supply 134 unordered pairs and 21 singleton sites remain not informative. The fixed SNV sensitivity has 113 alleles at 52 sites, 97 pairs at 31 informative sites and 21 singleton sites.
+
+Before answer comparison, the checker validates metadata, all 3,000 R/D/F source assay groups, declared technical sample identities and nonmissing masks. The stored group medians also equal separately computed floating medians, with maximum absolute discrepancy zero. It uses exact fractions of the stored binary floats for the specified downstream differences. That arithmetic is not exact biological log measurement.
+
+It independently enumerates all 64 RNA/DNA/FACS group combinations under each map for every pair, reusing the same DNA group in both coordinates. All 17,152 saved joint records, 3,216 paired source-mask lineage records, 1,072 extremum/tie provenance lists, all pair flags and all site/ROI/pooled summaries agree. Both maps reuse source material; 128 records per pair are neither 128 distinct experiments nor necessarily 128 distinct numerical points.
+
+The sole uniform opposite-order pair is lexical a=`c.330C>G`, b=`c.330C>T`, native COMT site 149, ROI 2. It is one of three possible pairs at that site and belongs to the SNV sensitivity. Its exact combined bounds are:
+
+| Quantity | Minimum | Maximum |
+| --- | --- | --- |
+| DeltaR | 8361766580791/562949953421312 | 65095805603413/281474976710656 |
+| DeltaT | -1045382311814713/562949953421312 | -61351304753005/1125899906842624 |
+
+All 128 joint cases have DeltaR strictly positive and DeltaT strictly negative. The other 133 pairs are unresolved without exact ties; none is uniformly same-direction strictly separated and no per-map category disagreement occurs. The equal-informative-site reversal averages are exactly 1/96 for all alleles and 1/93 for SNVs, not 1/134 and 1/97: each informative site first contributes its own pair fraction. These remain descriptive selected-cohort quantities, not prevalence estimates or independent replicates.
+
+Let m be the smaller strict contrast margin. A perturbation of each allele's assay-group log value by at most delta changes a same-assay allele difference by at most 2delta, and either contrast by at most 4delta. Thus every strict direction is preserved when delta<m/4. This boundary is sharp for the declared unconstrained primitive rectangle: at the limiting DeltaR case, decrease the two RNA allele values in opposite directions and increase the DNA allele difference, attaining a 4delta reduction. If the limiting coordinate were DeltaT, use the analogous DNA/FACS perturbations. At equality a limiting coordinate can be exactly zero, so strict reversal is not guaranteed. Sharing DNA between the two coordinates does not defeat this argument: one failed strict coordinate suffices. This is a deterministic conditional statement, not a calibrated biological uncertainty radius.
+
+For the observed pair, m/4 is exactly 8361766580791/2251799813685248, approximately 0.003713370313814135 natural-log units. No evidence supplied here estimates actual source error below that radius. A different constrained error family, positive correlation restriction or persistent source correction could have a different radius; none is inferred from this calculation.
+
+Eleven fresh invented checks cover the 128-record quantifier, immutable orientation reversal, same-direction fields, mutually opposite map orientations, exact zero and an arbitrarily small contrary case, three sides of the m/4 boundary, common assay offsets and the variant-specific-control denominator counterexample. In particular, zR=zF=0 and zD=-1 passes the positive reversal predicate while the two assay-specific numerator differences are zero. The observed source-normalized RNA numerator differences are also negative; the more-negative DNA differences create the positive RNA/DNA ranking. The result is not normalization-independent physical RNA/protein antagonism.
+
+Within each represented scenario, the strict opposing ranks exclude a common nondecreasing mapping from the represented RNA-normalized quantity to the oriented low-bin proxy for that pair. This elementary monotonicity implication does not identify a productive translation rate, mean protein amount, fitness trade-off, compensation or an evolutionary path. Failure to certify any other pair does not establish monotone representability or zero biology. Unknown haplotypes/products, source ascertainment, RF filtering, negative-control subtraction, first-depth normalization and shared denominators remain conditioned assumptions. No raw normalization was repeated and no predictor was fitted.
+
+The inspected originating-paper audit already establishes broad cross-layer discordance and site-specific signatures. The narrowly additional object is a complete alternative-versus-alternative inventory with a fixed pair/direction universal over the declared maps/preparations. This reviewer did not repeat the literature search and makes no absolute novelty claim. The existing failed frozen prediction criterion remains unchanged; this local result does not rescue it. This review is independently authored arithmetic with inherited project context and prior knowledge of the reported summary, not blind external review or independent biological replication.
+
+All frozen files and input hashes are unchanged. `run_v1/verification.json` retains exact counts, source pins, complete site summaries and the named pair. No source tables, new outcomes or alternative normalization/model definitions were accessed.

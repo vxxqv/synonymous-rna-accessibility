@@ -1,0 +1,15 @@
+{
+  "source_sha256": "01136e43574d5d0e0e3b8bb649dc48cd5ac9dbe034ce3b9c6d79096c278b4727",
+  "exporter_sha256": "3442acf8025e7ed76dee25f29f1ec6aa18da55397c2ad375016dc57dfe61457d",
+  "scientific_recalculation": false,
+  "rows": {
+    "all_134_pairs.csv": 134,
+    "all_sites.csv": 53,
+    "SNV_sites.csv": 52
+  },
+  "files": {
+    "all_134_pairs.csv": "e088ad971c965b7abbbfdaf8d26dfd85cfdce65d9dde9d139440b31dcd3ff7e6",
+    "all_sites.csv": "0fec58522791485c788de3f3d9365b483602c123a51d26dbdbbdddae4a71f4d6",
+    "SNV_sites.csv": "379f927b30122c0f266de4b8d7bed006942e4f14fc2d4b13274beabb924790cd"
+  }
+}

@@ -1,0 +1,618 @@
+[
+  {
+    "file": "author_K562_cDNA_edit_counts.xlsx",
+    "sheet": "Tabelle1",
+    "first_row_text_only": [
+      {
+        "column": 1,
+        "text": "[MASKED_NONSTRING_OR_FORMULA]"
+      },
+      {
+        "column": 2,
+        "text": "[MASKED_NONSTRING_OR_FORMULA]"
+      },
+      {
+        "column": 3,
+        "text": "[MASKED_NONSTRING_OR_FORMULA]"
+      },
+      {
+        "column": 4,
+        "text": "K562_cDNA_45d_1"
+      },
+      {
+        "column": 5,
+        "text": "RPM(K562_cDNA_45d_1)"
+      },
+      {
+        "column": 6,
+        "text": "K562_cDNA_45d_2"
+      },
+      {
+        "column": 7,
+        "text": "RPM(K562_cDNA_45d_2)"
+      },
+      {
+        "column": 8,
+        "text": "K562_cDNA_45d_3"
+      },
+      {
+        "column": 9,
+        "text": "RPM(K562_cDNA_45d_3)"
+      }
+    ],
+    "data_rows_read": false,
+    "outcome_missingness_read": false
+  },
+  {
+    "file": "author_K562_gDNA_edit_counts.xlsx",
+    "sheet": "K562 with marker edited cells",
+    "first_row_text_only": [
+      {
+        "column": 1,
+        "text": "[MASKED_NONSTRING_OR_FORMULA]"
+      },
+      {
+        "column": 2,
+        "text": "[MASKED_NONSTRING_OR_FORMULA]"
+      },
+      {
+        "column": 3,
+        "text": "[MASKED_NONSTRING_OR_FORMULA]"
+      },
+      {
+        "column": 4,
+        "text": "K562_gDNA_d45_1"
+      },
+      {
+        "column": 5,
+        "text": "RPM(K562_gDNA_d45_1)"
+      },
+      {
+        "column": 6,
+        "text": "K562_gDNA_d45_2"
+      },
+      {
+        "column": 7,
+        "text": "RPM(K562_gDNA_d45_2)"
+      },
+      {
+        "column": 8,
+        "text": "K562_gDNA_d45_3"
+      },
+      {
+        "column": 9,
+        "text": "RPM(K562_gDNA_d45_3)"
+      }
+    ],
+    "data_rows_read": false,
+    "outcome_missingness_read": false
+  },
+  {
+    "file": "author_K562_gDNA_edit_counts.xlsx",
+    "sheet": "K562 with marker unedited cells",
+    "first_row_text_only": [
+      {
+        "column": 1,
+        "text": "[MASKED_NONSTRING_OR_FORMULA]"
+      },
+      {
+        "column": 2,
+        "text": "[MASKED_NONSTRING_OR_FORMULA]"
+      },
+      {
+        "column": 3,
+        "text": "[MASKED_NONSTRING_OR_FORMULA]"
+      },
+      {
+        "column": 4,
+        "text": "K562_unedited_gDNA_1"
+      },
+      {
+        "column": 5,
+        "text": "RPM(K562_unedited_gDNA_1)"
+      },
+      {
+        "column": 6,
+        "text": "K562_unedited_gDNA_2"
+      },
+      {
+        "column": 7,
+        "text": "RPM(K562_unedited_gDNA_2)"
+      },
+      {
+        "column": 8,
+        "text": "K562_unedited_gDNA_3"
+      },
+      {
+        "column": 9,
+        "text": "RPM(K562_unedited_gDNA_3)"
+      }
+    ],
+    "data_rows_read": false,
+    "outcome_missingness_read": false
+  },
+  {
+    "file": "author_K562_gDNA_edit_counts.xlsx",
+    "sheet": "K562 without marker edited cell",
+    "first_row_text_only": [
+      {
+        "column": 1,
+        "text": "[MASKED_NONSTRING_OR_FORMULA]"
+      },
+      {
+        "column": 2,
+        "text": "[MASKED_NONSTRING_OR_FORMULA]"
+      },
+      {
+        "column": 3,
+        "text": "[MASKED_NONSTRING_OR_FORMULA]"
+      },
+      {
+        "column": 4,
+        "text": "K562_gDNA_d45_1"
+      },
+      {
+        "column": 5,
+        "text": "RPM(K562_gDNA_d45_1)"
+      },
+      {
+        "column": 6,
+        "text": "K562_gDNA_d45_2"
+      },
+      {
+        "column": 7,
+        "text": "RPM(K562_gDNA_d45_2)"
+      },
+      {
+        "column": 8,
+        "text": "K562_gDNA_d45_3"
+      },
+      {
+        "column": 9,
+        "text": "RPM(K562_gDNA_d45_3)"
+      }
+    ],
+    "data_rows_read": false,
+    "outcome_missingness_read": false
+  },
+  {
+    "file": "author_K562_gDNA_edit_counts.xlsx",
+    "sheet": "K562 without marker unedited ce",
+    "first_row_text_only": [
+      {
+        "column": 1,
+        "text": "[MASKED_NONSTRING_OR_FORMULA]"
+      },
+      {
+        "column": 2,
+        "text": "[MASKED_NONSTRING_OR_FORMULA]"
+      },
+      {
+        "column": 3,
+        "text": "[MASKED_NONSTRING_OR_FORMULA]"
+      },
+      {
+        "column": 4,
+        "text": "K562_unedited_gDNA_1"
+      },
+      {
+        "column": 5,
+        "text": "RPM(K562_unedited_gDNA_1)"
+      },
+      {
+        "column": 6,
+        "text": "K562_unedited_gDNA_2"
+      },
+      {
+        "column": 7,
+        "text": "RPM(K562_unedited_gDNA_2)"
+      },
+      {
+        "column": 8,
+        "text": "K562_unedited_gDNA_3"
+      },
+      {
+        "column": 9,
+        "text": "RPM(K562_unedited_gDNA_3)"
+      }
+    ],
+    "data_rows_read": false,
+    "outcome_missingness_read": false
+  },
+  {
+    "file": "author_K562_gDNA_edit_counts.xlsx",
+    "sheet": "K562 WT edited cells",
+    "first_row_text_only": [
+      {
+        "column": 1,
+        "text": "[MASKED_NONSTRING_OR_FORMULA]"
+      },
+      {
+        "column": 2,
+        "text": "[MASKED_NONSTRING_OR_FORMULA]"
+      },
+      {
+        "column": 3,
+        "text": "[MASKED_NONSTRING_OR_FORMULA]"
+      },
+      {
+        "column": 4,
+        "text": "K562_gDNA_d45_1"
+      },
+      {
+        "column": 5,
+        "text": "RPM(K562_gDNA_d45_1)"
+      },
+      {
+        "column": 6,
+        "text": "K562_gDNA_d45_2"
+      },
+      {
+        "column": 7,
+        "text": "RPM(K562_gDNA_d45_2)"
+      },
+      {
+        "column": 8,
+        "text": "K562_gDNA_d45_3"
+      },
+      {
+        "column": 9,
+        "text": "RPM(K562_gDNA_d45_3)"
+      }
+    ],
+    "data_rows_read": false,
+    "outcome_missingness_read": false
+  },
+  {
+    "file": "author_K562_gDNA_edit_counts.xlsx",
+    "sheet": "K562 WT unedited cells",
+    "first_row_text_only": [
+      {
+        "column": 1,
+        "text": "[MASKED_NONSTRING_OR_FORMULA]"
+      },
+      {
+        "column": 2,
+        "text": "[MASKED_NONSTRING_OR_FORMULA]"
+      },
+      {
+        "column": 3,
+        "text": "[MASKED_NONSTRING_OR_FORMULA]"
+      },
+      {
+        "column": 4,
+        "text": "K562_unedited_gDNA_1"
+      },
+      {
+        "column": 5,
+        "text": "RPM(K562_unedited_gDNA_1)"
+      },
+      {
+        "column": 6,
+        "text": "K562_unedited_gDNA_2"
+      },
+      {
+        "column": 7,
+        "text": "RPM(K562_unedited_gDNA_2)"
+      },
+      {
+        "column": 8,
+        "text": "K562_unedited_gDNA_3"
+      },
+      {
+        "column": 9,
+        "text": "RPM(K562_unedited_gDNA_3)"
+      }
+    ],
+    "data_rows_read": false,
+    "outcome_missingness_read": false
+  },
+  {
+    "file": "author_KBM7_cDNA_edit_counts.xlsx",
+    "sheet": "Tabelle1",
+    "first_row_text_only": [
+      {
+        "column": 1,
+        "text": "[MASKED_NONSTRING_OR_FORMULA]"
+      },
+      {
+        "column": 2,
+        "text": "[MASKED_NONSTRING_OR_FORMULA]"
+      },
+      {
+        "column": 3,
+        "text": "[MASKED_NONSTRING_OR_FORMULA]"
+      },
+      {
+        "column": 4,
+        "text": "KBM7_cDNA_21d_1"
+      },
+      {
+        "column": 5,
+        "text": "RPM(KBM7_cDNA_21d_1)"
+      },
+      {
+        "column": 6,
+        "text": "KBM7_cDNA_21d_2"
+      },
+      {
+        "column": 7,
+        "text": "RPM(KBM7_cDNA_21d_2)"
+      },
+      {
+        "column": 8,
+        "text": "KBM7_cDNA_21d_3"
+      },
+      {
+        "column": 9,
+        "text": "RPM(KBM7_cDNA_21d_3)"
+      }
+    ],
+    "data_rows_read": false,
+    "outcome_missingness_read": false
+  },
+  {
+    "file": "author_KBM7_gDNA_edit_counts.xlsx",
+    "sheet": "KBM7 with marker edited cells",
+    "first_row_text_only": [
+      {
+        "column": 1,
+        "text": "[MASKED_NONSTRING_OR_FORMULA]"
+      },
+      {
+        "column": 2,
+        "text": "[MASKED_NONSTRING_OR_FORMULA]"
+      },
+      {
+        "column": 3,
+        "text": "[MASKED_NONSTRING_OR_FORMULA]"
+      },
+      {
+        "column": 4,
+        "text": "KBM7_gDNA_21d_1"
+      },
+      {
+        "column": 5,
+        "text": "RPM(KBM7_gDNA_21d_1)"
+      },
+      {
+        "column": 6,
+        "text": "KBM7_gDNA_21d_2"
+      },
+      {
+        "column": 7,
+        "text": "RPM(KBM7_gDNA_21d_2)"
+      },
+      {
+        "column": 8,
+        "text": "KBM7_gDNA_21d_3"
+      },
+      {
+        "column": 9,
+        "text": "RPM(KBM7_gDNA_21d_3)"
+      }
+    ],
+    "data_rows_read": false,
+    "outcome_missingness_read": false
+  },
+  {
+    "file": "author_KBM7_gDNA_edit_counts.xlsx",
+    "sheet": "KBM7 with marker unedited cells",
+    "first_row_text_only": [
+      {
+        "column": 1,
+        "text": "[MASKED_NONSTRING_OR_FORMULA]"
+      },
+      {
+        "column": 2,
+        "text": "[MASKED_NONSTRING_OR_FORMULA]"
+      },
+      {
+        "column": 3,
+        "text": "[MASKED_NONSTRING_OR_FORMULA]"
+      },
+      {
+        "column": 4,
+        "text": "KBM7_unedited_gDNA_1"
+      },
+      {
+        "column": 5,
+        "text": "RPM(KBM7_unedited_gDNA_1)"
+      },
+      {
+        "column": 6,
+        "text": "KBM7_unedited_gDNA_2"
+      },
+      {
+        "column": 7,
+        "text": "RPM(KBM7_unedited_gDNA_2)"
+      },
+      {
+        "column": 8,
+        "text": "KBM7_unedited_gDNA_3"
+      },
+      {
+        "column": 9,
+        "text": "RPM(KBM7_unedited_gDNA_3)"
+      }
+    ],
+    "data_rows_read": false,
+    "outcome_missingness_read": false
+  },
+  {
+    "file": "author_KBM7_gDNA_edit_counts.xlsx",
+    "sheet": "KBM7 without marker edited cell",
+    "first_row_text_only": [
+      {
+        "column": 1,
+        "text": "[MASKED_NONSTRING_OR_FORMULA]"
+      },
+      {
+        "column": 2,
+        "text": "[MASKED_NONSTRING_OR_FORMULA]"
+      },
+      {
+        "column": 3,
+        "text": "[MASKED_NONSTRING_OR_FORMULA]"
+      },
+      {
+        "column": 4,
+        "text": "KBM7_gDNA_21d_1"
+      },
+      {
+        "column": 5,
+        "text": "RPM(KBM7_gDNA_21d_1)"
+      },
+      {
+        "column": 6,
+        "text": "KBM7_gDNA_21d_3"
+      },
+      {
+        "column": 7,
+        "text": "RPM(KBM7_gDNA_21d_2)"
+      },
+      {
+        "column": 8,
+        "text": "KBM7_gDNA_21d_3"
+      },
+      {
+        "column": 9,
+        "text": "RPM(KBM7_gDNA_21d_3)"
+      }
+    ],
+    "data_rows_read": false,
+    "outcome_missingness_read": false
+  },
+  {
+    "file": "author_KBM7_gDNA_edit_counts.xlsx",
+    "sheet": "KBM7 without marker unedited ce",
+    "first_row_text_only": [
+      {
+        "column": 1,
+        "text": "[MASKED_NONSTRING_OR_FORMULA]"
+      },
+      {
+        "column": 2,
+        "text": "[MASKED_NONSTRING_OR_FORMULA]"
+      },
+      {
+        "column": 3,
+        "text": "[MASKED_NONSTRING_OR_FORMULA]"
+      },
+      {
+        "column": 4,
+        "text": "KBM7_unedited_gDNA_1"
+      },
+      {
+        "column": 5,
+        "text": "RPM(KBM7_unedited_gDNA_1)"
+      },
+      {
+        "column": 6,
+        "text": "KBM7_unedited_gDNA_2"
+      },
+      {
+        "column": 7,
+        "text": "RPM(KBM7_unedited_gDNA_2)"
+      },
+      {
+        "column": 8,
+        "text": "KBM7_unedited_gDNA_3"
+      },
+      {
+        "column": 9,
+        "text": "RPM(KBM7_unedited_gDNA_3)"
+      }
+    ],
+    "data_rows_read": false,
+    "outcome_missingness_read": false
+  },
+  {
+    "file": "author_KBM7_gDNA_edit_counts.xlsx",
+    "sheet": "KBM7 WT edited cells",
+    "first_row_text_only": [
+      {
+        "column": 1,
+        "text": "[MASKED_NONSTRING_OR_FORMULA]"
+      },
+      {
+        "column": 2,
+        "text": "[MASKED_NONSTRING_OR_FORMULA]"
+      },
+      {
+        "column": 3,
+        "text": "[MASKED_NONSTRING_OR_FORMULA]"
+      },
+      {
+        "column": 4,
+        "text": "KBM7_gDNA_21d_1"
+      },
+      {
+        "column": 5,
+        "text": "RPM(KBM7_gDNA_21d_1)"
+      },
+      {
+        "column": 6,
+        "text": "KBM7_gDNA_21d_2"
+      },
+      {
+        "column": 7,
+        "text": "RPM(KBM7_gDNA_21d_2)"
+      },
+      {
+        "column": 8,
+        "text": "KBM7_gDNA_21d_3"
+      },
+      {
+        "column": 9,
+        "text": "RPM(KBM7_gDNA_21d_3)"
+      }
+    ],
+    "data_rows_read": false,
+    "outcome_missingness_read": false
+  },
+  {
+    "file": "author_KBM7_gDNA_edit_counts.xlsx",
+    "sheet": "KBM7 WT unedited cells",
+    "first_row_text_only": [
+      {
+        "column": 1,
+        "text": "[MASKED_NONSTRING_OR_FORMULA]"
+      },
+      {
+        "column": 2,
+        "text": "[MASKED_NONSTRING_OR_FORMULA]"
+      },
+      {
+        "column": 3,
+        "text": "[MASKED_NONSTRING_OR_FORMULA]"
+      },
+      {
+        "column": 4,
+        "text": "KBM7_unedited_gDNA_1"
+      },
+      {
+        "column": 5,
+        "text": "RPM(KBM7_unedited_gDNA_1)"
+      },
+      {
+        "column": 6,
+        "text": "KBM7_unedited_gDNA_2"
+      },
+      {
+        "column": 7,
+        "text": "RPM(KBM7_unedited_gDNA_2)"
+      },
+      {
+        "column": 8,
+        "text": "KBM7_unedited_gDNA_3"
+      },
+      {
+        "column": 9,
+        "text": "RPM(KBM7_unedited_gDNA_3)"
+      }
+    ],
+    "data_rows_read": false,
+    "outcome_missingness_read": false
+  }
+]

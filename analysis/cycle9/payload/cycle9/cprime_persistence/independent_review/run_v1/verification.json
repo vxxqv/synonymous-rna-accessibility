@@ -1,0 +1,590 @@
+{
+  "status": "PASS_EXACT_INDEPENDENT_RECONSTRUCTION",
+  "profiles": 60,
+  "targets": 30,
+  "source_rows_checked": 396,
+  "assignments_checked": 720,
+  "folds_checked": 2160,
+  "paired_cell": {
+    "universal_three": {
+      "neither": 24,
+      "K562_only": 4,
+      "KBM7_only": 0,
+      "both": 2
+    },
+    "universal_any": {
+      "neither": 6,
+      "K562_only": 5,
+      "KBM7_only": 3,
+      "both": 16
+    },
+    "assignment_dependent": {
+      "neither": 12,
+      "K562_only": 5,
+      "KBM7_only": 8,
+      "both": 5
+    },
+    "no_twofold": {
+      "neither": 21,
+      "K562_only": 3,
+      "KBM7_only": 2,
+      "both": 4
+    },
+    "equality_excluded": {
+      "neither": 16,
+      "K562_only": 6,
+      "KBM7_only": 3,
+      "both": 5
+    },
+    "continuous_twofold": {
+      "neither": 25,
+      "K562_only": 3,
+      "KBM7_only": 0,
+      "both": 2
+    }
+  },
+  "by_exon": [
+    {
+      "exon": 17,
+      "profiles": 24,
+      "targets": 12,
+      "profile_totals": {
+        "universal_three": 5,
+        "universal_any": 15,
+        "assignment_dependent": 12,
+        "no_twofold": 6,
+        "equality_excluded": 7,
+        "continuous_twofold": 4
+      },
+      "paired_cell": {
+        "universal_three": {
+          "neither": 8,
+          "K562_only": 3,
+          "KBM7_only": 0,
+          "both": 1
+        },
+        "universal_any": {
+          "neither": 3,
+          "K562_only": 3,
+          "KBM7_only": 0,
+          "both": 6
+        },
+        "assignment_dependent": {
+          "neither": 3,
+          "K562_only": 3,
+          "KBM7_only": 3,
+          "both": 3
+        },
+        "no_twofold": {
+          "neither": 8,
+          "K562_only": 0,
+          "KBM7_only": 2,
+          "both": 2
+        },
+        "equality_excluded": {
+          "neither": 7,
+          "K562_only": 3,
+          "KBM7_only": 0,
+          "both": 2
+        },
+        "continuous_twofold": {
+          "neither": 9,
+          "K562_only": 2,
+          "KBM7_only": 0,
+          "both": 1
+        }
+      }
+    },
+    {
+      "exon": 25,
+      "profiles": 4,
+      "targets": 2,
+      "profile_totals": {
+        "universal_three": 0,
+        "universal_any": 3,
+        "assignment_dependent": 0,
+        "no_twofold": 1,
+        "equality_excluded": 1,
+        "continuous_twofold": 0
+      },
+      "paired_cell": {
+        "universal_three": {
+          "neither": 2,
+          "K562_only": 0,
+          "KBM7_only": 0,
+          "both": 0
+        },
+        "universal_any": {
+          "neither": 0,
+          "K562_only": 0,
+          "KBM7_only": 1,
+          "both": 1
+        },
+        "assignment_dependent": {
+          "neither": 2,
+          "K562_only": 0,
+          "KBM7_only": 0,
+          "both": 0
+        },
+        "no_twofold": {
+          "neither": 1,
+          "K562_only": 1,
+          "KBM7_only": 0,
+          "both": 0
+        },
+        "equality_excluded": {
+          "neither": 1,
+          "K562_only": 1,
+          "KBM7_only": 0,
+          "both": 0
+        },
+        "continuous_twofold": {
+          "neither": 2,
+          "K562_only": 0,
+          "KBM7_only": 0,
+          "both": 0
+        }
+      }
+    },
+    {
+      "exon": 27,
+      "profiles": 8,
+      "targets": 4,
+      "profile_totals": {
+        "universal_three": 2,
+        "universal_any": 4,
+        "assignment_dependent": 2,
+        "no_twofold": 2,
+        "equality_excluded": 3,
+        "continuous_twofold": 2
+      },
+      "paired_cell": {
+        "universal_three": {
+          "neither": 3,
+          "K562_only": 0,
+          "KBM7_only": 0,
+          "both": 1
+        },
+        "universal_any": {
+          "neither": 1,
+          "K562_only": 1,
+          "KBM7_only": 1,
+          "both": 1
+        },
+        "assignment_dependent": {
+          "neither": 2,
+          "K562_only": 1,
+          "KBM7_only": 1,
+          "both": 0
+        },
+        "no_twofold": {
+          "neither": 3,
+          "K562_only": 0,
+          "KBM7_only": 0,
+          "both": 1
+        },
+        "equality_excluded": {
+          "neither": 2,
+          "K562_only": 0,
+          "KBM7_only": 1,
+          "both": 1
+        },
+        "continuous_twofold": {
+          "neither": 3,
+          "K562_only": 0,
+          "KBM7_only": 0,
+          "both": 1
+        }
+      }
+    },
+    {
+      "exon": 39,
+      "profiles": 8,
+      "targets": 4,
+      "profile_totals": {
+        "universal_three": 1,
+        "universal_any": 7,
+        "assignment_dependent": 5,
+        "no_twofold": 0,
+        "equality_excluded": 3,
+        "continuous_twofold": 1
+      },
+      "paired_cell": {
+        "universal_three": {
+          "neither": 3,
+          "K562_only": 1,
+          "KBM7_only": 0,
+          "both": 0
+        },
+        "universal_any": {
+          "neither": 0,
+          "K562_only": 1,
+          "KBM7_only": 0,
+          "both": 3
+        },
+        "assignment_dependent": {
+          "neither": 0,
+          "K562_only": 0,
+          "KBM7_only": 3,
+          "both": 1
+        },
+        "no_twofold": {
+          "neither": 4,
+          "K562_only": 0,
+          "KBM7_only": 0,
+          "both": 0
+        },
+        "equality_excluded": {
+          "neither": 1,
+          "K562_only": 2,
+          "KBM7_only": 1,
+          "both": 0
+        },
+        "continuous_twofold": {
+          "neither": 3,
+          "K562_only": 1,
+          "KBM7_only": 0,
+          "both": 0
+        }
+      }
+    },
+    {
+      "exon": 42,
+      "profiles": 16,
+      "targets": 8,
+      "profile_totals": {
+        "universal_three": 0,
+        "universal_any": 11,
+        "assignment_dependent": 4,
+        "no_twofold": 4,
+        "equality_excluded": 5,
+        "continuous_twofold": 0
+      },
+      "paired_cell": {
+        "universal_three": {
+          "neither": 8,
+          "K562_only": 0,
+          "KBM7_only": 0,
+          "both": 0
+        },
+        "universal_any": {
+          "neither": 2,
+          "K562_only": 0,
+          "KBM7_only": 1,
+          "both": 5
+        },
+        "assignment_dependent": {
+          "neither": 5,
+          "K562_only": 1,
+          "KBM7_only": 1,
+          "both": 1
+        },
+        "no_twofold": {
+          "neither": 5,
+          "K562_only": 2,
+          "KBM7_only": 0,
+          "both": 1
+        },
+        "equality_excluded": {
+          "neither": 5,
+          "K562_only": 0,
+          "KBM7_only": 1,
+          "both": 2
+        },
+        "continuous_twofold": {
+          "neither": 8,
+          "K562_only": 0,
+          "KBM7_only": 0,
+          "both": 0
+        }
+      }
+    }
+  ],
+  "all_leave_one_exon_out": [
+    {
+      "omitted_exon": 17,
+      "remaining_targets": 18,
+      "profile_totals": {
+        "universal_three": 3,
+        "universal_any": 25,
+        "assignment_dependent": 11,
+        "no_twofold": 7,
+        "equality_excluded": 12,
+        "continuous_twofold": 3
+      },
+      "paired_cell": {
+        "universal_three": {
+          "neither": 16,
+          "K562_only": 1,
+          "KBM7_only": 0,
+          "both": 1
+        },
+        "universal_any": {
+          "neither": 3,
+          "K562_only": 2,
+          "KBM7_only": 3,
+          "both": 10
+        },
+        "assignment_dependent": {
+          "neither": 9,
+          "K562_only": 2,
+          "KBM7_only": 5,
+          "both": 2
+        },
+        "no_twofold": {
+          "neither": 13,
+          "K562_only": 3,
+          "KBM7_only": 0,
+          "both": 2
+        },
+        "equality_excluded": {
+          "neither": 9,
+          "K562_only": 3,
+          "KBM7_only": 3,
+          "both": 3
+        },
+        "continuous_twofold": {
+          "neither": 16,
+          "K562_only": 1,
+          "KBM7_only": 0,
+          "both": 1
+        }
+      }
+    },
+    {
+      "omitted_exon": 25,
+      "remaining_targets": 28,
+      "profile_totals": {
+        "universal_three": 8,
+        "universal_any": 37,
+        "assignment_dependent": 23,
+        "no_twofold": 12,
+        "equality_excluded": 18,
+        "continuous_twofold": 7
+      },
+      "paired_cell": {
+        "universal_three": {
+          "neither": 22,
+          "K562_only": 4,
+          "KBM7_only": 0,
+          "both": 2
+        },
+        "universal_any": {
+          "neither": 6,
+          "K562_only": 5,
+          "KBM7_only": 2,
+          "both": 15
+        },
+        "assignment_dependent": {
+          "neither": 10,
+          "K562_only": 5,
+          "KBM7_only": 8,
+          "both": 5
+        },
+        "no_twofold": {
+          "neither": 20,
+          "K562_only": 2,
+          "KBM7_only": 2,
+          "both": 4
+        },
+        "equality_excluded": {
+          "neither": 15,
+          "K562_only": 5,
+          "KBM7_only": 3,
+          "both": 5
+        },
+        "continuous_twofold": {
+          "neither": 23,
+          "K562_only": 3,
+          "KBM7_only": 0,
+          "both": 2
+        }
+      }
+    },
+    {
+      "omitted_exon": 27,
+      "remaining_targets": 26,
+      "profile_totals": {
+        "universal_three": 6,
+        "universal_any": 36,
+        "assignment_dependent": 21,
+        "no_twofold": 11,
+        "equality_excluded": 16,
+        "continuous_twofold": 5
+      },
+      "paired_cell": {
+        "universal_three": {
+          "neither": 21,
+          "K562_only": 4,
+          "KBM7_only": 0,
+          "both": 1
+        },
+        "universal_any": {
+          "neither": 5,
+          "K562_only": 4,
+          "KBM7_only": 2,
+          "both": 15
+        },
+        "assignment_dependent": {
+          "neither": 10,
+          "K562_only": 4,
+          "KBM7_only": 7,
+          "both": 5
+        },
+        "no_twofold": {
+          "neither": 18,
+          "K562_only": 3,
+          "KBM7_only": 2,
+          "both": 3
+        },
+        "equality_excluded": {
+          "neither": 14,
+          "K562_only": 6,
+          "KBM7_only": 2,
+          "both": 4
+        },
+        "continuous_twofold": {
+          "neither": 22,
+          "K562_only": 3,
+          "KBM7_only": 0,
+          "both": 1
+        }
+      }
+    },
+    {
+      "omitted_exon": 39,
+      "remaining_targets": 26,
+      "profile_totals": {
+        "universal_three": 7,
+        "universal_any": 33,
+        "assignment_dependent": 18,
+        "no_twofold": 13,
+        "equality_excluded": 16,
+        "continuous_twofold": 6
+      },
+      "paired_cell": {
+        "universal_three": {
+          "neither": 21,
+          "K562_only": 3,
+          "KBM7_only": 0,
+          "both": 2
+        },
+        "universal_any": {
+          "neither": 6,
+          "K562_only": 4,
+          "KBM7_only": 3,
+          "both": 13
+        },
+        "assignment_dependent": {
+          "neither": 12,
+          "K562_only": 5,
+          "KBM7_only": 5,
+          "both": 4
+        },
+        "no_twofold": {
+          "neither": 17,
+          "K562_only": 3,
+          "KBM7_only": 2,
+          "both": 4
+        },
+        "equality_excluded": {
+          "neither": 15,
+          "K562_only": 4,
+          "KBM7_only": 2,
+          "both": 5
+        },
+        "continuous_twofold": {
+          "neither": 22,
+          "K562_only": 2,
+          "KBM7_only": 0,
+          "both": 2
+        }
+      }
+    },
+    {
+      "omitted_exon": 42,
+      "remaining_targets": 22,
+      "profile_totals": {
+        "universal_three": 8,
+        "universal_any": 29,
+        "assignment_dependent": 19,
+        "no_twofold": 9,
+        "equality_excluded": 14,
+        "continuous_twofold": 7
+      },
+      "paired_cell": {
+        "universal_three": {
+          "neither": 16,
+          "K562_only": 4,
+          "KBM7_only": 0,
+          "both": 2
+        },
+        "universal_any": {
+          "neither": 4,
+          "K562_only": 5,
+          "KBM7_only": 2,
+          "both": 11
+        },
+        "assignment_dependent": {
+          "neither": 7,
+          "K562_only": 4,
+          "KBM7_only": 7,
+          "both": 4
+        },
+        "no_twofold": {
+          "neither": 16,
+          "K562_only": 1,
+          "KBM7_only": 2,
+          "both": 3
+        },
+        "equality_excluded": {
+          "neither": 11,
+          "K562_only": 6,
+          "KBM7_only": 2,
+          "both": 3
+        },
+        "continuous_twofold": {
+          "neither": 17,
+          "K562_only": 3,
+          "KBM7_only": 0,
+          "both": 2
+        }
+      }
+    }
+  ],
+  "both_cell_universal_three_targets": [
+    "chr17-31225232-A-T",
+    "chr17-31233126-A-G"
+  ],
+  "synthetic_checks": [
+    "full permutation vs fixed first marker 2",
+    "row-order invariance 2",
+    "full permutation vs fixed first marker 3",
+    "row-order invariance 3",
+    "weak exact twofold tie accepted",
+    "exact below two rejected",
+    "exact above two accepted",
+    "discrete robustness does not imply continuous exclusion",
+    "equality tie retained",
+    "four cross-cell quadrants",
+    "missing cell rejected",
+    "duplicate cell rejected",
+    "inconsistent exon rejected",
+    "invalid profile rejected",
+    "invalid profile rejected",
+    "invalid profile rejected",
+    "invalid profile rejected",
+    "independent numerator denominator permutation changes estimand"
+  ],
+  "mismatches": [],
+  "input_hashes_before_after": {
+    "work/research_cycle8/cprime_results/primary_v1/result.json": "eeeb40c167e689ae4266bbe49fdef7c8711163ca426b217adaee14f0b4a6afdf",
+    "work/research_cycle8/cprime_followup/results_v1/result.json": "851bbf75b66dd0186d0b99d7536409773de1afdae5c3ea83c57563655d55308e",
+    "work/research_cycle9/cprime_persistence/protocol.md": "13274dd480f4c36b278370a1dd3907e86473beae0a59e5d0def1a01136fba613",
+    "work/research_cycle9/cprime_persistence/analyze.py": "f99e6d1cb7397c931d7b0b5ac44bfb6d74da824f971de6c1f5a9b4709f1d3aff",
+    "work/research_cycle9/cprime_persistence/results_v1/result.json": "46fdaffece0fdc6d6803d6e492ccec5a301954978fde39b96f04e689d76de6a8"
+  },
+  "reviewer_code_sha256": "65b96cf5594c50a101b8fe429e79d51fbd2298c8b753de3c5d17c34d8f6dfb50",
+  "no_production_import": true,
+  "scope": "Exposed cohort descriptive cross-tabulation; no new source outcomes, no independent biological replication or calibrated confidence."
+}

@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "tests": 18,
+  "failures": 0,
+  "errors": 0,
+  "independent_formulation_random_fields": 200,
+  "biological_inputs_read": false,
+  "source_hashes": {
+    "test_synthetic.py": "0618dff684dd1736b43f4e6dfcca11ed664e963656d4cc3884e71884b2540849",
+    "analyze.py": "ce4c8155886c4025055ddf61dde42936666e2474e1ef6c21b87e2ab398d956ee",
+    "verify.py": "945ef62d2c36e9f124b0da8ca62c7ea5d7be70aa238399a22a5159021adb21cf"
+  }
+}

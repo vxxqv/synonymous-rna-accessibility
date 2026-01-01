@@ -1,0 +1,29 @@
+{
+  "status": "COMPLETE_PRIMARY_CALCULATION_PENDING_FRESH_INDEPENDENT_NUMERICAL_REVIEW",
+  "files": {
+    "three_state_protocol.md": "93feed845877ecbe31ad1297505c13cc9c01fbcd2966d38eff10fb3d4a30e366",
+    "three_state_contract.json": "7b0fc2ee50581f97037248f76d29a3b80667e4c0501b96bc8efb730f988a3f6b",
+    "freeze_v1.json": "19a25138fb7439d4a589148749d955d43eda753ed17f643cb08da1fe7a978185",
+    "authorization_v1.json": "24e6117084fe781601d2cbcaa950b55f872943867eb1d0a2ebc884e2d5281171",
+    "synthetic_receipt_v1.json": "d99b6dc7e66c641eb397610ef67285589b30f429cce11d82a79a0391115bb8aa",
+    "implementation_v1/analyze_three_states.py": "b0b1c9bcd03767c81d818e39c2db7a100ecf13ae59df7b93eec01c944ca8d289",
+    "implementation_v1/test_three_states.py": "405e77dcdac2768cafe0b0446fb35a6525bdeda01d70f0f3f9992e32bd9701e8",
+    "implementation_v1/README.md": "3f2b7c98766d70d360a60c051b597b572b2022ac5dcd5b6a13612151f5825660",
+    "results_v1/result.json": "4976f18c6de32bf13bd23484c8fe226275bd123cba02830523f8feccb9efd9a3",
+    "results_v1/receipt.json": "0165a12cb2fe37872fd6c734a4de7f707b40f00db54d385785c8487e2ed8446f",
+    "results_v1/manifest.json": "12e513119a5a397ccd9f5e58cccd8fda1d42fe9d5e9fe77223d2169aa752e4a2",
+    "results_v1/selected_18_cells.csv": "aa881c2e244df0ca61b70b0e2106311ebaea03916e680f1d670eda6049e19c87",
+    "results_v1/state_ratios_27.csv": "9a4cc3197bed57b8f3e2a8b8cb419abe67b18229f024f293cb197e38d8480614",
+    "results_v1/contrast_quotients_162.csv": "12c1c88a2819ce3721f1d66b75947b451b448faa98d6c905dd5a8e4536b34b2d",
+    "results_v1/joint_completions_729.csv": "e07f85bcf6c5594adea8a36295ad358bc8e795b6c2908012b7669331595ca9d8",
+    "quantitative_provenance_v1.json": "20f24b5206cb9c190ee0c5a05a8615fa7c0d0012fc920a336d95e14783e4b5e4",
+    "execution_integrity_v1.json": "1bcb3c8bc9cf16cbc43ab19ae9260f224898941079c6cb3b24b5cd9543c2c6d2",
+    "exposure_after_execution_v1.json": "9b1d3b3688eb3f70ea97593af2dfadd19fd845532dc6c95f352c25569aa7c39d",
+    "execution_report_v1.md": "a8a9e6f40b6422284f4cd081ffd72ebb608ff78f350601002d5d3128aa22cc85",
+    "execution_command_v1.txt": "3cd3a6d9714eeef2598a4b13af71aa4d42e7b78a902b8527aad056739e3e64b5",
+    "export_execution_v1.py": "e5801beeb0cab7dfc3dac94a00a2e205d5803b705acfa39f6fdd852aa3011357"
+  },
+  "historical_source_audit_manifest_sha256": "74fffe3e6dd6f7fa4dbbc4efb9097bcbda03c39e831b668325b44452465189ee",
+  "source_workbook_sha256": "a3d18aff825b756711de622533cb730c1202e571f86a3b9b2e00edea6b073dd3",
+  "no_whole_source_workbook_or_paper_copied": true
+}

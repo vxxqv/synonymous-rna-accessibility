@@ -1,0 +1,14 @@
+{
+  "status": "PASS_DISTINCT_DIRECT_RECONSTRUCTION",
+  "scope": "Same-author independent arithmetic formulation, not an external biological validation.",
+  "checks": 20665,
+  "joint_cases_verified": 17152,
+  "maximum_exact_discrepancy": "0",
+  "input_hashes": {
+    "input": "5654df32df45840415e483a53127a12744887ac9c6b49a18f0a9387bfa04f083",
+    "result": "01136e43574d5d0e0e3b8bb649dc48cd5ac9dbe034ce3b9c6d79096c278b4727",
+    "inventory": "ec95deb93264402c7d5d0f3782a0583285fdc7799443660348fdc90ffa4920cb",
+    "freeze": "fe45cf19ec3848912ab2d9a714bf794ae35d2beec8b83cdfbba268f6e7f90f0f"
+  },
+  "verifier_sha256": "945ef62d2c36e9f124b0da8ca62c7ea5d7be70aa238399a22a5159021adb21cf"
+}

@@ -1,0 +1,119 @@
+[
+  {
+    "id": "Synonymous_edit_29560036_wo_marker",
+    "label": "K1171K_wo_marker",
+    "search_DNA": "GTTACCACAAAGATCTCCAGACAA",
+    "WT_DNA": "GTTACCACAAGGATCTCCAGACAA",
+    "search_RNA": "GTTACCACAAAGATCTCCAGACAA",
+    "WT_RNA": "GTTACCACAAGGATCTCCAGACAA",
+    "mutation_type": "Synonym"
+  },
+  {
+    "id": "STOP_29560049_wo_marker",
+    "label": "R1176*_wo_marker",
+    "search_DNA": "TCTCCAGACATGAGCTACATTTATGG",
+    "WT_DNA": "TCTCCAGACAAGAGCTACATTTATGG",
+    "search_RNA": "TCTCCAGACATGAGCTACATTTATGG",
+    "WT_RNA": "TCTCCAGACAAGAGCTACATTTATGG",
+    "mutation_type": "Nonsense"
+  },
+  {
+    "id": "P-0038530-T01-IM6_R1204Q_wo_marker",
+    "label": "R1204Q_wo_marker",
+    "search_DNA": "TTGGCTGATCAGTTTGAGAGATTGG",
+    "WT_DNA": "TTGGCTGATCGGTTTGAGAGATTGG",
+    "search_RNA": "TTGGCTGATCAGTTTGAGAGATTGG",
+    "WT_RNA": "TTGGCTGATCGGTTTGAGAGATTGG",
+    "mutation_type": "Missense"
+  },
+  {
+    "id": "Synonymous_edit_29560141_wo_marker",
+    "label": "E1206E_wo_marker",
+    "search_DNA": "ATCGGTTTGAAAGATTGGTGGAAC",
+    "WT_DNA": "ATCGGTTTGAGAGATTGGTGGAAC",
+    "search_RNA": "ATCGGTTTGAAAGATTGGTGGAAC",
+    "WT_RNA": "ATCGGTTTGAGAGATTGGTGGAAC",
+    "mutation_type": "Synonym"
+  },
+  {
+    "id": "P-3897_E1206*_wo_marker",
+    "label": "E1206*_wo_marker",
+    "search_DNA": "TGATCGGTTTTAGAGATTGGTGGAAC",
+    "WT_DNA": "TGATCGGTTTGAGAGATTGGTGGAAC",
+    "search_RNA": "TGATCGGTTTTAGAGATTGGTGGAAC",
+    "WT_RNA": "TGATCGGTTTGAGAGATTGGTGGAAC",
+    "mutation_type": "Nonsense"
+  },
+  {
+    "id": "Synonymous_edit_29560144_wo_marker",
+    "label": "R1207R_wo_marker",
+    "search_DNA": "GGTTTGAGAGGTTGGTGGAACTGG",
+    "WT_DNA": "GGTTTGAGAGATTGGTGGAACTGG",
+    "search_RNA": "GGTTTGAGAGGTTGGTGGAACTGG",
+    "WT_RNA": "GGTTTGAGAGATTGGTGGAACTGG",
+    "mutation_type": "Synoynm"
+  },
+  {
+    "id": "Synonymous_edit_29560144_marker_GtoC",
+    "label": "R1207R_marker_GtoC",
+    "search_DNA": "GGTTTGAGAGGTTCGTGGAACTGG",
+    "WT_DNA": "GGTTTGAGAGATTGGTGGAACTGG",
+    "search_RNA": "GGTTTGAGAGGTTCGTGGAACTGG",
+    "WT_RNA": "GGTTTGAGAGATTGGTGGAACTGG",
+    "mutation_type": "Synoynm"
+  },
+  {
+    "id": "Synonymous_edit_29560144_marker_GtoT",
+    "label": "R1207R_marker_GtoT",
+    "search_DNA": "GGTTTGAGAGGTTAGTGGAACTGG",
+    "WT_DNA": "GGTTTGAGAGATTGGTGGAACTGG",
+    "search_RNA": "GGTTTGAGAGGTTAGTGGAACTGG",
+    "WT_RNA": "GGTTTGAGAGATTGGTGGAACTGG",
+    "mutation_type": "Synoynm"
+  },
+  {
+    "id": "Synonymous_edit_29560144_wo_intended_edit",
+    "label": "R1207R_wo_intended_edit",
+    "search_DNA": "GGTTTGAGAGATTAGTGGAACTGG",
+    "WT_DNA": "GGTTTGAGAGATTGGTGGAACTGG",
+    "search_RNA": "GGTTTGAGAGATTAGTGGAACTGG",
+    "WT_RNA": "GGTTTGAGAGATTGGTGGAACTGG",
+    "mutation_type": "Synoynm"
+  },
+  {
+    "id": "TCGA-RD-A8N1-01_D1217E_wo_marker",
+    "label": "D1217E_wo_marker",
+    "search_DNA": "TGATGGGTGAGCAAGGAGAACTCC",
+    "WT_DNA": "TGATGGGTGATCAAGGAGAACTCC",
+    "search_RNA": "TGATGGGTGAGCAAGGAGAACTCC",
+    "WT_RNA": "TGATGGGTGATCAAGGAGAACTCC",
+    "mutation_type": "Missense"
+  },
+  {
+    "id": "Sample82_D1217N_wo_marker",
+    "label": "D1217N_wo_marker",
+    "search_DNA": "AATGATGGGTAATCAAGGAGAACTCC",
+    "WT_DNA": "AATGATGGGTGATCAAGGAGAACTCC",
+    "search_RNA": "AATGATGGGTAATCAAGGAGAACTCC",
+    "WT_RNA": "AATGATGGGTGATCAAGGAGAACTCC",
+    "mutation_type": "Missense"
+  },
+  {
+    "id": "SD7357_Q1218*_wo_marker",
+    "label": "Q1218*_wo_marker",
+    "search_DNA": "GATGGGTGATTAAGGAGAACTCCCTA",
+    "WT_DNA": "GATGGGTGATCAAGGAGAACTCCCTA",
+    "search_RNA": "GATGGGTGATTAAGGAGAACTCCCTA",
+    "WT_RNA": "GATGGGTGATCAAGGAGAACTCCCTA",
+    "mutation_type": "Nonsense"
+  },
+  {
+    "id": "TCGA-EB-A3Y7-01_P1232A_wo_marker",
+    "label": "P1232A_wo_marker",
+    "search_DNA": "CAATGTGGTTGCTTGTTCTCAGTGGG",
+    "WT_DNA": "CAATGTGGTTCCTTGTTCTCAGTGGG",
+    "search_RNA": "CAATGTGGTTGCTTGTTCTCAGTGG",
+    "WT_RNA": "CAATGTGGTTCCTTGTTCTCAGTGG",
+    "mutation_type": "Missense"
+  }
+]

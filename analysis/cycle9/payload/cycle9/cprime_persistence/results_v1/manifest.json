@@ -1,0 +1,13 @@
+{
+  "protocol_sha256": "13274dd480f4c36b278370a1dd3907e86473beae0a59e5d0def1a01136fba613",
+  "code_sha256": "f99e6d1cb7397c931d7b0b5ac44bfb6d74da824f971de6c1f5a9b4709f1d3aff",
+  "input_sha256": "851bbf75b66dd0186d0b99d7536409773de1afdae5c3ea83c57563655d55308e",
+  "primary_metadata_sha256": "eeeb40c167e689ae4266bbe49fdef7c8711163ca426b217adaee14f0b4a6afdf",
+  "result_sha256": "46fdaffece0fdc6d6803d6e492ccec5a301954978fde39b96f04e689d76de6a8",
+  "synthetic": {
+    "status": "PASS",
+    "paired_cell_quadrants": 4,
+    "invalid_join_guards": 3,
+    "exact_threshold_checks": 2
+  }
+}

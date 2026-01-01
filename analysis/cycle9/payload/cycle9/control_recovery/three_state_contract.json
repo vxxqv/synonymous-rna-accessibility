@@ -1,0 +1,554 @@
+{
+  "status": "QUALIFIED_DESCRIPTIVE_CONTRACT_READY_NUMERIC_ACCESS_CLOSED",
+  "workbook_path": "C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\work\\research_cycle8\\cprime_gate\\supp_Supplementary Data 6.xlsx",
+  "workbook_sha256": "a3d18aff825b756711de622533cb730c1202e571f86a3b9b2e00edea6b073dd3",
+  "official_container_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC13675207.1/41467_2026_78344_MOESM3_ESM.zip",
+  "official_container_sha256": "a88a9850874d0ef21478406c6e7c9e437dc7fe7f29ece32c84033efe8940a614",
+  "official_member": "Supplementary Data 1-9/Supplementary Data 6.xlsx",
+  "sheet": "validation K562",
+  "header_schema": {
+    "C": "Paper_name",
+    "F": "K562_gDNA_1_RPM",
+    "G": "K562_gDNA_2_RPM",
+    "H": "K562_gDNA_3_RPM",
+    "I": "K562_cDNA_1_RPM",
+    "J": "K562_cDNA_2_RPM",
+    "K": "K562_cDNA_3_RPM"
+  },
+  "state_metadata": {
+    "edit_only": {
+      "source_id": "Synonymous_edit_29560144_wo_marker",
+      "paper_label": "R1207R_(A/G)TTG",
+      "sheet": "validation K562",
+      "row": 16,
+      "label_cell": "C16",
+      "gDNA_RPM_cells": [
+        "F16",
+        "G16",
+        "H16"
+      ],
+      "cDNA_RPM_cells": [
+        "I16",
+        "J16",
+        "K16"
+      ],
+      "local_DNA_search_word": "GGTTTGAGAGGTTGGTGGAACTGG",
+      "local_cDNA_search_word": "GGTTTGAGAGGTTGGTGGAACTGG",
+      "local_WT_reference_word": "GGTTTGAGAGATTGGTGGAACTGG",
+      "local_1based_differences": [
+        {
+          "position": 11,
+          "reference": "A",
+          "state": "G"
+        }
+      ],
+      "source_run_metadata": [
+        {
+          "run_accession": "SRR33382982",
+          "sample_accession": "SAMN48211632",
+          "sample_alias": "",
+          "experiment_alias": "K562_wo_marker R1207R_(A/G)TTG_cDNA_1",
+          "library_name": "K562_wo_marker R1207R_(A/G)TTG_cDNA_1",
+          "library_strategy": "AMPLICON",
+          "library_source": "TRANSCRIPTOMIC",
+          "sample_title": "",
+          "metadata_modality": "cDNA",
+          "source_replicate_label": 1
+        },
+        {
+          "run_accession": "SRR33382981",
+          "sample_accession": "SAMN48211633",
+          "sample_alias": "",
+          "experiment_alias": "K562_wo_marker R1207R_(A/G)TTG_cDNA_2",
+          "library_name": "K562_wo_marker R1207R_(A/G)TTG_cDNA_2",
+          "library_strategy": "AMPLICON",
+          "library_source": "TRANSCRIPTOMIC",
+          "sample_title": "",
+          "metadata_modality": "cDNA",
+          "source_replicate_label": 2
+        },
+        {
+          "run_accession": "SRR33382979",
+          "sample_accession": "SAMN48211634",
+          "sample_alias": "",
+          "experiment_alias": "K562_wo_marker R1207R_(A/G)TTG_cDNA_3",
+          "library_name": "K562_wo_marker R1207R_(A/G)TTG_cDNA_3",
+          "library_strategy": "AMPLICON",
+          "library_source": "TRANSCRIPTOMIC",
+          "sample_title": "",
+          "metadata_modality": "cDNA",
+          "source_replicate_label": 3
+        },
+        {
+          "run_accession": "SRR33383008",
+          "sample_accession": "SAMN48211584",
+          "sample_alias": "",
+          "experiment_alias": "K562_wo_marker R1207R_(A/G)TTG_gDNA_1",
+          "library_name": "K562_wo_marker R1207R_(A/G)TTG_gDNA_1",
+          "library_strategy": "AMPLICON",
+          "library_source": "GENOMIC",
+          "sample_title": "",
+          "metadata_modality": "gDNA",
+          "source_replicate_label": 1
+        },
+        {
+          "run_accession": "SRR33383007",
+          "sample_accession": "SAMN48211585",
+          "sample_alias": "",
+          "experiment_alias": "K562_wo_marker R1207R_(A/G)TTG_gDNA_2",
+          "library_name": "K562_wo_marker R1207R_(A/G)TTG_gDNA_2",
+          "library_strategy": "AMPLICON",
+          "library_source": "GENOMIC",
+          "sample_title": "",
+          "metadata_modality": "gDNA",
+          "source_replicate_label": 2
+        },
+        {
+          "run_accession": "SRR33383006",
+          "sample_accession": "SAMN48211586",
+          "sample_alias": "",
+          "experiment_alias": "K562_wo_marker R1207R_(A/G)TTG_gDNA_3",
+          "library_name": "K562_wo_marker R1207R_(A/G)TTG_gDNA_3",
+          "library_strategy": "AMPLICON",
+          "library_source": "GENOMIC",
+          "sample_title": "",
+          "metadata_modality": "gDNA",
+          "source_replicate_label": 3
+        }
+      ]
+    },
+    "marker_only": {
+      "source_id": "Synonymous_edit_29560144_wo_intended_edit",
+      "paper_label": "R1207R_ATT(G/A)",
+      "sheet": "validation K562",
+      "row": 15,
+      "label_cell": "C15",
+      "gDNA_RPM_cells": [
+        "F15",
+        "G15",
+        "H15"
+      ],
+      "cDNA_RPM_cells": [
+        "I15",
+        "J15",
+        "K15"
+      ],
+      "local_DNA_search_word": "GGTTTGAGAGATTAGTGGAACTGG",
+      "local_cDNA_search_word": "GGTTTGAGAGATTAGTGGAACTGG",
+      "local_WT_reference_word": "GGTTTGAGAGATTGGTGGAACTGG",
+      "local_1based_differences": [
+        {
+          "position": 14,
+          "reference": "G",
+          "state": "A"
+        }
+      ],
+      "source_run_metadata": [
+        {
+          "run_accession": "SRR33382825",
+          "sample_accession": "SAMN48211623",
+          "sample_alias": "",
+          "experiment_alias": "K562_wo_edit cDNA_R1207R_ATT(G/A)_1",
+          "library_name": "K562_wo_edit cDNA_R1207R_ATT(G/A)_1",
+          "library_strategy": "AMPLICON",
+          "library_source": "TRANSCRIPTOMIC",
+          "sample_title": "",
+          "metadata_modality": "cDNA",
+          "source_replicate_label": 1
+        },
+        {
+          "run_accession": "SRR33382990",
+          "sample_accession": "SAMN48211624",
+          "sample_alias": "",
+          "experiment_alias": "K562_wo_edit cDNA_R1207R_ATT(G/A)_2",
+          "library_name": "K562_wo_edit cDNA_R1207R_ATT(G/A)_2",
+          "library_strategy": "AMPLICON",
+          "library_source": "TRANSCRIPTOMIC",
+          "sample_title": "",
+          "metadata_modality": "cDNA",
+          "source_replicate_label": 2
+        },
+        {
+          "run_accession": "SRR33382989",
+          "sample_accession": "SAMN48211625",
+          "sample_alias": "",
+          "experiment_alias": "K562_wo_edit cDNA_R1207R_ATT(G/A)_3",
+          "library_name": "K562_wo_edit cDNA_R1207R_ATT(G/A)_3",
+          "library_strategy": "AMPLICON",
+          "library_source": "TRANSCRIPTOMIC",
+          "sample_title": "",
+          "metadata_modality": "cDNA",
+          "source_replicate_label": 3
+        },
+        {
+          "run_accession": "SRR33382759",
+          "sample_accession": "SAMN48211575",
+          "sample_alias": "",
+          "experiment_alias": "K562_wo_edit gDNA_R1207R_ATT(G/A)_1",
+          "library_name": "K562_wo_edit gDNA_R1207R_ATT(G/A)_1",
+          "library_strategy": "AMPLICON",
+          "library_source": "GENOMIC",
+          "sample_title": "",
+          "metadata_modality": "gDNA",
+          "source_replicate_label": 1
+        },
+        {
+          "run_accession": "SRR33382758",
+          "sample_accession": "SAMN48211576",
+          "sample_alias": "",
+          "experiment_alias": "K562_wo_edit gDNA_R1207R_ATT(G/A)_2",
+          "library_name": "K562_wo_edit gDNA_R1207R_ATT(G/A)_2",
+          "library_strategy": "AMPLICON",
+          "library_source": "GENOMIC",
+          "sample_title": "",
+          "metadata_modality": "gDNA",
+          "source_replicate_label": 2
+        },
+        {
+          "run_accession": "SRR33382757",
+          "sample_accession": "SAMN48211577",
+          "sample_alias": "",
+          "experiment_alias": "K562_wo_edit gDNA_R1207R_ATT(G/A)_3",
+          "library_name": "K562_wo_edit gDNA_R1207R_ATT(G/A)_3",
+          "library_strategy": "AMPLICON",
+          "library_source": "GENOMIC",
+          "sample_title": "",
+          "metadata_modality": "gDNA",
+          "source_replicate_label": 3
+        }
+      ]
+    },
+    "combined_A": {
+      "source_id": "Synonymous_edit_29560144",
+      "paper_label": "R1207R_(A/G)TT(G/A)",
+      "sheet": "validation K562",
+      "row": 17,
+      "label_cell": "C17",
+      "gDNA_RPM_cells": [
+        "F17",
+        "G17",
+        "H17"
+      ],
+      "cDNA_RPM_cells": [
+        "I17",
+        "J17",
+        "K17"
+      ],
+      "local_DNA_search_word": "GGTTTGAGAGGTTAGTGGAACTGG",
+      "local_cDNA_search_word": "GGTTTGAGAGGTTAGTGGAACTGG",
+      "local_WT_reference_word": "GGTTTGAGAGATTGGTGGAACTGG",
+      "local_1based_differences": [
+        {
+          "position": 11,
+          "reference": "A",
+          "state": "G"
+        },
+        {
+          "position": 14,
+          "reference": "G",
+          "state": "A"
+        }
+      ],
+      "source_run_metadata": [
+        {
+          "run_accession": "SRR33382985",
+          "sample_accession": "SAMN48211629",
+          "sample_alias": "",
+          "experiment_alias": "K562_marker R1207R_(A/G)TT(G/A)_cDNA_1",
+          "library_name": "K562_marker R1207R_(A/G)TT(G/A)_cDNA_1",
+          "library_strategy": "AMPLICON",
+          "library_source": "TRANSCRIPTOMIC",
+          "sample_title": "",
+          "metadata_modality": "cDNA",
+          "source_replicate_label": 1
+        },
+        {
+          "run_accession": "SRR33382984",
+          "sample_accession": "SAMN48211630",
+          "sample_alias": "",
+          "experiment_alias": "K562_marker R1207R_(A/G)TT(G/A)_cDNA_2",
+          "library_name": "K562_marker R1207R_(A/G)TT(G/A)_cDNA_2",
+          "library_strategy": "AMPLICON",
+          "library_source": "TRANSCRIPTOMIC",
+          "sample_title": "",
+          "metadata_modality": "cDNA",
+          "source_replicate_label": 2
+        },
+        {
+          "run_accession": "SRR33382983",
+          "sample_accession": "SAMN48211631",
+          "sample_alias": "",
+          "experiment_alias": "K562_marker R1207R_(A/G)TT(G/A)_cDNA_3",
+          "library_name": "K562_marker R1207R_(A/G)TT(G/A)_cDNA_3",
+          "library_strategy": "AMPLICON",
+          "library_source": "TRANSCRIPTOMIC",
+          "sample_title": "",
+          "metadata_modality": "cDNA",
+          "source_replicate_label": 3
+        },
+        {
+          "run_accession": "SRR33383012",
+          "sample_accession": "SAMN48211581",
+          "sample_alias": "",
+          "experiment_alias": "K562_marker R1207R_(A/G)TT(G/A)_gDNA_1",
+          "library_name": "K562_marker R1207R_(A/G)TT(G/A)_gDNA_1",
+          "library_strategy": "AMPLICON",
+          "library_source": "GENOMIC",
+          "sample_title": "",
+          "metadata_modality": "gDNA",
+          "source_replicate_label": 1
+        },
+        {
+          "run_accession": "SRR33383011",
+          "sample_accession": "SAMN48211582",
+          "sample_alias": "",
+          "experiment_alias": "K562_marker R1207R_(A/G)TT(G/A)_gDNA_2",
+          "library_name": "K562_marker R1207R_(A/G)TT(G/A)_gDNA_2",
+          "library_strategy": "AMPLICON",
+          "library_source": "GENOMIC",
+          "sample_title": "",
+          "metadata_modality": "gDNA",
+          "source_replicate_label": 2
+        },
+        {
+          "run_accession": "SRR33383010",
+          "sample_accession": "SAMN48211583",
+          "sample_alias": "",
+          "experiment_alias": "K562_marker R1207R_(A/G)TT(G/A)_gDNA_3",
+          "library_name": "K562_marker R1207R_(A/G)TT(G/A)_gDNA_3",
+          "library_strategy": "AMPLICON",
+          "library_source": "GENOMIC",
+          "sample_title": "",
+          "metadata_modality": "gDNA",
+          "source_replicate_label": 3
+        }
+      ]
+    }
+  },
+  "all_sheet_identity_labels": [
+    {
+      "row": 2,
+      "label": "E1206E_(G/A)AGA"
+    },
+    {
+      "row": 3,
+      "label": "E1206E_(G/A)AG(A/G)"
+    },
+    {
+      "row": 4,
+      "label": "D1217E_ (T/G)CAA"
+    },
+    {
+      "row": 5,
+      "label": "D1217N_(T/C)CAA"
+    },
+    {
+      "row": 6,
+      "label": "E1206*_(G/T)AGAGA"
+    },
+    {
+      "row": 7,
+      "label": "E1206*_(G/T)AGAG(A/G)"
+    },
+    {
+      "row": 8,
+      "label": "Q1218*_(C/T)AAGG"
+    },
+    {
+      "row": 9,
+      "label": "R1176*_(A/T)GAGCT"
+    },
+    {
+      "row": 10,
+      "label": "P1232A_(C/G)CTTGT"
+    },
+    {
+      "row": 11,
+      "label": "R1204Q_(G/A)GTTT"
+    },
+    {
+      "row": 12,
+      "label": "K1171K_(G/A)GA"
+    },
+    {
+      "row": 13,
+      "label": "R1207R_(A/G)TT(G/C)"
+    },
+    {
+      "row": 14,
+      "label": "R1207R_(A/G)TT(G/T)"
+    },
+    {
+      "row": 15,
+      "label": "R1207R_ATT(G/A)"
+    },
+    {
+      "row": 16,
+      "label": "R1207R_(A/G)TTG"
+    },
+    {
+      "row": 17,
+      "label": "R1207R_(A/G)TT(G/A)"
+    }
+  ],
+  "included_named_source_runs": 18,
+  "excluded_earlier_technical_run_metadata": [
+    {
+      "state": "edit_only",
+      "reason": "Earlier unprefixed technical family; never pool",
+      "run_accession": "SRR33382914",
+      "sample_accession": "SAMN48211673",
+      "sample_alias": "",
+      "experiment_alias": "K562_cDNA_R1207R_(A/G)TTG_3",
+      "library_name": "K562_cDNA_R1207R_(A/G)TTG_3",
+      "library_strategy": "AMPLICON",
+      "library_source": "TRANSCRIPTOMIC",
+      "sample_title": ""
+    },
+    {
+      "state": "edit_only",
+      "reason": "Earlier unprefixed technical family; never pool",
+      "run_accession": "SRR33382916",
+      "sample_accession": "SAMN48211671",
+      "sample_alias": "",
+      "experiment_alias": "K562_cDNA_R1207R_(A/G)TTG_1",
+      "library_name": "K562_cDNA_R1207R_(A/G)TTG_1",
+      "library_strategy": "AMPLICON",
+      "library_source": "TRANSCRIPTOMIC",
+      "sample_title": ""
+    },
+    {
+      "state": "edit_only",
+      "reason": "Earlier unprefixed technical family; never pool",
+      "run_accession": "SRR33382915",
+      "sample_accession": "SAMN48211672",
+      "sample_alias": "",
+      "experiment_alias": "K562_cDNA_R1207R_(A/G)TTG_2",
+      "library_name": "K562_cDNA_R1207R_(A/G)TTG_2",
+      "library_strategy": "AMPLICON",
+      "library_source": "TRANSCRIPTOMIC",
+      "sample_title": ""
+    },
+    {
+      "state": "edit_only",
+      "reason": "Earlier unprefixed technical family; never pool",
+      "run_accession": "SRR33382933",
+      "sample_accession": "SAMN48211655",
+      "sample_alias": "",
+      "experiment_alias": "K562_gDNA_R1207R_(A/G)TTG_3",
+      "library_name": "K562_gDNA_R1207R_(A/G)TTG_3",
+      "library_strategy": "AMPLICON",
+      "library_source": "GENOMIC",
+      "sample_title": ""
+    },
+    {
+      "state": "edit_only",
+      "reason": "Earlier unprefixed technical family; never pool",
+      "run_accession": "SRR33382934",
+      "sample_accession": "SAMN48211654",
+      "sample_alias": "",
+      "experiment_alias": "K562_gDNA_R1207R_(A/G)TTG_2",
+      "library_name": "K562_gDNA_R1207R_(A/G)TTG_2",
+      "library_strategy": "AMPLICON",
+      "library_source": "GENOMIC",
+      "sample_title": ""
+    },
+    {
+      "state": "edit_only",
+      "reason": "Earlier unprefixed technical family; never pool",
+      "run_accession": "SRR33382936",
+      "sample_accession": "SAMN48211653",
+      "sample_alias": "",
+      "experiment_alias": "K562_gDNA_R1207R_(A/G)TTG_1",
+      "library_name": "K562_gDNA_R1207R_(A/G)TTG_1",
+      "library_strategy": "AMPLICON",
+      "library_source": "GENOMIC",
+      "sample_title": ""
+    },
+    {
+      "state": "combined_A",
+      "reason": "Earlier unprefixed technical family; never pool",
+      "run_accession": "SRR33382972",
+      "sample_accession": "SAMN48211641",
+      "sample_alias": "",
+      "experiment_alias": "K562_gDNA_R1207R_(A/G)TT(G/A)_1",
+      "library_name": "K562_gDNA_R1207R_(A/G)TT(G/A)_1",
+      "library_strategy": "AMPLICON",
+      "library_source": "GENOMIC",
+      "sample_title": ""
+    },
+    {
+      "state": "combined_A",
+      "reason": "Earlier unprefixed technical family; never pool",
+      "run_accession": "SRR33382927",
+      "sample_accession": "SAMN48211661",
+      "sample_alias": "",
+      "experiment_alias": "K562_cDNA_R1207R_(A/G)TT(G/A)_3",
+      "library_name": "K562_cDNA_R1207R_(A/G)TT(G/A)_3",
+      "library_strategy": "AMPLICON",
+      "library_source": "TRANSCRIPTOMIC",
+      "sample_title": ""
+    },
+    {
+      "state": "combined_A",
+      "reason": "Earlier unprefixed technical family; never pool",
+      "run_accession": "SRR33382928",
+      "sample_accession": "SAMN48211660",
+      "sample_alias": "",
+      "experiment_alias": "K562_cDNA_R1207R_(A/G)TT(G/A)_2",
+      "library_name": "K562_cDNA_R1207R_(A/G)TT(G/A)_2",
+      "library_strategy": "AMPLICON",
+      "library_source": "TRANSCRIPTOMIC",
+      "sample_title": ""
+    },
+    {
+      "state": "combined_A",
+      "reason": "Earlier unprefixed technical family; never pool",
+      "run_accession": "SRR33382929",
+      "sample_accession": "SAMN48211659",
+      "sample_alias": "",
+      "experiment_alias": "K562_cDNA_R1207R_(A/G)TT(G/A)_1",
+      "library_name": "K562_cDNA_R1207R_(A/G)TT(G/A)_1",
+      "library_strategy": "AMPLICON",
+      "library_source": "TRANSCRIPTOMIC",
+      "sample_title": ""
+    },
+    {
+      "state": "combined_A",
+      "reason": "Earlier unprefixed technical family; never pool",
+      "run_accession": "SRR33382971",
+      "sample_accession": "SAMN48211642",
+      "sample_alias": "",
+      "experiment_alias": "K562_gDNA_R1207R_(A/G)TT(G/A)_2",
+      "library_name": "K562_gDNA_R1207R_(A/G)TT(G/A)_2",
+      "library_strategy": "AMPLICON",
+      "library_source": "GENOMIC",
+      "sample_title": ""
+    },
+    {
+      "state": "combined_A",
+      "reason": "Earlier unprefixed technical family; never pool",
+      "run_accession": "SRR33382970",
+      "sample_accession": "SAMN48211643",
+      "sample_alias": "",
+      "experiment_alias": "K562_gDNA_R1207R_(A/G)TT(G/A)_3",
+      "library_name": "K562_gDNA_R1207R_(A/G)TT(G/A)_3",
+      "library_strategy": "AMPLICON",
+      "library_source": "GENOMIC",
+      "sample_title": ""
+    }
+  ],
+  "excluded_states": [
+    "marker_GtoT: unresolved count-word mismatch",
+    "marker_GtoC: outside the fixed three-state question",
+    "WT: local reference word exists, compatible measured WT RNA response not recovered"
+  ],
+  "source_cell_model": "K562_PE_MLH1 as described for arrayed experiments",
+  "source_transcript_annotation": "ENST00000358273; intended c.3621A>G and marker c.3624G>A",
+  "biological_independence_authenticated": false,
+  "cross_arm_culture_pairing_authenticated": false,
+  "arm_specific_harvest_and_clone_mapping_authenticated": false,
+  "Data6_to_ENA_linkage": "Exact condition/modality/replicate-name compatibility; no deposited explicit cell-to-run provenance key recovered",
+  "raw_counts_RPM_scores_or_missingness_inspected": false,
+  "no_new_outcomes_interpreted": true
+}

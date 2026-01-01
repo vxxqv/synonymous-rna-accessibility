@@ -1,0 +1,12 @@
+{
+  "status": "PASS_NUMERICAL_AND_BOUNDED_SEMANTIC_REVIEW",
+  "mismatches": [],
+  "review_sha256": "f66f8a1598adeb6228620388a0dc51a6e49837944de7fc51d514981fa92fbee9",
+  "reviewer_code_sha256": "e21fc82db1e000fc65a20d507aae1b54e8fb4efb0d490c90b657b46a6d179304",
+  "verification_sha256": "bd0edf72ef4b4bdb1a9af8012b707ab680920e62438fac22a069221047e1caf2",
+  "production_result_sha256": "01136e43574d5d0e0e3b8bb649dc48cd5ac9dbe034ce3b9c6d79096c278b4727",
+  "production_protocol_sha256": "6ebf332b56642766f3b78345e0c3a9cc85d995628be98272f0a3aee8efce594d",
+  "input_scope": "Only previously authorized frozen summaries/contract and local comparison; no source normalization or new outcomes",
+  "scientific_fit": false,
+  "production_import": false
+}

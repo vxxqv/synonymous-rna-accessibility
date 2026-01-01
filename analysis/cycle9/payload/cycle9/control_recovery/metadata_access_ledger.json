@@ -1,0 +1,56 @@
+[
+  {
+    "url": "https://api.github.com/repos/Boettcher-Lab/cPRIME",
+    "file": "current_github_repo.json",
+    "reason": "Check author repository activity since cached Cycle8 metadata",
+    "retries": 0,
+    "authentication": "none",
+    "status": 200,
+    "final_url": "https://api.github.com/repos/Boettcher-Lab/cPRIME",
+    "redirect_hosts": [],
+    "content_type": "application/json; charset=utf-8",
+    "bytes": 6464,
+    "sha256": "8f49f57107928919b161bebac577b8b83d80bac590099d25edb8a3f61276ae0a"
+  },
+  {
+    "url": "https://api.github.com/repos/Boettcher-Lab/cPRIME/branches/master",
+    "file": "current_github_branch.json",
+    "reason": "Authenticate exact current author HEAD and tree",
+    "retries": 0,
+    "authentication": "none",
+    "status": 200,
+    "final_url": "https://api.github.com/repos/Boettcher-Lab/cPRIME/branches/master",
+    "redirect_hosts": [],
+    "content_type": "application/json; charset=utf-8",
+    "bytes": 4751,
+    "sha256": "3d9c39333c7239c2907da164850819ee6e03763eb3f874399cb501bd40039231"
+  },
+  {
+    "url": "https://api.github.com/repos/Boettcher-Lab/cPRIME/git/trees/5135ee38a7f24a5e5ae3dc844c10f1a8af0fb4d6?recursive=1",
+    "file": "current_github_tree.json",
+    "reason": "Check new/corrected control file names and blob identities, not file values",
+    "retries": 0,
+    "authentication": "none",
+    "status": 200,
+    "final_url": "https://api.github.com/repos/Boettcher-Lab/cPRIME/git/trees/5135ee38a7f24a5e5ae3dc844c10f1a8af0fb4d6?recursive=1",
+    "redirect_hosts": [],
+    "content_type": "application/json; charset=utf-8",
+    "bytes": 20102,
+    "sha256": "6b9a6972e8d02b4d239855c7e044761969fe46c4d6afed4bc0d1b873980a627b"
+  },
+  {
+    "url": "https://zenodo.org/api/records/21991157/versions/latest",
+    "file": "current_zenodo_latest.json",
+    "reason": "The original author-linked archive was metadata-only in Cycle8; check a later public version or new control-bearing file",
+    "retries": 0,
+    "authentication": "none",
+    "status": 200,
+    "final_url": "https://zenodo.org/api/records/21991157",
+    "redirect_hosts": [
+      "zenodo.org"
+    ],
+    "content_type": "application/json",
+    "bytes": 4357,
+    "sha256": "ac3473d0f5c524c94db9e1ef84fbc3ddf848124d553fd484b893ac1394fa40bd"
+  }
+]

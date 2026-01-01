@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "workbook_sha256": "a3d18aff825b756711de622533cb730c1202e571f86a3b9b2e00edea6b073dd3",
+  "result_sha256": "4976f18c6de32bf13bd23484c8fe226275bd123cba02830523f8feccb9efd9a3",
+  "source_cells": 18,
+  "state_ratios": 27,
+  "contrast_quotients": 162,
+  "joint_completions": 729,
+  "range": {
+    "M": {
+      "lower": "22069348239510868380094348425244/7280495658589685848352834007972025",
+      "upper": "16530003650044449072158112674977/602043117842240497352069076622440",
+      "lower_float": 0.0030312974932514346,
+      "upper_float": 0.027456511269971822
+    },
+    "E": {
+      "lower": "4136756566866723084048847926097/1783829681805465975400416821493325",
+      "upper": "430662314536907851557710869423/21268841029111076371596706036770",
+      "lower_float": 0.0023190311323218883,
+      "upper_float": 0.02024850879027456
+    }
+  },
+  "scope": "Fresh independent arithmetic from allowlisted source cells; descriptive source-state contrast, no biological independence or isolated-edit inference.",
+  "code_sha256": "bb0e3f160451b97558d023809d2fd570f71f627027dce14d60a7fb7bee571a74"
+}

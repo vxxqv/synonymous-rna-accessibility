@@ -1,0 +1,248 @@
+{
+  "status": "COMPLETED",
+  "result_sha256": "4976f18c6de32bf13bd23484c8fe226275bd123cba02830523f8feccb9efd9a3",
+  "cardinalities": {
+    "states": 3,
+    "state_ratios": 27,
+    "contrast_quotients": 162,
+    "joint_shared_C_completions": 729
+  },
+  "states": [
+    {
+      "state": "M",
+      "envelope": {
+        "status": "finite",
+        "lower": {
+          "kind": "finite",
+          "exact": "3995601740719518/5331653497299937",
+          "decimal_display_50digits": "0.74941136792609945607242628870411093713372181617768",
+          "reason": null
+        },
+        "upper": {
+          "kind": "finite",
+          "exact": "21289871239766303/24538466920547344",
+          "decimal_display_50digits": "0.86761211728101800718685397318514789264189893456677",
+          "reason": null
+        },
+        "unknown_cases": 0,
+        "total_cases": 9,
+        "strictly_lower_than_one": true,
+        "strictly_higher_than_one": false,
+        "at_least_twofold_lower": false,
+        "at_least_twofold_higher": false,
+        "endpoint_equal_one": false,
+        "endpoint_equal_half_or_two": false
+      },
+      "source_index_ids": [
+        "M_R1_D1",
+        "M_R2_D2",
+        "M_R3_D3"
+      ]
+    },
+    {
+      "state": "E",
+      "envelope": {
+        "status": "finite",
+        "lower": {
+          "kind": "finite",
+          "exact": "4799293828790571/4722856549719742",
+          "decimal_display_50digits": "1.0161845438806234434325335934688753144192787430456",
+          "reason": null
+        },
+        "upper": {
+          "kind": "finite",
+          "exact": "5216334988745579/4599576891567772",
+          "decimal_display_50digits": "1.1340901808399998655102625604437378249998121593798",
+          "reason": null
+        },
+        "unknown_cases": 0,
+        "total_cases": 9,
+        "strictly_lower_than_one": false,
+        "strictly_higher_than_one": true,
+        "at_least_twofold_lower": false,
+        "at_least_twofold_higher": false,
+        "endpoint_equal_one": false,
+        "endpoint_equal_half_or_two": false
+      },
+      "source_index_ids": [
+        "E_R1_D1",
+        "E_R2_D2",
+        "E_R3_D3"
+      ]
+    },
+    {
+      "state": "C",
+      "envelope": {
+        "status": "finite",
+        "lower": {
+          "kind": "finite",
+          "exact": "3597510522718279/1367879697645292700",
+          "decimal_display_50digits": "0.0026299904362285197149409263409386938952092288287593",
+          "reason": null
+        },
+        "upper": {
+          "kind": "finite",
+          "exact": "3100352200009921/150676457992989580",
+          "decimal_display_50digits": "0.020576221669307948265647111419890543371017050739665",
+          "reason": null
+        },
+        "unknown_cases": 0,
+        "total_cases": 9,
+        "strictly_lower_than_one": true,
+        "strictly_higher_than_one": false,
+        "at_least_twofold_lower": true,
+        "at_least_twofold_higher": false,
+        "endpoint_equal_one": false,
+        "endpoint_equal_half_or_two": false
+      },
+      "source_index_ids": [
+        "C_R1_D1",
+        "C_R2_D2",
+        "C_R3_D3"
+      ]
+    }
+  ],
+  "contrasts": [
+    {
+      "contrast": "C/M",
+      "envelope": {
+        "status": "finite",
+        "lower": {
+          "kind": "finite",
+          "exact": "22069348239510868380094348425244/7280495658589685848352834007972025",
+          "decimal_display_50digits": "0.0030312974932514347701265474735491952203877388428968",
+          "reason": null
+        },
+        "upper": {
+          "kind": "finite",
+          "exact": "16530003650044449072158112674977/602043117842240497352069076622440",
+          "decimal_display_50digits": "0.027456511269971820580724879814513106229872173336658",
+          "reason": null
+        },
+        "unknown_cases": 0,
+        "total_cases": 81,
+        "strictly_lower_than_one": true,
+        "strictly_higher_than_one": false,
+        "at_least_twofold_lower": true,
+        "at_least_twofold_higher": false,
+        "endpoint_equal_one": false,
+        "endpoint_equal_half_or_two": false
+      },
+      "direction_case_counts": {
+        "below_one": 81,
+        "equal_one": 0,
+        "above_one": 0,
+        "unknown": 0
+      }
+    },
+    {
+      "contrast": "C/E",
+      "envelope": {
+        "status": "finite",
+        "lower": {
+          "kind": "finite",
+          "exact": "4136756566866723084048847926097/1783829681805465975400416821493325",
+          "decimal_display_50digits": "0.0023190311323218880844876272979426302606549202537247",
+          "reason": null
+        },
+        "upper": {
+          "kind": "finite",
+          "exact": "430662314536907851557710869423/21268841029111076371596706036770",
+          "decimal_display_50digits": "0.020248508790274560130149119079175496914586581251548",
+          "reason": null
+        },
+        "unknown_cases": 0,
+        "total_cases": 81,
+        "strictly_lower_than_one": true,
+        "strictly_higher_than_one": false,
+        "at_least_twofold_lower": true,
+        "at_least_twofold_higher": false,
+        "endpoint_equal_one": false,
+        "endpoint_equal_half_or_two": false
+      },
+      "direction_case_counts": {
+        "below_one": 81,
+        "equal_one": 0,
+        "above_one": 0,
+        "unknown": 0
+      }
+    }
+  ],
+  "source_index_diagnostics": [
+    {
+      "contrast": "C/M",
+      "scope": "index-matched within-state ratios; no cross-state pairing assumed",
+      "envelope": {
+        "status": "finite",
+        "lower": {
+          "kind": "finite",
+          "exact": "22069348239510868380094348425244/6995781654083181078436699506958075",
+          "decimal_display_50digits": "0.0031546651011656145000194960144625288011248880312361",
+          "reason": null
+        },
+        "upper": {
+          "kind": "finite",
+          "exact": "16530003650044449072158112674977/785197383172932408187981607709480",
+          "decimal_display_50digits": "0.021052036092183294723839585123583010071537161654074",
+          "reason": null
+        },
+        "unknown_cases": 0,
+        "total_cases": 9,
+        "strictly_lower_than_one": true,
+        "strictly_higher_than_one": false,
+        "at_least_twofold_lower": true,
+        "at_least_twofold_higher": false,
+        "endpoint_equal_one": false,
+        "endpoint_equal_half_or_two": false
+      },
+      "agrees_with_primary_strict_flags": true
+    },
+    {
+      "contrast": "C/E",
+      "scope": "index-matched within-state ratios; no cross-state pairing assumed",
+      "envelope": {
+        "status": "finite",
+        "lower": {
+          "kind": "finite",
+          "exact": "4206584393866035960490762016818/1783829681805465975400416821493325",
+          "decimal_display_50digits": "0.0023581760281107271282379085118581182565154294000703",
+          "reason": null
+        },
+        "upper": {
+          "kind": "finite",
+          "exact": "430662314536907851557710869423/26030004051365681209509546227700",
+          "decimal_display_50digits": "0.016544842393688097454842850571602795604553968842964",
+          "reason": null
+        },
+        "unknown_cases": 0,
+        "total_cases": 9,
+        "strictly_lower_than_one": true,
+        "strictly_higher_than_one": false,
+        "at_least_twofold_lower": true,
+        "at_least_twofold_higher": false,
+        "endpoint_equal_one": false,
+        "endpoint_equal_half_or_two": false
+      },
+      "agrees_with_primary_strict_flags": true
+    }
+  ],
+  "joint_direction_counts": {
+    "below_one|below_one": 729,
+    "below_one|equal_one": 0,
+    "below_one|above_one": 0,
+    "below_one|unknown": 0,
+    "equal_one|below_one": 0,
+    "equal_one|equal_one": 0,
+    "equal_one|above_one": 0,
+    "equal_one|unknown": 0,
+    "above_one|below_one": 0,
+    "above_one|equal_one": 0,
+    "above_one|above_one": 0,
+    "above_one|unknown": 0,
+    "unknown|below_one": 0,
+    "unknown|equal_one": 0,
+    "unknown|above_one": 0,
+    "unknown|unknown": 0
+  },
+  "interpretation": "Only C/M and C/E contrast-at-one flags are interpreted. Generic flags in state-envelope records do not supply a WT comparison."
+}

@@ -1,0 +1,35 @@
+{
+  "status": "FROZEN_SYNTHETIC_PASS_ROOT_AUTHORIZED_EXPLORATORY_RUN",
+  "approval_basis": "Parent explicitly approved bounded implementation and once-only complete134pair run, preserving all128jointcases and frozen prediction failures.",
+  "timestamp_utc": "2026-10-26T13:17:09.928347+00:00",
+  "repository_revision_observed": "057546edc0a8263d348b20440ba51705cfffe361",
+  "owned_files": {
+    "analyze.py": "ce4c8155886c4025055ddf61dde42936666e2474e1ef6c21b87e2ab398d956ee",
+    "verify.py": "945ef62d2c36e9f124b0da8ca62c7ea5d7be70aa238399a22a5159021adb21cf",
+    "test_synthetic.py": "0618dff684dd1736b43f4e6dfcca11ed664e963656d4cc3884e71884b2540849",
+    "synthetic_receipt.json": "e74a21a5a69d7ae6e602a2311483f3ebe67390233743885aaec6c2f4b3662bf5",
+    "proposed_protocol.md": "6ebf332b56642766f3b78345e0c3a9cc85d995628be98272f0a3aee8efce594d",
+    "closest_prior.md": "4e217bd1046807923b00b58066a653441f8d9e15193dc148b4d610ca9b434c12",
+    "metadata_inventory.py": "10f9847d6d3268449978ecc1a9a55f6661a4d120ad860ec74ca1d816db2cef3a",
+    "metadata_inventory.json": "ec95deb93264402c7d5d0f3782a0583285fdc7799443660348fdc90ffa4920cb",
+    "freeze_once.py": "5ca570ef5aea04555885590da2105f318d66b472b5316e1b5774ad5aa29fd406"
+  },
+  "input_hashes": {
+    "input": "5654df32df45840415e483a53127a12744887ac9c6b49a18f0a9387bfa04f083",
+    "inventory": "ec95deb93264402c7d5d0f3782a0583285fdc7799443660348fdc90ffa4920cb",
+    "contract": "091ab6a57b7d64ab56638430e95befca5dbffd790eec9c62ea5d6a504d450ce5"
+  },
+  "input_paths": {
+    "input": "work/research_cycle8/comt_results/actual_v3/normalize/contrasts.json",
+    "inventory": "work/research_cycle9/comt_patterns/metadata_inventory.json",
+    "contract": "work/research_cycle8/comt_pilot/implementation_v3/selective_contract.json"
+  },
+  "expected_pairs": 134,
+  "expected_joint_cases": 17152,
+  "expected_SNV_pairs": 97,
+  "python": "3.12.14",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "machine": "AMD64",
+  "observed_comparisons_computed_before_freeze": false,
+  "prior_exposure": "Cycle8dataalreadyexposed;followupexploratory,notprospectivevalidation."
+}

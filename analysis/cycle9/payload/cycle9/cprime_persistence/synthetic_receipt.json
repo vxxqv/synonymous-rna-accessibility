@@ -1,0 +1,6 @@
+{
+  "status": "PASS",
+  "paired_cell_quadrants": 4,
+  "invalid_join_guards": 3,
+  "exact_threshold_checks": 2
+}

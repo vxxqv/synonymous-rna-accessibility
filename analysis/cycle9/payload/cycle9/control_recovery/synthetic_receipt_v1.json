@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "observed_tests": 18,
+  "observed_unittest_wall_seconds": 1.184,
+  "command": "work/env/Scripts/python.exe -B -X utf8 -m unittest discover -s work/research_cycle9/control_recovery/implementation_v1 -p test_three_states.py -v",
+  "implementation_sha256": "b0b1c9bcd03767c81d818e39c2db7a100ecf13ae59df7b93eec01c944ca8d289",
+  "tests_sha256": "405e77dcdac2768cafe0b0446fb35a6525bdeda01d70f0f3f9992e32bd9701e8",
+  "tested_scope": [
+    "exact27/162/729 cardinalities",
+    "independent invented case-by-case fraction reference",
+    "shared C identity",
+    "primary Cartesian versus index sensitivity disagreement",
+    "ties at1 andclosed2fold boundaries",
+    "zeroDNA/zeroRNA/positive_over_zero/zero_over_zero",
+    "missing/negative/nonfinite/text/cache failures",
+    "inline andshared metadata strings",
+    "before-numeric source/schema guards",
+    "whitelist refusal",
+    "-O/-OO refusal without output",
+    "freeze-hash refusal",
+    "no-overwrite andpreserved metadata failure"
+  ],
+  "actual_source_numeric_values_read": false,
+  "unexpected_failures": 0,
+  "independent_biological_validation": false
+}

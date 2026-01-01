@@ -1,0 +1,25 @@
+[
+  {
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13675207/",
+    "result": "Browser checking/challenge page; not interacted with or bypassed",
+    "Cycle9_disposition": "Not retried; retained as historical access limitation, not data absence"
+  },
+  {
+    "url": "https://www.nature.com/articles/s41467-026-78344-9",
+    "result": "Web tool non-retryable inaccessible identity redirect",
+    "Cycle9_disposition": "Not retried; retained as historical access limitation, not data absence"
+  },
+  {
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13675207/supplementaryFiles",
+    "result": "requests.exceptions.ConnectionError: HTTPSConnectionPool(host='www.ebi.ac.uk', port=443): Read timed out.",
+    "http_status_observed": null,
+    "partial_body_saved": false,
+    "Cycle9_disposition": "Not retried; retained as historical access limitation, not data absence"
+  },
+  {
+    "url": "https://static-content.springer-cdn.com/esm/art%3A10.1038%2Fs41467-026-78344-9/MediaObjects/41467_2026_78344_MOESM3_ESM.zip",
+    "result": "NameResolutionError: Failed to resolve 'static-content.springer-cdn.com' ([Errno 11001] getaddrinfo failed)",
+    "http_status_observed": null,
+    "Cycle9_disposition": "Not retried; retained as historical access limitation, not data absence"
+  }
+]

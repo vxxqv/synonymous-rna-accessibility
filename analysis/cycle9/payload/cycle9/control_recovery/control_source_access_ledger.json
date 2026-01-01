@@ -1,0 +1,52 @@
+[
+  {
+    "url": "https://raw.githubusercontent.com/Boettcher-Lab/cPRIME/30125415304664c33370cd7801f820a345834e40/ex27_screen/Odds_Ratio/Odds_Ratio.R",
+    "status": 200,
+    "path": "author_Odds_Ratio.R",
+    "reason": "Previously listed but uninspected odds-ratio source/control schema; test whether WT cDNA is available",
+    "sha256": "7a620bd395d10e95c00e5d38e67f3a5f58c51e9872ab7b5088ce0d7919a89d34",
+    "bytes": 11331,
+    "retries": 0,
+    "git_blob_sha1": "26e83d0c2965772c21594bd6305b6a56a07a6b61"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Boettcher-Lab/cPRIME/30125415304664c33370cd7801f820a345834e40/ex27_screen/Odds_Ratio/K562_cDNA_edit_counts.xlsx",
+    "status": 200,
+    "path": "author_K562_cDNA_edit_counts.xlsx",
+    "reason": "Previously listed but uninspected odds-ratio source/control schema; test whether WT cDNA is available",
+    "sha256": "66f3019822a8c613c96f473c85c708c1c8c017c2545d91462a1cb4930e0b8dcb",
+    "bytes": 22711,
+    "retries": 0,
+    "git_blob_sha1": "1944ab01de3c3c8630c381e2200af3a7cd38b61d"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Boettcher-Lab/cPRIME/30125415304664c33370cd7801f820a345834e40/ex27_screen/Odds_Ratio/K562_gDNA_edit_counts.xlsx",
+    "status": 200,
+    "path": "author_K562_gDNA_edit_counts.xlsx",
+    "reason": "Previously listed but uninspected odds-ratio source/control schema; test whether WT cDNA is available",
+    "sha256": "5fc6efc4543ba7ef86fb198f3028d201376221d2702ac8dd7188e3b7cb515c7e",
+    "bytes": 83057,
+    "retries": 0,
+    "git_blob_sha1": "c1d75f87abb47be021cd8197ae5c36b49bedf7c1"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Boettcher-Lab/cPRIME/30125415304664c33370cd7801f820a345834e40/ex27_screen/Odds_Ratio/KBM7_cDNA_edit_counts.xlsx",
+    "status": 200,
+    "path": "author_KBM7_cDNA_edit_counts.xlsx",
+    "reason": "Previously listed but uninspected odds-ratio source/control schema; test whether WT cDNA is available",
+    "sha256": "4f283e8efe1c4a146cc5e8133778a5b40f3d90a9589dbd5eb0b321671cbb1ce7",
+    "bytes": 22554,
+    "retries": 0,
+    "git_blob_sha1": "51fa48fabc93104f3ff18210fbd98fefbabbd97e"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Boettcher-Lab/cPRIME/30125415304664c33370cd7801f820a345834e40/ex27_screen/Odds_Ratio/KBM7_gDNA_edit_counts.xlsx",
+    "status": 200,
+    "path": "author_KBM7_gDNA_edit_counts.xlsx",
+    "reason": "Previously listed but uninspected odds-ratio source/control schema; test whether WT cDNA is available",
+    "sha256": "03c03218c8ccf20549767ba5032b3947d7d9686cfce6fb45a24546458dbf63fd",
+    "bytes": 82932,
+    "retries": 0,
+    "git_blob_sha1": "32abd44d0ad4ec01fce99230c7e6c4577a54e45b"
+  }
+]

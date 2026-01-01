@@ -1,0 +1,30 @@
+{
+  "authorization_status": "APPROVED_EXACT_18_CELLS",
+  "source": "Parent root explicit task: approved protocol93feed..., freeze implementation/tests thenopen exactly18 admittedcells once",
+  "created_utc": "2026-10-26T13:25:51.890014+00:00",
+  "freeze_sha256": "19a25138fb7439d4a589148749d955d43eda753ed17f643cb08da1fe7a978185",
+  "protocol_sha256": "93feed845877ecbe31ad1297505c13cc9c01fbcd2966d38eff10fb3d4a30e366",
+  "workbook_sha256": "a3d18aff825b756711de622533cb730c1202e571f86a3b9b2e00edea6b073dd3",
+  "worksheet": "validation K562",
+  "authorized_numeric_cells": [
+    "F15",
+    "G15",
+    "H15",
+    "I15",
+    "J15",
+    "K15",
+    "F16",
+    "G16",
+    "H16",
+    "I16",
+    "J16",
+    "K16",
+    "F17",
+    "G17",
+    "H17",
+    "I17",
+    "J17",
+    "K17"
+  ],
+  "forbidden": "Any sourceFC, othergenotype/cell/family numericvalues, normalization change, source refetch or model fitting"
+}

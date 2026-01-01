@@ -1,0 +1,32 @@
+{
+  "prior_closed_stage_receipt_preserved_sha256": "0a4f3be76e56da9855fed5fabb2fe8a19f0a81ed5321d04b65ddd17910d41b1f",
+  "freeze_sha256": "19a25138fb7439d4a589148749d955d43eda753ed17f643cb08da1fe7a978185",
+  "authorization_sha256": "24e6117084fe781601d2cbcaa950b55f872943867eb1d0a2ebc884e2d5281171",
+  "newly_opened_source_numeric_cells": [
+    "F15",
+    "G15",
+    "H15",
+    "I15",
+    "J15",
+    "K15",
+    "F16",
+    "G16",
+    "H16",
+    "I16",
+    "J16",
+    "K16",
+    "F17",
+    "G17",
+    "H17",
+    "I17",
+    "J17",
+    "K17"
+  ],
+  "source_numeric_cells_opened": 18,
+  "source_numeric_missingness_now_known": true,
+  "other_source_numeric_or_FC_cells_opened": false,
+  "source_numeric_extractions": 1,
+  "fit_or_model_selection_or_threshold_change": false,
+  "source_qualitative_prior_exposure": "Published selected example was already exposed before the protocol",
+  "biological_validation_scope": "No independent biological replication or calibrated confidence"
+}

@@ -1,0 +1,24 @@
+{
+  "new_control_numeric_values_read": false,
+  "new_control_outcome_missingness_read": false,
+  "source_FC_values_read": false,
+  "raw_reads_or_notebook_outputs_read": false,
+  "new_phenotype_analysis": false,
+  "source_code_executed": false,
+  "allowed_numeric_metadata": "time, coordinates, row/column indexes, ID inventory counts and source-method constants only",
+  "primary_prose_exposure": [
+    "Previously published selected R1207R marker-removal/alternative-marker qualitative conclusions",
+    "Previously cached Methods prose includes reported aggregate predictor/classification values, not newly opened control cells"
+  ],
+  "new_selective_XLSX_boundary": {
+    "four_GitHub_control_workbooks": "Row1 textual assay headers; row2 A-C identity headers; columnA Sample IDs only thereafter",
+    "official_Data6": "validation K562 C labels, first-row header cells C,F-K only; no numeric row15-17 values"
+  },
+  "known_source_exposure_not_validation": "The source-selected R1207R example and its qualitative outcomes predate this protocol; any subsequent arithmetic is retrospective descriptive source analysis.",
+  "tool_and_print_failures": [
+    "First combined console output truncated; missing user-request tail and methodology text read separately",
+    "One metadata print helper raised KeyError on directory entry lacking size before optional listing; no assay value read"
+  ],
+  "network_failures_this_cycle": [],
+  "historical_failures_retried": false
+}

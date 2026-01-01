@@ -1,0 +1,16 @@
+{
+  "scientific_status": "PASS_EXACT",
+  "production_guard_status": "OPTIMIZED_PYTHON_REFUSAL_REQUIRED",
+  "reviewed_protocol_sha256": "13274dd480f4c36b278370a1dd3907e86473beae0a59e5d0def1a01136fba613",
+  "reviewed_analyze_sha256": "f99e6d1cb7397c931d7b0b5ac44bfb6d74da824f971de6c1f5a9b4709f1d3aff",
+  "reviewer_sha256": "65b96cf5594c50a101b8fe429e79d51fbd2298c8b753de3c5d17c34d8f6dfb50",
+  "verification_sha256": "bc74a06d083b8305420b80c980473fbd66bef702d1cc36e52e557eef3a65c3e2",
+  "independent_profiles_sha256": "f34e5b06d8f6a66aad5c7a28bdd6dc51e49b0a8ec730d10ea8485b644da2c186",
+  "report_sha256": "20552b5074a7780f79137e20d6207fb1bf3496b1e48d33e990224a8ea0208c0b",
+  "reviewer_optimization_guards": {
+    "-O": "rejected before access",
+    "-OO": "rejected before access"
+  },
+  "scientific_mismatches": [],
+  "shared_edits": false
+}

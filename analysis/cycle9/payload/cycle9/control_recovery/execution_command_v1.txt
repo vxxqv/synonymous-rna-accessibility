@@ -1,0 +1,9 @@
+Executed once after saving the pre-access freeze and notifying root:
+
+work/env/Scripts/python.exe -B -X utf8 work/research_cycle9/control_recovery/implementation_v1/analyze_three_states.py --workbook "work/research_cycle8/cprime_gate/supp_Supplementary Data 6.xlsx" --protocol work/research_cycle9/control_recovery/three_state_protocol.md --contract work/research_cycle9/control_recovery/three_state_contract.json --freeze work/research_cycle9/control_recovery/freeze_v1.json --freeze-sha256 19a25138fb7439d4a589148749d955d43eda753ed17f643cb08da1fe7a978185 --authorization work/research_cycle9/control_recovery/authorization_v1.json --authorization-sha256 24e6117084fe781601d2cbcaa950b55f872943867eb1d0a2ebc884e2d5281171 --out work/research_cycle9/control_recovery/results_v1
+
+Observed exit status: 0.
+Observed result status: COMPLETED.
+Observed result SHA256: 4976f18c6de32bf13bd23484c8fe226275bd123cba02830523f8feccb9efd9a3.
+Observed cardinalities: 3 states, 27 state ratios, 162 contrast quotients, 729 shared-C completions.
+No further primary execution or actual source extraction occurred.
