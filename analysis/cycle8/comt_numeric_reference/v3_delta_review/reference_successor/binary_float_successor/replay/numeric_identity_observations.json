@@ -1,0 +1,56 @@
+{
+  "scope": "Observation-only profiler of the unchanged sealed checker; no functions patched",
+  "reference_sha256": "dd84524b3909df0437b070ebf1d97d7ba41449389dee78af53b0f1f86991e538",
+  "observer_sha256": "c8b91c2d3c5d98ba04dced9d7f56a974b11e7e2365a8662afb1eea5a1172fdc8",
+  "groups": {
+    "code": {
+      "comparisons": 1500,
+      "numeric_comparisons": 1500,
+      "maximum_absolute_difference": 0.0,
+      "maximum_scaled_difference": 0.0
+    },
+    "technical-log median": {
+      "comparisons": 5000,
+      "numeric_comparisons": 5000,
+      "maximum_absolute_difference": 0.0,
+      "maximum_scaled_difference": 0.0
+    },
+    "source preparation log value": {
+      "comparisons": 7558,
+      "numeric_comparisons": 7558,
+      "maximum_absolute_difference": 0.0,
+      "maximum_scaled_difference": 0.0
+    },
+    "geo": {
+      "comparisons": 1500,
+      "numeric_comparisons": 1500,
+      "maximum_absolute_difference": 0.0,
+      "maximum_scaled_difference": 0.0
+    },
+    "positive-log or missingness": {
+      "comparisons": 3779,
+      "numeric_comparisons": 3779,
+      "maximum_absolute_difference": 0.0,
+      "maximum_scaled_difference": 0.0
+    },
+    "stored fraction": {
+      "comparisons": 10360,
+      "numeric_comparisons": 10360,
+      "maximum_absolute_difference": 0.0,
+      "maximum_scaled_difference": 0.0
+    },
+    "assessment RNA input identity": {
+      "comparisons": 500,
+      "numeric_comparisons": 500,
+      "maximum_absolute_difference": 0.0,
+      "maximum_scaled_difference": 0.0
+    },
+    "assessment load input identity": {
+      "comparisons": 500,
+      "numeric_comparisons": 500,
+      "maximum_absolute_difference": 0.0,
+      "maximum_scaled_difference": 0.0
+    }
+  },
+  "checker_completed": true
+}

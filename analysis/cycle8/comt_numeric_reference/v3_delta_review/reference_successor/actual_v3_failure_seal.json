@@ -1,0 +1,20 @@
+{
+  "status": "ORIGINAL_SINGLE_REPLAY_FAILURE_PRESERVED_BEFORE_DIAGNOSIS",
+  "created_utc": "2026-10-25T20:27:35.954751+00:00",
+  "files": {
+    "actual_v3_report.md": "a90cd96b205fea36bc8e3eee43bdf9d05848aa3ee0f8c32c2220475c1c19edce",
+    "authorization_actual_v3.json": "f70aa182481b011bac0be87b956d2966536895018d2234fde9767f044e20c3da",
+    "run_actual_v3_once.py": "35f8c1b71fc49721c458de3a83f0e2f37ef260969a2519c2442c39e9e9c1e445",
+    "actual_v3_replay/failure.json": "0812e66d9adee0e6142f42912765ad6b6f8976a6b254feee9ca68e0e917819fc",
+    "actual_v3_replay/numeric_identity_observations.json": "ec12d5901f3ce952e4e31d01ae345ae734c6c8eec8b153a623b99690fd45ed89"
+  },
+  "reference_sha256": "222bffadbc94710810f9b9ea9c12b594281d4cb7cc83a719abfc6d6fb16143ec",
+  "replays": 1,
+  "mismatch": "Exact prediction mismatch code/heavy/c.18C>A/pooled_median",
+  "magnitude_or_cause_not_yet_diagnosed": true,
+  "prior_raw_preparation_contrast_float_comparisons": 19337,
+  "prior_max_abs_or_scaled_float_difference": 0,
+  "scientific_computational_verification_complete": false,
+  "method_or_tolerance_changes": false,
+  "new_source_simulation_or_raw_archive_access": false
+}

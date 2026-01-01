@@ -1,0 +1,86 @@
+{
+  "code": {
+    "heavy": {
+      "sites_joint_better_than_ROI": 25,
+      "sites_joint_worse_than_ROI": 28,
+      "sites_equal": 0,
+      "single_site_omission_original_rule_passes": 0,
+      "gain_vs_ROI_omission_min": -0.03239058546810816,
+      "gain_vs_ROI_omission_max": 0.007027011371082626,
+      "range_flags": {
+        "RNA_PAVA/rna_outside": 2,
+        "RNA_linear/rna_outside": 2,
+        "RNA_load_linear/rna_outside": 2,
+        "RNA_load_linear/load_outside": 2
+      }
+    },
+    "mid": {
+      "sites_joint_better_than_ROI": 24,
+      "sites_joint_worse_than_ROI": 29,
+      "sites_equal": 0,
+      "single_site_omission_original_rule_passes": 0,
+      "gain_vs_ROI_omission_min": 0.008281668328910485,
+      "gain_vs_ROI_omission_max": 0.04855760444326867,
+      "range_flags": {
+        "RNA_PAVA/rna_outside": 2,
+        "RNA_linear/rna_outside": 2,
+        "RNA_load_linear/rna_outside": 2,
+        "RNA_load_linear/load_outside": 3
+      }
+    }
+  },
+  "geo": {
+    "heavy": {
+      "sites_joint_better_than_ROI": 25,
+      "sites_joint_worse_than_ROI": 28,
+      "sites_equal": 0,
+      "single_site_omission_original_rule_passes": 0,
+      "gain_vs_ROI_omission_min": -0.05483369108621973,
+      "gain_vs_ROI_omission_max": -0.01005917922080258,
+      "range_flags": {
+        "RNA_PAVA/rna_outside": 2,
+        "RNA_linear/rna_outside": 2,
+        "RNA_load_linear/rna_outside": 2,
+        "RNA_load_linear/load_outside": 2
+      }
+    },
+    "mid": {
+      "sites_joint_better_than_ROI": 23,
+      "sites_joint_worse_than_ROI": 30,
+      "sites_equal": 0,
+      "single_site_omission_original_rule_passes": 0,
+      "gain_vs_ROI_omission_min": -0.005454210591788823,
+      "gain_vs_ROI_omission_max": 0.037082475272365044,
+      "range_flags": {
+        "RNA_PAVA/rna_outside": 2,
+        "RNA_linear/rna_outside": 2,
+        "RNA_load_linear/rna_outside": 2,
+        "RNA_load_linear/load_outside": 3
+      }
+    }
+  },
+  "opposite_resolved_signs": {
+    "code": [
+      "c.291G>T",
+      "c.33C>G",
+      "c.39T>A",
+      "c.39T>G",
+      "c.72G>C"
+    ],
+    "geo": [
+      "c.33C>G",
+      "c.39T>A",
+      "c.39T>G",
+      "c.72G>C"
+    ],
+    "stable_both_maps": [
+      "c.33C>G",
+      "c.39T>A",
+      "c.39T>G",
+      "c.72G>C"
+    ]
+  },
+  "max_absolute_condition_discrepancy": 1.7763568394002505e-15,
+  "status": "EXPLORATORY_FIXED_PREDICTION_DIAGNOSTICS_PENDING_SEPARATE_REVIEW",
+  "limits": "Descriptive conditional proxies; fixed-prediction site omissions are not refits. No confidence, substitution-equivalence, independent replication or kinetic mechanism."
+}

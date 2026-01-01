@@ -1,0 +1,79 @@
+{
+  "status": "PASS_INVENTED_BINARY_FLOAT_AND_DIAGNOSTIC_CONTRACT_CORRECTIONS",
+  "changed_common_functions": [
+    "compare_downstream",
+    "rational",
+    "run",
+    "scientific_comparison",
+    "verify_provenance"
+  ],
+  "unchanged_common_functions": [
+    "assert_close",
+    "author_fraction",
+    "compare_contrasts",
+    "compare_normalization",
+    "compare_scores",
+    "complete",
+    "constrained_linear",
+    "contrast_summaries",
+    "criterion",
+    "cross_validate",
+    "downstream",
+    "edit_key",
+    "fit_and_predict",
+    "interpolate",
+    "isotonic",
+    "jsonable",
+    "median",
+    "normalize",
+    "raw_variant_id",
+    "read_tsv",
+    "score",
+    "sha",
+    "sign_table",
+    "validate_contrast_metadata",
+    "weighted_median",
+    "weights_for_sites"
+  ],
+  "direct_non_dyadic_fit_cases": 46,
+  "direct_model_predictions_checked": 920,
+  "direct_coefficient_rank_sets_checked": 92,
+  "non_dyadic_full_CV_checks": {
+    "predictions_exact": 2500,
+    "fit_coefficients_and_rank_exact": 40,
+    "range_flag_sets": 500,
+    "scores_exact": 80,
+    "per_site_errors_exact": 3160,
+    "variant_errors_exact": 2500,
+    "cases": 4
+  },
+  "constant_zero_baseline_CV_checks": {
+    "predictions_exact": 2500,
+    "fit_coefficients_and_rank_exact": 40,
+    "range_flag_sets": 500,
+    "scores_exact": 80,
+    "per_site_errors_exact": 3160,
+    "variant_errors_exact": 2500,
+    "cases": 4
+  },
+  "explicit_missingness_CV_checks": {
+    "predictions_exact": 2485,
+    "fit_coefficients_and_rank_exact": 40,
+    "range_flag_sets": 497,
+    "scores_exact": 80,
+    "per_site_errors_exact": 3160,
+    "variant_errors_exact": 2485,
+    "cases": 4
+  },
+  "RNA_only_load_flag_false_joint_load_flag_true": true,
+  "incorrect_range_flag_falsifiers_rejected": 3,
+  "arbitrarily_tiny_exact_mismatch_rejected": true,
+  "raw_decimal_strings_and_existing_fractions_preserved": true,
+  "actual_observed_analysis_or_replay_executed": false,
+  "reference_sha256": "dd84524b3909df0437b070ebf1d97d7ba41449389dee78af53b0f1f86991e538",
+  "test_sha256": "0081d2ae909ce3f86f4bfceeb9dfc58b13cb944801542c67678c89f05a3c6c3c",
+  "production_kernel_and_adapter_source_hashes": {
+    "kernel": "8811af9750e813c798122c7e936b6279a0f3b0e53fea1924cb2d633162a34093",
+    "adapter": "92d0d46fda3b7b3c49c5a4d8780c8b57bcf9c15d9c8095aeca27555f38e2dede"
+  }
+}

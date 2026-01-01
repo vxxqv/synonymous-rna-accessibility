@@ -1,0 +1,9 @@
+{
+  "phase": "evaluate",
+  "returncode": 0,
+  "authorization_sha256": "0e347a9fed7ae2d4448f3ebc677651ac451067abf63d51b3d52f92d6f4ad6323",
+  "log_sha256": "83737f2dd546a4e6a9a750810e0e2c54ead3b30bfa8a9c49b8ff6887470f2431",
+  "sealed_manifest_exists": true,
+  "public_freeze_revision": "54e0e8fb364ad2f8a23f71d54d36910c25ef8a7e",
+  "sealed_manifest_sha256": "83737f2dd546a4e6a9a750810e0e2c54ead3b30bfa8a9c49b8ff6887470f2431"
+}

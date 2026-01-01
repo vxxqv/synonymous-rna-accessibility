@@ -1,0 +1,57 @@
+{
+  "status": "PASS_POST_DP_EXPOSURE_PRE_CAO_SOURCE_FIRST_REFERENCE_TESTS",
+  "predecessor_function_changes": [
+    "compare_normalization",
+    "normalize",
+    "read_tsv",
+    "run"
+  ],
+  "unchanged_common_functions": [
+    "assert_close",
+    "author_fraction",
+    "compare_contrasts",
+    "compare_downstream",
+    "compare_scores",
+    "complete",
+    "constrained_linear",
+    "contrast_summaries",
+    "criterion",
+    "cross_validate",
+    "downstream",
+    "edit_key",
+    "fit_and_predict",
+    "interpolate",
+    "isotonic",
+    "jsonable",
+    "median",
+    "rational",
+    "raw_variant_id",
+    "score",
+    "sha",
+    "sign_table",
+    "validate_contrast_metadata",
+    "weighted_median",
+    "weights_for_sites"
+  ],
+  "exact_downstream_objects_equal_to_sealed_predecessor": true,
+  "invented_downstream_comparison": {
+    "predictions_exact": 2500,
+    "fit_coefficients_and_rank_exact": 40,
+    "range_flag_sets": 500,
+    "scores_exact": 80,
+    "per_site_errors_exact": 3160,
+    "variant_errors_exact": 2500,
+    "cases": 4
+  },
+  "source_R_synthetic_comparisons": 288,
+  "lineage_falsifiers_refused": 5,
+  "invalid_denominator_no_repair": true,
+  "unused_CAF_bytes_not_decoded": true,
+  "optimized_flags_refused": [
+    "-O",
+    "-OO"
+  ],
+  "reference_sha256": "222bffadbc94710810f9b9ea9c12b594281d4cb7cc83a719abfc6d6fb16143ec",
+  "test_sha256": "ca5fae87d083fe8c4a68dddc85d26b74d2d8bee29186c7ae117c67360bd246ba",
+  "actual_CAO_or_downstream_outcomes_opened": false
+}

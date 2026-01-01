@@ -1,0 +1,20 @@
+{
+  "status": "BOUNDED_FIRST_MISMATCH_DIAGNOSIS_COMPLETE_NO_REPAIR",
+  "UTC": "2026-10-25T20:31:12.876247+00:00",
+  "files": {
+    "diagnosis.md": "8fc9afdede84ad903398854823460ddc4be640c4918feffbc6e3670f99722227",
+    "diagnose_first_mismatch.py": "8dc5e1d3377aa51d74e9eb4938e4a6d93a77f5496c585df2738b5428e80b8add",
+    "first_mismatch_diagnosis.json": "72eb9eaff488c5defa558ef5aa981457dce2bbc1e8fdfc20fb4c8f4e09274bdb",
+    "failure.json": "0812e66d9adee0e6142f42912765ad6b6f8976a6b254feee9ca68e0e917819fc",
+    "numeric_identity_observations.json": "ec12d5901f3ce952e4e31d01ae345ae734c6c8eec8b153a623b99690fd45ed89"
+  },
+  "original_failure_seal_sha256": "3fcb90182c37e7bee27ab78f1c234acb9dee9f0b96818fc0c8d29b2865d161e6",
+  "original_stopped_reference_sha256": "222bffadbc94710810f9b9ea9c12b594281d4cb7cc83a719abfc6d6fb16143ec",
+  "observed_replay_count": 1,
+  "additional_calculation_scope": "One already-failed pooled-median statistic only; no complete normalization/CV/scoring rerun",
+  "diagnosis": "Reference decimal-string rationalization differs from frozen production binary-float rationalization",
+  "production_first_fraction_independently_reproduced": true,
+  "all_prediction_and_metric_agreement_established": false,
+  "code_method_threshold_or_tolerance_changed": false,
+  "next_action": "Separate documented and reviewed reference correction required before any new full comparison"
+}

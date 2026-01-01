@@ -1,0 +1,91 @@
+{
+  "changed_common_functions": [
+    {
+      "function": "rational",
+      "kind": "input encoding"
+    },
+    {
+      "function": "compare_downstream",
+      "kind": "reference diagnostic expectation"
+    },
+    {
+      "function": "verify_provenance",
+      "kind": "provenance/receipt only"
+    },
+    {
+      "function": "scientific_comparison",
+      "kind": "provenance/receipt only"
+    },
+    {
+      "function": "run",
+      "kind": "provenance/receipt only"
+    }
+  ],
+  "direct_rational_callsites": [
+    {
+      "function": "fit_and_predict",
+      "line": 162,
+      "expression": "rational(r[name])",
+      "float_semantics": "now exact stored binary float; raw string/Fraction/int unchanged"
+    },
+    {
+      "function": "fit_and_predict",
+      "line": 175,
+      "expression": "rational(row['R'])",
+      "float_semantics": "now exact stored binary float; raw string/Fraction/int unchanged"
+    },
+    {
+      "function": "fit_and_predict",
+      "line": 175,
+      "expression": "rational(row['L'])",
+      "float_semantics": "now exact stored binary float; raw string/Fraction/int unchanged"
+    },
+    {
+      "function": "score",
+      "line": 235,
+      "expression": "rational(r['contrasts']['T']['center'])",
+      "float_semantics": "now exact stored binary float; raw string/Fraction/int unchanged"
+    },
+    {
+      "function": "normalize",
+      "line": 336,
+      "expression": "rational(row[field])",
+      "float_semantics": "now exact stored binary float; raw string/Fraction/int unchanged"
+    },
+    {
+      "function": "normalize",
+      "line": 346,
+      "expression": "rational(r['DP'])",
+      "float_semantics": "now exact stored binary float; raw string/Fraction/int unchanged"
+    },
+    {
+      "function": "normalize",
+      "line": 347,
+      "expression": "rational(r['CAO'])",
+      "float_semantics": "now exact stored binary float; raw string/Fraction/int unchanged"
+    },
+    {
+      "function": "compare_downstream",
+      "line": 529,
+      "expression": "rational(recorded['R'])",
+      "float_semantics": "now exact stored binary float; raw string/Fraction/int unchanged"
+    },
+    {
+      "function": "compare_downstream",
+      "line": 529,
+      "expression": "rational(recorded['L'])",
+      "float_semantics": "now exact stored binary float; raw string/Fraction/int unchanged"
+    },
+    {
+      "function": "validate_contrast_metadata",
+      "line": 701,
+      "expression": "rational(c[k])",
+      "float_semantics": "now exact stored binary float; raw string/Fraction/int unchanged"
+    }
+  ],
+  "new_statistical_models_or_thresholds": false,
+  "count_normalization_and_preparation_functions_unchanged": true,
+  "optimization_prediction_and_metric_functions_unchanged": true,
+  "source_first_parent_sha256": "222bffadbc94710810f9b9ea9c12b594281d4cb7cc83a719abfc6d6fb16143ec",
+  "binary_contract_reference_sha256": "dd84524b3909df0437b070ebf1d97d7ba41449389dee78af53b0f1f86991e538"
+}

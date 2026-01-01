@@ -1,0 +1,29 @@
+{
+  "status": "SEALED_POST_DP_EXPOSURE_BEFORE_ACTUAL_CAO_OR_RESULT_ACCESS",
+  "created_utc": "2026-10-25T20:21:47.599838+00:00",
+  "files": {
+    "reference_source_first.py": "222bffadbc94710810f9b9ea9c12b594281d4cb7cc83a719abfc6d6fb16143ec",
+    "test_successor.py": "ca5fae87d083fe8c4a68dddc85d26b74d2d8bee29186c7ae117c67360bd246ba",
+    "test_authorization.py": "c48536cf441b8b33df42cb6ea7799b31c5802125085ebe211ca0545a6dc5c68f",
+    "README.md": "a3b1dfc799bdc5801be6f40137931fe190b51eeaf579087cbf0efa3f86886fde",
+    "predecessor_delta.diff": "d648c98d1e1ec4e570d024622ebf58e72919386fe486d0e040668b54f74ffed1",
+    "synthetic_v1/receipt.json": "3ff7970edb7a7ff7556e2c691ed6abc1a44c76376ec3a014db9be240af9772b3",
+    "authorization_v1/receipt.json": "d0f3f51dc931b26dd7ebcef523887bb75095cb8906fd236c51bf1e03cfb591d3"
+  },
+  "predecessor_reference_sha256": "4c26b90d20b34ff7d1146ff8b796b571248b01e2c3bd33a5eab2fed61b05967f",
+  "predecessor_reference_seal_sha256": "06d352c497352646b0deef67b33cd027eacf6e78e9948884f5985d956c991c9f",
+  "reviewed_normalization_amendment_sha256": "c72377c83f74c0f09324f850659071320bd68dcad13fe4b70c1f615961b02bfc",
+  "actual_DP_exposure_precedes_this_correction": true,
+  "actual_CAO_CAF_WT_q_contrasts_predictions_or_performance_values_read": false,
+  "new_models_thresholds_or_folds": false,
+  "statistical_functions_changed": false,
+  "RF_training_or_classification_independently_reproduced": false,
+  "invalid_denominator_action": "Write exact failure receipt and stop, no repair",
+  "numerical_identity_tolerance": {
+    "relative": 2e-12,
+    "absolute": 2e-12
+  },
+  "guarded_future_access": "Requires separate parent authorization of all21explicit selected input roles; no raw archive/source simulation role exists",
+  "runtime_imports": "Python standard library only",
+  "historical_primary_reference_claim": false
+}

@@ -1,0 +1,20 @@
+{
+  "schema": "COMT_A1_stage_seal_v1",
+  "phase": "normalize",
+  "authorization_sha256": "b7e82d2422d0adbdacb5ab813158c876e21eebff6e23a32bbd59aee93e57991b",
+  "input_hashes": {
+    "protocol": "97aea7e56ddf9c74a2fcbf4a17ce2bbd9280c8417d2534997835878b2a368d61",
+    "amendment": "2f15418daf1e417193493eeb7c3370dae3451e8e69618427bfd13a73e28ff5e8",
+    "integration_addendum": "c480ca92ce36b6e95849fceaea3e6bf49d14bcd7842b1e5fe1efd543ff33f4d2",
+    "contract": "091ab6a57b7d64ab56638430e95befca5dbffd790eec9c62ea5d6a504d450ce5",
+    "code_manifest": "8292bce1941d7a080176771c9b2a132e3693513273b868f2843109ac8deb9fdb",
+    "normalization_amendment": "c72377c83f74c0f09324f850659071320bd68dcad13fe4b70c1f615961b02bfc",
+    "predecessor_code_manifest": "f63371f105738b2e360482291ad2ed7b90e623585d872564472bc4ea023097fb",
+    "extract_manifest": "4e365b305c356a25762c540092083c1a6e87bbc89041c97eb90a2e8f0436d7f0",
+    "rf_manifest": "091b66e102669f466121244e65a85c5434eafd514e903285074515a51bdd7564"
+  },
+  "files": {
+    "contrasts.json": "5654df32df45840415e483a53127a12744887ac9c6b49a18f0a9387bfa04f083",
+    "normalization.json": "e382e2568674e1c6ba98f0d6aa7c61f12efcf84b59aee09cb683076b15082a32"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "status": "PASS_BOUNDED_EXPLORATORY_DIAGNOSTICS",
+  "files": {
+    "check_v1\\receipt.json": "01e1efbc655cdb8b5e0a6ca4d4630de55f42e5bdf22ea297e31ce90668f246c3",
+    "guard_checks.json": "5b6d96a00d6cad2dfdb20a3da1666f5155ae7d2fe42b31f6526f4204a235cd44",
+    "review.md": "9aaac8a7e014a7b331f4ba65d248272ee649d23518a2fe3d793f8184b1e29b00",
+    "verify.py": "19d86d2127708a79ee5565a111bf6fac3bb5ff249708f051581af0d2378792c9"
+  },
+  "shared_files_modified": false,
+  "new_model_fits": 0,
+  "normalization_reruns": 0
+}

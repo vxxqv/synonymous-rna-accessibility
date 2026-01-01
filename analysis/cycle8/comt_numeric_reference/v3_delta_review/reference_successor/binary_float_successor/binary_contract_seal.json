@@ -1,0 +1,30 @@
+{
+  "status": "SEALED_POST_RESULT_REFERENCE_CONTRACT_CORRECTION_NOT_OBSERVED_REPLAY",
+  "created_utc": "2026-10-25T20:37:38.156500+00:00",
+  "files": {
+    "reference_binary_float.py": "dd84524b3909df0437b070ebf1d97d7ba41449389dee78af53b0f1f86991e538",
+    "reference_contract_amendment.md": "a7f1426cdabbd340c43cfec5b53b4ff39c3ed48bb7782e1466e80534b853d5dc",
+    "reference_delta.diff": "86ceb6e90b2ea8e4c67d4bbd55239ec77e4b750ee6ec101eb1ba529756a08c6e",
+    "change_inventory.json": "bb09f65fd8c4937747ce9c4f5944f3d4de5213d519f47e6f28c0cbe635bdec7b",
+    "README.md": "f0a43e3279ea8d73ae9ab0112bf7106e3f4b22c59953b286a677504a9a0756fb",
+    "test_binary_contract.py": "0081d2ae909ce3f86f4bfceeb9dfc58b13cb944801542c67678c89f05a3c6c3c",
+    "synthetic_v1/receipt.json": "76dde47f6001a065b79c341c6f9389c85688e5b9be9613f361825ce30204a10c",
+    "test_authorization.py": "37cfce02e4974ddd8a044929ac659d00374b8fd46bdeb57bb5049012b616246d",
+    "authorization_v2/receipt.json": "c920b27cdabfc87103f6ad704aabcea2c223978b0b4034702f5f348b85789a17"
+  },
+  "source_first_reference_sha256": "222bffadbc94710810f9b9ea9c12b594281d4cb7cc83a719abfc6d6fb16143ec",
+  "source_first_preaccess_seal_sha256": "8f9fc7287dc8931a947a6410c0eecbaa39d952ae0cdf9cf38776eded9f5da564",
+  "original_replay_failure_seal_sha256": "3fcb90182c37e7bee27ab78f1c234acb9dee9f0b96818fc0c8d29b2865d161e6",
+  "observed_replay_run_after_correction": false,
+  "production_files_changed": false,
+  "exact_comparison_or_scientific_threshold_relaxed": false,
+  "two_corrections": [
+    "Finite model-input floats use exact binary Fraction",
+    "RNA-only linear load_outside=False diagnostic"
+  ],
+  "optimized_flags_refused": [
+    "-O",
+    "-OO"
+  ],
+  "awaiting": "Independent root review and separate explicit25-role observed authorization"
+}

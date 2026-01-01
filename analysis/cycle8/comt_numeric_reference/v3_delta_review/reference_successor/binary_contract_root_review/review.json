@@ -1,0 +1,15 @@
+{
+  "status": "APPROVED_NARROW_REFERENCE_CONTRACT_CORRECTION",
+  "reference_sha256": "dd84524b3909df0437b070ebf1d97d7ba41449389dee78af53b0f1f86991e538",
+  "seal_sha256": "98d99f3134b9586c4a68acb30bd7d2c072a6ec663ce34fdb0116dc688b6ef630",
+  "changed_functions": [
+    "compare_downstream",
+    "rational",
+    "run",
+    "scientific_comparison",
+    "verify_provenance"
+  ],
+  "root_encoding_checks": 9,
+  "review": "Root inspected full diff, amendment, unchanged production number(x), production diagnostic callsites and inventory. Finite-float conversion now matches the frozen executable; raw decimal strings remain exact. RNA-only load diagnostic is constant false by its fixed zero load argument. All optimization/scoring/selection functions remain unchanged; exact equality checks and tolerance are not relaxed. Actual replay still required.",
+  "predecessor_failure_preserved": true
+}

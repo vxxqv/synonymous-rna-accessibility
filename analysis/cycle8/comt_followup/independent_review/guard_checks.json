@@ -1,0 +1,19 @@
+{
+  "checks": [
+    {
+      "guard": "-O",
+      "returncode": 1,
+      "before_input_access": true
+    },
+    {
+      "guard": "-OO",
+      "returncode": 1,
+      "before_input_access": true
+    },
+    {
+      "guard": "existing_output",
+      "returncode": 1,
+      "before_input_access": true
+    }
+  ]
+}

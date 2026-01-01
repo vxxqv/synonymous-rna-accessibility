@@ -1,0 +1,48 @@
+{
+  "status": "FIRST_MISMATCH_EXPLAINED_BY_REFERENCE_INPUT_RATIONALIZATION",
+  "scope": "One pooled-median fit at the already-failed target/fold only; no normalization/CV rerun, no model or output repair",
+  "variant": "c.18C>A",
+  "map": "code",
+  "mode": "heavy",
+  "fold": 0,
+  "training_rows": 101,
+  "training_sites": 42,
+  "median_selected_IDs": [
+    "c.321C>G",
+    "c.33C>A"
+  ],
+  "half_weight": "21",
+  "cumulative_weight_at_selection": "21",
+  "reference_decimal_string_fraction": "12281366247441889/20000000000000000",
+  "independently_derived_binary_float_fraction": "1382758911389497/2251799813685248",
+  "production_stored_fraction": "1382758911389497/2251799813685248",
+  "production_stored_float": 0.6140683123720945,
+  "signed_decimal_reference_minus_production": "-7347917049/343597383680000000000000000",
+  "absolute_rational_difference": "7347917049/343597383680000000000000000",
+  "absolute_difference_as_float": 2.1385253200423905e-17,
+  "difference_after_float_cast": 0.0,
+  "relative_scaled_rational_difference_as_float": 2.1385253200423905e-17,
+  "source_semantics": {
+    "production_kernel_number": "Fraction(x), preserving exact stored Python binary-float value",
+    "independent_reference_rational": "Fraction(str(x)), preserving shortest decimal text as a different rational",
+    "production_serialization": "str(Fraction) plus float(Fraction); no intermediate float conversion of the exact fraction"
+  },
+  "minimal_synthetic_counterexample": {
+    "input": 0.1,
+    "decimal_reference": "1/10",
+    "production_binary": "3602879701896397/36028797018963968",
+    "binary_minus_decimal": "1/180143985094819840",
+    "absolute_difference": 5.551115123125783e-18,
+    "float_displays_equal": true
+  },
+  "input_hashes": {
+    "contrasts": "5654df32df45840415e483a53127a12744887ac9c6b49a18f0a9387bfa04f083",
+    "predictions": "a28d2075d078224afd51328056604a145da1f59928486dac8df857c7c2f76bfe",
+    "kernel": "8811af9750e813c798122c7e936b6279a0f3b0e53fea1924cb2d633162a34093",
+    "prediction_source": "92d0d46fda3b7b3c49c5a4d8780c8b57bcf9c15d9c8095aeca27555f38e2dede",
+    "reference": "222bffadbc94710810f9b9ea9c12b594281d4cb7cc83a719abfc6d6fb16143ec"
+  },
+  "diagnostic_code_sha256": "8dc5e1d3377aa51d74e9eb4938e4a6d93a77f5496c585df2738b5428e80b8add",
+  "full_prediction_or_metric_agreement_established": false,
+  "frozen_code_or_tolerances_modified": false
+}

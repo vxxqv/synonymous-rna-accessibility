@@ -1,0 +1,109 @@
+{
+  "schema": "COMT_independent_binary_float_authorization_v3",
+  "status": "explicitly_authorized",
+  "reference_sha256": "dd84524b3909df0437b070ebf1d97d7ba41449389dee78af53b0f1f86991e538",
+  "authorization_basis": "Parent root reviewed both disclosed reference corrections, then authorized exactly one full25-role observed replay",
+  "created_utc": "2026-10-25T20:39:22.703619+00:00",
+  "inputs": {
+    "protocol": {
+      "path": "C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\work\\research_cycle8\\comt_pilot\\protocol_v2.md",
+      "sha256": "97aea7e56ddf9c74a2fcbf4a17ce2bbd9280c8417d2534997835878b2a368d61"
+    },
+    "integration_addendum": {
+      "path": "C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\work\\research_cycle8\\comt_pilot\\implementation_v3\\integration_addendum.md",
+      "sha256": "c480ca92ce36b6e95849fceaea3e6bf49d14bcd7842b1e5fe1efd543ff33f4d2"
+    },
+    "normalization_amendment": {
+      "path": "C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\work\\research_cycle8\\comt_pilot\\normalization_contract_amendment_v3.md",
+      "sha256": "c72377c83f74c0f09324f850659071320bd68dcad13fe4b70c1f615961b02bfc"
+    },
+    "contract": {
+      "path": "C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\work\\research_cycle8\\comt_pilot\\implementation_v3\\selective_contract.json",
+      "sha256": "091ab6a57b7d64ab56638430e95befca5dbffd790eec9c62ea5d6a504d450ce5"
+    },
+    "predecessor_reference": {
+      "path": "C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\work\\research_cycle8\\comt_numeric_reference\\reference.py",
+      "sha256": "4c26b90d20b34ff7d1146ff8b796b571248b01e2c3bd33a5eab2fed61b05967f"
+    },
+    "predecessor_reference_seal": {
+      "path": "C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\work\\research_cycle8\\comt_numeric_reference\\preaccess_seal.json",
+      "sha256": "06d352c497352646b0deef67b33cd027eacf6e78e9948884f5985d956c991c9f"
+    },
+    "predecessor_code_manifest": {
+      "path": "C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\outputs\\synonymous-rna-accessibility\\analysis\\cycle8\\comt_pilot\\code_freeze_v1.json",
+      "sha256": "f63371f105738b2e360482291ad2ed7b90e623585d872564472bc4ea023097fb"
+    },
+    "successor_code_manifest": {
+      "path": "C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\outputs\\synonymous-rna-accessibility\\analysis\\cycle8\\comt_pilot\\code_freeze_v3.json",
+      "sha256": "8292bce1941d7a080176771c9b2a132e3693513273b868f2843109ac8deb9fdb"
+    },
+    "extract_manifest": {
+      "path": "C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\work\\research_cycle8\\comt_results\\actual_v1\\extract\\sealed_manifest.json",
+      "sha256": "4e365b305c356a25762c540092083c1a6e87bbc89041c97eb90a2e8f0436d7f0"
+    },
+    "rf_manifest": {
+      "path": "C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\work\\research_cycle8\\comt_results\\actual_v1\\rf\\sealed_manifest.json",
+      "sha256": "091b66e102669f466121244e65a85c5434eafd514e903285074515a51bdd7564"
+    },
+    "normalization_manifest": {
+      "path": "C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\work\\research_cycle8\\comt_results\\actual_v3\\normalize\\sealed_manifest.json",
+      "sha256": "949fc885b57a230b7ec925d4c3f6e136d72774f24642651343bb98f648c1a0fd"
+    },
+    "prediction_manifest": {
+      "path": "C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\work\\research_cycle8\\comt_results\\actual_v3\\predict\\sealed_manifest.json",
+      "sha256": "ff590b6da4a0dfc1c2f966f025b7281dbc9995e181e5264cfb0fb06a1e5bdbcc"
+    },
+    "evaluation_manifest": {
+      "path": "C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\work\\research_cycle8\\comt_results\\actual_v3\\evaluate\\sealed_manifest.json",
+      "sha256": "83737f2dd546a4e6a9a750810e0e2c54ead3b30bfa8a9c49b8ff6887470f2431"
+    },
+    "rows_1": {
+      "path": "C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\work\\research_cycle8\\comt_results\\actual_v1\\extract\\rows_1.tsv",
+      "sha256": "e5bac4cc61921f857ff7b4cbbf771159d099a78f68c2a67ae004f55d83515d94"
+    },
+    "rows_2": {
+      "path": "C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\work\\research_cycle8\\comt_results\\actual_v1\\extract\\rows_2.tsv",
+      "sha256": "c422d868c1e8eea4a451e2ac481d47135ad0398661608a92a5ab3b91339c25ba"
+    },
+    "row_status_1": {
+      "path": "C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\work\\research_cycle8\\comt_results\\actual_v1\\rf\\row_status_1.tsv",
+      "sha256": "43589e5f30afe88e3893f8a51ef45f75c64dc4fbf1932e162d3b61b3d9f73dcd"
+    },
+    "row_status_2": {
+      "path": "C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\work\\research_cycle8\\comt_results\\actual_v1\\rf\\row_status_2.tsv",
+      "sha256": "07101bd7880ef4d1c42f878ed82e67ca022d390a9b7c41282b524e0f0f0cbf87"
+    },
+    "normalization": {
+      "path": "C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\work\\research_cycle8\\comt_results\\actual_v3\\normalize\\normalization.json",
+      "sha256": "e382e2568674e1c6ba98f0d6aa7c61f12efcf84b59aee09cb683076b15082a32"
+    },
+    "contrasts": {
+      "path": "C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\work\\research_cycle8\\comt_results\\actual_v3\\normalize\\contrasts.json",
+      "sha256": "5654df32df45840415e483a53127a12744887ac9c6b49a18f0a9387bfa04f083"
+    },
+    "predictions": {
+      "path": "C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\work\\research_cycle8\\comt_results\\actual_v3\\predict\\predictions.json",
+      "sha256": "a28d2075d078224afd51328056604a145da1f59928486dac8df857c7c2f76bfe"
+    },
+    "evaluation": {
+      "path": "C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\work\\research_cycle8\\comt_results\\actual_v3\\evaluate\\evaluation.json",
+      "sha256": "c3590c1f885323617e402c0b3fb99c8bd879a693aaff47993ef260bc6cb06452"
+    },
+    "source_first_reference": {
+      "path": "C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\work\\research_cycle8\\comt_numeric_reference\\v3_delta_review\\reference_successor\\reference_source_first.py",
+      "sha256": "222bffadbc94710810f9b9ea9c12b594281d4cb7cc83a719abfc6d6fb16143ec"
+    },
+    "source_first_preaccess_seal": {
+      "path": "C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\work\\research_cycle8\\comt_numeric_reference\\v3_delta_review\\reference_successor\\successor_preaccess_seal.json",
+      "sha256": "8f9fc7287dc8931a947a6410c0eecbaa39d952ae0cdf9cf38776eded9f5da564"
+    },
+    "original_replay_failure_seal": {
+      "path": "C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\work\\research_cycle8\\comt_numeric_reference\\v3_delta_review\\reference_successor\\actual_v3_failure_seal.json",
+      "sha256": "3fcb90182c37e7bee27ab78f1c234acb9dee9f0b96818fc0c8d29b2865d161e6"
+    },
+    "reference_contract_amendment": {
+      "path": "C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\work\\research_cycle8\\comt_numeric_reference\\v3_delta_review\\reference_successor\\binary_float_successor\\reference_contract_amendment.md",
+      "sha256": "a7f1426cdabbd340c43cfec5b53b4ff39c3ed48bb7782e1466e80534b853d5dc"
+    }
+  }
+}

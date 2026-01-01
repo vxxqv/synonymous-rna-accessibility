@@ -1,0 +1,18 @@
+{
+  "inputs": {
+    "normalize/contrasts.json": "5654df32df45840415e483a53127a12744887ac9c6b49a18f0a9387bfa04f083",
+    "predict/predictions.json": "a28d2075d078224afd51328056604a145da1f59928486dac8df857c7c2f76bfe",
+    "evaluate/evaluation.json": "c3590c1f885323617e402c0b3fb99c8bd879a693aaff47993ef260bc6cb06452"
+  },
+  "code_sha256": "4624f45e4b8331222f75bd5ec57f4ff345a33b150ace10b3abe7e2eaa61397c5",
+  "protocol_sha256": "706825082ca7c5ebd8803131c4a395e71dfda10363c4d86b251e3c5f42efe582",
+  "outputs": {
+    "all_scores.csv": "eca60c3e33ecfb9fb489348939e00f1267f5c131b83f324f8d920d244d99f0cf",
+    "extrapolation_flags.csv": "f86b136ea64d5e3c35d2ca6cdd11dfc2ee38fa4f87e851221aba321090168756",
+    "fit_diagnostics.csv": "d4fc208fe0c2b965216a11d82f023cc6fe38eaa03660f2099d9c356af227e1d3",
+    "site_errors.csv": "cd156a4e00efe5b58152c769a8442936ebb3121af3bc1bab79b35f8a93e159d2",
+    "site_omission_influence.csv": "1d8dfa6d50c84e0e3ecdc6d6553b4de94ad02ff9857b0b8d1426bd1ee56c1d8c",
+    "summary.json": "91b298642263a53a54aa1693f5ea0bad7af93b78db9948a43dfb9a336171895e",
+    "variant_stability.csv": "932fbc4fcc69b995e3eda905d9051dae4eebf2bee6ef6d9b8a2a12fd145dde8c"
+  }
+}

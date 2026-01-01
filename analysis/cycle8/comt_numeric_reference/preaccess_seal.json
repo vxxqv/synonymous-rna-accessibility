@@ -1,0 +1,46 @@
+{
+  "status": "SEALED_PRE_ACTUAL_COMT_NUMERICAL_ACCESS",
+  "created_utc": "2026-10-25T19:52:17.557487+00:00",
+  "files": {
+    "reference.py": "4c26b90d20b34ff7d1146ff8b796b571248b01e2c3bd33a5eab2fed61b05967f",
+    "test_reference.py": "715055a6c783b79ea7ae728bfbc134aec799d22cc64377b05f29a5f8a4ff6ace",
+    "test_adapters.py": "91759fa555c3f0103b02cb96fffed1625cfd76d7587723d642f9ae2d91158509",
+    "README.md": "b0624a3d93f677d777958734d080efd995cb71c35046457261837d1169760030",
+    "synthetic_final/receipt.json": "8e6f9070c9655e6bbab5f92883b2be6720e335d3123a50198cd6afc51db4e8e9",
+    "adapters_final/receipt.json": "063aaa1494a4793e20e6e34d1af877b5b4c18743b8d8c6fb8f0891c1fa1d13b4"
+  },
+  "specification_and_fixture_source_files": {
+    "work/research_cycle8/comt_pilot/protocol_v2.md": "97aea7e56ddf9c74a2fcbf4a17ce2bbd9280c8417d2534997835878b2a368d61",
+    "work/research_cycle8/comt_pilot/implementation_v1/integration_addendum.md": "c480ca92ce36b6e95849fceaea3e6bf49d14bcd7842b1e5fe1efd543ff33f4d2",
+    "work/research_cycle8/comt_pilot/implementation_v1/selective_contract.json": "091ab6a57b7d64ab56638430e95befca5dbffd790eec9c62ea5d6a504d450ce5",
+    "work/research_cycle8/comt_pilot/implementation_v1/test_implementation.py": "a7f35d2d6b8265843c6caf014b2eb5e34cab68e6da7c7ef5b3b7a93eeaa85bc3",
+    "work/research_cycle8/comt_pilot/implementation_v1/verify_staged_cli.py": "8a9e5300b4482fd433bf85ef674a1ea1aa74cdfdf111767f2b5d3818567327d5",
+    "work/research_cycle8/comt_pilot/implementation_v1/verify_source_normalization.py": "e98ef4596fb0d84d24a96f2977a05b72c4da761ceecc882e17ba2bb82a93079e",
+    "work/research_cycle8/comt_pilot/implementation_v1/verify_source_normalization.R": "01c324e94ad8c21afac613ea2f0b616d725a6e679e89b68aeb313c4152db8499"
+  },
+  "reference_imports": [
+    "argparse",
+    "bisect",
+    "collections",
+    "csv",
+    "fractions",
+    "hashlib",
+    "json",
+    "math",
+    "pathlib"
+  ],
+  "production_normalize_prediction_or_kernel_imported": false,
+  "production_normalize_prediction_source_read_for_this_assignment": false,
+  "actual_source_count_rows_read": 0,
+  "actual_source_simulation_numeric_rows_read": 0,
+  "observed_predictions_or_results_read": 0,
+  "RF_masks_conditioned_input": true,
+  "historical_RF_reproduction_claim": false,
+  "condition_number_diagnostics_independently_reproduced": false,
+  "numerical_tolerance": {
+    "relative": 2e-12,
+    "absolute": 2e-12,
+    "scope": "log/preparation arithmetic identity only; model rational arithmetic and decisions exact"
+  },
+  "next_action": "Wait for explicit parent authorization with pinned selected numerical files; stop on disagreement, no retuning."
+}

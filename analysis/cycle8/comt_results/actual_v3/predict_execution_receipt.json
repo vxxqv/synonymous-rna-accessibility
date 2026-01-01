@@ -1,0 +1,9 @@
+{
+  "phase": "predict",
+  "returncode": 0,
+  "authorization_sha256": "8857808ba0af64cd3246de687f647de733c81f69d6dc267522f563da2e81e705",
+  "log_sha256": "ff590b6da4a0dfc1c2f966f025b7281dbc9995e181e5264cfb0fb06a1e5bdbcc",
+  "sealed_manifest_exists": true,
+  "public_freeze_revision": "54e0e8fb364ad2f8a23f71d54d36910c25ef8a7e",
+  "sealed_manifest_sha256": "ff590b6da4a0dfc1c2f966f025b7281dbc9995e181e5264cfb0fb06a1e5bdbcc"
+}

@@ -1,0 +1,44 @@
+{
+  "scope": "Observation-only profiler of the unchanged sealed checker; no functions patched",
+  "reference_sha256": "222bffadbc94710810f9b9ea9c12b594281d4cb7cc83a719abfc6d6fb16143ec",
+  "observer_sha256": "35f8c1b71fc49721c458de3a83f0e2f37ef260969a2519c2442c39e9e9c1e445",
+  "groups": {
+    "code": {
+      "comparisons": 1500,
+      "numeric_comparisons": 1500,
+      "maximum_absolute_difference": 0.0,
+      "maximum_scaled_difference": 0.0
+    },
+    "technical-log median": {
+      "comparisons": 5000,
+      "numeric_comparisons": 5000,
+      "maximum_absolute_difference": 0.0,
+      "maximum_scaled_difference": 0.0
+    },
+    "source preparation log value": {
+      "comparisons": 7558,
+      "numeric_comparisons": 7558,
+      "maximum_absolute_difference": 0.0,
+      "maximum_scaled_difference": 0.0
+    },
+    "geo": {
+      "comparisons": 1500,
+      "numeric_comparisons": 1500,
+      "maximum_absolute_difference": 0.0,
+      "maximum_scaled_difference": 0.0
+    },
+    "positive-log or missingness": {
+      "comparisons": 3779,
+      "numeric_comparisons": 3779,
+      "maximum_absolute_difference": 0.0,
+      "maximum_scaled_difference": 0.0
+    },
+    "stored fraction": {
+      "comparisons": 1,
+      "numeric_comparisons": 1,
+      "maximum_absolute_difference": 0.0,
+      "maximum_scaled_difference": 0.0
+    }
+  },
+  "checker_completed": false
+}
