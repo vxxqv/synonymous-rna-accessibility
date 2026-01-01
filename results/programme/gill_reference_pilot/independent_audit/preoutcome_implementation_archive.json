@@ -1,0 +1,36 @@
+{
+  "historical_preoutcome_receipt": {
+    "status": "passed",
+    "scope": "Independent synthetic-only implementation audit; actual workbook never opened",
+    "seed": 2026102504,
+    "checks": {
+      "factorial_fields": 60,
+      "isotonic_cases": 150,
+      "geometry_fields": 25,
+      "score_checks": 96,
+      "invalid_count_checks": 8,
+      "selective_reader_checks": 6,
+      "end_to_end_toy_runs": 2,
+      "freeze_failures": 1
+    },
+    "runner_sha256_before": "f57f084c85fbfae3b27888e55284ff41e10fb178d719351fe94c40d17c9c2b83",
+    "runner_sha256_after": "f57f084c85fbfae3b27888e55284ff41e10fb178d719351fe94c40d17c9c2b83",
+    "independent_script_sha256": "72eeb8aa83770da643badb13e0e3e052c862570a3977a7838ef2a0201e4a7e3a",
+    "metadata_protocol_only_actual_inputs": [
+      "gill_reference_protocol_v1.json",
+      "gill_amplicon_pilot_v2.json"
+    ],
+    "observed_workbook_opened": false,
+    "observed_RNA_values_read": false
+  },
+  "historical_receipt_sha256": "627a456b25a7b9a4f56c93101a75cf63d918c97b32f3c11b1138d2ae1b95b6d4",
+  "original_script_sha256": "72eeb8aa83770da643badb13e0e3e052c862570a3977a7838ef2a0201e4a7e3a",
+  "archived_script_sha256": "b9e64c402ffcb07fec1403ccd91afcc95a103a4ffd1b9d2eb5c4011d6b5dba7f",
+  "archive_changes": [
+    "Repository-relative root discovery",
+    "Fresh replay output below independent_audit",
+    "Held reviewed runner hash guard"
+  ],
+  "archived_script_replayed": false,
+  "outcome_data_opened_for_archival": false
+}

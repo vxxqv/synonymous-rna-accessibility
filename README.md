@@ -99,6 +99,10 @@ The product checks require a new output location. The independent audit uses exp
 
 The frozen held-out acquisition benchmark contains 3,800 worlds and 22,800 policy runs, with every result retained. The proposed path/cut rule fails the predeclared efficiency hurdle and uses 0.398 more queries on average than the strongest forward baseline. The 95% seed-block interval [0.261, 0.535] describes Monte Carlo variation in this fixed synthetic design. The examined validation set is retired from tuning. See `results/programme/acquisition_v1/validation_report.md` and its frozen protocol for the exact paired design, all comparators and failures.
 
+### Measured RNA pilot
+
+A complete 32-genotype reference-protein fibre from the Gill2026 deposit was frozen before reading RNA outcomes. All predictions were committed before the held-out RNA library. The pairwise predictor fails its primary hurdle: RMSE 0.551 versus 0.466 for the constant baseline, with failure at both pseudocount sensitivities. This is conditional reproduction of a held-out RNA library on the same genotypes. Biological independence, RNA/DNA pairing and calibrated measurement uncertainty remain unresolved. No biological interaction or folding mechanism is inferred from positive observed-field barriers. The complete protocol, source attribution, chronology and replay instructions are in `results/programme/gill_reference_pilot/README.md`.
+
 ### Figure-source reproduction
 
 Panel data are in `results/figure_data/`. The fresh rendering source writes assets only outside the computational repository:
@@ -107,7 +111,10 @@ Panel data are in `results/figure_data/`. The fresh rendering source writes asse
 python analysis/render_figure_suite.py --out /path/outside/this/repository/figures --figures 1,2,3,4,5,6,S1,S2,S3,S4
 python analysis/render_identification_figure.py --out /path/outside/this/repository/figures
 python analysis/render_joint_uncertainty_figure.py --out /path/outside/this/repository/figures --qa work/figure8qa
+python analysis/render_gill_pilot_figure.py --outdir /path/outside/this/repository/figures --qa /path/outside/this/repository/figure9qa
 ```
+
+Figure 9 uses the frozen panel-data manifest `results/figure_data/Figure_9.json`. Its renderer verifies the saved training and validation source hashes, recomputes the displayed summaries, and exports the complete failed prediction comparison without opening the source workbook or refitting models. The required `--outdir` and `--qa` arguments are confirmed by `python analysis/render_gill_pilot_figure.py --help`.
 
 No manuscript, submission files, article PDFs, figure exports or publishing automation belong in this archive. The continuous-integration workflow only verifies computations.
 

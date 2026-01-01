@@ -1,0 +1,5378 @@
+[
+  {
+    "pseudocount": 0.25,
+    "model": "constant",
+    "key": "CGTACCAT",
+    "prediction": 0.0,
+    "outcome": 0.555288832142999,
+    "error": -0.555288832142999
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "constant",
+    "key": "CGTACCCT",
+    "prediction": 0.0,
+    "outcome": -0.052255761620905616,
+    "error": 0.052255761620905616
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "constant",
+    "key": "CGTACCGT",
+    "prediction": 0.0,
+    "outcome": 0.9941748643175572,
+    "error": -0.9941748643175572
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "constant",
+    "key": "CGTACCTT",
+    "prediction": 0.0,
+    "outcome": 0.0,
+    "error": 0.0
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "constant",
+    "key": "CGTCCCAT",
+    "prediction": 0.0,
+    "outcome": 0.19433458771343481,
+    "error": -0.19433458771343481
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "constant",
+    "key": "CGTCCCCT",
+    "prediction": 0.0,
+    "outcome": 0.2820171136402454,
+    "error": -0.2820171136402454
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "constant",
+    "key": "CGTCCCGT",
+    "prediction": 0.0,
+    "outcome": 0.6696030893491347,
+    "error": -0.6696030893491347
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "constant",
+    "key": "CGTCCCTT",
+    "prediction": 0.0,
+    "outcome": 0.3055977715387943,
+    "error": -0.3055977715387943
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "constant",
+    "key": "CGTGCCAT",
+    "prediction": 0.0,
+    "outcome": 0.47380284904556547,
+    "error": -0.47380284904556547
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "constant",
+    "key": "CGTGCCCT",
+    "prediction": 0.0,
+    "outcome": -0.2972353914821033,
+    "error": 0.2972353914821033
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "constant",
+    "key": "CGTGCCGT",
+    "prediction": 0.0,
+    "outcome": 0.2960023516512731,
+    "error": -0.2960023516512731
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "constant",
+    "key": "CGTGCCTT",
+    "prediction": 0.0,
+    "outcome": 0.24045580414994028,
+    "error": -0.24045580414994028
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "constant",
+    "key": "CGTTCCAT",
+    "prediction": 0.0,
+    "outcome": 0.36924418699089046,
+    "error": -0.36924418699089046
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "constant",
+    "key": "CGTTCCCT",
+    "prediction": 0.0,
+    "outcome": -0.12082498320537383,
+    "error": 0.12082498320537383
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "constant",
+    "key": "CGTTCCGT",
+    "prediction": 0.0,
+    "outcome": 0.20102605031056875,
+    "error": -0.20102605031056875
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "constant",
+    "key": "CGTTCCTT",
+    "prediction": 0.0,
+    "outcome": 0.538615671753865,
+    "error": -0.538615671753865
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "constant",
+    "key": "TGTACCAT",
+    "prediction": 0.0,
+    "outcome": -0.6282494222179258,
+    "error": 0.6282494222179258
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "constant",
+    "key": "TGTACCCT",
+    "prediction": 0.0,
+    "outcome": -0.651601077876359,
+    "error": 0.651601077876359
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "constant",
+    "key": "TGTACCGT",
+    "prediction": 0.0,
+    "outcome": 0.5160150492280433,
+    "error": -0.5160150492280433
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "constant",
+    "key": "TGTACCTT",
+    "prediction": 0.0,
+    "outcome": 0.6492450249285486,
+    "error": -0.6492450249285486
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "constant",
+    "key": "TGTCCCAT",
+    "prediction": 0.0,
+    "outcome": 0.5862172801482153,
+    "error": -0.5862172801482153
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "constant",
+    "key": "TGTCCCCT",
+    "prediction": 0.0,
+    "outcome": 0.004838827845585314,
+    "error": -0.004838827845585314
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "constant",
+    "key": "TGTCCCGT",
+    "prediction": 0.0,
+    "outcome": 0.5985907258718051,
+    "error": -0.5985907258718051
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "constant",
+    "key": "TGTCCCTT",
+    "prediction": 0.0,
+    "outcome": 0.21954461127644898,
+    "error": -0.21954461127644898
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "constant",
+    "key": "TGTGCCAT",
+    "prediction": 0.0,
+    "outcome": 0.6160152392268543,
+    "error": -0.6160152392268543
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "constant",
+    "key": "TGTGCCCT",
+    "prediction": 0.0,
+    "outcome": 0.2269126490079607,
+    "error": -0.2269126490079607
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "constant",
+    "key": "TGTGCCGT",
+    "prediction": 0.0,
+    "outcome": 0.5472765252109184,
+    "error": -0.5472765252109184
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "constant",
+    "key": "TGTGCCTT",
+    "prediction": 0.0,
+    "outcome": 0.3087022389593326,
+    "error": -0.3087022389593326
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "constant",
+    "key": "TGTTCCAT",
+    "prediction": 0.0,
+    "outcome": 0.3667795287698077,
+    "error": -0.3667795287698077
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "constant",
+    "key": "TGTTCCCT",
+    "prediction": 0.0,
+    "outcome": 0.8280879166221755,
+    "error": -0.8280879166221755
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "constant",
+    "key": "TGTTCCGT",
+    "prediction": 0.0,
+    "outcome": 0.06136843558664751,
+    "error": -0.06136843558664751
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "constant",
+    "key": "TGTTCCTT",
+    "prediction": 0.0,
+    "outcome": 0.38015251495986213,
+    "error": -0.38015251495986213
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "gc",
+    "key": "CGTACCAT",
+    "prediction": 0.0,
+    "outcome": 0.555288832142999,
+    "error": -0.555288832142999
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "gc",
+    "key": "CGTACCCT",
+    "prediction": -0.12643878259566632,
+    "outcome": -0.052255761620905616,
+    "error": -0.0741830209747607
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "gc",
+    "key": "CGTACCGT",
+    "prediction": -0.12643878259566632,
+    "outcome": 0.9941748643175572,
+    "error": -1.1206136469132235
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "gc",
+    "key": "CGTACCTT",
+    "prediction": 0.0,
+    "outcome": 0.0,
+    "error": 0.0
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "gc",
+    "key": "CGTCCCAT",
+    "prediction": -0.12643878259566632,
+    "outcome": 0.19433458771343481,
+    "error": -0.32077337030910114
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "gc",
+    "key": "CGTCCCCT",
+    "prediction": -0.2528775651913324,
+    "outcome": 0.2820171136402454,
+    "error": -0.5348946788315778
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "gc",
+    "key": "CGTCCCGT",
+    "prediction": -0.2528775651913324,
+    "outcome": 0.6696030893491347,
+    "error": -0.9224806545404671
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "gc",
+    "key": "CGTCCCTT",
+    "prediction": -0.12643878259566632,
+    "outcome": 0.3055977715387943,
+    "error": -0.4320365541344606
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "gc",
+    "key": "CGTGCCAT",
+    "prediction": -0.12643878259566632,
+    "outcome": 0.47380284904556547,
+    "error": -0.6002416316412318
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "gc",
+    "key": "CGTGCCCT",
+    "prediction": -0.2528775651913324,
+    "outcome": -0.2972353914821033,
+    "error": 0.044357826290770896
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "gc",
+    "key": "CGTGCCGT",
+    "prediction": -0.2528775651913324,
+    "outcome": 0.2960023516512731,
+    "error": -0.5488799168426055
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "gc",
+    "key": "CGTGCCTT",
+    "prediction": -0.12643878259566632,
+    "outcome": 0.24045580414994028,
+    "error": -0.3668945867456066
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "gc",
+    "key": "CGTTCCAT",
+    "prediction": 0.0,
+    "outcome": 0.36924418699089046,
+    "error": -0.36924418699089046
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "gc",
+    "key": "CGTTCCCT",
+    "prediction": -0.12643878259566632,
+    "outcome": -0.12082498320537383,
+    "error": -0.005613799390292495
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "gc",
+    "key": "CGTTCCGT",
+    "prediction": -0.12643878259566632,
+    "outcome": 0.20102605031056875,
+    "error": -0.32746483290623507
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "gc",
+    "key": "CGTTCCTT",
+    "prediction": 0.0,
+    "outcome": 0.538615671753865,
+    "error": -0.538615671753865
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "gc",
+    "key": "TGTACCAT",
+    "prediction": 0.1264387825956661,
+    "outcome": -0.6282494222179258,
+    "error": 0.7546882048135919
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "gc",
+    "key": "TGTACCCT",
+    "prediction": 0.0,
+    "outcome": -0.651601077876359,
+    "error": 0.651601077876359
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "gc",
+    "key": "TGTACCGT",
+    "prediction": 0.0,
+    "outcome": 0.5160150492280433,
+    "error": -0.5160150492280433
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "gc",
+    "key": "TGTACCTT",
+    "prediction": 0.1264387825956661,
+    "outcome": 0.6492450249285486,
+    "error": -0.5228062423328825
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "gc",
+    "key": "TGTCCCAT",
+    "prediction": 0.0,
+    "outcome": 0.5862172801482153,
+    "error": -0.5862172801482153
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "gc",
+    "key": "TGTCCCCT",
+    "prediction": -0.12643878259566632,
+    "outcome": 0.004838827845585314,
+    "error": -0.13127761044125164
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "gc",
+    "key": "TGTCCCGT",
+    "prediction": -0.12643878259566632,
+    "outcome": 0.5985907258718051,
+    "error": -0.7250295084674714
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "gc",
+    "key": "TGTCCCTT",
+    "prediction": 0.0,
+    "outcome": 0.21954461127644898,
+    "error": -0.21954461127644898
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "gc",
+    "key": "TGTGCCAT",
+    "prediction": 0.0,
+    "outcome": 0.6160152392268543,
+    "error": -0.6160152392268543
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "gc",
+    "key": "TGTGCCCT",
+    "prediction": -0.12643878259566632,
+    "outcome": 0.2269126490079607,
+    "error": -0.35335143160362703
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "gc",
+    "key": "TGTGCCGT",
+    "prediction": -0.12643878259566632,
+    "outcome": 0.5472765252109184,
+    "error": -0.6737153078065847
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "gc",
+    "key": "TGTGCCTT",
+    "prediction": 0.0,
+    "outcome": 0.3087022389593326,
+    "error": -0.3087022389593326
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "gc",
+    "key": "TGTTCCAT",
+    "prediction": 0.1264387825956661,
+    "outcome": 0.3667795287698077,
+    "error": -0.24034074617414158
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "gc",
+    "key": "TGTTCCCT",
+    "prediction": 0.0,
+    "outcome": 0.8280879166221755,
+    "error": -0.8280879166221755
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "gc",
+    "key": "TGTTCCGT",
+    "prediction": 0.0,
+    "outcome": 0.06136843558664751,
+    "error": -0.06136843558664751
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "gc",
+    "key": "TGTTCCTT",
+    "prediction": 0.1264387825956661,
+    "outcome": 0.38015251495986213,
+    "error": -0.25371373236419603
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "additive",
+    "key": "CGTACCAT",
+    "prediction": 0.30637641067377563,
+    "outcome": 0.555288832142999,
+    "error": -0.24891242146922332
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "additive",
+    "key": "CGTACCCT",
+    "prediction": -0.43556099224204536,
+    "outcome": -0.052255761620905616,
+    "error": -0.38330523062113975
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "additive",
+    "key": "CGTACCGT",
+    "prediction": 0.20417271503287893,
+    "outcome": 0.9941748643175572,
+    "error": -0.7900021492846783
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "additive",
+    "key": "CGTACCTT",
+    "prediction": 0.0,
+    "outcome": 0.0,
+    "error": 0.0
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "additive",
+    "key": "CGTCCCAT",
+    "prediction": 0.05864464259509128,
+    "outcome": 0.19433458771343481,
+    "error": -0.13568994511834354
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "additive",
+    "key": "CGTCCCCT",
+    "prediction": -0.6832927603207297,
+    "outcome": 0.2820171136402454,
+    "error": -0.9653098739609751
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "additive",
+    "key": "CGTCCCGT",
+    "prediction": -0.04355905304580565,
+    "outcome": 0.6696030893491347,
+    "error": -0.7131621423949404
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "additive",
+    "key": "CGTCCCTT",
+    "prediction": -0.24773176807868458,
+    "outcome": 0.3055977715387943,
+    "error": -0.5533295396174789
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "additive",
+    "key": "CGTGCCAT",
+    "prediction": 0.18897548202074255,
+    "outcome": 0.47380284904556547,
+    "error": -0.2848273670248229
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "additive",
+    "key": "CGTGCCCT",
+    "prediction": -0.5529619208950785,
+    "outcome": -0.2972353914821033,
+    "error": -0.25572652941297513
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "additive",
+    "key": "CGTGCCGT",
+    "prediction": 0.08677178637984584,
+    "outcome": 0.2960023516512731,
+    "error": -0.20923056527142725
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "additive",
+    "key": "CGTGCCTT",
+    "prediction": -0.11740092865303309,
+    "outcome": 0.24045580414994028,
+    "error": -0.35785673280297337
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "additive",
+    "key": "CGTTCCAT",
+    "prediction": 0.15749650216352862,
+    "outcome": 0.36924418699089046,
+    "error": -0.21174768482736184
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "additive",
+    "key": "CGTTCCCT",
+    "prediction": -0.5844409007522924,
+    "outcome": -0.12082498320537383,
+    "error": -0.46361591754691855
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "additive",
+    "key": "CGTTCCGT",
+    "prediction": 0.05529280652263169,
+    "outcome": 0.20102605031056875,
+    "error": -0.14573324378793706
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "additive",
+    "key": "CGTTCCTT",
+    "prediction": -0.14887990851024724,
+    "outcome": 0.538615671753865,
+    "error": -0.6874955802641123
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "additive",
+    "key": "TGTACCAT",
+    "prediction": 0.3086840204085681,
+    "outcome": -0.6282494222179258,
+    "error": 0.9369334426264939
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "additive",
+    "key": "TGTACCCT",
+    "prediction": -0.43325338250725287,
+    "outcome": -0.651601077876359,
+    "error": 0.21834769536910614
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "additive",
+    "key": "TGTACCGT",
+    "prediction": 0.2064803247676712,
+    "outcome": 0.5160150492280433,
+    "error": -0.3095347244603721
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "additive",
+    "key": "TGTACCTT",
+    "prediction": 0.002307609734792271,
+    "outcome": 0.6492450249285486,
+    "error": -0.6469374151937564
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "additive",
+    "key": "TGTCCCAT",
+    "prediction": 0.06095225232988355,
+    "outcome": 0.5862172801482153,
+    "error": -0.5252650278183317
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "additive",
+    "key": "TGTCCCCT",
+    "prediction": -0.6809851505859374,
+    "outcome": 0.004838827845585314,
+    "error": -0.6858239784315228
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "additive",
+    "key": "TGTCCCGT",
+    "prediction": -0.04125144331101316,
+    "outcome": 0.5985907258718051,
+    "error": -0.6398421691828182
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "additive",
+    "key": "TGTCCCTT",
+    "prediction": -0.24542415834389208,
+    "outcome": 0.21954461127644898,
+    "error": -0.46496876962034106
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "additive",
+    "key": "TGTGCCAT",
+    "prediction": 0.19128309175553504,
+    "outcome": 0.6160152392268543,
+    "error": -0.42473214747131927
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "additive",
+    "key": "TGTGCCCT",
+    "prediction": -0.550654311160286,
+    "outcome": 0.2269126490079607,
+    "error": -0.7775669601682467
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "additive",
+    "key": "TGTGCCGT",
+    "prediction": 0.08907939611463811,
+    "outcome": 0.5472765252109184,
+    "error": -0.4581971290962803
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "additive",
+    "key": "TGTGCCTT",
+    "prediction": -0.11509331891824082,
+    "outcome": 0.3087022389593326,
+    "error": -0.4237955578775734
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "additive",
+    "key": "TGTTCCAT",
+    "prediction": 0.1598041118983209,
+    "outcome": 0.3667795287698077,
+    "error": -0.2069754168714868
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "additive",
+    "key": "TGTTCCCT",
+    "prediction": -0.5821332910175001,
+    "outcome": 0.8280879166221755,
+    "error": -1.4102212076396756
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "additive",
+    "key": "TGTTCCGT",
+    "prediction": 0.05760041625742418,
+    "outcome": 0.06136843558664751,
+    "error": -0.0037680193292233266
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "additive",
+    "key": "TGTTCCTT",
+    "prediction": -0.14657229877545475,
+    "outcome": 0.38015251495986213,
+    "error": -0.5267248137353169
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "isotonic_additive",
+    "key": "CGTACCAT",
+    "prediction": 0.3950111456090578,
+    "outcome": 0.555288832142999,
+    "error": -0.16027768653394114
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "isotonic_additive",
+    "key": "CGTACCCT",
+    "prediction": -0.5413911597216203,
+    "outcome": -0.052255761620905616,
+    "error": -0.4891353981007147
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "isotonic_additive",
+    "key": "CGTACCGT",
+    "prediction": 0.3950111456090578,
+    "outcome": 0.9941748643175572,
+    "error": -0.5991637187084994
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "isotonic_additive",
+    "key": "CGTACCTT",
+    "prediction": 0.0,
+    "outcome": 0.0,
+    "error": 0.0
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "isotonic_additive",
+    "key": "CGTCCCAT",
+    "prediction": 0.0,
+    "outcome": 0.19433458771343481,
+    "error": -0.19433458771343481
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "isotonic_additive",
+    "key": "CGTCCCCT",
+    "prediction": -0.5413911597216203,
+    "outcome": 0.2820171136402454,
+    "error": -0.8234082733618657
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "isotonic_additive",
+    "key": "CGTCCCGT",
+    "prediction": -0.05446471006512754,
+    "outcome": 0.6696030893491347,
+    "error": -0.7240677994142622
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "isotonic_additive",
+    "key": "CGTCCCTT",
+    "prediction": -0.4390282731013674,
+    "outcome": 0.3055977715387943,
+    "error": -0.7446260446401617
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "isotonic_additive",
+    "key": "CGTGCCAT",
+    "prediction": 0.20166310384398745,
+    "outcome": 0.47380284904556547,
+    "error": -0.272139745201578
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "isotonic_additive",
+    "key": "CGTGCCCT",
+    "prediction": -0.5413911597216203,
+    "outcome": -0.2972353914821033,
+    "error": -0.244155768239517
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "isotonic_additive",
+    "key": "CGTGCCGT",
+    "prediction": 0.038734454212754676,
+    "outcome": 0.2960023516512731,
+    "error": -0.2572678974385184
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "isotonic_additive",
+    "key": "CGTGCCTT",
+    "prediction": -0.05446471006512754,
+    "outcome": 0.24045580414994028,
+    "error": -0.2949205142150678
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "isotonic_additive",
+    "key": "CGTTCCAT",
+    "prediction": 0.20166310384398745,
+    "outcome": 0.36924418699089046,
+    "error": -0.167581083146903
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "isotonic_additive",
+    "key": "CGTTCCCT",
+    "prediction": -0.5413911597216203,
+    "outcome": -0.12082498320537383,
+    "error": -0.4205661765162465
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "isotonic_additive",
+    "key": "CGTTCCGT",
+    "prediction": 0.0,
+    "outcome": 0.20102605031056875,
+    "error": -0.20102605031056875
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "isotonic_additive",
+    "key": "CGTTCCTT",
+    "prediction": -0.23182173667743167,
+    "outcome": 0.538615671753865,
+    "error": -0.7704374084312967
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "isotonic_additive",
+    "key": "TGTACCAT",
+    "prediction": 0.48455540548642106,
+    "outcome": -0.6282494222179258,
+    "error": 1.112804827704347
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "isotonic_additive",
+    "key": "TGTACCCT",
+    "prediction": -0.5413911597216203,
+    "outcome": -0.651601077876359,
+    "error": 0.11020991815473868
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "isotonic_additive",
+    "key": "TGTACCGT",
+    "prediction": 0.3950111456090578,
+    "outcome": 0.5160150492280433,
+    "error": -0.1210039036189855
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "isotonic_additive",
+    "key": "TGTACCTT",
+    "prediction": 0.0,
+    "outcome": 0.6492450249285486,
+    "error": -0.6492450249285486
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "isotonic_additive",
+    "key": "TGTCCCAT",
+    "prediction": 0.038734454212754676,
+    "outcome": 0.5862172801482153,
+    "error": -0.5474828259354606
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "isotonic_additive",
+    "key": "TGTCCCCT",
+    "prediction": -0.5413911597216203,
+    "outcome": 0.004838827845585314,
+    "error": -0.5462299875672056
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "isotonic_additive",
+    "key": "TGTCCCGT",
+    "prediction": -0.05446471006512754,
+    "outcome": 0.5985907258718051,
+    "error": -0.6530554359369326
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "isotonic_additive",
+    "key": "TGTCCCTT",
+    "prediction": -0.29912210087097046,
+    "outcome": 0.21954461127644898,
+    "error": -0.5186667121474194
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "isotonic_additive",
+    "key": "TGTGCCAT",
+    "prediction": 0.23305448100378923,
+    "outcome": 0.6160152392268543,
+    "error": -0.3829607582230651
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "isotonic_additive",
+    "key": "TGTGCCCT",
+    "prediction": -0.5413911597216203,
+    "outcome": 0.2269126490079607,
+    "error": -0.768303808729581
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "isotonic_additive",
+    "key": "TGTGCCGT",
+    "prediction": 0.20166310384398745,
+    "outcome": 0.5472765252109184,
+    "error": -0.34561342136693096
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "isotonic_additive",
+    "key": "TGTGCCTT",
+    "prediction": -0.05446471006512754,
+    "outcome": 0.3087022389593326,
+    "error": -0.3631669490244601
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "isotonic_additive",
+    "key": "TGTTCCAT",
+    "prediction": 0.20166310384398745,
+    "outcome": 0.3667795287698077,
+    "error": -0.16511642492582024
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "isotonic_additive",
+    "key": "TGTTCCCT",
+    "prediction": -0.5413911597216203,
+    "outcome": 0.8280879166221755,
+    "error": -1.3694790763437958
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "isotonic_additive",
+    "key": "TGTTCCGT",
+    "prediction": 0.0,
+    "outcome": 0.06136843558664751,
+    "error": -0.06136843558664751
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "isotonic_additive",
+    "key": "TGTTCCTT",
+    "prediction": -0.05446471006512754,
+    "outcome": 0.38015251495986213,
+    "error": -0.4346172250249897
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "pairwise_half",
+    "key": "CGTACCAT",
+    "prediction": 0.3269987449576346,
+    "outcome": 0.555288832142999,
+    "error": -0.22829008718536437
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "pairwise_half",
+    "key": "CGTACCCT",
+    "prediction": -0.5779272636561628,
+    "outcome": -0.052255761620905616,
+    "error": -0.5256715020352571
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "pairwise_half",
+    "key": "CGTACCGT",
+    "prediction": 0.3433643123320844,
+    "outcome": 0.9941748643175572,
+    "error": -0.6508105519854728
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "pairwise_half",
+    "key": "CGTACCTT",
+    "prediction": 0.0,
+    "outcome": 0.0,
+    "error": 0.0
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "pairwise_half",
+    "key": "CGTCCCAT",
+    "prediction": -0.008226549316649123,
+    "outcome": 0.19433458771343481,
+    "error": -0.20256113703008394
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "pairwise_half",
+    "key": "CGTCCCCT",
+    "prediction": -0.483767461264784,
+    "outcome": 0.2820171136402454,
+    "error": -0.7657845749050294
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "pairwise_half",
+    "key": "CGTCCCGT",
+    "prediction": -0.04649355441941072,
+    "outcome": 0.6696030893491347,
+    "error": -0.7160966437685454
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "pairwise_half",
+    "key": "CGTCCCTT",
+    "prediction": -0.332883838450996,
+    "outcome": 0.3055977715387943,
+    "error": -0.6384816099897903
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "pairwise_half",
+    "key": "CGTGCCAT",
+    "prediction": 0.06192367861771775,
+    "outcome": 0.47380284904556547,
+    "error": -0.4118791704278477
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "pairwise_half",
+    "key": "CGTGCCCT",
+    "prediction": -0.6078260802391525,
+    "outcome": -0.2972353914821033,
+    "error": -0.3105906887570492
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "pairwise_half",
+    "key": "CGTGCCGT",
+    "prediction": 0.09464512055275942,
+    "outcome": 0.2960023516512731,
+    "error": -0.20135723109851367
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "pairwise_half",
+    "key": "CGTGCCTT",
+    "prediction": -0.1422763471577213,
+    "outcome": 0.24045580414994028,
+    "error": -0.3827321513076616
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "pairwise_half",
+    "key": "CGTTCCAT",
+    "prediction": 0.2153258583146378,
+    "outcome": 0.36924418699089046,
+    "error": -0.15391832867625266
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "pairwise_half",
+    "key": "CGTTCCCT",
+    "prediction": -0.5256522404418964,
+    "outcome": -0.12082498320537383,
+    "error": -0.4048272572365226
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "pairwise_half",
+    "key": "CGTTCCGT",
+    "prediction": 0.09419996695197796,
+    "outcome": 0.20102605031056875,
+    "error": -0.10682608335859078
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "pairwise_half",
+    "key": "CGTTCCTT",
+    "prediction": -0.125493163428821,
+    "outcome": 0.538615671753865,
+    "error": -0.664108835182686
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "pairwise_half",
+    "key": "TGTACCAT",
+    "prediction": 0.38882044466301235,
+    "outcome": -0.6282494222179258,
+    "error": 1.0170698668809381
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "pairwise_half",
+    "key": "TGTACCCT",
+    "prediction": -0.6043829806947589,
+    "outcome": -0.651601077876359,
+    "error": 0.04721809718160008
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "pairwise_half",
+    "key": "TGTACCGT",
+    "prediction": 0.25593156433363307,
+    "outcome": 0.5160150492280433,
+    "error": -0.26008348489441024
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "pairwise_half",
+    "key": "TGTACCTT",
+    "prediction": 0.04740641916326549,
+    "outcome": 0.6492450249285486,
+    "error": -0.6018386057652831
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "pairwise_half",
+    "key": "TGTCCCAT",
+    "prediction": 0.040035212774057305,
+    "outcome": 0.5862172801482153,
+    "error": -0.546182067374158
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "pairwise_half",
+    "key": "TGTCCCCT",
+    "prediction": -0.5237831159180512,
+    "outcome": 0.004838827845585314,
+    "error": -0.5286219437636365
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "pairwise_half",
+    "key": "TGTCCCGT",
+    "prediction": -0.14748624003253274,
+    "outcome": 0.5985907258718051,
+    "error": -0.7460769659043378
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "pairwise_half",
+    "key": "TGTCCCTT",
+    "prediction": -0.2990373569024012,
+    "outcome": 0.21954461127644898,
+    "error": -0.5185819681788502
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "pairwise_half",
+    "key": "TGTGCCAT",
+    "prediction": 0.23192823194700551,
+    "outcome": 0.6160152392268543,
+    "error": -0.3840870072798488
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "pairwise_half",
+    "key": "TGTGCCCT",
+    "prediction": -0.5260989436538385,
+    "outcome": 0.2269126490079607,
+    "error": -0.7530115926617992
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "pairwise_half",
+    "key": "TGTGCCGT",
+    "prediction": 0.11539522617821829,
+    "outcome": 0.5472765252109184,
+    "error": -0.4318812990327001
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "pairwise_half",
+    "key": "TGTGCCTT",
+    "prediction": 0.013312925629454408,
+    "outcome": 0.3087022389593326,
+    "error": -0.29538931332987817
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "pairwise_half",
+    "key": "TGTTCCAT",
+    "prediction": 0.1964154271183498,
+    "outcome": 0.3667795287698077,
+    "error": -0.17036410165145788
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "pairwise_half",
+    "key": "TGTTCCCT",
+    "prediction": -0.632840088382158,
+    "outcome": 0.8280879166221755,
+    "error": -1.4609280050043334
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "pairwise_half",
+    "key": "TGTTCCGT",
+    "prediction": -0.07396491194813848,
+    "outcome": 0.06136843558664751,
+    "error": -0.13533334753478599
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "pairwise_half",
+    "key": "TGTTCCTT",
+    "prediction": -0.1588188751672206,
+    "outcome": 0.38015251495986213,
+    "error": -0.5389713901270827
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "heat",
+    "key": "CGTACCAT",
+    "prediction": 0.14279574288741137,
+    "outcome": 0.555288832142999,
+    "error": -0.4124930892555876
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "heat",
+    "key": "CGTACCCT",
+    "prediction": -0.3206282888679668,
+    "outcome": -0.052255761620905616,
+    "error": -0.2683725272470612
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "heat",
+    "key": "CGTACCGT",
+    "prediction": 0.16685249148379766,
+    "outcome": 0.9941748643175572,
+    "error": -0.8273223728337595
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "heat",
+    "key": "CGTACCTT",
+    "prediction": 0.0,
+    "outcome": 0.0,
+    "error": 0.0
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "heat",
+    "key": "CGTCCCAT",
+    "prediction": -0.0281846561075082,
+    "outcome": 0.19433458771343481,
+    "error": -0.222519243820943
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "heat",
+    "key": "CGTCCCCT",
+    "prediction": -0.25580825724995626,
+    "outcome": 0.2820171136402454,
+    "error": -0.5378253708902017
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "heat",
+    "key": "CGTCCCGT",
+    "prediction": -0.012320283932258369,
+    "outcome": 0.6696030893491347,
+    "error": -0.6819233732813931
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "heat",
+    "key": "CGTCCCTT",
+    "prediction": -0.19095374568480283,
+    "outcome": 0.3055977715387943,
+    "error": -0.49655151722359714
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "heat",
+    "key": "CGTGCCAT",
+    "prediction": 0.008798985143343985,
+    "outcome": 0.47380284904556547,
+    "error": -0.4650038639022215
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "heat",
+    "key": "CGTGCCCT",
+    "prediction": -0.33150910374789533,
+    "outcome": -0.2972353914821033,
+    "error": -0.03427371226579201
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "heat",
+    "key": "CGTGCCGT",
+    "prediction": 0.01254065811655214,
+    "outcome": 0.2960023516512731,
+    "error": -0.28346169353472095
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "heat",
+    "key": "CGTGCCTT",
+    "prediction": -0.08860611012598185,
+    "outcome": 0.24045580414994028,
+    "error": -0.32906191427592213
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "heat",
+    "key": "CGTTCCAT",
+    "prediction": 0.0898744240399949,
+    "outcome": 0.36924418699089046,
+    "error": -0.27936976295089555
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "heat",
+    "key": "CGTTCCCT",
+    "prediction": -0.23780153999199205,
+    "outcome": -0.12082498320537383,
+    "error": -0.11697655678661822
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "heat",
+    "key": "CGTTCCGT",
+    "prediction": 0.052881903200617586,
+    "outcome": 0.20102605031056875,
+    "error": -0.14814414710995116
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "heat",
+    "key": "CGTTCCTT",
+    "prediction": -0.0995221843254569,
+    "outcome": 0.538615671753865,
+    "error": -0.6381378560793219
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "heat",
+    "key": "TGTACCAT",
+    "prediction": 0.18627357894260577,
+    "outcome": -0.6282494222179258,
+    "error": 0.8145230011605316
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "heat",
+    "key": "TGTACCCT",
+    "prediction": -0.2993671062878003,
+    "outcome": -0.651601077876359,
+    "error": 0.35223397158855874
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "heat",
+    "key": "TGTACCGT",
+    "prediction": 0.10395517386875475,
+    "outcome": 0.5160150492280433,
+    "error": -0.41205987535928856
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "heat",
+    "key": "TGTACCTT",
+    "prediction": -0.00513706339867348,
+    "outcome": 0.6492450249285486,
+    "error": -0.6543820883272221
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "heat",
+    "key": "TGTCCCAT",
+    "prediction": 0.015248714855906065,
+    "outcome": 0.5862172801482153,
+    "error": -0.5709685652923092
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "heat",
+    "key": "TGTCCCCT",
+    "prediction": -0.2768073043217675,
+    "outcome": 0.004838827845585314,
+    "error": -0.2816461321673528
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "heat",
+    "key": "TGTCCCGT",
+    "prediction": -0.11350988627401948,
+    "outcome": 0.5985907258718051,
+    "error": -0.7121006121458245
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "heat",
+    "key": "TGTCCCTT",
+    "prediction": -0.15384712497220188,
+    "outcome": 0.21954461127644898,
+    "error": -0.37339173624865085
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "heat",
+    "key": "TGTGCCAT",
+    "prediction": 0.10928669715871142,
+    "outcome": 0.6160152392268543,
+    "error": -0.5067285420681429
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "heat",
+    "key": "TGTGCCCT",
+    "prediction": -0.2642936811789063,
+    "outcome": 0.2269126490079607,
+    "error": -0.491206330186867
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "heat",
+    "key": "TGTGCCGT",
+    "prediction": 0.06363924226863049,
+    "outcome": 0.5472765252109184,
+    "error": -0.4836372829422879
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "heat",
+    "key": "TGTGCCTT",
+    "prediction": -0.004715873618457711,
+    "outcome": 0.3087022389593326,
+    "error": -0.3134181125777903
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "heat",
+    "key": "TGTTCCAT",
+    "prediction": 0.08715594569619256,
+    "outcome": 0.3667795287698077,
+    "error": -0.2796235830736151
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "heat",
+    "key": "TGTTCCCT",
+    "prediction": -0.3702848974003412,
+    "outcome": 0.8280879166221755,
+    "error": -1.1983728140225167
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "heat",
+    "key": "TGTTCCGT",
+    "prediction": -0.07160464867900396,
+    "outcome": 0.06136843558664751,
+    "error": -0.13297308426565146
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "heat",
+    "key": "TGTTCCTT",
+    "prediction": -0.07147410795287001,
+    "outcome": 0.38015251495986213,
+    "error": -0.45162662291273215
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "training_mean",
+    "key": "CGTACCAT",
+    "prediction": 0.2389479400435892,
+    "outcome": 0.555288832142999,
+    "error": -0.31634089209940974
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "training_mean",
+    "key": "CGTACCCT",
+    "prediction": -0.9426833224462765,
+    "outcome": -0.052255761620905616,
+    "error": -0.8904275608253709
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "training_mean",
+    "key": "CGTACCGT",
+    "prediction": 0.3762482450656712,
+    "outcome": 0.9941748643175572,
+    "error": -0.617926619251886
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "training_mean",
+    "key": "CGTACCTT",
+    "prediction": 0.0,
+    "outcome": 0.0,
+    "error": 0.0
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "training_mean",
+    "key": "CGTCCCAT",
+    "prediction": -0.21076498938394117,
+    "outcome": 0.19433458771343481,
+    "error": -0.405099577097376
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "training_mean",
+    "key": "CGTCCCCT",
+    "prediction": -0.41422184496851955,
+    "outcome": 0.2820171136402454,
+    "error": -0.696238958608765
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "training_mean",
+    "key": "CGTCCCGT",
+    "prediction": -0.0745486587984221,
+    "outcome": 0.6696030893491347,
+    "error": -0.7441517481475568
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "training_mean",
+    "key": "CGTCCCTT",
+    "prediction": -0.5646389660421871,
+    "outcome": 0.3055977715387943,
+    "error": -0.8702367375809814
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "training_mean",
+    "key": "CGTGCCAT",
+    "prediction": -0.11868383627956014,
+    "outcome": 0.47380284904556547,
+    "error": -0.5924866853251256
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "training_mean",
+    "key": "CGTGCCCT",
+    "prediction": -0.798692538592884,
+    "outcome": -0.2972353914821033,
+    "error": -0.5014571471107807
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "training_mean",
+    "key": "CGTGCCGT",
+    "prediction": -0.109852603260153,
+    "outcome": 0.2960023516512731,
+    "error": -0.4058549549114261
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "training_mean",
+    "key": "CGTGCCTT",
+    "prediction": -0.20259328831219214,
+    "outcome": 0.24045580414994028,
+    "error": -0.4430490924621324
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "training_mean",
+    "key": "CGTTCCAT",
+    "prediction": 0.13368072217393667,
+    "outcome": 0.36924418699089046,
+    "error": -0.23556346481695378
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "training_mean",
+    "key": "CGTTCCCT",
+    "prediction": -0.4158624021256845,
+    "outcome": -0.12082498320537383,
+    "error": -0.29503741892031066
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "training_mean",
+    "key": "CGTTCCGT",
+    "prediction": 0.03953586179865631,
+    "outcome": 0.20102605031056875,
+    "error": -0.16149018851191244
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "training_mean",
+    "key": "CGTTCCTT",
+    "prediction": -0.3574324296182514,
+    "outcome": 0.538615671753865,
+    "error": -0.8960481013721164
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "training_mean",
+    "key": "TGTACCAT",
+    "prediction": 0.35894471254560134,
+    "outcome": -0.6282494222179258,
+    "error": 0.9871941347635271
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "training_mean",
+    "key": "TGTACCCT",
+    "prediction": -0.7718080870760282,
+    "outcome": -0.651601077876359,
+    "error": -0.1202070091996692
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "training_mean",
+    "key": "TGTACCGT",
+    "prediction": 0.19300517289545382,
+    "outcome": 0.5160150492280433,
+    "error": -0.3230098763325895
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "training_mean",
+    "key": "TGTACCTT",
+    "prediction": -0.1261800669780211,
+    "outcome": 0.6492450249285486,
+    "error": -0.7754250919065697
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "training_mean",
+    "key": "TGTCCCAT",
+    "prediction": -0.06389987419597709,
+    "outcome": 0.5862172801482153,
+    "error": -0.6501171543441924
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "training_mean",
+    "key": "TGTCCCCT",
+    "prediction": -0.45528669406024314,
+    "outcome": 0.004838827845585314,
+    "error": -0.46012552190582845
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "training_mean",
+    "key": "TGTCCCGT",
+    "prediction": -0.4472857293184056,
+    "outcome": 0.5985907258718051,
+    "error": -1.0458764551902107
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "training_mean",
+    "key": "TGTCCCTT",
+    "prediction": -0.4247327938117902,
+    "outcome": 0.21954461127644898,
+    "error": -0.6442774050882392
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "training_mean",
+    "key": "TGTGCCAT",
+    "prediction": 0.1074437880629695,
+    "outcome": 0.6160152392268543,
+    "error": -0.5085714511638848
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "training_mean",
+    "key": "TGTGCCCT",
+    "prediction": -0.5842265727074931,
+    "outcome": 0.2269126490079607,
+    "error": -0.8111392217154538
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "training_mean",
+    "key": "TGTGCCGT",
+    "prediction": 0.13539681865786513,
+    "outcome": 0.5472765252109184,
+    "error": -0.4118797065530533
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "training_mean",
+    "key": "TGTGCCTT",
+    "prediction": -0.0415246027428271,
+    "outcome": 0.3087022389593326,
+    "error": -0.3502268417021597
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "training_mean",
+    "key": "TGTTCCAT",
+    "prediction": 0.15381593906042923,
+    "outcome": 0.3667795287698077,
+    "error": -0.21296358970937845
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "training_mean",
+    "key": "TGTTCCCT",
+    "prediction": -0.9532333593223914,
+    "outcome": 0.8280879166221755,
+    "error": -1.781321275944567
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "training_mean",
+    "key": "TGTTCCGT",
+    "prediction": -0.3306442701407928,
+    "outcome": 0.06136843558664751,
+    "error": -0.3920127057274403
+  },
+  {
+    "pseudocount": 0.25,
+    "model": "training_mean",
+    "key": "TGTTCCTT",
+    "prediction": -0.1344247358578894,
+    "outcome": 0.38015251495986213,
+    "error": -0.5145772508177515
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "constant",
+    "key": "CGTACCAT",
+    "prediction": 0.0,
+    "outcome": 0.5543952921764879,
+    "error": -0.5543952921764879
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "constant",
+    "key": "CGTACCCT",
+    "prediction": 0.0,
+    "outcome": -0.05218926600995388,
+    "error": 0.05218926600995388
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "constant",
+    "key": "CGTACCGT",
+    "prediction": 0.0,
+    "outcome": 0.9937022207656234,
+    "error": -0.9937022207656234
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "constant",
+    "key": "CGTACCTT",
+    "prediction": 0.0,
+    "outcome": 0.0,
+    "error": 0.0
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "constant",
+    "key": "CGTCCCAT",
+    "prediction": 0.0,
+    "outcome": 0.1942532570482154,
+    "error": -0.1942532570482154
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "constant",
+    "key": "CGTCCCCT",
+    "prediction": 0.0,
+    "outcome": 0.2818816427209061,
+    "error": -0.2818816427209061
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "constant",
+    "key": "CGTCCCGT",
+    "prediction": 0.0,
+    "outcome": 0.6693889151314991,
+    "error": -0.6693889151314991
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "constant",
+    "key": "CGTCCCTT",
+    "prediction": 0.0,
+    "outcome": 0.30548500624485264,
+    "error": -0.30548500624485264
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "constant",
+    "key": "CGTGCCAT",
+    "prediction": 0.0,
+    "outcome": 0.47362550332407594,
+    "error": -0.47362550332407594
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "constant",
+    "key": "CGTGCCCT",
+    "prediction": 0.0,
+    "outcome": -0.2962384671472371,
+    "error": 0.2962384671472371
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "constant",
+    "key": "CGTGCCGT",
+    "prediction": 0.0,
+    "outcome": 0.29589809639648124,
+    "error": -0.29589809639648124
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "constant",
+    "key": "CGTGCCTT",
+    "prediction": 0.0,
+    "outcome": 0.24035215157569034,
+    "error": -0.24035215157569034
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "constant",
+    "key": "CGTTCCAT",
+    "prediction": 0.0,
+    "outcome": 0.36907373524383225,
+    "error": -0.36907373524383225
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "constant",
+    "key": "CGTTCCCT",
+    "prediction": 0.0,
+    "outcome": -0.12075546494390288,
+    "error": 0.12075546494390288
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "constant",
+    "key": "CGTTCCGT",
+    "prediction": 0.0,
+    "outcome": 0.20094159029325454,
+    "error": -0.20094159029325454
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "constant",
+    "key": "CGTTCCTT",
+    "prediction": 0.0,
+    "outcome": 0.5382618565240769,
+    "error": -0.5382618565240769
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "constant",
+    "key": "TGTACCAT",
+    "prediction": 0.0,
+    "outcome": -0.6269970427307339,
+    "error": 0.6269970427307339
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "constant",
+    "key": "TGTACCCT",
+    "prediction": 0.0,
+    "outcome": -0.6507330140415437,
+    "error": 0.6507330140415437
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "constant",
+    "key": "TGTACCGT",
+    "prediction": 0.0,
+    "outcome": 0.51585482760151,
+    "error": -0.51585482760151
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "constant",
+    "key": "TGTACCTT",
+    "prediction": 0.0,
+    "outcome": 0.649030436362235,
+    "error": -0.649030436362235
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "constant",
+    "key": "TGTCCCAT",
+    "prediction": 0.0,
+    "outcome": 0.5858752044545898,
+    "error": -0.5858752044545898
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "constant",
+    "key": "TGTCCCCT",
+    "prediction": 0.0,
+    "outcome": 0.004807829407145192,
+    "error": -0.004807829407145192
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "constant",
+    "key": "TGTCCCGT",
+    "prediction": 0.0,
+    "outcome": 0.5983892962558279,
+    "error": -0.5983892962558279
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "constant",
+    "key": "TGTCCCTT",
+    "prediction": 0.0,
+    "outcome": 0.2194585076254505,
+    "error": -0.2194585076254505
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "constant",
+    "key": "TGTGCCAT",
+    "prediction": 0.0,
+    "outcome": 0.6156535621118131,
+    "error": -0.6156535621118131
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "constant",
+    "key": "TGTGCCCT",
+    "prediction": 0.0,
+    "outcome": 0.22681213388498378,
+    "error": -0.22681213388498378
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "constant",
+    "key": "TGTGCCGT",
+    "prediction": 0.0,
+    "outcome": 0.5471204319926173,
+    "error": -0.5471204319926173
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "constant",
+    "key": "TGTGCCTT",
+    "prediction": 0.0,
+    "outcome": 0.30858670669967125,
+    "error": -0.30858670669967125
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "constant",
+    "key": "TGTTCCAT",
+    "prediction": 0.0,
+    "outcome": 0.3666115651247832,
+    "error": -0.3666115651247832
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "constant",
+    "key": "TGTTCCCT",
+    "prediction": 0.0,
+    "outcome": 0.827325638140656,
+    "error": -0.827325638140656
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "constant",
+    "key": "TGTTCCGT",
+    "prediction": 0.0,
+    "outcome": 0.061336053830791215,
+    "error": -0.061336053830791215
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "constant",
+    "key": "TGTTCCTT",
+    "prediction": 0.0,
+    "outcome": 0.3799689219464053,
+    "error": -0.3799689219464053
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "gc",
+    "key": "CGTACCAT",
+    "prediction": 0.0,
+    "outcome": 0.5543952921764879,
+    "error": -0.5543952921764879
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "gc",
+    "key": "CGTACCCT",
+    "prediction": -0.1261748868085908,
+    "outcome": -0.05218926600995388,
+    "error": -0.07398562079863691
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "gc",
+    "key": "CGTACCGT",
+    "prediction": -0.1261748868085908,
+    "outcome": 0.9937022207656234,
+    "error": -1.1198771075742142
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "gc",
+    "key": "CGTACCTT",
+    "prediction": 0.0,
+    "outcome": 0.0,
+    "error": 0.0
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "gc",
+    "key": "CGTCCCAT",
+    "prediction": -0.1261748868085908,
+    "outcome": 0.1942532570482154,
+    "error": -0.3204281438568062
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "gc",
+    "key": "CGTCCCCT",
+    "prediction": -0.2523497736171816,
+    "outcome": 0.2818816427209061,
+    "error": -0.5342314163380877
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "gc",
+    "key": "CGTCCCGT",
+    "prediction": -0.2523497736171816,
+    "outcome": 0.6693889151314991,
+    "error": -0.9217386887486807
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "gc",
+    "key": "CGTCCCTT",
+    "prediction": -0.1261748868085908,
+    "outcome": 0.30548500624485264,
+    "error": -0.43165989305344343
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "gc",
+    "key": "CGTGCCAT",
+    "prediction": -0.1261748868085908,
+    "outcome": 0.47362550332407594,
+    "error": -0.5998003901326667
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "gc",
+    "key": "CGTGCCCT",
+    "prediction": -0.2523497736171816,
+    "outcome": -0.2962384671472371,
+    "error": 0.043888693530055534
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "gc",
+    "key": "CGTGCCGT",
+    "prediction": -0.2523497736171816,
+    "outcome": 0.29589809639648124,
+    "error": -0.5482478700136628
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "gc",
+    "key": "CGTGCCTT",
+    "prediction": -0.1261748868085908,
+    "outcome": 0.24035215157569034,
+    "error": -0.36652703838428113
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "gc",
+    "key": "CGTTCCAT",
+    "prediction": 0.0,
+    "outcome": 0.36907373524383225,
+    "error": -0.36907373524383225
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "gc",
+    "key": "CGTTCCCT",
+    "prediction": -0.1261748868085908,
+    "outcome": -0.12075546494390288,
+    "error": -0.005419421864687912
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "gc",
+    "key": "CGTTCCGT",
+    "prediction": -0.1261748868085908,
+    "outcome": 0.20094159029325454,
+    "error": -0.3271164771018453
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "gc",
+    "key": "CGTTCCTT",
+    "prediction": 0.0,
+    "outcome": 0.5382618565240769,
+    "error": -0.5382618565240769
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "gc",
+    "key": "TGTACCAT",
+    "prediction": 0.1261748868085908,
+    "outcome": -0.6269970427307339,
+    "error": 0.7531719295393247
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "gc",
+    "key": "TGTACCCT",
+    "prediction": 0.0,
+    "outcome": -0.6507330140415437,
+    "error": 0.6507330140415437
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "gc",
+    "key": "TGTACCGT",
+    "prediction": 0.0,
+    "outcome": 0.51585482760151,
+    "error": -0.51585482760151
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "gc",
+    "key": "TGTACCTT",
+    "prediction": 0.1261748868085908,
+    "outcome": 0.649030436362235,
+    "error": -0.5228555495536442
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "gc",
+    "key": "TGTCCCAT",
+    "prediction": 0.0,
+    "outcome": 0.5858752044545898,
+    "error": -0.5858752044545898
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "gc",
+    "key": "TGTCCCCT",
+    "prediction": -0.1261748868085908,
+    "outcome": 0.004807829407145192,
+    "error": -0.13098271621573598
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "gc",
+    "key": "TGTCCCGT",
+    "prediction": -0.1261748868085908,
+    "outcome": 0.5983892962558279,
+    "error": -0.7245641830644187
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "gc",
+    "key": "TGTCCCTT",
+    "prediction": 0.0,
+    "outcome": 0.2194585076254505,
+    "error": -0.2194585076254505
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "gc",
+    "key": "TGTGCCAT",
+    "prediction": 0.0,
+    "outcome": 0.6156535621118131,
+    "error": -0.6156535621118131
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "gc",
+    "key": "TGTGCCCT",
+    "prediction": -0.1261748868085908,
+    "outcome": 0.22681213388498378,
+    "error": -0.35298702069357457
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "gc",
+    "key": "TGTGCCGT",
+    "prediction": -0.1261748868085908,
+    "outcome": 0.5471204319926173,
+    "error": -0.6732953188012081
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "gc",
+    "key": "TGTGCCTT",
+    "prediction": 0.0,
+    "outcome": 0.30858670669967125,
+    "error": -0.30858670669967125
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "gc",
+    "key": "TGTTCCAT",
+    "prediction": 0.1261748868085908,
+    "outcome": 0.3666115651247832,
+    "error": -0.24043667831619242
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "gc",
+    "key": "TGTTCCCT",
+    "prediction": 0.0,
+    "outcome": 0.827325638140656,
+    "error": -0.827325638140656
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "gc",
+    "key": "TGTTCCGT",
+    "prediction": 0.0,
+    "outcome": 0.061336053830791215,
+    "error": -0.061336053830791215
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "gc",
+    "key": "TGTTCCTT",
+    "prediction": 0.1261748868085908,
+    "outcome": 0.3799689219464053,
+    "error": -0.2537940351378145
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "additive",
+    "key": "CGTACCAT",
+    "prediction": 0.30564462515961766,
+    "outcome": 0.5543952921764879,
+    "error": -0.2487506670168702
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "additive",
+    "key": "CGTACCCT",
+    "prediction": -0.4354615600927747,
+    "outcome": -0.05218926600995388,
+    "error": -0.3832722940828208
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "additive",
+    "key": "CGTACCGT",
+    "prediction": 0.204234533465818,
+    "outcome": 0.9937022207656234,
+    "error": -0.7894676872998054
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "additive",
+    "key": "CGTACCTT",
+    "prediction": 0.0,
+    "outcome": 0.0,
+    "error": 0.0
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "additive",
+    "key": "CGTCCCAT",
+    "prediction": 0.058711104958224514,
+    "outcome": 0.1942532570482154,
+    "error": -0.13554215208999087
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "additive",
+    "key": "CGTCCCCT",
+    "prediction": -0.6823950802941681,
+    "outcome": 0.2818816427209061,
+    "error": -0.9642767230150742
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "additive",
+    "key": "CGTCCCGT",
+    "prediction": -0.04269898673557537,
+    "outcome": 0.6693889151314991,
+    "error": -0.7120879018670745
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "additive",
+    "key": "CGTCCCTT",
+    "prediction": -0.24693352020139336,
+    "outcome": 0.30548500624485264,
+    "error": -0.552418526446246
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "additive",
+    "key": "CGTGCCAT",
+    "prediction": 0.1889064688705384,
+    "outcome": 0.47362550332407594,
+    "error": -0.2847190344535375
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "additive",
+    "key": "CGTGCCCT",
+    "prediction": -0.5521997163818542,
+    "outcome": -0.2962384671472371,
+    "error": -0.25596124923461705
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "additive",
+    "key": "CGTGCCGT",
+    "prediction": 0.08749637717673853,
+    "outcome": 0.29589809639648124,
+    "error": -0.2084017192197427
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "additive",
+    "key": "CGTGCCTT",
+    "prediction": -0.11673815628907946,
+    "outcome": 0.24035215157569034,
+    "error": -0.3570903078647698
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "additive",
+    "key": "CGTTCCAT",
+    "prediction": 0.15735805112957446,
+    "outcome": 0.36907373524383225,
+    "error": -0.21171568411425778
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "additive",
+    "key": "CGTTCCCT",
+    "prediction": -0.5837481341228181,
+    "outcome": -0.12075546494390288,
+    "error": -0.46299266917891524
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "additive",
+    "key": "CGTTCCGT",
+    "prediction": 0.055947959435774575,
+    "outcome": 0.20094159029325454,
+    "error": -0.14499363085747996
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "additive",
+    "key": "CGTTCCTT",
+    "prediction": -0.14828657403004342,
+    "outcome": 0.5382618565240769,
+    "error": -0.6865484305541203
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "additive",
+    "key": "TGTACCAT",
+    "prediction": 0.30804090846188825,
+    "outcome": -0.6269970427307339,
+    "error": 0.9350379511926221
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "additive",
+    "key": "TGTACCCT",
+    "prediction": -0.4330652767905042,
+    "outcome": -0.6507330140415437,
+    "error": 0.2176677372510395
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "additive",
+    "key": "TGTACCGT",
+    "prediction": 0.20663081676808837,
+    "outcome": 0.51585482760151,
+    "error": -0.30922401083342166
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "additive",
+    "key": "TGTACCTT",
+    "prediction": 0.0023962833022705965,
+    "outcome": 0.649030436362235,
+    "error": -0.6466341530599644
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "additive",
+    "key": "TGTCCCAT",
+    "prediction": 0.06110738826049511,
+    "outcome": 0.5858752044545898,
+    "error": -0.5247678161940947
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "additive",
+    "key": "TGTCCCCT",
+    "prediction": -0.6799987969918975,
+    "outcome": 0.004807829407145192,
+    "error": -0.6848066263990427
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "additive",
+    "key": "TGTCCCGT",
+    "prediction": -0.040302703433304776,
+    "outcome": 0.5983892962558279,
+    "error": -0.6386919996891327
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "additive",
+    "key": "TGTCCCTT",
+    "prediction": -0.24453723689912277,
+    "outcome": 0.2194585076254505,
+    "error": -0.46399574452457326
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "additive",
+    "key": "TGTGCCAT",
+    "prediction": 0.1913027521728088,
+    "outcome": 0.6156535621118131,
+    "error": -0.4243508099390043
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "additive",
+    "key": "TGTGCCCT",
+    "prediction": -0.5498034330795836,
+    "outcome": 0.22681213388498378,
+    "error": -0.7766155669645673
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "additive",
+    "key": "TGTGCCGT",
+    "prediction": 0.08989266047900912,
+    "outcome": 0.5471204319926173,
+    "error": -0.45722777151360816
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "additive",
+    "key": "TGTGCCTT",
+    "prediction": -0.11434187298680887,
+    "outcome": 0.30858670669967125,
+    "error": -0.4229285796864801
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "additive",
+    "key": "TGTTCCAT",
+    "prediction": 0.15975433443184484,
+    "outcome": 0.3666115651247832,
+    "error": -0.20685723069293838
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "additive",
+    "key": "TGTTCCCT",
+    "prediction": -0.5813518508205475,
+    "outcome": 0.827325638140656,
+    "error": -1.4086774889612035
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "additive",
+    "key": "TGTTCCGT",
+    "prediction": 0.05834424273804517,
+    "outcome": 0.061336053830791215,
+    "error": -0.002991811092746044
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "additive",
+    "key": "TGTTCCTT",
+    "prediction": -0.14589029072777282,
+    "outcome": 0.3799689219464053,
+    "error": -0.5258592126741781
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "isotonic_additive",
+    "key": "CGTACCAT",
+    "prediction": 0.39395194077496964,
+    "outcome": 0.5543952921764879,
+    "error": -0.16044335140151822
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "isotonic_additive",
+    "key": "CGTACCCT",
+    "prediction": -0.5413666783503295,
+    "outcome": -0.05218926600995388,
+    "error": -0.4891774123403756
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "isotonic_additive",
+    "key": "CGTACCGT",
+    "prediction": 0.39395194077496964,
+    "outcome": 0.9937022207656234,
+    "error": -0.5997502799906538
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "isotonic_additive",
+    "key": "CGTACCTT",
+    "prediction": 0.0,
+    "outcome": 0.0,
+    "error": 0.0
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "isotonic_additive",
+    "key": "CGTCCCAT",
+    "prediction": 0.0,
+    "outcome": 0.1942532570482154,
+    "error": -0.1942532570482154
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "isotonic_additive",
+    "key": "CGTCCCCT",
+    "prediction": -0.5413666783503295,
+    "outcome": 0.2818816427209061,
+    "error": -0.8232483210712356
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "isotonic_additive",
+    "key": "CGTCCCGT",
+    "prediction": -0.054516568283063505,
+    "outcome": 0.6693889151314991,
+    "error": -0.7239054834145626
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "isotonic_additive",
+    "key": "CGTCCCTT",
+    "prediction": -0.43889190091984,
+    "outcome": 0.30548500624485264,
+    "error": -0.7443769071646926
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "isotonic_additive",
+    "key": "CGTGCCAT",
+    "prediction": 0.20148319055295705,
+    "outcome": 0.47362550332407594,
+    "error": -0.2721423127711189
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "isotonic_additive",
+    "key": "CGTGCCCT",
+    "prediction": -0.5413666783503295,
+    "outcome": -0.2962384671472371,
+    "error": -0.24512821120309236
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "isotonic_additive",
+    "key": "CGTGCCGT",
+    "prediction": 0.03867473800543131,
+    "outcome": 0.29589809639648124,
+    "error": -0.2572233583910499
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "isotonic_additive",
+    "key": "CGTGCCTT",
+    "prediction": -0.054516568283063505,
+    "outcome": 0.24035215157569034,
+    "error": -0.29486871985875385
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "isotonic_additive",
+    "key": "CGTTCCAT",
+    "prediction": 0.20148319055295705,
+    "outcome": 0.36907373524383225,
+    "error": -0.1675905446908752
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "isotonic_additive",
+    "key": "CGTTCCCT",
+    "prediction": -0.5413666783503295,
+    "outcome": -0.12075546494390288,
+    "error": -0.4206112134064266
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "isotonic_additive",
+    "key": "CGTTCCGT",
+    "prediction": 0.0,
+    "outcome": 0.20094159029325454,
+    "error": -0.20094159029325454
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "isotonic_additive",
+    "key": "CGTTCCTT",
+    "prediction": -0.2321645843870801,
+    "outcome": 0.5382618565240769,
+    "error": -0.770426440911157
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "isotonic_additive",
+    "key": "TGTACCAT",
+    "prediction": 0.481967623706109,
+    "outcome": -0.6269970427307339,
+    "error": 1.1089646664368429
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "isotonic_additive",
+    "key": "TGTACCCT",
+    "prediction": -0.5413666783503295,
+    "outcome": -0.6507330140415437,
+    "error": 0.10936633569121423
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "isotonic_additive",
+    "key": "TGTACCGT",
+    "prediction": 0.39395194077496964,
+    "outcome": 0.51585482760151,
+    "error": -0.12190288682654038
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "isotonic_additive",
+    "key": "TGTACCTT",
+    "prediction": 0.0,
+    "outcome": 0.649030436362235,
+    "error": -0.649030436362235
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "isotonic_additive",
+    "key": "TGTCCCAT",
+    "prediction": 0.03867473800543131,
+    "outcome": 0.5858752044545898,
+    "error": -0.5472004664491585
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "isotonic_additive",
+    "key": "TGTCCCCT",
+    "prediction": -0.5413666783503295,
+    "outcome": 0.004807829407145192,
+    "error": -0.5461745077574747
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "isotonic_additive",
+    "key": "TGTCCCGT",
+    "prediction": -0.054516568283063505,
+    "outcome": 0.5983892962558279,
+    "error": -0.6529058645388914
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "isotonic_additive",
+    "key": "TGTCCCTT",
+    "prediction": -0.2989380851141483,
+    "outcome": 0.2194585076254505,
+    "error": -0.5183965927395988
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "isotonic_additive",
+    "key": "TGTGCCAT",
+    "prediction": 0.23278215840484862,
+    "outcome": 0.6156535621118131,
+    "error": -0.3828714037069645
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "isotonic_additive",
+    "key": "TGTGCCCT",
+    "prediction": -0.5413666783503295,
+    "outcome": 0.22681213388498378,
+    "error": -0.7681788122353133
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "isotonic_additive",
+    "key": "TGTGCCGT",
+    "prediction": 0.20148319055295705,
+    "outcome": 0.5471204319926173,
+    "error": -0.34563724143966024
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "isotonic_additive",
+    "key": "TGTGCCTT",
+    "prediction": -0.054516568283063505,
+    "outcome": 0.30858670669967125,
+    "error": -0.36310327498273476
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "isotonic_additive",
+    "key": "TGTTCCAT",
+    "prediction": 0.20148319055295705,
+    "outcome": 0.3666115651247832,
+    "error": -0.16512837457182616
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "isotonic_additive",
+    "key": "TGTTCCCT",
+    "prediction": -0.5413666783503295,
+    "outcome": 0.827325638140656,
+    "error": -1.3686923164909854
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "isotonic_additive",
+    "key": "TGTTCCGT",
+    "prediction": 0.0,
+    "outcome": 0.061336053830791215,
+    "error": -0.061336053830791215
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "isotonic_additive",
+    "key": "TGTTCCTT",
+    "prediction": -0.054516568283063505,
+    "outcome": 0.3799689219464053,
+    "error": -0.4344854902294688
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "pairwise_half",
+    "key": "CGTACCAT",
+    "prediction": 0.325405042604344,
+    "outcome": 0.5543952921764879,
+    "error": -0.22899024957214387
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "pairwise_half",
+    "key": "CGTACCCT",
+    "prediction": -0.577790277273089,
+    "outcome": -0.05218926600995388,
+    "error": -0.5256010112631351
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "pairwise_half",
+    "key": "CGTACCGT",
+    "prediction": 0.34333189444619205,
+    "outcome": 0.9937022207656234,
+    "error": -0.6503703263194314
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "pairwise_half",
+    "key": "CGTACCTT",
+    "prediction": 0.0,
+    "outcome": 0.0,
+    "error": 0.0
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "pairwise_half",
+    "key": "CGTCCCAT",
+    "prediction": -0.008035928985326235,
+    "outcome": 0.1942532570482154,
+    "error": -0.20228918603354162
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "pairwise_half",
+    "key": "CGTCCCCT",
+    "prediction": -0.4831702851943144,
+    "outcome": 0.2818816427209061,
+    "error": -0.7650519279152205
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "pairwise_half",
+    "key": "CGTCCCGT",
+    "prediction": -0.04591884080457709,
+    "outcome": 0.6693889151314991,
+    "error": -0.7153077559360762
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "pairwise_half",
+    "key": "CGTCCCTT",
+    "prediction": -0.33231330543394344,
+    "outcome": 0.30548500624485264,
+    "error": -0.6377983116787961
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "pairwise_half",
+    "key": "CGTGCCAT",
+    "prediction": 0.06193617959430453,
+    "outcome": 0.47362550332407594,
+    "error": -0.4116893237297714
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "pairwise_half",
+    "key": "CGTGCCCT",
+    "prediction": -0.6073341366356576,
+    "outcome": -0.2962384671472371,
+    "error": -0.3110956694884205
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "pairwise_half",
+    "key": "CGTGCCGT",
+    "prediction": 0.0951321469620523,
+    "outcome": 0.29589809639648124,
+    "error": -0.20076594943442894
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "pairwise_half",
+    "key": "CGTGCCTT",
+    "prediction": -0.14196142223982522,
+    "outcome": 0.24035215157569034,
+    "error": -0.38231357381551556
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "pairwise_half",
+    "key": "CGTTCCAT",
+    "prediction": 0.21519988912877452,
+    "outcome": 0.36907373524383225,
+    "error": -0.15387384611505772
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "pairwise_half",
+    "key": "CGTTCCCT",
+    "prediction": -0.525206123987546,
+    "outcome": -0.12075546494390288,
+    "error": -0.4044506590436431
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "pairwise_half",
+    "key": "CGTTCCGT",
+    "prediction": 0.09456314906269925,
+    "outcome": 0.20094159029325454,
+    "error": -0.10637844123055529
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "pairwise_half",
+    "key": "CGTTCCTT",
+    "prediction": -0.12526507194196224,
+    "outcome": 0.5382618565240769,
+    "error": -0.6635269284660391
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "pairwise_half",
+    "key": "TGTACCAT",
+    "prediction": 0.3872782084855373,
+    "outcome": -0.6269970427307339,
+    "error": 1.0142752512162712
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "pairwise_half",
+    "key": "TGTACCCT",
+    "prediction": -0.6041264791803291,
+    "outcome": -0.6507330140415437,
+    "error": 0.04660653486121458
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "pairwise_half",
+    "key": "TGTACCGT",
+    "prediction": 0.25608329327765045,
+    "outcome": 0.51585482760151,
+    "error": -0.2597715343238596
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "pairwise_half",
+    "key": "TGTACCTT",
+    "prediction": 0.04760640654087145,
+    "outcome": 0.649030436362235,
+    "error": -0.6014240298213636
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "pairwise_half",
+    "key": "TGTCCCAT",
+    "prediction": 0.0401627065908845,
+    "outcome": 0.5858752044545898,
+    "error": -0.5457124978637053
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "pairwise_half",
+    "key": "TGTCCCCT",
+    "prediction": -0.5231810174065369,
+    "outcome": 0.004807829407145192,
+    "error": -0.5279888468136821
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "pairwise_half",
+    "key": "TGTCCCGT",
+    "prediction": -0.14684197227810103,
+    "outcome": 0.5983892962558279,
+    "error": -0.745231268533929
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "pairwise_half",
+    "key": "TGTCCCTT",
+    "prediction": -0.29838142919805455,
+    "outcome": 0.2194585076254505,
+    "error": -0.517839936823505
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "pairwise_half",
+    "key": "TGTGCCAT",
+    "prediction": 0.23191997894562522,
+    "outcome": 0.6156535621118131,
+    "error": -0.3837335831661879
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "pairwise_half",
+    "key": "TGTGCCCT",
+    "prediction": -0.52555970507277,
+    "outcome": 0.22681213388498378,
+    "error": -0.7523718389577537
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "pairwise_half",
+    "key": "TGTGCCGT",
+    "prediction": 0.11599417926363875,
+    "outcome": 0.5471204319926173,
+    "error": -0.43112625272897853
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "pairwise_half",
+    "key": "TGTGCCTT",
+    "prediction": 0.013755617771173734,
+    "outcome": 0.30858670669967125,
+    "error": -0.2948310889284975
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "pairwise_half",
+    "key": "TGTTCCAT",
+    "prediction": 0.19632731570762152,
+    "outcome": 0.3666115651247832,
+    "error": -0.1702842494171617
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "pairwise_half",
+    "key": "TGTTCCCT",
+    "prediction": -0.632288065197132,
+    "outcome": 0.827325638140656,
+    "error": -1.459613703337788
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "pairwise_half",
+    "key": "TGTTCCGT",
+    "prediction": -0.0734311914081881,
+    "outcome": 0.061336053830791215,
+    "error": -0.13476724523897932
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "pairwise_half",
+    "key": "TGTTCCTT",
+    "prediction": -0.15840440470343686,
+    "outcome": 0.3799689219464053,
+    "error": -0.5383733266498422
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "heat",
+    "key": "CGTACCAT",
+    "prediction": 0.14199809025200139,
+    "outcome": 0.5543952921764879,
+    "error": -0.4123972019244865
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "heat",
+    "key": "CGTACCCT",
+    "prediction": -0.3205236336666145,
+    "outcome": -0.05218926600995388,
+    "error": -0.26833436765666063
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "heat",
+    "key": "CGTACCGT",
+    "prediction": 0.16681618162748302,
+    "outcome": 0.9937022207656234,
+    "error": -0.8268860391381404
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "heat",
+    "key": "CGTACCTT",
+    "prediction": 0.0,
+    "outcome": 0.0,
+    "error": 0.0
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "heat",
+    "key": "CGTCCCAT",
+    "prediction": -0.028047386421900633,
+    "outcome": 0.1942532570482154,
+    "error": -0.22230064347011602
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "heat",
+    "key": "CGTCCCCT",
+    "prediction": -0.2555083594725309,
+    "outcome": 0.2818816427209061,
+    "error": -0.537390002193437
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "heat",
+    "key": "CGTCCCGT",
+    "prediction": -0.012025860869871896,
+    "outcome": 0.6693889151314991,
+    "error": -0.681414776001371
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "heat",
+    "key": "CGTCCCTT",
+    "prediction": -0.19065608920922494,
+    "outcome": 0.30548500624485264,
+    "error": -0.4961410954540776
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "heat",
+    "key": "CGTGCCAT",
+    "prediction": 0.008827775837276453,
+    "outcome": 0.47362550332407594,
+    "error": -0.4647977274867995
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "heat",
+    "key": "CGTGCCCT",
+    "prediction": -0.33125675561973844,
+    "outcome": -0.2962384671472371,
+    "error": -0.035018288472501324
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "heat",
+    "key": "CGTGCCGT",
+    "prediction": 0.012804223658025249,
+    "outcome": 0.29589809639648124,
+    "error": -0.283093872738456
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "heat",
+    "key": "CGTGCCTT",
+    "prediction": -0.0884524423310532,
+    "outcome": 0.24035215157569034,
+    "error": -0.32880459390674355
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "heat",
+    "key": "CGTTCCAT",
+    "prediction": 0.08981992122305893,
+    "outcome": 0.36907373524383225,
+    "error": -0.2792538140207733
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "heat",
+    "key": "CGTTCCCT",
+    "prediction": -0.23757833660070626,
+    "outcome": -0.12075546494390288,
+    "error": -0.11682287165680338
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "heat",
+    "key": "CGTTCCGT",
+    "prediction": 0.05307369849397603,
+    "outcome": 0.20094159029325454,
+    "error": -0.1478678917992785
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "heat",
+    "key": "CGTTCCTT",
+    "prediction": -0.0994060733383254,
+    "outcome": 0.5382618565240769,
+    "error": -0.6376679298624023
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "heat",
+    "key": "TGTACCAT",
+    "prediction": 0.18553963417833275,
+    "outcome": -0.6269970427307339,
+    "error": 0.8125366769090666
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "heat",
+    "key": "TGTACCCT",
+    "prediction": -0.29923864567470115,
+    "outcome": -0.6507330140415437,
+    "error": 0.35149436836684256
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "heat",
+    "key": "TGTACCGT",
+    "prediction": 0.1040875111198315,
+    "outcome": 0.51585482760151,
+    "error": -0.4117673164816785
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "heat",
+    "key": "TGTACCTT",
+    "prediction": -0.005000697844171231,
+    "outcome": 0.649030436362235,
+    "error": -0.6540311342064062
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "heat",
+    "key": "TGTCCCAT",
+    "prediction": 0.015306874110073032,
+    "outcome": 0.5858752044545898,
+    "error": -0.5705683303445168
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "heat",
+    "key": "TGTCCCCT",
+    "prediction": -0.27647119294250133,
+    "outcome": 0.004807829407145192,
+    "error": -0.2812790223496465
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "heat",
+    "key": "TGTCCCGT",
+    "prediction": -0.11315844678607379,
+    "outcome": 0.5983892962558279,
+    "error": -0.7115477430419017
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "heat",
+    "key": "TGTCCCTT",
+    "prediction": -0.15349517922138078,
+    "outcome": 0.2194585076254505,
+    "error": -0.3729536868468313
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "heat",
+    "key": "TGTGCCAT",
+    "prediction": 0.10929640231808169,
+    "outcome": 0.6156535621118131,
+    "error": -0.5063571597937314
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "heat",
+    "key": "TGTGCCCT",
+    "prediction": -0.26399406634908196,
+    "outcome": 0.22681213388498378,
+    "error": -0.49080620023406574
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "heat",
+    "key": "TGTGCCGT",
+    "prediction": 0.06395503834021377,
+    "outcome": 0.5471204319926173,
+    "error": -0.4831653936524035
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "heat",
+    "key": "TGTGCCTT",
+    "prediction": -0.004454361017879216,
+    "outcome": 0.30858670669967125,
+    "error": -0.31304106771755047
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "heat",
+    "key": "TGTTCCAT",
+    "prediction": 0.08713978008053236,
+    "outcome": 0.3666115651247832,
+    "error": -0.27947178504425085
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "heat",
+    "key": "TGTTCCCT",
+    "prediction": -0.36997265910623933,
+    "outcome": 0.827325638140656,
+    "error": -1.1972982972468953
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "heat",
+    "key": "TGTTCCGT",
+    "prediction": -0.07131162078132713,
+    "outcome": 0.061336053830791215,
+    "error": -0.13264767461211835
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "heat",
+    "key": "TGTTCCTT",
+    "prediction": -0.07123256609898077,
+    "outcome": 0.3799689219464053,
+    "error": -0.45120148804538607
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "training_mean",
+    "key": "CGTACCAT",
+    "prediction": 0.23640078541003717,
+    "outcome": 0.5543952921764879,
+    "error": -0.3179945067664507
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "training_mean",
+    "key": "CGTACCCT",
+    "prediction": -0.9423513581609644,
+    "outcome": -0.05218926600995388,
+    "error": -0.8901620921510105
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "training_mean",
+    "key": "CGTACCGT",
+    "prediction": 0.37599860374573524,
+    "outcome": 0.9937022207656234,
+    "error": -0.6177036170198882
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "training_mean",
+    "key": "CGTACCTT",
+    "prediction": 0.0,
+    "outcome": 0.0,
+    "error": 0.0
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "training_mean",
+    "key": "CGTCCCAT",
+    "prediction": -0.21036698074525972,
+    "outcome": 0.1942532570482154,
+    "error": -0.4046202377934751
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "training_mean",
+    "key": "CGTCCCCT",
+    "prediction": -0.4140320302277605,
+    "outcome": 0.2818816427209061,
+    "error": -0.6959136729486666
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "training_mean",
+    "key": "CGTCCCGT",
+    "prediction": -0.074295731126373,
+    "outcome": 0.6693889151314991,
+    "error": -0.7436846462578721
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "training_mean",
+    "key": "CGTCCCTT",
+    "prediction": -0.564293186491442,
+    "outcome": 0.30548500624485264,
+    "error": -0.8697781927362946
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "training_mean",
+    "key": "CGTGCCAT",
+    "prediction": -0.11859162181044702,
+    "outcome": 0.47362550332407594,
+    "error": -0.592217125134523
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "training_mean",
+    "key": "CGTGCCCT",
+    "prediction": -0.7985242310870415,
+    "outcome": -0.2962384671472371,
+    "error": -0.5022857639398044
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "training_mean",
+    "key": "CGTGCCGT",
+    "prediction": -0.10954129285628511,
+    "outcome": 0.29589809639648124,
+    "error": -0.40543938925276635
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "training_mean",
+    "key": "CGTGCCTT",
+    "prediction": -0.20268998228824664,
+    "outcome": 0.24035215157569034,
+    "error": -0.443042133863937
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "training_mean",
+    "key": "CGTTCCAT",
+    "prediction": 0.13352024168448295,
+    "outcome": 0.36907373524383225,
+    "error": -0.2355534935593493
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "training_mean",
+    "key": "CGTTCCCT",
+    "prediction": -0.4157172258412576,
+    "outcome": -0.12075546494390288,
+    "error": -0.2949617608973547
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "training_mean",
+    "key": "CGTTCCGT",
+    "prediction": 0.039647546199475414,
+    "outcome": 0.20094159029325454,
+    "error": -0.16129404409377912
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "training_mean",
+    "key": "CGTTCCTT",
+    "prediction": -0.3575658699586821,
+    "outcome": 0.5382618565240769,
+    "error": -0.895827726482759
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "training_mean",
+    "key": "TGTACCAT",
+    "prediction": 0.356566338134507,
+    "outcome": -0.6269970427307339,
+    "error": 0.9835633808652409
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "training_mean",
+    "key": "TGTACCCT",
+    "prediction": -0.7716691628763055,
+    "outcome": -0.6507330140415437,
+    "error": -0.12093614883476178
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "training_mean",
+    "key": "TGTACCGT",
+    "prediction": 0.1932525764543307,
+    "outcome": 0.51585482760151,
+    "error": -0.32260225114717933
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "training_mean",
+    "key": "TGTACCTT",
+    "prediction": -0.12589731523424064,
+    "outcome": 0.649030436362235,
+    "error": -0.7749277515964756
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "training_mean",
+    "key": "TGTCCCAT",
+    "prediction": -0.0639118022760563,
+    "outcome": 0.5858752044545898,
+    "error": -0.6497870067306462
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "training_mean",
+    "key": "TGTCCCCT",
+    "prediction": -0.454990542701589,
+    "outcome": 0.004807829407145192,
+    "error": -0.4597983721087342
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "training_mean",
+    "key": "TGTCCCGT",
+    "prediction": -0.4469380498838156,
+    "outcome": 0.5983892962558279,
+    "error": -1.0453273461396435
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "training_mean",
+    "key": "TGTCCCTT",
+    "prediction": -0.42433937068575034,
+    "outcome": 0.2194585076254505,
+    "error": -0.6437978783112008
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "training_mean",
+    "key": "TGTGCCAT",
+    "prediction": 0.1073808728332466,
+    "outcome": 0.6156535621118131,
+    "error": -0.5082726892785665
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "training_mean",
+    "key": "TGTGCCCT",
+    "prediction": -0.5839741478820883,
+    "outcome": 0.22681213388498378,
+    "error": -0.8107862817670721
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "training_mean",
+    "key": "TGTGCCGT",
+    "prediction": 0.13569106263820707,
+    "outcome": 0.5471204319926173,
+    "error": -0.4114293693544102
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "training_mean",
+    "key": "TGTGCCTT",
+    "prediction": -0.04135544238688027,
+    "outcome": 0.30858670669967125,
+    "error": -0.3499421490865515
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "training_mean",
+    "key": "TGTTCCAT",
+    "prediction": 0.15370793741317712,
+    "outcome": 0.3666115651247832,
+    "error": -0.2129036277116061
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "training_mean",
+    "key": "TGTTCCCT",
+    "prediction": -0.9528850125984452,
+    "outcome": 0.827325638140656,
+    "error": -1.7802106507391011
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "training_mean",
+    "key": "TGTTCCGT",
+    "prediction": -0.33038967807798514,
+    "outcome": 0.061336053830791215,
+    "error": -0.39172573190877635
+  },
+  {
+    "pseudocount": 0.5,
+    "model": "training_mean",
+    "key": "TGTTCCTT",
+    "prediction": -0.13431006358801234,
+    "outcome": 0.3799689219464053,
+    "error": -0.5142789855344176
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "constant",
+    "key": "CGTACCAT",
+    "prediction": 0.0,
+    "outcome": 0.5526193686282381,
+    "error": -0.5526193686282381
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "constant",
+    "key": "CGTACCCT",
+    "prediction": 0.0,
+    "outcome": -0.05205660343027496,
+    "error": 0.05205660343027496
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "constant",
+    "key": "CGTACCGT",
+    "prediction": 0.0,
+    "outcome": 0.9927583145629733,
+    "error": -0.9927583145629733
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "constant",
+    "key": "CGTACCTT",
+    "prediction": 0.0,
+    "outcome": 0.0,
+    "error": 0.0
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "constant",
+    "key": "CGTCCCAT",
+    "prediction": 0.0,
+    "outcome": 0.19409080045483584,
+    "error": -0.19409080045483584
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "constant",
+    "key": "CGTCCCCT",
+    "prediction": 0.0,
+    "outcome": 0.281611104922467,
+    "error": -0.281611104922467
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "constant",
+    "key": "CGTCCCGT",
+    "prediction": 0.0,
+    "outcome": 0.6689609960159171,
+    "error": -0.6689609960159171
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "constant",
+    "key": "CGTCCCTT",
+    "prediction": 0.0,
+    "outcome": 0.30525973357847924,
+    "error": -0.30525973357847924
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "constant",
+    "key": "CGTGCCAT",
+    "prediction": 0.0,
+    "outcome": 0.4732712148250737,
+    "error": -0.4732712148250737
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "constant",
+    "key": "CGTGCCCT",
+    "prediction": 0.0,
+    "outcome": -0.29425869712752917,
+    "error": 0.29425869712752917
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "constant",
+    "key": "CGTGCCGT",
+    "prediction": 0.0,
+    "outcome": 0.29568982160204094,
+    "error": -0.29568982160204094
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "constant",
+    "key": "CGTGCCTT",
+    "prediction": 0.0,
+    "outcome": 0.2401451153662908,
+    "error": -0.2401451153662908
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "constant",
+    "key": "CGTTCCAT",
+    "prediction": 0.0,
+    "outcome": 0.3687333083455595,
+    "error": -0.3687333083455595
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "constant",
+    "key": "CGTTCCCT",
+    "prediction": 0.0,
+    "outcome": -0.12061665874943905,
+    "error": 0.12061665874943905
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "constant",
+    "key": "CGTTCCGT",
+    "prediction": 0.0,
+    "outcome": 0.20077288330513454,
+    "error": -0.20077288330513454
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "constant",
+    "key": "CGTTCCTT",
+    "prediction": 0.0,
+    "outcome": 0.5375557268011448,
+    "error": -0.5375557268011448
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "constant",
+    "key": "TGTACCAT",
+    "prediction": 0.0,
+    "outcome": -0.624505366843568,
+    "error": 0.624505366843568
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "constant",
+    "key": "TGTACCCT",
+    "prediction": 0.0,
+    "outcome": -0.6490032452550851,
+    "error": 0.6490032452550851
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "constant",
+    "key": "TGTACCGT",
+    "prediction": 0.0,
+    "outcome": 0.5155347055426667,
+    "error": -0.5155347055426667
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "constant",
+    "key": "TGTACCTT",
+    "prediction": 0.0,
+    "outcome": 0.6486016998681627,
+    "error": -0.6486016998681627
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "constant",
+    "key": "TGTCCCAT",
+    "prediction": 0.0,
+    "outcome": 0.5851923024165906,
+    "error": -0.5851923024165906
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "constant",
+    "key": "TGTCCCCT",
+    "prediction": 0.0,
+    "outcome": 0.004745956905324533,
+    "error": -0.004745956905324533
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "constant",
+    "key": "TGTCCCGT",
+    "prediction": 0.0,
+    "outcome": 0.5979868569930673,
+    "error": -0.5979868569930673
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "constant",
+    "key": "TGTCCCTT",
+    "prediction": 0.0,
+    "outcome": 0.2192865104686259,
+    "error": -0.2192865104686259
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "constant",
+    "key": "TGTGCCAT",
+    "prediction": 0.0,
+    "outcome": 0.6149315360387728,
+    "error": -0.6149315360387728
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "constant",
+    "key": "TGTGCCCT",
+    "prediction": 0.0,
+    "outcome": 0.22661137513570928,
+    "error": -0.22661137513570928
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "constant",
+    "key": "TGTGCCGT",
+    "prediction": 0.0,
+    "outcome": 0.5468085457225431,
+    "error": -0.5468085457225431
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "constant",
+    "key": "TGTGCCTT",
+    "prediction": 0.0,
+    "outcome": 0.3083559081585001,
+    "error": -0.3083559081585001
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "constant",
+    "key": "TGTTCCAT",
+    "prediction": 0.0,
+    "outcome": 0.36627610312705094,
+    "error": -0.36627610312705094
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "constant",
+    "key": "TGTTCCCT",
+    "prediction": 0.0,
+    "outcome": 0.8258057321368577,
+    "error": -0.8258057321368577
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "constant",
+    "key": "TGTTCCGT",
+    "prediction": 0.0,
+    "outcome": 0.0612713866886736,
+    "error": -0.0612713866886736
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "constant",
+    "key": "TGTTCCTT",
+    "prediction": 0.0,
+    "outcome": 0.37960227761687726,
+    "error": -0.37960227761687726
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "gc",
+    "key": "CGTACCAT",
+    "prediction": 0.0,
+    "outcome": 0.5526193686282381,
+    "error": -0.5526193686282381
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "gc",
+    "key": "CGTACCCT",
+    "prediction": -0.1256510117080918,
+    "outcome": -0.05205660343027496,
+    "error": -0.07359440827781683
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "gc",
+    "key": "CGTACCGT",
+    "prediction": -0.1256510117080918,
+    "outcome": 0.9927583145629733,
+    "error": -1.118409326271065
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "gc",
+    "key": "CGTACCTT",
+    "prediction": 0.0,
+    "outcome": 0.0,
+    "error": 0.0
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "gc",
+    "key": "CGTCCCAT",
+    "prediction": -0.1256510117080918,
+    "outcome": 0.19409080045483584,
+    "error": -0.31974181216292763
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "gc",
+    "key": "CGTCCCCT",
+    "prediction": -0.25130202341618335,
+    "outcome": 0.281611104922467,
+    "error": -0.5329131283386503
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "gc",
+    "key": "CGTCCCGT",
+    "prediction": -0.25130202341618335,
+    "outcome": 0.6689609960159171,
+    "error": -0.9202630194321004
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "gc",
+    "key": "CGTCCCTT",
+    "prediction": -0.1256510117080918,
+    "outcome": 0.30525973357847924,
+    "error": -0.43091074528657103
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "gc",
+    "key": "CGTGCCAT",
+    "prediction": -0.1256510117080918,
+    "outcome": 0.4732712148250737,
+    "error": -0.5989222265331655
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "gc",
+    "key": "CGTGCCCT",
+    "prediction": -0.25130202341618335,
+    "outcome": -0.29425869712752917,
+    "error": 0.042956673711345816
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "gc",
+    "key": "CGTGCCGT",
+    "prediction": -0.25130202341618335,
+    "outcome": 0.29568982160204094,
+    "error": -0.5469918450182243
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "gc",
+    "key": "CGTGCCTT",
+    "prediction": -0.1256510117080918,
+    "outcome": 0.2401451153662908,
+    "error": -0.3657961270743826
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "gc",
+    "key": "CGTTCCAT",
+    "prediction": 0.0,
+    "outcome": 0.3687333083455595,
+    "error": -0.3687333083455595
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "gc",
+    "key": "CGTTCCCT",
+    "prediction": -0.1256510117080918,
+    "outcome": -0.12061665874943905,
+    "error": -0.0050343529586527325
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "gc",
+    "key": "CGTTCCGT",
+    "prediction": -0.1256510117080918,
+    "outcome": 0.20077288330513454,
+    "error": -0.32642389501322633
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "gc",
+    "key": "CGTTCCTT",
+    "prediction": 0.0,
+    "outcome": 0.5375557268011448,
+    "error": -0.5375557268011448
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "gc",
+    "key": "TGTACCAT",
+    "prediction": 0.12565101170809156,
+    "outcome": -0.624505366843568,
+    "error": 0.7501563785516596
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "gc",
+    "key": "TGTACCCT",
+    "prediction": 0.0,
+    "outcome": -0.6490032452550851,
+    "error": 0.6490032452550851
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "gc",
+    "key": "TGTACCGT",
+    "prediction": 0.0,
+    "outcome": 0.5155347055426667,
+    "error": -0.5155347055426667
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "gc",
+    "key": "TGTACCTT",
+    "prediction": 0.12565101170809156,
+    "outcome": 0.6486016998681627,
+    "error": -0.5229506881600712
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "gc",
+    "key": "TGTCCCAT",
+    "prediction": 0.0,
+    "outcome": 0.5851923024165906,
+    "error": -0.5851923024165906
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "gc",
+    "key": "TGTCCCCT",
+    "prediction": -0.1256510117080918,
+    "outcome": 0.004745956905324533,
+    "error": -0.13039696861341632
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "gc",
+    "key": "TGTCCCGT",
+    "prediction": -0.1256510117080918,
+    "outcome": 0.5979868569930673,
+    "error": -0.7236378687011591
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "gc",
+    "key": "TGTCCCTT",
+    "prediction": 0.0,
+    "outcome": 0.2192865104686259,
+    "error": -0.2192865104686259
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "gc",
+    "key": "TGTGCCAT",
+    "prediction": 0.0,
+    "outcome": 0.6149315360387728,
+    "error": -0.6149315360387728
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "gc",
+    "key": "TGTGCCCT",
+    "prediction": -0.1256510117080918,
+    "outcome": 0.22661137513570928,
+    "error": -0.35226238684380107
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "gc",
+    "key": "TGTGCCGT",
+    "prediction": -0.1256510117080918,
+    "outcome": 0.5468085457225431,
+    "error": -0.6724595574306349
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "gc",
+    "key": "TGTGCCTT",
+    "prediction": 0.0,
+    "outcome": 0.3083559081585001,
+    "error": -0.3083559081585001
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "gc",
+    "key": "TGTTCCAT",
+    "prediction": 0.12565101170809156,
+    "outcome": 0.36627610312705094,
+    "error": -0.24062509141895938
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "gc",
+    "key": "TGTTCCCT",
+    "prediction": 0.0,
+    "outcome": 0.8258057321368577,
+    "error": -0.8258057321368577
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "gc",
+    "key": "TGTTCCGT",
+    "prediction": 0.0,
+    "outcome": 0.0612713866886736,
+    "error": -0.0612713866886736
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "gc",
+    "key": "TGTTCCTT",
+    "prediction": 0.12565101170809156,
+    "outcome": 0.37960227761687726,
+    "error": -0.2539512659087857
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "additive",
+    "key": "CGTACCAT",
+    "prediction": 0.3041927658764769,
+    "outcome": 0.5526193686282381,
+    "error": -0.2484266027517612
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "additive",
+    "key": "CGTACCCT",
+    "prediction": -0.43526307597602254,
+    "outcome": -0.05205660343027496,
+    "error": -0.3832064725457476
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "additive",
+    "key": "CGTACCGT",
+    "prediction": 0.2043575556164936,
+    "outcome": 0.9927583145629733,
+    "error": -0.7884007589464797
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "additive",
+    "key": "CGTACCTT",
+    "prediction": 0.0,
+    "outcome": 0.0,
+    "error": 0.0
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "additive",
+    "key": "CGTCCCAT",
+    "prediction": 0.058843364456562464,
+    "outcome": 0.19409080045483584,
+    "error": -0.13524743599827338
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "additive",
+    "key": "CGTCCCCT",
+    "prediction": -0.680612477395937,
+    "outcome": 0.281611104922467,
+    "error": -0.962223582318404
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "additive",
+    "key": "CGTCCCGT",
+    "prediction": -0.04099184580342086,
+    "outcome": 0.6689609960159171,
+    "error": -0.7099528418193379
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "additive",
+    "key": "CGTCCCTT",
+    "prediction": -0.24534940141991446,
+    "outcome": 0.30525973357847924,
+    "error": -0.5506091349983937
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "additive",
+    "key": "CGTGCCAT",
+    "prediction": 0.18876822595429799,
+    "outcome": 0.4732712148250737,
+    "error": -0.28450298887077574
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "additive",
+    "key": "CGTGCCCT",
+    "prediction": -0.5506876158982015,
+    "outcome": -0.29425869712752917,
+    "error": -0.2564289187706723
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "additive",
+    "key": "CGTGCCGT",
+    "prediction": 0.08893301569431467,
+    "outcome": 0.29568982160204094,
+    "error": -0.20675680590772627
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "additive",
+    "key": "CGTGCCTT",
+    "prediction": -0.11542453992217894,
+    "outcome": 0.2401451153662908,
+    "error": -0.35556965528846973
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "additive",
+    "key": "CGTTCCAT",
+    "prediction": 0.15708162432691442,
+    "outcome": 0.3687333083455595,
+    "error": -0.2116516840186451
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "additive",
+    "key": "CGTTCCCT",
+    "prediction": -0.582374217525585,
+    "outcome": -0.12061665874943905,
+    "error": -0.461757558776146
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "additive",
+    "key": "CGTTCCGT",
+    "prediction": 0.057246414066931095,
+    "outcome": 0.20077288330513454,
+    "error": -0.14352646923820345
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "additive",
+    "key": "CGTTCCTT",
+    "prediction": -0.1471111415495625,
+    "outcome": 0.5375557268011448,
+    "error": -0.6846668683507073
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "additive",
+    "key": "TGTACCAT",
+    "prediction": 0.3067652579864837,
+    "outcome": -0.624505366843568,
+    "error": 0.9312706248300517
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "additive",
+    "key": "TGTACCCT",
+    "prediction": -0.4326905838660159,
+    "outcome": -0.6490032452550851,
+    "error": 0.21631266138906924
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "additive",
+    "key": "TGTACCGT",
+    "prediction": 0.20693004772650037,
+    "outcome": 0.5155347055426667,
+    "error": -0.3086046578161663
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "additive",
+    "key": "TGTACCTT",
+    "prediction": 0.0025724921100067633,
+    "outcome": 0.6486016998681627,
+    "error": -0.646029207758156
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "additive",
+    "key": "TGTCCCAT",
+    "prediction": 0.061415856566569005,
+    "outcome": 0.5851923024165906,
+    "error": -0.5237764458500216
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "additive",
+    "key": "TGTCCCCT",
+    "prediction": -0.6780399852859303,
+    "outcome": 0.004745956905324533,
+    "error": -0.6827859421912549
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "additive",
+    "key": "TGTCCCGT",
+    "prediction": -0.038419353693414204,
+    "outcome": 0.5979868569930673,
+    "error": -0.6364062106864815
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "additive",
+    "key": "TGTCCCTT",
+    "prediction": -0.2427769093099078,
+    "outcome": 0.2192865104686259,
+    "error": -0.4620634197785337
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "additive",
+    "key": "TGTGCCAT",
+    "prediction": 0.19134071806430475,
+    "outcome": 0.6149315360387728,
+    "error": -0.42359081797446807
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "additive",
+    "key": "TGTGCCCT",
+    "prediction": -0.5481151237881948,
+    "outcome": 0.22661137513570928,
+    "error": -0.7747264989239041
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "additive",
+    "key": "TGTGCCGT",
+    "prediction": 0.09150550780432143,
+    "outcome": 0.5468085457225431,
+    "error": -0.4553030379182217
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "additive",
+    "key": "TGTGCCTT",
+    "prediction": -0.11285204781217228,
+    "outcome": 0.3083559081585001,
+    "error": -0.4212079559706724
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "additive",
+    "key": "TGTTCCAT",
+    "prediction": 0.15965411643692118,
+    "outcome": 0.36627610312705094,
+    "error": -0.20662198669012977
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "additive",
+    "key": "TGTTCCCT",
+    "prediction": -0.5798017254155784,
+    "outcome": 0.8258057321368577,
+    "error": -1.4056074575524362
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "additive",
+    "key": "TGTTCCGT",
+    "prediction": 0.05981890617693786,
+    "outcome": 0.0612713866886736,
+    "error": -0.001452480511735743
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "additive",
+    "key": "TGTTCCTT",
+    "prediction": -0.14453864943955586,
+    "outcome": 0.37960227761687726,
+    "error": -0.5241409270564331
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "isotonic_additive",
+    "key": "CGTACCAT",
+    "prediction": 0.39185169495373917,
+    "outcome": 0.5526193686282381,
+    "error": -0.16076767367449896
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "isotonic_additive",
+    "key": "CGTACCCT",
+    "prediction": -0.5413174680802879,
+    "outcome": -0.05205660343027496,
+    "error": -0.48926086465001295
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "isotonic_additive",
+    "key": "CGTACCGT",
+    "prediction": 0.39185169495373917,
+    "outcome": 0.9927583145629733,
+    "error": -0.6009066196092341
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "isotonic_additive",
+    "key": "CGTACCTT",
+    "prediction": 0.0,
+    "outcome": 0.0,
+    "error": 0.0
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "isotonic_additive",
+    "key": "CGTCCCAT",
+    "prediction": 0.0,
+    "outcome": 0.19409080045483584,
+    "error": -0.19409080045483584
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "isotonic_additive",
+    "key": "CGTCCCCT",
+    "prediction": -0.5413174680802879,
+    "outcome": 0.281611104922467,
+    "error": -0.8229285730027549
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "isotonic_additive",
+    "key": "CGTCCCGT",
+    "prediction": -0.05461993986629421,
+    "outcome": 0.6689609960159171,
+    "error": -0.7235809358822113
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "isotonic_additive",
+    "key": "CGTCCCTT",
+    "prediction": -0.4386195868199483,
+    "outcome": 0.30525973357847924,
+    "error": -0.7438793203984275
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "isotonic_additive",
+    "key": "CGTGCCAT",
+    "prediction": 0.20112424891703684,
+    "outcome": 0.4732712148250737,
+    "error": -0.2721469659080369
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "isotonic_additive",
+    "key": "CGTGCCCT",
+    "prediction": -0.5413174680802879,
+    "outcome": -0.29425869712752917,
+    "error": -0.24705877095275874
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "isotonic_additive",
+    "key": "CGTGCCGT",
+    "prediction": 0.03855558401308734,
+    "outcome": 0.29568982160204094,
+    "error": -0.2571342375889536
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "isotonic_additive",
+    "key": "CGTGCCTT",
+    "prediction": -0.05461993986629421,
+    "outcome": 0.2401451153662908,
+    "error": -0.294765055232585
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "isotonic_additive",
+    "key": "CGTTCCAT",
+    "prediction": 0.20112424891703684,
+    "outcome": 0.3687333083455595,
+    "error": -0.16760905942852267
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "isotonic_additive",
+    "key": "CGTTCCCT",
+    "prediction": -0.5413174680802879,
+    "outcome": -0.12061665874943905,
+    "error": -0.42070080933084886
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "isotonic_additive",
+    "key": "CGTTCCGT",
+    "prediction": 0.0,
+    "outcome": 0.20077288330513454,
+    "error": -0.20077288330513454
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "isotonic_additive",
+    "key": "CGTTCCTT",
+    "prediction": -0.2328473145958796,
+    "outcome": 0.5375557268011448,
+    "error": -0.7704030413970244
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "isotonic_additive",
+    "key": "TGTACCAT",
+    "prediction": 0.4768326598888688,
+    "outcome": -0.624505366843568,
+    "error": 1.1013380267324369
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "isotonic_additive",
+    "key": "TGTACCCT",
+    "prediction": -0.5413174680802879,
+    "outcome": -0.6490032452550851,
+    "error": 0.10768577717479721
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "isotonic_additive",
+    "key": "TGTACCGT",
+    "prediction": 0.39185169495373917,
+    "outcome": 0.5155347055426667,
+    "error": -0.1236830105889275
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "isotonic_additive",
+    "key": "TGTACCTT",
+    "prediction": 0.0,
+    "outcome": 0.6486016998681627,
+    "error": -0.6486016998681627
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "isotonic_additive",
+    "key": "TGTCCCAT",
+    "prediction": 0.03855558401308734,
+    "outcome": 0.5851923024165906,
+    "error": -0.5466367184035033
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "isotonic_additive",
+    "key": "TGTCCCCT",
+    "prediction": -0.5413174680802879,
+    "outcome": 0.004745956905324533,
+    "error": -0.5460634249856124
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "isotonic_additive",
+    "key": "TGTCCCGT",
+    "prediction": -0.05461993986629421,
+    "outcome": 0.5979868569930673,
+    "error": -0.6526067968593615
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "isotonic_additive",
+    "key": "TGTCCCTT",
+    "prediction": -0.29857067393428416,
+    "outcome": 0.2192865104686259,
+    "error": -0.5178571844029101
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "isotonic_additive",
+    "key": "TGTGCCAT",
+    "prediction": 0.2322385276785699,
+    "outcome": 0.6149315360387728,
+    "error": -0.3826930083602029
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "isotonic_additive",
+    "key": "TGTGCCCT",
+    "prediction": -0.5413174680802879,
+    "outcome": 0.22661137513570928,
+    "error": -0.7679288432159972
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "isotonic_additive",
+    "key": "TGTGCCGT",
+    "prediction": 0.20112424891703684,
+    "outcome": 0.5468085457225431,
+    "error": -0.3456842968055063
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "isotonic_additive",
+    "key": "TGTGCCTT",
+    "prediction": -0.05461993986629421,
+    "outcome": 0.3083559081585001,
+    "error": -0.3629758480247943
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "isotonic_additive",
+    "key": "TGTTCCAT",
+    "prediction": 0.20112424891703684,
+    "outcome": 0.36627610312705094,
+    "error": -0.1651518542100141
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "isotonic_additive",
+    "key": "TGTTCCCT",
+    "prediction": -0.5413174680802879,
+    "outcome": 0.8258057321368577,
+    "error": -1.3671232002171456
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "isotonic_additive",
+    "key": "TGTTCCGT",
+    "prediction": 0.0,
+    "outcome": 0.0612713866886736,
+    "error": -0.0612713866886736
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "isotonic_additive",
+    "key": "TGTTCCTT",
+    "prediction": -0.05461993986629421,
+    "outcome": 0.37960227761687726,
+    "error": -0.43422221748317147
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "pairwise_half",
+    "key": "CGTACCAT",
+    "prediction": 0.32224693066566257,
+    "outcome": 0.5526193686282381,
+    "error": -0.23037243796257556
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "pairwise_half",
+    "key": "CGTACCCT",
+    "prediction": -0.5775166552804427,
+    "outcome": -0.05205660343027496,
+    "error": -0.5254600518501678
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "pairwise_half",
+    "key": "CGTACCGT",
+    "prediction": 0.3432668581863081,
+    "outcome": 0.9927583145629733,
+    "error": -0.6494914563766652
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "pairwise_half",
+    "key": "CGTACCTT",
+    "prediction": 0.0,
+    "outcome": 0.0,
+    "error": 0.0
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "pairwise_half",
+    "key": "CGTCCCAT",
+    "prediction": -0.007655765886075194,
+    "outcome": 0.19409080045483584,
+    "error": -0.20174656634091104
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "pairwise_half",
+    "key": "CGTCCCCT",
+    "prediction": -0.48198388235601386,
+    "outcome": 0.281611104922467,
+    "error": -0.7635949872784809
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "pairwise_half",
+    "key": "CGTCCCGT",
+    "prediction": -0.044777390999277245,
+    "outcome": 0.6689609960159171,
+    "error": -0.7137383870151943
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "pairwise_half",
+    "key": "CGTCCCTT",
+    "prediction": -0.33117978703246287,
+    "outcome": 0.30525973357847924,
+    "error": -0.6364395206109421
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "pairwise_half",
+    "key": "CGTGCCAT",
+    "prediction": 0.06196071374101497,
+    "outcome": 0.4732712148250737,
+    "error": -0.41131050108405875
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "pairwise_half",
+    "key": "CGTGCCCT",
+    "prediction": -0.6063580263933743,
+    "outcome": -0.29425869712752917,
+    "error": -0.31209932926584516
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "pairwise_half",
+    "key": "CGTGCCGT",
+    "prediction": 0.09609849354853162,
+    "outcome": 0.29568982160204094,
+    "error": -0.19959132805350932
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "pairwise_half",
+    "key": "CGTGCCTT",
+    "prediction": -0.14133800911774563,
+    "outcome": 0.2401451153662908,
+    "error": -0.38148312448403643
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "pairwise_half",
+    "key": "CGTTCCAT",
+    "prediction": 0.21494851922278269,
+    "outcome": 0.3687333083455595,
+    "error": -0.15378478912277682
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "pairwise_half",
+    "key": "CGTTCCCT",
+    "prediction": -0.5243207980884688,
+    "outcome": -0.12061665874943905,
+    "error": -0.4037041393390297
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "pairwise_half",
+    "key": "CGTTCCGT",
+    "prediction": 0.09528260680163703,
+    "outcome": 0.20077288330513454,
+    "error": -0.10549027650349752
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "pairwise_half",
+    "key": "CGTTCCTT",
+    "prediction": -0.12481447840145865,
+    "outcome": 0.5375557268011448,
+    "error": -0.6623702052026035
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "pairwise_half",
+    "key": "TGTACCAT",
+    "prediction": 0.38421993971117496,
+    "outcome": -0.624505366843568,
+    "error": 1.008725306554743
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "pairwise_half",
+    "key": "TGTACCCT",
+    "prediction": -0.6036154500090869,
+    "outcome": -0.6490032452550851,
+    "error": 0.04538779524599823
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "pairwise_half",
+    "key": "TGTACCGT",
+    "prediction": 0.2563843618149466,
+    "outcome": 0.5155347055426667,
+    "error": -0.25915034372772006
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "pairwise_half",
+    "key": "TGTACCTT",
+    "prediction": 0.04800381344008464,
+    "outcome": 0.6486016998681627,
+    "error": -0.6005978864280781
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "pairwise_half",
+    "key": "TGTCCCAT",
+    "prediction": 0.040415420242286615,
+    "outcome": 0.5851923024165906,
+    "error": -0.544776882174304
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "pairwise_half",
+    "key": "TGTCCCCT",
+    "prediction": -0.5219845000018084,
+    "outcome": 0.004745956905324533,
+    "error": -0.5267304569071329
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "pairwise_half",
+    "key": "TGTCCCGT",
+    "prediction": -0.14556171028778908,
+    "outcome": 0.5979868569930673,
+    "error": -0.7435485672808564
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "pairwise_half",
+    "key": "TGTCCCTT",
+    "prediction": -0.2970777965095286,
+    "outcome": 0.2192865104686259,
+    "error": -0.5163643069781545
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "pairwise_half",
+    "key": "TGTGCCAT",
+    "prediction": 0.23190162383872015,
+    "outcome": 0.6149315360387728,
+    "error": -0.38302991220005267
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "pairwise_half",
+    "key": "TGTGCCCT",
+    "prediction": -0.5244889200698257,
+    "outcome": 0.22661137513570928,
+    "error": -0.751100295205535
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "pairwise_half",
+    "key": "TGTGCCGT",
+    "prediction": 0.11718389822936293,
+    "outcome": 0.5468085457225431,
+    "error": -0.4296246474931802
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "pairwise_half",
+    "key": "TGTGCCTT",
+    "prediction": 0.014633705374531791,
+    "outcome": 0.3083559081585001,
+    "error": -0.2937222027839683
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "pairwise_half",
+    "key": "TGTTCCAT",
+    "prediction": 0.1961498871876879,
+    "outcome": 0.36627610312705094,
+    "error": -0.17012621593936306
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "pairwise_half",
+    "key": "TGTTCCCT",
+    "prediction": -0.6311912338977201,
+    "outcome": 0.8258057321368577,
+    "error": -1.4569969660345778
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "pairwise_half",
+    "key": "TGTTCCGT",
+    "prediction": -0.07237153065033153,
+    "outcome": 0.0612713866886736,
+    "error": -0.13364291733900513
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "pairwise_half",
+    "key": "TGTTCCTT",
+    "prediction": -0.1575823060419812,
+    "outcome": 0.37960227761687726,
+    "error": -0.5371845836588585
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "heat",
+    "key": "CGTACCAT",
+    "prediction": 0.14041834336738934,
+    "outcome": 0.5526193686282381,
+    "error": -0.4122010252608488
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "heat",
+    "key": "CGTACCCT",
+    "prediction": -0.32031469162782455,
+    "outcome": -0.05205660343027496,
+    "error": -0.2682580881975496
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "heat",
+    "key": "CGTACCGT",
+    "prediction": 0.1667435934676076,
+    "outcome": 0.9927583145629733,
+    "error": -0.8260147210953657
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "heat",
+    "key": "CGTACCTT",
+    "prediction": 0.0,
+    "outcome": 0.0,
+    "error": 0.0
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "heat",
+    "key": "CGTCCCAT",
+    "prediction": -0.027773555012004292,
+    "outcome": 0.19409080045483584,
+    "error": -0.22186435546684014
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "heat",
+    "key": "CGTCCCCT",
+    "prediction": -0.2549124006141018,
+    "outcome": 0.281611104922467,
+    "error": -0.5365235055365688
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "heat",
+    "key": "CGTCCCGT",
+    "prediction": -0.011440940972742841,
+    "outcome": 0.6689609960159171,
+    "error": -0.6804019369886599
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "heat",
+    "key": "CGTCCCTT",
+    "prediction": -0.1900645145226646,
+    "outcome": 0.30525973357847924,
+    "error": -0.49532424810114384
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "heat",
+    "key": "CGTGCCAT",
+    "prediction": 0.008885046754370962,
+    "outcome": 0.4732712148250737,
+    "error": -0.46438616807070277
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "heat",
+    "key": "CGTGCCCT",
+    "prediction": -0.3307559470815926,
+    "outcome": -0.29425869712752917,
+    "error": -0.03649724995406345
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "heat",
+    "key": "CGTGCCGT",
+    "prediction": 0.013327536394032835,
+    "outcome": 0.29568982160204094,
+    "error": -0.2823622852080081
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "heat",
+    "key": "CGTGCCTT",
+    "prediction": -0.08814814067296439,
+    "outcome": 0.2401451153662908,
+    "error": -0.3282932560392552
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "heat",
+    "key": "CGTTCCAT",
+    "prediction": 0.08971117439065424,
+    "outcome": 0.3687333083455595,
+    "error": -0.27902213395490527
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "heat",
+    "key": "CGTTCCCT",
+    "prediction": -0.23713529552099555,
+    "outcome": -0.12061665874943905,
+    "error": -0.1165186367715565
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "heat",
+    "key": "CGTTCCGT",
+    "prediction": 0.05345387468599094,
+    "outcome": 0.20077288330513454,
+    "error": -0.1473190086191436
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "heat",
+    "key": "CGTTCCTT",
+    "prediction": -0.099176441176276,
+    "outcome": 0.5375557268011448,
+    "error": -0.6367321679774208
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "heat",
+    "key": "TGTACCAT",
+    "prediction": 0.18408386957575718,
+    "outcome": -0.624505366843568,
+    "error": 0.8085892364193252
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "heat",
+    "key": "TGTACCCT",
+    "prediction": -0.2989825832622127,
+    "outcome": -0.6490032452550851,
+    "error": 0.3500206619928724
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "heat",
+    "key": "TGTACCGT",
+    "prediction": 0.1043507942877473,
+    "outcome": 0.5155347055426667,
+    "error": -0.4111839112549194
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "heat",
+    "key": "TGTACCTT",
+    "prediction": -0.004729315525230038,
+    "outcome": 0.6486016998681627,
+    "error": -0.6533310153933928
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "heat",
+    "key": "TGTCCCAT",
+    "prediction": 0.015422159944837643,
+    "outcome": 0.5851923024165906,
+    "error": -0.569770142471753
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "heat",
+    "key": "TGTCCCCT",
+    "prediction": -0.2758030128100818,
+    "outcome": 0.004745956905324533,
+    "error": -0.2805489697154063
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "heat",
+    "key": "TGTCCCGT",
+    "prediction": -0.11245983191606268,
+    "outcome": 0.5979868569930673,
+    "error": -0.71044668890913
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "heat",
+    "key": "TGTCCCTT",
+    "prediction": -0.1527954994936036,
+    "outcome": 0.2192865104686259,
+    "error": -0.3720820099622295
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "heat",
+    "key": "TGTGCCAT",
+    "prediction": 0.10931489979022402,
+    "outcome": 0.6149315360387728,
+    "error": -0.5056166362485488
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "heat",
+    "key": "TGTGCCCT",
+    "prediction": -0.2633987483952799,
+    "outcome": 0.22661137513570928,
+    "error": -0.49001012353098916
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "heat",
+    "key": "TGTGCCGT",
+    "prediction": 0.06458243724964197,
+    "outcome": 0.5468085457225431,
+    "error": -0.48222610847290115
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "heat",
+    "key": "TGTGCCTT",
+    "prediction": -0.003935233443914998,
+    "outcome": 0.3083559081585001,
+    "error": -0.3122911416024151
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "heat",
+    "key": "TGTTCCAT",
+    "prediction": 0.08710680656930858,
+    "outcome": 0.36627610312705094,
+    "error": -0.27916929655774236
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "heat",
+    "key": "TGTTCCCT",
+    "prediction": -0.3693519427173714,
+    "outcome": 0.8258057321368577,
+    "error": -1.195157674854229
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "heat",
+    "key": "TGTTCCGT",
+    "prediction": -0.07072955885561061,
+    "outcome": 0.0612713866886736,
+    "error": -0.1320009455442842
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "heat",
+    "key": "TGTTCCTT",
+    "prediction": -0.0707531732907164,
+    "outcome": 0.37960227761687726,
+    "error": -0.45035545090759366
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "training_mean",
+    "key": "CGTACCAT",
+    "prediction": 0.23135820360859682,
+    "outcome": 0.5526193686282381,
+    "error": -0.3212611650196413
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "training_mean",
+    "key": "CGTACCCT",
+    "prediction": -0.941688289164686,
+    "outcome": -0.05205660343027496,
+    "error": -0.8896316857344111
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "training_mean",
+    "key": "CGTACCGT",
+    "prediction": 0.37550050240934496,
+    "outcome": 0.9927583145629733,
+    "error": -0.6172578121536283
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "training_mean",
+    "key": "CGTACCTT",
+    "prediction": 0.0,
+    "outcome": 0.0,
+    "error": 0.0
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "training_mean",
+    "key": "CGTCCCAT",
+    "prediction": -0.20957260702193814,
+    "outcome": 0.19409080045483584,
+    "error": -0.403663407476774
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "training_mean",
+    "key": "CGTCCCCT",
+    "prediction": -0.4136530996132297,
+    "outcome": 0.281611104922467,
+    "error": -0.6952642045356967
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "training_mean",
+    "key": "CGTCCCGT",
+    "prediction": -0.07379115470950737,
+    "outcome": 0.6689609960159171,
+    "error": -0.7427521507254244
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "training_mean",
+    "key": "CGTCCCTT",
+    "prediction": -0.5636030358131254,
+    "outcome": 0.30525973357847924,
+    "error": -0.8688627693916047
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "training_mean",
+    "key": "CGTGCCAT",
+    "prediction": -0.11840764993095121,
+    "outcome": 0.4732712148250737,
+    "error": -0.5916788647560249
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "training_mean",
+    "key": "CGTGCCCT",
+    "prediction": -0.7981893032459482,
+    "outcome": -0.29425869712752917,
+    "error": -0.503930606118419
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "training_mean",
+    "key": "CGTGCCGT",
+    "prediction": -0.10892012228498338,
+    "outcome": 0.29568982160204094,
+    "error": -0.4046099438870243
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "training_mean",
+    "key": "CGTGCCTT",
+    "prediction": -0.2028822715823484,
+    "outcome": 0.2401451153662908,
+    "error": -0.4430273869486392
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "training_mean",
+    "key": "CGTTCCAT",
+    "prediction": 0.13320026344395863,
+    "outcome": 0.3687333083455595,
+    "error": -0.23553304490160087
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "training_mean",
+    "key": "CGTTCCCT",
+    "prediction": -0.4154272501898415,
+    "outcome": -0.12061665874943905,
+    "error": -0.29481059144040245
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "training_mean",
+    "key": "CGTTCCGT",
+    "prediction": 0.039870165312374084,
+    "outcome": 0.20077288330513454,
+    "error": -0.16090271799276046
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "training_mean",
+    "key": "CGTTCCTT",
+    "prediction": -0.35783076358905674,
+    "outcome": 0.5375557268011448,
+    "error": -0.8953864903902016
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "training_mean",
+    "key": "TGTACCAT",
+    "prediction": 0.35184921089569166,
+    "outcome": -0.624505366843568,
+    "error": 0.9763545777392597
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "training_mean",
+    "key": "TGTACCCT",
+    "prediction": -0.7713905639587608,
+    "outcome": -0.6490032452550851,
+    "error": -0.1223873187036757
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "training_mean",
+    "key": "TGTACCGT",
+    "prediction": 0.1937460318637445,
+    "outcome": 0.5155347055426667,
+    "error": -0.32178867367892217
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "training_mean",
+    "key": "TGTACCTT",
+    "prediction": -0.12533316761626345,
+    "outcome": 0.6486016998681627,
+    "error": -0.7739348674844262
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "training_mean",
+    "key": "TGTCCCAT",
+    "prediction": -0.06393560767519624,
+    "outcome": 0.5851923024165906,
+    "error": -0.6491279100917868
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "training_mean",
+    "key": "TGTCCCCT",
+    "prediction": -0.45439950480697355,
+    "outcome": 0.004745956905324533,
+    "error": -0.4591454617122981
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "training_mean",
+    "key": "TGTCCCGT",
+    "prediction": -0.4462441507542163,
+    "outcome": 0.5979868569930673,
+    "error": -1.0442310077472836
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "training_mean",
+    "key": "TGTCCCTT",
+    "prediction": -0.4235541229274613,
+    "outcome": 0.2192865104686259,
+    "error": -0.6428406333960872
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "training_mean",
+    "key": "TGTGCCAT",
+    "prediction": 0.10725507868539275,
+    "outcome": 0.6149315360387728,
+    "error": -0.5076764573533801
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "training_mean",
+    "key": "TGTGCCCT",
+    "prediction": -0.5834701523804817,
+    "outcome": 0.22661137513570928,
+    "error": -0.810081527516191
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "training_mean",
+    "key": "TGTGCCGT",
+    "prediction": 0.1362780799557104,
+    "outcome": 0.5468085457225431,
+    "error": -0.4105304657668327
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "training_mean",
+    "key": "TGTGCCTT",
+    "prediction": -0.04101805055615415,
+    "outcome": 0.3083559081585001,
+    "error": -0.34937395871465426
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "training_mean",
+    "key": "TGTTCCAT",
+    "prediction": 0.15349250622672095,
+    "outcome": 0.36627610312705094,
+    "error": -0.21278359690033
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "training_mean",
+    "key": "TGTTCCCT",
+    "prediction": -0.952189173227799,
+    "outcome": 0.8258057321368577,
+    "error": -1.7779949053646567
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "training_mean",
+    "key": "TGTTCCGT",
+    "prediction": -0.32988163564005824,
+    "outcome": 0.0612713866886736,
+    "error": -0.39115302232873184
+  },
+  {
+    "pseudocount": 1.0,
+    "model": "training_mean",
+    "key": "TGTTCCTT",
+    "prediction": -0.13408131669513068,
+    "outcome": 0.37960227761687726,
+    "error": -0.5136835943120079
+  }
+]

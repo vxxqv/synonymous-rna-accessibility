@@ -1,0 +1,172 @@
+{
+  "schema_version": 2,
+  "claim_id": "GILL_FROZEN_PILOT_INDEPENDENT_RESULT_AUDIT",
+  "repository": {
+    "commit": "d186707a74a40e14a3ed9175337796d9de25c3dd",
+    "dirty": true,
+    "dirty_assessed": true,
+    "historical_git_verified": true
+  },
+  "command": [
+    "C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\work\\env\\Scripts\\python.exe",
+    "outputs/synonymous-rna-accessibility/analysis/programme/retrospective/gill_result_independent.py",
+    "--outdir",
+    "outputs/synonymous-rna-accessibility/results/programme/gill_reference_pilot/independent_audit/portable"
+  ],
+  "environment": {
+    "software": [
+      {
+        "name": "CPython",
+        "version": "3.12.14"
+      },
+      {
+        "name": "NumPy",
+        "version": "2.5.4"
+      }
+    ],
+    "hardware": "win32"
+  },
+  "mathematics": {
+    "assertion_tested": "All frozen saved32-vector formulas, models, losses, graph geometries, table values and stored hashes reproduce independently; Git objects verified only in full-history mode",
+    "coefficient_domain": "Integer counts;80-digit Decimal logarithms;float64 saved fields;exact finite threshold connectivity",
+    "conventions": "Fixed32genotypes;no observed workbook access;all3predeclared pseudocounts;all7frozen models;no retuning",
+    "inputs": [
+      "analysis/programme/retrospective/gill_result_independent.py",
+      "analysis/programme/retrospective/gill_reference_protocol_v1.json",
+      "analysis/programme/retrospective/gill_reference_pilot.py",
+      "results/programme/retrospective/gill_amplicon_pilot_v2.json",
+      "results/programme/gill_reference_pilot/prevalidation_gate.json",
+      "results/programme/gill_reference_pilot/training/predictions.json",
+      "results/programme/gill_reference_pilot/training/prediction_table.json",
+      "results/programme/gill_reference_pilot/training/training_geometry.json",
+      "results/programme/gill_reference_pilot/training/receipt.json",
+      "results/programme/gill_reference_pilot/validation/validation.json",
+      "results/programme/gill_reference_pilot/validation/validation_table.json",
+      "results/programme/gill_reference_pilot/validation/joint_scenarios.json",
+      "results/programme/gill_reference_pilot/validation/receipt.json"
+    ],
+    "bounds": {
+      "models": 21,
+      "vertex_predictions": 672,
+      "loss_entries": 105,
+      "geometry_fields": 51,
+      "endpoint_pairs": 25296,
+      "threshold_records": 1392,
+      "table_rows": 1344,
+      "rectangle_identities": 384
+    },
+    "non_claims": [
+      "No calibrated biological inference or new-genotype generalization",
+      "The historical first RNA3 read was not independently observed",
+      "No claim of signal/error separation",
+      "Source-only mode does not verify historical Git evidence"
+    ]
+  },
+  "randomness": {
+    "used": false
+  },
+  "run": {
+    "started_at": "2026-10-25T05:56:34.728668+00:00",
+    "runtime_seconds": 1.9470621000073152,
+    "status": "completed",
+    "exit_status": 0,
+    "resource_limits": {
+      "memory_bytes": null,
+      "cpu_seconds": null,
+      "max_cores": null,
+      "max_threads": null
+    }
+  },
+  "input_artifacts": [
+    {
+      "path": "analysis/programme/retrospective/gill_reference_protocol_v1.json",
+      "sha256": "753bbc9571a4c3617e2eb99b9932a9f268e87c0714f23e1be43eac6288efcc45",
+      "sha256_after": "753bbc9571a4c3617e2eb99b9932a9f268e87c0714f23e1be43eac6288efcc45"
+    },
+    {
+      "path": "analysis/programme/retrospective/gill_reference_pilot.py",
+      "sha256": "f57f084c85fbfae3b27888e55284ff41e10fb178d719351fe94c40d17c9c2b83",
+      "sha256_after": "f57f084c85fbfae3b27888e55284ff41e10fb178d719351fe94c40d17c9c2b83"
+    },
+    {
+      "path": "results/programme/retrospective/gill_amplicon_pilot_v2.json",
+      "sha256": "00f538b420634a1fe302cff0477cd14d7ff61ceeed4dfdcb6072eb45c353a271",
+      "sha256_after": "00f538b420634a1fe302cff0477cd14d7ff61ceeed4dfdcb6072eb45c353a271"
+    },
+    {
+      "path": "results/programme/gill_reference_pilot/prevalidation_gate.json",
+      "sha256": "7294e3a6ae8eaeca877a57b3d1cbc4f1b449152cac2cfc6e301f13804912cf31",
+      "sha256_after": "7294e3a6ae8eaeca877a57b3d1cbc4f1b449152cac2cfc6e301f13804912cf31"
+    },
+    {
+      "path": "results/programme/gill_reference_pilot/training/predictions.json",
+      "sha256": "ff04894c283310fc9f47ae01f35191bc6a9be83493e39baaaf29d6da9bdd3660",
+      "sha256_after": "ff04894c283310fc9f47ae01f35191bc6a9be83493e39baaaf29d6da9bdd3660"
+    },
+    {
+      "path": "results/programme/gill_reference_pilot/training/prediction_table.json",
+      "sha256": "99bb8c45aeeeb3255c63f0ce4d1476d6502c8318fa3ed581b563310d438c6bab",
+      "sha256_after": "99bb8c45aeeeb3255c63f0ce4d1476d6502c8318fa3ed581b563310d438c6bab"
+    },
+    {
+      "path": "results/programme/gill_reference_pilot/training/training_geometry.json",
+      "sha256": "159ba670c11f4fdcd310b3e7568f178d9fc496224f1b5d7249271f5b4f6fdb9c",
+      "sha256_after": "159ba670c11f4fdcd310b3e7568f178d9fc496224f1b5d7249271f5b4f6fdb9c"
+    },
+    {
+      "path": "results/programme/gill_reference_pilot/training/receipt.json",
+      "sha256": "b2877db7763163aef44d8a43e13ab75680040608f94cd4d20bad5fbfcbe9ce61",
+      "sha256_after": "b2877db7763163aef44d8a43e13ab75680040608f94cd4d20bad5fbfcbe9ce61"
+    },
+    {
+      "path": "results/programme/gill_reference_pilot/validation/validation.json",
+      "sha256": "eedb95ab88b1e9860ba304da9921da3eee282afe1bd2d30088e412109aac6766",
+      "sha256_after": "eedb95ab88b1e9860ba304da9921da3eee282afe1bd2d30088e412109aac6766"
+    },
+    {
+      "path": "results/programme/gill_reference_pilot/validation/validation_table.json",
+      "sha256": "e85987344818ff33ea316e8b7ff508c49818bfda6d5928427eba3ec9889573a1",
+      "sha256_after": "e85987344818ff33ea316e8b7ff508c49818bfda6d5928427eba3ec9889573a1"
+    },
+    {
+      "path": "results/programme/gill_reference_pilot/validation/joint_scenarios.json",
+      "sha256": "78876369e146cef823a1445d18aa65c5d057ab89cdf1eff05e9436e3900b14dd",
+      "sha256_after": "78876369e146cef823a1445d18aa65c5d057ab89cdf1eff05e9436e3900b14dd"
+    },
+    {
+      "path": "results/programme/gill_reference_pilot/validation/receipt.json",
+      "sha256": "ed65af6f4460ffb5a839642237546b9c0938ccc885a366f25bb7b01a2e970a77",
+      "sha256_after": "ed65af6f4460ffb5a839642237546b9c0938ccc885a366f25bb7b01a2e970a77"
+    },
+    {
+      "path": "analysis/programme/retrospective/gill_result_independent.py",
+      "sha256": "3a4e004c5e93f1bd18f0a3152f43984651db411500ad18ed714a9151997a0030",
+      "sha256_after": "3a4e004c5e93f1bd18f0a3152f43984651db411500ad18ed714a9151997a0030"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "results/programme/gill_reference_pilot/independent_audit/portable/audit.json",
+      "sha256": "0212faaaa7cda098a682a3647cb1ff69b4242cefb91d203166369facedd9778b",
+      "kind": "result"
+    }
+  ],
+  "checks": [
+    {
+      "name": "source-and-saved-inputs-unchanged",
+      "passed": true
+    },
+    {
+      "name": "all-predeclared-result-checks",
+      "passed": true
+    }
+  ],
+  "result": "completed",
+  "declared_results": [
+    "results/programme/gill_reference_pilot/independent_audit/portable/audit.json"
+  ],
+  "residual_risks": [
+    "Floating-point comparisons use absolute tolerance2e-12, with measured discrepancies recorded",
+    "No hard resource limits; finite deterministic audit"
+  ]
+}

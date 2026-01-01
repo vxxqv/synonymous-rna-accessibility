@@ -823,14 +823,14 @@
     "ordinary_font_pt": 8.5
   },
   "provenance": {
-    "renderer_sha256": "861b88e1065368a1ddc1b77e693ee58b7dcfa58cf7f30817f182eb9ecd51f795",
+    "renderer_sha256": "008c7aa7aaaa9a4f720d2e47731af1f56b9acde6c1351205ef3df549b2be863b",
     "inputs": [
       {
-        "path": "results/expansion/verification_release/arbitrary_pair_graph_results.json",
-        "sha256": "f1692944e69261047a763b85deec7f1a0ba17ba253a92f5616565e50ca66b259"
+        "path": "results/expansion/verification_release_v2/arbitrary_pair_graph_results.json",
+        "sha256": "9d2b87e6ff8a657be96a7bc7e4969db1c725f22fb11106f09fb006b6048be017"
       },
       {
-        "path": "results/expansion/verification_release/general_graph_figure_sources.json",
+        "path": "results/expansion/verification_release_v2/general_graph_figure_sources.json",
         "sha256": "8aac6698096fd3df498f6ffab7d980f16ea86bedc520db2e0a3a34132b6f04f1"
       }
     ],

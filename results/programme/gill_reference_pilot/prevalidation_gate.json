@@ -1,0 +1,14 @@
+{
+  "status": "verified_before_first_heldout_RNA_read",
+  "protocol_commit": "faa9bb248ef3969495f54504987f63d46dcad133",
+  "prediction_commit": "d186707a74a40e14a3ed9175337796d9de25c3dd",
+  "remote_main": "d186707a74a40e14a3ed9175337796d9de25c3dd",
+  "verified_at_utc": "2026-10-25T05:35:28.204996+00:00",
+  "committed_bytes_equal_local": true,
+  "sha256": {
+    "results/programme/gill_reference_pilot/training/predictions.json": "ff04894c283310fc9f47ae01f35191bc6a9be83493e39baaaf29d6da9bdd3660",
+    "analysis/programme/retrospective/gill_reference_protocol_v1.json": "753bbc9571a4c3617e2eb99b9932a9f268e87c0714f23e1be43eac6288efcc45",
+    "analysis/programme/retrospective/gill_reference_pilot.py": "f57f084c85fbfae3b27888e55284ff41e10fb178d719351fe94c40d17c9c2b83"
+  },
+  "RNA3_values_opened_at_this_gate": false
+}

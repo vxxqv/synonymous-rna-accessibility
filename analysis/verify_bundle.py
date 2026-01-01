@@ -30,7 +30,7 @@ def verify():
             for c in ('incell','cellfree'):
                 path=ROOT/'results/expansion'/folder/f"{b['id']}_{c}.json";require(cache_valid(path,cache_signature(method,b,c,parameters)),str(path)+': stale cache');cached+=1
     receipts=[]
-    for name in ('verification_release','feasibility_verification_release_v2'):
+    for name in ('verification_release_v2','feasibility_verification_release_v2'):
         manifest=json.loads((ROOT/'results/expansion'/name/'manifest.json').read_text())
         for item in manifest['input_artifacts']:
             require(hashlib.sha256((ROOT/item['path']).read_bytes()).hexdigest()==item['sha256'],name+': input hash changed '+item['path'])
@@ -44,6 +44,7 @@ def verify():
         if not path.is_file():different.append(name);continue
         raw=path.read_bytes();actual=hashlib.sha1(b'blob '+str(len(raw)).encode()+b'\0'+raw).hexdigest()
         if actual!=expected:different.append(name)
+    require(not different,'tracked working files differ from HEAD: '+', '.join(different))
     return {'status':'passed','native_complete_graphs':graphs,'native_genotype_instances':genotypes,'current_control_fingerprints':cached,'verified_exact_receipts':receipts,'tracked_worktree_differences':different,'interpretation':'Integrity and computational checks, not proof-assistant certification or prospective biological validation'}
 
 if __name__=='__main__':

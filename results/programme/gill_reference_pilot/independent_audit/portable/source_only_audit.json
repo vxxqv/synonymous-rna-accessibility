@@ -1,0 +1,298 @@
+{
+  "status": "passed",
+  "scope": "Independent audit of frozen32-count/prediction vectors only, no workbook opened",
+  "mode": "source-only",
+  "historical_git_verified": false,
+  "repository": {
+    "commit": "explicitly unavailable: source-only mode, Git not queried",
+    "dirty": true,
+    "dirty_assessed": false,
+    "dirty_interpretation": "Conservative not-certified-clean sentinel; no Git tree comparison performed",
+    "historical_git_verified": false
+  },
+  "pseudocounts": [
+    "0.25",
+    "0.5",
+    "1.0"
+  ],
+  "primary_result": "Predeclared pairwise predictor failed; all sensitivity settings also failed",
+  "summaries": {
+    "0.25": {
+      "rmse32": {
+        "constant": 0.4660277262125529,
+        "gc": 0.5202688229890746,
+        "additive": 0.5580463043977582,
+        "isotonic_additive": 0.5479551917238107,
+        "pairwise_half": 0.55123080374678,
+        "heat": 0.49709834064955866,
+        "training_mean": 0.6579675528292792
+      },
+      "centered_rmse": {
+        "constant": 0.3648102215909312,
+        "gc": 0.38199657199400516,
+        "additive": 0.39056148524897766,
+        "isotonic_additive": 0.3975792455477399,
+        "pairwise_half": 0.38348946951839097,
+        "heat": 0.34550203479683805,
+        "training_mean": 0.42453302346255145
+      },
+      "pairwise_relative_increase": 0.1828283441989167,
+      "passes_hurdle": false,
+      "heldout_maximum_barrier": 0.4479354016623134,
+      "heldout_anova_mean_square_by_order": {
+        "0": 0.08409534382161785,
+        "1": 0.03233710837796741,
+        "2": 0.059127206460952736,
+        "3": 0.04162218293830419
+      }
+    },
+    "0.5": {
+      "rmse32": {
+        "constant": 0.4656950428717226,
+        "gc": 0.5198239645326045,
+        "additive": 0.5573199119032374,
+        "isotonic_additive": 0.5476165781540888,
+        "pairwise_half": 0.5506172850692779,
+        "heat": 0.4966389532550078,
+        "training_mean": 0.657519986266239
+      },
+      "centered_rmse": {
+        "constant": 0.3644489398095024,
+        "gc": 0.38158681669004757,
+        "additive": 0.3900292609414811,
+        "isotonic_additive": 0.39698191846703645,
+        "pairwise_half": 0.3829078794015847,
+        "heat": 0.34505176918360336,
+        "training_mean": 0.42392441660982216
+      },
+      "pairwise_relative_increase": 0.18235590757822906,
+      "passes_hurdle": false,
+      "heldout_maximum_barrier": 0.44735671619425066,
+      "heldout_anova_mean_square_by_order": {
+        "0": 0.08404884322702519,
+        "1": 0.03228676323244643,
+        "2": 0.05900021807441776,
+        "3": 0.041536048421406145
+      }
+    },
+    "1.0": {
+      "rmse32": {
+        "constant": 0.4650323110044431,
+        "gc": 0.518938584196454,
+        "additive": 0.5558767831918541,
+        "isotonic_additive": 0.5469447112865208,
+        "pairwise_half": 0.5493980975199039,
+        "heat": 0.4957247275941164,
+        "training_mean": 0.6566296913173717
+      },
+      "centered_rmse": {
+        "constant": 0.3637296890460757,
+        "gc": 0.3807714718063071,
+        "additive": 0.3889718923793483,
+        "isotonic_additive": 0.395796039760281,
+        "pairwise_half": 0.38175285564344885,
+        "heat": 0.3441561820814659,
+        "training_mean": 0.4227164826731262
+      },
+      "pairwise_relative_increase": 0.1814191928583102,
+      "passes_hurdle": false,
+      "heldout_maximum_barrier": 0.44620345451998045,
+      "heldout_anova_mean_square_by_order": {
+        "0": 0.08395576358457814,
+        "1": 0.032186609504868395,
+        "2": 0.058747824106227496,
+        "3": 0.041364853082459074
+      }
+    }
+  },
+  "scenario_dependence": {
+    "0.25": {
+      "scenario_count": 9,
+      "four_fundamental_rectangle_identities_per_vertex": true,
+      "span_dimension_upper_bound": 5,
+      "maximum_barrier_minimum": 0.11758183603752315,
+      "maximum_barrier_maximum": 0.4479354016623134,
+      "maximum_barrier_matrix": [
+        [
+          0.23870399256759356,
+          0.20607856681363224,
+          0.40057874501608026
+        ],
+        [
+          0.11758183603752315,
+          0.22476332966842794,
+          0.20034572179490073
+        ],
+        [
+          0.38539886811773627,
+          0.16077554303324781,
+          0.4479354016623134
+        ]
+      ]
+    },
+    "0.5": {
+      "scenario_count": 9,
+      "four_fundamental_rectangle_identities_per_vertex": true,
+      "span_dimension_upper_bound": 5,
+      "maximum_barrier_minimum": 0.11743365613981638,
+      "maximum_barrier_maximum": 0.44735671619425066,
+      "maximum_barrier_matrix": [
+        [
+          0.2373717307397376,
+          0.20583456883899487,
+          0.39945088257326145
+        ],
+        [
+          0.11743365613981638,
+          0.22386603005391148,
+          0.19841689709295451
+        ],
+        [
+          0.38523578107264633,
+          0.16060610614375115,
+          0.44735671619425066
+        ]
+      ]
+    },
+    "1.0": {
+      "scenario_count": 9,
+      "four_fundamental_rectangle_identities_per_vertex": true,
+      "span_dimension_upper_bound": 5,
+      "maximum_barrier_minimum": 0.11713771951623642,
+      "maximum_barrier_maximum": 0.44620345451998045,
+      "maximum_barrier_matrix": [
+        [
+          0.23472159061789988,
+          0.205347293610318,
+          0.39720188179650595
+        ],
+        [
+          0.11713771951623642,
+          0.22207666115669777,
+          0.19458195854369542
+        ],
+        [
+          0.3849101173764602,
+          0.16026780187705825,
+          0.44620345451998045
+        ]
+      ]
+    }
+  },
+  "figure_arrays": {
+    "model_order": [
+      "constant",
+      "gc",
+      "additive",
+      "isotonic_additive",
+      "pairwise_half",
+      "heat",
+      "training_mean"
+    ],
+    "primary_rmse32": [
+      0.4656950428717226,
+      0.5198239645326045,
+      0.5573199119032374,
+      0.5476165781540888,
+      0.5506172850692779,
+      0.49663895325500773,
+      0.657519986266239
+    ],
+    "ten_percent_hurdle": 0.4191255385845503,
+    "training_anova_mean_square": {
+      "0": 0.0452421425889916,
+      "1": 0.08861148882490139,
+      "2": 0.02999943530938075,
+      "3": 0.00639663576713168
+    },
+    "validation_anova_mean_square": {
+      "0": 0.08404884322702519,
+      "1": 0.03228676323244643,
+      "2": 0.05900021807441776,
+      "3": 0.041536048421406145
+    },
+    "scenario_row_order": [
+      "B",
+      "C",
+      "D"
+    ],
+    "scenario_column_order": [
+      "E",
+      "F",
+      "G"
+    ],
+    "scenario_maximum_barrier_matrix": [
+      [
+        0.2373717307397376,
+        0.20583456883899487,
+        0.39945088257326145
+      ],
+      [
+        0.11743365613981638,
+        0.22386603005391148,
+        0.19841689709295451
+      ],
+      [
+        0.38523578107264633,
+        0.16060610614375115,
+        0.44735671619425066
+      ]
+    ]
+  },
+  "checked": {
+    "models": 21,
+    "vertex_predictions": 672,
+    "loss_entries": 105,
+    "geometry_fields": 51,
+    "endpoint_pairs": 25296,
+    "threshold_records": 1392,
+    "table_rows": 1344,
+    "rectangle_identities": 384
+  },
+  "largest_absolute_difference": {
+    "scores": 3.3584246494910985e-15,
+    "predictions": 3.3584246494910985e-15,
+    "metrics": 1.1102230246251565e-16,
+    "energies": 2.7755575615628914e-17,
+    "scenario_field": 2.699229728619912e-15,
+    "rectangle_identity": 0.0
+  },
+  "absolute_numeric_tolerance": 2e-12,
+  "decimal_logarithm_precision": 80,
+  "committed_blob_checks": [],
+  "chronology_limit": "Historical Git objects were not verified: explicit source-only mode; recorded gate and stored hashes do not independently prove access chronology.",
+  "input_hashes_before": {
+    "analysis/programme/retrospective/gill_reference_protocol_v1.json": "753bbc9571a4c3617e2eb99b9932a9f268e87c0714f23e1be43eac6288efcc45",
+    "analysis/programme/retrospective/gill_reference_pilot.py": "f57f084c85fbfae3b27888e55284ff41e10fb178d719351fe94c40d17c9c2b83",
+    "results/programme/retrospective/gill_amplicon_pilot_v2.json": "00f538b420634a1fe302cff0477cd14d7ff61ceeed4dfdcb6072eb45c353a271",
+    "results/programme/gill_reference_pilot/prevalidation_gate.json": "7294e3a6ae8eaeca877a57b3d1cbc4f1b449152cac2cfc6e301f13804912cf31",
+    "results/programme/gill_reference_pilot/training/predictions.json": "ff04894c283310fc9f47ae01f35191bc6a9be83493e39baaaf29d6da9bdd3660",
+    "results/programme/gill_reference_pilot/training/prediction_table.json": "99bb8c45aeeeb3255c63f0ce4d1476d6502c8318fa3ed581b563310d438c6bab",
+    "results/programme/gill_reference_pilot/training/training_geometry.json": "159ba670c11f4fdcd310b3e7568f178d9fc496224f1b5d7249271f5b4f6fdb9c",
+    "results/programme/gill_reference_pilot/training/receipt.json": "b2877db7763163aef44d8a43e13ab75680040608f94cd4d20bad5fbfcbe9ce61",
+    "results/programme/gill_reference_pilot/validation/validation.json": "eedb95ab88b1e9860ba304da9921da3eee282afe1bd2d30088e412109aac6766",
+    "results/programme/gill_reference_pilot/validation/validation_table.json": "e85987344818ff33ea316e8b7ff508c49818bfda6d5928427eba3ec9889573a1",
+    "results/programme/gill_reference_pilot/validation/joint_scenarios.json": "78876369e146cef823a1445d18aa65c5d057ab89cdf1eff05e9436e3900b14dd",
+    "results/programme/gill_reference_pilot/validation/receipt.json": "ed65af6f4460ffb5a839642237546b9c0938ccc885a366f25bb7b01a2e970a77"
+  },
+  "input_hashes_after": {
+    "analysis/programme/retrospective/gill_reference_protocol_v1.json": "753bbc9571a4c3617e2eb99b9932a9f268e87c0714f23e1be43eac6288efcc45",
+    "analysis/programme/retrospective/gill_reference_pilot.py": "f57f084c85fbfae3b27888e55284ff41e10fb178d719351fe94c40d17c9c2b83",
+    "results/programme/retrospective/gill_amplicon_pilot_v2.json": "00f538b420634a1fe302cff0477cd14d7ff61ceeed4dfdcb6072eb45c353a271",
+    "results/programme/gill_reference_pilot/prevalidation_gate.json": "7294e3a6ae8eaeca877a57b3d1cbc4f1b449152cac2cfc6e301f13804912cf31",
+    "results/programme/gill_reference_pilot/training/predictions.json": "ff04894c283310fc9f47ae01f35191bc6a9be83493e39baaaf29d6da9bdd3660",
+    "results/programme/gill_reference_pilot/training/prediction_table.json": "99bb8c45aeeeb3255c63f0ce4d1476d6502c8318fa3ed581b563310d438c6bab",
+    "results/programme/gill_reference_pilot/training/training_geometry.json": "159ba670c11f4fdcd310b3e7568f178d9fc496224f1b5d7249271f5b4f6fdb9c",
+    "results/programme/gill_reference_pilot/training/receipt.json": "b2877db7763163aef44d8a43e13ab75680040608f94cd4d20bad5fbfcbe9ce61",
+    "results/programme/gill_reference_pilot/validation/validation.json": "eedb95ab88b1e9860ba304da9921da3eee282afe1bd2d30088e412109aac6766",
+    "results/programme/gill_reference_pilot/validation/validation_table.json": "e85987344818ff33ea316e8b7ff508c49818bfda6d5928427eba3ec9889573a1",
+    "results/programme/gill_reference_pilot/validation/joint_scenarios.json": "78876369e146cef823a1445d18aa65c5d057ab89cdf1eff05e9436e3900b14dd",
+    "results/programme/gill_reference_pilot/validation/receipt.json": "ed65af6f4460ffb5a839642237546b9c0938ccc885a366f25bb7b01a2e970a77"
+  },
+  "script_sha256": "3a4e004c5e93f1bd18f0a3152f43984651db411500ad18ed714a9151997a0030",
+  "observed_workbook_opened": false,
+  "started_at_utc": "2026-10-25T05:57:29.807767+00:00",
+  "runtime_seconds": 1.3881508000049507,
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "numpy": "2.5.4"
+}

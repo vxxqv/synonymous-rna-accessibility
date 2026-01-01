@@ -1,0 +1,228 @@
+{
+  "keys": [
+    "CGTACCAT",
+    "CGTACCCT",
+    "CGTACCGT",
+    "CGTACCTT",
+    "CGTCCCAT",
+    "CGTCCCCT",
+    "CGTCCCGT",
+    "CGTCCCTT",
+    "CGTGCCAT",
+    "CGTGCCCT",
+    "CGTGCCGT",
+    "CGTGCCTT",
+    "CGTTCCAT",
+    "CGTTCCCT",
+    "CGTTCCGT",
+    "CGTTCCTT",
+    "TGTACCAT",
+    "TGTACCCT",
+    "TGTACCGT",
+    "TGTACCTT",
+    "TGTCCCAT",
+    "TGTCCCCT",
+    "TGTCCCGT",
+    "TGTCCCTT",
+    "TGTGCCAT",
+    "TGTGCCCT",
+    "TGTGCCGT",
+    "TGTGCCTT",
+    "TGTTCCAT",
+    "TGTTCCCT",
+    "TGTTCCGT",
+    "TGTTCCTT"
+  ],
+  "reference_index": 3,
+  "reference_key": "CGTACCTT",
+  "all_rmse": {
+    "0.25": {
+      "constant": 0.4660277262125529,
+      "gc": 0.5202688229890746,
+      "additive": 0.5580463043977582,
+      "isotonic_additive": 0.5479551917238107,
+      "pairwise_half": 0.55123080374678,
+      "heat": 0.49709834064955866,
+      "training_mean": 0.6579675528292792
+    },
+    "0.5": {
+      "constant": 0.4656950428717226,
+      "gc": 0.5198239645326045,
+      "additive": 0.5573199119032374,
+      "isotonic_additive": 0.5476165781540888,
+      "pairwise_half": 0.5506172850692779,
+      "heat": 0.49663895325500773,
+      "training_mean": 0.657519986266239
+    },
+    "1.0": {
+      "constant": 0.4650323110044431,
+      "gc": 0.5189385841964541,
+      "additive": 0.5558767831918541,
+      "isotonic_additive": 0.5469447112865208,
+      "pairwise_half": 0.5493980975199039,
+      "heat": 0.4957247275941164,
+      "training_mean": 0.6566296913173717
+    }
+  },
+  "criteria": {
+    "0.25": {
+      "best_baseline": 0.4660277262125529,
+      "target": 0.55123080374678,
+      "hurdle": 0.4194249535912976,
+      "passes": false,
+      "relative_excess": 0.1828283441989167
+    },
+    "0.5": {
+      "best_baseline": 0.4656950428717226,
+      "target": 0.5506172850692779,
+      "hurdle": 0.4191255385845503,
+      "passes": false,
+      "relative_excess": 0.18235590757822906
+    },
+    "1.0": {
+      "best_baseline": 0.4650323110044431,
+      "target": 0.5493980975199039,
+      "hurdle": 0.4185290799039988,
+      "passes": false,
+      "relative_excess": 0.1814191928583102
+    }
+  },
+  "primary_pseudocount": 0.5,
+  "prediction": [
+    0.325405042604344,
+    -0.577790277273089,
+    0.34333189444619205,
+    0.0,
+    -0.008035928985326235,
+    -0.4831702851943144,
+    -0.04591884080457709,
+    -0.33231330543394344,
+    0.06193617959430453,
+    -0.6073341366356576,
+    0.0951321469620523,
+    -0.14196142223982522,
+    0.21519988912877452,
+    -0.525206123987546,
+    0.09456314906269925,
+    -0.12526507194196224,
+    0.3872782084855373,
+    -0.6041264791803291,
+    0.25608329327765045,
+    0.04760640654087145,
+    0.0401627065908845,
+    -0.5231810174065369,
+    -0.14684197227810103,
+    -0.29838142919805455,
+    0.23191997894562522,
+    -0.52555970507277,
+    0.11599417926363875,
+    0.013755617771173734,
+    0.19632731570762152,
+    -0.632288065197132,
+    -0.0734311914081881,
+    -0.15840440470343686
+  ],
+  "observed": [
+    0.5543952921764879,
+    -0.05218926600995388,
+    0.9937022207656234,
+    0.0,
+    0.1942532570482154,
+    0.2818816427209061,
+    0.6693889151314991,
+    0.30548500624485264,
+    0.47362550332407594,
+    -0.2962384671472371,
+    0.29589809639648124,
+    0.24035215157569034,
+    0.36907373524383225,
+    -0.12075546494390288,
+    0.20094159029325454,
+    0.5382618565240769,
+    -0.6269970427307339,
+    -0.6507330140415437,
+    0.51585482760151,
+    0.649030436362235,
+    0.5858752044545898,
+    0.004807829407145192,
+    0.5983892962558279,
+    0.2194585076254505,
+    0.6156535621118131,
+    0.22681213388498378,
+    0.5471204319926173,
+    0.30858670669967125,
+    0.3666115651247832,
+    0.827325638140656,
+    0.061336053830791215,
+    0.3799689219464053
+  ],
+  "energy": {
+    "training": [
+      0.0886114888249014,
+      0.029999435309380755,
+      0.00639663576713168
+    ],
+    "heldout": [
+      0.03228676323244643,
+      0.05900021807441775,
+      0.04153604842140614
+    ]
+  },
+  "scenario_barriers": [
+    [
+      0.2373717307397376,
+      0.20583456883899487,
+      0.39945088257326145
+    ],
+    [
+      0.11743365613981638,
+      0.22386603005391148,
+      0.19841689709295451
+    ],
+    [
+      0.38523578107264633,
+      0.16060610614375115,
+      0.44735671619425066
+    ]
+  ],
+  "scientific_scope": "Held-out RNA-library reproduction conditional on inspected DNA, same 32 genotypes and reference-protein context",
+  "source_identity": {
+    "protocol_sha256": "753bbc9571a4c3617e2eb99b9932a9f268e87c0714f23e1be43eac6288efcc45",
+    "eligibility_sha256": "00f538b420634a1fe302cff0477cd14d7ff61ceeed4dfdcb6072eb45c353a271",
+    "workbook_sha256": "0f80ba9868c54548db938c65d09d8caa0419c5721bfa379949f6a18ad2568e89",
+    "runner_sha256": "f57f084c85fbfae3b27888e55284ff41e10fb178d719351fe94c40d17c9c2b83"
+  },
+  "provenance": {
+    "renderer_sha256": "137facdd3d729f1db06ee1effefc2043613867b2069f71cc1e81ff70f88b7080",
+    "inputs": {
+      "results/programme/gill_reference_pilot/training/predictions.json": "ff04894c283310fc9f47ae01f35191bc6a9be83493e39baaaf29d6da9bdd3660",
+      "results/programme/gill_reference_pilot/training/receipt.json": "b2877db7763163aef44d8a43e13ab75680040608f94cd4d20bad5fbfcbe9ce61",
+      "results/programme/gill_reference_pilot/validation/validation.json": "eedb95ab88b1e9860ba304da9921da3eee282afe1bd2d30088e412109aac6766",
+      "results/programme/gill_reference_pilot/validation/joint_scenarios.json": "78876369e146cef823a1445d18aa65c5d057ab89cdf1eff05e9436e3900b14dd",
+      "results/programme/gill_reference_pilot/validation/receipt.json": "ed65af6f4460ffb5a839642237546b9c0938ccc885a366f25bb7b01a2e970a77"
+    },
+    "matplotlib": "3.11.2",
+    "numpy": "2.5.4"
+  },
+  "export": {
+    "width_mm": 174,
+    "height_mm": 143,
+    "minimum_ordinary_font_pt": 8,
+    "clipped_text": [],
+    "text_overlap": [],
+    "artifacts": {
+      "pdf": "0550e2edc6372685a6c37e08f9a43e0192d897fb51a435601dcae878b296ba23",
+      "svg": "dd1ea914e919de8c7b9eb4e07436f0b6aa18421138148513b29d3ea05a9572d4",
+      "eps": "aa565f50692cb145ecf1a4eba7fe2e15670dcff1bef5252ac530e11a0438bd71",
+      "png": "5825d80cafebecde0af14848fcb7cda3e5fe4d4b25872efd750237535fe61ab7"
+    }
+  },
+  "verification": {
+    "all_21_rmse_recomputed": true,
+    "all_672_errors_checked": true,
+    "energies_recomputed_by_conditional_means": true,
+    "nine_barriers_recomputed_by_threshold_connectivity": true,
+    "source_workbook_opened": false,
+    "model_refitting": false
+  }
+}

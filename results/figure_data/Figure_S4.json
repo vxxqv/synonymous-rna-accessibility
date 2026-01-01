@@ -434,7 +434,7 @@
     "ordinary_font_pt": 8.5
   },
   "provenance": {
-    "renderer_sha256": "861b88e1065368a1ddc1b77e693ee58b7dcfa58cf7f30817f182eb9ecd51f795",
+    "renderer_sha256": "008c7aa7aaaa9a4f720d2e47731af1f56b9acde6c1351205ef3df549b2be863b",
     "inputs": [
       {
         "path": "results/expansion/residual_stress.json",

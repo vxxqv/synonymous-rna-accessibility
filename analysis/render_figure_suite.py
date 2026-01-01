@@ -120,7 +120,7 @@ def figure3(out):
     save(fig,'Figure_3',out,data)
 
 def figure2(out):
-    audit=load('results/expansion/verification_release/arbitrary_pair_graph_results.json');source=load('results/expansion/verification_release/general_graph_figure_sources.json')
+    audit=load('results/expansion/verification_release_v2/arbitrary_pair_graph_results.json');source=load('results/expansion/verification_release_v2/general_graph_figure_sources.json')
     fig=plt.figure(figsize=(174/25.4,157/25.4));gs=fig.add_gridspec(3,2,left=.105,right=.97,top=.91,bottom=.105,wspace=.7,hspace=1.05)
     data={'claim':'Complete standard-code component signatures coexist with variable path multiplicity and code-induced completion weights','universe':'all simple pairing graphs on one or two codons; abstract compatibility, not physical multi-partner structures','panels':{}}
     ax=fig.add_subplot(gs[:2,0]);panel(ax,'a','Components across 400 peptides');aa=sorted(set(r['peptide'][0] for r in audit['peptide_component_summaries'] if r['codons']==2));mapping={r['peptide']:r for r in audit['peptide_component_summaries'] if r['codons']==2};matrix=np.array([[mapping[a+b]['maximum_components'] for b in aa] for a in aa]);im=ax.imshow(matrix,vmin=1,vmax=4,cmap=LinearSegmentedColormap.from_list('classes',['#E8ECEE','#94BBB6','#176B68']),interpolation='nearest')

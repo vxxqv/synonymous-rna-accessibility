@@ -1,0 +1,4338 @@
+{
+  "counts": {
+    "all_instances_including_empty": 13107360,
+    "nonempty_instances": 162263,
+    "vertices_sum": 436504,
+    "edges_sum": 414286,
+    "endpoint_pairs": 745765,
+    "connected_pairs": 719338,
+    "forest_DP_pairs": 719322,
+    "separated_pairs": 26427,
+    "empty_instances": 12945097
+  },
+  "max_pair_degree_counts": {
+    "2": 69546,
+    "1": 11213,
+    "0": 420,
+    "4": 8972,
+    "3": 71984,
+    "5": 128
+  },
+  "dependency_height_counts": {
+    "1": 648912,
+    "2": 68906,
+    "3": 1520
+  },
+  "distance_counts": [
+    {
+      "status": "connected",
+      "hamming_distance": 1,
+      "endpoint_pairs": 414286
+    },
+    {
+      "status": "connected",
+      "hamming_distance": 2,
+      "endpoint_pairs": 256832
+    },
+    {
+      "status": "connected",
+      "hamming_distance": 3,
+      "endpoint_pairs": 45572
+    },
+    {
+      "status": "connected",
+      "hamming_distance": 4,
+      "endpoint_pairs": 2648
+    },
+    {
+      "status": "separated",
+      "hamming_distance": 2,
+      "endpoint_pairs": 6601
+    },
+    {
+      "status": "separated",
+      "hamming_distance": 3,
+      "endpoint_pairs": 8429
+    },
+    {
+      "status": "separated",
+      "hamming_distance": 4,
+      "endpoint_pairs": 8432
+    },
+    {
+      "status": "separated",
+      "hamming_distance": 5,
+      "endpoint_pairs": 1496
+    },
+    {
+      "status": "separated",
+      "hamming_distance": 6,
+      "endpoint_pairs": 1469
+    }
+  ],
+  "mutation_order_fraction_counts": {
+    "1": 648912,
+    "1/2": 66094,
+    "1/3": 2156,
+    "1/6": 1504,
+    "5/24": 64,
+    "1/4": 576,
+    "1/8": 32
+  },
+  "distance_order_height_counts": [
+    {
+      "hamming_distance": 1,
+      "valid_shortest_orders": 1,
+      "all_mutation_orders": 1,
+      "dependency_height": 1,
+      "endpoint_pairs": 414286
+    },
+    {
+      "hamming_distance": 2,
+      "valid_shortest_orders": 1,
+      "all_mutation_orders": 2,
+      "dependency_height": 2,
+      "endpoint_pairs": 39254
+    },
+    {
+      "hamming_distance": 2,
+      "valid_shortest_orders": 2,
+      "all_mutation_orders": 2,
+      "dependency_height": 1,
+      "endpoint_pairs": 217578
+    },
+    {
+      "hamming_distance": 3,
+      "valid_shortest_orders": 1,
+      "all_mutation_orders": 6,
+      "dependency_height": 3,
+      "endpoint_pairs": 1296
+    },
+    {
+      "hamming_distance": 3,
+      "valid_shortest_orders": 2,
+      "all_mutation_orders": 6,
+      "dependency_height": 2,
+      "endpoint_pairs": 1964
+    },
+    {
+      "hamming_distance": 3,
+      "valid_shortest_orders": 3,
+      "all_mutation_orders": 6,
+      "dependency_height": 2,
+      "endpoint_pairs": 25656
+    },
+    {
+      "hamming_distance": 3,
+      "valid_shortest_orders": 6,
+      "all_mutation_orders": 6,
+      "dependency_height": 1,
+      "endpoint_pairs": 16656
+    },
+    {
+      "hamming_distance": 4,
+      "valid_shortest_orders": 3,
+      "all_mutation_orders": 24,
+      "dependency_height": 3,
+      "endpoint_pairs": 32
+    },
+    {
+      "hamming_distance": 4,
+      "valid_shortest_orders": 4,
+      "all_mutation_orders": 24,
+      "dependency_height": 2,
+      "endpoint_pairs": 16
+    },
+    {
+      "hamming_distance": 4,
+      "valid_shortest_orders": 4,
+      "all_mutation_orders": 24,
+      "dependency_height": 3,
+      "endpoint_pairs": 192
+    },
+    {
+      "hamming_distance": 4,
+      "valid_shortest_orders": 5,
+      "all_mutation_orders": 24,
+      "dependency_height": 2,
+      "endpoint_pairs": 64
+    },
+    {
+      "hamming_distance": 4,
+      "valid_shortest_orders": 6,
+      "all_mutation_orders": 24,
+      "dependency_height": 2,
+      "endpoint_pairs": 576
+    },
+    {
+      "hamming_distance": 4,
+      "valid_shortest_orders": 8,
+      "all_mutation_orders": 24,
+      "dependency_height": 2,
+      "endpoint_pairs": 192
+    },
+    {
+      "hamming_distance": 4,
+      "valid_shortest_orders": 12,
+      "all_mutation_orders": 24,
+      "dependency_height": 2,
+      "endpoint_pairs": 1184
+    },
+    {
+      "hamming_distance": 4,
+      "valid_shortest_orders": 24,
+      "all_mutation_orders": 24,
+      "dependency_height": 1,
+      "endpoint_pairs": 392
+    }
+  ],
+  "peptide_component_summaries": [
+    {
+      "peptide": "A",
+      "codons": 1,
+      "nonempty_pair_graphs": 6,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 4,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "C",
+      "codons": 1,
+      "nonempty_pair_graphs": 4,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 2,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "D",
+      "codons": 1,
+      "nonempty_pair_graphs": 4,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 2,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "E",
+      "codons": 1,
+      "nonempty_pair_graphs": 1,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 2,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "F",
+      "codons": 1,
+      "nonempty_pair_graphs": 1,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 2,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "G",
+      "codons": 1,
+      "nonempty_pair_graphs": 4,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 4,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "H",
+      "codons": 1,
+      "nonempty_pair_graphs": 2,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 2,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "I",
+      "codons": 1,
+      "nonempty_pair_graphs": 6,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 3,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "K",
+      "codons": 1,
+      "nonempty_pair_graphs": 1,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 2,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "L",
+      "codons": 1,
+      "nonempty_pair_graphs": 4,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 6,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "M",
+      "codons": 1,
+      "nonempty_pair_graphs": 4,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 1,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "N",
+      "codons": 1,
+      "nonempty_pair_graphs": 4,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 2,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "P",
+      "codons": 1,
+      "nonempty_pair_graphs": 4,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 4,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "Q",
+      "codons": 1,
+      "nonempty_pair_graphs": 2,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 2,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "R",
+      "codons": 1,
+      "nonempty_pair_graphs": 6,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 6,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "S",
+      "codons": 1,
+      "nonempty_pair_graphs": 4,
+      "multi_component_pair_graphs": 4,
+      "maximum_components": 2,
+      "maximum_vertices": 6,
+      "maximum_effective_components_fraction": "2"
+    },
+    {
+      "peptide": "T",
+      "codons": 1,
+      "nonempty_pair_graphs": 3,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 4,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "V",
+      "codons": 1,
+      "nonempty_pair_graphs": 6,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 4,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "W",
+      "codons": 1,
+      "nonempty_pair_graphs": 4,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 1,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "Y",
+      "codons": 1,
+      "nonempty_pair_graphs": 4,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 2,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "AA",
+      "codons": 2,
+      "nonempty_pair_graphs": 1280,
+      "multi_component_pair_graphs": 16,
+      "maximum_components": 2,
+      "maximum_vertices": 16,
+      "maximum_effective_components_fraction": "2"
+    },
+    {
+      "peptide": "AC",
+      "codons": 2,
+      "nonempty_pair_graphs": 704,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 8,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "AD",
+      "codons": 2,
+      "nonempty_pair_graphs": 352,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 8,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "AE",
+      "codons": 2,
+      "nonempty_pair_graphs": 136,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 8,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "AF",
+      "codons": 2,
+      "nonempty_pair_graphs": 272,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 8,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "AG",
+      "codons": 2,
+      "nonempty_pair_graphs": 896,
+      "multi_component_pair_graphs": 8,
+      "maximum_components": 2,
+      "maximum_vertices": 16,
+      "maximum_effective_components_fraction": "2"
+    },
+    {
+      "peptide": "AH",
+      "codons": 2,
+      "nonempty_pair_graphs": 176,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 8,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "AI",
+      "codons": 2,
+      "nonempty_pair_graphs": 464,
+      "multi_component_pair_graphs": 8,
+      "maximum_components": 2,
+      "maximum_vertices": 12,
+      "maximum_effective_components_fraction": "8/5"
+    },
+    {
+      "peptide": "AK",
+      "codons": 2,
+      "nonempty_pair_graphs": 68,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 8,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "AL",
+      "codons": 2,
+      "nonempty_pair_graphs": 896,
+      "multi_component_pair_graphs": 8,
+      "maximum_components": 2,
+      "maximum_vertices": 24,
+      "maximum_effective_components_fraction": "9/5"
+    },
+    {
+      "peptide": "AM",
+      "codons": 2,
+      "nonempty_pair_graphs": 352,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 4,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "AN",
+      "codons": 2,
+      "nonempty_pair_graphs": 176,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 8,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "AP",
+      "codons": 2,
+      "nonempty_pair_graphs": 896,
+      "multi_component_pair_graphs": 8,
+      "maximum_components": 2,
+      "maximum_vertices": 16,
+      "maximum_effective_components_fraction": "2"
+    },
+    {
+      "peptide": "AQ",
+      "codons": 2,
+      "nonempty_pair_graphs": 176,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 8,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "AR",
+      "codons": 2,
+      "nonempty_pair_graphs": 1332,
+      "multi_component_pair_graphs": 28,
+      "maximum_components": 2,
+      "maximum_vertices": 24,
+      "maximum_effective_components_fraction": "2"
+    },
+    {
+      "peptide": "AS",
+      "codons": 2,
+      "nonempty_pair_graphs": 1174,
+      "multi_component_pair_graphs": 80,
+      "maximum_components": 3,
+      "maximum_vertices": 24,
+      "maximum_effective_components_fraction": "3"
+    },
+    {
+      "peptide": "AT",
+      "codons": 2,
+      "nonempty_pair_graphs": 320,
+      "multi_component_pair_graphs": 4,
+      "maximum_components": 2,
+      "maximum_vertices": 16,
+      "maximum_effective_components_fraction": "2"
+    },
+    {
+      "peptide": "AV",
+      "codons": 2,
+      "nonempty_pair_graphs": 1280,
+      "multi_component_pair_graphs": 16,
+      "maximum_components": 2,
+      "maximum_vertices": 16,
+      "maximum_effective_components_fraction": "2"
+    },
+    {
+      "peptide": "AW",
+      "codons": 2,
+      "nonempty_pair_graphs": 704,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 4,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "AY",
+      "codons": 2,
+      "nonempty_pair_graphs": 352,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 8,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "CA",
+      "codons": 2,
+      "nonempty_pair_graphs": 704,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 8,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "CC",
+      "codons": 2,
+      "nonempty_pair_graphs": 256,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 4,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "CD",
+      "codons": 2,
+      "nonempty_pair_graphs": 512,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 4,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "CE",
+      "codons": 2,
+      "nonempty_pair_graphs": 256,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 4,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "CF",
+      "codons": 2,
+      "nonempty_pair_graphs": 32,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 4,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "CG",
+      "codons": 2,
+      "nonempty_pair_graphs": 704,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 8,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "CH",
+      "codons": 2,
+      "nonempty_pair_graphs": 128,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 4,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "CI",
+      "codons": 2,
+      "nonempty_pair_graphs": 704,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 6,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "CK",
+      "codons": 2,
+      "nonempty_pair_graphs": 256,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 4,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "CL",
+      "codons": 2,
+      "nonempty_pair_graphs": 272,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 12,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "CM",
+      "codons": 2,
+      "nonempty_pair_graphs": 512,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 2,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "CN",
+      "codons": 2,
+      "nonempty_pair_graphs": 512,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 4,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "CP",
+      "codons": 2,
+      "nonempty_pair_graphs": 272,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 8,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "CQ",
+      "codons": 2,
+      "nonempty_pair_graphs": 256,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 4,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "CR",
+      "codons": 2,
+      "nonempty_pair_graphs": 896,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 12,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "CS",
+      "codons": 2,
+      "nonempty_pair_graphs": 764,
+      "multi_component_pair_graphs": 20,
+      "maximum_components": 2,
+      "maximum_vertices": 12,
+      "maximum_effective_components_fraction": "2"
+    },
+    {
+      "peptide": "CT",
+      "codons": 2,
+      "nonempty_pair_graphs": 352,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 8,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "CV",
+      "codons": 2,
+      "nonempty_pair_graphs": 704,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 8,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "CW",
+      "codons": 2,
+      "nonempty_pair_graphs": 512,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 2,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "CY",
+      "codons": 2,
+      "nonempty_pair_graphs": 256,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 4,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "DA",
+      "codons": 2,
+      "nonempty_pair_graphs": 352,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 8,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "DC",
+      "codons": 2,
+      "nonempty_pair_graphs": 512,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 4,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "DD",
+      "codons": 2,
+      "nonempty_pair_graphs": 256,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 4,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "DE",
+      "codons": 2,
+      "nonempty_pair_graphs": 32,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 4,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "DF",
+      "codons": 2,
+      "nonempty_pair_graphs": 256,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 4,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "DG",
+      "codons": 2,
+      "nonempty_pair_graphs": 272,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 8,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "DH",
+      "codons": 2,
+      "nonempty_pair_graphs": 128,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 4,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "DI",
+      "codons": 2,
+      "nonempty_pair_graphs": 704,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 6,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "DK",
+      "codons": 2,
+      "nonempty_pair_graphs": 32,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 4,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "DL",
+      "codons": 2,
+      "nonempty_pair_graphs": 608,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 12,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "DM",
+      "codons": 2,
+      "nonempty_pair_graphs": 256,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 2,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "DN",
+      "codons": 2,
+      "nonempty_pair_graphs": 256,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 4,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "DP",
+      "codons": 2,
+      "nonempty_pair_graphs": 176,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 8,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "DQ",
+      "codons": 2,
+      "nonempty_pair_graphs": 64,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 4,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "DR",
+      "codons": 2,
+      "nonempty_pair_graphs": 368,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 12,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "DS",
+      "codons": 2,
+      "nonempty_pair_graphs": 580,
+      "multi_component_pair_graphs": 28,
+      "maximum_components": 2,
+      "maximum_vertices": 12,
+      "maximum_effective_components_fraction": "2"
+    },
+    {
+      "peptide": "DT",
+      "codons": 2,
+      "nonempty_pair_graphs": 176,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 8,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "DV",
+      "codons": 2,
+      "nonempty_pair_graphs": 704,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 8,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "DW",
+      "codons": 2,
+      "nonempty_pair_graphs": 256,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 2,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "DY",
+      "codons": 2,
+      "nonempty_pair_graphs": 512,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 4,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "EA",
+      "codons": 2,
+      "nonempty_pair_graphs": 136,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 8,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "EC",
+      "codons": 2,
+      "nonempty_pair_graphs": 256,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 4,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "ED",
+      "codons": 2,
+      "nonempty_pair_graphs": 32,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 4,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "EE",
+      "codons": 2,
+      "nonempty_pair_graphs": 1,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 4,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "EF",
+      "codons": 2,
+      "nonempty_pair_graphs": 512,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 4,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "EG",
+      "codons": 2,
+      "nonempty_pair_graphs": 32,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 8,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "EH",
+      "codons": 2,
+      "nonempty_pair_graphs": 64,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 4,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "EI",
+      "codons": 2,
+      "nonempty_pair_graphs": 272,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 6,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "EK",
+      "codons": 2,
+      "nonempty_pair_graphs": 1,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 4,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "EL",
+      "codons": 2,
+      "nonempty_pair_graphs": 480,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 12,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "EM",
+      "codons": 2,
+      "nonempty_pair_graphs": 32,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 2,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "EN",
+      "codons": 2,
+      "nonempty_pair_graphs": 32,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 4,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "EP",
+      "codons": 2,
+      "nonempty_pair_graphs": 176,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 8,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "EQ",
+      "codons": 2,
+      "nonempty_pair_graphs": 8,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 4,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "ER",
+      "codons": 2,
+      "nonempty_pair_graphs": 136,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 12,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "ES",
+      "codons": 2,
+      "nonempty_pair_graphs": 373,
+      "multi_component_pair_graphs": 11,
+      "maximum_components": 2,
+      "maximum_vertices": 12,
+      "maximum_effective_components_fraction": "2"
+    },
+    {
+      "peptide": "ET",
+      "codons": 2,
+      "nonempty_pair_graphs": 68,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 8,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "EV",
+      "codons": 2,
+      "nonempty_pair_graphs": 272,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 8,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "EW",
+      "codons": 2,
+      "nonempty_pair_graphs": 32,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 2,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "EY",
+      "codons": 2,
+      "nonempty_pair_graphs": 256,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 4,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "FA",
+      "codons": 2,
+      "nonempty_pair_graphs": 272,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 8,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "FC",
+      "codons": 2,
+      "nonempty_pair_graphs": 32,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 4,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "FD",
+      "codons": 2,
+      "nonempty_pair_graphs": 256,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 4,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "FE",
+      "codons": 2,
+      "nonempty_pair_graphs": 512,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 4,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "FF",
+      "codons": 2,
+      "nonempty_pair_graphs": 1,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 4,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "FG",
+      "codons": 2,
+      "nonempty_pair_graphs": 704,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 8,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "FH",
+      "codons": 2,
+      "nonempty_pair_graphs": 16,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 4,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "FI",
+      "codons": 2,
+      "nonempty_pair_graphs": 272,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 6,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "FK",
+      "codons": 2,
+      "nonempty_pair_graphs": 512,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 4,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "FL",
+      "codons": 2,
+      "nonempty_pair_graphs": 32,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 12,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "FM",
+      "codons": 2,
+      "nonempty_pair_graphs": 256,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 2,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "FN",
+      "codons": 2,
+      "nonempty_pair_graphs": 256,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 4,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "FP",
+      "codons": 2,
+      "nonempty_pair_graphs": 32,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 8,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "FQ",
+      "codons": 2,
+      "nonempty_pair_graphs": 128,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 4,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "FR",
+      "codons": 2,
+      "nonempty_pair_graphs": 720,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 12,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "FS",
+      "codons": 2,
+      "nonempty_pair_graphs": 284,
+      "multi_component_pair_graphs": 4,
+      "maximum_components": 2,
+      "maximum_vertices": 12,
+      "maximum_effective_components_fraction": "2"
+    },
+    {
+      "peptide": "FT",
+      "codons": 2,
+      "nonempty_pair_graphs": 136,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 8,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "FV",
+      "codons": 2,
+      "nonempty_pair_graphs": 272,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 8,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "FW",
+      "codons": 2,
+      "nonempty_pair_graphs": 256,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 2,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "FY",
+      "codons": 2,
+      "nonempty_pair_graphs": 32,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 4,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "GA",
+      "codons": 2,
+      "nonempty_pair_graphs": 896,
+      "multi_component_pair_graphs": 8,
+      "maximum_components": 2,
+      "maximum_vertices": 16,
+      "maximum_effective_components_fraction": "2"
+    },
+    {
+      "peptide": "GC",
+      "codons": 2,
+      "nonempty_pair_graphs": 704,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 8,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "GD",
+      "codons": 2,
+      "nonempty_pair_graphs": 272,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 8,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "GE",
+      "codons": 2,
+      "nonempty_pair_graphs": 32,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 8,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "GF",
+      "codons": 2,
+      "nonempty_pair_graphs": 704,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 8,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "GG",
+      "codons": 2,
+      "nonempty_pair_graphs": 287,
+      "multi_component_pair_graphs": 1,
+      "maximum_components": 2,
+      "maximum_vertices": 16,
+      "maximum_effective_components_fraction": "2"
+    },
+    {
+      "peptide": "GH",
+      "codons": 2,
+      "nonempty_pair_graphs": 352,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 8,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "GI",
+      "codons": 2,
+      "nonempty_pair_graphs": 896,
+      "multi_component_pair_graphs": 8,
+      "maximum_components": 2,
+      "maximum_vertices": 12,
+      "maximum_effective_components_fraction": "8/5"
+    },
+    {
+      "peptide": "GK",
+      "codons": 2,
+      "nonempty_pair_graphs": 32,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 8,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "GL",
+      "codons": 2,
+      "nonempty_pair_graphs": 1280,
+      "multi_component_pair_graphs": 16,
+      "maximum_components": 2,
+      "maximum_vertices": 24,
+      "maximum_effective_components_fraction": "9/5"
+    },
+    {
+      "peptide": "GM",
+      "codons": 2,
+      "nonempty_pair_graphs": 272,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 4,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "GN",
+      "codons": 2,
+      "nonempty_pair_graphs": 272,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 8,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "GP",
+      "codons": 2,
+      "nonempty_pair_graphs": 1280,
+      "multi_component_pair_graphs": 16,
+      "maximum_components": 2,
+      "maximum_vertices": 16,
+      "maximum_effective_components_fraction": "2"
+    },
+    {
+      "peptide": "GQ",
+      "codons": 2,
+      "nonempty_pair_graphs": 136,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 8,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "GR",
+      "codons": 2,
+      "nonempty_pair_graphs": 910,
+      "multi_component_pair_graphs": 10,
+      "maximum_components": 2,
+      "maximum_vertices": 24,
+      "maximum_effective_components_fraction": "2"
+    },
+    {
+      "peptide": "GS",
+      "codons": 2,
+      "nonempty_pair_graphs": 1496,
+      "multi_component_pair_graphs": 71,
+      "maximum_components": 3,
+      "maximum_vertices": 24,
+      "maximum_effective_components_fraction": "3"
+    },
+    {
+      "peptide": "GT",
+      "codons": 2,
+      "nonempty_pair_graphs": 448,
+      "multi_component_pair_graphs": 4,
+      "maximum_components": 2,
+      "maximum_vertices": 16,
+      "maximum_effective_components_fraction": "2"
+    },
+    {
+      "peptide": "GV",
+      "codons": 2,
+      "nonempty_pair_graphs": 896,
+      "multi_component_pair_graphs": 8,
+      "maximum_components": 2,
+      "maximum_vertices": 16,
+      "maximum_effective_components_fraction": "2"
+    },
+    {
+      "peptide": "GW",
+      "codons": 2,
+      "nonempty_pair_graphs": 272,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 4,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "GY",
+      "codons": 2,
+      "nonempty_pair_graphs": 704,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 8,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "HA",
+      "codons": 2,
+      "nonempty_pair_graphs": 176,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 8,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "HC",
+      "codons": 2,
+      "nonempty_pair_graphs": 128,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 4,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "HD",
+      "codons": 2,
+      "nonempty_pair_graphs": 128,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 4,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "HE",
+      "codons": 2,
+      "nonempty_pair_graphs": 64,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 4,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "HF",
+      "codons": 2,
+      "nonempty_pair_graphs": 16,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 4,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "HG",
+      "codons": 2,
+      "nonempty_pair_graphs": 352,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 8,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "HH",
+      "codons": 2,
+      "nonempty_pair_graphs": 16,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 4,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "HI",
+      "codons": 2,
+      "nonempty_pair_graphs": 112,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 6,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "HK",
+      "codons": 2,
+      "nonempty_pair_graphs": 32,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 4,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "HL",
+      "codons": 2,
+      "nonempty_pair_graphs": 132,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 12,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "HM",
+      "codons": 2,
+      "nonempty_pair_graphs": 128,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 2,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "HN",
+      "codons": 2,
+      "nonempty_pair_graphs": 64,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 4,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "HP",
+      "codons": 2,
+      "nonempty_pair_graphs": 34,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 8,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "HQ",
+      "codons": 2,
+      "nonempty_pair_graphs": 32,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 4,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "HR",
+      "codons": 2,
+      "nonempty_pair_graphs": 208,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 12,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "HS",
+      "codons": 2,
+      "nonempty_pair_graphs": 186,
+      "multi_component_pair_graphs": 10,
+      "maximum_components": 2,
+      "maximum_vertices": 12,
+      "maximum_effective_components_fraction": "2"
+    },
+    {
+      "peptide": "HT",
+      "codons": 2,
+      "nonempty_pair_graphs": 44,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 8,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "HV",
+      "codons": 2,
+      "nonempty_pair_graphs": 352,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 8,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "HW",
+      "codons": 2,
+      "nonempty_pair_graphs": 256,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 2,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "HY",
+      "codons": 2,
+      "nonempty_pair_graphs": 64,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 4,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "IA",
+      "codons": 2,
+      "nonempty_pair_graphs": 464,
+      "multi_component_pair_graphs": 8,
+      "maximum_components": 2,
+      "maximum_vertices": 12,
+      "maximum_effective_components_fraction": "8/5"
+    },
+    {
+      "peptide": "IC",
+      "codons": 2,
+      "nonempty_pair_graphs": 704,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 6,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "ID",
+      "codons": 2,
+      "nonempty_pair_graphs": 704,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 6,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "IE",
+      "codons": 2,
+      "nonempty_pair_graphs": 272,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 6,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "IF",
+      "codons": 2,
+      "nonempty_pair_graphs": 272,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 6,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "IG",
+      "codons": 2,
+      "nonempty_pair_graphs": 896,
+      "multi_component_pair_graphs": 8,
+      "maximum_components": 2,
+      "maximum_vertices": 12,
+      "maximum_effective_components_fraction": "8/5"
+    },
+    {
+      "peptide": "IH",
+      "codons": 2,
+      "nonempty_pair_graphs": 112,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 6,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "II",
+      "codons": 2,
+      "nonempty_pair_graphs": 1280,
+      "multi_component_pair_graphs": 16,
+      "maximum_components": 2,
+      "maximum_vertices": 9,
+      "maximum_effective_components_fraction": "2"
+    },
+    {
+      "peptide": "IK",
+      "codons": 2,
+      "nonempty_pair_graphs": 272,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 6,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "IL",
+      "codons": 2,
+      "nonempty_pair_graphs": 752,
+      "multi_component_pair_graphs": 4,
+      "maximum_components": 2,
+      "maximum_vertices": 18,
+      "maximum_effective_components_fraction": "49/37"
+    },
+    {
+      "peptide": "IM",
+      "codons": 2,
+      "nonempty_pair_graphs": 704,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 3,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "IN",
+      "codons": 2,
+      "nonempty_pair_graphs": 704,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 6,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "IP",
+      "codons": 2,
+      "nonempty_pair_graphs": 92,
+      "multi_component_pair_graphs": 2,
+      "maximum_components": 2,
+      "maximum_vertices": 12,
+      "maximum_effective_components_fraction": "8/5"
+    },
+    {
+      "peptide": "IQ",
+      "codons": 2,
+      "nonempty_pair_graphs": 144,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 6,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "IR",
+      "codons": 2,
+      "nonempty_pair_graphs": 664,
+      "multi_component_pair_graphs": 8,
+      "maximum_components": 2,
+      "maximum_vertices": 18,
+      "maximum_effective_components_fraction": "8/5"
+    },
+    {
+      "peptide": "IS",
+      "codons": 2,
+      "nonempty_pair_graphs": 922,
+      "multi_component_pair_graphs": 56,
+      "maximum_components": 3,
+      "maximum_vertices": 18,
+      "maximum_effective_components_fraction": "25/11"
+    },
+    {
+      "peptide": "IT",
+      "codons": 2,
+      "nonempty_pair_graphs": 232,
+      "multi_component_pair_graphs": 4,
+      "maximum_components": 2,
+      "maximum_vertices": 12,
+      "maximum_effective_components_fraction": "8/5"
+    },
+    {
+      "peptide": "IV",
+      "codons": 2,
+      "nonempty_pair_graphs": 1280,
+      "multi_component_pair_graphs": 16,
+      "maximum_components": 2,
+      "maximum_vertices": 12,
+      "maximum_effective_components_fraction": "8/5"
+    },
+    {
+      "peptide": "IW",
+      "codons": 2,
+      "nonempty_pair_graphs": 704,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 3,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "IY",
+      "codons": 2,
+      "nonempty_pair_graphs": 704,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 6,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "KA",
+      "codons": 2,
+      "nonempty_pair_graphs": 68,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 8,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "KC",
+      "codons": 2,
+      "nonempty_pair_graphs": 256,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 4,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "KD",
+      "codons": 2,
+      "nonempty_pair_graphs": 32,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 4,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "KE",
+      "codons": 2,
+      "nonempty_pair_graphs": 1,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 4,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "KF",
+      "codons": 2,
+      "nonempty_pair_graphs": 512,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 4,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "KG",
+      "codons": 2,
+      "nonempty_pair_graphs": 32,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 8,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "KH",
+      "codons": 2,
+      "nonempty_pair_graphs": 32,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 4,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "KI",
+      "codons": 2,
+      "nonempty_pair_graphs": 272,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 6,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "KK",
+      "codons": 2,
+      "nonempty_pair_graphs": 1,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 4,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "KL",
+      "codons": 2,
+      "nonempty_pair_graphs": 368,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 12,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "KM",
+      "codons": 2,
+      "nonempty_pair_graphs": 32,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 2,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "KN",
+      "codons": 2,
+      "nonempty_pair_graphs": 32,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 4,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "KP",
+      "codons": 2,
+      "nonempty_pair_graphs": 44,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 8,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "KQ",
+      "codons": 2,
+      "nonempty_pair_graphs": 4,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 4,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "KR",
+      "codons": 2,
+      "nonempty_pair_graphs": 68,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 12,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "KS",
+      "codons": 2,
+      "nonempty_pair_graphs": 197,
+      "multi_component_pair_graphs": 11,
+      "maximum_components": 2,
+      "maximum_vertices": 12,
+      "maximum_effective_components_fraction": "2"
+    },
+    {
+      "peptide": "KT",
+      "codons": 2,
+      "nonempty_pair_graphs": 34,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 8,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "KV",
+      "codons": 2,
+      "nonempty_pair_graphs": 272,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 8,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "KW",
+      "codons": 2,
+      "nonempty_pair_graphs": 32,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 2,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "KY",
+      "codons": 2,
+      "nonempty_pair_graphs": 256,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 4,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "LA",
+      "codons": 2,
+      "nonempty_pair_graphs": 896,
+      "multi_component_pair_graphs": 8,
+      "maximum_components": 2,
+      "maximum_vertices": 24,
+      "maximum_effective_components_fraction": "9/5"
+    },
+    {
+      "peptide": "LC",
+      "codons": 2,
+      "nonempty_pair_graphs": 272,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 12,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "LD",
+      "codons": 2,
+      "nonempty_pair_graphs": 608,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 12,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "LE",
+      "codons": 2,
+      "nonempty_pair_graphs": 480,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 12,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "LF",
+      "codons": 2,
+      "nonempty_pair_graphs": 32,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 12,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "LG",
+      "codons": 2,
+      "nonempty_pair_graphs": 1280,
+      "multi_component_pair_graphs": 16,
+      "maximum_components": 2,
+      "maximum_vertices": 24,
+      "maximum_effective_components_fraction": "9/5"
+    },
+    {
+      "peptide": "LH",
+      "codons": 2,
+      "nonempty_pair_graphs": 132,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 12,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "LI",
+      "codons": 2,
+      "nonempty_pair_graphs": 752,
+      "multi_component_pair_graphs": 4,
+      "maximum_components": 2,
+      "maximum_vertices": 18,
+      "maximum_effective_components_fraction": "49/37"
+    },
+    {
+      "peptide": "LK",
+      "codons": 2,
+      "nonempty_pair_graphs": 368,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 12,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "LL",
+      "codons": 2,
+      "nonempty_pair_graphs": 287,
+      "multi_component_pair_graphs": 1,
+      "maximum_components": 2,
+      "maximum_vertices": 36,
+      "maximum_effective_components_fraction": "2"
+    },
+    {
+      "peptide": "LM",
+      "codons": 2,
+      "nonempty_pair_graphs": 608,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 6,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "LN",
+      "codons": 2,
+      "nonempty_pair_graphs": 560,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 12,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "LP",
+      "codons": 2,
+      "nonempty_pair_graphs": 287,
+      "multi_component_pair_graphs": 1,
+      "maximum_components": 2,
+      "maximum_vertices": 24,
+      "maximum_effective_components_fraction": "9/5"
+    },
+    {
+      "peptide": "LQ",
+      "codons": 2,
+      "nonempty_pair_graphs": 304,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 12,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "LR",
+      "codons": 2,
+      "nonempty_pair_graphs": 1244,
+      "multi_component_pair_graphs": 28,
+      "maximum_components": 2,
+      "maximum_vertices": 36,
+      "maximum_effective_components_fraction": "2"
+    },
+    {
+      "peptide": "LS",
+      "codons": 2,
+      "nonempty_pair_graphs": 860,
+      "multi_component_pair_graphs": 35,
+      "maximum_components": 3,
+      "maximum_vertices": 36,
+      "maximum_effective_components_fraction": "25/9"
+    },
+    {
+      "peptide": "LT",
+      "codons": 2,
+      "nonempty_pair_graphs": 400,
+      "multi_component_pair_graphs": 2,
+      "maximum_components": 2,
+      "maximum_vertices": 24,
+      "maximum_effective_components_fraction": "9/5"
+    },
+    {
+      "peptide": "LV",
+      "codons": 2,
+      "nonempty_pair_graphs": 896,
+      "multi_component_pair_graphs": 8,
+      "maximum_components": 2,
+      "maximum_vertices": 24,
+      "maximum_effective_components_fraction": "9/5"
+    },
+    {
+      "peptide": "LW",
+      "codons": 2,
+      "nonempty_pair_graphs": 704,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 6,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "LY",
+      "codons": 2,
+      "nonempty_pair_graphs": 264,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 12,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "MA",
+      "codons": 2,
+      "nonempty_pair_graphs": 352,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 4,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "MC",
+      "codons": 2,
+      "nonempty_pair_graphs": 512,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 2,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "MD",
+      "codons": 2,
+      "nonempty_pair_graphs": 256,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 2,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "ME",
+      "codons": 2,
+      "nonempty_pair_graphs": 32,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 2,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "MF",
+      "codons": 2,
+      "nonempty_pair_graphs": 256,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 2,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "MG",
+      "codons": 2,
+      "nonempty_pair_graphs": 272,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 4,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "MH",
+      "codons": 2,
+      "nonempty_pair_graphs": 128,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 2,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "MI",
+      "codons": 2,
+      "nonempty_pair_graphs": 704,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 3,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "MK",
+      "codons": 2,
+      "nonempty_pair_graphs": 32,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 2,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "ML",
+      "codons": 2,
+      "nonempty_pair_graphs": 608,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 6,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "MM",
+      "codons": 2,
+      "nonempty_pair_graphs": 256,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 1,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "MN",
+      "codons": 2,
+      "nonempty_pair_graphs": 256,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 2,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "MP",
+      "codons": 2,
+      "nonempty_pair_graphs": 176,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 4,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "MQ",
+      "codons": 2,
+      "nonempty_pair_graphs": 64,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 2,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "MR",
+      "codons": 2,
+      "nonempty_pair_graphs": 368,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 6,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "MS",
+      "codons": 2,
+      "nonempty_pair_graphs": 580,
+      "multi_component_pair_graphs": 28,
+      "maximum_components": 2,
+      "maximum_vertices": 6,
+      "maximum_effective_components_fraction": "2"
+    },
+    {
+      "peptide": "MT",
+      "codons": 2,
+      "nonempty_pair_graphs": 176,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 4,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "MV",
+      "codons": 2,
+      "nonempty_pair_graphs": 704,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 4,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "MW",
+      "codons": 2,
+      "nonempty_pair_graphs": 256,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 1,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "MY",
+      "codons": 2,
+      "nonempty_pair_graphs": 512,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 2,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "NA",
+      "codons": 2,
+      "nonempty_pair_graphs": 176,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 8,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "NC",
+      "codons": 2,
+      "nonempty_pair_graphs": 512,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 4,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "ND",
+      "codons": 2,
+      "nonempty_pair_graphs": 256,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 4,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "NE",
+      "codons": 2,
+      "nonempty_pair_graphs": 32,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 4,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "NF",
+      "codons": 2,
+      "nonempty_pair_graphs": 256,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 4,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "NG",
+      "codons": 2,
+      "nonempty_pair_graphs": 272,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 8,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "NH",
+      "codons": 2,
+      "nonempty_pair_graphs": 64,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 4,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "NI",
+      "codons": 2,
+      "nonempty_pair_graphs": 704,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 6,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "NK",
+      "codons": 2,
+      "nonempty_pair_graphs": 32,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 4,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "NL",
+      "codons": 2,
+      "nonempty_pair_graphs": 560,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 12,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "NM",
+      "codons": 2,
+      "nonempty_pair_graphs": 256,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 2,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "NN",
+      "codons": 2,
+      "nonempty_pair_graphs": 256,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 4,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "NP",
+      "codons": 2,
+      "nonempty_pair_graphs": 44,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 8,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "NQ",
+      "codons": 2,
+      "nonempty_pair_graphs": 32,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 4,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "NR",
+      "codons": 2,
+      "nonempty_pair_graphs": 192,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 12,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "NS",
+      "codons": 2,
+      "nonempty_pair_graphs": 404,
+      "multi_component_pair_graphs": 28,
+      "maximum_components": 2,
+      "maximum_vertices": 12,
+      "maximum_effective_components_fraction": "2"
+    },
+    {
+      "peptide": "NT",
+      "codons": 2,
+      "nonempty_pair_graphs": 88,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 8,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "NV",
+      "codons": 2,
+      "nonempty_pair_graphs": 704,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 8,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "NW",
+      "codons": 2,
+      "nonempty_pair_graphs": 256,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 2,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "NY",
+      "codons": 2,
+      "nonempty_pair_graphs": 512,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 4,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "PA",
+      "codons": 2,
+      "nonempty_pair_graphs": 896,
+      "multi_component_pair_graphs": 8,
+      "maximum_components": 2,
+      "maximum_vertices": 16,
+      "maximum_effective_components_fraction": "2"
+    },
+    {
+      "peptide": "PC",
+      "codons": 2,
+      "nonempty_pair_graphs": 272,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 8,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "PD",
+      "codons": 2,
+      "nonempty_pair_graphs": 176,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 8,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "PE",
+      "codons": 2,
+      "nonempty_pair_graphs": 176,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 8,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "PF",
+      "codons": 2,
+      "nonempty_pair_graphs": 32,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 8,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "PG",
+      "codons": 2,
+      "nonempty_pair_graphs": 1280,
+      "multi_component_pair_graphs": 16,
+      "maximum_components": 2,
+      "maximum_vertices": 16,
+      "maximum_effective_components_fraction": "2"
+    },
+    {
+      "peptide": "PH",
+      "codons": 2,
+      "nonempty_pair_graphs": 34,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 8,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "PI",
+      "codons": 2,
+      "nonempty_pair_graphs": 92,
+      "multi_component_pair_graphs": 2,
+      "maximum_components": 2,
+      "maximum_vertices": 12,
+      "maximum_effective_components_fraction": "8/5"
+    },
+    {
+      "peptide": "PK",
+      "codons": 2,
+      "nonempty_pair_graphs": 44,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 8,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "PL",
+      "codons": 2,
+      "nonempty_pair_graphs": 287,
+      "multi_component_pair_graphs": 1,
+      "maximum_components": 2,
+      "maximum_vertices": 24,
+      "maximum_effective_components_fraction": "9/5"
+    },
+    {
+      "peptide": "PM",
+      "codons": 2,
+      "nonempty_pair_graphs": 176,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 4,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "PN",
+      "codons": 2,
+      "nonempty_pair_graphs": 44,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 8,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "PP",
+      "codons": 2,
+      "nonempty_pair_graphs": 287,
+      "multi_component_pair_graphs": 1,
+      "maximum_components": 2,
+      "maximum_vertices": 16,
+      "maximum_effective_components_fraction": "2"
+    },
+    {
+      "peptide": "PQ",
+      "codons": 2,
+      "nonempty_pair_graphs": 88,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 8,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "PR",
+      "codons": 2,
+      "nonempty_pair_graphs": 940,
+      "multi_component_pair_graphs": 28,
+      "maximum_components": 2,
+      "maximum_vertices": 24,
+      "maximum_effective_components_fraction": "2"
+    },
+    {
+      "peptide": "PS",
+      "codons": 2,
+      "nonempty_pair_graphs": 428,
+      "multi_component_pair_graphs": 35,
+      "maximum_components": 3,
+      "maximum_vertices": 24,
+      "maximum_effective_components_fraction": "3"
+    },
+    {
+      "peptide": "PT",
+      "codons": 2,
+      "nonempty_pair_graphs": 112,
+      "multi_component_pair_graphs": 1,
+      "maximum_components": 2,
+      "maximum_vertices": 16,
+      "maximum_effective_components_fraction": "2"
+    },
+    {
+      "peptide": "PV",
+      "codons": 2,
+      "nonempty_pair_graphs": 896,
+      "multi_component_pair_graphs": 8,
+      "maximum_components": 2,
+      "maximum_vertices": 16,
+      "maximum_effective_components_fraction": "2"
+    },
+    {
+      "peptide": "PW",
+      "codons": 2,
+      "nonempty_pair_graphs": 704,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 4,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "PY",
+      "codons": 2,
+      "nonempty_pair_graphs": 68,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 8,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "QA",
+      "codons": 2,
+      "nonempty_pair_graphs": 176,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 8,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "QC",
+      "codons": 2,
+      "nonempty_pair_graphs": 256,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 4,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "QD",
+      "codons": 2,
+      "nonempty_pair_graphs": 64,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 4,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "QE",
+      "codons": 2,
+      "nonempty_pair_graphs": 8,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 4,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "QF",
+      "codons": 2,
+      "nonempty_pair_graphs": 128,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 4,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "QG",
+      "codons": 2,
+      "nonempty_pair_graphs": 136,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 8,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "QH",
+      "codons": 2,
+      "nonempty_pair_graphs": 32,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 4,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "QI",
+      "codons": 2,
+      "nonempty_pair_graphs": 144,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 6,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "QK",
+      "codons": 2,
+      "nonempty_pair_graphs": 4,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 4,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "QL",
+      "codons": 2,
+      "nonempty_pair_graphs": 304,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 12,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "QM",
+      "codons": 2,
+      "nonempty_pair_graphs": 64,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 2,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "QN",
+      "codons": 2,
+      "nonempty_pair_graphs": 32,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 4,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "QP",
+      "codons": 2,
+      "nonempty_pair_graphs": 88,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 8,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "QQ",
+      "codons": 2,
+      "nonempty_pair_graphs": 16,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 4,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "QR",
+      "codons": 2,
+      "nonempty_pair_graphs": 176,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 12,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "QS",
+      "codons": 2,
+      "nonempty_pair_graphs": 226,
+      "multi_component_pair_graphs": 14,
+      "maximum_components": 2,
+      "maximum_vertices": 12,
+      "maximum_effective_components_fraction": "2"
+    },
+    {
+      "peptide": "QT",
+      "codons": 2,
+      "nonempty_pair_graphs": 44,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 8,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "QV",
+      "codons": 2,
+      "nonempty_pair_graphs": 352,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 8,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "QW",
+      "codons": 2,
+      "nonempty_pair_graphs": 128,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 2,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "QY",
+      "codons": 2,
+      "nonempty_pair_graphs": 128,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 4,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "RA",
+      "codons": 2,
+      "nonempty_pair_graphs": 1332,
+      "multi_component_pair_graphs": 28,
+      "maximum_components": 2,
+      "maximum_vertices": 24,
+      "maximum_effective_components_fraction": "2"
+    },
+    {
+      "peptide": "RC",
+      "codons": 2,
+      "nonempty_pair_graphs": 896,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 12,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "RD",
+      "codons": 2,
+      "nonempty_pair_graphs": 368,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 12,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "RE",
+      "codons": 2,
+      "nonempty_pair_graphs": 136,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 12,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "RF",
+      "codons": 2,
+      "nonempty_pair_graphs": 720,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 12,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "RG",
+      "codons": 2,
+      "nonempty_pair_graphs": 910,
+      "multi_component_pair_graphs": 10,
+      "maximum_components": 2,
+      "maximum_vertices": 24,
+      "maximum_effective_components_fraction": "2"
+    },
+    {
+      "peptide": "RH",
+      "codons": 2,
+      "nonempty_pair_graphs": 208,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 12,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "RI",
+      "codons": 2,
+      "nonempty_pair_graphs": 664,
+      "multi_component_pair_graphs": 8,
+      "maximum_components": 2,
+      "maximum_vertices": 18,
+      "maximum_effective_components_fraction": "8/5"
+    },
+    {
+      "peptide": "RK",
+      "codons": 2,
+      "nonempty_pair_graphs": 68,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 12,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "RL",
+      "codons": 2,
+      "nonempty_pair_graphs": 1244,
+      "multi_component_pair_graphs": 28,
+      "maximum_components": 2,
+      "maximum_vertices": 36,
+      "maximum_effective_components_fraction": "2"
+    },
+    {
+      "peptide": "RM",
+      "codons": 2,
+      "nonempty_pair_graphs": 368,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 6,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "RN",
+      "codons": 2,
+      "nonempty_pair_graphs": 192,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 12,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "RP",
+      "codons": 2,
+      "nonempty_pair_graphs": 940,
+      "multi_component_pair_graphs": 28,
+      "maximum_components": 2,
+      "maximum_vertices": 24,
+      "maximum_effective_components_fraction": "2"
+    },
+    {
+      "peptide": "RQ",
+      "codons": 2,
+      "nonempty_pair_graphs": 176,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 12,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "RR",
+      "codons": 2,
+      "nonempty_pair_graphs": 1383,
+      "multi_component_pair_graphs": 40,
+      "maximum_components": 3,
+      "maximum_vertices": 36,
+      "maximum_effective_components_fraction": "3"
+    },
+    {
+      "peptide": "RS",
+      "codons": 2,
+      "nonempty_pair_graphs": 1400,
+      "multi_component_pair_graphs": 108,
+      "maximum_components": 3,
+      "maximum_vertices": 36,
+      "maximum_effective_components_fraction": "3"
+    },
+    {
+      "peptide": "RT",
+      "codons": 2,
+      "nonempty_pair_graphs": 346,
+      "multi_component_pair_graphs": 10,
+      "maximum_components": 2,
+      "maximum_vertices": 24,
+      "maximum_effective_components_fraction": "2"
+    },
+    {
+      "peptide": "RV",
+      "codons": 2,
+      "nonempty_pair_graphs": 1468,
+      "multi_component_pair_graphs": 28,
+      "maximum_components": 2,
+      "maximum_vertices": 24,
+      "maximum_effective_components_fraction": "2"
+    },
+    {
+      "peptide": "RW",
+      "codons": 2,
+      "nonempty_pair_graphs": 720,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 6,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "RY",
+      "codons": 2,
+      "nonempty_pair_graphs": 544,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 12,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "SA",
+      "codons": 2,
+      "nonempty_pair_graphs": 1174,
+      "multi_component_pair_graphs": 80,
+      "maximum_components": 3,
+      "maximum_vertices": 24,
+      "maximum_effective_components_fraction": "3"
+    },
+    {
+      "peptide": "SC",
+      "codons": 2,
+      "nonempty_pair_graphs": 764,
+      "multi_component_pair_graphs": 20,
+      "maximum_components": 2,
+      "maximum_vertices": 12,
+      "maximum_effective_components_fraction": "2"
+    },
+    {
+      "peptide": "SD",
+      "codons": 2,
+      "nonempty_pair_graphs": 580,
+      "multi_component_pair_graphs": 28,
+      "maximum_components": 2,
+      "maximum_vertices": 12,
+      "maximum_effective_components_fraction": "2"
+    },
+    {
+      "peptide": "SE",
+      "codons": 2,
+      "nonempty_pair_graphs": 373,
+      "multi_component_pair_graphs": 11,
+      "maximum_components": 2,
+      "maximum_vertices": 12,
+      "maximum_effective_components_fraction": "2"
+    },
+    {
+      "peptide": "SF",
+      "codons": 2,
+      "nonempty_pair_graphs": 284,
+      "multi_component_pair_graphs": 4,
+      "maximum_components": 2,
+      "maximum_vertices": 12,
+      "maximum_effective_components_fraction": "2"
+    },
+    {
+      "peptide": "SG",
+      "codons": 2,
+      "nonempty_pair_graphs": 1496,
+      "multi_component_pair_graphs": 71,
+      "maximum_components": 3,
+      "maximum_vertices": 24,
+      "maximum_effective_components_fraction": "3"
+    },
+    {
+      "peptide": "SH",
+      "codons": 2,
+      "nonempty_pair_graphs": 186,
+      "multi_component_pair_graphs": 10,
+      "maximum_components": 2,
+      "maximum_vertices": 12,
+      "maximum_effective_components_fraction": "2"
+    },
+    {
+      "peptide": "SI",
+      "codons": 2,
+      "nonempty_pair_graphs": 922,
+      "multi_component_pair_graphs": 56,
+      "maximum_components": 3,
+      "maximum_vertices": 18,
+      "maximum_effective_components_fraction": "25/11"
+    },
+    {
+      "peptide": "SK",
+      "codons": 2,
+      "nonempty_pair_graphs": 197,
+      "multi_component_pair_graphs": 11,
+      "maximum_components": 2,
+      "maximum_vertices": 12,
+      "maximum_effective_components_fraction": "2"
+    },
+    {
+      "peptide": "SL",
+      "codons": 2,
+      "nonempty_pair_graphs": 860,
+      "multi_component_pair_graphs": 35,
+      "maximum_components": 3,
+      "maximum_vertices": 36,
+      "maximum_effective_components_fraction": "25/9"
+    },
+    {
+      "peptide": "SM",
+      "codons": 2,
+      "nonempty_pair_graphs": 580,
+      "multi_component_pair_graphs": 28,
+      "maximum_components": 2,
+      "maximum_vertices": 6,
+      "maximum_effective_components_fraction": "2"
+    },
+    {
+      "peptide": "SN",
+      "codons": 2,
+      "nonempty_pair_graphs": 404,
+      "multi_component_pair_graphs": 28,
+      "maximum_components": 2,
+      "maximum_vertices": 12,
+      "maximum_effective_components_fraction": "2"
+    },
+    {
+      "peptide": "SP",
+      "codons": 2,
+      "nonempty_pair_graphs": 428,
+      "multi_component_pair_graphs": 35,
+      "maximum_components": 3,
+      "maximum_vertices": 24,
+      "maximum_effective_components_fraction": "3"
+    },
+    {
+      "peptide": "SQ",
+      "codons": 2,
+      "nonempty_pair_graphs": 226,
+      "multi_component_pair_graphs": 14,
+      "maximum_components": 2,
+      "maximum_vertices": 12,
+      "maximum_effective_components_fraction": "2"
+    },
+    {
+      "peptide": "SR",
+      "codons": 2,
+      "nonempty_pair_graphs": 1400,
+      "multi_component_pair_graphs": 108,
+      "maximum_components": 3,
+      "maximum_vertices": 36,
+      "maximum_effective_components_fraction": "3"
+    },
+    {
+      "peptide": "SS",
+      "codons": 2,
+      "nonempty_pair_graphs": 816,
+      "multi_component_pair_graphs": 368,
+      "maximum_components": 4,
+      "maximum_vertices": 36,
+      "maximum_effective_components_fraction": "4"
+    },
+    {
+      "peptide": "ST",
+      "codons": 2,
+      "nonempty_pair_graphs": 363,
+      "multi_component_pair_graphs": 38,
+      "maximum_components": 3,
+      "maximum_vertices": 24,
+      "maximum_effective_components_fraction": "3"
+    },
+    {
+      "peptide": "SV",
+      "codons": 2,
+      "nonempty_pair_graphs": 1526,
+      "multi_component_pair_graphs": 80,
+      "maximum_components": 3,
+      "maximum_vertices": 24,
+      "maximum_effective_components_fraction": "3"
+    },
+    {
+      "peptide": "SW",
+      "codons": 2,
+      "nonempty_pair_graphs": 932,
+      "multi_component_pair_graphs": 28,
+      "maximum_components": 2,
+      "maximum_vertices": 6,
+      "maximum_effective_components_fraction": "2"
+    },
+    {
+      "peptide": "SY",
+      "codons": 2,
+      "nonempty_pair_graphs": 628,
+      "multi_component_pair_graphs": 20,
+      "maximum_components": 2,
+      "maximum_vertices": 12,
+      "maximum_effective_components_fraction": "2"
+    },
+    {
+      "peptide": "TA",
+      "codons": 2,
+      "nonempty_pair_graphs": 320,
+      "multi_component_pair_graphs": 4,
+      "maximum_components": 2,
+      "maximum_vertices": 16,
+      "maximum_effective_components_fraction": "2"
+    },
+    {
+      "peptide": "TC",
+      "codons": 2,
+      "nonempty_pair_graphs": 352,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 8,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "TD",
+      "codons": 2,
+      "nonempty_pair_graphs": 176,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 8,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "TE",
+      "codons": 2,
+      "nonempty_pair_graphs": 68,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 8,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "TF",
+      "codons": 2,
+      "nonempty_pair_graphs": 136,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 8,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "TG",
+      "codons": 2,
+      "nonempty_pair_graphs": 448,
+      "multi_component_pair_graphs": 4,
+      "maximum_components": 2,
+      "maximum_vertices": 16,
+      "maximum_effective_components_fraction": "2"
+    },
+    {
+      "peptide": "TH",
+      "codons": 2,
+      "nonempty_pair_graphs": 44,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 8,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "TI",
+      "codons": 2,
+      "nonempty_pair_graphs": 232,
+      "multi_component_pair_graphs": 4,
+      "maximum_components": 2,
+      "maximum_vertices": 12,
+      "maximum_effective_components_fraction": "8/5"
+    },
+    {
+      "peptide": "TK",
+      "codons": 2,
+      "nonempty_pair_graphs": 34,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 8,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "TL",
+      "codons": 2,
+      "nonempty_pair_graphs": 400,
+      "multi_component_pair_graphs": 2,
+      "maximum_components": 2,
+      "maximum_vertices": 24,
+      "maximum_effective_components_fraction": "9/5"
+    },
+    {
+      "peptide": "TM",
+      "codons": 2,
+      "nonempty_pair_graphs": 176,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 4,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "TN",
+      "codons": 2,
+      "nonempty_pair_graphs": 88,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 8,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "TP",
+      "codons": 2,
+      "nonempty_pair_graphs": 112,
+      "multi_component_pair_graphs": 1,
+      "maximum_components": 2,
+      "maximum_vertices": 16,
+      "maximum_effective_components_fraction": "2"
+    },
+    {
+      "peptide": "TQ",
+      "codons": 2,
+      "nonempty_pair_graphs": 44,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 8,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "TR",
+      "codons": 2,
+      "nonempty_pair_graphs": 346,
+      "multi_component_pair_graphs": 10,
+      "maximum_components": 2,
+      "maximum_vertices": 24,
+      "maximum_effective_components_fraction": "2"
+    },
+    {
+      "peptide": "TS",
+      "codons": 2,
+      "nonempty_pair_graphs": 363,
+      "multi_component_pair_graphs": 38,
+      "maximum_components": 3,
+      "maximum_vertices": 24,
+      "maximum_effective_components_fraction": "3"
+    },
+    {
+      "peptide": "TT",
+      "codons": 2,
+      "nonempty_pair_graphs": 80,
+      "multi_component_pair_graphs": 1,
+      "maximum_components": 2,
+      "maximum_vertices": 16,
+      "maximum_effective_components_fraction": "2"
+    },
+    {
+      "peptide": "TV",
+      "codons": 2,
+      "nonempty_pair_graphs": 640,
+      "multi_component_pair_graphs": 8,
+      "maximum_components": 2,
+      "maximum_vertices": 16,
+      "maximum_effective_components_fraction": "2"
+    },
+    {
+      "peptide": "TW",
+      "codons": 2,
+      "nonempty_pair_graphs": 352,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 4,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "TY",
+      "codons": 2,
+      "nonempty_pair_graphs": 176,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 8,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "VA",
+      "codons": 2,
+      "nonempty_pair_graphs": 1280,
+      "multi_component_pair_graphs": 16,
+      "maximum_components": 2,
+      "maximum_vertices": 16,
+      "maximum_effective_components_fraction": "2"
+    },
+    {
+      "peptide": "VC",
+      "codons": 2,
+      "nonempty_pair_graphs": 704,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 8,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "VD",
+      "codons": 2,
+      "nonempty_pair_graphs": 704,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 8,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "VE",
+      "codons": 2,
+      "nonempty_pair_graphs": 272,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 8,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "VF",
+      "codons": 2,
+      "nonempty_pair_graphs": 272,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 8,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "VG",
+      "codons": 2,
+      "nonempty_pair_graphs": 896,
+      "multi_component_pair_graphs": 8,
+      "maximum_components": 2,
+      "maximum_vertices": 16,
+      "maximum_effective_components_fraction": "2"
+    },
+    {
+      "peptide": "VH",
+      "codons": 2,
+      "nonempty_pair_graphs": 352,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 8,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "VI",
+      "codons": 2,
+      "nonempty_pair_graphs": 1280,
+      "multi_component_pair_graphs": 16,
+      "maximum_components": 2,
+      "maximum_vertices": 12,
+      "maximum_effective_components_fraction": "8/5"
+    },
+    {
+      "peptide": "VK",
+      "codons": 2,
+      "nonempty_pair_graphs": 272,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 8,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "VL",
+      "codons": 2,
+      "nonempty_pair_graphs": 896,
+      "multi_component_pair_graphs": 8,
+      "maximum_components": 2,
+      "maximum_vertices": 24,
+      "maximum_effective_components_fraction": "9/5"
+    },
+    {
+      "peptide": "VM",
+      "codons": 2,
+      "nonempty_pair_graphs": 704,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 4,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "VN",
+      "codons": 2,
+      "nonempty_pair_graphs": 704,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 8,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "VP",
+      "codons": 2,
+      "nonempty_pair_graphs": 896,
+      "multi_component_pair_graphs": 8,
+      "maximum_components": 2,
+      "maximum_vertices": 16,
+      "maximum_effective_components_fraction": "2"
+    },
+    {
+      "peptide": "VQ",
+      "codons": 2,
+      "nonempty_pair_graphs": 352,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 8,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "VR",
+      "codons": 2,
+      "nonempty_pair_graphs": 1468,
+      "multi_component_pair_graphs": 28,
+      "maximum_components": 2,
+      "maximum_vertices": 24,
+      "maximum_effective_components_fraction": "2"
+    },
+    {
+      "peptide": "VS",
+      "codons": 2,
+      "nonempty_pair_graphs": 1526,
+      "multi_component_pair_graphs": 80,
+      "maximum_components": 3,
+      "maximum_vertices": 24,
+      "maximum_effective_components_fraction": "3"
+    },
+    {
+      "peptide": "VT",
+      "codons": 2,
+      "nonempty_pair_graphs": 640,
+      "multi_component_pair_graphs": 8,
+      "maximum_components": 2,
+      "maximum_vertices": 16,
+      "maximum_effective_components_fraction": "2"
+    },
+    {
+      "peptide": "VV",
+      "codons": 2,
+      "nonempty_pair_graphs": 1280,
+      "multi_component_pair_graphs": 16,
+      "maximum_components": 2,
+      "maximum_vertices": 16,
+      "maximum_effective_components_fraction": "2"
+    },
+    {
+      "peptide": "VW",
+      "codons": 2,
+      "nonempty_pair_graphs": 704,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 4,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "VY",
+      "codons": 2,
+      "nonempty_pair_graphs": 704,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 8,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "WA",
+      "codons": 2,
+      "nonempty_pair_graphs": 704,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 4,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "WC",
+      "codons": 2,
+      "nonempty_pair_graphs": 512,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 2,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "WD",
+      "codons": 2,
+      "nonempty_pair_graphs": 256,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 2,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "WE",
+      "codons": 2,
+      "nonempty_pair_graphs": 32,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 2,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "WF",
+      "codons": 2,
+      "nonempty_pair_graphs": 256,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 2,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "WG",
+      "codons": 2,
+      "nonempty_pair_graphs": 272,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 4,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "WH",
+      "codons": 2,
+      "nonempty_pair_graphs": 256,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 2,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "WI",
+      "codons": 2,
+      "nonempty_pair_graphs": 704,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 3,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "WK",
+      "codons": 2,
+      "nonempty_pair_graphs": 32,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 2,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "WL",
+      "codons": 2,
+      "nonempty_pair_graphs": 704,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 6,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "WM",
+      "codons": 2,
+      "nonempty_pair_graphs": 256,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 1,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "WN",
+      "codons": 2,
+      "nonempty_pair_graphs": 256,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 2,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "WP",
+      "codons": 2,
+      "nonempty_pair_graphs": 704,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 4,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "WQ",
+      "codons": 2,
+      "nonempty_pair_graphs": 128,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 2,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "WR",
+      "codons": 2,
+      "nonempty_pair_graphs": 720,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 6,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "WS",
+      "codons": 2,
+      "nonempty_pair_graphs": 932,
+      "multi_component_pair_graphs": 28,
+      "maximum_components": 2,
+      "maximum_vertices": 6,
+      "maximum_effective_components_fraction": "2"
+    },
+    {
+      "peptide": "WT",
+      "codons": 2,
+      "nonempty_pair_graphs": 352,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 4,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "WV",
+      "codons": 2,
+      "nonempty_pair_graphs": 704,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 4,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "WW",
+      "codons": 2,
+      "nonempty_pair_graphs": 256,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 1,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "WY",
+      "codons": 2,
+      "nonempty_pair_graphs": 512,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 2,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "YA",
+      "codons": 2,
+      "nonempty_pair_graphs": 352,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 8,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "YC",
+      "codons": 2,
+      "nonempty_pair_graphs": 256,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 4,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "YD",
+      "codons": 2,
+      "nonempty_pair_graphs": 512,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 4,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "YE",
+      "codons": 2,
+      "nonempty_pair_graphs": 256,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 4,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "YF",
+      "codons": 2,
+      "nonempty_pair_graphs": 32,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 4,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "YG",
+      "codons": 2,
+      "nonempty_pair_graphs": 704,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 8,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "YH",
+      "codons": 2,
+      "nonempty_pair_graphs": 64,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 4,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "YI",
+      "codons": 2,
+      "nonempty_pair_graphs": 704,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 6,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "YK",
+      "codons": 2,
+      "nonempty_pair_graphs": 256,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 4,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "YL",
+      "codons": 2,
+      "nonempty_pair_graphs": 264,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 12,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "YM",
+      "codons": 2,
+      "nonempty_pair_graphs": 512,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 2,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "YN",
+      "codons": 2,
+      "nonempty_pair_graphs": 512,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 4,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "YP",
+      "codons": 2,
+      "nonempty_pair_graphs": 68,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 8,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "YQ",
+      "codons": 2,
+      "nonempty_pair_graphs": 128,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 4,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "YR",
+      "codons": 2,
+      "nonempty_pair_graphs": 544,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 12,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "YS",
+      "codons": 2,
+      "nonempty_pair_graphs": 628,
+      "multi_component_pair_graphs": 20,
+      "maximum_components": 2,
+      "maximum_vertices": 12,
+      "maximum_effective_components_fraction": "2"
+    },
+    {
+      "peptide": "YT",
+      "codons": 2,
+      "nonempty_pair_graphs": 176,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 8,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "YV",
+      "codons": 2,
+      "nonempty_pair_graphs": 704,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 8,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "YW",
+      "codons": 2,
+      "nonempty_pair_graphs": 512,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 2,
+      "maximum_effective_components_fraction": "1"
+    },
+    {
+      "peptide": "YY",
+      "codons": 2,
+      "nonempty_pair_graphs": 256,
+      "multi_component_pair_graphs": 0,
+      "maximum_components": 1,
+      "maximum_vertices": 4,
+      "maximum_effective_components_fraction": "1"
+    }
+  ],
+  "star_fixtures": [
+    {
+      "peptide": "LKK",
+      "x": "CUCAAGAAG",
+      "y": "UUAAAAAAA",
+      "edges": [
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          8
+        ]
+      ],
+      "changed_coordinates0": [
+        0,
+        2,
+        5,
+        8
+      ],
+      "precedences_on_event_indices": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "shortest_paths": 2,
+      "height": 3,
+      "forest_DP": 2
+    },
+    {
+      "peptide": "LKKK",
+      "x": "CUCAAGAAGAAG",
+      "y": "UUAAAAAAAAAA",
+      "edges": [
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          0,
+          11
+        ]
+      ],
+      "changed_coordinates0": [
+        0,
+        2,
+        5,
+        8,
+        11
+      ],
+      "precedences_on_event_indices": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "shortest_paths": 6,
+      "height": 3,
+      "forest_DP": 6
+    },
+    {
+      "peptide": "LKKKK",
+      "x": "CUCAAGAAGAAGAAG",
+      "y": "UUAAAAAAAAAAAAA",
+      "edges": [
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          0,
+          11
+        ],
+        [
+          0,
+          14
+        ]
+      ],
+      "changed_coordinates0": [
+        0,
+        2,
+        5,
+        8,
+        11,
+        14
+      ],
+      "precedences_on_event_indices": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "shortest_paths": 24,
+      "height": 3,
+      "forest_DP": 24
+    },
+    {
+      "peptide": "LKKKKK",
+      "x": "CUCAAGAAGAAGAAGAAG",
+      "y": "UUAAAAAAAAAAAAAAAA",
+      "edges": [
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          0,
+          11
+        ],
+        [
+          0,
+          14
+        ],
+        [
+          0,
+          17
+        ]
+      ],
+      "changed_coordinates0": [
+        0,
+        2,
+        5,
+        8,
+        11,
+        14,
+        17
+      ],
+      "precedences_on_event_indices": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "shortest_paths": 120,
+      "height": 3,
+      "forest_DP": 120
+    },
+    {
+      "peptide": "LKKKKKK",
+      "x": "CUCAAGAAGAAGAAGAAGAAG",
+      "y": "UUAAAAAAAAAAAAAAAAAAA",
+      "edges": [
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          0,
+          11
+        ],
+        [
+          0,
+          14
+        ],
+        [
+          0,
+          17
+        ],
+        [
+          0,
+          20
+        ]
+      ],
+      "changed_coordinates0": [
+        0,
+        2,
+        5,
+        8,
+        11,
+        14,
+        17,
+        20
+      ],
+      "precedences_on_event_indices": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "shortest_paths": 720,
+      "height": 3,
+      "forest_DP": 720
+    },
+    {
+      "peptide": "LKKKKKKK",
+      "x": "CUCAAGAAGAAGAAGAAGAAGAAG",
+      "y": "UUAAAAAAAAAAAAAAAAAAAAAA",
+      "edges": [
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          0,
+          11
+        ],
+        [
+          0,
+          14
+        ],
+        [
+          0,
+          17
+        ],
+        [
+          0,
+          20
+        ],
+        [
+          0,
+          23
+        ]
+      ],
+      "changed_coordinates0": [
+        0,
+        2,
+        5,
+        8,
+        11,
+        14,
+        17,
+        20,
+        23
+      ],
+      "precedences_on_event_indices": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "shortest_paths": 5040,
+      "height": 3,
+      "forest_DP": 5040
+    }
+  ],
+  "height2_reduction_graphs_checked": 64,
+  "seconds": 32.9936572000006
+}

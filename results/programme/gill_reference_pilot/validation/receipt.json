@@ -1,0 +1,43 @@
+{
+  "mode": "validate",
+  "status": "completed",
+  "inputs": {
+    "protocol_sha256": "753bbc9571a4c3617e2eb99b9932a9f268e87c0714f23e1be43eac6288efcc45",
+    "eligibility_sha256": "00f538b420634a1fe302cff0477cd14d7ff61ceeed4dfdcb6072eb45c353a271",
+    "workbook_sha256": "0f80ba9868c54548db938c65d09d8caa0419c5721bfa379949f6a18ad2568e89",
+    "runner_sha256": "f57f084c85fbfae3b27888e55284ff41e10fb178d719351fe94c40d17c9c2b83",
+    "prediction_sha256": "ff04894c283310fc9f47ae01f35191bc6a9be83493e39baaaf29d6da9bdd3660"
+  },
+  "outputs": {
+    "validation.json": "eedb95ab88b1e9860ba304da9921da3eee282afe1bd2d30088e412109aac6766",
+    "validation_table.json": "e85987344818ff33ea316e8b7ff508c49818bfda6d5928427eba3ec9889573a1",
+    "joint_scenarios.json": "78876369e146cef823a1445d18aa65c5d057ab89cdf1eff05e9436e3900b14dd"
+  },
+  "command": [
+    "outputs/synonymous-rna-accessibility/analysis/programme/retrospective/gill_reference_pilot.py",
+    "validate",
+    "--protocol",
+    "outputs/synonymous-rna-accessibility/analysis/programme/retrospective/gill_reference_protocol_v1.json",
+    "--eligibility",
+    "outputs/synonymous-rna-accessibility/results/programme/retrospective/gill_amplicon_pilot_v2.json",
+    "--workbook",
+    "work/retrospective_sources/gill/cds_processed.xlsx",
+    "--predictions",
+    "outputs/synonymous-rna-accessibility/results/programme/gill_reference_pilot/training/predictions.json",
+    "--prediction-sha256",
+    "ff04894c283310fc9f47ae01f35191bc6a9be83493e39baaaf29d6da9bdd3660",
+    "--outdir",
+    "outputs/synonymous-rna-accessibility/results/programme/gill_reference_pilot/validation"
+  ],
+  "runtime_seconds": 3.0309500000003027,
+  "repository": {
+    "commit": "d186707a74a40e14a3ed9175337796d9de25c3dd",
+    "dirty": true
+  },
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.5.4",
+    "platform": "Windows-11-10.0.26300-SP0"
+  },
+  "scientific_scope": "fixed 32-genotype measurement prediction, no independent biological inference"
+}
