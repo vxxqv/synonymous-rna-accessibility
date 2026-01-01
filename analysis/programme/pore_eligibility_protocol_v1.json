@@ -1,0 +1,14 @@
+{
+ "id":"PORE_ELIGIBILITY_V1",
+ "known":"Published aggregate conclusions, methods and author plotting code have been read. Only table schemas, row identifiers, feature-availability counts and source selection labels have been inspected; individual functional outcome values remain unexamined.",
+ "source":"Nature Methods 2026 doi:10.1038/s41592-026-03069-y; author repository 9ef726695ee84aed3627c517e8eb1097bae73df2; GSE304702 structure and GSE303560 post-thiolutin RNA measurements",
+ "translation_gate":"Verify culture matching before any TE analysis. The author code labels the external 37C TE condition as 37C plus serum. Do not treat it as temperature-only validation of the structure experiment.",
+ "decay_candidate":"Evaluate whether the deposited 204-row 3UTR integration table and full RNA time-course table support a held-out test of structural homogeneity beyond simple reactivity, Gini, GC, length and initial abundance.",
+ "permitted_next_reads":"Identifiers, source metadata, structural feature columns, their missingness and condition mapping; inspect RNA-table headers and count whether required timepoint/replicate cells are present without printing or modeling their values.",
+ "endpoint_scope":"Relative RNA persistence after thiolutin, not an absolute decay constant. Source StepMiner step labels must not be relabeled exponential half-lives. No causal structure or synonymous-intervention claim.",
+ "eligibility":"At least 60 independent gene groups with compatible 30C structure and two RNA biological replicates at 0 and 120 minutes; at least 25 groups in each genotype/sequence-family-separated development and validation partition. Verify how the structure cohort was selected and whether RNA outcomes entered selection.",
+ "features":"Source homogeneity is a read-profile statistic; it is not automatically an inferred structural occupancy, base-pair probability, or thermodynamic ensemble entropy. Require its exact definition and the meaning of replicate 0 before analysis.",
+ "quarantine":"RPS19A and RPL29 are published selected reporter examples and cannot serve as new independent validation.",
+ "if_eligible":"Freeze a separate outcome protocol, all model choices and partitions before accessing RNA endpoint values.",
+ "if_ineligible":"Record the specific absent evidence and keep outcomes unopened. Do not lower the independent-unit threshold or silently replace the endpoint."
+}
