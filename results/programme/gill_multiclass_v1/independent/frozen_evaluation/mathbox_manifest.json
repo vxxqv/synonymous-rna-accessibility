@@ -1,0 +1,197 @@
+{
+  "schema_version": 2,
+  "claim_id": "Gill_multiclass_independent_observed_evaluation_v1",
+  "repository": {
+    "commit": "unavailable",
+    "dirty": true
+  },
+  "command": [
+    "work/env/Scripts/python.exe",
+    "work/gill_multiclass_cycle3/independent_result_review/verifier.py",
+    "--phase",
+    "evaluate",
+    "--validation-receipt",
+    "work/gill_multiclass_cycle3/validation_v1/receipt.json",
+    "--validation-receipt-sha",
+    "5f7535bb58622cb656ee0cb7ed4109f8daef324ac470eb948ba40ffd9ab6757c",
+    "--validation-counts",
+    "work/gill_multiclass_cycle3/validation_v1/heldout_counts.json.gz",
+    "--validation-counts-sha",
+    "bcbf8989413b6fa5c9c1a3c945c75693f5b4a0e194a857754a41cc61848f09c9",
+    "--output",
+    "work/gill_multiclass_cycle3/independent_result_review/evaluation_run_v1/calculation"
+  ],
+  "environment": {
+    "software": [
+      {
+        "name": "runner-python",
+        "version": "3.12.14"
+      },
+      {
+        "name": "Python",
+        "version": "3.12.14"
+      },
+      {
+        "name": "NumPy",
+        "version": "2.5.4"
+      }
+    ],
+    "hardware": "Windows-11-10.0.26300-SP0"
+  },
+  "mathematics": {
+    "assertion_tested": "Evaluate every2176fixedclass and3pseudocount using independently authored indicator/lstsq projection and allendpoint maxminFloyd barriers for20fields; compute45normalization crossproducts, pooledloss/cosines andallstratum influence. Author metrics notread in thisexecution.",
+    "coefficient_domain": "Float64 linearalgebra/log2 with exactinteger membership checks",
+    "conventions": "Frozen independent design.md;1/n perclass vertexproduct weighting; all fixedkeys, no exclusions.",
+    "inputs": [
+      "work\\gill_multiclass_cycle3\\independent_result_review\\verifier.py",
+      "work\\gill_multiclass_cycle3\\independent_result_review\\freeze.json",
+      "outputs\\synonymous-rna-accessibility\\analysis\\programme\\retrospective\\gill_multiclass_v1\\protocol.json",
+      "outputs\\synonymous-rna-accessibility\\analysis\\programme\\retrospective\\gill_multiclass_v1\\inventory.json.gz",
+      "work\\gill_multiclass_cycle3\\training_v1\\receipt.json",
+      "work\\gill_multiclass_cycle3\\training_v1\\counts.json.gz",
+      "work\\gill_multiclass_cycle3\\training_v1\\predictions.json.gz",
+      "work\\gill_multiclass_cycle3\\validation_v1\\receipt.json",
+      "work\\gill_multiclass_cycle3\\validation_v1\\heldout_counts.json.gz"
+    ],
+    "bounds": {
+      "classes": 2176,
+      "vertices": 38338,
+      "pseudocounts": [
+        0.25,
+        0.5,
+        1.0
+      ],
+      "barrier_fields_per_class": 20,
+      "largest_class": 72
+    },
+    "non_claims": [
+      "Numericalagreement with author metrics requires separate comparison.",
+      "No biologicalcalibration, confidenceinterval, independentgene or noiseceiling inference."
+    ]
+  },
+  "randomness": {
+    "used": false,
+    "generator": "none",
+    "seed": null
+  },
+  "run": {
+    "started_at": "2026-10-25T07:50:39.393706+00:00",
+    "runtime_seconds": 17.547,
+    "exit_status": 0,
+    "status": "completed",
+    "timeout_seconds": 240.0,
+    "max_output_bytes": 1048576,
+    "resource_limits": {
+      "memory_bytes": null,
+      "cpu_seconds": null,
+      "max_cores": null,
+      "max_threads": null
+    },
+    "missing_results": [],
+    "invalid_results": []
+  },
+  "execution_artifacts": [
+    "work/gill_multiclass_cycle3/independent_result_review/verifier.py",
+    "work/gill_multiclass_cycle3/independent_result_review/freeze.json",
+    "outputs/synonymous-rna-accessibility/analysis/programme/retrospective/gill_multiclass_v1/protocol.json",
+    "outputs/synonymous-rna-accessibility/analysis/programme/retrospective/gill_multiclass_v1/inventory.json.gz",
+    "work/gill_multiclass_cycle3/training_v1/receipt.json",
+    "work/gill_multiclass_cycle3/training_v1/counts.json.gz",
+    "work/gill_multiclass_cycle3/training_v1/predictions.json.gz",
+    "work/gill_multiclass_cycle3/validation_v1/receipt.json",
+    "work/gill_multiclass_cycle3/validation_v1/heldout_counts.json.gz"
+  ],
+  "input_artifacts": [
+    {
+      "path": "work/gill_multiclass_cycle3/independent_result_review/verifier.py",
+      "sha256": "4331bb0ed7349bfc896f59bdbdfb98b931818c6671b9fa908c8a261a5cdfa588",
+      "sha256_after": "4331bb0ed7349bfc896f59bdbdfb98b931818c6671b9fa908c8a261a5cdfa588"
+    },
+    {
+      "path": "work/gill_multiclass_cycle3/independent_result_review/freeze.json",
+      "sha256": "6b2cb998cac489801078449a09e49f85845b2b48cd4d3442cea76636a87e7fd0",
+      "sha256_after": "6b2cb998cac489801078449a09e49f85845b2b48cd4d3442cea76636a87e7fd0"
+    },
+    {
+      "path": "outputs/synonymous-rna-accessibility/analysis/programme/retrospective/gill_multiclass_v1/protocol.json",
+      "sha256": "4ab4e85c14203c0ab8c983e8433c766f1566f373a335fd3fda4fb3981371c1aa",
+      "sha256_after": "4ab4e85c14203c0ab8c983e8433c766f1566f373a335fd3fda4fb3981371c1aa"
+    },
+    {
+      "path": "outputs/synonymous-rna-accessibility/analysis/programme/retrospective/gill_multiclass_v1/inventory.json.gz",
+      "sha256": "36c5ab0b307ec18f28e0798ffe4ad735e67259703a97dfb33028c0ed6b2551d0",
+      "sha256_after": "36c5ab0b307ec18f28e0798ffe4ad735e67259703a97dfb33028c0ed6b2551d0"
+    },
+    {
+      "path": "work/gill_multiclass_cycle3/training_v1/receipt.json",
+      "sha256": "c6fb3309a93635efab38f1469516617c3f1b4f857c88b4fbfff91be21115bdef",
+      "sha256_after": "c6fb3309a93635efab38f1469516617c3f1b4f857c88b4fbfff91be21115bdef"
+    },
+    {
+      "path": "work/gill_multiclass_cycle3/training_v1/counts.json.gz",
+      "sha256": "981f79db8b8853a93f13dfa22a8573d710b440d89cf6fc9fbfb81fb0351037ca",
+      "sha256_after": "981f79db8b8853a93f13dfa22a8573d710b440d89cf6fc9fbfb81fb0351037ca"
+    },
+    {
+      "path": "work/gill_multiclass_cycle3/training_v1/predictions.json.gz",
+      "sha256": "1e94d8cb15d425375df4e41c91d4b97a71542a7585fdec203622b26ab8d3c88a",
+      "sha256_after": "1e94d8cb15d425375df4e41c91d4b97a71542a7585fdec203622b26ab8d3c88a"
+    },
+    {
+      "path": "work/gill_multiclass_cycle3/validation_v1/receipt.json",
+      "sha256": "5f7535bb58622cb656ee0cb7ed4109f8daef324ac470eb948ba40ffd9ab6757c",
+      "sha256_after": "5f7535bb58622cb656ee0cb7ed4109f8daef324ac470eb948ba40ffd9ab6757c"
+    },
+    {
+      "path": "work/gill_multiclass_cycle3/validation_v1/heldout_counts.json.gz",
+      "sha256": "bcbf8989413b6fa5c9c1a3c945c75693f5b4a0e194a857754a41cc61848f09c9",
+      "sha256_after": "bcbf8989413b6fa5c9c1a3c945c75693f5b4a0e194a857754a41cc61848f09c9"
+    }
+  ],
+  "output_directory": "work/gill_multiclass_cycle3/independent_result_review/evaluation_run_v1",
+  "declared_results": [
+    "work/gill_multiclass_cycle3/independent_result_review/evaluation_run_v1/calculation/independent_results.json.gz",
+    "work/gill_multiclass_cycle3/independent_result_review/evaluation_run_v1/calculation/receipt.json"
+  ],
+  "outputs": [
+    {
+      "path": "work/gill_multiclass_cycle3/independent_result_review/evaluation_run_v1/stdout.txt",
+      "sha256": "cc0f6dc14cbcc44476bab464de4cfb68610c6c32bc97fb986b902cbac1b7cb3c",
+      "kind": "log"
+    },
+    {
+      "path": "work/gill_multiclass_cycle3/independent_result_review/evaluation_run_v1/stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "kind": "log"
+    },
+    {
+      "path": "work/gill_multiclass_cycle3/independent_result_review/evaluation_run_v1/calculation/independent_results.json.gz",
+      "sha256": "b0a019cf1754598b672fba59af497ec9aefd1effabfa1515bb4cd15e695a2a82",
+      "kind": "result"
+    },
+    {
+      "path": "work/gill_multiclass_cycle3/independent_result_review/evaluation_run_v1/calculation/receipt.json",
+      "sha256": "7743bedfbf34d3881d63c931101c3c809003601dcc8838be84dc8b0135757035",
+      "kind": "result"
+    }
+  ],
+  "checks": [
+    {
+      "check": "input hashes unchanged",
+      "passed": true
+    },
+    {
+      "check": "process exited successfully within enforced limits",
+      "passed": true
+    },
+    {
+      "check": "declared result files are present and regular",
+      "passed": true
+    }
+  ],
+  "result": "Run completed; mathematical assertion requires interpretation and review.",
+  "residual_risks": [
+    "Command success does not establish the mathematical interpretation.",
+    "Only listed input artifacts are pinned; external dependencies need recorded versions."
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "active_input_paths": [
+    "outputs/synonymous-rna-accessibility/src/acquisition.py",
+    "work/cost_audit_cycle2/cost_audit.py",
+    "work/cost_audit_cycle2/freeze.json",
+    "work/cost_audit_cycle2/interpretation.md",
+    "work/cost_audit_cycle2/prior_and_proof.md",
+    "work/cost_audit_cycle2/protocol.json",
+    "work/cost_audit_cycle2/reviewer/independent_reference.py",
+    "work/cost_audit_cycle2/reviewer/review.md"
+  ],
+  "adaptations": [
+    "Reconstruct original relative layout from immutable byte copies",
+    "Call held author mathematical functions with unchanged outer case order and checks, bypassing historical Git manifest construction",
+    "For the unchanged independent reviewer, normalize only input_sha256 relative path keys when parsing the exact frozen freeze text in memory",
+    "Preserve old command/software/path/Git provenance without claiming fresh historical Git authentication"
+  ],
+  "case_compression": {
+    "member": "work/cost_audit_cycle2/results/cases.json",
+    "method": "ZIP DEFLATE, lossless original bytes",
+    "uncompressed_bytes": 18565256
+  },
+  "comparison_policy": {
+    "bellman_certificates": "Exact decompressed byte equality; raw gzip byte equality also recorded",
+    "cases_summary_c4": "Full JSON equality",
+    "fresh_reference_hashes": "Every hash must match an actual file inside the reconstructed root",
+    "independent_reference_ignored_top_level": [
+      "inputs_sha256",
+      "command",
+      "python",
+      "runtime_seconds",
+      "started_at"
+    ],
+    "independent_summary_verification": "Full JSON equality"
+  },
+  "exclusions": [
+    "publication assets",
+    "manuscript",
+    "primary literature PDFs",
+    "biological data",
+    "__pycache__",
+    ".git",
+    "vendored dependencies"
+  ],
+  "freeze_file": "work/cost_audit_cycle2/freeze.json",
+  "non_claims": [
+    "No new mathematics or benchmark branch",
+    "No general correlated-prior computation",
+    "No population estimate, noisy-observation, assay-cost, scalability or novelty claim"
+  ],
+  "package_id": "Q3_OBSERVATION_COST_PORTABLE_V1",
+  "package_sha256": {
+    "README.md": "629bd5712d4108988a6423ffd58ccd5b24a6af04c545c1c046ca902f97092df9",
+    "correlated_prior_addendum.md": "6aab759cf05cfea15b5fae336e3dd0a811aa570bcb0f1266cc3a3fb87cec527c",
+    "frozen_sources.zip": "7db60195b976b22228af281d38277c0c13421be2471749772fdce0824b3a2e70",
+    "replay.py": "bf4c5ddd53f9f7e8580554f4b0f4e27de67019009e1daa940399b79caf160985",
+    "requirements.txt": "63b83d49071ae093c187423c768c6711a3716cda354d3a24e2bb10b0f536d34c"
+  },
+  "payload_bytes": {
+    "outputs/synonymous-rna-accessibility/src/acquisition.py": 8345,
+    "work/cost_audit_cycle2/cost_audit.py": 19065,
+    "work/cost_audit_cycle2/freeze.json": 812,
+    "work/cost_audit_cycle2/interpretation.md": 9160,
+    "work/cost_audit_cycle2/prior_and_proof.md": 6240,
+    "work/cost_audit_cycle2/protocol.json": 3487,
+    "work/cost_audit_cycle2/results/bellman_certificates.json.gz": 336426,
+    "work/cost_audit_cycle2/results/c4_bruteforce.json": 5057,
+    "work/cost_audit_cycle2/results/cases.json": 18565256,
+    "work/cost_audit_cycle2/results/manifest.json": 4520,
+    "work/cost_audit_cycle2/results/summary.json": 2020,
+    "work/cost_audit_cycle2/reviewer/independent_reference.py": 9861,
+    "work/cost_audit_cycle2/reviewer/independent_results.json": 130593,
+    "work/cost_audit_cycle2/reviewer/manifest.json": 6531,
+    "work/cost_audit_cycle2/reviewer/review.md": 11177,
+    "work/cost_audit_cycle2/reviewer/summary_verification.json": 1174
+  },
+  "payload_sha256": {
+    "outputs/synonymous-rna-accessibility/src/acquisition.py": "6005d30d709dc8100a1de64822d8e80cf8a8dbc8d9c3a18de8d21f69622be6ee",
+    "work/cost_audit_cycle2/cost_audit.py": "a82e32ab46bdc941235623b80ced7f600078f74f280d9aaeea0baf5d9aa2f107",
+    "work/cost_audit_cycle2/freeze.json": "3686acf9a6f5c1210cff47630de0959f536d1c552d57577f7157c939bae8a9d3",
+    "work/cost_audit_cycle2/interpretation.md": "ebff655bdcfd3defb94fb6e5aff78034a056018f26b1e47781f181c764d92c20",
+    "work/cost_audit_cycle2/prior_and_proof.md": "6d29f7f71d97f622fd10933f05c9e0ba3358f8ff182b8f639f2f021c4767952b",
+    "work/cost_audit_cycle2/protocol.json": "c5fd782951b7ff4ea4d0a6a018b0af589c7ee626c2dee81d2ee88bcc6fa84129",
+    "work/cost_audit_cycle2/results/bellman_certificates.json.gz": "272e12f6256ee26b2bc13175f7f94a86502fcaf3097da276468ea6dc33c6efa2",
+    "work/cost_audit_cycle2/results/c4_bruteforce.json": "d881f15882a011d2beb98ba1445d848d311c4d0896ade0d524cd447371922131",
+    "work/cost_audit_cycle2/results/cases.json": "bfc3259d7748a18532033fecd3545e9f56849fa8c07cd666a9ed17549b5f3d9c",
+    "work/cost_audit_cycle2/results/manifest.json": "c071279c7b47dcb9be3f32e4af25f641f6a51062c31d55a0d5812dd1a626361b",
+    "work/cost_audit_cycle2/results/summary.json": "58cc524623ebf2adf9adee187ab484943b0e7963fada9e22e996ddf91b8d4748",
+    "work/cost_audit_cycle2/reviewer/independent_reference.py": "30dcc83f2a5973211baee0d4c41c51c2c4779154c8d8f1466c5ad12062bc809c",
+    "work/cost_audit_cycle2/reviewer/independent_results.json": "6718a32c31edc35dab1b5cdfdc30043bb7a3a901a597df483485654d61df5b44",
+    "work/cost_audit_cycle2/reviewer/manifest.json": "43952ab480f4b686999ec64fcd029b4e93a040a569c5f890ed8f40cd35fffe5a",
+    "work/cost_audit_cycle2/reviewer/review.md": "a50aeccbbae9d8536bed778d5c41eef4fe3eb577e8726d01366c935090205a40",
+    "work/cost_audit_cycle2/reviewer/summary_verification.json": "b71522c6da81c93c1f2687bfc05e6aeb84ae8f9cb1bb787611b4ee579f6d2ec9"
+  },
+  "prose_addendum": {
+    "path": "correlated_prior_addendum.md",
+    "status": "Clarifies generic zero-probability histories; frozen full-support experiment unchanged"
+  },
+  "runtime_prerequisites": {
+    "Python": "CPython 3.12.14 tested",
+    "git_calls": false,
+    "installation_calls": false,
+    "network_calls": false,
+    "networkx": "3.7, preinstalled; not bundled"
+  },
+  "schema_version": 1,
+  "scientific_domain": {
+    "action_modes": 2,
+    "cases": 384,
+    "cost_vectors": 64,
+    "partial_states": 729,
+    "policies": 4,
+    "priors": [
+      "1/4",
+      "1/2",
+      "3/4"
+    ],
+    "worlds_per_case": 64
+  },
+  "source_freeze_expected_sha256": "3686acf9a6f5c1210cff47630de0959f536d1c552d57577f7157c939bae8a9d3"
+}

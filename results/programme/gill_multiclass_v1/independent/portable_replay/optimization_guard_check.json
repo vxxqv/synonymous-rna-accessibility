@@ -1,0 +1,28 @@
+{
+  "status": "optimization_modes_refused",
+  "guard_only_logic_change": true,
+  "full_mathematics_rerun": false,
+  "inputs_unchanged": true,
+  "frozen_verifier_sha256": "4331bb0ed7349bfc896f59bdbdfb98b931818c6671b9fa908c8a261a5cdfa588",
+  "frozen_comparator_sha256": "819b6e0eb257bcd6c117b31c7551e2538a398dd4dd7a80ca25f547d59655a4ec",
+  "prior_wrapper_sha256": "2bd25edede09181aeace4e9fcee73638a427725998dc5bc8ea6c302b5fb7dabe",
+  "current_wrapper_sha256": "bd8339ad97b120109e85c4aaab9a87956a0d7cd15d39d3785dc6b3cfc57e67be",
+  "guard_position": "Before pathlib/NumPy imports, argument parsing, scientific reads and output creation",
+  "tests": [
+    {
+      "mode": "-O",
+      "exit_code": 1,
+      "output_created": false,
+      "stderr": "Traceback (most recent call last):\n  File \"\\\\?\\C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\work\\gill_multiclass_cycle3\\independent_result_review\\portable_package\\analysis\\programme\\retrospective\\gill_multiclass_v1\\independent\\replay.py\", line 3, in <module>\n    raise RuntimeError('Python optimization disables required scientific assertions; run without -O or -OO')\nRuntimeError: Python optimization disables required scientific assertions; run without -O or -OO\n",
+      "stdout": ""
+    },
+    {
+      "mode": "-OO",
+      "exit_code": 1,
+      "output_created": false,
+      "stderr": "Traceback (most recent call last):\n  File \"\\\\?\\C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\work\\gill_multiclass_cycle3\\independent_result_review\\portable_package\\analysis\\programme\\retrospective\\gill_multiclass_v1\\independent\\replay.py\", line 3, in <module>\n    raise RuntimeError('Python optimization disables required scientific assertions; run without -O or -OO')\nRuntimeError: Python optimization disables required scientific assertions; run without -O or -OO\n",
+      "stdout": ""
+    }
+  ],
+  "exact_current_revision_full_ci": "Pending root integration; prior wrapper full isolated replay remains retained"
+}

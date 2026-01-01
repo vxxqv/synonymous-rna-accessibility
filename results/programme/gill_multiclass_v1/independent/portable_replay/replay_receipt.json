@@ -1,0 +1,133 @@
+{
+  "status": "complete_computational_agreement_scientific_target_failed",
+  "checks": 3352385,
+  "unresolved_discrepancies": 0,
+  "historical_git_reauthenticated": false,
+  "historical_git_status": "Historical commit identities are provenance claims copied from the original audit, not independently authenticated in this offline replay. No Git or network call is made.",
+  "input_hashes_before": {
+    "analysis/programme/retrospective/gill_multiclass_v1/protocol.json": "4ab4e85c14203c0ab8c983e8433c766f1566f373a335fd3fda4fb3981371c1aa",
+    "analysis/programme/retrospective/gill_multiclass_v1/inventory.json.gz": "36c5ab0b307ec18f28e0798ffe4ad735e67259703a97dfb33028c0ed6b2551d0",
+    "results/programme/gill_multiclass_v1/train/receipt.json": "c6fb3309a93635efab38f1469516617c3f1b4f857c88b4fbfff91be21115bdef",
+    "results/programme/gill_multiclass_v1/train/counts.json.gz": "981f79db8b8853a93f13dfa22a8573d710b440d89cf6fc9fbfb81fb0351037ca",
+    "results/programme/gill_multiclass_v1/train/predictions.json.gz": "1e94d8cb15d425375df4e41c91d4b97a71542a7585fdec203622b26ab8d3c88a",
+    "results/programme/gill_multiclass_v1/validate/receipt.json": "5f7535bb58622cb656ee0cb7ed4109f8daef324ac470eb948ba40ffd9ab6757c",
+    "results/programme/gill_multiclass_v1/validate/heldout_counts.json.gz": "bcbf8989413b6fa5c9c1a3c945c75693f5b4a0e194a857754a41cc61848f09c9",
+    "results/programme/gill_multiclass_v1/validate/class_metrics.json.gz": "f1c4c1fac09362edda68aa20b51c386784905837ca3eb9f89f256c7148e95491",
+    "results/programme/gill_multiclass_v1/validate/validation.json": "cdbdd83d6861c54d1cd5094990cbeb306803349c63bdd0519caf391676c819f6"
+  },
+  "input_hashes_after": {
+    "analysis/programme/retrospective/gill_multiclass_v1/protocol.json": "4ab4e85c14203c0ab8c983e8433c766f1566f373a335fd3fda4fb3981371c1aa",
+    "analysis/programme/retrospective/gill_multiclass_v1/inventory.json.gz": "36c5ab0b307ec18f28e0798ffe4ad735e67259703a97dfb33028c0ed6b2551d0",
+    "results/programme/gill_multiclass_v1/train/receipt.json": "c6fb3309a93635efab38f1469516617c3f1b4f857c88b4fbfff91be21115bdef",
+    "results/programme/gill_multiclass_v1/train/counts.json.gz": "981f79db8b8853a93f13dfa22a8573d710b440d89cf6fc9fbfb81fb0351037ca",
+    "results/programme/gill_multiclass_v1/train/predictions.json.gz": "1e94d8cb15d425375df4e41c91d4b97a71542a7585fdec203622b26ab8d3c88a",
+    "results/programme/gill_multiclass_v1/validate/receipt.json": "5f7535bb58622cb656ee0cb7ed4109f8daef324ac470eb948ba40ffd9ab6757c",
+    "results/programme/gill_multiclass_v1/validate/heldout_counts.json.gz": "bcbf8989413b6fa5c9c1a3c945c75693f5b4a0e194a857754a41cc61848f09c9",
+    "results/programme/gill_multiclass_v1/validate/class_metrics.json.gz": "f1c4c1fac09362edda68aa20b51c386784905837ca3eb9f89f256c7148e95491",
+    "results/programme/gill_multiclass_v1/validate/validation.json": "cdbdd83d6861c54d1cd5094990cbeb306803349c63bdd0519caf391676c819f6"
+  },
+  "inputs_unchanged": true,
+  "python": "3.12.14",
+  "numpy": "2.5.4",
+  "runtime_seconds": 38.28100000000268,
+  "independent_result_sha256": "b0a019cf1754598b672fba59af497ec9aefd1effabfa1515bb4cd15e695a2a82",
+  "comparison_sha256": "16511c91e5a14219f90c1f81a8ccee3274f28f5dab8cbb8ce14f442ab82bf53b",
+  "headlines": [
+    {
+      "pseudocount": "0.25",
+      "partition": "development",
+      "classes": 1124,
+      "vertices": 20028,
+      "strata": 162,
+      "residual_cosine": 0.05467078988646554,
+      "target_pass": false,
+      "residual_prediction_gain_vs_zero": -0.5226054797025348,
+      "leave_one_stratum_range": [
+        0.05075353242906101,
+        0.06680348852450982
+      ]
+    },
+    {
+      "pseudocount": "0.25",
+      "partition": "validation",
+      "classes": 1052,
+      "vertices": 18310,
+      "strata": 154,
+      "residual_cosine": 0.07923720520052298,
+      "target_pass": false,
+      "residual_prediction_gain_vs_zero": -0.48151748019005525,
+      "leave_one_stratum_range": [
+        0.0680694768517112,
+        0.0943553390340573
+      ]
+    },
+    {
+      "pseudocount": "0.5",
+      "partition": "development",
+      "classes": 1124,
+      "vertices": 20028,
+      "strata": 162,
+      "residual_cosine": 0.05867035361560697,
+      "target_pass": false,
+      "residual_prediction_gain_vs_zero": -0.506040999505565,
+      "leave_one_stratum_range": [
+        0.0547047517605972,
+        0.07003919426186728
+      ]
+    },
+    {
+      "pseudocount": "0.5",
+      "partition": "validation",
+      "classes": 1052,
+      "vertices": 18310,
+      "strata": 154,
+      "residual_cosine": 0.07787615736918292,
+      "target_pass": false,
+      "residual_prediction_gain_vs_zero": -0.4773230549861418,
+      "leave_one_stratum_range": [
+        0.06803624503075312,
+        0.0919075805046242
+      ]
+    },
+    {
+      "pseudocount": "1.0",
+      "partition": "development",
+      "classes": 1124,
+      "vertices": 20028,
+      "strata": 162,
+      "residual_cosine": 0.06360366641102261,
+      "target_pass": false,
+      "residual_prediction_gain_vs_zero": -0.49078104844677894,
+      "leave_one_stratum_range": [
+        0.059593429160263785,
+        0.07383897723045263
+      ]
+    },
+    {
+      "pseudocount": "1.0",
+      "partition": "validation",
+      "classes": 1052,
+      "vertices": 18310,
+      "strata": 154,
+      "residual_cosine": 0.07763455283467703,
+      "target_pass": false,
+      "residual_prediction_gain_vs_zero": -0.4719660512387722,
+      "leave_one_stratum_range": [
+        0.06925563095920892,
+        0.09039978237145534
+      ]
+    }
+  ],
+  "binding_record": {
+    "adapter": "explicit directory globals, historical input path tokens, current replay output integrity digest only",
+    "frozen_verifier_sha256": "4331bb0ed7349bfc896f59bdbdfb98b931818c6671b9fa908c8a261a5cdfa588",
+    "frozen_comparison_sha256": "819b6e0eb257bcd6c117b31c7551e2538a398dd4dd7a80ca25f547d59655a4ec",
+    "executed_comparison_binding_sha256": "535450095195cee39bdfcd3816362d1379395b314bd69c78e4a7674be0d1577e",
+    "historical_independent_result_sha256": "b0a019cf1754598b672fba59af497ec9aefd1effabfa1515bb4cd15e695a2a82",
+    "current_independent_result_sha256": "b0a019cf1754598b672fba59af497ec9aefd1effabfa1515bb4cd15e695a2a82",
+    "historical_independent_bytes_match": true,
+    "mathematical_source_changed": false,
+    "git_reauthenticated": false
+  },
+  "limitations": "Numerical replay of archived exported counts; no workbook/FASTQ extraction, biological calibration or historical access-order reauthentication."
+}

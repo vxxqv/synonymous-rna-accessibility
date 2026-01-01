@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "C:\Users\VIVAAN\Documents\Codex\2026-10-24\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\work\gill_multiclass_cycle3\independent_result_review\verifier.py", line 282, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "C:\Users\VIVAAN\Documents\Codex\2026-10-24\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\work\gill_multiclass_cycle3\independent_result_review\verifier.py", line 279, in main
+    assert not target.exists();dump(target,self_test());print('Metadata/synthetic preparation passed; no observed counts opened.')
+                                           ^^^^^^^^^^^
+  File "C:\Users\VIVAAN\Documents\Codex\2026-10-24\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\work\gill_multiclass_cycle3\independent_result_review\verifier.py", line 122, in self_test
+    p,classes,ids=get_metadata();architectures=collections.Counter();max_error=0.;synthetic_rows=[]
+                  ^^^^^^^^^^^^^^
+  File "C:\Users\VIVAAN\Documents\Codex\2026-10-24\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\work\gill_multiclass_cycle3\independent_result_review\verifier.py", line 113, in get_metadata
+    assert len(strata['development'])==200 and len(strata['validation'])==199
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

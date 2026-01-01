@@ -1,0 +1,11 @@
+{
+  "adapter": "explicit directory globals, historical input path tokens, current replay output integrity digest only",
+  "frozen_verifier_sha256": "4331bb0ed7349bfc896f59bdbdfb98b931818c6671b9fa908c8a261a5cdfa588",
+  "frozen_comparison_sha256": "819b6e0eb257bcd6c117b31c7551e2538a398dd4dd7a80ca25f547d59655a4ec",
+  "executed_comparison_binding_sha256": "535450095195cee39bdfcd3816362d1379395b314bd69c78e4a7674be0d1577e",
+  "historical_independent_result_sha256": "b0a019cf1754598b672fba59af497ec9aefd1effabfa1515bb4cd15e695a2a82",
+  "current_independent_result_sha256": "b0a019cf1754598b672fba59af497ec9aefd1effabfa1515bb4cd15e695a2a82",
+  "historical_independent_bytes_match": true,
+  "mathematical_source_changed": false,
+  "git_reauthenticated": false
+}

@@ -1,0 +1,36 @@
+{
+  "id": "GILL_MULTICLASS_INDEPENDENT_VERIFIER_V1",
+  "frozen_at": "2026-10-25T07:49:21.475084+00:00",
+  "before_reviewer_validation_access": true,
+  "root_validation_already_executed_but_results_unseen": true,
+  "verifier_sha256": "4331bb0ed7349bfc896f59bdbdfb98b931818c6671b9fa908c8a261a5cdfa588",
+  "design_sha256": "7e0746d3604eccff6cb62cbb4d98b640f53d74939e1694bf16abd634362f8985",
+  "phase1_review_sha256": "fb2f7ec578693fa16662bf2218bd42cae2931df8816d10f6449997cfe8f1ad26",
+  "protocol_sha256": "4ab4e85c14203c0ab8c983e8433c766f1566f373a335fd3fda4fb3981371c1aa",
+  "inventory_decompressed_sha256": "2e00b698dee109e357dc01435d5eacf8b341388f36463970454ade230664f350",
+  "training_receipt_sha256": "c6fb3309a93635efab38f1469516617c3f1b4f857c88b4fbfff91be21115bdef",
+  "preparation_manifest_sha256": "61d7b01528c5df3b0af7ccb90d72d2cc204486bcc95faf7f0feef8a5828316a3",
+  "preparation_results_sha256": "b4b6719a0dc94068829bf5c70fb226bca46393adad97dd363b64f6c1b71ce411",
+  "preserved_failed_preparation": {
+    "path": "preparation_final/manifest.json",
+    "sha256": "a746b2da280b16881353c5b264c170e71713cd1b6b48c341dde1026f68976881",
+    "reason": "Reviewer assumed allpossible assignedstrata were eligible; metadata proves162/154 represented, corrected beforefreeze.",
+    "source_snapshot_sha256": "115d300cfccfaee445bbb61f2ff03663672bb1e3e6d01ac7edda0c4702955d21"
+  },
+  "expected_classes": 2176,
+  "expected_vertices": 38338,
+  "represented_strata": {
+    "development": 162,
+    "validation": 154
+  },
+  "pseudocounts": [
+    0.25,
+    0.5,
+    1.0
+  ],
+  "barrier_coverage": "All2176classes x3pseudocounts x20fields, everyendpointpair, no architecture subsampling",
+  "author_implementation_imported": false,
+  "validation_artifacts_opened": false,
+  "workbook_opened": false,
+  "next_gate": "Wait for root validationartifact paths/hashes and explicit read notification. No evaluation beforethen."
+}

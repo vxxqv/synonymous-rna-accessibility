@@ -1,0 +1,2 @@
+# CPython == 3.12.14 is checked by replay.py.
+numpy==2.5.4

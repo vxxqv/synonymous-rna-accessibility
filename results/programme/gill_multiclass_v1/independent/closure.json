@@ -1,0 +1,25 @@
+{
+  "status": "complete_computational_agreement_scientific_target_failed",
+  "checks": 3352385,
+  "unresolved_discrepancies": 0,
+  "artifacts": {
+    "design.md": "7e0746d3604eccff6cb62cbb4d98b640f53d74939e1694bf16abd634362f8985",
+    "freeze.json": "6b2cb998cac489801078449a09e49f85845b2b48cd4d3442cea76636a87e7fd0",
+    "verifier.py": "4331bb0ed7349bfc896f59bdbdfb98b931818c6671b9fa908c8a261a5cdfa588",
+    "review.md": "a2ac91f5e7e5829b99cc3f13f8ae30e766ee950d3cbfc7b30ffb69a0221e733b",
+    "compare_outputs.py": "819b6e0eb257bcd6c117b31c7551e2538a398dd4dd7a80ca25f547d59655a4ec",
+    "compare_outputs_v1_snapshot.py": "e15ebfed74d8f5e4cb807499313c673ce22dd534cd5eb66272e6aa1ff2629da3",
+    "compare_outputs_v2_snapshot.py": "07c6fd2ecb4a98e11875f449f42e8d689484c319cb67bfdd28a9bbb47a335ed3",
+    "comparison_v1.json": "604c3e184548d58ac3db92ad93225d48df355c8557c58b2c7437533c3287adb7",
+    "comparison_v2.json": "3cab371fd25933a4750c388e379899b009b4ab524992382bc6963e07a69768b2",
+    "comparison_v3.json": "a588a18352c0e9c96650a05d70545db46c27a9d2eeb207492d24dd64b484cd63",
+    "evaluation_run_v1/manifest.json": "887afbef55c9b85d0f801c21d4b933d1825e496affeacf0f878b7618d1d3da73",
+    "evaluation_run_v1/calculation/receipt.json": "7743bedfbf34d3881d63c931101c3c809003601dcc8838be84dc8b0135757035",
+    "evaluation_run_v1/calculation/independent_results.json.gz": "b0a019cf1754598b672fba59af497ec9aefd1effabfa1515bb4cd15e695a2a82"
+  },
+  "frozen_scientific_source_unchanged": true,
+  "workbook_opened": false,
+  "author_implementation_imported": false,
+  "prior_failures_preserved": true,
+  "limits": "Separately authored inherited-context review of pinned exported counts and downstream calculations; no biological calibration or source-workbook re-extraction."
+}

@@ -1,0 +1,138 @@
+{
+  "schema_version": 2,
+  "claim_id": "Gill_multiclass_independent_preparation_v1",
+  "repository": {
+    "commit": "unavailable",
+    "dirty": true
+  },
+  "command": [
+    "work/env/Scripts/python.exe",
+    "work/gill_multiclass_cycle3/independent_result_review/verifier.py",
+    "--phase",
+    "prepare",
+    "--output",
+    "work/gill_multiclass_cycle3/independent_result_review/preparation_final/checks.json"
+  ],
+  "environment": {
+    "software": [
+      {
+        "name": "runner-python",
+        "version": "3.12.14"
+      },
+      {
+        "name": "Python",
+        "version": "3.12.14"
+      },
+      {
+        "name": "NumPy",
+        "version": "2.5.4"
+      }
+    ],
+    "hardware": "Windows-11-10.0.26300-SP0"
+  },
+  "mathematics": {
+    "assertion_tested": "All2176fixedclass indicator ranks, completefactor memberships and exactedgecounts; synthetic least-squares projection versus conditional means; all20architectures complete metric serialization and barrier/decomposition fixtures. No observedcountmetrics.",
+    "coefficient_domain": "Float64 for linear algebra, exact integer metadata",
+    "conventions": "Four categorical codon factors inferred from key blocks0,1:4,4:7,7; allendpointpairs andall45scenario pairs. Synthetic targets only.",
+    "inputs": [
+      "work\\gill_multiclass_cycle3\\independent_result_review\\verifier.py",
+      "outputs/synonymous-rna-accessibility/analysis/programme/retrospective/gill_multiclass_v1/protocol.json",
+      "outputs/synonymous-rna-accessibility/analysis/programme/retrospective/gill_multiclass_v1/inventory.json.gz"
+    ],
+    "bounds": {
+      "classes": 2176,
+      "architectures": 20,
+      "largest_class": 72,
+      "pseudocounts_frozen": [
+        0.25,
+        0.5,
+        1.0
+      ]
+    },
+    "non_claims": [
+      "No validation artifacts or observedcounts decoded by preparation run.",
+      "Does not verify observedbiological results until authorized independent evaluation and comparison."
+    ]
+  },
+  "randomness": {
+    "used": false,
+    "generator": "none",
+    "seed": null
+  },
+  "run": {
+    "started_at": "2026-10-25T07:46:13.336030+00:00",
+    "runtime_seconds": 0.39,
+    "exit_status": 1,
+    "status": "failed",
+    "timeout_seconds": 60.0,
+    "max_output_bytes": 1048576,
+    "resource_limits": {
+      "memory_bytes": null,
+      "cpu_seconds": null,
+      "max_cores": null,
+      "max_threads": null
+    },
+    "missing_results": [
+      "work/gill_multiclass_cycle3/independent_result_review/preparation_final/checks.json"
+    ],
+    "invalid_results": []
+  },
+  "execution_artifacts": [
+    "work/gill_multiclass_cycle3/independent_result_review/verifier.py",
+    "outputs/synonymous-rna-accessibility/analysis/programme/retrospective/gill_multiclass_v1/protocol.json",
+    "outputs/synonymous-rna-accessibility/analysis/programme/retrospective/gill_multiclass_v1/inventory.json.gz"
+  ],
+  "input_artifacts": [
+    {
+      "path": "work/gill_multiclass_cycle3/independent_result_review/verifier.py",
+      "sha256": "115d300cfccfaee445bbb61f2ff03663672bb1e3e6d01ac7edda0c4702955d21",
+      "sha256_after": "115d300cfccfaee445bbb61f2ff03663672bb1e3e6d01ac7edda0c4702955d21"
+    },
+    {
+      "path": "outputs/synonymous-rna-accessibility/analysis/programme/retrospective/gill_multiclass_v1/protocol.json",
+      "sha256": "4ab4e85c14203c0ab8c983e8433c766f1566f373a335fd3fda4fb3981371c1aa",
+      "sha256_after": "4ab4e85c14203c0ab8c983e8433c766f1566f373a335fd3fda4fb3981371c1aa"
+    },
+    {
+      "path": "outputs/synonymous-rna-accessibility/analysis/programme/retrospective/gill_multiclass_v1/inventory.json.gz",
+      "sha256": "36c5ab0b307ec18f28e0798ffe4ad735e67259703a97dfb33028c0ed6b2551d0",
+      "sha256_after": "36c5ab0b307ec18f28e0798ffe4ad735e67259703a97dfb33028c0ed6b2551d0"
+    }
+  ],
+  "output_directory": "work/gill_multiclass_cycle3/independent_result_review/preparation_final",
+  "declared_results": [
+    "work/gill_multiclass_cycle3/independent_result_review/preparation_final/checks.json"
+  ],
+  "outputs": [
+    {
+      "path": "work/gill_multiclass_cycle3/independent_result_review/preparation_final/stdout.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "kind": "log"
+    },
+    {
+      "path": "work/gill_multiclass_cycle3/independent_result_review/preparation_final/stderr.txt",
+      "sha256": "8cbe6584b48a1bea25dd62dcf37b55243d0a7e93ae3b454b573408a6090cdbdb",
+      "kind": "log"
+    }
+  ],
+  "checks": [
+    {
+      "check": "input hashes unchanged",
+      "passed": true
+    },
+    {
+      "check": "process exited successfully within enforced limits",
+      "passed": false
+    },
+    {
+      "check": "declared result files are present and regular",
+      "passed": false
+    }
+  ],
+  "result": "Run failed; mathematical assertion requires interpretation and review.",
+  "residual_risks": [
+    "Command success does not establish the mathematical interpretation.",
+    "Only listed input artifacts are pinned; external dependencies need recorded versions.",
+    "Declared results were not produced: work/gill_multiclass_cycle3/independent_result_review/preparation_final/checks.json"
+  ]
+}

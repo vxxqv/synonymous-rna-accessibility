@@ -1,0 +1,72 @@
+{
+  "package_id": "Gill_multiclass_independent_portable_v1",
+  "package_files": {
+    "expected_comparison.json": "2e710e6095d1e2fcedfb00500fd2614311edbf8086c50417ec44b08d9853b843",
+    "README.md": "4cff7d2e919527f850c82bf6bc81c70a0cd23b8a0d914759e3da399b35d7652a",
+    "replay.py": "bd8339ad97b120109e85c4aaab9a87956a0d7cd15d39d3785dc6b3cfc57e67be",
+    "requirements.txt": "c31a281be93da9bebb2a040ca3937d901d29a9bfbd4148e227f0888c28294ee2",
+    "frozen/compare_outputs.py": "819b6e0eb257bcd6c117b31c7551e2538a398dd4dd7a80ca25f547d59655a4ec",
+    "frozen/compare_outputs_v1_snapshot.py": "e15ebfed74d8f5e4cb807499313c673ce22dd534cd5eb66272e6aa1ff2629da3",
+    "frozen/compare_outputs_v2_snapshot.py": "07c6fd2ecb4a98e11875f449f42e8d689484c319cb67bfdd28a9bbb47a335ed3",
+    "frozen/design.md": "7e0746d3604eccff6cb62cbb4d98b640f53d74939e1694bf16abd634362f8985",
+    "frozen/freeze.json": "6b2cb998cac489801078449a09e49f85845b2b48cd4d3442cea76636a87e7fd0",
+    "frozen/phase1_review.md": "fb2f7ec578693fa16662bf2218bd42cae2931df8816d10f6449997cfe8f1ad26",
+    "frozen/verifier.py": "4331bb0ed7349bfc896f59bdbdfb98b931818c6671b9fa908c8a261a5cdfa588",
+    "frozen/verifier_failed_assumed_strata.py": "115d300cfccfaee445bbb61f2ff03663672bb1e3e6d01ac7edda0c4702955d21",
+    "orchestration_history/package_manifest_before_debug_guard.json": "5c3b7b8b4760cd73c6432e5f518ae1dbf0d17cf640403be22bbc378533c853d1",
+    "orchestration_history/replay_before_debug_guard.py": "2bd25edede09181aeace4e9fcee73638a427725998dc5bc8ea6c302b5fb7dabe"
+  },
+  "external_inputs": {
+    "analysis/programme/retrospective/gill_multiclass_v1/protocol.json": "4ab4e85c14203c0ab8c983e8433c766f1566f373a335fd3fda4fb3981371c1aa",
+    "analysis/programme/retrospective/gill_multiclass_v1/inventory.json.gz": "36c5ab0b307ec18f28e0798ffe4ad735e67259703a97dfb33028c0ed6b2551d0",
+    "results/programme/gill_multiclass_v1/train/receipt.json": "c6fb3309a93635efab38f1469516617c3f1b4f857c88b4fbfff91be21115bdef",
+    "results/programme/gill_multiclass_v1/train/counts.json.gz": "981f79db8b8853a93f13dfa22a8573d710b440d89cf6fc9fbfb81fb0351037ca",
+    "results/programme/gill_multiclass_v1/train/predictions.json.gz": "1e94d8cb15d425375df4e41c91d4b97a71542a7585fdec203622b26ab8d3c88a",
+    "results/programme/gill_multiclass_v1/validate/receipt.json": "5f7535bb58622cb656ee0cb7ed4109f8daef324ac470eb948ba40ffd9ab6757c",
+    "results/programme/gill_multiclass_v1/validate/heldout_counts.json.gz": "bcbf8989413b6fa5c9c1a3c945c75693f5b4a0e194a857754a41cc61848f09c9",
+    "results/programme/gill_multiclass_v1/validate/class_metrics.json.gz": "f1c4c1fac09362edda68aa20b51c386784905837ca3eb9f89f256c7148e95491",
+    "results/programme/gill_multiclass_v1/validate/validation.json": "cdbdd83d6861c54d1cd5094990cbeb306803349c63bdd0519caf391676c819f6"
+  },
+  "frozen_independent_result_sha256": "b0a019cf1754598b672fba59af497ec9aefd1effabfa1515bb4cd15e695a2a82",
+  "software": {
+    "implementation": "CPython",
+    "python": "3.12.14",
+    "numpy": "2.5.4"
+  },
+  "runtime_network": false,
+  "runtime_git": false,
+  "historical_git_reauthenticated": false,
+  "historical_git_commits": [
+    "3a10c6c74957bb7d3f559bf3067387926c1ed077",
+    "3e88b7fdfdf4984edae2decd8541497182c4d69a"
+  ],
+  "lossless_historical_records": {
+    "results/programme/gill_multiclass_v1/independent/history/comparison_v1.json.gz": {
+      "stored_sha256": "62ff5e01bcb4b5527c6e8bdf2c561d35482833235fb87a0a1d65e3877fdbdda6",
+      "original_sha256": "604c3e184548d58ac3db92ad93225d48df355c8557c58b2c7437533c3287adb7",
+      "original_size": 38183254,
+      "compression": "gzip lossless mtime0"
+    },
+    "results/programme/gill_multiclass_v1/independent/history/comparison_v2.json.gz": {
+      "stored_sha256": "b6f380a7c7b24f60ed85bf29598975ab45703a63f390845e239fd0cb9eadd4c6",
+      "original_sha256": "3cab371fd25933a4750c388e379899b009b4ab524992382bc6963e07a69768b2",
+      "original_size": 10181,
+      "compression": "gzip lossless mtime0"
+    },
+    "results/programme/gill_multiclass_v1/independent/history/comparison_v3.json.gz": {
+      "stored_sha256": "0ac2337aab794efb078e95046c0224e5f625416fa7ece93dff25b4ae22617c7a",
+      "original_sha256": "a588a18352c0e9c96650a05d70545db46c27a9d2eeb207492d24dd64b484cd63",
+      "original_size": 10781,
+      "compression": "gzip lossless mtime0"
+    }
+  },
+  "optimization_guard": {
+    "reject_optimized_python": true,
+    "before_scientific_read_or_output": true,
+    "guard_only_execution_logic_change": true,
+    "prior_wrapper_sha256": "2bd25edede09181aeace4e9fcee73638a427725998dc5bc8ea6c302b5fb7dabe",
+    "current_wrapper_sha256": "bd8339ad97b120109e85c4aaab9a87956a0d7cd15d39d3785dc6b3cfc57e67be",
+    "full_math_repeated": false,
+    "prior_full_replay_retained": true
+  }
+}

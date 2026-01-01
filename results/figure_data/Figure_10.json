@@ -1,0 +1,1711 @@
+{
+  "source_hashes": {
+    "results/programme/gill_multiclass_v1/validate/validation.json": "cdbdd83d6861c54d1cd5094990cbeb306803349c63bdd0519caf391676c819f6",
+    "analysis/programme/retrospective/gill_multiclass_v1/protocol.json": "4ab4e85c14203c0ab8c983e8433c766f1566f373a335fd3fda4fb3981371c1aa"
+  },
+  "renderer_sha256": "886f37b6a7c9ea955f96d4e91463c758ee8a90873a90fb6b276b0714324d5684",
+  "primary": {
+    "DNA_residual_pooled_cosines": [
+      0.8208054769584318,
+      0.8371860228487915,
+      0.8552552976373733
+    ],
+    "RNA_residual_pooled_cosines": [
+      0.9520262467127805,
+      0.9438454861575479,
+      0.9358854642468133
+    ],
+    "barriers_by_architecture": {
+      "clique": {
+        "classes": 840,
+        "scenario_barriers": [
+          {
+            "maximum": 2.067715320802523,
+            "mean": 0.22179615999488234,
+            "numerically_resolved_positive_classes": 682,
+            "raw_positive_classes": 682,
+            "unresolved_tiny_positive_classes": 0
+          },
+          {
+            "maximum": 1.9621269495505675,
+            "mean": 0.21833215450254967,
+            "numerically_resolved_positive_classes": 707,
+            "raw_positive_classes": 707,
+            "unresolved_tiny_positive_classes": 0
+          },
+          {
+            "maximum": 0.9636192419271925,
+            "mean": 0.19067902415040772,
+            "numerically_resolved_positive_classes": 693,
+            "raw_positive_classes": 693,
+            "unresolved_tiny_positive_classes": 0
+          },
+          {
+            "maximum": 1.9045618341934363,
+            "mean": 0.23198198863664676,
+            "numerically_resolved_positive_classes": 696,
+            "raw_positive_classes": 696,
+            "unresolved_tiny_positive_classes": 0
+          },
+          {
+            "maximum": 1.5146956374994889,
+            "mean": 0.2186445523129278,
+            "numerically_resolved_positive_classes": 687,
+            "raw_positive_classes": 687,
+            "unresolved_tiny_positive_classes": 0
+          },
+          {
+            "maximum": 1.1040126939763342,
+            "mean": 0.1986803405193479,
+            "numerically_resolved_positive_classes": 678,
+            "raw_positive_classes": 678,
+            "unresolved_tiny_positive_classes": 0
+          },
+          {
+            "maximum": 1.8689727716251125,
+            "mean": 0.23363837078131916,
+            "numerically_resolved_positive_classes": 690,
+            "raw_positive_classes": 690,
+            "unresolved_tiny_positive_classes": 0
+          },
+          {
+            "maximum": 1.8672353013802852,
+            "mean": 0.2222271508293445,
+            "numerically_resolved_positive_classes": 696,
+            "raw_positive_classes": 696,
+            "unresolved_tiny_positive_classes": 0
+          },
+          {
+            "maximum": 1.0485714925281302,
+            "mean": 0.2006278451225483,
+            "numerically_resolved_positive_classes": 696,
+            "raw_positive_classes": 696,
+            "unresolved_tiny_positive_classes": 0
+          }
+        ],
+        "scenario_codon_barriers": [
+          {
+            "maximum": 0.0,
+            "mean": 0.0,
+            "numerically_resolved_positive_classes": 0,
+            "raw_positive_classes": 0,
+            "unresolved_tiny_positive_classes": 0
+          },
+          {
+            "maximum": 0.0,
+            "mean": 0.0,
+            "numerically_resolved_positive_classes": 0,
+            "raw_positive_classes": 0,
+            "unresolved_tiny_positive_classes": 0
+          },
+          {
+            "maximum": 0.0,
+            "mean": 0.0,
+            "numerically_resolved_positive_classes": 0,
+            "raw_positive_classes": 0,
+            "unresolved_tiny_positive_classes": 0
+          },
+          {
+            "maximum": 0.0,
+            "mean": 0.0,
+            "numerically_resolved_positive_classes": 0,
+            "raw_positive_classes": 0,
+            "unresolved_tiny_positive_classes": 0
+          },
+          {
+            "maximum": 0.0,
+            "mean": 0.0,
+            "numerically_resolved_positive_classes": 0,
+            "raw_positive_classes": 0,
+            "unresolved_tiny_positive_classes": 0
+          },
+          {
+            "maximum": 0.0,
+            "mean": 0.0,
+            "numerically_resolved_positive_classes": 0,
+            "raw_positive_classes": 0,
+            "unresolved_tiny_positive_classes": 0
+          },
+          {
+            "maximum": 0.0,
+            "mean": 0.0,
+            "numerically_resolved_positive_classes": 0,
+            "raw_positive_classes": 0,
+            "unresolved_tiny_positive_classes": 0
+          },
+          {
+            "maximum": 0.0,
+            "mean": 0.0,
+            "numerically_resolved_positive_classes": 0,
+            "raw_positive_classes": 0,
+            "unresolved_tiny_positive_classes": 0
+          },
+          {
+            "maximum": 0.0,
+            "mean": 0.0,
+            "numerically_resolved_positive_classes": 0,
+            "raw_positive_classes": 0,
+            "unresolved_tiny_positive_classes": 0
+          }
+        ]
+      },
+      "nonclique": {
+        "classes": 212,
+        "scenario_barriers": [
+          {
+            "maximum": 1.245756836350786,
+            "mean": 0.3787878696012345,
+            "numerically_resolved_positive_classes": 208,
+            "raw_positive_classes": 208,
+            "unresolved_tiny_positive_classes": 0
+          },
+          {
+            "maximum": 1.4467645389116575,
+            "mean": 0.3892875863272607,
+            "numerically_resolved_positive_classes": 211,
+            "raw_positive_classes": 211,
+            "unresolved_tiny_positive_classes": 0
+          },
+          {
+            "maximum": 1.0685829002442278,
+            "mean": 0.323932622051346,
+            "numerically_resolved_positive_classes": 207,
+            "raw_positive_classes": 207,
+            "unresolved_tiny_positive_classes": 0
+          },
+          {
+            "maximum": 1.5213790109281318,
+            "mean": 0.3709250468204247,
+            "numerically_resolved_positive_classes": 208,
+            "raw_positive_classes": 208,
+            "unresolved_tiny_positive_classes": 0
+          },
+          {
+            "maximum": 1.8168054663762003,
+            "mean": 0.38371693068132956,
+            "numerically_resolved_positive_classes": 205,
+            "raw_positive_classes": 205,
+            "unresolved_tiny_positive_classes": 0
+          },
+          {
+            "maximum": 1.1485851210234026,
+            "mean": 0.3171295248744764,
+            "numerically_resolved_positive_classes": 208,
+            "raw_positive_classes": 208,
+            "unresolved_tiny_positive_classes": 0
+          },
+          {
+            "maximum": 1.174000986563147,
+            "mean": 0.37740940394720013,
+            "numerically_resolved_positive_classes": 207,
+            "raw_positive_classes": 207,
+            "unresolved_tiny_positive_classes": 0
+          },
+          {
+            "maximum": 1.7060865726632262,
+            "mean": 0.4161288520701738,
+            "numerically_resolved_positive_classes": 210,
+            "raw_positive_classes": 210,
+            "unresolved_tiny_positive_classes": 0
+          },
+          {
+            "maximum": 1.2740604592887,
+            "mean": 0.35930907389666417,
+            "numerically_resolved_positive_classes": 209,
+            "raw_positive_classes": 209,
+            "unresolved_tiny_positive_classes": 0
+          }
+        ],
+        "scenario_codon_barriers": [
+          {
+            "maximum": 0.6531282880245772,
+            "mean": 0.04809678323450562,
+            "numerically_resolved_positive_classes": 87,
+            "raw_positive_classes": 87,
+            "unresolved_tiny_positive_classes": 0
+          },
+          {
+            "maximum": 0.41862409495521735,
+            "mean": 0.06305840774775279,
+            "numerically_resolved_positive_classes": 127,
+            "raw_positive_classes": 127,
+            "unresolved_tiny_positive_classes": 0
+          },
+          {
+            "maximum": 0.3185555645464766,
+            "mean": 0.04236514134841769,
+            "numerically_resolved_positive_classes": 97,
+            "raw_positive_classes": 97,
+            "unresolved_tiny_positive_classes": 0
+          },
+          {
+            "maximum": 0.7916518295535377,
+            "mean": 0.05811279508472676,
+            "numerically_resolved_positive_classes": 106,
+            "raw_positive_classes": 106,
+            "unresolved_tiny_positive_classes": 0
+          },
+          {
+            "maximum": 0.49559319042830996,
+            "mean": 0.06206264839301736,
+            "numerically_resolved_positive_classes": 117,
+            "raw_positive_classes": 117,
+            "unresolved_tiny_positive_classes": 0
+          },
+          {
+            "maximum": 0.42748887598863816,
+            "mean": 0.05573287862171385,
+            "numerically_resolved_positive_classes": 114,
+            "raw_positive_classes": 114,
+            "unresolved_tiny_positive_classes": 0
+          },
+          {
+            "maximum": 0.6083838780726141,
+            "mean": 0.05456960088903405,
+            "numerically_resolved_positive_classes": 93,
+            "raw_positive_classes": 93,
+            "unresolved_tiny_positive_classes": 0
+          },
+          {
+            "maximum": 0.5563499771816796,
+            "mean": 0.06320149783468308,
+            "numerically_resolved_positive_classes": 109,
+            "raw_positive_classes": 109,
+            "unresolved_tiny_positive_classes": 0
+          },
+          {
+            "maximum": 0.3228883987696076,
+            "mean": 0.0453897137545863,
+            "numerically_resolved_positive_classes": 105,
+            "raw_positive_classes": 105,
+            "unresolved_tiny_positive_classes": 0
+          }
+        ]
+      }
+    },
+    "class_count": 1052,
+    "clique_classes": 840,
+    "cosine": 0.07787615736918294,
+    "cross": 5.025519131278801,
+    "decomposition_aggregate_terms": [
+      [
+        344.6304730092068,
+        433.46003691986255,
+        -340.89176183828766,
+        -340.89176183828766,
+        96.30698625249465
+      ],
+      [
+        344.6304730092068,
+        356.9151322904679,
+        -343.0958845373512,
+        -340.89176183828766,
+        17.557958924036278
+      ],
+      [
+        344.6304730092068,
+        350.32873958319897,
+        -339.18204956025295,
+        -340.89176183828766,
+        14.885401193864668
+      ],
+      [
+        337.20057153744773,
+        433.46003691986255,
+        -340.89176183828766,
+        -347.1152027326717,
+        82.65364388635079
+      ],
+      [
+        337.20057153744773,
+        356.9151322904679,
+        -343.0958845373512,
+        -347.1152027326717,
+        3.9046165578924925
+      ],
+      [
+        337.20057153744773,
+        350.32873958319897,
+        -339.18204956025295,
+        -347.1152027326717,
+        1.232058827720881
+      ],
+      [
+        336.8356033599465,
+        433.46003691986255,
+        -340.89176183828766,
+        -344.7291165149975,
+        84.67476192652387
+      ],
+      [
+        336.8356033599465,
+        356.9151322904679,
+        -343.0958845373512,
+        -344.7291165149975,
+        5.925734598065446
+      ],
+      [
+        336.8356033599465,
+        350.32873958319897,
+        -339.18204956025295,
+        -344.7291165149975,
+        3.2531768678938455
+      ],
+      [
+        344.6304730092068,
+        436.2147711782065,
+        -343.0958845373512,
+        -343.0958845373512,
+        94.65347511271037
+      ],
+      [
+        344.6304730092068,
+        359.0254395291917,
+        -339.18204956025295,
+        -343.0958845373512,
+        21.37797844079384
+      ],
+      [
+        337.20057153744773,
+        356.9151322904679,
+        -340.89176183828766,
+        -352.3909670281862,
+        0.8329749614420918
+      ],
+      [
+        337.20057153744773,
+        436.2147711782065,
+        -343.0958845373512,
+        -352.3909670281862,
+        77.9284911501163
+      ],
+      [
+        337.20057153744773,
+        359.0254395291917,
+        -339.18204956025295,
+        -352.3909670281862,
+        4.652994478199686
+      ],
+      [
+        336.8356033599465,
+        356.9151322904679,
+        -340.89176183828766,
+        -350.353319335596,
+        2.505654476530922
+      ],
+      [
+        336.8356033599465,
+        436.2147711782065,
+        -343.0958845373512,
+        -350.353319335596,
+        79.60117066520507
+      ],
+      [
+        336.8356033599465,
+        359.0254395291917,
+        -339.18204956025295,
+        -350.353319335596,
+        6.325673993288502
+      ],
+      [
+        344.6304730092068,
+        403.97875971561484,
+        -339.18204956025295,
+        -339.18204956025295,
+        70.24513360431536
+      ],
+      [
+        337.20057153744773,
+        350.32873958319897,
+        -340.89176183828766,
+        -345.13607264450064,
+        1.501476637857912
+      ],
+      [
+        337.20057153744773,
+        359.0254395291917,
+        -343.0958845373512,
+        -345.13607264450064,
+        7.99405388478713
+      ],
+      [
+        337.20057153744773,
+        403.97875971561484,
+        -339.18204956025295,
+        -345.13607264450064,
+        56.86120904830859
+      ],
+      [
+        336.8356033599465,
+        350.32873958319897,
+        -340.89176183828766,
+        -345.03349084028986,
+        1.2390902645675215
+      ],
+      [
+        336.8356033599465,
+        359.0254395291917,
+        -343.0958845373512,
+        -345.03349084028986,
+        7.7316675114967355
+      ],
+      [
+        336.8356033599465,
+        403.97875971561484,
+        -339.18204956025295,
+        -345.03349084028986,
+        56.598822675018205
+      ],
+      [
+        364.0198651983777,
+        433.46003691986255,
+        -347.1152027326717,
+        -347.1152027326717,
+        103.249496652896
+      ],
+      [
+        364.0198651983777,
+        356.9151322904679,
+        -352.3909670281862,
+        -347.1152027326717,
+        21.428827727987382
+      ],
+      [
+        364.0198651983777,
+        350.32873958319897,
+        -345.13607264450064,
+        -347.1152027326717,
+        22.097329404403187
+      ],
+      [
+        343.2618138455688,
+        433.46003691986255,
+        -347.1152027326717,
+        -344.7291165149975,
+        84.87753151776202
+      ],
+      [
+        343.2618138455688,
+        356.9151322904679,
+        -352.3909670281862,
+        -344.7291165149975,
+        3.0568625928532693
+      ],
+      [
+        343.2618138455688,
+        350.32873958319897,
+        -345.13607264450064,
+        -344.7291165149975,
+        3.725364269269085
+      ],
+      [
+        364.0198651983777,
+        436.2147711782065,
+        -352.3909670281862,
+        -352.3909670281862,
+        95.45270232021109
+      ],
+      [
+        364.0198651983777,
+        359.0254395291917,
+        -345.13607264450064,
+        -352.3909670281862,
+        25.518265054881972
+      ],
+      [
+        343.2618138455688,
+        356.9151322904679,
+        -347.1152027326717,
+        -350.353319335596,
+        2.7084240677691405
+      ],
+      [
+        343.2618138455688,
+        436.2147711782065,
+        -352.3909670281862,
+        -350.353319335596,
+        76.73229865999284
+      ],
+      [
+        343.2618138455688,
+        359.0254395291917,
+        -345.13607264450064,
+        -350.353319335596,
+        6.797861394663761
+      ],
+      [
+        364.0198651983777,
+        403.97875971561484,
+        -345.13607264450064,
+        -345.13607264450064,
+        77.726479624991
+      ],
+      [
+        343.2618138455688,
+        350.32873958319897,
+        -347.1152027326717,
+        -345.03349084028986,
+        1.4418598558057347
+      ],
+      [
+        343.2618138455688,
+        359.0254395291917,
+        -352.3909670281862,
+        -345.03349084028986,
+        4.862795506284536
+      ],
+      [
+        343.2618138455688,
+        403.97875971561484,
+        -345.13607264450064,
+        -345.03349084028986,
+        57.07101007639349
+      ],
+      [
+        369.55620396034874,
+        433.46003691986255,
+        -344.7291165149975,
+        -344.7291165149975,
+        113.55800785021594
+      ],
+      [
+        369.55620396034874,
+        356.9151322904679,
+        -350.353319335596,
+        -344.7291165149975,
+        31.38890040022322
+      ],
+      [
+        369.55620396034874,
+        350.32873958319897,
+        -345.03349084028986,
+        -344.7291165149975,
+        30.122336188259798
+      ],
+      [
+        369.55620396034874,
+        436.2147711782065,
+        -350.353319335596,
+        -350.353319335596,
+        105.0643364673629
+      ],
+      [
+        369.55620396034874,
+        359.0254395291917,
+        -345.03349084028986,
+        -350.353319335596,
+        33.19483331365447
+      ],
+      [
+        369.55620396034874,
+        403.97875971561484,
+        -345.03349084028986,
+        -345.03349084028986,
+        83.46798199538419
+      ]
+    ],
+    "largest_stratum_training_energy_fraction": 0.0230105760139947,
+    "largest_stratum_validation_energy_fraction": 0.03264289776989458,
+    "leave_one_stratum_out": [
+      {
+        "remaining_cosine": 0.07802412352535698,
+        "stratum": "AA",
+        "train_energy_fraction": 0.005866036588925757,
+        "validation_energy_fraction": 0.005261919985172613
+      },
+      {
+        "remaining_cosine": 0.07853807619331442,
+        "stratum": "AD",
+        "train_energy_fraction": 0.008568497620246546,
+        "validation_energy_fraction": 0.008865914764484874
+      },
+      {
+        "remaining_cosine": 0.07752163308652703,
+        "stratum": "AF",
+        "train_energy_fraction": 0.004068767314962326,
+        "validation_energy_fraction": 0.004237471584451805
+      },
+      {
+        "remaining_cosine": 0.07604853410889308,
+        "stratum": "AH",
+        "train_energy_fraction": 0.009616415589193501,
+        "validation_energy_fraction": 0.008899638569695658
+      },
+      {
+        "remaining_cosine": 0.07939325657417833,
+        "stratum": "AK",
+        "train_energy_fraction": 0.010521411608301513,
+        "validation_energy_fraction": 0.00864534482881813
+      },
+      {
+        "remaining_cosine": 0.07735956461974232,
+        "stratum": "AL",
+        "train_energy_fraction": 0.007978698271374018,
+        "validation_energy_fraction": 0.007336665966451271
+      },
+      {
+        "remaining_cosine": 0.07879212247182013,
+        "stratum": "AN",
+        "train_energy_fraction": 0.011183240961266711,
+        "validation_energy_fraction": 0.008161650356879513
+      },
+      {
+        "remaining_cosine": 0.07656225020862548,
+        "stratum": "AY",
+        "train_energy_fraction": 0.006952764095753883,
+        "validation_energy_fraction": 0.011221226793699279
+      },
+      {
+        "remaining_cosine": 0.07764676396715582,
+        "stratum": "CA",
+        "train_energy_fraction": 0.0037123564772764163,
+        "validation_energy_fraction": 0.0039686008056809274
+      },
+      {
+        "remaining_cosine": 0.07785759968518649,
+        "stratum": "CD",
+        "train_energy_fraction": 0.0025561280283498116,
+        "validation_energy_fraction": 0.00390901539802284
+      },
+      {
+        "remaining_cosine": 0.07671470153482755,
+        "stratum": "CE",
+        "train_energy_fraction": 0.0027447128905855947,
+        "validation_energy_fraction": 0.0036535311517386974
+      },
+      {
+        "remaining_cosine": 0.07773294568121303,
+        "stratum": "CG",
+        "train_energy_fraction": 0.00181819814460123,
+        "validation_energy_fraction": 0.0016018606827744061
+      },
+      {
+        "remaining_cosine": 0.077658355514616,
+        "stratum": "CI",
+        "train_energy_fraction": 0.003677481811743453,
+        "validation_energy_fraction": 0.005532330895549509
+      },
+      {
+        "remaining_cosine": 0.0782863952224897,
+        "stratum": "CN",
+        "train_energy_fraction": 0.004772501989717246,
+        "validation_energy_fraction": 0.0028788575991141817
+      },
+      {
+        "remaining_cosine": 0.0781201690760766,
+        "stratum": "CP",
+        "train_energy_fraction": 0.005371961081795334,
+        "validation_energy_fraction": 0.0034209128379684996
+      },
+      {
+        "remaining_cosine": 0.07775852106848759,
+        "stratum": "CV",
+        "train_energy_fraction": 0.002368617600532403,
+        "validation_energy_fraction": 0.0015775793051226287
+      },
+      {
+        "remaining_cosine": 0.07833188959917017,
+        "stratum": "CY",
+        "train_energy_fraction": 0.0016993024520601079,
+        "validation_energy_fraction": 0.002400511399196699
+      },
+      {
+        "remaining_cosine": 0.07675628254554571,
+        "stratum": "DA",
+        "train_energy_fraction": 0.00550017346390408,
+        "validation_energy_fraction": 0.006723692833863144
+      },
+      {
+        "remaining_cosine": 0.07799056712680724,
+        "stratum": "DC",
+        "train_energy_fraction": 0.002889994982859732,
+        "validation_energy_fraction": 0.006251581952548878
+      },
+      {
+        "remaining_cosine": 0.07821776431997059,
+        "stratum": "DD",
+        "train_energy_fraction": 0.005669642101608619,
+        "validation_energy_fraction": 0.005028322665425837
+      },
+      {
+        "remaining_cosine": 0.07768402056054156,
+        "stratum": "DG",
+        "train_energy_fraction": 0.00278518562581237,
+        "validation_energy_fraction": 0.002878470065607206
+      },
+      {
+        "remaining_cosine": 0.07849043613129485,
+        "stratum": "DI",
+        "train_energy_fraction": 0.007638108041458904,
+        "validation_energy_fraction": 0.005675149409429472
+      },
+      {
+        "remaining_cosine": 0.07949391928869018,
+        "stratum": "DK",
+        "train_energy_fraction": 0.022396478894751,
+        "validation_energy_fraction": 0.004009427182113012
+      },
+      {
+        "remaining_cosine": 0.07900417496993194,
+        "stratum": "DL",
+        "train_energy_fraction": 0.014351276280188572,
+        "validation_energy_fraction": 0.007678552482402671
+      },
+      {
+        "remaining_cosine": 0.07878463789570327,
+        "stratum": "DT",
+        "train_energy_fraction": 0.00821649811773359,
+        "validation_energy_fraction": 0.00502080840658889
+      },
+      {
+        "remaining_cosine": 0.07870703507483434,
+        "stratum": "DV",
+        "train_energy_fraction": 0.004038459594407492,
+        "validation_energy_fraction": 0.0036786134410100963
+      },
+      {
+        "remaining_cosine": 0.07907828684433929,
+        "stratum": "EA",
+        "train_energy_fraction": 0.0059633475036043986,
+        "validation_energy_fraction": 0.00550413291704501
+      },
+      {
+        "remaining_cosine": 0.0766831565868589,
+        "stratum": "EF",
+        "train_energy_fraction": 0.0047950937922567865,
+        "validation_energy_fraction": 0.003260781724565703
+      },
+      {
+        "remaining_cosine": 0.07709063927325273,
+        "stratum": "EG",
+        "train_energy_fraction": 0.005209599753806886,
+        "validation_energy_fraction": 0.0046052234361753505
+      },
+      {
+        "remaining_cosine": 0.07935050234972345,
+        "stratum": "EH",
+        "train_energy_fraction": 0.006565202598636553,
+        "validation_energy_fraction": 0.007802576104776717
+      },
+      {
+        "remaining_cosine": 0.0811692558226319,
+        "stratum": "EK",
+        "train_energy_fraction": 0.007103678007955377,
+        "validation_energy_fraction": 0.012806555576420447
+      },
+      {
+        "remaining_cosine": 0.07563905273393667,
+        "stratum": "EL",
+        "train_energy_fraction": 0.008345076329223959,
+        "validation_energy_fraction": 0.007772590848615355
+      },
+      {
+        "remaining_cosine": 0.07971520995492343,
+        "stratum": "EQ",
+        "train_energy_fraction": 0.012109048860228146,
+        "validation_energy_fraction": 0.013673012261371518
+      },
+      {
+        "remaining_cosine": 0.07738255911293619,
+        "stratum": "ET",
+        "train_energy_fraction": 0.013520685590788315,
+        "validation_energy_fraction": 0.006806583283308256
+      },
+      {
+        "remaining_cosine": 0.07812739101097145,
+        "stratum": "EV",
+        "train_energy_fraction": 0.005140607604823702,
+        "validation_energy_fraction": 0.005198324684943038
+      },
+      {
+        "remaining_cosine": 0.07788165946447163,
+        "stratum": "FC",
+        "train_energy_fraction": 0.0014663937236469673,
+        "validation_energy_fraction": 0.0029396012422855246
+      },
+      {
+        "remaining_cosine": 0.07838845999569638,
+        "stratum": "FD",
+        "train_energy_fraction": 0.004292349024560741,
+        "validation_energy_fraction": 0.00271532505032855
+      },
+      {
+        "remaining_cosine": 0.0786473248161481,
+        "stratum": "FE",
+        "train_energy_fraction": 0.0029037357775088396,
+        "validation_energy_fraction": 0.00531375677990538
+      },
+      {
+        "remaining_cosine": 0.07589535277040196,
+        "stratum": "FH",
+        "train_energy_fraction": 0.012979390917934375,
+        "validation_energy_fraction": 0.005114639439078157
+      },
+      {
+        "remaining_cosine": 0.07791517302078645,
+        "stratum": "FK",
+        "train_energy_fraction": 0.002626462699620428,
+        "validation_energy_fraction": 0.0028237066925092674
+      },
+      {
+        "remaining_cosine": 0.07677701988757546,
+        "stratum": "FP",
+        "train_energy_fraction": 0.006344773468174779,
+        "validation_energy_fraction": 0.006834530209334333
+      },
+      {
+        "remaining_cosine": 0.07838530464848416,
+        "stratum": "FQ",
+        "train_energy_fraction": 0.0030073481320873063,
+        "validation_energy_fraction": 0.00479627438219848
+      },
+      {
+        "remaining_cosine": 0.07725859974092573,
+        "stratum": "FV",
+        "train_energy_fraction": 0.003658521199452284,
+        "validation_energy_fraction": 0.0026311120476400656
+      },
+      {
+        "remaining_cosine": 0.07655519964560649,
+        "stratum": "FY",
+        "train_energy_fraction": 0.003920484128922823,
+        "validation_energy_fraction": 0.0037759184377941847
+      },
+      {
+        "remaining_cosine": 0.07680332093524647,
+        "stratum": "GD",
+        "train_energy_fraction": 0.004177586796736905,
+        "validation_energy_fraction": 0.007310669209135243
+      },
+      {
+        "remaining_cosine": 0.07769091936264137,
+        "stratum": "GE",
+        "train_energy_fraction": 0.006114370849206626,
+        "validation_energy_fraction": 0.0022451412517799506
+      },
+      {
+        "remaining_cosine": 0.07737773147565274,
+        "stratum": "GG",
+        "train_energy_fraction": 0.003448745351815137,
+        "validation_energy_fraction": 0.0031801251624902363
+      },
+      {
+        "remaining_cosine": 0.0776318042388965,
+        "stratum": "GH",
+        "train_energy_fraction": 0.004996304082127692,
+        "validation_energy_fraction": 0.007712972702210836
+      },
+      {
+        "remaining_cosine": 0.07776671902322627,
+        "stratum": "GI",
+        "train_energy_fraction": 0.005242923818368312,
+        "validation_energy_fraction": 0.004843538325385899
+      },
+      {
+        "remaining_cosine": 0.07857563502043496,
+        "stratum": "GK",
+        "train_energy_fraction": 0.006491496426083414,
+        "validation_energy_fraction": 0.011529788537507097
+      },
+      {
+        "remaining_cosine": 0.07743184904090483,
+        "stratum": "GL",
+        "train_energy_fraction": 0.005859884618468637,
+        "validation_energy_fraction": 0.0054465689638000135
+      },
+      {
+        "remaining_cosine": 0.07823304865270513,
+        "stratum": "GR",
+        "train_energy_fraction": 0.003488199114479015,
+        "validation_energy_fraction": 0.00351782702324858
+      },
+      {
+        "remaining_cosine": 0.07852104947569714,
+        "stratum": "GT",
+        "train_energy_fraction": 0.0060622577311992614,
+        "validation_energy_fraction": 0.00627637321749412
+      },
+      {
+        "remaining_cosine": 0.07670446164725037,
+        "stratum": "GV",
+        "train_energy_fraction": 0.003931677757994534,
+        "validation_energy_fraction": 0.003666129163235206
+      },
+      {
+        "remaining_cosine": 0.07619006830475562,
+        "stratum": "GY",
+        "train_energy_fraction": 0.006792577985447247,
+        "validation_energy_fraction": 0.004677365965817366
+      },
+      {
+        "remaining_cosine": 0.07433694515412097,
+        "stratum": "HA",
+        "train_energy_fraction": 0.009643376276894825,
+        "validation_energy_fraction": 0.005873391651184945
+      },
+      {
+        "remaining_cosine": 0.0761775802369193,
+        "stratum": "HD",
+        "train_energy_fraction": 0.006340320502655491,
+        "validation_energy_fraction": 0.016472480940830675
+      },
+      {
+        "remaining_cosine": 0.07730794982256119,
+        "stratum": "HF",
+        "train_energy_fraction": 0.006716017522739743,
+        "validation_energy_fraction": 0.005899847493206243
+      },
+      {
+        "remaining_cosine": 0.07910975321313445,
+        "stratum": "HG",
+        "train_energy_fraction": 0.006664317726012817,
+        "validation_energy_fraction": 0.006263837639836381
+      },
+      {
+        "remaining_cosine": 0.06803624503075312,
+        "stratum": "HH",
+        "train_energy_fraction": 0.015540490951238148,
+        "validation_energy_fraction": 0.03264289776989458
+      },
+      {
+        "remaining_cosine": 0.07615577312284479,
+        "stratum": "HK",
+        "train_energy_fraction": 0.006137059965989369,
+        "validation_energy_fraction": 0.009104263359340677
+      },
+      {
+        "remaining_cosine": 0.08196415468180958,
+        "stratum": "HN",
+        "train_energy_fraction": 0.0230105760139947,
+        "validation_energy_fraction": 0.012433914968524883
+      },
+      {
+        "remaining_cosine": 0.07479766287531235,
+        "stratum": "HR",
+        "train_energy_fraction": 0.012777764636689783,
+        "validation_energy_fraction": 0.011796903343420201
+      },
+      {
+        "remaining_cosine": 0.07888402092165056,
+        "stratum": "HT",
+        "train_energy_fraction": 0.006681198812322312,
+        "validation_energy_fraction": 0.008487970420204558
+      },
+      {
+        "remaining_cosine": 0.09190758050462422,
+        "stratum": "HY",
+        "train_energy_fraction": 0.01882209269353206,
+        "validation_energy_fraction": 0.017740880563838046
+      },
+      {
+        "remaining_cosine": 0.07911015011926402,
+        "stratum": "IA",
+        "train_energy_fraction": 0.011527145719496496,
+        "validation_energy_fraction": 0.009632172652198701
+      },
+      {
+        "remaining_cosine": 0.07716756432556382,
+        "stratum": "IC",
+        "train_energy_fraction": 0.0039007238815703016,
+        "validation_energy_fraction": 0.005214089693372068
+      },
+      {
+        "remaining_cosine": 0.07968564993391254,
+        "stratum": "IE",
+        "train_energy_fraction": 0.01398763897776686,
+        "validation_energy_fraction": 0.006020396138219178
+      },
+      {
+        "remaining_cosine": 0.07802705697337266,
+        "stratum": "IF",
+        "train_energy_fraction": 0.003506861415977274,
+        "validation_energy_fraction": 0.004985813532967357
+      },
+      {
+        "remaining_cosine": 0.07748860455787097,
+        "stratum": "IG",
+        "train_energy_fraction": 0.004199638733143921,
+        "validation_energy_fraction": 0.00715856275291157
+      },
+      {
+        "remaining_cosine": 0.07856987041695447,
+        "stratum": "II",
+        "train_energy_fraction": 0.005996736688410977,
+        "validation_energy_fraction": 0.004533421122301336
+      },
+      {
+        "remaining_cosine": 0.0780991026586439,
+        "stratum": "IL",
+        "train_energy_fraction": 0.0026182707259845435,
+        "validation_energy_fraction": 0.002575985873281991
+      },
+      {
+        "remaining_cosine": 0.07805114300612245,
+        "stratum": "IP",
+        "train_energy_fraction": 0.004801394213082425,
+        "validation_energy_fraction": 0.00495181340957145
+      },
+      {
+        "remaining_cosine": 0.07959468216835076,
+        "stratum": "IR",
+        "train_energy_fraction": 0.011285793673255051,
+        "validation_energy_fraction": 0.013804445240431814
+      },
+      {
+        "remaining_cosine": 0.07851431168586277,
+        "stratum": "IV",
+        "train_energy_fraction": 0.0053995891673378135,
+        "validation_energy_fraction": 0.005276006881010287
+      },
+      {
+        "remaining_cosine": 0.07864093716686613,
+        "stratum": "KA",
+        "train_energy_fraction": 0.009746468819886188,
+        "validation_energy_fraction": 0.006277991003800553
+      },
+      {
+        "remaining_cosine": 0.07336601312089253,
+        "stratum": "KD",
+        "train_energy_fraction": 0.012448252873515834,
+        "validation_energy_fraction": 0.009996849281065114
+      },
+      {
+        "remaining_cosine": 0.07828040120925353,
+        "stratum": "KF",
+        "train_energy_fraction": 0.003210119317762864,
+        "validation_energy_fraction": 0.0029919499356646064
+      },
+      {
+        "remaining_cosine": 0.07891215824379622,
+        "stratum": "KH",
+        "train_energy_fraction": 0.005819901291183208,
+        "validation_energy_fraction": 0.007733705270653459
+      },
+      {
+        "remaining_cosine": 0.07853847812013026,
+        "stratum": "KR",
+        "train_energy_fraction": 0.004407190405658644,
+        "validation_energy_fraction": 0.005434689141567849
+      },
+      {
+        "remaining_cosine": 0.07744020672734085,
+        "stratum": "KY",
+        "train_energy_fraction": 0.0035740078944136475,
+        "validation_energy_fraction": 0.003667691006589742
+      },
+      {
+        "remaining_cosine": 0.07709029899189293,
+        "stratum": "LA",
+        "train_energy_fraction": 0.005218946203298756,
+        "validation_energy_fraction": 0.006744753073442151
+      },
+      {
+        "remaining_cosine": 0.07782190621536403,
+        "stratum": "LD",
+        "train_energy_fraction": 0.007138537490383808,
+        "validation_energy_fraction": 0.005931172273819044
+      },
+      {
+        "remaining_cosine": 0.07858634290033835,
+        "stratum": "LE",
+        "train_energy_fraction": 0.007003168691726217,
+        "validation_energy_fraction": 0.006581212391747317
+      },
+      {
+        "remaining_cosine": 0.07666822366423066,
+        "stratum": "LF",
+        "train_energy_fraction": 0.003902187669448834,
+        "validation_energy_fraction": 0.0039725925766306725
+      },
+      {
+        "remaining_cosine": 0.07852754413854884,
+        "stratum": "LG",
+        "train_energy_fraction": 0.004969237288720819,
+        "validation_energy_fraction": 0.0048275428695176165
+      },
+      {
+        "remaining_cosine": 0.07716930272015939,
+        "stratum": "LH",
+        "train_energy_fraction": 0.0038115508338038323,
+        "validation_energy_fraction": 0.007348613369844936
+      },
+      {
+        "remaining_cosine": 0.07804620284874669,
+        "stratum": "LK",
+        "train_energy_fraction": 0.016104371974115357,
+        "validation_energy_fraction": 0.008728342127095957
+      },
+      {
+        "remaining_cosine": 0.07530497171398379,
+        "stratum": "LN",
+        "train_energy_fraction": 0.009227159698799742,
+        "validation_energy_fraction": 0.007639713008463348
+      },
+      {
+        "remaining_cosine": 0.07799545482883466,
+        "stratum": "LQ",
+        "train_energy_fraction": 0.00856691648868354,
+        "validation_energy_fraction": 0.006175043997192005
+      },
+      {
+        "remaining_cosine": 0.07764302064212929,
+        "stratum": "LR",
+        "train_energy_fraction": 0.002039702029651826,
+        "validation_energy_fraction": 0.002134279847721729
+      },
+      {
+        "remaining_cosine": 0.0781334277539403,
+        "stratum": "LW",
+        "train_energy_fraction": 0.002644851809059092,
+        "validation_energy_fraction": 0.0020659852965849864
+      },
+      {
+        "remaining_cosine": 0.07740133225329492,
+        "stratum": "MG",
+        "train_energy_fraction": 0.0012044747666879506,
+        "validation_energy_fraction": 0.002231660541300364
+      },
+      {
+        "remaining_cosine": 0.07794514744126763,
+        "stratum": "ML",
+        "train_energy_fraction": 0.002954861884475488,
+        "validation_energy_fraction": 0.003085080837163859
+      },
+      {
+        "remaining_cosine": 0.07622412482658839,
+        "stratum": "MT",
+        "train_energy_fraction": 0.004067471438730156,
+        "validation_energy_fraction": 0.005135656698911842
+      },
+      {
+        "remaining_cosine": 0.07744256834681598,
+        "stratum": "NA",
+        "train_energy_fraction": 0.008618487354981963,
+        "validation_energy_fraction": 0.006875230221230328
+      },
+      {
+        "remaining_cosine": 0.0785162403142132,
+        "stratum": "ND",
+        "train_energy_fraction": 0.009408772283002053,
+        "validation_energy_fraction": 0.006515132191527629
+      },
+      {
+        "remaining_cosine": 0.07775936451374181,
+        "stratum": "NL",
+        "train_energy_fraction": 0.005402384590176237,
+        "validation_energy_fraction": 0.006000857525297191
+      },
+      {
+        "remaining_cosine": 0.08220626596080195,
+        "stratum": "NN",
+        "train_energy_fraction": 0.00828268603418421,
+        "validation_energy_fraction": 0.012346257532744239
+      },
+      {
+        "remaining_cosine": 0.08343046338639966,
+        "stratum": "NY",
+        "train_energy_fraction": 0.016445285429725922,
+        "validation_energy_fraction": 0.004903357711318395
+      },
+      {
+        "remaining_cosine": 0.07842545688923709,
+        "stratum": "PA",
+        "train_energy_fraction": 0.008009052913724113,
+        "validation_energy_fraction": 0.007203553593323689
+      },
+      {
+        "remaining_cosine": 0.07834409910849024,
+        "stratum": "PH",
+        "train_energy_fraction": 0.008882309762167914,
+        "validation_energy_fraction": 0.02551318391037384
+      },
+      {
+        "remaining_cosine": 0.07874795486133644,
+        "stratum": "PK",
+        "train_energy_fraction": 0.0037269405532192957,
+        "validation_energy_fraction": 0.009517307339987612
+      },
+      {
+        "remaining_cosine": 0.07617473529142868,
+        "stratum": "PQ",
+        "train_energy_fraction": 0.00677636904549474,
+        "validation_energy_fraction": 0.002179928565306201
+      },
+      {
+        "remaining_cosine": 0.08227188012065001,
+        "stratum": "PV",
+        "train_energy_fraction": 0.008885821562558275,
+        "validation_energy_fraction": 0.011950119596681375
+      },
+      {
+        "remaining_cosine": 0.08056538940519721,
+        "stratum": "QA",
+        "train_energy_fraction": 0.006948509363504451,
+        "validation_energy_fraction": 0.007253862637029757
+      },
+      {
+        "remaining_cosine": 0.07716021837554549,
+        "stratum": "QD",
+        "train_energy_fraction": 0.005714850439071516,
+        "validation_energy_fraction": 0.006556544501387443
+      },
+      {
+        "remaining_cosine": 0.07738971749144677,
+        "stratum": "QF",
+        "train_energy_fraction": 0.00414508892739518,
+        "validation_energy_fraction": 0.0036377508796832567
+      },
+      {
+        "remaining_cosine": 0.07619136263339059,
+        "stratum": "QG",
+        "train_energy_fraction": 0.0045393575069119394,
+        "validation_energy_fraction": 0.010696058444643629
+      },
+      {
+        "remaining_cosine": 0.07246353903394584,
+        "stratum": "QH",
+        "train_energy_fraction": 0.010015650178156924,
+        "validation_energy_fraction": 0.014447980315773148
+      },
+      {
+        "remaining_cosine": 0.07802387521188313,
+        "stratum": "QL",
+        "train_energy_fraction": 0.006816502271666536,
+        "validation_energy_fraction": 0.007992532090674744
+      },
+      {
+        "remaining_cosine": 0.07877407556052828,
+        "stratum": "QN",
+        "train_energy_fraction": 0.014804404620602243,
+        "validation_energy_fraction": 0.006591657638605018
+      },
+      {
+        "remaining_cosine": 0.0773859474947646,
+        "stratum": "QP",
+        "train_energy_fraction": 0.0038011358214542802,
+        "validation_energy_fraction": 0.011915440746862424
+      },
+      {
+        "remaining_cosine": 0.07852090717267107,
+        "stratum": "QY",
+        "train_energy_fraction": 0.012405967750607955,
+        "validation_energy_fraction": 0.013331734143180188
+      },
+      {
+        "remaining_cosine": 0.07724177477974051,
+        "stratum": "RC",
+        "train_energy_fraction": 0.0034628698056348084,
+        "validation_energy_fraction": 0.004433487401347679
+      },
+      {
+        "remaining_cosine": 0.0766968842630659,
+        "stratum": "RD",
+        "train_energy_fraction": 0.005602742478713442,
+        "validation_energy_fraction": 0.005624042457646503
+      },
+      {
+        "remaining_cosine": 0.08039980106442972,
+        "stratum": "RE",
+        "train_energy_fraction": 0.013003740251869216,
+        "validation_energy_fraction": 0.007308726954294574
+      },
+      {
+        "remaining_cosine": 0.0783447116174644,
+        "stratum": "RG",
+        "train_energy_fraction": 0.0045618397502066145,
+        "validation_energy_fraction": 0.004644823867679384
+      },
+      {
+        "remaining_cosine": 0.07781748375920576,
+        "stratum": "RH",
+        "train_energy_fraction": 0.005789813241795781,
+        "validation_energy_fraction": 0.0055787874431697
+      },
+      {
+        "remaining_cosine": 0.08006840965844379,
+        "stratum": "RK",
+        "train_energy_fraction": 0.007669739469115685,
+        "validation_energy_fraction": 0.008703348668359595
+      },
+      {
+        "remaining_cosine": 0.07663443435281841,
+        "stratum": "RN",
+        "train_energy_fraction": 0.006911213339518837,
+        "validation_energy_fraction": 0.005438659381022126
+      },
+      {
+        "remaining_cosine": 0.07800352105449254,
+        "stratum": "RQ",
+        "train_energy_fraction": 0.007967595854195545,
+        "validation_energy_fraction": 0.005078811794719064
+      },
+      {
+        "remaining_cosine": 0.08022989255240702,
+        "stratum": "TD",
+        "train_energy_fraction": 0.012370999505025623,
+        "validation_energy_fraction": 0.007473914072746594
+      },
+      {
+        "remaining_cosine": 0.07711212001306848,
+        "stratum": "TE",
+        "train_energy_fraction": 0.004416283403651059,
+        "validation_energy_fraction": 0.004524768069476974
+      },
+      {
+        "remaining_cosine": 0.07699875595994786,
+        "stratum": "TG",
+        "train_energy_fraction": 0.006682671203699096,
+        "validation_energy_fraction": 0.005235036274824677
+      },
+      {
+        "remaining_cosine": 0.0757210652504507,
+        "stratum": "TH",
+        "train_energy_fraction": 0.011350608783420443,
+        "validation_energy_fraction": 0.013157609497589526
+      },
+      {
+        "remaining_cosine": 0.0769228660649123,
+        "stratum": "TK",
+        "train_energy_fraction": 0.007055107514075231,
+        "validation_energy_fraction": 0.008550333618681131
+      },
+      {
+        "remaining_cosine": 0.0770612013695973,
+        "stratum": "TM",
+        "train_energy_fraction": 0.0054639332735496845,
+        "validation_energy_fraction": 0.0063190035983783106
+      },
+      {
+        "remaining_cosine": 0.0765527217774202,
+        "stratum": "TP",
+        "train_energy_fraction": 0.005654121751582242,
+        "validation_energy_fraction": 0.006794860076274338
+      },
+      {
+        "remaining_cosine": 0.07866826250934762,
+        "stratum": "TQ",
+        "train_energy_fraction": 0.004279038342804038,
+        "validation_energy_fraction": 0.004439140336677541
+      },
+      {
+        "remaining_cosine": 0.07748986378877766,
+        "stratum": "TT",
+        "train_energy_fraction": 0.0037520287306082077,
+        "validation_energy_fraction": 0.005370542368935008
+      },
+      {
+        "remaining_cosine": 0.07718512625873905,
+        "stratum": "TV",
+        "train_energy_fraction": 0.007526708208519872,
+        "validation_energy_fraction": 0.004741145557598901
+      },
+      {
+        "remaining_cosine": 0.07827732620590415,
+        "stratum": "TW",
+        "train_energy_fraction": 0.001884720327762255,
+        "validation_energy_fraction": 0.00208956649571131
+      },
+      {
+        "remaining_cosine": 0.07730314209264313,
+        "stratum": "TY",
+        "train_energy_fraction": 0.0030973217398789455,
+        "validation_energy_fraction": 0.01099705791638633
+      },
+      {
+        "remaining_cosine": 0.07741122285341269,
+        "stratum": "VA",
+        "train_energy_fraction": 0.004520953511967465,
+        "validation_energy_fraction": 0.005218193777548042
+      },
+      {
+        "remaining_cosine": 0.07871323066540252,
+        "stratum": "VC",
+        "train_energy_fraction": 0.003611260178535567,
+        "validation_energy_fraction": 0.003852706610251437
+      },
+      {
+        "remaining_cosine": 0.07711611393359678,
+        "stratum": "VE",
+        "train_energy_fraction": 0.009543487685113516,
+        "validation_energy_fraction": 0.00629190845217893
+      },
+      {
+        "remaining_cosine": 0.07828116864198209,
+        "stratum": "VF",
+        "train_energy_fraction": 0.005047004582036717,
+        "validation_energy_fraction": 0.005814872456968221
+      },
+      {
+        "remaining_cosine": 0.07770352390130816,
+        "stratum": "VI",
+        "train_energy_fraction": 0.004153713838137011,
+        "validation_energy_fraction": 0.003710343618401526
+      },
+      {
+        "remaining_cosine": 0.07757635721362227,
+        "stratum": "VL",
+        "train_energy_fraction": 0.0035115774551584453,
+        "validation_energy_fraction": 0.0028143572609326197
+      },
+      {
+        "remaining_cosine": 0.07798203102056958,
+        "stratum": "VQ",
+        "train_energy_fraction": 0.0053380747307252615,
+        "validation_energy_fraction": 0.005612236666059423
+      },
+      {
+        "remaining_cosine": 0.07714887347547886,
+        "stratum": "VR",
+        "train_energy_fraction": 0.004437832513833084,
+        "validation_energy_fraction": 0.0063371630189296
+      },
+      {
+        "remaining_cosine": 0.07717318530623787,
+        "stratum": "VW",
+        "train_energy_fraction": 0.0018354119713024897,
+        "validation_energy_fraction": 0.0012779700804366743
+      },
+      {
+        "remaining_cosine": 0.0775654108888146,
+        "stratum": "WA",
+        "train_energy_fraction": 0.0015015614812658173,
+        "validation_energy_fraction": 0.0017122447712604719
+      },
+      {
+        "remaining_cosine": 0.0767796677508854,
+        "stratum": "WR",
+        "train_energy_fraction": 0.002342432294861932,
+        "validation_energy_fraction": 0.004139309247479138
+      },
+      {
+        "remaining_cosine": 0.07865665524582563,
+        "stratum": "WT",
+        "train_energy_fraction": 0.004386621205594856,
+        "validation_energy_fraction": 0.0020736925543518216
+      },
+      {
+        "remaining_cosine": 0.07753238568915917,
+        "stratum": "YA",
+        "train_energy_fraction": 0.004468025871641874,
+        "validation_energy_fraction": 0.005794741754826857
+      },
+      {
+        "remaining_cosine": 0.07897737142175028,
+        "stratum": "YC",
+        "train_energy_fraction": 0.002515221283680217,
+        "validation_energy_fraction": 0.0024812247666893624
+      },
+      {
+        "remaining_cosine": 0.07769089078856997,
+        "stratum": "YD",
+        "train_energy_fraction": 0.005919218541643689,
+        "validation_energy_fraction": 0.004329902535479763
+      },
+      {
+        "remaining_cosine": 0.0778192513199152,
+        "stratum": "YE",
+        "train_energy_fraction": 0.0029291760615831465,
+        "validation_energy_fraction": 0.006430939829547287
+      },
+      {
+        "remaining_cosine": 0.07708190625890107,
+        "stratum": "YG",
+        "train_energy_fraction": 0.004533659757527327,
+        "validation_energy_fraction": 0.00390100576857421
+      },
+      {
+        "remaining_cosine": 0.07630425212448576,
+        "stratum": "YT",
+        "train_energy_fraction": 0.008779053248810327,
+        "validation_energy_fraction": 0.008320402100168553
+      },
+      {
+        "remaining_cosine": 0.07817208491685466,
+        "stratum": "YV",
+        "train_energy_fraction": 0.002564411233099396,
+        "validation_energy_fraction": 0.003902119000854126
+      },
+      {
+        "remaining_cosine": 0.07778604200376446,
+        "stratum": "YY",
+        "train_energy_fraction": 0.004791508726579106,
+        "validation_energy_fraction": 0.011180094292377828
+      }
+    ],
+    "leave_one_stratum_out_range": [
+      0.06803624503075312,
+      0.09190758050462422
+    ],
+    "losses": {
+      "codon_prediction_mse": 0.14910546617337006,
+      "constant_prediction_mse": 0.13575693558936683,
+      "residual_prediction_mse": 0.11721404387352587,
+      "whole_prediction_mse": 0.1869773218383559,
+      "zero_residual_mse": 0.07934218820854008
+    },
+    "nonclique_classes": 212,
+    "primary_decomposition_aggregate_terms": [
+      340.0487086027577,
+      354.67708955619497,
+      -342.1590611023767,
+      -347.5412179252968,
+      5.025519131278799
+    ],
+    "rank_agreement_summary": {
+      "DNA_rank_correlations": [
+        {
+          "defined": 1052,
+          "mean_defined": 0.8688499331456934,
+          "range_defined": [
+            0.19047619047619047,
+            1.0
+          ],
+          "undefined": 0
+        },
+        {
+          "defined": 1052,
+          "mean_defined": 0.8815311287271947,
+          "range_defined": [
+            0.40476190476190477,
+            1.0
+          ],
+          "undefined": 0
+        },
+        {
+          "defined": 1052,
+          "mean_defined": 0.8951855518275166,
+          "range_defined": [
+            0.3592878785739777,
+            1.0
+          ],
+          "undefined": 0
+        }
+      ],
+      "RNA_rank_correlations": [
+        {
+          "defined": 1052,
+          "mean_defined": 0.95128896970434,
+          "range_defined": [
+            0.29940656547831473,
+            1.0
+          ],
+          "undefined": 0
+        },
+        {
+          "defined": 1052,
+          "mean_defined": 0.9514021417877765,
+          "range_defined": [
+            0.5476190476190477,
+            1.0
+          ],
+          "undefined": 0
+        },
+        {
+          "defined": 1052,
+          "mean_defined": 0.9438705797024027,
+          "range_defined": [
+            0.2619047619047619,
+            1.0
+          ],
+          "undefined": 0
+        }
+      ]
+    },
+    "scenario_residual_pooled_cosines": [
+      1.0,
+      0.18389793422130796,
+      0.1809770590911884,
+      0.8288751830862626,
+      0.040724464401733634,
+      0.014240264283519318,
+      0.8096852081625663,
+      0.05890954101796469,
+      0.03628430612572585,
+      1.0,
+      0.26217436915696235,
+      0.008425965834963701,
+      0.8198490010853711,
+      0.054247503488624296,
+      0.02416818398740667,
+      0.7982216669377064,
+      0.07116698502067169,
+      1.0,
+      0.017630575393581805,
+      0.09762585173628778,
+      0.7695263038414556,
+      0.013873496879052205,
+      0.08999893849486046,
+      0.7391614677143943,
+      1.0,
+      0.21585411276324845,
+      0.2466671517692336,
+      0.7838624966717564,
+      0.029349741793230844,
+      0.04012959866913759,
+      1.0,
+      0.29625966743800314,
+      0.026014391262096696,
+      0.7662252040055424,
+      0.07615847417087572,
+      1.0,
+      0.015347218235379097,
+      0.053811344915720934,
+      0.7085509800730332,
+      1.0,
+      0.2873687629155502,
+      0.30939964558375926,
+      1.0,
+      0.3544727661471247,
+      1.0
+    ],
+    "status": "target_failed",
+    "target": 0.5,
+    "train_energy": 49.892230422122665,
+    "validation_energy": 83.46798199538416,
+    "zero_energy_classes": {
+      "training": 0,
+      "validation": 0
+    }
+  },
+  "all_cosines": {
+    "0.25": {
+      "development": 0.054670789886465516,
+      "validation": 0.07923720520052298
+    },
+    "0.5": {
+      "development": 0.058670353615606956,
+      "validation": 0.07787615736918294
+    },
+    "1.0": {
+      "development": 0.06360366641102261,
+      "validation": 0.07763455283467703
+    }
+  },
+  "plotted_losses": {
+    "zero_residual_mse": 0.28167745420700624,
+    "residual_prediction_mse": 0.3423653660543453,
+    "constant_prediction_mse": 0.3684520804519454,
+    "codon_prediction_mse": 0.3861417695269058,
+    "whole_prediction_mse": 0.43240874394299184
+  },
+  "cohort": {
+    "development_groups": 1124,
+    "validation_groups": 1052,
+    "development_vertices": 20028,
+    "validation_vertices": 18310
+  },
+  "export": {
+    "width_mm": 174,
+    "height_mm": 170,
+    "minimum_ordinary_font_pt": 8,
+    "clipping": [],
+    "overlaps": [],
+    "artifacts": {
+      "pdf": "e986de0de4c97c84092a7e7540c37c1b7c6e6ae6b139acc2496bd8de01ced48c",
+      "svg": "e49438cf49b5d14f2556090b88a510b81f01069697ff53817eeef7d1ac5d7cf0",
+      "eps": "9612bf8f7a147899cd76ebba7ff7a2c5a359a2acd8c7320766de975ff14112ce",
+      "png": "7f8f4513fb864bfca168a6397c54d98523e57714b116c869559675a148a37aec"
+    }
+  },
+  "scope": "Frozen processed-library results. No confidence intervals, biological replicate independence or causal normalization fractions."
+}

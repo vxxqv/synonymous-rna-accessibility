@@ -1,0 +1,13 @@
+# Gill multiclass independent result review: prepared, validation unopened
+
+**Status:** independent evaluator/design prepared and frozen before this reviewer accesses validation artifacts. No observed-result agreement or biological conclusion is claimed at this stage.
+
+The final metadata/synthetic run passed checks for all2176 fixed classes,38338 distinct keys and20 architectures. It independently reconstructs categorical indicator ranks, complete codon-factor membership, nucleotide adjacency and connectivity. Least-squares projections agree with the protocol's conditional-mean projector on deterministic synthetic fields. Complete metric serialization/decomposition and max-min graph calculations were exercised on synthetic fields covering every architecture. The final Mathbox evidence record is `preparation_frozen/manifest.json`, status completed, and validates against the current source.
+
+One useful metadata correction emerged: the eligible data represent162 development and154 validation central-AA strata, although the full possible-stratum assignment is200/199 plus quarantined VP. The failed reviewer assertion and source snapshot are retained. The upcoming influence denominators must use the represented eligible strata.
+
+The scientific computations, exhaustive graph coverage and numerical comparison policy are specified in `design.md`. The independently authored `verifier.py` imports no author implementation. Its later evaluate phase requires root-supplied pinned validation artifacts. It checks all3 pseudocounts and computes every class's projection, residual/whole-field comparison, all45 normalization cross products plus the primary decomposition, influence contributions, and all9 scenario/raw/codon-additive barrier comparisons plus T/PT on all graphs.
+
+The source protocol, inventory and training receipt are pinned in `freeze.json`. This reviewer inspected permitted training-export schemas and receipt, but did not open the workbook, RNA D, author class metrics or author validation summary. The root has indicated its own validation execution is complete; no numerical validation result was supplied to this reviewer. Evaluation and author comparison remain pending root notification after this frozen-ready report.
+
+This is a separate review with inherited project context, not a blinded external review. All writes are confined to this owned review directory. No source/creator/repository/manuscript edits, commits, publications or biological interventions occurred. No independent biological calibration or statistical guarantee follows from this verifier's eventual numerical agreement.

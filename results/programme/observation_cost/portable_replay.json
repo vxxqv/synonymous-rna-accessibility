@@ -1,0 +1,181 @@
+{
+  "active_input_sha256_after": {
+    "outputs/synonymous-rna-accessibility/src/acquisition.py": "6005d30d709dc8100a1de64822d8e80cf8a8dbc8d9c3a18de8d21f69622be6ee",
+    "work/cost_audit_cycle2/cost_audit.py": "a82e32ab46bdc941235623b80ced7f600078f74f280d9aaeea0baf5d9aa2f107",
+    "work/cost_audit_cycle2/freeze.json": "3686acf9a6f5c1210cff47630de0959f536d1c552d57577f7157c939bae8a9d3",
+    "work/cost_audit_cycle2/interpretation.md": "ebff655bdcfd3defb94fb6e5aff78034a056018f26b1e47781f181c764d92c20",
+    "work/cost_audit_cycle2/prior_and_proof.md": "6d29f7f71d97f622fd10933f05c9e0ba3358f8ff182b8f639f2f021c4767952b",
+    "work/cost_audit_cycle2/protocol.json": "c5fd782951b7ff4ea4d0a6a018b0af589c7ee626c2dee81d2ee88bcc6fa84129",
+    "work/cost_audit_cycle2/reviewer/independent_reference.py": "30dcc83f2a5973211baee0d4c41c51c2c4779154c8d8f1466c5ad12062bc809c",
+    "work/cost_audit_cycle2/reviewer/review.md": "a50aeccbbae9d8536bed778d5c41eef4fe3eb577e8726d01366c935090205a40"
+  },
+  "active_input_sha256_before": {
+    "outputs/synonymous-rna-accessibility/src/acquisition.py": "6005d30d709dc8100a1de64822d8e80cf8a8dbc8d9c3a18de8d21f69622be6ee",
+    "work/cost_audit_cycle2/cost_audit.py": "a82e32ab46bdc941235623b80ced7f600078f74f280d9aaeea0baf5d9aa2f107",
+    "work/cost_audit_cycle2/freeze.json": "3686acf9a6f5c1210cff47630de0959f536d1c552d57577f7157c939bae8a9d3",
+    "work/cost_audit_cycle2/interpretation.md": "ebff655bdcfd3defb94fb6e5aff78034a056018f26b1e47781f181c764d92c20",
+    "work/cost_audit_cycle2/prior_and_proof.md": "6d29f7f71d97f622fd10933f05c9e0ba3358f8ff182b8f639f2f021c4767952b",
+    "work/cost_audit_cycle2/protocol.json": "c5fd782951b7ff4ea4d0a6a018b0af589c7ee626c2dee81d2ee88bcc6fa84129",
+    "work/cost_audit_cycle2/reviewer/independent_reference.py": "30dcc83f2a5973211baee0d4c41c51c2c4779154c8d8f1466c5ad12062bc809c",
+    "work/cost_audit_cycle2/reviewer/review.md": "a50aeccbbae9d8536bed778d5c41eef4fe3eb577e8726d01366c935090205a40"
+  },
+  "assertions_enabled": true,
+  "creator_finite_checks": {
+    "bellman_action_inequalities": 492480,
+    "bellman_states": 279936,
+    "completion_certificate_checks": 4096,
+    "full_world_policy_checks": 98304,
+    "partial_states_checked": 729
+  },
+  "environment": {
+    "NetworkX": "3.7",
+    "Python": "3.12.14",
+    "hardware": "Windows-11-10.0.26300-SP0; AMD64"
+  },
+  "frozen_inputs_unchanged": true,
+  "generated_result_sha256": {
+    "work/cost_audit_cycle2/results/bellman_certificates.json.gz": "272e12f6256ee26b2bc13175f7f94a86502fcaf3097da276468ea6dc33c6efa2",
+    "work/cost_audit_cycle2/results/c4_bruteforce.json": "d881f15882a011d2beb98ba1445d848d311c4d0896ade0d524cd447371922131",
+    "work/cost_audit_cycle2/results/cases.json": "bfc3259d7748a18532033fecd3545e9f56849fa8c07cd666a9ed17549b5f3d9c",
+    "work/cost_audit_cycle2/results/summary.json": "58cc524623ebf2adf9adee187ab484943b0e7963fada9e22e996ddf91b8d4748",
+    "work/cost_audit_cycle2/reviewer/independent_results.json": "ccdc1663bf7250dc06cff5a9cd8398297650e5248c624d13b2978c317f29e6af",
+    "work/cost_audit_cycle2/reviewer/path_adapter_receipt.json": "dc9c38c583ed9c72fb4d854a02a088b6535c26c5fa4d7da6366fe291cb4a88c8",
+    "work/cost_audit_cycle2/reviewer/summary_verification.json": "9718d53492906e2321c0b6201c88659583e86344fbb645d02200c5014f76e2c7"
+  },
+  "git_required": false,
+  "historical_freeze_input_count": 4,
+  "historical_git_note": "Original manifests retained as history; no historical Git event reauthenticated",
+  "historical_git_verified": false,
+  "independent_finite_checks": {
+    "all_state_values": 279936,
+    "full_batch_charges_replayed": 36868,
+    "independent_status_states": 729,
+    "optimal_roots": 384,
+    "partially_observed_batch_actions_replayed": 10384,
+    "policy_expectations": 1536,
+    "selected_actions": 134784,
+    "world_trajectories": 98304
+  },
+  "network_used": false,
+  "package_sha256": {
+    "README.md": "629bd5712d4108988a6423ffd58ccd5b24a6af04c545c1c046ca902f97092df9",
+    "correlated_prior_addendum.md": "6aab759cf05cfea15b5fae336e3dd0a811aa570bcb0f1266cc3a3fb87cec527c",
+    "frozen_sources.zip": "7db60195b976b22228af281d38277c0c13421be2471749772fdce0824b3a2e70",
+    "replay.py": "bf4c5ddd53f9f7e8580554f4b0f4e27de67019009e1daa940399b79caf160985",
+    "requirements.txt": "63b83d49071ae093c187423c768c6711a3716cda354d3a24e2bb10b0f536d34c"
+  },
+  "payload_sha256_after": {
+    "outputs/synonymous-rna-accessibility/src/acquisition.py": "6005d30d709dc8100a1de64822d8e80cf8a8dbc8d9c3a18de8d21f69622be6ee",
+    "work/cost_audit_cycle2/cost_audit.py": "a82e32ab46bdc941235623b80ced7f600078f74f280d9aaeea0baf5d9aa2f107",
+    "work/cost_audit_cycle2/freeze.json": "3686acf9a6f5c1210cff47630de0959f536d1c552d57577f7157c939bae8a9d3",
+    "work/cost_audit_cycle2/interpretation.md": "ebff655bdcfd3defb94fb6e5aff78034a056018f26b1e47781f181c764d92c20",
+    "work/cost_audit_cycle2/prior_and_proof.md": "6d29f7f71d97f622fd10933f05c9e0ba3358f8ff182b8f639f2f021c4767952b",
+    "work/cost_audit_cycle2/protocol.json": "c5fd782951b7ff4ea4d0a6a018b0af589c7ee626c2dee81d2ee88bcc6fa84129",
+    "work/cost_audit_cycle2/results/bellman_certificates.json.gz": "272e12f6256ee26b2bc13175f7f94a86502fcaf3097da276468ea6dc33c6efa2",
+    "work/cost_audit_cycle2/results/c4_bruteforce.json": "d881f15882a011d2beb98ba1445d848d311c4d0896ade0d524cd447371922131",
+    "work/cost_audit_cycle2/results/cases.json": "bfc3259d7748a18532033fecd3545e9f56849fa8c07cd666a9ed17549b5f3d9c",
+    "work/cost_audit_cycle2/results/manifest.json": "c071279c7b47dcb9be3f32e4af25f641f6a51062c31d55a0d5812dd1a626361b",
+    "work/cost_audit_cycle2/results/summary.json": "58cc524623ebf2adf9adee187ab484943b0e7963fada9e22e996ddf91b8d4748",
+    "work/cost_audit_cycle2/reviewer/independent_reference.py": "30dcc83f2a5973211baee0d4c41c51c2c4779154c8d8f1466c5ad12062bc809c",
+    "work/cost_audit_cycle2/reviewer/independent_results.json": "6718a32c31edc35dab1b5cdfdc30043bb7a3a901a597df483485654d61df5b44",
+    "work/cost_audit_cycle2/reviewer/manifest.json": "43952ab480f4b686999ec64fcd029b4e93a040a569c5f890ed8f40cd35fffe5a",
+    "work/cost_audit_cycle2/reviewer/review.md": "a50aeccbbae9d8536bed778d5c41eef4fe3eb577e8726d01366c935090205a40",
+    "work/cost_audit_cycle2/reviewer/summary_verification.json": "b71522c6da81c93c1f2687bfc05e6aeb84ae8f9cb1bb787611b4ee579f6d2ec9"
+  },
+  "payload_sha256_before": {
+    "outputs/synonymous-rna-accessibility/src/acquisition.py": "6005d30d709dc8100a1de64822d8e80cf8a8dbc8d9c3a18de8d21f69622be6ee",
+    "work/cost_audit_cycle2/cost_audit.py": "a82e32ab46bdc941235623b80ced7f600078f74f280d9aaeea0baf5d9aa2f107",
+    "work/cost_audit_cycle2/freeze.json": "3686acf9a6f5c1210cff47630de0959f536d1c552d57577f7157c939bae8a9d3",
+    "work/cost_audit_cycle2/interpretation.md": "ebff655bdcfd3defb94fb6e5aff78034a056018f26b1e47781f181c764d92c20",
+    "work/cost_audit_cycle2/prior_and_proof.md": "6d29f7f71d97f622fd10933f05c9e0ba3358f8ff182b8f639f2f021c4767952b",
+    "work/cost_audit_cycle2/protocol.json": "c5fd782951b7ff4ea4d0a6a018b0af589c7ee626c2dee81d2ee88bcc6fa84129",
+    "work/cost_audit_cycle2/results/bellman_certificates.json.gz": "272e12f6256ee26b2bc13175f7f94a86502fcaf3097da276468ea6dc33c6efa2",
+    "work/cost_audit_cycle2/results/c4_bruteforce.json": "d881f15882a011d2beb98ba1445d848d311c4d0896ade0d524cd447371922131",
+    "work/cost_audit_cycle2/results/cases.json": "bfc3259d7748a18532033fecd3545e9f56849fa8c07cd666a9ed17549b5f3d9c",
+    "work/cost_audit_cycle2/results/manifest.json": "c071279c7b47dcb9be3f32e4af25f641f6a51062c31d55a0d5812dd1a626361b",
+    "work/cost_audit_cycle2/results/summary.json": "58cc524623ebf2adf9adee187ab484943b0e7963fada9e22e996ddf91b8d4748",
+    "work/cost_audit_cycle2/reviewer/independent_reference.py": "30dcc83f2a5973211baee0d4c41c51c2c4779154c8d8f1466c5ad12062bc809c",
+    "work/cost_audit_cycle2/reviewer/independent_results.json": "6718a32c31edc35dab1b5cdfdc30043bb7a3a901a597df483485654d61df5b44",
+    "work/cost_audit_cycle2/reviewer/manifest.json": "43952ab480f4b686999ec64fcd029b4e93a040a569c5f890ed8f40cd35fffe5a",
+    "work/cost_audit_cycle2/reviewer/review.md": "a50aeccbbae9d8536bed778d5c41eef4fe3eb577e8726d01366c935090205a40",
+    "work/cost_audit_cycle2/reviewer/summary_verification.json": "b71522c6da81c93c1f2687bfc05e6aeb84ae8f9cb1bb787611b4ee579f6d2ec9"
+  },
+  "runtime_seconds": {
+    "author": 7.348221100008232,
+    "independent_reference": 7.644722699988051
+  },
+  "schema_version": 1,
+  "scientific_comparisons": {
+    "bellman_certificates.json.gz": {
+      "exact_decompressed_bytes_agreement": true,
+      "ignored_serialization_metadata": "Gzip wrapper compression/header bytes may vary by host; decompressed bytes must be identical",
+      "raw_gzip_bytes_agree": true
+    },
+    "c4_bruteforce.json": {
+      "compared_top_level_fields": [
+        "cases",
+        "independence",
+        "status"
+      ],
+      "exact_agreement": true,
+      "ignored_top_level_fields": []
+    },
+    "cases.json": {
+      "compared_top_level_fields": [
+        "cases",
+        "world_order",
+        "world_result_columns"
+      ],
+      "exact_agreement": true,
+      "ignored_top_level_fields": []
+    },
+    "independent_results.json": {
+      "compared_top_level_fields": [
+        "assertion_tested",
+        "boundary_checks",
+        "comparison_results",
+        "counts",
+        "equal_price_examples",
+        "independence",
+        "input_hashes_unchanged",
+        "limitations",
+        "status",
+        "zero_probability_scope"
+      ],
+      "exact_agreement": true,
+      "ignored_top_level_fields": [
+        "inputs_sha256",
+        "command",
+        "python",
+        "runtime_seconds",
+        "started_at"
+      ]
+    },
+    "independent_summary_verification.json": {
+      "compared_top_level_fields": [
+        "all_saved_summary_fields_recomputed",
+        "optional_batch_value",
+        "policies",
+        "status"
+      ],
+      "exact_agreement": true,
+      "ignored_top_level_fields": []
+    },
+    "summary.json": {
+      "compared_top_level_fields": [
+        "cases",
+        "cheapest_cost_per_unseen_bit_minus_unchanged_lazy_forward_singletons",
+        "checks",
+        "optional_batch_value",
+        "policies",
+        "scope",
+        "unchanged_path_cut_singletons_minus_unchanged_lazy_forward_singletons"
+      ],
+      "exact_agreement": true,
+      "ignored_top_level_fields": []
+    }
+  },
+  "scope": "384 frozen full-support cases only; no mathematical method, correlated-prior experiment or new branch added",
+  "started_at": "2026-10-25T07:55:41.884630+00:00",
+  "status": "passed"
+}
