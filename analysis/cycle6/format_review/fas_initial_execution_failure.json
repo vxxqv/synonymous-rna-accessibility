@@ -1,0 +1,10 @@
+{
+  "protocol_commit": "7d8faf59fddde21ef4f1177f13ab5d2144d192e6",
+  "command": "python analysis/cycle6/fas_pilot/count_analysis.py --directory fas_inputs --output full_result_v1.json",
+  "status": "stopped_before_row_parsing",
+  "exception": "ValueError: Unexpected count header",
+  "location": "parse_counts, header guard",
+  "first_file": "Phylogeny_HEK293_BR_Rep_1.3072.counts",
+  "computed_outcomes": false,
+  "response": "Preserve frozen core and original blobs; independently review a format-only adapter."
+}

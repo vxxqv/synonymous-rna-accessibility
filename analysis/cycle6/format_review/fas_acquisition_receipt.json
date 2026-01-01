@@ -1,0 +1,78 @@
+{
+  "protocol_commit": "7d8faf59fddde21ef4f1177f13ab5d2144d192e6",
+  "files": [
+    {
+      "label": "BR1",
+      "bytes": 215615,
+      "git_blob": "0734f99d4707ac7d183a3a6bfcc3385d366a0572",
+      "sha256": "f563a81ffffd91524ae377dd74d1f2d43688d7e35d4fff7a2b757f89394a801c"
+    },
+    {
+      "label": "BR2",
+      "bytes": 215509,
+      "git_blob": "139a66ea7341855e16875a86da472d4a57911340",
+      "sha256": "536f9087bebe6f89a8e24a8e158719ffc65936cfb1b002076320c94320ffdeb2"
+    },
+    {
+      "label": "BR3",
+      "bytes": 216687,
+      "git_blob": "39c3f282abb751b93983d942488f832d43a893ae",
+      "sha256": "6f32bcfc8374c52aae0954baeab534037bf922430ebe1418a8e90d6194e40465"
+    },
+    {
+      "label": "BR4",
+      "bytes": 215820,
+      "git_blob": "59c434418b9c399fd2d0d60abae5ff8a41e3dd2a",
+      "sha256": "066791f89013e63f257408c23898b2ff3ceaa86a5ce41cbcf250ef65c9193764"
+    },
+    {
+      "label": "BR5",
+      "bytes": 215149,
+      "git_blob": "89882ee0aaa9da5826511fed96d00c048dd2c674",
+      "sha256": "8b16b01d11789f557398107389123988e1d7d95a1997c871df5c08f144edb25d"
+    },
+    {
+      "label": "BR6",
+      "bytes": 216960,
+      "git_blob": "2701730a68de84a91430fd1d5f89b37d0ddb5661",
+      "sha256": "3957adb532ec9df6a58ee38aaa60318fe433a527a818628f434a83e0acb79ea7"
+    },
+    {
+      "label": "BR7",
+      "bytes": 216191,
+      "git_blob": "30760af210907b55c004ce6c21c8ae8abcb0f67c",
+      "sha256": "775f6136c61cf86da747a0a3feeade4f9a7c5a818c4d9c948f378ad9b2ca5248"
+    },
+    {
+      "label": "BR8",
+      "bytes": 215720,
+      "git_blob": "d64785855fb07aa45bd432fc012c9488177e6829",
+      "sha256": "bed22f625660b616ed110e8b158b9b23be400349c01dda957d3340659ce3f07c"
+    },
+    {
+      "label": "BR9",
+      "bytes": 216064,
+      "git_blob": "31fd5c39f58f9fe80d6760a3168111cf11fe1801",
+      "sha256": "69a3e13ab930a93ae4b67edfcf77cad5acee7e58d4778ea7ed4dd4b4c40f32e7"
+    },
+    {
+      "label": "TR1",
+      "bytes": 216213,
+      "git_blob": "ef71b17e2925d2b333b21bd7e40b0d055c53b8db",
+      "sha256": "db447ded160b8b04054fad62e4a7cdb5a6ae0bfb262ab45689549a9b8b32e623"
+    },
+    {
+      "label": "TR2",
+      "bytes": 216016,
+      "git_blob": "c355934fd54e890c4526716aaa982c5e9d1e7301",
+      "sha256": "95a1e4c05b60721cbdb01a89a73f983c0f7b02c45cef46e7cdd10b5e6635c78a"
+    },
+    {
+      "label": "TR3",
+      "bytes": 217547,
+      "git_blob": "32d9bc105ba9094eb0329735e7a7a8b739b8935c",
+      "sha256": "2f165a215b991683cfe7650d2fafb7f2dd471c483b4b8539740e3f48cf65e14c"
+    }
+  ],
+  "acquisition": "GitHub connector, immutable blob requests, all byte hashes checked"
+}

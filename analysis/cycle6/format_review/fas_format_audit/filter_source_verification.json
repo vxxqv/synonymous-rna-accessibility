@@ -1,0 +1,8 @@
+{
+  "upstream_git_blob": "ba3858d75e4072c723c53c4842a9f88a792aa490",
+  "exact_tool_returned_UTF8_content_git_blob": "ba3858d75e4072c723c53c4842a9f88a792aa490",
+  "matches": true,
+  "exact_content_sha256": "e38d773a3f8ead7916d3718e1b7494c2ab37aee9951ae854e1fa93c39fb80185",
+  "local_normalized_export_sha256": "3bcb2efe2aec0ff879dc372d668af1ae619cea29e1c3cb1b55475ad56064ad3f",
+  "normalization_note": "The local text export has Windows newline translation; its raw-byte Git blob differs. Raw connector response content reproduces the upstream blob exactly."
+}

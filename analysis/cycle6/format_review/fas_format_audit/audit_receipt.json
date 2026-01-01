@@ -1,0 +1,51 @@
+{
+  "verdict": "minimal_headerless_format_amendment_recommended; literal_historical_WT_relative_reproduction_unavailable_under_intended_unique_rows",
+  "original_freeze": "7d8faf59",
+  "original_stop": "Unexpected count header; root reports no analysis ran",
+  "first_record_audit_sha256": "87047b92493d4008b3bffaf631b3f019f89f5bd4bd01320f084b754ff6b8c4a2",
+  "all12_first_lines_valid_headerless_data": true,
+  "all12_first_records_native_WT": true,
+  "counts_displayed_by_audit": false,
+  "later_records_inspected": false,
+  "coverage_or_outcome_missingness_inspected": false,
+  "primary_analysis_performed": false,
+  "raw_files_modified": false,
+  "frozen_original_modified": false,
+  "source_filter_git_blob": "ba3858d75e4072c723c53c4842a9f88a792aa490",
+  "source_import_git_blob": "87838a729c4304ce3e38df87daaefb30c249119e",
+  "cause": "Genotype-only grep removes textual header; subsequent read.table(header=T) consumes first nativeWT data row. Renaming columns does not restore it.",
+  "historical_limit": "No later-row uniqueness scan or processed-results check; original working files/generating procedure may differ, so published-result correctness is not determined.",
+  "recommended_change": "Format-only retained-first-record adapter; unchanged full72domain/27relative endpoint; corrected formula reconstruction labeled separately from literal historical import.",
+  "artifacts": [
+    {
+      "file": "filter_source_verification.json",
+      "sha256": "e180643b20d47cbae03153f81720fc35ba71119424d5a5a2b10e7827e4779ea7",
+      "bytes": 568
+    },
+    {
+      "file": "first_record_receipt.json",
+      "sha256": "87047b92493d4008b3bffaf631b3f019f89f5bd4bd01320f084b754ff6b8c4a2",
+      "bytes": 9978
+    },
+    {
+      "file": "initial_failure.json",
+      "sha256": "ffad31992a3c2136b6a6125b551df5b8f844548c1794dcc28cb26681653236e5",
+      "bytes": 269
+    },
+    {
+      "file": "inspect_first_record.py",
+      "sha256": "92248c151542444c0ce6d9ed3c1fae162bf9b7fbcab8ec55e2d7ff4a5ea3d1ae",
+      "bytes": 3329
+    },
+    {
+      "file": "inspect_first_record_initial_failed.py",
+      "sha256": "d7acd0ae235b9ac12b88c149fe85b08f7d07dab99f7e801358db404abb9c758d",
+      "bytes": 3328
+    },
+    {
+      "file": "review.md",
+      "sha256": "c01588981c7fd1c9f7cdf787e51e8e2cd0e0b62647f4c202f18be0cd434ce522",
+      "bytes": 7398
+    }
+  ]
+}

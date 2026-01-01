@@ -1,0 +1,13 @@
+# Format amendment before primary outcome evaluation
+
+The original frozen core at commit `7d8faf59fddde21ef4f1177f13ab5d2144d192e6` stopped with `Unexpected count header` on the first source file. It had not parsed any count rows or computed any outcomes. The source files and original frozen code are preserved unchanged.
+
+All twelve immutable deposited count blobs are headerless, and their first data row is the native human reference. The public filtering script removes the textual header, whereas the inspected downstream R code requests `header=TRUE`. Applied literally to these deposited files, that R import consumes the first native-reference row. The historical native-reference-relative point estimate therefore cannot be authenticated from the released import pipeline. This does not demonstrate that the authors' actual working files or published results were wrong.
+
+The adapter verifies the original Git blob, confirms the authenticated first-row identity, and prepends the expected column names in memory before invoking the unchanged frozen parser. No data row is removed or edited. The frozen 72-vertex domain, count semantics, primary 27-scenario normalization, uncertainty scope, exact order test, graph calculations and all decision rules remain unchanged.
+
+The secondary point calculation in the frozen core remains the documented median-input formula applied to all recovered headerless records. It must be described as **corrected headerless source-formula reconstruction**, not verified reproduction of the historical published point estimate. The core's legacy JSON scenario label `mean_author_per_output_relative_ES` is retained as a stable identifier only and has that corrected interpretation. Literal historical native-reference reproduction is unavailable because the released import would omit the reference row. This limitation must appear in the scientific report.
+
+Exposure: the original source README had already exposed five illustrative rows. Format diagnosis additionally displayed the BR1 and TR1 first native-reference rows; no downstream variant outcome or missingness was used to alter the scientific protocol. The acquisition receipt records all twelve pinned byte hashes. The format review inspected first-row identities only.
+
+Run `python run_headerless.py --directory INPUT_DIRECTORY --output NEW_RESULT.json`. The adapter validates this amendment's hash manifest and the unchanged core validates the original scientific freeze. An existing result path is refused. All original preflight failures, corrections and the failed first execution remain part of the record.

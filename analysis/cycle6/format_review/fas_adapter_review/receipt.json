@@ -1,0 +1,180 @@
+{
+  "status": "PASS_SYNTHETIC_FORMAT_ADAPTER",
+  "adapter_sha256": "11addfe6ee9c02f7fc17b9b6a414167cc0d98baccbab71bf7fa899fd7b713bb6",
+  "amendment_sha256": "73a89257046695a1882c01b98971018d78aba95a144afb5e6752a9e10d2b9a62",
+  "original_frozen_commit": "7d8faf59fddde21ef4f1177f13ab5d2144d192e6",
+  "frozen_file_checks": [
+    {
+      "name": "protocol_v1.md",
+      "sha256": "2b21f044d5d4eb8488d8e8c8752977f45927d6ee85c4da466bca23a1f0bb7bef",
+      "bytes_identical_to_original_commit": true
+    },
+    {
+      "name": "ordinal_geometry.py",
+      "sha256": "8872d6452afe4ccbf84e61450d4b1bfbdadf26469f20c0e24452f3abc205f9ac",
+      "bytes_identical_to_original_commit": true
+    },
+    {
+      "name": "count_analysis.py",
+      "sha256": "97a65f22b3baced94a4c5b916284c8bbdcda807f8e3392904c3447d0796953a2",
+      "bytes_identical_to_original_commit": true
+    },
+    {
+      "name": "verify_synthetic.py",
+      "sha256": "a098549d48dcce62b4292cd433266e09265ba3f5c46bd08cf845c1a34e998656",
+      "bytes_identical_to_original_commit": true
+    },
+    {
+      "name": "verify_count_reader.py",
+      "sha256": "c98b989f207eef44168edce0319ea14d13911dbeb0c374af4608f8336da2b945",
+      "bytes_identical_to_original_commit": true
+    },
+    {
+      "name": "source_contract.json",
+      "sha256": "f0fb3d2ced5dc36d0794eb76b7a257351534f8dd3a784f33c024be4b500a9c38",
+      "bytes_identical_to_original_commit": true
+    },
+    {
+      "name": "preflight_corrections.md",
+      "sha256": "da84b3c1a335dd522c70dd81bd573261f0430edfa0af7ee1afaa2e105172dd6f",
+      "bytes_identical_to_original_commit": true
+    },
+    {
+      "name": "synthetic_verification.json",
+      "sha256": "7e128ed621ceaeb430f090f9460a4cd7fda27f78a375a85ebd75f587c4ad4bcf",
+      "bytes_identical_to_original_commit": true
+    },
+    {
+      "name": "count_reader_verification.json",
+      "sha256": "38ed4b9705adff93e63e727627ff8348955cf6943b70d0ea159a6f0dbd64d576",
+      "bytes_identical_to_original_commit": true
+    }
+  ],
+  "original_freeze_byte_identical": true,
+  "tests": [
+    {
+      "name": "LF",
+      "status": "same_three_records_including_first_WT_and_zero"
+    },
+    {
+      "name": "CRLF",
+      "status": "same_three_records_including_first_WT_and_zero"
+    },
+    {
+      "name": "no_trailing_newline",
+      "status": "same_three_records_including_first_WT_and_zero"
+    },
+    {
+      "name": "blank_inner_row",
+      "status": "same_three_records_including_first_WT_and_zero"
+    },
+    {
+      "name": "spaces",
+      "status": "same_three_records_including_first_WT_and_zero"
+    },
+    {
+      "name": "exact_byte_forwarding",
+      "status": "Only fixed header prepended; every original byte retained"
+    },
+    {
+      "name": "bad_git_blob_before_utf8_decode",
+      "status": "refused",
+      "exception": "ValueError",
+      "message": "Original source blob mismatch"
+    },
+    {
+      "name": "modified_source_with_preedit_hash",
+      "status": "refused",
+      "exception": "ValueError",
+      "message": "Original source blob mismatch"
+    },
+    {
+      "name": "duplicate_native_row",
+      "status": "refused",
+      "exception": "ValueError",
+      "message": "Unexpected or duplicate genotype"
+    },
+    {
+      "name": "duplicate_later_variant",
+      "status": "refused",
+      "exception": "ValueError",
+      "message": "Unexpected or duplicate genotype"
+    },
+    {
+      "name": "negative_count",
+      "status": "refused",
+      "exception": "ValueError",
+      "message": "Counts/mutation number must be nonnegative integers"
+    },
+    {
+      "name": "fractional_count",
+      "status": "refused",
+      "exception": "ValueError",
+      "message": "Counts/mutation number must be nonnegative integers"
+    },
+    {
+      "name": "unicode_count",
+      "status": "refused",
+      "exception": "ValueError",
+      "message": "Counts/mutation number must be nonnegative integers"
+    },
+    {
+      "name": "wrong_ancestor_annotation",
+      "status": "refused",
+      "exception": "ValueError",
+      "message": "Ancestor mutation annotation mismatch"
+    },
+    {
+      "name": "wrong_first_identity",
+      "status": "refused",
+      "exception": "ValueError",
+      "message": "Amendment applies only to verified headerless files starting with native WT"
+    },
+    {
+      "name": "malformed_later_row",
+      "status": "refused",
+      "exception": "ValueError",
+      "message": "Malformed count row"
+    },
+    {
+      "name": "outside_design_later_row",
+      "status": "refused",
+      "exception": "ValueError",
+      "message": "Unexpected or duplicate genotype"
+    },
+    {
+      "name": "all_zero_library",
+      "status": "refused",
+      "exception": "ValueError",
+      "message": "Empty count library"
+    },
+    {
+      "name": "already_headered",
+      "status": "refused",
+      "exception": "ValueError",
+      "message": "Amendment applies only to verified headerless files starting with native WT"
+    },
+    {
+      "name": "empty_source",
+      "status": "refused",
+      "exception": "IndexError",
+      "message": "list index out of range"
+    },
+    {
+      "name": "unexpected_BOM",
+      "status": "refused",
+      "exception": "ValueError",
+      "message": "Unexpected or duplicate genotype"
+    }
+  ],
+  "test_count": 21,
+  "real_count_files_opened": false,
+  "biological_outcomes_evaluated": false,
+  "CLI_execution_pending": "format_freeze.json not yet present at inspection; root must freeze adapter/amendment and invoke unchanged core guards",
+  "qualifications": [
+    "Headerless contract requires first native WT record; empty/BOM/wrong-first files refuse.",
+    "Direct parser expected hash is optional for synthetic use; frozen CLI supplies all twelve pinned hashes.",
+    "Secondary source formula is corrected-headerless reconstruction, not authenticated historical result."
+  ],
+  "review_script_sha256": "d84c3dfd7687cb0d85f9fad0d238c1bd6bb4f05b92d221bc34e3a1f56c793cc6"
+}

@@ -1,0 +1,13 @@
+{
+  "status": "format_only_amendment_frozen_before_primary_outcome_evaluation",
+  "scientific_protocol_commit": "7d8faf59fddde21ef4f1177f13ab5d2144d192e6",
+  "scientific_freeze_sha256": "7bddb75dcdb4b401a120dcb518bd34fcfb5f6a801a492ee1a59f1fced90be3eb",
+  "files": {
+    "run_headerless.py": "11addfe6ee9c02f7fc17b9b6a414167cc0d98baccbab71bf7fa899fd7b713bb6",
+    "format_amendment_v1.md": "73a89257046695a1882c01b98971018d78aba95a144afb5e6752a9e10d2b9a62"
+  },
+  "review_receipt_sha256": "373892aa747161d267b7ce6f1ecacf2dfef07599f6b9aa6712af23ea000eec42",
+  "source_exposure": "Only previously logged examples and first reference rows. Initial execution stopped at header guard before count rows or outcomes.",
+  "primary_scientific_rules_changed": false,
+  "secondary_interpretation": "Corrected headerless source-formula reconstruction; historical native-reference reproduction unavailable."
+}

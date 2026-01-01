@@ -1,0 +1,6 @@
+{
+  "error": "LookupError: unknown encoding: utf8-sig",
+  "stage": "First line decoding before field interpretation or any numeric display",
+  "failed_code_sha256": "d7acd0ae235b9ac12b88c149fe85b08f7d07dab99f7e801358db404abb9c758d",
+  "counts_disclosed": false
+}
