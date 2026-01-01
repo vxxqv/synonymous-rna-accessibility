@@ -1,0 +1,13 @@
+{
+  "kind": "bounded_metadata_sequence_coverage_eligibility",
+  "assertion_tested": "Observed aprE CDS eight-base sequences can be oriented and translated in an authenticated construct context, then compared with all 65536 strings to identify complete same-protein local spaces without reading expression outcomes.",
+  "permitted_workbook_fields": ["Sequence", "CDS_8 Barcode Count", "CDS_9 Barcode Count", "CDS_10 Barcode Count", "Combined 154-CDS-gDNA Barcode Counts"],
+  "forbidden_workbook_fields": ["CDS_1 Barcode Count", "CDS_2 Barcode Count", "CDS_3 Barcode Count", "Combined 154-CDS-RNA Barcode Counts", "baseMean", "log2FoldChange", "lfcSE", "stat", "pvalue", "padj"],
+  "finite_domain": "All A/C/G/T strings of length eight, then archived coverage-filtered rows; no sampling or outcome filtering.",
+  "construct_checks": ["Independent SnapGene DNA-packet extraction versus Biopython parser", "Archived feature coordinates and strands versus independently parsed feature XML", "Full-CDS translation by Biopython versus separate fixed standard-code table", "Library parser and amplicon orientation", "Reference construct and reference-protein group closure"],
+  "coverage_rule": "Audit source strict combined gDNA >50 and distinguish text at least50; missing variants are absent observations, not disconnected genotypes.",
+  "outputs": "Counts, exclusions, protein/group hashes, graph completeness/connectivity summaries and provenance only. No sequences or expression outcomes in result JSON.",
+  "falsifiers": ["Ambiguous construct/frame/orientation", "Nonidentical translation routes", "Library and construct constant context mismatch", "Protein identities mixed within a claimed group", "Unresolved replicate semantics for any statistical uncertainty claim"],
+  "not_authorized": ["Execute external notebook or source parser", "Read or fit expression outcome columns", "New sequence engineering", "New experiments", "External mutations or commits"],
+  "predeclared_status": "This freeze precedes the permitted workbook-row and DNA-coverage read in this audit; paper-level results and parent metadata are already known, so no prospective-validation claim."
+}

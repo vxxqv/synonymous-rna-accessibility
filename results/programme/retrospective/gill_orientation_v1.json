@@ -1,0 +1,78 @@
+{
+  "status": "orientation_unresolved_deposited_v16_parser_does_not_match_construct",
+  "method": "Static AST inspection, then exact two-flank matching at specified relative offsets on both circular construct strands",
+  "author_code_executed": false,
+  "outcome_values_read": false,
+  "parser_sha256": "88a84bfdeb15fa1fe00d6d268fb95052bd868299e6f09e90cdd373e6b2f3838c",
+  "construct_sha256": "0a4a03433b4775f5964e8f87fad035998ba3b806c650e10cc2ef0957b7e8a76b",
+  "audit_code_sha256": "afdcf7dad1a4ae80032695bc03d140ac2ce9072e9c8f814e64b3b0ef5779a985",
+  "parser_barcode_slice": [
+    135,
+    143
+  ],
+  "parser_flank_slices": [
+    [
+      53,
+      68
+    ],
+    [
+      143,
+      153
+    ]
+  ],
+  "unchanged_mapped_barcode_write_verified": true,
+  "unique_matches_both_strands_and_all_offsets": [],
+  "individual_anchor_hits": [
+    {
+      "parser_anchor_slice": [
+        53,
+        68
+      ],
+      "record_strand": 1,
+      "anchor_positions_in_oriented_record": [],
+      "implied_barcode_start_in_oriented_record": []
+    },
+    {
+      "parser_anchor_slice": [
+        143,
+        153
+      ],
+      "record_strand": 1,
+      "anchor_positions_in_oriented_record": [
+        7073
+      ],
+      "implied_barcode_start_in_oriented_record": [
+        7065
+      ]
+    },
+    {
+      "parser_anchor_slice": [
+        53,
+        68
+      ],
+      "record_strand": -1,
+      "anchor_positions_in_oriented_record": [
+        1596
+      ],
+      "implied_barcode_start_in_oriented_record": [
+        1678
+      ]
+    },
+    {
+      "parser_anchor_slice": [
+        143,
+        153
+      ],
+      "record_strand": -1,
+      "anchor_positions_in_oriented_record": [],
+      "implied_barcode_start_in_oriented_record": []
+    }
+  ],
+  "interpretation": "The parser writes read-strand bases unchanged, but its exact flank locations do not authenticate the coding-site construct. Do not select an orientation from outcomes. No fallback offsets or mismatch tolerance were fitted.",
+  "remaining_gates": [
+    "historical CDS parser/amplicon identity and orientation",
+    "replicate dependence",
+    "historical statistical software version",
+    "joint uncertainty calibration"
+  ]
+}

@@ -1,0 +1,2776 @@
+{
+  "claim": "Correlation and decision order change absolute route guarantees; endpoint checks can miss the maximum relative barrier",
+  "scope": "Exact synthetic graph, deterministic closed uncertainty sets, no confidence intervals",
+  "graph": {
+    "vertices": [
+      "s",
+      "u",
+      "v",
+      "t"
+    ],
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        2,
+        3
+      ]
+    ],
+    "coefficients": [
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        -1
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "parameter_interval": [
+      -1,
+      1
+    ]
+  },
+  "diamond": {
+    "status": "connected",
+    "fixed": "-1",
+    "fixed_path": [
+      0,
+      1,
+      3
+    ],
+    "guaranteed": "0",
+    "possible": "1",
+    "capacity_range": [
+      "0",
+      "1"
+    ],
+    "barrier_range": [
+      "0",
+      "1"
+    ],
+    "capacity_minimizer": "0",
+    "capacity_maximizer": "-1",
+    "barrier_minimizer": "-1",
+    "barrier_maximizer": "0",
+    "box_guaranteed": "-1",
+    "box_possible": "1",
+    "box_barrier_range": [
+      "0",
+      "2"
+    ],
+    "lower_field": [
+      "1",
+      "-1",
+      "-1",
+      "1"
+    ],
+    "upper_field": [
+      "1",
+      "1",
+      "1",
+      "1"
+    ],
+    "breakpoints": [
+      "-1",
+      "0",
+      "1"
+    ],
+    "evaluations": [
+      {
+        "theta": "-1",
+        "capacity": "1",
+        "barrier": "0",
+        "path": [
+          0,
+          2,
+          3
+        ]
+      },
+      {
+        "theta": "0",
+        "capacity": "0",
+        "barrier": "1",
+        "path": [
+          0,
+          1,
+          3
+        ]
+      },
+      {
+        "theta": "1",
+        "capacity": "1",
+        "barrier": "0",
+        "path": [
+          0,
+          1,
+          3
+        ]
+      }
+    ],
+    "cells": [
+      {
+        "lower": "-1",
+        "upper": "0",
+        "capacity_line": [
+          "0",
+          "-1"
+        ],
+        "barrier_line": [
+          "1",
+          "1"
+        ],
+        "path": [
+          0,
+          2,
+          3
+        ],
+        "capacity_vertex": 2,
+        "endpoint_vertex": 0
+      },
+      {
+        "lower": "0",
+        "upper": "1",
+        "capacity_line": [
+          "0",
+          "1"
+        ],
+        "barrier_line": [
+          "1",
+          "-1"
+        ],
+        "path": [
+          0,
+          1,
+          3
+        ],
+        "capacity_vertex": 1,
+        "endpoint_vertex": 0
+      }
+    ]
+  },
+  "shared_affine_offset": {
+    "status": "connected",
+    "fixed": "2",
+    "fixed_path": [
+      0,
+      2,
+      3
+    ],
+    "guaranteed": "2",
+    "possible": "6",
+    "capacity_range": [
+      "2",
+      "6"
+    ],
+    "barrier_range": [
+      "0",
+      "1"
+    ],
+    "capacity_minimizer": "-1",
+    "capacity_maximizer": "1",
+    "barrier_minimizer": "-1",
+    "barrier_maximizer": "0",
+    "box_guaranteed": "2",
+    "box_possible": "6",
+    "box_barrier_range": [
+      "0",
+      "4"
+    ],
+    "lower_field": [
+      "2",
+      "0",
+      "2",
+      "2"
+    ],
+    "upper_field": [
+      "6",
+      "6",
+      "4",
+      "6"
+    ],
+    "breakpoints": [
+      "-1",
+      "0",
+      "1"
+    ],
+    "evaluations": [
+      {
+        "theta": "-1",
+        "capacity": "2",
+        "barrier": "0",
+        "path": [
+          0,
+          2,
+          3
+        ]
+      },
+      {
+        "theta": "0",
+        "capacity": "3",
+        "barrier": "1",
+        "path": [
+          0,
+          1,
+          3
+        ]
+      },
+      {
+        "theta": "1",
+        "capacity": "6",
+        "barrier": "0",
+        "path": [
+          0,
+          1,
+          3
+        ]
+      }
+    ],
+    "cells": [
+      {
+        "lower": "-1",
+        "upper": "0",
+        "capacity_line": [
+          "3",
+          "1"
+        ],
+        "barrier_line": [
+          "1",
+          "1"
+        ],
+        "path": [
+          0,
+          2,
+          3
+        ],
+        "capacity_vertex": 2,
+        "endpoint_vertex": 0
+      },
+      {
+        "lower": "0",
+        "upper": "1",
+        "capacity_line": [
+          "3",
+          "3"
+        ],
+        "barrier_line": [
+          "1",
+          "-1"
+        ],
+        "path": [
+          0,
+          1,
+          3
+        ],
+        "capacity_vertex": 1,
+        "endpoint_vertex": 0
+      }
+    ]
+  },
+  "curves": [
+    {
+      "theta": "-1",
+      "capacity": "1",
+      "barrier": "0",
+      "shifted_capacity": "2",
+      "shifted_barrier": "0",
+      "optimal_path": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "theta": "-99/100",
+      "capacity": "99/100",
+      "barrier": "1/100",
+      "shifted_capacity": "201/100",
+      "shifted_barrier": "1/100",
+      "optimal_path": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "theta": "-49/50",
+      "capacity": "49/50",
+      "barrier": "1/50",
+      "shifted_capacity": "101/50",
+      "shifted_barrier": "1/50",
+      "optimal_path": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "theta": "-97/100",
+      "capacity": "97/100",
+      "barrier": "3/100",
+      "shifted_capacity": "203/100",
+      "shifted_barrier": "3/100",
+      "optimal_path": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "theta": "-24/25",
+      "capacity": "24/25",
+      "barrier": "1/25",
+      "shifted_capacity": "51/25",
+      "shifted_barrier": "1/25",
+      "optimal_path": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "theta": "-19/20",
+      "capacity": "19/20",
+      "barrier": "1/20",
+      "shifted_capacity": "41/20",
+      "shifted_barrier": "1/20",
+      "optimal_path": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "theta": "-47/50",
+      "capacity": "47/50",
+      "barrier": "3/50",
+      "shifted_capacity": "103/50",
+      "shifted_barrier": "3/50",
+      "optimal_path": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "theta": "-93/100",
+      "capacity": "93/100",
+      "barrier": "7/100",
+      "shifted_capacity": "207/100",
+      "shifted_barrier": "7/100",
+      "optimal_path": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "theta": "-23/25",
+      "capacity": "23/25",
+      "barrier": "2/25",
+      "shifted_capacity": "52/25",
+      "shifted_barrier": "2/25",
+      "optimal_path": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "theta": "-91/100",
+      "capacity": "91/100",
+      "barrier": "9/100",
+      "shifted_capacity": "209/100",
+      "shifted_barrier": "9/100",
+      "optimal_path": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "theta": "-9/10",
+      "capacity": "9/10",
+      "barrier": "1/10",
+      "shifted_capacity": "21/10",
+      "shifted_barrier": "1/10",
+      "optimal_path": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "theta": "-89/100",
+      "capacity": "89/100",
+      "barrier": "11/100",
+      "shifted_capacity": "211/100",
+      "shifted_barrier": "11/100",
+      "optimal_path": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "theta": "-22/25",
+      "capacity": "22/25",
+      "barrier": "3/25",
+      "shifted_capacity": "53/25",
+      "shifted_barrier": "3/25",
+      "optimal_path": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "theta": "-87/100",
+      "capacity": "87/100",
+      "barrier": "13/100",
+      "shifted_capacity": "213/100",
+      "shifted_barrier": "13/100",
+      "optimal_path": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "theta": "-43/50",
+      "capacity": "43/50",
+      "barrier": "7/50",
+      "shifted_capacity": "107/50",
+      "shifted_barrier": "7/50",
+      "optimal_path": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "theta": "-17/20",
+      "capacity": "17/20",
+      "barrier": "3/20",
+      "shifted_capacity": "43/20",
+      "shifted_barrier": "3/20",
+      "optimal_path": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "theta": "-21/25",
+      "capacity": "21/25",
+      "barrier": "4/25",
+      "shifted_capacity": "54/25",
+      "shifted_barrier": "4/25",
+      "optimal_path": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "theta": "-83/100",
+      "capacity": "83/100",
+      "barrier": "17/100",
+      "shifted_capacity": "217/100",
+      "shifted_barrier": "17/100",
+      "optimal_path": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "theta": "-41/50",
+      "capacity": "41/50",
+      "barrier": "9/50",
+      "shifted_capacity": "109/50",
+      "shifted_barrier": "9/50",
+      "optimal_path": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "theta": "-81/100",
+      "capacity": "81/100",
+      "barrier": "19/100",
+      "shifted_capacity": "219/100",
+      "shifted_barrier": "19/100",
+      "optimal_path": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "theta": "-4/5",
+      "capacity": "4/5",
+      "barrier": "1/5",
+      "shifted_capacity": "11/5",
+      "shifted_barrier": "1/5",
+      "optimal_path": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "theta": "-79/100",
+      "capacity": "79/100",
+      "barrier": "21/100",
+      "shifted_capacity": "221/100",
+      "shifted_barrier": "21/100",
+      "optimal_path": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "theta": "-39/50",
+      "capacity": "39/50",
+      "barrier": "11/50",
+      "shifted_capacity": "111/50",
+      "shifted_barrier": "11/50",
+      "optimal_path": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "theta": "-77/100",
+      "capacity": "77/100",
+      "barrier": "23/100",
+      "shifted_capacity": "223/100",
+      "shifted_barrier": "23/100",
+      "optimal_path": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "theta": "-19/25",
+      "capacity": "19/25",
+      "barrier": "6/25",
+      "shifted_capacity": "56/25",
+      "shifted_barrier": "6/25",
+      "optimal_path": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "theta": "-3/4",
+      "capacity": "3/4",
+      "barrier": "1/4",
+      "shifted_capacity": "9/4",
+      "shifted_barrier": "1/4",
+      "optimal_path": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "theta": "-37/50",
+      "capacity": "37/50",
+      "barrier": "13/50",
+      "shifted_capacity": "113/50",
+      "shifted_barrier": "13/50",
+      "optimal_path": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "theta": "-73/100",
+      "capacity": "73/100",
+      "barrier": "27/100",
+      "shifted_capacity": "227/100",
+      "shifted_barrier": "27/100",
+      "optimal_path": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "theta": "-18/25",
+      "capacity": "18/25",
+      "barrier": "7/25",
+      "shifted_capacity": "57/25",
+      "shifted_barrier": "7/25",
+      "optimal_path": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "theta": "-71/100",
+      "capacity": "71/100",
+      "barrier": "29/100",
+      "shifted_capacity": "229/100",
+      "shifted_barrier": "29/100",
+      "optimal_path": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "theta": "-7/10",
+      "capacity": "7/10",
+      "barrier": "3/10",
+      "shifted_capacity": "23/10",
+      "shifted_barrier": "3/10",
+      "optimal_path": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "theta": "-69/100",
+      "capacity": "69/100",
+      "barrier": "31/100",
+      "shifted_capacity": "231/100",
+      "shifted_barrier": "31/100",
+      "optimal_path": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "theta": "-17/25",
+      "capacity": "17/25",
+      "barrier": "8/25",
+      "shifted_capacity": "58/25",
+      "shifted_barrier": "8/25",
+      "optimal_path": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "theta": "-67/100",
+      "capacity": "67/100",
+      "barrier": "33/100",
+      "shifted_capacity": "233/100",
+      "shifted_barrier": "33/100",
+      "optimal_path": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "theta": "-33/50",
+      "capacity": "33/50",
+      "barrier": "17/50",
+      "shifted_capacity": "117/50",
+      "shifted_barrier": "17/50",
+      "optimal_path": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "theta": "-13/20",
+      "capacity": "13/20",
+      "barrier": "7/20",
+      "shifted_capacity": "47/20",
+      "shifted_barrier": "7/20",
+      "optimal_path": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "theta": "-16/25",
+      "capacity": "16/25",
+      "barrier": "9/25",
+      "shifted_capacity": "59/25",
+      "shifted_barrier": "9/25",
+      "optimal_path": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "theta": "-63/100",
+      "capacity": "63/100",
+      "barrier": "37/100",
+      "shifted_capacity": "237/100",
+      "shifted_barrier": "37/100",
+      "optimal_path": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "theta": "-31/50",
+      "capacity": "31/50",
+      "barrier": "19/50",
+      "shifted_capacity": "119/50",
+      "shifted_barrier": "19/50",
+      "optimal_path": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "theta": "-61/100",
+      "capacity": "61/100",
+      "barrier": "39/100",
+      "shifted_capacity": "239/100",
+      "shifted_barrier": "39/100",
+      "optimal_path": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "theta": "-3/5",
+      "capacity": "3/5",
+      "barrier": "2/5",
+      "shifted_capacity": "12/5",
+      "shifted_barrier": "2/5",
+      "optimal_path": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "theta": "-59/100",
+      "capacity": "59/100",
+      "barrier": "41/100",
+      "shifted_capacity": "241/100",
+      "shifted_barrier": "41/100",
+      "optimal_path": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "theta": "-29/50",
+      "capacity": "29/50",
+      "barrier": "21/50",
+      "shifted_capacity": "121/50",
+      "shifted_barrier": "21/50",
+      "optimal_path": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "theta": "-57/100",
+      "capacity": "57/100",
+      "barrier": "43/100",
+      "shifted_capacity": "243/100",
+      "shifted_barrier": "43/100",
+      "optimal_path": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "theta": "-14/25",
+      "capacity": "14/25",
+      "barrier": "11/25",
+      "shifted_capacity": "61/25",
+      "shifted_barrier": "11/25",
+      "optimal_path": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "theta": "-11/20",
+      "capacity": "11/20",
+      "barrier": "9/20",
+      "shifted_capacity": "49/20",
+      "shifted_barrier": "9/20",
+      "optimal_path": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "theta": "-27/50",
+      "capacity": "27/50",
+      "barrier": "23/50",
+      "shifted_capacity": "123/50",
+      "shifted_barrier": "23/50",
+      "optimal_path": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "theta": "-53/100",
+      "capacity": "53/100",
+      "barrier": "47/100",
+      "shifted_capacity": "247/100",
+      "shifted_barrier": "47/100",
+      "optimal_path": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "theta": "-13/25",
+      "capacity": "13/25",
+      "barrier": "12/25",
+      "shifted_capacity": "62/25",
+      "shifted_barrier": "12/25",
+      "optimal_path": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "theta": "-51/100",
+      "capacity": "51/100",
+      "barrier": "49/100",
+      "shifted_capacity": "249/100",
+      "shifted_barrier": "49/100",
+      "optimal_path": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "theta": "-1/2",
+      "capacity": "1/2",
+      "barrier": "1/2",
+      "shifted_capacity": "5/2",
+      "shifted_barrier": "1/2",
+      "optimal_path": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "theta": "-49/100",
+      "capacity": "49/100",
+      "barrier": "51/100",
+      "shifted_capacity": "251/100",
+      "shifted_barrier": "51/100",
+      "optimal_path": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "theta": "-12/25",
+      "capacity": "12/25",
+      "barrier": "13/25",
+      "shifted_capacity": "63/25",
+      "shifted_barrier": "13/25",
+      "optimal_path": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "theta": "-47/100",
+      "capacity": "47/100",
+      "barrier": "53/100",
+      "shifted_capacity": "253/100",
+      "shifted_barrier": "53/100",
+      "optimal_path": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "theta": "-23/50",
+      "capacity": "23/50",
+      "barrier": "27/50",
+      "shifted_capacity": "127/50",
+      "shifted_barrier": "27/50",
+      "optimal_path": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "theta": "-9/20",
+      "capacity": "9/20",
+      "barrier": "11/20",
+      "shifted_capacity": "51/20",
+      "shifted_barrier": "11/20",
+      "optimal_path": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "theta": "-11/25",
+      "capacity": "11/25",
+      "barrier": "14/25",
+      "shifted_capacity": "64/25",
+      "shifted_barrier": "14/25",
+      "optimal_path": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "theta": "-43/100",
+      "capacity": "43/100",
+      "barrier": "57/100",
+      "shifted_capacity": "257/100",
+      "shifted_barrier": "57/100",
+      "optimal_path": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "theta": "-21/50",
+      "capacity": "21/50",
+      "barrier": "29/50",
+      "shifted_capacity": "129/50",
+      "shifted_barrier": "29/50",
+      "optimal_path": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "theta": "-41/100",
+      "capacity": "41/100",
+      "barrier": "59/100",
+      "shifted_capacity": "259/100",
+      "shifted_barrier": "59/100",
+      "optimal_path": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "theta": "-2/5",
+      "capacity": "2/5",
+      "barrier": "3/5",
+      "shifted_capacity": "13/5",
+      "shifted_barrier": "3/5",
+      "optimal_path": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "theta": "-39/100",
+      "capacity": "39/100",
+      "barrier": "61/100",
+      "shifted_capacity": "261/100",
+      "shifted_barrier": "61/100",
+      "optimal_path": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "theta": "-19/50",
+      "capacity": "19/50",
+      "barrier": "31/50",
+      "shifted_capacity": "131/50",
+      "shifted_barrier": "31/50",
+      "optimal_path": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "theta": "-37/100",
+      "capacity": "37/100",
+      "barrier": "63/100",
+      "shifted_capacity": "263/100",
+      "shifted_barrier": "63/100",
+      "optimal_path": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "theta": "-9/25",
+      "capacity": "9/25",
+      "barrier": "16/25",
+      "shifted_capacity": "66/25",
+      "shifted_barrier": "16/25",
+      "optimal_path": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "theta": "-7/20",
+      "capacity": "7/20",
+      "barrier": "13/20",
+      "shifted_capacity": "53/20",
+      "shifted_barrier": "13/20",
+      "optimal_path": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "theta": "-17/50",
+      "capacity": "17/50",
+      "barrier": "33/50",
+      "shifted_capacity": "133/50",
+      "shifted_barrier": "33/50",
+      "optimal_path": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "theta": "-33/100",
+      "capacity": "33/100",
+      "barrier": "67/100",
+      "shifted_capacity": "267/100",
+      "shifted_barrier": "67/100",
+      "optimal_path": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "theta": "-8/25",
+      "capacity": "8/25",
+      "barrier": "17/25",
+      "shifted_capacity": "67/25",
+      "shifted_barrier": "17/25",
+      "optimal_path": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "theta": "-31/100",
+      "capacity": "31/100",
+      "barrier": "69/100",
+      "shifted_capacity": "269/100",
+      "shifted_barrier": "69/100",
+      "optimal_path": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "theta": "-3/10",
+      "capacity": "3/10",
+      "barrier": "7/10",
+      "shifted_capacity": "27/10",
+      "shifted_barrier": "7/10",
+      "optimal_path": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "theta": "-29/100",
+      "capacity": "29/100",
+      "barrier": "71/100",
+      "shifted_capacity": "271/100",
+      "shifted_barrier": "71/100",
+      "optimal_path": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "theta": "-7/25",
+      "capacity": "7/25",
+      "barrier": "18/25",
+      "shifted_capacity": "68/25",
+      "shifted_barrier": "18/25",
+      "optimal_path": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "theta": "-27/100",
+      "capacity": "27/100",
+      "barrier": "73/100",
+      "shifted_capacity": "273/100",
+      "shifted_barrier": "73/100",
+      "optimal_path": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "theta": "-13/50",
+      "capacity": "13/50",
+      "barrier": "37/50",
+      "shifted_capacity": "137/50",
+      "shifted_barrier": "37/50",
+      "optimal_path": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "theta": "-1/4",
+      "capacity": "1/4",
+      "barrier": "3/4",
+      "shifted_capacity": "11/4",
+      "shifted_barrier": "3/4",
+      "optimal_path": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "theta": "-6/25",
+      "capacity": "6/25",
+      "barrier": "19/25",
+      "shifted_capacity": "69/25",
+      "shifted_barrier": "19/25",
+      "optimal_path": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "theta": "-23/100",
+      "capacity": "23/100",
+      "barrier": "77/100",
+      "shifted_capacity": "277/100",
+      "shifted_barrier": "77/100",
+      "optimal_path": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "theta": "-11/50",
+      "capacity": "11/50",
+      "barrier": "39/50",
+      "shifted_capacity": "139/50",
+      "shifted_barrier": "39/50",
+      "optimal_path": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "theta": "-21/100",
+      "capacity": "21/100",
+      "barrier": "79/100",
+      "shifted_capacity": "279/100",
+      "shifted_barrier": "79/100",
+      "optimal_path": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "theta": "-1/5",
+      "capacity": "1/5",
+      "barrier": "4/5",
+      "shifted_capacity": "14/5",
+      "shifted_barrier": "4/5",
+      "optimal_path": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "theta": "-19/100",
+      "capacity": "19/100",
+      "barrier": "81/100",
+      "shifted_capacity": "281/100",
+      "shifted_barrier": "81/100",
+      "optimal_path": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "theta": "-9/50",
+      "capacity": "9/50",
+      "barrier": "41/50",
+      "shifted_capacity": "141/50",
+      "shifted_barrier": "41/50",
+      "optimal_path": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "theta": "-17/100",
+      "capacity": "17/100",
+      "barrier": "83/100",
+      "shifted_capacity": "283/100",
+      "shifted_barrier": "83/100",
+      "optimal_path": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "theta": "-4/25",
+      "capacity": "4/25",
+      "barrier": "21/25",
+      "shifted_capacity": "71/25",
+      "shifted_barrier": "21/25",
+      "optimal_path": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "theta": "-3/20",
+      "capacity": "3/20",
+      "barrier": "17/20",
+      "shifted_capacity": "57/20",
+      "shifted_barrier": "17/20",
+      "optimal_path": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "theta": "-7/50",
+      "capacity": "7/50",
+      "barrier": "43/50",
+      "shifted_capacity": "143/50",
+      "shifted_barrier": "43/50",
+      "optimal_path": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "theta": "-13/100",
+      "capacity": "13/100",
+      "barrier": "87/100",
+      "shifted_capacity": "287/100",
+      "shifted_barrier": "87/100",
+      "optimal_path": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "theta": "-3/25",
+      "capacity": "3/25",
+      "barrier": "22/25",
+      "shifted_capacity": "72/25",
+      "shifted_barrier": "22/25",
+      "optimal_path": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "theta": "-11/100",
+      "capacity": "11/100",
+      "barrier": "89/100",
+      "shifted_capacity": "289/100",
+      "shifted_barrier": "89/100",
+      "optimal_path": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "theta": "-1/10",
+      "capacity": "1/10",
+      "barrier": "9/10",
+      "shifted_capacity": "29/10",
+      "shifted_barrier": "9/10",
+      "optimal_path": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "theta": "-9/100",
+      "capacity": "9/100",
+      "barrier": "91/100",
+      "shifted_capacity": "291/100",
+      "shifted_barrier": "91/100",
+      "optimal_path": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "theta": "-2/25",
+      "capacity": "2/25",
+      "barrier": "23/25",
+      "shifted_capacity": "73/25",
+      "shifted_barrier": "23/25",
+      "optimal_path": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "theta": "-7/100",
+      "capacity": "7/100",
+      "barrier": "93/100",
+      "shifted_capacity": "293/100",
+      "shifted_barrier": "93/100",
+      "optimal_path": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "theta": "-3/50",
+      "capacity": "3/50",
+      "barrier": "47/50",
+      "shifted_capacity": "147/50",
+      "shifted_barrier": "47/50",
+      "optimal_path": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "theta": "-1/20",
+      "capacity": "1/20",
+      "barrier": "19/20",
+      "shifted_capacity": "59/20",
+      "shifted_barrier": "19/20",
+      "optimal_path": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "theta": "-1/25",
+      "capacity": "1/25",
+      "barrier": "24/25",
+      "shifted_capacity": "74/25",
+      "shifted_barrier": "24/25",
+      "optimal_path": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "theta": "-3/100",
+      "capacity": "3/100",
+      "barrier": "97/100",
+      "shifted_capacity": "297/100",
+      "shifted_barrier": "97/100",
+      "optimal_path": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "theta": "-1/50",
+      "capacity": "1/50",
+      "barrier": "49/50",
+      "shifted_capacity": "149/50",
+      "shifted_barrier": "49/50",
+      "optimal_path": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "theta": "-1/100",
+      "capacity": "1/100",
+      "barrier": "99/100",
+      "shifted_capacity": "299/100",
+      "shifted_barrier": "99/100",
+      "optimal_path": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "theta": "0",
+      "capacity": "0",
+      "barrier": "1",
+      "shifted_capacity": "3",
+      "shifted_barrier": "1",
+      "optimal_path": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "theta": "1/100",
+      "capacity": "1/100",
+      "barrier": "99/100",
+      "shifted_capacity": "303/100",
+      "shifted_barrier": "99/100",
+      "optimal_path": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "theta": "1/50",
+      "capacity": "1/50",
+      "barrier": "49/50",
+      "shifted_capacity": "153/50",
+      "shifted_barrier": "49/50",
+      "optimal_path": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "theta": "3/100",
+      "capacity": "3/100",
+      "barrier": "97/100",
+      "shifted_capacity": "309/100",
+      "shifted_barrier": "97/100",
+      "optimal_path": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "theta": "1/25",
+      "capacity": "1/25",
+      "barrier": "24/25",
+      "shifted_capacity": "78/25",
+      "shifted_barrier": "24/25",
+      "optimal_path": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "theta": "1/20",
+      "capacity": "1/20",
+      "barrier": "19/20",
+      "shifted_capacity": "63/20",
+      "shifted_barrier": "19/20",
+      "optimal_path": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "theta": "3/50",
+      "capacity": "3/50",
+      "barrier": "47/50",
+      "shifted_capacity": "159/50",
+      "shifted_barrier": "47/50",
+      "optimal_path": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "theta": "7/100",
+      "capacity": "7/100",
+      "barrier": "93/100",
+      "shifted_capacity": "321/100",
+      "shifted_barrier": "93/100",
+      "optimal_path": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "theta": "2/25",
+      "capacity": "2/25",
+      "barrier": "23/25",
+      "shifted_capacity": "81/25",
+      "shifted_barrier": "23/25",
+      "optimal_path": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "theta": "9/100",
+      "capacity": "9/100",
+      "barrier": "91/100",
+      "shifted_capacity": "327/100",
+      "shifted_barrier": "91/100",
+      "optimal_path": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "theta": "1/10",
+      "capacity": "1/10",
+      "barrier": "9/10",
+      "shifted_capacity": "33/10",
+      "shifted_barrier": "9/10",
+      "optimal_path": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "theta": "11/100",
+      "capacity": "11/100",
+      "barrier": "89/100",
+      "shifted_capacity": "333/100",
+      "shifted_barrier": "89/100",
+      "optimal_path": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "theta": "3/25",
+      "capacity": "3/25",
+      "barrier": "22/25",
+      "shifted_capacity": "84/25",
+      "shifted_barrier": "22/25",
+      "optimal_path": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "theta": "13/100",
+      "capacity": "13/100",
+      "barrier": "87/100",
+      "shifted_capacity": "339/100",
+      "shifted_barrier": "87/100",
+      "optimal_path": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "theta": "7/50",
+      "capacity": "7/50",
+      "barrier": "43/50",
+      "shifted_capacity": "171/50",
+      "shifted_barrier": "43/50",
+      "optimal_path": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "theta": "3/20",
+      "capacity": "3/20",
+      "barrier": "17/20",
+      "shifted_capacity": "69/20",
+      "shifted_barrier": "17/20",
+      "optimal_path": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "theta": "4/25",
+      "capacity": "4/25",
+      "barrier": "21/25",
+      "shifted_capacity": "87/25",
+      "shifted_barrier": "21/25",
+      "optimal_path": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "theta": "17/100",
+      "capacity": "17/100",
+      "barrier": "83/100",
+      "shifted_capacity": "351/100",
+      "shifted_barrier": "83/100",
+      "optimal_path": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "theta": "9/50",
+      "capacity": "9/50",
+      "barrier": "41/50",
+      "shifted_capacity": "177/50",
+      "shifted_barrier": "41/50",
+      "optimal_path": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "theta": "19/100",
+      "capacity": "19/100",
+      "barrier": "81/100",
+      "shifted_capacity": "357/100",
+      "shifted_barrier": "81/100",
+      "optimal_path": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "theta": "1/5",
+      "capacity": "1/5",
+      "barrier": "4/5",
+      "shifted_capacity": "18/5",
+      "shifted_barrier": "4/5",
+      "optimal_path": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "theta": "21/100",
+      "capacity": "21/100",
+      "barrier": "79/100",
+      "shifted_capacity": "363/100",
+      "shifted_barrier": "79/100",
+      "optimal_path": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "theta": "11/50",
+      "capacity": "11/50",
+      "barrier": "39/50",
+      "shifted_capacity": "183/50",
+      "shifted_barrier": "39/50",
+      "optimal_path": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "theta": "23/100",
+      "capacity": "23/100",
+      "barrier": "77/100",
+      "shifted_capacity": "369/100",
+      "shifted_barrier": "77/100",
+      "optimal_path": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "theta": "6/25",
+      "capacity": "6/25",
+      "barrier": "19/25",
+      "shifted_capacity": "93/25",
+      "shifted_barrier": "19/25",
+      "optimal_path": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "theta": "1/4",
+      "capacity": "1/4",
+      "barrier": "3/4",
+      "shifted_capacity": "15/4",
+      "shifted_barrier": "3/4",
+      "optimal_path": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "theta": "13/50",
+      "capacity": "13/50",
+      "barrier": "37/50",
+      "shifted_capacity": "189/50",
+      "shifted_barrier": "37/50",
+      "optimal_path": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "theta": "27/100",
+      "capacity": "27/100",
+      "barrier": "73/100",
+      "shifted_capacity": "381/100",
+      "shifted_barrier": "73/100",
+      "optimal_path": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "theta": "7/25",
+      "capacity": "7/25",
+      "barrier": "18/25",
+      "shifted_capacity": "96/25",
+      "shifted_barrier": "18/25",
+      "optimal_path": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "theta": "29/100",
+      "capacity": "29/100",
+      "barrier": "71/100",
+      "shifted_capacity": "387/100",
+      "shifted_barrier": "71/100",
+      "optimal_path": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "theta": "3/10",
+      "capacity": "3/10",
+      "barrier": "7/10",
+      "shifted_capacity": "39/10",
+      "shifted_barrier": "7/10",
+      "optimal_path": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "theta": "31/100",
+      "capacity": "31/100",
+      "barrier": "69/100",
+      "shifted_capacity": "393/100",
+      "shifted_barrier": "69/100",
+      "optimal_path": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "theta": "8/25",
+      "capacity": "8/25",
+      "barrier": "17/25",
+      "shifted_capacity": "99/25",
+      "shifted_barrier": "17/25",
+      "optimal_path": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "theta": "33/100",
+      "capacity": "33/100",
+      "barrier": "67/100",
+      "shifted_capacity": "399/100",
+      "shifted_barrier": "67/100",
+      "optimal_path": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "theta": "17/50",
+      "capacity": "17/50",
+      "barrier": "33/50",
+      "shifted_capacity": "201/50",
+      "shifted_barrier": "33/50",
+      "optimal_path": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "theta": "7/20",
+      "capacity": "7/20",
+      "barrier": "13/20",
+      "shifted_capacity": "81/20",
+      "shifted_barrier": "13/20",
+      "optimal_path": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "theta": "9/25",
+      "capacity": "9/25",
+      "barrier": "16/25",
+      "shifted_capacity": "102/25",
+      "shifted_barrier": "16/25",
+      "optimal_path": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "theta": "37/100",
+      "capacity": "37/100",
+      "barrier": "63/100",
+      "shifted_capacity": "411/100",
+      "shifted_barrier": "63/100",
+      "optimal_path": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "theta": "19/50",
+      "capacity": "19/50",
+      "barrier": "31/50",
+      "shifted_capacity": "207/50",
+      "shifted_barrier": "31/50",
+      "optimal_path": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "theta": "39/100",
+      "capacity": "39/100",
+      "barrier": "61/100",
+      "shifted_capacity": "417/100",
+      "shifted_barrier": "61/100",
+      "optimal_path": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "theta": "2/5",
+      "capacity": "2/5",
+      "barrier": "3/5",
+      "shifted_capacity": "21/5",
+      "shifted_barrier": "3/5",
+      "optimal_path": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "theta": "41/100",
+      "capacity": "41/100",
+      "barrier": "59/100",
+      "shifted_capacity": "423/100",
+      "shifted_barrier": "59/100",
+      "optimal_path": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "theta": "21/50",
+      "capacity": "21/50",
+      "barrier": "29/50",
+      "shifted_capacity": "213/50",
+      "shifted_barrier": "29/50",
+      "optimal_path": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "theta": "43/100",
+      "capacity": "43/100",
+      "barrier": "57/100",
+      "shifted_capacity": "429/100",
+      "shifted_barrier": "57/100",
+      "optimal_path": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "theta": "11/25",
+      "capacity": "11/25",
+      "barrier": "14/25",
+      "shifted_capacity": "108/25",
+      "shifted_barrier": "14/25",
+      "optimal_path": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "theta": "9/20",
+      "capacity": "9/20",
+      "barrier": "11/20",
+      "shifted_capacity": "87/20",
+      "shifted_barrier": "11/20",
+      "optimal_path": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "theta": "23/50",
+      "capacity": "23/50",
+      "barrier": "27/50",
+      "shifted_capacity": "219/50",
+      "shifted_barrier": "27/50",
+      "optimal_path": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "theta": "47/100",
+      "capacity": "47/100",
+      "barrier": "53/100",
+      "shifted_capacity": "441/100",
+      "shifted_barrier": "53/100",
+      "optimal_path": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "theta": "12/25",
+      "capacity": "12/25",
+      "barrier": "13/25",
+      "shifted_capacity": "111/25",
+      "shifted_barrier": "13/25",
+      "optimal_path": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "theta": "49/100",
+      "capacity": "49/100",
+      "barrier": "51/100",
+      "shifted_capacity": "447/100",
+      "shifted_barrier": "51/100",
+      "optimal_path": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "theta": "1/2",
+      "capacity": "1/2",
+      "barrier": "1/2",
+      "shifted_capacity": "9/2",
+      "shifted_barrier": "1/2",
+      "optimal_path": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "theta": "51/100",
+      "capacity": "51/100",
+      "barrier": "49/100",
+      "shifted_capacity": "453/100",
+      "shifted_barrier": "49/100",
+      "optimal_path": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "theta": "13/25",
+      "capacity": "13/25",
+      "barrier": "12/25",
+      "shifted_capacity": "114/25",
+      "shifted_barrier": "12/25",
+      "optimal_path": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "theta": "53/100",
+      "capacity": "53/100",
+      "barrier": "47/100",
+      "shifted_capacity": "459/100",
+      "shifted_barrier": "47/100",
+      "optimal_path": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "theta": "27/50",
+      "capacity": "27/50",
+      "barrier": "23/50",
+      "shifted_capacity": "231/50",
+      "shifted_barrier": "23/50",
+      "optimal_path": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "theta": "11/20",
+      "capacity": "11/20",
+      "barrier": "9/20",
+      "shifted_capacity": "93/20",
+      "shifted_barrier": "9/20",
+      "optimal_path": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "theta": "14/25",
+      "capacity": "14/25",
+      "barrier": "11/25",
+      "shifted_capacity": "117/25",
+      "shifted_barrier": "11/25",
+      "optimal_path": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "theta": "57/100",
+      "capacity": "57/100",
+      "barrier": "43/100",
+      "shifted_capacity": "471/100",
+      "shifted_barrier": "43/100",
+      "optimal_path": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "theta": "29/50",
+      "capacity": "29/50",
+      "barrier": "21/50",
+      "shifted_capacity": "237/50",
+      "shifted_barrier": "21/50",
+      "optimal_path": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "theta": "59/100",
+      "capacity": "59/100",
+      "barrier": "41/100",
+      "shifted_capacity": "477/100",
+      "shifted_barrier": "41/100",
+      "optimal_path": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "theta": "3/5",
+      "capacity": "3/5",
+      "barrier": "2/5",
+      "shifted_capacity": "24/5",
+      "shifted_barrier": "2/5",
+      "optimal_path": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "theta": "61/100",
+      "capacity": "61/100",
+      "barrier": "39/100",
+      "shifted_capacity": "483/100",
+      "shifted_barrier": "39/100",
+      "optimal_path": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "theta": "31/50",
+      "capacity": "31/50",
+      "barrier": "19/50",
+      "shifted_capacity": "243/50",
+      "shifted_barrier": "19/50",
+      "optimal_path": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "theta": "63/100",
+      "capacity": "63/100",
+      "barrier": "37/100",
+      "shifted_capacity": "489/100",
+      "shifted_barrier": "37/100",
+      "optimal_path": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "theta": "16/25",
+      "capacity": "16/25",
+      "barrier": "9/25",
+      "shifted_capacity": "123/25",
+      "shifted_barrier": "9/25",
+      "optimal_path": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "theta": "13/20",
+      "capacity": "13/20",
+      "barrier": "7/20",
+      "shifted_capacity": "99/20",
+      "shifted_barrier": "7/20",
+      "optimal_path": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "theta": "33/50",
+      "capacity": "33/50",
+      "barrier": "17/50",
+      "shifted_capacity": "249/50",
+      "shifted_barrier": "17/50",
+      "optimal_path": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "theta": "67/100",
+      "capacity": "67/100",
+      "barrier": "33/100",
+      "shifted_capacity": "501/100",
+      "shifted_barrier": "33/100",
+      "optimal_path": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "theta": "17/25",
+      "capacity": "17/25",
+      "barrier": "8/25",
+      "shifted_capacity": "126/25",
+      "shifted_barrier": "8/25",
+      "optimal_path": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "theta": "69/100",
+      "capacity": "69/100",
+      "barrier": "31/100",
+      "shifted_capacity": "507/100",
+      "shifted_barrier": "31/100",
+      "optimal_path": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "theta": "7/10",
+      "capacity": "7/10",
+      "barrier": "3/10",
+      "shifted_capacity": "51/10",
+      "shifted_barrier": "3/10",
+      "optimal_path": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "theta": "71/100",
+      "capacity": "71/100",
+      "barrier": "29/100",
+      "shifted_capacity": "513/100",
+      "shifted_barrier": "29/100",
+      "optimal_path": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "theta": "18/25",
+      "capacity": "18/25",
+      "barrier": "7/25",
+      "shifted_capacity": "129/25",
+      "shifted_barrier": "7/25",
+      "optimal_path": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "theta": "73/100",
+      "capacity": "73/100",
+      "barrier": "27/100",
+      "shifted_capacity": "519/100",
+      "shifted_barrier": "27/100",
+      "optimal_path": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "theta": "37/50",
+      "capacity": "37/50",
+      "barrier": "13/50",
+      "shifted_capacity": "261/50",
+      "shifted_barrier": "13/50",
+      "optimal_path": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "theta": "3/4",
+      "capacity": "3/4",
+      "barrier": "1/4",
+      "shifted_capacity": "21/4",
+      "shifted_barrier": "1/4",
+      "optimal_path": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "theta": "19/25",
+      "capacity": "19/25",
+      "barrier": "6/25",
+      "shifted_capacity": "132/25",
+      "shifted_barrier": "6/25",
+      "optimal_path": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "theta": "77/100",
+      "capacity": "77/100",
+      "barrier": "23/100",
+      "shifted_capacity": "531/100",
+      "shifted_barrier": "23/100",
+      "optimal_path": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "theta": "39/50",
+      "capacity": "39/50",
+      "barrier": "11/50",
+      "shifted_capacity": "267/50",
+      "shifted_barrier": "11/50",
+      "optimal_path": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "theta": "79/100",
+      "capacity": "79/100",
+      "barrier": "21/100",
+      "shifted_capacity": "537/100",
+      "shifted_barrier": "21/100",
+      "optimal_path": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "theta": "4/5",
+      "capacity": "4/5",
+      "barrier": "1/5",
+      "shifted_capacity": "27/5",
+      "shifted_barrier": "1/5",
+      "optimal_path": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "theta": "81/100",
+      "capacity": "81/100",
+      "barrier": "19/100",
+      "shifted_capacity": "543/100",
+      "shifted_barrier": "19/100",
+      "optimal_path": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "theta": "41/50",
+      "capacity": "41/50",
+      "barrier": "9/50",
+      "shifted_capacity": "273/50",
+      "shifted_barrier": "9/50",
+      "optimal_path": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "theta": "83/100",
+      "capacity": "83/100",
+      "barrier": "17/100",
+      "shifted_capacity": "549/100",
+      "shifted_barrier": "17/100",
+      "optimal_path": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "theta": "21/25",
+      "capacity": "21/25",
+      "barrier": "4/25",
+      "shifted_capacity": "138/25",
+      "shifted_barrier": "4/25",
+      "optimal_path": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "theta": "17/20",
+      "capacity": "17/20",
+      "barrier": "3/20",
+      "shifted_capacity": "111/20",
+      "shifted_barrier": "3/20",
+      "optimal_path": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "theta": "43/50",
+      "capacity": "43/50",
+      "barrier": "7/50",
+      "shifted_capacity": "279/50",
+      "shifted_barrier": "7/50",
+      "optimal_path": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "theta": "87/100",
+      "capacity": "87/100",
+      "barrier": "13/100",
+      "shifted_capacity": "561/100",
+      "shifted_barrier": "13/100",
+      "optimal_path": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "theta": "22/25",
+      "capacity": "22/25",
+      "barrier": "3/25",
+      "shifted_capacity": "141/25",
+      "shifted_barrier": "3/25",
+      "optimal_path": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "theta": "89/100",
+      "capacity": "89/100",
+      "barrier": "11/100",
+      "shifted_capacity": "567/100",
+      "shifted_barrier": "11/100",
+      "optimal_path": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "theta": "9/10",
+      "capacity": "9/10",
+      "barrier": "1/10",
+      "shifted_capacity": "57/10",
+      "shifted_barrier": "1/10",
+      "optimal_path": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "theta": "91/100",
+      "capacity": "91/100",
+      "barrier": "9/100",
+      "shifted_capacity": "573/100",
+      "shifted_barrier": "9/100",
+      "optimal_path": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "theta": "23/25",
+      "capacity": "23/25",
+      "barrier": "2/25",
+      "shifted_capacity": "144/25",
+      "shifted_barrier": "2/25",
+      "optimal_path": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "theta": "93/100",
+      "capacity": "93/100",
+      "barrier": "7/100",
+      "shifted_capacity": "579/100",
+      "shifted_barrier": "7/100",
+      "optimal_path": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "theta": "47/50",
+      "capacity": "47/50",
+      "barrier": "3/50",
+      "shifted_capacity": "291/50",
+      "shifted_barrier": "3/50",
+      "optimal_path": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "theta": "19/20",
+      "capacity": "19/20",
+      "barrier": "1/20",
+      "shifted_capacity": "117/20",
+      "shifted_barrier": "1/20",
+      "optimal_path": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "theta": "24/25",
+      "capacity": "24/25",
+      "barrier": "1/25",
+      "shifted_capacity": "147/25",
+      "shifted_barrier": "1/25",
+      "optimal_path": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "theta": "97/100",
+      "capacity": "97/100",
+      "barrier": "3/100",
+      "shifted_capacity": "591/100",
+      "shifted_barrier": "3/100",
+      "optimal_path": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "theta": "49/50",
+      "capacity": "49/50",
+      "barrier": "1/50",
+      "shifted_capacity": "297/50",
+      "shifted_barrier": "1/50",
+      "optimal_path": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "theta": "99/100",
+      "capacity": "99/100",
+      "barrier": "1/100",
+      "shifted_capacity": "597/100",
+      "shifted_barrier": "1/100",
+      "optimal_path": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "theta": "1",
+      "capacity": "1",
+      "barrier": "0",
+      "shifted_capacity": "6",
+      "shifted_barrier": "0",
+      "optimal_path": [
+        0,
+        1,
+        3
+      ]
+    }
+  ],
+  "panels": {
+    "a": "Score-labeled diamond",
+    "b": {
+      "joint_constraint": "f_v = -f_u",
+      "intermediate_marginals": [
+        -1,
+        1
+      ]
+    },
+    "c": {
+      "capacity": "abs(theta)",
+      "barrier": "1-abs(theta)"
+    },
+    "d": {
+      "order": [
+        "fixed",
+        "guaranteed",
+        "possible"
+      ],
+      "joint": [
+        "-1",
+        "0",
+        "1"
+      ],
+      "box": [
+        "-1",
+        "-1",
+        "1"
+      ]
+    },
+    "e": {
+      "joint_barrier_range": [
+        "0",
+        "1"
+      ],
+      "box_barrier_range": [
+        "0",
+        "2"
+      ],
+      "interval_endpoints_only": [
+        0,
+        0
+      ]
+    },
+    "f": {
+      "common_offset": "3+2theta",
+      "barrier_invariant": true
+    }
+  },
+  "export": {
+    "width_mm": 174,
+    "height_mm": 153,
+    "minimum_text_pt": 8,
+    "raster_dpi": 610,
+    "clipped_text": [],
+    "text_overlaps": []
+  },
+  "provenance": {
+    "input_hashes_before": {
+      "analysis/programme/joint_uncertainty_affine.py": "1793fbd741f6208cd9cac8c16582edcd01a260542568ee3e91ec19e316541edd",
+      "results/programme/joint_uncertainty_release/joint_uncertainty_results.json": "6982cfe4e123bc340a50135c5af2d779a1863fe511db3622f0fd55f279c021b8",
+      "results/programme/joint_uncertainty_release/manifest.json": "e593bc3b13feb3e2e2bd1120686f36b3804c4022eeb9d600f82fe479d70304bb"
+    },
+    "input_hashes_after": {
+      "analysis/programme/joint_uncertainty_affine.py": "1793fbd741f6208cd9cac8c16582edcd01a260542568ee3e91ec19e316541edd",
+      "results/programme/joint_uncertainty_release/joint_uncertainty_results.json": "6982cfe4e123bc340a50135c5af2d779a1863fe511db3622f0fd55f279c021b8",
+      "results/programme/joint_uncertainty_release/manifest.json": "e593bc3b13feb3e2e2bd1120686f36b3804c4022eeb9d600f82fe479d70304bb"
+    },
+    "renderer_sha256": "ea2406dc10ddca1b75c6c9783975565b714cba38d384a35315c1b279f5ded74c",
+    "matplotlib": "3.11.2",
+    "numpy": "2.5.4",
+    "release_fixture_equal": true,
+    "exact_curve_checks": 201
+  }
+}

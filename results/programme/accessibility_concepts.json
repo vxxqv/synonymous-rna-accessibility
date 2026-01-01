@@ -1,0 +1,97 @@
+{
+  "scope": "Abstract complete six-state leucine graph; arbitrary illustrative scores, not measurements",
+  "vertices": [
+    "CUA",
+    "CUC",
+    "CUG",
+    "CUU",
+    "UUA",
+    "UUG"
+  ],
+  "edges": [
+    [
+      "CUA",
+      "CUC"
+    ],
+    [
+      "CUA",
+      "CUG"
+    ],
+    [
+      "CUA",
+      "CUU"
+    ],
+    [
+      "CUA",
+      "UUA"
+    ],
+    [
+      "CUC",
+      "CUG"
+    ],
+    [
+      "CUC",
+      "CUU"
+    ],
+    [
+      "CUG",
+      "CUU"
+    ],
+    [
+      "CUG",
+      "UUG"
+    ],
+    [
+      "UUA",
+      "UUG"
+    ]
+  ],
+  "cases": [
+    {
+      "case": "threshold_without_weak_ascent",
+      "scores": {
+        "CUA": 2,
+        "CUC": 1,
+        "CUG": 2,
+        "CUU": 2,
+        "UUA": 0,
+        "UUG": 2
+      },
+      "paths": {
+        "threshold": [
+          "UUA",
+          "CUA",
+          "CUC"
+        ],
+        "weak": null,
+        "strict": null
+      }
+    },
+    {
+      "case": "weak_without_strict_ascent",
+      "scores": {
+        "CUA": 0,
+        "CUC": 1,
+        "CUG": 2,
+        "CUU": 2,
+        "UUA": 0,
+        "UUG": 2
+      },
+      "paths": {
+        "threshold": [
+          "UUA",
+          "CUA",
+          "CUC"
+        ],
+        "weak": [
+          "UUA",
+          "CUA",
+          "CUC"
+        ],
+        "strict": null
+      }
+    }
+  ],
+  "source_sha256": "cd5e45e340338a0ea957c66b5451cd121686d5e09a94d0d17d0a422829551ea3",
+  "prior": "Schmiegelt and Krug 2023 DOI 10.1007/s00285-023-01882-z treats monotone accessibility; no novelty claim for graph orientation"
+}

@@ -1,0 +1,302 @@
+{
+  "schema_version": "1.0",
+  "audit_kind": "read_only_retrospective_source_eligibility",
+  "outcomes_table_opened": false,
+  "model_fit_performed": false,
+  "sequence_or_intervention_design_performed": false,
+  "prior_gates_preserved": true,
+  "human": {
+    "study_doi": "10.1093/nar/gkag733",
+    "pmid": "42554160",
+    "pmcid": "PMC13439131",
+    "primary_source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13439131/fullTextXML",
+    "primary_source_sha256": "3bf8420407a83dc96cb870592651ac7a7c77ffc3326bbd61a63767ed0a5f72ed",
+    "correction_doi": "10.1093/nar/gkag855",
+    "correction_pmid": "42683587",
+    "correction_scope": "Indexed notice: heading formatting/capitalization and Figure2C resolution; states conclusions unchanged. Full publisher rendering not inspected.",
+    "identifiable_primary_unit": "sgRNA-guide abundance/depletion, not isolated edited genotype fitness",
+    "reported_design_denominators": {
+      "essential_genes": 128,
+      "synonymous_guides_ABE": 2134,
+      "synonymous_guides_CBE": 3528,
+      "putative_substitutions_ABE": 2964,
+      "putative_substitutions_CBE": 5594,
+      "total_guides_with_controls_ABE": 4537,
+      "total_guides_with_controls_CBE": 7235
+    },
+    "replication": "Three biological replicates per cell-line screen; selected follow-up and expanded follow-up have separate structures.",
+    "raw_data_bioproject": "PRJNA1236376",
+    "repository": {
+      "url": "https://github.com/ryy1221/synSg",
+      "inspected_branch": "main",
+      "tree_sha": "e7d0ea7e59012956c3f4f2769ea4dc6415c25da9",
+      "tree_files": [
+        ".gitignore",
+        ".ipynb_checkpoints/sgRNA to mut from seq 20220904-checkpoint.ipynb",
+        "README.md",
+        "notebooks/.ipynb_checkpoints/1.syn_sgFinder_gene_transcript_sel-checkpoint.ipynb",
+        "notebooks/.ipynb_checkpoints/gRNA GoldenGate BCR II-checkpoint.ipynb",
+        "notebooks/.ipynb_checkpoints/sgRNA to mut from seq 20220904-checkpoint.ipynb",
+        "notebooks/Analysis/Hits/Alignment.ipynb",
+        "notebooks/Analysis/Hits/DEseq.ipynb",
+        "notebooks/Analysis/Hits/Hits.ipynb",
+        "notebooks/Analysis/Hits/Hits_nSpGvsBE.ipynb",
+        "notebooks/Analysis/Hits/LLR test.ipynb",
+        "notebooks/Analysis/MetaAnalysis/1. original_data.ipynb",
+        "notebooks/Analysis/MetaAnalysis/2. processed_data.ipynb",
+        "notebooks/Analysis/MetaAnalysis/3. hit_rate_figure.ipynb",
+        "notebooks/Analysis/MetaAnalysis/MetaAnalysis_utils.py",
+        "notebooks/Analysis/Splicing_sg_Estimate.ipynb",
+        "notebooks/Analysis/WGS_analysis.ipynb",
+        "notebooks/Analysis/WGS_analysis.py",
+        "notebooks/Analysis/be-hive/be-hive-sg_mapping.ipynb",
+        "notebooks/Analysis/crispresso/0_run_crispresso-CBE_MIS.ipynb",
+        "notebooks/Analysis/crispresso/0_run_crispresso-CBE_SYN.ipynb",
+        "notebooks/Analysis/crispresso/0_run_crispresso-WGSValidation.ipynb",
+        "notebooks/Analysis/crispresso/0_run_crispresso_ABE.ipynb",
+        "notebooks/Analysis/crispresso/1. Analyze_Edits.ipynb",
+        "notebooks/Analysis/crispresso/2. Library Mutation Consequence.ipynb",
+        "notebooks/Analysis/genome/run_chopchop_genome.py",
+        "notebooks/Figures/main.Figure.ipynb",
+        "notebooks/Figures/mock_distribution.ipynb",
+        "notebooks/Figures/supp.Editing_Efficiency.ipynb",
+        "notebooks/Figures/supp.ghost.ipynb",
+        "notebooks/sgFinder/.gitkeep",
+        "notebooks/sgFinder/1.syn_sgFinder_gene_transcript_sel.ipynb",
+        "notebooks/sgFinder/2.1 syn_sg_filter-genome.ipynb",
+        "notebooks/sgFinder/2.2 syn_sg_filter.ipynb",
+        "notebooks/sgFinder/3. CT&Add_primers.ipynb",
+        "notebooks/sgFinder/4 sgRNA_analysis.ipynb",
+        "notebooks/sgFinder/4.1 MIS_sgRNA_analysis.ipynb",
+        "notebooks/sgFinder/4.2 ABE_reorder.ipynb",
+        "notebooks/sgFinder/syn_sg_filter-genome.py",
+        "ref_fasta/CABE.1.ebwt",
+        "ref_fasta/CABE.2.ebwt",
+        "ref_fasta/CABE.3.ebwt",
+        "ref_fasta/CABE.4.ebwt",
+        "ref_fasta/CABE.fasta",
+        "ref_fasta/CABE.rev.1.ebwt",
+        "ref_fasta/CABE.rev.2.ebwt",
+        "ref_fasta/CCBE.1.ebwt",
+        "ref_fasta/CCBE.2.ebwt",
+        "ref_fasta/CCBE.3.ebwt",
+        "ref_fasta/CCBE.4.ebwt",
+        "ref_fasta/CCBE.fasta",
+        "ref_fasta/CCBE.rev.1.ebwt",
+        "ref_fasta/CCBE.rev.2.ebwt",
+        "ref_fasta/bowtie_align-plasmid.sh",
+        "ref_fasta/bowtie_align.sh",
+        "requirements.txt",
+        "src/__init__.py",
+        "src/behive_mapping.py",
+        "src/confirm_ngs_mutation.py",
+        "src/crispresso.pbs",
+        "src/syn_sgFinder.py",
+        "src/utils.py"
+      ]
+    },
+    "zenodo_records": [
+      {
+        "key": "human_code_zenodo",
+        "url": "https://zenodo.org/api/records/21109071",
+        "id": 21109071,
+        "title": "High-throughput Experimental Validation of Synonymous Mutation Neutrality in the Human Genome",
+        "doi": "10.5281/zenodo.21109071",
+        "license": {
+          "id": "cc-by-4.0"
+        },
+        "files": [
+          {
+            "key": "review.zip",
+            "size": 262085168,
+            "checksum": "md5:0bc5f10413eff383af973254e6b47f6a"
+          },
+          {
+            "key": "data.zip",
+            "size": 6356692479,
+            "checksum": "md5:e1b4ec4c2a59ee74be4abf495f61f869"
+          },
+          {
+            "key": "synSg-main.zip",
+            "size": 4214629,
+            "checksum": "md5:66b707e7c62e5fc8231e31fd7e696cf4"
+          }
+        ]
+      },
+      {
+        "key": "human_data_zenodo",
+        "url": "https://zenodo.org/api/records/15241793",
+        "id": 15241793,
+        "title": "High-throughput Experimental Validation of Synonymous Mutation Neutrality in the Human Genome",
+        "doi": "10.5281/zenodo.15241793",
+        "license": {
+          "id": "cc-by-4.0"
+        },
+        "files": [
+          {
+            "key": "review.zip",
+            "size": 262085168,
+            "checksum": "md5:0bc5f10413eff383af973254e6b47f6a"
+          },
+          {
+            "key": "data.zip",
+            "size": 6356692479,
+            "checksum": "md5:e1b4ec4c2a59ee74be4abf495f61f869"
+          }
+        ]
+      }
+    ],
+    "eligibility": "guide-level identification challenge only; combinatorial genotype validation not passed",
+    "open_gates": [
+      "per-guide allele mixtures and local genotype mapping",
+      "sample/time-origin reconciliation",
+      "selected validation denominator and replicate linkage",
+      "complete endpoint/intermediate measurements",
+      "structural target measurements"
+    ]
+  },
+  "persist": {
+    "study_doi": "10.1038/s41467-022-28776-w",
+    "pmid": "35318324",
+    "pmcid": "PMC8940940",
+    "primary_fulltext_route": "Amass BiomedCore, read-only fulltext",
+    "repository": {
+      "url": "https://github.com/barnalab/persist",
+      "inspected_branch": "master",
+      "tree_sha": "8922dc115acf0c3c803b15fbc97e67edce805c36"
+    },
+    "nominal_design_denominators": {
+      "constructs": 233,
+      "UTR_variants": 112,
+      "CDS_variants": 121
+    },
+    "eligible_subset_count": "not determined",
+    "retained_candidate_families": [
+      "NanoLuc with documented cellular/nonviral UTRs",
+      "eGFP with documented cellular/nonviral UTRs",
+      "human-HBB-UTR CDS series after reporter and modification confirmation"
+    ],
+    "excluded_families": [
+      "viral-derived UTR constructs",
+      "vaccine/multi-epitope reporter constructs"
+    ],
+    "candidate_protein_family_units": [
+      "NanoLuc",
+      "eGFP"
+    ],
+    "endpoints": {
+      "cellular_half_life": "measured timecourse-derived endpoint",
+      "solution_half_life": "measured condition-specific timecourse-derived endpoint",
+      "ribosome_load": "polysome-weighted endpoint",
+      "predicted_expression": "model-derived, not independently measured protein output",
+      "luciferase_output": "measured in selected follow-up panels, not verified for every main-library row"
+    },
+    "header_only_table": {
+      "path": "analysis/constructs.tsv",
+      "blob_sha": "71e581465efd8c681b948db4088a94f4e41e3e47",
+      "read_range": "line1 only"
+    },
+    "metadata_only_sample_sheet": {
+      "path": "analysis/samples.csv",
+      "blob_sha": "382fb1dd4ce0655aa985ea7dab72217461091630",
+      "note": "No explicit biological-replicate column; endpoint-level mapping remains unresolved."
+    },
+    "processed_file_inventory": [
+      {
+        "path": "analysis/constructs.tsv",
+        "size": 769465,
+        "sha": "71e581465efd8c681b948db4088a94f4e41e3e47"
+      },
+      {
+        "path": "analysis/persist_seq_in_solution_matlab/GunAnalysis_ivstability/ORIGINAL/IVS_stats_for_gun.txt",
+        "size": 16273,
+        "sha": "8f76cace9db29385f2b0eadf0aa48d492dd6787a"
+      },
+      {
+        "path": "analysis/persist_seq_in_solution_matlab/GunAnalysis_ivstability/ORIGINAL/IVS_stats_for_gun_SORTED.txt",
+        "size": 16273,
+        "sha": "749823c063774c138c4ad3c4601744d8ec1b32bb"
+      },
+      {
+        "path": "analysis/persist_seq_in_solution_matlab/GunAnalysis_ivstability/all_counts.tsv.txt",
+        "size": 99516,
+        "sha": "2030c2fb5539617b523deea129fd62814625ae38"
+      },
+      {
+        "path": "analysis/persist_seq_in_solution_matlab/GunAnalysis_ivstability/samples.csv.txt",
+        "size": 6327,
+        "sha": "382fb1dd4ce0655aa985ea7dab72217461091630"
+      },
+      {
+        "path": "analysis/persist_seq_in_solution_matlab/Raw/all_counts.tsv",
+        "size": 92306,
+        "sha": "415909cbce0871e46f8d4136c7d8d36895838a09"
+      },
+      {
+        "path": "analysis/persist_seq_in_solution_matlab/Rhiju_233x_stability_analysis_OUTPUT.txt",
+        "size": 12885,
+        "sha": "7e8bac1e61789e62a73b888fcfc64762f0cc88a3"
+      },
+      {
+        "path": "analysis/samples.csv",
+        "size": 6327,
+        "sha": "382fb1dd4ce0655aa985ea7dab72217461091630"
+      }
+    ],
+    "documented_solution_processing_denominator": {
+      "amplifiable": 203,
+      "further_exclusions": 12,
+      "implied_retained_before_additional_safety_filters": 191,
+      "status": "documentation count, not outcome-table row-count audit"
+    },
+    "raw_data_geo": "GSE173083",
+    "paper_supplementary_release": "Supplementary Data1-9 and source data, per originating paper",
+    "repository_license": "No repository LICENSE found in inspected tree; separate asset licensing not verified.",
+    "eligibility": "conditional retrospective endpoint-specific reporter analysis only",
+    "held_out_family_status": "not established; source ancestry, permissible family counts and endpoint coverage need closure",
+    "open_gates": [
+      "permitted-subset identity and counts",
+      "full construct/modification/measurement linkage",
+      "biological replicate identifiers and endpoint denominator",
+      "design-source and shared-seed dependence",
+      "measured mutation-edge/intermediate coverage",
+      "independent family split feasibility"
+    ]
+  },
+  "access_limitations": [
+    "Original human Amass call returned an internal error; not retried. Public EuropePMC original fulltext succeeded.",
+    "Direct correction and PERSIST publisher opens returned inaccessible redirects; those routes were not retried or bypassed.",
+    "Correction body was supplied in indexed notice text before direct publisher access failed; publisher rendering not independently inspected."
+  ],
+  "exposure_log": [
+    {
+      "source": "Primary indexed PERSIST article results returned by search",
+      "exposure": "Published aggregate findings and selected named reporter outcome highlights, including benign NanoLuc examples",
+      "consequence": "Not article-outcome-blind; later analysis remains retrospective"
+    },
+    {
+      "source": "Author solution-analysis README, blob a85c48226aad2faa01f607b7b0e7ac5bd4eaf1d9",
+      "exposure": "Seven embedded example output rows for excluded viral-UTR constructs returned automatically",
+      "consequence": "No analysis/use; no processed outcome file subsequently opened; these families excluded"
+    },
+    {
+      "source": "Human primary paper",
+      "exposure": "Study-level design denominators and published validation summaries",
+      "consequence": "No individual guide outcome table or genotype outcome extraction"
+    },
+    {
+      "source": "PERSIST constructs.tsv",
+      "exposure": "Header only",
+      "consequence": "Individual processed outcome rows remain unopened"
+    }
+  ],
+  "scope_restrictions": [
+    "No sequence design",
+    "No wet-lab or intervention design",
+    "No optimization",
+    "No model fitting",
+    "No large analyses",
+    "No external mutation or publication"
+  ],
+  "no_new_validation_claim": true
+}

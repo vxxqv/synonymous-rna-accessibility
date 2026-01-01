@@ -1,0 +1,206 @@
+{
+  "version": 2,
+  "supersedes": "v1 orientation gate and inner-join selection concern only; original artifacts preserved",
+  "outcomes_opened": false,
+  "author_code_executed": false,
+  "forward_assay_orientation_verified": true,
+  "raw_FASTQ_preprocessing_reproduced": false,
+  "source_recovery_receipts": {
+    "final_amplicon_recovery_v1.json": {
+      "source_file_id": "333a8a80-fc4c-4a38-a081-5f27fe2ff60b",
+      "requested_public_url": "https://data.mendeley.com/public-files/datasets/ds7zymk875/files/333a8a80-fc4c-4a38-a081-5f27fe2ff60b/file_downloaded",
+      "source_name": "2024.09.13 aprE- CDS- Final Amplicon- Element P5+P7- o483+o484.dna",
+      "expected_sha256": "48b09c3a88ca8fd8e497eb5269f1f7508c8ca8c46155c02a862b76a8c86243d5",
+      "credentials_supplied": false,
+      "retry_count": 0,
+      "head": {
+        "status": 200,
+        "redirects": [
+          {
+            "status": 302,
+            "host": "data.mendeley.com"
+          }
+        ],
+        "final_host": "prod-dcd-datasets-public-files-eu-west-1.s3.eu-west-1.amazonaws.com",
+        "headers": {
+          "Server": "AmazonS3",
+          "Date": "Sun, 25 Oct 2026 05:06:24 GMT",
+          "Content-Length": "29780",
+          "Content-Type": "application/octet-stream"
+        }
+      },
+      "get": {
+        "status": 200,
+        "redirects": [
+          {
+            "status": 302,
+            "host": "data.mendeley.com"
+          }
+        ],
+        "final_host": "prod-dcd-datasets-public-files-eu-west-1.s3.eu-west-1.amazonaws.com",
+        "headers": {
+          "Content-Length": "29780",
+          "Date": "Sun, 25 Oct 2026 05:06:23 GMT",
+          "Server": "AmazonS3",
+          "Content-Type": "application/octet-stream"
+        }
+      },
+      "actual_sha256": "48b09c3a88ca8fd8e497eb5269f1f7508c8ca8c46155c02a862b76a8c86243d5",
+      "bytes": 29780,
+      "checksum_verified": true
+    },
+    "pipeline_linkage_recovery_v1.json": [
+      {
+        "source_file_id": "c8bdff92-fb6d-429b-a73a-adfe49ef522c",
+        "source_name": "2025.01.30 [RNA Stability] Parse Barcodes from 241023Li_6982E_CDS_240823LiA_6861E_6924E Files.ipynb",
+        "requested_public_url": "https://data.mendeley.com/public-files/datasets/ds7zymk875/files/c8bdff92-fb6d-429b-a73a-adfe49ef522c/file_downloaded",
+        "expected_sha256": "e6373f82d247c287cb5ac870f73568301337d58f3c2d34decf4a15c946633a8c",
+        "credentials_supplied": false,
+        "retry_count": 0,
+        "head": {
+          "status": 200,
+          "redirects": [
+            {
+              "status": 302,
+              "host": "data.mendeley.com"
+            }
+          ],
+          "final_host": "prod-dcd-datasets-public-files-eu-west-1.s3.eu-west-1.amazonaws.com",
+          "headers": {
+            "Server": "AmazonS3",
+            "Date": "Sun, 25 Oct 2026 05:08:01 GMT",
+            "Content-Length": "4003",
+            "Content-Type": "application/octet-stream"
+          }
+        },
+        "get": {
+          "status": 200,
+          "redirects": [
+            {
+              "status": 302,
+              "host": "data.mendeley.com"
+            }
+          ],
+          "final_host": "prod-dcd-datasets-public-files-eu-west-1.s3.eu-west-1.amazonaws.com",
+          "headers": {
+            "Content-Length": "4003",
+            "Date": "Sun, 25 Oct 2026 05:08:01 GMT",
+            "Server": "AmazonS3",
+            "Content-Type": "application/octet-stream"
+          }
+        },
+        "actual_sha256": "e6373f82d247c287cb5ac870f73568301337d58f3c2d34decf4a15c946633a8c",
+        "bytes": 4003,
+        "checksum_verified": true,
+        "source_only_sha256": "e7d32e345b3962e9b1b5c7114e353e948707e140eff5172cc3fb56cda9a82ffb",
+        "notebook_outputs_read_or_displayed": false
+      },
+      {
+        "source_file_id": "ab36c622-18a6-47ee-84f7-18a40d3e3f74",
+        "source_name": "process_fastq_v16.sh",
+        "requested_public_url": "https://data.mendeley.com/public-files/datasets/ds7zymk875/files/ab36c622-18a6-47ee-84f7-18a40d3e3f74/file_downloaded",
+        "expected_sha256": "28491b8c301f3c7c7a4525c036c30447319bb6a6593e59d14b020c1b1c09a857",
+        "credentials_supplied": false,
+        "retry_count": 0,
+        "head": {
+          "status": 200,
+          "redirects": [
+            {
+              "status": 302,
+              "host": "data.mendeley.com"
+            }
+          ],
+          "final_host": "prod-dcd-datasets-public-files-eu-west-1.s3.eu-west-1.amazonaws.com",
+          "headers": {
+            "Server": "AmazonS3",
+            "Date": "Sun, 25 Oct 2026 05:08:02 GMT",
+            "Content-Length": "726",
+            "Content-Type": "application/x-sh"
+          }
+        },
+        "get": {
+          "status": 200,
+          "redirects": [
+            {
+              "status": 302,
+              "host": "data.mendeley.com"
+            }
+          ],
+          "final_host": "prod-dcd-datasets-public-files-eu-west-1.s3.eu-west-1.amazonaws.com",
+          "headers": {
+            "Content-Length": "726",
+            "Date": "Sun, 25 Oct 2026 05:08:01 GMT",
+            "Server": "AmazonS3",
+            "Content-Type": "application/x-sh"
+          }
+        },
+        "actual_sha256": "28491b8c301f3c7c7a4525c036c30447319bb6a6593e59d14b020c1b1c09a857",
+        "bytes": 726,
+        "checksum_verified": true
+      }
+    ],
+    "parser_recovery.json": {
+      "url": "https://data.mendeley.com/public-files/datasets/ds7zymk875/files/ad7520c6-3d37-4ed6-b889-d6406c318b6f/file_downloaded",
+      "status": 200,
+      "bytes": 1092,
+      "sha256": "88a84bfdeb15fa1fe00d6d268fb95052bd868299e6f09e90cdd373e6b2f3838c",
+      "prior_failure": "Earlier urllib call returned403 with no response metadata. A subsequent publicHEADreturned200. No credentials or bypass used."
+    },
+    "public_link_diagnosis.json": {
+      "requested_url": "https://data.mendeley.com/public-files/datasets/ds7zymk875/files/ad7520c6-3d37-4ed6-b889-d6406c318b6f/file_downloaded",
+      "status": 200,
+      "redirects": [
+        {
+          "status": 302,
+          "url": "https://data.mendeley.com/public-files/datasets/ds7zymk875/files/ad7520c6-3d37-4ed6-b889-d6406c318b6f/file_downloaded"
+        }
+      ],
+      "final_host": "prod-dcd-datasets-public-files-eu-west-1.s3.eu-west-1.amazonaws.com",
+      "content_type": "text/x-python-script",
+      "content_length": "1092",
+      "interpretation": "Public HEAD request only. No authentication, access override, or file-body request."
+    }
+  },
+  "artifact_hashes": [
+    {
+      "path": "outputs\\synonymous-rna-accessibility\\analysis\\programme\\retrospective\\gill_amplicon_pilot_audit.py",
+      "bytes": 8784,
+      "sha256": "3c5297b81f008c76d3d08218ebdeb9354b5e5bbf575f9bffb3a03b747a13eae2"
+    },
+    {
+      "path": "outputs\\synonymous-rna-accessibility\\results\\programme\\retrospective\\gill_amplicon_pilot_v2.json",
+      "bytes": 5329,
+      "sha256": "00f538b420634a1fe302cff0477cd14d7ff61ceeed4dfdcb6072eb45c353a271"
+    },
+    {
+      "path": "outputs\\Gill_Eligibility_Audit.md",
+      "bytes": 11873,
+      "sha256": "a5bd82e2e29598632f744ae1267b330c974b5d6eda7ee5dce55de8793e26fc52"
+    },
+    {
+      "path": "outputs\\Gill_Eligibility_Addendum_v2.md",
+      "bytes": 9656,
+      "sha256": "02d0da8cd5782b49f48c2d2a06f8bdafd5121e1d27b591ea363a8d27b486c6d9"
+    },
+    {
+      "path": "work\\retrospective_sources\\gill\\Gill_Eligibility_Audit_v1_snapshot.md",
+      "bytes": 11378,
+      "sha256": "e8b3fa8311ea108bd92fe8a3a62cbfdf3ccc46fc51ebe8f00eadbbdd06d08edc"
+    },
+    {
+      "path": "outputs\\synonymous-rna-accessibility\\results\\programme\\retrospective\\gill_eligibility_provenance_v1.json",
+      "bytes": 6332,
+      "sha256": "c5f93b1f7cc03035cb04e3b3287bc967d9d1190ee6ea00f03f3384fad29d3ee9"
+    }
+  ],
+  "workbook_fields_decoded": [
+    "Sequence",
+    "CDS_8 Barcode Count",
+    "CDS_9 Barcode Count",
+    "CDS_10 Barcode Count",
+    "Combined 154-CDS-gDNA Barcode Counts"
+  ],
+  "source_notebook_cells_inspected": "code source only, outputs ignored",
+  "pilot_outcome_access": "on hold pending root freeze",
+  "corrected_missingness_interpretation": "Documented upstream enumeration writes all65536 keys in every sample, so inner joins do not remove keys; strictcombinedDNA>50 explains856absences under that pipeline, not independently raw-count-reproduced."
+}

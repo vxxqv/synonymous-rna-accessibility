@@ -1,0 +1,169 @@
+{
+  "status": "deposited_pipeline_forward_orientation_and_reference_fibre_design_eligible",
+  "author_code_executed": false,
+  "RNA_or_expression_outcomes_read": false,
+  "inputs": {
+    "cds_final_amplicon.dna": {
+      "sha256": "48b09c3a88ca8fd8e497eb5269f1f7508c8ca8c46155c02a862b76a8c86243d5",
+      "bytes": 29780
+    },
+    "pMG23.dna": {
+      "sha256": "0a4a03433b4775f5964e8f87fad035998ba3b806c650e10cc2ef0957b7e8a76b",
+      "bytes": 7029381
+    },
+    "barcodes_from_fastq_v16.py": {
+      "sha256": "88a84bfdeb15fa1fe00d6d268fb95052bd868299e6f09e90cdd373e6b2f3838c",
+      "bytes": 1092
+    },
+    "process_fastq_v16.sh": {
+      "sha256": "28491b8c301f3c7c7a4525c036c30447319bb6a6593e59d14b020c1b1c09a857",
+      "bytes": 726
+    },
+    "parse_barcodes_source.ipynb": {
+      "sha256": "e6373f82d247c287cb5ac870f73568301337d58f3c2d34decf4a15c946633a8c",
+      "bytes": 4003
+    },
+    "parse_barcodes_code_only.py": {
+      "sha256": "4cb9e2083554ae165f77b5a13031778591fa7d08cac72983553670505858413d",
+      "bytes": 2199
+    },
+    "analysis_code_only.py": {
+      "sha256": "40399d62c0ee5b83f61c5856728b56bc6ca6f965a2b234c655d5fec389b57c67",
+      "bytes": 7006
+    },
+    "cds_processed.xlsx": {
+      "sha256": "0f80ba9868c54548db938c65d09d8caa0419c5721bfa379949f6a18ad2568e89",
+      "bytes": 8741558
+    },
+    "gill_eligibility_v1.json": {
+      "sha256": "e11300c9245816ff31acfcf56ebd47c2faa6af667ccd615e9c14c7dc2cf0cd10",
+      "bytes": 3008621
+    }
+  },
+  "audit_code_sha256": "3c5297b81f008c76d3d08218ebdeb9354b5e5bbf575f9bffb3a03b747a13eae2",
+  "amplicon": {
+    "nt": 371,
+    "independent_packet_and_Biopython_match": true,
+    "barcode_interval_zero_based_half_open": [
+      124,
+      132
+    ],
+    "barcode_strand": 1,
+    "exact_coding_fragment_amplicon": [
+      66,
+      277
+    ],
+    "exact_coding_fragment_pMG23": [
+      7007,
+      7218
+    ],
+    "coding_fragment_nt": 211,
+    "downstream_flank_unique_positive_strand": true,
+    "upstream_parser_anchor_on_reverse_strand": true,
+    "both_parser_anchors_are_not_one_contiguous_genomic_read": true
+  },
+  "linkage": {
+    "shell_invokes_v16": true,
+    "shell_input_merged_and_combined_FASTQ": true,
+    "parser_writes_eight_bases_unchanged": true,
+    "parse_notebook_enumerates_all_65536_keys_per_sample": true,
+    "parse_notebook_sample_labels": [
+      "CDS_1",
+      "CDS_2",
+      "CDS_3",
+      "CDS_8",
+      "CDS_9",
+      "CDS_10"
+    ],
+    "analysis_reads_matching_six_workbooks_and_exports_matching_processed_filename": true,
+    "forward_orientation_intended_by_deposited_assay": true,
+    "raw_FASTQ_preprocessing_independently_reproduced": false,
+    "inner_joins_do_not_censor_keys_under_documented_upstream_enumeration": true,
+    "856_absences_explained_by_strict_DNA_filter_under_documented_pipeline": true,
+    "unthresholded_counts_independently_recovered": false
+  },
+  "verified_forward_partition": {
+    "complete_fibres": 2771,
+    "incomplete_fibres": 429,
+    "nontrivial_complete_fibres": 2771,
+    "vertices_in_complete_fibres": 48306,
+    "edges_in_complete_fibres": 127699,
+    "complete_disconnected_fibres": 240,
+    "observed_premature_stop_strings": 5963,
+    "reference_protein": {
+      "protein_sha256": "3c459103a02d60eefd8a42b84530c2331e5cce25a8eb2d772c85fd3697143089",
+      "expected_vertices": 32,
+      "observed_vertices": 32,
+      "complete": true,
+      "expected_component_sizes": [
+        32
+      ],
+      "observed_component_sizes": [
+        32
+      ],
+      "expected_edges": 112,
+      "observed_edges": 112,
+      "reference_protein": true
+    }
+  },
+  "reference_pilot": {
+    "translated_reporter_residues": 313,
+    "vertices": 32,
+    "edges": 112,
+    "components": [
+      32
+    ],
+    "factor_graph": "K2 Cartesian K4 Cartesian K4",
+    "regular_degree": 7,
+    "diameter": 3,
+    "eightmer_nt_position_cardinalities": [
+      2,
+      1,
+      1,
+      4,
+      1,
+      1,
+      4,
+      1
+    ],
+    "variable_eightmer_positions_one_based": [
+      1,
+      4,
+      7
+    ],
+    "affected_codon_cardinalities": [
+      2,
+      4,
+      4,
+      1
+    ],
+    "nucleotide_additive_design_rank_including_intercept": 8,
+    "codon_additive_design_rank_including_intercept": 8,
+    "main_effect_degrees_of_freedom": 7,
+    "nonadditive_complement_dimension": 24,
+    "two_factor_interaction_dimension": 15,
+    "three_factor_interaction_dimension": 9,
+    "all_32_pass_strict_DNA_gt50": true,
+    "all_32_positive_in_each_DNA_library": true,
+    "RNA_libraries": [
+      "CDS_1",
+      "CDS_2",
+      "CDS_3"
+    ],
+    "DNA_libraries": [
+      "CDS_8",
+      "CDS_9",
+      "CDS_10"
+    ],
+    "pairing_assumed": false,
+    "independent_biological_replicates_established": false,
+    "other_protein_outcomes_untouched": true
+  },
+  "remaining_holds": [
+    "Root must freeze pilot estimand and analysis before outcomes",
+    "Biological versus technical replicate identity and dependence",
+    "Historical software and shrinkage uncertainty implementation",
+    "Simultaneous uncertainty calibration, not independent marginal boxes",
+    "Raw FASTQ preprocessing provenance not reproduced"
+  ]
+}

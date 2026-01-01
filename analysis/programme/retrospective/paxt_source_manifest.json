@@ -1,0 +1,312 @@
+{
+  "kind": "bounded_source_eligibility_no_outcome_rows",
+  "source_doi": "10.1038/s41467-026-77792-7",
+  "source_pmid": "42897178",
+  "source_amass_id": "AMBC_MznalvccBU36dq0IdjePDBouDCy",
+  "archive_doi": "10.5281/zenodo.22049874",
+  "archive_release": "v1.0.0",
+  "archive_revision_prefix": "ebf84dd",
+  "archive": {
+    "url": "https://zenodo.org/records/22049874/files/sijinsmart/CAI-analysis-code-v1.0.0.zip?download=1",
+    "retry_count": 0,
+    "credentials_supplied": false,
+    "status": 200,
+    "final_host": "zenodo.org",
+    "content_type": "application/octet-stream, application/octet-stream",
+    "bytes": 10649648,
+    "sha256": "1dd84b087f9573313422481bf5bb3b7e4f8fa1bc389217de8834d10a7ed256c5",
+    "md5": "cd1a208ca75d677f54e5d2efcfb43c0f"
+  },
+  "members": [
+    {
+      "path": "sijinsmart-CAI-analysis-code-ebf84dd/.gitignore",
+      "bytes": 113,
+      "sha256": "4b675d96dbfe1a8ef05c2f276e50297e6817cad3afde701c98b2c774e4c3c070"
+    },
+    {
+      "path": "sijinsmart-CAI-analysis-code-ebf84dd/CITATION.cff",
+      "bytes": 671,
+      "sha256": "a33e282ef53faa45e1af810e27a9553fcb3f1dfe34df1e4089c58620a623eff9"
+    },
+    {
+      "path": "sijinsmart-CAI-analysis-code-ebf84dd/Plot_Code/CAI_Distribution.ipynb",
+      "bytes": 14418,
+      "sha256": "9c8767eef56cca8f7e597b3f3cabfc78e6a2e76d080fa5eb975abf205a3ac2e3"
+    },
+    {
+      "path": "sijinsmart-CAI-analysis-code-ebf84dd/Plot_Code/CDS_Rareness.ipynb",
+      "bytes": 21869,
+      "sha256": "a693acab8353be9443d8f6fe260b4c520cc28878ecf7648dad25c3815e47d848"
+    },
+    {
+      "path": "sijinsmart-CAI-analysis-code-ebf84dd/Plot_Code/CDS_length.ipynb",
+      "bytes": 10084,
+      "sha256": "a9e66b057d49d4f009ffac405a6819f81c145f3377193bb382e131a32dcf6256"
+    },
+    {
+      "path": "sijinsmart-CAI-analysis-code-ebf84dd/Plot_Code/Data_Prepared.ipynb",
+      "bytes": 15446,
+      "sha256": "a99f649ff80647040c19e84c1ca23239fbf54256f8ab03538341a4fb0e3df262"
+    },
+    {
+      "path": "sijinsmart-CAI-analysis-code-ebf84dd/Plot_Code/Expression_Level.ipynb",
+      "bytes": 21423,
+      "sha256": "486544af8bbc8eca3dda71a90c8c80346a357045357854ce806061899950ee73"
+    },
+    {
+      "path": "sijinsmart-CAI-analysis-code-ebf84dd/Plot_Code/GC_content.ipynb",
+      "bytes": 19278,
+      "sha256": "44848487f3d7b3441f0d2ab9c2c8d59854ac94fecee8e4fd841b5d603ed0a32d"
+    },
+    {
+      "path": "sijinsmart-CAI-analysis-code-ebf84dd/Plot_Code/Intron_gc.ipynb",
+      "bytes": 22156,
+      "sha256": "33f01ac5d8c65b35dc4769516de97a616bc6068fde9f7fc4bb8b96b992586f5c"
+    },
+    {
+      "path": "sijinsmart-CAI-analysis-code-ebf84dd/Plot_Code/Introns_length.ipynb",
+      "bytes": 16515,
+      "sha256": "5a94b0ec7a0b8adb5321eddea4b110956cc01c27667a03526502464e09af1010"
+    },
+    {
+      "path": "sijinsmart-CAI-analysis-code-ebf84dd/README.md",
+      "bytes": 1857,
+      "sha256": "04b43417abc5aa39b330ff086df0d0036071a34430b07d387dc662287c503634"
+    },
+    {
+      "path": "sijinsmart-CAI-analysis-code-ebf84dd/data/Proteomics Counts.csv",
+      "bytes": 2300628,
+      "sha256": "2aef9388f1ec75ef618543ac72fa312b81247f12e9d6ed204f4ecd0daeac21b4"
+    },
+    {
+      "path": "sijinsmart-CAI-analysis-code-ebf84dd/data/Proteomics Stats.csv",
+      "bytes": 338708,
+      "sha256": "2be29e0e0efb3dba621ae3909365631902f5b9f1b2e622ccd6b5e73c03cd172b"
+    },
+    {
+      "path": "sijinsmart-CAI-analysis-code-ebf84dd/data/README.md",
+      "bytes": 1857,
+      "sha256": "04b43417abc5aa39b330ff086df0d0036071a34430b07d387dc662287c503634"
+    },
+    {
+      "path": "sijinsmart-CAI-analysis-code-ebf84dd/data/RNA Seq Counts.csv",
+      "bytes": 5696219,
+      "sha256": "541fa5acf37e3fc7c0314e6c45727db546334379810a9ff2f2a1b0f9123ae33a"
+    },
+    {
+      "path": "sijinsmart-CAI-analysis-code-ebf84dd/data/RNA Seq Stats.csv",
+      "bytes": 3051499,
+      "sha256": "ac4f64b2d6ec957aaf81e4599a3e01d0dfcc7173f10f699ec5403c84f8c26a90"
+    },
+    {
+      "path": "sijinsmart-CAI-analysis-code-ebf84dd/data/sequence.txt",
+      "bytes": 19545939,
+      "sha256": "40244d9da54edf33995557c12bfedea4854bf498199ea9cef2f154b78a36ac8e"
+    },
+    {
+      "path": "sijinsmart-CAI-analysis-code-ebf84dd/external_data/README.md",
+      "bytes": 935,
+      "sha256": "3253c73ae2dfd5a967877120acccaaca133da103ffff0f8a69c6dc563e78aff0"
+    }
+  ],
+  "headers": [
+    {
+      "file": "sijinsmart-CAI-analysis-code-ebf84dd/data/Proteomics Counts.csv",
+      "header": [
+        "PG.ProteinGroups",
+        "PG.ProteinDescriptions",
+        "PG.ProteinNames",
+        "ZFC3H1 guide 1 replicate 1",
+        "ZFC3H1 guide 1 replicate 2",
+        "ZFC3H1 guide 1 replicate 3",
+        "ZFC3H1 guide 2 replicate 1",
+        "ZFC3H1 guide 2 replicate 2",
+        "ZFC3H1 guide 2 replicate 3",
+        "Ctrl guide 1 replicate 1",
+        "Ctrl guide 1 replicate 2",
+        "Ctrl guide 1 replicate 3",
+        "Ctrl guide 2 replicate 1",
+        "Ctrl guide 2 replicate 2",
+        "Ctrl guide 2 replicate 3",
+        "SPQC",
+        "SPQC.1",
+        "SPQC.2",
+        "average RNA expression"
+      ]
+    },
+    {
+      "file": "sijinsmart-CAI-analysis-code-ebf84dd/data/Proteomics Stats.csv",
+      "header": [
+        "G.ProteinNames",
+        "Welch's T-test q-value ZFC3H1 KO",
+        "Log2FC"
+      ]
+    },
+    {
+      "file": "sijinsmart-CAI-analysis-code-ebf84dd/data/RNA Seq Counts.csv",
+      "header": [
+        "Unnamed: 0",
+        "Ctrl guide 1 replicate 1",
+        "Ctrl guide 1 replicate 2",
+        "Ctrl guide 1 replicate 3",
+        "Ctrl guide 2 replicate 1",
+        "Ctrl guide 2 replicate 2",
+        "Ctrl guide 2 replicate 3",
+        "ZFC3H1 guide 1 replicate 1",
+        "ZFC3H1 guide 1 replicate 2",
+        "ZFC3H1 guide 1 replicate 3",
+        "ZFC3H1 guide 2 replicate 1",
+        "ZFC3H1 guide 2 replicate 2",
+        "ZFC3H1 guide 2 replicate 3",
+        "average protein expression"
+      ]
+    },
+    {
+      "file": "sijinsmart-CAI-analysis-code-ebf84dd/data/RNA Seq Stats.csv",
+      "header": [
+        "",
+        "baseMean",
+        "log2FoldChange",
+        "lfcSE",
+        "stat",
+        "pvalue",
+        "padj"
+      ]
+    }
+  ],
+  "retrieved_documentation": [
+    {
+      "file": "work\\retrospective_sources\\paxt\\amass_primary_text.md",
+      "bytes": 82187,
+      "sha256": "3ce1576718ba5a62b3ce88de23f4ceb19406a4914fd7fe4ab7283cb87de5e9ff"
+    },
+    {
+      "file": "work\\retrospective_sources\\paxt\\amass_record_metadata.json",
+      "bytes": 2105,
+      "sha256": "d2c5ad7444fdc8d56fddfd5253be3ca56029116c04ccf2856df58bebc0d6486b"
+    },
+    {
+      "file": "work\\retrospective_sources\\paxt\\table_headers.json",
+      "bytes": 1744,
+      "sha256": "e0c16d1cfea55f936f373102473191557c18c4cf3b020965ba9ceb2bca0d7bb3"
+    },
+    {
+      "file": "work\\retrospective_sources\\paxt\\archive_inventory.json",
+      "bytes": 3549,
+      "sha256": "3db0c37b485af7ea7bce3fddbc2fac10b43adf950604cbc04a49e28da2e09b94"
+    },
+    {
+      "file": "work\\retrospective_sources\\paxt\\recovery_receipt.json",
+      "bytes": 437,
+      "sha256": "e50ef67419d42ec193083d4162d2576538f816eda2c3463234a904416f6cccc3"
+    }
+  ],
+  "source_only_notebook_hashes": [
+    {
+      "file": "CAI_Distribution_source_only.py",
+      "sha256": "442a6289af5a0e2b1f611b5ddd0f6d72b9f41298264403d1fddc6d24fe801375"
+    },
+    {
+      "file": "CDS_length_source_only.py",
+      "sha256": "3b8123f29337a2b65949018935438da9e08c69ff79f185e5f98defa19b591004"
+    },
+    {
+      "file": "CDS_Rareness_source_only.py",
+      "sha256": "6a460b9b6ac23632c6fc23093e84262875a4ed4469e9c0682812f56166856f7b"
+    },
+    {
+      "file": "Data_Prepared_source_only.py",
+      "sha256": "69d8454b6f30cbcb12a018b07c060688f4c3dcac62e6001d458eaacc7d8bbeb8"
+    },
+    {
+      "file": "Expression_Level_source_only.py",
+      "sha256": "ac91501416c51499b9432be95192bbb5fc84dc9c8b279530e5967c25e04e9f7d"
+    },
+    {
+      "file": "GC_content_source_only.py",
+      "sha256": "d56696bf73de1433e00b8a5fff9f2738566a23eef11ce84bff6c7b34510e3e36"
+    },
+    {
+      "file": "Intron_gc_source_only.py",
+      "sha256": "c62ff9c84a31a3e211d511f05c339b9589bc06a5ff26730ac1db696b69294d9e"
+    },
+    {
+      "file": "Introns_length_source_only.py",
+      "sha256": "68253291df2a4cfbf1012cca29e94894626acb75675826037ee784c9e44b7784"
+    }
+  ],
+  "access_log": [
+    {
+      "route": "Nature DOI article browser",
+      "status": "authentication redirect, nonretryable; no retry"
+    },
+    {
+      "route": "GitHub tagged release browser",
+      "status": "restricted URL; no retry"
+    },
+    {
+      "route": "Amass primary fulltext",
+      "status": "available via authorized connector; metadata and full primary text retrieved"
+    },
+    {
+      "route": "Zenodo browser download",
+      "status": "10649648 bytes exceeds browser size limit"
+    },
+    {
+      "route": "Zenodo ordinary public download",
+      "status": "HTTP200, expected MD5 verified; no credentials, no retries"
+    }
+  ],
+  "exposure": {
+    "individual_outcome_rows_decoded": 0,
+    "csv_header_lines_decoded": 4,
+    "RNA_or_protein_values_fitted": false,
+    "notebook_outputs_inspected": false,
+    "notebook_code_executed": false,
+    "source_code_cells_inspected": true,
+    "published_aggregate_findings_read": true,
+    "sequence_file_parsed": false,
+    "source_selection_prospectively_blind": false
+  },
+  "design_verified_from_primary_text_and_headers": {
+    "cell_background": "human293T",
+    "conditions": [
+      "Ctrl",
+      "ZFC3H1loss"
+    ],
+    "guides_per_condition": 2,
+    "biological_line_replicates_per_guide": 3,
+    "total_cell_line_units": 12,
+    "matched_RNA_protein_line_labels": true,
+    "control_and_loss_conditions_are_same_culture_pairs": false,
+    "proteomic_SPQC_columns": 3,
+    "SPQC_are_independent_biological_replicates": false,
+    "reporter_coding_constructs": 4,
+    "reporter_protein_families": 2,
+    "complete_synonymous_landscape": false,
+    "source_reported_gene_universe": 9056,
+    "gene_universe_independently_recounted": false
+  },
+  "source_code_findings": {
+    "baseline_average_labels_reversed_relative_to_input_modality": true,
+    "recompute_from_correct_control_columns_required": true,
+    "live_MyGene_mapping_not_frozen": true,
+    "inner_join_cardinality_not_validated": true,
+    "external_MANE_v1_4_and_Ensembl113_required": true,
+    "reference_genome_source_unconfirmed_in_README": true,
+    "published_responder_group_filters_are_outcome_based": true
+  },
+  "eligibility": "conditional_narrow_gene_level_incremental_prediction_only; no synonymous_graph_or_structural_reachability_validation",
+  "remaining_gates": [
+    "freeze unique molecular mapping and CDS selection",
+    "establish measurement scale and missingness rule",
+    "freeze conditional model and test split before outcomes",
+    "replicate-aware joint uncertainty",
+    "respect onecellline externalvalidity limit"
+  ],
+  "licence_metadata": "NoLICENSEmember; inspectedZenodoHTMLlicencevalueunavailable; noassertionaboutreuserights",
+  "report": {
+    "path": "outputs/PAXT_Source_Eligibility.md",
+    "sha256": "d5c941fbf020625097d2bf5275a6905db57e06f8e6b68b188faf52064b7153cc"
+  }
+}
