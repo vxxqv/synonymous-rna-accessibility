@@ -1,0 +1,17 @@
+{
+  "stage": "development_predictions_sealed",
+  "preoutcome_freeze_revision": "7cd8b9fd2795f6b47d3eac95aab537fe11cb27d8",
+  "seal_sha256": "da4c087a1631014b9bc9d09755737bb74f35746b394e77c8a98814e9c42f0d35",
+  "known_genotypes_opened": 65,
+  "allowed_columns_per_genotype": 7,
+  "prediction_status_counts": {
+    "predicted": 11,
+    "missing_known_replicates": 11,
+    "excluded_shared_corner_mask": 1
+  },
+  "target_finiteness_examined": false,
+  "author_means_examined": false,
+  "reserved_values_or_missingness_opened": false,
+  "prediction_seal_files_verified": true,
+  "scope": "Known development corners only. No target outcomes, author means or complete-component summaries have been examined."
+}

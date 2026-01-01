@@ -1,0 +1,48 @@
+{
+  "status": "frozen_ready_before_observed_access",
+  "files_sha256": {
+    "README.md": "428be7a869c32e57712b227e3431c6ccae2783228e8456167638901644b9e3dd",
+    "synthetic_receipt.json": "b28f65599eeb37780e2b1b4ce98182f1c4adc9b6f32b29c0e0276786e7eca89e",
+    "synthetic_receipt_v1_type_bridge_failure.json": "14170b5a59b6066bce53d01426929c264f3ea037bee71c308c69577e6612c4e3",
+    "synthetic_receipt_v2_basic_pass.json": "e80aef92207f68c4f7278caa2ae89b9c7b6ac75f87409760e0c438db6ebdcc6c",
+    "synthetic_receipt_v3_overlap_pass.json": "90d9ee7689f7e71035fe4dc053fd97fba886fc54a4cc94427da8ff85176d2b3f",
+    "synthetic_receipt_v4_exact_threshold_pass.json": "55dabc8795b9f2a99c54587b7e1a61d4f3075f14cf6a568090362db6bcf852fe",
+    "test_adapter.py": "934cb617c768a559aa6aff7fcb05fd696397437590eea4374c511fe420936eef",
+    "verify_observed.py": "6b16d291a8c94804403c1fdea6d281d035892aa8d2d2eeeacd53d81da20d050e"
+  },
+  "reference_sha256": "64a5e9040a77d81dc779583d1d3ea5894a5aebd5718dbf3466281803f48ce375",
+  "held_primary_schema_source_sha256": "5fbdf1c0da2dcf9e53b71199b124c576945d432da5b33bbc4240c1b9bfa21ef5",
+  "synthetic_tests_passed": 15,
+  "real_biological_sources_opened": 0,
+  "scientific_assumptions_added": false,
+  "reference_runner_protocol_modified": false,
+  "authorization_schema": "Cambray_independent_result_v1",
+  "required_explicit_roles": [
+    "evaluation",
+    "unsealed_inputs",
+    "predictions",
+    "prediction_seal",
+    "known_inputs",
+    "split",
+    "components",
+    "edges",
+    "adapter",
+    "reference"
+  ],
+  "numerical_identity_comparison_tolerance": {
+    "relative": 2e-12,
+    "absolute": 2e-12
+  },
+  "exact_comparisons": [
+    "status",
+    "classification labels",
+    "coverage",
+    "thresholds",
+    "numerical-tolerance values",
+    "critical rational geometry boundaries"
+  ],
+  "coverage": "All held core quantities plus complete exact small-square threshold cells; supplemental amendment diagnostics separate.",
+  "history": "Initial adapter Fraction/int-float bridge failure retained; reference unchanged. Subsequent basic, overlap, exact-threshold and final passes retained.",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "next_action": "Wait for root to freeze and explicitly authorize exact observed file hashes. No actual biological output path has been enumerated or opened."
+}

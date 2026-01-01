@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "tests": 15,
+  "failures": 0,
+  "errors": 0,
+  "input_hashes_before_after_equal": {
+    "C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\work\\joint_function_cycle5\\cambray_pilot_preflight\\staged_analysis.py": "5fbdf1c0da2dcf9e53b71199b124c576945d432da5b33bbc4240c1b9bfa21ef5",
+    "C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\work\\joint_function_cycle5\\cambray_independent_review\\reference.py": "64a5e9040a77d81dc779583d1d3ea5894a5aebd5718dbf3466281803f48ce375",
+    "C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\work\\joint_function_cycle5\\observed_result_review\\verify_observed.py": "16eb397f89d610bbe532a1c015bfcc158ce1c88ee285113b72557ce2e6276d29",
+    "C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\work\\joint_function_cycle5\\observed_result_review\\test_adapter.py": "934cb617c768a559aa6aff7fcb05fd696397437590eea4374c511fe420936eef"
+  },
+  "real_biological_sources_opened": 0,
+  "fixture": "Twelve invented squares, eight groups, one partially measured component-only vertex; no archive/outcome path discovery."
+}

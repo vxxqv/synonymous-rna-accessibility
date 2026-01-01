@@ -1,0 +1,23 @@
+{
+  "arm": "development",
+  "author_means_examined": false,
+  "component_outcomes_examined": false,
+  "files": {
+    "known_inputs.json": "3738461643abee9f2f9069033f1d89d6ef79565e579e1bb400ae100388658f20",
+    "predictions.json": "15126d69b10013847e64113527aa4fde8059b057b90e07dde1cef961e27d1f6c"
+  },
+  "input_hashes": {
+    "archive": "2758ed63e469c77b42c01e3c022452ef52ebf8d1bd4a86bd4c5b502e44b7bbc0",
+    "components": "90772dc57ab6dfdadf737e72cc0be11783245299d1ec0e9e589663a64ee1dadd",
+    "edges": "5d7d5f3b1160d7a8338da3f39369720fdc92c6105b47efbd902eeede48a30edd",
+    "graph_rules": "7f901518cfc196de5d6d24c10f6f1b336255063ca8bd22d544accb6ef7b940f3",
+    "mask": "6e869e95b50fe21073fabfca5cda0e544b140b8e5c8a22f217b3c52394fdf3d9",
+    "masking": "ffbf1b1a49a9c97fe259f4a4c9777f027ec9da18025e1611a64efd7c8bdec8fe",
+    "protocol": "0f51ccc808559ea69df3bdf294520d81babb67bf14ca92ce2abb6fcc665760ac",
+    "runner": "5fbdf1c0da2dcf9e53b71199b124c576945d432da5b33bbc4240c1b9bfa21ef5",
+    "split": "394a0c1aa23785c290b31c147d199f406cf46b269daa9159a98c419398b05a4e"
+  },
+  "schema": "Cambray_prediction_seal_v1",
+  "status": "predictions_sealed_before_target_access",
+  "target_finiteness_examined": false
+}
