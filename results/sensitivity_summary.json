@@ -1,0 +1,42 @@
+{
+  "hash_selected": {
+    "context210": {
+      "condition_windows": 48,
+      "nonempty": 46,
+      "with_extra": 0,
+      "mean_excess_nonempty": 0.0
+    },
+    "context300": {
+      "condition_windows": 48,
+      "nonempty": 46,
+      "with_extra": 0,
+      "mean_excess_nonempty": 0.0
+    },
+    "Turner1999": {
+      "condition_windows": 32,
+      "nonempty": 28,
+      "with_extra": 0,
+      "mean_excess_nonempty": 0.0
+    }
+  },
+  "exceptions": {
+    "context210": {
+      "tested_original_cases": 17,
+      "nonempty": 13,
+      "fragmentation_persists": 6,
+      "empty": 4
+    },
+    "context300": {
+      "tested_original_cases": 16,
+      "nonempty": 13,
+      "fragmentation_persists": 9,
+      "empty": 3
+    },
+    "Turner1999": {
+      "tested_original_cases": 17,
+      "nonempty": 16,
+      "fragmentation_persists": 13,
+      "empty": 1
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "incell": {
+    "graphs": 404,
+    "nucleotide": {
+      "nonconstant_graphs": 404,
+      "median_in_sample_R_squared": 0.7911386652534746,
+      "saturated_fits": 3,
+      "observed_mean_integrated_excess": 0.005438149562528713,
+      "rank_restored_mean_integrated_excess": 0.004199755504593815,
+      "rank_restored_mean_longest_lifetime": 0.01264366587796487
+    },
+    "codon": {
+      "nonconstant_graphs": 404,
+      "median_in_sample_R_squared": 0.7923436504566841,
+      "saturated_fits": 3,
+      "observed_mean_integrated_excess": 0.005438149562528713,
+      "rank_restored_mean_integrated_excess": 0.004215923707359535,
+      "rank_restored_mean_longest_lifetime": 0.012942732892874216
+    }
+  },
+  "cellfree": {
+    "graphs": 404,
+    "nucleotide": {
+      "nonconstant_graphs": 404,
+      "median_in_sample_R_squared": 0.7955371514549381,
+      "saturated_fits": 7,
+      "observed_mean_integrated_excess": 0.006924763413344914,
+      "rank_restored_mean_integrated_excess": 0.005692525341503102,
+      "rank_restored_mean_longest_lifetime": 0.019054071422703225
+    },
+    "codon": {
+      "nonconstant_graphs": 404,
+      "median_in_sample_R_squared": 0.7979666494326108,
+      "saturated_fits": 7,
+      "observed_mean_integrated_excess": 0.006924763413344914,
+      "rank_restored_mean_integrated_excess": 0.005767427125342666,
+      "rank_restored_mean_longest_lifetime": 0.019702609906875283
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "00073b478cf6c8dc",
+  "transcript_id": "atpI_atpB_atpE_atpF_atpH_atpA_atpG_atpD_atpC_151",
+  "gene": "atpD",
+  "locus_tag": "b3732",
+  "condition": "incell",
+  "n_compatible": 2,
+  "n_retained": 0,
+  "run_provenance": {
+    "method": "conditional_vertex_null.py",
+    "parameters": {
+      "draws": 999,
+      "cap": 2000,
+      "seed": 1729,
+      "cutoff": 0.5
+    },
+    "source_result_sha256": "f40ec2891bf7aa59acdbf01d8cc19bc6b9f38dbe7cd9c029e19812223240d894",
+    "block_sha256": "9c40133ccdf0bda0a8a2173eee451a03dba200b992798cf290c5c08dfeacce8f",
+    "code_sha256": {
+      "analysis/expansion/provenance.py": "6fe42774119f873b9a8962ca416606411a94ab0f1708ba23d652fb27be46910e",
+      "analysis/expansion/conditional_vertex_null.py": "c73dddb3861242374e2ebab688e8ae3993657900ada9fb5e2f116b0193b7f598",
+      "src/accessibility.py": "0bf96e030647fe823c0367569e936b823b386ee423187636f6381e76baf7d5e1",
+      "analysis/expansion/retention_filtration.py": "5d0a5c080505eb0f2bb97a2e33f2d526c150bf241afbd491893376398c57dac5",
+      "analysis/expansion/smoothness_controls.py": "8ae9349f8272dd132c0bcf5233ea3727ccf4c0642183ddd8d6da5b3a9895b56f"
+    },
+    "python": "3.12.14",
+    "numpy": "2.5.4",
+    "signature": "ab96be94cdca28d0952785f57a0a48289d9ffb07f8b32b5b91049375d7743a50"
+  },
+  "status": "empty"
+}

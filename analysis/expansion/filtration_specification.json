@@ -1,0 +1,11 @@
+{
+ "status": "exploratory extension, specified after the conditional-vertex-null pilot and before the filtration pilot",
+ "question": "Are extra barriers rare across thresholds or just at the primary cutoff?",
+ "cohort": "frozen 404 windows in each of the two primary conditions",
+ "pilot": "first 24 SHA-ordered windows",
+ "method": "exact union-find superlevel merge tree, one activation batch per distinct retention value; finite positive bars inside full compatibility components",
+ "statistics": ["positive bar count", "longest birth-minus-merge retention interval", "integral of excess fragmentation over threshold 0 to 1, assigning zero outside nonempty support", "maximum excess fragmentation"],
+ "null": "199 independent retention-label permutations within each complete compatibility component; preserves all component-specific retained sizes simultaneously at every threshold",
+ "validation": "every observed critical-value excess is compared with separate BFS; finite positive bars exclude persistent baseline components; ties activate at one level",
+ "interpretation": "a model-level topological sensitivity analysis, not physical folding kinetics, energy barriers, experimental replicate uncertainty, or evolution"
+}

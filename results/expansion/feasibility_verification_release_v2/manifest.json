@@ -1,0 +1,106 @@
+{
+  "schema_version": 2,
+  "claim_id": "STANDARD_CODE_2CNF_FEASIBILITY",
+  "repository": {
+    "commit": "423cdc9080037009c836409470aaf77b56f39ce7",
+    "dirty": true
+  },
+  "command": [
+    "C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\work\\env\\Scripts\\python.exe",
+    "analysis/expansion/verification/verify_feasibility_2sat.py",
+    "--outdir",
+    "results\\expansion\\feasibility_verification_release_v2"
+  ],
+  "environment": {
+    "software": [
+      {
+        "name": "CPython",
+        "version": "3.12.14"
+      }
+    ],
+    "hardware": "Windows-11-10.0.26300-SP0"
+  },
+  "mathematics": {
+    "assertion_tested": "Exact standard-code pair-graph feasibility has a linear-size 2-CNF encoding",
+    "coefficient_domain": "Boolean exact finite logic",
+    "conventions": "A=11,G=10,C=01,U=00; standard sense code; six allowed RNA pairs; arbitrary simultaneous pair graph",
+    "inputs": [
+      "analysis/expansion/feasibility_2sat.py",
+      "analysis/expansion/verification/verify_feasibility_2sat.py",
+      "analysis/exact/independent_oracle.py"
+    ],
+    "bounds": {
+      "codon_truth_table_cases": 1280,
+      "fully_pinned_codon_cases": 1280,
+      "stop_codon_rejections": 60,
+      "single_pin_cases": 240,
+      "ordered_pair_truth_table_cases": 16,
+      "random_generic_cnf_cases": 1000,
+      "random_whole_instances": 1000,
+      "random_whole_unsatisfiable": 517,
+      "brute_force_sequences": 31399,
+      "random_whole_satisfiable": 483,
+      "explicit_boundary_cases": 7,
+      "invalid_input_cases": 5
+    },
+    "non_claims": [
+      "Random whole-instance checks cover lengths 1..4, not all lengths.",
+      "The separate structural proof establishes the universal result.",
+      "Boolean bit flips do not represent nucleotide mutation adjacency."
+    ]
+  },
+  "randomness": {
+    "used": true,
+    "generator": "Python random.Random MT19937",
+    "seed": 2026102411
+  },
+  "run": {
+    "started_at": "2026-10-24T16:26:14.654308+00:00",
+    "runtime_seconds": 0.7352150000006077,
+    "status": "completed",
+    "exit_status": 0,
+    "resource_limits": {
+      "memory_bytes": null,
+      "cpu_seconds": null,
+      "max_cores": null,
+      "max_threads": null
+    }
+  },
+  "input_artifacts": [
+    {
+      "path": "analysis/expansion/feasibility_2sat.py",
+      "sha256": "ab0ac0bb93505a2386a4e34fbe6ea0cd5ddaa185f897a12c31b13f9bcb4fd7c5",
+      "sha256_after": "ab0ac0bb93505a2386a4e34fbe6ea0cd5ddaa185f897a12c31b13f9bcb4fd7c5"
+    },
+    {
+      "path": "analysis/expansion/verification/verify_feasibility_2sat.py",
+      "sha256": "5b1a8317dd427c0f069c57de532dd2090e6123768ce1eb37f48551c66d3d14fa",
+      "sha256_after": "5b1a8317dd427c0f069c57de532dd2090e6123768ce1eb37f48551c66d3d14fa"
+    },
+    {
+      "path": "analysis/exact/independent_oracle.py",
+      "sha256": "b0145f8f37197bd3f6da0843a535963bf83db7c6886137cf1c487b554f493cab",
+      "sha256_after": "b0145f8f37197bd3f6da0843a535963bf83db7c6886137cf1c487b554f493cab"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "results/expansion/feasibility_verification_release_v2/feasibility_checks.json",
+      "sha256": "0b5726f0c2063f441c666248f790b30d29f22c17fbf9e7c167199bc226dcd6ff",
+      "kind": "result"
+    }
+  ],
+  "checks": [
+    {
+      "name": "input-hashes-unchanged",
+      "passed": true
+    }
+  ],
+  "result": "completed",
+  "residual_risks": [
+    "Finite checking is not proof-assistant verification; no hard resource limits imposed."
+  ],
+  "declared_results": [
+    "results/expansion/feasibility_verification_release_v2/feasibility_checks.json"
+  ]
+}

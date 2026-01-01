@@ -1,0 +1,74 @@
+{
+  "id": "00e30af0054f7624",
+  "transcript_id": "ygiN_110",
+  "gene": "ygiN",
+  "locus_tag": "b3029",
+  "condition": "cellfree",
+  "n_compatible": 576,
+  "n_retained": 224,
+  "run_provenance": {
+    "method": "conditional_vertex_null.py",
+    "parameters": {
+      "draws": 999,
+      "cap": 2000,
+      "seed": 1729,
+      "cutoff": 0.5
+    },
+    "source_result_sha256": "a429bb9c34c577b229cf6dfe9de993847de043931969efe3785db0c0ede189ad",
+    "block_sha256": "47154c8d6444fc32729949cc116c2f5ba5c6811f7874db17dc69bccfa8ef1ef4",
+    "code_sha256": {
+      "analysis/expansion/provenance.py": "6fe42774119f873b9a8962ca416606411a94ab0f1708ba23d652fb27be46910e",
+      "analysis/expansion/conditional_vertex_null.py": "c73dddb3861242374e2ebab688e8ae3993657900ada9fb5e2f116b0193b7f598",
+      "src/accessibility.py": "0bf96e030647fe823c0367569e936b823b386ee423187636f6381e76baf7d5e1",
+      "analysis/expansion/retention_filtration.py": "5d0a5c080505eb0f2bb97a2e33f2d526c150bf241afbd491893376398c57dac5",
+      "analysis/expansion/smoothness_controls.py": "8ae9349f8272dd132c0bcf5233ea3727ccf4c0642183ddd8d6da5b3a9895b56f"
+    },
+    "python": "3.12.14",
+    "numpy": "2.5.4",
+    "signature": "d50a055e9a5ce86d3e3760ef3e2cda12a71646bec8a3ab7a1a4d6e8a01842ef4"
+  },
+  "status": "evaluated",
+  "uniform": {
+    "exact": false,
+    "population_size": "4980824223963883223107212234863651400943111409735183616470697631410126246198677964342097097732700739272007188160288795440614111017552581738419143435455991002539862000",
+    "draws": 999,
+    "observed_excess": 0.0,
+    "null_mean": 0.010181777759902743,
+    "null_sd": 0.010033634528332166,
+    "null_min": 0.0,
+    "null_max": 0.05269451530612246,
+    "null_quantiles": [
+      0.0,
+      0.008888711734693855,
+      0.03531568877551017
+    ],
+    "statistic_varied": true,
+    "lower_tail_p": 0.344,
+    "mc_se_mean": 0.00031760915130727536,
+    "connection_denominator": "50176",
+    "observed_connection_numerator": "50176"
+  },
+  "degree": {
+    "exact": false,
+    "population_size": "4980824223963883223107212234863651400943111409735183616470697631410126246198677964342097097732700739272007188160288795440614111017552581738419143435455991002539862000",
+    "draws": 999,
+    "observed_excess": 0.0,
+    "null_mean": 0.010333555813466507,
+    "null_sd": 0.010084380125900001,
+    "null_min": 0.0,
+    "null_max": 0.05269451530612246,
+    "null_quantiles": [
+      0.0,
+      0.008888711734693855,
+      0.03531568877551017
+    ],
+    "statistic_varied": true,
+    "lower_tail_p": 0.324,
+    "mc_se_mean": 0.0003192154751304712,
+    "connection_denominator": "50176",
+    "observed_connection_numerator": "50176"
+  },
+  "edge_retention_roughness": 217.6146248851093,
+  "permuted_expected_roughness": 603.0042969899861,
+  "roughness_ratio": 0.3608840367661976
+}

@@ -1,0 +1,10 @@
+{
+  "selection": "first 24 frozen SHA-ordered blocks; no energetic-outcome selection",
+  "graphs": 48,
+  "primary_nonempty": 43,
+  "primary_extra": 0,
+  "any_threshold_extra": 5,
+  "longest_lifetime_mean": 0.004672525009225825,
+  "integrated_excess_mean": 0.0016569179286311285,
+  "cutoff_ambiguities": 0
+}

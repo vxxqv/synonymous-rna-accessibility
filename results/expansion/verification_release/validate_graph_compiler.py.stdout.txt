@@ -1,0 +1,1 @@
+{"seed": 2026102403, "complete_genotype_domains_checked": 200, "endpoint_pairs_checked": 472, "status": "all assertions passed", "boundary_cases": ["empty peptide", "cyclic dependency with count cap", "separate volume cap", "codon-step Ser signature change", "fixed GC disconnected KK"]}

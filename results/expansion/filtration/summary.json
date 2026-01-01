@@ -1,0 +1,38 @@
+{
+  "incell": {
+    "graphs": 404,
+    "graphs_with_positive_bar": 80,
+    "graphs_with_lifetime_above_005": 24,
+    "graphs_with_lifetime_above_010": 15,
+    "longest_lifetime": {
+      "observed_mean": 0.014396508388596211,
+      "null_mean": 0.18984596756737412
+    },
+    "integrated_excess": {
+      "observed_mean": 0.005438149562528713,
+      "null_mean": 0.09985492260385526
+    },
+    "maximum_excess": {
+      "observed_mean": 0.08399730602034654,
+      "null_mean": 0.6370274025205553
+    }
+  },
+  "cellfree": {
+    "graphs": 404,
+    "graphs_with_positive_bar": 90,
+    "graphs_with_lifetime_above_005": 32,
+    "graphs_with_lifetime_above_010": 22,
+    "longest_lifetime": {
+      "observed_mean": 0.020736954231060912,
+      "null_mean": 0.18613190739620603
+    },
+    "integrated_excess": {
+      "observed_mean": 0.006924763413344914,
+      "null_mean": 0.09367243869029891
+    },
+    "maximum_excess": {
+      "observed_mean": 0.09746297015212918,
+      "null_mean": 0.6263453831885055
+    }
+  }
+}

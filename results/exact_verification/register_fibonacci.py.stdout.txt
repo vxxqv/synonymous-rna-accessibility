@@ -1,0 +1,50 @@
+{
+  "1": {
+    "nonempty_orientation_fibres": 216,
+    "vertices": 754,
+    "max_fibre_size": 16,
+    "max_free_path": 1,
+    "edges": 776,
+    "peptides_with_intersection": 216
+  },
+  "2": {
+    "nonempty_orientation_fibres": 476,
+    "vertices": 1764,
+    "max_fibre_size": 9,
+    "max_free_path": 2,
+    "edges": 1706,
+    "peptides_with_intersection": 476
+  },
+  "3": {
+    "nonempty_orientation_fibres": 930,
+    "vertices": 3522,
+    "max_fibre_size": 16,
+    "max_free_path": 4,
+    "edges": 4250,
+    "peptides_with_intersection": 912
+  },
+  "4": {
+    "nonempty_orientation_fibres": 1997,
+    "vertices": 7785,
+    "max_fibre_size": 16,
+    "max_free_path": 2,
+    "edges": 8962,
+    "peptides_with_intersection": 1853
+  },
+  "5": {
+    "nonempty_orientation_fibres": 4000,
+    "vertices": 17208,
+    "max_fibre_size": 16,
+    "max_free_path": 3,
+    "edges": 19856,
+    "peptides_with_intersection": 3691
+  },
+  "6": {
+    "nonempty_orientation_fibres": 8100,
+    "vertices": 38416,
+    "max_fibre_size": 16,
+    "max_free_path": 2,
+    "edges": 49392,
+    "peptides_with_intersection": 7056
+  }
+}

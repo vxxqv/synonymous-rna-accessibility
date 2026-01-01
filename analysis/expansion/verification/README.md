@@ -10,9 +10,9 @@ Use a fresh output directory. The driver records source hashes before/after,
 software versions, commands, exit statuses, runtimes, code revision and result
 hashes. It does not rerun the native folding study. A changed input invalidates
 the run. The authoritative release receipt is
-`results/expansion/verification_release/manifest.json`. The older
-`results/expansion/verification_final/manifest.json` is retained as a historical
-pilot receipt, before the explicit optimized-Python guard was installed.
+`results/expansion/verification_release/manifest.json`. Earlier pilot receipts
+are kept outside the computational release to avoid ambiguity about which
+source-hash record is authoritative.
 Every verifier entry point rejects `python -O` before writing results.
 The separate feasibility release receipt is
 `results/expansion/feasibility_verification_release_v2/manifest.json`.

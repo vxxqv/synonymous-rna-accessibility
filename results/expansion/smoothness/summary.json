@@ -1,0 +1,68 @@
+{
+  "incell": {
+    "graphs": 404,
+    "roughness_mismatch_gt10percent": 13,
+    "exact_conditional_graphs": 64,
+    "integrated_excess": {
+      "observed_mean": 0.005438149562528713,
+      "heat_reference_mean": 0.01104968250689429
+    },
+    "longest_lifetime": {
+      "observed_mean": 0.014396508388596211,
+      "heat_reference_mean": 0.02932999969749502
+    },
+    "exact_conditional_tolerances": {
+      "0.05": {
+        "graphs": 64,
+        "varied": 32,
+        "observed_mean_integrated_excess": 8.457879191085832e-05,
+        "reference_mean_integrated_excess": 0.0023195884670434994
+      },
+      "0.1": {
+        "graphs": 64,
+        "varied": 37,
+        "observed_mean_integrated_excess": 8.457879191085832e-05,
+        "reference_mean_integrated_excess": 0.002922189642944858
+      },
+      "0.2": {
+        "graphs": 64,
+        "varied": 39,
+        "observed_mean_integrated_excess": 8.457879191085832e-05,
+        "reference_mean_integrated_excess": 0.0039012417767872584
+      }
+    }
+  },
+  "cellfree": {
+    "graphs": 404,
+    "roughness_mismatch_gt10percent": 13,
+    "exact_conditional_graphs": 68,
+    "integrated_excess": {
+      "observed_mean": 0.006924763413344914,
+      "heat_reference_mean": 0.011319514836248587
+    },
+    "longest_lifetime": {
+      "observed_mean": 0.020736954231060912,
+      "heat_reference_mean": 0.03093911847860128
+    },
+    "exact_conditional_tolerances": {
+      "0.05": {
+        "graphs": 68,
+        "varied": 30,
+        "observed_mean_integrated_excess": 3.047355180309527e-05,
+        "reference_mean_integrated_excess": 0.0017113809235446303
+      },
+      "0.1": {
+        "graphs": 68,
+        "varied": 33,
+        "observed_mean_integrated_excess": 3.047355180309527e-05,
+        "reference_mean_integrated_excess": 0.0022724459611418845
+      },
+      "0.2": {
+        "graphs": 68,
+        "varied": 38,
+        "observed_mean_integrated_excess": 3.047355180309527e-05,
+        "reference_mean_integrated_excess": 0.003544331599588848
+      }
+    }
+  }
+}

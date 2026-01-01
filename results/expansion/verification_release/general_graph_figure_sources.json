@@ -1,0 +1,591 @@
+{
+  "branching_LKK": {
+    "peptide": "LKK",
+    "pair_edges_positions0": [
+      [
+        0,
+        5
+      ],
+      [
+        0,
+        8
+      ]
+    ],
+    "endpoints": [
+      "CUCAAGAAG",
+      "UUAAAAAAA"
+    ],
+    "certificate": {
+      "status": "connected",
+      "distance": 4,
+      "changed_positions0": [
+        0,
+        2,
+        5,
+        8
+      ],
+      "precedence_event_edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "dependency_height": 3,
+      "witness_order_positions0": [
+        2,
+        0,
+        5,
+        8
+      ],
+      "shortest_paths": "2",
+      "count_status": "exact",
+      "count_backend": "forest_order_polytope"
+    },
+    "vertices": [
+      "UUAAAAAAA",
+      "UUAAAAAAG",
+      "UUAAAGAAA",
+      "UUAAAGAAG",
+      "UUGAAAAAA",
+      "UUGAAAAAG",
+      "UUGAAGAAA",
+      "UUGAAGAAG",
+      "CUUAAGAAG",
+      "CUCAAGAAG",
+      "CUAAAGAAG",
+      "CUGAAGAAG"
+    ],
+    "edges_vertex_indices": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        3,
+        7
+      ],
+      [
+        3,
+        10
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        7,
+        11
+      ],
+      [
+        8,
+        9
+      ],
+      [
+        8,
+        10
+      ],
+      [
+        8,
+        11
+      ],
+      [
+        9,
+        10
+      ],
+      [
+        9,
+        11
+      ],
+      [
+        10,
+        11
+      ]
+    ],
+    "shortest_paths": [
+      [
+        "CUCAAGAAG",
+        "CUAAAGAAG",
+        "UUAAAGAAG",
+        "UUAAAAAAG",
+        "UUAAAAAAA"
+      ],
+      [
+        "CUCAAGAAG",
+        "CUAAAGAAG",
+        "UUAAAGAAG",
+        "UUAAAGAAA",
+        "UUAAAAAAA"
+      ]
+    ],
+    "shortest_mutation_orders_positions0": [
+      [
+        2,
+        0,
+        5,
+        8
+      ],
+      [
+        2,
+        0,
+        8,
+        5
+      ]
+    ],
+    "dag_event_labels": [
+      "Leu first C->U",
+      "Leu wobble C->A",
+      "Lys1 wobble G->A",
+      "Lys2 wobble G->A"
+    ],
+    "dag_positions0": [
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        2,
+        -0.6
+      ],
+      [
+        2,
+        0.6
+      ]
+    ]
+  },
+  "weighted_Leu_Lys": {
+    "peptide": "LK",
+    "pair_edges_positions0": [
+      [
+        0,
+        5
+      ]
+    ],
+    "vertices": [
+      "UUAAAA",
+      "UUAAAG",
+      "UUGAAA",
+      "UUGAAG",
+      "CUUAAG",
+      "CUCAAG",
+      "CUAAAG",
+      "CUGAAG"
+    ],
+    "edges_vertex_indices": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        6
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        7
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        4,
+        7
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        6,
+        7
+      ]
+    ],
+    "projection": {
+      "baseline_extension_factor": "2",
+      "free_sites0": [
+        0,
+        5
+      ],
+      "leucine_activity2_sites0": [
+        0
+      ],
+      "residual_edges_on_free_indices": [
+        [
+          0,
+          1
+        ]
+      ],
+      "baseline_paired_bases": {
+        "0": "U",
+        "5": "G"
+      },
+      "status": "exact",
+      "volume": "8",
+      "weighted_independent_set_sum": "4",
+      "dangerous_marginals": {
+        "0": "1/2",
+        "5": "1/4"
+      }
+    },
+    "projected_states": [
+      {
+        "paired_bases": [
+          "C",
+          "G"
+        ],
+        "multiplicity": 4,
+        "sequences": [
+          "CUUAAG",
+          "CUCAAG",
+          "CUAAAG",
+          "CUGAAG"
+        ],
+        "danger_bits": [
+          1,
+          0
+        ]
+      },
+      {
+        "paired_bases": [
+          "U",
+          "A"
+        ],
+        "multiplicity": 2,
+        "sequences": [
+          "UUAAAA",
+          "UUGAAA"
+        ],
+        "danger_bits": [
+          0,
+          1
+        ]
+      },
+      {
+        "paired_bases": [
+          "U",
+          "G"
+        ],
+        "multiplicity": 2,
+        "sequences": [
+          "UUAAAG",
+          "UUGAAG"
+        ],
+        "danger_bits": [
+          0,
+          0
+        ]
+      }
+    ]
+  },
+  "star_family": [
+    {
+      "partners": 1,
+      "volume": "8",
+      "C_first_probability_numerator": 1,
+      "C_first_probability_denominator": 2,
+      "shortest_paths": "1",
+      "changed_events": 3
+    },
+    {
+      "partners": 2,
+      "volume": "12",
+      "C_first_probability_numerator": 1,
+      "C_first_probability_denominator": 3,
+      "shortest_paths": "2",
+      "changed_events": 4
+    },
+    {
+      "partners": 3,
+      "volume": "20",
+      "C_first_probability_numerator": 1,
+      "C_first_probability_denominator": 5,
+      "shortest_paths": "6",
+      "changed_events": 5
+    },
+    {
+      "partners": 4,
+      "volume": "36",
+      "C_first_probability_numerator": 1,
+      "C_first_probability_denominator": 9,
+      "shortest_paths": "24",
+      "changed_events": 6
+    },
+    {
+      "partners": 5,
+      "volume": "68",
+      "C_first_probability_numerator": 1,
+      "C_first_probability_denominator": 17,
+      "shortest_paths": "120",
+      "changed_events": 7
+    },
+    {
+      "partners": 6,
+      "volume": "132",
+      "C_first_probability_numerator": 1,
+      "C_first_probability_denominator": 33,
+      "shortest_paths": "720",
+      "changed_events": 8
+    },
+    {
+      "partners": 7,
+      "volume": "260",
+      "C_first_probability_numerator": 1,
+      "C_first_probability_denominator": 65,
+      "shortest_paths": "5040",
+      "changed_events": 9
+    },
+    {
+      "partners": 8,
+      "volume": "516",
+      "C_first_probability_numerator": 1,
+      "C_first_probability_denominator": 129,
+      "shortest_paths": "40320",
+      "changed_events": 10
+    },
+    {
+      "partners": 9,
+      "volume": "1028",
+      "C_first_probability_numerator": 1,
+      "C_first_probability_denominator": 257,
+      "shortest_paths": "362880",
+      "changed_events": 11
+    },
+    {
+      "partners": 10,
+      "volume": "2052",
+      "C_first_probability_numerator": 1,
+      "C_first_probability_denominator": 513,
+      "shortest_paths": "3628800",
+      "changed_events": 12
+    },
+    {
+      "partners": 11,
+      "volume": "4100",
+      "C_first_probability_numerator": 1,
+      "C_first_probability_denominator": 1025,
+      "shortest_paths": "39916800",
+      "changed_events": 13
+    },
+    {
+      "partners": 12,
+      "volume": "8196",
+      "C_first_probability_numerator": 1,
+      "C_first_probability_denominator": 2049,
+      "shortest_paths": "479001600",
+      "changed_events": 14
+    },
+    {
+      "partners": 13,
+      "volume": "16388",
+      "C_first_probability_numerator": 1,
+      "C_first_probability_denominator": 4097,
+      "shortest_paths": "6227020800",
+      "changed_events": 15
+    },
+    {
+      "partners": 14,
+      "volume": "32772",
+      "C_first_probability_numerator": 1,
+      "C_first_probability_denominator": 8193,
+      "shortest_paths": "87178291200",
+      "changed_events": 16
+    },
+    {
+      "partners": 15,
+      "volume": "65540",
+      "C_first_probability_numerator": 1,
+      "C_first_probability_denominator": 16385,
+      "shortest_paths": "1307674368000",
+      "changed_events": 17
+    },
+    {
+      "partners": 16,
+      "volume": "131076",
+      "C_first_probability_numerator": 1,
+      "C_first_probability_denominator": 32769,
+      "shortest_paths": "20922789888000",
+      "changed_events": 18
+    },
+    {
+      "partners": 17,
+      "volume": "262148",
+      "C_first_probability_numerator": 1,
+      "C_first_probability_denominator": 65537,
+      "shortest_paths": "355687428096000",
+      "changed_events": 19
+    },
+    {
+      "partners": 18,
+      "volume": "524292",
+      "C_first_probability_numerator": 1,
+      "C_first_probability_denominator": 131073,
+      "shortest_paths": "6402373705728000",
+      "changed_events": 20
+    },
+    {
+      "partners": 19,
+      "volume": "1048580",
+      "C_first_probability_numerator": 1,
+      "C_first_probability_denominator": 262145,
+      "shortest_paths": "121645100408832000",
+      "changed_events": 21
+    },
+    {
+      "partners": 20,
+      "volume": "2097156",
+      "C_first_probability_numerator": 1,
+      "C_first_probability_denominator": 524289,
+      "shortest_paths": "2432902008176640000",
+      "changed_events": 22
+    },
+    {
+      "partners": 21,
+      "volume": "4194308",
+      "C_first_probability_numerator": 1,
+      "C_first_probability_denominator": 1048577,
+      "shortest_paths": "51090942171709440000",
+      "changed_events": 23
+    },
+    {
+      "partners": 22,
+      "volume": "8388612",
+      "C_first_probability_numerator": 1,
+      "C_first_probability_denominator": 2097153,
+      "shortest_paths": "1124000727777607680000",
+      "changed_events": 24
+    },
+    {
+      "partners": 23,
+      "volume": "16777220",
+      "C_first_probability_numerator": 1,
+      "C_first_probability_denominator": 4194305,
+      "shortest_paths": "25852016738884976640000",
+      "changed_events": 25
+    },
+    {
+      "partners": 24,
+      "volume": "33554436",
+      "C_first_probability_numerator": 1,
+      "C_first_probability_denominator": 8388609,
+      "shortest_paths": "620448401733239439360000",
+      "changed_events": 26
+    },
+    {
+      "partners": 25,
+      "volume": "67108868",
+      "C_first_probability_numerator": 1,
+      "C_first_probability_denominator": 16777217,
+      "shortest_paths": "15511210043330985984000000",
+      "changed_events": 27
+    },
+    {
+      "partners": 26,
+      "volume": "134217732",
+      "C_first_probability_numerator": 1,
+      "C_first_probability_denominator": 33554433,
+      "shortest_paths": "403291461126605635584000000",
+      "changed_events": 28
+    },
+    {
+      "partners": 27,
+      "volume": "268435460",
+      "C_first_probability_numerator": 1,
+      "C_first_probability_denominator": 67108865,
+      "shortest_paths": "10888869450418352160768000000",
+      "changed_events": 29
+    },
+    {
+      "partners": 28,
+      "volume": "536870916",
+      "C_first_probability_numerator": 1,
+      "C_first_probability_denominator": 134217729,
+      "shortest_paths": "304888344611713860501504000000",
+      "changed_events": 30
+    },
+    {
+      "partners": 29,
+      "volume": "1073741828",
+      "C_first_probability_numerator": 1,
+      "C_first_probability_denominator": 268435457,
+      "shortest_paths": "8841761993739701954543616000000",
+      "changed_events": 31
+    },
+    {
+      "partners": 30,
+      "volume": "2147483652",
+      "C_first_probability_numerator": 1,
+      "C_first_probability_denominator": 536870913,
+      "shortest_paths": "265252859812191058636308480000000",
+      "changed_events": 32
+    }
+  ],
+  "interpretation": "Compatibility counts under uniform synonymous genotypes; no energetic, fitness or measured transition-rate meaning."
+}

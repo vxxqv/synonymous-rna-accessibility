@@ -1,0 +1,20 @@
+{
+  "n_windows": 20,
+  "n_genes": 2,
+  "n_condition_window_results": 40,
+  "n_filtered_graphs": 160,
+  "nonempty_filtered_graphs": 150,
+  "empty_filtered_graphs": 10,
+  "additional_fragmentation_graphs": 0,
+  "native_register_shift_examples": 0,
+  "compatibility_components_by_gene": {
+    "rpsM": [
+      1.0
+    ],
+    "rpsB": [
+      0.5555555555555556
+    ]
+  },
+  "independence_unit": "two loci;20 overlapping windows do not constitute20 biological replicates",
+  "interpretation": "OriginalCT pairing-sensitive loci supply an exact compatibility/folding model sensitivity with no additional fragmentation under these four declared filters; no empirical mutational trajectory was measured."
+}
