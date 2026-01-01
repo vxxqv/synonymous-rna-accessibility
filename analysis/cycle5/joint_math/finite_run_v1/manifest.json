@@ -1,0 +1,30 @@
+{
+  "run": {
+    "status": "completed",
+    "elapsed_seconds": 1.092648099991493,
+    "argv": [
+      "work/joint_function_cycle5/joint_math/verify_finite.py",
+      "--out",
+      "work/joint_function_cycle5/joint_math/finite_run_v1"
+    ]
+  },
+  "software": {
+    "python": "3.12.14",
+    "implementation": "CPython"
+  },
+  "arithmetic": "fractions.Fraction exact rational; no numerical tolerance or randomness",
+  "inputs_before": {
+    "verify_finite.py": "91b6dcc72627fe78b50ae5516cd3934d81b924f5e15281903ed787bc916cc619",
+    "claim_and_proof.md": "d5ef26923060fd587bb35b0c2d03d6ae39c34fda1e9a967f87e723e00d5cadb1",
+    "prior_map.md": "252e2ba00b776e5feabe24f91a074dbe09100bf99430a3d548b593d8df9e1b30"
+  },
+  "inputs_after": {
+    "verify_finite.py": "91b6dcc72627fe78b50ae5516cd3934d81b924f5e15281903ed787bc916cc619",
+    "claim_and_proof.md": "d5ef26923060fd587bb35b0c2d03d6ae39c34fda1e9a967f87e723e00d5cadb1",
+    "prior_map.md": "252e2ba00b776e5feabe24f91a074dbe09100bf99430a3d548b593d8df9e1b30"
+  },
+  "outputs": {
+    "results.json": "91214e9453b06520ee85d7c1bf4d9a6e6b27c9de1981e468a1cb7bdf691df973"
+  },
+  "review_provenance": "Author implementation with two distinct path algorithms; fresh independent reviewer pending."
+}

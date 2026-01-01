@@ -1,0 +1,159 @@
+{
+  "schema_version": 1,
+  "cycle": 5,
+  "recorded_utc": "2026-10-25T13:48:53.316882+00:00",
+  "baseline_revision": "a2cd60afb96be6bd3b11ffc1c692471f979f3251",
+  "status": "literature_review_complete_protocol_preflight_in_progress",
+  "new_phenotype_values_analyzed": 0,
+  "branches": [
+    {
+      "id": "joint_functions",
+      "state": "source_screened",
+      "decision": "conditional_descriptive_pilot",
+      "reason": "47 complete intended-synonymous squares; paired processed protein/growth fields; uncertain calibrated joint error",
+      "next_gate": "independent protocol and synthetic checks, then immutable freeze before outcomes"
+    },
+    {
+      "id": "rank_codon_bound",
+      "state": "derived_self_checked",
+      "decision": "independent_proof_review",
+      "reason": "explicit rank and mandatory coding-path bound; classical Steinitz engine, novelty limited to useful specialization",
+      "next_gate": "fresh proof review and demonstrated relevance, not generic novelty"
+    },
+    {
+      "id": "matched_context",
+      "state": "source_screened",
+      "decision": "metadata_only_reserve",
+      "reason": "paired intron-context design promising, exact variant and preparation map unresolved",
+      "next_gate": "authenticate identical sequence IDs, assay overlap and preparation dependence"
+    },
+    {
+      "id": "splicing",
+      "state": "source_screened",
+      "decision": "gated",
+      "reason": "SMN rescue already known; main-table/clone and replicate gaps; OpenSplice single-edge schema mismatch",
+      "next_gate": "resolve specific source contract before a fresh frozen question"
+    },
+    {
+      "id": "nascent_structure",
+      "state": "source_screened",
+      "decision": "defer_large_analysis",
+      "reason": "strong mechanistic prior but matched independent processing target and distinct prediction not yet authenticated",
+      "next_gate": "identify a new discriminating matched outcome, not a larger generic feature model"
+    },
+    {
+      "id": "independent_fitness",
+      "state": "literature_screened",
+      "decision": "reserve",
+      "reason": "human and yeast public screens offer external functional evidence but guide/genotype, nested replication and ascertainment require audit",
+      "next_gate": "exact measurement and identifiability contract; no new outcome analysis"
+    },
+    {
+      "id": "noise_evolution",
+      "state": "source_screened",
+      "decision": "defer",
+      "reason": "noise filtering/access and codon-aware evolutionary identifiability are unresolved",
+      "next_gate": "new data or specific gap resolution, no automatic expansion"
+    }
+  ],
+  "retired_validation": [
+    "Gill",
+    "PERSIST",
+    "CNOT3",
+    "acquisition_efficiency",
+    "original_folding_cohorts"
+  ],
+  "cambray_exposure_rule": "exclude all seed1 and its peptides; published source results remain disclosed discovery exposure",
+  "continuation_rule": "A new cycle must change the scientific question or evidence, not retune exposed outcomes.",
+  "source_review_files": [
+    {
+      "path": "root_literature_decisions.md",
+      "sha256": "dbb9260ff14e81c853ad2c4f40bfa47056c9fca6b623ee8d0a6b5c1cbf4859ab"
+    },
+    {
+      "path": "cambray_eligibility/report.md",
+      "sha256": "b698ac93a8e74cf51a5afda0637a8111e85fc4daef616c3634e60bd3b44a0ed7"
+    },
+    {
+      "path": "cambray_eligibility/closest_prior.md",
+      "sha256": "e0ae475684b6b4f738b3bea63b7e968899bf3473bcc9ee6efb8e223d5819b14f"
+    },
+    {
+      "path": "splicing_sources/review.md",
+      "sha256": "1f201464a06b1f3d8a89bdce2a35d08f494b3d49aad559a3d26f8bad873bf682"
+    },
+    {
+      "path": "joint_math/prior_map.md",
+      "sha256": "252e2ba00b776e5feabe24f91a074dbe09100bf99430a3d548b593d8df9e1b30"
+    }
+  ],
+  "root_source_records": [
+    {
+      "id": "costseq_amass",
+      "title": "Rapid folding of nascent RNA regulates eukaryotic RNA biogenesis",
+      "doi": "10.1016/j.molcel.2025.02.025",
+      "pmid": "40139190",
+      "date": "2025-03-25",
+      "fulltext_available": true,
+      "is_retracted_in_index": false,
+      "receipt_path": "root_sources\\costseq_amass.json",
+      "receipt_sha256": "4c98cea63947271fd9ad0e96fe5cc0bf8926cac97259004c2b84cad76b0fa2e4",
+      "reading_level": "full text and targeted methods"
+    },
+    {
+      "id": "human_primeedit_amass",
+      "title": "Prime editor-based high-throughput screening reveals functional synonymous mutations in human cells",
+      "doi": "10.1038/s41587-025-02710-z",
+      "pmid": "40555761",
+      "date": "2025-06-24",
+      "fulltext_available": false,
+      "is_retracted_in_index": false,
+      "receipt_path": "root_sources\\human_primeedit_amass.json",
+      "receipt_sha256": "b937736977e9a3972cb05aab08aff540afff39401dec1c02c7ce065ea5312378",
+      "reading_level": "abstract and metadata only"
+    },
+    {
+      "id": "human_synonymous_2026_amass",
+      "title": "Synonymous mutations in essential genes infrequently produce fitness effects in human cell lines",
+      "doi": "10.1093/nar/gkag733",
+      "pmid": "42554160",
+      "date": "2026-07-17",
+      "fulltext_available": true,
+      "is_retracted_in_index": false,
+      "receipt_path": "root_sources\\human_synonymous_2026_amass.json",
+      "receipt_sha256": "32e628b2cb40157430c5c415041683ecd2c17c5bb1c77459fb2c8d5d879b0039",
+      "reading_level": "full text and targeted methods"
+    },
+    {
+      "id": "saldi_amass",
+      "title": "Alternative RNA structures formed during transcription depend on elongation rate and modify RNA processing",
+      "doi": "10.1016/j.molcel.2021.01.040",
+      "pmid": "33631106",
+      "date": "2021-02-24",
+      "fulltext_available": true,
+      "is_retracted_in_index": false,
+      "receipt_path": "root_sources\\saldi_amass.json",
+      "receipt_sha256": "4937c00355734bc2be565fc9dbfbd0109286595a0fd3233b632b49d5837ad247",
+      "reading_level": "full text and targeted methods"
+    },
+    {
+      "id": "yeast_codon_lm_amass",
+      "title": "Protein language models reveal evolutionary constraints on synonymous codon choice",
+      "doi": "10.1101/2025.08.05.668603",
+      "pmid": "40799605",
+      "date": "2025-08-05",
+      "fulltext_available": true,
+      "is_retracted_in_index": false,
+      "receipt_path": "root_sources\\yeast_codon_lm_amass.json",
+      "receipt_sha256": "c399809f4daea152d5ab0612bdac2a55bd8a433a657ac50fc6f1737631e64643",
+      "reading_level": "full text and targeted methods"
+    }
+  ],
+  "citation_audit": {
+    "references": 8,
+    "matched": 8,
+    "retracted_returned": 0,
+    "not_an_exhaustive_correction_guarantee": true,
+    "receipt_sha256": "68bffd87893a25fcf7b99aa8c0fc63f28b5dc01fafa16032cc869cf7ace4227f"
+  }
+}

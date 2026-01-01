@@ -1,0 +1,28 @@
+{
+  "status": "claim_boundary_audit_complete",
+  "allowed_current_categories": [
+    "B",
+    "D",
+    "E"
+  ],
+  "A_C": "conditional on additional explicitly named evidence, not current data",
+  "source_hashes_verified_at_close": {
+    "cambray_pilot/protocol_draft.md": "9becbd723fac30ac12ad9e95d5fb80cb69b5bd93c99210668e0479a24879adde",
+    "cambray_pilot/amendment_01_draft.md": "92c5028dff57df644ad18479f79b4be2e604b7bbe7798e30cdd3dfe5a7fa94d0",
+    "measurement_limits/report.md": "1171ef7242e299214c8449ee0222b5f50f1a982bdb73b1b36169aab77d7d3740",
+    "theory_application_limits/applicability.md": "50316f3e19a90e3075831cecac6055cffeae15a547197841cb3f2b965c1d1e93",
+    "resolution_theory_review/review.md": "0300c433afcfc2c593a346ed00966683a8805ff2205d4b3da439624a1e1d3e86",
+    "coverage_resolution/report.md": "d18a070b5072f877257a72100e5ea5f3e82f78294dfbeaa54ec0b30bafd79989",
+    "overlap_limits/report.md": "6ab535da112172541f6e20e7d9de059c0bd0bbb0fcccd70654c92faf2e02018a"
+  },
+  "report_sha256": "6d4cf39fb8dba7fb4c89edb51440dff9c4ec30124332a0c6fba58b06ac547214",
+  "conditional_result_patterns": 12,
+  "new_biological_values_opened": 0,
+  "new_literature_searches": 0,
+  "models_fitted": 0,
+  "new_computational_enumerations": 0,
+  "shared_sources_edited": false,
+  "real_result_category_assigned": false,
+  "primary_success_criteria_changed": false,
+  "independence": "Adversarial methodology assignment with inherited project context; not blinded/external and no new proof audit"
+}

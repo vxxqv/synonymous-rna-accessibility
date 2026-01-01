@@ -1,0 +1,5240 @@
+{
+  "all_stage_containment_checks_passed": true,
+  "design_sha256": "90a3e1cdeb425cbaf482df4de0ecac3c701510b0fa95e6836918428752ba5363",
+  "deterministic_boundary_controls": 6,
+  "real_phenotype_values_read": 0,
+  "reference_draws": 832,
+  "reference_scalar_comparisons": 23296,
+  "scenarios": [
+    {
+      "arms": {
+        "development": {
+          "descriptive_coverage_pass": {
+            "Monte_Carlo_standard_error": 0.0,
+            "denominator": 10000,
+            "rate": 1.0,
+            "successes": 10000
+          },
+          "descriptive_distinct_targets": {
+            "Monte_Carlo_standard_error_of_mean": 0.0,
+            "mean": 22.0,
+            "quantiles": {
+              "0": 22,
+              "0.025": 22,
+              "0.25": 22,
+              "0.5": 22,
+              "0.75": 22,
+              "0.975": 22,
+              "1": 22
+            },
+            "sample_standard_deviation": 0.0
+          },
+          "descriptive_groups": {
+            "Monte_Carlo_standard_error_of_mean": 0.0,
+            "mean": 16.0,
+            "quantiles": {
+              "0": 16,
+              "0.025": 16,
+              "0.25": 16,
+              "0.5": 16,
+              "0.75": 16,
+              "0.975": 16,
+              "1": 16
+            },
+            "sample_standard_deviation": 0.0
+          },
+          "descriptive_squares": {
+            "Monte_Carlo_standard_error_of_mean": 0.0,
+            "mean": 23.0,
+            "quantiles": {
+              "0": 23,
+              "0.025": 23,
+              "0.25": 23,
+              "0.5": 23,
+              "0.75": 23,
+              "0.975": 23,
+              "1": 23
+            },
+            "sample_standard_deviation": 0.0
+          },
+          "distinct_unscorable_targets": {
+            "Monte_Carlo_standard_error_of_mean": 0.0,
+            "mean": 0.0,
+            "quantiles": {
+              "0": 0,
+              "0.025": 0,
+              "0.25": 0,
+              "0.5": 0,
+              "0.75": 0,
+              "0.975": 0,
+              "1": 0
+            },
+            "sample_standard_deviation": 0.0
+          },
+          "evaluation_given_descriptive_coverage": {
+            "Monte_Carlo_standard_error": 0.0,
+            "denominator": 10000,
+            "rate": 1.0,
+            "successes": 10000
+          },
+          "evaluation_given_known_corner_coverage": {
+            "Monte_Carlo_standard_error": 0.0,
+            "denominator": 10000,
+            "rate": 1.0,
+            "successes": 10000
+          },
+          "known_corner_prediction_coverage_pass": {
+            "Monte_Carlo_standard_error": 0.0,
+            "denominator": 10000,
+            "rate": 1.0,
+            "successes": 10000
+          },
+          "known_corner_prediction_distinct_targets": {
+            "Monte_Carlo_standard_error_of_mean": 0.0,
+            "mean": 21.0,
+            "quantiles": {
+              "0": 21,
+              "0.025": 21,
+              "0.25": 21,
+              "0.5": 21,
+              "0.75": 21,
+              "0.975": 21,
+              "1": 21
+            },
+            "sample_standard_deviation": 0.0
+          },
+          "known_corner_prediction_groups": {
+            "Monte_Carlo_standard_error_of_mean": 0.0,
+            "mean": 16.0,
+            "quantiles": {
+              "0": 16,
+              "0.025": 16,
+              "0.25": 16,
+              "0.5": 16,
+              "0.75": 16,
+              "0.975": 16,
+              "1": 16
+            },
+            "sample_standard_deviation": 0.0
+          },
+          "known_corner_prediction_squares": {
+            "Monte_Carlo_standard_error_of_mean": 0.0,
+            "mean": 22.0,
+            "quantiles": {
+              "0": 22,
+              "0.025": 22,
+              "0.25": 22,
+              "0.5": 22,
+              "0.75": 22,
+              "0.975": 22,
+              "1": 22
+            },
+            "sample_standard_deviation": 0.0
+          },
+          "predicted_but_unscorable_cases": {
+            "Monte_Carlo_standard_error_of_mean": 0.0,
+            "mean": 0.0,
+            "quantiles": {
+              "0": 0,
+              "0.025": 0,
+              "0.25": 0,
+              "0.5": 0,
+              "0.75": 0,
+              "0.975": 0,
+              "1": 0
+            },
+            "sample_standard_deviation": 0.0
+          },
+          "prediction_evaluation_coverage_pass": {
+            "Monte_Carlo_standard_error": 0.0,
+            "denominator": 10000,
+            "rate": 1.0,
+            "successes": 10000
+          },
+          "prediction_evaluation_distinct_targets": {
+            "Monte_Carlo_standard_error_of_mean": 0.0,
+            "mean": 21.0,
+            "quantiles": {
+              "0": 21,
+              "0.025": 21,
+              "0.25": 21,
+              "0.5": 21,
+              "0.75": 21,
+              "0.975": 21,
+              "1": 21
+            },
+            "sample_standard_deviation": 0.0
+          },
+          "prediction_evaluation_groups": {
+            "Monte_Carlo_standard_error_of_mean": 0.0,
+            "mean": 16.0,
+            "quantiles": {
+              "0": 16,
+              "0.025": 16,
+              "0.25": 16,
+              "0.5": 16,
+              "0.75": 16,
+              "0.975": 16,
+              "1": 16
+            },
+            "sample_standard_deviation": 0.0
+          },
+          "prediction_evaluation_squares": {
+            "Monte_Carlo_standard_error_of_mean": 0.0,
+            "mean": 22.0,
+            "quantiles": {
+              "0": 22,
+              "0.025": 22,
+              "0.25": 22,
+              "0.5": 22,
+              "0.75": 22,
+              "0.975": 22,
+              "1": 22
+            },
+            "sample_standard_deviation": 0.0
+          }
+        },
+        "reserved_validation": {
+          "descriptive_coverage_pass": {
+            "Monte_Carlo_standard_error": 0.0,
+            "denominator": 10000,
+            "rate": 1.0,
+            "successes": 10000
+          },
+          "descriptive_distinct_targets": {
+            "Monte_Carlo_standard_error_of_mean": 0.0,
+            "mean": 24.0,
+            "quantiles": {
+              "0": 24,
+              "0.025": 24,
+              "0.25": 24,
+              "0.5": 24,
+              "0.75": 24,
+              "0.975": 24,
+              "1": 24
+            },
+            "sample_standard_deviation": 0.0
+          },
+          "descriptive_groups": {
+            "Monte_Carlo_standard_error_of_mean": 0.0,
+            "mean": 16.0,
+            "quantiles": {
+              "0": 16,
+              "0.025": 16,
+              "0.25": 16,
+              "0.5": 16,
+              "0.75": 16,
+              "0.975": 16,
+              "1": 16
+            },
+            "sample_standard_deviation": 0.0
+          },
+          "descriptive_squares": {
+            "Monte_Carlo_standard_error_of_mean": 0.0,
+            "mean": 24.0,
+            "quantiles": {
+              "0": 24,
+              "0.025": 24,
+              "0.25": 24,
+              "0.5": 24,
+              "0.75": 24,
+              "0.975": 24,
+              "1": 24
+            },
+            "sample_standard_deviation": 0.0
+          },
+          "distinct_unscorable_targets": {
+            "Monte_Carlo_standard_error_of_mean": 0.0,
+            "mean": 0.0,
+            "quantiles": {
+              "0": 0,
+              "0.025": 0,
+              "0.25": 0,
+              "0.5": 0,
+              "0.75": 0,
+              "0.975": 0,
+              "1": 0
+            },
+            "sample_standard_deviation": 0.0
+          },
+          "evaluation_given_descriptive_coverage": {
+            "Monte_Carlo_standard_error": 0.0,
+            "denominator": 10000,
+            "rate": 1.0,
+            "successes": 10000
+          },
+          "evaluation_given_known_corner_coverage": {
+            "Monte_Carlo_standard_error": 0.0,
+            "denominator": 10000,
+            "rate": 1.0,
+            "successes": 10000
+          },
+          "known_corner_prediction_coverage_pass": {
+            "Monte_Carlo_standard_error": 0.0,
+            "denominator": 10000,
+            "rate": 1.0,
+            "successes": 10000
+          },
+          "known_corner_prediction_distinct_targets": {
+            "Monte_Carlo_standard_error_of_mean": 0.0,
+            "mean": 24.0,
+            "quantiles": {
+              "0": 24,
+              "0.025": 24,
+              "0.25": 24,
+              "0.5": 24,
+              "0.75": 24,
+              "0.975": 24,
+              "1": 24
+            },
+            "sample_standard_deviation": 0.0
+          },
+          "known_corner_prediction_groups": {
+            "Monte_Carlo_standard_error_of_mean": 0.0,
+            "mean": 16.0,
+            "quantiles": {
+              "0": 16,
+              "0.025": 16,
+              "0.25": 16,
+              "0.5": 16,
+              "0.75": 16,
+              "0.975": 16,
+              "1": 16
+            },
+            "sample_standard_deviation": 0.0
+          },
+          "known_corner_prediction_squares": {
+            "Monte_Carlo_standard_error_of_mean": 0.0,
+            "mean": 24.0,
+            "quantiles": {
+              "0": 24,
+              "0.025": 24,
+              "0.25": 24,
+              "0.5": 24,
+              "0.75": 24,
+              "0.975": 24,
+              "1": 24
+            },
+            "sample_standard_deviation": 0.0
+          },
+          "predicted_but_unscorable_cases": {
+            "Monte_Carlo_standard_error_of_mean": 0.0,
+            "mean": 0.0,
+            "quantiles": {
+              "0": 0,
+              "0.025": 0,
+              "0.25": 0,
+              "0.5": 0,
+              "0.75": 0,
+              "0.975": 0,
+              "1": 0
+            },
+            "sample_standard_deviation": 0.0
+          },
+          "prediction_evaluation_coverage_pass": {
+            "Monte_Carlo_standard_error": 0.0,
+            "denominator": 10000,
+            "rate": 1.0,
+            "successes": 10000
+          },
+          "prediction_evaluation_distinct_targets": {
+            "Monte_Carlo_standard_error_of_mean": 0.0,
+            "mean": 24.0,
+            "quantiles": {
+              "0": 24,
+              "0.025": 24,
+              "0.25": 24,
+              "0.5": 24,
+              "0.75": 24,
+              "0.975": 24,
+              "1": 24
+            },
+            "sample_standard_deviation": 0.0
+          },
+          "prediction_evaluation_groups": {
+            "Monte_Carlo_standard_error_of_mean": 0.0,
+            "mean": 16.0,
+            "quantiles": {
+              "0": 16,
+              "0.025": 16,
+              "0.25": 16,
+              "0.5": 16,
+              "0.75": 16,
+              "0.975": 16,
+              "1": 16
+            },
+            "sample_standard_deviation": 0.0
+          },
+          "prediction_evaluation_squares": {
+            "Monte_Carlo_standard_error_of_mean": 0.0,
+            "mean": 24.0,
+            "quantiles": {
+              "0": 24,
+              "0.025": 24,
+              "0.25": 24,
+              "0.5": 24,
+              "0.75": 24,
+              "0.975": 24,
+              "1": 24
+            },
+            "sample_standard_deviation": 0.0
+          }
+        }
+      },
+      "both_arms_pass": {
+        "descriptive": {
+          "Monte_Carlo_standard_error": 0.0,
+          "denominator": 10000,
+          "rate": 1.0,
+          "successes": 10000
+        },
+        "known_corner_prediction": {
+          "Monte_Carlo_standard_error": 0.0,
+          "denominator": 10000,
+          "rate": 1.0,
+          "successes": 10000
+        },
+        "prediction_evaluation": {
+          "Monte_Carlo_standard_error": 0.0,
+          "denominator": 10000,
+          "rate": 1.0,
+          "successes": 10000
+        }
+      },
+      "count_array_file": "scenario_01_counts.npz",
+      "count_array_sha256": "7b8ccb771a32066d5c03d2e5edf0d0c975f4366ed49ace8a63a31c575f7728db",
+      "draws": 10000,
+      "family": "A",
+      "p": 0,
+      "seed": 2026102501
+    },
+    {
+      "arms": {
+        "development": {
+          "descriptive_coverage_pass": {
+            "Monte_Carlo_standard_error": 0.0003160696125855823,
+            "denominator": 10000,
+            "rate": 0.999,
+            "successes": 9990
+          },
+          "descriptive_distinct_targets": {
+            "Monte_Carlo_standard_error_of_mean": 0.020347522728040305,
+            "mean": 16.6939,
+            "quantiles": {
+              "0": 8,
+              "0.025": 12,
+              "0.25": 15,
+              "0.5": 17,
+              "0.75": 18,
+              "0.975": 20,
+              "1": 22
+            },
+            "sample_standard_deviation": 2.0347522728040306
+          },
+          "descriptive_groups": {
+            "Monte_Carlo_standard_error_of_mean": 0.014952840624586168,
+            "mean": 13.0946,
+            "quantiles": {
+              "0": 6,
+              "0.025": 10,
+              "0.25": 12,
+              "0.5": 13,
+              "0.75": 14,
+              "0.975": 16,
+              "1": 16
+            },
+            "sample_standard_deviation": 1.4952840624586168
+          },
+          "descriptive_squares": {
+            "Monte_Carlo_standard_error_of_mean": 0.0213722705484195,
+            "mean": 17.3473,
+            "quantiles": {
+              "0": 9,
+              "0.025": 13,
+              "0.25": 16,
+              "0.5": 17,
+              "0.75": 19,
+              "0.975": 21,
+              "1": 23
+            },
+            "sample_standard_deviation": 2.13722705484195
+          },
+          "distinct_unscorable_targets": {
+            "Monte_Carlo_standard_error_of_mean": 0.010565900994538167,
+            "mean": 1.177,
+            "quantiles": {
+              "0": 0,
+              "0.025": 0,
+              "0.25": 0,
+              "0.5": 1,
+              "0.75": 2,
+              "0.975": 4,
+              "1": 7
+            },
+            "sample_standard_deviation": 1.0565900994538167
+          },
+          "evaluation_given_descriptive_coverage": {
+            "Monte_Carlo_standard_error": 0.0,
+            "denominator": 9990,
+            "rate": 1.0,
+            "successes": 9990
+          },
+          "evaluation_given_known_corner_coverage": {
+            "Monte_Carlo_standard_error": 0.0002998949455984584,
+            "denominator": 9999,
+            "rate": 0.9990999099909991,
+            "successes": 9990
+          },
+          "known_corner_prediction_coverage_pass": {
+            "Monte_Carlo_standard_error": 9.999499987498824e-05,
+            "denominator": 10000,
+            "rate": 0.9999,
+            "successes": 9999
+          },
+          "known_corner_prediction_distinct_targets": {
+            "Monte_Carlo_standard_error_of_mean": 0.01766312762813429,
+            "mean": 17.1239,
+            "quantiles": {
+              "0": 10,
+              "0.025": 13,
+              "0.25": 16,
+              "0.5": 17,
+              "0.75": 18,
+              "0.975": 20,
+              "1": 21
+            },
+            "sample_standard_deviation": 1.7663127628134287
+          },
+          "known_corner_prediction_groups": {
+            "Monte_Carlo_standard_error_of_mean": 0.0134401182910705,
+            "mean": 13.8222,
+            "quantiles": {
+              "0": 7,
+              "0.025": 11,
+              "0.25": 13,
+              "0.5": 14,
+              "0.75": 15,
+              "0.975": 16,
+              "1": 16
+            },
+            "sample_standard_deviation": 1.34401182910705
+          },
+          "known_corner_prediction_squares": {
+            "Monte_Carlo_standard_error_of_mean": 0.01859706256572815,
+            "mean": 17.8293,
+            "quantiles": {
+              "0": 10,
+              "0.025": 14,
+              "0.25": 17,
+              "0.5": 18,
+              "0.75": 19,
+              "0.975": 21,
+              "1": 22
+            },
+            "sample_standard_deviation": 1.859706256572815
+          },
+          "predicted_but_unscorable_cases": {
+            "Monte_Carlo_standard_error_of_mean": 0.01124137611032054,
+            "mean": 1.229,
+            "quantiles": {
+              "0": 0,
+              "0.025": 0,
+              "0.25": 0,
+              "0.5": 1,
+              "0.75": 2,
+              "0.975": 4,
+              "1": 7
+            },
+            "sample_standard_deviation": 1.124137611032054
+          },
+          "prediction_evaluation_coverage_pass": {
+            "Monte_Carlo_standard_error": 0.0003160696125855823,
+            "denominator": 10000,
+            "rate": 0.999,
+            "successes": 9990
+          },
+          "prediction_evaluation_distinct_targets": {
+            "Monte_Carlo_standard_error_of_mean": 0.019385190676435352,
+            "mean": 15.9469,
+            "quantiles": {
+              "0": 8,
+              "0.025": 12,
+              "0.25": 15,
+              "0.5": 16,
+              "0.75": 17,
+              "0.975": 19,
+              "1": 21
+            },
+            "sample_standard_deviation": 1.9385190676435353
+          },
+          "prediction_evaluation_groups": {
+            "Monte_Carlo_standard_error_of_mean": 0.015015176341024276,
+            "mean": 13.0705,
+            "quantiles": {
+              "0": 6,
+              "0.025": 10,
+              "0.25": 12,
+              "0.5": 13,
+              "0.75": 14,
+              "0.975": 16,
+              "1": 16
+            },
+            "sample_standard_deviation": 1.5015176341024277
+          },
+          "prediction_evaluation_squares": {
+            "Monte_Carlo_standard_error_of_mean": 0.020452281549549874,
+            "mean": 16.6003,
+            "quantiles": {
+              "0": 8,
+              "0.025": 12,
+              "0.25": 15,
+              "0.5": 17,
+              "0.75": 18,
+              "0.975": 20,
+              "1": 22
+            },
+            "sample_standard_deviation": 2.0452281549549873
+          }
+        },
+        "reserved_validation": {
+          "descriptive_coverage_pass": {
+            "Monte_Carlo_standard_error": 9.999499987498824e-05,
+            "denominator": 10000,
+            "rate": 0.9999,
+            "successes": 9999
+          },
+          "descriptive_distinct_targets": {
+            "Monte_Carlo_standard_error_of_mean": 0.021644837118753976,
+            "mean": 18.1374,
+            "quantiles": {
+              "0": 8,
+              "0.025": 14,
+              "0.25": 17,
+              "0.5": 18,
+              "0.75": 20,
+              "0.975": 22,
+              "1": 24
+            },
+            "sample_standard_deviation": 2.1644837118753975
+          },
+          "descriptive_groups": {
+            "Monte_Carlo_standard_error_of_mean": 0.014174165290985204,
+            "mean": 13.4373,
+            "quantiles": {
+              "0": 7,
+              "0.025": 10,
+              "0.25": 13,
+              "0.5": 14,
+              "0.75": 14,
+              "0.975": 16,
+              "1": 16
+            },
+            "sample_standard_deviation": 1.4174165290985203
+          },
+          "descriptive_squares": {
+            "Monte_Carlo_standard_error_of_mean": 0.021644837118753976,
+            "mean": 18.1374,
+            "quantiles": {
+              "0": 8,
+              "0.025": 14,
+              "0.25": 17,
+              "0.5": 18,
+              "0.75": 20,
+              "0.975": 22,
+              "1": 24
+            },
+            "sample_standard_deviation": 2.1644837118753975
+          },
+          "distinct_unscorable_targets": {
+            "Monte_Carlo_standard_error_of_mean": 0.0111335544460635,
+            "mean": 1.3269,
+            "quantiles": {
+              "0": 0,
+              "0.025": 0,
+              "0.25": 0,
+              "0.5": 1,
+              "0.75": 2,
+              "0.975": 4,
+              "1": 6
+            },
+            "sample_standard_deviation": 1.11335544460635
+          },
+          "evaluation_given_descriptive_coverage": {
+            "Monte_Carlo_standard_error": 0.0,
+            "denominator": 9999,
+            "rate": 1.0,
+            "successes": 9999
+          },
+          "evaluation_given_known_corner_coverage": {
+            "Monte_Carlo_standard_error": 9.999499987498824e-05,
+            "denominator": 10000,
+            "rate": 0.9999,
+            "successes": 9999
+          },
+          "known_corner_prediction_coverage_pass": {
+            "Monte_Carlo_standard_error": 0.0,
+            "denominator": 10000,
+            "rate": 1.0,
+            "successes": 10000
+          },
+          "known_corner_prediction_distinct_targets": {
+            "Monte_Carlo_standard_error_of_mean": 0.019758329639901647,
+            "mean": 19.4643,
+            "quantiles": {
+              "0": 11,
+              "0.025": 15,
+              "0.25": 18,
+              "0.5": 20,
+              "0.75": 21,
+              "0.975": 23,
+              "1": 24
+            },
+            "sample_standard_deviation": 1.9758329639901648
+          },
+          "known_corner_prediction_groups": {
+            "Monte_Carlo_standard_error_of_mean": 0.012590031051915194,
+            "mean": 14.0563,
+            "quantiles": {
+              "0": 9,
+              "0.025": 11,
+              "0.25": 13,
+              "0.5": 14,
+              "0.75": 15,
+              "0.975": 16,
+              "1": 16
+            },
+            "sample_standard_deviation": 1.2590031051915194
+          },
+          "known_corner_prediction_squares": {
+            "Monte_Carlo_standard_error_of_mean": 0.019758329639901647,
+            "mean": 19.4643,
+            "quantiles": {
+              "0": 11,
+              "0.025": 15,
+              "0.25": 18,
+              "0.5": 20,
+              "0.75": 21,
+              "0.975": 23,
+              "1": 24
+            },
+            "sample_standard_deviation": 1.9758329639901648
+          },
+          "predicted_but_unscorable_cases": {
+            "Monte_Carlo_standard_error_of_mean": 0.0111335544460635,
+            "mean": 1.3269,
+            "quantiles": {
+              "0": 0,
+              "0.025": 0,
+              "0.25": 0,
+              "0.5": 1,
+              "0.75": 2,
+              "0.975": 4,
+              "1": 6
+            },
+            "sample_standard_deviation": 1.11335544460635
+          },
+          "prediction_evaluation_coverage_pass": {
+            "Monte_Carlo_standard_error": 9.999499987498824e-05,
+            "denominator": 10000,
+            "rate": 0.9999,
+            "successes": 9999
+          },
+          "prediction_evaluation_distinct_targets": {
+            "Monte_Carlo_standard_error_of_mean": 0.021644837118753976,
+            "mean": 18.1374,
+            "quantiles": {
+              "0": 8,
+              "0.025": 14,
+              "0.25": 17,
+              "0.5": 18,
+              "0.75": 20,
+              "0.975": 22,
+              "1": 24
+            },
+            "sample_standard_deviation": 2.1644837118753975
+          },
+          "prediction_evaluation_groups": {
+            "Monte_Carlo_standard_error_of_mean": 0.014174165290985204,
+            "mean": 13.4373,
+            "quantiles": {
+              "0": 7,
+              "0.025": 10,
+              "0.25": 13,
+              "0.5": 14,
+              "0.75": 14,
+              "0.975": 16,
+              "1": 16
+            },
+            "sample_standard_deviation": 1.4174165290985203
+          },
+          "prediction_evaluation_squares": {
+            "Monte_Carlo_standard_error_of_mean": 0.021644837118753976,
+            "mean": 18.1374,
+            "quantiles": {
+              "0": 8,
+              "0.025": 14,
+              "0.25": 17,
+              "0.5": 18,
+              "0.75": 20,
+              "0.975": 22,
+              "1": 24
+            },
+            "sample_standard_deviation": 2.1644837118753975
+          }
+        }
+      },
+      "both_arms_pass": {
+        "descriptive": {
+          "Monte_Carlo_standard_error": 0.0003314800144805098,
+          "denominator": 10000,
+          "rate": 0.9989,
+          "successes": 9989
+        },
+        "known_corner_prediction": {
+          "Monte_Carlo_standard_error": 9.999499987498824e-05,
+          "denominator": 10000,
+          "rate": 0.9999,
+          "successes": 9999
+        },
+        "prediction_evaluation": {
+          "Monte_Carlo_standard_error": 0.0003314800144805098,
+          "denominator": 10000,
+          "rate": 0.9989,
+          "successes": 9989
+        }
+      },
+      "count_array_file": "scenario_02_counts.npz",
+      "count_array_sha256": "4d1d5e93212d0b6b846e1343f0f6435e0c7f108c234142fc77a4f148b519eda0",
+      "draws": 10000,
+      "family": "A",
+      "p": 0.01,
+      "seed": 2026102502
+    },
+    {
+      "arms": {
+        "development": {
+          "descriptive_coverage_pass": {
+            "Monte_Carlo_standard_error": 0.0017304678558124102,
+            "denominator": 10000,
+            "rate": 0.0309,
+            "successes": 309
+          },
+          "descriptive_distinct_targets": {
+            "Monte_Carlo_standard_error_of_mean": 0.020477421993042682,
+            "mean": 5.3511,
+            "quantiles": {
+              "0": 0,
+              "0.025": 2,
+              "0.25": 4,
+              "0.5": 5,
+              "0.75": 7,
+              "0.975": 10,
+              "1": 13
+            },
+            "sample_standard_deviation": 2.047742199304268
+          },
+          "descriptive_groups": {
+            "Monte_Carlo_standard_error_of_mean": 0.018151142729818413,
+            "mean": 4.9158,
+            "quantiles": {
+              "0": 0,
+              "0.025": 2,
+              "0.25": 4,
+              "0.5": 5,
+              "0.75": 6,
+              "0.975": 8,
+              "1": 13
+            },
+            "sample_standard_deviation": 1.8151142729818412
+          },
+          "descriptive_squares": {
+            "Monte_Carlo_standard_error_of_mean": 0.021064275785591044,
+            "mean": 5.4716,
+            "quantiles": {
+              "0": 0,
+              "0.025": 2,
+              "0.25": 4,
+              "0.5": 5,
+              "0.75": 7,
+              "0.975": 10,
+              "1": 14
+            },
+            "sample_standard_deviation": 2.1064275785591042
+          },
+          "distinct_unscorable_targets": {
+            "Monte_Carlo_standard_error_of_mean": 0.014159501408877886,
+            "mean": 2.2163,
+            "quantiles": {
+              "0": 0,
+              "0.025": 0,
+              "0.25": 1,
+              "0.5": 2,
+              "0.75": 3,
+              "0.975": 5,
+              "1": 9
+            },
+            "sample_standard_deviation": 1.4159501408877886
+          },
+          "evaluation_given_descriptive_coverage": {
+            "Monte_Carlo_standard_error": 0.02584672921914505,
+            "denominator": 309,
+            "rate": 0.7087378640776699,
+            "successes": 219
+          },
+          "evaluation_given_known_corner_coverage": {
+            "Monte_Carlo_standard_error": 0.007721086280742355,
+            "denominator": 1796,
+            "rate": 0.12193763919821826,
+            "successes": 219
+          },
+          "known_corner_prediction_coverage_pass": {
+            "Monte_Carlo_standard_error": 0.003838539305517139,
+            "denominator": 10000,
+            "rate": 0.1796,
+            "successes": 1796
+          },
+          "known_corner_prediction_distinct_targets": {
+            "Monte_Carlo_standard_error_of_mean": 0.021802322929644742,
+            "mean": 7.3307,
+            "quantiles": {
+              "0": 1,
+              "0.025": 3,
+              "0.25": 6,
+              "0.5": 7,
+              "0.75": 9,
+              "0.975": 12,
+              "1": 15
+            },
+            "sample_standard_deviation": 2.180232292964474
+          },
+          "known_corner_prediction_groups": {
+            "Monte_Carlo_standard_error_of_mean": 0.019390270479261652,
+            "mean": 6.7497,
+            "quantiles": {
+              "0": 1,
+              "0.025": 3,
+              "0.25": 5,
+              "0.5": 7,
+              "0.75": 8,
+              "0.975": 11,
+              "1": 14
+            },
+            "sample_standard_deviation": 1.9390270479261653
+          },
+          "known_corner_prediction_squares": {
+            "Monte_Carlo_standard_error_of_mean": 0.022482212279642293,
+            "mean": 7.5026,
+            "quantiles": {
+              "0": 1,
+              "0.025": 3,
+              "0.25": 6,
+              "0.5": 7,
+              "0.75": 9,
+              "0.975": 12,
+              "1": 16
+            },
+            "sample_standard_deviation": 2.2482212279642293
+          },
+          "predicted_but_unscorable_cases": {
+            "Monte_Carlo_standard_error_of_mean": 0.014575490231602818,
+            "mean": 2.2677,
+            "quantiles": {
+              "0": 0,
+              "0.025": 0,
+              "0.25": 1,
+              "0.5": 2,
+              "0.75": 3,
+              "0.975": 5,
+              "1": 9
+            },
+            "sample_standard_deviation": 1.457549023160282
+          },
+          "prediction_evaluation_coverage_pass": {
+            "Monte_Carlo_standard_error": 0.001463570633758412,
+            "denominator": 10000,
+            "rate": 0.0219,
+            "successes": 219
+          },
+          "prediction_evaluation_distinct_targets": {
+            "Monte_Carlo_standard_error_of_mean": 0.019657820504590508,
+            "mean": 5.1144,
+            "quantiles": {
+              "0": 0,
+              "0.025": 2,
+              "0.25": 4,
+              "0.5": 5,
+              "0.75": 6,
+              "0.975": 9,
+              "1": 13
+            },
+            "sample_standard_deviation": 1.9657820504590509
+          },
+          "prediction_evaluation_groups": {
+            "Monte_Carlo_standard_error_of_mean": 0.018109449224510434,
+            "mean": 4.8262,
+            "quantiles": {
+              "0": 0,
+              "0.025": 1,
+              "0.25": 4,
+              "0.5": 5,
+              "0.75": 6,
+              "0.975": 8,
+              "1": 13
+            },
+            "sample_standard_deviation": 1.8109449224510434
+          },
+          "prediction_evaluation_squares": {
+            "Monte_Carlo_standard_error_of_mean": 0.020287763758872823,
+            "mean": 5.2349,
+            "quantiles": {
+              "0": 0,
+              "0.025": 2,
+              "0.25": 4,
+              "0.5": 5,
+              "0.75": 7,
+              "0.975": 9,
+              "1": 14
+            },
+            "sample_standard_deviation": 2.0287763758872823
+          }
+        },
+        "reserved_validation": {
+          "descriptive_coverage_pass": {
+            "Monte_Carlo_standard_error": 0.0019143769221341969,
+            "denominator": 10000,
+            "rate": 0.0381,
+            "successes": 381
+          },
+          "descriptive_distinct_targets": {
+            "Monte_Carlo_standard_error_of_mean": 0.021369378653447166,
+            "mean": 5.7139,
+            "quantiles": {
+              "0": 0,
+              "0.025": 2,
+              "0.25": 4,
+              "0.5": 6,
+              "0.75": 7,
+              "0.975": 10,
+              "1": 14
+            },
+            "sample_standard_deviation": 2.1369378653447164
+          },
+          "descriptive_groups": {
+            "Monte_Carlo_standard_error_of_mean": 0.01862890910991469,
+            "mean": 5.1857,
+            "quantiles": {
+              "0": 0,
+              "0.025": 2,
+              "0.25": 4,
+              "0.5": 5,
+              "0.75": 6,
+              "0.975": 9,
+              "1": 12
+            },
+            "sample_standard_deviation": 1.862890910991469
+          },
+          "descriptive_squares": {
+            "Monte_Carlo_standard_error_of_mean": 0.021369378653447166,
+            "mean": 5.7139,
+            "quantiles": {
+              "0": 0,
+              "0.025": 2,
+              "0.25": 4,
+              "0.5": 6,
+              "0.75": 7,
+              "0.975": 10,
+              "1": 14
+            },
+            "sample_standard_deviation": 2.1369378653447164
+          },
+          "distinct_unscorable_targets": {
+            "Monte_Carlo_standard_error_of_mean": 0.015044672984765134,
+            "mean": 2.4857,
+            "quantiles": {
+              "0": 0,
+              "0.025": 0,
+              "0.25": 1,
+              "0.5": 2,
+              "0.75": 3,
+              "0.975": 6,
+              "1": 10
+            },
+            "sample_standard_deviation": 1.5044672984765135
+          },
+          "evaluation_given_descriptive_coverage": {
+            "Monte_Carlo_standard_error": 0.0,
+            "denominator": 381,
+            "rate": 1.0,
+            "successes": 381
+          },
+          "evaluation_given_known_corner_coverage": {
+            "Monte_Carlo_standard_error": 0.006659132639410226,
+            "denominator": 2718,
+            "rate": 0.1401766004415011,
+            "successes": 381
+          },
+          "known_corner_prediction_coverage_pass": {
+            "Monte_Carlo_standard_error": 0.004448873565297175,
+            "denominator": 10000,
+            "rate": 0.2718,
+            "successes": 2718
+          },
+          "known_corner_prediction_distinct_targets": {
+            "Monte_Carlo_standard_error_of_mean": 0.02383595601774613,
+            "mean": 8.1996,
+            "quantiles": {
+              "0": 0,
+              "0.025": 4,
+              "0.25": 7,
+              "0.5": 8,
+              "0.75": 10,
+              "0.975": 13,
+              "1": 18
+            },
+            "sample_standard_deviation": 2.383595601774613
+          },
+          "known_corner_prediction_groups": {
+            "Monte_Carlo_standard_error_of_mean": 0.01946824227416858,
+            "mean": 7.0962,
+            "quantiles": {
+              "0": 0,
+              "0.025": 3,
+              "0.25": 6,
+              "0.5": 7,
+              "0.75": 8,
+              "0.975": 11,
+              "1": 14
+            },
+            "sample_standard_deviation": 1.946824227416858
+          },
+          "known_corner_prediction_squares": {
+            "Monte_Carlo_standard_error_of_mean": 0.02383595601774613,
+            "mean": 8.1996,
+            "quantiles": {
+              "0": 0,
+              "0.025": 4,
+              "0.25": 7,
+              "0.5": 8,
+              "0.75": 10,
+              "0.975": 13,
+              "1": 18
+            },
+            "sample_standard_deviation": 2.383595601774613
+          },
+          "predicted_but_unscorable_cases": {
+            "Monte_Carlo_standard_error_of_mean": 0.015044672984765134,
+            "mean": 2.4857,
+            "quantiles": {
+              "0": 0,
+              "0.025": 0,
+              "0.25": 1,
+              "0.5": 2,
+              "0.75": 3,
+              "0.975": 6,
+              "1": 10
+            },
+            "sample_standard_deviation": 1.5044672984765135
+          },
+          "prediction_evaluation_coverage_pass": {
+            "Monte_Carlo_standard_error": 0.0019143769221341969,
+            "denominator": 10000,
+            "rate": 0.0381,
+            "successes": 381
+          },
+          "prediction_evaluation_distinct_targets": {
+            "Monte_Carlo_standard_error_of_mean": 0.021369378653447166,
+            "mean": 5.7139,
+            "quantiles": {
+              "0": 0,
+              "0.025": 2,
+              "0.25": 4,
+              "0.5": 6,
+              "0.75": 7,
+              "0.975": 10,
+              "1": 14
+            },
+            "sample_standard_deviation": 2.1369378653447164
+          },
+          "prediction_evaluation_groups": {
+            "Monte_Carlo_standard_error_of_mean": 0.01862890910991469,
+            "mean": 5.1857,
+            "quantiles": {
+              "0": 0,
+              "0.025": 2,
+              "0.25": 4,
+              "0.5": 5,
+              "0.75": 6,
+              "0.975": 9,
+              "1": 12
+            },
+            "sample_standard_deviation": 1.862890910991469
+          },
+          "prediction_evaluation_squares": {
+            "Monte_Carlo_standard_error_of_mean": 0.021369378653447166,
+            "mean": 5.7139,
+            "quantiles": {
+              "0": 0,
+              "0.025": 2,
+              "0.25": 4,
+              "0.5": 6,
+              "0.75": 7,
+              "0.975": 10,
+              "1": 14
+            },
+            "sample_standard_deviation": 2.1369378653447164
+          }
+        }
+      },
+      "both_arms_pass": {
+        "descriptive": {
+          "Monte_Carlo_standard_error": 0.00033148001448051134,
+          "denominator": 10000,
+          "rate": 0.0011,
+          "successes": 11
+        },
+        "known_corner_prediction": {
+          "Monte_Carlo_standard_error": 0.0021607681504502052,
+          "denominator": 10000,
+          "rate": 0.0491,
+          "successes": 491
+        },
+        "prediction_evaluation": {
+          "Monte_Carlo_standard_error": 0.00026448251359967073,
+          "denominator": 10000,
+          "rate": 0.0007,
+          "successes": 7
+        }
+      },
+      "count_array_file": "scenario_03_counts.npz",
+      "count_array_sha256": "5c90620c87f9403b398cac4bb9141bbe1a7ff5c2638b55577274fcae52edde5b",
+      "draws": 10000,
+      "family": "A",
+      "p": 0.05,
+      "seed": 2026102503
+    },
+    {
+      "arms": {
+        "development": {
+          "descriptive_coverage_pass": {
+            "Monte_Carlo_standard_error": 0.0,
+            "denominator": 10000,
+            "rate": 0.0,
+            "successes": 0
+          },
+          "descriptive_distinct_targets": {
+            "Monte_Carlo_standard_error_of_mean": 0.010593106503313325,
+            "mean": 1.1854,
+            "quantiles": {
+              "0": 0,
+              "0.025": 0,
+              "0.25": 0,
+              "0.5": 1,
+              "0.75": 2,
+              "0.975": 4,
+              "1": 7
+            },
+            "sample_standard_deviation": 1.0593106503313325
+          },
+          "descriptive_groups": {
+            "Monte_Carlo_standard_error_of_mean": 0.010255537704350783,
+            "mean": 1.1592,
+            "quantiles": {
+              "0": 0,
+              "0.025": 0,
+              "0.25": 0,
+              "0.5": 1,
+              "0.75": 2,
+              "0.975": 3,
+              "1": 7
+            },
+            "sample_standard_deviation": 1.0255537704350783
+          },
+          "descriptive_squares": {
+            "Monte_Carlo_standard_error_of_mean": 0.010758491228483264,
+            "mean": 1.1979,
+            "quantiles": {
+              "0": 0,
+              "0.025": 0,
+              "0.25": 0,
+              "0.5": 1,
+              "0.75": 2,
+              "0.975": 4,
+              "1": 7
+            },
+            "sample_standard_deviation": 1.0758491228483265
+          },
+          "distinct_unscorable_targets": {
+            "Monte_Carlo_standard_error_of_mean": 0.010807121281221872,
+            "mean": 1.2447,
+            "quantiles": {
+              "0": 0,
+              "0.025": 0,
+              "0.25": 0,
+              "0.5": 1,
+              "0.75": 2,
+              "0.975": 4,
+              "1": 6
+            },
+            "sample_standard_deviation": 1.0807121281221872
+          },
+          "evaluation_given_descriptive_coverage": {
+            "Monte_Carlo_standard_error": null,
+            "denominator": 0,
+            "rate": null,
+            "successes": 0
+          },
+          "evaluation_given_known_corner_coverage": {
+            "Monte_Carlo_standard_error": 0.0,
+            "denominator": 1,
+            "rate": 0.0,
+            "successes": 0
+          },
+          "known_corner_prediction_coverage_pass": {
+            "Monte_Carlo_standard_error": 9.999499987499375e-05,
+            "denominator": 10000,
+            "rate": 0.0001,
+            "successes": 1
+          },
+          "known_corner_prediction_distinct_targets": {
+            "Monte_Carlo_standard_error_of_mean": 0.014508983770788568,
+            "mean": 2.3771,
+            "quantiles": {
+              "0": 0,
+              "0.025": 0,
+              "0.25": 1,
+              "0.5": 2,
+              "0.75": 3,
+              "0.975": 6,
+              "1": 9
+            },
+            "sample_standard_deviation": 1.4508983770788568
+          },
+          "known_corner_prediction_groups": {
+            "Monte_Carlo_standard_error_of_mean": 0.013947487560163806,
+            "mean": 2.3138,
+            "quantiles": {
+              "0": 0,
+              "0.025": 0,
+              "0.25": 1,
+              "0.5": 2,
+              "0.75": 3,
+              "0.975": 5,
+              "1": 9
+            },
+            "sample_standard_deviation": 1.3947487560163805
+          },
+          "known_corner_prediction_squares": {
+            "Monte_Carlo_standard_error_of_mean": 0.014740037376824626,
+            "mean": 2.4055,
+            "quantiles": {
+              "0": 0,
+              "0.025": 0,
+              "0.25": 1,
+              "0.5": 2,
+              "0.75": 3,
+              "0.975": 6,
+              "1": 10
+            },
+            "sample_standard_deviation": 1.4740037376824626
+          },
+          "predicted_but_unscorable_cases": {
+            "Monte_Carlo_standard_error_of_mean": 0.010994582851805181,
+            "mean": 1.2606,
+            "quantiles": {
+              "0": 0,
+              "0.025": 0,
+              "0.25": 0,
+              "0.5": 1,
+              "0.75": 2,
+              "0.975": 4,
+              "1": 6
+            },
+            "sample_standard_deviation": 1.0994582851805181
+          },
+          "prediction_evaluation_coverage_pass": {
+            "Monte_Carlo_standard_error": 0.0,
+            "denominator": 10000,
+            "rate": 0.0,
+            "successes": 0
+          },
+          "prediction_evaluation_distinct_targets": {
+            "Monte_Carlo_standard_error_of_mean": 0.010312985007551236,
+            "mean": 1.1324,
+            "quantiles": {
+              "0": 0,
+              "0.025": 0,
+              "0.25": 0,
+              "0.5": 1,
+              "0.75": 2,
+              "0.975": 3,
+              "1": 7
+            },
+            "sample_standard_deviation": 1.0312985007551236
+          },
+          "prediction_evaluation_groups": {
+            "Monte_Carlo_standard_error_of_mean": 0.010116827270414472,
+            "mean": 1.1179,
+            "quantiles": {
+              "0": 0,
+              "0.025": 0,
+              "0.25": 0,
+              "0.5": 1,
+              "0.75": 2,
+              "0.975": 3,
+              "1": 6
+            },
+            "sample_standard_deviation": 1.0116827270414472
+          },
+          "prediction_evaluation_squares": {
+            "Monte_Carlo_standard_error_of_mean": 0.010482432310237632,
+            "mean": 1.1449,
+            "quantiles": {
+              "0": 0,
+              "0.025": 0,
+              "0.25": 0,
+              "0.5": 1,
+              "0.75": 2,
+              "0.975": 4,
+              "1": 7
+            },
+            "sample_standard_deviation": 1.0482432310237633
+          }
+        },
+        "reserved_validation": {
+          "descriptive_coverage_pass": {
+            "Monte_Carlo_standard_error": 0.0,
+            "denominator": 10000,
+            "rate": 0.0,
+            "successes": 0
+          },
+          "descriptive_distinct_targets": {
+            "Monte_Carlo_standard_error_of_mean": 0.010924058426484662,
+            "mean": 1.2609,
+            "quantiles": {
+              "0": 0,
+              "0.025": 0,
+              "0.25": 0,
+              "0.5": 1,
+              "0.75": 2,
+              "0.975": 4,
+              "1": 7
+            },
+            "sample_standard_deviation": 1.0924058426484662
+          },
+          "descriptive_groups": {
+            "Monte_Carlo_standard_error_of_mean": 0.010469775815200725,
+            "mean": 1.2266,
+            "quantiles": {
+              "0": 0,
+              "0.025": 0,
+              "0.25": 0,
+              "0.5": 1,
+              "0.75": 2,
+              "0.975": 4,
+              "1": 6
+            },
+            "sample_standard_deviation": 1.0469775815200726
+          },
+          "descriptive_squares": {
+            "Monte_Carlo_standard_error_of_mean": 0.010924058426484662,
+            "mean": 1.2609,
+            "quantiles": {
+              "0": 0,
+              "0.025": 0,
+              "0.25": 0,
+              "0.5": 1,
+              "0.75": 2,
+              "0.975": 4,
+              "1": 7
+            },
+            "sample_standard_deviation": 1.0924058426484662
+          },
+          "distinct_unscorable_targets": {
+            "Monte_Carlo_standard_error_of_mean": 0.011618316294857562,
+            "mean": 1.3865,
+            "quantiles": {
+              "0": 0,
+              "0.025": 0,
+              "0.25": 1,
+              "0.5": 1,
+              "0.75": 2,
+              "0.975": 4,
+              "1": 8
+            },
+            "sample_standard_deviation": 1.1618316294857562
+          },
+          "evaluation_given_descriptive_coverage": {
+            "Monte_Carlo_standard_error": null,
+            "denominator": 0,
+            "rate": null,
+            "successes": 0
+          },
+          "evaluation_given_known_corner_coverage": {
+            "Monte_Carlo_standard_error": 0.0,
+            "denominator": 1,
+            "rate": 0.0,
+            "successes": 0
+          },
+          "known_corner_prediction_coverage_pass": {
+            "Monte_Carlo_standard_error": 9.999499987499375e-05,
+            "denominator": 10000,
+            "rate": 0.0001,
+            "successes": 1
+          },
+          "known_corner_prediction_distinct_targets": {
+            "Monte_Carlo_standard_error_of_mean": 0.015556719614125443,
+            "mean": 2.6474,
+            "quantiles": {
+              "0": 0,
+              "0.025": 0,
+              "0.25": 2,
+              "0.5": 2,
+              "0.75": 4,
+              "0.975": 6,
+              "1": 10
+            },
+            "sample_standard_deviation": 1.5556719614125443
+          },
+          "known_corner_prediction_groups": {
+            "Monte_Carlo_standard_error_of_mean": 0.01424001646090624,
+            "mean": 2.4953,
+            "quantiles": {
+              "0": 0,
+              "0.025": 0,
+              "0.25": 1,
+              "0.5": 2,
+              "0.75": 3,
+              "0.975": 5,
+              "1": 9
+            },
+            "sample_standard_deviation": 1.424001646090624
+          },
+          "known_corner_prediction_squares": {
+            "Monte_Carlo_standard_error_of_mean": 0.015556719614125443,
+            "mean": 2.6474,
+            "quantiles": {
+              "0": 0,
+              "0.025": 0,
+              "0.25": 2,
+              "0.5": 2,
+              "0.75": 4,
+              "0.975": 6,
+              "1": 10
+            },
+            "sample_standard_deviation": 1.5556719614125443
+          },
+          "predicted_but_unscorable_cases": {
+            "Monte_Carlo_standard_error_of_mean": 0.011618316294857562,
+            "mean": 1.3865,
+            "quantiles": {
+              "0": 0,
+              "0.025": 0,
+              "0.25": 1,
+              "0.5": 1,
+              "0.75": 2,
+              "0.975": 4,
+              "1": 8
+            },
+            "sample_standard_deviation": 1.1618316294857562
+          },
+          "prediction_evaluation_coverage_pass": {
+            "Monte_Carlo_standard_error": 0.0,
+            "denominator": 10000,
+            "rate": 0.0,
+            "successes": 0
+          },
+          "prediction_evaluation_distinct_targets": {
+            "Monte_Carlo_standard_error_of_mean": 0.010924058426484662,
+            "mean": 1.2609,
+            "quantiles": {
+              "0": 0,
+              "0.025": 0,
+              "0.25": 0,
+              "0.5": 1,
+              "0.75": 2,
+              "0.975": 4,
+              "1": 7
+            },
+            "sample_standard_deviation": 1.0924058426484662
+          },
+          "prediction_evaluation_groups": {
+            "Monte_Carlo_standard_error_of_mean": 0.010469775815200725,
+            "mean": 1.2266,
+            "quantiles": {
+              "0": 0,
+              "0.025": 0,
+              "0.25": 0,
+              "0.5": 1,
+              "0.75": 2,
+              "0.975": 4,
+              "1": 6
+            },
+            "sample_standard_deviation": 1.0469775815200726
+          },
+          "prediction_evaluation_squares": {
+            "Monte_Carlo_standard_error_of_mean": 0.010924058426484662,
+            "mean": 1.2609,
+            "quantiles": {
+              "0": 0,
+              "0.025": 0,
+              "0.25": 0,
+              "0.5": 1,
+              "0.75": 2,
+              "0.975": 4,
+              "1": 7
+            },
+            "sample_standard_deviation": 1.0924058426484662
+          }
+        }
+      },
+      "both_arms_pass": {
+        "descriptive": {
+          "Monte_Carlo_standard_error": 0.0,
+          "denominator": 10000,
+          "rate": 0.0,
+          "successes": 0
+        },
+        "known_corner_prediction": {
+          "Monte_Carlo_standard_error": 0.0,
+          "denominator": 10000,
+          "rate": 0.0,
+          "successes": 0
+        },
+        "prediction_evaluation": {
+          "Monte_Carlo_standard_error": 0.0,
+          "denominator": 10000,
+          "rate": 0.0,
+          "successes": 0
+        }
+      },
+      "count_array_file": "scenario_04_counts.npz",
+      "count_array_sha256": "5216cda232a736536eae8140aaa8ac90cac66567ac9606f4ed579a1562ed9293",
+      "draws": 10000,
+      "family": "A",
+      "p": 0.1,
+      "seed": 2026102504
+    },
+    {
+      "arms": {
+        "development": {
+          "descriptive_coverage_pass": {
+            "Monte_Carlo_standard_error": 0.0,
+            "denominator": 10000,
+            "rate": 0.0,
+            "successes": 0
+          },
+          "descriptive_distinct_targets": {
+            "Monte_Carlo_standard_error_of_mean": 0.0007723079994177172,
+            "mean": 0.006,
+            "quantiles": {
+              "0": 0,
+              "0.025": 0,
+              "0.25": 0,
+              "0.5": 0,
+              "0.75": 0,
+              "0.975": 0,
+              "1": 1
+            },
+            "sample_standard_deviation": 0.07723079994177172
+          },
+          "descriptive_groups": {
+            "Monte_Carlo_standard_error_of_mean": 0.0007723079994177172,
+            "mean": 0.006,
+            "quantiles": {
+              "0": 0,
+              "0.025": 0,
+              "0.25": 0,
+              "0.5": 0,
+              "0.75": 0,
+              "0.975": 0,
+              "1": 1
+            },
+            "sample_standard_deviation": 0.07723079994177172
+          },
+          "descriptive_squares": {
+            "Monte_Carlo_standard_error_of_mean": 0.0007723079994177172,
+            "mean": 0.006,
+            "quantiles": {
+              "0": 0,
+              "0.025": 0,
+              "0.25": 0,
+              "0.5": 0,
+              "0.75": 0,
+              "0.975": 0,
+              "1": 1
+            },
+            "sample_standard_deviation": 0.07723079994177172
+          },
+          "distinct_unscorable_targets": {
+            "Monte_Carlo_standard_error_of_mean": 0.0021577278741671518,
+            "mean": 0.0474,
+            "quantiles": {
+              "0": 0,
+              "0.025": 0,
+              "0.25": 0,
+              "0.5": 0,
+              "0.75": 0,
+              "0.975": 1,
+              "1": 2
+            },
+            "sample_standard_deviation": 0.21577278741671518
+          },
+          "evaluation_given_descriptive_coverage": {
+            "Monte_Carlo_standard_error": null,
+            "denominator": 0,
+            "rate": null,
+            "successes": 0
+          },
+          "evaluation_given_known_corner_coverage": {
+            "Monte_Carlo_standard_error": null,
+            "denominator": 0,
+            "rate": null,
+            "successes": 0
+          },
+          "known_corner_prediction_coverage_pass": {
+            "Monte_Carlo_standard_error": 0.0,
+            "denominator": 10000,
+            "rate": 0.0,
+            "successes": 0
+          },
+          "known_corner_prediction_distinct_targets": {
+            "Monte_Carlo_standard_error_of_mean": 0.0022754106770811588,
+            "mean": 0.0532,
+            "quantiles": {
+              "0": 0,
+              "0.025": 0,
+              "0.25": 0,
+              "0.5": 0,
+              "0.75": 0,
+              "0.975": 1,
+              "1": 2
+            },
+            "sample_standard_deviation": 0.22754106770811589
+          },
+          "known_corner_prediction_groups": {
+            "Monte_Carlo_standard_error_of_mean": 0.0022754106770811588,
+            "mean": 0.0532,
+            "quantiles": {
+              "0": 0,
+              "0.025": 0,
+              "0.25": 0,
+              "0.5": 0,
+              "0.75": 0,
+              "0.975": 1,
+              "1": 2
+            },
+            "sample_standard_deviation": 0.22754106770811589
+          },
+          "known_corner_prediction_squares": {
+            "Monte_Carlo_standard_error_of_mean": 0.0022817606454587466,
+            "mean": 0.0533,
+            "quantiles": {
+              "0": 0,
+              "0.025": 0,
+              "0.25": 0,
+              "0.5": 0,
+              "0.75": 0,
+              "0.975": 1,
+              "1": 2
+            },
+            "sample_standard_deviation": 0.22817606454587466
+          },
+          "predicted_but_unscorable_cases": {
+            "Monte_Carlo_standard_error_of_mean": 0.002164449926505216,
+            "mean": 0.0475,
+            "quantiles": {
+              "0": 0,
+              "0.025": 0,
+              "0.25": 0,
+              "0.5": 0,
+              "0.75": 0,
+              "0.975": 1,
+              "1": 2
+            },
+            "sample_standard_deviation": 0.21644499265052158
+          },
+          "prediction_evaluation_coverage_pass": {
+            "Monte_Carlo_standard_error": 0.0,
+            "denominator": 10000,
+            "rate": 0.0,
+            "successes": 0
+          },
+          "prediction_evaluation_distinct_targets": {
+            "Monte_Carlo_standard_error_of_mean": 0.0007594034957563315,
+            "mean": 0.0058,
+            "quantiles": {
+              "0": 0,
+              "0.025": 0,
+              "0.25": 0,
+              "0.5": 0,
+              "0.75": 0,
+              "0.975": 0,
+              "1": 1
+            },
+            "sample_standard_deviation": 0.07594034957563314
+          },
+          "prediction_evaluation_groups": {
+            "Monte_Carlo_standard_error_of_mean": 0.0007594034957563315,
+            "mean": 0.0058,
+            "quantiles": {
+              "0": 0,
+              "0.025": 0,
+              "0.25": 0,
+              "0.5": 0,
+              "0.75": 0,
+              "0.975": 0,
+              "1": 1
+            },
+            "sample_standard_deviation": 0.07594034957563314
+          },
+          "prediction_evaluation_squares": {
+            "Monte_Carlo_standard_error_of_mean": 0.0007594034957563315,
+            "mean": 0.0058,
+            "quantiles": {
+              "0": 0,
+              "0.025": 0,
+              "0.25": 0,
+              "0.5": 0,
+              "0.75": 0,
+              "0.975": 0,
+              "1": 1
+            },
+            "sample_standard_deviation": 0.07594034957563314
+          }
+        },
+        "reserved_validation": {
+          "descriptive_coverage_pass": {
+            "Monte_Carlo_standard_error": 0.0,
+            "denominator": 10000,
+            "rate": 0.0,
+            "successes": 0
+          },
+          "descriptive_distinct_targets": {
+            "Monte_Carlo_standard_error_of_mean": 0.0008455101943494679,
+            "mean": 0.0072,
+            "quantiles": {
+              "0": 0,
+              "0.025": 0,
+              "0.25": 0,
+              "0.5": 0,
+              "0.75": 0,
+              "0.975": 0,
+              "1": 1
+            },
+            "sample_standard_deviation": 0.08455101943494679
+          },
+          "descriptive_groups": {
+            "Monte_Carlo_standard_error_of_mean": 0.0008455101943494679,
+            "mean": 0.0072,
+            "quantiles": {
+              "0": 0,
+              "0.025": 0,
+              "0.25": 0,
+              "0.5": 0,
+              "0.75": 0,
+              "0.975": 0,
+              "1": 1
+            },
+            "sample_standard_deviation": 0.08455101943494679
+          },
+          "descriptive_squares": {
+            "Monte_Carlo_standard_error_of_mean": 0.0008455101943494679,
+            "mean": 0.0072,
+            "quantiles": {
+              "0": 0,
+              "0.025": 0,
+              "0.25": 0,
+              "0.5": 0,
+              "0.75": 0,
+              "0.975": 0,
+              "1": 1
+            },
+            "sample_standard_deviation": 0.08455101943494679
+          },
+          "distinct_unscorable_targets": {
+            "Monte_Carlo_standard_error_of_mean": 0.0022188923697049464,
+            "mean": 0.0497,
+            "quantiles": {
+              "0": 0,
+              "0.025": 0,
+              "0.25": 0,
+              "0.5": 0,
+              "0.75": 0,
+              "0.975": 1,
+              "1": 2
+            },
+            "sample_standard_deviation": 0.22188923697049465
+          },
+          "evaluation_given_descriptive_coverage": {
+            "Monte_Carlo_standard_error": null,
+            "denominator": 0,
+            "rate": null,
+            "successes": 0
+          },
+          "evaluation_given_known_corner_coverage": {
+            "Monte_Carlo_standard_error": null,
+            "denominator": 0,
+            "rate": null,
+            "successes": 0
+          },
+          "known_corner_prediction_coverage_pass": {
+            "Monte_Carlo_standard_error": 0.0,
+            "denominator": 10000,
+            "rate": 0.0,
+            "successes": 0
+          },
+          "known_corner_prediction_distinct_targets": {
+            "Monte_Carlo_standard_error_of_mean": 0.002384702849574361,
+            "mean": 0.0569,
+            "quantiles": {
+              "0": 0,
+              "0.025": 0,
+              "0.25": 0,
+              "0.5": 0,
+              "0.75": 0,
+              "0.975": 1,
+              "1": 3
+            },
+            "sample_standard_deviation": 0.2384702849574361
+          },
+          "known_corner_prediction_groups": {
+            "Monte_Carlo_standard_error_of_mean": 0.0023499906905399778,
+            "mean": 0.0564,
+            "quantiles": {
+              "0": 0,
+              "0.025": 0,
+              "0.25": 0,
+              "0.5": 0,
+              "0.75": 0,
+              "0.975": 1,
+              "1": 2
+            },
+            "sample_standard_deviation": 0.23499906905399778
+          },
+          "known_corner_prediction_squares": {
+            "Monte_Carlo_standard_error_of_mean": 0.002384702849574361,
+            "mean": 0.0569,
+            "quantiles": {
+              "0": 0,
+              "0.025": 0,
+              "0.25": 0,
+              "0.5": 0,
+              "0.75": 0,
+              "0.975": 1,
+              "1": 3
+            },
+            "sample_standard_deviation": 0.2384702849574361
+          },
+          "predicted_but_unscorable_cases": {
+            "Monte_Carlo_standard_error_of_mean": 0.0022188923697049464,
+            "mean": 0.0497,
+            "quantiles": {
+              "0": 0,
+              "0.025": 0,
+              "0.25": 0,
+              "0.5": 0,
+              "0.75": 0,
+              "0.975": 1,
+              "1": 2
+            },
+            "sample_standard_deviation": 0.22188923697049465
+          },
+          "prediction_evaluation_coverage_pass": {
+            "Monte_Carlo_standard_error": 0.0,
+            "denominator": 10000,
+            "rate": 0.0,
+            "successes": 0
+          },
+          "prediction_evaluation_distinct_targets": {
+            "Monte_Carlo_standard_error_of_mean": 0.0008455101943494679,
+            "mean": 0.0072,
+            "quantiles": {
+              "0": 0,
+              "0.025": 0,
+              "0.25": 0,
+              "0.5": 0,
+              "0.75": 0,
+              "0.975": 0,
+              "1": 1
+            },
+            "sample_standard_deviation": 0.08455101943494679
+          },
+          "prediction_evaluation_groups": {
+            "Monte_Carlo_standard_error_of_mean": 0.0008455101943494679,
+            "mean": 0.0072,
+            "quantiles": {
+              "0": 0,
+              "0.025": 0,
+              "0.25": 0,
+              "0.5": 0,
+              "0.75": 0,
+              "0.975": 0,
+              "1": 1
+            },
+            "sample_standard_deviation": 0.08455101943494679
+          },
+          "prediction_evaluation_squares": {
+            "Monte_Carlo_standard_error_of_mean": 0.0008455101943494679,
+            "mean": 0.0072,
+            "quantiles": {
+              "0": 0,
+              "0.025": 0,
+              "0.25": 0,
+              "0.5": 0,
+              "0.75": 0,
+              "0.975": 0,
+              "1": 1
+            },
+            "sample_standard_deviation": 0.08455101943494679
+          }
+        }
+      },
+      "both_arms_pass": {
+        "descriptive": {
+          "Monte_Carlo_standard_error": 0.0,
+          "denominator": 10000,
+          "rate": 0.0,
+          "successes": 0
+        },
+        "known_corner_prediction": {
+          "Monte_Carlo_standard_error": 0.0,
+          "denominator": 10000,
+          "rate": 0.0,
+          "successes": 0
+        },
+        "prediction_evaluation": {
+          "Monte_Carlo_standard_error": 0.0,
+          "denominator": 10000,
+          "rate": 0.0,
+          "successes": 0
+        }
+      },
+      "count_array_file": "scenario_05_counts.npz",
+      "count_array_sha256": "53aae18387d2f13052eeb36c2b862e7c685c883aaec002819ba0f1752e34a055",
+      "draws": 10000,
+      "family": "A",
+      "p": 0.25,
+      "seed": 2026102505
+    },
+    {
+      "arms": {
+        "development": {
+          "descriptive_coverage_pass": {
+            "Monte_Carlo_standard_error": 0.0,
+            "denominator": 10000,
+            "rate": 1.0,
+            "successes": 10000
+          },
+          "descriptive_distinct_targets": {
+            "Monte_Carlo_standard_error_of_mean": 0.0,
+            "mean": 22.0,
+            "quantiles": {
+              "0": 22,
+              "0.025": 22,
+              "0.25": 22,
+              "0.5": 22,
+              "0.75": 22,
+              "0.975": 22,
+              "1": 22
+            },
+            "sample_standard_deviation": 0.0
+          },
+          "descriptive_groups": {
+            "Monte_Carlo_standard_error_of_mean": 0.0,
+            "mean": 16.0,
+            "quantiles": {
+              "0": 16,
+              "0.025": 16,
+              "0.25": 16,
+              "0.5": 16,
+              "0.75": 16,
+              "0.975": 16,
+              "1": 16
+            },
+            "sample_standard_deviation": 0.0
+          },
+          "descriptive_squares": {
+            "Monte_Carlo_standard_error_of_mean": 0.0,
+            "mean": 23.0,
+            "quantiles": {
+              "0": 23,
+              "0.025": 23,
+              "0.25": 23,
+              "0.5": 23,
+              "0.75": 23,
+              "0.975": 23,
+              "1": 23
+            },
+            "sample_standard_deviation": 0.0
+          },
+          "distinct_unscorable_targets": {
+            "Monte_Carlo_standard_error_of_mean": 0.0,
+            "mean": 0.0,
+            "quantiles": {
+              "0": 0,
+              "0.025": 0,
+              "0.25": 0,
+              "0.5": 0,
+              "0.75": 0,
+              "0.975": 0,
+              "1": 0
+            },
+            "sample_standard_deviation": 0.0
+          },
+          "evaluation_given_descriptive_coverage": {
+            "Monte_Carlo_standard_error": 0.0,
+            "denominator": 10000,
+            "rate": 1.0,
+            "successes": 10000
+          },
+          "evaluation_given_known_corner_coverage": {
+            "Monte_Carlo_standard_error": 0.0,
+            "denominator": 10000,
+            "rate": 1.0,
+            "successes": 10000
+          },
+          "known_corner_prediction_coverage_pass": {
+            "Monte_Carlo_standard_error": 0.0,
+            "denominator": 10000,
+            "rate": 1.0,
+            "successes": 10000
+          },
+          "known_corner_prediction_distinct_targets": {
+            "Monte_Carlo_standard_error_of_mean": 0.0,
+            "mean": 21.0,
+            "quantiles": {
+              "0": 21,
+              "0.025": 21,
+              "0.25": 21,
+              "0.5": 21,
+              "0.75": 21,
+              "0.975": 21,
+              "1": 21
+            },
+            "sample_standard_deviation": 0.0
+          },
+          "known_corner_prediction_groups": {
+            "Monte_Carlo_standard_error_of_mean": 0.0,
+            "mean": 16.0,
+            "quantiles": {
+              "0": 16,
+              "0.025": 16,
+              "0.25": 16,
+              "0.5": 16,
+              "0.75": 16,
+              "0.975": 16,
+              "1": 16
+            },
+            "sample_standard_deviation": 0.0
+          },
+          "known_corner_prediction_squares": {
+            "Monte_Carlo_standard_error_of_mean": 0.0,
+            "mean": 22.0,
+            "quantiles": {
+              "0": 22,
+              "0.025": 22,
+              "0.25": 22,
+              "0.5": 22,
+              "0.75": 22,
+              "0.975": 22,
+              "1": 22
+            },
+            "sample_standard_deviation": 0.0
+          },
+          "predicted_but_unscorable_cases": {
+            "Monte_Carlo_standard_error_of_mean": 0.0,
+            "mean": 0.0,
+            "quantiles": {
+              "0": 0,
+              "0.025": 0,
+              "0.25": 0,
+              "0.5": 0,
+              "0.75": 0,
+              "0.975": 0,
+              "1": 0
+            },
+            "sample_standard_deviation": 0.0
+          },
+          "prediction_evaluation_coverage_pass": {
+            "Monte_Carlo_standard_error": 0.0,
+            "denominator": 10000,
+            "rate": 1.0,
+            "successes": 10000
+          },
+          "prediction_evaluation_distinct_targets": {
+            "Monte_Carlo_standard_error_of_mean": 0.0,
+            "mean": 21.0,
+            "quantiles": {
+              "0": 21,
+              "0.025": 21,
+              "0.25": 21,
+              "0.5": 21,
+              "0.75": 21,
+              "0.975": 21,
+              "1": 21
+            },
+            "sample_standard_deviation": 0.0
+          },
+          "prediction_evaluation_groups": {
+            "Monte_Carlo_standard_error_of_mean": 0.0,
+            "mean": 16.0,
+            "quantiles": {
+              "0": 16,
+              "0.025": 16,
+              "0.25": 16,
+              "0.5": 16,
+              "0.75": 16,
+              "0.975": 16,
+              "1": 16
+            },
+            "sample_standard_deviation": 0.0
+          },
+          "prediction_evaluation_squares": {
+            "Monte_Carlo_standard_error_of_mean": 0.0,
+            "mean": 22.0,
+            "quantiles": {
+              "0": 22,
+              "0.025": 22,
+              "0.25": 22,
+              "0.5": 22,
+              "0.75": 22,
+              "0.975": 22,
+              "1": 22
+            },
+            "sample_standard_deviation": 0.0
+          }
+        },
+        "reserved_validation": {
+          "descriptive_coverage_pass": {
+            "Monte_Carlo_standard_error": 0.0,
+            "denominator": 10000,
+            "rate": 1.0,
+            "successes": 10000
+          },
+          "descriptive_distinct_targets": {
+            "Monte_Carlo_standard_error_of_mean": 0.0,
+            "mean": 24.0,
+            "quantiles": {
+              "0": 24,
+              "0.025": 24,
+              "0.25": 24,
+              "0.5": 24,
+              "0.75": 24,
+              "0.975": 24,
+              "1": 24
+            },
+            "sample_standard_deviation": 0.0
+          },
+          "descriptive_groups": {
+            "Monte_Carlo_standard_error_of_mean": 0.0,
+            "mean": 16.0,
+            "quantiles": {
+              "0": 16,
+              "0.025": 16,
+              "0.25": 16,
+              "0.5": 16,
+              "0.75": 16,
+              "0.975": 16,
+              "1": 16
+            },
+            "sample_standard_deviation": 0.0
+          },
+          "descriptive_squares": {
+            "Monte_Carlo_standard_error_of_mean": 0.0,
+            "mean": 24.0,
+            "quantiles": {
+              "0": 24,
+              "0.025": 24,
+              "0.25": 24,
+              "0.5": 24,
+              "0.75": 24,
+              "0.975": 24,
+              "1": 24
+            },
+            "sample_standard_deviation": 0.0
+          },
+          "distinct_unscorable_targets": {
+            "Monte_Carlo_standard_error_of_mean": 0.0,
+            "mean": 0.0,
+            "quantiles": {
+              "0": 0,
+              "0.025": 0,
+              "0.25": 0,
+              "0.5": 0,
+              "0.75": 0,
+              "0.975": 0,
+              "1": 0
+            },
+            "sample_standard_deviation": 0.0
+          },
+          "evaluation_given_descriptive_coverage": {
+            "Monte_Carlo_standard_error": 0.0,
+            "denominator": 10000,
+            "rate": 1.0,
+            "successes": 10000
+          },
+          "evaluation_given_known_corner_coverage": {
+            "Monte_Carlo_standard_error": 0.0,
+            "denominator": 10000,
+            "rate": 1.0,
+            "successes": 10000
+          },
+          "known_corner_prediction_coverage_pass": {
+            "Monte_Carlo_standard_error": 0.0,
+            "denominator": 10000,
+            "rate": 1.0,
+            "successes": 10000
+          },
+          "known_corner_prediction_distinct_targets": {
+            "Monte_Carlo_standard_error_of_mean": 0.0,
+            "mean": 24.0,
+            "quantiles": {
+              "0": 24,
+              "0.025": 24,
+              "0.25": 24,
+              "0.5": 24,
+              "0.75": 24,
+              "0.975": 24,
+              "1": 24
+            },
+            "sample_standard_deviation": 0.0
+          },
+          "known_corner_prediction_groups": {
+            "Monte_Carlo_standard_error_of_mean": 0.0,
+            "mean": 16.0,
+            "quantiles": {
+              "0": 16,
+              "0.025": 16,
+              "0.25": 16,
+              "0.5": 16,
+              "0.75": 16,
+              "0.975": 16,
+              "1": 16
+            },
+            "sample_standard_deviation": 0.0
+          },
+          "known_corner_prediction_squares": {
+            "Monte_Carlo_standard_error_of_mean": 0.0,
+            "mean": 24.0,
+            "quantiles": {
+              "0": 24,
+              "0.025": 24,
+              "0.25": 24,
+              "0.5": 24,
+              "0.75": 24,
+              "0.975": 24,
+              "1": 24
+            },
+            "sample_standard_deviation": 0.0
+          },
+          "predicted_but_unscorable_cases": {
+            "Monte_Carlo_standard_error_of_mean": 0.0,
+            "mean": 0.0,
+            "quantiles": {
+              "0": 0,
+              "0.025": 0,
+              "0.25": 0,
+              "0.5": 0,
+              "0.75": 0,
+              "0.975": 0,
+              "1": 0
+            },
+            "sample_standard_deviation": 0.0
+          },
+          "prediction_evaluation_coverage_pass": {
+            "Monte_Carlo_standard_error": 0.0,
+            "denominator": 10000,
+            "rate": 1.0,
+            "successes": 10000
+          },
+          "prediction_evaluation_distinct_targets": {
+            "Monte_Carlo_standard_error_of_mean": 0.0,
+            "mean": 24.0,
+            "quantiles": {
+              "0": 24,
+              "0.025": 24,
+              "0.25": 24,
+              "0.5": 24,
+              "0.75": 24,
+              "0.975": 24,
+              "1": 24
+            },
+            "sample_standard_deviation": 0.0
+          },
+          "prediction_evaluation_groups": {
+            "Monte_Carlo_standard_error_of_mean": 0.0,
+            "mean": 16.0,
+            "quantiles": {
+              "0": 16,
+              "0.025": 16,
+              "0.25": 16,
+              "0.5": 16,
+              "0.75": 16,
+              "0.975": 16,
+              "1": 16
+            },
+            "sample_standard_deviation": 0.0
+          },
+          "prediction_evaluation_squares": {
+            "Monte_Carlo_standard_error_of_mean": 0.0,
+            "mean": 24.0,
+            "quantiles": {
+              "0": 24,
+              "0.025": 24,
+              "0.25": 24,
+              "0.5": 24,
+              "0.75": 24,
+              "0.975": 24,
+              "1": 24
+            },
+            "sample_standard_deviation": 0.0
+          }
+        }
+      },
+      "both_arms_pass": {
+        "descriptive": {
+          "Monte_Carlo_standard_error": 0.0,
+          "denominator": 10000,
+          "rate": 1.0,
+          "successes": 10000
+        },
+        "known_corner_prediction": {
+          "Monte_Carlo_standard_error": 0.0,
+          "denominator": 10000,
+          "rate": 1.0,
+          "successes": 10000
+        },
+        "prediction_evaluation": {
+          "Monte_Carlo_standard_error": 0.0,
+          "denominator": 10000,
+          "rate": 1.0,
+          "successes": 10000
+        }
+      },
+      "count_array_file": "scenario_06_counts.npz",
+      "count_array_sha256": "7b8ccb771a32066d5c03d2e5edf0d0c975f4366ed49ace8a63a31c575f7728db",
+      "draws": 10000,
+      "family": "B",
+      "p": 0,
+      "seed": 2026102506
+    },
+    {
+      "arms": {
+        "development": {
+          "descriptive_coverage_pass": {
+            "Monte_Carlo_standard_error": 0.0,
+            "denominator": 10000,
+            "rate": 1.0,
+            "successes": 10000
+          },
+          "descriptive_distinct_targets": {
+            "Monte_Carlo_standard_error_of_mean": 0.017837537211548495,
+            "mean": 19.8078,
+            "quantiles": {
+              "0": 10,
+              "0.025": 16,
+              "0.25": 19,
+              "0.5": 20,
+              "0.75": 21,
+              "0.975": 22,
+              "1": 22
+            },
+            "sample_standard_deviation": 1.7837537211548495
+          },
+          "descriptive_groups": {
+            "Monte_Carlo_standard_error_of_mean": 0.012024183219587507,
+            "mean": 14.3926,
+            "quantiles": {
+              "0": 8,
+              "0.025": 12,
+              "0.25": 14,
+              "0.5": 15,
+              "0.75": 15,
+              "0.975": 16,
+              "1": 16
+            },
+            "sample_standard_deviation": 1.2024183219587508
+          },
+          "descriptive_squares": {
+            "Monte_Carlo_standard_error_of_mean": 0.018587220676509107,
+            "mean": 20.7076,
+            "quantiles": {
+              "0": 10,
+              "0.025": 16,
+              "0.25": 20,
+              "0.5": 21,
+              "0.75": 22,
+              "0.975": 23,
+              "1": 23
+            },
+            "sample_standard_deviation": 1.8587220676509109
+          },
+          "distinct_unscorable_targets": {
+            "Monte_Carlo_standard_error_of_mean": 0.0,
+            "mean": 0.0,
+            "quantiles": {
+              "0": 0,
+              "0.025": 0,
+              "0.25": 0,
+              "0.5": 0,
+              "0.75": 0,
+              "0.975": 0,
+              "1": 0
+            },
+            "sample_standard_deviation": 0.0
+          },
+          "evaluation_given_descriptive_coverage": {
+            "Monte_Carlo_standard_error": 0.0,
+            "denominator": 10000,
+            "rate": 1.0,
+            "successes": 10000
+          },
+          "evaluation_given_known_corner_coverage": {
+            "Monte_Carlo_standard_error": 0.0,
+            "denominator": 10000,
+            "rate": 1.0,
+            "successes": 10000
+          },
+          "known_corner_prediction_coverage_pass": {
+            "Monte_Carlo_standard_error": 0.0,
+            "denominator": 10000,
+            "rate": 1.0,
+            "successes": 10000
+          },
+          "known_corner_prediction_distinct_targets": {
+            "Monte_Carlo_standard_error_of_mean": 0.016624186366774037,
+            "mean": 18.9008,
+            "quantiles": {
+              "0": 10,
+              "0.025": 15,
+              "0.25": 18,
+              "0.5": 19,
+              "0.75": 20,
+              "0.975": 21,
+              "1": 21
+            },
+            "sample_standard_deviation": 1.6624186366774036
+          },
+          "known_corner_prediction_groups": {
+            "Monte_Carlo_standard_error_of_mean": 0.012024183219587507,
+            "mean": 14.3926,
+            "quantiles": {
+              "0": 8,
+              "0.025": 12,
+              "0.25": 14,
+              "0.5": 15,
+              "0.75": 15,
+              "0.975": 16,
+              "1": 16
+            },
+            "sample_standard_deviation": 1.2024183219587508
+          },
+          "known_corner_prediction_squares": {
+            "Monte_Carlo_standard_error_of_mean": 0.01742108818160746,
+            "mean": 19.8006,
+            "quantiles": {
+              "0": 10,
+              "0.025": 16,
+              "0.25": 19,
+              "0.5": 20,
+              "0.75": 21,
+              "0.975": 22,
+              "1": 22
+            },
+            "sample_standard_deviation": 1.742108818160746
+          },
+          "predicted_but_unscorable_cases": {
+            "Monte_Carlo_standard_error_of_mean": 0.0,
+            "mean": 0.0,
+            "quantiles": {
+              "0": 0,
+              "0.025": 0,
+              "0.25": 0,
+              "0.5": 0,
+              "0.75": 0,
+              "0.975": 0,
+              "1": 0
+            },
+            "sample_standard_deviation": 0.0
+          },
+          "prediction_evaluation_coverage_pass": {
+            "Monte_Carlo_standard_error": 0.0,
+            "denominator": 10000,
+            "rate": 1.0,
+            "successes": 10000
+          },
+          "prediction_evaluation_distinct_targets": {
+            "Monte_Carlo_standard_error_of_mean": 0.016624186366774037,
+            "mean": 18.9008,
+            "quantiles": {
+              "0": 10,
+              "0.025": 15,
+              "0.25": 18,
+              "0.5": 19,
+              "0.75": 20,
+              "0.975": 21,
+              "1": 21
+            },
+            "sample_standard_deviation": 1.6624186366774036
+          },
+          "prediction_evaluation_groups": {
+            "Monte_Carlo_standard_error_of_mean": 0.012024183219587507,
+            "mean": 14.3926,
+            "quantiles": {
+              "0": 8,
+              "0.025": 12,
+              "0.25": 14,
+              "0.5": 15,
+              "0.75": 15,
+              "0.975": 16,
+              "1": 16
+            },
+            "sample_standard_deviation": 1.2024183219587508
+          },
+          "prediction_evaluation_squares": {
+            "Monte_Carlo_standard_error_of_mean": 0.01742108818160746,
+            "mean": 19.8006,
+            "quantiles": {
+              "0": 10,
+              "0.025": 16,
+              "0.25": 19,
+              "0.5": 20,
+              "0.75": 21,
+              "0.975": 22,
+              "1": 22
+            },
+            "sample_standard_deviation": 1.742108818160746
+          }
+        },
+        "reserved_validation": {
+          "descriptive_coverage_pass": {
+            "Monte_Carlo_standard_error": 0.0,
+            "denominator": 10000,
+            "rate": 1.0,
+            "successes": 10000
+          },
+          "descriptive_distinct_targets": {
+            "Monte_Carlo_standard_error_of_mean": 0.019166071397896934,
+            "mean": 21.5979,
+            "quantiles": {
+              "0": 13,
+              "0.025": 17,
+              "0.25": 20,
+              "0.5": 22,
+              "0.75": 23,
+              "0.975": 24,
+              "1": 24
+            },
+            "sample_standard_deviation": 1.9166071397896933
+          },
+          "descriptive_groups": {
+            "Monte_Carlo_standard_error_of_mean": 0.012066580469893848,
+            "mean": 14.4014,
+            "quantiles": {
+              "0": 9,
+              "0.025": 12,
+              "0.25": 14,
+              "0.5": 15,
+              "0.75": 15,
+              "0.975": 16,
+              "1": 16
+            },
+            "sample_standard_deviation": 1.2066580469893848
+          },
+          "descriptive_squares": {
+            "Monte_Carlo_standard_error_of_mean": 0.019166071397896934,
+            "mean": 21.5979,
+            "quantiles": {
+              "0": 13,
+              "0.025": 17,
+              "0.25": 20,
+              "0.5": 22,
+              "0.75": 23,
+              "0.975": 24,
+              "1": 24
+            },
+            "sample_standard_deviation": 1.9166071397896933
+          },
+          "distinct_unscorable_targets": {
+            "Monte_Carlo_standard_error_of_mean": 0.0,
+            "mean": 0.0,
+            "quantiles": {
+              "0": 0,
+              "0.025": 0,
+              "0.25": 0,
+              "0.5": 0,
+              "0.75": 0,
+              "0.975": 0,
+              "1": 0
+            },
+            "sample_standard_deviation": 0.0
+          },
+          "evaluation_given_descriptive_coverage": {
+            "Monte_Carlo_standard_error": 0.0,
+            "denominator": 10000,
+            "rate": 1.0,
+            "successes": 10000
+          },
+          "evaluation_given_known_corner_coverage": {
+            "Monte_Carlo_standard_error": 0.0,
+            "denominator": 10000,
+            "rate": 1.0,
+            "successes": 10000
+          },
+          "known_corner_prediction_coverage_pass": {
+            "Monte_Carlo_standard_error": 0.0,
+            "denominator": 10000,
+            "rate": 1.0,
+            "successes": 10000
+          },
+          "known_corner_prediction_distinct_targets": {
+            "Monte_Carlo_standard_error_of_mean": 0.019166071397896934,
+            "mean": 21.5979,
+            "quantiles": {
+              "0": 13,
+              "0.025": 17,
+              "0.25": 20,
+              "0.5": 22,
+              "0.75": 23,
+              "0.975": 24,
+              "1": 24
+            },
+            "sample_standard_deviation": 1.9166071397896933
+          },
+          "known_corner_prediction_groups": {
+            "Monte_Carlo_standard_error_of_mean": 0.012066580469893848,
+            "mean": 14.4014,
+            "quantiles": {
+              "0": 9,
+              "0.025": 12,
+              "0.25": 14,
+              "0.5": 15,
+              "0.75": 15,
+              "0.975": 16,
+              "1": 16
+            },
+            "sample_standard_deviation": 1.2066580469893848
+          },
+          "known_corner_prediction_squares": {
+            "Monte_Carlo_standard_error_of_mean": 0.019166071397896934,
+            "mean": 21.5979,
+            "quantiles": {
+              "0": 13,
+              "0.025": 17,
+              "0.25": 20,
+              "0.5": 22,
+              "0.75": 23,
+              "0.975": 24,
+              "1": 24
+            },
+            "sample_standard_deviation": 1.9166071397896933
+          },
+          "predicted_but_unscorable_cases": {
+            "Monte_Carlo_standard_error_of_mean": 0.0,
+            "mean": 0.0,
+            "quantiles": {
+              "0": 0,
+              "0.025": 0,
+              "0.25": 0,
+              "0.5": 0,
+              "0.75": 0,
+              "0.975": 0,
+              "1": 0
+            },
+            "sample_standard_deviation": 0.0
+          },
+          "prediction_evaluation_coverage_pass": {
+            "Monte_Carlo_standard_error": 0.0,
+            "denominator": 10000,
+            "rate": 1.0,
+            "successes": 10000
+          },
+          "prediction_evaluation_distinct_targets": {
+            "Monte_Carlo_standard_error_of_mean": 0.019166071397896934,
+            "mean": 21.5979,
+            "quantiles": {
+              "0": 13,
+              "0.025": 17,
+              "0.25": 20,
+              "0.5": 22,
+              "0.75": 23,
+              "0.975": 24,
+              "1": 24
+            },
+            "sample_standard_deviation": 1.9166071397896933
+          },
+          "prediction_evaluation_groups": {
+            "Monte_Carlo_standard_error_of_mean": 0.012066580469893848,
+            "mean": 14.4014,
+            "quantiles": {
+              "0": 9,
+              "0.025": 12,
+              "0.25": 14,
+              "0.5": 15,
+              "0.75": 15,
+              "0.975": 16,
+              "1": 16
+            },
+            "sample_standard_deviation": 1.2066580469893848
+          },
+          "prediction_evaluation_squares": {
+            "Monte_Carlo_standard_error_of_mean": 0.019166071397896934,
+            "mean": 21.5979,
+            "quantiles": {
+              "0": 13,
+              "0.025": 17,
+              "0.25": 20,
+              "0.5": 22,
+              "0.75": 23,
+              "0.975": 24,
+              "1": 24
+            },
+            "sample_standard_deviation": 1.9166071397896933
+          }
+        }
+      },
+      "both_arms_pass": {
+        "descriptive": {
+          "Monte_Carlo_standard_error": 0.0,
+          "denominator": 10000,
+          "rate": 1.0,
+          "successes": 10000
+        },
+        "known_corner_prediction": {
+          "Monte_Carlo_standard_error": 0.0,
+          "denominator": 10000,
+          "rate": 1.0,
+          "successes": 10000
+        },
+        "prediction_evaluation": {
+          "Monte_Carlo_standard_error": 0.0,
+          "denominator": 10000,
+          "rate": 1.0,
+          "successes": 10000
+        }
+      },
+      "count_array_file": "scenario_07_counts.npz",
+      "count_array_sha256": "fa3bf886c95fe6a997f28e766405f3f78fac3b011bce51a0e8a316840e52c174",
+      "draws": 10000,
+      "family": "B",
+      "p": 0.1,
+      "seed": 2026102507
+    },
+    {
+      "arms": {
+        "development": {
+          "descriptive_coverage_pass": {
+            "Monte_Carlo_standard_error": 0.0009018181634897351,
+            "denominator": 10000,
+            "rate": 0.9918,
+            "successes": 9918
+          },
+          "descriptive_distinct_targets": {
+            "Monte_Carlo_standard_error_of_mean": 0.026226764179286998,
+            "mean": 16.5075,
+            "quantiles": {
+              "0": 6,
+              "0.025": 11,
+              "0.25": 15,
+              "0.5": 17,
+              "0.75": 18,
+              "0.975": 21,
+              "1": 22
+            },
+            "sample_standard_deviation": 2.6226764179287
+          },
+          "descriptive_groups": {
+            "Monte_Carlo_standard_error_of_mean": 0.017363854017545595,
+            "mean": 12.0082,
+            "quantiles": {
+              "0": 4,
+              "0.025": 8,
+              "0.25": 11,
+              "0.5": 12,
+              "0.75": 13,
+              "0.975": 15,
+              "1": 16
+            },
+            "sample_standard_deviation": 1.7363854017545595
+          },
+          "descriptive_squares": {
+            "Monte_Carlo_standard_error_of_mean": 0.027280069560386422,
+            "mean": 17.2585,
+            "quantiles": {
+              "0": 7,
+              "0.025": 12,
+              "0.25": 15,
+              "0.5": 17,
+              "0.75": 19,
+              "0.975": 22,
+              "1": 23
+            },
+            "sample_standard_deviation": 2.728006956038642
+          },
+          "distinct_unscorable_targets": {
+            "Monte_Carlo_standard_error_of_mean": 0.0,
+            "mean": 0.0,
+            "quantiles": {
+              "0": 0,
+              "0.025": 0,
+              "0.25": 0,
+              "0.5": 0,
+              "0.75": 0,
+              "0.975": 0,
+              "1": 0
+            },
+            "sample_standard_deviation": 0.0
+          },
+          "evaluation_given_descriptive_coverage": {
+            "Monte_Carlo_standard_error": 0.0001746106908751061,
+            "denominator": 9918,
+            "rate": 0.999697519661222,
+            "successes": 9915
+          },
+          "evaluation_given_known_corner_coverage": {
+            "Monte_Carlo_standard_error": 0.0,
+            "denominator": 9915,
+            "rate": 1.0,
+            "successes": 9915
+          },
+          "known_corner_prediction_coverage_pass": {
+            "Monte_Carlo_standard_error": 0.0009180277773575238,
+            "denominator": 10000,
+            "rate": 0.9915,
+            "successes": 9915
+          },
+          "known_corner_prediction_distinct_targets": {
+            "Monte_Carlo_standard_error_of_mean": 0.02431158204029779,
+            "mean": 15.7578,
+            "quantiles": {
+              "0": 6,
+              "0.025": 11,
+              "0.25": 14,
+              "0.5": 16,
+              "0.75": 17,
+              "0.975": 20,
+              "1": 21
+            },
+            "sample_standard_deviation": 2.4311582040297792
+          },
+          "known_corner_prediction_groups": {
+            "Monte_Carlo_standard_error_of_mean": 0.017363854017545595,
+            "mean": 12.0082,
+            "quantiles": {
+              "0": 4,
+              "0.025": 8,
+              "0.25": 11,
+              "0.5": 12,
+              "0.75": 13,
+              "0.975": 15,
+              "1": 16
+            },
+            "sample_standard_deviation": 1.7363854017545595
+          },
+          "known_corner_prediction_squares": {
+            "Monte_Carlo_standard_error_of_mean": 0.02543416886187888,
+            "mean": 16.5088,
+            "quantiles": {
+              "0": 6,
+              "0.025": 11,
+              "0.25": 15,
+              "0.5": 17,
+              "0.75": 18,
+              "0.975": 21,
+              "1": 22
+            },
+            "sample_standard_deviation": 2.543416886187888
+          },
+          "predicted_but_unscorable_cases": {
+            "Monte_Carlo_standard_error_of_mean": 0.0,
+            "mean": 0.0,
+            "quantiles": {
+              "0": 0,
+              "0.025": 0,
+              "0.25": 0,
+              "0.5": 0,
+              "0.75": 0,
+              "0.975": 0,
+              "1": 0
+            },
+            "sample_standard_deviation": 0.0
+          },
+          "prediction_evaluation_coverage_pass": {
+            "Monte_Carlo_standard_error": 0.0009180277773575238,
+            "denominator": 10000,
+            "rate": 0.9915,
+            "successes": 9915
+          },
+          "prediction_evaluation_distinct_targets": {
+            "Monte_Carlo_standard_error_of_mean": 0.02431158204029779,
+            "mean": 15.7578,
+            "quantiles": {
+              "0": 6,
+              "0.025": 11,
+              "0.25": 14,
+              "0.5": 16,
+              "0.75": 17,
+              "0.975": 20,
+              "1": 21
+            },
+            "sample_standard_deviation": 2.4311582040297792
+          },
+          "prediction_evaluation_groups": {
+            "Monte_Carlo_standard_error_of_mean": 0.017363854017545595,
+            "mean": 12.0082,
+            "quantiles": {
+              "0": 4,
+              "0.025": 8,
+              "0.25": 11,
+              "0.5": 12,
+              "0.75": 13,
+              "0.975": 15,
+              "1": 16
+            },
+            "sample_standard_deviation": 1.7363854017545595
+          },
+          "prediction_evaluation_squares": {
+            "Monte_Carlo_standard_error_of_mean": 0.02543416886187888,
+            "mean": 16.5088,
+            "quantiles": {
+              "0": 6,
+              "0.025": 11,
+              "0.25": 15,
+              "0.5": 17,
+              "0.75": 18,
+              "0.975": 21,
+              "1": 22
+            },
+            "sample_standard_deviation": 2.543416886187888
+          }
+        },
+        "reserved_validation": {
+          "descriptive_coverage_pass": {
+            "Monte_Carlo_standard_error": 0.0008627716963368671,
+            "denominator": 10000,
+            "rate": 0.9925,
+            "successes": 9925
+          },
+          "descriptive_distinct_targets": {
+            "Monte_Carlo_standard_error_of_mean": 0.027314323828874526,
+            "mean": 18.0111,
+            "quantiles": {
+              "0": 5,
+              "0.025": 12,
+              "0.25": 16,
+              "0.5": 18,
+              "0.75": 20,
+              "0.975": 23,
+              "1": 24
+            },
+            "sample_standard_deviation": 2.7314323828874527
+          },
+          "descriptive_groups": {
+            "Monte_Carlo_standard_error_of_mean": 0.017292387853265576,
+            "mean": 12.0115,
+            "quantiles": {
+              "0": 4,
+              "0.025": 8,
+              "0.25": 11,
+              "0.5": 12,
+              "0.75": 13,
+              "0.975": 15,
+              "1": 16
+            },
+            "sample_standard_deviation": 1.7292387853265574
+          },
+          "descriptive_squares": {
+            "Monte_Carlo_standard_error_of_mean": 0.027314323828874526,
+            "mean": 18.0111,
+            "quantiles": {
+              "0": 5,
+              "0.025": 12,
+              "0.25": 16,
+              "0.5": 18,
+              "0.75": 20,
+              "0.975": 23,
+              "1": 24
+            },
+            "sample_standard_deviation": 2.7314323828874527
+          },
+          "distinct_unscorable_targets": {
+            "Monte_Carlo_standard_error_of_mean": 0.0,
+            "mean": 0.0,
+            "quantiles": {
+              "0": 0,
+              "0.025": 0,
+              "0.25": 0,
+              "0.5": 0,
+              "0.75": 0,
+              "0.975": 0,
+              "1": 0
+            },
+            "sample_standard_deviation": 0.0
+          },
+          "evaluation_given_descriptive_coverage": {
+            "Monte_Carlo_standard_error": 0.0,
+            "denominator": 9925,
+            "rate": 1.0,
+            "successes": 9925
+          },
+          "evaluation_given_known_corner_coverage": {
+            "Monte_Carlo_standard_error": 0.0,
+            "denominator": 9925,
+            "rate": 1.0,
+            "successes": 9925
+          },
+          "known_corner_prediction_coverage_pass": {
+            "Monte_Carlo_standard_error": 0.0008627716963368671,
+            "denominator": 10000,
+            "rate": 0.9925,
+            "successes": 9925
+          },
+          "known_corner_prediction_distinct_targets": {
+            "Monte_Carlo_standard_error_of_mean": 0.027314323828874526,
+            "mean": 18.0111,
+            "quantiles": {
+              "0": 5,
+              "0.025": 12,
+              "0.25": 16,
+              "0.5": 18,
+              "0.75": 20,
+              "0.975": 23,
+              "1": 24
+            },
+            "sample_standard_deviation": 2.7314323828874527
+          },
+          "known_corner_prediction_groups": {
+            "Monte_Carlo_standard_error_of_mean": 0.017292387853265576,
+            "mean": 12.0115,
+            "quantiles": {
+              "0": 4,
+              "0.025": 8,
+              "0.25": 11,
+              "0.5": 12,
+              "0.75": 13,
+              "0.975": 15,
+              "1": 16
+            },
+            "sample_standard_deviation": 1.7292387853265574
+          },
+          "known_corner_prediction_squares": {
+            "Monte_Carlo_standard_error_of_mean": 0.027314323828874526,
+            "mean": 18.0111,
+            "quantiles": {
+              "0": 5,
+              "0.025": 12,
+              "0.25": 16,
+              "0.5": 18,
+              "0.75": 20,
+              "0.975": 23,
+              "1": 24
+            },
+            "sample_standard_deviation": 2.7314323828874527
+          },
+          "predicted_but_unscorable_cases": {
+            "Monte_Carlo_standard_error_of_mean": 0.0,
+            "mean": 0.0,
+            "quantiles": {
+              "0": 0,
+              "0.025": 0,
+              "0.25": 0,
+              "0.5": 0,
+              "0.75": 0,
+              "0.975": 0,
+              "1": 0
+            },
+            "sample_standard_deviation": 0.0
+          },
+          "prediction_evaluation_coverage_pass": {
+            "Monte_Carlo_standard_error": 0.0008627716963368671,
+            "denominator": 10000,
+            "rate": 0.9925,
+            "successes": 9925
+          },
+          "prediction_evaluation_distinct_targets": {
+            "Monte_Carlo_standard_error_of_mean": 0.027314323828874526,
+            "mean": 18.0111,
+            "quantiles": {
+              "0": 5,
+              "0.025": 12,
+              "0.25": 16,
+              "0.5": 18,
+              "0.75": 20,
+              "0.975": 23,
+              "1": 24
+            },
+            "sample_standard_deviation": 2.7314323828874527
+          },
+          "prediction_evaluation_groups": {
+            "Monte_Carlo_standard_error_of_mean": 0.017292387853265576,
+            "mean": 12.0115,
+            "quantiles": {
+              "0": 4,
+              "0.025": 8,
+              "0.25": 11,
+              "0.5": 12,
+              "0.75": 13,
+              "0.975": 15,
+              "1": 16
+            },
+            "sample_standard_deviation": 1.7292387853265574
+          },
+          "prediction_evaluation_squares": {
+            "Monte_Carlo_standard_error_of_mean": 0.027314323828874526,
+            "mean": 18.0111,
+            "quantiles": {
+              "0": 5,
+              "0.025": 12,
+              "0.25": 16,
+              "0.5": 18,
+              "0.75": 20,
+              "0.975": 23,
+              "1": 24
+            },
+            "sample_standard_deviation": 2.7314323828874527
+          }
+        }
+      },
+      "both_arms_pass": {
+        "descriptive": {
+          "Monte_Carlo_standard_error": 0.0012431214743539765,
+          "denominator": 10000,
+          "rate": 0.9843,
+          "successes": 9843
+        },
+        "known_corner_prediction": {
+          "Monte_Carlo_standard_error": 0.0012547509713086503,
+          "denominator": 10000,
+          "rate": 0.984,
+          "successes": 9840
+        },
+        "prediction_evaluation": {
+          "Monte_Carlo_standard_error": 0.0012547509713086503,
+          "denominator": 10000,
+          "rate": 0.984,
+          "successes": 9840
+        }
+      },
+      "count_array_file": "scenario_08_counts.npz",
+      "count_array_sha256": "a28a23b3b3e8fd474715966cf7df57478f4e04bc926e3321e9e38a04a466dfac",
+      "draws": 10000,
+      "family": "B",
+      "p": 0.25,
+      "seed": 2026102508
+    },
+    {
+      "arms": {
+        "development": {
+          "descriptive_coverage_pass": {
+            "Monte_Carlo_standard_error": 0.00493460879908428,
+            "denominator": 10000,
+            "rate": 0.5806,
+            "successes": 5806
+          },
+          "descriptive_distinct_targets": {
+            "Monte_Carlo_standard_error_of_mean": 0.030416315921350873,
+            "mean": 10.9329,
+            "quantiles": {
+              "0": 1,
+              "0.025": 5,
+              "0.25": 9,
+              "0.5": 11,
+              "0.75": 13,
+              "0.975": 17,
+              "1": 21
+            },
+            "sample_standard_deviation": 3.0416315921350874
+          },
+          "descriptive_groups": {
+            "Monte_Carlo_standard_error_of_mean": 0.020240851494117553,
+            "mean": 7.967,
+            "quantiles": {
+              "0": 1,
+              "0.025": 4,
+              "0.25": 7,
+              "0.5": 8,
+              "0.75": 9,
+              "0.975": 12,
+              "1": 15
+            },
+            "sample_standard_deviation": 2.0240851494117553
+          },
+          "descriptive_squares": {
+            "Monte_Carlo_standard_error_of_mean": 0.03169112002925853,
+            "mean": 11.4312,
+            "quantiles": {
+              "0": 1,
+              "0.025": 5,
+              "0.25": 9,
+              "0.5": 11,
+              "0.75": 14,
+              "0.975": 18,
+              "1": 22
+            },
+            "sample_standard_deviation": 3.1691120029258526
+          },
+          "distinct_unscorable_targets": {
+            "Monte_Carlo_standard_error_of_mean": 0.0,
+            "mean": 0.0,
+            "quantiles": {
+              "0": 0,
+              "0.025": 0,
+              "0.25": 0,
+              "0.5": 0,
+              "0.75": 0,
+              "0.975": 0,
+              "1": 0
+            },
+            "sample_standard_deviation": 0.0
+          },
+          "evaluation_given_descriptive_coverage": {
+            "Monte_Carlo_standard_error": 0.0006436692279291898,
+            "denominator": 5806,
+            "rate": 0.9975887013434378,
+            "successes": 5792
+          },
+          "evaluation_given_known_corner_coverage": {
+            "Monte_Carlo_standard_error": 0.0,
+            "denominator": 5792,
+            "rate": 1.0,
+            "successes": 5792
+          },
+          "known_corner_prediction_coverage_pass": {
+            "Monte_Carlo_standard_error": 0.0049368751250158235,
+            "denominator": 10000,
+            "rate": 0.5792,
+            "successes": 5792
+          },
+          "known_corner_prediction_distinct_targets": {
+            "Monte_Carlo_standard_error_of_mean": 0.028244099346851043,
+            "mean": 10.4425,
+            "quantiles": {
+              "0": 1,
+              "0.025": 5,
+              "0.25": 8,
+              "0.5": 10,
+              "0.75": 12,
+              "0.975": 16,
+              "1": 20
+            },
+            "sample_standard_deviation": 2.824409934685104
+          },
+          "known_corner_prediction_groups": {
+            "Monte_Carlo_standard_error_of_mean": 0.020240851494117553,
+            "mean": 7.967,
+            "quantiles": {
+              "0": 1,
+              "0.025": 4,
+              "0.25": 7,
+              "0.5": 8,
+              "0.75": 9,
+              "0.975": 12,
+              "1": 15
+            },
+            "sample_standard_deviation": 2.0240851494117553
+          },
+          "known_corner_prediction_squares": {
+            "Monte_Carlo_standard_error_of_mean": 0.029608397486526897,
+            "mean": 10.9408,
+            "quantiles": {
+              "0": 1,
+              "0.025": 5,
+              "0.25": 9,
+              "0.5": 11,
+              "0.75": 13,
+              "0.975": 17,
+              "1": 21
+            },
+            "sample_standard_deviation": 2.9608397486526896
+          },
+          "predicted_but_unscorable_cases": {
+            "Monte_Carlo_standard_error_of_mean": 0.0,
+            "mean": 0.0,
+            "quantiles": {
+              "0": 0,
+              "0.025": 0,
+              "0.25": 0,
+              "0.5": 0,
+              "0.75": 0,
+              "0.975": 0,
+              "1": 0
+            },
+            "sample_standard_deviation": 0.0
+          },
+          "prediction_evaluation_coverage_pass": {
+            "Monte_Carlo_standard_error": 0.0049368751250158235,
+            "denominator": 10000,
+            "rate": 0.5792,
+            "successes": 5792
+          },
+          "prediction_evaluation_distinct_targets": {
+            "Monte_Carlo_standard_error_of_mean": 0.028244099346851043,
+            "mean": 10.4425,
+            "quantiles": {
+              "0": 1,
+              "0.025": 5,
+              "0.25": 8,
+              "0.5": 10,
+              "0.75": 12,
+              "0.975": 16,
+              "1": 20
+            },
+            "sample_standard_deviation": 2.824409934685104
+          },
+          "prediction_evaluation_groups": {
+            "Monte_Carlo_standard_error_of_mean": 0.020240851494117553,
+            "mean": 7.967,
+            "quantiles": {
+              "0": 1,
+              "0.025": 4,
+              "0.25": 7,
+              "0.5": 8,
+              "0.75": 9,
+              "0.975": 12,
+              "1": 15
+            },
+            "sample_standard_deviation": 2.0240851494117553
+          },
+          "prediction_evaluation_squares": {
+            "Monte_Carlo_standard_error_of_mean": 0.029608397486526897,
+            "mean": 10.9408,
+            "quantiles": {
+              "0": 1,
+              "0.025": 5,
+              "0.25": 9,
+              "0.5": 11,
+              "0.75": 13,
+              "0.975": 17,
+              "1": 21
+            },
+            "sample_standard_deviation": 2.9608397486526896
+          }
+        },
+        "reserved_validation": {
+          "descriptive_coverage_pass": {
+            "Monte_Carlo_standard_error": 0.004903618153975694,
+            "denominator": 10000,
+            "rate": 0.5977,
+            "successes": 5977
+          },
+          "descriptive_distinct_targets": {
+            "Monte_Carlo_standard_error_of_mean": 0.03164632345121306,
+            "mean": 11.9981,
+            "quantiles": {
+              "0": 1,
+              "0.025": 6,
+              "0.25": 10,
+              "0.5": 12,
+              "0.75": 14,
+              "0.975": 18,
+              "1": 23
+            },
+            "sample_standard_deviation": 3.164632345121306
+          },
+          "descriptive_groups": {
+            "Monte_Carlo_standard_error_of_mean": 0.019990728699159327,
+            "mean": 7.9973,
+            "quantiles": {
+              "0": 1,
+              "0.025": 4,
+              "0.25": 7,
+              "0.5": 8,
+              "0.75": 9,
+              "0.975": 12,
+              "1": 15
+            },
+            "sample_standard_deviation": 1.9990728699159328
+          },
+          "descriptive_squares": {
+            "Monte_Carlo_standard_error_of_mean": 0.03164632345121306,
+            "mean": 11.9981,
+            "quantiles": {
+              "0": 1,
+              "0.025": 6,
+              "0.25": 10,
+              "0.5": 12,
+              "0.75": 14,
+              "0.975": 18,
+              "1": 23
+            },
+            "sample_standard_deviation": 3.164632345121306
+          },
+          "distinct_unscorable_targets": {
+            "Monte_Carlo_standard_error_of_mean": 0.0,
+            "mean": 0.0,
+            "quantiles": {
+              "0": 0,
+              "0.025": 0,
+              "0.25": 0,
+              "0.5": 0,
+              "0.75": 0,
+              "0.975": 0,
+              "1": 0
+            },
+            "sample_standard_deviation": 0.0
+          },
+          "evaluation_given_descriptive_coverage": {
+            "Monte_Carlo_standard_error": 0.0,
+            "denominator": 5977,
+            "rate": 1.0,
+            "successes": 5977
+          },
+          "evaluation_given_known_corner_coverage": {
+            "Monte_Carlo_standard_error": 0.0,
+            "denominator": 5977,
+            "rate": 1.0,
+            "successes": 5977
+          },
+          "known_corner_prediction_coverage_pass": {
+            "Monte_Carlo_standard_error": 0.004903618153975694,
+            "denominator": 10000,
+            "rate": 0.5977,
+            "successes": 5977
+          },
+          "known_corner_prediction_distinct_targets": {
+            "Monte_Carlo_standard_error_of_mean": 0.03164632345121306,
+            "mean": 11.9981,
+            "quantiles": {
+              "0": 1,
+              "0.025": 6,
+              "0.25": 10,
+              "0.5": 12,
+              "0.75": 14,
+              "0.975": 18,
+              "1": 23
+            },
+            "sample_standard_deviation": 3.164632345121306
+          },
+          "known_corner_prediction_groups": {
+            "Monte_Carlo_standard_error_of_mean": 0.019990728699159327,
+            "mean": 7.9973,
+            "quantiles": {
+              "0": 1,
+              "0.025": 4,
+              "0.25": 7,
+              "0.5": 8,
+              "0.75": 9,
+              "0.975": 12,
+              "1": 15
+            },
+            "sample_standard_deviation": 1.9990728699159328
+          },
+          "known_corner_prediction_squares": {
+            "Monte_Carlo_standard_error_of_mean": 0.03164632345121306,
+            "mean": 11.9981,
+            "quantiles": {
+              "0": 1,
+              "0.025": 6,
+              "0.25": 10,
+              "0.5": 12,
+              "0.75": 14,
+              "0.975": 18,
+              "1": 23
+            },
+            "sample_standard_deviation": 3.164632345121306
+          },
+          "predicted_but_unscorable_cases": {
+            "Monte_Carlo_standard_error_of_mean": 0.0,
+            "mean": 0.0,
+            "quantiles": {
+              "0": 0,
+              "0.025": 0,
+              "0.25": 0,
+              "0.5": 0,
+              "0.75": 0,
+              "0.975": 0,
+              "1": 0
+            },
+            "sample_standard_deviation": 0.0
+          },
+          "prediction_evaluation_coverage_pass": {
+            "Monte_Carlo_standard_error": 0.004903618153975694,
+            "denominator": 10000,
+            "rate": 0.5977,
+            "successes": 5977
+          },
+          "prediction_evaluation_distinct_targets": {
+            "Monte_Carlo_standard_error_of_mean": 0.03164632345121306,
+            "mean": 11.9981,
+            "quantiles": {
+              "0": 1,
+              "0.025": 6,
+              "0.25": 10,
+              "0.5": 12,
+              "0.75": 14,
+              "0.975": 18,
+              "1": 23
+            },
+            "sample_standard_deviation": 3.164632345121306
+          },
+          "prediction_evaluation_groups": {
+            "Monte_Carlo_standard_error_of_mean": 0.019990728699159327,
+            "mean": 7.9973,
+            "quantiles": {
+              "0": 1,
+              "0.025": 4,
+              "0.25": 7,
+              "0.5": 8,
+              "0.75": 9,
+              "0.975": 12,
+              "1": 15
+            },
+            "sample_standard_deviation": 1.9990728699159328
+          },
+          "prediction_evaluation_squares": {
+            "Monte_Carlo_standard_error_of_mean": 0.03164632345121306,
+            "mean": 11.9981,
+            "quantiles": {
+              "0": 1,
+              "0.025": 6,
+              "0.25": 10,
+              "0.5": 12,
+              "0.75": 14,
+              "0.975": 18,
+              "1": 23
+            },
+            "sample_standard_deviation": 3.164632345121306
+          }
+        }
+      },
+      "both_arms_pass": {
+        "descriptive": {
+          "Monte_Carlo_standard_error": 0.004765270611413375,
+          "denominator": 10000,
+          "rate": 0.3486,
+          "successes": 3486
+        },
+        "known_corner_prediction": {
+          "Monte_Carlo_standard_error": 0.004762721490912523,
+          "denominator": 10000,
+          "rate": 0.3478,
+          "successes": 3478
+        },
+        "prediction_evaluation": {
+          "Monte_Carlo_standard_error": 0.004762721490912523,
+          "denominator": 10000,
+          "rate": 0.3478,
+          "successes": 3478
+        }
+      },
+      "count_array_file": "scenario_09_counts.npz",
+      "count_array_sha256": "687183de9064f8801ecd461580868e1c9a9b61ed21d3f1f398cb64053543c204",
+      "draws": 10000,
+      "family": "B",
+      "p": 0.5,
+      "seed": 2026102509
+    },
+    {
+      "arms": {
+        "development": {
+          "descriptive_coverage_pass": {
+            "Monte_Carlo_standard_error": 0.0,
+            "denominator": 10000,
+            "rate": 1.0,
+            "successes": 10000
+          },
+          "descriptive_distinct_targets": {
+            "Monte_Carlo_standard_error_of_mean": 0.0,
+            "mean": 22.0,
+            "quantiles": {
+              "0": 22,
+              "0.025": 22,
+              "0.25": 22,
+              "0.5": 22,
+              "0.75": 22,
+              "0.975": 22,
+              "1": 22
+            },
+            "sample_standard_deviation": 0.0
+          },
+          "descriptive_groups": {
+            "Monte_Carlo_standard_error_of_mean": 0.0,
+            "mean": 16.0,
+            "quantiles": {
+              "0": 16,
+              "0.025": 16,
+              "0.25": 16,
+              "0.5": 16,
+              "0.75": 16,
+              "0.975": 16,
+              "1": 16
+            },
+            "sample_standard_deviation": 0.0
+          },
+          "descriptive_squares": {
+            "Monte_Carlo_standard_error_of_mean": 0.0,
+            "mean": 23.0,
+            "quantiles": {
+              "0": 23,
+              "0.025": 23,
+              "0.25": 23,
+              "0.5": 23,
+              "0.75": 23,
+              "0.975": 23,
+              "1": 23
+            },
+            "sample_standard_deviation": 0.0
+          },
+          "distinct_unscorable_targets": {
+            "Monte_Carlo_standard_error_of_mean": 0.0,
+            "mean": 0.0,
+            "quantiles": {
+              "0": 0,
+              "0.025": 0,
+              "0.25": 0,
+              "0.5": 0,
+              "0.75": 0,
+              "0.975": 0,
+              "1": 0
+            },
+            "sample_standard_deviation": 0.0
+          },
+          "evaluation_given_descriptive_coverage": {
+            "Monte_Carlo_standard_error": 0.0,
+            "denominator": 10000,
+            "rate": 1.0,
+            "successes": 10000
+          },
+          "evaluation_given_known_corner_coverage": {
+            "Monte_Carlo_standard_error": 0.0,
+            "denominator": 10000,
+            "rate": 1.0,
+            "successes": 10000
+          },
+          "known_corner_prediction_coverage_pass": {
+            "Monte_Carlo_standard_error": 0.0,
+            "denominator": 10000,
+            "rate": 1.0,
+            "successes": 10000
+          },
+          "known_corner_prediction_distinct_targets": {
+            "Monte_Carlo_standard_error_of_mean": 0.0,
+            "mean": 21.0,
+            "quantiles": {
+              "0": 21,
+              "0.025": 21,
+              "0.25": 21,
+              "0.5": 21,
+              "0.75": 21,
+              "0.975": 21,
+              "1": 21
+            },
+            "sample_standard_deviation": 0.0
+          },
+          "known_corner_prediction_groups": {
+            "Monte_Carlo_standard_error_of_mean": 0.0,
+            "mean": 16.0,
+            "quantiles": {
+              "0": 16,
+              "0.025": 16,
+              "0.25": 16,
+              "0.5": 16,
+              "0.75": 16,
+              "0.975": 16,
+              "1": 16
+            },
+            "sample_standard_deviation": 0.0
+          },
+          "known_corner_prediction_squares": {
+            "Monte_Carlo_standard_error_of_mean": 0.0,
+            "mean": 22.0,
+            "quantiles": {
+              "0": 22,
+              "0.025": 22,
+              "0.25": 22,
+              "0.5": 22,
+              "0.75": 22,
+              "0.975": 22,
+              "1": 22
+            },
+            "sample_standard_deviation": 0.0
+          },
+          "predicted_but_unscorable_cases": {
+            "Monte_Carlo_standard_error_of_mean": 0.0,
+            "mean": 0.0,
+            "quantiles": {
+              "0": 0,
+              "0.025": 0,
+              "0.25": 0,
+              "0.5": 0,
+              "0.75": 0,
+              "0.975": 0,
+              "1": 0
+            },
+            "sample_standard_deviation": 0.0
+          },
+          "prediction_evaluation_coverage_pass": {
+            "Monte_Carlo_standard_error": 0.0,
+            "denominator": 10000,
+            "rate": 1.0,
+            "successes": 10000
+          },
+          "prediction_evaluation_distinct_targets": {
+            "Monte_Carlo_standard_error_of_mean": 0.0,
+            "mean": 21.0,
+            "quantiles": {
+              "0": 21,
+              "0.025": 21,
+              "0.25": 21,
+              "0.5": 21,
+              "0.75": 21,
+              "0.975": 21,
+              "1": 21
+            },
+            "sample_standard_deviation": 0.0
+          },
+          "prediction_evaluation_groups": {
+            "Monte_Carlo_standard_error_of_mean": 0.0,
+            "mean": 16.0,
+            "quantiles": {
+              "0": 16,
+              "0.025": 16,
+              "0.25": 16,
+              "0.5": 16,
+              "0.75": 16,
+              "0.975": 16,
+              "1": 16
+            },
+            "sample_standard_deviation": 0.0
+          },
+          "prediction_evaluation_squares": {
+            "Monte_Carlo_standard_error_of_mean": 0.0,
+            "mean": 22.0,
+            "quantiles": {
+              "0": 22,
+              "0.025": 22,
+              "0.25": 22,
+              "0.5": 22,
+              "0.75": 22,
+              "0.975": 22,
+              "1": 22
+            },
+            "sample_standard_deviation": 0.0
+          }
+        },
+        "reserved_validation": {
+          "descriptive_coverage_pass": {
+            "Monte_Carlo_standard_error": 0.0,
+            "denominator": 10000,
+            "rate": 1.0,
+            "successes": 10000
+          },
+          "descriptive_distinct_targets": {
+            "Monte_Carlo_standard_error_of_mean": 0.0,
+            "mean": 24.0,
+            "quantiles": {
+              "0": 24,
+              "0.025": 24,
+              "0.25": 24,
+              "0.5": 24,
+              "0.75": 24,
+              "0.975": 24,
+              "1": 24
+            },
+            "sample_standard_deviation": 0.0
+          },
+          "descriptive_groups": {
+            "Monte_Carlo_standard_error_of_mean": 0.0,
+            "mean": 16.0,
+            "quantiles": {
+              "0": 16,
+              "0.025": 16,
+              "0.25": 16,
+              "0.5": 16,
+              "0.75": 16,
+              "0.975": 16,
+              "1": 16
+            },
+            "sample_standard_deviation": 0.0
+          },
+          "descriptive_squares": {
+            "Monte_Carlo_standard_error_of_mean": 0.0,
+            "mean": 24.0,
+            "quantiles": {
+              "0": 24,
+              "0.025": 24,
+              "0.25": 24,
+              "0.5": 24,
+              "0.75": 24,
+              "0.975": 24,
+              "1": 24
+            },
+            "sample_standard_deviation": 0.0
+          },
+          "distinct_unscorable_targets": {
+            "Monte_Carlo_standard_error_of_mean": 0.0,
+            "mean": 0.0,
+            "quantiles": {
+              "0": 0,
+              "0.025": 0,
+              "0.25": 0,
+              "0.5": 0,
+              "0.75": 0,
+              "0.975": 0,
+              "1": 0
+            },
+            "sample_standard_deviation": 0.0
+          },
+          "evaluation_given_descriptive_coverage": {
+            "Monte_Carlo_standard_error": 0.0,
+            "denominator": 10000,
+            "rate": 1.0,
+            "successes": 10000
+          },
+          "evaluation_given_known_corner_coverage": {
+            "Monte_Carlo_standard_error": 0.0,
+            "denominator": 10000,
+            "rate": 1.0,
+            "successes": 10000
+          },
+          "known_corner_prediction_coverage_pass": {
+            "Monte_Carlo_standard_error": 0.0,
+            "denominator": 10000,
+            "rate": 1.0,
+            "successes": 10000
+          },
+          "known_corner_prediction_distinct_targets": {
+            "Monte_Carlo_standard_error_of_mean": 0.0,
+            "mean": 24.0,
+            "quantiles": {
+              "0": 24,
+              "0.025": 24,
+              "0.25": 24,
+              "0.5": 24,
+              "0.75": 24,
+              "0.975": 24,
+              "1": 24
+            },
+            "sample_standard_deviation": 0.0
+          },
+          "known_corner_prediction_groups": {
+            "Monte_Carlo_standard_error_of_mean": 0.0,
+            "mean": 16.0,
+            "quantiles": {
+              "0": 16,
+              "0.025": 16,
+              "0.25": 16,
+              "0.5": 16,
+              "0.75": 16,
+              "0.975": 16,
+              "1": 16
+            },
+            "sample_standard_deviation": 0.0
+          },
+          "known_corner_prediction_squares": {
+            "Monte_Carlo_standard_error_of_mean": 0.0,
+            "mean": 24.0,
+            "quantiles": {
+              "0": 24,
+              "0.025": 24,
+              "0.25": 24,
+              "0.5": 24,
+              "0.75": 24,
+              "0.975": 24,
+              "1": 24
+            },
+            "sample_standard_deviation": 0.0
+          },
+          "predicted_but_unscorable_cases": {
+            "Monte_Carlo_standard_error_of_mean": 0.0,
+            "mean": 0.0,
+            "quantiles": {
+              "0": 0,
+              "0.025": 0,
+              "0.25": 0,
+              "0.5": 0,
+              "0.75": 0,
+              "0.975": 0,
+              "1": 0
+            },
+            "sample_standard_deviation": 0.0
+          },
+          "prediction_evaluation_coverage_pass": {
+            "Monte_Carlo_standard_error": 0.0,
+            "denominator": 10000,
+            "rate": 1.0,
+            "successes": 10000
+          },
+          "prediction_evaluation_distinct_targets": {
+            "Monte_Carlo_standard_error_of_mean": 0.0,
+            "mean": 24.0,
+            "quantiles": {
+              "0": 24,
+              "0.025": 24,
+              "0.25": 24,
+              "0.5": 24,
+              "0.75": 24,
+              "0.975": 24,
+              "1": 24
+            },
+            "sample_standard_deviation": 0.0
+          },
+          "prediction_evaluation_groups": {
+            "Monte_Carlo_standard_error_of_mean": 0.0,
+            "mean": 16.0,
+            "quantiles": {
+              "0": 16,
+              "0.025": 16,
+              "0.25": 16,
+              "0.5": 16,
+              "0.75": 16,
+              "0.975": 16,
+              "1": 16
+            },
+            "sample_standard_deviation": 0.0
+          },
+          "prediction_evaluation_squares": {
+            "Monte_Carlo_standard_error_of_mean": 0.0,
+            "mean": 24.0,
+            "quantiles": {
+              "0": 24,
+              "0.025": 24,
+              "0.25": 24,
+              "0.5": 24,
+              "0.75": 24,
+              "0.975": 24,
+              "1": 24
+            },
+            "sample_standard_deviation": 0.0
+          }
+        }
+      },
+      "both_arms_pass": {
+        "descriptive": {
+          "Monte_Carlo_standard_error": 0.0,
+          "denominator": 10000,
+          "rate": 1.0,
+          "successes": 10000
+        },
+        "known_corner_prediction": {
+          "Monte_Carlo_standard_error": 0.0,
+          "denominator": 10000,
+          "rate": 1.0,
+          "successes": 10000
+        },
+        "prediction_evaluation": {
+          "Monte_Carlo_standard_error": 0.0,
+          "denominator": 10000,
+          "rate": 1.0,
+          "successes": 10000
+        }
+      },
+      "count_array_file": "scenario_10_counts.npz",
+      "count_array_sha256": "7b8ccb771a32066d5c03d2e5edf0d0c975f4366ed49ace8a63a31c575f7728db",
+      "draws": 10000,
+      "family": "C",
+      "p": 0,
+      "seed": 2026102510
+    },
+    {
+      "arms": {
+        "development": {
+          "descriptive_coverage_pass": {
+            "Monte_Carlo_standard_error": 0.0,
+            "denominator": 10000,
+            "rate": 1.0,
+            "successes": 10000
+          },
+          "descriptive_distinct_targets": {
+            "Monte_Carlo_standard_error_of_mean": 0.014676714196098504,
+            "mean": 19.7199,
+            "quantiles": {
+              "0": 13,
+              "0.025": 16,
+              "0.25": 19,
+              "0.5": 20,
+              "0.75": 21,
+              "0.975": 22,
+              "1": 22
+            },
+            "sample_standard_deviation": 1.4676714196098504
+          },
+          "descriptive_groups": {
+            "Monte_Carlo_standard_error_of_mean": 0.010171351170737537,
+            "mean": 14.8469,
+            "quantiles": {
+              "0": 9,
+              "0.025": 13,
+              "0.25": 14,
+              "0.5": 15,
+              "0.75": 16,
+              "0.975": 16,
+              "1": 16
+            },
+            "sample_standard_deviation": 1.0171351170737537
+          },
+          "descriptive_squares": {
+            "Monte_Carlo_standard_error_of_mean": 0.015556663041169774,
+            "mean": 20.6206,
+            "quantiles": {
+              "0": 13,
+              "0.025": 17,
+              "0.25": 20,
+              "0.5": 21,
+              "0.75": 22,
+              "0.975": 23,
+              "1": 23
+            },
+            "sample_standard_deviation": 1.5556663041169774
+          },
+          "distinct_unscorable_targets": {
+            "Monte_Carlo_standard_error_of_mean": 0.013633494901100078,
+            "mean": 2.0898,
+            "quantiles": {
+              "0": 0,
+              "0.025": 0,
+              "0.25": 1,
+              "0.5": 2,
+              "0.75": 3,
+              "0.975": 5,
+              "1": 9
+            },
+            "sample_standard_deviation": 1.3633494901100078
+          },
+          "evaluation_given_descriptive_coverage": {
+            "Monte_Carlo_standard_error": 0.0,
+            "denominator": 10000,
+            "rate": 1.0,
+            "successes": 10000
+          },
+          "evaluation_given_known_corner_coverage": {
+            "Monte_Carlo_standard_error": 0.0,
+            "denominator": 10000,
+            "rate": 1.0,
+            "successes": 10000
+          },
+          "known_corner_prediction_coverage_pass": {
+            "Monte_Carlo_standard_error": 0.0,
+            "denominator": 10000,
+            "rate": 1.0,
+            "successes": 10000
+          },
+          "known_corner_prediction_distinct_targets": {
+            "Monte_Carlo_standard_error_of_mean": 0.0,
+            "mean": 21.0,
+            "quantiles": {
+              "0": 21,
+              "0.025": 21,
+              "0.25": 21,
+              "0.5": 21,
+              "0.75": 21,
+              "0.975": 21,
+              "1": 21
+            },
+            "sample_standard_deviation": 0.0
+          },
+          "known_corner_prediction_groups": {
+            "Monte_Carlo_standard_error_of_mean": 0.0,
+            "mean": 16.0,
+            "quantiles": {
+              "0": 16,
+              "0.025": 16,
+              "0.25": 16,
+              "0.5": 16,
+              "0.75": 16,
+              "0.975": 16,
+              "1": 16
+            },
+            "sample_standard_deviation": 0.0
+          },
+          "known_corner_prediction_squares": {
+            "Monte_Carlo_standard_error_of_mean": 0.0,
+            "mean": 22.0,
+            "quantiles": {
+              "0": 22,
+              "0.025": 22,
+              "0.25": 22,
+              "0.5": 22,
+              "0.75": 22,
+              "0.975": 22,
+              "1": 22
+            },
+            "sample_standard_deviation": 0.0
+          },
+          "predicted_but_unscorable_cases": {
+            "Monte_Carlo_standard_error_of_mean": 0.014579278944359824,
+            "mean": 2.1891,
+            "quantiles": {
+              "0": 0,
+              "0.025": 0,
+              "0.25": 1,
+              "0.5": 2,
+              "0.75": 3,
+              "0.975": 5,
+              "1": 10
+            },
+            "sample_standard_deviation": 1.4579278944359824
+          },
+          "prediction_evaluation_coverage_pass": {
+            "Monte_Carlo_standard_error": 0.0,
+            "denominator": 10000,
+            "rate": 1.0,
+            "successes": 10000
+          },
+          "prediction_evaluation_distinct_targets": {
+            "Monte_Carlo_standard_error_of_mean": 0.013633494901100078,
+            "mean": 18.9102,
+            "quantiles": {
+              "0": 12,
+              "0.025": 16,
+              "0.25": 18,
+              "0.5": 19,
+              "0.75": 20,
+              "0.975": 21,
+              "1": 21
+            },
+            "sample_standard_deviation": 1.3633494901100078
+          },
+          "prediction_evaluation_groups": {
+            "Monte_Carlo_standard_error_of_mean": 0.010171351170737537,
+            "mean": 14.8469,
+            "quantiles": {
+              "0": 9,
+              "0.025": 13,
+              "0.25": 14,
+              "0.5": 15,
+              "0.75": 16,
+              "0.975": 16,
+              "1": 16
+            },
+            "sample_standard_deviation": 1.0171351170737537
+          },
+          "prediction_evaluation_squares": {
+            "Monte_Carlo_standard_error_of_mean": 0.014579278944359824,
+            "mean": 19.8109,
+            "quantiles": {
+              "0": 12,
+              "0.025": 17,
+              "0.25": 19,
+              "0.5": 20,
+              "0.75": 21,
+              "0.975": 22,
+              "1": 22
+            },
+            "sample_standard_deviation": 1.4579278944359824
+          }
+        },
+        "reserved_validation": {
+          "descriptive_coverage_pass": {
+            "Monte_Carlo_standard_error": 0.0,
+            "denominator": 10000,
+            "rate": 1.0,
+            "successes": 10000
+          },
+          "descriptive_distinct_targets": {
+            "Monte_Carlo_standard_error_of_mean": 0.014673774257671286,
+            "mean": 21.6141,
+            "quantiles": {
+              "0": 14,
+              "0.025": 18,
+              "0.25": 21,
+              "0.5": 22,
+              "0.75": 23,
+              "0.975": 24,
+              "1": 24
+            },
+            "sample_standard_deviation": 1.4673774257671286
+          },
+          "descriptive_groups": {
+            "Monte_Carlo_standard_error_of_mean": 0.008956416512181306,
+            "mean": 15.1225,
+            "quantiles": {
+              "0": 10,
+              "0.025": 13,
+              "0.25": 15,
+              "0.5": 15,
+              "0.75": 16,
+              "0.975": 16,
+              "1": 16
+            },
+            "sample_standard_deviation": 0.8956416512181307
+          },
+          "descriptive_squares": {
+            "Monte_Carlo_standard_error_of_mean": 0.014673774257671286,
+            "mean": 21.6141,
+            "quantiles": {
+              "0": 14,
+              "0.025": 18,
+              "0.25": 21,
+              "0.5": 22,
+              "0.75": 23,
+              "0.975": 24,
+              "1": 24
+            },
+            "sample_standard_deviation": 1.4673774257671286
+          },
+          "distinct_unscorable_targets": {
+            "Monte_Carlo_standard_error_of_mean": 0.014673774257671286,
+            "mean": 2.3859,
+            "quantiles": {
+              "0": 0,
+              "0.025": 0,
+              "0.25": 1,
+              "0.5": 2,
+              "0.75": 3,
+              "0.975": 6,
+              "1": 10
+            },
+            "sample_standard_deviation": 1.4673774257671286
+          },
+          "evaluation_given_descriptive_coverage": {
+            "Monte_Carlo_standard_error": 0.0,
+            "denominator": 10000,
+            "rate": 1.0,
+            "successes": 10000
+          },
+          "evaluation_given_known_corner_coverage": {
+            "Monte_Carlo_standard_error": 0.0,
+            "denominator": 10000,
+            "rate": 1.0,
+            "successes": 10000
+          },
+          "known_corner_prediction_coverage_pass": {
+            "Monte_Carlo_standard_error": 0.0,
+            "denominator": 10000,
+            "rate": 1.0,
+            "successes": 10000
+          },
+          "known_corner_prediction_distinct_targets": {
+            "Monte_Carlo_standard_error_of_mean": 0.0,
+            "mean": 24.0,
+            "quantiles": {
+              "0": 24,
+              "0.025": 24,
+              "0.25": 24,
+              "0.5": 24,
+              "0.75": 24,
+              "0.975": 24,
+              "1": 24
+            },
+            "sample_standard_deviation": 0.0
+          },
+          "known_corner_prediction_groups": {
+            "Monte_Carlo_standard_error_of_mean": 0.0,
+            "mean": 16.0,
+            "quantiles": {
+              "0": 16,
+              "0.025": 16,
+              "0.25": 16,
+              "0.5": 16,
+              "0.75": 16,
+              "0.975": 16,
+              "1": 16
+            },
+            "sample_standard_deviation": 0.0
+          },
+          "known_corner_prediction_squares": {
+            "Monte_Carlo_standard_error_of_mean": 0.0,
+            "mean": 24.0,
+            "quantiles": {
+              "0": 24,
+              "0.025": 24,
+              "0.25": 24,
+              "0.5": 24,
+              "0.75": 24,
+              "0.975": 24,
+              "1": 24
+            },
+            "sample_standard_deviation": 0.0
+          },
+          "predicted_but_unscorable_cases": {
+            "Monte_Carlo_standard_error_of_mean": 0.014673774257671286,
+            "mean": 2.3859,
+            "quantiles": {
+              "0": 0,
+              "0.025": 0,
+              "0.25": 1,
+              "0.5": 2,
+              "0.75": 3,
+              "0.975": 6,
+              "1": 10
+            },
+            "sample_standard_deviation": 1.4673774257671286
+          },
+          "prediction_evaluation_coverage_pass": {
+            "Monte_Carlo_standard_error": 0.0,
+            "denominator": 10000,
+            "rate": 1.0,
+            "successes": 10000
+          },
+          "prediction_evaluation_distinct_targets": {
+            "Monte_Carlo_standard_error_of_mean": 0.014673774257671286,
+            "mean": 21.6141,
+            "quantiles": {
+              "0": 14,
+              "0.025": 18,
+              "0.25": 21,
+              "0.5": 22,
+              "0.75": 23,
+              "0.975": 24,
+              "1": 24
+            },
+            "sample_standard_deviation": 1.4673774257671286
+          },
+          "prediction_evaluation_groups": {
+            "Monte_Carlo_standard_error_of_mean": 0.008956416512181306,
+            "mean": 15.1225,
+            "quantiles": {
+              "0": 10,
+              "0.025": 13,
+              "0.25": 15,
+              "0.5": 15,
+              "0.75": 16,
+              "0.975": 16,
+              "1": 16
+            },
+            "sample_standard_deviation": 0.8956416512181307
+          },
+          "prediction_evaluation_squares": {
+            "Monte_Carlo_standard_error_of_mean": 0.014673774257671286,
+            "mean": 21.6141,
+            "quantiles": {
+              "0": 14,
+              "0.025": 18,
+              "0.25": 21,
+              "0.5": 22,
+              "0.75": 23,
+              "0.975": 24,
+              "1": 24
+            },
+            "sample_standard_deviation": 1.4673774257671286
+          }
+        }
+      },
+      "both_arms_pass": {
+        "descriptive": {
+          "Monte_Carlo_standard_error": 0.0,
+          "denominator": 10000,
+          "rate": 1.0,
+          "successes": 10000
+        },
+        "known_corner_prediction": {
+          "Monte_Carlo_standard_error": 0.0,
+          "denominator": 10000,
+          "rate": 1.0,
+          "successes": 10000
+        },
+        "prediction_evaluation": {
+          "Monte_Carlo_standard_error": 0.0,
+          "denominator": 10000,
+          "rate": 1.0,
+          "successes": 10000
+        }
+      },
+      "count_array_file": "scenario_11_counts.npz",
+      "count_array_sha256": "8ae2ff540f656f410726d4eb377223147de71af770d67ba2f45af09f7366f574",
+      "draws": 10000,
+      "family": "C",
+      "p": 0.1,
+      "seed": 2026102511
+    },
+    {
+      "arms": {
+        "development": {
+          "descriptive_coverage_pass": {
+            "Monte_Carlo_standard_error": 0.00029986496961132553,
+            "denominator": 10000,
+            "rate": 0.9991,
+            "successes": 9991
+          },
+          "descriptive_distinct_targets": {
+            "Monte_Carlo_standard_error_of_mean": 0.020793740331255858,
+            "mean": 16.3199,
+            "quantiles": {
+              "0": 7,
+              "0.025": 12,
+              "0.25": 15,
+              "0.5": 16,
+              "0.75": 18,
+              "0.975": 20,
+              "1": 22
+            },
+            "sample_standard_deviation": 2.079374033125586
+          },
+          "descriptive_groups": {
+            "Monte_Carlo_standard_error_of_mean": 0.015207133250227309,
+            "mean": 12.9332,
+            "quantiles": {
+              "0": 7,
+              "0.025": 10,
+              "0.25": 12,
+              "0.5": 13,
+              "0.75": 14,
+              "0.975": 16,
+              "1": 16
+            },
+            "sample_standard_deviation": 1.520713325022731
+          },
+          "descriptive_squares": {
+            "Monte_Carlo_standard_error_of_mean": 0.022054257412731055,
+            "mean": 17.0713,
+            "quantiles": {
+              "0": 8,
+              "0.025": 13,
+              "0.25": 16,
+              "0.5": 17,
+              "0.75": 19,
+              "0.975": 21,
+              "1": 23
+            },
+            "sample_standard_deviation": 2.2054257412731055
+          },
+          "distinct_unscorable_targets": {
+            "Monte_Carlo_standard_error_of_mean": 0.01949188508991462,
+            "mean": 5.2403,
+            "quantiles": {
+              "0": 0,
+              "0.025": 2,
+              "0.25": 4,
+              "0.5": 5,
+              "0.75": 7,
+              "0.975": 9,
+              "1": 14
+            },
+            "sample_standard_deviation": 1.949188508991462
+          },
+          "evaluation_given_descriptive_coverage": {
+            "Monte_Carlo_standard_error": 0.0001000850719354355,
+            "denominator": 9991,
+            "rate": 0.9998999099189271,
+            "successes": 9990
+          },
+          "evaluation_given_known_corner_coverage": {
+            "Monte_Carlo_standard_error": 0.0003160696125855823,
+            "denominator": 10000,
+            "rate": 0.999,
+            "successes": 9990
+          },
+          "known_corner_prediction_coverage_pass": {
+            "Monte_Carlo_standard_error": 0.0,
+            "denominator": 10000,
+            "rate": 1.0,
+            "successes": 10000
+          },
+          "known_corner_prediction_distinct_targets": {
+            "Monte_Carlo_standard_error_of_mean": 0.0,
+            "mean": 21.0,
+            "quantiles": {
+              "0": 21,
+              "0.025": 21,
+              "0.25": 21,
+              "0.5": 21,
+              "0.75": 21,
+              "0.975": 21,
+              "1": 21
+            },
+            "sample_standard_deviation": 0.0
+          },
+          "known_corner_prediction_groups": {
+            "Monte_Carlo_standard_error_of_mean": 0.0,
+            "mean": 16.0,
+            "quantiles": {
+              "0": 16,
+              "0.025": 16,
+              "0.25": 16,
+              "0.5": 16,
+              "0.75": 16,
+              "0.975": 16,
+              "1": 16
+            },
+            "sample_standard_deviation": 0.0
+          },
+          "known_corner_prediction_squares": {
+            "Monte_Carlo_standard_error_of_mean": 0.0,
+            "mean": 22.0,
+            "quantiles": {
+              "0": 22,
+              "0.025": 22,
+              "0.25": 22,
+              "0.5": 22,
+              "0.75": 22,
+              "0.975": 22,
+              "1": 22
+            },
+            "sample_standard_deviation": 0.0
+          },
+          "predicted_but_unscorable_cases": {
+            "Monte_Carlo_standard_error_of_mean": 0.020830052042825304,
+            "mean": 5.4889,
+            "quantiles": {
+              "0": 0,
+              "0.025": 2,
+              "0.25": 4,
+              "0.5": 5,
+              "0.75": 7,
+              "0.975": 10,
+              "1": 14
+            },
+            "sample_standard_deviation": 2.0830052042825304
+          },
+          "prediction_evaluation_coverage_pass": {
+            "Monte_Carlo_standard_error": 0.0003160696125855823,
+            "denominator": 10000,
+            "rate": 0.999,
+            "successes": 9990
+          },
+          "prediction_evaluation_distinct_targets": {
+            "Monte_Carlo_standard_error_of_mean": 0.01949188508991462,
+            "mean": 15.7597,
+            "quantiles": {
+              "0": 7,
+              "0.025": 12,
+              "0.25": 14,
+              "0.5": 16,
+              "0.75": 17,
+              "0.975": 19,
+              "1": 21
+            },
+            "sample_standard_deviation": 1.949188508991462
+          },
+          "prediction_evaluation_groups": {
+            "Monte_Carlo_standard_error_of_mean": 0.015207133250227309,
+            "mean": 12.9332,
+            "quantiles": {
+              "0": 7,
+              "0.025": 10,
+              "0.25": 12,
+              "0.5": 13,
+              "0.75": 14,
+              "0.975": 16,
+              "1": 16
+            },
+            "sample_standard_deviation": 1.520713325022731
+          },
+          "prediction_evaluation_squares": {
+            "Monte_Carlo_standard_error_of_mean": 0.020830052042825304,
+            "mean": 16.5111,
+            "quantiles": {
+              "0": 8,
+              "0.025": 12,
+              "0.25": 15,
+              "0.5": 17,
+              "0.75": 18,
+              "0.975": 20,
+              "1": 22
+            },
+            "sample_standard_deviation": 2.0830052042825304
+          }
+        },
+        "reserved_validation": {
+          "descriptive_coverage_pass": {
+            "Monte_Carlo_standard_error": 0.0001414072133945005,
+            "denominator": 10000,
+            "rate": 0.9998,
+            "successes": 9998
+          },
+          "descriptive_distinct_targets": {
+            "Monte_Carlo_standard_error_of_mean": 0.021214120766413803,
+            "mean": 17.9922,
+            "quantiles": {
+              "0": 9,
+              "0.025": 14,
+              "0.25": 17,
+              "0.5": 18,
+              "0.75": 19,
+              "0.975": 22,
+              "1": 24
+            },
+            "sample_standard_deviation": 2.12141207664138
+          },
+          "descriptive_groups": {
+            "Monte_Carlo_standard_error_of_mean": 0.01399201746194113,
+            "mean": 13.4945,
+            "quantiles": {
+              "0": 7,
+              "0.025": 11,
+              "0.25": 13,
+              "0.5": 14,
+              "0.75": 15,
+              "0.975": 16,
+              "1": 16
+            },
+            "sample_standard_deviation": 1.399201746194113
+          },
+          "descriptive_squares": {
+            "Monte_Carlo_standard_error_of_mean": 0.021214120766413803,
+            "mean": 17.9922,
+            "quantiles": {
+              "0": 9,
+              "0.025": 14,
+              "0.25": 17,
+              "0.5": 18,
+              "0.75": 19,
+              "0.975": 22,
+              "1": 24
+            },
+            "sample_standard_deviation": 2.12141207664138
+          },
+          "distinct_unscorable_targets": {
+            "Monte_Carlo_standard_error_of_mean": 0.021214120766413803,
+            "mean": 6.0078,
+            "quantiles": {
+              "0": 0,
+              "0.025": 2,
+              "0.25": 5,
+              "0.5": 6,
+              "0.75": 7,
+              "0.975": 10,
+              "1": 15
+            },
+            "sample_standard_deviation": 2.12141207664138
+          },
+          "evaluation_given_descriptive_coverage": {
+            "Monte_Carlo_standard_error": 0.0,
+            "denominator": 9998,
+            "rate": 1.0,
+            "successes": 9998
+          },
+          "evaluation_given_known_corner_coverage": {
+            "Monte_Carlo_standard_error": 0.0001414072133945005,
+            "denominator": 10000,
+            "rate": 0.9998,
+            "successes": 9998
+          },
+          "known_corner_prediction_coverage_pass": {
+            "Monte_Carlo_standard_error": 0.0,
+            "denominator": 10000,
+            "rate": 1.0,
+            "successes": 10000
+          },
+          "known_corner_prediction_distinct_targets": {
+            "Monte_Carlo_standard_error_of_mean": 0.0,
+            "mean": 24.0,
+            "quantiles": {
+              "0": 24,
+              "0.025": 24,
+              "0.25": 24,
+              "0.5": 24,
+              "0.75": 24,
+              "0.975": 24,
+              "1": 24
+            },
+            "sample_standard_deviation": 0.0
+          },
+          "known_corner_prediction_groups": {
+            "Monte_Carlo_standard_error_of_mean": 0.0,
+            "mean": 16.0,
+            "quantiles": {
+              "0": 16,
+              "0.025": 16,
+              "0.25": 16,
+              "0.5": 16,
+              "0.75": 16,
+              "0.975": 16,
+              "1": 16
+            },
+            "sample_standard_deviation": 0.0
+          },
+          "known_corner_prediction_squares": {
+            "Monte_Carlo_standard_error_of_mean": 0.0,
+            "mean": 24.0,
+            "quantiles": {
+              "0": 24,
+              "0.025": 24,
+              "0.25": 24,
+              "0.5": 24,
+              "0.75": 24,
+              "0.975": 24,
+              "1": 24
+            },
+            "sample_standard_deviation": 0.0
+          },
+          "predicted_but_unscorable_cases": {
+            "Monte_Carlo_standard_error_of_mean": 0.021214120766413803,
+            "mean": 6.0078,
+            "quantiles": {
+              "0": 0,
+              "0.025": 2,
+              "0.25": 5,
+              "0.5": 6,
+              "0.75": 7,
+              "0.975": 10,
+              "1": 15
+            },
+            "sample_standard_deviation": 2.12141207664138
+          },
+          "prediction_evaluation_coverage_pass": {
+            "Monte_Carlo_standard_error": 0.0001414072133945005,
+            "denominator": 10000,
+            "rate": 0.9998,
+            "successes": 9998
+          },
+          "prediction_evaluation_distinct_targets": {
+            "Monte_Carlo_standard_error_of_mean": 0.021214120766413803,
+            "mean": 17.9922,
+            "quantiles": {
+              "0": 9,
+              "0.025": 14,
+              "0.25": 17,
+              "0.5": 18,
+              "0.75": 19,
+              "0.975": 22,
+              "1": 24
+            },
+            "sample_standard_deviation": 2.12141207664138
+          },
+          "prediction_evaluation_groups": {
+            "Monte_Carlo_standard_error_of_mean": 0.01399201746194113,
+            "mean": 13.4945,
+            "quantiles": {
+              "0": 7,
+              "0.025": 11,
+              "0.25": 13,
+              "0.5": 14,
+              "0.75": 15,
+              "0.975": 16,
+              "1": 16
+            },
+            "sample_standard_deviation": 1.399201746194113
+          },
+          "prediction_evaluation_squares": {
+            "Monte_Carlo_standard_error_of_mean": 0.021214120766413803,
+            "mean": 17.9922,
+            "quantiles": {
+              "0": 9,
+              "0.025": 14,
+              "0.25": 17,
+              "0.5": 18,
+              "0.75": 19,
+              "0.975": 22,
+              "1": 24
+            },
+            "sample_standard_deviation": 2.12141207664138
+          }
+        }
+      },
+      "both_arms_pass": {
+        "descriptive": {
+          "Monte_Carlo_standard_error": 0.0003314800144805098,
+          "denominator": 10000,
+          "rate": 0.9989,
+          "successes": 9989
+        },
+        "known_corner_prediction": {
+          "Monte_Carlo_standard_error": 0.0,
+          "denominator": 10000,
+          "rate": 1.0,
+          "successes": 10000
+        },
+        "prediction_evaluation": {
+          "Monte_Carlo_standard_error": 0.0003462022530255947,
+          "denominator": 10000,
+          "rate": 0.9988,
+          "successes": 9988
+        }
+      },
+      "count_array_file": "scenario_12_counts.npz",
+      "count_array_sha256": "dda0b4746088ea481436ed1c96e7ad8e5bdb5f5d88dd695b847c17461ca36112",
+      "draws": 10000,
+      "family": "C",
+      "p": 0.25,
+      "seed": 2026102512
+    },
+    {
+      "arms": {
+        "development": {
+          "descriptive_coverage_pass": {
+            "Monte_Carlo_standard_error": 0.0044317913985204675,
+            "denominator": 10000,
+            "rate": 0.7315,
+            "successes": 7315
+          },
+          "descriptive_distinct_targets": {
+            "Monte_Carlo_standard_error_of_mean": 0.023919582576689424,
+            "mean": 10.7528,
+            "quantiles": {
+              "0": 2,
+              "0.025": 6,
+              "0.25": 9,
+              "0.5": 11,
+              "0.75": 12,
+              "0.975": 15,
+              "1": 19
+            },
+            "sample_standard_deviation": 2.3919582576689424
+          },
+          "descriptive_groups": {
+            "Monte_Carlo_standard_error_of_mean": 0.019167420666367715,
+            "mean": 9.2582,
+            "quantiles": {
+              "0": 2,
+              "0.025": 5,
+              "0.25": 8,
+              "0.5": 9,
+              "0.75": 11,
+              "0.975": 13,
+              "1": 16
+            },
+            "sample_standard_deviation": 1.9167420666367716
+          },
+          "descriptive_squares": {
+            "Monte_Carlo_standard_error_of_mean": 0.025385261868887926,
+            "mean": 11.2589,
+            "quantiles": {
+              "0": 2,
+              "0.025": 6,
+              "0.25": 10,
+              "0.5": 11,
+              "0.75": 13,
+              "0.975": 16,
+              "1": 20
+            },
+            "sample_standard_deviation": 2.5385261868887925
+          },
+          "distinct_unscorable_targets": {
+            "Monte_Carlo_standard_error_of_mean": 0.02295674933944315,
+            "mean": 10.4981,
+            "quantiles": {
+              "0": 3,
+              "0.025": 6,
+              "0.25": 9,
+              "0.5": 11,
+              "0.75": 12,
+              "0.975": 15,
+              "1": 19
+            },
+            "sample_standard_deviation": 2.2956749339443148
+          },
+          "evaluation_given_descriptive_coverage": {
+            "Monte_Carlo_standard_error": 0.0016570370965617992,
+            "denominator": 7315,
+            "rate": 0.9794941900205059,
+            "successes": 7165
+          },
+          "evaluation_given_known_corner_coverage": {
+            "Monte_Carlo_standard_error": 0.00450696960273752,
+            "denominator": 10000,
+            "rate": 0.7165,
+            "successes": 7165
+          },
+          "known_corner_prediction_coverage_pass": {
+            "Monte_Carlo_standard_error": 0.0,
+            "denominator": 10000,
+            "rate": 1.0,
+            "successes": 10000
+          },
+          "known_corner_prediction_distinct_targets": {
+            "Monte_Carlo_standard_error_of_mean": 0.0,
+            "mean": 21.0,
+            "quantiles": {
+              "0": 21,
+              "0.025": 21,
+              "0.25": 21,
+              "0.5": 21,
+              "0.75": 21,
+              "0.975": 21,
+              "1": 21
+            },
+            "sample_standard_deviation": 0.0
+          },
+          "known_corner_prediction_groups": {
+            "Monte_Carlo_standard_error_of_mean": 0.0,
+            "mean": 16.0,
+            "quantiles": {
+              "0": 16,
+              "0.025": 16,
+              "0.25": 16,
+              "0.5": 16,
+              "0.75": 16,
+              "0.975": 16,
+              "1": 16
+            },
+            "sample_standard_deviation": 0.0
+          },
+          "known_corner_prediction_squares": {
+            "Monte_Carlo_standard_error_of_mean": 0.0,
+            "mean": 22.0,
+            "quantiles": {
+              "0": 22,
+              "0.025": 22,
+              "0.25": 22,
+              "0.5": 22,
+              "0.75": 22,
+              "0.975": 22,
+              "1": 22
+            },
+            "sample_standard_deviation": 0.0
+          },
+          "predicted_but_unscorable_cases": {
+            "Monte_Carlo_standard_error_of_mean": 0.024464534562201146,
+            "mean": 10.992,
+            "quantiles": {
+              "0": 3,
+              "0.025": 6,
+              "0.25": 9,
+              "0.5": 11,
+              "0.75": 13,
+              "0.975": 16,
+              "1": 20
+            },
+            "sample_standard_deviation": 2.4464534562201146
+          },
+          "prediction_evaluation_coverage_pass": {
+            "Monte_Carlo_standard_error": 0.00450696960273752,
+            "denominator": 10000,
+            "rate": 0.7165,
+            "successes": 7165
+          },
+          "prediction_evaluation_distinct_targets": {
+            "Monte_Carlo_standard_error_of_mean": 0.02295674933944315,
+            "mean": 10.5019,
+            "quantiles": {
+              "0": 2,
+              "0.025": 6,
+              "0.25": 9,
+              "0.5": 10,
+              "0.75": 12,
+              "0.975": 15,
+              "1": 18
+            },
+            "sample_standard_deviation": 2.2956749339443148
+          },
+          "prediction_evaluation_groups": {
+            "Monte_Carlo_standard_error_of_mean": 0.019167420666367715,
+            "mean": 9.2582,
+            "quantiles": {
+              "0": 2,
+              "0.025": 5,
+              "0.25": 8,
+              "0.5": 9,
+              "0.75": 11,
+              "0.975": 13,
+              "1": 16
+            },
+            "sample_standard_deviation": 1.9167420666367716
+          },
+          "prediction_evaluation_squares": {
+            "Monte_Carlo_standard_error_of_mean": 0.024464534562201146,
+            "mean": 11.008,
+            "quantiles": {
+              "0": 2,
+              "0.025": 6,
+              "0.25": 9,
+              "0.5": 11,
+              "0.75": 13,
+              "0.975": 16,
+              "1": 19
+            },
+            "sample_standard_deviation": 2.4464534562201146
+          }
+        },
+        "reserved_validation": {
+          "descriptive_coverage_pass": {
+            "Monte_Carlo_standard_error": 0.0036973022597564294,
+            "denominator": 10000,
+            "rate": 0.8366,
+            "successes": 8366
+          },
+          "descriptive_distinct_targets": {
+            "Monte_Carlo_standard_error_of_mean": 0.024299843708148083,
+            "mean": 11.9762,
+            "quantiles": {
+              "0": 2,
+              "0.025": 7,
+              "0.25": 10,
+              "0.5": 12,
+              "0.75": 14,
+              "0.975": 17,
+              "1": 22
+            },
+            "sample_standard_deviation": 2.4299843708148083
+          },
+          "descriptive_groups": {
+            "Monte_Carlo_standard_error_of_mean": 0.018661969507814312,
+            "mean": 9.9811,
+            "quantiles": {
+              "0": 2,
+              "0.025": 6,
+              "0.25": 9,
+              "0.5": 10,
+              "0.75": 11,
+              "0.975": 13,
+              "1": 16
+            },
+            "sample_standard_deviation": 1.866196950781431
+          },
+          "descriptive_squares": {
+            "Monte_Carlo_standard_error_of_mean": 0.024299843708148083,
+            "mean": 11.9762,
+            "quantiles": {
+              "0": 2,
+              "0.025": 7,
+              "0.25": 10,
+              "0.5": 12,
+              "0.75": 14,
+              "0.975": 17,
+              "1": 22
+            },
+            "sample_standard_deviation": 2.4299843708148083
+          },
+          "distinct_unscorable_targets": {
+            "Monte_Carlo_standard_error_of_mean": 0.024299843708148083,
+            "mean": 12.0238,
+            "quantiles": {
+              "0": 2,
+              "0.025": 7,
+              "0.25": 10,
+              "0.5": 12,
+              "0.75": 14,
+              "0.975": 17,
+              "1": 22
+            },
+            "sample_standard_deviation": 2.4299843708148083
+          },
+          "evaluation_given_descriptive_coverage": {
+            "Monte_Carlo_standard_error": 0.0,
+            "denominator": 8366,
+            "rate": 1.0,
+            "successes": 8366
+          },
+          "evaluation_given_known_corner_coverage": {
+            "Monte_Carlo_standard_error": 0.0036973022597564294,
+            "denominator": 10000,
+            "rate": 0.8366,
+            "successes": 8366
+          },
+          "known_corner_prediction_coverage_pass": {
+            "Monte_Carlo_standard_error": 0.0,
+            "denominator": 10000,
+            "rate": 1.0,
+            "successes": 10000
+          },
+          "known_corner_prediction_distinct_targets": {
+            "Monte_Carlo_standard_error_of_mean": 0.0,
+            "mean": 24.0,
+            "quantiles": {
+              "0": 24,
+              "0.025": 24,
+              "0.25": 24,
+              "0.5": 24,
+              "0.75": 24,
+              "0.975": 24,
+              "1": 24
+            },
+            "sample_standard_deviation": 0.0
+          },
+          "known_corner_prediction_groups": {
+            "Monte_Carlo_standard_error_of_mean": 0.0,
+            "mean": 16.0,
+            "quantiles": {
+              "0": 16,
+              "0.025": 16,
+              "0.25": 16,
+              "0.5": 16,
+              "0.75": 16,
+              "0.975": 16,
+              "1": 16
+            },
+            "sample_standard_deviation": 0.0
+          },
+          "known_corner_prediction_squares": {
+            "Monte_Carlo_standard_error_of_mean": 0.0,
+            "mean": 24.0,
+            "quantiles": {
+              "0": 24,
+              "0.025": 24,
+              "0.25": 24,
+              "0.5": 24,
+              "0.75": 24,
+              "0.975": 24,
+              "1": 24
+            },
+            "sample_standard_deviation": 0.0
+          },
+          "predicted_but_unscorable_cases": {
+            "Monte_Carlo_standard_error_of_mean": 0.024299843708148083,
+            "mean": 12.0238,
+            "quantiles": {
+              "0": 2,
+              "0.025": 7,
+              "0.25": 10,
+              "0.5": 12,
+              "0.75": 14,
+              "0.975": 17,
+              "1": 22
+            },
+            "sample_standard_deviation": 2.4299843708148083
+          },
+          "prediction_evaluation_coverage_pass": {
+            "Monte_Carlo_standard_error": 0.0036973022597564294,
+            "denominator": 10000,
+            "rate": 0.8366,
+            "successes": 8366
+          },
+          "prediction_evaluation_distinct_targets": {
+            "Monte_Carlo_standard_error_of_mean": 0.024299843708148083,
+            "mean": 11.9762,
+            "quantiles": {
+              "0": 2,
+              "0.025": 7,
+              "0.25": 10,
+              "0.5": 12,
+              "0.75": 14,
+              "0.975": 17,
+              "1": 22
+            },
+            "sample_standard_deviation": 2.4299843708148083
+          },
+          "prediction_evaluation_groups": {
+            "Monte_Carlo_standard_error_of_mean": 0.018661969507814312,
+            "mean": 9.9811,
+            "quantiles": {
+              "0": 2,
+              "0.025": 6,
+              "0.25": 9,
+              "0.5": 10,
+              "0.75": 11,
+              "0.975": 13,
+              "1": 16
+            },
+            "sample_standard_deviation": 1.866196950781431
+          },
+          "prediction_evaluation_squares": {
+            "Monte_Carlo_standard_error_of_mean": 0.024299843708148083,
+            "mean": 11.9762,
+            "quantiles": {
+              "0": 2,
+              "0.025": 7,
+              "0.25": 10,
+              "0.5": 12,
+              "0.75": 14,
+              "0.975": 17,
+              "1": 22
+            },
+            "sample_standard_deviation": 2.4299843708148083
+          }
+        }
+      },
+      "both_arms_pass": {
+        "descriptive": {
+          "Monte_Carlo_standard_error": 0.0048774993593028795,
+          "denominator": 10000,
+          "rate": 0.61,
+          "successes": 6100
+        },
+        "known_corner_prediction": {
+          "Monte_Carlo_standard_error": 0.0,
+          "denominator": 10000,
+          "rate": 1.0,
+          "successes": 10000
+        },
+        "prediction_evaluation": {
+          "Monte_Carlo_standard_error": 0.004906386756055824,
+          "denominator": 10000,
+          "rate": 0.5963,
+          "successes": 5963
+        }
+      },
+      "count_array_file": "scenario_13_counts.npz",
+      "count_array_sha256": "69c8aed61b16aba9d5572a087165a6e95faab950ec80bb3c0d38e06262353b35",
+      "draws": 10000,
+      "family": "C",
+      "p": 0.5,
+      "seed": 2026102513
+    }
+  ],
+  "scope": "Hypothetical coverage only; no biological uncertainty or power estimate.",
+  "source_sha256": "a459309154a84ed81764fb5abf8bab905b014f18cad04659b9168efc14d1f57d",
+  "status": "all_frozen_scenarios_completed",
+  "total_synthetic_draws": 130000
+}

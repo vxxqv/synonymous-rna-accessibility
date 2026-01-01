@@ -1,0 +1,322 @@
+{
+  "candidate_source_held": {
+    "graph_rules.py": "7f901518cfc196de5d6d24c10f6f1b336255063ca8bd22d544accb6ef7b940f3",
+    "masking_v2.py": "ffbf1b1a49a9c97fe259f4a4c9777f027ec9da18025e1611a64efd7c8bdec8fe",
+    "staged_analysis.py": "5fbdf1c0da2dcf9e53b71199b124c576945d432da5b33bbc4240c1b9bfa21ef5",
+    "synthetic_reader_tests.py": "8e7684aeb42fbfb8a710f66e9c1fefba569b9d3eafa0595f7f730e55ffe6bf37"
+  },
+  "external_primary_archive": {
+    "bytes": 130122456,
+    "expected_records": 244000,
+    "filename": "Supplementary_Data_15_Integrated_Phenotypic_Measurements.csv.zip",
+    "member": "Supplementary_Data_15_Integrated_Phenotypic_Measurements.csv",
+    "opened_during_handoff": false,
+    "redistributed_here": false,
+    "sha256": "2758ed63e469c77b42c01e3c022452ef52ebf8d1bd4a86bd4c5b502e44b7bbc0",
+    "url": "https://osf.io/download/pm2qa/"
+  },
+  "files": [
+    {
+      "bytes": 17280,
+      "scope": "pilot_execution_input:protocol",
+      "sha256": "9becbd723fac30ac12ad9e95d5fb80cb69b5bd93c99210668e0479a24879adde",
+      "source": "cambray_pilot/protocol_draft.md",
+      "suggested_archive_path": "analysis/cycle5/cambray_pilot/protocol_draft.md"
+    },
+    {
+      "bytes": 46446,
+      "scope": "pilot_execution_input:split",
+      "sha256": "394a0c1aa23785c290b31c147d199f406cf46b269daa9159a98c419398b05a4e",
+      "source": "cambray_pilot_preflight/split_manifest.json",
+      "suggested_archive_path": "analysis/cycle5/cambray_pilot_preflight/split_manifest.json"
+    },
+    {
+      "bytes": 51833,
+      "scope": "pilot_execution_input:mask",
+      "sha256": "6e869e95b50fe21073fabfca5cda0e544b140b8e5c8a22f217b3c52394fdf3d9",
+      "source": "cambray_pilot_preflight/prediction_mask_v2.json",
+      "suggested_archive_path": "analysis/cycle5/cambray_pilot_preflight/prediction_mask_v2.json"
+    },
+    {
+      "bytes": 1904094,
+      "scope": "pilot_execution_input:components",
+      "sha256": "90772dc57ab6dfdadf737e72cc0be11783245299d1ec0e9e589663a64ee1dadd",
+      "source": "cambray_eligibility/components.jsonl",
+      "suggested_archive_path": "analysis/cycle5/cambray_eligibility/components.jsonl"
+    },
+    {
+      "bytes": 639579,
+      "scope": "pilot_execution_input:edges",
+      "sha256": "5d7d5f3b1160d7a8338da3f39369720fdc92c6105b47efbd902eeede48a30edd",
+      "source": "cambray_eligibility/synonymous_edges.tsv",
+      "suggested_archive_path": "analysis/cycle5/cambray_eligibility/synonymous_edges.tsv"
+    },
+    {
+      "bytes": 9636,
+      "scope": "pilot_execution_input:graph_rules",
+      "sha256": "7f901518cfc196de5d6d24c10f6f1b336255063ca8bd22d544accb6ef7b940f3",
+      "source": "cambray_pilot_preflight/graph_rules.py",
+      "suggested_archive_path": "analysis/cycle5/cambray_pilot_preflight/graph_rules.py"
+    },
+    {
+      "bytes": 6101,
+      "scope": "pilot_execution_input:masking",
+      "sha256": "ffbf1b1a49a9c97fe259f4a4c9777f027ec9da18025e1611a64efd7c8bdec8fe",
+      "source": "cambray_pilot_preflight/masking_v2.py",
+      "suggested_archive_path": "analysis/cycle5/cambray_pilot_preflight/masking_v2.py"
+    },
+    {
+      "bytes": 30407,
+      "scope": "pilot_execution_input:runner",
+      "sha256": "5fbdf1c0da2dcf9e53b71199b124c576945d432da5b33bbc4240c1b9bfa21ef5",
+      "source": "cambray_pilot_preflight/staged_analysis.py",
+      "suggested_archive_path": "analysis/cycle5/cambray_pilot_preflight/staged_analysis.py"
+    },
+    {
+      "bytes": 30751838,
+      "scope": "metadata_or_historical_provenance",
+      "sha256": "9fcd79a97e3478c68411dee6cb853ad77e249d1d93b11bc4af58d2fcc44d4e7e",
+      "source": "cambray_eligibility/sequence_metadata.tsv",
+      "suggested_archive_path": "analysis/cycle5/cambray_eligibility/sequence_metadata.tsv"
+    },
+    {
+      "bytes": 24906,
+      "scope": "metadata_or_historical_provenance",
+      "sha256": "13d93121be350515bc4e5c9ae22d00028a8b577ccaeb24ae1f0b1d014cefcf6c",
+      "source": "cambray_eligibility/annotated_squares.json",
+      "suggested_archive_path": "analysis/cycle5/cambray_eligibility/annotated_squares.json"
+    },
+    {
+      "bytes": 7645,
+      "scope": "metadata_or_historical_provenance",
+      "sha256": "080ef22cdc207eb13e33f6d53afc30a965dc3921632a7d55589273edc0234e59",
+      "source": "cambray_eligibility/binary_faces.jsonl",
+      "suggested_archive_path": "analysis/cycle5/cambray_eligibility/binary_faces.jsonl"
+    },
+    {
+      "bytes": 11057,
+      "scope": "metadata_or_historical_provenance",
+      "sha256": "45945d50dbb4a032fd3c503a42ad979197d75118e82d4a94a6a0b603b91309c2",
+      "source": "cambray_eligibility/previously_exposed_ids.json",
+      "suggested_archive_path": "analysis/cycle5/cambray_eligibility/previously_exposed_ids.json"
+    },
+    {
+      "bytes": 3960,
+      "scope": "metadata_or_historical_provenance",
+      "sha256": "d52a1f63fe97f81d8d558d5840ff347005a462019c2b80a8d31d59146d7e64b3",
+      "source": "cambray_eligibility/graph_summary.json",
+      "suggested_archive_path": "analysis/cycle5/cambray_eligibility/graph_summary.json"
+    },
+    {
+      "bytes": 1200,
+      "scope": "metadata_or_historical_provenance",
+      "sha256": "f285c175911527430289053863dd6465e86323ae4e94bb11858767ff6847c155",
+      "source": "cambray_eligibility/graph_corroboration.json",
+      "suggested_archive_path": "analysis/cycle5/cambray_eligibility/graph_corroboration.json"
+    },
+    {
+      "bytes": 4669,
+      "scope": "metadata_or_historical_provenance",
+      "sha256": "8b96cbba57e68d8aac5109cf0dc6402404007532473135aca9d7a834e2317f3a",
+      "source": "cambray_eligibility/square_dependencies.json",
+      "suggested_archive_path": "analysis/cycle5/cambray_eligibility/square_dependencies.json"
+    },
+    {
+      "bytes": 585,
+      "scope": "metadata_or_historical_provenance",
+      "sha256": "f8fdc55604c0770d3d1e2b3d69f7cb0b6253bd32cefce424f5dcce0de590cdbe",
+      "source": "cambray_eligibility/extraction_receipt.json",
+      "suggested_archive_path": "analysis/cycle5/cambray_eligibility/extraction_receipt.json"
+    },
+    {
+      "bytes": 2523,
+      "scope": "metadata_or_historical_provenance",
+      "sha256": "998e8ca84eb41dc2c3627cc8d88a37270331e3197ae1b92105f482e4c1691126",
+      "source": "cambray_eligibility/column_schema.json",
+      "suggested_archive_path": "analysis/cycle5/cambray_eligibility/column_schema.json"
+    },
+    {
+      "bytes": 8271,
+      "scope": "metadata_or_historical_provenance",
+      "sha256": "096dfc50b217125aa2552afa65856442569531ee1692c750e117aaca39f2133d",
+      "source": "cambray_eligibility/provenance.json",
+      "suggested_archive_path": "analysis/cycle5/cambray_eligibility/provenance.json"
+    },
+    {
+      "bytes": 1572,
+      "scope": "metadata_or_historical_provenance",
+      "sha256": "f9b2a17889bac5bafb2ade2062aa1c3ffe7116feb1c49e8f2cd4b7b83f6dd2dc",
+      "source": "cambray_eligibility/eligibility_decision.json",
+      "suggested_archive_path": "analysis/cycle5/cambray_eligibility/eligibility_decision.json"
+    },
+    {
+      "bytes": 3843,
+      "scope": "metadata_or_historical_provenance",
+      "sha256": "98bb77a43f2605eb076cfce830df37e9c294f1a3dcc0f80e2a29b185f5e2cbd2",
+      "source": "cambray_eligibility/final_manifest.json",
+      "suggested_archive_path": "analysis/cycle5/cambray_eligibility/final_manifest.json"
+    },
+    {
+      "bytes": 13229,
+      "scope": "metadata_or_historical_provenance",
+      "sha256": "b698ac93a8e74cf51a5afda0637a8111e85fc4daef616c3634e60bd3b44a0ed7",
+      "source": "cambray_eligibility/report.md",
+      "suggested_archive_path": "analysis/cycle5/cambray_eligibility/report.md"
+    },
+    {
+      "bytes": 7082,
+      "scope": "metadata_or_historical_provenance",
+      "sha256": "e0ae475684b6b4f738b3bea63b7e968899bf3473bcc9ee6efb8e223d5819b14f",
+      "source": "cambray_eligibility/closest_prior.md",
+      "suggested_archive_path": "analysis/cycle5/cambray_eligibility/closest_prior.md"
+    },
+    {
+      "bytes": 10270,
+      "scope": "metadata_or_historical_provenance",
+      "sha256": "5d6e59fd24f8de2c3038d4505da07364fdc40f05fd989efec3b9e0bcdbf57fb0",
+      "source": "cambray_eligibility/audit_graph.py",
+      "suggested_archive_path": "analysis/cycle5/cambray_eligibility/audit_graph.py"
+    },
+    {
+      "bytes": 5295,
+      "scope": "metadata_or_historical_provenance",
+      "sha256": "f88f252d15dd62c0a3de4c8b4048a00eb25e53f5435477b92cc127d019e9f7e5",
+      "source": "cambray_eligibility/check_graph.py",
+      "suggested_archive_path": "analysis/cycle5/cambray_eligibility/check_graph.py"
+    },
+    {
+      "bytes": 5382,
+      "scope": "metadata_or_historical_provenance",
+      "sha256": "db117374a027c66855ecf2ad03aa38e8c65c01b010fbe3d4b917ac7a64df63f9",
+      "source": "cambray_eligibility/square_design_check.py",
+      "suggested_archive_path": "analysis/cycle5/cambray_eligibility/square_design_check.py"
+    },
+    {
+      "bytes": 5860,
+      "scope": "metadata_or_historical_provenance",
+      "sha256": "435b910afb00e50e371ed41cdc561178945da0ab3e11ff6f087b5de18008e2c7",
+      "source": "cambray_eligibility/recover_sequences.py",
+      "suggested_archive_path": "analysis/cycle5/cambray_eligibility/recover_sequences.py"
+    },
+    {
+      "bytes": 7501,
+      "scope": "metadata_or_historical_provenance",
+      "sha256": "04cbf2869913342a98eed0debe1d8c9397f50f1461b415dd532f42c27895fbcb",
+      "source": "cambray_eligibility/finalize_receipt.py",
+      "suggested_archive_path": "analysis/cycle5/cambray_eligibility/finalize_receipt.py"
+    },
+    {
+      "bytes": 9283,
+      "scope": "metadata_or_synthetic_evidence",
+      "sha256": "1233fa2edc4eaafee2316c3006bf4b4605aa32c627abb328901989abe99d41d3",
+      "source": "cambray_pilot_preflight/metadata_split.py",
+      "suggested_archive_path": "analysis/cycle5/cambray_pilot_preflight/metadata_split.py"
+    },
+    {
+      "bytes": 4622,
+      "scope": "metadata_or_synthetic_evidence",
+      "sha256": "74e5a5a3178679c954498a0b4b324b3510d1eb76883a75444edbe7a464298673",
+      "source": "cambray_pilot_preflight/verify_split.py",
+      "suggested_archive_path": "analysis/cycle5/cambray_pilot_preflight/verify_split.py"
+    },
+    {
+      "bytes": 10202,
+      "scope": "metadata_or_synthetic_evidence",
+      "sha256": "a39bc9104b0f3d487ca64f790a90f83406bdc4568c6409cf9dab5eb9b8101e2c",
+      "source": "cambray_pilot_preflight/test_synthetic.py",
+      "suggested_archive_path": "analysis/cycle5/cambray_pilot_preflight/test_synthetic.py"
+    },
+    {
+      "bytes": 5246,
+      "scope": "metadata_or_synthetic_evidence",
+      "sha256": "bc0055a9eae0ddffff33c9e9f86e1612772aa71a2f2a2d8e6985744d20ee8469",
+      "source": "cambray_pilot_preflight/test_masking_v2.py",
+      "suggested_archive_path": "analysis/cycle5/cambray_pilot_preflight/test_masking_v2.py"
+    },
+    {
+      "bytes": 17163,
+      "scope": "metadata_or_synthetic_evidence",
+      "sha256": "8e7684aeb42fbfb8a710f66e9c1fefba569b9d3eafa0595f7f730e55ffe6bf37",
+      "source": "cambray_pilot_preflight/synthetic_reader_tests.py",
+      "suggested_archive_path": "analysis/cycle5/cambray_pilot_preflight/synthetic_reader_tests.py"
+    },
+    {
+      "bytes": 1437,
+      "scope": "metadata_or_synthetic_evidence",
+      "sha256": "e385e4859d0b4556577dd0ad8f0c8c9508430e32ea3c9649d26c8be9a5408eec",
+      "source": "cambray_pilot_preflight/preflight_manifest.json",
+      "suggested_archive_path": "analysis/cycle5/cambray_pilot_preflight/preflight_manifest.json"
+    },
+    {
+      "bytes": 1437,
+      "scope": "metadata_or_synthetic_evidence",
+      "sha256": "e385e4859d0b4556577dd0ad8f0c8c9508430e32ea3c9649d26c8be9a5408eec",
+      "source": "cambray_pilot_preflight/preflight_manifest_v1.json",
+      "suggested_archive_path": "analysis/cycle5/cambray_pilot_preflight/preflight_manifest_v1.json"
+    },
+    {
+      "bytes": 1100,
+      "scope": "metadata_or_synthetic_evidence",
+      "sha256": "29068cee3224ec92149abdc03fec2e7eaa8832377d3330dfe70c1b4d626a850a",
+      "source": "cambray_pilot_preflight/preflight_manifest_v2.json",
+      "suggested_archive_path": "analysis/cycle5/cambray_pilot_preflight/preflight_manifest_v2.json"
+    },
+    {
+      "bytes": 687,
+      "scope": "metadata_or_synthetic_evidence",
+      "sha256": "bbe8101cfaaf90e6873b6b489d5fcee948639fc801475e537d39180220423c5a",
+      "source": "cambray_pilot_preflight/split_corroboration.json",
+      "suggested_archive_path": "analysis/cycle5/cambray_pilot_preflight/split_corroboration.json"
+    },
+    {
+      "bytes": 879,
+      "scope": "metadata_or_synthetic_evidence",
+      "sha256": "8d1bad974ac23af32f5384a503ce56d77b962521663aea49d32ec4055311d753",
+      "source": "cambray_pilot_preflight/synthetic_receipt.json",
+      "suggested_archive_path": "analysis/cycle5/cambray_pilot_preflight/synthetic_receipt.json"
+    },
+    {
+      "bytes": 609,
+      "scope": "metadata_or_synthetic_evidence",
+      "sha256": "9e5c48901925ee26484485ed5df7bacbaa2fe9fd22afc9b1bb9d08a4ad127f73",
+      "source": "cambray_pilot_preflight/synthetic_mask_receipt_v2.json",
+      "suggested_archive_path": "analysis/cycle5/cambray_pilot_preflight/synthetic_mask_receipt_v2.json"
+    },
+    {
+      "bytes": 6407,
+      "scope": "metadata_or_synthetic_evidence",
+      "sha256": "b543574f20b2b14b3e52bcb383f0f95ed3d86362f9ea2e777ca880a8f4c0f704",
+      "source": "cambray_pilot_preflight/README.md",
+      "suggested_archive_path": "analysis/cycle5/cambray_pilot_preflight/README.md"
+    },
+    {
+      "bytes": 3589,
+      "scope": "metadata_or_synthetic_evidence",
+      "sha256": "d8d9bfd9f274afe373e01252ac673be2cd499e667bb46c3389254d9ecac1d8c8",
+      "source": "cambray_pilot_preflight/README_v2.md",
+      "suggested_archive_path": "analysis/cycle5/cambray_pilot_preflight/README_v2.md"
+    }
+  ],
+  "full_article_files_to_redistribute": [],
+  "limitations": [
+    "Historical metadata scripts contain fixed sibling paths and assertions.",
+    "Full phenotype replay requires the external author archive or a separately supplied matching local copy.",
+    "Protocol remains a draft snapshot pending root freeze and independent review.",
+    "No new biological data were opened or analyzed."
+  ],
+  "minimal_execution_roles": [
+    "protocol",
+    "split",
+    "mask",
+    "components",
+    "edges",
+    "graph_rules",
+    "masking",
+    "runner",
+    "archive"
+  ],
+  "protocol_snapshot_not_final_freeze": true,
+  "readme_sha256": "9523173f714a530d2f6f9817769df83de64b90c19ae499a55d4299972cbad7af",
+  "status": "handoff_only_no_outcome_execution_authorized",
+  "synthetic_receipt_sha256": "90f8500036821aa543c6c54e2715964ad06f8ab362d31ddcc0d4cd90e015e366"
+}

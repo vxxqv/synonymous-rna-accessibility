@@ -1,0 +1,17 @@
+{
+  "author_tests": 18,
+  "code_sha256": "5e8c1a5638d0d2746f89f12cf26d209f11930f490df99c16a79eda3cf2628850",
+  "independent_category_table_comparisons": 82,
+  "independent_rational_comparisons": 408,
+  "initial_blocked_history_preserved": true,
+  "no_new_scientific_criteria": true,
+  "old_function_AST_changes": [
+    "diagonal_diagnostics"
+  ],
+  "old_numeric_record_outputs_identical": true,
+  "real_outcomes_read": 0,
+  "shared_project_context_not_blinded": true,
+  "tests_sha256": "cefc66dc53a45035cc4f3db1325166488055f39b922335c8b1ec485af11548bb",
+  "unavailable_empty_no_local_boundaries_pass": true,
+  "verdict": "PASS_EXACT_CORRECTED_REVISION"
+}

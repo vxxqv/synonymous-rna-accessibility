@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "tests_run": 11,
+  "failures": 0,
+  "errors": 0,
+  "exact_reference_checks": {
+    "binary_patterns": 16,
+    "ternary_field_diagonal_comparisons": 13122,
+    "interval_corner_realizations": 256,
+    "additive_missing_corner_recoveries": 500
+  },
+  "data_scope": "Synthetic values only; no phenotype files opened",
+  "independence": "Separate simple-path and direct truth-table algorithms by same analyst, not blinded separate-person review",
+  "hashes": {
+    "graph_rules.py": "7f901518cfc196de5d6d24c10f6f1b336255063ca8bd22d544accb6ef7b940f3",
+    "test_synthetic.py": "a39bc9104b0f3d487ca64f790a90f83406bdc4568c6409cf9dab5eb9b8101e2c",
+    "metadata_split.py": "1233fa2edc4eaafee2316c3006bf4b4605aa32c627abb328901989abe99d41d3",
+    "split_manifest.json": "394a0c1aa23785c290b31c147d199f406cf46b269daa9159a98c419398b05a4e"
+  }
+}

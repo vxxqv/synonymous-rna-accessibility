@@ -1,0 +1,27 @@
+{
+  "new_deposited_phenotype_rows_opened": 0,
+  "archive_contents_opened": false,
+  "count_matrix_opened": false,
+  "new_models_fitted": false,
+  "previous_exposure_retained": {
+    "prefix_records": 503,
+    "seed1_entire_family_excluded": true,
+    "source": "eligibility provenance"
+  },
+  "current_allowed_reads": [
+    "Full latest request",
+    "Author R code as text",
+    "Prior eligibility report/provenance",
+    "Column header schema only",
+    "Split/mask/square metadata",
+    "Protocol and source/review receipts",
+    "Targeted primary Online Methods and supplement captions"
+  ],
+  "published_aggregate_exposure": {
+    "status": "published source material, not untouched validation",
+    "mechanism": "Public fulltext open/find returned abstract, figure captions and methods surroundings",
+    "examples": "Previously published library coverage, correlations, low-count dropout and replicate descriptions; no new per-design deposited phenotype rows",
+    "not_used_for_case_selection": true
+  },
+  "stopping_decision": "Source documentation complete; no authorization to open outcomes in this task"
+}

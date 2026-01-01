@@ -1,0 +1,49 @@
+{
+  "allowed_arms": [
+    "development"
+  ],
+  "allowed_phases": [
+    "predict"
+  ],
+  "execution_authorized": false,
+  "expected_records": 244000,
+  "inputs": {
+    "archive": {
+      "path": "REPLACE_WITH_LOCAL_ABSOLUTE_ARCHIVE_PATH",
+      "sha256": "2758ed63e469c77b42c01e3c022452ef52ebf8d1bd4a86bd4c5b502e44b7bbc0"
+    },
+    "components": {
+      "path": "analysis/cycle5/cambray_eligibility/components.jsonl",
+      "sha256": "90772dc57ab6dfdadf737e72cc0be11783245299d1ec0e9e589663a64ee1dadd"
+    },
+    "edges": {
+      "path": "analysis/cycle5/cambray_eligibility/synonymous_edges.tsv",
+      "sha256": "5d7d5f3b1160d7a8338da3f39369720fdc92c6105b47efbd902eeede48a30edd"
+    },
+    "graph_rules": {
+      "path": "analysis/cycle5/cambray_pilot_preflight/graph_rules.py",
+      "sha256": "7f901518cfc196de5d6d24c10f6f1b336255063ca8bd22d544accb6ef7b940f3"
+    },
+    "mask": {
+      "path": "analysis/cycle5/cambray_pilot_preflight/prediction_mask_v2.json",
+      "sha256": "6e869e95b50fe21073fabfca5cda0e544b140b8e5c8a22f217b3c52394fdf3d9"
+    },
+    "masking": {
+      "path": "analysis/cycle5/cambray_pilot_preflight/masking_v2.py",
+      "sha256": "ffbf1b1a49a9c97fe259f4a4c9777f027ec9da18025e1611a64efd7c8bdec8fe"
+    },
+    "protocol": {
+      "path": "analysis/cycle5/cambray_pilot/protocol_draft.md",
+      "sha256": "9becbd723fac30ac12ad9e95d5fb80cb69b5bd93c99210668e0479a24879adde"
+    },
+    "runner": {
+      "path": "analysis/cycle5/cambray_pilot_preflight/staged_analysis.py",
+      "sha256": "5fbdf1c0da2dcf9e53b71199b124c576945d432da5b33bbc4240c1b9bfa21ef5"
+    },
+    "split": {
+      "path": "analysis/cycle5/cambray_pilot_preflight/split_manifest.json",
+      "sha256": "394a0c1aa23785c290b31c147d199f406cf46b269daa9159a98c419398b05a4e"
+    }
+  },
+  "schema": "Cambray_staged_v1"
+}

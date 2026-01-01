@@ -1,0 +1,264 @@
+{
+  "counts": {
+    "alternative_point_bypass": {
+      "certified_observed_component_bypass": 2,
+      "not_a_local_joint_only_obstruction": 30,
+      "observed_component_bypass_unresolved": 1,
+      "observed_component_optimistic_disconnection": 1
+    },
+    "point_bypass": {
+      "certified_observed_component_bypass": 2,
+      "not_a_local_joint_only_obstruction": 29,
+      "observed_component_bypass_unresolved": 2,
+      "observed_component_optimistic_disconnection": 1
+    },
+    "point_component_bounds": {
+      "certified_joint_only_obstruction": 10,
+      "certified_jointly_connected": 12,
+      "inconclusive": 12
+    },
+    "point_component_classification": {
+      "joint_only_obstruction": 10,
+      "jointly_connected": 12,
+      "point_unavailable": 12
+    },
+    "range_component_bounds": {
+      "certified_joint_only_obstruction": 2,
+      "certified_jointly_connected": 32
+    },
+    "range_local_bounds": {
+      "certified_joint_only_obstruction": 2,
+      "certified_jointly_connected": 32
+    }
+  },
+  "per_scenario": {
+    "clean.lin.prot.repFour|growth.R60one": {
+      "alternative_bypass": {
+        "certified_observed_component_bypass": 2,
+        "not_a_local_joint_only_obstruction": 30,
+        "observed_component_bypass_unresolved": 1,
+        "observed_component_optimistic_disconnection": 1
+      },
+      "bypass": {
+        "certified_observed_component_bypass": 2,
+        "not_a_local_joint_only_obstruction": 29,
+        "observed_component_bypass_unresolved": 2,
+        "observed_component_optimistic_disconnection": 1
+      },
+      "component_bounds": {
+        "certified_joint_only_obstruction": 10,
+        "certified_jointly_connected": 12,
+        "inconclusive": 12
+      }
+    },
+    "clean.lin.prot.repFour|growth.R60three": {
+      "alternative_bypass": {
+        "certified_observed_component_bypass": 2,
+        "not_a_local_joint_only_obstruction": 30,
+        "observed_component_bypass_unresolved": 1,
+        "observed_component_optimistic_disconnection": 1
+      },
+      "bypass": {
+        "certified_observed_component_bypass": 2,
+        "not_a_local_joint_only_obstruction": 29,
+        "observed_component_bypass_unresolved": 2,
+        "observed_component_optimistic_disconnection": 1
+      },
+      "component_bounds": {
+        "certified_joint_only_obstruction": 10,
+        "certified_jointly_connected": 12,
+        "inconclusive": 12
+      }
+    },
+    "clean.lin.prot.repFour|growth.R60two": {
+      "alternative_bypass": {
+        "certified_observed_component_bypass": 2,
+        "not_a_local_joint_only_obstruction": 30,
+        "observed_component_bypass_unresolved": 1,
+        "observed_component_optimistic_disconnection": 1
+      },
+      "bypass": {
+        "certified_observed_component_bypass": 2,
+        "not_a_local_joint_only_obstruction": 29,
+        "observed_component_bypass_unresolved": 2,
+        "observed_component_optimistic_disconnection": 1
+      },
+      "component_bounds": {
+        "certified_joint_only_obstruction": 10,
+        "certified_jointly_connected": 12,
+        "inconclusive": 12
+      }
+    },
+    "clean.lin.prot.repOne|growth.R60one": {
+      "alternative_bypass": {
+        "certified_observed_component_bypass": 2,
+        "not_a_local_joint_only_obstruction": 30,
+        "observed_component_bypass_unresolved": 1,
+        "observed_component_optimistic_disconnection": 1
+      },
+      "bypass": {
+        "certified_observed_component_bypass": 2,
+        "not_a_local_joint_only_obstruction": 29,
+        "observed_component_bypass_unresolved": 2,
+        "observed_component_optimistic_disconnection": 1
+      },
+      "component_bounds": {
+        "certified_joint_only_obstruction": 10,
+        "certified_jointly_connected": 12,
+        "inconclusive": 12
+      }
+    },
+    "clean.lin.prot.repOne|growth.R60three": {
+      "alternative_bypass": {
+        "certified_observed_component_bypass": 2,
+        "not_a_local_joint_only_obstruction": 30,
+        "observed_component_bypass_unresolved": 1,
+        "observed_component_optimistic_disconnection": 1
+      },
+      "bypass": {
+        "certified_observed_component_bypass": 2,
+        "not_a_local_joint_only_obstruction": 29,
+        "observed_component_bypass_unresolved": 2,
+        "observed_component_optimistic_disconnection": 1
+      },
+      "component_bounds": {
+        "certified_joint_only_obstruction": 10,
+        "certified_jointly_connected": 12,
+        "inconclusive": 12
+      }
+    },
+    "clean.lin.prot.repOne|growth.R60two": {
+      "alternative_bypass": {
+        "certified_observed_component_bypass": 2,
+        "not_a_local_joint_only_obstruction": 30,
+        "observed_component_bypass_unresolved": 1,
+        "observed_component_optimistic_disconnection": 1
+      },
+      "bypass": {
+        "certified_observed_component_bypass": 2,
+        "not_a_local_joint_only_obstruction": 29,
+        "observed_component_bypass_unresolved": 2,
+        "observed_component_optimistic_disconnection": 1
+      },
+      "component_bounds": {
+        "certified_joint_only_obstruction": 10,
+        "certified_jointly_connected": 12,
+        "inconclusive": 12
+      }
+    },
+    "clean.lin.prot.repThree|growth.R60one": {
+      "alternative_bypass": {
+        "certified_observed_component_bypass": 2,
+        "not_a_local_joint_only_obstruction": 30,
+        "observed_component_bypass_unresolved": 1,
+        "observed_component_optimistic_disconnection": 1
+      },
+      "bypass": {
+        "certified_observed_component_bypass": 2,
+        "not_a_local_joint_only_obstruction": 29,
+        "observed_component_bypass_unresolved": 2,
+        "observed_component_optimistic_disconnection": 1
+      },
+      "component_bounds": {
+        "certified_joint_only_obstruction": 10,
+        "certified_jointly_connected": 12,
+        "inconclusive": 12
+      }
+    },
+    "clean.lin.prot.repThree|growth.R60three": {
+      "alternative_bypass": {
+        "certified_observed_component_bypass": 2,
+        "not_a_local_joint_only_obstruction": 30,
+        "observed_component_bypass_unresolved": 1,
+        "observed_component_optimistic_disconnection": 1
+      },
+      "bypass": {
+        "certified_observed_component_bypass": 2,
+        "not_a_local_joint_only_obstruction": 29,
+        "observed_component_bypass_unresolved": 2,
+        "observed_component_optimistic_disconnection": 1
+      },
+      "component_bounds": {
+        "certified_joint_only_obstruction": 10,
+        "certified_jointly_connected": 12,
+        "inconclusive": 12
+      }
+    },
+    "clean.lin.prot.repThree|growth.R60two": {
+      "alternative_bypass": {
+        "certified_observed_component_bypass": 2,
+        "not_a_local_joint_only_obstruction": 30,
+        "observed_component_bypass_unresolved": 1,
+        "observed_component_optimistic_disconnection": 1
+      },
+      "bypass": {
+        "certified_observed_component_bypass": 2,
+        "not_a_local_joint_only_obstruction": 29,
+        "observed_component_bypass_unresolved": 2,
+        "observed_component_optimistic_disconnection": 1
+      },
+      "component_bounds": {
+        "certified_joint_only_obstruction": 10,
+        "certified_jointly_connected": 12,
+        "inconclusive": 12
+      }
+    },
+    "clean.lin.prot.repTwo|growth.R60one": {
+      "alternative_bypass": {
+        "certified_observed_component_bypass": 2,
+        "not_a_local_joint_only_obstruction": 30,
+        "observed_component_bypass_unresolved": 1,
+        "observed_component_optimistic_disconnection": 1
+      },
+      "bypass": {
+        "certified_observed_component_bypass": 2,
+        "not_a_local_joint_only_obstruction": 29,
+        "observed_component_bypass_unresolved": 2,
+        "observed_component_optimistic_disconnection": 1
+      },
+      "component_bounds": {
+        "certified_joint_only_obstruction": 10,
+        "certified_jointly_connected": 12,
+        "inconclusive": 12
+      }
+    },
+    "clean.lin.prot.repTwo|growth.R60three": {
+      "alternative_bypass": {
+        "certified_observed_component_bypass": 2,
+        "not_a_local_joint_only_obstruction": 30,
+        "observed_component_bypass_unresolved": 1,
+        "observed_component_optimistic_disconnection": 1
+      },
+      "bypass": {
+        "certified_observed_component_bypass": 2,
+        "not_a_local_joint_only_obstruction": 29,
+        "observed_component_bypass_unresolved": 2,
+        "observed_component_optimistic_disconnection": 1
+      },
+      "component_bounds": {
+        "certified_joint_only_obstruction": 10,
+        "certified_jointly_connected": 12,
+        "inconclusive": 12
+      }
+    },
+    "clean.lin.prot.repTwo|growth.R60two": {
+      "alternative_bypass": {
+        "certified_observed_component_bypass": 2,
+        "not_a_local_joint_only_obstruction": 30,
+        "observed_component_bypass_unresolved": 1,
+        "observed_component_optimistic_disconnection": 1
+      },
+      "bypass": {
+        "certified_observed_component_bypass": 2,
+        "not_a_local_joint_only_obstruction": 29,
+        "observed_component_bypass_unresolved": 2,
+        "observed_component_optimistic_disconnection": 1
+      },
+      "component_bounds": {
+        "certified_joint_only_obstruction": 10,
+        "certified_jointly_connected": 12,
+        "inconclusive": 12
+      }
+    }
+  }
+}

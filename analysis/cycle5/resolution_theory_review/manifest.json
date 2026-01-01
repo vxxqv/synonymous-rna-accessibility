@@ -1,0 +1,24 @@
+{
+  "verdict": "proved as written under explicit full-box/opposite-endpoint/weak-acceptance assumptions",
+  "files_sha256": {
+    "review.md": "0300c433afcfc2c593a346ed00966683a8805ff2205d4b3da439624a1e1d3e86",
+    "verify.py": "8dd51f970ff8d3947db0cecc61894cda740b16e838de71b4b117b6f4e13badae",
+    "run/receipt.json": "c1d4ba70b7cabfbd80a4ec3080c77460297962226192be831cb7c1b9d4e1c685"
+  },
+  "guard_checks": [
+    {
+      "flag": "-O",
+      "refused_before_output": true
+    },
+    {
+      "flag": "-OO",
+      "refused_before_output": true
+    }
+  ],
+  "overwrite_refused": true,
+  "biological_files_read": 0,
+  "finite_evidence_grid_fields": 45928,
+  "remaining_mathematical_gap": null,
+  "scope": "Elementary deterministic resolution audit, no empirical calibration and no full-graph characterization",
+  "command": "work/env/Scripts/python.exe work/joint_function_cycle5/resolution_theory_review/verify.py --out NEW_DIRECTORY"
+}

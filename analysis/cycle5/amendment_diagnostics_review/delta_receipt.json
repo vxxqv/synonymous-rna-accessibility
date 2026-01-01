@@ -1,0 +1,16 @@
+{
+  "verdict": "PASS_EXACT_CORRECTED_REVISION",
+  "code_sha256": "5e8c1a5638d0d2746f89f12cf26d209f11930f490df99c16a79eda3cf2628850",
+  "tests_sha256": "cefc66dc53a45035cc4f3db1325166488055f39b922335c8b1ec485af11548bb",
+  "amendment_sha256": "92c5028dff57df644ad18479f79b4be2e604b7bbe7798e30cdd3dfe5a7fa94d0",
+  "staged_schema_sha256": "5fbdf1c0da2dcf9e53b71199b124c576945d432da5b33bbc4240c1b9bfa21ef5",
+  "files": {
+    "verify_delta.py": "4ca64f2f34708379ad0a39dbeec1140e7c53a7816c283acf5e2a0ebc0498eef8",
+    "delta_review.md": "3a6dca06dcc47c17ddbcfa5dbda1ae322c0b8e452ca0c0ed913af5a992737646",
+    "delta_results.json": "75631fca1bd2fd16d8a41beb9d95405c821dfe1296e54193ae1dbe2e59f5718b",
+    "delta_tests_stdout.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "delta_tests_stderr.txt": "2d7780e70e3c6a3ab4e9bf6d994d99e1e5fbd16102a9da50a2961c640c6236d9"
+  },
+  "original_blocked_receipt_sha256": "78608a912d1e83f85f6f94dccd493b4e806ec72a48e37c11d39675e1208cffe8",
+  "real_outcomes_read": 0
+}

@@ -1,0 +1,41 @@
+# Amendment 01 methodology review
+
+Verdict at the held draft: **pass after one forced mathematical hypothesis clarification**. No primary endpoint, model, numerical success threshold, mask, split, source column or existing gate is changed. The remaining recommendations are reporting precision, not a request for new models or outcomes. No biological phenotype source or result was opened.
+
+Reviewed amendment: `cambray_pilot/amendment_01_draft.md`, SHA256 `d635d6957550e74bc4551d7f1fc14d7516a67602a58324369984785cd88fbe90`. The preserved core remains SHA256 `9becbd723fac30ac12ad9e95d5fb80cb69b5bd93c99210668e0479a24879adde`. Line references below identify this held amendment.
+
+## Required local correction before freeze
+
+**Line38, mathematical typing:** explicitly state m>0, epsilon>=0, opposite endpoints00/11, full Cartesian errors e(v,k) in[-epsilon,epsilon], recomputed endpoint-minimum thresholds and weak acceptance. The proof and prior audit use these hypotheses, but the standalone amendment sentence omits them. Without m>0 the displayed iff is false: m=-1 and epsilon=0 still yield the same opposing intermediate geometry and joint-only obstruction, although m>2epsilon is false. The correction only makes the already reviewed example's scope explicit; it does not change a biological endpoint or decision rule.
+
+Suggested replacement scope: “For m>0 and epsilon>=0, take opposite endpoints00/11 with trait vectors(0,0) and intermediates(m,-m),(-m,m). Over the full Cartesian error box[-epsilon,epsilon]^8, recomputing endpoint-minimum thresholds with weak acceptance, every perturbation is joint-only obstructed iff m>2epsilon.”
+
+## Nonblocking precision recommendations
+
+1. **Line50, paired profiles:** say “genotype-aligned measured trait profiles” rather than “paired measured trait profiles.” The present paragraph is mathematically about preserving trait-profile covariance across genotypes; the source does not authenticate paired cultures or cross-assay biological samples. Lines7-11 correctly disclose that limitation already.
+2. **Line58, category A:** make explicit that current source-only uncertainty and preparation evidence permits B, D or E, while category A needs further authenticated reproducibility evidence beyond agreement of the twelve deposited-series combinations. The current phrase only forbids an “independently replicated biological claim under A,” which leaves the weaker label “reproducible restriction” open to inconsistent interpretation with `measurement_limits/report.md`. Category C is already correctly gated on practical margin and calibration. This clarification must not change the existing mathematical/descriptive milestone or invent a stricter predictive threshold.
+3. **Line31, unavailable deletion metrics:** require every undefined or unavailable deletion metric to remain null with its reason. Minima/maxima should use only available values and report their count; all-unavailable metrics should have null extrema. All deletion rows, retained denominators, both-class flags and failure reasons stay visible. An unavailable balanced accuracy or relative gain must never be converted to zero. The supplemental implementation still requires its separate code review.
+
+## Checks passed
+
+| Obligation | Finding |
+|---|---|
+| Primary preservation | Lines3 and27 explicitly preserve the pooled descriptive endpoint and equal-group prediction metrics. The held core still requires both diagonals, all negative results, ten squares/eight groups per arm, at least one twelve-scenario-consistent diagonal in each arm, and the same reserved predictive hurdle against both baselines for both traits with both truth classes. No supplemental weighting or deletion becomes decisive. |
+| No new fitted model | Added calculations are reporting/weighting, influence deletion, graph comparison and metadata-only coverage simulation. No new predictor, tuning rule, imputation, rank cutoff, sequence-context model, phenotype shuffle or permuted p-value is added. |
+| Counts and dependence | The47/23/24 descriptive-square counts,22/21 development case/target counts,24/24 reserved counts and16 groups per arm agree with the existing metadata audits. All47 descriptive squares remain. Cross-arm design separation is stated narrowly; shared library, reporter, preparations and preprocessing remain explicit. |
+| Target-balanced identity | Correct for this fixed metadata: every group's targets are either unique per case, or the group consists entirely of the duplicated target. Restricting to any available subset preserves this property. Averaging losses, not predictions, leaves the original estimand transparent. It is correctly not a second validation. |
+| Processing exposure | “Author-preprocessed within-library holdout” accurately distinguishes this analysis's selective reader from the source's possible full-library normalization. No train-only source processing or independent-study validation is claimed. |
+| Deposited series | The script-column reuse is correctly stated as a property of source code with an unauthenticated generating revision. The amendment does not assert that deposited values are duplicated. Twelve cross-combinations remain sensitivity scenarios, not biological replicates. |
+| Range implication | Line21 now gives the correct one-way implication for Cartesian coordinate intervals on this square. Universal endpoint-relative obstruction implies the fixed-low-end certificate, not conversely. No interval coverage probability is asserted. This is distinct from the nonnested comparison with twelve actual deposited-series scenarios in the preserved core. |
+| Monotone transformation scope | Strictly increasing common maps preserve final trait-summary endpoint tests. Non-strict ties, genotype-specific corrections and transforming before averaging are excluded explicitly. |
+| Uncertainty and resolution | Calibration, empirical power, confidence intervals and small-effect exclusion are withheld. Hypothetical coverage rates and Monte Carlo error are not reported as real missingness or biological power. Resolution examples remain deterministic, with no novelty claim. |
+| Rank-bound role | Four-point residuals are a posteriori on the observed square, not latent/global error certificates or new predictions. No noisy numeric rank is labeled a biological dimension, and no product assumption is imported into larger sampled components. |
+| Validation decision | Development is sealed before unsealing; source-mean holds stop interpretation. Reserved coverage and class balance cannot be inspected to decide whether to proceed. A retained holdout must remain reported as unopened, with no reserved-arm or two-arm success claim. A development failure does not authorize changing the endpoint or predictor. |
+
+The amendment's limitations are substantive, not cosmetic: a positive can at most receive the classification justified by its measured graph, source processing and preparation evidence. A measured acceptable bypass overturns an observed-component restriction; absence of a measured bypass does not establish a full synonymous-space barrier. A null or information-limited result cannot exclude a meaningful effect without calibration and a practical threshold.
+
+## Provenance and scope
+
+This is a separately assigned methodology review with inherited project context, not blinded or external review. It relies on the already recorded sequence-only overlap and coverage audits; it does not independently rerun their enumeration or simulations. The deterministic resolution and rank-application reports were authored by this reviewer and are used for internal consistency, not self-certified here as fresh independent theorem evidence. No external lookup, biological data read, source modification, model fitting or new branch was performed. The held-input hashes and exact verdict are recorded in `receipt.json`.
+
+After the forced line38 clarification, the amendment is methodologically acceptable at the stated descriptive scope. The three reporting recommendations should be resolved before freeze where practical. Supplemental diagnostics need the separately required code review; this prose review does not approve their unreviewed implementation or authorize outcome execution.

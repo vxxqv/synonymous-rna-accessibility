@@ -1,0 +1,25 @@
+{
+  "design_sha256": "90a3e1cdeb425cbaf482df4de0ecac3c701510b0fa95e6836918428752ba5363",
+  "files": {
+    "exact_controls.json": "69dfefa9ab6b71404bd5db98629960c688ddbd00c3fe2dac4e21f59e936f4b7f",
+    "execution_freeze.json": "99af8bb1305d0958d71cd326f35ce6156763379949cddc132535e8aad29daa4a",
+    "results.json": "63acd3854727125af664322f7de0a4ebd0db9014b07e7cc6850ed91030c40a6e",
+    "scenario_01_counts.npz": "7b8ccb771a32066d5c03d2e5edf0d0c975f4366ed49ace8a63a31c575f7728db",
+    "scenario_02_counts.npz": "4d1d5e93212d0b6b846e1343f0f6435e0c7f108c234142fc77a4f148b519eda0",
+    "scenario_03_counts.npz": "5c90620c87f9403b398cac4bb9141bbe1a7ff5c2638b55577274fcae52edde5b",
+    "scenario_04_counts.npz": "5216cda232a736536eae8140aaa8ac90cac66567ac9606f4ed579a1562ed9293",
+    "scenario_05_counts.npz": "53aae18387d2f13052eeb36c2b862e7c685c883aaec002819ba0f1752e34a055",
+    "scenario_06_counts.npz": "7b8ccb771a32066d5c03d2e5edf0d0c975f4366ed49ace8a63a31c575f7728db",
+    "scenario_07_counts.npz": "fa3bf886c95fe6a997f28e766405f3f78fac3b011bce51a0e8a316840e52c174",
+    "scenario_08_counts.npz": "a28a23b3b3e8fd474715966cf7df57478f4e04bc926e3321e9e38a04a466dfac",
+    "scenario_09_counts.npz": "687183de9064f8801ecd461580868e1c9a9b61ed21d3f1f398cb64053543c204",
+    "scenario_10_counts.npz": "7b8ccb771a32066d5c03d2e5edf0d0c975f4366ed49ace8a63a31c575f7728db",
+    "scenario_11_counts.npz": "8ae2ff540f656f410726d4eb377223147de71af770d67ba2f45af09f7366f574",
+    "scenario_12_counts.npz": "dda0b4746088ea481436ed1c96e7ad8e5bdb5f5d88dd695b847c17461ca36112",
+    "scenario_13_counts.npz": "69c8aed61b16aba9d5572a087165a6e95faab950ec80bb3c0d38e06262353b35",
+    "summary.csv": "87ce7405c3de23d168d673822803545b2e953426c263a86f46cc286c1c75e26e"
+  },
+  "real_phenotype_values_read": 0,
+  "source_sha256": "a459309154a84ed81764fb5abf8bab905b014f18cad04659b9168efc14d1f57d",
+  "status": "all_frozen_scenarios_completed"
+}

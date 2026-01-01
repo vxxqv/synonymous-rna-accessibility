@@ -1,0 +1,111 @@
+--- history_v1/diagnostics.py
++++ diagnostics.py
+@@ -225,6 +225,97 @@
+     return 'observed_component_bypass_unresolved'
+ 
+ 
++CLASSIFICATIONS = ('jointly_connected', 'joint_only_obstruction',
++                   'single_trait_disconnection', 'ineligible_endpoints', 'point_unavailable')
++CERTIFICATES = ('certified_jointly_connected', 'certified_joint_only_obstruction',
++                'certified_single_trait_disconnection', 'inconclusive',
++                'ineligible_definite_endpoints', 'certificate_unavailable')
++BYPASSES = ('certified_observed_component_bypass',
++            'observed_component_optimistic_disconnection',
++            'observed_component_bypass_unresolved',
++            'not_a_local_joint_only_obstruction', 'local_classification_unavailable')
++
++
++def counted(values, categories):
++    counts = {name: 0 for name in categories}
++    for value in values:
++        if value not in counts:
++            raise ValueError('Unknown preserved status: ' + str(value))
++        counts[value] += 1
++    return {'denominator': len(values), 'counts': counts}
++
++
++def class_label(value):
++    return value['classification'] if value is not None else 'point_unavailable'
++
++
++def certificate_label(value):
++    return value['status'] if value is not None else 'certificate_unavailable'
++
++
++def component_count_table(pairs):
++    """Count one named point/scenario field; no pooling of preparations."""
++    locals_ = []; points = []; bounds = []; bypasses = []; complete = 0
++    for local, component in pairs:
++        label = class_label(local); locals_.append(label)
++        point = component.get('point') if component is not None else None
++        bound = component.get('bounds') if component is not None else None
++        points.append(class_label(point)); bounds.append(certificate_label(bound))
++        complete += component is not None and component.get('complete') is True
++        if label == 'point_unavailable':
++            status = 'local_classification_unavailable'
++        elif label != 'joint_only_obstruction':
++            status = 'not_a_local_joint_only_obstruction'
++        elif bound is None:
++            status = 'observed_component_bypass_unresolved'
++        else:
++            status = bypass(local, component)
++        bypasses.append(status)
++    bt = counted(bypasses, BYPASSES)
++    conditional_n = sum(value == 'joint_only_obstruction' for value in locals_)
++    bt['conditional_local_joint_only_denominator'] = conditional_n
++    bt['conditional_fractions'] = {key: bt['counts'][key]/conditional_n if conditional_n else None
++                                   for key in BYPASSES[:3]}
++    return {'eligible_diagonals': len(pairs),
++        'local_classifications': counted(locals_, CLASSIFICATIONS),
++        'component_point_classifications': counted(points, CLASSIFICATIONS),
++        'available_component_points': len(pairs)-points.count('point_unavailable'),
++        'unavailable_component_points': points.count('point_unavailable'),
++        'complete_component_fields': complete,
++        'component_bound_statuses': counted(bounds, CERTIFICATES), 'bypass_outcomes': bt}
++
++
++def aggregate_component_counts(records):
++    """Explicit all-diagonal counts, separate by field, tolerance and scenario."""
++    point = {
++        'zero_tolerance': component_count_table([(r['local_point'], r['observed_component']) for r in records]),
++        'alternative_tolerance': component_count_table([(r['local_alternative_tolerance'], r['observed_component_alternative_tolerance']) for r in records])}
++    scenarios = {}
++    for protein in PROTEIN:
++        for growth in GROWTH:
++            named = []
++            for row in records:
++                matches = [s for s in row['preparation_scenarios']
++                           if s['protein_column'] == protein and s['growth_column'] == growth]
++                if len(matches) != 1:
++                    raise ValueError('Exactly one record required for every named scenario')
++                named.append(matches[0])
++            scenarios[protein+'|'+growth] = {'protein_column': protein, 'growth_column': growth,
++                'zero_tolerance': component_count_table([(s['local'], s['component']) for s in named]),
++                'alternative_tolerance': component_count_table([(s['local_alternative_tolerance'], s['component_alternative_tolerance']) for s in named]),
++                'unit': 'eligible diagonal in this one dependent preparation scenario'}
++    ranges = {}
++    for tolerance, local_key, component_key in (
++            ('zero_tolerance', 'local_range_certificate', 'component_range_certificate'),
++            ('alternative_tolerance', 'local_range_alternative_tolerance', 'component_range_alternative_tolerance')):
++        ranges[tolerance] = {'eligible_diagonals': len(records),
++            'local_certificate_statuses': counted([certificate_label(r[local_key]) for r in records], CERTIFICATES),
++            'component_certificate_statuses': counted([certificate_label(r[component_key]) for r in records], CERTIFICATES)}
++    return {'primary_point_field': point, 'named_preparation_scenarios': scenarios,
++        'empirical_range_field': ranges, 'pooled_across_scenarios': False,
++        'scope': 'Counts of preserved classifications/statuses, with unavailable states and zeros. The12 scenarios are dependent. Range thresholds/premises differ; range connections are not additional measured primary bypasses.'}
++
++
+ def diagonal_diagnostics(descriptions):
+     rows = []; flips = {'local_point': 0, 'component_point_or_bound': 0,
+                         'local_range': 0, 'component_range': 0,
+@@ -268,7 +359,9 @@
+                 'local_range_alternative_tolerance': diagonal['local_range_alternative_tolerance'],
+                 'component_range_alternative_tolerance': diagonal['component_range_alternative_tolerance'],
+                 'native_shortfalls': diagonal['native_shortfalls'], 'preparation_scenarios': scenarios})
+-    return {'eligible_diagonals': len(rows), 'flip_counts': flips, 'records': rows,
++    return {'eligible_diagonals': len(rows), 'flip_counts': flips,
++        'flip_count_definition': 'Classification/status-label changes only, not every internal acceptability flag.',
++        'count_tables': aggregate_component_counts(rows), 'records': rows,
+         'scope': 'Preserved evaluated observed-component bounds only; no claim about unmeasured synonymous space.'}
+ 
+ 

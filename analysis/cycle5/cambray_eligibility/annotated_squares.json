@@ -1,0 +1,1036 @@
+[
+  {
+    "dimension": 2,
+    "IDs": [
+      "60_21121212_1",
+      "60_21111212_1",
+      "60_22221222_1",
+      "60_22211222_1"
+    ],
+    "seed_ids": [
+      "60"
+    ],
+    "excluded_by_seed1_peptide_boundary": false,
+    "peptide": "NQPVDNAFTVHHCVFCIPQEGTSFAAPWYLPM",
+    "component_index": 795,
+    "component_size": 6,
+    "variable_positions_1based": [
+      15,
+      57
+    ],
+    "same_codon": false,
+    "context_sha256": "253d424350e7630d7c682b3deb253fec8337b364bd8662033452f325c577ae04"
+  },
+  {
+    "dimension": 2,
+    "IDs": [
+      "25_32131212_1",
+      "25_32111212_1",
+      "25_32131112_1",
+      "25_32111212_2"
+    ],
+    "seed_ids": [
+      "25"
+    ],
+    "excluded_by_seed1_peptide_boundary": false,
+    "peptide": "KCYSNAAIVLCDVYVRHCAHFYSRPEHPWYIN",
+    "component_index": 1304,
+    "component_size": 7,
+    "variable_positions_1based": [
+      30,
+      78
+    ],
+    "same_codon": false,
+    "context_sha256": "cc8d6c5063d53937a54bdd1ea3d1812700390beb7fe1811b6726384a72343f3b"
+  },
+  {
+    "dimension": 2,
+    "IDs": [
+      "321_21121112_1",
+      "321_21111112_1",
+      "321_21221112_1",
+      "321_21211112_1"
+    ],
+    "seed_ids": [
+      "321"
+    ],
+    "excluded_by_seed1_peptide_boundary": false,
+    "peptide": "TSLVDDWHFSGTPDDYARFVPQVPKCSRICRV",
+    "component_index": 1932,
+    "component_size": 4,
+    "variable_positions_1based": [
+      39,
+      72
+    ],
+    "same_codon": false,
+    "context_sha256": "140eab0de3d838a163ee38a2f5bf8b0dbd3cea45d7a0c5447c15ec0826606b1c"
+  },
+  {
+    "dimension": 2,
+    "IDs": [
+      "33_32221113_1",
+      "33_32221113_2",
+      "33_32122113_1",
+      "33_32121113_1"
+    ],
+    "seed_ids": [
+      "33"
+    ],
+    "excluded_by_seed1_peptide_boundary": false,
+    "peptide": "TPQLTESTDCVRLVGWVLSCLFCETEPDNCCP",
+    "component_index": 2100,
+    "component_size": 4,
+    "variable_positions_1based": [
+      24,
+      93
+    ],
+    "same_codon": false,
+    "context_sha256": "15d90a3299376d7c18565f3f404798c800d3c411f38edd6ad577867dc13d8305"
+  },
+  {
+    "dimension": 2,
+    "IDs": [
+      "145_23322121_1",
+      "145_23312121_1",
+      "145_21322121_1",
+      "145_31312121_1"
+    ],
+    "seed_ids": [
+      "145"
+    ],
+    "excluded_by_seed1_peptide_boundary": false,
+    "peptide": "TAWFQKTSRIPRLARHRAWYVMPIVVVWLGSC",
+    "component_index": 2262,
+    "component_size": 8,
+    "variable_positions_1based": [
+      21,
+      72
+    ],
+    "same_codon": false,
+    "context_sha256": "f94078d7547d2364b1a50243c11d4ba58cf173bceef71273cc0b8d008cf9f342"
+  },
+  {
+    "dimension": 2,
+    "IDs": [
+      "145_33221123_1",
+      "145_23221223_1",
+      "145_32221123_1",
+      "145_32221223_1"
+    ],
+    "seed_ids": [
+      "145"
+    ],
+    "excluded_by_seed1_peptide_boundary": false,
+    "peptide": "TAWFQKTSCLPVLAGHPALYVMPIVVVWLGSC",
+    "component_index": 1854,
+    "component_size": 6,
+    "variable_positions_1based": [
+      24,
+      48
+    ],
+    "same_codon": false,
+    "context_sha256": "8a011c883096bc7e48d56e6772d47f14c355807694758dc27adcd08da8c97869"
+  },
+  {
+    "dimension": 2,
+    "IDs": [
+      "277_32222122_1",
+      "277_22321122_1",
+      "277_31222122_1",
+      "277_21321122_1"
+    ],
+    "seed_ids": [
+      "277"
+    ],
+    "excluded_by_seed1_peptide_boundary": false,
+    "peptide": "TVNMGSGTKPQSCPISAPPCKFLETQLPGSPR",
+    "component_index": 2355,
+    "component_size": 23,
+    "variable_positions_1based": [
+      21,
+      54
+    ],
+    "same_codon": false,
+    "context_sha256": "d0010b457419671014b9d541cce8e86df12868c9c3a1ddd7bfb6a8720d3db071"
+  },
+  {
+    "dimension": 2,
+    "IDs": [
+      "355_32212111_1",
+      "355_32221111_1",
+      "355_33212111_1",
+      "355_33221111_1"
+    ],
+    "seed_ids": [
+      "355"
+    ],
+    "excluded_by_seed1_peptide_boundary": false,
+    "peptide": "SSKIGGFIVDRAHHALESRRHESKDVHRVGVR",
+    "component_index": 2790,
+    "component_size": 9,
+    "variable_positions_1based": [
+      21,
+      69
+    ],
+    "same_codon": false,
+    "context_sha256": "1a804a5b74859d218fdc8e07b9a0b233e92b6971fe4ba16946aac0654669038c"
+  },
+  {
+    "dimension": 2,
+    "IDs": [
+      "343_32112121_1",
+      "343_22122121_1",
+      "343_23212121_1",
+      "343_23222121_1"
+    ],
+    "seed_ids": [
+      "343"
+    ],
+    "excluded_by_seed1_peptide_boundary": false,
+    "peptide": "RICVETFAHKHRVWSSIRAEYGAQYDCSFQQV",
+    "component_index": 2820,
+    "component_size": 6,
+    "variable_positions_1based": [
+      21,
+      33
+    ],
+    "same_codon": false,
+    "context_sha256": "3aa404d1c80f8ea296eb2264ff44a2cc6b02dac47871665165a1e17c034a2fb1"
+  },
+  {
+    "dimension": 2,
+    "IDs": [
+      "247_23331112_1",
+      "247_33332112_1",
+      "247_22331112_1",
+      "247_32331112_1"
+    ],
+    "seed_ids": [
+      "247"
+    ],
+    "excluded_by_seed1_peptide_boundary": false,
+    "peptide": "SVCGHEVPCCPCVWIKQRVLISPMRVGEGTTL",
+    "component_index": 3015,
+    "component_size": 4,
+    "variable_positions_1based": [
+      9,
+      63
+    ],
+    "same_codon": false,
+    "context_sha256": "29eb0e030fe1780a6e9020a886f3660a5670f8abd6dc4c6b896f193c400cb751"
+  },
+  {
+    "dimension": 2,
+    "IDs": [
+      "355_23321212_1",
+      "355_23321112_1",
+      "355_23221212_1",
+      "355_33221112_1"
+    ],
+    "seed_ids": [
+      "355"
+    ],
+    "excluded_by_seed1_peptide_boundary": false,
+    "peptide": "SSKIGGFIVDRALHALESLRHESKDVHRVGVR",
+    "component_index": 3132,
+    "component_size": 7,
+    "variable_positions_1based": [
+      24,
+      96
+    ],
+    "same_codon": false,
+    "context_sha256": "917d3bc0fd7aab3fc4c8f2efd83a92895adf23ed8f09665069647ecde8eae9b7"
+  },
+  {
+    "dimension": 2,
+    "IDs": [
+      "359_21221122_2",
+      "359_21221122_1",
+      "359_21221222_2",
+      "359_21221222_1"
+    ],
+    "seed_ids": [
+      "359"
+    ],
+    "excluded_by_seed1_peptide_boundary": false,
+    "peptide": "IDPLLCLHHRKEGHATCVAQSLNYPKASPESR",
+    "component_index": 3351,
+    "component_size": 6,
+    "variable_positions_1based": [
+      24,
+      87
+    ],
+    "same_codon": false,
+    "context_sha256": "a737ac2940bb124f0d0ffea97b4343b829b16968bc624a01d55a83846dd162dc"
+  },
+  {
+    "dimension": 2,
+    "IDs": [
+      "84_12212123_1",
+      "84_11312123_1",
+      "84_12212113_1",
+      "84_11211113_1"
+    ],
+    "seed_ids": [
+      "84"
+    ],
+    "excluded_by_seed1_peptide_boundary": false,
+    "peptide": "MYAVRSVRTCCYWLEAVITAAPSPVSTMEFGV",
+    "component_index": 4076,
+    "component_size": 5,
+    "variable_positions_1based": [
+      13,
+      21
+    ],
+    "same_codon": false,
+    "context_sha256": "5f22b6d6b6ca57135c1b879fc52e277197fd67af3d65e1854406ad25903a33f7"
+  },
+  {
+    "dimension": 2,
+    "IDs": [
+      "382_31221122_1",
+      "382_21231122_1",
+      "382_21121122_1",
+      "382_21131122_1"
+    ],
+    "seed_ids": [
+      "382"
+    ],
+    "excluded_by_seed1_peptide_boundary": false,
+    "peptide": "IGRCTLYVHDSCWEKCPCAPYREQWCGWRGWS",
+    "component_index": 4433,
+    "component_size": 9,
+    "variable_positions_1based": [
+      15,
+      78
+    ],
+    "same_codon": false,
+    "context_sha256": "e916caaa299f2fa3d3d92e35d8307c46dfd71db4cb8941821a5a3f9958c3111d"
+  },
+  {
+    "dimension": 2,
+    "IDs": [
+      "382_31221212_1",
+      "382_32221212_1",
+      "382_31221222_1",
+      "382_32221222_1"
+    ],
+    "seed_ids": [
+      "382"
+    ],
+    "excluded_by_seed1_peptide_boundary": false,
+    "peptide": "IGRCTLYVHASCWEKCPCAPYREQWCGWRGWS",
+    "component_index": 4434,
+    "component_size": 8,
+    "variable_positions_1based": [
+      15,
+      24
+    ],
+    "same_codon": false,
+    "context_sha256": "673055c0c215b2687702fd553d2f69f82fd8c7bd7085d2e40588e816e63bd0cf"
+  },
+  {
+    "dimension": 2,
+    "IDs": [
+      "156_31111123_1",
+      "156_21111223_1",
+      "156_31111113_1",
+      "156_31111213_1"
+    ],
+    "seed_ids": [
+      "156"
+    ],
+    "excluded_by_seed1_peptide_boundary": false,
+    "peptide": "QTELVTASSLVPHRAIACVFWSCIRNSHWLQR",
+    "component_index": 4483,
+    "component_size": 6,
+    "variable_positions_1based": [
+      6,
+      54
+    ],
+    "same_codon": false,
+    "context_sha256": "3754b06486cf6006d699fabe2831509ad4737391c11d241295f9b9bf00e8c11d"
+  },
+  {
+    "dimension": 2,
+    "IDs": [
+      "156_33231113_1",
+      "156_33231213_1",
+      "156_33131113_1",
+      "156_33131213_1"
+    ],
+    "seed_ids": [
+      "156"
+    ],
+    "excluded_by_seed1_peptide_boundary": false,
+    "peptide": "QTELVTASSLVPHRAIACVFWSCIRNSHWLQR",
+    "component_index": 4587,
+    "component_size": 6,
+    "variable_positions_1based": [
+      30,
+      48
+    ],
+    "same_codon": false,
+    "context_sha256": "b6b398cc7743c86fb92ad17a167102214b38c99a06f2dc6e649ff2a365e3f4df"
+  },
+  {
+    "dimension": 2,
+    "IDs": [
+      "2_22111111_1",
+      "2_22211111_1",
+      "2_22111211_1",
+      "2_22211221_1"
+    ],
+    "seed_ids": [
+      "2"
+    ],
+    "excluded_by_seed1_peptide_boundary": false,
+    "peptide": "HSLQFGTCYHPTYPQQRIVIHEVMQTSITRCY",
+    "component_index": 4859,
+    "component_size": 5,
+    "variable_positions_1based": [
+      3,
+      18
+    ],
+    "same_codon": false,
+    "context_sha256": "084602b870fb377beba092f80c491b92959fd00c0624b22d586bb2f7515211ba"
+  },
+  {
+    "dimension": 2,
+    "IDs": [
+      "314_31112121_1",
+      "314_31211121_1",
+      "314_21112121_1",
+      "314_21211121_1"
+    ],
+    "seed_ids": [
+      "314"
+    ],
+    "excluded_by_seed1_peptide_boundary": false,
+    "peptide": "QIDSWTRVRRKAMHRCVPSENCTEPCENYGSL",
+    "component_index": 5033,
+    "component_size": 11,
+    "variable_positions_1based": [
+      36,
+      48
+    ],
+    "same_codon": false,
+    "context_sha256": "9bebb3564c60a66856ddc9b1272ce776a8c5c9082c5e259f66f064c98d013677"
+  },
+  {
+    "dimension": 2,
+    "IDs": [
+      "2_23112123_1",
+      "2_33112123_1",
+      "2_22111123_1",
+      "2_32111123_1"
+    ],
+    "seed_ids": [
+      "2"
+    ],
+    "excluded_by_seed1_peptide_boundary": false,
+    "peptide": "HSLQFGTCSPITVPLSGIVIHEVMQTSITRCY",
+    "component_index": 5250,
+    "component_size": 6,
+    "variable_positions_1based": [
+      24,
+      54
+    ],
+    "same_codon": false,
+    "context_sha256": "bcbb214b838a28d93d1939278608d1efa075ee8bd6320be88e33b512d4d78ca0"
+  },
+  {
+    "dimension": 2,
+    "IDs": [
+      "46_13321213_2",
+      "46_13211213_3",
+      "46_13321213_1",
+      "46_13211213_1"
+    ],
+    "seed_ids": [
+      "46"
+    ],
+    "excluded_by_seed1_peptide_boundary": false,
+    "peptide": "PMEKDHPPFAFVRCYHPVIFTGTLRRIQVPTL",
+    "component_index": 5350,
+    "component_size": 4,
+    "variable_positions_1based": [
+      21,
+      36
+    ],
+    "same_codon": false,
+    "context_sha256": "fce6a145d29e61649da4abe066c3ec87b0d522fe6927d4026adb68c2c80030e3"
+  },
+  {
+    "dimension": 2,
+    "IDs": [
+      "133_32211121_2",
+      "133_32211121_1",
+      "133_33211221_2",
+      "133_33211221_1"
+    ],
+    "seed_ids": [
+      "133"
+    ],
+    "excluded_by_seed1_peptide_boundary": false,
+    "peptide": "PYLSLCQRCDRVRAFNCRRARGSMYVDSVPAQ",
+    "component_index": 5728,
+    "component_size": 4,
+    "variable_positions_1based": [
+      15,
+      30
+    ],
+    "same_codon": false,
+    "context_sha256": "d091712abe854475567e8dea5206f2e3afe040294f0b6e4303c3ca53b32c7926"
+  },
+  {
+    "dimension": 2,
+    "IDs": [
+      "71_31312111_1",
+      "71_31322111_1",
+      "71_31212111_1",
+      "71_31222111_1"
+    ],
+    "seed_ids": [
+      "71"
+    ],
+    "excluded_by_seed1_peptide_boundary": false,
+    "peptide": "PTSIQFCHWPAEKAIRQDTSGFRSDFCPCSSS",
+    "component_index": 5813,
+    "component_size": 7,
+    "variable_positions_1based": [
+      15,
+      33
+    ],
+    "same_codon": false,
+    "context_sha256": "c0af87a8b4eaed3110e7ad2936c8fff1b1d52434b6f028ffe2b235eda855f620"
+  },
+  {
+    "dimension": 2,
+    "IDs": [
+      "343_21321222_1",
+      "343_31311222_1",
+      "343_21221222_1",
+      "343_31211222_1"
+    ],
+    "seed_ids": [
+      "343"
+    ],
+    "excluded_by_seed1_peptide_boundary": false,
+    "peptide": "RICVETFASKHHLTAADSSEYGAQYDCSFQQV",
+    "component_index": 6319,
+    "component_size": 4,
+    "variable_positions_1based": [
+      30,
+      72
+    ],
+    "same_codon": false,
+    "context_sha256": "368e82740da089370676f73d628079a4d7ee7cbe1bd6ffdc1a55831359443925"
+  },
+  {
+    "dimension": 2,
+    "IDs": [
+      "15_22232112_1",
+      "15_22231112_1",
+      "15_22331122_1",
+      "15_22331222_1"
+    ],
+    "seed_ids": [
+      "15"
+    ],
+    "excluded_by_seed1_peptide_boundary": false,
+    "peptide": "LYCCGGKMFIRHSPLIHECCGAEVCSRNAQHV",
+    "component_index": 7267,
+    "component_size": 9,
+    "variable_positions_1based": [
+      12,
+      60
+    ],
+    "same_codon": false,
+    "context_sha256": "f77350382ea4408e3f1197a116b4fce771288a7f4eaa28ace292cfefd87f1e58"
+  },
+  {
+    "dimension": 2,
+    "IDs": [
+      "384_22322112_1",
+      "384_22321112_1",
+      "384_23322122_1",
+      "384_23321122_1"
+    ],
+    "seed_ids": [
+      "384"
+    ],
+    "excluded_by_seed1_peptide_boundary": false,
+    "peptide": "DAHVTFLRLINHCCCRAKVMVDYRPLGLTNRP",
+    "component_index": 7553,
+    "component_size": 6,
+    "variable_positions_1based": [
+      15,
+      46
+    ],
+    "same_codon": false,
+    "context_sha256": "e3f23f9aa054a5c6dca1fa90ff23fed2ad56a75174c077bc28d81c62acd8b061"
+  },
+  {
+    "dimension": 2,
+    "IDs": [
+      "88_12222123_2",
+      "88_12222123_1",
+      "88_12222113_3",
+      "88_12222113_1"
+    ],
+    "seed_ids": [
+      "88"
+    ],
+    "excluded_by_seed1_peptide_boundary": false,
+    "peptide": "ALGNHDYSGSSVMTSAAVCVGTESCLSYTHAL",
+    "component_index": 7723,
+    "component_size": 4,
+    "variable_positions_1based": [
+      9,
+      93
+    ],
+    "same_codon": false,
+    "context_sha256": "7e08ca17a16d4b4d81cf14faa99bd5164df916a3742a2c43704d2dcea4aeb3a8"
+  },
+  {
+    "dimension": 2,
+    "IDs": [
+      "44_31222113_1",
+      "44_31212113_1",
+      "44_31221123_1",
+      "44_21211123_1"
+    ],
+    "seed_ids": [
+      "44"
+    ],
+    "excluded_by_seed1_peptide_boundary": false,
+    "peptide": "GLYRECYVHWVFAKHLAILWHDNLLIKCRCSA",
+    "component_index": 7913,
+    "component_size": 7,
+    "variable_positions_1based": [
+      9,
+      81
+    ],
+    "same_codon": false,
+    "context_sha256": "26957db78aaba04b5b4ea12ceb28f971815cbef6d3ccd38ba5428de9473beec9"
+  },
+  {
+    "dimension": 2,
+    "IDs": [
+      "299_23311122_1",
+      "299_23211122_1",
+      "299_23311112_1",
+      "299_23211112_1"
+    ],
+    "seed_ids": [
+      "299"
+    ],
+    "excluded_by_seed1_peptide_boundary": false,
+    "peptide": "GEQLLSFASSCIYKWPHTSLVVESEITCMPQI",
+    "component_index": 7935,
+    "component_size": 4,
+    "variable_positions_1based": [
+      3,
+      21
+    ],
+    "same_codon": false,
+    "context_sha256": "5d76d1f5ad182e65bc1b7e2520e1e431102ce90fa690c0a5a42624b671e75c20"
+  },
+  {
+    "dimension": 2,
+    "IDs": [
+      "37_23211211_1",
+      "37_23221211_1",
+      "37_33111211_1",
+      "37_23111211_1"
+    ],
+    "seed_ids": [
+      "37"
+    ],
+    "excluded_by_seed1_peptide_boundary": false,
+    "peptide": "VGCHLVSVRGVFRFPDYRHDQLLQACTEAIMN",
+    "component_index": 9123,
+    "component_size": 5,
+    "variable_positions_1based": [
+      37,
+      51
+    ],
+    "same_codon": false,
+    "context_sha256": "429a29ccf15716e717fa97fffdac991a1d5c4d3fa92f7aa5dac07433956d6494"
+  },
+  {
+    "dimension": 2,
+    "IDs": [
+      "387_33212122_1",
+      "387_23211122_1",
+      "387_32212112_1",
+      "387_22211112_1"
+    ],
+    "seed_ids": [
+      "387"
+    ],
+    "excluded_by_seed1_peptide_boundary": false,
+    "peptide": "VSHKLEYEKFADWTWRISVRNSLYSQTLPLKE",
+    "component_index": 9393,
+    "component_size": 16,
+    "variable_positions_1based": [
+      12,
+      69
+    ],
+    "same_codon": false,
+    "context_sha256": "3acff218e305216a7104c0023ad14bbaf9d9657eaeaae720369cf7b5269d7880"
+  },
+  {
+    "dimension": 2,
+    "IDs": [
+      "387_32212112_1",
+      "387_22211112_1",
+      "387_32212122_1",
+      "387_22211122_1"
+    ],
+    "seed_ids": [
+      "387"
+    ],
+    "excluded_by_seed1_peptide_boundary": false,
+    "peptide": "VSHKLEYEKFADWTWRISVRNSLYSQTLPLKE",
+    "component_index": 9393,
+    "component_size": 16,
+    "variable_positions_1based": [
+      9,
+      69
+    ],
+    "same_codon": false,
+    "context_sha256": "a6e169e88b1ccc7fa574fad3be6a4b15f34e50daa8442d6c3cb9465e49a1b506"
+  },
+  {
+    "dimension": 2,
+    "IDs": [
+      "37_11211213_1",
+      "37_12111213_1",
+      "37_13211213_1",
+      "37_13211223_1"
+    ],
+    "seed_ids": [
+      "37"
+    ],
+    "excluded_by_seed1_peptide_boundary": false,
+    "peptide": "VGCHLVSVSGVCWFPVFRLDQLLQACTEAIMN",
+    "component_index": 9887,
+    "component_size": 5,
+    "variable_positions_1based": [
+      9,
+      12
+    ],
+    "same_codon": false,
+    "context_sha256": "0b49665aaa636324816e29adfb9f4940111c5ca00ac394cea2c4db5de340b305"
+  },
+  {
+    "dimension": 2,
+    "IDs": [
+      "20_31112122_1",
+      "20_31112122_2",
+      "20_31111122_1",
+      "20_31111122_2"
+    ],
+    "seed_ids": [
+      "20"
+    ],
+    "excluded_by_seed1_peptide_boundary": false,
+    "peptide": "YKFAPQHCAAQIPWAVWRHTKYHLSEGSPLLP",
+    "component_index": 10632,
+    "component_size": 6,
+    "variable_positions_1based": [
+      36,
+      81
+    ],
+    "same_codon": false,
+    "context_sha256": "3b5ffb71c308cb9e647b182a65a10ea09dee6b1a568d979c1a80a7d68377c9fa"
+  },
+  {
+    "dimension": 2,
+    "IDs": [
+      "349_32312112_1",
+      "349_22311112_1",
+      "349_22312112_1",
+      "349_22311122_1"
+    ],
+    "seed_ids": [
+      "349"
+    ],
+    "excluded_by_seed1_peptide_boundary": false,
+    "peptide": "SNILHPLFDLVVGHWSPLKIPSRWKIGVRQYV",
+    "component_index": 11677,
+    "component_size": 9,
+    "variable_positions_1based": [
+      10,
+      15
+    ],
+    "same_codon": false,
+    "context_sha256": "93e47d9c57adb4f49df77dac22089871843c26f0f2d4190de5fddf9cccf1e7d6"
+  },
+  {
+    "dimension": 2,
+    "IDs": [
+      "349_22212122_1",
+      "349_22211122_1",
+      "349_22312122_1",
+      "349_22311122_1"
+    ],
+    "seed_ids": [
+      "349"
+    ],
+    "excluded_by_seed1_peptide_boundary": false,
+    "peptide": "SNILHPLFDLVVGHWSPLKIPSRWKIGVRQYV",
+    "component_index": 11677,
+    "component_size": 9,
+    "variable_positions_1based": [
+      27,
+      63
+    ],
+    "same_codon": false,
+    "context_sha256": "64c35fe4c1f0e09bc8ccf1f44104957f92d4f889067ae7c20c53018fb7cff3fa"
+  },
+  {
+    "dimension": 2,
+    "IDs": [
+      "227_13121123_1",
+      "227_23132123_1",
+      "227_13121113_1",
+      "227_23132113_1"
+    ],
+    "seed_ids": [
+      "227"
+    ],
+    "excluded_by_seed1_peptide_boundary": false,
+    "peptide": "SRLMSYKSYTAIHAVCTVTCCRCLNTGMLVDK",
+    "component_index": 11723,
+    "component_size": 6,
+    "variable_positions_1based": [
+      15,
+      78
+    ],
+    "same_codon": false,
+    "context_sha256": "a25fad9f26fbdb4d8c79684bdae265d38c42c2150b6a709c5e4f627068ea6f06"
+  },
+  {
+    "dimension": 2,
+    "IDs": [
+      "227_23132123_1",
+      "227_23131123_1",
+      "227_23132113_1",
+      "227_23131113_1"
+    ],
+    "seed_ids": [
+      "227"
+    ],
+    "excluded_by_seed1_peptide_boundary": false,
+    "peptide": "SRLMSYKSYTAIHAVCTVTCCRCLNTGMLVDK",
+    "component_index": 11723,
+    "component_size": 6,
+    "variable_positions_1based": [
+      15,
+      54
+    ],
+    "same_codon": false,
+    "context_sha256": "50909a2ce7a41acf21e9930acc656f2f49cfd97b757db9867107addb6e3dab83"
+  },
+  {
+    "dimension": 2,
+    "IDs": [
+      "88_31321121_1",
+      "88_31321221_1",
+      "88_31311121_1",
+      "88_31311221_1"
+    ],
+    "seed_ids": [
+      "88"
+    ],
+    "excluded_by_seed1_peptide_boundary": false,
+    "peptide": "SLGNHDYSGRRVRSSTQACVGTESCLSYTHAS",
+    "component_index": 12067,
+    "component_size": 5,
+    "variable_positions_1based": [
+      51,
+      90
+    ],
+    "same_codon": false,
+    "context_sha256": "75d3eb0e971d100ce9403c7bb41f4692c1d091e41e44199b2f373b47df170301"
+  },
+  {
+    "dimension": 2,
+    "IDs": [
+      "76_32322123_2",
+      "76_22322123_2",
+      "76_32322123_1",
+      "76_22322123_1"
+    ],
+    "seed_ids": [
+      "76"
+    ],
+    "excluded_by_seed1_peptide_boundary": false,
+    "peptide": "CHENKIDSVVERLLSNVCIASMSTCSCMGWDY",
+    "component_index": 12691,
+    "component_size": 7,
+    "variable_positions_1based": [
+      60,
+      63
+    ],
+    "same_codon": false,
+    "context_sha256": "05b644c90414c25fa57efdfa515b8caca6bb6509c772a6d8bb272fbd17315799"
+  },
+  {
+    "dimension": 2,
+    "IDs": [
+      "117_23231122_1",
+      "117_23231222_1",
+      "117_22231122_1",
+      "117_22231222_1"
+    ],
+    "seed_ids": [
+      "117"
+    ],
+    "excluded_by_seed1_peptide_boundary": false,
+    "peptide": "LHTSVLKTSRWKPQRAVVCAETLCVCEGEPFQ",
+    "component_index": 13072,
+    "component_size": 7,
+    "variable_positions_1based": [
+      21,
+      57
+    ],
+    "same_codon": false,
+    "context_sha256": "60a8bcdebcfb2fa223b9def622a5d29d7c21bad145f6ddd4d6be340133173adf"
+  },
+  {
+    "dimension": 2,
+    "IDs": [
+      "15_12131111_1",
+      "15_11131111_1",
+      "15_12231121_1",
+      "15_11131121_1"
+    ],
+    "seed_ids": [
+      "15"
+    ],
+    "excluded_by_seed1_peptide_boundary": false,
+    "peptide": "LYTCGGKMFIRHSRHIHESCGAEVCSRNAQHV",
+    "component_index": 13089,
+    "component_size": 5,
+    "variable_positions_1based": [
+      6,
+      21
+    ],
+    "same_codon": false,
+    "context_sha256": "d0d2edc00cac3479abe4f57ef0392fe6f6bc9e7dcb2528739cc9358e63cbacdb"
+  },
+  {
+    "dimension": 2,
+    "IDs": [
+      "379_33211111_1",
+      "379_33211211_1",
+      "379_32111111_1",
+      "379_32111211_1"
+    ],
+    "seed_ids": [
+      "379"
+    ],
+    "excluded_by_seed1_peptide_boundary": false,
+    "peptide": "FEQDTCDSRNGNHHASCLSQHAYTVLTVIYAS",
+    "component_index": 13361,
+    "component_size": 4,
+    "variable_positions_1based": [
+      9,
+      51
+    ],
+    "same_codon": false,
+    "context_sha256": "ea9e2df484bcc629d2508f195f0f206efcef1fbdc211de5e4c123d1f15628978"
+  },
+  {
+    "dimension": 2,
+    "IDs": [
+      "379_31112111_3",
+      "379_31111111_2",
+      "379_31112111_1",
+      "379_31111111_1"
+    ],
+    "seed_ids": [
+      "379"
+    ],
+    "excluded_by_seed1_peptide_boundary": false,
+    "peptide": "FEQDTCDSYKGKSHACSHRQHAYTVLTVIYAS",
+    "component_index": 13501,
+    "component_size": 4,
+    "variable_positions_1based": [
+      75,
+      93
+    ],
+    "same_codon": false,
+    "context_sha256": "89dc9385fb0e863f05281acf580163bd6142e90ba2cbaaabc940e276309401b5"
+  },
+  {
+    "dimension": 2,
+    "IDs": [
+      "47_22111213_1",
+      "47_12111213_1",
+      "47_13111223_1",
+      "47_13111223_2"
+    ],
+    "seed_ids": [
+      "47"
+    ],
+    "excluded_by_seed1_peptide_boundary": false,
+    "peptide": "FFMQAFFGHLDMCACANVVLPRCLWPMAWHWK",
+    "component_index": 14490,
+    "component_size": 8,
+    "variable_positions_1based": [
+      18,
+      33
+    ],
+    "same_codon": false,
+    "context_sha256": "4189689efea82f7ee9a6b9b122bd9f9cc456718e3aa807509b97d3eff50d9f1b"
+  },
+  {
+    "dimension": 2,
+    "IDs": [
+      "47_12111213_1",
+      "47_13111223_2",
+      "47_23111213_1",
+      "47_12111223_1"
+    ],
+    "seed_ids": [
+      "47"
+    ],
+    "excluded_by_seed1_peptide_boundary": false,
+    "peptide": "FFMQAFFGHLDMCACANVVLPRCLWPMAWHWK",
+    "component_index": 14490,
+    "component_size": 8,
+    "variable_positions_1based": [
+      15,
+      18
+    ],
+    "same_codon": false,
+    "context_sha256": "ef580ed4d01f44b3a07d9b44133e292600f9b4dd1c3f39db0b7804aff82eaf16"
+  },
+  {
+    "dimension": 2,
+    "IDs": [
+      "47_23221113_1",
+      "47_23221213_1",
+      "47_23321123_1",
+      "47_23321223_1"
+    ],
+    "seed_ids": [
+      "47"
+    ],
+    "excluded_by_seed1_peptide_boundary": false,
+    "peptide": "FFMQAFFGYLDMCAWVNVVLPRCLWPMAWHWK",
+    "component_index": 14509,
+    "component_size": 7,
+    "variable_positions_1based": [
+      15,
+      60
+    ],
+    "same_codon": false,
+    "context_sha256": "156520aa96e7c4bb1186f03d4b36e21e1f02b73cee04854a7198bcffc68700fd"
+  }
+]

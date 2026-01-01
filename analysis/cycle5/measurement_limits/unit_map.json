@@ -1,0 +1,2765 @@
+{
+  "schema": "C5_measurement_unit_contract_v1",
+  "status": "source_only",
+  "source_refs": {
+    "methods": "Cambray2018 Online Methods; targeted public author fulltext review, see source_manifest.json",
+    "protein_code": "protein_processing.R SHA3df877ca06e0579bd5a2312e25eb6d05bd491c03436ff4de9e2a94ed5a97ccd2",
+    "growth_code": "growth_processing.R SHA995365639e76a96bc854036aa202a2e713651e0a399870b7d08291e8437b49c5"
+  },
+  "units": [
+    {
+      "level": "sequencing_reads",
+      "replication_unit": false,
+      "count": "unread",
+      "meaning": "technical draws after culture, amplification and multiplexing; no independent biological n",
+      "dependence": [
+        "shared template",
+        "PCR amplification",
+        "sample total",
+        "lane"
+      ]
+    },
+    {
+      "level": "barcodes",
+      "replication_unit": false,
+      "meaning": "sample-origin multiplex tags, not authenticated independent clonal replicates or UMIs",
+      "source": "Online Methods sequencing-library preparation"
+    },
+    {
+      "level": "variant",
+      "count_square_vertices": 181,
+      "count_component_vertices": 289,
+      "replication_unit": false,
+      "meaning": "fixed reporter design identity; same value reused in every incident square"
+    },
+    {
+      "level": "shared_vertex",
+      "replication_unit": false,
+      "meaning": "induces exact reuse of phenotype, threshold and completion-target information"
+    },
+    {
+      "level": "square",
+      "count": 47,
+      "development": 23,
+      "reserved_validation": 24,
+      "replication_unit": false,
+      "meaning": "complete sequence design; phenotype coverage unopened"
+    },
+    {
+      "level": "observed_component",
+      "count": 43,
+      "replication_unit": false,
+      "meaning": "connectivity grouping, not culture replication"
+    },
+    {
+      "level": "peptide",
+      "count": 42,
+      "replication_unit": false,
+      "meaning": "intended variable-peptide identity; same reporter backbone"
+    },
+    {
+      "level": "design_seed",
+      "count": 32,
+      "development": 16,
+      "reserved_validation": 16,
+      "replication_unit": false,
+      "meaning": "designed sequence family and analysis weighting/split unit; common library/preps remain"
+    },
+    {
+      "level": "GFP_biological_preparation",
+      "source_reported_count": 4,
+      "nominal_IDs": [
+        "FACS_NoCpl_Rep1",
+        "FACS_NoCpl_Rep2",
+        "FACS_NoCpl_Rep3",
+        "FACS_NoCpl_Rep4"
+      ],
+      "conditional_processed_independence": "not established",
+      "limitations": [
+        "instrument batches",
+        "sequencing pools",
+        "global normalization",
+        "unverified generating-code version and column mapping"
+      ],
+      "processed_column_to_biological_preparation_map": "unverified generating revision; nominal names are not a proved exact map"
+    },
+    {
+      "level": "GFP_instrument_batch",
+      "count": 2,
+      "members": {
+        "BD_INFLUX": [
+          "Rep1",
+          "Rep2"
+        ],
+        "BD_FACSARIA_II": [
+          "Rep3",
+          "Rep4"
+        ]
+      },
+      "replication_unit": false,
+      "meaning": "two instrument categories with two biological preparations each; not independent-study replication"
+    },
+    {
+      "level": "GFP_sequencing_pool",
+      "count": 2,
+      "members": [
+        [
+          "Rep1",
+          "Rep3"
+        ],
+        [
+          "Rep2",
+          "Rep4"
+        ]
+      ],
+      "replication_unit": false,
+      "meaning": "multiplexed lanes; sample tags distinguish preparations"
+    },
+    {
+      "level": "R60_competition_line",
+      "source_reported_count": 3,
+      "nominal_IDs": [
+        "FIT-SEQ_NoCpl_Gen60_Rep1",
+        "FIT-SEQ_NoCpl_Gen60_Rep2",
+        "FIT-SEQ_NoCpl_Gen60_Rep3"
+      ],
+      "founder_culture_count": 1,
+      "meaning": "parallel biological propagation lines conditional on common initial population",
+      "shared_initial_reference": true
+    },
+    {
+      "level": "R13_R28_followup",
+      "source_reported_independent_population_count": 1,
+      "distinct_timepoints": 2,
+      "used_by_frozen_primary": false,
+      "meaning": "same followup population sampled at two times; not two additional replicates"
+    },
+    {
+      "level": "cross_assay_pair",
+      "authenticated_paired_preparations": 0,
+      "actual_pairing_exists": "not authenticated, not asserted impossible",
+      "same_design_ID": true,
+      "same_condition_label": true,
+      "same_biological_material": null,
+      "meaning": "separate GFP and growth assays; no map to joint culture-level sampling"
+    },
+    {
+      "level": "preparation_cross_product",
+      "scenarios": 12,
+      "independent_joint_biological_replicates": false,
+      "meaning": "4 by3 whole-column deterministic robustness scenarios"
+    }
+  ],
+  "sequence_only_arms": {
+    "development": {
+      "seeds": [
+        "15",
+        "20",
+        "25",
+        "33",
+        "37",
+        "47",
+        "71",
+        "84",
+        "133",
+        "145",
+        "227",
+        "299",
+        "314",
+        "321",
+        "355",
+        "384"
+      ],
+      "squares": 23,
+      "diagonal_pairs": 46,
+      "peptides": 21,
+      "observed_components": 21,
+      "square_vertices": 88,
+      "component_vertices": 133,
+      "isolated_observed_squares": 4,
+      "sequence_upper_bound_can_meet_coverage_minimum": true,
+      "finite_measurement_coverage": "unexamined"
+    },
+    "reserved_validation": {
+      "seeds": [
+        "2",
+        "44",
+        "46",
+        "60",
+        "76",
+        "88",
+        "117",
+        "156",
+        "247",
+        "277",
+        "343",
+        "349",
+        "359",
+        "379",
+        "382",
+        "387"
+      ],
+      "squares": 24,
+      "diagonal_pairs": 48,
+      "peptides": 21,
+      "observed_components": 22,
+      "square_vertices": 93,
+      "component_vertices": 156,
+      "isolated_observed_squares": 6,
+      "sequence_upper_bound_can_meet_coverage_minimum": true,
+      "finite_measurement_coverage": "unexamined"
+    }
+  },
+  "square_membership": [
+    {
+      "square_index": 0,
+      "arm": "reserved_validation",
+      "seed": "60",
+      "peptide_sha256": "c7a4a45b26b41b7716fdcd0dacb005068d509b5bb2e810cf83cdea2ea1c98b4c",
+      "component_index": 795,
+      "component_size": 6,
+      "genotype_IDs": [
+        "60_21121212_1",
+        "60_21111212_1",
+        "60_22221222_1",
+        "60_22211222_1"
+      ],
+      "diagonals": [
+        [
+          "60_21121212_1",
+          "60_22211222_1"
+        ],
+        [
+          "60_21111212_1",
+          "60_22221222_1"
+        ]
+      ],
+      "masked_IDs": [
+        "60_21111212_1"
+      ],
+      "prediction_metadata_eligible": true,
+      "prediction_exclusion_reason": null,
+      "shared_biological_material": "same source library; FACS and growth assay-wide preparations",
+      "usable_phenotype_coverage": "not examined"
+    },
+    {
+      "square_index": 1,
+      "arm": "development",
+      "seed": "25",
+      "peptide_sha256": "c1e99610009553090a1fd96b368966fa93de19aeef278bf21a8392947a0e80c2",
+      "component_index": 1304,
+      "component_size": 7,
+      "genotype_IDs": [
+        "25_32131212_1",
+        "25_32111212_1",
+        "25_32131112_1",
+        "25_32111212_2"
+      ],
+      "diagonals": [
+        [
+          "25_32131212_1",
+          "25_32111212_2"
+        ],
+        [
+          "25_32111212_1",
+          "25_32131112_1"
+        ]
+      ],
+      "masked_IDs": [
+        "25_32111212_1"
+      ],
+      "prediction_metadata_eligible": true,
+      "prediction_exclusion_reason": null,
+      "shared_biological_material": "same source library; FACS and growth assay-wide preparations",
+      "usable_phenotype_coverage": "not examined"
+    },
+    {
+      "square_index": 2,
+      "arm": "development",
+      "seed": "321",
+      "peptide_sha256": "b1ccb71032c4302bfc2c80055817bbb0ad0907edefbd6e7f10672e16ea5af539",
+      "component_index": 1932,
+      "component_size": 4,
+      "genotype_IDs": [
+        "321_21121112_1",
+        "321_21111112_1",
+        "321_21221112_1",
+        "321_21211112_1"
+      ],
+      "diagonals": [
+        [
+          "321_21121112_1",
+          "321_21211112_1"
+        ],
+        [
+          "321_21111112_1",
+          "321_21221112_1"
+        ]
+      ],
+      "masked_IDs": [
+        "321_21121112_1"
+      ],
+      "prediction_metadata_eligible": true,
+      "prediction_exclusion_reason": null,
+      "shared_biological_material": "same source library; FACS and growth assay-wide preparations",
+      "usable_phenotype_coverage": "not examined"
+    },
+    {
+      "square_index": 3,
+      "arm": "development",
+      "seed": "33",
+      "peptide_sha256": "fbf45e000b75f98bfb1d26f78a978a9df0ab619a440ef9626f6c91693a98c2d9",
+      "component_index": 2100,
+      "component_size": 4,
+      "genotype_IDs": [
+        "33_32221113_1",
+        "33_32221113_2",
+        "33_32122113_1",
+        "33_32121113_1"
+      ],
+      "diagonals": [
+        [
+          "33_32221113_1",
+          "33_32121113_1"
+        ],
+        [
+          "33_32221113_2",
+          "33_32122113_1"
+        ]
+      ],
+      "masked_IDs": [
+        "33_32121113_1"
+      ],
+      "prediction_metadata_eligible": true,
+      "prediction_exclusion_reason": null,
+      "shared_biological_material": "same source library; FACS and growth assay-wide preparations",
+      "usable_phenotype_coverage": "not examined"
+    },
+    {
+      "square_index": 4,
+      "arm": "development",
+      "seed": "145",
+      "peptide_sha256": "77e72e9380ec98d312fd9166625212c3f0fef5db67ba8d8789ba6c626a9ca831",
+      "component_index": 2262,
+      "component_size": 8,
+      "genotype_IDs": [
+        "145_23322121_1",
+        "145_23312121_1",
+        "145_21322121_1",
+        "145_31312121_1"
+      ],
+      "diagonals": [
+        [
+          "145_23322121_1",
+          "145_31312121_1"
+        ],
+        [
+          "145_23312121_1",
+          "145_21322121_1"
+        ]
+      ],
+      "masked_IDs": [
+        "145_23312121_1"
+      ],
+      "prediction_metadata_eligible": true,
+      "prediction_exclusion_reason": null,
+      "shared_biological_material": "same source library; FACS and growth assay-wide preparations",
+      "usable_phenotype_coverage": "not examined"
+    },
+    {
+      "square_index": 5,
+      "arm": "development",
+      "seed": "145",
+      "peptide_sha256": "2997d84a84f9d0d84b43e8997c634a2aa91d3e0b84c0c899ae74db3970d6ff9f",
+      "component_index": 1854,
+      "component_size": 6,
+      "genotype_IDs": [
+        "145_33221123_1",
+        "145_23221223_1",
+        "145_32221123_1",
+        "145_32221223_1"
+      ],
+      "diagonals": [
+        [
+          "145_33221123_1",
+          "145_32221223_1"
+        ],
+        [
+          "145_23221223_1",
+          "145_32221123_1"
+        ]
+      ],
+      "masked_IDs": [
+        "145_33221123_1"
+      ],
+      "prediction_metadata_eligible": true,
+      "prediction_exclusion_reason": null,
+      "shared_biological_material": "same source library; FACS and growth assay-wide preparations",
+      "usable_phenotype_coverage": "not examined"
+    },
+    {
+      "square_index": 6,
+      "arm": "reserved_validation",
+      "seed": "277",
+      "peptide_sha256": "80390727a941df40caf01b0fe3da7b129a8c1cb2a052dbe705e6d9f621ee38cc",
+      "component_index": 2355,
+      "component_size": 23,
+      "genotype_IDs": [
+        "277_32222122_1",
+        "277_22321122_1",
+        "277_31222122_1",
+        "277_21321122_1"
+      ],
+      "diagonals": [
+        [
+          "277_32222122_1",
+          "277_21321122_1"
+        ],
+        [
+          "277_22321122_1",
+          "277_31222122_1"
+        ]
+      ],
+      "masked_IDs": [
+        "277_21321122_1"
+      ],
+      "prediction_metadata_eligible": true,
+      "prediction_exclusion_reason": null,
+      "shared_biological_material": "same source library; FACS and growth assay-wide preparations",
+      "usable_phenotype_coverage": "not examined"
+    },
+    {
+      "square_index": 7,
+      "arm": "development",
+      "seed": "355",
+      "peptide_sha256": "877db69ed170b1c52119b6d3e8398e412e28f1f6ab570e40b55ebf1f652d62ab",
+      "component_index": 2790,
+      "component_size": 9,
+      "genotype_IDs": [
+        "355_32212111_1",
+        "355_32221111_1",
+        "355_33212111_1",
+        "355_33221111_1"
+      ],
+      "diagonals": [
+        [
+          "355_32212111_1",
+          "355_33221111_1"
+        ],
+        [
+          "355_32221111_1",
+          "355_33212111_1"
+        ]
+      ],
+      "masked_IDs": [
+        "355_32212111_1"
+      ],
+      "prediction_metadata_eligible": true,
+      "prediction_exclusion_reason": null,
+      "shared_biological_material": "same source library; FACS and growth assay-wide preparations",
+      "usable_phenotype_coverage": "not examined"
+    },
+    {
+      "square_index": 8,
+      "arm": "reserved_validation",
+      "seed": "343",
+      "peptide_sha256": "ff0a54f8b88b1038764ff2f3724a7f187063e2530d00407e4722b9debef0671c",
+      "component_index": 2820,
+      "component_size": 6,
+      "genotype_IDs": [
+        "343_32112121_1",
+        "343_22122121_1",
+        "343_23212121_1",
+        "343_23222121_1"
+      ],
+      "diagonals": [
+        [
+          "343_32112121_1",
+          "343_23222121_1"
+        ],
+        [
+          "343_22122121_1",
+          "343_23212121_1"
+        ]
+      ],
+      "masked_IDs": [
+        "343_32112121_1"
+      ],
+      "prediction_metadata_eligible": true,
+      "prediction_exclusion_reason": null,
+      "shared_biological_material": "same source library; FACS and growth assay-wide preparations",
+      "usable_phenotype_coverage": "not examined"
+    },
+    {
+      "square_index": 9,
+      "arm": "reserved_validation",
+      "seed": "247",
+      "peptide_sha256": "f5b336e95052fd07792ae5550cdf93fe71fcb1cc755886d9918bd2741e7c5597",
+      "component_index": 3015,
+      "component_size": 4,
+      "genotype_IDs": [
+        "247_23331112_1",
+        "247_33332112_1",
+        "247_22331112_1",
+        "247_32331112_1"
+      ],
+      "diagonals": [
+        [
+          "247_23331112_1",
+          "247_32331112_1"
+        ],
+        [
+          "247_33332112_1",
+          "247_22331112_1"
+        ]
+      ],
+      "masked_IDs": [
+        "247_33332112_1"
+      ],
+      "prediction_metadata_eligible": true,
+      "prediction_exclusion_reason": null,
+      "shared_biological_material": "same source library; FACS and growth assay-wide preparations",
+      "usable_phenotype_coverage": "not examined"
+    },
+    {
+      "square_index": 10,
+      "arm": "development",
+      "seed": "355",
+      "peptide_sha256": "19e3504f41a85498fb09240e6408232c432d9980f0c1044701eb720adb2dd4dd",
+      "component_index": 3132,
+      "component_size": 7,
+      "genotype_IDs": [
+        "355_23321212_1",
+        "355_23321112_1",
+        "355_23221212_1",
+        "355_33221112_1"
+      ],
+      "diagonals": [
+        [
+          "355_23321212_1",
+          "355_33221112_1"
+        ],
+        [
+          "355_23321112_1",
+          "355_23221212_1"
+        ]
+      ],
+      "masked_IDs": [
+        "355_23221212_1"
+      ],
+      "prediction_metadata_eligible": true,
+      "prediction_exclusion_reason": null,
+      "shared_biological_material": "same source library; FACS and growth assay-wide preparations",
+      "usable_phenotype_coverage": "not examined"
+    },
+    {
+      "square_index": 11,
+      "arm": "reserved_validation",
+      "seed": "359",
+      "peptide_sha256": "bf1c3eeac19577b16e82132d859ccf0a288323ae5800c5beec7a3acd152093e0",
+      "component_index": 3351,
+      "component_size": 6,
+      "genotype_IDs": [
+        "359_21221122_2",
+        "359_21221122_1",
+        "359_21221222_2",
+        "359_21221222_1"
+      ],
+      "diagonals": [
+        [
+          "359_21221122_2",
+          "359_21221222_1"
+        ],
+        [
+          "359_21221122_1",
+          "359_21221222_2"
+        ]
+      ],
+      "masked_IDs": [
+        "359_21221222_1"
+      ],
+      "prediction_metadata_eligible": true,
+      "prediction_exclusion_reason": null,
+      "shared_biological_material": "same source library; FACS and growth assay-wide preparations",
+      "usable_phenotype_coverage": "not examined"
+    },
+    {
+      "square_index": 12,
+      "arm": "development",
+      "seed": "84",
+      "peptide_sha256": "0e7f6286edf9299ce887f035fa766cdcd9c928393a477fa6df1610893ea0ef82",
+      "component_index": 4076,
+      "component_size": 5,
+      "genotype_IDs": [
+        "84_12212123_1",
+        "84_11312123_1",
+        "84_12212113_1",
+        "84_11211113_1"
+      ],
+      "diagonals": [
+        [
+          "84_12212123_1",
+          "84_11211113_1"
+        ],
+        [
+          "84_11312123_1",
+          "84_12212113_1"
+        ]
+      ],
+      "masked_IDs": [
+        "84_12212113_1"
+      ],
+      "prediction_metadata_eligible": true,
+      "prediction_exclusion_reason": null,
+      "shared_biological_material": "same source library; FACS and growth assay-wide preparations",
+      "usable_phenotype_coverage": "not examined"
+    },
+    {
+      "square_index": 13,
+      "arm": "reserved_validation",
+      "seed": "382",
+      "peptide_sha256": "6480794a6e3ca81ce04fcad9369f1d2ec093855a811203566e4980ba659dd43a",
+      "component_index": 4433,
+      "component_size": 9,
+      "genotype_IDs": [
+        "382_31221122_1",
+        "382_21231122_1",
+        "382_21121122_1",
+        "382_21131122_1"
+      ],
+      "diagonals": [
+        [
+          "382_31221122_1",
+          "382_21131122_1"
+        ],
+        [
+          "382_21231122_1",
+          "382_21121122_1"
+        ]
+      ],
+      "masked_IDs": [
+        "382_31221122_1"
+      ],
+      "prediction_metadata_eligible": true,
+      "prediction_exclusion_reason": null,
+      "shared_biological_material": "same source library; FACS and growth assay-wide preparations",
+      "usable_phenotype_coverage": "not examined"
+    },
+    {
+      "square_index": 14,
+      "arm": "reserved_validation",
+      "seed": "382",
+      "peptide_sha256": "ac534d19105da49409ff61f79334d26c219e58a237efdeebdbe5366bfc17f5c7",
+      "component_index": 4434,
+      "component_size": 8,
+      "genotype_IDs": [
+        "382_31221212_1",
+        "382_32221212_1",
+        "382_31221222_1",
+        "382_32221222_1"
+      ],
+      "diagonals": [
+        [
+          "382_31221212_1",
+          "382_32221222_1"
+        ],
+        [
+          "382_32221212_1",
+          "382_31221222_1"
+        ]
+      ],
+      "masked_IDs": [
+        "382_32221212_1"
+      ],
+      "prediction_metadata_eligible": true,
+      "prediction_exclusion_reason": null,
+      "shared_biological_material": "same source library; FACS and growth assay-wide preparations",
+      "usable_phenotype_coverage": "not examined"
+    },
+    {
+      "square_index": 15,
+      "arm": "reserved_validation",
+      "seed": "156",
+      "peptide_sha256": "ed7ef94d02d53b5fb798e79da4f69c22821c37b14c897454673ee8072197dd44",
+      "component_index": 4483,
+      "component_size": 6,
+      "genotype_IDs": [
+        "156_31111123_1",
+        "156_21111223_1",
+        "156_31111113_1",
+        "156_31111213_1"
+      ],
+      "diagonals": [
+        [
+          "156_31111123_1",
+          "156_31111213_1"
+        ],
+        [
+          "156_21111223_1",
+          "156_31111113_1"
+        ]
+      ],
+      "masked_IDs": [
+        "156_31111213_1"
+      ],
+      "prediction_metadata_eligible": true,
+      "prediction_exclusion_reason": null,
+      "shared_biological_material": "same source library; FACS and growth assay-wide preparations",
+      "usable_phenotype_coverage": "not examined"
+    },
+    {
+      "square_index": 16,
+      "arm": "reserved_validation",
+      "seed": "156",
+      "peptide_sha256": "ed7ef94d02d53b5fb798e79da4f69c22821c37b14c897454673ee8072197dd44",
+      "component_index": 4587,
+      "component_size": 6,
+      "genotype_IDs": [
+        "156_33231113_1",
+        "156_33231213_1",
+        "156_33131113_1",
+        "156_33131213_1"
+      ],
+      "diagonals": [
+        [
+          "156_33231113_1",
+          "156_33131213_1"
+        ],
+        [
+          "156_33231213_1",
+          "156_33131113_1"
+        ]
+      ],
+      "masked_IDs": [
+        "156_33131213_1"
+      ],
+      "prediction_metadata_eligible": true,
+      "prediction_exclusion_reason": null,
+      "shared_biological_material": "same source library; FACS and growth assay-wide preparations",
+      "usable_phenotype_coverage": "not examined"
+    },
+    {
+      "square_index": 17,
+      "arm": "reserved_validation",
+      "seed": "2",
+      "peptide_sha256": "b67c00f18ad4675af6f96353e977863f33310ce8dd5031e2a799648c7388defa",
+      "component_index": 4859,
+      "component_size": 5,
+      "genotype_IDs": [
+        "2_22111111_1",
+        "2_22211111_1",
+        "2_22111211_1",
+        "2_22211221_1"
+      ],
+      "diagonals": [
+        [
+          "2_22111111_1",
+          "2_22211221_1"
+        ],
+        [
+          "2_22211111_1",
+          "2_22111211_1"
+        ]
+      ],
+      "masked_IDs": [
+        "2_22211111_1"
+      ],
+      "prediction_metadata_eligible": true,
+      "prediction_exclusion_reason": null,
+      "shared_biological_material": "same source library; FACS and growth assay-wide preparations",
+      "usable_phenotype_coverage": "not examined"
+    },
+    {
+      "square_index": 18,
+      "arm": "development",
+      "seed": "314",
+      "peptide_sha256": "c2fe63bf8ea99a42c1434b441ff6fece594a1edf997694b9ca266bdf36f3c97b",
+      "component_index": 5033,
+      "component_size": 11,
+      "genotype_IDs": [
+        "314_31112121_1",
+        "314_31211121_1",
+        "314_21112121_1",
+        "314_21211121_1"
+      ],
+      "diagonals": [
+        [
+          "314_31112121_1",
+          "314_21211121_1"
+        ],
+        [
+          "314_31211121_1",
+          "314_21112121_1"
+        ]
+      ],
+      "masked_IDs": [
+        "314_21211121_1"
+      ],
+      "prediction_metadata_eligible": true,
+      "prediction_exclusion_reason": null,
+      "shared_biological_material": "same source library; FACS and growth assay-wide preparations",
+      "usable_phenotype_coverage": "not examined"
+    },
+    {
+      "square_index": 19,
+      "arm": "reserved_validation",
+      "seed": "2",
+      "peptide_sha256": "fef1043bbae366f0b478a94217bb4133e037e1f48d5ef2a6b8209ed328b150a2",
+      "component_index": 5250,
+      "component_size": 6,
+      "genotype_IDs": [
+        "2_23112123_1",
+        "2_33112123_1",
+        "2_22111123_1",
+        "2_32111123_1"
+      ],
+      "diagonals": [
+        [
+          "2_23112123_1",
+          "2_32111123_1"
+        ],
+        [
+          "2_33112123_1",
+          "2_22111123_1"
+        ]
+      ],
+      "masked_IDs": [
+        "2_33112123_1"
+      ],
+      "prediction_metadata_eligible": true,
+      "prediction_exclusion_reason": null,
+      "shared_biological_material": "same source library; FACS and growth assay-wide preparations",
+      "usable_phenotype_coverage": "not examined"
+    },
+    {
+      "square_index": 20,
+      "arm": "reserved_validation",
+      "seed": "46",
+      "peptide_sha256": "924c3f28cdf796d6d37a5b9af8e0a196e2c95ea5d44f9c8f7f131f8a3a8192e0",
+      "component_index": 5350,
+      "component_size": 4,
+      "genotype_IDs": [
+        "46_13321213_2",
+        "46_13211213_3",
+        "46_13321213_1",
+        "46_13211213_1"
+      ],
+      "diagonals": [
+        [
+          "46_13321213_2",
+          "46_13211213_1"
+        ],
+        [
+          "46_13211213_3",
+          "46_13321213_1"
+        ]
+      ],
+      "masked_IDs": [
+        "46_13321213_2"
+      ],
+      "prediction_metadata_eligible": true,
+      "prediction_exclusion_reason": null,
+      "shared_biological_material": "same source library; FACS and growth assay-wide preparations",
+      "usable_phenotype_coverage": "not examined"
+    },
+    {
+      "square_index": 21,
+      "arm": "development",
+      "seed": "133",
+      "peptide_sha256": "0f5047f365171c24dc17caa2d6edae429cf61a31b418e07f054864632b62d511",
+      "component_index": 5728,
+      "component_size": 4,
+      "genotype_IDs": [
+        "133_32211121_2",
+        "133_32211121_1",
+        "133_33211221_2",
+        "133_33211221_1"
+      ],
+      "diagonals": [
+        [
+          "133_32211121_2",
+          "133_33211221_1"
+        ],
+        [
+          "133_32211121_1",
+          "133_33211221_2"
+        ]
+      ],
+      "masked_IDs": [
+        "133_33211221_2"
+      ],
+      "prediction_metadata_eligible": true,
+      "prediction_exclusion_reason": null,
+      "shared_biological_material": "same source library; FACS and growth assay-wide preparations",
+      "usable_phenotype_coverage": "not examined"
+    },
+    {
+      "square_index": 22,
+      "arm": "development",
+      "seed": "71",
+      "peptide_sha256": "479da657c9170056f30327fab587e0f37e10a5f2f99e6c8c79ab260cfc5d2ae0",
+      "component_index": 5813,
+      "component_size": 7,
+      "genotype_IDs": [
+        "71_31312111_1",
+        "71_31322111_1",
+        "71_31212111_1",
+        "71_31222111_1"
+      ],
+      "diagonals": [
+        [
+          "71_31312111_1",
+          "71_31222111_1"
+        ],
+        [
+          "71_31322111_1",
+          "71_31212111_1"
+        ]
+      ],
+      "masked_IDs": [
+        "71_31312111_1"
+      ],
+      "prediction_metadata_eligible": true,
+      "prediction_exclusion_reason": null,
+      "shared_biological_material": "same source library; FACS and growth assay-wide preparations",
+      "usable_phenotype_coverage": "not examined"
+    },
+    {
+      "square_index": 23,
+      "arm": "reserved_validation",
+      "seed": "343",
+      "peptide_sha256": "2f960a2076d67e72601a7cf8c3fbf9fc421771616426c037a68c36e7e1dfa307",
+      "component_index": 6319,
+      "component_size": 4,
+      "genotype_IDs": [
+        "343_21321222_1",
+        "343_31311222_1",
+        "343_21221222_1",
+        "343_31211222_1"
+      ],
+      "diagonals": [
+        [
+          "343_21321222_1",
+          "343_31211222_1"
+        ],
+        [
+          "343_31311222_1",
+          "343_21221222_1"
+        ]
+      ],
+      "masked_IDs": [
+        "343_21221222_1"
+      ],
+      "prediction_metadata_eligible": true,
+      "prediction_exclusion_reason": null,
+      "shared_biological_material": "same source library; FACS and growth assay-wide preparations",
+      "usable_phenotype_coverage": "not examined"
+    },
+    {
+      "square_index": 24,
+      "arm": "development",
+      "seed": "15",
+      "peptide_sha256": "b598defa2d3ee7bee1e27ac035b18edfa146bb6477ab429bcd585b647f5ca529",
+      "component_index": 7267,
+      "component_size": 9,
+      "genotype_IDs": [
+        "15_22232112_1",
+        "15_22231112_1",
+        "15_22331122_1",
+        "15_22331222_1"
+      ],
+      "diagonals": [
+        [
+          "15_22232112_1",
+          "15_22331222_1"
+        ],
+        [
+          "15_22231112_1",
+          "15_22331122_1"
+        ]
+      ],
+      "masked_IDs": [
+        "15_22231112_1"
+      ],
+      "prediction_metadata_eligible": true,
+      "prediction_exclusion_reason": null,
+      "shared_biological_material": "same source library; FACS and growth assay-wide preparations",
+      "usable_phenotype_coverage": "not examined"
+    },
+    {
+      "square_index": 25,
+      "arm": "development",
+      "seed": "384",
+      "peptide_sha256": "29f43724b2f78d38602e110d00f87a04a27b259283f527bf3e11c05ee9ab49fc",
+      "component_index": 7553,
+      "component_size": 6,
+      "genotype_IDs": [
+        "384_22322112_1",
+        "384_22321112_1",
+        "384_23322122_1",
+        "384_23321122_1"
+      ],
+      "diagonals": [
+        [
+          "384_22322112_1",
+          "384_23321122_1"
+        ],
+        [
+          "384_22321112_1",
+          "384_23322122_1"
+        ]
+      ],
+      "masked_IDs": [
+        "384_23321122_1"
+      ],
+      "prediction_metadata_eligible": true,
+      "prediction_exclusion_reason": null,
+      "shared_biological_material": "same source library; FACS and growth assay-wide preparations",
+      "usable_phenotype_coverage": "not examined"
+    },
+    {
+      "square_index": 26,
+      "arm": "reserved_validation",
+      "seed": "88",
+      "peptide_sha256": "201910e60535624ac751afde0a381ea5b778376ffbc8f5e3a25b71014c603642",
+      "component_index": 7723,
+      "component_size": 4,
+      "genotype_IDs": [
+        "88_12222123_2",
+        "88_12222123_1",
+        "88_12222113_3",
+        "88_12222113_1"
+      ],
+      "diagonals": [
+        [
+          "88_12222123_2",
+          "88_12222113_1"
+        ],
+        [
+          "88_12222123_1",
+          "88_12222113_3"
+        ]
+      ],
+      "masked_IDs": [
+        "88_12222113_1"
+      ],
+      "prediction_metadata_eligible": true,
+      "prediction_exclusion_reason": null,
+      "shared_biological_material": "same source library; FACS and growth assay-wide preparations",
+      "usable_phenotype_coverage": "not examined"
+    },
+    {
+      "square_index": 27,
+      "arm": "reserved_validation",
+      "seed": "44",
+      "peptide_sha256": "4ab0ed16031ea41de84453e8a546d3480045a084ae906010f8da4347c9b315b3",
+      "component_index": 7913,
+      "component_size": 7,
+      "genotype_IDs": [
+        "44_31222113_1",
+        "44_31212113_1",
+        "44_31221123_1",
+        "44_21211123_1"
+      ],
+      "diagonals": [
+        [
+          "44_31222113_1",
+          "44_21211123_1"
+        ],
+        [
+          "44_31212113_1",
+          "44_31221123_1"
+        ]
+      ],
+      "masked_IDs": [
+        "44_31222113_1"
+      ],
+      "prediction_metadata_eligible": true,
+      "prediction_exclusion_reason": null,
+      "shared_biological_material": "same source library; FACS and growth assay-wide preparations",
+      "usable_phenotype_coverage": "not examined"
+    },
+    {
+      "square_index": 28,
+      "arm": "development",
+      "seed": "299",
+      "peptide_sha256": "a1962532a51df4ba10fa370dc12d47c0d590d032520429fdea655f522ada4830",
+      "component_index": 7935,
+      "component_size": 4,
+      "genotype_IDs": [
+        "299_23311122_1",
+        "299_23211122_1",
+        "299_23311112_1",
+        "299_23211112_1"
+      ],
+      "diagonals": [
+        [
+          "299_23311122_1",
+          "299_23211112_1"
+        ],
+        [
+          "299_23211122_1",
+          "299_23311112_1"
+        ]
+      ],
+      "masked_IDs": [
+        "299_23311112_1"
+      ],
+      "prediction_metadata_eligible": true,
+      "prediction_exclusion_reason": null,
+      "shared_biological_material": "same source library; FACS and growth assay-wide preparations",
+      "usable_phenotype_coverage": "not examined"
+    },
+    {
+      "square_index": 29,
+      "arm": "development",
+      "seed": "37",
+      "peptide_sha256": "e8b875a266078b8a29244dea507624367be2df23545f8ac476bfffbe6ca9b1d9",
+      "component_index": 9123,
+      "component_size": 5,
+      "genotype_IDs": [
+        "37_23211211_1",
+        "37_23221211_1",
+        "37_33111211_1",
+        "37_23111211_1"
+      ],
+      "diagonals": [
+        [
+          "37_23211211_1",
+          "37_23111211_1"
+        ],
+        [
+          "37_23221211_1",
+          "37_33111211_1"
+        ]
+      ],
+      "masked_IDs": [
+        "37_23221211_1"
+      ],
+      "prediction_metadata_eligible": true,
+      "prediction_exclusion_reason": null,
+      "shared_biological_material": "same source library; FACS and growth assay-wide preparations",
+      "usable_phenotype_coverage": "not examined"
+    },
+    {
+      "square_index": 30,
+      "arm": "reserved_validation",
+      "seed": "387",
+      "peptide_sha256": "92dde52eeeaca28257c0a86fdf2aa935116a2c2645561ac1b4b2bddabe790817",
+      "component_index": 9393,
+      "component_size": 16,
+      "genotype_IDs": [
+        "387_33212122_1",
+        "387_23211122_1",
+        "387_32212112_1",
+        "387_22211112_1"
+      ],
+      "diagonals": [
+        [
+          "387_33212122_1",
+          "387_22211112_1"
+        ],
+        [
+          "387_23211122_1",
+          "387_32212112_1"
+        ]
+      ],
+      "masked_IDs": [
+        "387_23211122_1"
+      ],
+      "prediction_metadata_eligible": true,
+      "prediction_exclusion_reason": null,
+      "shared_biological_material": "same source library; FACS and growth assay-wide preparations",
+      "usable_phenotype_coverage": "not examined"
+    },
+    {
+      "square_index": 31,
+      "arm": "reserved_validation",
+      "seed": "387",
+      "peptide_sha256": "92dde52eeeaca28257c0a86fdf2aa935116a2c2645561ac1b4b2bddabe790817",
+      "component_index": 9393,
+      "component_size": 16,
+      "genotype_IDs": [
+        "387_32212112_1",
+        "387_22211112_1",
+        "387_32212122_1",
+        "387_22211122_1"
+      ],
+      "diagonals": [
+        [
+          "387_32212112_1",
+          "387_22211122_1"
+        ],
+        [
+          "387_22211112_1",
+          "387_32212122_1"
+        ]
+      ],
+      "masked_IDs": [
+        "387_22211122_1"
+      ],
+      "prediction_metadata_eligible": true,
+      "prediction_exclusion_reason": null,
+      "shared_biological_material": "same source library; FACS and growth assay-wide preparations",
+      "usable_phenotype_coverage": "not examined"
+    },
+    {
+      "square_index": 32,
+      "arm": "development",
+      "seed": "37",
+      "peptide_sha256": "aeaa8d1e931053222ed740f7618c7ca247937d706fb7f5ef0ad2fb03be229042",
+      "component_index": 9887,
+      "component_size": 5,
+      "genotype_IDs": [
+        "37_11211213_1",
+        "37_12111213_1",
+        "37_13211213_1",
+        "37_13211223_1"
+      ],
+      "diagonals": [
+        [
+          "37_11211213_1",
+          "37_13211223_1"
+        ],
+        [
+          "37_12111213_1",
+          "37_13211213_1"
+        ]
+      ],
+      "masked_IDs": [
+        "37_13211213_1"
+      ],
+      "prediction_metadata_eligible": true,
+      "prediction_exclusion_reason": null,
+      "shared_biological_material": "same source library; FACS and growth assay-wide preparations",
+      "usable_phenotype_coverage": "not examined"
+    },
+    {
+      "square_index": 33,
+      "arm": "development",
+      "seed": "20",
+      "peptide_sha256": "801cd39ce7a41afbfa784df09832ae817caf77acb000619784d32b0351dd00ab",
+      "component_index": 10632,
+      "component_size": 6,
+      "genotype_IDs": [
+        "20_31112122_1",
+        "20_31112122_2",
+        "20_31111122_1",
+        "20_31111122_2"
+      ],
+      "diagonals": [
+        [
+          "20_31112122_1",
+          "20_31111122_2"
+        ],
+        [
+          "20_31112122_2",
+          "20_31111122_1"
+        ]
+      ],
+      "masked_IDs": [
+        "20_31111122_1"
+      ],
+      "prediction_metadata_eligible": true,
+      "prediction_exclusion_reason": null,
+      "shared_biological_material": "same source library; FACS and growth assay-wide preparations",
+      "usable_phenotype_coverage": "not examined"
+    },
+    {
+      "square_index": 34,
+      "arm": "reserved_validation",
+      "seed": "349",
+      "peptide_sha256": "f13d05f1d035b64704bbce851508f45cd8024d5fe59f0b9ae108b77724a049e9",
+      "component_index": 11677,
+      "component_size": 9,
+      "genotype_IDs": [
+        "349_32312112_1",
+        "349_22311112_1",
+        "349_22312112_1",
+        "349_22311122_1"
+      ],
+      "diagonals": [
+        [
+          "349_32312112_1",
+          "349_22311122_1"
+        ],
+        [
+          "349_22311112_1",
+          "349_22312112_1"
+        ]
+      ],
+      "masked_IDs": [
+        "349_22312112_1"
+      ],
+      "prediction_metadata_eligible": true,
+      "prediction_exclusion_reason": null,
+      "shared_biological_material": "same source library; FACS and growth assay-wide preparations",
+      "usable_phenotype_coverage": "not examined"
+    },
+    {
+      "square_index": 35,
+      "arm": "reserved_validation",
+      "seed": "349",
+      "peptide_sha256": "f13d05f1d035b64704bbce851508f45cd8024d5fe59f0b9ae108b77724a049e9",
+      "component_index": 11677,
+      "component_size": 9,
+      "genotype_IDs": [
+        "349_22212122_1",
+        "349_22211122_1",
+        "349_22312122_1",
+        "349_22311122_1"
+      ],
+      "diagonals": [
+        [
+          "349_22212122_1",
+          "349_22311122_1"
+        ],
+        [
+          "349_22211122_1",
+          "349_22312122_1"
+        ]
+      ],
+      "masked_IDs": [
+        "349_22312122_1"
+      ],
+      "prediction_metadata_eligible": true,
+      "prediction_exclusion_reason": null,
+      "shared_biological_material": "same source library; FACS and growth assay-wide preparations",
+      "usable_phenotype_coverage": "not examined"
+    },
+    {
+      "square_index": 36,
+      "arm": "development",
+      "seed": "227",
+      "peptide_sha256": "0346e6e706fb3e831fcf5f7cdcc145811cddfe19310dac15a33b5a41b7822a39",
+      "component_index": 11723,
+      "component_size": 6,
+      "genotype_IDs": [
+        "227_13121123_1",
+        "227_23132123_1",
+        "227_13121113_1",
+        "227_23132113_1"
+      ],
+      "diagonals": [
+        [
+          "227_13121123_1",
+          "227_23132113_1"
+        ],
+        [
+          "227_23132123_1",
+          "227_13121113_1"
+        ]
+      ],
+      "masked_IDs": [
+        "227_23132123_1"
+      ],
+      "prediction_metadata_eligible": true,
+      "prediction_exclusion_reason": null,
+      "shared_biological_material": "same source library; FACS and growth assay-wide preparations",
+      "usable_phenotype_coverage": "not examined"
+    },
+    {
+      "square_index": 37,
+      "arm": "development",
+      "seed": "227",
+      "peptide_sha256": "0346e6e706fb3e831fcf5f7cdcc145811cddfe19310dac15a33b5a41b7822a39",
+      "component_index": 11723,
+      "component_size": 6,
+      "genotype_IDs": [
+        "227_23132123_1",
+        "227_23131123_1",
+        "227_23132113_1",
+        "227_23131113_1"
+      ],
+      "diagonals": [
+        [
+          "227_23132123_1",
+          "227_23131113_1"
+        ],
+        [
+          "227_23131123_1",
+          "227_23132113_1"
+        ]
+      ],
+      "masked_IDs": [
+        "227_23132123_1"
+      ],
+      "prediction_metadata_eligible": true,
+      "prediction_exclusion_reason": null,
+      "shared_biological_material": "same source library; FACS and growth assay-wide preparations",
+      "usable_phenotype_coverage": "not examined"
+    },
+    {
+      "square_index": 38,
+      "arm": "reserved_validation",
+      "seed": "88",
+      "peptide_sha256": "18564c074674e881ba55a73fe0cf10abf3599bb8e78fe0b5c08a3a5e8e46ab16",
+      "component_index": 12067,
+      "component_size": 5,
+      "genotype_IDs": [
+        "88_31321121_1",
+        "88_31321221_1",
+        "88_31311121_1",
+        "88_31311221_1"
+      ],
+      "diagonals": [
+        [
+          "88_31321121_1",
+          "88_31311221_1"
+        ],
+        [
+          "88_31321221_1",
+          "88_31311121_1"
+        ]
+      ],
+      "masked_IDs": [
+        "88_31311221_1"
+      ],
+      "prediction_metadata_eligible": true,
+      "prediction_exclusion_reason": null,
+      "shared_biological_material": "same source library; FACS and growth assay-wide preparations",
+      "usable_phenotype_coverage": "not examined"
+    },
+    {
+      "square_index": 39,
+      "arm": "reserved_validation",
+      "seed": "76",
+      "peptide_sha256": "cf2e6885b53da737a0991159ffb926106e513b305e78e61f6eb92ff541d8edc1",
+      "component_index": 12691,
+      "component_size": 7,
+      "genotype_IDs": [
+        "76_32322123_2",
+        "76_22322123_2",
+        "76_32322123_1",
+        "76_22322123_1"
+      ],
+      "diagonals": [
+        [
+          "76_32322123_2",
+          "76_22322123_1"
+        ],
+        [
+          "76_22322123_2",
+          "76_32322123_1"
+        ]
+      ],
+      "masked_IDs": [
+        "76_22322123_2"
+      ],
+      "prediction_metadata_eligible": true,
+      "prediction_exclusion_reason": null,
+      "shared_biological_material": "same source library; FACS and growth assay-wide preparations",
+      "usable_phenotype_coverage": "not examined"
+    },
+    {
+      "square_index": 40,
+      "arm": "reserved_validation",
+      "seed": "117",
+      "peptide_sha256": "1d229257d1d2a599bac8487ce0cb161afa3a10f2743dd87ec80f103e992bcf37",
+      "component_index": 13072,
+      "component_size": 7,
+      "genotype_IDs": [
+        "117_23231122_1",
+        "117_23231222_1",
+        "117_22231122_1",
+        "117_22231222_1"
+      ],
+      "diagonals": [
+        [
+          "117_23231122_1",
+          "117_22231222_1"
+        ],
+        [
+          "117_23231222_1",
+          "117_22231122_1"
+        ]
+      ],
+      "masked_IDs": [
+        "117_22231122_1"
+      ],
+      "prediction_metadata_eligible": true,
+      "prediction_exclusion_reason": null,
+      "shared_biological_material": "same source library; FACS and growth assay-wide preparations",
+      "usable_phenotype_coverage": "not examined"
+    },
+    {
+      "square_index": 41,
+      "arm": "development",
+      "seed": "15",
+      "peptide_sha256": "4a7c18e4936e54b070ec88d6328479657f0bd1f345d536bfb175df84eef01791",
+      "component_index": 13089,
+      "component_size": 5,
+      "genotype_IDs": [
+        "15_12131111_1",
+        "15_11131111_1",
+        "15_12231121_1",
+        "15_11131121_1"
+      ],
+      "diagonals": [
+        [
+          "15_12131111_1",
+          "15_11131121_1"
+        ],
+        [
+          "15_11131111_1",
+          "15_12231121_1"
+        ]
+      ],
+      "masked_IDs": [
+        "15_12231121_1"
+      ],
+      "prediction_metadata_eligible": true,
+      "prediction_exclusion_reason": null,
+      "shared_biological_material": "same source library; FACS and growth assay-wide preparations",
+      "usable_phenotype_coverage": "not examined"
+    },
+    {
+      "square_index": 42,
+      "arm": "reserved_validation",
+      "seed": "379",
+      "peptide_sha256": "51ac8d0b125c210228a84ddf1e705bea6c50ec5759b44b7d8e7ac75b06b7ad42",
+      "component_index": 13361,
+      "component_size": 4,
+      "genotype_IDs": [
+        "379_33211111_1",
+        "379_33211211_1",
+        "379_32111111_1",
+        "379_32111211_1"
+      ],
+      "diagonals": [
+        [
+          "379_33211111_1",
+          "379_32111211_1"
+        ],
+        [
+          "379_33211211_1",
+          "379_32111111_1"
+        ]
+      ],
+      "masked_IDs": [
+        "379_33211111_1"
+      ],
+      "prediction_metadata_eligible": true,
+      "prediction_exclusion_reason": null,
+      "shared_biological_material": "same source library; FACS and growth assay-wide preparations",
+      "usable_phenotype_coverage": "not examined"
+    },
+    {
+      "square_index": 43,
+      "arm": "reserved_validation",
+      "seed": "379",
+      "peptide_sha256": "1a0a5fb335691492a6d0e9915655f43d531e2fafa56030018fba730dfac23028",
+      "component_index": 13501,
+      "component_size": 4,
+      "genotype_IDs": [
+        "379_31112111_3",
+        "379_31111111_2",
+        "379_31112111_1",
+        "379_31111111_1"
+      ],
+      "diagonals": [
+        [
+          "379_31112111_3",
+          "379_31111111_1"
+        ],
+        [
+          "379_31111111_2",
+          "379_31112111_1"
+        ]
+      ],
+      "masked_IDs": [
+        "379_31111111_1"
+      ],
+      "prediction_metadata_eligible": true,
+      "prediction_exclusion_reason": null,
+      "shared_biological_material": "same source library; FACS and growth assay-wide preparations",
+      "usable_phenotype_coverage": "not examined"
+    },
+    {
+      "square_index": 44,
+      "arm": "development",
+      "seed": "47",
+      "peptide_sha256": "5af8280a8173358f51517b0926ab5e0683717ee1faf99ed1f4beae55f0e070ed",
+      "component_index": 14490,
+      "component_size": 8,
+      "genotype_IDs": [
+        "47_22111213_1",
+        "47_12111213_1",
+        "47_13111223_1",
+        "47_13111223_2"
+      ],
+      "diagonals": [
+        [
+          "47_22111213_1",
+          "47_13111223_2"
+        ],
+        [
+          "47_12111213_1",
+          "47_13111223_1"
+        ]
+      ],
+      "masked_IDs": [
+        "47_13111223_2"
+      ],
+      "prediction_metadata_eligible": true,
+      "prediction_exclusion_reason": null,
+      "shared_biological_material": "same source library; FACS and growth assay-wide preparations",
+      "usable_phenotype_coverage": "not examined"
+    },
+    {
+      "square_index": 45,
+      "arm": "development",
+      "seed": "47",
+      "peptide_sha256": "5af8280a8173358f51517b0926ab5e0683717ee1faf99ed1f4beae55f0e070ed",
+      "component_index": 14490,
+      "component_size": 8,
+      "genotype_IDs": [
+        "47_12111213_1",
+        "47_13111223_2",
+        "47_23111213_1",
+        "47_12111223_1"
+      ],
+      "diagonals": [
+        [
+          "47_12111213_1",
+          "47_12111223_1"
+        ],
+        [
+          "47_13111223_2",
+          "47_23111213_1"
+        ]
+      ],
+      "masked_IDs": [
+        "47_12111223_1",
+        "47_13111223_2"
+      ],
+      "prediction_metadata_eligible": false,
+      "prediction_exclusion_reason": "multiple_globally_masked_corners",
+      "shared_biological_material": "same source library; FACS and growth assay-wide preparations",
+      "usable_phenotype_coverage": "not examined"
+    },
+    {
+      "square_index": 46,
+      "arm": "development",
+      "seed": "47",
+      "peptide_sha256": "fac66713278090a4e515534876e0cdbb0060c444d69f9d5d45807fe2f42ea51a",
+      "component_index": 14509,
+      "component_size": 7,
+      "genotype_IDs": [
+        "47_23221113_1",
+        "47_23221213_1",
+        "47_23321123_1",
+        "47_23321223_1"
+      ],
+      "diagonals": [
+        [
+          "47_23221113_1",
+          "47_23321223_1"
+        ],
+        [
+          "47_23221213_1",
+          "47_23321123_1"
+        ]
+      ],
+      "masked_IDs": [
+        "47_23221213_1"
+      ],
+      "prediction_metadata_eligible": true,
+      "prediction_exclusion_reason": null,
+      "shared_biological_material": "same source library; FACS and growth assay-wide preparations",
+      "usable_phenotype_coverage": "not examined"
+    }
+  ],
+  "incidence": {
+    "genotype": {
+      "60_21121212_1": [
+        0
+      ],
+      "60_21111212_1": [
+        0
+      ],
+      "60_22221222_1": [
+        0
+      ],
+      "60_22211222_1": [
+        0
+      ],
+      "25_32131212_1": [
+        1
+      ],
+      "25_32111212_1": [
+        1
+      ],
+      "25_32131112_1": [
+        1
+      ],
+      "25_32111212_2": [
+        1
+      ],
+      "321_21121112_1": [
+        2
+      ],
+      "321_21111112_1": [
+        2
+      ],
+      "321_21221112_1": [
+        2
+      ],
+      "321_21211112_1": [
+        2
+      ],
+      "33_32221113_1": [
+        3
+      ],
+      "33_32221113_2": [
+        3
+      ],
+      "33_32122113_1": [
+        3
+      ],
+      "33_32121113_1": [
+        3
+      ],
+      "145_23322121_1": [
+        4
+      ],
+      "145_23312121_1": [
+        4
+      ],
+      "145_21322121_1": [
+        4
+      ],
+      "145_31312121_1": [
+        4
+      ],
+      "145_33221123_1": [
+        5
+      ],
+      "145_23221223_1": [
+        5
+      ],
+      "145_32221123_1": [
+        5
+      ],
+      "145_32221223_1": [
+        5
+      ],
+      "277_32222122_1": [
+        6
+      ],
+      "277_22321122_1": [
+        6
+      ],
+      "277_31222122_1": [
+        6
+      ],
+      "277_21321122_1": [
+        6
+      ],
+      "355_32212111_1": [
+        7
+      ],
+      "355_32221111_1": [
+        7
+      ],
+      "355_33212111_1": [
+        7
+      ],
+      "355_33221111_1": [
+        7
+      ],
+      "343_32112121_1": [
+        8
+      ],
+      "343_22122121_1": [
+        8
+      ],
+      "343_23212121_1": [
+        8
+      ],
+      "343_23222121_1": [
+        8
+      ],
+      "247_23331112_1": [
+        9
+      ],
+      "247_33332112_1": [
+        9
+      ],
+      "247_22331112_1": [
+        9
+      ],
+      "247_32331112_1": [
+        9
+      ],
+      "355_23321212_1": [
+        10
+      ],
+      "355_23321112_1": [
+        10
+      ],
+      "355_23221212_1": [
+        10
+      ],
+      "355_33221112_1": [
+        10
+      ],
+      "359_21221122_2": [
+        11
+      ],
+      "359_21221122_1": [
+        11
+      ],
+      "359_21221222_2": [
+        11
+      ],
+      "359_21221222_1": [
+        11
+      ],
+      "84_12212123_1": [
+        12
+      ],
+      "84_11312123_1": [
+        12
+      ],
+      "84_12212113_1": [
+        12
+      ],
+      "84_11211113_1": [
+        12
+      ],
+      "382_31221122_1": [
+        13
+      ],
+      "382_21231122_1": [
+        13
+      ],
+      "382_21121122_1": [
+        13
+      ],
+      "382_21131122_1": [
+        13
+      ],
+      "382_31221212_1": [
+        14
+      ],
+      "382_32221212_1": [
+        14
+      ],
+      "382_31221222_1": [
+        14
+      ],
+      "382_32221222_1": [
+        14
+      ],
+      "156_31111123_1": [
+        15
+      ],
+      "156_21111223_1": [
+        15
+      ],
+      "156_31111113_1": [
+        15
+      ],
+      "156_31111213_1": [
+        15
+      ],
+      "156_33231113_1": [
+        16
+      ],
+      "156_33231213_1": [
+        16
+      ],
+      "156_33131113_1": [
+        16
+      ],
+      "156_33131213_1": [
+        16
+      ],
+      "2_22111111_1": [
+        17
+      ],
+      "2_22211111_1": [
+        17
+      ],
+      "2_22111211_1": [
+        17
+      ],
+      "2_22211221_1": [
+        17
+      ],
+      "314_31112121_1": [
+        18
+      ],
+      "314_31211121_1": [
+        18
+      ],
+      "314_21112121_1": [
+        18
+      ],
+      "314_21211121_1": [
+        18
+      ],
+      "2_23112123_1": [
+        19
+      ],
+      "2_33112123_1": [
+        19
+      ],
+      "2_22111123_1": [
+        19
+      ],
+      "2_32111123_1": [
+        19
+      ],
+      "46_13321213_2": [
+        20
+      ],
+      "46_13211213_3": [
+        20
+      ],
+      "46_13321213_1": [
+        20
+      ],
+      "46_13211213_1": [
+        20
+      ],
+      "133_32211121_2": [
+        21
+      ],
+      "133_32211121_1": [
+        21
+      ],
+      "133_33211221_2": [
+        21
+      ],
+      "133_33211221_1": [
+        21
+      ],
+      "71_31312111_1": [
+        22
+      ],
+      "71_31322111_1": [
+        22
+      ],
+      "71_31212111_1": [
+        22
+      ],
+      "71_31222111_1": [
+        22
+      ],
+      "343_21321222_1": [
+        23
+      ],
+      "343_31311222_1": [
+        23
+      ],
+      "343_21221222_1": [
+        23
+      ],
+      "343_31211222_1": [
+        23
+      ],
+      "15_22232112_1": [
+        24
+      ],
+      "15_22231112_1": [
+        24
+      ],
+      "15_22331122_1": [
+        24
+      ],
+      "15_22331222_1": [
+        24
+      ],
+      "384_22322112_1": [
+        25
+      ],
+      "384_22321112_1": [
+        25
+      ],
+      "384_23322122_1": [
+        25
+      ],
+      "384_23321122_1": [
+        25
+      ],
+      "88_12222123_2": [
+        26
+      ],
+      "88_12222123_1": [
+        26
+      ],
+      "88_12222113_3": [
+        26
+      ],
+      "88_12222113_1": [
+        26
+      ],
+      "44_31222113_1": [
+        27
+      ],
+      "44_31212113_1": [
+        27
+      ],
+      "44_31221123_1": [
+        27
+      ],
+      "44_21211123_1": [
+        27
+      ],
+      "299_23311122_1": [
+        28
+      ],
+      "299_23211122_1": [
+        28
+      ],
+      "299_23311112_1": [
+        28
+      ],
+      "299_23211112_1": [
+        28
+      ],
+      "37_23211211_1": [
+        29
+      ],
+      "37_23221211_1": [
+        29
+      ],
+      "37_33111211_1": [
+        29
+      ],
+      "37_23111211_1": [
+        29
+      ],
+      "387_33212122_1": [
+        30
+      ],
+      "387_23211122_1": [
+        30
+      ],
+      "387_32212112_1": [
+        30,
+        31
+      ],
+      "387_22211112_1": [
+        30,
+        31
+      ],
+      "387_32212122_1": [
+        31
+      ],
+      "387_22211122_1": [
+        31
+      ],
+      "37_11211213_1": [
+        32
+      ],
+      "37_12111213_1": [
+        32
+      ],
+      "37_13211213_1": [
+        32
+      ],
+      "37_13211223_1": [
+        32
+      ],
+      "20_31112122_1": [
+        33
+      ],
+      "20_31112122_2": [
+        33
+      ],
+      "20_31111122_1": [
+        33
+      ],
+      "20_31111122_2": [
+        33
+      ],
+      "349_32312112_1": [
+        34
+      ],
+      "349_22311112_1": [
+        34
+      ],
+      "349_22312112_1": [
+        34
+      ],
+      "349_22311122_1": [
+        34,
+        35
+      ],
+      "349_22212122_1": [
+        35
+      ],
+      "349_22211122_1": [
+        35
+      ],
+      "349_22312122_1": [
+        35
+      ],
+      "227_13121123_1": [
+        36
+      ],
+      "227_23132123_1": [
+        36,
+        37
+      ],
+      "227_13121113_1": [
+        36
+      ],
+      "227_23132113_1": [
+        36,
+        37
+      ],
+      "227_23131123_1": [
+        37
+      ],
+      "227_23131113_1": [
+        37
+      ],
+      "88_31321121_1": [
+        38
+      ],
+      "88_31321221_1": [
+        38
+      ],
+      "88_31311121_1": [
+        38
+      ],
+      "88_31311221_1": [
+        38
+      ],
+      "76_32322123_2": [
+        39
+      ],
+      "76_22322123_2": [
+        39
+      ],
+      "76_32322123_1": [
+        39
+      ],
+      "76_22322123_1": [
+        39
+      ],
+      "117_23231122_1": [
+        40
+      ],
+      "117_23231222_1": [
+        40
+      ],
+      "117_22231122_1": [
+        40
+      ],
+      "117_22231222_1": [
+        40
+      ],
+      "15_12131111_1": [
+        41
+      ],
+      "15_11131111_1": [
+        41
+      ],
+      "15_12231121_1": [
+        41
+      ],
+      "15_11131121_1": [
+        41
+      ],
+      "379_33211111_1": [
+        42
+      ],
+      "379_33211211_1": [
+        42
+      ],
+      "379_32111111_1": [
+        42
+      ],
+      "379_32111211_1": [
+        42
+      ],
+      "379_31112111_3": [
+        43
+      ],
+      "379_31111111_2": [
+        43
+      ],
+      "379_31112111_1": [
+        43
+      ],
+      "379_31111111_1": [
+        43
+      ],
+      "47_22111213_1": [
+        44
+      ],
+      "47_12111213_1": [
+        44,
+        45
+      ],
+      "47_13111223_1": [
+        44
+      ],
+      "47_13111223_2": [
+        44,
+        45
+      ],
+      "47_23111213_1": [
+        45
+      ],
+      "47_12111223_1": [
+        45
+      ],
+      "47_23221113_1": [
+        46
+      ],
+      "47_23221213_1": [
+        46
+      ],
+      "47_23321123_1": [
+        46
+      ],
+      "47_23321223_1": [
+        46
+      ]
+    },
+    "seed": {
+      "60": [
+        0
+      ],
+      "25": [
+        1
+      ],
+      "321": [
+        2
+      ],
+      "33": [
+        3
+      ],
+      "145": [
+        4,
+        5
+      ],
+      "277": [
+        6
+      ],
+      "355": [
+        7,
+        10
+      ],
+      "343": [
+        8,
+        23
+      ],
+      "247": [
+        9
+      ],
+      "359": [
+        11
+      ],
+      "84": [
+        12
+      ],
+      "382": [
+        13,
+        14
+      ],
+      "156": [
+        15,
+        16
+      ],
+      "2": [
+        17,
+        19
+      ],
+      "314": [
+        18
+      ],
+      "46": [
+        20
+      ],
+      "133": [
+        21
+      ],
+      "71": [
+        22
+      ],
+      "15": [
+        24,
+        41
+      ],
+      "384": [
+        25
+      ],
+      "88": [
+        26,
+        38
+      ],
+      "44": [
+        27
+      ],
+      "299": [
+        28
+      ],
+      "37": [
+        29,
+        32
+      ],
+      "387": [
+        30,
+        31
+      ],
+      "20": [
+        33
+      ],
+      "349": [
+        34,
+        35
+      ],
+      "227": [
+        36,
+        37
+      ],
+      "76": [
+        39
+      ],
+      "117": [
+        40
+      ],
+      "379": [
+        42,
+        43
+      ],
+      "47": [
+        44,
+        45,
+        46
+      ]
+    },
+    "component": {
+      "795": [
+        0
+      ],
+      "1304": [
+        1
+      ],
+      "1932": [
+        2
+      ],
+      "2100": [
+        3
+      ],
+      "2262": [
+        4
+      ],
+      "1854": [
+        5
+      ],
+      "2355": [
+        6
+      ],
+      "2790": [
+        7
+      ],
+      "2820": [
+        8
+      ],
+      "3015": [
+        9
+      ],
+      "3132": [
+        10
+      ],
+      "3351": [
+        11
+      ],
+      "4076": [
+        12
+      ],
+      "4433": [
+        13
+      ],
+      "4434": [
+        14
+      ],
+      "4483": [
+        15
+      ],
+      "4587": [
+        16
+      ],
+      "4859": [
+        17
+      ],
+      "5033": [
+        18
+      ],
+      "5250": [
+        19
+      ],
+      "5350": [
+        20
+      ],
+      "5728": [
+        21
+      ],
+      "5813": [
+        22
+      ],
+      "6319": [
+        23
+      ],
+      "7267": [
+        24
+      ],
+      "7553": [
+        25
+      ],
+      "7723": [
+        26
+      ],
+      "7913": [
+        27
+      ],
+      "7935": [
+        28
+      ],
+      "9123": [
+        29
+      ],
+      "9393": [
+        30,
+        31
+      ],
+      "9887": [
+        32
+      ],
+      "10632": [
+        33
+      ],
+      "11677": [
+        34,
+        35
+      ],
+      "11723": [
+        36,
+        37
+      ],
+      "12067": [
+        38
+      ],
+      "12691": [
+        39
+      ],
+      "13072": [
+        40
+      ],
+      "13089": [
+        41
+      ],
+      "13361": [
+        42
+      ],
+      "13501": [
+        43
+      ],
+      "14490": [
+        44,
+        45
+      ],
+      "14509": [
+        46
+      ]
+    },
+    "peptide": {
+      "c7a4a45b26b41b7716fdcd0dacb005068d509b5bb2e810cf83cdea2ea1c98b4c": [
+        0
+      ],
+      "c1e99610009553090a1fd96b368966fa93de19aeef278bf21a8392947a0e80c2": [
+        1
+      ],
+      "b1ccb71032c4302bfc2c80055817bbb0ad0907edefbd6e7f10672e16ea5af539": [
+        2
+      ],
+      "fbf45e000b75f98bfb1d26f78a978a9df0ab619a440ef9626f6c91693a98c2d9": [
+        3
+      ],
+      "77e72e9380ec98d312fd9166625212c3f0fef5db67ba8d8789ba6c626a9ca831": [
+        4
+      ],
+      "2997d84a84f9d0d84b43e8997c634a2aa91d3e0b84c0c899ae74db3970d6ff9f": [
+        5
+      ],
+      "80390727a941df40caf01b0fe3da7b129a8c1cb2a052dbe705e6d9f621ee38cc": [
+        6
+      ],
+      "877db69ed170b1c52119b6d3e8398e412e28f1f6ab570e40b55ebf1f652d62ab": [
+        7
+      ],
+      "ff0a54f8b88b1038764ff2f3724a7f187063e2530d00407e4722b9debef0671c": [
+        8
+      ],
+      "f5b336e95052fd07792ae5550cdf93fe71fcb1cc755886d9918bd2741e7c5597": [
+        9
+      ],
+      "19e3504f41a85498fb09240e6408232c432d9980f0c1044701eb720adb2dd4dd": [
+        10
+      ],
+      "bf1c3eeac19577b16e82132d859ccf0a288323ae5800c5beec7a3acd152093e0": [
+        11
+      ],
+      "0e7f6286edf9299ce887f035fa766cdcd9c928393a477fa6df1610893ea0ef82": [
+        12
+      ],
+      "6480794a6e3ca81ce04fcad9369f1d2ec093855a811203566e4980ba659dd43a": [
+        13
+      ],
+      "ac534d19105da49409ff61f79334d26c219e58a237efdeebdbe5366bfc17f5c7": [
+        14
+      ],
+      "ed7ef94d02d53b5fb798e79da4f69c22821c37b14c897454673ee8072197dd44": [
+        15,
+        16
+      ],
+      "b67c00f18ad4675af6f96353e977863f33310ce8dd5031e2a799648c7388defa": [
+        17
+      ],
+      "c2fe63bf8ea99a42c1434b441ff6fece594a1edf997694b9ca266bdf36f3c97b": [
+        18
+      ],
+      "fef1043bbae366f0b478a94217bb4133e037e1f48d5ef2a6b8209ed328b150a2": [
+        19
+      ],
+      "924c3f28cdf796d6d37a5b9af8e0a196e2c95ea5d44f9c8f7f131f8a3a8192e0": [
+        20
+      ],
+      "0f5047f365171c24dc17caa2d6edae429cf61a31b418e07f054864632b62d511": [
+        21
+      ],
+      "479da657c9170056f30327fab587e0f37e10a5f2f99e6c8c79ab260cfc5d2ae0": [
+        22
+      ],
+      "2f960a2076d67e72601a7cf8c3fbf9fc421771616426c037a68c36e7e1dfa307": [
+        23
+      ],
+      "b598defa2d3ee7bee1e27ac035b18edfa146bb6477ab429bcd585b647f5ca529": [
+        24
+      ],
+      "29f43724b2f78d38602e110d00f87a04a27b259283f527bf3e11c05ee9ab49fc": [
+        25
+      ],
+      "201910e60535624ac751afde0a381ea5b778376ffbc8f5e3a25b71014c603642": [
+        26
+      ],
+      "4ab0ed16031ea41de84453e8a546d3480045a084ae906010f8da4347c9b315b3": [
+        27
+      ],
+      "a1962532a51df4ba10fa370dc12d47c0d590d032520429fdea655f522ada4830": [
+        28
+      ],
+      "e8b875a266078b8a29244dea507624367be2df23545f8ac476bfffbe6ca9b1d9": [
+        29
+      ],
+      "92dde52eeeaca28257c0a86fdf2aa935116a2c2645561ac1b4b2bddabe790817": [
+        30,
+        31
+      ],
+      "aeaa8d1e931053222ed740f7618c7ca247937d706fb7f5ef0ad2fb03be229042": [
+        32
+      ],
+      "801cd39ce7a41afbfa784df09832ae817caf77acb000619784d32b0351dd00ab": [
+        33
+      ],
+      "f13d05f1d035b64704bbce851508f45cd8024d5fe59f0b9ae108b77724a049e9": [
+        34,
+        35
+      ],
+      "0346e6e706fb3e831fcf5f7cdcc145811cddfe19310dac15a33b5a41b7822a39": [
+        36,
+        37
+      ],
+      "18564c074674e881ba55a73fe0cf10abf3599bb8e78fe0b5c08a3a5e8e46ab16": [
+        38
+      ],
+      "cf2e6885b53da737a0991159ffb926106e513b305e78e61f6eb92ff541d8edc1": [
+        39
+      ],
+      "1d229257d1d2a599bac8487ce0cb161afa3a10f2743dd87ec80f103e992bcf37": [
+        40
+      ],
+      "4a7c18e4936e54b070ec88d6328479657f0bd1f345d536bfb175df84eef01791": [
+        41
+      ],
+      "51ac8d0b125c210228a84ddf1e705bea6c50ec5759b44b7d8e7ac75b06b7ad42": [
+        42
+      ],
+      "1a0a5fb335691492a6d0e9915655f43d531e2fafa56030018fba730dfac23028": [
+        43
+      ],
+      "5af8280a8173358f51517b0926ab5e0683717ee1faf99ed1f4beae55f0e070ed": [
+        44,
+        45
+      ],
+      "fac66713278090a4e515534876e0cdbb0060c444d69f9d5d45807fe2f42ea51a": [
+        46
+      ]
+    },
+    "masked_target": {
+      "60_21111212_1": [
+        0
+      ],
+      "25_32111212_1": [
+        1
+      ],
+      "321_21121112_1": [
+        2
+      ],
+      "33_32121113_1": [
+        3
+      ],
+      "145_23312121_1": [
+        4
+      ],
+      "145_33221123_1": [
+        5
+      ],
+      "277_21321122_1": [
+        6
+      ],
+      "355_32212111_1": [
+        7
+      ],
+      "343_32112121_1": [
+        8
+      ],
+      "247_33332112_1": [
+        9
+      ],
+      "355_23221212_1": [
+        10
+      ],
+      "359_21221222_1": [
+        11
+      ],
+      "84_12212113_1": [
+        12
+      ],
+      "382_31221122_1": [
+        13
+      ],
+      "382_32221212_1": [
+        14
+      ],
+      "156_31111213_1": [
+        15
+      ],
+      "156_33131213_1": [
+        16
+      ],
+      "2_22211111_1": [
+        17
+      ],
+      "314_21211121_1": [
+        18
+      ],
+      "2_33112123_1": [
+        19
+      ],
+      "46_13321213_2": [
+        20
+      ],
+      "133_33211221_2": [
+        21
+      ],
+      "71_31312111_1": [
+        22
+      ],
+      "343_21221222_1": [
+        23
+      ],
+      "15_22231112_1": [
+        24
+      ],
+      "384_23321122_1": [
+        25
+      ],
+      "88_12222113_1": [
+        26
+      ],
+      "44_31222113_1": [
+        27
+      ],
+      "299_23311112_1": [
+        28
+      ],
+      "37_23221211_1": [
+        29
+      ],
+      "387_23211122_1": [
+        30
+      ],
+      "387_22211122_1": [
+        31
+      ],
+      "37_13211213_1": [
+        32
+      ],
+      "20_31111122_1": [
+        33
+      ],
+      "349_22312112_1": [
+        34
+      ],
+      "349_22312122_1": [
+        35
+      ],
+      "227_23132123_1": [
+        36,
+        37
+      ],
+      "88_31311221_1": [
+        38
+      ],
+      "76_22322123_2": [
+        39
+      ],
+      "117_22231122_1": [
+        40
+      ],
+      "15_12231121_1": [
+        41
+      ],
+      "379_33211111_1": [
+        42
+      ],
+      "379_31111111_1": [
+        43
+      ],
+      "47_13111223_2": [
+        44,
+        45
+      ],
+      "47_12111223_1": [
+        45
+      ],
+      "47_23221213_1": [
+        46
+      ]
+    }
+  },
+  "covariance_eligibility": {
+    "marginal_GFP": "processed empirical dispersion can be described after authorization; calibrated confidence not established",
+    "marginal_R60": "conditional line dispersion can be described; founder/reference and global scaling uncertainty unresolved",
+    "within_assay_between_variant": "shared preparation-level vectors support a descriptive sample covariance only after authorization, with at most rank3 GFP/rank2 growth before missingness; not a full calibrated covariance model",
+    "cross_assay_biological_error": "not identified from unpaired assays",
+    "global_biological_uncertainty": "not calibrated from these source records"
+  },
+  "new_phenotype_values_opened": 0,
+  "holdout_contract": {
+    "name": "author-preprocessed within-library analysis holdout",
+    "new_reserved_value_access": "sealed by staged reader",
+    "source_preprocessing": "global/quantile operations may include reserved variants",
+    "train_only_preprocessing_verified": false,
+    "independent_biological_validation": false
+  }
+}

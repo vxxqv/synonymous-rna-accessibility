@@ -1,0 +1,550 @@
+{
+  "status": "passed",
+  "fixtures": [
+    {
+      "name": "Leu local eta essential at rank0",
+      "vertices": 6,
+      "edges": 9,
+      "expected_R": "3",
+      "observed_R": "3",
+      "path": [
+        "UUA",
+        "CUA",
+        "CUC"
+      ],
+      "values": {
+        "UUA": [
+          "0"
+        ],
+        "UUG": [
+          "-3"
+        ],
+        "CUU": [
+          "-3"
+        ],
+        "CUC": [
+          "0"
+        ],
+        "CUA": [
+          "-3"
+        ],
+        "CUG": [
+          "-3"
+        ]
+      },
+      "box": [
+        [
+          "0",
+          null
+        ]
+      ]
+    },
+    {
+      "name": "Ser different base components",
+      "vertices": 6,
+      "edges": 7,
+      "expected_R": null,
+      "observed_R": null,
+      "path": null,
+      "values": {
+        "UCU": [
+          "0"
+        ],
+        "UCC": [
+          "0"
+        ],
+        "UCA": [
+          "0"
+        ],
+        "UCG": [
+          "0"
+        ],
+        "AGU": [
+          "0"
+        ],
+        "AGC": [
+          "0"
+        ]
+      },
+      "box": [
+        [
+          "0",
+          null
+        ]
+      ]
+    },
+    {
+      "name": "rank1 sharp lower-bound conflict",
+      "vertices": 4,
+      "edges": 4,
+      "expected_R": "1",
+      "observed_R": "1",
+      "path": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "values": {
+        "(0, 0)": [
+          "0",
+          "0"
+        ],
+        "(0, 1)": [
+          "-1",
+          "1"
+        ],
+        "(1, 0)": [
+          "1",
+          "-1"
+        ],
+        "(1, 1)": [
+          "0",
+          "0"
+        ]
+      },
+      "box": [
+        [
+          "0",
+          null
+        ],
+        [
+          "0",
+          null
+        ]
+      ]
+    },
+    {
+      "name": "rational scaled effects",
+      "vertices": 4,
+      "edges": 4,
+      "expected_R": "1/3",
+      "observed_R": "1/3",
+      "path": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "values": {
+        "(0, 0)": [
+          "0",
+          "0"
+        ],
+        "(0, 1)": [
+          "-1/2",
+          "1/3"
+        ],
+        "(1, 0)": [
+          "1/2",
+          "-1/3"
+        ],
+        "(1, 1)": [
+          "0",
+          "0"
+        ]
+      },
+      "box": [
+        [
+          "0",
+          null
+        ],
+        [
+          "0",
+          null
+        ]
+      ]
+    },
+    {
+      "name": "background detour beats endpoint orders",
+      "vertices": 8,
+      "edges": 12,
+      "expected_R": "0",
+      "observed_R": "0",
+      "path": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          0
+        ]
+      ],
+      "values": {
+        "(0, 0, 0)": [
+          "0",
+          "0"
+        ],
+        "(0, 0, 1)": [
+          "1",
+          "1"
+        ],
+        "(0, 1, 0)": [
+          "-1",
+          "1"
+        ],
+        "(0, 1, 1)": [
+          "0",
+          "2"
+        ],
+        "(1, 0, 0)": [
+          "1",
+          "-1"
+        ],
+        "(1, 0, 1)": [
+          "2",
+          "0"
+        ],
+        "(1, 1, 0)": [
+          "0",
+          "0"
+        ],
+        "(1, 1, 1)": [
+          "1",
+          "1"
+        ]
+      },
+      "box": [
+        [
+          "0",
+          null
+        ],
+        [
+          "0",
+          null
+        ]
+      ]
+    },
+    {
+      "name": "coupling invalidates product bound",
+      "vertices": 7,
+      "edges": 8,
+      "expected_R": "2",
+      "observed_R": "2",
+      "path": [
+        [
+          1,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          1
+        ]
+      ],
+      "values": {
+        "(0, 0, 0, 0)": [
+          "0"
+        ],
+        "(0, 0, 0, 1)": [
+          "1"
+        ],
+        "(0, 0, 1, 0)": [
+          "1"
+        ],
+        "(0, 0, 1, 1)": [
+          "2"
+        ],
+        "(0, 1, 0, 0)": [
+          "1"
+        ],
+        "(1, 0, 0, 0)": [
+          "1"
+        ],
+        "(1, 1, 0, 0)": [
+          "2"
+        ]
+      },
+      "box": [
+        [
+          "2",
+          null
+        ]
+      ]
+    },
+    {
+      "name": "weak plateau versus strict",
+      "vertices": 6,
+      "edges": 9,
+      "expected_R": "0",
+      "observed_R": "0",
+      "path": [
+        "UUA",
+        "CUA",
+        "CUC"
+      ],
+      "values": {
+        "UUA": [
+          "1"
+        ],
+        "UUG": [
+          "0"
+        ],
+        "CUU": [
+          "0"
+        ],
+        "CUC": [
+          "1"
+        ],
+        "CUA": [
+          "0"
+        ],
+        "CUG": [
+          "0"
+        ]
+      },
+      "box": [
+        [
+          "0",
+          null
+        ]
+      ]
+    },
+    {
+      "name": "interval equality defeats alignment",
+      "vertices": 4,
+      "edges": 4,
+      "expected_R": "1",
+      "observed_R": "1",
+      "path": [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "values": {
+        "(0, 0)": [
+          "0"
+        ],
+        "(0, 1)": [
+          "1"
+        ],
+        "(1, 0)": [
+          "1"
+        ],
+        "(1, 1)": [
+          "2"
+        ]
+      },
+      "box": [
+        [
+          "1",
+          "1"
+        ]
+      ]
+    },
+    {
+      "name": "coincident endpoints",
+      "vertices": 4,
+      "edges": 4,
+      "expected_R": "0",
+      "observed_R": "0",
+      "path": [
+        [
+          1,
+          0
+        ]
+      ],
+      "values": {
+        "(0, 0)": [
+          "0"
+        ],
+        "(0, 1)": [
+          "1"
+        ],
+        "(1, 0)": [
+          "1"
+        ],
+        "(1, 1)": [
+          "2"
+        ]
+      },
+      "box": [
+        [
+          "1",
+          "1"
+        ]
+      ]
+    },
+    {
+      "name": "uniform-error coefficient2 sharp",
+      "vertices": 6,
+      "edges": 9,
+      "expected_R": "1/2",
+      "observed_R": "1/2",
+      "path": [
+        "UUA",
+        "CUA",
+        "CUC"
+      ],
+      "values": {
+        "UUA": [
+          "0"
+        ],
+        "UUG": [
+          "-1/2"
+        ],
+        "CUU": [
+          "-1/2"
+        ],
+        "CUC": [
+          "0"
+        ],
+        "CUA": [
+          "-1/2"
+        ],
+        "CUG": [
+          "-1/2"
+        ]
+      },
+      "box": [
+        [
+          "0",
+          null
+        ]
+      ]
+    }
+  ],
+  "standard_code_component_counts": {
+    "F": 1,
+    "L": 1,
+    "I": 1,
+    "M": 1,
+    "V": 1,
+    "S": 2,
+    "P": 1,
+    "T": 1,
+    "A": 1,
+    "Y": 1,
+    "H": 1,
+    "Q": 1,
+    "N": 1,
+    "K": 1,
+    "D": 1,
+    "E": 1,
+    "C": 1,
+    "W": 1,
+    "R": 1,
+    "G": 1
+  },
+  "exhaustive_vector_contract": "All 729 ordered length3 lists of vectors in {-1,0,1}^2; all six orders tried; exact interval bottleneck checked by threshold BFS and minmax Floyd.",
+  "exhaustive_vector_matrices": 729,
+  "worst_R_over_rank_M_in_tested_range": "1",
+  "mixed_sign_total_fixture": [
+    {
+      "vectors": [
+        [
+          -1,
+          -1
+        ],
+        [
+          -1,
+          1
+        ],
+        [
+          -1,
+          1
+        ]
+      ],
+      "total": [
+        -3,
+        1
+      ],
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "best_segment_radius": "1/2",
+      "bound": 2,
+      "exact_R": "0"
+    }
+  ],
+  "spectral_counterexample": {
+    "principal": [
+      [
+        "2",
+        "0"
+      ],
+      [
+        "0",
+        "2"
+      ]
+    ],
+    "induced": [
+      [
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0"
+      ]
+    ]
+  },
+  "assertion_tested": "Finite rank/segment bound and listed counterexamples only, not proof of the universal theorem.",
+  "no_biological_outcomes_read": true
+}

@@ -1,0 +1,31 @@
+{
+  "status": "byte_exact_pre_correction_v1",
+  "reason": "Preserve reviewed blocked-v1 artifact before aggregate component-count correction",
+  "files": [
+    {
+      "file": "diagnostics.py",
+      "bytes": 23071,
+      "sha256": "9e0307ad72b6dd0be771dee9d886bb87e63d09ed85a7ceea5409b2e3f90f897d"
+    },
+    {
+      "file": "test_diagnostics.py",
+      "bytes": 15428,
+      "sha256": "07c54d26dcae20a6f2a436e04fb4656452722e4cb19a46bc92346bd341baf5c8"
+    },
+    {
+      "file": "README.md",
+      "bytes": 6503,
+      "sha256": "38c40261f039a1648f52e19fc5737e99ed0e6ce926b922c2eb681cb1b414642f"
+    },
+    {
+      "file": "synthetic_receipt.json",
+      "bytes": 1380,
+      "sha256": "f95c88479bca2359b2a6ffe0b37ae2c6098a3a56c80ba44ebe1d149f56765f08"
+    },
+    {
+      "file": "handoff_manifest.json",
+      "bytes": 1701,
+      "sha256": "e6655e8451d9663b83e410602f1a0717ecfac11f5010b69d1f4119dfee8eb65a"
+    }
+  ]
+}

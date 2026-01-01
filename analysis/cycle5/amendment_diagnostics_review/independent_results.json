@@ -1,0 +1,36 @@
+{
+  "all16_null_extrema_preserved": true,
+  "author_tests_passed": 14,
+  "component_aggregate_counts_absent": true,
+  "hand_values": {
+    "case_MAE": "94/45",
+    "case_MSE": "149/30",
+    "equal_group_joint_fraction": "1/18",
+    "target_MAE": "43/20",
+    "target_MSE": "219/40"
+  },
+  "independent_rational_numeric_comparisons": 408,
+  "inputs": {
+    "amendment": {
+      "sha256": "92c5028dff57df644ad18479f79b4be2e604b7bbe7798e30cdd3dfe5a7fa94d0",
+      "unchanged_after_review": true
+    },
+    "diagnostics.py": {
+      "sha256": "9e0307ad72b6dd0be771dee9d886bb87e63d09ed85a7ceea5409b2e3f90f897d",
+      "unchanged_after_review": true
+    },
+    "staged_schema": {
+      "sha256": "5fbdf1c0da2dcf9e53b71199b124c576945d432da5b33bbc4240c1b9bfa21ef5",
+      "unchanged_after_review": true
+    },
+    "test_diagnostics.py": {
+      "sha256": "07c54d26dcae20a6f2a436e04fb4656452722e4cb19a46bc92346bd341baf5c8",
+      "unchanged_after_review": true
+    }
+  },
+  "missing_prediction_record_refused": true,
+  "no_real_outcomes_read": true,
+  "provenance_hold_did_not_access_analyzer": true,
+  "shared_project_context_not_blinded": true,
+  "verdict": "BLOCKED_INCOMPLETE_AMENDMENT_COUNTS"
+}

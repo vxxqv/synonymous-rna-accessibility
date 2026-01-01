@@ -1,0 +1,37 @@
+{
+  "status": "passed",
+  "input_hashes_before_after_equal": {
+    "split_manifest.json": "394a0c1aa23785c290b31c147d199f406cf46b269daa9159a98c419398b05a4e",
+    "prediction_mask_v2.json": "6e869e95b50fe21073fabfca5cda0e544b140b8e5c8a22f217b3c52394fdf3d9",
+    "sequence_metadata.tsv": "9fcd79a97e3478c68411dee6cb853ad77e249d1d93b11bc4af58d2fcc44d4e7e",
+    "components.jsonl": "90772dc57ab6dfdadf737e72cc0be11783245299d1ec0e9e589663a64ee1dadd",
+    "annotated_squares.json": "13d93121be350515bc4e5c9ae22d00028a8b577ccaeb24ae1f0b1d014cefcf6c",
+    "synonymous_edges.tsv": "5d7d5f3b1160d7a8338da3f39369720fdc92c6105b47efbd902eeede48a30edd"
+  },
+  "records_in_sequence_only_TSV": 244000,
+  "selected_component_vertices": 289,
+  "selected_components": 43,
+  "selected_edges": 299,
+  "selected_peptide_pairs": 851,
+  "seed1_peptide_pairs": 117726,
+  "max_selected_matches": 7,
+  "max_seed1_matches": 7,
+  "arms": {
+    "development": {
+      "squares": 23,
+      "mask_IDs": 22,
+      "prediction_squares": 22,
+      "prediction_targets": 21,
+      "groups": 16
+    },
+    "reserved_validation": {
+      "squares": 24,
+      "mask_IDs": 24,
+      "prediction_squares": 24,
+      "prediction_targets": 24,
+      "groups": 16
+    }
+  },
+  "phenotype_fields_or_sources_read": 0,
+  "implementation": "Handwritten standard code; direct pairwise Hamming graph; independently computed SHA split and union-mask incidence."
+}

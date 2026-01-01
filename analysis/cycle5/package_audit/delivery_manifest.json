@@ -1,0 +1,29 @@
+{
+  "files": [
+    {
+      "file": "command_plan.json",
+      "bytes": 6328,
+      "sha256": "a65e5b462c4a776bff4848ace1c79fc3ecaba33e2e5204ec2ebb544b88d7b103"
+    },
+    {
+      "file": "inventory_receipt.json",
+      "bytes": 17101,
+      "sha256": "206726831840825a927107113279f8db6ddc742d9f0fce5c28ca9b03211f4dbe"
+    },
+    {
+      "file": "review.md",
+      "bytes": 10558,
+      "sha256": "ad9ff643d74eccfe0ad78e1bf7dbc5fa092cdfaf0c38c083336ed090e8b798e8"
+    },
+    {
+      "file": "whitelist.json",
+      "bytes": 37767,
+      "sha256": "ed94105a4ee7be8faf713ded27d183c65db97c878c10d92084f6ad404e295171"
+    }
+  ],
+  "metadata_only": true,
+  "archive_and_outcomes_not_opened": true,
+  "source_files_not_modified": true,
+  "new_execution_not_performed": true,
+  "v1_diagnostics_pins_are_historical": true
+}

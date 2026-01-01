@@ -1,0 +1,60 @@
+{
+  "schema": "Cambray_hypothetical_coverage_resolution_v1",
+  "status": "frozen_before_synthetic_draws",
+  "scope": "Sequence metadata and hypothetical missingness only. No phenotype input, fitting, estimated missingness rate or phenotype power calculation.",
+  "inputs": {
+    "split": {"path": "../cambray_pilot_preflight/split_manifest.json", "sha256": "394a0c1aa23785c290b31c147d199f406cf46b269daa9159a98c419398b05a4e"},
+    "mask": {"path": "../cambray_pilot_preflight/prediction_mask_v2.json", "sha256": "6e869e95b50fe21073fabfca5cda0e544b140b8e5c8a22f217b3c52394fdf3d9"}
+  },
+  "draws_per_scenario": 10000,
+  "runtime": {"python": "3.12.14", "numpy": "2.5.4", "bit_generator": "PCG64", "batch_size": 1000},
+  "scenarios": [
+    {"family": "A", "p": 0, "seed": 2026102501},
+    {"family": "A", "p": 0.01, "seed": 2026102502},
+    {"family": "A", "p": 0.05, "seed": 2026102503},
+    {"family": "A", "p": 0.1, "seed": 2026102504},
+    {"family": "A", "p": 0.25, "seed": 2026102505},
+    {"family": "B", "p": 0, "seed": 2026102506},
+    {"family": "B", "p": 0.1, "seed": 2026102507},
+    {"family": "B", "p": 0.25, "seed": 2026102508},
+    {"family": "B", "p": 0.5, "seed": 2026102509},
+    {"family": "C", "p": 0, "seed": 2026102510},
+    {"family": "C", "p": 0.1, "seed": 2026102511},
+    {"family": "C", "p": 0.25, "seed": 2026102512},
+    {"family": "C", "p": 0.5, "seed": 2026102513}
+  ],
+  "missingness_models": {
+    "A": "For each of 181 selected genotype IDs, each of seven required fields is independently missing with probability p. A genotype is complete only if all seven fields are present. Shared IDs reuse the same field realization in every square.",
+    "B": "Each of 32 related seed groups is independently absent with probability p; all selected genotypes in that group are unavailable together.",
+    "C": "Each ID in the fixed global union of masked target IDs is independently unavailable with probability p. All nonmasked genotypes remain complete. Shared target IDs reuse one realization. Structural multi-mask exclusions remain excluded from prediction."
+  },
+  "coverage": {"minimum_squares": 10, "minimum_related_groups": 8},
+  "stages": {
+    "descriptive": "Every original square is eligible iff all four corners are complete.",
+    "known_corner_prediction": "Only fixed exactly-one-global-mask squares are considered; all three known corners must be complete. Target availability is not inspected at this stage.",
+    "prediction_evaluation": "Only fixed exactly-one-global-mask squares are considered; all four corners must be complete.",
+    "predicted_but_unscorable": "Known-corner prediction succeeds but the target genotype is unavailable."
+  },
+  "reporting": {
+    "count_summaries": ["mean", "sample_standard_deviation", "Monte_Carlo_standard_error_of_mean", "quantiles"],
+    "quantile_probabilities": [0, 0.025, 0.25, 0.5, 0.75, 0.975, 1],
+    "quantile_method": "inverted_cdf",
+    "counts": ["squares_by_stage", "related_groups_by_stage", "distinct_targets_by_stage", "predicted_but_unscorable_cases", "distinct_unscorable_targets"],
+    "pass_rates": "Unconditional coverage pass rates for descriptive, known-corner prediction and evaluation, and both arms jointly for each stage.",
+    "conditional_pass_rates": ["evaluation_given_descriptive_coverage", "evaluation_given_known_corner_coverage"],
+    "conditional_convention": "Report numerator, conditioning denominator, proportion and sqrt(p_hat*(1-p_hat)/denominator). A zero conditioning denominator gives null proportion and MCSE.",
+    "MCSE_scope": "Simulation integration error under these stipulated models only. Not biological uncertainty. A plug-in zero MCSE at zero observed events does not prove an event impossible."
+  },
+  "verification": {
+    "exact_controls": "For every family test p=0 and p=1 deterministically. At p=0 all metadata-eligible cases remain; at p=1 descriptive and evaluation coverage are zero. In C at p=1 all structurally eligible predictions are made but unscorable.",
+    "scalar_reference": "Independently reconstruct counts and coverage using Python ID/group sets for the first 64 generated draws in each scenario.",
+    "algebraic_checks": "Evaluation cases are always a subset of predictions and descriptive cases; predicted count equals evaluated plus unscorable; distinct targets never exceed cases.",
+    "failure": "Stop on any input-hash, runtime, exact-control, reference or stage-containment mismatch; do not change rates or retain favorable scenarios."
+  },
+  "limitations": [
+    "These missingness rates are hypothetical, not inferred from the author deposit.",
+    "Coverage alone cannot demonstrate both class labels, meaningful margins or successful prediction.",
+    "The models cannot correct outcome-dependent missingness or establish independent assay validation.",
+    "No resplitting, refitting, imputation or relaxed coverage threshold is allowed."
+  ]
+}

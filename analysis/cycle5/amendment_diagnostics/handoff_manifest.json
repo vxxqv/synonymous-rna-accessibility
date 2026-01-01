@@ -1,0 +1,97 @@
+{
+  "status": "revision2_synthetic_only_ready_for_independent_delta_review",
+  "files": [
+    {
+      "file": "correction.diff",
+      "bytes": 6557,
+      "sha256": "5f6c9a071f40a1d59cab959eed554dcfddafc22cd929cb66ad88dd99fcd4c82e"
+    },
+    {
+      "file": "correction_receipt.json",
+      "bytes": 2205,
+      "sha256": "6bbb372da74ed4ff72226c62108337d1b126a04fc43821cecc4236a67a385f73"
+    },
+    {
+      "file": "diagnostics.py",
+      "bytes": 28492,
+      "sha256": "5e8c1a5638d0d2746f89f12cf26d209f11930f490df99c16a79eda3cf2628850"
+    },
+    {
+      "file": "history_v1/diagnostics.py",
+      "bytes": 23071,
+      "sha256": "9e0307ad72b6dd0be771dee9d886bb87e63d09ed85a7ceea5409b2e3f90f897d"
+    },
+    {
+      "file": "history_v1/independent_blocked_review.md",
+      "bytes": 7673,
+      "sha256": "e959e7f113073aead2e4d70b99b5de246332608d78dfae93c2242c80538afbda"
+    },
+    {
+      "file": "history_v1/README.md",
+      "bytes": 6503,
+      "sha256": "38c40261f039a1648f52e19fc5737e99ed0e6ce926b922c2eb681cb1b414642f"
+    },
+    {
+      "file": "history_v1/snapshot_manifest.json",
+      "bytes": 952,
+      "sha256": "5f7cf5ee6b8ded8b2d99396ed5d9b89e988e4698daf81d8e4c0606c5dc4c5616"
+    },
+    {
+      "file": "history_v1/synthetic_receipt.json",
+      "bytes": 1380,
+      "sha256": "f95c88479bca2359b2a6ffe0b37ae2c6098a3a56c80ba44ebe1d149f56765f08"
+    },
+    {
+      "file": "history_v1/test_diagnostics.py",
+      "bytes": 15428,
+      "sha256": "07c54d26dcae20a6f2a436e04fb4656452722e4cb19a46bc92346bd341baf5c8"
+    },
+    {
+      "file": "README.md",
+      "bytes": 9336,
+      "sha256": "c730802463a553c346f065390f9fd832468a35c130e8142a140de9108a90786a"
+    },
+    {
+      "file": "reviewer_expected_component_count_fixture.json",
+      "bytes": 9591,
+      "sha256": "19e775e320fa7c95bbb4b1a8822694ab59260f0dfa9ec35ee1eab420efb62eab"
+    },
+    {
+      "file": "synthetic_receipt.json",
+      "bytes": 1285,
+      "sha256": "bc3275754d43539e3f4b0cd487d12eb9ae351f23be035c66310e007c7224e57b"
+    },
+    {
+      "file": "test_diagnostics.py",
+      "bytes": 22562,
+      "sha256": "cefc66dc53a45035cc4f3db1325166488055f39b922335c8b1ec485af11548bb"
+    },
+    {
+      "file": "history_v1/handoff_manifest.json",
+      "bytes": 1701,
+      "sha256": "e6655e8451d9663b83e410602f1a0717ecfac11f5010b69d1f4119dfee8eb65a"
+    }
+  ],
+  "inputs": [
+    {
+      "path": "work/joint_function_cycle5/cambray_pilot_preflight/staged_analysis.py",
+      "sha256": "5fbdf1c0da2dcf9e53b71199b124c576945d432da5b33bbc4240c1b9bfa21ef5",
+      "role": "schema text or sequence-only metadata; no outcome file"
+    },
+    {
+      "path": "work/joint_function_cycle5/cambray_pilot_preflight/split_manifest.json",
+      "sha256": "394a0c1aa23785c290b31c147d199f406cf46b269daa9159a98c419398b05a4e",
+      "role": "schema text or sequence-only metadata; no outcome file"
+    },
+    {
+      "path": "work/joint_function_cycle5/cambray_pilot_preflight/prediction_mask_v2.json",
+      "sha256": "6e869e95b50fe21073fabfca5cda0e544b140b8e5c8a22f217b3c52394fdf3d9",
+      "role": "schema text or sequence-only metadata; no outcome file"
+    }
+  ],
+  "reviewer_fixture_and_v1_code_required_for_tests": true,
+  "dependencies": "Python standard library only; no network/install/Git at runtime",
+  "actual_outcome_execution": "Not performed or authorized",
+  "history_v1_preserved_byte_exact": true,
+  "package_audit_v1_inventory_not_changed": true
+}

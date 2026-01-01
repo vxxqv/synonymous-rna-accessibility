@@ -1,0 +1,19 @@
+{
+  "status": "reference_v2_frozen_before_outcomes",
+  "files": {
+    "reference.py": "64a5e9040a77d81dc779583d1d3ea5894a5aebd5718dbf3466281803f48ce375",
+    "test_reference.py": "568cb22352a3808eb9c7a6a572e06f98665a26b23c9dc562aac9e0d0b84fb0a5",
+    "compare_synthetic.py": "59882a864a93bff50d2d709b09918bde2d9bfae76b8645d39baa5e75259dd1ca",
+    "primary_probe.py": "1bdfb2f3f8fcc4b8d1f112293873f69319da496dc5905daf588182b7d94fd683",
+    "check_metadata.py": "d9dcbbf22db33ff82109c782457d90c0066f819ef1cc664f4dab17ed9de024f0"
+  },
+  "prior_freeze_retained": "reference_freeze.json",
+  "change_from_v1": "The protocol now explicitly specifies f>=tau-delta. The reference comparator was changed from real-equivalent f+delta>=tau to that exact floating expression before any observed outcome access. No reference result was changed to match observed data.",
+  "protocol_sha256": "9becbd723fac30ac12ad9e95d5fb80cb69b5bd93c99210668e0479a24879adde",
+  "synthetic_graph_comparison": "graph_comparison_v1/comparison.json",
+  "metadata_check": "metadata_check_v1/metadata_check.json",
+  "observed_outcome_sources_opened": 0,
+  "primary_imports_in_reference": 0,
+  "primary_comparison_isolated_subprocess": true,
+  "staged_source_review": "awaiting held candidate"
+}

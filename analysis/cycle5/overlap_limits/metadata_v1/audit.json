@@ -1,0 +1,189 @@
+{
+  "all_square_pairs_inspected": 1081,
+  "arms": {
+    "development": {
+      "component_vertices": 133,
+      "diagonals": 46,
+      "distinct_prediction_targets": 21,
+      "distinct_target_concentration": {
+        "count_histogram": {
+          "1": 11,
+          "2": 5
+        },
+        "groups": 16,
+        "maximum": 2,
+        "maximum_fraction": 0.09523809523809523,
+        "minimum": 1,
+        "nonempty_groups": 16,
+        "sum_squared_case_fractions": 0.07029478458049887,
+        "total_cases": 21
+      },
+      "duplicate_target_cases": 1,
+      "equal_group_weight": 0.0625,
+      "groups": 16,
+      "prediction_case_concentration": {
+        "count_histogram": {
+          "1": 10,
+          "2": 6
+        },
+        "groups": 16,
+        "maximum": 2,
+        "maximum_fraction": 0.09090909090909091,
+        "minimum": 1,
+        "nonempty_groups": 16,
+        "sum_squared_case_fractions": 0.07024793388429752,
+        "total_cases": 22
+      },
+      "prediction_cases": 22,
+      "relation_pairs": {
+        "same_design_seed": 8,
+        "same_observed_component": 2,
+        "same_original_masked_target": 1,
+        "same_peptide": 2,
+        "same_related_seed_group": 8,
+        "shared_component_ID": 2,
+        "shared_global_masked_ID_in_square": 2,
+        "shared_mutation_edge": 2,
+        "shared_square_ID": 2
+      },
+      "square_count_concentration": {
+        "count_histogram": {
+          "1": 10,
+          "2": 5,
+          "3": 1
+        },
+        "groups": 16,
+        "maximum": 3,
+        "maximum_fraction": 0.13043478260869565,
+        "minimum": 1,
+        "nonempty_groups": 16,
+        "sum_squared_case_fractions": 0.07372400756143667,
+        "total_cases": 23
+      },
+      "square_mutation_edges": 90,
+      "square_relation_max_degree": {
+        "same_design_seed": 2,
+        "same_observed_component": 1,
+        "same_original_masked_target": 1,
+        "same_peptide": 1,
+        "same_related_seed_group": 2,
+        "shared_component_ID": 1,
+        "shared_global_masked_ID_in_square": 1,
+        "shared_mutation_edge": 1,
+        "shared_square_ID": 1
+      },
+      "square_vertices": 88,
+      "squares": 23
+    },
+    "reserved_validation": {
+      "component_vertices": 156,
+      "diagonals": 48,
+      "distinct_prediction_targets": 24,
+      "distinct_target_concentration": {
+        "count_histogram": {
+          "1": 8,
+          "2": 8
+        },
+        "groups": 16,
+        "maximum": 2,
+        "maximum_fraction": 0.08333333333333333,
+        "minimum": 1,
+        "nonempty_groups": 16,
+        "sum_squared_case_fractions": 0.06944444444444445,
+        "total_cases": 24
+      },
+      "duplicate_target_cases": 0,
+      "equal_group_weight": 0.0625,
+      "groups": 16,
+      "prediction_case_concentration": {
+        "count_histogram": {
+          "1": 8,
+          "2": 8
+        },
+        "groups": 16,
+        "maximum": 2,
+        "maximum_fraction": 0.08333333333333333,
+        "minimum": 1,
+        "nonempty_groups": 16,
+        "sum_squared_case_fractions": 0.06944444444444445,
+        "total_cases": 24
+      },
+      "prediction_cases": 24,
+      "relation_pairs": {
+        "same_design_seed": 8,
+        "same_observed_component": 2,
+        "same_original_masked_target": 0,
+        "same_peptide": 3,
+        "same_related_seed_group": 8,
+        "shared_component_ID": 2,
+        "shared_global_masked_ID_in_square": 0,
+        "shared_mutation_edge": 1,
+        "shared_square_ID": 2
+      },
+      "square_count_concentration": {
+        "count_histogram": {
+          "1": 8,
+          "2": 8
+        },
+        "groups": 16,
+        "maximum": 2,
+        "maximum_fraction": 0.08333333333333333,
+        "minimum": 1,
+        "nonempty_groups": 16,
+        "sum_squared_case_fractions": 0.06944444444444445,
+        "total_cases": 24
+      },
+      "square_mutation_edges": 95,
+      "square_relation_max_degree": {
+        "same_design_seed": 1,
+        "same_observed_component": 1,
+        "same_original_masked_target": 0,
+        "same_peptide": 1,
+        "same_related_seed_group": 1,
+        "shared_component_ID": 1,
+        "shared_global_masked_ID_in_square": 0,
+        "shared_mutation_edge": 1,
+        "shared_square_ID": 1
+      },
+      "square_vertices": 93,
+      "squares": 24
+    }
+  },
+  "cross_arm_overlap_pair_counts": {
+    "same_design_seed": 0,
+    "same_observed_component": 0,
+    "same_original_masked_target": 0,
+    "same_peptide": 0,
+    "same_related_seed_group": 0,
+    "shared_component_ID": 0,
+    "shared_global_masked_ID_in_square": 0,
+    "shared_mutation_edge": 0,
+    "shared_square_ID": 0
+  },
+  "cross_arm_square_pairs": 552,
+  "experimental_dependence": {
+    "common_author_study_and_library": true,
+    "common_reporter_backbone": true,
+    "cross_arm_shared_assay_scope": "All analyzed units",
+    "growth_preparations": 3,
+    "growth_shared_initial_culture_and_reference": true,
+    "protein_growth_preparations_paired": false,
+    "protein_preparations": 4,
+    "quantitative_assay_covariance": "Unavailable; not estimated from sequence metadata",
+    "shared_protein_normalization": true,
+    "source_independent_assay_split": false
+  },
+  "input_hashes": {
+    "components": "90772dc57ab6dfdadf737e72cc0be11783245299d1ec0e9e589663a64ee1dadd",
+    "edges": "5d7d5f3b1160d7a8338da3f39369720fdc92c6105b47efbd902eeede48a30edd",
+    "mask": "6e869e95b50fe21073fabfca5cda0e544b140b8e5c8a22f217b3c52394fdf3d9",
+    "sequences": "9fcd79a97e3478c68411dee6cb853ad77e249d1d93b11bc4af58d2fcc44d4e7e",
+    "split": "394a0c1aa23785c290b31c147d199f406cf46b269daa9159a98c419398b05a4e"
+  },
+  "interpretation": "Zero recorded design overlap does not imply statistical or experimental independence.",
+  "original_diagonals": 94,
+  "original_squares": 47,
+  "scope": "No phenotype outcomes or archive accessed.",
+  "source_sha256": "63ea4c1a5ed98d813d6c5ca58098278d7ef3e6bc9e3dc9b83570d692b7908019",
+  "status": "metadata_overlap_audit_passed"
+}

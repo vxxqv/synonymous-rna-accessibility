@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "cycle": 5,
+  "status": "literature_and_eligibility_screening",
+  "baseline_revision": "a2cd60afb96be6bd3b11ffc1c692471f979f3251",
+  "goal": "A practically meaningful and verified biological constraint, supported exclusion, or inference-improving mathematical result",
+  "journal_acceptance_is_not_an_observable_success_criterion": true,
+  "new_outcome_analysis_allowed": false,
+  "maximum_concurrent_deep_biological_branches": 2,
+  "maximum_concurrent_mathematical_branches": 1,
+  "required_execution_gates": ["primary_source_verified", "closest_prior_gap_stated", "sequence_and_assay_eligibility", "independent_units_or_explicit_descriptive_scope", "identifiable_comparison", "exposure_ledger", "frozen_endpoint_and_exclusions", "externally_justified_practical_criterion", "frozen_baselines_and_controls", "frozen_validation_and_failure_rules"],
+  "required_claim_gates": ["all_prespecified_results_retained", "independent_verification", "strongest_alternative_challenged", "uncertainty_scope_justified", "novelty_scope_bounded", "empirical_and_mathematical_scope_aligned"],
+  "continuation_requires_at_least_one": ["materially_different_question", "new_independent_evidence", "specific_provenance_or_measurement_gap_resolved"],
+  "forbidden_continuations": ["retuning_exposed_validation", "changing_success_after_outcomes", "selecting_favorable_thresholds_or_subsets", "relabeling_technical_replicates_biological", "calling_missing_intermediates_nonfunctional", "adding_complexity_without_identifiability"],
+  "decision_categories": ["supported", "hypothesis_failed", "model_failed", "information_limited", "access_limited", "subsumed_by_prior"],
+  "next_cycle_rule": "If supported impact is absent, rank new source-grounded opportunities and execute only those passing the gates; otherwise integrate the strongest supported result and stop unnecessary expansion.",
+  "automatic_external_actions": false
+}

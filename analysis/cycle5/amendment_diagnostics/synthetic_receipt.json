@@ -1,0 +1,27 @@
+{
+  "status": "synthetic_only_aggregate_count_correction_pass_pending_independent_delta_review",
+  "revision": 2,
+  "tests_run": 18,
+  "tests_passed": 18,
+  "failures": 0,
+  "errors": 0,
+  "full_suite_command": "python -I -B test_diagnostics.py",
+  "additional_targeted_current_test": "python -I -B test_diagnostics.py TestSyntheticDiagnostics.test_unavailable_component_point_and_bounds_are_not_zeros_or_failures",
+  "targeted_current_test_passed": true,
+  "runtime": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "new_actual_outcome_reads": 0,
+  "original_v1_snapshot_verified": true,
+  "v1_numeric_and_record_outputs_identical_in_synthetic_delta_test": true,
+  "reviewer_fixture_sha256": "19e775e320fa7c95bbb4b1a8822694ab59260f0dfa9ec35ee1eab420efb62eab",
+  "added_tables": [
+    "primary_point_field zero/alternative tolerance",
+    "12named_preparation_scenarios each zero/alternative tolerance",
+    "empirical_range_field local/component statuses each zero/alternative tolerance"
+  ],
+  "empty_and_unavailable_explicit": true,
+  "scenario_pooling": false,
+  "new_endpoints_or_models": false,
+  "author_numeric_imports": false,
+  "biological_execution_authorized": false,
+  "prior_receipt": "history_v1/synthetic_receipt.json"
+}

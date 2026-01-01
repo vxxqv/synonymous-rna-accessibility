@@ -1,0 +1,230 @@
+[
+  {
+    "family": "A",
+    "metrics": {
+      "development": {
+        "descriptive_coverage_pass": true,
+        "descriptive_distinct_targets": 22,
+        "descriptive_groups": 16,
+        "descriptive_squares": 23,
+        "distinct_unscorable_targets": 0,
+        "known_corner_prediction_coverage_pass": true,
+        "known_corner_prediction_distinct_targets": 21,
+        "known_corner_prediction_groups": 16,
+        "known_corner_prediction_squares": 22,
+        "predicted_but_unscorable_cases": 0,
+        "prediction_evaluation_coverage_pass": true,
+        "prediction_evaluation_distinct_targets": 21,
+        "prediction_evaluation_groups": 16,
+        "prediction_evaluation_squares": 22
+      },
+      "reserved_validation": {
+        "descriptive_coverage_pass": true,
+        "descriptive_distinct_targets": 24,
+        "descriptive_groups": 16,
+        "descriptive_squares": 24,
+        "distinct_unscorable_targets": 0,
+        "known_corner_prediction_coverage_pass": true,
+        "known_corner_prediction_distinct_targets": 24,
+        "known_corner_prediction_groups": 16,
+        "known_corner_prediction_squares": 24,
+        "predicted_but_unscorable_cases": 0,
+        "prediction_evaluation_coverage_pass": true,
+        "prediction_evaluation_distinct_targets": 24,
+        "prediction_evaluation_groups": 16,
+        "prediction_evaluation_squares": 24
+      }
+    },
+    "p": 0
+  },
+  {
+    "family": "A",
+    "metrics": {
+      "development": {
+        "descriptive_coverage_pass": false,
+        "descriptive_distinct_targets": 0,
+        "descriptive_groups": 0,
+        "descriptive_squares": 0,
+        "distinct_unscorable_targets": 0,
+        "known_corner_prediction_coverage_pass": false,
+        "known_corner_prediction_distinct_targets": 0,
+        "known_corner_prediction_groups": 0,
+        "known_corner_prediction_squares": 0,
+        "predicted_but_unscorable_cases": 0,
+        "prediction_evaluation_coverage_pass": false,
+        "prediction_evaluation_distinct_targets": 0,
+        "prediction_evaluation_groups": 0,
+        "prediction_evaluation_squares": 0
+      },
+      "reserved_validation": {
+        "descriptive_coverage_pass": false,
+        "descriptive_distinct_targets": 0,
+        "descriptive_groups": 0,
+        "descriptive_squares": 0,
+        "distinct_unscorable_targets": 0,
+        "known_corner_prediction_coverage_pass": false,
+        "known_corner_prediction_distinct_targets": 0,
+        "known_corner_prediction_groups": 0,
+        "known_corner_prediction_squares": 0,
+        "predicted_but_unscorable_cases": 0,
+        "prediction_evaluation_coverage_pass": false,
+        "prediction_evaluation_distinct_targets": 0,
+        "prediction_evaluation_groups": 0,
+        "prediction_evaluation_squares": 0
+      }
+    },
+    "p": 1
+  },
+  {
+    "family": "B",
+    "metrics": {
+      "development": {
+        "descriptive_coverage_pass": true,
+        "descriptive_distinct_targets": 22,
+        "descriptive_groups": 16,
+        "descriptive_squares": 23,
+        "distinct_unscorable_targets": 0,
+        "known_corner_prediction_coverage_pass": true,
+        "known_corner_prediction_distinct_targets": 21,
+        "known_corner_prediction_groups": 16,
+        "known_corner_prediction_squares": 22,
+        "predicted_but_unscorable_cases": 0,
+        "prediction_evaluation_coverage_pass": true,
+        "prediction_evaluation_distinct_targets": 21,
+        "prediction_evaluation_groups": 16,
+        "prediction_evaluation_squares": 22
+      },
+      "reserved_validation": {
+        "descriptive_coverage_pass": true,
+        "descriptive_distinct_targets": 24,
+        "descriptive_groups": 16,
+        "descriptive_squares": 24,
+        "distinct_unscorable_targets": 0,
+        "known_corner_prediction_coverage_pass": true,
+        "known_corner_prediction_distinct_targets": 24,
+        "known_corner_prediction_groups": 16,
+        "known_corner_prediction_squares": 24,
+        "predicted_but_unscorable_cases": 0,
+        "prediction_evaluation_coverage_pass": true,
+        "prediction_evaluation_distinct_targets": 24,
+        "prediction_evaluation_groups": 16,
+        "prediction_evaluation_squares": 24
+      }
+    },
+    "p": 0
+  },
+  {
+    "family": "B",
+    "metrics": {
+      "development": {
+        "descriptive_coverage_pass": false,
+        "descriptive_distinct_targets": 0,
+        "descriptive_groups": 0,
+        "descriptive_squares": 0,
+        "distinct_unscorable_targets": 0,
+        "known_corner_prediction_coverage_pass": false,
+        "known_corner_prediction_distinct_targets": 0,
+        "known_corner_prediction_groups": 0,
+        "known_corner_prediction_squares": 0,
+        "predicted_but_unscorable_cases": 0,
+        "prediction_evaluation_coverage_pass": false,
+        "prediction_evaluation_distinct_targets": 0,
+        "prediction_evaluation_groups": 0,
+        "prediction_evaluation_squares": 0
+      },
+      "reserved_validation": {
+        "descriptive_coverage_pass": false,
+        "descriptive_distinct_targets": 0,
+        "descriptive_groups": 0,
+        "descriptive_squares": 0,
+        "distinct_unscorable_targets": 0,
+        "known_corner_prediction_coverage_pass": false,
+        "known_corner_prediction_distinct_targets": 0,
+        "known_corner_prediction_groups": 0,
+        "known_corner_prediction_squares": 0,
+        "predicted_but_unscorable_cases": 0,
+        "prediction_evaluation_coverage_pass": false,
+        "prediction_evaluation_distinct_targets": 0,
+        "prediction_evaluation_groups": 0,
+        "prediction_evaluation_squares": 0
+      }
+    },
+    "p": 1
+  },
+  {
+    "family": "C",
+    "metrics": {
+      "development": {
+        "descriptive_coverage_pass": true,
+        "descriptive_distinct_targets": 22,
+        "descriptive_groups": 16,
+        "descriptive_squares": 23,
+        "distinct_unscorable_targets": 0,
+        "known_corner_prediction_coverage_pass": true,
+        "known_corner_prediction_distinct_targets": 21,
+        "known_corner_prediction_groups": 16,
+        "known_corner_prediction_squares": 22,
+        "predicted_but_unscorable_cases": 0,
+        "prediction_evaluation_coverage_pass": true,
+        "prediction_evaluation_distinct_targets": 21,
+        "prediction_evaluation_groups": 16,
+        "prediction_evaluation_squares": 22
+      },
+      "reserved_validation": {
+        "descriptive_coverage_pass": true,
+        "descriptive_distinct_targets": 24,
+        "descriptive_groups": 16,
+        "descriptive_squares": 24,
+        "distinct_unscorable_targets": 0,
+        "known_corner_prediction_coverage_pass": true,
+        "known_corner_prediction_distinct_targets": 24,
+        "known_corner_prediction_groups": 16,
+        "known_corner_prediction_squares": 24,
+        "predicted_but_unscorable_cases": 0,
+        "prediction_evaluation_coverage_pass": true,
+        "prediction_evaluation_distinct_targets": 24,
+        "prediction_evaluation_groups": 16,
+        "prediction_evaluation_squares": 24
+      }
+    },
+    "p": 0
+  },
+  {
+    "family": "C",
+    "metrics": {
+      "development": {
+        "descriptive_coverage_pass": false,
+        "descriptive_distinct_targets": 0,
+        "descriptive_groups": 0,
+        "descriptive_squares": 0,
+        "distinct_unscorable_targets": 21,
+        "known_corner_prediction_coverage_pass": true,
+        "known_corner_prediction_distinct_targets": 21,
+        "known_corner_prediction_groups": 16,
+        "known_corner_prediction_squares": 22,
+        "predicted_but_unscorable_cases": 22,
+        "prediction_evaluation_coverage_pass": false,
+        "prediction_evaluation_distinct_targets": 0,
+        "prediction_evaluation_groups": 0,
+        "prediction_evaluation_squares": 0
+      },
+      "reserved_validation": {
+        "descriptive_coverage_pass": false,
+        "descriptive_distinct_targets": 0,
+        "descriptive_groups": 0,
+        "descriptive_squares": 0,
+        "distinct_unscorable_targets": 24,
+        "known_corner_prediction_coverage_pass": true,
+        "known_corner_prediction_distinct_targets": 24,
+        "known_corner_prediction_groups": 16,
+        "known_corner_prediction_squares": 24,
+        "predicted_but_unscorable_cases": 24,
+        "prediction_evaluation_coverage_pass": false,
+        "prediction_evaluation_distinct_targets": 0,
+        "prediction_evaluation_groups": 0,
+        "prediction_evaluation_squares": 0
+      }
+    },
+    "p": 1
+  }
+]

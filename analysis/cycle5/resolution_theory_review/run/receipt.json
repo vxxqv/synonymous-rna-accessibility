@@ -1,0 +1,131 @@
+{
+  "status": "passed",
+  "assertion_tested": "Exact rational ternary-grid checks and declared witnesses, not exhaustive real-box verification",
+  "symmetric_cases": [
+    {
+      "m": "1/2",
+      "epsilon": "1",
+      "universal_prediction": false,
+      "grid_counts": {
+        "individual_disconnected": 1800,
+        "joint_connected": 3852,
+        "joint_only": 909
+      },
+      "fixed_low_range_certificate": false
+    },
+    {
+      "m": "1",
+      "epsilon": "1",
+      "universal_prediction": false,
+      "grid_counts": {
+        "individual_disconnected": 477,
+        "joint_connected": 4563,
+        "joint_only": 1521
+      },
+      "fixed_low_range_certificate": false
+    },
+    {
+      "m": "2",
+      "epsilon": "1",
+      "universal_prediction": false,
+      "grid_counts": {
+        "joint_connected": 2205,
+        "joint_only": 4356
+      },
+      "fixed_low_range_certificate": false
+    },
+    {
+      "m": "3",
+      "epsilon": "1",
+      "universal_prediction": true,
+      "grid_counts": {
+        "joint_only": 6561
+      },
+      "fixed_low_range_certificate": true
+    },
+    {
+      "m": "1",
+      "epsilon": "1/2",
+      "universal_prediction": false,
+      "grid_counts": {
+        "joint_connected": 2205,
+        "joint_only": 4356
+      },
+      "fixed_low_range_certificate": false
+    },
+    {
+      "m": "3/2",
+      "epsilon": "1/2",
+      "universal_prediction": true,
+      "grid_counts": {
+        "joint_only": 6561
+      },
+      "fixed_low_range_certificate": true
+    },
+    {
+      "m": "1",
+      "epsilon": "0",
+      "universal_prediction": true,
+      "grid_counts": {
+        "joint_only": 1
+      },
+      "fixed_low_range_certificate": true
+    }
+  ],
+  "weak_positive_boundary_grid_counts": {
+    "joint_only": 6561
+  },
+  "fixed_low_range_counterexample": {
+    "field": [
+      [
+        "0",
+        "0"
+      ],
+      [
+        "1",
+        "-3"
+      ],
+      [
+        "-3",
+        "1"
+      ],
+      [
+        "0",
+        "0"
+      ]
+    ],
+    "perturbation_witness": [
+      [
+        "1",
+        "1"
+      ],
+      [
+        "0",
+        "-4"
+      ],
+      [
+        "-4",
+        "0"
+      ],
+      [
+        "1",
+        "1"
+      ]
+    ],
+    "range_certificate": true,
+    "endpoint_relative_witness_status": "individual_disconnected"
+  },
+  "total_ternary_grid_fields": 45928,
+  "source_sha256_before": "8dd51f970ff8d3947db0cecc61894cda740b16e838de71b4b117b6f4e13badae",
+  "source_sha256_after": "8dd51f970ff8d3947db0cecc61894cda740b16e838de71b4b117b6f4e13badae",
+  "argv": [
+    "work/joint_function_cycle5/resolution_theory_review/verify.py",
+    "--out",
+    "work/joint_function_cycle5/resolution_theory_review/run"
+  ],
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "arithmetic": "fractions.Fraction, exact comparisons, no tolerance",
+  "elapsed_seconds": 0.5890885000117123,
+  "biological_files_read": 0,
+  "proof_dependency": "Universal continuum claim is proved in review.md independently of finite checks."
+}

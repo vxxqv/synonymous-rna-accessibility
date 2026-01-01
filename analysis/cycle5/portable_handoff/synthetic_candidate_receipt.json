@@ -1,0 +1,27 @@
+{
+  "copied_source_hashes": {
+    "graph_rules.py": "7f901518cfc196de5d6d24c10f6f1b336255063ca8bd22d544accb6ef7b940f3",
+    "masking_v2.py": "ffbf1b1a49a9c97fe259f4a4c9777f027ec9da18025e1611a64efd7c8bdec8fe",
+    "staged_analysis.py": "5fbdf1c0da2dcf9e53b71199b124c576945d432da5b33bbc4240c1b9bfa21ef5",
+    "synthetic_reader_tests.py": "8e7684aeb42fbfb8a710f66e9c1fefba569b9d3eafa0595f7f730e55ffe6bf37"
+  },
+  "errors": 0,
+  "failures": 0,
+  "hashes": {
+    "staged_analysis.py": "5fbdf1c0da2dcf9e53b71199b124c576945d432da5b33bbc4240c1b9bfa21ef5",
+    "synthetic_reader_tests.py": "8e7684aeb42fbfb8a710f66e9c1fefba569b9d3eafa0595f7f730e55ffe6bf37"
+  },
+  "invocation": [
+    "C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\work\\env\\Scripts\\python.exe",
+    "isolated_synthetic_replay/synthetic_reader_tests.py"
+  ],
+  "optimization": 0,
+  "platform": "Windows-11-10.0.26300-SP0",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "real_source_ZIP_opened": false,
+  "scope": "Fresh relocated copies; invented fixture data only. No biological archive opened.",
+  "status": "passed",
+  "stderr_sha256": "84cc335ae044271a26f1fc0f43da743ac03e0cb915f863383ec43200c197b30b",
+  "stdout_sha256": "258eb24c856e425317e4978d78baefc1f0b64726c873fdf028ae3753d819bef6",
+  "tests_run": 13
+}

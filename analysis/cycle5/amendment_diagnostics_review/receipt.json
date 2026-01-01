@@ -1,0 +1,12 @@
+{
+  "verdict": "BLOCKED_INCOMPLETE_AMENDMENT_COUNTS",
+  "files": {
+    "verify_independently.py": "5dcab8f4354e95ec3ecfc6a2db843529492cd73a5b5b450876eb98901ac9d16e",
+    "review.md": "e959e7f113073aead2e4d70b99b5de246332608d78dfae93c2242c80538afbda",
+    "independent_results.json": "f94b0c6420f1f8369a1bbf123ed8a8ab107ef4c2a6dd5e02590ddb2648505dcb",
+    "expected_component_count_fixture.json": "19e775e320fa7c95bbb4b1a8822694ab59260f0dfa9ec35ee1eab420efb62eab",
+    "author_tests_stdout.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "author_tests_stderr.txt": "27f5ca2227ae86ae169b066a7f28d583df53c865cf2bc83a36620d6bec3d22e2"
+  },
+  "real_outcomes_read": 0
+}

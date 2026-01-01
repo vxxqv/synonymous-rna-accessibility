@@ -1,0 +1,38 @@
+[
+  {
+    "name": "barany2024.pdf",
+    "url": "https://real.mtak.hu/212570/1/2308.10102v2.pdf",
+    "final_url": "https://real.mtak.hu/212570/1/2308.10102v2.pdf",
+    "status": 200,
+    "bytes": 124107,
+    "sha256": "058e7a921097b4b3f08f534d75d3a95b477a77685c8cb6b2fd3c74bd17444f63",
+    "content_type": "application/pdf; charset=binary"
+  },
+  {
+    "name": "cardinal2018.html",
+    "url": "https://arxiv.org/html/1805.04055v1",
+    "final_url": "https://arxiv.org/html/1805.04055v1",
+    "status": 200,
+    "bytes": 323923,
+    "sha256": "f29982e233d6066a1bc978886e90515bf34eee9e615c98a33a9d7fef0562a7b9",
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "name": "ito_erratum.pdf",
+    "url": "https://erikdemaine.org/papers/SubsetSumReconfiguration_JOCO/erratum.pdf",
+    "final_url": "https://erikdemaine.org/papers/SubsetSumReconfiguration_JOCO/erratum.pdf",
+    "status": 200,
+    "bytes": 211409,
+    "sha256": "ad6739f032c0928d93f6e08cbdc5121f8ea75c0d538688adbdec55337468b310",
+    "content_type": "application/pdf"
+  },
+  {
+    "name": "ambrus2026.html",
+    "url": "https://londmathsoc.onlinelibrary.wiley.com/doi/10.1112/mtk.70085",
+    "final_url": "https://londmathsoc.onlinelibrary.wiley.com/doi/10.1112/mtk.70085",
+    "status": 403,
+    "bytes": 5584,
+    "sha256": "f2253a9bb6ed031473df06dfafaaaaa06be7818ead0c0f9c63819beebc12cbea",
+    "content_type": "text/html; charset=UTF-8"
+  }
+]

@@ -1,0 +1,1989 @@
+{
+  "schema": "Cambray_shared_corner_mask_v2",
+  "status": "metadata_union_mask_fixed",
+  "mask_formation": "Union of every original per-square hashed target within each arm, before exclusions; never recomputed from eligible subset",
+  "descriptive_squares_retained": 47,
+  "descriptive_diagonals_retained": 94,
+  "arms": {
+    "development": {
+      "masked_IDs": [
+        "133_33211221_2",
+        "145_23312121_1",
+        "145_33221123_1",
+        "15_12231121_1",
+        "15_22231112_1",
+        "20_31111122_1",
+        "227_23132123_1",
+        "25_32111212_1",
+        "299_23311112_1",
+        "314_21211121_1",
+        "321_21121112_1",
+        "33_32121113_1",
+        "355_23221212_1",
+        "355_32212111_1",
+        "37_13211213_1",
+        "37_23221211_1",
+        "384_23321122_1",
+        "47_12111223_1",
+        "47_13111223_2",
+        "47_23221213_1",
+        "71_31312111_1",
+        "84_12212113_1"
+      ],
+      "unique_masked_IDs": 22,
+      "descriptive_squares": 23,
+      "descriptive_diagonals": 46,
+      "prediction_squares_metadata_eligible": 22,
+      "prediction_squares_metadata_excluded": 1,
+      "prediction_related_seed_groups": 16,
+      "counts_by_related_seed_group": [
+        {
+          "seed_group": [
+            "15"
+          ],
+          "descriptive_squares": 2,
+          "prediction_squares": 2,
+          "prediction_excluded_squares": []
+        },
+        {
+          "seed_group": [
+            "20"
+          ],
+          "descriptive_squares": 1,
+          "prediction_squares": 1,
+          "prediction_excluded_squares": []
+        },
+        {
+          "seed_group": [
+            "25"
+          ],
+          "descriptive_squares": 1,
+          "prediction_squares": 1,
+          "prediction_excluded_squares": []
+        },
+        {
+          "seed_group": [
+            "33"
+          ],
+          "descriptive_squares": 1,
+          "prediction_squares": 1,
+          "prediction_excluded_squares": []
+        },
+        {
+          "seed_group": [
+            "37"
+          ],
+          "descriptive_squares": 2,
+          "prediction_squares": 2,
+          "prediction_excluded_squares": []
+        },
+        {
+          "seed_group": [
+            "47"
+          ],
+          "descriptive_squares": 3,
+          "prediction_squares": 2,
+          "prediction_excluded_squares": [
+            45
+          ]
+        },
+        {
+          "seed_group": [
+            "71"
+          ],
+          "descriptive_squares": 1,
+          "prediction_squares": 1,
+          "prediction_excluded_squares": []
+        },
+        {
+          "seed_group": [
+            "84"
+          ],
+          "descriptive_squares": 1,
+          "prediction_squares": 1,
+          "prediction_excluded_squares": []
+        },
+        {
+          "seed_group": [
+            "133"
+          ],
+          "descriptive_squares": 1,
+          "prediction_squares": 1,
+          "prediction_excluded_squares": []
+        },
+        {
+          "seed_group": [
+            "145"
+          ],
+          "descriptive_squares": 2,
+          "prediction_squares": 2,
+          "prediction_excluded_squares": []
+        },
+        {
+          "seed_group": [
+            "227"
+          ],
+          "descriptive_squares": 2,
+          "prediction_squares": 2,
+          "prediction_excluded_squares": []
+        },
+        {
+          "seed_group": [
+            "299"
+          ],
+          "descriptive_squares": 1,
+          "prediction_squares": 1,
+          "prediction_excluded_squares": []
+        },
+        {
+          "seed_group": [
+            "314"
+          ],
+          "descriptive_squares": 1,
+          "prediction_squares": 1,
+          "prediction_excluded_squares": []
+        },
+        {
+          "seed_group": [
+            "321"
+          ],
+          "descriptive_squares": 1,
+          "prediction_squares": 1,
+          "prediction_excluded_squares": []
+        },
+        {
+          "seed_group": [
+            "355"
+          ],
+          "descriptive_squares": 2,
+          "prediction_squares": 2,
+          "prediction_excluded_squares": []
+        },
+        {
+          "seed_group": [
+            "384"
+          ],
+          "descriptive_squares": 1,
+          "prediction_squares": 1,
+          "prediction_excluded_squares": []
+        }
+      ],
+      "metadata_upper_bound_passes_10_square_8_group_minimum": true,
+      "phenotype_coverage_and_both_class_requirement": "unexamined"
+    },
+    "reserved_validation": {
+      "masked_IDs": [
+        "117_22231122_1",
+        "156_31111213_1",
+        "156_33131213_1",
+        "247_33332112_1",
+        "277_21321122_1",
+        "2_22211111_1",
+        "2_33112123_1",
+        "343_21221222_1",
+        "343_32112121_1",
+        "349_22312112_1",
+        "349_22312122_1",
+        "359_21221222_1",
+        "379_31111111_1",
+        "379_33211111_1",
+        "382_31221122_1",
+        "382_32221212_1",
+        "387_22211122_1",
+        "387_23211122_1",
+        "44_31222113_1",
+        "46_13321213_2",
+        "60_21111212_1",
+        "76_22322123_2",
+        "88_12222113_1",
+        "88_31311221_1"
+      ],
+      "unique_masked_IDs": 24,
+      "descriptive_squares": 24,
+      "descriptive_diagonals": 48,
+      "prediction_squares_metadata_eligible": 24,
+      "prediction_squares_metadata_excluded": 0,
+      "prediction_related_seed_groups": 16,
+      "counts_by_related_seed_group": [
+        {
+          "seed_group": [
+            "2"
+          ],
+          "descriptive_squares": 2,
+          "prediction_squares": 2,
+          "prediction_excluded_squares": []
+        },
+        {
+          "seed_group": [
+            "44"
+          ],
+          "descriptive_squares": 1,
+          "prediction_squares": 1,
+          "prediction_excluded_squares": []
+        },
+        {
+          "seed_group": [
+            "46"
+          ],
+          "descriptive_squares": 1,
+          "prediction_squares": 1,
+          "prediction_excluded_squares": []
+        },
+        {
+          "seed_group": [
+            "60"
+          ],
+          "descriptive_squares": 1,
+          "prediction_squares": 1,
+          "prediction_excluded_squares": []
+        },
+        {
+          "seed_group": [
+            "76"
+          ],
+          "descriptive_squares": 1,
+          "prediction_squares": 1,
+          "prediction_excluded_squares": []
+        },
+        {
+          "seed_group": [
+            "88"
+          ],
+          "descriptive_squares": 2,
+          "prediction_squares": 2,
+          "prediction_excluded_squares": []
+        },
+        {
+          "seed_group": [
+            "117"
+          ],
+          "descriptive_squares": 1,
+          "prediction_squares": 1,
+          "prediction_excluded_squares": []
+        },
+        {
+          "seed_group": [
+            "156"
+          ],
+          "descriptive_squares": 2,
+          "prediction_squares": 2,
+          "prediction_excluded_squares": []
+        },
+        {
+          "seed_group": [
+            "247"
+          ],
+          "descriptive_squares": 1,
+          "prediction_squares": 1,
+          "prediction_excluded_squares": []
+        },
+        {
+          "seed_group": [
+            "277"
+          ],
+          "descriptive_squares": 1,
+          "prediction_squares": 1,
+          "prediction_excluded_squares": []
+        },
+        {
+          "seed_group": [
+            "343"
+          ],
+          "descriptive_squares": 2,
+          "prediction_squares": 2,
+          "prediction_excluded_squares": []
+        },
+        {
+          "seed_group": [
+            "349"
+          ],
+          "descriptive_squares": 2,
+          "prediction_squares": 2,
+          "prediction_excluded_squares": []
+        },
+        {
+          "seed_group": [
+            "359"
+          ],
+          "descriptive_squares": 1,
+          "prediction_squares": 1,
+          "prediction_excluded_squares": []
+        },
+        {
+          "seed_group": [
+            "379"
+          ],
+          "descriptive_squares": 2,
+          "prediction_squares": 2,
+          "prediction_excluded_squares": []
+        },
+        {
+          "seed_group": [
+            "382"
+          ],
+          "descriptive_squares": 2,
+          "prediction_squares": 2,
+          "prediction_excluded_squares": []
+        },
+        {
+          "seed_group": [
+            "387"
+          ],
+          "descriptive_squares": 2,
+          "prediction_squares": 2,
+          "prediction_excluded_squares": []
+        }
+      ],
+      "metadata_upper_bound_passes_10_square_8_group_minimum": true,
+      "phenotype_coverage_and_both_class_requirement": "unexamined"
+    }
+  },
+  "units": [
+    {
+      "square_index": 0,
+      "seed": "60",
+      "arm": "reserved_validation",
+      "descriptive_retained": true,
+      "descriptive_diagonals": [
+        [
+          "60_21121212_1",
+          "60_22211222_1"
+        ],
+        [
+          "60_21111212_1",
+          "60_22221222_1"
+        ]
+      ],
+      "coordinate_order_00_01_10_11": [
+        "60_21121212_1",
+        "60_21111212_1",
+        "60_22221222_1",
+        "60_22211222_1"
+      ],
+      "original_withheld_ID": "60_21111212_1",
+      "masked_IDs_in_square": [
+        "60_21111212_1"
+      ],
+      "mask_count": 1,
+      "prediction_eligible_from_metadata": true,
+      "prediction_exclusion_reason": null,
+      "visible_prediction_IDs": [
+        "60_21121212_1",
+        "60_22211222_1",
+        "60_22221222_1"
+      ],
+      "prediction_measurement_coverage": "unexamined"
+    },
+    {
+      "square_index": 1,
+      "seed": "25",
+      "arm": "development",
+      "descriptive_retained": true,
+      "descriptive_diagonals": [
+        [
+          "25_32131212_1",
+          "25_32111212_2"
+        ],
+        [
+          "25_32111212_1",
+          "25_32131112_1"
+        ]
+      ],
+      "coordinate_order_00_01_10_11": [
+        "25_32131212_1",
+        "25_32111212_1",
+        "25_32131112_1",
+        "25_32111212_2"
+      ],
+      "original_withheld_ID": "25_32111212_1",
+      "masked_IDs_in_square": [
+        "25_32111212_1"
+      ],
+      "mask_count": 1,
+      "prediction_eligible_from_metadata": true,
+      "prediction_exclusion_reason": null,
+      "visible_prediction_IDs": [
+        "25_32111212_2",
+        "25_32131112_1",
+        "25_32131212_1"
+      ],
+      "prediction_measurement_coverage": "unexamined"
+    },
+    {
+      "square_index": 2,
+      "seed": "321",
+      "arm": "development",
+      "descriptive_retained": true,
+      "descriptive_diagonals": [
+        [
+          "321_21121112_1",
+          "321_21211112_1"
+        ],
+        [
+          "321_21111112_1",
+          "321_21221112_1"
+        ]
+      ],
+      "coordinate_order_00_01_10_11": [
+        "321_21121112_1",
+        "321_21111112_1",
+        "321_21221112_1",
+        "321_21211112_1"
+      ],
+      "original_withheld_ID": "321_21121112_1",
+      "masked_IDs_in_square": [
+        "321_21121112_1"
+      ],
+      "mask_count": 1,
+      "prediction_eligible_from_metadata": true,
+      "prediction_exclusion_reason": null,
+      "visible_prediction_IDs": [
+        "321_21111112_1",
+        "321_21211112_1",
+        "321_21221112_1"
+      ],
+      "prediction_measurement_coverage": "unexamined"
+    },
+    {
+      "square_index": 3,
+      "seed": "33",
+      "arm": "development",
+      "descriptive_retained": true,
+      "descriptive_diagonals": [
+        [
+          "33_32221113_1",
+          "33_32121113_1"
+        ],
+        [
+          "33_32221113_2",
+          "33_32122113_1"
+        ]
+      ],
+      "coordinate_order_00_01_10_11": [
+        "33_32221113_1",
+        "33_32221113_2",
+        "33_32122113_1",
+        "33_32121113_1"
+      ],
+      "original_withheld_ID": "33_32121113_1",
+      "masked_IDs_in_square": [
+        "33_32121113_1"
+      ],
+      "mask_count": 1,
+      "prediction_eligible_from_metadata": true,
+      "prediction_exclusion_reason": null,
+      "visible_prediction_IDs": [
+        "33_32122113_1",
+        "33_32221113_1",
+        "33_32221113_2"
+      ],
+      "prediction_measurement_coverage": "unexamined"
+    },
+    {
+      "square_index": 4,
+      "seed": "145",
+      "arm": "development",
+      "descriptive_retained": true,
+      "descriptive_diagonals": [
+        [
+          "145_23322121_1",
+          "145_31312121_1"
+        ],
+        [
+          "145_23312121_1",
+          "145_21322121_1"
+        ]
+      ],
+      "coordinate_order_00_01_10_11": [
+        "145_23322121_1",
+        "145_23312121_1",
+        "145_21322121_1",
+        "145_31312121_1"
+      ],
+      "original_withheld_ID": "145_23312121_1",
+      "masked_IDs_in_square": [
+        "145_23312121_1"
+      ],
+      "mask_count": 1,
+      "prediction_eligible_from_metadata": true,
+      "prediction_exclusion_reason": null,
+      "visible_prediction_IDs": [
+        "145_21322121_1",
+        "145_23322121_1",
+        "145_31312121_1"
+      ],
+      "prediction_measurement_coverage": "unexamined"
+    },
+    {
+      "square_index": 5,
+      "seed": "145",
+      "arm": "development",
+      "descriptive_retained": true,
+      "descriptive_diagonals": [
+        [
+          "145_33221123_1",
+          "145_32221223_1"
+        ],
+        [
+          "145_23221223_1",
+          "145_32221123_1"
+        ]
+      ],
+      "coordinate_order_00_01_10_11": [
+        "145_33221123_1",
+        "145_23221223_1",
+        "145_32221123_1",
+        "145_32221223_1"
+      ],
+      "original_withheld_ID": "145_33221123_1",
+      "masked_IDs_in_square": [
+        "145_33221123_1"
+      ],
+      "mask_count": 1,
+      "prediction_eligible_from_metadata": true,
+      "prediction_exclusion_reason": null,
+      "visible_prediction_IDs": [
+        "145_23221223_1",
+        "145_32221123_1",
+        "145_32221223_1"
+      ],
+      "prediction_measurement_coverage": "unexamined"
+    },
+    {
+      "square_index": 6,
+      "seed": "277",
+      "arm": "reserved_validation",
+      "descriptive_retained": true,
+      "descriptive_diagonals": [
+        [
+          "277_32222122_1",
+          "277_21321122_1"
+        ],
+        [
+          "277_22321122_1",
+          "277_31222122_1"
+        ]
+      ],
+      "coordinate_order_00_01_10_11": [
+        "277_32222122_1",
+        "277_22321122_1",
+        "277_31222122_1",
+        "277_21321122_1"
+      ],
+      "original_withheld_ID": "277_21321122_1",
+      "masked_IDs_in_square": [
+        "277_21321122_1"
+      ],
+      "mask_count": 1,
+      "prediction_eligible_from_metadata": true,
+      "prediction_exclusion_reason": null,
+      "visible_prediction_IDs": [
+        "277_22321122_1",
+        "277_31222122_1",
+        "277_32222122_1"
+      ],
+      "prediction_measurement_coverage": "unexamined"
+    },
+    {
+      "square_index": 7,
+      "seed": "355",
+      "arm": "development",
+      "descriptive_retained": true,
+      "descriptive_diagonals": [
+        [
+          "355_32212111_1",
+          "355_33221111_1"
+        ],
+        [
+          "355_32221111_1",
+          "355_33212111_1"
+        ]
+      ],
+      "coordinate_order_00_01_10_11": [
+        "355_32212111_1",
+        "355_32221111_1",
+        "355_33212111_1",
+        "355_33221111_1"
+      ],
+      "original_withheld_ID": "355_32212111_1",
+      "masked_IDs_in_square": [
+        "355_32212111_1"
+      ],
+      "mask_count": 1,
+      "prediction_eligible_from_metadata": true,
+      "prediction_exclusion_reason": null,
+      "visible_prediction_IDs": [
+        "355_32221111_1",
+        "355_33212111_1",
+        "355_33221111_1"
+      ],
+      "prediction_measurement_coverage": "unexamined"
+    },
+    {
+      "square_index": 8,
+      "seed": "343",
+      "arm": "reserved_validation",
+      "descriptive_retained": true,
+      "descriptive_diagonals": [
+        [
+          "343_32112121_1",
+          "343_23222121_1"
+        ],
+        [
+          "343_22122121_1",
+          "343_23212121_1"
+        ]
+      ],
+      "coordinate_order_00_01_10_11": [
+        "343_32112121_1",
+        "343_22122121_1",
+        "343_23212121_1",
+        "343_23222121_1"
+      ],
+      "original_withheld_ID": "343_32112121_1",
+      "masked_IDs_in_square": [
+        "343_32112121_1"
+      ],
+      "mask_count": 1,
+      "prediction_eligible_from_metadata": true,
+      "prediction_exclusion_reason": null,
+      "visible_prediction_IDs": [
+        "343_22122121_1",
+        "343_23212121_1",
+        "343_23222121_1"
+      ],
+      "prediction_measurement_coverage": "unexamined"
+    },
+    {
+      "square_index": 9,
+      "seed": "247",
+      "arm": "reserved_validation",
+      "descriptive_retained": true,
+      "descriptive_diagonals": [
+        [
+          "247_23331112_1",
+          "247_32331112_1"
+        ],
+        [
+          "247_33332112_1",
+          "247_22331112_1"
+        ]
+      ],
+      "coordinate_order_00_01_10_11": [
+        "247_23331112_1",
+        "247_33332112_1",
+        "247_22331112_1",
+        "247_32331112_1"
+      ],
+      "original_withheld_ID": "247_33332112_1",
+      "masked_IDs_in_square": [
+        "247_33332112_1"
+      ],
+      "mask_count": 1,
+      "prediction_eligible_from_metadata": true,
+      "prediction_exclusion_reason": null,
+      "visible_prediction_IDs": [
+        "247_22331112_1",
+        "247_23331112_1",
+        "247_32331112_1"
+      ],
+      "prediction_measurement_coverage": "unexamined"
+    },
+    {
+      "square_index": 10,
+      "seed": "355",
+      "arm": "development",
+      "descriptive_retained": true,
+      "descriptive_diagonals": [
+        [
+          "355_23321212_1",
+          "355_33221112_1"
+        ],
+        [
+          "355_23321112_1",
+          "355_23221212_1"
+        ]
+      ],
+      "coordinate_order_00_01_10_11": [
+        "355_23321212_1",
+        "355_23321112_1",
+        "355_23221212_1",
+        "355_33221112_1"
+      ],
+      "original_withheld_ID": "355_23221212_1",
+      "masked_IDs_in_square": [
+        "355_23221212_1"
+      ],
+      "mask_count": 1,
+      "prediction_eligible_from_metadata": true,
+      "prediction_exclusion_reason": null,
+      "visible_prediction_IDs": [
+        "355_23321112_1",
+        "355_23321212_1",
+        "355_33221112_1"
+      ],
+      "prediction_measurement_coverage": "unexamined"
+    },
+    {
+      "square_index": 11,
+      "seed": "359",
+      "arm": "reserved_validation",
+      "descriptive_retained": true,
+      "descriptive_diagonals": [
+        [
+          "359_21221122_2",
+          "359_21221222_1"
+        ],
+        [
+          "359_21221122_1",
+          "359_21221222_2"
+        ]
+      ],
+      "coordinate_order_00_01_10_11": [
+        "359_21221122_2",
+        "359_21221122_1",
+        "359_21221222_2",
+        "359_21221222_1"
+      ],
+      "original_withheld_ID": "359_21221222_1",
+      "masked_IDs_in_square": [
+        "359_21221222_1"
+      ],
+      "mask_count": 1,
+      "prediction_eligible_from_metadata": true,
+      "prediction_exclusion_reason": null,
+      "visible_prediction_IDs": [
+        "359_21221122_1",
+        "359_21221122_2",
+        "359_21221222_2"
+      ],
+      "prediction_measurement_coverage": "unexamined"
+    },
+    {
+      "square_index": 12,
+      "seed": "84",
+      "arm": "development",
+      "descriptive_retained": true,
+      "descriptive_diagonals": [
+        [
+          "84_12212123_1",
+          "84_11211113_1"
+        ],
+        [
+          "84_11312123_1",
+          "84_12212113_1"
+        ]
+      ],
+      "coordinate_order_00_01_10_11": [
+        "84_12212123_1",
+        "84_11312123_1",
+        "84_12212113_1",
+        "84_11211113_1"
+      ],
+      "original_withheld_ID": "84_12212113_1",
+      "masked_IDs_in_square": [
+        "84_12212113_1"
+      ],
+      "mask_count": 1,
+      "prediction_eligible_from_metadata": true,
+      "prediction_exclusion_reason": null,
+      "visible_prediction_IDs": [
+        "84_11211113_1",
+        "84_11312123_1",
+        "84_12212123_1"
+      ],
+      "prediction_measurement_coverage": "unexamined"
+    },
+    {
+      "square_index": 13,
+      "seed": "382",
+      "arm": "reserved_validation",
+      "descriptive_retained": true,
+      "descriptive_diagonals": [
+        [
+          "382_31221122_1",
+          "382_21131122_1"
+        ],
+        [
+          "382_21231122_1",
+          "382_21121122_1"
+        ]
+      ],
+      "coordinate_order_00_01_10_11": [
+        "382_31221122_1",
+        "382_21231122_1",
+        "382_21121122_1",
+        "382_21131122_1"
+      ],
+      "original_withheld_ID": "382_31221122_1",
+      "masked_IDs_in_square": [
+        "382_31221122_1"
+      ],
+      "mask_count": 1,
+      "prediction_eligible_from_metadata": true,
+      "prediction_exclusion_reason": null,
+      "visible_prediction_IDs": [
+        "382_21121122_1",
+        "382_21131122_1",
+        "382_21231122_1"
+      ],
+      "prediction_measurement_coverage": "unexamined"
+    },
+    {
+      "square_index": 14,
+      "seed": "382",
+      "arm": "reserved_validation",
+      "descriptive_retained": true,
+      "descriptive_diagonals": [
+        [
+          "382_31221212_1",
+          "382_32221222_1"
+        ],
+        [
+          "382_32221212_1",
+          "382_31221222_1"
+        ]
+      ],
+      "coordinate_order_00_01_10_11": [
+        "382_31221212_1",
+        "382_32221212_1",
+        "382_31221222_1",
+        "382_32221222_1"
+      ],
+      "original_withheld_ID": "382_32221212_1",
+      "masked_IDs_in_square": [
+        "382_32221212_1"
+      ],
+      "mask_count": 1,
+      "prediction_eligible_from_metadata": true,
+      "prediction_exclusion_reason": null,
+      "visible_prediction_IDs": [
+        "382_31221212_1",
+        "382_31221222_1",
+        "382_32221222_1"
+      ],
+      "prediction_measurement_coverage": "unexamined"
+    },
+    {
+      "square_index": 15,
+      "seed": "156",
+      "arm": "reserved_validation",
+      "descriptive_retained": true,
+      "descriptive_diagonals": [
+        [
+          "156_31111123_1",
+          "156_31111213_1"
+        ],
+        [
+          "156_21111223_1",
+          "156_31111113_1"
+        ]
+      ],
+      "coordinate_order_00_01_10_11": [
+        "156_31111123_1",
+        "156_21111223_1",
+        "156_31111113_1",
+        "156_31111213_1"
+      ],
+      "original_withheld_ID": "156_31111213_1",
+      "masked_IDs_in_square": [
+        "156_31111213_1"
+      ],
+      "mask_count": 1,
+      "prediction_eligible_from_metadata": true,
+      "prediction_exclusion_reason": null,
+      "visible_prediction_IDs": [
+        "156_21111223_1",
+        "156_31111113_1",
+        "156_31111123_1"
+      ],
+      "prediction_measurement_coverage": "unexamined"
+    },
+    {
+      "square_index": 16,
+      "seed": "156",
+      "arm": "reserved_validation",
+      "descriptive_retained": true,
+      "descriptive_diagonals": [
+        [
+          "156_33231113_1",
+          "156_33131213_1"
+        ],
+        [
+          "156_33231213_1",
+          "156_33131113_1"
+        ]
+      ],
+      "coordinate_order_00_01_10_11": [
+        "156_33231113_1",
+        "156_33231213_1",
+        "156_33131113_1",
+        "156_33131213_1"
+      ],
+      "original_withheld_ID": "156_33131213_1",
+      "masked_IDs_in_square": [
+        "156_33131213_1"
+      ],
+      "mask_count": 1,
+      "prediction_eligible_from_metadata": true,
+      "prediction_exclusion_reason": null,
+      "visible_prediction_IDs": [
+        "156_33131113_1",
+        "156_33231113_1",
+        "156_33231213_1"
+      ],
+      "prediction_measurement_coverage": "unexamined"
+    },
+    {
+      "square_index": 17,
+      "seed": "2",
+      "arm": "reserved_validation",
+      "descriptive_retained": true,
+      "descriptive_diagonals": [
+        [
+          "2_22111111_1",
+          "2_22211221_1"
+        ],
+        [
+          "2_22211111_1",
+          "2_22111211_1"
+        ]
+      ],
+      "coordinate_order_00_01_10_11": [
+        "2_22111111_1",
+        "2_22211111_1",
+        "2_22111211_1",
+        "2_22211221_1"
+      ],
+      "original_withheld_ID": "2_22211111_1",
+      "masked_IDs_in_square": [
+        "2_22211111_1"
+      ],
+      "mask_count": 1,
+      "prediction_eligible_from_metadata": true,
+      "prediction_exclusion_reason": null,
+      "visible_prediction_IDs": [
+        "2_22111111_1",
+        "2_22111211_1",
+        "2_22211221_1"
+      ],
+      "prediction_measurement_coverage": "unexamined"
+    },
+    {
+      "square_index": 18,
+      "seed": "314",
+      "arm": "development",
+      "descriptive_retained": true,
+      "descriptive_diagonals": [
+        [
+          "314_31112121_1",
+          "314_21211121_1"
+        ],
+        [
+          "314_31211121_1",
+          "314_21112121_1"
+        ]
+      ],
+      "coordinate_order_00_01_10_11": [
+        "314_31112121_1",
+        "314_31211121_1",
+        "314_21112121_1",
+        "314_21211121_1"
+      ],
+      "original_withheld_ID": "314_21211121_1",
+      "masked_IDs_in_square": [
+        "314_21211121_1"
+      ],
+      "mask_count": 1,
+      "prediction_eligible_from_metadata": true,
+      "prediction_exclusion_reason": null,
+      "visible_prediction_IDs": [
+        "314_21112121_1",
+        "314_31112121_1",
+        "314_31211121_1"
+      ],
+      "prediction_measurement_coverage": "unexamined"
+    },
+    {
+      "square_index": 19,
+      "seed": "2",
+      "arm": "reserved_validation",
+      "descriptive_retained": true,
+      "descriptive_diagonals": [
+        [
+          "2_23112123_1",
+          "2_32111123_1"
+        ],
+        [
+          "2_33112123_1",
+          "2_22111123_1"
+        ]
+      ],
+      "coordinate_order_00_01_10_11": [
+        "2_23112123_1",
+        "2_33112123_1",
+        "2_22111123_1",
+        "2_32111123_1"
+      ],
+      "original_withheld_ID": "2_33112123_1",
+      "masked_IDs_in_square": [
+        "2_33112123_1"
+      ],
+      "mask_count": 1,
+      "prediction_eligible_from_metadata": true,
+      "prediction_exclusion_reason": null,
+      "visible_prediction_IDs": [
+        "2_22111123_1",
+        "2_23112123_1",
+        "2_32111123_1"
+      ],
+      "prediction_measurement_coverage": "unexamined"
+    },
+    {
+      "square_index": 20,
+      "seed": "46",
+      "arm": "reserved_validation",
+      "descriptive_retained": true,
+      "descriptive_diagonals": [
+        [
+          "46_13321213_2",
+          "46_13211213_1"
+        ],
+        [
+          "46_13211213_3",
+          "46_13321213_1"
+        ]
+      ],
+      "coordinate_order_00_01_10_11": [
+        "46_13321213_2",
+        "46_13211213_3",
+        "46_13321213_1",
+        "46_13211213_1"
+      ],
+      "original_withheld_ID": "46_13321213_2",
+      "masked_IDs_in_square": [
+        "46_13321213_2"
+      ],
+      "mask_count": 1,
+      "prediction_eligible_from_metadata": true,
+      "prediction_exclusion_reason": null,
+      "visible_prediction_IDs": [
+        "46_13211213_1",
+        "46_13211213_3",
+        "46_13321213_1"
+      ],
+      "prediction_measurement_coverage": "unexamined"
+    },
+    {
+      "square_index": 21,
+      "seed": "133",
+      "arm": "development",
+      "descriptive_retained": true,
+      "descriptive_diagonals": [
+        [
+          "133_32211121_2",
+          "133_33211221_1"
+        ],
+        [
+          "133_32211121_1",
+          "133_33211221_2"
+        ]
+      ],
+      "coordinate_order_00_01_10_11": [
+        "133_32211121_2",
+        "133_32211121_1",
+        "133_33211221_2",
+        "133_33211221_1"
+      ],
+      "original_withheld_ID": "133_33211221_2",
+      "masked_IDs_in_square": [
+        "133_33211221_2"
+      ],
+      "mask_count": 1,
+      "prediction_eligible_from_metadata": true,
+      "prediction_exclusion_reason": null,
+      "visible_prediction_IDs": [
+        "133_32211121_1",
+        "133_32211121_2",
+        "133_33211221_1"
+      ],
+      "prediction_measurement_coverage": "unexamined"
+    },
+    {
+      "square_index": 22,
+      "seed": "71",
+      "arm": "development",
+      "descriptive_retained": true,
+      "descriptive_diagonals": [
+        [
+          "71_31312111_1",
+          "71_31222111_1"
+        ],
+        [
+          "71_31322111_1",
+          "71_31212111_1"
+        ]
+      ],
+      "coordinate_order_00_01_10_11": [
+        "71_31312111_1",
+        "71_31322111_1",
+        "71_31212111_1",
+        "71_31222111_1"
+      ],
+      "original_withheld_ID": "71_31312111_1",
+      "masked_IDs_in_square": [
+        "71_31312111_1"
+      ],
+      "mask_count": 1,
+      "prediction_eligible_from_metadata": true,
+      "prediction_exclusion_reason": null,
+      "visible_prediction_IDs": [
+        "71_31212111_1",
+        "71_31222111_1",
+        "71_31322111_1"
+      ],
+      "prediction_measurement_coverage": "unexamined"
+    },
+    {
+      "square_index": 23,
+      "seed": "343",
+      "arm": "reserved_validation",
+      "descriptive_retained": true,
+      "descriptive_diagonals": [
+        [
+          "343_21321222_1",
+          "343_31211222_1"
+        ],
+        [
+          "343_31311222_1",
+          "343_21221222_1"
+        ]
+      ],
+      "coordinate_order_00_01_10_11": [
+        "343_21321222_1",
+        "343_31311222_1",
+        "343_21221222_1",
+        "343_31211222_1"
+      ],
+      "original_withheld_ID": "343_21221222_1",
+      "masked_IDs_in_square": [
+        "343_21221222_1"
+      ],
+      "mask_count": 1,
+      "prediction_eligible_from_metadata": true,
+      "prediction_exclusion_reason": null,
+      "visible_prediction_IDs": [
+        "343_21321222_1",
+        "343_31211222_1",
+        "343_31311222_1"
+      ],
+      "prediction_measurement_coverage": "unexamined"
+    },
+    {
+      "square_index": 24,
+      "seed": "15",
+      "arm": "development",
+      "descriptive_retained": true,
+      "descriptive_diagonals": [
+        [
+          "15_22232112_1",
+          "15_22331222_1"
+        ],
+        [
+          "15_22231112_1",
+          "15_22331122_1"
+        ]
+      ],
+      "coordinate_order_00_01_10_11": [
+        "15_22232112_1",
+        "15_22231112_1",
+        "15_22331122_1",
+        "15_22331222_1"
+      ],
+      "original_withheld_ID": "15_22231112_1",
+      "masked_IDs_in_square": [
+        "15_22231112_1"
+      ],
+      "mask_count": 1,
+      "prediction_eligible_from_metadata": true,
+      "prediction_exclusion_reason": null,
+      "visible_prediction_IDs": [
+        "15_22232112_1",
+        "15_22331122_1",
+        "15_22331222_1"
+      ],
+      "prediction_measurement_coverage": "unexamined"
+    },
+    {
+      "square_index": 25,
+      "seed": "384",
+      "arm": "development",
+      "descriptive_retained": true,
+      "descriptive_diagonals": [
+        [
+          "384_22322112_1",
+          "384_23321122_1"
+        ],
+        [
+          "384_22321112_1",
+          "384_23322122_1"
+        ]
+      ],
+      "coordinate_order_00_01_10_11": [
+        "384_22322112_1",
+        "384_22321112_1",
+        "384_23322122_1",
+        "384_23321122_1"
+      ],
+      "original_withheld_ID": "384_23321122_1",
+      "masked_IDs_in_square": [
+        "384_23321122_1"
+      ],
+      "mask_count": 1,
+      "prediction_eligible_from_metadata": true,
+      "prediction_exclusion_reason": null,
+      "visible_prediction_IDs": [
+        "384_22321112_1",
+        "384_22322112_1",
+        "384_23322122_1"
+      ],
+      "prediction_measurement_coverage": "unexamined"
+    },
+    {
+      "square_index": 26,
+      "seed": "88",
+      "arm": "reserved_validation",
+      "descriptive_retained": true,
+      "descriptive_diagonals": [
+        [
+          "88_12222123_2",
+          "88_12222113_1"
+        ],
+        [
+          "88_12222123_1",
+          "88_12222113_3"
+        ]
+      ],
+      "coordinate_order_00_01_10_11": [
+        "88_12222123_2",
+        "88_12222123_1",
+        "88_12222113_3",
+        "88_12222113_1"
+      ],
+      "original_withheld_ID": "88_12222113_1",
+      "masked_IDs_in_square": [
+        "88_12222113_1"
+      ],
+      "mask_count": 1,
+      "prediction_eligible_from_metadata": true,
+      "prediction_exclusion_reason": null,
+      "visible_prediction_IDs": [
+        "88_12222113_3",
+        "88_12222123_1",
+        "88_12222123_2"
+      ],
+      "prediction_measurement_coverage": "unexamined"
+    },
+    {
+      "square_index": 27,
+      "seed": "44",
+      "arm": "reserved_validation",
+      "descriptive_retained": true,
+      "descriptive_diagonals": [
+        [
+          "44_31222113_1",
+          "44_21211123_1"
+        ],
+        [
+          "44_31212113_1",
+          "44_31221123_1"
+        ]
+      ],
+      "coordinate_order_00_01_10_11": [
+        "44_31222113_1",
+        "44_31212113_1",
+        "44_31221123_1",
+        "44_21211123_1"
+      ],
+      "original_withheld_ID": "44_31222113_1",
+      "masked_IDs_in_square": [
+        "44_31222113_1"
+      ],
+      "mask_count": 1,
+      "prediction_eligible_from_metadata": true,
+      "prediction_exclusion_reason": null,
+      "visible_prediction_IDs": [
+        "44_21211123_1",
+        "44_31212113_1",
+        "44_31221123_1"
+      ],
+      "prediction_measurement_coverage": "unexamined"
+    },
+    {
+      "square_index": 28,
+      "seed": "299",
+      "arm": "development",
+      "descriptive_retained": true,
+      "descriptive_diagonals": [
+        [
+          "299_23311122_1",
+          "299_23211112_1"
+        ],
+        [
+          "299_23211122_1",
+          "299_23311112_1"
+        ]
+      ],
+      "coordinate_order_00_01_10_11": [
+        "299_23311122_1",
+        "299_23211122_1",
+        "299_23311112_1",
+        "299_23211112_1"
+      ],
+      "original_withheld_ID": "299_23311112_1",
+      "masked_IDs_in_square": [
+        "299_23311112_1"
+      ],
+      "mask_count": 1,
+      "prediction_eligible_from_metadata": true,
+      "prediction_exclusion_reason": null,
+      "visible_prediction_IDs": [
+        "299_23211112_1",
+        "299_23211122_1",
+        "299_23311122_1"
+      ],
+      "prediction_measurement_coverage": "unexamined"
+    },
+    {
+      "square_index": 29,
+      "seed": "37",
+      "arm": "development",
+      "descriptive_retained": true,
+      "descriptive_diagonals": [
+        [
+          "37_23211211_1",
+          "37_23111211_1"
+        ],
+        [
+          "37_23221211_1",
+          "37_33111211_1"
+        ]
+      ],
+      "coordinate_order_00_01_10_11": [
+        "37_23211211_1",
+        "37_23221211_1",
+        "37_33111211_1",
+        "37_23111211_1"
+      ],
+      "original_withheld_ID": "37_23221211_1",
+      "masked_IDs_in_square": [
+        "37_23221211_1"
+      ],
+      "mask_count": 1,
+      "prediction_eligible_from_metadata": true,
+      "prediction_exclusion_reason": null,
+      "visible_prediction_IDs": [
+        "37_23111211_1",
+        "37_23211211_1",
+        "37_33111211_1"
+      ],
+      "prediction_measurement_coverage": "unexamined"
+    },
+    {
+      "square_index": 30,
+      "seed": "387",
+      "arm": "reserved_validation",
+      "descriptive_retained": true,
+      "descriptive_diagonals": [
+        [
+          "387_33212122_1",
+          "387_22211112_1"
+        ],
+        [
+          "387_23211122_1",
+          "387_32212112_1"
+        ]
+      ],
+      "coordinate_order_00_01_10_11": [
+        "387_33212122_1",
+        "387_23211122_1",
+        "387_32212112_1",
+        "387_22211112_1"
+      ],
+      "original_withheld_ID": "387_23211122_1",
+      "masked_IDs_in_square": [
+        "387_23211122_1"
+      ],
+      "mask_count": 1,
+      "prediction_eligible_from_metadata": true,
+      "prediction_exclusion_reason": null,
+      "visible_prediction_IDs": [
+        "387_22211112_1",
+        "387_32212112_1",
+        "387_33212122_1"
+      ],
+      "prediction_measurement_coverage": "unexamined"
+    },
+    {
+      "square_index": 31,
+      "seed": "387",
+      "arm": "reserved_validation",
+      "descriptive_retained": true,
+      "descriptive_diagonals": [
+        [
+          "387_32212112_1",
+          "387_22211122_1"
+        ],
+        [
+          "387_22211112_1",
+          "387_32212122_1"
+        ]
+      ],
+      "coordinate_order_00_01_10_11": [
+        "387_32212112_1",
+        "387_22211112_1",
+        "387_32212122_1",
+        "387_22211122_1"
+      ],
+      "original_withheld_ID": "387_22211122_1",
+      "masked_IDs_in_square": [
+        "387_22211122_1"
+      ],
+      "mask_count": 1,
+      "prediction_eligible_from_metadata": true,
+      "prediction_exclusion_reason": null,
+      "visible_prediction_IDs": [
+        "387_22211112_1",
+        "387_32212112_1",
+        "387_32212122_1"
+      ],
+      "prediction_measurement_coverage": "unexamined"
+    },
+    {
+      "square_index": 32,
+      "seed": "37",
+      "arm": "development",
+      "descriptive_retained": true,
+      "descriptive_diagonals": [
+        [
+          "37_11211213_1",
+          "37_13211223_1"
+        ],
+        [
+          "37_12111213_1",
+          "37_13211213_1"
+        ]
+      ],
+      "coordinate_order_00_01_10_11": [
+        "37_11211213_1",
+        "37_12111213_1",
+        "37_13211213_1",
+        "37_13211223_1"
+      ],
+      "original_withheld_ID": "37_13211213_1",
+      "masked_IDs_in_square": [
+        "37_13211213_1"
+      ],
+      "mask_count": 1,
+      "prediction_eligible_from_metadata": true,
+      "prediction_exclusion_reason": null,
+      "visible_prediction_IDs": [
+        "37_11211213_1",
+        "37_12111213_1",
+        "37_13211223_1"
+      ],
+      "prediction_measurement_coverage": "unexamined"
+    },
+    {
+      "square_index": 33,
+      "seed": "20",
+      "arm": "development",
+      "descriptive_retained": true,
+      "descriptive_diagonals": [
+        [
+          "20_31112122_1",
+          "20_31111122_2"
+        ],
+        [
+          "20_31112122_2",
+          "20_31111122_1"
+        ]
+      ],
+      "coordinate_order_00_01_10_11": [
+        "20_31112122_1",
+        "20_31112122_2",
+        "20_31111122_1",
+        "20_31111122_2"
+      ],
+      "original_withheld_ID": "20_31111122_1",
+      "masked_IDs_in_square": [
+        "20_31111122_1"
+      ],
+      "mask_count": 1,
+      "prediction_eligible_from_metadata": true,
+      "prediction_exclusion_reason": null,
+      "visible_prediction_IDs": [
+        "20_31111122_2",
+        "20_31112122_1",
+        "20_31112122_2"
+      ],
+      "prediction_measurement_coverage": "unexamined"
+    },
+    {
+      "square_index": 34,
+      "seed": "349",
+      "arm": "reserved_validation",
+      "descriptive_retained": true,
+      "descriptive_diagonals": [
+        [
+          "349_32312112_1",
+          "349_22311122_1"
+        ],
+        [
+          "349_22311112_1",
+          "349_22312112_1"
+        ]
+      ],
+      "coordinate_order_00_01_10_11": [
+        "349_32312112_1",
+        "349_22311112_1",
+        "349_22312112_1",
+        "349_22311122_1"
+      ],
+      "original_withheld_ID": "349_22312112_1",
+      "masked_IDs_in_square": [
+        "349_22312112_1"
+      ],
+      "mask_count": 1,
+      "prediction_eligible_from_metadata": true,
+      "prediction_exclusion_reason": null,
+      "visible_prediction_IDs": [
+        "349_22311112_1",
+        "349_22311122_1",
+        "349_32312112_1"
+      ],
+      "prediction_measurement_coverage": "unexamined"
+    },
+    {
+      "square_index": 35,
+      "seed": "349",
+      "arm": "reserved_validation",
+      "descriptive_retained": true,
+      "descriptive_diagonals": [
+        [
+          "349_22212122_1",
+          "349_22311122_1"
+        ],
+        [
+          "349_22211122_1",
+          "349_22312122_1"
+        ]
+      ],
+      "coordinate_order_00_01_10_11": [
+        "349_22212122_1",
+        "349_22211122_1",
+        "349_22312122_1",
+        "349_22311122_1"
+      ],
+      "original_withheld_ID": "349_22312122_1",
+      "masked_IDs_in_square": [
+        "349_22312122_1"
+      ],
+      "mask_count": 1,
+      "prediction_eligible_from_metadata": true,
+      "prediction_exclusion_reason": null,
+      "visible_prediction_IDs": [
+        "349_22211122_1",
+        "349_22212122_1",
+        "349_22311122_1"
+      ],
+      "prediction_measurement_coverage": "unexamined"
+    },
+    {
+      "square_index": 36,
+      "seed": "227",
+      "arm": "development",
+      "descriptive_retained": true,
+      "descriptive_diagonals": [
+        [
+          "227_13121123_1",
+          "227_23132113_1"
+        ],
+        [
+          "227_23132123_1",
+          "227_13121113_1"
+        ]
+      ],
+      "coordinate_order_00_01_10_11": [
+        "227_13121123_1",
+        "227_23132123_1",
+        "227_13121113_1",
+        "227_23132113_1"
+      ],
+      "original_withheld_ID": "227_23132123_1",
+      "masked_IDs_in_square": [
+        "227_23132123_1"
+      ],
+      "mask_count": 1,
+      "prediction_eligible_from_metadata": true,
+      "prediction_exclusion_reason": null,
+      "visible_prediction_IDs": [
+        "227_13121113_1",
+        "227_13121123_1",
+        "227_23132113_1"
+      ],
+      "prediction_measurement_coverage": "unexamined"
+    },
+    {
+      "square_index": 37,
+      "seed": "227",
+      "arm": "development",
+      "descriptive_retained": true,
+      "descriptive_diagonals": [
+        [
+          "227_23132123_1",
+          "227_23131113_1"
+        ],
+        [
+          "227_23131123_1",
+          "227_23132113_1"
+        ]
+      ],
+      "coordinate_order_00_01_10_11": [
+        "227_23132123_1",
+        "227_23131123_1",
+        "227_23132113_1",
+        "227_23131113_1"
+      ],
+      "original_withheld_ID": "227_23132123_1",
+      "masked_IDs_in_square": [
+        "227_23132123_1"
+      ],
+      "mask_count": 1,
+      "prediction_eligible_from_metadata": true,
+      "prediction_exclusion_reason": null,
+      "visible_prediction_IDs": [
+        "227_23131113_1",
+        "227_23131123_1",
+        "227_23132113_1"
+      ],
+      "prediction_measurement_coverage": "unexamined"
+    },
+    {
+      "square_index": 38,
+      "seed": "88",
+      "arm": "reserved_validation",
+      "descriptive_retained": true,
+      "descriptive_diagonals": [
+        [
+          "88_31321121_1",
+          "88_31311221_1"
+        ],
+        [
+          "88_31321221_1",
+          "88_31311121_1"
+        ]
+      ],
+      "coordinate_order_00_01_10_11": [
+        "88_31321121_1",
+        "88_31321221_1",
+        "88_31311121_1",
+        "88_31311221_1"
+      ],
+      "original_withheld_ID": "88_31311221_1",
+      "masked_IDs_in_square": [
+        "88_31311221_1"
+      ],
+      "mask_count": 1,
+      "prediction_eligible_from_metadata": true,
+      "prediction_exclusion_reason": null,
+      "visible_prediction_IDs": [
+        "88_31311121_1",
+        "88_31321121_1",
+        "88_31321221_1"
+      ],
+      "prediction_measurement_coverage": "unexamined"
+    },
+    {
+      "square_index": 39,
+      "seed": "76",
+      "arm": "reserved_validation",
+      "descriptive_retained": true,
+      "descriptive_diagonals": [
+        [
+          "76_32322123_2",
+          "76_22322123_1"
+        ],
+        [
+          "76_22322123_2",
+          "76_32322123_1"
+        ]
+      ],
+      "coordinate_order_00_01_10_11": [
+        "76_32322123_2",
+        "76_22322123_2",
+        "76_32322123_1",
+        "76_22322123_1"
+      ],
+      "original_withheld_ID": "76_22322123_2",
+      "masked_IDs_in_square": [
+        "76_22322123_2"
+      ],
+      "mask_count": 1,
+      "prediction_eligible_from_metadata": true,
+      "prediction_exclusion_reason": null,
+      "visible_prediction_IDs": [
+        "76_22322123_1",
+        "76_32322123_1",
+        "76_32322123_2"
+      ],
+      "prediction_measurement_coverage": "unexamined"
+    },
+    {
+      "square_index": 40,
+      "seed": "117",
+      "arm": "reserved_validation",
+      "descriptive_retained": true,
+      "descriptive_diagonals": [
+        [
+          "117_23231122_1",
+          "117_22231222_1"
+        ],
+        [
+          "117_23231222_1",
+          "117_22231122_1"
+        ]
+      ],
+      "coordinate_order_00_01_10_11": [
+        "117_23231122_1",
+        "117_23231222_1",
+        "117_22231122_1",
+        "117_22231222_1"
+      ],
+      "original_withheld_ID": "117_22231122_1",
+      "masked_IDs_in_square": [
+        "117_22231122_1"
+      ],
+      "mask_count": 1,
+      "prediction_eligible_from_metadata": true,
+      "prediction_exclusion_reason": null,
+      "visible_prediction_IDs": [
+        "117_22231222_1",
+        "117_23231122_1",
+        "117_23231222_1"
+      ],
+      "prediction_measurement_coverage": "unexamined"
+    },
+    {
+      "square_index": 41,
+      "seed": "15",
+      "arm": "development",
+      "descriptive_retained": true,
+      "descriptive_diagonals": [
+        [
+          "15_12131111_1",
+          "15_11131121_1"
+        ],
+        [
+          "15_11131111_1",
+          "15_12231121_1"
+        ]
+      ],
+      "coordinate_order_00_01_10_11": [
+        "15_12131111_1",
+        "15_11131111_1",
+        "15_12231121_1",
+        "15_11131121_1"
+      ],
+      "original_withheld_ID": "15_12231121_1",
+      "masked_IDs_in_square": [
+        "15_12231121_1"
+      ],
+      "mask_count": 1,
+      "prediction_eligible_from_metadata": true,
+      "prediction_exclusion_reason": null,
+      "visible_prediction_IDs": [
+        "15_11131111_1",
+        "15_11131121_1",
+        "15_12131111_1"
+      ],
+      "prediction_measurement_coverage": "unexamined"
+    },
+    {
+      "square_index": 42,
+      "seed": "379",
+      "arm": "reserved_validation",
+      "descriptive_retained": true,
+      "descriptive_diagonals": [
+        [
+          "379_33211111_1",
+          "379_32111211_1"
+        ],
+        [
+          "379_33211211_1",
+          "379_32111111_1"
+        ]
+      ],
+      "coordinate_order_00_01_10_11": [
+        "379_33211111_1",
+        "379_33211211_1",
+        "379_32111111_1",
+        "379_32111211_1"
+      ],
+      "original_withheld_ID": "379_33211111_1",
+      "masked_IDs_in_square": [
+        "379_33211111_1"
+      ],
+      "mask_count": 1,
+      "prediction_eligible_from_metadata": true,
+      "prediction_exclusion_reason": null,
+      "visible_prediction_IDs": [
+        "379_32111111_1",
+        "379_32111211_1",
+        "379_33211211_1"
+      ],
+      "prediction_measurement_coverage": "unexamined"
+    },
+    {
+      "square_index": 43,
+      "seed": "379",
+      "arm": "reserved_validation",
+      "descriptive_retained": true,
+      "descriptive_diagonals": [
+        [
+          "379_31112111_3",
+          "379_31111111_1"
+        ],
+        [
+          "379_31111111_2",
+          "379_31112111_1"
+        ]
+      ],
+      "coordinate_order_00_01_10_11": [
+        "379_31112111_3",
+        "379_31111111_2",
+        "379_31112111_1",
+        "379_31111111_1"
+      ],
+      "original_withheld_ID": "379_31111111_1",
+      "masked_IDs_in_square": [
+        "379_31111111_1"
+      ],
+      "mask_count": 1,
+      "prediction_eligible_from_metadata": true,
+      "prediction_exclusion_reason": null,
+      "visible_prediction_IDs": [
+        "379_31111111_2",
+        "379_31112111_1",
+        "379_31112111_3"
+      ],
+      "prediction_measurement_coverage": "unexamined"
+    },
+    {
+      "square_index": 44,
+      "seed": "47",
+      "arm": "development",
+      "descriptive_retained": true,
+      "descriptive_diagonals": [
+        [
+          "47_22111213_1",
+          "47_13111223_2"
+        ],
+        [
+          "47_12111213_1",
+          "47_13111223_1"
+        ]
+      ],
+      "coordinate_order_00_01_10_11": [
+        "47_22111213_1",
+        "47_12111213_1",
+        "47_13111223_1",
+        "47_13111223_2"
+      ],
+      "original_withheld_ID": "47_13111223_2",
+      "masked_IDs_in_square": [
+        "47_13111223_2"
+      ],
+      "mask_count": 1,
+      "prediction_eligible_from_metadata": true,
+      "prediction_exclusion_reason": null,
+      "visible_prediction_IDs": [
+        "47_12111213_1",
+        "47_13111223_1",
+        "47_22111213_1"
+      ],
+      "prediction_measurement_coverage": "unexamined"
+    },
+    {
+      "square_index": 45,
+      "seed": "47",
+      "arm": "development",
+      "descriptive_retained": true,
+      "descriptive_diagonals": [
+        [
+          "47_12111213_1",
+          "47_12111223_1"
+        ],
+        [
+          "47_13111223_2",
+          "47_23111213_1"
+        ]
+      ],
+      "coordinate_order_00_01_10_11": [
+        "47_12111213_1",
+        "47_13111223_2",
+        "47_23111213_1",
+        "47_12111223_1"
+      ],
+      "original_withheld_ID": "47_12111223_1",
+      "masked_IDs_in_square": [
+        "47_12111223_1",
+        "47_13111223_2"
+      ],
+      "mask_count": 2,
+      "prediction_eligible_from_metadata": false,
+      "prediction_exclusion_reason": "multiple_globally_masked_corners",
+      "visible_prediction_IDs": [],
+      "prediction_measurement_coverage": "unexamined"
+    },
+    {
+      "square_index": 46,
+      "seed": "47",
+      "arm": "development",
+      "descriptive_retained": true,
+      "descriptive_diagonals": [
+        [
+          "47_23221113_1",
+          "47_23321223_1"
+        ],
+        [
+          "47_23221213_1",
+          "47_23321123_1"
+        ]
+      ],
+      "coordinate_order_00_01_10_11": [
+        "47_23221113_1",
+        "47_23221213_1",
+        "47_23321123_1",
+        "47_23321223_1"
+      ],
+      "original_withheld_ID": "47_23221213_1",
+      "masked_IDs_in_square": [
+        "47_23221213_1"
+      ],
+      "mask_count": 1,
+      "prediction_eligible_from_metadata": true,
+      "prediction_exclusion_reason": null,
+      "visible_prediction_IDs": [
+        "47_23221113_1",
+        "47_23321123_1",
+        "47_23321223_1"
+      ],
+      "prediction_measurement_coverage": "unexamined"
+    }
+  ],
+  "no_phenotype_values_read": true,
+  "original_split_sha256": "394a0c1aa23785c290b31c147d199f406cf46b269daa9159a98c419398b05a4e",
+  "original_preflight_manifest_sha256": "e385e4859d0b4556577dd0ad8f0c8c9508430e32ea3c9649d26c8be9a5408eec",
+  "source_sha256": "ffbf1b1a49a9c97fe259f4a4c9777f027ec9da18025e1611a64efd7c8bdec8fe"
+}

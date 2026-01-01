@@ -1,0 +1,981 @@
+{
+  "schema": "C5_computational_package_whitelist_v1",
+  "scope": "Authoritative staged processed-data replay plus named optional synthetic/audit sets; not complete earlier paper release",
+  "required": [
+    {
+      "source": "work/joint_function_cycle5/cambray_pilot_preflight/staged_analysis.py",
+      "target": "analysis/cycle5/cambray_pilot_preflight/staged_analysis.py",
+      "bytes": 30407,
+      "sha256": "5fbdf1c0da2dcf9e53b71199b124c576945d432da5b33bbc4240c1b9bfa21ef5",
+      "role": "runner",
+      "required_for": [
+        "authoritative_staged_execution"
+      ]
+    },
+    {
+      "source": "work/joint_function_cycle5/cambray_pilot_preflight/graph_rules.py",
+      "target": "analysis/cycle5/cambray_pilot_preflight/graph_rules.py",
+      "bytes": 9636,
+      "sha256": "7f901518cfc196de5d6d24c10f6f1b336255063ca8bd22d544accb6ef7b940f3",
+      "role": "graph_rules",
+      "required_for": [
+        "authoritative_staged_execution"
+      ]
+    },
+    {
+      "source": "work/joint_function_cycle5/cambray_pilot_preflight/masking_v2.py",
+      "target": "analysis/cycle5/cambray_pilot_preflight/masking_v2.py",
+      "bytes": 6101,
+      "sha256": "ffbf1b1a49a9c97fe259f4a4c9777f027ec9da18025e1611a64efd7c8bdec8fe",
+      "role": "masking",
+      "required_for": [
+        "authoritative_staged_execution"
+      ]
+    },
+    {
+      "source": "work/joint_function_cycle5/cambray_pilot_preflight/split_manifest.json",
+      "target": "analysis/cycle5/cambray_pilot_preflight/split_manifest.json",
+      "bytes": 46446,
+      "sha256": "394a0c1aa23785c290b31c147d199f406cf46b269daa9159a98c419398b05a4e",
+      "role": "split",
+      "required_for": [
+        "authoritative_staged_execution"
+      ]
+    },
+    {
+      "source": "work/joint_function_cycle5/cambray_pilot_preflight/prediction_mask_v2.json",
+      "target": "analysis/cycle5/cambray_pilot_preflight/prediction_mask_v2.json",
+      "bytes": 51833,
+      "sha256": "6e869e95b50fe21073fabfca5cda0e544b140b8e5c8a22f217b3c52394fdf3d9",
+      "role": "mask",
+      "required_for": [
+        "authoritative_staged_execution"
+      ]
+    },
+    {
+      "source": "work/joint_function_cycle5/cambray_eligibility/components.jsonl",
+      "target": "analysis/cycle5/cambray_eligibility/components.jsonl",
+      "bytes": 1904094,
+      "sha256": "90772dc57ab6dfdadf737e72cc0be11783245299d1ec0e9e589663a64ee1dadd",
+      "role": "components",
+      "required_for": [
+        "authoritative_staged_execution"
+      ]
+    },
+    {
+      "source": "work/joint_function_cycle5/cambray_eligibility/synonymous_edges.tsv",
+      "target": "analysis/cycle5/cambray_eligibility/synonymous_edges.tsv",
+      "bytes": 639579,
+      "sha256": "5d7d5f3b1160d7a8338da3f39369720fdc92c6105b47efbd902eeede48a30edd",
+      "role": "edges",
+      "required_for": [
+        "authoritative_staged_execution"
+      ]
+    },
+    {
+      "source": "work/joint_function_cycle5/cambray_pilot/protocol_draft.md",
+      "target": "analysis/cycle5/cambray_pilot/protocol_draft.md",
+      "bytes": 17280,
+      "sha256": "9becbd723fac30ac12ad9e95d5fb80cb69b5bd93c99210668e0479a24879adde",
+      "role": "protocol_candidate_only",
+      "required_for": [
+        "historical_candidate_hash_context"
+      ],
+      "notes": "Not a final freeze. Final protocol bytes/hash and all scientific amendments must be supplied by root."
+    },
+    {
+      "source": "work/joint_function_cycle5/cambray_pilot_preflight/synthetic_reader_tests.py",
+      "target": "analysis/cycle5/cambray_pilot_preflight/synthetic_reader_tests.py",
+      "bytes": 17163,
+      "sha256": "8e7684aeb42fbfb8a710f66e9c1fefba569b9d3eafa0595f7f730e55ffe6bf37",
+      "role": "synthetic_smoke_tests",
+      "required_for": [
+        "authoritative_module_synthetic_suite"
+      ],
+      "notes": "Together with runner,graph_rules,masking; uses invented fixtures, no biological input needed."
+    }
+  ],
+  "optional": [
+    {
+      "source": "work/joint_function_cycle5/cambray_independent_review/reference.py",
+      "target": "analysis/cycle5/cambray_independent_review/reference.py",
+      "bytes": 8638,
+      "sha256": "64a5e9040a77d81dc779583d1d3ea5894a5aebd5718dbf3466281803f48ce375",
+      "role": "independent_numeric",
+      "required_for": [
+        "independent_numeric"
+      ]
+    },
+    {
+      "source": "work/joint_function_cycle5/cambray_independent_review/test_reference.py",
+      "target": "analysis/cycle5/cambray_independent_review/test_reference.py",
+      "bytes": 7452,
+      "sha256": "568cb22352a3808eb9c7a6a572e06f98665a26b23c9dc562aac9e0d0b84fb0a5",
+      "role": "independent_numeric",
+      "required_for": [
+        "independent_numeric"
+      ]
+    },
+    {
+      "source": "work/joint_function_cycle5/cambray_independent_review/compare_synthetic.py",
+      "target": "analysis/cycle5/cambray_independent_review/compare_synthetic.py",
+      "bytes": 6369,
+      "sha256": "59882a864a93bff50d2d709b09918bde2d9bfae76b8645d39baa5e75259dd1ca",
+      "role": "independent_numeric",
+      "required_for": [
+        "independent_numeric"
+      ]
+    },
+    {
+      "source": "work/joint_function_cycle5/cambray_independent_review/primary_probe.py",
+      "target": "analysis/cycle5/cambray_independent_review/primary_probe.py",
+      "bytes": 1546,
+      "sha256": "1bdfb2f3f8fcc4b8d1f112293873f69319da496dc5905daf588182b7d94fd683",
+      "role": "independent_numeric",
+      "required_for": [
+        "independent_numeric"
+      ]
+    },
+    {
+      "source": "work/joint_function_cycle5/cambray_independent_review/check_staged.py",
+      "target": "analysis/cycle5/cambray_independent_review/check_staged.py",
+      "bytes": 11662,
+      "sha256": "4448f3c31e3d862678f9288f622e073269ad4026d3419550e66f2b564a27831b",
+      "role": "independent_staged",
+      "required_for": [
+        "independent_staged"
+      ]
+    },
+    {
+      "source": "work/joint_function_cycle5/cambray_independent_review/check_metadata.py",
+      "target": "analysis/cycle5/cambray_independent_review/check_metadata.py",
+      "bytes": 6897,
+      "sha256": "d9dcbbf22db33ff82109c782457d90c0066f819ef1cc664f4dab17ed9de024f0",
+      "role": "independent_metadata",
+      "required_for": [
+        "independent_metadata"
+      ]
+    },
+    {
+      "source": "work/joint_function_cycle5/cambray_eligibility/sequence_metadata.tsv",
+      "target": "analysis/cycle5/cambray_eligibility/sequence_metadata.tsv",
+      "bytes": 30751838,
+      "sha256": "9fcd79a97e3478c68411dee6cb853ad77e249d1d93b11bc4af58d2fcc44d4e7e",
+      "role": "independent_metadata",
+      "required_for": [
+        "independent_metadata"
+      ]
+    },
+    {
+      "source": "work/joint_function_cycle5/cambray_eligibility/annotated_squares.json",
+      "target": "analysis/cycle5/cambray_eligibility/annotated_squares.json",
+      "bytes": 24906,
+      "sha256": "13d93121be350515bc4e5c9ae22d00028a8b577ccaeb24ae1f0b1d014cefcf6c",
+      "role": "independent_metadata",
+      "required_for": [
+        "independent_metadata"
+      ]
+    },
+    {
+      "source": "work/joint_function_cycle5/overlap_limits/audit_overlap.py",
+      "target": "analysis/cycle5/overlap_limits/audit_overlap.py",
+      "bytes": 12092,
+      "sha256": "63ea4c1a5ed98d813d6c5ca58098278d7ef3e6bc9e3dc9b83570d692b7908019",
+      "role": "overlap_audit",
+      "required_for": [
+        "overlap_audit"
+      ]
+    },
+    {
+      "source": "work/joint_function_cycle5/coverage_resolution/simulate_coverage.py",
+      "target": "analysis/cycle5/coverage_resolution/simulate_coverage.py",
+      "bytes": 14143,
+      "sha256": "a459309154a84ed81764fb5abf8bab905b014f18cad04659b9168efc14d1f57d",
+      "role": "coverage_synthetic",
+      "required_for": [
+        "coverage_synthetic"
+      ]
+    },
+    {
+      "source": "work/joint_function_cycle5/coverage_resolution/design_v1.json",
+      "target": "analysis/cycle5/coverage_resolution/design_v1.json",
+      "bytes": 4917,
+      "sha256": "90a3e1cdeb425cbaf482df4de0ecac3c701510b0fa95e6836918428752ba5363",
+      "role": "coverage_synthetic",
+      "required_for": [
+        "coverage_synthetic"
+      ]
+    },
+    {
+      "source": "work/joint_function_cycle5/amendment_diagnostics/diagnostics.py",
+      "target": "analysis/cycle5/amendment_diagnostics/diagnostics.py",
+      "bytes": 23071,
+      "sha256": "9e0307ad72b6dd0be771dee9d886bb87e63d09ed85a7ceea5409b2e3f90f897d",
+      "role": "supplement_diagnostics",
+      "required_for": [
+        "supplement_diagnostics"
+      ],
+      "status": "v1 historical candidate, pending explicit aggregate-count correction review; not final approved diagnostic"
+    },
+    {
+      "source": "work/joint_function_cycle5/amendment_diagnostics/test_diagnostics.py",
+      "target": "analysis/cycle5/amendment_diagnostics/test_diagnostics.py",
+      "bytes": 15428,
+      "sha256": "07c54d26dcae20a6f2a436e04fb4656452722e4cb19a46bc92346bd341baf5c8",
+      "role": "supplement_diagnostics",
+      "required_for": [
+        "supplement_diagnostics"
+      ],
+      "status": "v1 historical candidate, pending explicit aggregate-count correction review; not final approved diagnostic"
+    },
+    {
+      "source": "work/joint_function_cycle5/amendment_diagnostics/README.md",
+      "target": "analysis/cycle5/amendment_diagnostics/README.md",
+      "bytes": 6503,
+      "sha256": "38c40261f039a1648f52e19fc5737e99ed0e6ce926b922c2eb681cb1b414642f",
+      "role": "supplement_diagnostics",
+      "required_for": [
+        "supplement_diagnostics"
+      ],
+      "status": "v1 historical candidate, pending explicit aggregate-count correction review; not final approved diagnostic"
+    },
+    {
+      "source": "work/joint_function_cycle5/amendment_diagnostics/synthetic_receipt.json",
+      "target": "analysis/cycle5/amendment_diagnostics/synthetic_receipt.json",
+      "bytes": 1380,
+      "sha256": "f95c88479bca2359b2a6ffe0b37ae2c6098a3a56c80ba44ebe1d149f56765f08",
+      "role": "supplement_diagnostics",
+      "required_for": [
+        "supplement_diagnostics"
+      ],
+      "status": "v1 historical candidate, pending explicit aggregate-count correction review; not final approved diagnostic"
+    },
+    {
+      "source": "work/joint_function_cycle5/amendment_diagnostics/handoff_manifest.json",
+      "target": "analysis/cycle5/amendment_diagnostics/handoff_manifest.json",
+      "bytes": 1701,
+      "sha256": "e6655e8451d9663b83e410602f1a0717ecfac11f5010b69d1f4119dfee8eb65a",
+      "role": "supplement_diagnostics",
+      "required_for": [
+        "supplement_diagnostics"
+      ],
+      "status": "v1 historical candidate, pending explicit aggregate-count correction review; not final approved diagnostic"
+    },
+    {
+      "source": "work/joint_function_cycle5/cambray_eligibility/audit_graph.py",
+      "target": "analysis/cycle5/cambray_eligibility/audit_graph.py",
+      "bytes": 10270,
+      "sha256": "5d6e59fd24f8de2c3038d4505da07364fdc40f05fd989efec3b9e0bcdbf57fb0",
+      "role": "historical_graph_metadata",
+      "required_for": [
+        "historical_graph_metadata"
+      ]
+    },
+    {
+      "source": "work/joint_function_cycle5/cambray_eligibility/check_graph.py",
+      "target": "analysis/cycle5/cambray_eligibility/check_graph.py",
+      "bytes": 5295,
+      "sha256": "f88f252d15dd62c0a3de4c8b4048a00eb25e53f5435477b92cc127d019e9f7e5",
+      "role": "historical_graph_metadata",
+      "required_for": [
+        "historical_graph_metadata"
+      ]
+    },
+    {
+      "source": "work/joint_function_cycle5/cambray_eligibility/square_design_check.py",
+      "target": "analysis/cycle5/cambray_eligibility/square_design_check.py",
+      "bytes": 5382,
+      "sha256": "db117374a027c66855ecf2ad03aa38e8c65c01b010fbe3d4b917ac7a64df63f9",
+      "role": "historical_graph_metadata",
+      "required_for": [
+        "historical_graph_metadata"
+      ]
+    },
+    {
+      "source": "work/joint_function_cycle5/cambray_eligibility/binary_faces.jsonl",
+      "target": "analysis/cycle5/cambray_eligibility/binary_faces.jsonl",
+      "bytes": 7645,
+      "sha256": "080ef22cdc207eb13e33f6d53afc30a965dc3921632a7d55589273edc0234e59",
+      "role": "historical_graph_metadata",
+      "required_for": [
+        "historical_graph_metadata"
+      ]
+    },
+    {
+      "source": "work/joint_function_cycle5/cambray_eligibility/graph_summary.json",
+      "target": "analysis/cycle5/cambray_eligibility/graph_summary.json",
+      "bytes": 3960,
+      "sha256": "d52a1f63fe97f81d8d558d5840ff347005a462019c2b80a8d31d59146d7e64b3",
+      "role": "historical_graph_metadata",
+      "required_for": [
+        "historical_graph_metadata"
+      ]
+    },
+    {
+      "source": "work/joint_function_cycle5/cambray_eligibility/graph_corroboration.json",
+      "target": "analysis/cycle5/cambray_eligibility/graph_corroboration.json",
+      "bytes": 1200,
+      "sha256": "f285c175911527430289053863dd6465e86323ae4e94bb11858767ff6847c155",
+      "role": "historical_graph_metadata",
+      "required_for": [
+        "historical_graph_metadata"
+      ]
+    },
+    {
+      "source": "work/joint_function_cycle5/cambray_eligibility/square_dependencies.json",
+      "target": "analysis/cycle5/cambray_eligibility/square_dependencies.json",
+      "bytes": 4669,
+      "sha256": "8b96cbba57e68d8aac5109cf0dc6402404007532473135aca9d7a834e2317f3a",
+      "role": "historical_graph_metadata",
+      "required_for": [
+        "historical_graph_metadata"
+      ]
+    },
+    {
+      "source": "work/joint_function_cycle5/cambray_eligibility/previously_exposed_ids.json",
+      "target": "analysis/cycle5/cambray_eligibility/previously_exposed_ids.json",
+      "bytes": 11057,
+      "sha256": "45945d50dbb4a032fd3c503a42ad979197d75118e82d4a94a6a0b603b91309c2",
+      "role": "historical_graph_metadata",
+      "required_for": [
+        "historical_graph_metadata"
+      ]
+    },
+    {
+      "source": "work/joint_function_cycle5/cambray_eligibility/extraction_receipt.json",
+      "target": "analysis/cycle5/cambray_eligibility/extraction_receipt.json",
+      "bytes": 585,
+      "sha256": "f8fdc55604c0770d3d1e2b3d69f7cb0b6253bd32cefce424f5dcce0de590cdbe",
+      "role": "historical_graph_metadata",
+      "required_for": [
+        "historical_graph_metadata"
+      ]
+    },
+    {
+      "source": "work/joint_function_cycle5/cambray_eligibility/complete_observed_allele_fibres.json",
+      "target": "analysis/cycle5/cambray_eligibility/complete_observed_allele_fibres.json",
+      "bytes": 430144,
+      "sha256": "41cf670402236d5575df7bef724769950ef2d071a80ba987b849c298d917fddb",
+      "role": "historical_graph_metadata",
+      "required_for": [
+        "historical_graph_metadata"
+      ]
+    },
+    {
+      "source": "work/joint_function_cycle5/cambray_eligibility/duplicate_sequences.json",
+      "target": "analysis/cycle5/cambray_eligibility/duplicate_sequences.json",
+      "bytes": 4,
+      "sha256": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+      "role": "historical_graph_metadata",
+      "required_for": [
+        "historical_graph_metadata"
+      ]
+    },
+    {
+      "source": "work/joint_function_cycle5/cambray_pilot_preflight/metadata_split.py",
+      "target": "analysis/cycle5/cambray_pilot_preflight/metadata_split.py",
+      "bytes": 9283,
+      "sha256": "1233fa2edc4eaafee2316c3006bf4b4605aa32c627abb328901989abe99d41d3",
+      "role": "historical_split_mask",
+      "required_for": [
+        "historical_split_mask"
+      ]
+    },
+    {
+      "source": "work/joint_function_cycle5/cambray_pilot_preflight/verify_split.py",
+      "target": "analysis/cycle5/cambray_pilot_preflight/verify_split.py",
+      "bytes": 4622,
+      "sha256": "74e5a5a3178679c954498a0b4b324b3510d1eb76883a75444edbe7a464298673",
+      "role": "historical_split_mask",
+      "required_for": [
+        "historical_split_mask"
+      ]
+    },
+    {
+      "source": "work/joint_function_cycle5/cambray_pilot_preflight/test_synthetic.py",
+      "target": "analysis/cycle5/cambray_pilot_preflight/test_synthetic.py",
+      "bytes": 10202,
+      "sha256": "a39bc9104b0f3d487ca64f790a90f83406bdc4568c6409cf9dab5eb9b8101e2c",
+      "role": "historical_split_mask",
+      "required_for": [
+        "historical_split_mask"
+      ]
+    },
+    {
+      "source": "work/joint_function_cycle5/cambray_pilot_preflight/test_masking_v2.py",
+      "target": "analysis/cycle5/cambray_pilot_preflight/test_masking_v2.py",
+      "bytes": 5246,
+      "sha256": "bc0055a9eae0ddffff33c9e9f86e1612772aa71a2f2a2d8e6985744d20ee8469",
+      "role": "historical_split_mask",
+      "required_for": [
+        "historical_split_mask"
+      ]
+    },
+    {
+      "source": "work/joint_function_cycle5/cambray_pilot_preflight/preflight_manifest.json",
+      "target": "analysis/cycle5/cambray_pilot_preflight/preflight_manifest.json",
+      "bytes": 1437,
+      "sha256": "e385e4859d0b4556577dd0ad8f0c8c9508430e32ea3c9649d26c8be9a5408eec",
+      "role": "historical_split_mask",
+      "required_for": [
+        "historical_split_mask"
+      ]
+    },
+    {
+      "source": "work/joint_function_cycle5/cambray_pilot_preflight/preflight_manifest_v1.json",
+      "target": "analysis/cycle5/cambray_pilot_preflight/preflight_manifest_v1.json",
+      "bytes": 1437,
+      "sha256": "e385e4859d0b4556577dd0ad8f0c8c9508430e32ea3c9649d26c8be9a5408eec",
+      "role": "historical_split_mask",
+      "required_for": [
+        "historical_split_mask"
+      ]
+    },
+    {
+      "source": "work/joint_function_cycle5/cambray_pilot_preflight/preflight_manifest_v2.json",
+      "target": "analysis/cycle5/cambray_pilot_preflight/preflight_manifest_v2.json",
+      "bytes": 1100,
+      "sha256": "29068cee3224ec92149abdc03fec2e7eaa8832377d3330dfe70c1b4d626a850a",
+      "role": "historical_split_mask",
+      "required_for": [
+        "historical_split_mask"
+      ]
+    },
+    {
+      "source": "work/joint_function_cycle5/cambray_pilot_preflight/split_corroboration.json",
+      "target": "analysis/cycle5/cambray_pilot_preflight/split_corroboration.json",
+      "bytes": 687,
+      "sha256": "bbe8101cfaaf90e6873b6b489d5fcee948639fc801475e537d39180220423c5a",
+      "role": "historical_split_mask",
+      "required_for": [
+        "historical_split_mask"
+      ]
+    },
+    {
+      "source": "work/joint_function_cycle5/cambray_pilot_preflight/synthetic_receipt.json",
+      "target": "analysis/cycle5/cambray_pilot_preflight/synthetic_receipt.json",
+      "bytes": 879,
+      "sha256": "8d1bad974ac23af32f5384a503ce56d77b962521663aea49d32ec4055311d753",
+      "role": "historical_split_mask",
+      "required_for": [
+        "historical_split_mask"
+      ]
+    },
+    {
+      "source": "work/joint_function_cycle5/cambray_pilot_preflight/synthetic_mask_receipt_v2.json",
+      "target": "analysis/cycle5/cambray_pilot_preflight/synthetic_mask_receipt_v2.json",
+      "bytes": 609,
+      "sha256": "9e5c48901925ee26484485ed5df7bacbaa2fe9fd22afc9b1bb9d08a4ad127f73",
+      "role": "historical_split_mask",
+      "required_for": [
+        "historical_split_mask"
+      ]
+    },
+    {
+      "source": "work/joint_function_cycle5/cambray_pilot/amendment_01_draft.md",
+      "target": "analysis/cycle5/cambray_pilot/amendment_01_draft.md",
+      "bytes": 13003,
+      "sha256": "92c5028dff57df644ad18479f79b4be2e604b7bbe7798e30cdd3dfe5a7fa94d0",
+      "role": "provenance_review",
+      "required_for": [
+        "provenance_review"
+      ]
+    },
+    {
+      "source": "work/joint_function_cycle5/cambray_eligibility/provenance.json",
+      "target": "analysis/cycle5/cambray_eligibility/provenance.json",
+      "bytes": 8271,
+      "sha256": "096dfc50b217125aa2552afa65856442569531ee1692c750e117aaca39f2133d",
+      "role": "provenance_review",
+      "required_for": [
+        "provenance_review"
+      ]
+    },
+    {
+      "source": "work/joint_function_cycle5/cambray_eligibility/column_schema.json",
+      "target": "analysis/cycle5/cambray_eligibility/column_schema.json",
+      "bytes": 2523,
+      "sha256": "998e8ca84eb41dc2c3627cc8d88a37270331e3197ae1b92105f482e4c1691126",
+      "role": "provenance_review",
+      "required_for": [
+        "provenance_review"
+      ]
+    },
+    {
+      "source": "work/joint_function_cycle5/cambray_eligibility/report.md",
+      "target": "analysis/cycle5/cambray_eligibility/report.md",
+      "bytes": 13229,
+      "sha256": "b698ac93a8e74cf51a5afda0637a8111e85fc4daef616c3634e60bd3b44a0ed7",
+      "role": "provenance_review",
+      "required_for": [
+        "provenance_review"
+      ]
+    },
+    {
+      "source": "work/joint_function_cycle5/cambray_independent_review/final_receipt.json",
+      "target": "analysis/cycle5/cambray_independent_review/final_receipt.json",
+      "bytes": 3035,
+      "sha256": "5a67d540f30cc865cab28ecc2b95d1f6b4c53207c51aa2e352028fcf43e9c22e",
+      "role": "provenance_review",
+      "required_for": [
+        "provenance_review"
+      ]
+    },
+    {
+      "source": "work/joint_function_cycle5/cambray_independent_review/reference_freeze.json",
+      "target": "analysis/cycle5/cambray_independent_review/reference_freeze.json",
+      "bytes": 711,
+      "sha256": "a6fe2fa050c10588e06300fe0cb5754450a9ee283292c2119233f6e83713eff5",
+      "role": "provenance_review",
+      "required_for": [
+        "provenance_review"
+      ]
+    },
+    {
+      "source": "work/joint_function_cycle5/cambray_independent_review/reference_freeze_v2.json",
+      "target": "analysis/cycle5/cambray_independent_review/reference_freeze_v2.json",
+      "bytes": 1277,
+      "sha256": "72ac9aa8b49276494bc3e8af7aa5b1f602777e441f155360f1c2d2201a61c9a3",
+      "role": "provenance_review",
+      "required_for": [
+        "provenance_review"
+      ]
+    },
+    {
+      "source": "work/joint_function_cycle5/cambray_independent_review/preflight_review.md",
+      "target": "analysis/cycle5/cambray_independent_review/preflight_review.md",
+      "bytes": 9984,
+      "sha256": "3b84800fe2246db769d156eab062e34f9942a3859de1766ae4820edd96d68abd",
+      "role": "provenance_review",
+      "required_for": [
+        "provenance_review"
+      ]
+    },
+    {
+      "source": "work/joint_function_cycle5/cambray_independent_review/metadata_check_v1/metadata_check.json",
+      "target": "analysis/cycle5/cambray_independent_review/metadata_check_v1/metadata_check.json",
+      "bytes": 1450,
+      "sha256": "7829614f18f5e7ec1af835f1f3edac13c19fb39e14fc31cc8249fe19ccecebb9",
+      "role": "provenance_review",
+      "required_for": [
+        "provenance_review"
+      ]
+    },
+    {
+      "source": "work/joint_function_cycle5/cambray_independent_review/staged_check_v1/receipt.json",
+      "target": "analysis/cycle5/cambray_independent_review/staged_check_v1/receipt.json",
+      "bytes": 1884,
+      "sha256": "8945548eac0ea588ff1d1f22bb8c7ff886d03ca476c524bb305033ac4f80af29",
+      "role": "provenance_review",
+      "required_for": [
+        "provenance_review"
+      ]
+    },
+    {
+      "source": "work/joint_function_cycle5/cambray_independent_review/graph_comparison_v1/comparison.json",
+      "target": "analysis/cycle5/cambray_independent_review/graph_comparison_v1/comparison.json",
+      "bytes": 958,
+      "sha256": "b75a451ab355185751488a0daca0fe4243cd4d49e84c6f74ec27cd25d3137aad",
+      "role": "provenance_review",
+      "required_for": [
+        "provenance_review"
+      ]
+    },
+    {
+      "source": "work/joint_function_cycle5/measurement_limits/report.md",
+      "target": "analysis/cycle5/measurement_limits/report.md",
+      "bytes": 15299,
+      "sha256": "1171ef7242e299214c8449ee0222b5f50f1a982bdb73b1b36169aab77d7d3740",
+      "role": "provenance_review",
+      "required_for": [
+        "provenance_review"
+      ]
+    },
+    {
+      "source": "work/joint_function_cycle5/measurement_limits/unit_map.json",
+      "target": "analysis/cycle5/measurement_limits/unit_map.json",
+      "bytes": 67300,
+      "sha256": "28e1a37883a6294d7014e3b8b43bf2bfb625267d358060232d8f3817c654f757",
+      "role": "provenance_review",
+      "required_for": [
+        "provenance_review"
+      ]
+    },
+    {
+      "source": "work/joint_function_cycle5/measurement_limits/source_manifest.json",
+      "target": "analysis/cycle5/measurement_limits/source_manifest.json",
+      "bytes": 6242,
+      "sha256": "07c2c55b55a7d911a4d54984f927b11d46d4bd764a44afb2887ce005b587d653",
+      "role": "provenance_review",
+      "required_for": [
+        "provenance_review"
+      ]
+    },
+    {
+      "source": "work/joint_function_cycle5/measurement_limits/exposure_ledger.json",
+      "target": "analysis/cycle5/measurement_limits/exposure_ledger.json",
+      "bytes": 1143,
+      "sha256": "c303a0122db8377519c9868fa1ea142b13e05d49234d270eb84731f0423a5a92",
+      "role": "provenance_review",
+      "required_for": [
+        "provenance_review"
+      ]
+    },
+    {
+      "source": "work/joint_function_cycle5/overlap_limits/report.md",
+      "target": "analysis/cycle5/overlap_limits/report.md",
+      "bytes": 8373,
+      "sha256": "6ab535da112172541f6e20e7d9de059c0bd0bbb0fcccd70654c92faf2e02018a",
+      "role": "provenance_review",
+      "required_for": [
+        "provenance_review"
+      ]
+    },
+    {
+      "source": "work/joint_function_cycle5/overlap_limits/metadata_v1/audit.json",
+      "target": "analysis/cycle5/overlap_limits/metadata_v1/audit.json",
+      "bytes": 6003,
+      "sha256": "921554236e01e0d952b6158866d9195449237cc7dfbd24758ed732c1376458c6",
+      "role": "provenance_review",
+      "required_for": [
+        "provenance_review"
+      ]
+    },
+    {
+      "source": "work/joint_function_cycle5/overlap_limits/metadata_v1/receipt.json",
+      "target": "analysis/cycle5/overlap_limits/metadata_v1/receipt.json",
+      "bytes": 1103,
+      "sha256": "47a564342650db8f3e528e8556382eb9481ad7e56a67f2d4d6016ee9e395df50",
+      "role": "provenance_review",
+      "required_for": [
+        "provenance_review"
+      ]
+    },
+    {
+      "source": "work/joint_function_cycle5/coverage_resolution/report.md",
+      "target": "analysis/cycle5/coverage_resolution/report.md",
+      "bytes": 8381,
+      "sha256": "d18a070b5072f877257a72100e5ea5f3e82f78294dfbeaa54ec0b30bafd79989",
+      "role": "provenance_review",
+      "required_for": [
+        "provenance_review"
+      ]
+    },
+    {
+      "source": "work/joint_function_cycle5/coverage_resolution/simulation_v1/receipt.json",
+      "target": "analysis/cycle5/coverage_resolution/simulation_v1/receipt.json",
+      "bytes": 1916,
+      "sha256": "2708f86c63d8b11191f9289349b1233b73d38722ae698e5a79c764379b496532",
+      "role": "provenance_review",
+      "required_for": [
+        "provenance_review"
+      ]
+    },
+    {
+      "source": "work/joint_function_cycle5/coverage_resolution/simulation_v1/results.json",
+      "target": "analysis/cycle5/coverage_resolution/simulation_v1/results.json",
+      "bytes": 160016,
+      "sha256": "63acd3854727125af664322f7de0a4ebd0db9014b07e7cc6850ed91030c40a6e",
+      "role": "provenance_review",
+      "required_for": [
+        "provenance_review"
+      ]
+    },
+    {
+      "source": "work/joint_function_cycle5/portable_handoff/README.md",
+      "target": "analysis/cycle5/portable_handoff/README.md",
+      "bytes": 12360,
+      "sha256": "9523173f714a530d2f6f9817769df83de64b90c19ae499a55d4299972cbad7af",
+      "role": "provenance_review",
+      "required_for": [
+        "provenance_review"
+      ]
+    },
+    {
+      "source": "work/joint_function_cycle5/portable_handoff/manifest.json",
+      "target": "analysis/cycle5/portable_handoff/manifest.json",
+      "bytes": 14596,
+      "sha256": "d920115f82f8ac60276246f4f00ca41d695cd0a6b15e071d86b8cf48f09b2b08",
+      "role": "provenance_review",
+      "required_for": [
+        "provenance_review"
+      ]
+    },
+    {
+      "source": "work/joint_function_cycle5/portable_handoff/development_predict_authorization.example.json",
+      "target": "analysis/cycle5/portable_handoff/development_predict_authorization.example.json",
+      "bytes": 1808,
+      "sha256": "e8495ab6ff965a95665e40fa54ff4a0a273d08e7d085e35af022eddc424bdc2e",
+      "role": "provenance_review",
+      "required_for": [
+        "provenance_review"
+      ]
+    },
+    {
+      "source": "work/joint_function_cycle5/portable_handoff/synthetic_candidate_receipt.json",
+      "target": "analysis/cycle5/portable_handoff/synthetic_candidate_receipt.json",
+      "bytes": 1384,
+      "sha256": "90f8500036821aa543c6c54e2715964ad06f8ab362d31ddcc0d4cd90e015e366",
+      "role": "provenance_review",
+      "required_for": [
+        "provenance_review"
+      ]
+    },
+    {
+      "source": "work/literature_expansion/cambray_generate_seed.py",
+      "target": "analysis/literature_expansion/cambray_generate_seed.py",
+      "bytes": 13852,
+      "sha256": "17f201c7048e4570e8d0071f9ab8047230e5e7027f8be43eabb9426f41e393d2",
+      "role": "external_author_code_copy",
+      "required_for": [
+        "historical_graph_metadata"
+      ],
+      "url": "https://osf.io/download/5y7g9/",
+      "notes": "Required at HERE.parents[1]/literature_expansion by unchanged historical graph script; preserve original hash."
+    },
+    {
+      "source": "work/joint_function_cycle5/cambray_pilot_preflight/README.md",
+      "target": "analysis/cycle5/cambray_pilot_preflight/README.md",
+      "bytes": 6407,
+      "sha256": "b543574f20b2b14b3e52bcb383f0f95ed3d86362f9ea2e777ca880a8f4c0f704",
+      "role": "historical_split_mask",
+      "required_for": [
+        "historical_split_mask"
+      ],
+      "notes": "The original README.md is a byte-pinned dependency of preflight_manifest.json, not just cosmetic documentation."
+    },
+    {
+      "source": "work/joint_function_cycle5/cambray_pilot_preflight/README_v2.md",
+      "target": "analysis/cycle5/cambray_pilot_preflight/README_v2.md",
+      "bytes": 3589,
+      "sha256": "d8d9bfd9f274afe373e01252ac673be2cd499e667bb46c3389254d9ecac1d8c8",
+      "role": "historical_split_mask",
+      "required_for": [
+        "historical_split_mask"
+      ],
+      "notes": "The original README.md is a byte-pinned dependency of preflight_manifest.json, not just cosmetic documentation."
+    }
+  ],
+  "external": [
+    {
+      "role": "primary_processed_measurement_archive",
+      "group": "external",
+      "url": "https://osf.io/download/pm2qa/",
+      "filename": "Supplementary_Data_15_Integrated_Phenotypic_Measurements.csv.zip",
+      "member": "Supplementary_Data_15_Integrated_Phenotypic_Measurements.csv",
+      "bytes": 130122456,
+      "sha256": "2758ed63e469c77b42c01e3c022452ef52ebf8d1bd4a86bd4c5b502e44b7bbc0",
+      "expected_records": 244000,
+      "access": "Only through explicitly authorized staged reader; keep external to Git",
+      "checksum_status": "Inherited authenticated receipt; archive not opened or rehashed in this task"
+    },
+    {
+      "role": "final_frozen_protocol",
+      "path": "root_supplied_relative_path",
+      "sha256": null,
+      "required_for": [
+        "authoritative_staged_execution"
+      ],
+      "status": "pending root freeze; candidate draft is not authority"
+    },
+    {
+      "role": "phase_authorizations",
+      "names": [
+        "AUTH_DEV_PREDICT.json",
+        "AUTH_DEV_EVALUATE.json",
+        "AUTH_VALIDATION_PREDICT.json",
+        "AUTH_VALIDATION_EVALUATE.json"
+      ],
+      "sha256": null,
+      "status": "Root-created per-phase/arm authorization, not present in this source handoff; use narrow lists and correct relative paths"
+    },
+    {
+      "role": "generated_prediction_stage_artifacts",
+      "names": [
+        "known_inputs.json",
+        "predictions.json",
+        "seal.json"
+      ],
+      "required_for": [
+        "each_corresponding_evaluation"
+      ],
+      "status": "Must be generated by authorized predict; preserved files must remain byte-identical next to the seal"
+    },
+    {
+      "role": "development_decision_and_report",
+      "names": [
+        "development_decision.json",
+        "development_report.json"
+      ],
+      "required_for": [
+        "reserved_validation_predict",
+        "reserved_validation_evaluate"
+      ],
+      "status": "Must be frozen after development by root, with exact protocol/report/code pins"
+    },
+    {
+      "role": "post_unseal_evaluation_artifacts",
+      "names": [
+        "evaluation.json",
+        "evaluation_receipt.json"
+      ],
+      "required_for": [
+        "supplement_diagnostics_actual_use"
+      ],
+      "status": "Future authorized outputs; do not parse while sealed"
+    }
+  ],
+  "private_or_excluded_local": [
+    {
+      "category": "credentials_and_operator_secrets",
+      "exclude_patterns": [
+        ".env",
+        ".env.*",
+        "*.pem",
+        "*.key",
+        "id_rsa*",
+        "credentials*",
+        "*token*",
+        "*secret*",
+        ".git-credentials"
+      ],
+      "status": "Not inspected; never part of computational whitelist"
+    },
+    {
+      "category": "operator_absolute_paths",
+      "examples": [
+        "local archive path in a newly created authorization"
+      ],
+      "status": "Local execution configuration; publish a portable relative/placeholder example instead of copying operator paths as mandatory dependencies"
+    },
+    {
+      "category": "sealed_or_historical_measurement_caches",
+      "exclude_paths": [
+        "work/literature_expansion/cambray_zip_head.bin",
+        "work/literature_expansion/cambray_csv_header.txt",
+        "work/joint_function_cycle5/cambray_eligibility/sources/author_integrated_measurements.zip"
+      ],
+      "status": "Not secret credentials, but outside metadata-only packaging scope; earlier prefix includes exposed phenotype fields. No content inspected."
+    }
+  ],
+  "exclude_assets": [
+    "*.pdf",
+    "*.tex",
+    "*.bib",
+    "*.bbl",
+    "*.svg",
+    "*.png",
+    "*.jpg",
+    "*.html",
+    "full_publisher_or_author_text_XML",
+    "__pycache__",
+    "*.pyc",
+    "dependency_environments",
+    "full_download_caches"
+  ],
+  "dependencies": {
+    "authoritative_execution_and_staged_synthetic_suite": {
+      "python_minimum": "3.11",
+      "tested_runtime": "CPython3.12.14 64bit Windows",
+      "third_party": [],
+      "normal_optimization_required": true,
+      "network_or_git_runtime": false,
+      "note": "file_digest requires3.11+. No cross-platform numerical byte identity demonstrated."
+    },
+    "independent_numeric_staged_metadata": {
+      "third_party": [],
+      "normal_optimization_required": true
+    },
+    "historical_sequence_reconstruction": {
+      "Biopython": "1.88"
+    },
+    "historical_split_alternate_and_linear_algebra_tests": {
+      "NumPy": "2.5.4",
+      "Biopython": "1.88"
+    },
+    "overlap_audit": {
+      "Biopython": "1.88"
+    },
+    "coverage_synthetic": {
+      "python": "3.12.14",
+      "NumPy": "2.5.4",
+      "rng": "PCG64",
+      "note": "Source checks exact configured versions."
+    },
+    "author_raw_assay_processing": {
+      "supported": false,
+      "note": "No R runtime or raw assay pipeline claimed/reconstructed by this whitelist."
+    }
+  },
+  "minimal_core_counts": {
+    "execution_modules": 3,
+    "metadata_inputs": 4,
+    "final_protocols_required": 1,
+    "synthetic_suite_file": 1,
+    "external_archive": 1
+  },
+  "all_files_must_be_copied_explicitly_not_by_recursive_work_directory_glob": true,
+  "optional_group_dependencies": {
+    "independent_numeric": [
+      "graph_rules",
+      "reference.py",
+      "primary_probe.py",
+      "compare_synthetic.py",
+      "test_reference.py"
+    ],
+    "independent_staged": [
+      "runner",
+      "graph_rules",
+      "masking",
+      "reference.py",
+      "check_staged.py"
+    ],
+    "independent_metadata": [
+      "split",
+      "mask",
+      "components",
+      "edges",
+      "sequence_metadata.tsv",
+      "annotated_squares.json",
+      "check_metadata.py"
+    ],
+    "historical_split_mask": [
+      "original protocol_draft.md",
+      "sequence_metadata.tsv",
+      "annotated_squares.json",
+      "components.jsonl",
+      "previously_exposed_ids.json",
+      "all8 preflight_manifest.json pinned files including README.md",
+      "masking_v2.py",
+      "test_masking_v2.py"
+    ],
+    "historical_graph_metadata": [
+      "sequence_metadata.tsv",
+      "components.jsonl",
+      "synonymous_edges.tsv",
+      "binary_faces.jsonl",
+      "graph_summary.json",
+      "audit_graph.py",
+      "check_graph.py",
+      "square_design_check.py",
+      "analysis/literature_expansion/cambray_generate_seed.py"
+    ],
+    "coverage_synthetic": [
+      "split",
+      "mask",
+      "simulate_coverage.py",
+      "design_v1.json with its sibling relative paths"
+    ],
+    "overlap_audit": [
+      "split",
+      "mask",
+      "components",
+      "edges",
+      "sequence_metadata.tsv",
+      "audit_overlap.py"
+    ],
+    "supplement_diagnostics": [
+      "v1 held diagnostic code/tests only for historical synthetic replay; corrected candidate must be separately pinned by root"
+    ]
+  }
+}

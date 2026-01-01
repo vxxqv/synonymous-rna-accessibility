@@ -1,0 +1,220 @@
+{
+  "squares": 47,
+  "unique_square_vertices": 181,
+  "design_seed_families": 32,
+  "square_counts_by_seed": {
+    "60": 1,
+    "25": 1,
+    "321": 1,
+    "33": 1,
+    "145": 2,
+    "277": 1,
+    "355": 2,
+    "343": 2,
+    "247": 1,
+    "359": 1,
+    "84": 1,
+    "382": 2,
+    "156": 2,
+    "2": 2,
+    "314": 1,
+    "46": 1,
+    "133": 1,
+    "71": 1,
+    "15": 2,
+    "384": 1,
+    "88": 2,
+    "44": 1,
+    "299": 1,
+    "37": 2,
+    "387": 2,
+    "20": 1,
+    "349": 2,
+    "227": 2,
+    "76": 1,
+    "117": 1,
+    "379": 2,
+    "47": 3
+  },
+  "peptide_families": 42,
+  "square_counts_per_peptide_frequency": {
+    "1": 37,
+    "2": 5
+  },
+  "synonymous_components": 43,
+  "square_counts_per_component_frequency": {
+    "1": 39,
+    "2": 4
+  },
+  "distinct_two_coordinate_contexts": 47,
+  "same_codon_squares": 0,
+  "different_codon_squares": 47,
+  "squares_whose_entire_observed_component_has_four_vertices": 10,
+  "all_seed1_excluded": true,
+  "square_independence_limit": "Different squares may share vertices, component, peptide, design seed and experimental preparation. Counts are not counts of independent biological replicates.",
+  "full_context_status": "Exact intended variable-region translation checked. Shared fixed context and codon-aligned insertion are authenticated by original methods and author code. Full physical clone genomes/backbones were not sequenced here, and Addgene full-sequence download requires login. Conditional full-ORF equality follows for any common codon-aligned fixed prefix and suffix.",
+  "synthetic_truth_table": [
+    {
+      "intermediate_trait_bits": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "joint_only_obstruction": false
+    },
+    {
+      "intermediate_trait_bits": [
+        false,
+        false,
+        false,
+        true
+      ],
+      "joint_only_obstruction": false
+    },
+    {
+      "intermediate_trait_bits": [
+        false,
+        false,
+        true,
+        false
+      ],
+      "joint_only_obstruction": false
+    },
+    {
+      "intermediate_trait_bits": [
+        false,
+        false,
+        true,
+        true
+      ],
+      "joint_only_obstruction": false
+    },
+    {
+      "intermediate_trait_bits": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "joint_only_obstruction": false
+    },
+    {
+      "intermediate_trait_bits": [
+        false,
+        true,
+        false,
+        true
+      ],
+      "joint_only_obstruction": false
+    },
+    {
+      "intermediate_trait_bits": [
+        false,
+        true,
+        true,
+        false
+      ],
+      "joint_only_obstruction": true
+    },
+    {
+      "intermediate_trait_bits": [
+        false,
+        true,
+        true,
+        true
+      ],
+      "joint_only_obstruction": false
+    },
+    {
+      "intermediate_trait_bits": [
+        true,
+        false,
+        false,
+        false
+      ],
+      "joint_only_obstruction": false
+    },
+    {
+      "intermediate_trait_bits": [
+        true,
+        false,
+        false,
+        true
+      ],
+      "joint_only_obstruction": true
+    },
+    {
+      "intermediate_trait_bits": [
+        true,
+        false,
+        true,
+        false
+      ],
+      "joint_only_obstruction": false
+    },
+    {
+      "intermediate_trait_bits": [
+        true,
+        false,
+        true,
+        true
+      ],
+      "joint_only_obstruction": false
+    },
+    {
+      "intermediate_trait_bits": [
+        true,
+        true,
+        false,
+        false
+      ],
+      "joint_only_obstruction": false
+    },
+    {
+      "intermediate_trait_bits": [
+        true,
+        true,
+        false,
+        true
+      ],
+      "joint_only_obstruction": false
+    },
+    {
+      "intermediate_trait_bits": [
+        true,
+        true,
+        true,
+        false
+      ],
+      "joint_only_obstruction": false
+    },
+    {
+      "intermediate_trait_bits": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "joint_only_obstruction": false
+    }
+  ],
+  "additive_positive_control": {
+    "trait1": [
+      1,
+      0,
+      2,
+      1
+    ],
+    "trait2": [
+      1,
+      2,
+      0,
+      1
+    ],
+    "threshold": 1,
+    "joint_only_obstruction": true
+  },
+  "identifiability_limit": "The joint-only endpoint obstruction is identifiable on a complete square, but it does not identify epistasis or an RNA mechanism. Exact additive opposing effects already suffice.",
+  "phenotype_values_decoded": 0
+}

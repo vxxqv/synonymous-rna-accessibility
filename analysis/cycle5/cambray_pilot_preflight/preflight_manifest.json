@@ -1,0 +1,47 @@
+{
+  "status": "metadata_and_synthetic_preflight_ready_for_separate_review",
+  "no_new_phenotype_values_read": true,
+  "no_repo_or_manuscript_edits": true,
+  "files": [
+    {
+      "path": "graph_rules.py",
+      "sha256": "7f901518cfc196de5d6d24c10f6f1b336255063ca8bd22d544accb6ef7b940f3",
+      "bytes": 9636
+    },
+    {
+      "path": "metadata_split.py",
+      "sha256": "1233fa2edc4eaafee2316c3006bf4b4605aa32c627abb328901989abe99d41d3",
+      "bytes": 9283
+    },
+    {
+      "path": "split_manifest.json",
+      "sha256": "394a0c1aa23785c290b31c147d199f406cf46b269daa9159a98c419398b05a4e",
+      "bytes": 46446
+    },
+    {
+      "path": "verify_split.py",
+      "sha256": "74e5a5a3178679c954498a0b4b324b3510d1eb76883a75444edbe7a464298673",
+      "bytes": 4622
+    },
+    {
+      "path": "split_corroboration.json",
+      "sha256": "bbe8101cfaaf90e6873b6b489d5fcee948639fc801475e537d39180220423c5a",
+      "bytes": 687
+    },
+    {
+      "path": "test_synthetic.py",
+      "sha256": "a39bc9104b0f3d487ca64f790a90f83406bdc4568c6409cf9dab5eb9b8101e2c",
+      "bytes": 10202
+    },
+    {
+      "path": "synthetic_receipt.json",
+      "sha256": "8d1bad974ac23af32f5384a503ce56d77b962521663aea49d32ec4055311d753",
+      "bytes": 879
+    },
+    {
+      "path": "README.md",
+      "sha256": "b543574f20b2b14b3e52bcb383f0f95ed3d86362f9ea2e777ca880a8f4c0f704",
+      "bytes": 6407
+    }
+  ]
+}

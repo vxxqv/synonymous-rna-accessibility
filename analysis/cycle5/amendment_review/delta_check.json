@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "original_reviewed_sha256": "d635d6957550e74bc4551d7f1fc14d7516a67602a58324369984785cd88fbe90",
+  "clarified_amendment_sha256": "92c5028dff57df644ad18479f79b4be2e604b7bbe7798e30cdd3dfe5a7fa94d0",
+  "changed_paragraph_lines": [
+    31,
+    38,
+    50,
+    58
+  ],
+  "only_four_requested_paragraphs_changed": true,
+  "biological_sources_opened": 0,
+  "method": "Restore the four originally reviewed paragraphs in memory and recover the exact original byte hash.",
+  "script_sha256": "0322a65f4c126f54620122ef66806287fbeacc675d5a25fed184c2c5be17ebdd"
+}

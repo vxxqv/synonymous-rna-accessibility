@@ -1,0 +1,20 @@
+{
+  "status": "passed_distinct_algorithm_corroboration",
+  "same_author_not_separate_person_review": true,
+  "same_peptide_string_pairs_checked": 3916771,
+  "exact_synonymous_edge_set_count": 20031,
+  "exact_binary_square_set_count": 47,
+  "binary_cube_count": 0,
+  "component_size_distribution_exact_match": true,
+  "phenotype_values_decoded": 0,
+  "elapsed_seconds": 8.231386700004805,
+  "hashes": {
+    "sequence_metadata.tsv": "9fcd79a97e3478c68411dee6cb853ad77e249d1d93b11bc4af58d2fcc44d4e7e",
+    "synonymous_edges.tsv": "5d7d5f3b1160d7a8338da3f39369720fdc92c6105b47efbd902eeede48a30edd",
+    "binary_faces.jsonl": "080ef22cdc207eb13e33f6d53afc30a965dc3921632a7d55589273edc0234e59",
+    "graph_summary.json": "d52a1f63fe97f81d8d558d5840ff347005a462019c2b80a8d31d59146d7e64b3",
+    "audit_graph.py": "5d6e59fd24f8de2c3038d4505da07364fdc40f05fd989efec3b9e0bcdbf57fb0",
+    "check_graph.py": "f88f252d15dd62c0a3de4c8b4048a00eb25e53f5435477b92cc127d019e9f7e5"
+  },
+  "limits": "Exact synonymous edges, binary squares, absence of cubes and components corroborated. Raw nonsynonymous edge count is not independently re-enumerated. Finite phenotype coverage remains unexamined."
+}

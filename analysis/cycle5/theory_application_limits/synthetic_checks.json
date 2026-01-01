@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "checks": {
+    "constant_projection_sharp_2epsilon": true,
+    "arbitrarily_small_noise_rank_jump": true,
+    "strict_monotone_preserves_acceptance_changes_additivity_and_rank": true,
+    "sampled_path_breaks_product_bound_full_cube_has_safe_route": true
+  },
+  "arithmetic": "exact fractions and integer Hamming graphs",
+  "scientific_data_files_read": 0,
+  "source_sha256": "e849c6ad4f7fdfd619661e8f13e3732029d4fb7093c290b36a8836e7e489f8c4",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "scope": "Displayed hypothetical examples only, not empirical application or a new proof of C5"
+}

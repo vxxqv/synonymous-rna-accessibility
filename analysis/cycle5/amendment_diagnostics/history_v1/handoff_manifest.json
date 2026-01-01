@@ -1,0 +1,45 @@
+{
+  "status": "held_synthetic_only_for_root_review",
+  "files": [
+    {
+      "file": "diagnostics.py",
+      "sha256": "9e0307ad72b6dd0be771dee9d886bb87e63d09ed85a7ceea5409b2e3f90f897d",
+      "bytes": 23071
+    },
+    {
+      "file": "README.md",
+      "sha256": "38c40261f039a1648f52e19fc5737e99ed0e6ce926b922c2eb681cb1b414642f",
+      "bytes": 6503
+    },
+    {
+      "file": "synthetic_receipt.json",
+      "sha256": "f95c88479bca2359b2a6ffe0b37ae2c6098a3a56c80ba44ebe1d149f56765f08",
+      "bytes": 1380
+    },
+    {
+      "file": "test_diagnostics.py",
+      "sha256": "07c54d26dcae20a6f2a436e04fb4656452722e4cb19a46bc92346bd341baf5c8",
+      "bytes": 15428
+    }
+  ],
+  "inputs": [
+    {
+      "path": "work/joint_function_cycle5/cambray_pilot_preflight/staged_analysis.py",
+      "sha256": "5fbdf1c0da2dcf9e53b71199b124c576945d432da5b33bbc4240c1b9bfa21ef5",
+      "role": "schema text or sequence-only metadata; no outcome file"
+    },
+    {
+      "path": "work/joint_function_cycle5/cambray_pilot_preflight/split_manifest.json",
+      "sha256": "394a0c1aa23785c290b31c147d199f406cf46b269daa9159a98c419398b05a4e",
+      "role": "schema text or sequence-only metadata; no outcome file"
+    },
+    {
+      "path": "work/joint_function_cycle5/cambray_pilot_preflight/prediction_mask_v2.json",
+      "sha256": "6e869e95b50fe21073fabfca5cda0e544b140b8e5c8a22f217b3c52394fdf3d9",
+      "role": "schema text or sequence-only metadata; no outcome file"
+    }
+  ],
+  "dependencies": "Python standard library only; no network/install/Git at runtime",
+  "actual_outcome_execution": "Not performed or authorized",
+  "ownership": "Only this directory written"
+}

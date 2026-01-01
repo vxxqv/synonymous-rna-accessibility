@@ -1,0 +1,37 @@
+{
+  "status": "v2_metadata_and_synthetic_preflight_ready",
+  "v1_preserved": true,
+  "no_phenotype_reads": true,
+  "files": [
+    {
+      "path": "preflight_manifest_v1.json",
+      "sha256": "e385e4859d0b4556577dd0ad8f0c8c9508430e32ea3c9649d26c8be9a5408eec",
+      "bytes": 1437
+    },
+    {
+      "path": "masking_v2.py",
+      "sha256": "ffbf1b1a49a9c97fe259f4a4c9777f027ec9da18025e1611a64efd7c8bdec8fe",
+      "bytes": 6101
+    },
+    {
+      "path": "test_masking_v2.py",
+      "sha256": "bc0055a9eae0ddffff33c9e9f86e1612772aa71a2f2a2d8e6985744d20ee8469",
+      "bytes": 5246
+    },
+    {
+      "path": "prediction_mask_v2.json",
+      "sha256": "6e869e95b50fe21073fabfca5cda0e544b140b8e5c8a22f217b3c52394fdf3d9",
+      "bytes": 51833
+    },
+    {
+      "path": "synthetic_mask_receipt_v2.json",
+      "sha256": "9e5c48901925ee26484485ed5df7bacbaa2fe9fd22afc9b1bb9d08a4ad127f73",
+      "bytes": 609
+    },
+    {
+      "path": "README_v2.md",
+      "sha256": "d8d9bfd9f274afe373e01252ac673be2cd499e667bb46c3389254d9ecac1d8c8",
+      "bytes": 3589
+    }
+  ]
+}

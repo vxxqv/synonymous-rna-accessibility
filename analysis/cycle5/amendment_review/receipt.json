@@ -1,0 +1,28 @@
+{
+  "verdict": "passed_after_four_verified_pre_outcome_clarifications",
+  "blocking_issues_remaining": [],
+  "initial_reviewed_amendment_sha256": "d635d6957550e74bc4551d7f1fc14d7516a67602a58324369984785cd88fbe90",
+  "initial_hash_guard": "Correctly stopped finalization when root applied the requested delta; no stale receipt was written.",
+  "input_hashes_verified_at_close": {
+    "cambray_pilot/amendment_01_draft.md": "92c5028dff57df644ad18479f79b4be2e604b7bbe7798e30cdd3dfe5a7fa94d0",
+    "cambray_pilot/protocol_draft.md": "9becbd723fac30ac12ad9e95d5fb80cb69b5bd93c99210668e0479a24879adde",
+    "measurement_limits/report.md": "1171ef7242e299214c8449ee0222b5f50f1a982bdb73b1b36169aab77d7d3740",
+    "overlap_limits/report.md": "6ab535da112172541f6e20e7d9de059c0bd0bbb0fcccd70654c92faf2e02018a",
+    "coverage_resolution/report.md": "d18a070b5072f877257a72100e5ea5f3e82f78294dfbeaa54ec0b30bafd79989",
+    "theory_application_limits/applicability.md": "50316f3e19a90e3075831cecac6055cffeae15a547197841cb3f2b965c1d1e93",
+    "resolution_theory_review/review.md": "0300c433afcfc2c593a346ed00966683a8805ff2205d4b3da439624a1e1d3e86"
+  },
+  "owned_files_sha256": {
+    "delta_check.json": "1d24d5756576b32f6d483ba9362ff9ab6a1b3ce777d00872dd15837d0f1facb7",
+    "delta_close.md": "3a6b1a894f891189e88879f5148b21bf1dd96183881794121393fcb614c0d3f7",
+    "review.md": "51cf228a2c3c2f05f0d1ce78482e6f85b511a34d91ef7bc33ab583b152d64d1a",
+    "verify_delta.py": "0322a65f4c126f54620122ef66806287fbeacc675d5a25fed184c2c5be17ebdd"
+  },
+  "only_four_requested_paragraphs_changed": true,
+  "biological_outcome_sources_opened": 0,
+  "shared_sources_edited": false,
+  "primary_endpoint_or_success_changes_detected": false,
+  "new_fitted_model_added": false,
+  "supplemental_code_review": "required separately",
+  "outcome_execution_authorized_by_this_review": false
+}

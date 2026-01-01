@@ -1,0 +1,121 @@
+{
+  "status": "examples_only_no_execution",
+  "working_directory": "relocated computational repository root",
+  "python": "An already available compatible interpreter; tested CPython3.12.14; no runtime install",
+  "optimization": "Never -O/-OO or PYTHONOPTIMIZE. Historical unguarded scripts require a separate explicit non-assert guard in disposable tree.",
+  "commands": [
+    {
+      "stage": "authoritative_module_synthetic_suite",
+      "authorized_now_by_this_inventory": false,
+      "command": "python -B analysis/cycle5/cambray_pilot_preflight/synthetic_reader_tests.py",
+      "requires": [
+        "the three sibling execution modules",
+        "writable disposable source copy"
+      ],
+      "writes": "Temporary synthetic folders next to suite source; removes them; no biological source input"
+    },
+    {
+      "stage": "independent_reference_tests",
+      "command": "python -B analysis/cycle5/cambray_independent_review/test_reference.py",
+      "requires": [
+        "reference.py sibling"
+      ],
+      "writes": "No persistent scientific output"
+    },
+    {
+      "stage": "independent_numeric_compare",
+      "command": "python -B analysis/cycle5/cambray_independent_review/compare_synthetic.py --primary analysis/cycle5/cambray_pilot_preflight/graph_rules.py --out REPLAY_ROOT/new_numeric",
+      "requires": [
+        "reference.py and primary_probe.py siblings",
+        "exact held graph_rules hash"
+      ],
+      "writes": "Fresh output directory only"
+    },
+    {
+      "stage": "independent_staged_reader_challenge",
+      "command": "python -B analysis/cycle5/cambray_independent_review/check_staged.py --primary analysis/cycle5/cambray_pilot_preflight/staged_analysis.py --out REPLAY_ROOT/new_staged",
+      "requires": [
+        "reference.py sibling",
+        "three sibling primary modules",
+        "writable review source copy"
+      ],
+      "writes": "Fresh output plus temporary synthetic folders next to reviewer source"
+    },
+    {
+      "stage": "independent_metadata_check",
+      "command": "python -B analysis/cycle5/cambray_independent_review/check_metadata.py --preflight analysis/cycle5/cambray_pilot_preflight --eligibility analysis/cycle5/cambray_eligibility --out REPLAY_ROOT/new_metadata",
+      "requires": [
+        "six exact sequence/split files listed in whitelist"
+      ],
+      "writes": "Fresh output only; no phenotype reads"
+    },
+    {
+      "stage": "overlap_audit",
+      "command": "python -B analysis/cycle5/overlap_limits/audit_overlap.py --split analysis/cycle5/cambray_pilot_preflight/split_manifest.json --mask analysis/cycle5/cambray_pilot_preflight/prediction_mask_v2.json --components analysis/cycle5/cambray_eligibility/components.jsonl --sequences analysis/cycle5/cambray_eligibility/sequence_metadata.tsv --edges analysis/cycle5/cambray_eligibility/synonymous_edges.tsv --output REPLAY_ROOT/new_overlap",
+      "requires": [
+        "Biopython1.88",
+        "five pinned metadata files"
+      ],
+      "writes": "Fresh output only"
+    },
+    {
+      "stage": "hypothetical_coverage",
+      "command": "python -B analysis/cycle5/coverage_resolution/simulate_coverage.py --design analysis/cycle5/coverage_resolution/design_v1.json --output REPLAY_ROOT/new_coverage",
+      "requires": [
+        "CPython3.12.14",
+        "NumPy2.5.4",
+        "split/mask at design-relative sibling paths"
+      ],
+      "writes": "Fresh output only; hypothetical draws, not phenotype power"
+    },
+    {
+      "stage": "supplement_diagnostics_v1_synthetic_history",
+      "command": "python -I -B analysis/cycle5/amendment_diagnostics/test_diagnostics.py",
+      "requires": [
+        "diagnostics.py sibling"
+      ],
+      "status": "Historical v1 synthetic replay only; root reports correction pending; not approved actual use"
+    },
+    {
+      "stage": "development_predict",
+      "command": "python -B analysis/cycle5/cambray_pilot_preflight/staged_analysis.py predict --authorization AUTH_DEV_PREDICT.json --root REPOSITORY_ROOT --arm development --output REPLAY_ROOT/new_dev_predict",
+      "requires": [
+        "root authorization",
+        "final protocol",
+        "nine hash-pinned roles including external source ZIP"
+      ],
+      "authorized_now_by_this_inventory": false
+    },
+    {
+      "stage": "development_evaluate",
+      "command": "python -B analysis/cycle5/cambray_pilot_preflight/staged_analysis.py evaluate --authorization AUTH_DEV_EVALUATE.json --root REPOSITORY_ROOT --arm development --output REPLAY_ROOT/new_dev_evaluate",
+      "requires": [
+        "root authorization after prediction seal",
+        "preserve known_inputs.json,predictions.json,seal.json together"
+      ],
+      "authorized_now_by_this_inventory": false
+    },
+    {
+      "stage": "reserved_predict",
+      "command": "python -B analysis/cycle5/cambray_pilot_preflight/staged_analysis.py predict --authorization AUTH_VALIDATION_PREDICT.json --root REPOSITORY_ROOT --arm reserved_validation --output REPLAY_ROOT/new_reserved_predict",
+      "requires": [
+        "root decision permitting validation",
+        "frozen development report/decision",
+        "unchanged code/protocol hashes"
+      ],
+      "authorized_now_by_this_inventory": false
+    },
+    {
+      "stage": "reserved_evaluate",
+      "command": "python -B analysis/cycle5/cambray_pilot_preflight/staged_analysis.py evaluate --authorization AUTH_VALIDATION_EVALUATE.json --root REPOSITORY_ROOT --arm reserved_validation --output REPLAY_ROOT/new_reserved_evaluate",
+      "requires": [
+        "root authorization after reserved prediction seal",
+        "same frozen development report/decision"
+      ],
+      "authorized_now_by_this_inventory": false
+    }
+  ],
+  "historical_guard_pattern": "python -B -c \"import sys,runpy; sys.flags.optimize == 0 or sys.exit('Optimization refused'); sys.path.insert(0,'analysis/cycle5/cambray_pilot_preflight'); runpy.run_path('analysis/cycle5/cambray_pilot_preflight/test_synthetic.py',run_name='__main__')\"",
+  "historical_guard_limitation": "Use only in fresh disposable full sibling tree. It does not supply missing inputs or prevent script-defined overwrites.",
+  "raw_author_processing_replay": "Not provided or claimed"
+}

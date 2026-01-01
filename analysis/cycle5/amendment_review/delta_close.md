@@ -1,0 +1,11 @@
+# Clarification delta and final verdict
+
+Final verdict: **PASS for the amendment at SHA256 `92c5028dff57df644ad18479f79b4be2e604b7bbe7798e30cdd3dfe5a7fa94d0`**, with no outstanding blocking prose/methodology issue.
+
+The original focused review remains unchanged in `review.md`, addressing the earlier draft SHA256 `d635d6957550e74bc4551d7f1fc14d7516a67602a58324369984785cd88fbe90`. During receipt finalization the root applied its requested clarifications; the original-hash check stopped rather than certifying changed input. The final check is restricted to the declared delta, not a new scientific review.
+
+All four requested paragraphs were inspected directly. Line38 now explicitly states positive m, nonnegative epsilon, opposite endpoints00/11, the full eight-coordinate Cartesian error box and recomputed endpoint minima. Weak ties retain their existing convention. Line50 explicitly says genotype-aligned profiles and denies culture pairing. Line58 confines the current material to B/D/E and requires extra authenticated evidence for A or calibration/practical margin for C. Line31 preserves null deletion values, reports available counts and limits extrema to available values. The supplemental implementation must serialize all-unavailable extrema as null under its separate review.
+
+`verify_delta.py` replaces only those four new paragraphs with their original text in memory and recovers the exact original file hash. Consequently no other byte changed between these two reviewed amendment revisions. `delta_check.json` records the matching hashes and unchanged final source. The preserved protocol remains SHA256 `9becbd723fac30ac12ad9e95d5fb80cb69b5bd93c99210668e0479a24879adde`.
+
+The primary endpoint, all sequence-selected units, masks, split, source columns, prediction formulas and decisive success criteria remain intact. Added diagnostics cannot be substituted for a favorable primary result. The author-preprocessed within-library scope and missing biological calibration remain explicit. This pass does not certify the separately reviewed supplemental code, authenticate historical exposure, or authorize outcome execution. No biological outcome source was opened and no shared file was edited by this reviewer.

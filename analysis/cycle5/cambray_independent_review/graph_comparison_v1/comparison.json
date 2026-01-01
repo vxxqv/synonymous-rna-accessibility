@@ -1,0 +1,22 @@
+{
+  "status": "passed",
+  "counts": {
+    "point": 13122,
+    "interval": 625,
+    "projection": 81,
+    "prediction": 108,
+    "geometry": 81,
+    "preparations": 1
+  },
+  "threshold_boundary_probes": 2916,
+  "total_primary_invocations": 14018,
+  "input_hashes_before_after_equal": {
+    "graph_rules.py": "7f901518cfc196de5d6d24c10f6f1b336255063ca8bd22d544accb6ef7b940f3",
+    "reference.py": "64a5e9040a77d81dc779583d1d3ea5894a5aebd5718dbf3466281803f48ce375",
+    "primary_probe.py": "1bdfb2f3f8fcc4b8d1f112293873f69319da496dc5905daf588182b7d94fd683",
+    "compare_synthetic.py": "59882a864a93bff50d2d709b09918bde2d9bfae76b8645d39baa5e75259dd1ca"
+  },
+  "independence": "Reference imports no primary implementation. Primary API executes in an isolated probe process after reference freeze.",
+  "scope": "Synthetic values only; no assay archive, arm values or observed result files opened.",
+  "elapsed_seconds": 1.0835076000075787
+}

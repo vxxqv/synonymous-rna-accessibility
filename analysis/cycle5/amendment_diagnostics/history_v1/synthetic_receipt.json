@@ -1,0 +1,50 @@
+{
+  "status": "synthetic_only_pass",
+  "tests_run": 14,
+  "tests_passed": 14,
+  "failures": 0,
+  "errors": 0,
+  "command": "python -I -B test_diagnostics.py",
+  "runtime": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "new_phenotype_or_actual_evaluation_reads": 0,
+  "author_numeric_imports": false,
+  "initial_run": {
+    "tests": 12,
+    "passed": 12
+  },
+  "final_run": {
+    "tests": 14,
+    "passed": 14
+  },
+  "hand_known_answers": {
+    "scored_cases": 17,
+    "contributing_groups": 15,
+    "selected_groups": 16,
+    "distinct_targets": 16,
+    "case_balanced_MAE": "97/45",
+    "target_balanced_MAE": "67/30",
+    "case_balanced_RMSE": "sqrt(259/45)",
+    "target_balanced_RMSE": "sqrt(6.6)",
+    "raw_joint_only_fraction": "5/34",
+    "equal_group_joint_only_fraction": "1/18"
+  },
+  "defensive_checks": [
+    "hash",
+    "arm",
+    "split provenance",
+    "runner schema pin",
+    "overwrite",
+    "optimization flags",
+    "duplicate JSON keys",
+    "nonfinite constants",
+    "foreign/missing/duplicate square IDs",
+    "group/seed",
+    "endpoint truth",
+    "shared target observed identity",
+    "stored loss arithmetic",
+    "12 preparation scenarios",
+    "preserved preparation consistency"
+  ],
+  "input_artifacts_unchanged_by_tests": true,
+  "biological_execution_authorized": false
+}

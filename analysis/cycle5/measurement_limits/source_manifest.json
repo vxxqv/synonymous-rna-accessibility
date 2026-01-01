@@ -1,0 +1,194 @@
+{
+  "scope": "source text and sequence-only metadata, no phenotype archive reads",
+  "inputs": [
+    {
+      "role": "latest_user_request",
+      "path": "C:/Users/VIVAAN/.codex/attachments/fcf7d57a-d2b0-4ce4-97e6-6d7ff6013c99/Pasted text.txt",
+      "bytes": 13360,
+      "sha256": "689c1a71c1c2303d37c22660643a43cda415cd35a4c7cd6cc5ac742abb29e215"
+    },
+    {
+      "role": "eligibility_report",
+      "path": "work/joint_function_cycle5/cambray_eligibility/report.md",
+      "bytes": 13229,
+      "sha256": "b698ac93a8e74cf51a5afda0637a8111e85fc4daef616c3634e60bd3b44a0ed7"
+    },
+    {
+      "role": "prior_provenance",
+      "path": "work/joint_function_cycle5/cambray_eligibility/provenance.json",
+      "bytes": 8271,
+      "sha256": "096dfc50b217125aa2552afa65856442569531ee1692c750e117aaca39f2133d"
+    },
+    {
+      "role": "protein_processing",
+      "path": "work/joint_function_cycle5/cambray_eligibility/sources/protein_processing.R",
+      "bytes": 14815,
+      "sha256": "3df877ca06e0579bd5a2312e25eb6d05bd491c03436ff4de9e2a94ed5a97ccd2"
+    },
+    {
+      "role": "growth_processing",
+      "path": "work/joint_function_cycle5/cambray_eligibility/sources/growth_processing.R",
+      "bytes": 23371,
+      "sha256": "995365639e76a96bc854036aa202a2e713651e0a399870b7d08291e8437b49c5"
+    },
+    {
+      "role": "column_names_only",
+      "path": "work/joint_function_cycle5/cambray_eligibility/column_schema.json",
+      "bytes": 2523,
+      "sha256": "998e8ca84eb41dc2c3627cc8d88a37270331e3197ae1b92105f482e4c1691126"
+    },
+    {
+      "role": "square_dependencies",
+      "path": "work/joint_function_cycle5/cambray_eligibility/square_dependencies.json",
+      "bytes": 4669,
+      "sha256": "8b96cbba57e68d8aac5109cf0dc6402404007532473135aca9d7a834e2317f3a"
+    },
+    {
+      "role": "split",
+      "path": "work/joint_function_cycle5/cambray_pilot_preflight/split_manifest.json",
+      "bytes": 46446,
+      "sha256": "394a0c1aa23785c290b31c147d199f406cf46b269daa9159a98c419398b05a4e"
+    },
+    {
+      "role": "mask",
+      "path": "work/joint_function_cycle5/cambray_pilot_preflight/prediction_mask_v2.json",
+      "bytes": 51833,
+      "sha256": "6e869e95b50fe21073fabfca5cda0e544b140b8e5c8a22f217b3c52394fdf3d9"
+    },
+    {
+      "role": "mask_readme",
+      "path": "work/joint_function_cycle5/cambray_pilot_preflight/README_v2.md",
+      "bytes": 3589,
+      "sha256": "d8d9bfd9f274afe373e01252ac673be2cd499e667bb46c3389254d9ecac1d8c8"
+    },
+    {
+      "role": "draft_protocol",
+      "path": "work/joint_function_cycle5/cambray_pilot/protocol_draft.md",
+      "bytes": 17280,
+      "sha256": "9becbd723fac30ac12ad9e95d5fb80cb69b5bd93c99210668e0479a24879adde"
+    },
+    {
+      "role": "independent_preflight_receipt",
+      "path": "work/joint_function_cycle5/cambray_independent_review/final_receipt.json",
+      "bytes": 3035,
+      "sha256": "5a67d540f30cc865cab28ecc2b95d1f6b4c53207c51aa2e352028fcf43e9c22e"
+    },
+    {
+      "role": "protocol_review",
+      "path": "work/joint_function_cycle5/cambray_protocol_review/review.md",
+      "bytes": 18606,
+      "sha256": "305695f36c1ee4440088b00ded00432cc47d2961d12e2f8b248f5722fb9acd6d"
+    }
+  ],
+  "source_anchors": {
+    "protein_processing": {
+      "url": "https://osf.io/download/jz2x4/",
+      "lines": {
+        "bin_count_correction": [
+          13,
+          20
+        ],
+        "regular_prep_selection_and_mode": [
+          124,
+          139
+        ],
+        "scaling_filtering_quantile_normalization": [
+          148,
+          178
+        ],
+        "transformation_clipping_summary": [
+          186,
+          214
+        ],
+        "same_input_column_reuse": [
+          199,
+          199
+        ],
+        "output_names": [
+          218,
+          222
+        ]
+      }
+    },
+    "growth_processing": {
+      "url": "https://osf.io/download/6n7zg/",
+      "lines": {
+        "selected_source_count_columns": [
+          11,
+          11
+        ],
+        "low_count_filter_and_composition": [
+          24,
+          40
+        ],
+        "relative_growth_formula": [
+          46,
+          49
+        ],
+        "shared_initial_frequency": [
+          111,
+          111
+        ],
+        "generation_calibration": [
+          131,
+          173
+        ],
+        "three_R60_calculations": [
+          175,
+          181
+        ],
+        "shared_global_rescaling": [
+          224,
+          231
+        ],
+        "output_names": [
+          282,
+          290
+        ]
+      }
+    },
+    "paper_author_version": {
+      "doi": "10.1038/nbt.4238",
+      "url": "https://www.researchgate.net/publication/327851502_Evaluation_of_244000_synthetic_sequences_reveals_design_principles_to_optimize_translation_in_Escherichia_coli",
+      "access": "Public author-uploaded article/supplement fulltext via web reader",
+      "methods_anchors": {
+        "FACS_prep_and_instrument": [
+          4192,
+          4240
+        ],
+        "tags_pooling": [
+          4253,
+          4286
+        ],
+        "growth_founder_lines": [
+          4511,
+          4522
+        ],
+        "growth_library_barcodes": [
+          4635,
+          4650
+        ],
+        "followup_population": [
+          4774,
+          4783
+        ]
+      },
+      "response_bytes_supplied": false,
+      "sha256": null,
+      "limitation": "No invented fulltext-byte hash; source code and earlier report hashes retained separately."
+    }
+  },
+  "inherited_archive_pin_not_rehashed": {
+    "sha256": "2758ed63e469c77b42c01e3c022452ef52ebf8d1bd4a86bd4c5b502e44b7bbc0",
+    "source": "prior_provenance",
+    "archive_not_opened": true
+  },
+  "root_status_confirmation": "Root trusted message: no development predict/evaluate or validation biological command run; all real cycle5 phenotype fields unparsed",
+  "scientific_actions_not_performed": [
+    "No phenotype table or ZIP contents",
+    "No raw count values",
+    "No code execution from author scripts",
+    "No uncertainty or phenotype model fit",
+    "No pipeline repair or protocol amendment"
+  ]
+}

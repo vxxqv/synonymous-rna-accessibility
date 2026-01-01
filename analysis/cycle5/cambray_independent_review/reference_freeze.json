@@ -1,0 +1,16 @@
+{
+  "status": "independent_reference_frozen_before_primary_source_review",
+  "files": {
+    "reference.py": "9c25a2f554316f310103d973f182cf188004981376ac027d4267ad3e935a43de",
+    "test_reference.py": "568cb22352a3808eb9c7a6a572e06f98665a26b23c9dc562aac9e0d0b84fb0a5"
+  },
+  "tests_passed": 12,
+  "critical_cell_direct_checks": 2916,
+  "phenotype_reads": 0,
+  "primary_implementation_imports": 0,
+  "primary_graph_rules_read_before_this_freeze": false,
+  "software": {
+    "python": "3.12.14"
+  },
+  "scope": "Independent protocol implementation, synthetic verification only. One fixture expectation was corrected after its opposite corner was misassigned; reference formulas were unchanged."
+}

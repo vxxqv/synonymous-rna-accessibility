@@ -1,0 +1,70 @@
+{
+  "schema": "independent_C5_proof_review_v1",
+  "created_utc": "2026-10-25T13:53:28.365193+00:00",
+  "primary_verdict": "proved as written under stated and inherited hypotheses",
+  "reviewer": "separately authored with inherited context, not blinded or external",
+  "source_pins": {
+    "claim_and_proof.md": "d5ef26923060fd587bb35b0c2d03d6ae39c34fda1e9a967f87e723e00d5cadb1",
+    "prior_map.md": "252e2ba00b776e5feabe24f91a074dbe09100bf99430a3d548b593d8df9e1b30"
+  },
+  "source_pins_unchanged_at_completion": true,
+  "all_supplied_examples_passed": 10,
+  "additional_boundary_checks": 6,
+  "author_implementation_imported_or_executed": false,
+  "shared_sources_edited": false,
+  "new_biological_outcomes_read": false,
+  "general_proof_basis": "Verified classical arbitrary-norm Steinitz leaf, independently reconstructed dummy-prefix and local-box implications; finite checks not proof",
+  "integration_clarifications": [
+    "C5.3 explicitly inherits Cartesian product/connected factor/box hypotheses",
+    "C5.2 margin must be inward coordinate inequalities at every finite bound",
+    "C5.3 uniform error domain must be the complete declared graph/component",
+    "Only a certified full-graph lower obstruction can reject the conjunction of assumptions"
+  ],
+  "files": [
+    {
+      "path": "ambrus2026.html",
+      "sha256": "f2253a9bb6ed031473df06dfafaaaaa06be7818ead0c0f9c63819beebc12cbea",
+      "bytes": 5584
+    },
+    {
+      "path": "barany2024.pdf",
+      "sha256": "058e7a921097b4b3f08f534d75d3a95b477a77685c8cb6b2fd3c74bd17444f63",
+      "bytes": 124107
+    },
+    {
+      "path": "cardinal2018.html",
+      "sha256": "f29982e233d6066a1bc978886e90515bf34eee9e615c98a33a9d7fef0562a7b9",
+      "bytes": 323923
+    },
+    {
+      "path": "check_examples.py",
+      "sha256": "570fe2dc7d539190eb277b9dd5bbb2d3269672821b78d2713139df2697a4098f",
+      "bytes": 6441
+    },
+    {
+      "path": "checks.json",
+      "sha256": "0cf387cf1ba1752735ccb3bbdc6eafa8190b108edc61071cb93291ecfae1d8c7",
+      "bytes": 6846
+    },
+    {
+      "path": "ito_erratum.pdf",
+      "sha256": "ad6739f032c0928d93f6e08cbdc5121f8ea75c0d538688adbdec55337468b310",
+      "bytes": 211409
+    },
+    {
+      "path": "review.md",
+      "sha256": "559036a4f3571ce2aeadebfe8e59f49773b45b00aa7c770ca003c288acc90d37",
+      "bytes": 14338
+    },
+    {
+      "path": "source_receipts.json",
+      "sha256": "6314db8a4e9a50be2dbb2500c62e67d1456a2d221d82e7b4e9405c9386f43ece",
+      "bytes": 1454
+    }
+  ],
+  "local_source_access_limits": [
+    "Ambrus2026localGET403 is preserved as an error body; source-reader framework was available",
+    "No1980original-language fulltext review",
+    "Not every ancillary prior-map source was freshly re-audited"
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "status": "ready_for_fresh_adversarial_review",
+  "baseline_repository_revision": "a2cd60afb96be6bd3b11ffc1c692471f979f3251",
+  "review_status": "author derivation/self-review, not independently audited",
+  "claims": [
+    "C5.1 rank/codon-excursion bound",
+    "C5.2 margin corollary",
+    "C5.3 uniform-error corollary"
+  ],
+  "novelty_status": "formal corollary, no global priority claim",
+  "finite_execution": "passed; ten fixtures and729effect matrices, exact rational arithmetic",
+  "inputs": "No biological outcomes; primary literature and current mathematical definitions only.",
+  "files": {
+    "claim_and_proof.md": {
+      "sha256": "d5ef26923060fd587bb35b0c2d03d6ae39c34fda1e9a967f87e723e00d5cadb1",
+      "bytes": 15378
+    },
+    "prior_map.md": {
+      "sha256": "252e2ba00b776e5feabe24f91a074dbe09100bf99430a3d548b593d8df9e1b30",
+      "bytes": 11515
+    },
+    "verify_finite.py": {
+      "sha256": "91b6dcc72627fe78b50ae5516cd3934d81b924f5e15281903ed787bc916cc619",
+      "bytes": 11000
+    },
+    "oracle_examples.json": {
+      "sha256": "62c48c80f25cdbfa824281258817ce99c9900439a3a2f14b1904f36517211b07",
+      "bytes": 15822
+    },
+    "README.md": {
+      "sha256": "c67d2d3240178118de3793e01c8a0a425d0c0b4ee17383ca726c26a4fd0a264f",
+      "bytes": 2968
+    },
+    "finite_run_v1/results.json": {
+      "sha256": "91214e9453b06520ee85d7c1bf4d9a6e6b27c9de1981e468a1cb7bdf691df973",
+      "bytes": 8830
+    },
+    "finite_run_v1/manifest.json": {
+      "sha256": "03c41ff44b73b17ca1852563c9be30247fb4ebb8d0a64dcf1f8fa3ff5a54ac3c",
+      "bytes": 1269
+    }
+  }
+}

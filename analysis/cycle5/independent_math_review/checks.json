@@ -1,0 +1,268 @@
+{
+  "status": "passed",
+  "source_pins": {
+    "claim_and_proof.md": "d5ef26923060fd587bb35b0c2d03d6ae39c34fda1e9a967f87e723e00d5cadb1",
+    "prior_map.md": "252e2ba00b776e5feabe24f91a074dbe09100bf99430a3d548b593d8df9e1b30"
+  },
+  "oracle_examples_sha256": "62c48c80f25cdbfa824281258817ce99c9900439a3a2f14b1904f36517211b07",
+  "implementation": "Exact Fraction min/max Floyd, cross-checked by critical-level traversal; author verify_finite.py not imported or executed",
+  "examples": [
+    {
+      "name": "Leu local eta essential at rank0",
+      "vertex_count": 6,
+      "edge_count": 9,
+      "computed_R": "3",
+      "expected_R": "3",
+      "minmax_Floyd_and_threshold_agree": true,
+      "complete_induced_hamming_edges_checked": true,
+      "critical_levels": [
+        "0",
+        "3"
+      ],
+      "endpoint_violations": [
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "Ser different base components",
+      "vertex_count": 6,
+      "edge_count": 7,
+      "computed_R": "infinity",
+      "expected_R": "infinity",
+      "minmax_Floyd_and_threshold_agree": true,
+      "complete_induced_hamming_edges_checked": true,
+      "critical_levels": [
+        "0"
+      ],
+      "endpoint_violations": [
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "rank1 sharp lower-bound conflict",
+      "vertex_count": 4,
+      "edge_count": 4,
+      "computed_R": "1",
+      "expected_R": "1",
+      "minmax_Floyd_and_threshold_agree": true,
+      "complete_induced_hamming_edges_checked": true,
+      "critical_levels": [
+        "0",
+        "1"
+      ],
+      "endpoint_violations": [
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "rational scaled effects",
+      "vertex_count": 4,
+      "edge_count": 4,
+      "computed_R": "1/3",
+      "expected_R": "1/3",
+      "minmax_Floyd_and_threshold_agree": true,
+      "complete_induced_hamming_edges_checked": true,
+      "critical_levels": [
+        "0",
+        "1/3",
+        "1/2"
+      ],
+      "endpoint_violations": [
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "background detour beats endpoint orders",
+      "vertex_count": 8,
+      "edge_count": 12,
+      "computed_R": "0",
+      "expected_R": "0",
+      "minmax_Floyd_and_threshold_agree": true,
+      "complete_induced_hamming_edges_checked": true,
+      "critical_levels": [
+        "0",
+        "1"
+      ],
+      "endpoint_violations": [
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "coupling invalidates product bound",
+      "vertex_count": 7,
+      "edge_count": 8,
+      "computed_R": "2",
+      "expected_R": "2",
+      "minmax_Floyd_and_threshold_agree": true,
+      "complete_induced_hamming_edges_checked": true,
+      "critical_levels": [
+        "0",
+        "1",
+        "2"
+      ],
+      "endpoint_violations": [
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "weak plateau versus strict",
+      "vertex_count": 6,
+      "edge_count": 9,
+      "computed_R": "0",
+      "expected_R": "0",
+      "minmax_Floyd_and_threshold_agree": true,
+      "complete_induced_hamming_edges_checked": true,
+      "critical_levels": [
+        "0"
+      ],
+      "endpoint_violations": [
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "interval equality defeats alignment",
+      "vertex_count": 4,
+      "edge_count": 4,
+      "computed_R": "1",
+      "expected_R": "1",
+      "minmax_Floyd_and_threshold_agree": true,
+      "complete_induced_hamming_edges_checked": true,
+      "critical_levels": [
+        "0",
+        "1"
+      ],
+      "endpoint_violations": [
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "coincident endpoints",
+      "vertex_count": 4,
+      "edge_count": 4,
+      "computed_R": "0",
+      "expected_R": "0",
+      "minmax_Floyd_and_threshold_agree": true,
+      "complete_induced_hamming_edges_checked": true,
+      "critical_levels": [
+        "0",
+        "1"
+      ],
+      "endpoint_violations": [
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "uniform-error coefficient2 sharp",
+      "vertex_count": 6,
+      "edge_count": 9,
+      "computed_R": "1/2",
+      "expected_R": "1/2",
+      "minmax_Floyd_and_threshold_agree": true,
+      "complete_induced_hamming_edges_checked": true,
+      "critical_levels": [
+        "0",
+        "1/2"
+      ],
+      "endpoint_violations": [
+        "0",
+        "0"
+      ]
+    }
+  ],
+  "additional_boundary_checks": [
+    {
+      "name": "margin 0",
+      "vertex_count": 4,
+      "edge_count": 4,
+      "computed_R": "1",
+      "expected_R": "1",
+      "minmax_Floyd_and_threshold_agree": true,
+      "complete_induced_hamming_edges_checked": true,
+      "critical_levels": [
+        "0",
+        "1"
+      ],
+      "endpoint_violations": [
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "margin 1/4",
+      "vertex_count": 4,
+      "edge_count": 4,
+      "computed_R": "3/4",
+      "expected_R": "3/4",
+      "minmax_Floyd_and_threshold_agree": true,
+      "complete_induced_hamming_edges_checked": true,
+      "critical_levels": [
+        "0",
+        "3/4"
+      ],
+      "endpoint_violations": [
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "margin 1",
+      "vertex_count": 4,
+      "edge_count": 4,
+      "computed_R": "0",
+      "expected_R": "0",
+      "minmax_Floyd_and_threshold_agree": true,
+      "complete_induced_hamming_edges_checked": true,
+      "critical_levels": [
+        "0"
+      ],
+      "endpoint_violations": [
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "margin 2",
+      "vertex_count": 4,
+      "edge_count": 4,
+      "computed_R": "0",
+      "expected_R": "0",
+      "minmax_Floyd_and_threshold_agree": true,
+      "complete_induced_hamming_edges_checked": true,
+      "critical_levels": [
+        "0"
+      ],
+      "endpoint_violations": [
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "endpoint box is larger than endpoint segment",
+      "eta_box": "0",
+      "distance_infinity_to_segment": "1/2",
+      "intermediate_outside_endpoint_effect_span": true
+    },
+    {
+      "name": "sharp global approximation coefficient",
+      "epsilon": "1/4",
+      "constant_model_rank": 0,
+      "constant_model_M": "0",
+      "constant_model_eta": "0",
+      "true_R": "1/2",
+      "equals_2epsilon": true
+    }
+  ],
+  "limitations": [
+    "Finite checks corroborate examples only; no finite verification is offered as proof of C5.1-C5.3.",
+    "Nucleotide synonymy application uses the explicitly declared standard-code domains; Hamming checks alone do not authenticate a biological clone."
+  ]
+}

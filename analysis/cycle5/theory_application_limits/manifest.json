@@ -1,0 +1,24 @@
+{
+  "status": "applicability_audit_complete",
+  "source_hashes_verified_at_close": {
+    "joint_math/claim_and_proof.md": "d5ef26923060fd587bb35b0c2d03d6ae39c34fda1e9a967f87e723e00d5cadb1",
+    "independent_math_review/review.md": "559036a4f3571ce2aeadebfe8e59f49773b45b00aa7c770ca003c288acc90d37",
+    "independent_math_review/manifest.json": "c3ed9a1383fe8816ee7313698d5fc44a65bd552084ccdfe7961da8e2fbffb6c7",
+    "cambray_pilot/protocol_draft.md": "9becbd723fac30ac12ad9e95d5fb80cb69b5bd93c99210668e0479a24879adde",
+    "cambray_eligibility/report.md": "b698ac93a8e74cf51a5afda0637a8111e85fc4daef616c3634e60bd3b44a0ed7",
+    "cambray_eligibility/graph_summary.json": "d52a1f63fe97f81d8d558d5840ff347005a462019c2b80a8d31d59146d7e64b3",
+    "cambray_pilot_preflight/split_manifest.json": "394a0c1aa23785c290b31c147d199f406cf46b269daa9159a98c419398b05a4e"
+  },
+  "owned_file_hashes": {
+    "applicability.md": "50316f3e19a90e3075831cecac6055cffeae15a547197841cb3f2b965c1d1e93",
+    "synthetic_checks.json": "31ed1185fbb94d7051082da7a9ea960125ae9dc990c0ee843a10cba0abee7151",
+    "verify_hypotheticals.py": "e849c6ad4f7fdfd619661e8f13e3732029d4fb7093c290b36a8836e7e489f8c4"
+  },
+  "biological_outcome_sources_read": 0,
+  "models_fitted": 0,
+  "general_theorem_reproved": false,
+  "review_status": "Focused application audit by original proof author, relying on separately authored prior mathematical review. Not a fresh independent re-proof.",
+  "verdict": "Valid post-seal Q2 description and conditional theoretical control; unsupported as independent prediction/latent calibration/full-sampled-component guarantee.",
+  "synthetic_checks": "4 exact hypothetical examples pass",
+  "command": "work/env/Scripts/python.exe work/joint_function_cycle5/theory_application_limits/verify_hypotheticals.py; refuses overwriting its receipt"
+}

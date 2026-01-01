@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "tests_run": 5,
+  "failures": 0,
+  "errors": 0,
+  "outcome_scope": "Synthetic values and existing sequence metadata only",
+  "original_v1_artifacts_preserved": true,
+  "hashes": {
+    "masking_v2.py": "ffbf1b1a49a9c97fe259f4a4c9777f027ec9da18025e1611a64efd7c8bdec8fe",
+    "test_masking_v2.py": "bc0055a9eae0ddffff33c9e9f86e1612772aa71a2f2a2d8e6985744d20ee8469",
+    "prediction_mask_v2.json": "6e869e95b50fe21073fabfca5cda0e544b140b8e5c8a22f217b3c52394fdf3d9",
+    "preflight_manifest_v1.json": "e385e4859d0b4556577dd0ad8f0c8c9508430e32ea3c9649d26c8be9a5408eec"
+  }
+}

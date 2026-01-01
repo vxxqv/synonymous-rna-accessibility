@@ -1,0 +1,552 @@
+{
+  "status": "static_inventory_complete",
+  "old_manifest_pin_checks": [
+    {
+      "source": "cambray_pilot/protocol_draft.md",
+      "exists": true,
+      "hash_matches": true
+    },
+    {
+      "source": "cambray_pilot_preflight/split_manifest.json",
+      "exists": true,
+      "hash_matches": true
+    },
+    {
+      "source": "cambray_pilot_preflight/prediction_mask_v2.json",
+      "exists": true,
+      "hash_matches": true
+    },
+    {
+      "source": "cambray_eligibility/components.jsonl",
+      "exists": true,
+      "hash_matches": true
+    },
+    {
+      "source": "cambray_eligibility/synonymous_edges.tsv",
+      "exists": true,
+      "hash_matches": true
+    },
+    {
+      "source": "cambray_pilot_preflight/graph_rules.py",
+      "exists": true,
+      "hash_matches": true
+    },
+    {
+      "source": "cambray_pilot_preflight/masking_v2.py",
+      "exists": true,
+      "hash_matches": true
+    },
+    {
+      "source": "cambray_pilot_preflight/staged_analysis.py",
+      "exists": true,
+      "hash_matches": true
+    },
+    {
+      "source": "cambray_eligibility/sequence_metadata.tsv",
+      "exists": true,
+      "hash_matches": true
+    },
+    {
+      "source": "cambray_eligibility/annotated_squares.json",
+      "exists": true,
+      "hash_matches": true
+    },
+    {
+      "source": "cambray_eligibility/binary_faces.jsonl",
+      "exists": true,
+      "hash_matches": true
+    },
+    {
+      "source": "cambray_eligibility/previously_exposed_ids.json",
+      "exists": true,
+      "hash_matches": true
+    },
+    {
+      "source": "cambray_eligibility/graph_summary.json",
+      "exists": true,
+      "hash_matches": true
+    },
+    {
+      "source": "cambray_eligibility/graph_corroboration.json",
+      "exists": true,
+      "hash_matches": true
+    },
+    {
+      "source": "cambray_eligibility/square_dependencies.json",
+      "exists": true,
+      "hash_matches": true
+    },
+    {
+      "source": "cambray_eligibility/extraction_receipt.json",
+      "exists": true,
+      "hash_matches": true
+    },
+    {
+      "source": "cambray_eligibility/column_schema.json",
+      "exists": true,
+      "hash_matches": true
+    },
+    {
+      "source": "cambray_eligibility/provenance.json",
+      "exists": true,
+      "hash_matches": true
+    },
+    {
+      "source": "cambray_eligibility/eligibility_decision.json",
+      "exists": true,
+      "hash_matches": true
+    },
+    {
+      "source": "cambray_eligibility/final_manifest.json",
+      "exists": true,
+      "hash_matches": true
+    },
+    {
+      "source": "cambray_eligibility/report.md",
+      "exists": true,
+      "hash_matches": true
+    },
+    {
+      "source": "cambray_eligibility/closest_prior.md",
+      "exists": true,
+      "hash_matches": true
+    },
+    {
+      "source": "cambray_eligibility/audit_graph.py",
+      "exists": true,
+      "hash_matches": true
+    },
+    {
+      "source": "cambray_eligibility/check_graph.py",
+      "exists": true,
+      "hash_matches": true
+    },
+    {
+      "source": "cambray_eligibility/square_design_check.py",
+      "exists": true,
+      "hash_matches": true
+    },
+    {
+      "source": "cambray_eligibility/recover_sequences.py",
+      "exists": true,
+      "hash_matches": true
+    },
+    {
+      "source": "cambray_eligibility/finalize_receipt.py",
+      "exists": true,
+      "hash_matches": true
+    },
+    {
+      "source": "cambray_pilot_preflight/metadata_split.py",
+      "exists": true,
+      "hash_matches": true
+    },
+    {
+      "source": "cambray_pilot_preflight/verify_split.py",
+      "exists": true,
+      "hash_matches": true
+    },
+    {
+      "source": "cambray_pilot_preflight/test_synthetic.py",
+      "exists": true,
+      "hash_matches": true
+    },
+    {
+      "source": "cambray_pilot_preflight/test_masking_v2.py",
+      "exists": true,
+      "hash_matches": true
+    },
+    {
+      "source": "cambray_pilot_preflight/synthetic_reader_tests.py",
+      "exists": true,
+      "hash_matches": true
+    },
+    {
+      "source": "cambray_pilot_preflight/preflight_manifest.json",
+      "exists": true,
+      "hash_matches": true
+    },
+    {
+      "source": "cambray_pilot_preflight/preflight_manifest_v1.json",
+      "exists": true,
+      "hash_matches": true
+    },
+    {
+      "source": "cambray_pilot_preflight/preflight_manifest_v2.json",
+      "exists": true,
+      "hash_matches": true
+    },
+    {
+      "source": "cambray_pilot_preflight/split_corroboration.json",
+      "exists": true,
+      "hash_matches": true
+    },
+    {
+      "source": "cambray_pilot_preflight/synthetic_receipt.json",
+      "exists": true,
+      "hash_matches": true
+    },
+    {
+      "source": "cambray_pilot_preflight/synthetic_mask_receipt_v2.json",
+      "exists": true,
+      "hash_matches": true
+    },
+    {
+      "source": "cambray_pilot_preflight/README.md",
+      "exists": true,
+      "hash_matches": true
+    },
+    {
+      "source": "cambray_pilot_preflight/README_v2.md",
+      "exists": true,
+      "hash_matches": true
+    },
+    {
+      "source": "portable_handoff/isolated_synthetic_replay/graph_rules.py",
+      "exists": true,
+      "hash_matches": true
+    },
+    {
+      "source": "portable_handoff/isolated_synthetic_replay/masking_v2.py",
+      "exists": true,
+      "hash_matches": true
+    },
+    {
+      "source": "portable_handoff/isolated_synthetic_replay/staged_analysis.py",
+      "exists": true,
+      "hash_matches": true
+    },
+    {
+      "source": "portable_handoff/isolated_synthetic_replay/synthetic_reader_tests.py",
+      "exists": true,
+      "hash_matches": true
+    }
+  ],
+  "all_old_pins_match": true,
+  "limited_secret_pattern_scan": [
+    {
+      "source": "work/joint_function_cycle5/cambray_pilot_preflight/staged_analysis.py",
+      "matched_pattern_names": []
+    },
+    {
+      "source": "work/joint_function_cycle5/cambray_pilot_preflight/graph_rules.py",
+      "matched_pattern_names": []
+    },
+    {
+      "source": "work/joint_function_cycle5/cambray_pilot_preflight/masking_v2.py",
+      "matched_pattern_names": []
+    },
+    {
+      "source": "work/joint_function_cycle5/cambray_pilot_preflight/split_manifest.json",
+      "matched_pattern_names": []
+    },
+    {
+      "source": "work/joint_function_cycle5/cambray_pilot_preflight/prediction_mask_v2.json",
+      "matched_pattern_names": []
+    },
+    {
+      "source": "work/joint_function_cycle5/cambray_pilot/protocol_draft.md",
+      "matched_pattern_names": []
+    },
+    {
+      "source": "work/joint_function_cycle5/cambray_pilot_preflight/synthetic_reader_tests.py",
+      "matched_pattern_names": []
+    },
+    {
+      "source": "work/joint_function_cycle5/cambray_independent_review/reference.py",
+      "matched_pattern_names": []
+    },
+    {
+      "source": "work/joint_function_cycle5/cambray_independent_review/test_reference.py",
+      "matched_pattern_names": []
+    },
+    {
+      "source": "work/joint_function_cycle5/cambray_independent_review/compare_synthetic.py",
+      "matched_pattern_names": []
+    },
+    {
+      "source": "work/joint_function_cycle5/cambray_independent_review/primary_probe.py",
+      "matched_pattern_names": []
+    },
+    {
+      "source": "work/joint_function_cycle5/cambray_independent_review/check_staged.py",
+      "matched_pattern_names": []
+    },
+    {
+      "source": "work/joint_function_cycle5/cambray_independent_review/check_metadata.py",
+      "matched_pattern_names": []
+    },
+    {
+      "source": "work/joint_function_cycle5/cambray_eligibility/annotated_squares.json",
+      "matched_pattern_names": []
+    },
+    {
+      "source": "work/joint_function_cycle5/overlap_limits/audit_overlap.py",
+      "matched_pattern_names": []
+    },
+    {
+      "source": "work/joint_function_cycle5/coverage_resolution/simulate_coverage.py",
+      "matched_pattern_names": []
+    },
+    {
+      "source": "work/joint_function_cycle5/coverage_resolution/design_v1.json",
+      "matched_pattern_names": []
+    },
+    {
+      "source": "work/joint_function_cycle5/amendment_diagnostics/diagnostics.py",
+      "matched_pattern_names": []
+    },
+    {
+      "source": "work/joint_function_cycle5/amendment_diagnostics/test_diagnostics.py",
+      "matched_pattern_names": []
+    },
+    {
+      "source": "work/joint_function_cycle5/amendment_diagnostics/README.md",
+      "matched_pattern_names": []
+    },
+    {
+      "source": "work/joint_function_cycle5/amendment_diagnostics/synthetic_receipt.json",
+      "matched_pattern_names": []
+    },
+    {
+      "source": "work/joint_function_cycle5/amendment_diagnostics/handoff_manifest.json",
+      "matched_pattern_names": []
+    },
+    {
+      "source": "work/joint_function_cycle5/cambray_eligibility/audit_graph.py",
+      "matched_pattern_names": []
+    },
+    {
+      "source": "work/joint_function_cycle5/cambray_eligibility/check_graph.py",
+      "matched_pattern_names": []
+    },
+    {
+      "source": "work/joint_function_cycle5/cambray_eligibility/square_design_check.py",
+      "matched_pattern_names": []
+    },
+    {
+      "source": "work/joint_function_cycle5/cambray_eligibility/graph_summary.json",
+      "matched_pattern_names": []
+    },
+    {
+      "source": "work/joint_function_cycle5/cambray_eligibility/graph_corroboration.json",
+      "matched_pattern_names": []
+    },
+    {
+      "source": "work/joint_function_cycle5/cambray_eligibility/square_dependencies.json",
+      "matched_pattern_names": []
+    },
+    {
+      "source": "work/joint_function_cycle5/cambray_eligibility/previously_exposed_ids.json",
+      "matched_pattern_names": []
+    },
+    {
+      "source": "work/joint_function_cycle5/cambray_eligibility/extraction_receipt.json",
+      "matched_pattern_names": []
+    },
+    {
+      "source": "work/joint_function_cycle5/cambray_eligibility/complete_observed_allele_fibres.json",
+      "matched_pattern_names": []
+    },
+    {
+      "source": "work/joint_function_cycle5/cambray_eligibility/duplicate_sequences.json",
+      "matched_pattern_names": []
+    },
+    {
+      "source": "work/joint_function_cycle5/cambray_pilot_preflight/metadata_split.py",
+      "matched_pattern_names": []
+    },
+    {
+      "source": "work/joint_function_cycle5/cambray_pilot_preflight/verify_split.py",
+      "matched_pattern_names": []
+    },
+    {
+      "source": "work/joint_function_cycle5/cambray_pilot_preflight/test_synthetic.py",
+      "matched_pattern_names": []
+    },
+    {
+      "source": "work/joint_function_cycle5/cambray_pilot_preflight/test_masking_v2.py",
+      "matched_pattern_names": []
+    },
+    {
+      "source": "work/joint_function_cycle5/cambray_pilot_preflight/preflight_manifest.json",
+      "matched_pattern_names": []
+    },
+    {
+      "source": "work/joint_function_cycle5/cambray_pilot_preflight/preflight_manifest_v1.json",
+      "matched_pattern_names": []
+    },
+    {
+      "source": "work/joint_function_cycle5/cambray_pilot_preflight/preflight_manifest_v2.json",
+      "matched_pattern_names": []
+    },
+    {
+      "source": "work/joint_function_cycle5/cambray_pilot_preflight/split_corroboration.json",
+      "matched_pattern_names": []
+    },
+    {
+      "source": "work/joint_function_cycle5/cambray_pilot_preflight/synthetic_receipt.json",
+      "matched_pattern_names": []
+    },
+    {
+      "source": "work/joint_function_cycle5/cambray_pilot_preflight/synthetic_mask_receipt_v2.json",
+      "matched_pattern_names": []
+    },
+    {
+      "source": "work/joint_function_cycle5/cambray_pilot/amendment_01_draft.md",
+      "matched_pattern_names": []
+    },
+    {
+      "source": "work/joint_function_cycle5/cambray_eligibility/provenance.json",
+      "matched_pattern_names": []
+    },
+    {
+      "source": "work/joint_function_cycle5/cambray_eligibility/column_schema.json",
+      "matched_pattern_names": []
+    },
+    {
+      "source": "work/joint_function_cycle5/cambray_eligibility/report.md",
+      "matched_pattern_names": []
+    },
+    {
+      "source": "work/joint_function_cycle5/cambray_independent_review/final_receipt.json",
+      "matched_pattern_names": []
+    },
+    {
+      "source": "work/joint_function_cycle5/cambray_independent_review/reference_freeze.json",
+      "matched_pattern_names": []
+    },
+    {
+      "source": "work/joint_function_cycle5/cambray_independent_review/reference_freeze_v2.json",
+      "matched_pattern_names": []
+    },
+    {
+      "source": "work/joint_function_cycle5/cambray_independent_review/preflight_review.md",
+      "matched_pattern_names": []
+    },
+    {
+      "source": "work/joint_function_cycle5/cambray_independent_review/metadata_check_v1/metadata_check.json",
+      "matched_pattern_names": []
+    },
+    {
+      "source": "work/joint_function_cycle5/cambray_independent_review/staged_check_v1/receipt.json",
+      "matched_pattern_names": []
+    },
+    {
+      "source": "work/joint_function_cycle5/cambray_independent_review/graph_comparison_v1/comparison.json",
+      "matched_pattern_names": []
+    },
+    {
+      "source": "work/joint_function_cycle5/measurement_limits/report.md",
+      "matched_pattern_names": []
+    },
+    {
+      "source": "work/joint_function_cycle5/measurement_limits/unit_map.json",
+      "matched_pattern_names": []
+    },
+    {
+      "source": "work/joint_function_cycle5/measurement_limits/source_manifest.json",
+      "matched_pattern_names": []
+    },
+    {
+      "source": "work/joint_function_cycle5/measurement_limits/exposure_ledger.json",
+      "matched_pattern_names": []
+    },
+    {
+      "source": "work/joint_function_cycle5/overlap_limits/report.md",
+      "matched_pattern_names": []
+    },
+    {
+      "source": "work/joint_function_cycle5/overlap_limits/metadata_v1/audit.json",
+      "matched_pattern_names": []
+    },
+    {
+      "source": "work/joint_function_cycle5/overlap_limits/metadata_v1/receipt.json",
+      "matched_pattern_names": []
+    },
+    {
+      "source": "work/joint_function_cycle5/coverage_resolution/report.md",
+      "matched_pattern_names": []
+    },
+    {
+      "source": "work/joint_function_cycle5/coverage_resolution/simulation_v1/receipt.json",
+      "matched_pattern_names": []
+    },
+    {
+      "source": "work/joint_function_cycle5/coverage_resolution/simulation_v1/results.json",
+      "matched_pattern_names": []
+    },
+    {
+      "source": "work/joint_function_cycle5/portable_handoff/README.md",
+      "matched_pattern_names": []
+    },
+    {
+      "source": "work/joint_function_cycle5/portable_handoff/manifest.json",
+      "matched_pattern_names": []
+    },
+    {
+      "source": "work/joint_function_cycle5/portable_handoff/development_predict_authorization.example.json",
+      "matched_pattern_names": []
+    },
+    {
+      "source": "work/joint_function_cycle5/portable_handoff/synthetic_candidate_receipt.json",
+      "matched_pattern_names": []
+    },
+    {
+      "source": "work/literature_expansion/cambray_generate_seed.py",
+      "matched_pattern_names": []
+    },
+    {
+      "source": "work/joint_function_cycle5/cambray_pilot_preflight/README.md",
+      "matched_pattern_names": []
+    },
+    {
+      "source": "work/joint_function_cycle5/cambray_pilot_preflight/README_v2.md",
+      "matched_pattern_names": []
+    }
+  ],
+  "secret_pattern_matches": 0,
+  "not_a_secret_absence_guarantee": true,
+  "credential_files_not_opened": true,
+  "archive_not_opened_or_rehashed": true,
+  "new_synthetic_or_biological_execution": false,
+  "portable_handoff_folder_is_complete_execution_bundle": false,
+  "assembled_core_files_exist_in_current_workspace": true,
+  "final_protocol_authorizations_and_actual_phase_artifacts_pending": true,
+  "historical_mask_pin_dependency_closure": [
+    {
+      "input": "cambray_pilot_preflight/graph_rules.py",
+      "whitelisted": true
+    },
+    {
+      "input": "cambray_pilot_preflight/metadata_split.py",
+      "whitelisted": true
+    },
+    {
+      "input": "cambray_pilot_preflight/split_manifest.json",
+      "whitelisted": true
+    },
+    {
+      "input": "cambray_pilot_preflight/verify_split.py",
+      "whitelisted": true
+    },
+    {
+      "input": "cambray_pilot_preflight/split_corroboration.json",
+      "whitelisted": true
+    },
+    {
+      "input": "cambray_pilot_preflight/test_synthetic.py",
+      "whitelisted": true
+    },
+    {
+      "input": "cambray_pilot_preflight/synthetic_receipt.json",
+      "whitelisted": true
+    },
+    {
+      "input": "cambray_pilot_preflight/README.md",
+      "whitelisted": true
+    }
+  ],
+  "mask_pin_closure_complete": true,
+  "diagnostic_v1_status": "Historical pinned inventory; root notified exact aggregate-count correction pending, so no actual diagnostic use approved."
+}

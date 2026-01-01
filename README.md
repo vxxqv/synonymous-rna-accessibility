@@ -6,6 +6,10 @@ Author: Vivaan Patni, Independent Researcher. Contact: contact.vpatni@gmail.com.
 
 This repository contains the computational workflow, input provenance, exact verification cases, derived data, and reproducibility documentation. Manuscripts and journal submission materials are maintained separately.
 
+### Current measured-function feasibility protocol
+
+`analysis/cycle5/README.md` documents the frozen joint-function pilot on 47 intended-synonymous four-genotype designs. Its protocol, explicit uncertainty amendment, global target masks, independent implementation checks and source-provenance limits are committed before new outcomes are accessed. The source archive remains external to Git and is checksum pinned. This is an author-preprocessed within-library holdout, not independent biological replication. All 12 deposited-series scenarios, source-mean gates, failed prediction criteria, observed-component bounds and group influence diagnostics are prescribed in advance. Original draft states and the initially incomplete diagnostic revision remain as historical records; `cambray_pilot/protocol_v1.md` and `freeze_v1.json` identify the authoritative specification.
+
 ## Scientific scope
 
 Compatibility, folding-model admissibility, measured RNA structure, and organismal fitness are distinct. Disconnection is reported only for completely enumerated domains or a proved structural invariant. All counts use exact integers. Native mappings must match the reference assembly used in the source study. A sampled graph is never treated as proof of disconnection.

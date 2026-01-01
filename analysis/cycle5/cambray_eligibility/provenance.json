@@ -1,0 +1,203 @@
+{
+  "authenticated_author_code": [
+    {
+      "path": "literature_expansion\\cambray_parameters.py",
+      "url": "https://osf.io/download/r6b5n/",
+      "sha256": "b34fff427af010dad89bce029ee24e6ed0c2b3b3270a7ac20e859baff7093315",
+      "bytes": 1388,
+      "official_inventory_hash_match": true,
+      "used_as": "code text only, never executed"
+    },
+    {
+      "path": "literature_expansion\\cambray_generate_seed.py",
+      "url": "https://osf.io/download/5y7g9/",
+      "sha256": "17f201c7048e4570e8d0071f9ab8047230e5e7027f8be43eabb9426f41e393d2",
+      "bytes": 13852,
+      "official_inventory_hash_match": true,
+      "used_as": "code text only, never executed"
+    },
+    {
+      "path": "literature_expansion\\cambray_structure_windows.R",
+      "url": "https://osf.io/download/bam4d/",
+      "sha256": "c6cec7f4122d8c549b06b289de774681d2758dc1261d3b0f1788ef58b88e8143",
+      "bytes": 3912,
+      "official_inventory_hash_match": true,
+      "used_as": "code text only, never executed"
+    },
+    {
+      "path": "literature_expansion\\cambray_rbs_baseline.py",
+      "url": "https://osf.io/download/jxzfg/",
+      "sha256": "efa2ae41e56f13f03536e0ed7c65ab06e017d8c05acbe92883c8f6e2b8991642",
+      "bytes": 7299,
+      "official_inventory_hash_match": true,
+      "used_as": "code text only, never executed"
+    },
+    {
+      "path": "joint_function_cycle5\\cambray_eligibility\\sources\\protein_processing.R",
+      "url": "https://osf.io/download/jz2x4/",
+      "sha256": "3df877ca06e0579bd5a2312e25eb6d05bd491c03436ff4de9e2a94ed5a97ccd2",
+      "bytes": 14815,
+      "official_inventory_hash_match": true,
+      "used_as": "code text only, never executed"
+    },
+    {
+      "path": "joint_function_cycle5\\cambray_eligibility\\sources\\growth_processing.R",
+      "url": "https://osf.io/download/6n7zg/",
+      "sha256": "995365639e76a96bc854036aa202a2e713651e0a399870b7d08291e8437b49c5",
+      "bytes": 23371,
+      "official_inventory_hash_match": true,
+      "used_as": "code text only, never executed"
+    },
+    {
+      "path": "joint_function_cycle5\\cambray_eligibility\\sources\\rna_processing.R",
+      "url": "https://osf.io/download/h4wx2/",
+      "sha256": "815971d9046fc9b4b1f24904e148c49ac6d13727a04c239ee4b5221091168b6b",
+      "bytes": 11092,
+      "official_inventory_hash_match": true,
+      "used_as": "code text only, never executed"
+    },
+    {
+      "path": "joint_function_cycle5\\cambray_eligibility\\sources\\polysome_processing.R",
+      "url": "https://osf.io/download/mbzw6/",
+      "sha256": "ac0435f015c72b1f611aaa57472244901fdd088b2648d33aa283865114e89ed6",
+      "bytes": 2426,
+      "official_inventory_hash_match": true,
+      "used_as": "code text only, never executed"
+    }
+  ],
+  "saved_sources": [
+    {
+      "path": "sources\\archive_download.json",
+      "bytes": 1014,
+      "sha256": "a59342bc5b919ba51ae23a39e8e328e96c39ee436b64e9e07c5ac53f0626d263"
+    },
+    {
+      "path": "sources\\author_integrated_measurements.zip",
+      "bytes": 130122456,
+      "sha256": "2758ed63e469c77b42c01e3c022452ef52ebf8d1bd4a86bd4c5b502e44b7bbc0"
+    },
+    {
+      "path": "sources\\growth_processing.R",
+      "bytes": 23371,
+      "sha256": "995365639e76a96bc854036aa202a2e713651e0a399870b7d08291e8437b49c5"
+    },
+    {
+      "path": "sources\\osf_data_inventory.json",
+      "bytes": 79051,
+      "sha256": "c8ecf8f36de5edaad617b21fb0e40f931e12721a67aaf837b3ab30229a5d19bf"
+    },
+    {
+      "path": "sources\\osf_list_of_files.txt",
+      "bytes": 12942,
+      "sha256": "e0a10302b12cbdd3a526c473df5c919032ba6c2501bf4471b898388682b5a07f"
+    },
+    {
+      "path": "sources\\osf_read_me.txt",
+      "bytes": 750,
+      "sha256": "234d1faf4cef89bbe5bed4bbdfd95d4c63a8f848cbbb2f94ac26e18b6d713a02"
+    },
+    {
+      "path": "sources\\osf_root_inventory.json",
+      "bytes": 11144,
+      "sha256": "c24a54038baa2d311d8ec556e8f1c94b2ddcb392c00476ac7438f85df9e225dd"
+    },
+    {
+      "path": "sources\\polysome_processing.R",
+      "bytes": 2426,
+      "sha256": "ac0435f015c72b1f611aaa57472244901fdd088b2648d33aa283865114e89ed6"
+    },
+    {
+      "path": "sources\\protein_processing.R",
+      "bytes": 14815,
+      "sha256": "3df877ca06e0579bd5a2312e25eb6d05bd491c03436ff4de9e2a94ed5a97ccd2"
+    },
+    {
+      "path": "sources\\rna_processing.R",
+      "bytes": 11092,
+      "sha256": "815971d9046fc9b4b1f24904e148c49ac6d13727a04c239ee4b5221091168b6b"
+    },
+    {
+      "path": "sources\\small_download_manifest.json",
+      "bytes": 5530,
+      "sha256": "b9ca7644db066a1bb0d2c31d4c0103a104a2ca93aabc91eec1f93ebdf3dfb4ff"
+    }
+  ],
+  "web_primary_sources": [
+    {
+      "id": "Cambray2018",
+      "url": "https://doi.org/10.1038/nbt.4238",
+      "alternate_original_fulltext": "https://www.researchgate.net/publication/327851502_Evaluation_of_244000_synthetic_sequences_reveals_design_principles_to_optimize_translation_in_Escherichia_coli",
+      "coverage": "Original full article, online methods, Supplementary Note1 and relevant figure captions",
+      "content_sha256": null,
+      "reason": "web-only retrieval; publisher blocked; cached cambray_article.html is challenge text, not article"
+    },
+    {
+      "id": "Cambray2017preprint",
+      "url": "https://doi.org/10.1101/209098",
+      "coverage": "original published abstract/indexed author version; same study, not replication",
+      "content_sha256": null
+    },
+    {
+      "id": "Goodman2013",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24072823/",
+      "doi": "10.1126/science.1241934",
+      "coverage": "original abstract and library context in Frumkin original methods",
+      "content_sha256": null
+    },
+    {
+      "id": "Frumkin2017",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5506554/",
+      "doi": "10.1016/j.molcel.2016.11.007",
+      "coverage": "Original article, methods and figure captions",
+      "content_sha256": null
+    },
+    {
+      "id": "Frumkin2021correction",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34087180/",
+      "doi": "10.1016/j.molcel.2021.05.007",
+      "coverage": "Metadata only. Official fulltext failed and publisher403; content unavailable",
+      "content_sha256": null
+    },
+    {
+      "id": "Walsh2020",
+      "url": "https://www.pnas.org/doi/10.1073/pnas.1907126117",
+      "coverage": "Original article, mechanistic perturbation results and assay methods",
+      "content_sha256": null
+    },
+    {
+      "id": "Yang2024",
+      "url": "https://www.pnas.org/doi/pdf/10.1073/pnas.2316834121",
+      "coverage": "Original abstract and design/results overview. PDF flags correction, scope not audited",
+      "content_sha256": null
+    },
+    {
+      "id": "Addgene113408",
+      "url": "https://www.addgene.org/113408/",
+      "coverage": "Public reporter/backbone/insertion metadata; full sequence requires login",
+      "content_sha256": null
+    },
+    {
+      "id": "Addgene113409",
+      "url": "https://www.addgene.org/113409/",
+      "coverage": "Public reporter metadata; full sequence requires login",
+      "content_sha256": null
+    }
+  ],
+  "exposure_ledger": {
+    "new_phenotype_values_decoded_in_cycle5": 0,
+    "new_phenotype_models_or_summaries": 0,
+    "previous_raw_prefix_complete_records": 503,
+    "exact_ids_file": "previously_exposed_ids.json",
+    "conservative_exclusion": "All4,374seed1 designs and any matching32aa peptide identities",
+    "seed1_peptide_exclusion_expands_beyond_seed1": false,
+    "previous_exposures": [
+      "Earlier prefix pilot decoded complete CSV rows for503designs and examined protein finite-coverage on29synonymous edges.",
+      "Cached csv_header.txt includes one complete phenotype row already in those503IDs."
+    ],
+    "published_exposures": [
+      "Original Cambray article, figure summaries and supplementary numerical summaries.",
+      "Primary related studies and their published aggregate findings."
+    ],
+    "validation_label_limit": "No source-independent biological validation claimed. Any untouched records remain in the same previously published library and source preprocessing."
+  }
+}

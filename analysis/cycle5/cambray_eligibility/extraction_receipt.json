@@ -1,0 +1,18 @@
+{
+  "status": "sequence_only_extracted",
+  "archive_sha256": "2758ed63e469c77b42c01e3c022452ef52ebf8d1bd4a86bd4c5b502e44b7bbc0",
+  "records": 244000,
+  "zip_csv": "Supplementary_Data_15_Integrated_Phenotypic_Measurements.csv",
+  "previously_exposed_rows": 503,
+  "prior_prefix_exactly_matches_archive": true,
+  "phenotype_values_decoded": 0,
+  "decoded_columns": [
+    "ID",
+    "seed",
+    "combi",
+    "rep",
+    "gs.sequence"
+  ],
+  "poison_suffix_test": "passed",
+  "sequence_metadata_sha256": "9fcd79a97e3478c68411dee6cb853ad77e249d1d93b11bc4af58d2fcc44d4e7e"
+}

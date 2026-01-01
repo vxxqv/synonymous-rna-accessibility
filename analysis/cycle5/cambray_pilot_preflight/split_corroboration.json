@@ -1,0 +1,20 @@
+{
+  "status": "pass",
+  "squares": 47,
+  "diagonals": 94,
+  "square_vertices": 181,
+  "component_vertices": 289,
+  "coordinate_and_component_checks": "Exact coordinate distances and deposited graph components independently checked",
+  "relatedness_checks": {
+    "selected_pairs": 851,
+    "seed1_pairs": 117726,
+    "maximum_matches_selected": 7,
+    "maximum_matches_exposed": 7
+  },
+  "distinct_algorithm_same_analyst": true,
+  "phenotype_values_decoded": 0,
+  "hashes": {
+    "split_manifest.json": "394a0c1aa23785c290b31c147d199f406cf46b269daa9159a98c419398b05a4e",
+    "verify_split.py": "74e5a5a3178679c954498a0b4b324b3510d1eb76883a75444edbe7a464298673"
+  }
+}

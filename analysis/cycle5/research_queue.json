@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "current_priority": "resolve_joint_function_pilot_limitations",
+  "items": [
+    {
+      "id": "limitations_resolution",
+      "state": "active",
+      "requires": ["reader_review", "experimental_unit_map", "overlap_audit", "uncertainty_identifiability", "synthetic_resolution", "explicit_pre_outcome_amendment"],
+      "completion": "An interpretable development decision with preserved validation and an accurate claim boundary."
+    },
+    {
+      "id": "current_methods_and_novelty_review",
+      "state": "queued_by_user",
+      "depends_on": "limitations_resolution",
+      "question": "Which recent methods or unresolved mathematical ideas can resolve the surviving biological question and make a defensible additional contribution?",
+      "work": ["Read current primary papers and closest methodological precedents", "Separate new results from renamed established methods", "Compare novelty, biological importance, identifiability, validation availability and computational cost", "Select a small portfolio of discriminating pilots", "Freeze each pilot before new outcomes"],
+      "acceptance": ["A precise gap beyond the strongest prior", "A consequential biological or mathematical question", "Inspectable validation and meaningful baselines", "A result capable of changing the paper's conclusions"],
+      "constraints": ["Do not start expensive branches before the limitations decision", "Do not retune exposed validation", "Do not equate a fashionable method with scientific novelty", "Retain unsuccessful pilots"]
+    }
+  ],
+  "cycle_rule": "After each verified decision, reassess practical impact. If the contribution remains inadequate, research a justified successor using a new question, new independent evidence or a resolved information gap."
+}

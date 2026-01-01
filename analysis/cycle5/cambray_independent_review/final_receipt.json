@@ -1,0 +1,41 @@
+{
+  "status": "bounded_implementation_preflight_pass",
+  "blocking_defects": [],
+  "observed_phenotype_sources_opened": 0,
+  "author_synthetic_tests": {
+    "run": 13,
+    "passed": 13,
+    "failures": 0,
+    "errors": 0
+  },
+  "independent_synthetic_graph_invocations": 14018,
+  "independent_threshold_boundary_probes": 2916,
+  "independent_metadata_check": "metadata_check_v1/metadata_check.json",
+  "independent_staged_check": "staged_check_v1/receipt.json",
+  "held_source_hashes_verified_at_close": {
+    "cambray_pilot/protocol_draft.md": "9becbd723fac30ac12ad9e95d5fb80cb69b5bd93c99210668e0479a24879adde",
+    "cambray_pilot_preflight/staged_analysis.py": "5fbdf1c0da2dcf9e53b71199b124c576945d432da5b33bbc4240c1b9bfa21ef5",
+    "cambray_pilot_preflight/synthetic_reader_tests.py": "8e7684aeb42fbfb8a710f66e9c1fefba569b9d3eafa0595f7f730e55ffe6bf37",
+    "cambray_pilot_preflight/graph_rules.py": "7f901518cfc196de5d6d24c10f6f1b336255063ca8bd22d544accb6ef7b940f3",
+    "cambray_pilot_preflight/masking_v2.py": "ffbf1b1a49a9c97fe259f4a4c9777f027ec9da18025e1611a64efd7c8bdec8fe",
+    "cambray_pilot_preflight/prediction_mask_v2.json": "6e869e95b50fe21073fabfca5cda0e544b140b8e5c8a22f217b3c52394fdf3d9"
+  },
+  "review_files_sha256": {
+    "check_metadata.py": "d9dcbbf22db33ff82109c782457d90c0066f819ef1cc664f4dab17ed9de024f0",
+    "check_staged.py": "4448f3c31e3d862678f9288f622e073269ad4026d3419550e66f2b564a27831b",
+    "compare_synthetic.py": "59882a864a93bff50d2d709b09918bde2d9bfae76b8645d39baa5e75259dd1ca",
+    "preflight_review.md": "3b84800fe2246db769d156eab062e34f9942a3859de1766ae4820edd96d68abd",
+    "primary_probe.py": "1bdfb2f3f8fcc4b8d1f112293873f69319da496dc5905daf588182b7d94fd683",
+    "reference.py": "64a5e9040a77d81dc779583d1d3ea5894a5aebd5718dbf3466281803f48ce375",
+    "reference_freeze.json": "a6fe2fa050c10588e06300fe0cb5754450a9ee283292c2119233f6e83713eff5",
+    "reference_freeze_v2.json": "72ac9aa8b49276494bc3e8af7aa5b1f602777e441f155360f1c2d2201a61c9a3",
+    "test_reference.py": "568cb22352a3808eb9c7a6a572e06f98665a26b23c9dc562aac9e0d0b84fb0a5",
+    "graph_comparison_v1/comparison.json": "b75a451ab355185751488a0daca0fe4243cd4d49e84c6f74ec27cd25d3137aad",
+    "metadata_check_v1/metadata_check.json": "7829614f18f5e7ec1af835f1f3edac13c19fb39e14fc31cc8249fe19ccecebb9",
+    "staged_check_v1/receipt.json": "8945548eac0ea588ff1d1f22bb8c7ff886d03ca476c524bb305033ac4f80af29"
+  },
+  "optimization_conclusion": "The staged entrypoint explicitly rejects -O/-OO before imports, input or output. Historical standalone metadata drivers are not certified under optimization.",
+  "verdict_scope": "Exact held implementation and protocol only. Root freeze and explicit staged authorization remain mandatory; no biological outcome inference or exposure authentication.",
+  "new_amendments": "Any subsequent overlap, leave-one-out or deduplicated-target diagnostics require separate root amendments/review; not included in this source verdict.",
+  "runtime": "3.12.14"
+}
