@@ -1,0 +1,17 @@
+{
+  "status": "PASS_SYNTHETIC_INDEPENDENT_CHALLENGE",
+  "counts": {
+    "complete_graph_field_cases": 16384,
+    "pair_metric_records": 98304,
+    "threshold_checks": 393216,
+    "unknown_cases": 665,
+    "completion_pair_checks": 46683,
+    "bounded_helper_checks": 233415
+  },
+  "full_fixture_pairs": 2556,
+  "full_fixture_scenario_capacity_entries": 69012,
+  "implementation_sha256": "667422c85a13d5a44761b1248fa0bbae9f2469306b80f546ab9c496e3e7128cf",
+  "review_source_sha256": "967d931f7aa780cd2e4c5386c1d737b0e6745bdacb68d8773f22e16bef1a34a4",
+  "oracle": "Permutation enumeration of simple routes and literal quantifier evaluation; no production closure copied.",
+  "scope": "Synthetic fields only, not observed successor fields, sampling calibration or biological validation."
+}

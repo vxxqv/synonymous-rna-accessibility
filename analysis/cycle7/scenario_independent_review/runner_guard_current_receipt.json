@@ -1,0 +1,35 @@
+{
+  "status": "PASS_FAILURE_GUARDS",
+  "runner_sha256": "24f04e54b8cef37672234b2753128ffed58cad58fe9ab58de783189eff77fb6c",
+  "checks": [
+    {
+      "test": "Optimized Python prohibited",
+      "optimization": "-O",
+      "passed": true
+    },
+    {
+      "test": "Optimized Python prohibited",
+      "optimization": "-OO",
+      "passed": true
+    },
+    {
+      "test": "Refusing existing result",
+      "optimization": null,
+      "passed": true
+    },
+    {
+      "test": "Changed frozen source",
+      "optimization": null,
+      "passed": true
+    },
+    {
+      "test": "Changed primary result",
+      "optimization": null,
+      "passed": true
+    }
+  ],
+  "no_observed_input_read": true,
+  "guard_standin_import_not_reached": true,
+  "scope": "Failure guards only; mathematical calculations independently tested in reference_checks.py.",
+  "reviewer_source_sha256": "4f5dc05557bb537410ba605c10dd61a8a0d21c2664609fdf67fb2ae02f4a0b68"
+}

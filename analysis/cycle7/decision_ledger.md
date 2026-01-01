@@ -1,0 +1,17 @@
+# Research cycle 7: bounded results-first portfolio
+
+The completed Cycle 6 primary result is the fixed baseline: 72 finite vertices, 204 edges, 74 forced orders, exact ordinal exclusion, zero conservative barrier pairs among 2,556 pairs, 73 corrected-point barrier pairs. The five-order witness has a 1.36% minimum separation, not an optimized radius. Cambray validation arms remain retired. Existing published releases and their history are preserved under the latest user instruction.
+
+| Rank | Branch | Question that could change the conclusion | Current decision | Cost and stopping rule |
+|---:|---|---|---|---|
+|1|A: full-system robustness|How much additional measurement distortion restores the entire model? | Advance exact anchored additive and multiplicative radii, with all specified influence diagnostics. | Small finite LP searches; stop at independently checked boundary or honest unresolved certificate. |
+|2|D: joint uncertainty geometry|Do common-threshold restrictions persist in every observed scenario, and is a common route available? | Advance a separately frozen complete 2,556-pair quantifier analysis. | Reuse exact finite fields and graph; no fitted correlations or probability model. |
+|3|B: recovery identifiability|Can a persistent genotype bias explain the same result with unchanged inclusion? | Derive and challenge an observation model alongside A. | Analytical task plus existing Methods; do not invent a bias calibration. |
+|4|C: orthogonal replication|Can separately prepared inclusion/skipping records test the exact certificate variants? | Current earlier-FAS gate fails: five of eight theoretical design members, no matching direct multi-mutant assay. | No outcome access. Require a complete sequence-linked orthogonal measurement record. |
+|5|E: context portability|Does a shared sequence score survive authenticated context changes? | Metadata eligibility review only from existing audits; no model or outcomes opened. | Stop without exact coding/construct/condition/preparation matching. |
+|6|F: RNA to cellular consequence|Can the same exact variants link RNA, protein and cell phenotypes? | Defer computational modeling. Existing guide-level mixed-edit screens do not close the genotype chain. | Require exact edit and matched phenotype identity; no inferred bridge relabeled measured. |
+|7|G: paired-function method benchmark|Can an eligible external landscape discriminate uncertainty-aware route claims? | Defer until A/D reveal a specific method claim needing validation. | A large unrelated dataset is not a reason to expand. |
+
+Ranks prioritize immediate information value, not biological importance alone. Orthogonal replication would be more consequential than a sensitivity calculation if the missing record existed. A and D are the only major numerical analyses authorized in this cycle. All follow-ups use exposed primary material and remain exploratory. The ledger records selection before successor outcomes, preserving the distinction from fresh validation.
+
+The primary scientific bottleneck is interpretation of included-RNA enrichment. A tight robustness limit would narrow claims; a wide conditional limit would still require an externally justified recovery bound. Neither alone establishes a splicing mechanism. The most informative remaining biological record is a separately prepared, genotype-linked inclusion/skipping dataset for all eight certificate variants with reference controls and differential-recovery/error information.

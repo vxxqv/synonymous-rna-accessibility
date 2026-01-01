@@ -1,0 +1,21 @@
+{
+  "status": "frozen_before_successor_derived_outcomes",
+  "scope": "Exploratory on exposed completed Cycle6 primary; not fresh biological validation.",
+  "primary_revision": "2a94bd62f980c01e2da14c11600e548fc8152fff",
+  "primary_result_sha256": "3f34f322acc8bc9a6f6b414278d6581c458bce08f0f3bb18a3bcccee7320e466",
+  "ordinal_core_sha256": "8872d6452afe4ccbf84e61450d4b1bfbdadf26469f20c0e24452f3abc205f9ac",
+  "files": {
+    "robustness.py": "7a0798391e1987f06dbb2d09f6771aa10ffa39431d2f765400e47e594a9f395e",
+    "robustness_protocol.md": "6d3edb6f28f8a71a5cf951c7163e4775ceff371c74071633d82fbe32e967dc58",
+    "run_scenarios.py": "24f04e54b8cef37672234b2753128ffed58cad58fe9ab58de783189eff77fb6c",
+    "scenario_geometry/scenario_geometry.py": "667422c85a13d5a44761b1248fa0bbae9f2469306b80f546ab9c496e3e7128cf",
+    "scenario_geometry/protocol.md": "f3e6d1046083bfc2587d96670c89a384c846429fe7747e29fffd3e663ae3cdac",
+    "scenario_geometry/derivation.md": "db37933a6075c830afb2ad4bf4a5aa55d7994968fcc830443a053cea8dd80e8d"
+  },
+  "primary_rules_changed": false,
+  "major_numerical_branches": [
+    "anchored robustness",
+    "joint-scenario quantifiers"
+  ],
+  "new_biological_outcomes_authorized": false
+}

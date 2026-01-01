@@ -1,0 +1,73 @@
+{
+  "scope": "BranchBobservationmodelandidentifiability; no new observed outcomes or acquisition",
+  "primary_verdict": "conditional on named observation factorization and true-field-box interpretation; internal derivation pending separateproofreview",
+  "source_files": [
+    {
+      "file": "work/research_cycle6/fas_successor_metadata_gate/report.md",
+      "sha256": "382503c8b287174317f561a3a5e1c2d32f75c37e901ca8f2a253be501d394579",
+      "bytes": 8704
+    },
+    {
+      "file": "work/research_cycle6/fas_measurement_protocol_review/review.md",
+      "sha256": "e3d4f42571cb89ef670ab1a092541b08ccde1c5cb4efe41a87775cebf6cfdc03",
+      "bytes": 19718
+    },
+    {
+      "file": "work/research_cycle6/fas_biological_interpretation/report.md",
+      "sha256": "bd2ec756e74769c93dabdc2965206bd9aad07df9822e9c695a94674ee1d31f4e",
+      "bytes": 13170
+    },
+    {
+      "file": "work/research_cycle6/measured_synonymy_sources/fas2016.xml",
+      "sha256": "2d8c4b9d954bc4bffcac9f485c1f7d22d57960775736446637ea4b015e3d2209",
+      "bytes": 80370
+    },
+    {
+      "file": "work/joint_function_cycle5/mordstein_eligibility/review.md",
+      "sha256": "97a32eb1027857a679756e9f5fd3a420d54d6a5ea04a960db44d3f17ed4fac28",
+      "bytes": 13564
+    },
+    {
+      "file": "work/joint_function_cycle5/shanas_contract_pilot/report.md",
+      "sha256": "5c367415cab5c3278bf168668e08c473ca07d43cba6d1b0ce30da8f9be20c1da",
+      "bytes": 13845
+    },
+    {
+      "file": "work/joint_function_cycle5/shanas_contract_pilot/s4_followup/addendum.md",
+      "sha256": "3909a7a0e0fc0eb63199af11a006ff0ef226ecb5165f9cf6418ae19b8755c14d",
+      "bytes": 3771
+    },
+    {
+      "file": "work/research_cycle6/human_synonymy_source_contract/decision.md",
+      "sha256": "a98a1a7c747cd76abd5ce5b61d69bdb76a2ea47ede6188dee3fbe0485cd2c5b3",
+      "bytes": 3303
+    },
+    {
+      "file": "work/joint_function_cycle5/successor_methods_review/review.md",
+      "sha256": "b2ea2776e0492958ade12d82cb5474120c6df0d8fb7f0c3f95f14b7ea18434eb",
+      "bytes": 21216
+    }
+  ],
+  "user_brief": {
+    "sha256": "ae6db801e186587140e2a7de204752e0a98912a000a7d08a6a3b2ad821fff265",
+    "full_brief_read": true,
+    "role": "external private user instructions; not copied to package"
+  },
+  "no_new_data_acquisition": true,
+  "no_new_observed_outcome_read": true,
+  "no_model_fit": true,
+  "no_external_mutation": true,
+  "proof_status": "internallyderived, not independentlyaudited yet",
+  "synthetic_runtime": {
+    "python": "3.12.14",
+    "dependencies": "Python standardlibrary only"
+  },
+  "load_bearing_assumptions": [
+    "Positive finite nuisance multipliers",
+    "Reference ideal inclusion positive",
+    "Specified true RNApopulation and no kineticrate interpretation",
+    "Singlefield completion in empiricalbox; not allscenarios",
+    "Model class closed underpositivescaling for pairwise spread relation",
+    "Independent truthcoverage/nuisancecap neededfor biologicalclaims"
+  ]
+}

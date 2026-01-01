@@ -1,0 +1,131 @@
+{
+  "schema_version": 2,
+  "claim_id": "finite_scenario_accessibility_quantifiers_v1",
+  "repository": {
+    "commit": "9ed05ad8ab75c596e87a5ce7b63eb1bb38e71ba5",
+    "dirty": true
+  },
+  "command": [
+    "work/env/Scripts/python.exe",
+    "work/research_cycle7/scenario_geometry/verify_synthetic.py",
+    "--out",
+    "work/research_cycle7/scenario_geometry/synthetic_v1.json"
+  ],
+  "environment": {
+    "software": [
+      {
+        "name": "CPython",
+        "version": "3.12.14"
+      }
+    ],
+    "hardware": "AMD64; Windows-11-10.0.26300-SP0; single-process execution"
+  },
+  "mathematics": {
+    "assertion_tested": "Exact path quantifiers, complete interval partition, and conservative unknown-completion bounds on the declared synthetic domain.",
+    "coefficient_domain": "Exact rational scores with symbolic infinities for disconnected/unknown bounds",
+    "conventions": "Paths include endpoints; acceptance >= threshold; nonnegative common absolute thresholds; all distinct unordered pairs.",
+    "inputs": [
+      "work/research_cycle7/scenario_geometry/protocol.md",
+      "work/research_cycle7/scenario_geometry/derivation.md",
+      "work/research_cycle7/scenario_geometry/scenario_geometry.py",
+      "work/research_cycle7/scenario_geometry/verify_synthetic.py"
+    ],
+    "bounds": {
+      "complete_vertices": 3,
+      "complete_graphs": 8,
+      "complete_scenarios": 2,
+      "score_alphabet": [
+        0,
+        1,
+        2
+      ],
+      "unknown_vertices": 3,
+      "unknown_scenarios": 2,
+      "unknown_alphabet": [
+        0,
+        1,
+        null
+      ],
+      "binary_completions": [
+        0,
+        1
+      ],
+      "full_shape_constant_fixture": {
+        "vertices": 72,
+        "edges": 204,
+        "scenarios": 27,
+        "pairs": 2556,
+        "scenario_pair_entries": 69012
+      }
+    },
+    "non_claims": [
+      "No new observed summaries",
+      "No independently authored review",
+      "No novelty or causal claim",
+      "No biological uncertainty or independence estimate"
+    ]
+  },
+  "randomness": {
+    "used": false,
+    "generator": "",
+    "seed": null
+  },
+  "run": {
+    "started_at": "2026-10-25T17:56:48.004959+00:00",
+    "runtime_seconds": 9.141272499997285,
+    "exit_status": 0,
+    "status": "completed",
+    "resource_limits": {
+      "memory_bytes": null,
+      "cpu_seconds": null,
+      "max_cores": 1,
+      "max_threads": 1
+    }
+  },
+  "outputs": [
+    {
+      "path": "work/research_cycle7/scenario_geometry/synthetic_v1.json",
+      "sha256": "7c6861c6389b9e5f79e0972725d930d9c1f8b47186e11a273d1daaaf48bf073d",
+      "kind": "result"
+    }
+  ],
+  "checks": [
+    "Independent simple-path exact capacity oracle",
+    "Direct path/scenario acceptance oracle",
+    "Unknown-completion containment and certificate checks",
+    "All threshold ties and empty intervals retained",
+    "All72/27/2556 coverage fixture",
+    "Source hashes unchanged during run"
+  ],
+  "result": "Implementation and finite assertion verified in the explicitly stated synthetic range.",
+  "residual_risks": [
+    "Same author for implementation and oracle",
+    "Unknown-value finite tests use only binary completions; general guarantee relies on proof",
+    "Observed runner and independent review remain pending"
+  ],
+  "input_artifacts": [
+    {
+      "path": "work/research_cycle7/scenario_geometry/protocol.md",
+      "sha256": "f3e6d1046083bfc2587d96670c89a384c846429fe7747e29fffd3e663ae3cdac",
+      "sha256_after": "f3e6d1046083bfc2587d96670c89a384c846429fe7747e29fffd3e663ae3cdac"
+    },
+    {
+      "path": "work/research_cycle7/scenario_geometry/derivation.md",
+      "sha256": "db37933a6075c830afb2ad4bf4a5aa55d7994968fcc830443a053cea8dd80e8d",
+      "sha256_after": "db37933a6075c830afb2ad4bf4a5aa55d7994968fcc830443a053cea8dd80e8d"
+    },
+    {
+      "path": "work/research_cycle7/scenario_geometry/scenario_geometry.py",
+      "sha256": "667422c85a13d5a44761b1248fa0bbae9f2469306b80f546ab9c496e3e7128cf",
+      "sha256_after": "667422c85a13d5a44761b1248fa0bbae9f2469306b80f546ab9c496e3e7128cf"
+    },
+    {
+      "path": "work/research_cycle7/scenario_geometry/verify_synthetic.py",
+      "sha256": "39321c3608edae835ea59ebe1efff9b0f5223b2f3ce9831902aaccad265fa219",
+      "sha256_after": "39321c3608edae835ea59ebe1efff9b0f5223b2f3ce9831902aaccad265fa219"
+    }
+  ],
+  "declared_results": [
+    "work/research_cycle7/scenario_geometry/synthetic_v1.json"
+  ]
+}

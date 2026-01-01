@@ -1,0 +1,37 @@
+{
+  "status": "NUMERICS_PASS_WITH_GUARD_BLOCKER",
+  "source_sha256": "61c1f68f94bc57abf970b128f16f26aad44a1a9314eb0293f54dc288f4e5cb50",
+  "protocol_sha256": "7f7e74498665e0aaf6242158fa668f3b51c06f69ebee1ad693b4f615932b5e57",
+  "core_sha256": "8872d6452afe4ccbf84e61450d4b1bfbdadf26469f20c0e24452f3abc205f9ac",
+  "weak_orders": 17,
+  "counts": {
+    "finite": 2862,
+    "infinite": 216,
+    "point_systems": 2592,
+    "interval_systems": 486
+  },
+  "row_deletions": 72,
+  "preparation_deletions": 12,
+  "guard_blocker": {
+    "unverified_core_executed_before_freeze_gate": true,
+    "returncode": 1,
+    "stderr": "Traceback (most recent call last):\n  File \"C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\work\\research_cycle7\\robustness_implementation_review\\original_robustness.py\", line 159, in <module>\n    if __name__=='__main__':main()\n                            ^^^^^^\n  File \"C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\work\\research_cycle7\\robustness_implementation_review\\original_robustness.py\", line 146, in main\n    frozen=json.loads(args.freeze.read_text())\n                      ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\VIVAAN\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\pathlib.py\", line 1027, in read_text\n    with self.open(mode='r', encoding=encoding, errors=errors) as f:\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\VIVAAN\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\pathlib.py\", line 1013, in open\n    return io.open(self, mode, buffering, encoding, errors, newline)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: 'C:\\\\Users\\\\VIVAAN\\\\Documents\\\\Codex\\\\2026-10-24\\\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\\\work\\\\research_cycle7\\\\robustness_implementation_review\\\\nonexistent_freeze.json'\n"
+  },
+  "unknown_preparation_diagnostic": {
+    "type": "TypeError",
+    "message": "'<' not supported between instances of 'NoneType' and 'Fraction'"
+  },
+  "float_mask_diagnostic": {
+    "status": "finite",
+    "parameter": "2.777777777777778"
+  },
+  "large_gamma_display_diagnostic": {
+    "lower": "100000000000000000000",
+    "upper": "100000000000000000000000000000001/1000000000000",
+    "decimal_lower": 1e+20,
+    "decimal_upper": 1e+20
+  },
+  "real_outcomes_read": false,
+  "runtime_seconds": 9.403884999992442,
+  "verifier_sha256": "8330159e406c3fb65ed4786d6c14e3d55c7d126f6bdb3c731d7618c191639287"
+}

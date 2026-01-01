@@ -1,0 +1,72 @@
+{
+  "status": "PASS_FOR_DECLARED_COMPLETE_OBSERVED_DOMAIN",
+  "source_sha256": "7a0798391e1987f06dbb2d09f6771aa10ffa39431d2f765400e47e594a9f395e",
+  "protocol_sha256": "6d3edb6f28f8a71a5cf951c7163e4775ceff371c74071633d82fbe32e967dc58",
+  "original_sha256": "61c1f68f94bc57abf970b128f16f26aad44a1a9314eb0293f54dc288f4e5cb50",
+  "core_sha256": "8872d6452afe4ccbf84e61450d4b1bfbdadf26469f20c0e24452f3abc205f9ac",
+  "independent_weak_orders": 17,
+  "independent_counts": {
+    "finite": 2862,
+    "infinite": 216,
+    "point_systems": 2592,
+    "interval_systems": 486
+  },
+  "all72_row_and12_preparation_deletions_verified": true,
+  "valid_synthetic_deletion_payload_equal_except_decimal_display_fields": true,
+  "mask_rejections": 3,
+  "exact_counterpart_squared_radius": "25/9",
+  "domain_guards": [
+    "unknown_upper",
+    "unknown_scenario",
+    "short_scenario",
+    "permuted_vertex"
+  ],
+  "exact_decimal_root_cases": 6,
+  "preimport_and_output_guards": [
+    {
+      "case": "reject_wrong_core_hash",
+      "returncode": 1,
+      "last_error": "ValueError: Changed ordinal core"
+    },
+    {
+      "case": "reject_missing_freeze",
+      "returncode": 1,
+      "last_error": "FileNotFoundError: [Errno 2] No such file or directory: 'C:\\\\Users\\\\VIVAAN\\\\Documents\\\\Codex\\\\2026-10-24\\\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\\\work\\\\research_cycle7\\\\robustness_implementation_review\\\\nonexistent_freeze_v2.json'"
+    },
+    {
+      "case": "reject_wrong_result_hash",
+      "returncode": 1,
+      "last_error": "ValueError: Changed primary result"
+    },
+    {
+      "case": "reject_optimization_O",
+      "returncode": 1,
+      "last_error": "RuntimeError: Optimized Python is prohibited"
+    },
+    {
+      "case": "reject_optimization_OO",
+      "returncode": 1,
+      "last_error": "RuntimeError: Optimized Python is prohibited"
+    },
+    {
+      "case": "reject_overwrite",
+      "returncode": 1,
+      "last_error": "FileExistsError: Refusing an existing output"
+    }
+  ],
+  "unchanged_function_asts": [
+    "load_core",
+    "fields",
+    "breakpoints",
+    "synthetic"
+  ],
+  "real_outcomes_read": false,
+  "runtime_seconds": 10.311642100001336,
+  "verifier_sha256": "80d885ff1e3eef1ba0bb02921bd5b21dbb2cd89033965422a62bd2112ac4d018",
+  "limitations": [
+    "Generic radius supports unknown upper intervals; observed adapter intentionally rejects incomplete fields before computation.",
+    "Floating LP proposes certificates; exact primal/dual checks remain mandatory and solver failures must stop.",
+    "Provided freeze is a trusted external input, not proof by itself of human authorization or Git publication.",
+    "The finite Q2 oracle validates this test domain; general correctness relies on the reviewed breakpoint proof."
+  ]
+}

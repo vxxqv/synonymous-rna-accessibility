@@ -1,0 +1,260 @@
+{
+  "status": "PASS_SYNTHETIC_ONLY",
+  "known_fixtures": [
+    {
+      "name": "peak_unanchored",
+      "additive_epsilon": "1",
+      "multiplicative_t": "2",
+      "additive_boundary_witness": {
+        "beta": [
+          "1"
+        ],
+        "latent": [
+          "0",
+          "1",
+          "2"
+        ],
+        "response": [
+          {
+            "coefficient": "0",
+            "sqrt_t_power": 0
+          },
+          {
+            "coefficient": "3",
+            "sqrt_t_power": 0
+          },
+          {
+            "coefficient": "3",
+            "sqrt_t_power": 0
+          }
+        ]
+      },
+      "multiplicative_boundary_witness": {
+        "beta": [
+          "1"
+        ],
+        "latent": [
+          "0",
+          "1",
+          "2"
+        ],
+        "response": [
+          {
+            "coefficient": "1/2",
+            "sqrt_t_power": 1
+          },
+          {
+            "coefficient": "2",
+            "sqrt_t_power": 1
+          },
+          {
+            "coefficient": "2",
+            "sqrt_t_power": 1
+          }
+        ]
+      }
+    },
+    {
+      "name": "peak_middle_anchored",
+      "additive_epsilon": "2",
+      "multiplicative_t": "4",
+      "additive_boundary_witness": {
+        "beta": [
+          "1"
+        ],
+        "latent": [
+          "0",
+          "1",
+          "2"
+        ],
+        "response": [
+          {
+            "coefficient": "0",
+            "sqrt_t_power": 0
+          },
+          {
+            "coefficient": "4",
+            "sqrt_t_power": 0
+          },
+          {
+            "coefficient": "4",
+            "sqrt_t_power": 0
+          }
+        ]
+      },
+      "multiplicative_boundary_witness": {
+        "beta": [
+          "1"
+        ],
+        "latent": [
+          "0",
+          "1",
+          "2"
+        ],
+        "response": [
+          {
+            "coefficient": "1/4",
+            "sqrt_t_power": 1
+          },
+          {
+            "coefficient": "4",
+            "sqrt_t_power": 0
+          },
+          {
+            "coefficient": "4",
+            "sqrt_t_power": 0
+          }
+        ]
+      }
+    },
+    {
+      "name": "constant_compatible",
+      "additive_epsilon": "0",
+      "multiplicative_t": "1",
+      "additive_boundary_witness": {
+        "beta": [
+          "0"
+        ],
+        "latent": [
+          "0",
+          "0",
+          "0"
+        ],
+        "response": [
+          {
+            "coefficient": "1",
+            "sqrt_t_power": 0
+          },
+          {
+            "coefficient": "1",
+            "sqrt_t_power": 0
+          },
+          {
+            "coefficient": "1",
+            "sqrt_t_power": 0
+          }
+        ]
+      },
+      "multiplicative_boundary_witness": {
+        "beta": [
+          "0"
+        ],
+        "latent": [
+          "0",
+          "0",
+          "0"
+        ],
+        "response": [
+          {
+            "coefficient": "1",
+            "sqrt_t_power": 1
+          },
+          {
+            "coefficient": "1",
+            "sqrt_t_power": 1
+          },
+          {
+            "coefficient": "1",
+            "sqrt_t_power": 1
+          }
+        ]
+      }
+    },
+    {
+      "name": "zero_persistent",
+      "additive_epsilon": "1/2",
+      "multiplicative_t": null,
+      "additive_boundary_witness": {
+        "beta": [
+          "0"
+        ],
+        "latent": [
+          "0",
+          "0",
+          "0"
+        ],
+        "response": [
+          {
+            "coefficient": "1/2",
+            "sqrt_t_power": 0
+          },
+          {
+            "coefficient": "1/2",
+            "sqrt_t_power": 0
+          },
+          {
+            "coefficient": "1/2",
+            "sqrt_t_power": 0
+          }
+        ]
+      },
+      "multiplicative_boundary_witness": null
+    },
+    {
+      "name": "unknown_all",
+      "additive_epsilon": "0",
+      "multiplicative_t": "1",
+      "additive_boundary_witness": {
+        "beta": [
+          "0"
+        ],
+        "latent": [
+          "0",
+          "0",
+          "0"
+        ],
+        "response": [
+          {
+            "coefficient": "0",
+            "sqrt_t_power": 0
+          },
+          {
+            "coefficient": "0",
+            "sqrt_t_power": 0
+          },
+          {
+            "coefficient": "0",
+            "sqrt_t_power": 0
+          }
+        ]
+      },
+      "multiplicative_boundary_witness": {
+        "beta": [
+          "0"
+        ],
+        "latent": [
+          "0",
+          "0",
+          "0"
+        ],
+        "response": [
+          {
+            "coefficient": "0",
+            "sqrt_t_power": 1
+          },
+          {
+            "coefficient": "0",
+            "sqrt_t_power": 1
+          },
+          {
+            "coefficient": "0",
+            "sqrt_t_power": 1
+          }
+        ]
+      }
+    }
+  ],
+  "weak_order_comparisons": 3136,
+  "squared_interval_equivalence_checks": 866,
+  "first_witness_vs_full_system": {
+    "first_duplicate_order_epsilon": "1/2",
+    "full_epsilon": "3/2",
+    "first_duplicate_order_t": "2",
+    "full_t": "4"
+  },
+  "permanent_fixed_orders_checked": true,
+  "unknown_upper_and_zero_boundary_checked": true,
+  "non_square_t_symbolic_response_checked": true,
+  "no_observed_source_loaded": true,
+  "source_sha256": "9d253ec8905c334ed48671e302b24ff2602d38cfbb62dad4f6160318abefaa27"
+}

@@ -1,0 +1,54 @@
+--- original_robustness.py
++++ corrected_robustness.py
+@@ -39,13 +39,16 @@
+     a,b=F(k,scale),F(k+1,scale)
+     if a*a==v:b=a
+     if not a*a<=v<=b*b:raise ArithmeticError('Root enclosure failed')
+-    return {'lower':str(a),'upper':str(b),'decimal_lower':float(a),'decimal_upper':float(b)}
++    def decimal(integer):
++        return str(integer//scale)+'.'+str(integer%scale).zfill(places)
++    return {'lower':str(a),'upper':str(b),'decimal_lower_exact':decimal(k),
++            'decimal_upper_exact':decimal(k if a==b else k+1)}
+ 
+ def radius(core,x,lower,upper,mask,metric):
+     lower=list(map(F,lower));upper=[None if u is None else F(u) for u in upper]
+     if not lower or len(lower)!=len(upper) or len(mask)!=len(lower):raise ValueError('Shape mismatch')
+     if any(l<0 or (u is not None and u<l) for l,u in zip(lower,upper)):raise ValueError('Nonnegative nonempty intervals required')
+-    if any(a not in (0,1) for a in mask):raise ValueError('Binary perturbation mask required')
++    if any(type(a) is not int or a not in (0,1) for a in mask):raise ValueError('Integer binary perturbation mask required')
+     candidates,thresholds=breakpoints(lower,upper,mask,metric)
+     tested={}
+     def test(k):
+@@ -107,7 +110,12 @@
+     return {'status':'passed','fixtures':8,'root_enclosures':roots,'reciprocal_additive':a,'reciprocal_multiplicative':m}
+ 
+ def analyze(core,d):
+-    vertices=d['vertices_data'];x=core.features([v['codon_states'] for v in vertices])
++    vertices=d['vertices_data']
++    if len(vertices)!=72 or [v['vertex'] for v in vertices]!=list(range(72)):
++        raise ValueError('Requires the exact 72-vertex domain')
++    if any(v['upper'] is None or len(v['scenario_ratios'])!=27 or any(s is None for s in v['scenario_ratios']) for v in vertices):
++        raise ValueError('Observed adapter requires complete finite input; it must not drop unknown states')
++    x=core.features([v['codon_states'] for v in vertices])
+     lo=[F(v['lower']) for v in vertices];hi=[None if v['upper'] is None else F(v['upper']) for v in vertices]
+     if len(vertices)!=72 or vertices[46]['lower']!='1' or vertices[46]['upper']!='1':raise ValueError('Frozen FAS domain/reference mismatch')
+     mask=[0 if i==46 else 1 for i in range(72)]
+@@ -140,7 +148,6 @@
+     p=argparse.ArgumentParser();p.add_argument('--core',required=True,type=Path);p.add_argument('--out',required=True,type=Path)
+     p.add_argument('--result',type=Path);p.add_argument('--freeze',type=Path);args=p.parse_args()
+     if args.out.exists():raise FileExistsError('Refusing an existing output')
+-    core=load_core(args.core)
+     if args.result:
+         if not args.freeze:raise ValueError('Observed successor requires a frozen contract')
+         frozen=json.loads(args.freeze.read_text())
+@@ -150,8 +157,9 @@
+         if args.result.suffix=='.gz':raw=gzip.decompress(raw)
+         if hashlib.sha256(raw).hexdigest()!=frozen['primary_result_sha256']:raise ValueError('Changed primary result')
+         if hashlib.sha256(args.core.read_bytes()).hexdigest()!=frozen['ordinal_core_sha256']:raise ValueError('Changed ordinal core')
++        core=load_core(args.core)
+         d=analyze(core,json.loads(raw));d['source_sha256']=hashlib.sha256(raw).hexdigest()
+-    else:d=synthetic(core)
++    else:d=synthetic(load_core(args.core))
+     args.out.parent.mkdir(parents=True,exist_ok=True)
+     args.out.write_text(json.dumps(d,indent=2)+'\n',encoding='utf-8')
+     print(json.dumps({'status':'completed','output':str(args.out)}))

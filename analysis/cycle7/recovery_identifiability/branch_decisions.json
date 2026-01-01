@@ -1,0 +1,43 @@
+{
+  "basis": "Existingcompletedsourceauditsevidenceonly; no closedgaterepeated, no newsource/outcomes",
+  "deep_analytical_branches_this_cycle": [
+    "A",
+    "D"
+  ],
+  "all_other_branches_authorized_for_outcomes": false,
+  "branches": [
+    {
+      "branch": "G",
+      "source_feasibility_rank": 1,
+      "scope": "method benchmark only, not synonymousRNAvalidation",
+      "decision": "deferred; exactpairedgraphs,preparationandheldoutfamilygate required",
+      "existing_source_report": "work/joint_function_cycle5/successor_methods_review/review.md"
+    },
+    {
+      "branch": "E",
+      "source_feasibility_rank": 2,
+      "scope": "matchedcontext portability",
+      "decision": "deferred/gated; Mordsteinexactindexandpreparationsunresolved;ShanasstrictCDSgateclosed;FAS14contextoverlapunmatched",
+      "existing_source_reports": [
+        "work/joint_function_cycle5/mordstein_eligibility/review.md",
+        "work/joint_function_cycle5/shanas_contract_pilot/report.md",
+        "work/joint_function_cycle5/shanas_contract_pilot/s4_followup/addendum.md"
+      ]
+    },
+    {
+      "branch": "F",
+      "source_feasibility_rank": 3,
+      "scope": "measured molecular-to-cellularchain",
+      "decision": "contextual prior only; guide/mixtureandmatchedgenotypechainunresolved",
+      "existing_source_report": "work/research_cycle6/human_synonymy_source_contract/decision.md"
+    },
+    {
+      "branch": "C",
+      "source_feasibility_rank": 4,
+      "information_value_rank": 1,
+      "scope": "exact8orthogonalFASmeasurement",
+      "decision": "currentrecordgatefailed; no2016outcomesauthorized",
+      "existing_source_report": "work/research_cycle6/fas_successor_metadata_gate/report.md"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "status": "READY_FOR_FRESH_ADVERSARIAL_REVIEW",
+  "scope": "Synthetic mathematical thresholds only; no observed successor thresholds or biological outcomes loaded",
+  "recommended_primary_metric": "Reference anchored, binary vertex expansion indicators",
+  "exact_multiplicative_interface": "t=gamma^2; rational squared intervals; rational beta and response_squared",
+  "counts": {
+    "weak_order_comparisons": 3136,
+    "squared_interval_checks": 866
+  },
+  "optimization_rejected": [
+    "-O",
+    "-OO"
+  ],
+  "files": {
+    "closest_prior.md": "b932c3f280b66711dfeff2386182f3419d75e69010eeec7c421d2c8b0ae822e8",
+    "proof.md": "6359dfa552f79fcc2cd923ab6a63f2a8fa624c356b3b96a965bcfd53d1415ed0",
+    "synthetic_checks.py": "9d253ec8905c334ed48671e302b24ff2602d38cfbb62dad4f6160318abefaa27",
+    "synthetic_checks_v1.py": "9bf2fdc8d4415b8d428381feabdb06ef7c9a541b2ef3eddce9fa674140924369",
+    "synthetic_receipt.json": "4af973c16b7e937ab2ebf5e1f037a62a5e11db1fed1676654e5ef2e27ced2757",
+    "synthetic_receipt_v2.json": "267bf6cce3d458d980b1a36bcd9dc158b5c5a687d1a9c1cdbaca92c727e388d0"
+  }
+}

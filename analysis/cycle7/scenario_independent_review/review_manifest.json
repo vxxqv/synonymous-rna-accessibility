@@ -1,0 +1,18 @@
+{
+  "verdict": "PASS_PREFLIGHT_NO_OBSERVED_ACCESS",
+  "candidate_manifest_sha256": "1b3aca720336dbc657f5113e6e49b63d7e95ab14d6122728baea1a0803893dda",
+  "held_file_hash_checks": {
+    "protocol.md": true,
+    "derivation.md": true,
+    "scenario_geometry.py": true,
+    "verify_synthetic.py": true,
+    "synthetic_v1.json": true,
+    "preflight_report.md": true
+  },
+  "files": {
+    "receipt.json": "d328f95f84532a473bff0da25f6a07a1e1b36f8f758a7374e400b946decb51e8",
+    "reference_checks.py": "967d931f7aa780cd2e4c5386c1d737b0e6745bdacb68d8773f22e16bef1a34a4",
+    "review.md": "a6510a742b58cec492577e3209706112ebe4cf0bcb5d0c80bee38cbfbd974f3e"
+  },
+  "limits": "No observed successor evaluation or runner/file-reader audit; mathematical design and pinned pure implementation only."
+}

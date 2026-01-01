@@ -1,0 +1,17 @@
+{
+  "verdict": "PASS_CORE_AND_CURRENT_RUNNER_PREFLIGHT",
+  "no_observed_successor_fields_or_summaries_read": true,
+  "runner_sha256": "24f04e54b8cef37672234b2753128ffed58cad58fe9ab58de783189eff77fb6c",
+  "candidate_manifest_sha256": "1b3aca720336dbc657f5113e6e49b63d7e95ab14d6122728baea1a0803893dda",
+  "files": {
+    "receipt.json": "d328f95f84532a473bff0da25f6a07a1e1b36f8f758a7374e400b946decb51e8",
+    "reference_checks.py": "967d931f7aa780cd2e4c5386c1d737b0e6745bdacb68d8773f22e16bef1a34a4",
+    "review.md": "a6510a742b58cec492577e3209706112ebe4cf0bcb5d0c80bee38cbfbd974f3e",
+    "review_manifest.json": "8ec25153bfc85969d945124ebf09919a08929d11caf03fc09cd1be4e6b603d02",
+    "runner_guard_checks.py": "a0dc0329676e0eebe8e9d7c8770202b49d41864725f3ddb02633e6259d4f0e13",
+    "runner_guard_current_checks.py": "4f5dc05557bb537410ba605c10dd61a8a0d21c2664609fdf67fb2ae02f4a0b68",
+    "runner_guard_current_receipt.json": "9056780533a1d16e1cb68399d7d9e5f94925f458ed54f80825c2eb36280eca9b",
+    "runner_guard_receipt.json": "2bfc296fa3aed51ed32e038ec27e14c57c75b053ba3fee45b9c4274dea5e491c",
+    "runner_review.md": "3cce747cbb090cf76c1fcf999e28499173dde1efc999c841a93a432c12699726"
+  }
+}

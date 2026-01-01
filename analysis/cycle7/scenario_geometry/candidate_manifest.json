@@ -1,0 +1,26 @@
+{
+  "status": "candidate_awaiting_independent_review_and_root_freeze",
+  "observed_execution_authorized": false,
+  "new_observed_summaries_computed": false,
+  "files": {
+    "protocol.md": "f3e6d1046083bfc2587d96670c89a384c846429fe7747e29fffd3e663ae3cdac",
+    "derivation.md": "db37933a6075c830afb2ad4bf4a5aa55d7994968fcc830443a053cea8dd80e8d",
+    "scenario_geometry.py": "667422c85a13d5a44761b1248fa0bbae9f2469306b80f546ab9c496e3e7128cf",
+    "verify_synthetic.py": "39321c3608edae835ea59ebe1efff9b0f5223b2f3ce9831902aaccad265fa219",
+    "synthetic_v1.json": "7c6861c6389b9e5f79e0972725d930d9c1f8b47186e11a273d1daaaf48bf073d",
+    "preflight_report.md": "b58e3fbe91439708037d91481eb81b54a4c4431ef60f8f05194ec19ca6c7cb72"
+  },
+  "expected_future_source": {
+    "compressed_sha256": "e3c3d061052643046de58dc789866899b0fb14ade83f06170e2cf32e9e54e145",
+    "decompressed_sha256": "3f34f322acc8bc9a6f6b414278d6581c458bce08f0f3bb18a3bcccee7320e466",
+    "source_not_opened_during_preflight": true
+  },
+  "coverage": {
+    "vertices": 72,
+    "edges": 204,
+    "scenarios": 27,
+    "unordered_pairs": 2556,
+    "scenario_pair_entries": 69012
+  },
+  "failure_rule": "Any false certificate, lost case, unexpected schema/hash drift or algebraic counterexample blocks observed evaluation."
+}
