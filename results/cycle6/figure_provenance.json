@@ -1,0 +1,8 @@
+{
+  "source_sha256": "3f34f322acc8bc9a6f6b414278d6581c458bce08f0f3bb18a3bcccee7320e466",
+  "figure_sha256": "d4af60ee1b1728e52364aa2ee597cd0d58a1b744a317f8f62ff69a397b3d82ea",
+  "all_vertices": 72,
+  "all_primary_pairs": 2556,
+  "all_dependent_scenarios": 27,
+  "selection": "No outcome subset. Five comparisons are the first frozen solver certificate; no minimality or optimized robustness claimed."
+}

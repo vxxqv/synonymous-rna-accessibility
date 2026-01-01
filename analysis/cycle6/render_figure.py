@@ -19,7 +19,7 @@ args.out.mkdir(parents=True,exist_ok=True)
 plt.rcParams.update({'font.family':'DejaVu Sans','font.size':10,'axes.labelsize':10,
     'axes.titlesize':11,'axes.spines.top':False,'axes.spines.right':False,
     'pdf.fonttype':42,'svg.fonttype':'none','axes.linewidth':0.7})
-fig=plt.figure(figsize=(8.5,9.2),facecolor='white')
+fig=plt.figure(figsize=(8.5,8.3),facecolor='white')
 gs=fig.add_gridspec(2,2,left=.085,right=.97,bottom=.20,top=.78,
     height_ratios=[1,1.13],width_ratios=[1.16,1],hspace=.55,wspace=.53)
 teal='#007F86'; navy='#18354B'; red='#BD4C37'; grey='#95A2AD'

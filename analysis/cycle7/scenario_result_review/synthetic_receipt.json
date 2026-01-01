@@ -1,0 +1,18 @@
+{
+  "status": "PASS_SYNTHETIC_ONLY",
+  "controls": [
+    "parallel fixed/adaptive gap",
+    "series joint/box gap",
+    "zero threshold",
+    "disconnected graph",
+    "closed tie",
+    "empty interval",
+    "zero-width singleton"
+  ],
+  "optimization_rejected": [
+    "-O",
+    "-OO"
+  ],
+  "source_sha256": "49445bb4fa6d22c268844c26a65169e4a2ef9480de0e6c05765f005eee891fd7",
+  "test_sha256": "f648856db88cddcb4959aedd92df3b48d27b7352f7f9519c694f905508066dab"
+}

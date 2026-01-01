@@ -1,0 +1,1477 @@
+{
+  "status": "PASS",
+  "radii_checked": 26,
+  "row_deletion_certificates_checked": 72,
+  "preparation_omission_sets_checked": 12,
+  "searched_event_certificates_checked": 220,
+  "complete_directed_event_inventories_checked": 26,
+  "full": {
+    "additive": {
+      "status": "finite",
+      "parameter_exact": "519286149121/31050521652448",
+      "tested_certificates": 8,
+      "breakpoints": 75,
+      "sharp_lower_support": [
+        {
+          "lower_vertex": 16,
+          "higher_vertex": 46,
+          "weight": "1/3",
+          "expiry": "899543/7867983",
+          "persists_for_all_smaller_parameters": true
+        },
+        {
+          "lower_vertex": 42,
+          "higher_vertex": 13,
+          "weight": "1/3",
+          "expiry": "519286149121/31050521652448",
+          "persists_for_all_smaller_parameters": true
+        },
+        {
+          "lower_vertex": 47,
+          "higher_vertex": 46,
+          "weight": "1/3",
+          "expiry": "679441/3937945",
+          "persists_for_all_smaller_parameters": true
+        }
+      ],
+      "gamma_enclosure": null
+    },
+    "multiplicative_squared": {
+      "status": "finite",
+      "parameter_exact": "9128860950384/8609574801263",
+      "tested_certificates": 8,
+      "breakpoints": 75,
+      "sharp_lower_support": [
+        {
+          "lower_vertex": 16,
+          "higher_vertex": 46,
+          "weight": "1/3",
+          "expiry": "61905156488289/48559156033600",
+          "persists_for_all_smaller_parameters": true
+        },
+        {
+          "lower_vertex": 42,
+          "higher_vertex": 13,
+          "weight": "1/3",
+          "expiry": "9128860950384/8609574801263",
+          "persists_for_all_smaller_parameters": true
+        },
+        {
+          "lower_vertex": 47,
+          "higher_vertex": 46,
+          "weight": "1/3",
+          "expiry": "15507410823025/10617848318016",
+          "persists_for_all_smaller_parameters": true
+        }
+      ],
+      "gamma_enclosure": {
+        "lower": "257428990059/250000000000",
+        "upper": "1029715960237/1000000000000",
+        "decimal_lower_exact": "1.029715960236",
+        "decimal_upper_exact": "1.029715960237"
+      }
+    }
+  },
+  "row_deletions": [
+    {
+      "omitted_vertex": 0,
+      "kind": "measured_genotype_observation",
+      "status": "infeasible",
+      "forced_orders": 73,
+      "support_size": 7
+    },
+    {
+      "omitted_vertex": 1,
+      "kind": "measured_genotype_observation",
+      "status": "infeasible",
+      "forced_orders": 74,
+      "support_size": 5
+    },
+    {
+      "omitted_vertex": 2,
+      "kind": "measured_genotype_observation",
+      "status": "infeasible",
+      "forced_orders": 74,
+      "support_size": 5
+    },
+    {
+      "omitted_vertex": 3,
+      "kind": "measured_genotype_observation",
+      "status": "infeasible",
+      "forced_orders": 73,
+      "support_size": 7
+    },
+    {
+      "omitted_vertex": 4,
+      "kind": "measured_genotype_observation",
+      "status": "infeasible",
+      "forced_orders": 73,
+      "support_size": 5
+    },
+    {
+      "omitted_vertex": 5,
+      "kind": "measured_genotype_observation",
+      "status": "infeasible",
+      "forced_orders": 70,
+      "support_size": 5
+    },
+    {
+      "omitted_vertex": 6,
+      "kind": "measured_genotype_observation",
+      "status": "infeasible",
+      "forced_orders": 74,
+      "support_size": 5
+    },
+    {
+      "omitted_vertex": 7,
+      "kind": "measured_genotype_observation",
+      "status": "infeasible",
+      "forced_orders": 74,
+      "support_size": 5
+    },
+    {
+      "omitted_vertex": 8,
+      "kind": "measured_genotype_observation",
+      "status": "infeasible",
+      "forced_orders": 73,
+      "support_size": 5
+    },
+    {
+      "omitted_vertex": 9,
+      "kind": "measured_genotype_observation",
+      "status": "infeasible",
+      "forced_orders": 73,
+      "support_size": 5
+    },
+    {
+      "omitted_vertex": 10,
+      "kind": "measured_genotype_observation",
+      "status": "infeasible",
+      "forced_orders": 73,
+      "support_size": 5
+    },
+    {
+      "omitted_vertex": 11,
+      "kind": "measured_genotype_observation",
+      "status": "infeasible",
+      "forced_orders": 73,
+      "support_size": 5
+    },
+    {
+      "omitted_vertex": 12,
+      "kind": "measured_genotype_observation",
+      "status": "infeasible",
+      "forced_orders": 73,
+      "support_size": 5
+    },
+    {
+      "omitted_vertex": 13,
+      "kind": "measured_genotype_observation",
+      "status": "feasible",
+      "forced_orders": 70
+    },
+    {
+      "omitted_vertex": 14,
+      "kind": "measured_genotype_observation",
+      "status": "infeasible",
+      "forced_orders": 73,
+      "support_size": 5
+    },
+    {
+      "omitted_vertex": 15,
+      "kind": "measured_genotype_observation",
+      "status": "infeasible",
+      "forced_orders": 69,
+      "support_size": 5
+    },
+    {
+      "omitted_vertex": 16,
+      "kind": "measured_genotype_observation",
+      "status": "infeasible",
+      "forced_orders": 73,
+      "support_size": 5
+    },
+    {
+      "omitted_vertex": 17,
+      "kind": "measured_genotype_observation",
+      "status": "infeasible",
+      "forced_orders": 74,
+      "support_size": 5
+    },
+    {
+      "omitted_vertex": 18,
+      "kind": "measured_genotype_observation",
+      "status": "infeasible",
+      "forced_orders": 73,
+      "support_size": 5
+    },
+    {
+      "omitted_vertex": 19,
+      "kind": "measured_genotype_observation",
+      "status": "infeasible",
+      "forced_orders": 74,
+      "support_size": 5
+    },
+    {
+      "omitted_vertex": 20,
+      "kind": "measured_genotype_observation",
+      "status": "infeasible",
+      "forced_orders": 73,
+      "support_size": 5
+    },
+    {
+      "omitted_vertex": 21,
+      "kind": "measured_genotype_observation",
+      "status": "infeasible",
+      "forced_orders": 70,
+      "support_size": 7
+    },
+    {
+      "omitted_vertex": 22,
+      "kind": "measured_genotype_observation",
+      "status": "infeasible",
+      "forced_orders": 74,
+      "support_size": 5
+    },
+    {
+      "omitted_vertex": 23,
+      "kind": "measured_genotype_observation",
+      "status": "infeasible",
+      "forced_orders": 74,
+      "support_size": 5
+    },
+    {
+      "omitted_vertex": 24,
+      "kind": "measured_genotype_observation",
+      "status": "infeasible",
+      "forced_orders": 72,
+      "support_size": 5
+    },
+    {
+      "omitted_vertex": 25,
+      "kind": "measured_genotype_observation",
+      "status": "infeasible",
+      "forced_orders": 74,
+      "support_size": 5
+    },
+    {
+      "omitted_vertex": 26,
+      "kind": "measured_genotype_observation",
+      "status": "infeasible",
+      "forced_orders": 74,
+      "support_size": 5
+    },
+    {
+      "omitted_vertex": 27,
+      "kind": "measured_genotype_observation",
+      "status": "infeasible",
+      "forced_orders": 71,
+      "support_size": 4
+    },
+    {
+      "omitted_vertex": 28,
+      "kind": "measured_genotype_observation",
+      "status": "infeasible",
+      "forced_orders": 73,
+      "support_size": 5
+    },
+    {
+      "omitted_vertex": 29,
+      "kind": "measured_genotype_observation",
+      "status": "infeasible",
+      "forced_orders": 71,
+      "support_size": 7
+    },
+    {
+      "omitted_vertex": 30,
+      "kind": "measured_genotype_observation",
+      "status": "infeasible",
+      "forced_orders": 74,
+      "support_size": 5
+    },
+    {
+      "omitted_vertex": 31,
+      "kind": "measured_genotype_observation",
+      "status": "infeasible",
+      "forced_orders": 73,
+      "support_size": 5
+    },
+    {
+      "omitted_vertex": 32,
+      "kind": "measured_genotype_observation",
+      "status": "infeasible",
+      "forced_orders": 73,
+      "support_size": 5
+    },
+    {
+      "omitted_vertex": 33,
+      "kind": "measured_genotype_observation",
+      "status": "infeasible",
+      "forced_orders": 74,
+      "support_size": 5
+    },
+    {
+      "omitted_vertex": 34,
+      "kind": "measured_genotype_observation",
+      "status": "infeasible",
+      "forced_orders": 71,
+      "support_size": 5
+    },
+    {
+      "omitted_vertex": 35,
+      "kind": "measured_genotype_observation",
+      "status": "infeasible",
+      "forced_orders": 73,
+      "support_size": 5
+    },
+    {
+      "omitted_vertex": 36,
+      "kind": "measured_genotype_observation",
+      "status": "infeasible",
+      "forced_orders": 73,
+      "support_size": 5
+    },
+    {
+      "omitted_vertex": 37,
+      "kind": "measured_genotype_observation",
+      "status": "infeasible",
+      "forced_orders": 74,
+      "support_size": 5
+    },
+    {
+      "omitted_vertex": 38,
+      "kind": "measured_genotype_observation",
+      "status": "infeasible",
+      "forced_orders": 73,
+      "support_size": 5
+    },
+    {
+      "omitted_vertex": 39,
+      "kind": "measured_genotype_observation",
+      "status": "infeasible",
+      "forced_orders": 68,
+      "support_size": 5
+    },
+    {
+      "omitted_vertex": 40,
+      "kind": "measured_genotype_observation",
+      "status": "infeasible",
+      "forced_orders": 73,
+      "support_size": 5
+    },
+    {
+      "omitted_vertex": 41,
+      "kind": "measured_genotype_observation",
+      "status": "infeasible",
+      "forced_orders": 74,
+      "support_size": 5
+    },
+    {
+      "omitted_vertex": 42,
+      "kind": "measured_genotype_observation",
+      "status": "feasible",
+      "forced_orders": 65
+    },
+    {
+      "omitted_vertex": 43,
+      "kind": "measured_genotype_observation",
+      "status": "infeasible",
+      "forced_orders": 73,
+      "support_size": 6
+    },
+    {
+      "omitted_vertex": 44,
+      "kind": "measured_genotype_observation",
+      "status": "infeasible",
+      "forced_orders": 73,
+      "support_size": 6
+    },
+    {
+      "omitted_vertex": 45,
+      "kind": "measured_genotype_observation",
+      "status": "infeasible",
+      "forced_orders": 74,
+      "support_size": 5
+    },
+    {
+      "omitted_vertex": 46,
+      "kind": "fixed_normalization_identity",
+      "status": "feasible",
+      "forced_orders": 24
+    },
+    {
+      "omitted_vertex": 47,
+      "kind": "measured_genotype_observation",
+      "status": "infeasible",
+      "forced_orders": 73,
+      "support_size": 5
+    },
+    {
+      "omitted_vertex": 48,
+      "kind": "measured_genotype_observation",
+      "status": "infeasible",
+      "forced_orders": 73,
+      "support_size": 5
+    },
+    {
+      "omitted_vertex": 49,
+      "kind": "measured_genotype_observation",
+      "status": "infeasible",
+      "forced_orders": 73,
+      "support_size": 5
+    },
+    {
+      "omitted_vertex": 50,
+      "kind": "measured_genotype_observation",
+      "status": "infeasible",
+      "forced_orders": 73,
+      "support_size": 5
+    },
+    {
+      "omitted_vertex": 51,
+      "kind": "measured_genotype_observation",
+      "status": "infeasible",
+      "forced_orders": 72,
+      "support_size": 3
+    },
+    {
+      "omitted_vertex": 52,
+      "kind": "measured_genotype_observation",
+      "status": "infeasible",
+      "forced_orders": 73,
+      "support_size": 5
+    },
+    {
+      "omitted_vertex": 53,
+      "kind": "measured_genotype_observation",
+      "status": "infeasible",
+      "forced_orders": 73,
+      "support_size": 5
+    },
+    {
+      "omitted_vertex": 54,
+      "kind": "measured_genotype_observation",
+      "status": "infeasible",
+      "forced_orders": 74,
+      "support_size": 5
+    },
+    {
+      "omitted_vertex": 55,
+      "kind": "measured_genotype_observation",
+      "status": "infeasible",
+      "forced_orders": 73,
+      "support_size": 5
+    },
+    {
+      "omitted_vertex": 56,
+      "kind": "measured_genotype_observation",
+      "status": "infeasible",
+      "forced_orders": 73,
+      "support_size": 5
+    },
+    {
+      "omitted_vertex": 57,
+      "kind": "measured_genotype_observation",
+      "status": "infeasible",
+      "forced_orders": 74,
+      "support_size": 5
+    },
+    {
+      "omitted_vertex": 58,
+      "kind": "measured_genotype_observation",
+      "status": "infeasible",
+      "forced_orders": 67,
+      "support_size": 6
+    },
+    {
+      "omitted_vertex": 59,
+      "kind": "measured_genotype_observation",
+      "status": "infeasible",
+      "forced_orders": 73,
+      "support_size": 5
+    },
+    {
+      "omitted_vertex": 60,
+      "kind": "measured_genotype_observation",
+      "status": "infeasible",
+      "forced_orders": 73,
+      "support_size": 5
+    },
+    {
+      "omitted_vertex": 61,
+      "kind": "measured_genotype_observation",
+      "status": "infeasible",
+      "forced_orders": 73,
+      "support_size": 5
+    },
+    {
+      "omitted_vertex": 62,
+      "kind": "measured_genotype_observation",
+      "status": "infeasible",
+      "forced_orders": 74,
+      "support_size": 5
+    },
+    {
+      "omitted_vertex": 63,
+      "kind": "measured_genotype_observation",
+      "status": "infeasible",
+      "forced_orders": 73,
+      "support_size": 5
+    },
+    {
+      "omitted_vertex": 64,
+      "kind": "measured_genotype_observation",
+      "status": "infeasible",
+      "forced_orders": 73,
+      "support_size": 5
+    },
+    {
+      "omitted_vertex": 65,
+      "kind": "measured_genotype_observation",
+      "status": "infeasible",
+      "forced_orders": 73,
+      "support_size": 5
+    },
+    {
+      "omitted_vertex": 66,
+      "kind": "measured_genotype_observation",
+      "status": "infeasible",
+      "forced_orders": 74,
+      "support_size": 5
+    },
+    {
+      "omitted_vertex": 67,
+      "kind": "measured_genotype_observation",
+      "status": "infeasible",
+      "forced_orders": 73,
+      "support_size": 5
+    },
+    {
+      "omitted_vertex": 68,
+      "kind": "measured_genotype_observation",
+      "status": "infeasible",
+      "forced_orders": 73,
+      "support_size": 5
+    },
+    {
+      "omitted_vertex": 69,
+      "kind": "measured_genotype_observation",
+      "status": "infeasible",
+      "forced_orders": 74,
+      "support_size": 5
+    },
+    {
+      "omitted_vertex": 70,
+      "kind": "measured_genotype_observation",
+      "status": "infeasible",
+      "forced_orders": 66,
+      "support_size": 5
+    },
+    {
+      "omitted_vertex": 71,
+      "kind": "measured_genotype_observation",
+      "status": "infeasible",
+      "forced_orders": 73,
+      "support_size": 5
+    }
+  ],
+  "preparation_deletions": [
+    {
+      "kind": "output",
+      "omitted_zero_based": 0,
+      "retained_scenario_count": 24,
+      "radii": {
+        "additive": {
+          "status": "finite",
+          "parameter_exact": "519286149121/31050521652448",
+          "tested_certificates": 8,
+          "breakpoints": 87,
+          "sharp_lower_support": [
+            {
+              "lower_vertex": 16,
+              "higher_vertex": 46,
+              "weight": "1/3",
+              "expiry": "899543/7867983",
+              "persists_for_all_smaller_parameters": true
+            },
+            {
+              "lower_vertex": 42,
+              "higher_vertex": 13,
+              "weight": "1/3",
+              "expiry": "519286149121/31050521652448",
+              "persists_for_all_smaller_parameters": true
+            },
+            {
+              "lower_vertex": 47,
+              "higher_vertex": 46,
+              "weight": "1/3",
+              "expiry": "679441/3937945",
+              "persists_for_all_smaller_parameters": true
+            }
+          ],
+          "gamma_enclosure": null
+        },
+        "multiplicative_squared": {
+          "status": "finite",
+          "parameter_exact": "9128860950384/8609574801263",
+          "tested_certificates": 8,
+          "breakpoints": 87,
+          "sharp_lower_support": [
+            {
+              "lower_vertex": 16,
+              "higher_vertex": 46,
+              "weight": "1/3",
+              "expiry": "61905156488289/48559156033600",
+              "persists_for_all_smaller_parameters": true
+            },
+            {
+              "lower_vertex": 42,
+              "higher_vertex": 13,
+              "weight": "1/3",
+              "expiry": "9128860950384/8609574801263",
+              "persists_for_all_smaller_parameters": true
+            },
+            {
+              "lower_vertex": 47,
+              "higher_vertex": 46,
+              "weight": "1/3",
+              "expiry": "15507410823025/10617848318016",
+              "persists_for_all_smaller_parameters": true
+            }
+          ],
+          "gamma_enclosure": {
+            "lower": "257428990059/250000000000",
+            "upper": "1029715960237/1000000000000",
+            "decimal_lower_exact": "1.029715960236",
+            "decimal_upper_exact": "1.029715960237"
+          }
+        }
+      }
+    },
+    {
+      "kind": "output",
+      "omitted_zero_based": 1,
+      "retained_scenario_count": 24,
+      "radii": {
+        "additive": {
+          "status": "finite",
+          "parameter_exact": "1535139422739/23220551486440",
+          "tested_certificates": 9,
+          "breakpoints": 113,
+          "sharp_lower_support": [
+            {
+              "lower_vertex": 39,
+              "higher_vertex": 46,
+              "weight": "1/2",
+              "expiry": "469415/5072253",
+              "persists_for_all_smaller_parameters": true
+            },
+            {
+              "lower_vertex": 58,
+              "higher_vertex": 51,
+              "weight": "1/2",
+              "expiry": "1535139422739/23220551486440",
+              "persists_for_all_smaller_parameters": true
+            }
+          ],
+          "gamma_enclosure": null
+        },
+        "multiplicative_squared": {
+          "status": "finite",
+          "parameter_exact": "10602825415204/8131388730481",
+          "tested_certificates": 9,
+          "breakpoints": 113,
+          "sharp_lower_support": [
+            {
+              "lower_vertex": 40,
+              "higher_vertex": 46,
+              "weight": "1/4",
+              "expiry": "1595123721/864948100",
+              "persists_for_all_smaller_parameters": true
+            },
+            {
+              "lower_vertex": 44,
+              "higher_vertex": 46,
+              "weight": "1/4",
+              "expiry": "10602825415204/8131388730481",
+              "persists_for_all_smaller_parameters": true
+            },
+            {
+              "lower_vertex": 47,
+              "higher_vertex": 46,
+              "weight": "1/4",
+              "expiry": "15507410823025/10617848318016",
+              "persists_for_all_smaller_parameters": true
+            },
+            {
+              "lower_vertex": 58,
+              "higher_vertex": 51,
+              "weight": "1/4",
+              "expiry": "1057844095/809016893",
+              "persists_for_all_smaller_parameters": true
+            }
+          ],
+          "gamma_enclosure": {
+            "lower": "142737621771/125000000000",
+            "upper": "1141900974169/1000000000000",
+            "decimal_lower_exact": "1.141900974168",
+            "decimal_upper_exact": "1.141900974169"
+          }
+        }
+      }
+    },
+    {
+      "kind": "output",
+      "omitted_zero_based": 2,
+      "retained_scenario_count": 24,
+      "radii": {
+        "additive": {
+          "status": "finite",
+          "parameter_exact": "418395751461/10126255535440",
+          "tested_certificates": 9,
+          "breakpoints": 123,
+          "sharp_lower_support": [
+            {
+              "lower_vertex": 27,
+              "higher_vertex": 46,
+              "weight": "1/2",
+              "expiry": "531631/4792135",
+              "persists_for_all_smaller_parameters": true
+            },
+            {
+              "lower_vertex": 70,
+              "higher_vertex": 51,
+              "weight": "1/2",
+              "expiry": "418395751461/10126255535440",
+              "persists_for_all_smaller_parameters": true
+            }
+          ],
+          "gamma_enclosure": null
+        },
+        "multiplicative_squared": {
+          "status": "finite",
+          "parameter_exact": "105410584895/89914445952",
+          "tested_certificates": 9,
+          "breakpoints": 123,
+          "sharp_lower_support": [
+            {
+              "lower_vertex": 29,
+              "higher_vertex": 46,
+              "weight": "1/5",
+              "expiry": "97496409196729/60375635070976",
+              "persists_for_all_smaller_parameters": true
+            },
+            {
+              "lower_vertex": 32,
+              "higher_vertex": 46,
+              "weight": "1/5",
+              "expiry": "2413011171769/1304803598400",
+              "persists_for_all_smaller_parameters": true
+            },
+            {
+              "lower_vertex": 39,
+              "higher_vertex": 46,
+              "weight": "1/5",
+              "expiry": "360120760015104/272691355730161",
+              "persists_for_all_smaller_parameters": true
+            },
+            {
+              "lower_vertex": 70,
+              "higher_vertex": 51,
+              "weight": "2/5",
+              "expiry": "105410584895/89914445952",
+              "persists_for_all_smaller_parameters": true
+            }
+          ],
+          "gamma_enclosure": {
+            "lower": "1082747962861/1000000000000",
+            "upper": "541373981431/500000000000",
+            "decimal_lower_exact": "1.082747962861",
+            "decimal_upper_exact": "1.082747962862"
+          }
+        }
+      }
+    },
+    {
+      "kind": "output",
+      "omitted_zero_based": 3,
+      "retained_scenario_count": 24,
+      "radii": {
+        "additive": {
+          "status": "finite",
+          "parameter_exact": "519286149121/31050521652448",
+          "tested_certificates": 8,
+          "breakpoints": 84,
+          "sharp_lower_support": [
+            {
+              "lower_vertex": 16,
+              "higher_vertex": 46,
+              "weight": "1/3",
+              "expiry": "899543/7867983",
+              "persists_for_all_smaller_parameters": true
+            },
+            {
+              "lower_vertex": 42,
+              "higher_vertex": 13,
+              "weight": "1/3",
+              "expiry": "519286149121/31050521652448",
+              "persists_for_all_smaller_parameters": true
+            },
+            {
+              "lower_vertex": 47,
+              "higher_vertex": 46,
+              "weight": "1/3",
+              "expiry": "11089/47495",
+              "persists_for_all_smaller_parameters": true
+            }
+          ],
+          "gamma_enclosure": null
+        },
+        "multiplicative_squared": {
+          "status": "finite",
+          "parameter_exact": "9128860950384/8609574801263",
+          "tested_certificates": 9,
+          "breakpoints": 84,
+          "sharp_lower_support": [
+            {
+              "lower_vertex": 16,
+              "higher_vertex": 46,
+              "weight": "1/3",
+              "expiry": "61905156488289/48559156033600",
+              "persists_for_all_smaller_parameters": true
+            },
+            {
+              "lower_vertex": 42,
+              "higher_vertex": 13,
+              "weight": "1/3",
+              "expiry": "9128860950384/8609574801263",
+              "persists_for_all_smaller_parameters": true
+            },
+            {
+              "lower_vertex": 47,
+              "higher_vertex": 46,
+              "weight": "1/3",
+              "expiry": "2255775025/1325396836",
+              "persists_for_all_smaller_parameters": true
+            }
+          ],
+          "gamma_enclosure": {
+            "lower": "257428990059/250000000000",
+            "upper": "1029715960237/1000000000000",
+            "decimal_lower_exact": "1.029715960236",
+            "decimal_upper_exact": "1.029715960237"
+          }
+        }
+      }
+    },
+    {
+      "kind": "output",
+      "omitted_zero_based": 4,
+      "retained_scenario_count": 24,
+      "radii": {
+        "additive": {
+          "status": "finite",
+          "parameter_exact": "519286149121/31050521652448",
+          "tested_certificates": 8,
+          "breakpoints": 77,
+          "sharp_lower_support": [
+            {
+              "lower_vertex": 16,
+              "higher_vertex": 46,
+              "weight": "1/3",
+              "expiry": "899543/7867983",
+              "persists_for_all_smaller_parameters": true
+            },
+            {
+              "lower_vertex": 42,
+              "higher_vertex": 13,
+              "weight": "1/3",
+              "expiry": "519286149121/31050521652448",
+              "persists_for_all_smaller_parameters": true
+            },
+            {
+              "lower_vertex": 47,
+              "higher_vertex": 46,
+              "weight": "1/3",
+              "expiry": "679441/3937945",
+              "persists_for_all_smaller_parameters": true
+            }
+          ],
+          "gamma_enclosure": null
+        },
+        "multiplicative_squared": {
+          "status": "finite",
+          "parameter_exact": "9128860950384/8609574801263",
+          "tested_certificates": 8,
+          "breakpoints": 77,
+          "sharp_lower_support": [
+            {
+              "lower_vertex": 16,
+              "higher_vertex": 46,
+              "weight": "1/3",
+              "expiry": "61905156488289/48559156033600",
+              "persists_for_all_smaller_parameters": true
+            },
+            {
+              "lower_vertex": 42,
+              "higher_vertex": 13,
+              "weight": "1/3",
+              "expiry": "9128860950384/8609574801263",
+              "persists_for_all_smaller_parameters": true
+            },
+            {
+              "lower_vertex": 47,
+              "higher_vertex": 46,
+              "weight": "1/3",
+              "expiry": "15507410823025/10617848318016",
+              "persists_for_all_smaller_parameters": true
+            }
+          ],
+          "gamma_enclosure": {
+            "lower": "257428990059/250000000000",
+            "upper": "1029715960237/1000000000000",
+            "decimal_lower_exact": "1.029715960236",
+            "decimal_upper_exact": "1.029715960237"
+          }
+        }
+      }
+    },
+    {
+      "kind": "output",
+      "omitted_zero_based": 5,
+      "retained_scenario_count": 24,
+      "radii": {
+        "additive": {
+          "status": "finite",
+          "parameter_exact": "519286149121/31050521652448",
+          "tested_certificates": 9,
+          "breakpoints": 80,
+          "sharp_lower_support": [
+            {
+              "lower_vertex": 16,
+              "higher_vertex": 46,
+              "weight": "1/3",
+              "expiry": "899543/7867983",
+              "persists_for_all_smaller_parameters": true
+            },
+            {
+              "lower_vertex": 42,
+              "higher_vertex": 13,
+              "weight": "1/3",
+              "expiry": "519286149121/31050521652448",
+              "persists_for_all_smaller_parameters": true
+            },
+            {
+              "lower_vertex": 47,
+              "higher_vertex": 46,
+              "weight": "1/3",
+              "expiry": "679441/3937945",
+              "persists_for_all_smaller_parameters": true
+            }
+          ],
+          "gamma_enclosure": null
+        },
+        "multiplicative_squared": {
+          "status": "finite",
+          "parameter_exact": "9128860950384/8609574801263",
+          "tested_certificates": 8,
+          "breakpoints": 80,
+          "sharp_lower_support": [
+            {
+              "lower_vertex": 16,
+              "higher_vertex": 46,
+              "weight": "1/3",
+              "expiry": "61905156488289/48559156033600",
+              "persists_for_all_smaller_parameters": true
+            },
+            {
+              "lower_vertex": 42,
+              "higher_vertex": 13,
+              "weight": "1/3",
+              "expiry": "9128860950384/8609574801263",
+              "persists_for_all_smaller_parameters": true
+            },
+            {
+              "lower_vertex": 47,
+              "higher_vertex": 46,
+              "weight": "1/3",
+              "expiry": "15507410823025/10617848318016",
+              "persists_for_all_smaller_parameters": true
+            }
+          ],
+          "gamma_enclosure": {
+            "lower": "257428990059/250000000000",
+            "upper": "1029715960237/1000000000000",
+            "decimal_lower_exact": "1.029715960236",
+            "decimal_upper_exact": "1.029715960237"
+          }
+        }
+      }
+    },
+    {
+      "kind": "output",
+      "omitted_zero_based": 6,
+      "retained_scenario_count": 24,
+      "radii": {
+        "additive": {
+          "status": "finite",
+          "parameter_exact": "47885705/659344736",
+          "tested_certificates": 8,
+          "breakpoints": 97,
+          "sharp_lower_support": [
+            {
+              "lower_vertex": 16,
+              "higher_vertex": 46,
+              "weight": "1/3",
+              "expiry": "899543/7867983",
+              "persists_for_all_smaller_parameters": true
+            },
+            {
+              "lower_vertex": 42,
+              "higher_vertex": 13,
+              "weight": "1/3",
+              "expiry": "47885705/659344736",
+              "persists_for_all_smaller_parameters": true
+            },
+            {
+              "lower_vertex": 47,
+              "higher_vertex": 46,
+              "weight": "1/3",
+              "expiry": "679441/3937945",
+              "persists_for_all_smaller_parameters": true
+            }
+          ],
+          "gamma_enclosure": null
+        },
+        "multiplicative_squared": {
+          "status": "finite",
+          "parameter_exact": "230706396/182820691",
+          "tested_certificates": 9,
+          "breakpoints": 97,
+          "sharp_lower_support": [
+            {
+              "lower_vertex": 16,
+              "higher_vertex": 46,
+              "weight": "1/3",
+              "expiry": "61905156488289/48559156033600",
+              "persists_for_all_smaller_parameters": true
+            },
+            {
+              "lower_vertex": 42,
+              "higher_vertex": 13,
+              "weight": "1/3",
+              "expiry": "230706396/182820691",
+              "persists_for_all_smaller_parameters": true
+            },
+            {
+              "lower_vertex": 47,
+              "higher_vertex": 46,
+              "weight": "1/3",
+              "expiry": "15507410823025/10617848318016",
+              "persists_for_all_smaller_parameters": true
+            }
+          ],
+          "gamma_enclosure": {
+            "lower": "561677657419/500000000000",
+            "upper": "1123355314839/1000000000000",
+            "decimal_lower_exact": "1.123355314838",
+            "decimal_upper_exact": "1.123355314839"
+          }
+        }
+      }
+    },
+    {
+      "kind": "output",
+      "omitted_zero_based": 7,
+      "retained_scenario_count": 24,
+      "radii": {
+        "additive": {
+          "status": "finite",
+          "parameter_exact": "638487723891/38142922134910",
+          "tested_certificates": 8,
+          "breakpoints": 78,
+          "sharp_lower_support": [
+            {
+              "lower_vertex": 16,
+              "higher_vertex": 46,
+              "weight": "1/3",
+              "expiry": "899543/7867983",
+              "persists_for_all_smaller_parameters": true
+            },
+            {
+              "lower_vertex": 42,
+              "higher_vertex": 13,
+              "weight": "1/3",
+              "expiry": "638487723891/38142922134910",
+              "persists_for_all_smaller_parameters": true
+            },
+            {
+              "lower_vertex": 47,
+              "higher_vertex": 46,
+              "weight": "1/3",
+              "expiry": "679441/3937945",
+              "persists_for_all_smaller_parameters": true
+            }
+          ],
+          "gamma_enclosure": null
+        },
+        "multiplicative_squared": {
+          "status": "finite",
+          "parameter_exact": "3738009474885/3525180233588",
+          "tested_certificates": 9,
+          "breakpoints": 78,
+          "sharp_lower_support": [
+            {
+              "lower_vertex": 16,
+              "higher_vertex": 46,
+              "weight": "1/3",
+              "expiry": "61905156488289/48559156033600",
+              "persists_for_all_smaller_parameters": true
+            },
+            {
+              "lower_vertex": 42,
+              "higher_vertex": 13,
+              "weight": "1/3",
+              "expiry": "3738009474885/3525180233588",
+              "persists_for_all_smaller_parameters": true
+            },
+            {
+              "lower_vertex": 47,
+              "higher_vertex": 46,
+              "weight": "1/3",
+              "expiry": "15507410823025/10617848318016",
+              "persists_for_all_smaller_parameters": true
+            }
+          ],
+          "gamma_enclosure": {
+            "lower": "128718078737/125000000000",
+            "upper": "1029744629897/1000000000000",
+            "decimal_lower_exact": "1.029744629896",
+            "decimal_upper_exact": "1.029744629897"
+          }
+        }
+      }
+    },
+    {
+      "kind": "output",
+      "omitted_zero_based": 8,
+      "retained_scenario_count": 24,
+      "radii": {
+        "additive": {
+          "status": "finite",
+          "parameter_exact": "519286149121/31050521652448",
+          "tested_certificates": 8,
+          "breakpoints": 75,
+          "sharp_lower_support": [
+            {
+              "lower_vertex": 16,
+              "higher_vertex": 46,
+              "weight": "1/3",
+              "expiry": "899543/7867983",
+              "persists_for_all_smaller_parameters": true
+            },
+            {
+              "lower_vertex": 42,
+              "higher_vertex": 13,
+              "weight": "1/3",
+              "expiry": "519286149121/31050521652448",
+              "persists_for_all_smaller_parameters": true
+            },
+            {
+              "lower_vertex": 47,
+              "higher_vertex": 46,
+              "weight": "1/3",
+              "expiry": "679441/3937945",
+              "persists_for_all_smaller_parameters": true
+            }
+          ],
+          "gamma_enclosure": null
+        },
+        "multiplicative_squared": {
+          "status": "finite",
+          "parameter_exact": "9128860950384/8609574801263",
+          "tested_certificates": 8,
+          "breakpoints": 75,
+          "sharp_lower_support": [
+            {
+              "lower_vertex": 16,
+              "higher_vertex": 46,
+              "weight": "1/3",
+              "expiry": "61905156488289/48559156033600",
+              "persists_for_all_smaller_parameters": true
+            },
+            {
+              "lower_vertex": 42,
+              "higher_vertex": 13,
+              "weight": "1/3",
+              "expiry": "9128860950384/8609574801263",
+              "persists_for_all_smaller_parameters": true
+            },
+            {
+              "lower_vertex": 47,
+              "higher_vertex": 46,
+              "weight": "1/3",
+              "expiry": "15507410823025/10617848318016",
+              "persists_for_all_smaller_parameters": true
+            }
+          ],
+          "gamma_enclosure": {
+            "lower": "257428990059/250000000000",
+            "upper": "1029715960237/1000000000000",
+            "decimal_lower_exact": "1.029715960236",
+            "decimal_upper_exact": "1.029715960237"
+          }
+        }
+      }
+    },
+    {
+      "kind": "input",
+      "omitted_zero_based": 0,
+      "retained_scenario_count": 18,
+      "radii": {
+        "additive": {
+          "status": "finite",
+          "parameter_exact": "270605148885/14056655072392",
+          "tested_certificates": 8,
+          "breakpoints": 79,
+          "sharp_lower_support": [
+            {
+              "lower_vertex": 16,
+              "higher_vertex": 46,
+              "weight": "1/3",
+              "expiry": "13031/93191",
+              "persists_for_all_smaller_parameters": true
+            },
+            {
+              "lower_vertex": 42,
+              "higher_vertex": 13,
+              "weight": "1/3",
+              "expiry": "270605148885/14056655072392",
+              "persists_for_all_smaller_parameters": true
+            },
+            {
+              "lower_vertex": 47,
+              "higher_vertex": 46,
+              "weight": "1/3",
+              "expiry": "679441/3937945",
+              "persists_for_all_smaller_parameters": true
+            }
+          ],
+          "gamma_enclosure": null
+        },
+        "multiplicative_squared": {
+          "status": "finite",
+          "parameter_exact": "1004779972/938987327",
+          "tested_certificates": 9,
+          "breakpoints": 79,
+          "sharp_lower_support": [
+            {
+              "lower_vertex": 16,
+              "higher_vertex": 46,
+              "weight": "1/3",
+              "expiry": "8684562481/6425625600",
+              "persists_for_all_smaller_parameters": true
+            },
+            {
+              "lower_vertex": 42,
+              "higher_vertex": 13,
+              "weight": "1/3",
+              "expiry": "1004779972/938987327",
+              "persists_for_all_smaller_parameters": true
+            },
+            {
+              "lower_vertex": 47,
+              "higher_vertex": 46,
+              "weight": "1/3",
+              "expiry": "15507410823025/10617848318016",
+              "persists_for_all_smaller_parameters": true
+            }
+          ],
+          "gamma_enclosure": {
+            "lower": "517220373787/500000000000",
+            "upper": "41377629903/40000000000",
+            "decimal_lower_exact": "1.034440747574",
+            "decimal_upper_exact": "1.034440747575"
+          }
+        }
+      }
+    },
+    {
+      "kind": "input",
+      "omitted_zero_based": 1,
+      "retained_scenario_count": 18,
+      "radii": {
+        "additive": {
+          "status": "finite",
+          "parameter_exact": "519286149121/31050521652448",
+          "tested_certificates": 8,
+          "breakpoints": 88,
+          "sharp_lower_support": [
+            {
+              "lower_vertex": 16,
+              "higher_vertex": 46,
+              "weight": "1/3",
+              "expiry": "899543/7867983",
+              "persists_for_all_smaller_parameters": true
+            },
+            {
+              "lower_vertex": 42,
+              "higher_vertex": 13,
+              "weight": "1/3",
+              "expiry": "519286149121/31050521652448",
+              "persists_for_all_smaller_parameters": true
+            },
+            {
+              "lower_vertex": 47,
+              "higher_vertex": 46,
+              "weight": "1/3",
+              "expiry": "1722727/9177124",
+              "persists_for_all_smaller_parameters": true
+            }
+          ],
+          "gamma_enclosure": null
+        },
+        "multiplicative_squared": {
+          "status": "finite",
+          "parameter_exact": "9128860950384/8609574801263",
+          "tested_certificates": 9,
+          "breakpoints": 88,
+          "sharp_lower_support": [
+            {
+              "lower_vertex": 16,
+              "higher_vertex": 46,
+              "weight": "1/3",
+              "expiry": "61905156488289/48559156033600",
+              "persists_for_all_smaller_parameters": true
+            },
+            {
+              "lower_vertex": 42,
+              "higher_vertex": 13,
+              "weight": "1/3",
+              "expiry": "9128860950384/8609574801263",
+              "persists_for_all_smaller_parameters": true
+            },
+            {
+              "lower_vertex": 47,
+              "higher_vertex": 46,
+              "weight": "1/3",
+              "expiry": "84219604911376/55568034633609",
+              "persists_for_all_smaller_parameters": true
+            }
+          ],
+          "gamma_enclosure": {
+            "lower": "257428990059/250000000000",
+            "upper": "1029715960237/1000000000000",
+            "decimal_lower_exact": "1.029715960236",
+            "decimal_upper_exact": "1.029715960237"
+          }
+        }
+      }
+    },
+    {
+      "kind": "input",
+      "omitted_zero_based": 2,
+      "retained_scenario_count": 18,
+      "radii": {
+        "additive": {
+          "status": "finite",
+          "parameter_exact": "501573772655/19579628303136",
+          "tested_certificates": 9,
+          "breakpoints": 110,
+          "sharp_lower_support": [
+            {
+              "lower_vertex": 16,
+              "higher_vertex": 46,
+              "weight": "1/3",
+              "expiry": "899543/7867983",
+              "persists_for_all_smaller_parameters": true
+            },
+            {
+              "lower_vertex": 42,
+              "higher_vertex": 13,
+              "weight": "1/3",
+              "expiry": "501573772655/19579628303136",
+              "persists_for_all_smaller_parameters": true
+            },
+            {
+              "lower_vertex": 47,
+              "higher_vertex": 46,
+              "weight": "1/3",
+              "expiry": "679441/3937945",
+              "persists_for_all_smaller_parameters": true
+            }
+          ],
+          "gamma_enclosure": null
+        },
+        "multiplicative_squared": {
+          "status": "finite",
+          "parameter_exact": "5930541322496/5428967549841",
+          "tested_certificates": 9,
+          "breakpoints": 110,
+          "sharp_lower_support": [
+            {
+              "lower_vertex": 16,
+              "higher_vertex": 46,
+              "weight": "1/3",
+              "expiry": "61905156488289/48559156033600",
+              "persists_for_all_smaller_parameters": true
+            },
+            {
+              "lower_vertex": 42,
+              "higher_vertex": 13,
+              "weight": "1/3",
+              "expiry": "5930541322496/5428967549841",
+              "persists_for_all_smaller_parameters": true
+            },
+            {
+              "lower_vertex": 47,
+              "higher_vertex": 46,
+              "weight": "1/3",
+              "expiry": "15507410823025/10617848318016",
+              "persists_for_all_smaller_parameters": true
+            }
+          ],
+          "gamma_enclosure": {
+            "lower": "522586937047/500000000000",
+            "upper": "209034774819/200000000000",
+            "decimal_lower_exact": "1.045173874094",
+            "decimal_upper_exact": "1.045173874095"
+          }
+        }
+      }
+    }
+  ],
+  "feasible_row_omissions": [
+    13,
+    42,
+    46
+  ],
+  "feasible_measured_observation_omissions": [
+    13,
+    42
+  ],
+  "reference_identity_omission_feasible": true,
+  "maximum_exact_discrepancy": "0",
+  "reoptimization_performed": false,
+  "interpretation": "Reference46 is a normalization identity fixed at1. Deleting its constraint is structurally different from deleting a measured genotype observation.",
+  "scope": "Independent exact certificates and reconstruction of frozen exploratory outputs, not biological calibration or new validation.",
+  "input_hashes_before_and_after": {
+    "outputs\\synonymous-rna-accessibility\\analysis\\cycle7\\freeze.json": "340624e795e600abbbaeb3daefa89b054ceca7e356855014d320df20b043a10f",
+    "outputs\\synonymous-rna-accessibility\\analysis\\cycle7\\robustness.py": "7a0798391e1987f06dbb2d09f6771aa10ffa39431d2f765400e47e594a9f395e",
+    "outputs\\synonymous-rna-accessibility\\analysis\\cycle7\\robustness_protocol.md": "6d3edb6f28f8a71a5cf951c7163e4775ceff371c74071633d82fbe32e967dc58",
+    "outputs\\synonymous-rna-accessibility\\analysis\\cycle7\\run_scenarios.py": "24f04e54b8cef37672234b2753128ffed58cad58fe9ab58de783189eff77fb6c",
+    "outputs\\synonymous-rna-accessibility\\analysis\\cycle7\\scenario_geometry\\scenario_geometry.py": "667422c85a13d5a44761b1248fa0bbae9f2469306b80f546ab9c496e3e7128cf",
+    "outputs\\synonymous-rna-accessibility\\analysis\\cycle7\\scenario_geometry\\protocol.md": "f3e6d1046083bfc2587d96670c89a384c846429fe7747e29fffd3e663ae3cdac",
+    "outputs\\synonymous-rna-accessibility\\analysis\\cycle7\\scenario_geometry\\derivation.md": "db37933a6075c830afb2ad4bf4a5aa55d7994968fcc830443a053cea8dd80e8d",
+    "outputs\\synonymous-rna-accessibility\\analysis\\cycle6\\fas_pilot\\ordinal_geometry.py": "8872d6452afe4ccbf84e61450d4b1bfbdadf26469f20c0e24452f3abc205f9ac",
+    "outputs\\synonymous-rna-accessibility\\results\\cycle7\\robustness.json.gz": "e7a742aa69fc4e836322973d7fa941855538bc26a18e4574b22f3e3a7e999ae8",
+    "outputs\\synonymous-rna-accessibility\\results\\cycle6\\full_result_v1.json.gz": "e3c3d061052643046de58dc789866899b0fb14ade83f06170e2cf32e9e54e145",
+    "outputs\\synonymous-rna-accessibility\\analysis\\cycle6\\fas_pilot\\source_contract.json": "f0fb3d2ced5dc36d0794eb76b7a257351534f8dd3a784f33c024be4b500a9c38"
+  },
+  "decompressed_primary_sha256": "3f34f322acc8bc9a6f6b414278d6581c458bce08f0f3bb18a3bcccee7320e466",
+  "verifier_sha256": "d7d608d207509b5ccd87394d9fc37131611683698226d29901746ece1e72fd1c",
+  "started_at": "2026-10-25T18:34:13.358182+00:00",
+  "runtime_seconds": 1.774415499996394,
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26300-SP0"
+}

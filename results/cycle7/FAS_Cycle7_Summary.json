@@ -1,0 +1,48 @@
+{
+  "scope": "Exploratory post-primary exact sensitivity; not fresh validation or biological calibration.",
+  "source_sha256": "3f34f322acc8bc9a6f6b414278d6581c458bce08f0f3bb18a3bcccee7320e466",
+  "full_radius": {
+    "analysis": "All preparations",
+    "epsilon_exact": "519286149121/31050521652448",
+    "epsilon_decimal": 0.016723910629696616,
+    "gamma_squared_exact": "9128860950384/8609574801263",
+    "gamma_lower_exact": "257428990059/250000000000",
+    "gamma_upper_exact": "1029715960237/1000000000000",
+    "gamma_lower_decimal": "1.029715960236",
+    "gamma_upper_decimal": "1.029715960237",
+    "reference_index": 46,
+    "reference_fixed": true
+  },
+  "row_omissions_restoring_feasibility": [
+    13,
+    42,
+    46
+  ],
+  "normalization_identity_omission": 46,
+  "scenario_summary": {
+    "category_nonempty_pair_counts": {
+      "fixed_route": 2556,
+      "adaptive_routes_only": 72,
+      "mixed_scenario_connectivity": 22,
+      "joint_obstruction_box_connected": 0,
+      "upper_box_obstruction": 0
+    },
+    "all_scenario_obstruction_pairs": 0,
+    "upper_box_obstruction_pairs": 0,
+    "interpretation": "Counts may overlap because different threshold ranges have different classifications. Not independent confirmations or probabilities."
+  },
+  "pairs_with_fixed_route_through_common_endpoint_ceiling": 2475,
+  "pairs_with_some_common_eligible_threshold_without_fixed_route": 81,
+  "independence": "No fresh biological validation; all27 scenarios share library/input material.",
+  "recovery_scope": "One model-compatible completion of an empirical box; not one correction fitting all27 fields.",
+  "raw_results": {
+    "robustness": {
+      "raw_sha256": "861b7061db34532698b074c22409aceb16925a56348b5dcdbf313bcb2dbd40aa",
+      "gzip_sha256": "e7a742aa69fc4e836322973d7fa941855538bc26a18e4574b22f3e3a7e999ae8"
+    },
+    "scenario_geometry": {
+      "raw_sha256": "0c2ad1a6a602f80e44ff05eaf3321522d9eaf0940382c599309a04d33f4b383e",
+      "gzip_sha256": "8c5fa622f2bceb21c2bd0299b9ee351fc86e9daaac14b3837e04b9632b972615"
+    }
+  }
+}

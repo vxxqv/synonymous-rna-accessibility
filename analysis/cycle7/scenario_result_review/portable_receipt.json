@@ -1,0 +1,17 @@
+{
+  "status": "PASS_NO_GIT_PORTABLE_DEFAULT_REPLAY",
+  "scientific_verification_identical": true,
+  "all_pairs_csv_byte_identical": true,
+  "all_decompressed_input_hashes_identical": true,
+  "historical_git_verified": false,
+  "stored_compression_hashes_may_differ": true,
+  "guard_checks": [
+    "Refusing existing output",
+    "Output must be outside repository",
+    "Repository directory missing",
+    "Input decompressed hash mismatch"
+  ],
+  "copied_verifier_sha256": "49445bb4fa6d22c268844c26a65169e4a2ef9480de0e6c05765f005eee891fd7",
+  "replay_verification_sha256": "f52971a3d0ded05b07c0da62b0c0ef181d4e6aa6d2bb3b2bb21e5aaae0688b59",
+  "scope": "Numerical replay without Git/network/production imports; no new source outcomes."
+}

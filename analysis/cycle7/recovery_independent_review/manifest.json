@@ -1,0 +1,10 @@
+{
+  "verdict": "PASS_MAIN_CLAIMS_MINOR_TOY_K_PARAMETER_CLARIFICATION",
+  "source_sha256": "18c6c963a14eb70aae94d09e12335ec05bced491abae86faf313e81b51b7e771",
+  "no_new_observed_inputs": true,
+  "files": {
+    "checks.py": "6c6983fc49dcac6bd90ef5475d24414af01007d98d4adb235d69d82d1f1f3455",
+    "review.md": "4edc06faba8b0e8a3288511a4da769b4432dfddccc8a2353c80cca10bcfaa9bd",
+    "synthetic_receipt.json": "f3d5d55cb20c264342af332ee140e99f5ff8c211e21b8d7e94880cd4d6b69ad8"
+  }
+}

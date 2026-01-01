@@ -1,0 +1,21 @@
+{
+  "status": "PORTABLE_ADAPTER_READY",
+  "original_sha256": "e971da5fab874f0843b58d2e85dc9fc6b28939254eb4ee3c19d73466f46bc46f",
+  "portable_sha256": "d7d608d207509b5ccd87394d9fc37131611683698226d29901746ece1e72fd1c",
+  "unchanged_function_asts": [
+    "need",
+    "sha",
+    "read_pinned",
+    "design",
+    "certify",
+    "order_expiries",
+    "expanded",
+    "verify_radius",
+    "run"
+  ],
+  "changed_functions": [
+    "main"
+  ],
+  "scope": "Only CLI root alias, optional default successor path, gzip decoding and file-level hash bookkeeping changed.",
+  "decoded_successor_sha256": "861b7061db34532698b074c22409aceb16925a56348b5dcdbf313bcb2dbd40aa"
+}

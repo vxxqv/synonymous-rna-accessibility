@@ -1,0 +1,154 @@
+{
+  "schema_version": 2,
+  "claim_id": "exact_observed_anchored_robustness_certificate_review",
+  "repository": {
+    "commit": "7eae1381c781c93e324f01d4e0d07692bceabea5",
+    "dirty": true
+  },
+  "command": [
+    "work/env/Scripts/python.exe",
+    "work/research_cycle7/robustness_result_review/verify_result.py",
+    "--repo",
+    "outputs/synonymous-rna-accessibility",
+    "--result",
+    "work/research_cycle7/results/robustness.json",
+    "--out",
+    "work/research_cycle7/robustness_result_review/observed_v1"
+  ],
+  "environment": {
+    "software": [
+      {
+        "name": "CPython",
+        "version": "3.12.14"
+      }
+    ],
+    "hardware": "Windows-11-10.0.26300-SP0; single-process exact arithmetic"
+  },
+  "mathematics": {
+    "assertion_tested": "All26 claimed radii have exact sharp lower and feasible upper certificates; all72 row and12 preparation deletions match the frozen domain.",
+    "coefficient_domain": "Rational scores and coefficients, integer feature design; rational enclosures of square roots",
+    "conventions": "Nonnegative closed intervals; native reference46 anchored at1; common nondecreasing response; no reoptimization.",
+    "inputs": [
+      "outputs/synonymous-rna-accessibility/analysis/cycle7/freeze.json",
+      "work/research_cycle7/results/robustness.json",
+      "outputs/synonymous-rna-accessibility/analysis/cycle7/robustness.py",
+      "outputs/synonymous-rna-accessibility/analysis/cycle7/robustness_protocol.md",
+      "outputs/synonymous-rna-accessibility/analysis/cycle7/run_scenarios.py",
+      "outputs/synonymous-rna-accessibility/analysis/cycle7/scenario_geometry/scenario_geometry.py",
+      "outputs/synonymous-rna-accessibility/analysis/cycle7/scenario_geometry/protocol.md",
+      "outputs/synonymous-rna-accessibility/analysis/cycle7/scenario_geometry/derivation.md",
+      "outputs/synonymous-rna-accessibility/analysis/cycle6/fas_pilot/ordinal_geometry.py",
+      "outputs/synonymous-rna-accessibility/results/cycle6/full_result_v1.json.gz",
+      "outputs/synonymous-rna-accessibility/analysis/cycle6/fas_pilot/source_contract.json"
+    ],
+    "bounds": {
+      "radii": 26,
+      "row_deletions": 72,
+      "preparation_deletions": 12,
+      "search_event_certificates": 220
+    },
+    "non_claims": [
+      "No independent biological validation",
+      "No calibrated error budget",
+      "No causal or barrier attribution"
+    ]
+  },
+  "randomness": {
+    "used": false,
+    "generator": "",
+    "seed": null
+  },
+  "run": {
+    "started_at": "2026-10-25T18:13:38.961785+00:00",
+    "runtime_seconds": 1.786956800002372,
+    "exit_status": 0,
+    "status": "completed",
+    "resource_limits": {
+      "memory_bytes": null,
+      "cpu_seconds": null,
+      "max_cores": 1,
+      "max_threads": 1
+    }
+  },
+  "outputs": [
+    {
+      "path": "work/research_cycle7/robustness_result_review/observed_v1/receipt.json",
+      "sha256": "e2be8de1c903efa19b4ad8e2f47161e16d76f2f5ae1541b1bb003f790efe4ecf",
+      "kind": "result"
+    }
+  ],
+  "checks": [
+    "Exact source and output hashes before and after",
+    "Independent interval and feature reconstruction",
+    "All primal/dual rational certificates",
+    "Every positive-weight lower comparison lifetime",
+    "All declared deletion identities and nesting checks",
+    "Reference omission separated from measured observations"
+  ],
+  "result": "Implementation-independent exact verification of all declared saved finite-domain certificates completed successfully.",
+  "residual_risks": [
+    "Unmeasured recovery bias is not calibrated",
+    "Scenario dependence not modeled by Cartesian interval widening",
+    "Review is separately authored with inherited context"
+  ],
+  "input_artifacts": [
+    {
+      "path": "outputs/synonymous-rna-accessibility/analysis/cycle7/freeze.json",
+      "sha256": "340624e795e600abbbaeb3daefa89b054ceca7e356855014d320df20b043a10f",
+      "sha256_after": "340624e795e600abbbaeb3daefa89b054ceca7e356855014d320df20b043a10f"
+    },
+    {
+      "path": "work/research_cycle7/results/robustness.json",
+      "sha256": "861b7061db34532698b074c22409aceb16925a56348b5dcdbf313bcb2dbd40aa",
+      "sha256_after": "861b7061db34532698b074c22409aceb16925a56348b5dcdbf313bcb2dbd40aa"
+    },
+    {
+      "path": "outputs/synonymous-rna-accessibility/analysis/cycle7/robustness.py",
+      "sha256": "7a0798391e1987f06dbb2d09f6771aa10ffa39431d2f765400e47e594a9f395e",
+      "sha256_after": "7a0798391e1987f06dbb2d09f6771aa10ffa39431d2f765400e47e594a9f395e"
+    },
+    {
+      "path": "outputs/synonymous-rna-accessibility/analysis/cycle7/robustness_protocol.md",
+      "sha256": "6d3edb6f28f8a71a5cf951c7163e4775ceff371c74071633d82fbe32e967dc58",
+      "sha256_after": "6d3edb6f28f8a71a5cf951c7163e4775ceff371c74071633d82fbe32e967dc58"
+    },
+    {
+      "path": "outputs/synonymous-rna-accessibility/analysis/cycle7/run_scenarios.py",
+      "sha256": "24f04e54b8cef37672234b2753128ffed58cad58fe9ab58de783189eff77fb6c",
+      "sha256_after": "24f04e54b8cef37672234b2753128ffed58cad58fe9ab58de783189eff77fb6c"
+    },
+    {
+      "path": "outputs/synonymous-rna-accessibility/analysis/cycle7/scenario_geometry/scenario_geometry.py",
+      "sha256": "667422c85a13d5a44761b1248fa0bbae9f2469306b80f546ab9c496e3e7128cf",
+      "sha256_after": "667422c85a13d5a44761b1248fa0bbae9f2469306b80f546ab9c496e3e7128cf"
+    },
+    {
+      "path": "outputs/synonymous-rna-accessibility/analysis/cycle7/scenario_geometry/protocol.md",
+      "sha256": "f3e6d1046083bfc2587d96670c89a384c846429fe7747e29fffd3e663ae3cdac",
+      "sha256_after": "f3e6d1046083bfc2587d96670c89a384c846429fe7747e29fffd3e663ae3cdac"
+    },
+    {
+      "path": "outputs/synonymous-rna-accessibility/analysis/cycle7/scenario_geometry/derivation.md",
+      "sha256": "db37933a6075c830afb2ad4bf4a5aa55d7994968fcc830443a053cea8dd80e8d",
+      "sha256_after": "db37933a6075c830afb2ad4bf4a5aa55d7994968fcc830443a053cea8dd80e8d"
+    },
+    {
+      "path": "outputs/synonymous-rna-accessibility/analysis/cycle6/fas_pilot/ordinal_geometry.py",
+      "sha256": "8872d6452afe4ccbf84e61450d4b1bfbdadf26469f20c0e24452f3abc205f9ac",
+      "sha256_after": "8872d6452afe4ccbf84e61450d4b1bfbdadf26469f20c0e24452f3abc205f9ac"
+    },
+    {
+      "path": "outputs/synonymous-rna-accessibility/results/cycle6/full_result_v1.json.gz",
+      "sha256": "e3c3d061052643046de58dc789866899b0fb14ade83f06170e2cf32e9e54e145",
+      "sha256_after": "e3c3d061052643046de58dc789866899b0fb14ade83f06170e2cf32e9e54e145"
+    },
+    {
+      "path": "outputs/synonymous-rna-accessibility/analysis/cycle6/fas_pilot/source_contract.json",
+      "sha256": "f0fb3d2ced5dc36d0794eb76b7a257351534f8dd3a784f33c024be4b500a9c38",
+      "sha256_after": "f0fb3d2ced5dc36d0794eb76b7a257351534f8dd3a784f33c024be4b500a9c38"
+    }
+  ],
+  "declared_results": [
+    "work/research_cycle7/robustness_result_review/observed_v1/receipt.json"
+  ]
+}

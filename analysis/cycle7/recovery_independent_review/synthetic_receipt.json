@@ -1,0 +1,18 @@
+{
+  "status": "PASS_EXACT_SYNTHETIC_SCOPE_CHECKS",
+  "anchored_coordinate_cases": 80,
+  "one_box_completion_not_all_scenarios_full_Q2_counterexample": true,
+  "probability_bounded_primitive_recovery_constructed": true,
+  "pairwise_spread_square_example": {
+    "lambda_all": "3",
+    "kappa_WT": "9",
+    "pairwise_spread": "9"
+  },
+  "additive_half_unit_multiplicative_factors": [
+    "6",
+    "51",
+    "501"
+  ],
+  "scope": "Invented rational fields only, no observed outcomes or author code imported.",
+  "source_sha256": "6c6983fc49dcac6bd90ef5475d24414af01007d98d4adb235d69d82d1f1f3455"
+}

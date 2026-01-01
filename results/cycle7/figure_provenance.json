@@ -1,0 +1,10 @@
+{
+  "figure": "Figure_FAS_Robustness.pdf",
+  "input_raw_sha256": {
+    "robustness": "861b7061db34532698b074c22409aceb16925a56348b5dcdbf313bcb2dbd40aa",
+    "scenario_geometry": "0c2ad1a6a602f80e44ff05eaf3321522d9eaf0940382c599309a04d33f4b383e"
+  },
+  "pdf_sha256": "16a07acc9a2db2c27e15c4a99f0599f92387ca6b39fb2234498962a39d583b43",
+  "png_sha256": "c494cb5017c5e92e88dd4d60e76c2a18d11cfc13a96e0ca16d627050b4abc54b",
+  "status": "generated_pending_visual_review"
+}

@@ -1,0 +1,15 @@
+{
+  "status": "PASS_READ_ONLY_COMMIT_SNAPSHOT_COMPARISON",
+  "revision": "7eae1381c781c93e324f01d4e0d07692bceabea5",
+  "all_freeze_and_source_bytes_match_current_checkout": true,
+  "files": {
+    "freeze.json": "340624e795e600abbbaeb3daefa89b054ceca7e356855014d320df20b043a10f",
+    "robustness.py": "7a0798391e1987f06dbb2d09f6771aa10ffa39431d2f765400e47e594a9f395e",
+    "robustness_protocol.md": "6d3edb6f28f8a71a5cf951c7163e4775ceff371c74071633d82fbe32e967dc58",
+    "run_scenarios.py": "24f04e54b8cef37672234b2753128ffed58cad58fe9ab58de783189eff77fb6c",
+    "scenario_geometry/scenario_geometry.py": "667422c85a13d5a44761b1248fa0bbae9f2469306b80f546ab9c496e3e7128cf",
+    "scenario_geometry/protocol.md": "f3e6d1046083bfc2587d96670c89a384c846429fe7747e29fffd3e663ae3cdac",
+    "scenario_geometry/derivation.md": "db37933a6075c830afb2ad4bf4a5aa55d7994968fcc830443a053cea8dd80e8d"
+  },
+  "scope": "Separate historical-content check; portable numerical verifier requires no Git and reports historical_git_verified=false."
+}

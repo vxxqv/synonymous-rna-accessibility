@@ -1,0 +1,50 @@
+{
+  "status": "PASS_ALL_EXACT_RECORDS",
+  "pair_count": 2556,
+  "scenario_capacity_count": 69012,
+  "complete_record_comparisons": 2556,
+  "critical_membership_checks": 10412,
+  "category_nonempty_pair_counts": {
+    "fixed_route": 2556,
+    "adaptive_routes_only": 72,
+    "mixed_scenario_connectivity": 22,
+    "joint_obstruction_box_connected": 0,
+    "upper_box_obstruction": 0
+  },
+  "all_scenario_obstruction_pairs": 0,
+  "upper_box_obstruction_pairs": 0,
+  "adaptive_mixed_overlap": 13,
+  "adaptive_mixed_union": 81,
+  "C_fix_equals_E_pairs": 2475,
+  "C_fix_less_than_E_pairs": 81,
+  "tau0_fixed_route_pairs": 2556,
+  "positive_width_fixed_route_pairs": 2556,
+  "all27_fields_retained": true,
+  "unknown_vertices_dropped": false,
+  "qualification": "Exact descriptive quantifiers on27 dependent preparation fields. No confidence calibration, causal mechanism, measured evolutionary route or general full-synonymous-space conclusion.",
+  "inputs": {
+    "primary": {
+      "stored_sha256": "3f34f322acc8bc9a6f6b414278d6581c458bce08f0f3bb18a3bcccee7320e466",
+      "decompressed_sha256": "3f34f322acc8bc9a6f6b414278d6581c458bce08f0f3bb18a3bcccee7320e466"
+    },
+    "result": {
+      "stored_sha256": "0c2ad1a6a602f80e44ff05eaf3321522d9eaf0940382c599309a04d33f4b383e",
+      "decompressed_sha256": "0c2ad1a6a602f80e44ff05eaf3321522d9eaf0940382c599309a04d33f4b383e"
+    },
+    "freeze": {
+      "stored_sha256": "340624e795e600abbbaeb3daefa89b054ceca7e356855014d320df20b043a10f",
+      "decompressed_sha256": "340624e795e600abbbaeb3daefa89b054ceca7e356855014d320df20b043a10f"
+    }
+  },
+  "frozen_source_checks": {
+    "robustness.py": true,
+    "robustness_protocol.md": true,
+    "run_scenarios.py": true,
+    "scenario_geometry/scenario_geometry.py": true,
+    "scenario_geometry/protocol.md": true,
+    "scenario_geometry/derivation.md": true
+  },
+  "verifier_sha256": "49445bb4fa6d22c268844c26a65169e4a2ef9480de0e6c05765f005eee891fd7",
+  "historical_git_verified": false,
+  "all_pairs_csv_sha256": "62e4fe15fee44fd1b4d6fad086a32633fbb06111eea33c4680c5bb77a8fa50c5"
+}

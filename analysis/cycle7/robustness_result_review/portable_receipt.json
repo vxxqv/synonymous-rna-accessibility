@@ -1,0 +1,43 @@
+{
+  "status": "PASS",
+  "portable_sha256": "d7d608d207509b5ccd87394d9fc37131611683698226d29901746ece1e72fd1c",
+  "original_sha256": "e971da5fab874f0843b58d2e85dc9fc6b28939254eb4ee3c19d73466f46bc46f",
+  "tests": [
+    "default_gzip_root_alias",
+    "explicit_raw_repo_alias",
+    "reject_-O",
+    "reject_-OO",
+    "reject_existing_output_before_input",
+    "reject_wrong_decoded_successor_before_output"
+  ],
+  "all_scientific_output_fields_equal": true,
+  "ignored_runtime_and_location_metadata_fields": [
+    "input_hashes_before_and_after",
+    "verifier_sha256",
+    "started_at",
+    "runtime_seconds"
+  ],
+  "radii": 26,
+  "row_deletions": 72,
+  "tested_event_certificates": 220,
+  "git_metadata_absent": true,
+  "empty_PATH": true,
+  "network_required": false,
+  "scientific_packages_imported": false,
+  "fixture_input_hashes": {
+    "analysis/cycle7/freeze.json": "340624e795e600abbbaeb3daefa89b054ceca7e356855014d320df20b043a10f",
+    "analysis/cycle7/robustness.py": "7a0798391e1987f06dbb2d09f6771aa10ffa39431d2f765400e47e594a9f395e",
+    "analysis/cycle7/robustness_protocol.md": "6d3edb6f28f8a71a5cf951c7163e4775ceff371c74071633d82fbe32e967dc58",
+    "analysis/cycle7/run_scenarios.py": "24f04e54b8cef37672234b2753128ffed58cad58fe9ab58de783189eff77fb6c",
+    "analysis/cycle7/scenario_geometry/scenario_geometry.py": "667422c85a13d5a44761b1248fa0bbae9f2469306b80f546ab9c496e3e7128cf",
+    "analysis/cycle7/scenario_geometry/protocol.md": "f3e6d1046083bfc2587d96670c89a384c846429fe7747e29fffd3e663ae3cdac",
+    "analysis/cycle7/scenario_geometry/derivation.md": "db37933a6075c830afb2ad4bf4a5aa55d7994968fcc830443a053cea8dd80e8d",
+    "analysis/cycle6/fas_pilot/ordinal_geometry.py": "8872d6452afe4ccbf84e61450d4b1bfbdadf26469f20c0e24452f3abc205f9ac",
+    "analysis/cycle6/fas_pilot/source_contract.json": "f0fb3d2ced5dc36d0794eb76b7a257351534f8dd3a784f33c024be4b500a9c38",
+    "results/cycle6/full_result_v1.json.gz": "e3c3d061052643046de58dc789866899b0fb14ade83f06170e2cf32e9e54e145",
+    "results/cycle7/robustness.json.gz": "e7a742aa69fc4e836322973d7fa941855538bc26a18e4574b22f3e3a7e999ae8"
+  },
+  "portable_output_sha256": "b3503da70ce9201cba1cb1e29caa2ada1818c4d8b8ff65a6b69315de175f28b4",
+  "test_source_sha256": "9d96cf15ddf7b1ca6355841278c7f5855f50eeb15269878112c0d985efe21ea0",
+  "scope": "Replays the same frozen saved certificates. No reoptimization, new outcome, or altered scientific procedure."
+}

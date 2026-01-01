@@ -1,0 +1,27 @@
+--- verify_result.py
++++ verify_portable.py
+@@ -178,16 +178,20 @@
+             'scope':'Independent exact certificates and reconstruction of frozen exploratory outputs, not biological calibration or new validation.'}
+ 
+ def main():
+-    parser=argparse.ArgumentParser();parser.add_argument('--repo',type=Path,required=True)
+-    parser.add_argument('--result',type=Path,required=True);parser.add_argument('--out',type=Path,required=True);args=parser.parse_args()
++    parser=argparse.ArgumentParser();parser.add_argument('--repo','--root',dest='repo',type=Path,required=True)
++    parser.add_argument('--result',type=Path);parser.add_argument('--out',type=Path,required=True);args=parser.parse_args()
++    result_path=args.result if args.result is not None else args.repo/'results/cycle7/robustness.json.gz'
+     need(not args.out.exists(),'Refusing existing output')
+     start=time.perf_counter();started=datetime.datetime.now(datetime.timezone.utc).isoformat()
+     frozen_path=args.repo/'analysis/cycle7/freeze.json';frozen_raw=read_pinned(frozen_path,FREEZE_SHA);frozen=json.loads(frozen_raw)
+-    input_hashes={str(frozen_path):FREEZE_SHA,str(args.result):RESULT_SHA}
++    input_hashes={str(frozen_path):FREEZE_SHA}
+     for name,digest in frozen['files'].items():
+         path=frozen_path.parent/name;read_pinned(path,digest);input_hashes[str(path)]=digest
+     core=args.repo/'analysis/cycle6/fas_pilot/ordinal_geometry.py';read_pinned(core,frozen['ordinal_core_sha256']);input_hashes[str(core)]=frozen['ordinal_core_sha256']
+-    result_raw=read_pinned(args.result,RESULT_SHA)
++    saved_result=result_path.read_bytes()
++    result_raw=gzip.decompress(saved_result) if result_path.suffix=='.gz' else saved_result
++    need(sha(result_raw)==RESULT_SHA,'Decoded successor result hash mismatch')
++    input_hashes[str(result_path)]=sha(saved_result)
+     primary_path=args.repo/'results/cycle6/full_result_v1.json.gz';compressed=read_pinned(primary_path,GZIP_SHA)
+     input_hashes[str(primary_path)]=GZIP_SHA;raw=gzip.decompress(compressed);need(sha(raw)==PRIMARY_SHA,'Decompressed primary hash')
+     contract_path=args.repo/'analysis/cycle6/fas_pilot/source_contract.json';contract_raw=read_pinned(contract_path,CONTRACT_SHA)

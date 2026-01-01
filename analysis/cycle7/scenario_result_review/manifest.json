@@ -1,0 +1,29 @@
+{
+  "verdict": "PASS_ALL_OBSERVED_RECORDS_AND_NO_GIT_REPLAY",
+  "verifier_sha256": "49445bb4fa6d22c268844c26a65169e4a2ef9480de0e6c05765f005eee891fd7",
+  "files": {
+    "portable_checks.py": "e61c2e5ca736ebb57c9ca0c397d6c9551f2f3d9ee69da243961a04a7d2e719fe",
+    "portable_receipt.json": "dd11022ecfaa8b85934ddf7ed88f9bbe25209b0ff7f5918eb06c6073540340bf",
+    "README.md": "a63807f1bf69b5b1cd9f709c95b188d2ccfeaf1a20fdd3e098ccfd18e81748dc",
+    "review.md": "4b79260f36ffb3130c2086ace8f53c4a0a95575d1e1683063f55d1c5b7cae219",
+    "source_commit_check.json": "1dc193a534b21013afa45003d4f1c8700ec315aeac7fcd1c2a24794c16224acc",
+    "synthetic_receipt.json": "f7a5595c6ec5f6761db77c4c3ace8ccd3c6008fa7df9a28e42ab0fc668069791",
+    "test_synthetic.py": "f648856db88cddcb4959aedd92df3b48d27b7352f7f9519c694f905508066dab",
+    "verify_observed.py": "49445bb4fa6d22c268844c26a65169e4a2ef9480de0e6c05765f005eee891fd7"
+  },
+  "observed_run": {
+    "all_pairs.csv": "62e4fe15fee44fd1b4d6fad086a32633fbb06111eea33c4680c5bb77a8fa50c5",
+    "verification.json": "e2a370a12c458ad0be00a0c907f063cf9331d3aa93695aee4b1cf89a5a96be4a"
+  },
+  "integration_files": [
+    "verify_observed.py",
+    "test_synthetic.py",
+    "README.md"
+  ],
+  "qa_scaffolding_not_required": [
+    "portable_checks.py",
+    "portable_fixture/"
+  ],
+  "observed_inputs_unchanged": true,
+  "historical_git_content_check_separate": true
+}

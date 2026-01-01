@@ -1,0 +1,4 @@
+lower_vertex,higher_vertex,weight,feature_difference
+16,46,1/3,0;1;0;0;0;0;1;0
+42,13,1/3,0;-1;0;0;0;0;-1;1
+47,46,1/3,0;0;0;0;0;0;0;-1
