@@ -25,6 +25,8 @@ jobs:
         run: python analysis/programme/affine_polytope/verify_exact.py --out work/ci-affine-polytope
       - name: Independently replay frozen measured pilot
         run: python analysis/programme/retrospective/gill_result_independent.py --outdir work/ci-gill-independent
+      - name: Check selective access and measurement calculations on synthetic inputs
+        run: python -m pytest analysis/programme/retrospective/gill_multiclass_v1/implementation/test_gill_multiclass.py -q
       - name: Independently replay frozen synthetic predictions
         run: python analysis/verify_prediction_pilot.py
       - name: Replay finite exact verification
