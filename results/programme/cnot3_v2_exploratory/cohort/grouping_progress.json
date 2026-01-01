@@ -1,0 +1,23 @@
+{
+  "status": "in_progress",
+  "cap": null,
+  "counts": {
+    "genes": 5416,
+    "unique_proteins": 5415,
+    "posting_pair_events_upper_bound": 6502921,
+    "posting_pair_events": 6500000,
+    "candidate_pairs_seen": 72,
+    "exact_pairs_completed": 72,
+    "alignment_cells_completed": 18083136
+  },
+  "elapsed_seconds": 13.375,
+  "limits": {
+    "posting_pair_events": 20000000,
+    "candidate_pairs": 50000,
+    "alignment_cells": 3000000000,
+    "elapsed_seconds": 300.0
+  },
+  "components_complete": false,
+  "elapsed_limit_semantics": "Acceptance cap checked throughout and after every native score, not hard preemption of a C call",
+  "partial_components_must_not_be_used": true
+}

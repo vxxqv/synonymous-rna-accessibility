@@ -1,0 +1,64 @@
+{
+  "status": "design_coverage_passed",
+  "checks": {
+    "operational_count_5480": true,
+    "reference_coverage_at_least80pct": true,
+    "training_genes_at_least2000": true,
+    "holdout_genes_at_least300": true,
+    "training_groups_at_least100": true,
+    "holdout_groups_at_least30": true,
+    "inner0_assessment_genes_at_least100": true,
+    "inner0_fitting_groups_at_least50": true,
+    "inner1_assessment_genes_at_least100": true,
+    "inner1_fitting_groups_at_least50": true,
+    "inner2_assessment_genes_at_least100": true,
+    "inner2_fitting_groups_at_least50": true,
+    "inner3_assessment_genes_at_least100": true,
+    "inner3_fitting_groups_at_least50": true,
+    "inner4_assessment_genes_at_least100": true,
+    "inner4_fitting_groups_at_least50": true
+  },
+  "training_genes": 4304,
+  "holdout_genes": 1112,
+  "training_groups": 4280,
+  "holdout_groups": 1109,
+  "inner_folds": [
+    {
+      "fold": 0,
+      "assessment_genes": 855,
+      "assessment_groups": 853,
+      "fitting_genes": 3449,
+      "fitting_groups": 3427
+    },
+    {
+      "fold": 1,
+      "assessment_genes": 869,
+      "assessment_groups": 866,
+      "fitting_genes": 3435,
+      "fitting_groups": 3414
+    },
+    {
+      "fold": 2,
+      "assessment_genes": 875,
+      "assessment_groups": 869,
+      "fitting_genes": 3429,
+      "fitting_groups": 3411
+    },
+    {
+      "fold": 3,
+      "assessment_genes": 882,
+      "assessment_groups": 874,
+      "fitting_genes": 3422,
+      "fitting_groups": 3406
+    },
+    {
+      "fold": 4,
+      "assessment_genes": 823,
+      "assessment_groups": 818,
+      "fitting_genes": 3481,
+      "fitting_groups": 3462
+    }
+  ],
+  "separate_minimum_inner_assessment_groups_chosen": false,
+  "repartitioning_allowed": false
+}

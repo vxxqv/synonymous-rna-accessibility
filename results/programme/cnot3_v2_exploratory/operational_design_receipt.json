@@ -1,0 +1,17 @@
+{
+  "analysis_status": "post_exposure_exploratory",
+  "historical_published_cohort_reproduced": false,
+  "original_frozen_gate_status": "held_for_source_diagnosis",
+  "operational_source_gate_passed": true,
+  "grouping_complete": true,
+  "operational_source_gate_sha256": "eb16a903e302c52419085d30657292dce547401f440d5d2a2efe6283aa104776",
+  "original_frozen_gate_sha256": "6fe0dece44c1be71a6b943a05f7cb6e0d942351c9faf8d5e1504f246f1fb978e",
+  "independent_source_audit_sha256": "6084362d076499833ab9c4134ff13872f9f80d7147437e85a6e71735637da96e",
+  "status": "root_authorized_operational_prediction",
+  "reference_eligibility_passed": true,
+  "eligible_count": 5416,
+  "operational_slam_overlap_count": 5480,
+  "cohort_receipt_sha256": "75cef8d4b9954e5f4975e9be077572e6e28217025e56b6d76163b24d12f92318",
+  "grouping_sha256": "d6d0de698c1022a28d9687991b0ab4db04bb5dcb9fc2485ef1345c63e1458361",
+  "assignment_sha256": "84afe1167ea23357cce959e3c2ba081c7971c98f5f4d7935492c818b9674c892"
+}

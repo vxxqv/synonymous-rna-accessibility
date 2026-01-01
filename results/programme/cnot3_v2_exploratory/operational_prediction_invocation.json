@@ -1,0 +1,32 @@
+{
+  "command": [
+    "C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\work\\env\\Scripts\\python.exe",
+    "-I",
+    "-B",
+    "\\\\?\\C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\outputs\\synonymous-rna-accessibility\\analysis\\programme\\retrospective\\cnot3_v2_exploratory\\guarded_phase.py",
+    "--script",
+    "\\\\?\\C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\outputs\\synonymous-rna-accessibility\\analysis\\programme\\retrospective\\cnot3_v2_exploratory\\implementation\\predict.py",
+    "--expected-sha256",
+    "be75c90e4076f29952553fa2a22529c2640db0691cc8237e5078c1d1e2cc25d7",
+    "--receipt",
+    "\\\\?\\C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\work\\decay_cycle4\\execution\\operational_prediction_runtime.json",
+    "--",
+    "predict",
+    "--training-features",
+    "\\\\?\\C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\work\\decay_cycle4\\execution\\operational_cohort_v2\\model_inputs\\training_predictors.json",
+    "--training-targets",
+    "\\\\?\\C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\work\\decay_cycle4\\execution\\operational_cohort_v2\\model_inputs\\training_targets.json",
+    "--holdout-features",
+    "\\\\?\\C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\work\\decay_cycle4\\execution\\operational_cohort_v2\\model_inputs\\holdout_predictors.json",
+    "--design-receipt",
+    "\\\\?\\C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\work\\decay_cycle4\\execution\\operational_design_receipt.json",
+    "--protocol",
+    "\\\\?\\C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\outputs\\synonymous-rna-accessibility\\analysis\\programme\\retrospective\\cnot3_v2_exploratory\\protocol.md",
+    "--freeze",
+    "\\\\?\\C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\work\\decay_cycle4\\execution\\operational_prediction_authorization.json",
+    "--out",
+    "\\\\?\\C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\work\\decay_cycle4\\execution\\operational_prediction_v2"
+  ],
+  "heldout_target_argument_present": false,
+  "prior_freeze_commit": "9d0691960f81e777eea6de889bdc8229db7b4c6e"
+}
