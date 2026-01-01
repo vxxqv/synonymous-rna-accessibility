@@ -1,0 +1,19 @@
+{
+  "source_inventory_sha256": "2e00b698dee109e357dc01435d5eacf8b341388f36463970454ade230664f350",
+  "files": {
+    "biological_requirements.md": "8e4e93770312e39f4c5053edc6c1eaeabe19d377d390ab482a5eb636731e8c65",
+    "exposure_ledger.json": "cbfe33dc790f03e905c10a9f60554c35b3bd1c469600f4734355c237adb69873",
+    "freeze_proposal.json": "6f4b076b5a610af1bcede6d82eff37a397a9c2a08b5f537405339a040c106b76",
+    "inventory.json.gz": "36c5ab0b307ec18f28e0798ffe4ad735e67259703a97dfb33028c0ed6b2551d0",
+    "protocol.json": "4ab4e85c14203c0ab8c983e8433c766f1566f373a335fd3fda4fb3981371c1aa",
+    "README.md": "08d8be189e576455c5fdaabb1aa97956df2112ea5584ea05c4dc2837d19ed3ca",
+    "root_protocol_checks.json": "bf6742cd28d031a9aecd9c6eee16b378653aaa93e7626d5a660e401ae63234a4",
+    "root_protocol_review.md": "27aa49e091f8da3ffe98db67d86bccd2265c899190046024c40b340410aa0995",
+    "root_protocol_review_original.py": "c4e3140c3226c3c4a3439287ac2876bfb3f46ceed2155874a30d7ad27c349cc4",
+    "summary.json": "a4767749cbad3906fe359733270e2ae0d1f12d89414b5a7383414ab521b65786",
+    "verification.json": "d15c4fe3886315934d3dcd7d4903eaaadf8df5fb20ad79842935fbad4ab5cd4b",
+    "verify_frozen_protocol.py": "7ac5580ae598c53bf22672d7cd172fe91d834bb085511074e7b13b2ce4af2076"
+  },
+  "new_outcomes_read": false,
+  "baseline_revision": "e9846dca9f74b2c5c34e984eed970e996b9df2bf"
+}

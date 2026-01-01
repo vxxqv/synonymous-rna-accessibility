@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "classes": 3200,
+  "representative_direct_rank_checks": 25,
+  "poisoned_nonA_fixture_passed": true,
+  "protected_expression_cells_decoded": 0,
+  "inventory_sha256": "2e00b698dee109e357dc01435d5eacf8b341388f36463970454ade230664f350",
+  "code_sha256": "e0b50ef759b9dd30d392547131fe759450d1706d915bd1ec03382cbf4469ed06"
+}

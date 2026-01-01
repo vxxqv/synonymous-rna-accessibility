@@ -1,0 +1,24 @@
+{
+  "status": "zero_new_nonreference_outcome_exposure",
+  "source_workbook_columns_decoded_this_cycle": [
+    "A"
+  ],
+  "new_DNA_count_decoding": false,
+  "nonreference_RNA_effect_SE_pvalue_cells_decoded": 0,
+  "reference_outcomes_reopened": false,
+  "prior_exposure": "32reference-protein RNA/DNAcountvectors and completed predictor failure already public in project; allDNA coverage inspected historically; published article aggregates known",
+  "quarantine": "allVPstratum classes including failed reference; incomplete429 and disconnected240 completeclasses outside primary; no outcome-based membership",
+  "source_replays": "First inventory invocation stopped before rows due optional sharedStrings member absence; corrected to handle inline strings. Two completed metadata-only structural passes; no outcome evaluation.",
+  "verification": "3200priorgraphsummaries agree;65536manual/Biopythontranslationcomparisons;all3200codonproductschecked;25direct exactrankmatrixrepresentatives;poisonednon-Afixturepasses",
+  "files": {
+    "inventory.py": "3951f35c4a3f8c2586e805e717f62a90d849d28aaf6b761987674fc387244ca7",
+    "verify_inventory.py": "e0b50ef759b9dd30d392547131fe759450d1706d915bd1ec03382cbf4469ed06",
+    "inventory.json": "2e00b698dee109e357dc01435d5eacf8b341388f36463970454ade230664f350",
+    "summary.json": "a4767749cbad3906fe359733270e2ae0d1f12d89414b5a7383414ab521b65786",
+    "classes.csv": "656c94f26c4bc0b0ebec84ada0b67e1c3162965af6e537c490a7f00b651f093c",
+    "manifest.json": "39bb2f850a8b3f4324c139cb7ba2ddf0acfb073d8c0fd37b8890adc2832c6fae",
+    "verification.json": "d15c4fe3886315934d3dcd7d4903eaaadf8df5fb20ad79842935fbad4ab5cd4b",
+    "freeze_proposal.json": "6f4b076b5a610af1bcede6d82eff37a397a9c2a08b5f537405339a040c106b76"
+  },
+  "runtime_python": "3.12.14"
+}

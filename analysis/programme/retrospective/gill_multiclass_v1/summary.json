@@ -1,0 +1,100 @@
+{
+  "revision": "e9846dca9f74b2c5c34e984eed970e996b9df2bf",
+  "all_strings": 65536,
+  "sense_strings": 59536,
+  "stop_strings": 6000,
+  "observed_rows": 64680,
+  "class_count": 3200,
+  "nonreference_classes": 3199,
+  "complete_classes": 2771,
+  "complete_nonreference_classes": 2770,
+  "incomplete_nonreference_classes": 429,
+  "complete_connected_nonreference_classes": 2530,
+  "complete_disconnected_nonreference_classes": 240,
+  "complete_nonreference_vertices": 48274,
+  "complete_nonreference_edges": 127587,
+  "expected_size_histogram": {
+    "2": 32,
+    "4": 288,
+    "6": 32,
+    "8": 808,
+    "12": 240,
+    "16": 720,
+    "18": 8,
+    "24": 512,
+    "32": 200,
+    "36": 48,
+    "48": 240,
+    "72": 72
+  },
+  "complete_size_histogram": {
+    "2": 32,
+    "4": 284,
+    "6": 32,
+    "8": 742,
+    "12": 226,
+    "16": 608,
+    "18": 7,
+    "24": 415,
+    "32": 163,
+    "36": 41,
+    "48": 173,
+    "72": 48
+  },
+  "candidate_rule": "complete connected nonreference protein class; codon residual dimension>=3",
+  "candidate_eligible_classes": 2182,
+  "candidate_clique_product_classes": 1721,
+  "candidate_nonclique_classes": 461,
+  "candidate_eligible_vertices": 38530,
+  "candidate_partition_counts": {
+    "validation": 1052,
+    "development": 1124,
+    "reference_stratum_quarantine": 6
+  },
+  "candidate_partition_vertex_counts": {
+    "development": 20028,
+    "validation": 18310,
+    "reference_stratum_quarantine": 192
+  },
+  "codon_residual_dimension_histogram_complete": {
+    "0": 32,
+    "1": 284,
+    "2": 32,
+    "3": 159,
+    "4": 583,
+    "5": 91,
+    "7": 135,
+    "10": 608,
+    "12": 7,
+    "16": 348,
+    "17": 67,
+    "24": 163,
+    "27": 41,
+    "38": 173,
+    "60": 48
+  },
+  "complete_saturated_codon_classes": 32,
+  "complete_connected_nonreference_but_residual_lt3": 348,
+  "complete_classes_nucleotide_rank_below_codon_rank": 701,
+  "all_components": 3528,
+  "complete_components": 3087,
+  "reference_protein_sha256": "3c459103a02d60eefd8a42b84530c2331e5cce25a8eb2d772c85fd3697143089",
+  "candidate_stratum_split": {
+    "group": "amino acids157_158, a local coding stratum, not a biological family",
+    "salt": "GILL_C3_V1|",
+    "development_strata": 200,
+    "validation_strata": 199,
+    "quarantined_reference_stratum": "VP"
+  },
+  "exposure": {
+    "workbook_value_columns_decoded": [
+      "A"
+    ],
+    "nonreference_RNA_or_expression_cells_decoded": 0,
+    "DNA_counts_reopened": false,
+    "raw_reads_opened": false
+  },
+  "prior3200_graph_summaries_match": true,
+  "codon_factorization_verified_all3200": true,
+  "independent_translation_routes_match_all65536": true
+}

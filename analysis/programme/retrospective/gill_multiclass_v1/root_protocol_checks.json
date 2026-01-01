@@ -1,0 +1,15 @@
+{
+  "status": "passed sequence-only protocol checks",
+  "classes": 2176,
+  "distinct_keys": 38338,
+  "factor_architectures": 20,
+  "maximum_projection_error": 5.551115123125783e-16,
+  "workbook_opened": false,
+  "outcome_values_opened": false,
+  "scope": "separately authored root check; numerical matrix identities support algebra, no biological independence inferred",
+  "inputs_sha256": {
+    "inventory.json": "2e00b698dee109e357dc01435d5eacf8b341388f36463970454ade230664f350",
+    "freeze_proposal.json": "6f4b076b5a610af1bcede6d82eff37a397a9c2a08b5f537405339a040c106b76",
+    "root_protocol_review.py": "c4e3140c3226c3c4a3439287ac2876bfb3f46ceed2155874a30d7ad27c349cc4"
+  }
+}

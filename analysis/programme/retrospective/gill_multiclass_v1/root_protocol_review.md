@@ -1,0 +1,19 @@
+# Independent protocol review before further Gill outcomes
+
+Verdict: approved for a bounded descriptive measurement reproducibility study after the protocol and implementation are frozen. This is a separately authored review by the primary agent of the inventory agent's proposal, with shared project context. It is not a blinded external review.
+
+The candidate universe is exactly 2,176 complete, connected classes with 38,338 distinct genotype keys after the reference amino-acid stratum is quarantined. These are local fibres of one reporter. They are neither independent genes nor independent biological preparations. The historical combined-DNA coverage condition defines the source population; the analysis cannot estimate the unfiltered library distribution.
+
+The four categorical-codon main-effect subspaces are orthogonal after removing their common constant on the uniform complete product. Therefore their orthogonal sum has projection P = sum_j E[.|codon_j] - 3 E[.]. Its residual measures departures from codon additivity on the chosen numerical scale. It does not distinguish a monotone nonlinear response to an additive latent score from a molecular interaction, and it is not automatically RNA folding evidence. This qualification is required in the final protocol and reporting.
+
+A separate full indicator-design calculation checks all 20 distinct eligible factor-size architectures. The projector agrees with the pseudoinverse reference to at most 5.56e-16; symmetry, idempotence and rank pass. Exact key membership, class separation, frozen partition totals and a deterministic normalization identity fixture also pass. No workbook or measured count cell was opened by this review. These finite checks corroborate the algebra rather than proving biological calibration.
+
+The primary pooled cosine is well defined when both aggregate residual energies are positive. It weights each class's mean square, not each class's signed correlation equally. Large-amplitude classes can still dominate. Add a fixed leave-one-amino-acid-stratum-out range and the largest single-stratum energy fraction before outcomes. Report all such values without removing influential strata from the primary endpoint. The 0.5 target is an operational descriptive target, not a null hypothesis test or evidence of a biological mechanism.
+
+Keep c=0.5 primary and c=0.25,1 as fixed sensitivities. Preserve zero counts. Do not optimize shrinkage or normalization against RNA3. Raw RNA, DNA and all cross-denominator diagnostics are required because reuse of a DNA field can create agreement even if RNA-specific residuals do not agree. The four-term inner-product identity makes this dependence inspectable without assuming independent errors. Library suffixes are not biological pairing labels.
+
+The observed maximum barrier is secondary. Nonclique codon factors can have additive barriers. A clique-product flag and explicit fitted codon-additive comparison are necessary. No maximum-over-pairs range is to be described as a fixed-pair confidence interval.
+
+The implementation must first save fixed training fields and predictions from RNA1/2 plus the already exposed DNA fields, with source, protocol, code and output hashes. It must refuse RNA3 access until that receipt is fixed. Root must commit that receipt before validation. The reader must skip unselected keys and columns before decoding values, with poisoned-cell fixtures. Any missing or invalid permitted count stops the analysis instead of dropping a class. Retain a complete exposure log.
+
+The source has enough information to answer this bounded question. It does not support a biological noise ceiling, cross-study generalization, calibrated uncertainty, a protein improvement claim or retuning of the failed reference pilot. Those limitations remain even if the descriptive target is met.
