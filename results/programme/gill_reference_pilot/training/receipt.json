@@ -1,0 +1,38 @@
+{
+  "mode": "train",
+  "status": "completed",
+  "inputs": {
+    "protocol_sha256": "753bbc9571a4c3617e2eb99b9932a9f268e87c0714f23e1be43eac6288efcc45",
+    "eligibility_sha256": "00f538b420634a1fe302cff0477cd14d7ff61ceeed4dfdcb6072eb45c353a271",
+    "workbook_sha256": "0f80ba9868c54548db938c65d09d8caa0419c5721bfa379949f6a18ad2568e89",
+    "runner_sha256": "f57f084c85fbfae3b27888e55284ff41e10fb178d719351fe94c40d17c9c2b83"
+  },
+  "outputs": {
+    "predictions.json": "ff04894c283310fc9f47ae01f35191bc6a9be83493e39baaaf29d6da9bdd3660",
+    "prediction_table.json": "99bb8c45aeeeb3255c63f0ce4d1476d6502c8318fa3ed581b563310d438c6bab",
+    "training_geometry.json": "159ba670c11f4fdcd310b3e7568f178d9fc496224f1b5d7249271f5b4f6fdb9c"
+  },
+  "command": [
+    "outputs/synonymous-rna-accessibility/analysis/programme/retrospective/gill_reference_pilot.py",
+    "train",
+    "--protocol",
+    "outputs/synonymous-rna-accessibility/analysis/programme/retrospective/gill_reference_protocol_v1.json",
+    "--eligibility",
+    "outputs/synonymous-rna-accessibility/results/programme/retrospective/gill_amplicon_pilot_v2.json",
+    "--workbook",
+    "work/retrospective_sources/gill/cds_processed.xlsx",
+    "--outdir",
+    "outputs/synonymous-rna-accessibility/results/programme/gill_reference_pilot/training"
+  ],
+  "runtime_seconds": 3.0387917999905767,
+  "repository": {
+    "commit": "faa9bb248ef3969495f54504987f63d46dcad133",
+    "dirty": true
+  },
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.5.4",
+    "platform": "Windows-11-10.0.26300-SP0"
+  },
+  "scientific_scope": "fixed 32-genotype measurement prediction, no independent biological inference"
+}
