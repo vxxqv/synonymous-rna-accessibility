@@ -1703,5 +1703,16 @@
     "height_mm": 139.0,
     "clipped_text_preflight": [],
     "ordinary_font_pt": 8.5
+  },
+  "provenance": {
+    "renderer_sha256": "759236a2f2188de2b15d10972c16115c90200d06ace5d7d88e3c26cd7fd0e09d",
+    "inputs": [
+      {
+        "path": "results/local_gate_restoration.json",
+        "sha256": "28f2e9cce7d7fa716b4cf57a3bfb753b2c537b095be509b8a4dff1a5fe94471c"
+      }
+    ],
+    "matplotlib": "3.11.2",
+    "numpy": "2.5.4"
   }
 }

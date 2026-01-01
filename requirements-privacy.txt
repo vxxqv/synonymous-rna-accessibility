@@ -1,0 +1,2 @@
+setuptools==80.10.2
+gitprivacy==2.3.0
