@@ -1,7 +1,13 @@
 """Cross-check archived native graphs, control fingerprints and exact receipts."""
 from pathlib import Path
-import sys,json,hashlib,subprocess,math,argparse
-ROOT=Path(__file__).resolve().parents[1];sys.path.insert(0,str(ROOT/'src'));sys.path.insert(0,str(ROOT/'analysis/expansion'))
+import sys,json,hashlib,subprocess,math,argparse,os
+ROOT=Path(__file__).resolve().parents[1]
+# Deep, byte-pinned provenance paths can exceed Windows' ordinary path limit.
+# Keep every tracked file in the audit instead of treating those paths as absent.
+if os.name=='nt' and not str(ROOT).startswith('\\\\?\\'):
+    ROOT=Path('\\\\?\\UNC\\'+str(ROOT)[2:] if str(ROOT).startswith('\\\\')
+              else '\\\\?\\'+str(ROOT))
+sys.path.insert(0,str(ROOT/'src'));sys.path.insert(0,str(ROOT/'analysis/expansion'))
 from accessibility import translate,compatible,adjacency,components,signature,connected_probability,excess_fragmentation
 from provenance import signature as cache_signature,cache_valid
 

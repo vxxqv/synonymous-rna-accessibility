@@ -1,0 +1,231 @@
+{
+  "revision": "45ee5651dce6e668a17e39a956d8c1f673b41d09",
+  "checked_files": 5640,
+  "actual_blob_mismatches": [],
+  "ordinary_path_visibility_failures": [
+    {
+      "file": "analysis/programme/retrospective/cnot3_v2_exploratory/independent_review/verifier_copy/CNOT3_Operational_Independent_Verifier_v2.sha256",
+      "length": 285,
+      "ordinary_is_file": false,
+      "extended_is_file": true,
+      "git_blob_matches": true
+    },
+    {
+      "file": "analysis/programme/retrospective/cnot3_v2_exploratory/independent_review/verifier_copy/CNOT3_Operational_Independent_Verifier_v2.zip",
+      "length": 282,
+      "ordinary_is_file": false,
+      "extended_is_file": true,
+      "git_blob_matches": true
+    },
+    {
+      "file": "analysis/programme/retrospective/cnot3_v2_exploratory/independent_review/verifier_copy/adaptation_manifest.json",
+      "length": 261,
+      "ordinary_is_file": false,
+      "extended_is_file": true,
+      "git_blob_matches": true
+    },
+    {
+      "file": "analysis/programme/retrospective/cnot3_v2_exploratory/independent_review/verifier_copy/cross_version_numeric_identity.json",
+      "length": 272,
+      "ordinary_is_file": false,
+      "extended_is_file": true,
+      "git_blob_matches": true
+    },
+    {
+      "file": "analysis/programme/retrospective/cnot3_v2_exploratory/independent_review/verifier_copy/explicit_verifier_changes.diff",
+      "length": 267,
+      "ordinary_is_file": false,
+      "extended_is_file": true,
+      "git_blob_matches": true
+    },
+    {
+      "file": "analysis/programme/retrospective/cnot3_v2_exploratory/independent_review/verifier_copy/make_synthetic_fixture.py",
+      "length": 262,
+      "ordinary_is_file": false,
+      "extended_is_file": true,
+      "git_blob_matches": true
+    },
+    {
+      "file": "analysis/programme/retrospective/cnot3_v2_exploratory/independent_review/verifier_copy/refusal_receipts/optimized_OO_authorization.json",
+      "length": 285,
+      "ordinary_is_file": false,
+      "extended_is_file": true,
+      "git_blob_matches": true
+    },
+    {
+      "file": "analysis/programme/retrospective/cnot3_v2_exploratory/independent_review/verifier_copy/refusal_receipts/optimized_O_authorization.json",
+      "length": 284,
+      "ordinary_is_file": false,
+      "extended_is_file": true,
+      "git_blob_matches": true
+    },
+    {
+      "file": "analysis/programme/retrospective/cnot3_v2_exploratory/independent_review/verifier_copy/refusal_receipts/overwrite_authorization.json",
+      "length": 282,
+      "ordinary_is_file": false,
+      "extended_is_file": true,
+      "git_blob_matches": true
+    },
+    {
+      "file": "analysis/programme/retrospective/cnot3_v2_exploratory/independent_review/verifier_copy/refusal_receipts/receipt.json",
+      "length": 266,
+      "ordinary_is_file": false,
+      "extended_is_file": true,
+      "git_blob_matches": true
+    },
+    {
+      "file": "analysis/programme/retrospective/cnot3_v2_exploratory/independent_review/verifier_copy/refusal_receipts/wrong_author_code.txt",
+      "length": 275,
+      "ordinary_is_file": false,
+      "extended_is_file": true,
+      "git_blob_matches": true
+    },
+    {
+      "file": "analysis/programme/retrospective/cnot3_v2_exploratory/independent_review/verifier_copy/refusal_receipts/wrong_author_code_authorization.json",
+      "length": 290,
+      "ordinary_is_file": false,
+      "extended_is_file": true,
+      "git_blob_matches": true
+    },
+    {
+      "file": "analysis/programme/retrospective/cnot3_v2_exploratory/independent_review/verifier_copy/refusal_receipts/wrong_core_hash_authorization.json",
+      "length": 288,
+      "ordinary_is_file": false,
+      "extended_is_file": true,
+      "git_blob_matches": true
+    },
+    {
+      "file": "analysis/programme/retrospective/cnot3_v2_exploratory/independent_review/verifier_copy/refusal_receipts/wrong_protocol.txt",
+      "length": 272,
+      "ordinary_is_file": false,
+      "extended_is_file": true,
+      "git_blob_matches": true
+    },
+    {
+      "file": "analysis/programme/retrospective/cnot3_v2_exploratory/independent_review/verifier_copy/refusal_receipts/wrong_protocol_authorization.json",
+      "length": 287,
+      "ordinary_is_file": false,
+      "extended_is_file": true,
+      "git_blob_matches": true
+    },
+    {
+      "file": "analysis/programme/retrospective/cnot3_v2_exploratory/independent_review/verifier_copy/synthetic_v1/authorization.json",
+      "length": 268,
+      "ordinary_is_file": false,
+      "extended_is_file": true,
+      "git_blob_matches": true
+    },
+    {
+      "file": "analysis/programme/retrospective/cnot3_v2_exploratory/independent_review/verifier_copy/synthetic_v1/design_receipt.json",
+      "length": 269,
+      "ordinary_is_file": false,
+      "extended_is_file": true,
+      "git_blob_matches": true
+    },
+    {
+      "file": "analysis/programme/retrospective/cnot3_v2_exploratory/independent_review/verifier_copy/synthetic_v1/evaluation.json",
+      "length": 265,
+      "ordinary_is_file": false,
+      "extended_is_file": true,
+      "git_blob_matches": true
+    },
+    {
+      "file": "analysis/programme/retrospective/cnot3_v2_exploratory/independent_review/verifier_copy/synthetic_v1/fixture_run.json",
+      "length": 266,
+      "ordinary_is_file": false,
+      "extended_is_file": true,
+      "git_blob_matches": true
+    },
+    {
+      "file": "analysis/programme/retrospective/cnot3_v2_exploratory/independent_review/verifier_copy/synthetic_v1/holdout_features.json",
+      "length": 271,
+      "ordinary_is_file": false,
+      "extended_is_file": true,
+      "git_blob_matches": true
+    },
+    {
+      "file": "analysis/programme/retrospective/cnot3_v2_exploratory/independent_review/verifier_copy/synthetic_v1/holdout_targets.json",
+      "length": 270,
+      "ordinary_is_file": false,
+      "extended_is_file": true,
+      "git_blob_matches": true
+    },
+    {
+      "file": "analysis/programme/retrospective/cnot3_v2_exploratory/independent_review/verifier_copy/synthetic_v1/independent_verification/verification.json",
+      "length": 292,
+      "ordinary_is_file": false,
+      "extended_is_file": true,
+      "git_blob_matches": true
+    },
+    {
+      "file": "analysis/programme/retrospective/cnot3_v2_exploratory/independent_review/verifier_copy/synthetic_v1/predictions.json",
+      "length": 266,
+      "ordinary_is_file": false,
+      "extended_is_file": true,
+      "git_blob_matches": true
+    },
+    {
+      "file": "analysis/programme/retrospective/cnot3_v2_exploratory/independent_review/verifier_copy/synthetic_v1/synthetic_commit.json",
+      "length": 271,
+      "ordinary_is_file": false,
+      "extended_is_file": true,
+      "git_blob_matches": true
+    },
+    {
+      "file": "analysis/programme/retrospective/cnot3_v2_exploratory/independent_review/verifier_copy/synthetic_v1/training_features.json",
+      "length": 272,
+      "ordinary_is_file": false,
+      "extended_is_file": true,
+      "git_blob_matches": true
+    },
+    {
+      "file": "analysis/programme/retrospective/cnot3_v2_exploratory/independent_review/verifier_copy/synthetic_v1/training_targets.json",
+      "length": 271,
+      "ordinary_is_file": false,
+      "extended_is_file": true,
+      "git_blob_matches": true
+    },
+    {
+      "file": "analysis/programme/retrospective/cnot3_v2_exploratory/source_diagnosis/portable_replay/integration_manifest.json",
+      "length": 262,
+      "ordinary_is_file": false,
+      "extended_is_file": true,
+      "git_blob_matches": true
+    },
+    {
+      "file": "analysis/programme/retrospective/cnot3_v2_exploratory/source_diagnosis/portable_replay/verification_receipt.json",
+      "length": 262,
+      "ordinary_is_file": false,
+      "extended_is_file": true,
+      "git_blob_matches": true
+    },
+    {
+      "file": "analysis/programme/retrospective/cnot3_v2_exploratory/source_diagnosis/portable_replay/verified_replay_receipt.json",
+      "length": 265,
+      "ordinary_is_file": false,
+      "extended_is_file": true,
+      "git_blob_matches": true
+    },
+    {
+      "file": "analysis/programme/retrospective/gill_multiclass_v1/independent/orchestration_history/package_manifest_before_debug_guard.json",
+      "length": 276,
+      "ordinary_is_file": false,
+      "extended_is_file": true,
+      "git_blob_matches": true
+    },
+    {
+      "file": "analysis/programme/retrospective/gill_multiclass_v1/independent/orchestration_history/replay_before_debug_guard.py",
+      "length": 264,
+      "ordinary_is_file": false,
+      "extended_is_file": true,
+      "git_blob_matches": true
+    },
+    {
+      "file": "analysis/programme/retrospective/persist_v2/feature_replay/history/pre_line_ending_guard/original_and_linux_failure.zip",
+      "length": 269,
+      "ordinary_is_file": false,
+      "extended_is_file": true,
+      "git_blob_matches": true
+    }
+  ]
+}

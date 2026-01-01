@@ -1,0 +1,15 @@
+{
+  "status": "accepted",
+  "reviewed_source_sha256": "6d10f957cb1560b919613c10c990a027ef555b50f1cca9d158533e877c123386",
+  "scientific_functions_unchanged": true,
+  "all_5640_paths_visible": true,
+  "all_five_prefix_cases_pass": true,
+  "source_unchanged_after_review": true,
+  "files": {
+    "check.py": "b2f35bead02ba9b4582c7004fb21e1ecafe9befbc9a4cc560a99f7ceb87816e7",
+    "result_v1.json": "f6f38827576ff200d738e4e05ee6e7fe4ec64c6019a275bfa292d84e29d96921",
+    "review.md": "aeb7f308a0115a6b1506916278cdc6cfc06c96441526f16e1b98a53c82ad1348",
+    "reviewed.diff": "ce2650a95601b4cae0eb23dd6844c7b1252cb25b215640e4139d3ff40b82e3ff"
+  },
+  "next_required_step": "Run complete integrity verification on the committed final revision."
+}

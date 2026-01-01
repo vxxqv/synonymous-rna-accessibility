@@ -1,0 +1,67 @@
+{
+  "status": "passed_for_current_drive_letter_checkout",
+  "baseline_revision": "45ee5651dce6e668a17e39a956d8c1f673b41d09",
+  "current_revision": "45ee5651dce6e668a17e39a956d8c1f673b41d09",
+  "source_sha256": "6d10f957cb1560b919613c10c990a027ef555b50f1cca9d158533e877c123386",
+  "baseline_source_sha256": "6dc00765f4472bbf3c50922fcdaa53219b81752488f9af2277fb903380849e4b",
+  "unchanged_ast": {
+    "require": true,
+    "verify": true,
+    "main_entrypoint": true
+  },
+  "prefix_cases": [
+    {
+      "case": "drive_letter",
+      "initial": "C:\\repo",
+      "os_name": "nt",
+      "actual": "\\\\?\\C:\\repo",
+      "expected": "\\\\?\\C:\\repo",
+      "passed": true
+    },
+    {
+      "case": "already_extended_drive",
+      "initial": "\\\\?\\C:\\repo",
+      "os_name": "nt",
+      "actual": "\\\\?\\C:\\repo",
+      "expected": "\\\\?\\C:\\repo",
+      "passed": true
+    },
+    {
+      "case": "non_windows_guard",
+      "initial": "C:\\repo",
+      "os_name": "posix",
+      "actual": "C:\\repo",
+      "expected": "C:\\repo",
+      "passed": true
+    },
+    {
+      "case": "unc",
+      "initial": "\\\\server\\share\\repo",
+      "os_name": "nt",
+      "actual": "\\\\?\\UNC\\server\\share\\repo",
+      "expected": "\\\\?\\UNC\\server\\share\\repo",
+      "passed": true
+    },
+    {
+      "case": "already_extended_unc",
+      "initial": "\\\\?\\UNC\\server\\share\\repo",
+      "os_name": "nt",
+      "actual": "\\\\?\\UNC\\server\\share\\repo",
+      "expected": "\\\\?\\UNC\\server\\share\\repo",
+      "passed": true
+    }
+  ],
+  "same_complete_git_inventory": true,
+  "tracked_count": 5640,
+  "ordinary_missing_count": 32,
+  "extended_missing": [],
+  "longest_tracked_file": "analysis/programme/retrospective/cnot3_v2_exploratory/independent_review/verifier_copy/synthetic_v1/independent_verification/verification.json",
+  "longest_ordinary_path_length": 292,
+  "longest_ordinary_is_file": false,
+  "longest_extended_is_file": true,
+  "longest_expected_git_blob": "a816893bc45ca764c9d1f50c08be43363ab5163b",
+  "longest_actual_git_blob": "a816893bc45ca764c9d1f50c08be43363ab5163b",
+  "scientific_verification_executed": false,
+  "source_unchanged_during_review": true,
+  "limits": "Smoke test and source review only. Does not replace the complete required integrity run after commit. UNC behavior tested lexically without network access."
+}
