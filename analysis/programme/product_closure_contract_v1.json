@@ -1,0 +1,14 @@
+{
+  "claim_id": "PRODUCT_CLOSURE_V1",
+  "mathematics": {
+    "assertion_tested": "Factor closure returns exactly the coordinate projections of every explicit retained product component. Equal closure signatures exactly match product components. Constructed peak and endpoint paths stay above threshold and satisfy the polynomial length bound. Rational widest capacities match explicit product search.",
+    "coefficient_domain": "Exact integers and rational numbers using fractions.Fraction; no floating point arithmetic",
+    "conventions": "Finite simple undirected factor graphs; Cartesian single-coordinate moves; additive vertex score; inclusive superlevel threshold. Endpoints are not forced present. Every retained start is checked in each enumerated threshold world.",
+    "inputs": ["Every simple labelled graph on 1, 2 or 3 vertices with every binary score assignment, combined in all unordered factor pairs", "All unordered pairs of P3 factors with ternary scores", "All three-factor P3 products with ternary scores, reduced by independent path reversal and factor permutation", "All four-factor P2 products with binary scores, reduced by factor permutation", "All ordered pairs of P3 binary-pattern scores mapped to -2/3 and 7/11, every ordered endpoint pair"],
+    "bounds": {"largest_explicit_product_vertices": 27, "binary_factor_objects": 74, "two_factor_binary_datasets": 2775, "two_P3_ternary_datasets": 378, "three_P3_ternary_representatives": 1140, "four_P2_binary_representatives": 35, "rational_endpoint_queries": 5184},
+    "non_claims": ["Finite checks do not prove the universal theorem", "No biological data or validation", "No novelty claim over prior additive merge-tree composition", "A component is not asserted to be the retained Cartesian product of its projections", "No claim for directed graphs, coupled scores or non-Cartesian moves"]
+  },
+  "execution_artifacts": ["src/product_closure.py", "analysis/programme/product_closure_checks.py", "analysis/programme/product_closure_contract_v1.json"],
+  "software": [{"name": "Python", "version": "3.12.14"}],
+  "randomness": {"used": false, "generator": "Exhaustive finite domains with stated exact symmetry reductions", "seed": null}
+}

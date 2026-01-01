@@ -80,12 +80,33 @@ python analysis/verify_bundle.py --out /path/outside/repository/integrity.json
 
 The prediction table is `results/expansion/barrier_pilot/prediction_table.csv`. It is a model-test table, not an experimentally validated design list. The `prepare` stage refuses to overwrite frozen predictions; do not delete that freeze to obtain a more favorable candidate set. `validation_source_audit.md` records the specific missing structure/probing export that prevents closure of the independent biological-material branch. Discovery-window extensions and independent engine implementations remain sensitivity analyses.
 
+### Exact uncertainty and additive product queries
+
+The current programme separates full marginal boxes, joint affine uncertainty and fixed versus scenario-dependent routes. Sharp interval bounds are deterministic identified sets, not confidence intervals. `analysis/programme/product_closure_proof.md` proves a direct additive-product endpoint query and its witness bound. Additive merge-tree composition is established prior work; `analysis/programme/product_prior_manifest.json` records the unresolved priority comparison with the closest detailed construction. No first or fastest algorithm claim is made.
+
+```text
+python analysis/programme/check_identification.py --out work/fresh_identification.json
+python analysis/programme/joint_uncertainty_verify.py --outdir work/fresh_joint_uncertainty
+python analysis/programme/product_closure_checks.py --output work/fresh_product/results
+python analysis/programme/product_closure_independent.py --outdir work/fresh_product_independent
+python analysis/programme/forest_depth_regression.py
+python -m pytest tests/test_product_closure.py tests/test_forest_extensions.py tests/test_overlap_quotient.py -q
+```
+
+The product checks require a new output location. The independent audit uses explicit product traversal and a separate factor closure. Its present result is in `results/programme/product_closure_independent_release`. The forest regression compares a 1,200-event height-two path against the independent Entringer recurrence. The authoritative overlapping-obligation API receipt is `results/programme/overlap_v2_verified_api`; earlier source hashes are historical, not verification of the amended API.
+
+### Acquisition validation remains a failed efficiency result
+
+The frozen held-out acquisition benchmark contains 3,800 worlds and 22,800 policy runs, with every result retained. The proposed path/cut rule fails the predeclared efficiency hurdle and uses 0.398 more queries on average than the strongest forward baseline. The 95% seed-block interval [0.261, 0.535] describes Monte Carlo variation in this fixed synthetic design. The examined validation set is retired from tuning. See `results/programme/acquisition_v1/validation_report.md` and its frozen protocol for the exact paired design, all comparators and failures.
+
 ### Figure-source reproduction
 
 Panel data are in `results/figure_data/`. The fresh rendering source writes assets only outside the computational repository:
 
 ```text
 python analysis/render_figure_suite.py --out /path/outside/this/repository/figures --figures 1,2,3,4,5,6,S1,S2,S3,S4
+python analysis/render_identification_figure.py --out /path/outside/this/repository/figures
+python analysis/render_joint_uncertainty_figure.py --out /path/outside/this/repository/figures --qa work/figure8qa
 ```
 
 No manuscript, submission files, article PDFs, figure exports or publishing automation belong in this archive. The continuous-integration workflow only verifies computations.

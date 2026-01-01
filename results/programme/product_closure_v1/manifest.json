@@ -1,0 +1,138 @@
+{
+  "schema_version": 2,
+  "claim_id": "PRODUCT_CLOSURE_V1",
+  "repository": {
+    "commit": "45bc296d84ade7efa824fa0b48a5e9dcefa57b1f",
+    "dirty": true
+  },
+  "command": [
+    "C:/Users/VIVAAN/Documents/Codex/2026-10-24/protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2/work/env/Scripts/python.exe",
+    "analysis/programme/product_closure_checks.py",
+    "--output",
+    "results/programme/product_closure_v1/results"
+  ],
+  "environment": {
+    "software": [
+      {
+        "name": "runner-python",
+        "version": "3.12.14"
+      },
+      {
+        "name": "Python",
+        "version": "3.12.14"
+      }
+    ],
+    "hardware": "Windows-11-10.0.26300-SP0"
+  },
+  "mathematics": {
+    "assertion_tested": "Factor closure returns exactly the coordinate projections of every explicit retained product component. Equal closure signatures exactly match product components. Constructed peak and endpoint paths stay above threshold and satisfy the polynomial length bound. Rational widest capacities match explicit product search.",
+    "coefficient_domain": "Exact integers and rational numbers using fractions.Fraction; no floating point arithmetic",
+    "conventions": "Finite simple undirected factor graphs; Cartesian single-coordinate moves; additive vertex score; inclusive superlevel threshold. Endpoints are not forced present. Every retained start is checked in each enumerated threshold world.",
+    "inputs": [
+      "Every simple labelled graph on 1, 2 or 3 vertices with every binary score assignment, combined in all unordered factor pairs",
+      "All unordered pairs of P3 factors with ternary scores",
+      "All three-factor P3 products with ternary scores, reduced by independent path reversal and factor permutation",
+      "All four-factor P2 products with binary scores, reduced by factor permutation",
+      "All ordered pairs of P3 binary-pattern scores mapped to -2/3 and 7/11, every ordered endpoint pair"
+    ],
+    "bounds": {
+      "largest_explicit_product_vertices": 27,
+      "binary_factor_objects": 74,
+      "two_factor_binary_datasets": 2775,
+      "two_P3_ternary_datasets": 378,
+      "three_P3_ternary_representatives": 1140,
+      "four_P2_binary_representatives": 35,
+      "rational_endpoint_queries": 5184
+    },
+    "non_claims": [
+      "Finite checks do not prove the universal theorem",
+      "No biological data or validation",
+      "No novelty claim over prior additive merge-tree composition",
+      "A component is not asserted to be the retained Cartesian product of its projections",
+      "No claim for directed graphs, coupled scores or non-Cartesian moves"
+    ]
+  },
+  "randomness": {
+    "used": false,
+    "generator": "Exhaustive finite domains with stated exact symmetry reductions",
+    "seed": null
+  },
+  "run": {
+    "started_at": "2026-10-25T04:51:09.495322+00:00",
+    "runtime_seconds": 17.281,
+    "exit_status": 0,
+    "status": "completed",
+    "timeout_seconds": 180.0,
+    "max_output_bytes": 1048576,
+    "resource_limits": {
+      "memory_bytes": null,
+      "cpu_seconds": null,
+      "max_cores": null,
+      "max_threads": null
+    },
+    "missing_results": [],
+    "invalid_results": []
+  },
+  "execution_artifacts": [
+    "src/product_closure.py",
+    "analysis/programme/product_closure_checks.py",
+    "analysis/programme/product_closure_contract_v1.json"
+  ],
+  "input_artifacts": [
+    {
+      "path": "src/product_closure.py",
+      "sha256": "96c6d35a6243dcf1ba0dbd08100d82dbbf553a583e3844e9ac6a31646d5ec63a",
+      "sha256_after": "96c6d35a6243dcf1ba0dbd08100d82dbbf553a583e3844e9ac6a31646d5ec63a"
+    },
+    {
+      "path": "analysis/programme/product_closure_checks.py",
+      "sha256": "159739f22180f4088345b4a0df85dae7be4f543e8fc4f8d92b5b98bcce2d8346",
+      "sha256_after": "159739f22180f4088345b4a0df85dae7be4f543e8fc4f8d92b5b98bcce2d8346"
+    },
+    {
+      "path": "analysis/programme/product_closure_contract_v1.json",
+      "sha256": "b41eb8b86055062752f8d36830eaa5e187290c8453f28649fa1c73882b241f5c",
+      "sha256_after": "b41eb8b86055062752f8d36830eaa5e187290c8453f28649fa1c73882b241f5c"
+    }
+  ],
+  "output_directory": "results/programme/product_closure_v1",
+  "declared_results": [
+    "results/programme/product_closure_v1/results/checks.json"
+  ],
+  "outputs": [
+    {
+      "path": "results/programme/product_closure_v1/stdout.txt",
+      "sha256": "46c0e413f37c0659740b6300ac7dafa68ce267d652dda4094e945c20aebdb052",
+      "kind": "log"
+    },
+    {
+      "path": "results/programme/product_closure_v1/stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "kind": "log"
+    },
+    {
+      "path": "results/programme/product_closure_v1/results/checks.json",
+      "sha256": "82c48341ebd381edba29dac3a6834d32616f7677251040dc76db60d48fe2e3b8",
+      "kind": "result"
+    }
+  ],
+  "checks": [
+    {
+      "check": "input hashes unchanged",
+      "passed": true
+    },
+    {
+      "check": "process exited successfully within enforced limits",
+      "passed": true
+    },
+    {
+      "check": "declared result files are present and regular",
+      "passed": true
+    }
+  ],
+  "result": "Run completed; mathematical assertion requires interpretation and review.",
+  "residual_risks": [
+    "Command success does not establish the mathematical interpretation.",
+    "Only listed input artifacts are pinned; external dependencies need recorded versions."
+  ]
+}

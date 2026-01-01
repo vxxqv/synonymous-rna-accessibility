@@ -1,0 +1,62 @@
+{
+  "status": "all independent checks passed",
+  "counts": {
+    "intermediate_anchor_invariants": 124616,
+    "retained_start_closure_queries": 15662,
+    "complete_partition_checks": 743,
+    "endpoint_witness_queries": 2964,
+    "absent_endpoint_checks": 16657,
+    "exact_rational_capacity_queries": 479,
+    "models": 33,
+    "largest_product": 96,
+    "production_witness_moves": 30052,
+    "independent_anchor_moves": 25220,
+    "disconnected_endpoint_queries": 540
+  },
+  "seed": 2026102503,
+  "projection_product_counterexample": {
+    "graphs": "P3 x P3",
+    "scores": [
+      [
+        3,
+        0,
+        1
+      ],
+      [
+        3,
+        0,
+        1
+      ]
+    ],
+    "threshold": 2,
+    "x": [
+      0,
+      0
+    ],
+    "y": [
+      2,
+      2
+    ],
+    "x_projections": [
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        2
+      ]
+    ],
+    "y_projections": [
+      [
+        2
+      ],
+      [
+        2
+      ]
+    ]
+  },
+  "scope": "Abstract additive Cartesian products only; no biological datasets; finite checks supplement independent proof."
+}

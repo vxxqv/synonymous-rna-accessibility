@@ -1,0 +1,132 @@
+{
+  "kind": "bounded_primary_mathematical_prior_comparison",
+  "checked_date": "2026-10-25",
+  "question": "Whether factor-level threshold closure, canonical anchor, witness and rational capacity add an established priority claim beyond additive merge-tree composition",
+  "inputs": [
+    {
+      "path": "outputs\\synonymous-rna-accessibility\\src\\product_closure.py",
+      "sha256": "96c6d35a6243dcf1ba0dbd08100d82dbbf553a583e3844e9ac6a31646d5ec63a",
+      "bytes": 8911
+    },
+    {
+      "path": "outputs\\synonymous-rna-accessibility\\analysis\\programme\\product_closure_proof.md",
+      "sha256": "89844234830c55fc306a7039c77eb05abd82b592f82f5b107faa6cee1abf98e8",
+      "bytes": 12169
+    },
+    {
+      "path": "outputs\\Product_Closure_Independent_Review.md",
+      "sha256": "720d3673e48b0d368b48f157b45c80d9931085a110d187dc85253c7b652f1da1",
+      "bytes": 9936
+    }
+  ],
+  "sources": [
+    {
+      "author": "Yuliy Baryshnikov",
+      "title": "Brownian motions, persistent homology and chirality",
+      "year": 2025,
+      "doi": "10.1007/s41468-025-00224-w",
+      "journal": "Journal of Applied and Computational Topology",
+      "volume": 9,
+      "article_number": 28,
+      "publication_date": "2025-11-25",
+      "primary_url": "https://link.springer.com/article/10.1007/s41468-025-00224-w",
+      "version": "publisher published version",
+      "locator": "Appendix B, Proposition7.1 and following discussion; publisher rendering lines761\u2013787, plus AppendixA and note2",
+      "authentication": "publisher primary metadata and full text inspected",
+      "result_status": "statement and bar formula inspected; attachment details referred to Le2022",
+      "algorithm_cost_verified": false,
+      "original_graph_witness_bound_verified": false,
+      "retained_source_hash": null,
+      "hash_limit": "browser text inspected without a retained full source artifact"
+    },
+    {
+      "author": "Yuliy Baryshnikov",
+      "title": "merge tree monoid",
+      "year": 2022,
+      "date": "2022-12-17",
+      "primary_url": "https://ymb.web.illinois.edu/2022/12/17/merge-tree-monoid/",
+      "version": "author website page observed2026-10-25",
+      "authentication": "primary author page displayed in indexed full text; ordinary public request200",
+      "raw_response_bytes": 154895,
+      "raw_response_sha256": "62c63063fb79eb7feb2ba69bdcdea4978a99b12020a09fe996c816f173d577b3",
+      "retained_full_text": false,
+      "verified_result": "additive merge-tree composition, monoid structure and continuity",
+      "endpoint_heap_cost_or_graph_witness_stated": false
+    },
+    {
+      "author": "Phuong Ha Hai Le",
+      "title": "Applied topology through the lens of Analytic Combinatorics",
+      "year": 2023,
+      "issue_date": "2023-04-20",
+      "institution": "University of Illinois at Urbana-Champaign",
+      "degree": "Ph.D. Mathematics",
+      "handle": "2142/120516",
+      "record_url": "https://www.ideals.illinois.edu/items/127737",
+      "identified_pdf_url": "https://www.ideals.illinois.edu/items/127737/bitstreams/427840/data.pdf",
+      "target_locator": "Section5.1",
+      "metadata_status": "repository metadata observed in search index",
+      "chapter_read": false,
+      "discovery_only": "primary-PDF indexed excerpt describes finite-sum construction and stems/attachment rules",
+      "access_status": "HTTP403 in browser and one ordinary public PDF request; landing page403",
+      "failed_response_bytes": 118,
+      "failed_response_sha256": "58bf2215b395dcac74c009aa98701854e43cbe54a1cd3a95fee6a647ca9910d4",
+      "algorithm_cost_verified": false,
+      "witness_bound_verified": false,
+      "must_not_identify_with_Le2022_preprint_without_version_check": true
+    }
+  ],
+  "classifications": [
+    {
+      "claim": "Generic additive product merge-tree composition",
+      "overlap_label": "known after translation of notation",
+      "application_status": "verified after finitePL and sign translation described in report"
+    },
+    {
+      "claim": "Connection level from endpoint-labelled composed tree",
+      "overlap_label": "formal corollary not stated",
+      "application_status": "conditional on endpoint-location data"
+    },
+    {
+      "claim": "Exact direct heap endpoint query and operation bound",
+      "overlap_label": "partial or adjacent result only",
+      "application_status": "priority unverified because closest detailed construction unread"
+    },
+    {
+      "claim": "Canonical label anchor and original-graph witness bound",
+      "overlap_label": "partial or adjacent result only",
+      "application_status": "specific current output verified by earlier independent audit; priority unverified"
+    },
+    {
+      "claim": "Rational widest capacity via scaled threshold search",
+      "overlap_label": "formal corollary not stated",
+      "application_status": "algorithmic wrapper correct under internal proof assumptions; no priority claim"
+    }
+  ],
+  "current_contract": {
+    "N": "sum factor vertices",
+    "M": "sum factor edges",
+    "threshold_operations": "O((N+M)log(max(2,N))) after numerical scaling; rational bit costs separate",
+    "base_storage": "O(N+M), optional witness excluded",
+    "endpoint_witness_moves_bound": "2sum_i(n_i-1)^2",
+    "current_witness_extra_time": "O(sum_i n_i^2)",
+    "capacity_queries": "O(log(1+U-L)) on scaled integer range",
+    "strongly_polynomial_capacity_claim": false,
+    "full_product_or_all_components_materialized": false
+  },
+  "scope": {
+    "named_primary_sources_only": true,
+    "fresh_context_review": false,
+    "inherits_project_history": true,
+    "same_searcher_second_strategy": "publisher full text, author primary page, targeted repository metadata/PDF attempts",
+    "global_novelty_established": false,
+    "full_algorithmic_subsumption_established": false,
+    "structural_subsumption_established": true,
+    "empirical_data_or_outcomes_read": false,
+    "source_files_edited": false,
+    "commits_created": false
+  },
+  "report": {
+    "path": "outputs\\Product_Closest_Prior_Comparison.md",
+    "sha256": "6d21edbb8090cb41c21517c7b357286b40d4723d8f7286677b856ae04a121d2b"
+  }
+}

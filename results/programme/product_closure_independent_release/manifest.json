@@ -1,0 +1,105 @@
+{
+  "schema_version": 2,
+  "claim_id": "PRODUCT_CLOSURE_INDEPENDENT_REVIEW",
+  "repository": {
+    "commit": "2dd3b8aff543afb2704dd56c95091fb226bcf449",
+    "dirty": true
+  },
+  "command": [
+    "C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\work\\env\\Scripts\\python.exe",
+    "analysis/programme/product_closure_independent.py",
+    "--outdir",
+    "results\\programme\\product_closure_independent_release"
+  ],
+  "environment": {
+    "software": [
+      {
+        "name": "CPython",
+        "version": "3.12.14"
+      }
+    ],
+    "hardware": "Windows-11-10.0.26300-SP0"
+  },
+  "mathematics": {
+    "assertion_tested": "Held closure source matches independent explicit product components, intermediate anchor invariants and rational widest capacities",
+    "coefficient_domain": "Q and exact finite graph combinatorics",
+    "conventions": "Nonempty undirected explicit factors; additive scores; inclusive superlevels; absent endpoints are not connected",
+    "inputs": [
+      "src/product_closure.py",
+      "analysis/programme/product_closure_proof.md",
+      "analysis/programme/product_closure_independent.py"
+    ],
+    "bounds": {
+      "intermediate_anchor_invariants": 124616,
+      "retained_start_closure_queries": 15662,
+      "complete_partition_checks": 743,
+      "endpoint_witness_queries": 2964,
+      "absent_endpoint_checks": 16657,
+      "exact_rational_capacity_queries": 479,
+      "models": 33,
+      "largest_product": 96,
+      "production_witness_moves": 30052,
+      "independent_anchor_moves": 25220,
+      "disconnected_endpoint_queries": 540
+    },
+    "non_claims": [
+      "Finite tests do not replace the independent proof.",
+      "No algorithmic novelty claim.",
+      "No claim that projection containment implies component membership."
+    ]
+  },
+  "randomness": {
+    "used": true,
+    "generator": "Python MT19937",
+    "seed": 2026102503
+  },
+  "run": {
+    "started_at": "2026-10-25T05:22:59.164602+00:00",
+    "runtime_seconds": 9.171243800010416,
+    "status": "completed",
+    "exit_status": 0,
+    "resource_limits": {
+      "memory_bytes": null,
+      "cpu_seconds": null,
+      "max_cores": null,
+      "max_threads": null
+    }
+  },
+  "input_artifacts": [
+    {
+      "path": "src/product_closure.py",
+      "sha256": "96c6d35a6243dcf1ba0dbd08100d82dbbf553a583e3844e9ac6a31646d5ec63a",
+      "sha256_after": "96c6d35a6243dcf1ba0dbd08100d82dbbf553a583e3844e9ac6a31646d5ec63a"
+    },
+    {
+      "path": "analysis/programme/product_closure_proof.md",
+      "sha256": "89844234830c55fc306a7039c77eb05abd82b592f82f5b107faa6cee1abf98e8",
+      "sha256_after": "89844234830c55fc306a7039c77eb05abd82b592f82f5b107faa6cee1abf98e8"
+    },
+    {
+      "path": "analysis/programme/product_closure_independent.py",
+      "sha256": "3466b1210ec4b2151c4cf725eab7c51a02766e807428660c8b41ef9084be54f2",
+      "sha256_after": "3466b1210ec4b2151c4cf725eab7c51a02766e807428660c8b41ef9084be54f2"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "results/programme/product_closure_independent_release/independent_results.json",
+      "sha256": "b32ccb3e36dbfe569b210f1aa8ba5aec0f07f798a025e6b568a9a4596739921a",
+      "kind": "result"
+    }
+  ],
+  "checks": [
+    {
+      "name": "held-input-hashes-unchanged",
+      "passed": true
+    }
+  ],
+  "result": "completed",
+  "residual_risks": [
+    "No hard resource limits. Source priority comparison remains incomplete."
+  ],
+  "declared_results": [
+    "results/programme/product_closure_independent_release/independent_results.json"
+  ]
+}
