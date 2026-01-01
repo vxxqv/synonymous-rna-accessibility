@@ -1,0 +1,19 @@
+{
+  "status": "discovery-cohort threat analysis, fixed before running correlation-aware controls",
+  "interpretation_at_risk": "Folding-filter connectivity is more organized than generic smooth scalar fields on the same genotype graph",
+  "progression": [
+    "component-stratified uniform score permutations: exact score distributions and retained sizes at every threshold, no score-neighbor correlation",
+    "degree-stratified retained-set null at the original cutoff: additional coarse degree composition",
+    "exact small-space conditional score permutations: exact score multiset per component plus total edge roughness within 5%, with 10% and 20% tolerance sensitivities",
+    "generic graph heat-kernel Gaussian rank fields: exact component score multisets; one heat time per compatibility component calibrated to observed mean squared edge difference; fit and evaluation Gaussian draws use independent seeds"
+  ],
+  "exact_conditional_gate": "product of factorial(component_size) at most 40320; include every graph passing this outcome-independent resource rule; enumerate repeated-score permutations with their label multiplicities",
+  "heat_kernel": "combinatorial Laplacian divided by mean degree, remove constant eigenmode; Gaussian coefficients damped by exp(-t*lambda/2); ranks assigned the observed score multiset",
+  "heat_calibration_draws": 64,
+  "heat_evaluation_draws": 199,
+  "heat_fit_failure": "report mismatch of expected edge roughness and observed target; do not silently omit failed fits",
+  "primary_comparison": "integrated excess over all thresholds; longest positive persistence interval is supporting",
+  "uncertainty": "transcript-cluster bootstrap describes this modeled cohort; Monte Carlo variation and nuisance-fit mismatch are separate",
+  "inference_limits": "heat-rank fields are a declared generic reference model, not uniform conditional permutations; edge roughness is one scalar and does not preserve all spatial correlations or higher-order epistasis",
+  "falsification": "if correlation-aware reference fields reproduce observed integrated excess, withdraw RNA-specific connectivity-preservation interpretation and characterize generic smoothness plus code geometry instead"
+}
