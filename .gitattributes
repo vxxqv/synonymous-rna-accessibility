@@ -1,0 +1,3 @@
+# Source-data and computational receipts are byte-checksummed.
+# Preserve exact bytes on every checkout, including their original line endings.
+* -text

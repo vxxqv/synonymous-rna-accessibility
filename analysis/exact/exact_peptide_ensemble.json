@@ -1,0 +1,76 @@
+{
+  "m1_d1": {
+    "peptide_pairs_total": 400,
+    "C0_feasible": 84,
+    "both_feasible": 52,
+    "Cd_empty_given_C0": 32,
+    "delta_counts": {
+      "0": 24,
+      "1": 16,
+      "2": 6,
+      "4": 6
+    }
+  },
+  "m1_d2": {
+    "peptide_pairs_total": 400,
+    "C0_feasible": 84,
+    "both_feasible": 84,
+    "Cd_empty_given_C0": 0,
+    "delta_counts": {
+      "0": 52,
+      "1": 32
+    }
+  },
+  "m1_d3": {
+    "peptide_pairs_total": 400,
+    "C0_feasible": 84,
+    "both_feasible": 84,
+    "Cd_empty_given_C0": 0,
+    "delta_counts": {
+      "0": 84
+    }
+  },
+  "m2_d1": {
+    "peptide_pairs_total": 160000,
+    "C0_feasible": 7056,
+    "both_feasible": 1346,
+    "Cd_empty_given_C0": 5710,
+    "delta_counts": {
+      "0": 216,
+      "1": 360,
+      "2": 256,
+      "3": 139,
+      "4": 185,
+      "5": 112,
+      "6": 30,
+      "7": 24,
+      "8": 24
+    }
+  },
+  "m2_d2": {
+    "peptide_pairs_total": 160000,
+    "C0_feasible": 7056,
+    "both_feasible": 1581,
+    "Cd_empty_given_C0": 5475,
+    "delta_counts": {
+      "0": 476,
+      "1": 658,
+      "2": 247,
+      "3": 128,
+      "4": 72
+    }
+  },
+  "m2_d3": {
+    "peptide_pairs_total": 160000,
+    "C0_feasible": 7056,
+    "both_feasible": 2336,
+    "Cd_empty_given_C0": 4720,
+    "delta_counts": {
+      "0": 912,
+      "1": 868,
+      "2": 368,
+      "3": 136,
+      "4": 52
+    }
+  }
+}

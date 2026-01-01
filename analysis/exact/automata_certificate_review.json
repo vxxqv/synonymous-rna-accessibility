@@ -1,0 +1,91 @@
+{
+  "feasibility": {
+    "1": {
+      "states": 28,
+      "max_row_sum": 42,
+      "rational_PF_enclosure_verified": [
+        "25616347998891122/1000000000000000",
+        "25616347998891123/1000000000000000"
+      ],
+      "one_primitive_SCC_verified": true,
+      "100_exact_count_terms_verified": true
+    },
+    "2": {
+      "states": 40,
+      "max_row_sum": 30,
+      "rational_PF_enclosure_verified": [
+        "17969478801751940/1000000000000000",
+        "17969478801751941/1000000000000000"
+      ],
+      "one_primitive_SCC_verified": true,
+      "100_exact_count_terms_verified": true
+    },
+    "3": {
+      "states": 20,
+      "max_row_sum": 42,
+      "rational_PF_enclosure_verified": [
+        "28157378308336430/1000000000000000",
+        "28157378308336431/1000000000000000"
+      ],
+      "one_primitive_SCC_verified": true,
+      "100_exact_count_terms_verified": true
+    }
+  },
+  "threshold": {
+    "1": {
+      "states": 42,
+      "100_exact_count_terms_verified": true,
+      "all_states_reachable": true,
+      "all_cyclic_SCCs_certified": true,
+      "SCC_PF_certificates_verified": 4,
+      "first2": [
+        [
+          24,
+          16
+        ],
+        [
+          216,
+          360
+        ]
+      ]
+    },
+    "2": {
+      "states": 87,
+      "100_exact_count_terms_verified": true,
+      "all_states_reachable": true,
+      "all_cyclic_SCCs_certified": true,
+      "SCC_PF_certificates_verified": 6,
+      "first2": [
+        [
+          52,
+          32
+        ],
+        [
+          476,
+          658
+        ]
+      ]
+    },
+    "3": {
+      "states": 125,
+      "100_exact_count_terms_verified": true,
+      "all_states_reachable": true,
+      "all_cyclic_SCCs_certified": true,
+      "SCC_PF_certificates_verified": 18,
+      "first2": [
+        [
+          84,
+          0
+        ],
+        [
+          912,
+          868
+        ]
+      ]
+    }
+  },
+  "input_sha256": {
+    "exact_peptide_automata.json": "36f184b4051df141d1cfbe93aa3284c93b6bec9a75591a0259ec520682b38ec4",
+    "exact_bridge_threshold_automata.json": "e81feddb27c09d8093dbafb334153596630b4a5099b222a718da58c3ab6bb4bb"
+  }
+}
