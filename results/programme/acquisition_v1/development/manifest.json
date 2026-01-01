@@ -1,0 +1,171 @@
+{
+  "schema_version": 2,
+  "claim_id": "ACQUISITION_V1_DEVELOPMENT",
+  "repository": {
+    "commit": "ac0167a68333c898dc665704dc61c6e29d1e258e",
+    "dirty": true
+  },
+  "command": [
+    "C:/Users/VIVAAN/Documents/Codex/2026-10-24/protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2/work/env/Scripts/python.exe",
+    "analysis/programme/acquisition_benchmark.py",
+    "--output",
+    "results/programme/acquisition_v1/development"
+  ],
+  "environment": {
+    "software": [
+      {
+        "name": "runner-python",
+        "version": "3.12.14"
+      },
+      {
+        "name": "Python",
+        "version": "3.12.14"
+      },
+      {
+        "name": "numpy",
+        "version": "2.5.4"
+      },
+      {
+        "name": "networkx",
+        "version": "3.7"
+      }
+    ],
+    "hardware": "Windows-11-10.0.26300-SP0"
+  },
+  "mathematics": {
+    "assertion_tested": "Every returned vertex-query certificate agrees with complete simulated truth at every observed prefix. Development policy costs are measured on all frozen simulated worlds, with exact finite reference checks on Q3.",
+    "coefficient_domain": "Exact binary graph states, integer flow capacities and integer query costs. Floating point Gaussian and heat fields are thresholded before certification.",
+    "conventions": "See acquisition_protocol_v1.json and acquisition_conventions_v1.json. Median ties are retained; endpoints are forced present.",
+    "inputs": [
+      "Seven finite graphs and 38 graph-field combinations",
+      "Ten development seeds 1000 through 1009",
+      "Two initial conditions and five query policies",
+      "All 729 Q3 ternary partial states with both endpoints present"
+    ],
+    "bounds": {
+      "maximum_vertices": 64,
+      "development_worlds": 760,
+      "policy_evaluations": 3800,
+      "validation_worlds_examined": 0
+    },
+    "non_claims": [
+      "No biological validation",
+      "No universal policy optimality",
+      "Clairvoyant certificate sizes are not implementable predictions",
+      "Q3 minimax is a worst case reference, not a pointwise lower bound"
+    ]
+  },
+  "randomness": {
+    "used": true,
+    "generator": "numpy PCG64 with SeedSequence",
+    "seed": "1000 through 1009; stream construction in acquisition_conventions_v1.json"
+  },
+  "run": {
+    "started_at": "2026-10-25T04:26:53.679774+00:00",
+    "runtime_seconds": 15.406,
+    "exit_status": 0,
+    "status": "completed",
+    "timeout_seconds": 180.0,
+    "max_output_bytes": 1048576,
+    "resource_limits": {
+      "memory_bytes": null,
+      "cpu_seconds": null,
+      "max_cores": null,
+      "max_threads": null
+    },
+    "missing_results": [],
+    "invalid_results": []
+  },
+  "execution_artifacts": [
+    "src/acquisition.py",
+    "src/barrier_identification.py",
+    "analysis/programme/acquisition_benchmark.py",
+    "analysis/programme/acquisition_protocol_v1.json",
+    "analysis/programme/acquisition_conventions_v1.json"
+  ],
+  "input_artifacts": [
+    {
+      "path": "src/acquisition.py",
+      "sha256": "a9ad409f378f1f27e8deabe6ed47ca9ea25f9bee9f3854ab276494c832537cb7",
+      "sha256_after": "a9ad409f378f1f27e8deabe6ed47ca9ea25f9bee9f3854ab276494c832537cb7"
+    },
+    {
+      "path": "src/barrier_identification.py",
+      "sha256": "035902bf255c42a43843570abf1145e8d17a9d872fa0eadc605d53087fd4823e",
+      "sha256_after": "035902bf255c42a43843570abf1145e8d17a9d872fa0eadc605d53087fd4823e"
+    },
+    {
+      "path": "analysis/programme/acquisition_benchmark.py",
+      "sha256": "611ca637532ee9d45ecc273ff2d1809c409de4682f27b4ea64e70d8ca7c1ce0f",
+      "sha256_after": "611ca637532ee9d45ecc273ff2d1809c409de4682f27b4ea64e70d8ca7c1ce0f"
+    },
+    {
+      "path": "analysis/programme/acquisition_protocol_v1.json",
+      "sha256": "f666e45d2a4e8ee16dcd52d1b9e9408e1aba4723d9c210caf782d84c1cacc1a4",
+      "sha256_after": "f666e45d2a4e8ee16dcd52d1b9e9408e1aba4723d9c210caf782d84c1cacc1a4"
+    },
+    {
+      "path": "analysis/programme/acquisition_conventions_v1.json",
+      "sha256": "a85339d19f4ce059e6d32f46b6d2cf255da94a602e7d4a2d77c20a5332684e39",
+      "sha256_after": "a85339d19f4ce059e6d32f46b6d2cf255da94a602e7d4a2d77c20a5332684e39"
+    }
+  ],
+  "output_directory": "results/programme/acquisition_v1/development",
+  "declared_results": [
+    "results/programme/acquisition_v1/development/summary.json",
+    "results/programme/acquisition_v1/development/worlds.json",
+    "results/programme/acquisition_v1/development/policy_results.json",
+    "results/programme/acquisition_v1/development/graphs.json"
+  ],
+  "outputs": [
+    {
+      "path": "results/programme/acquisition_v1/development/stdout.txt",
+      "sha256": "185c5ae9df7265d34ba2d5324f3130b405da50d7d4590781cedbd19e7e8f33e0",
+      "kind": "log"
+    },
+    {
+      "path": "results/programme/acquisition_v1/development/stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "kind": "log"
+    },
+    {
+      "path": "results/programme/acquisition_v1/development/summary.json",
+      "sha256": "5755e7b0734320016649f996717e745635e83eb6b944f5a85ad5fa6b563579da",
+      "kind": "result"
+    },
+    {
+      "path": "results/programme/acquisition_v1/development/worlds.json",
+      "sha256": "07e7809cd524655099b7a347138e3349e419dc555c4e5d813b8afb6a1dfbea75",
+      "kind": "result"
+    },
+    {
+      "path": "results/programme/acquisition_v1/development/policy_results.json",
+      "sha256": "4db9d983e5e2860125f6a7101e41c6dba53f496f2f33c2145aaa523d58f2f0be",
+      "kind": "result"
+    },
+    {
+      "path": "results/programme/acquisition_v1/development/graphs.json",
+      "sha256": "bc7859250f6a350364803581f5ea8ec4bd1732694f76ca78fe61f2fd84744ba8",
+      "kind": "result"
+    }
+  ],
+  "checks": [
+    {
+      "check": "input hashes unchanged",
+      "passed": true
+    },
+    {
+      "check": "process exited successfully within enforced limits",
+      "passed": true
+    },
+    {
+      "check": "declared result files are present and regular",
+      "passed": true
+    }
+  ],
+  "result": "Run completed; mathematical assertion requires interpretation and review.",
+  "residual_risks": [
+    "Command success does not establish the mathematical interpretation.",
+    "Only listed input artifacts are pinned; external dependencies need recorded versions."
+  ]
+}

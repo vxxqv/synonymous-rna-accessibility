@@ -1,0 +1,8 @@
+{"graph_completed": "Q3", "worlds": 120, "policy_runs": 600}
+{"graph_completed": "Q4", "worlds": 240, "policy_runs": 1200}
+{"graph_completed": "Q6", "worlds": 360, "policy_runs": 1800}
+{"graph_completed": "independent_path_5", "worlds": 480, "policy_runs": 2400}
+{"graph_completed": "independent_path_7", "worlds": 600, "policy_runs": 3000}
+{"graph_completed": "leucine", "worlds": 680, "policy_runs": 3400}
+{"graph_completed": "leucine_product", "worlds": 760, "policy_runs": 3800}
+{"worlds": 760, "policy_runs": 3800, "checked_query_prefixes": 36833, "false_certificates": 0, "exact_checks": {"separator_comparisons": 351, "completion_comparisons": 4096, "partial_states": 729, "minimax_states_evaluated": 729, "q3_endpoint_only_minimax": 6, "boundary_cases": 3}, "overall": {"random": {"median_queries": 9.0, "mean_queries": 12.577631578947368, "maximum_queries": 61, "sum_queries": 9559, "mean_excess_over_clairvoyant": 9.618421052631579}, "degree": {"median_queries": 7.0, "mean_queries": 12.810526315789474, "maximum_queries": 62, "sum_queries": 9736, "mean_excess_over_clairvoyant": 9.851315789473684}, "lazy_forward": {"median_queries": 4.0, "mean_queries": 5.386842105263158, "maximum_queries": 47, "sum_queries": 4094, "mean_excess_over_clairvoyant": 2.4276315789473686}, "lazy_bisection": {"median_queries": 5.0, "mean_queries": 6.868421052631579, "maximum_queries": 51, "sum_queries": 5220, "mean_excess_over_clairvoyant": 3.9092105263157895}, "path_cut": {"median_queries": 4.0, "mean_queries": 5.821052631578947, "maximum_queries": 41, "sum_queries": 4424, "mean_excess_over_clairvoyant": 2.861842105263158}}, "development_only_efficiency_criterion_met": false}

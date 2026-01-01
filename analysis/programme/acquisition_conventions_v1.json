@@ -1,0 +1,16 @@
+{
+  "protocol": "acquisition_protocol_v1.json",
+  "status": "Operational conventions fixed before development outcomes",
+  "graphs": "Vertices are lexicographically sorted tuples or RNA codons. Edges are Hamming distance one. Independent-set vertices have no consecutive ones. Leucine is CUA, CUC, CUG, CUU, UUA, UUG under the standard code; product edges change one component by one nucleotide.",
+  "heat_field": "exp(-L) times independent standard normal scores, unnormalized graph Laplacian L and time 1. Floating point eigendecomposition constructs a score field only; subsequent binary graph certificates are exact.",
+  "coordinate_fields": "Binary coordinates are encoded -1 and +1. Additive coefficients are independent standard normal. Pairwise fields contain independently drawn main and all pair coefficients. Median ties are retained. Endpoints are forced present after thresholding.",
+  "initial_observations": "Endpoints plus floor((n-2)/4) nonendpoints for the quarter-observed condition. Initial permutation is independent of outcomes and shared across field families for each graph and seed.",
+  "seed_streams": "numpy PCG64 with SeedSequence([seed,graph_index,family_index,stream_index]). Fields use stream 0; initial subsets use family index 0 and stream 1; random policy uses stream 2. The same random-policy stream is restarted for each initial-observation condition.",
+  "degree_policy": "Largest degree in the original baseline graph among unknown vertices, then lowest vertex index.",
+  "bisection_policy": "Unknown vertex nearest the midpoint of the complete shortest possible path, then lowest vertex index. This differs from taking the midpoint of only the unknown subsequence.",
+  "path_cut_policy": "First query uses bisection, second uses the lowest indexed member of a minimum unknown separator, and so on. Tied minimum separators use the lexicographically smallest sorted vertex set, obtained with exact integral capacities.",
+  "clairvoyant_bound": "Minimum number of additional true observations sufficient for a certificate, conditional on the actual full truth and initial observations. Computed for every world by a shortest path or negative-vertex cut.",
+  "minimax_bound": "Q3 only. Exact recurrence over all ternary partial assignments with endpoints present. It is a worst case reference, not a pointwise lower bound on the cost in an individual truth world.",
+  "development": "Seeds 1000 through 1009 only. No outcome-dependent policy tuning or graph exclusions. A separate authorization and fixed source hashes are required before validation execution.",
+  "coverage": "Seven graphs; six field families on each of five binary-coordinate graphs and four on each of two leucine graphs; ten development seeds; two initial conditions; five policies. 760 worlds and 3800 policy evaluations."
+}

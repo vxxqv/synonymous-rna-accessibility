@@ -1,0 +1,14 @@
+{
+  "claim_id": "ACQUISITION_V1_DEVELOPMENT",
+  "mathematics": {
+    "assertion_tested": "Every returned vertex-query certificate agrees with complete simulated truth at every observed prefix. Development policy costs are measured on all frozen simulated worlds, with exact finite reference checks on Q3.",
+    "coefficient_domain": "Exact binary graph states, integer flow capacities and integer query costs. Floating point Gaussian and heat fields are thresholded before certification.",
+    "conventions": "See acquisition_protocol_v1.json and acquisition_conventions_v1.json. Median ties are retained; endpoints are forced present.",
+    "inputs": ["Seven finite graphs and 38 graph-field combinations", "Ten development seeds 1000 through 1009", "Two initial conditions and five query policies", "All 729 Q3 ternary partial states with both endpoints present"],
+    "bounds": {"maximum_vertices": 64, "development_worlds": 760, "policy_evaluations": 3800, "validation_worlds_examined": 0},
+    "non_claims": ["No biological validation", "No universal policy optimality", "Clairvoyant certificate sizes are not implementable predictions", "Q3 minimax is a worst case reference, not a pointwise lower bound"]
+  },
+  "execution_artifacts": ["src/acquisition.py", "src/barrier_identification.py", "analysis/programme/acquisition_benchmark.py", "analysis/programme/acquisition_protocol_v1.json", "analysis/programme/acquisition_conventions_v1.json"],
+  "software": [{"name": "Python", "version": "3.12.14"}, {"name": "numpy", "version": "2.5.4"}, {"name": "networkx", "version": "3.7"}],
+  "randomness": {"used": true, "generator": "numpy PCG64 with SeedSequence", "seed": "1000 through 1009; stream construction in acquisition_conventions_v1.json"}
+}
