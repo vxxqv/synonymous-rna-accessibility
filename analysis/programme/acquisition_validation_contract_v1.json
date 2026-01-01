@@ -1,0 +1,14 @@
+{
+  "claim_id": "ACQUISITION_V1_HELDOUT_VALIDATION",
+  "mathematics": {
+    "assertion_tested": "All frozen query policies are compared on heldout synthetic seeds with no policy tuning. Every conditional certificate is checked against complete truth at every query prefix. Mean paired query differences receive uncertainty estimates across the fixed 50 seed blocks.",
+    "coefficient_domain": "Exact binary graph states, integer flow capacities and integer query costs. Floating point Gaussian and heat fields are thresholded before certification.",
+    "conventions": "See acquisition_protocol_v1.json and acquisition_conventions_v1.json. Forcing endpoints present is an occupancy edit; additive-derived occupancy is not claimed to preserve an exact additive superlevel restriction.",
+    "inputs": ["Seven finite graphs and 38 graph-field combinations", "Fifty heldout seeds 2000 through 2049", "Two initial conditions, five unchanged query policies and one additional canonical bisection baseline", "All 729 Q3 ternary partial states with both endpoints present"],
+    "bounds": {"maximum_vertices": 64, "validation_worlds": 3800, "policy_evaluations": 22800, "seed_blocks": 50, "worlds_per_seed_block": 76},
+    "non_claims": ["No biological data or validation", "No universal policy optimality", "No population inference beyond the fixed simulated design", "No claim that endpoint-forced occupancy preserves the original score model", "No simultaneous interval guarantee across policies"]
+  },
+  "execution_artifacts": ["src/acquisition.py", "src/barrier_identification.py", "analysis/programme/acquisition_benchmark.py", "analysis/programme/acquisition_protocol_v1.json", "analysis/programme/acquisition_conventions_v1.json", "analysis/programme/acquisition_bisection_amendment_v1.json", "analysis/programme/acquisition_validation_contract_v1.json", "tests/test_acquisition.py", "requirements-tested.txt", "results/programme/acquisition_v1/validation_freeze.json"],
+  "software": [{"name": "Python", "version": "3.12.14"}, {"name": "numpy", "version": "2.5.4"}, {"name": "networkx", "version": "3.7"}],
+  "randomness": {"used": true, "generator": "numpy PCG64 with SeedSequence", "seed": "2000 through 2049; unchanged stream construction in acquisition_conventions_v1.json"}
+}

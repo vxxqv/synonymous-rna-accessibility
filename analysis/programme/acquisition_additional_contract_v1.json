@@ -1,0 +1,14 @@
+{
+  "claim_id": "ACQUISITION_V1_CANONICAL_BISECTION_DEVELOPMENT",
+  "mathematics": {
+    "assertion_tested": "The additional canonical vertex bisection baseline produces sound certificates on every recorded development world; original policy costs and worlds are preserved.",
+    "coefficient_domain": "Exact binary graph states and integer query costs",
+    "conventions": "The added selector maximizes distance along the possible path to the nearest evaluated position; ties use lowest vertex index. This is a vertex adaptation of Dellin and Srinivasa 2016 Algorithm 2, specified in the amendment.",
+    "inputs": ["All 760 recorded development worlds, seeds 1000 through 1009", "Original five-policy results for comparison only"],
+    "bounds": {"maximum_vertices": 64, "additional_policy_evaluations": 760, "validation_worlds_examined": 0},
+    "non_claims": ["No biological data", "No heldout validation", "No policy tuning", "No alteration of the original five-policy efficiency criterion"]
+  },
+  "execution_artifacts": ["src/acquisition.py", "src/barrier_identification.py", "analysis/programme/acquisition_benchmark.py", "analysis/programme/acquisition_additional_baseline.py", "analysis/programme/acquisition_bisection_amendment_v1.json", "results/programme/acquisition_v1/development/worlds.json", "results/programme/acquisition_v1/development/graphs.json", "results/programme/acquisition_v1/development/policy_results.json", "results/programme/acquisition_v1/development/summary.json"],
+  "software": [{"name": "Python", "version": "3.12.14"}, {"name": "numpy", "version": "2.5.4"}, {"name": "networkx", "version": "3.7"}],
+  "randomness": {"used": false, "generator": "Recorded development worlds only; added policy is deterministic", "seed": null}
+}
