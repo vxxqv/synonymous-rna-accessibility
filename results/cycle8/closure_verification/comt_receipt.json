@@ -1,0 +1,61 @@
+{
+  "status": "PASS_INDEPENDENT_BINARY_FLOAT_CONTRACT_COMPARISON",
+  "checks": {
+    "predictions_exact": 2500,
+    "fit_coefficients_and_rank_exact": 40,
+    "range_flag_sets": 500,
+    "scores_exact": 80,
+    "per_site_errors_exact": 3160,
+    "variant_errors_exact": 2500,
+    "cases": 4
+  },
+  "raw_checks": {
+    "contrast_records": 6000,
+    "normalization_fields": 37256
+  },
+  "provenance": {
+    "production_stage_common_pins": true,
+    "production_stage_links": 6,
+    "old_reference_and_seal_verified": true,
+    "RF_training_or_unselected_stage_payloads_independently_verified": false
+  },
+  "authorization_sha256": "25cce52469df70784a8f3d755afd68c3b0bd059fab3f9595d8d3b9412023dbd0",
+  "reference_sha256": "dd84524b3909df0437b070ebf1d97d7ba41449389dee78af53b0f1f86991e538",
+  "input_hashes": {
+    "protocol": "97aea7e56ddf9c74a2fcbf4a17ce2bbd9280c8417d2534997835878b2a368d61",
+    "integration_addendum": "c480ca92ce36b6e95849fceaea3e6bf49d14bcd7842b1e5fe1efd543ff33f4d2",
+    "normalization_amendment": "c72377c83f74c0f09324f850659071320bd68dcad13fe4b70c1f615961b02bfc",
+    "contract": "091ab6a57b7d64ab56638430e95befca5dbffd790eec9c62ea5d6a504d450ce5",
+    "predecessor_reference": "4c26b90d20b34ff7d1146ff8b796b571248b01e2c3bd33a5eab2fed61b05967f",
+    "predecessor_reference_seal": "06d352c497352646b0deef67b33cd027eacf6e78e9948884f5985d956c991c9f",
+    "predecessor_code_manifest": "f63371f105738b2e360482291ad2ed7b90e623585d872564472bc4ea023097fb",
+    "successor_code_manifest": "8292bce1941d7a080176771c9b2a132e3693513273b868f2843109ac8deb9fdb",
+    "extract_manifest": "4e365b305c356a25762c540092083c1a6e87bbc89041c97eb90a2e8f0436d7f0",
+    "rf_manifest": "091b66e102669f466121244e65a85c5434eafd514e903285074515a51bdd7564",
+    "normalization_manifest": "949fc885b57a230b7ec925d4c3f6e136d72774f24642651343bb98f648c1a0fd",
+    "prediction_manifest": "ff590b6da4a0dfc1c2f966f025b7281dbc9995e181e5264cfb0fb06a1e5bdbcc",
+    "evaluation_manifest": "83737f2dd546a4e6a9a750810e0e2c54ead3b30bfa8a9c49b8ff6887470f2431",
+    "rows_1": "e5bac4cc61921f857ff7b4cbbf771159d099a78f68c2a67ae004f55d83515d94",
+    "rows_2": "c422d868c1e8eea4a451e2ac481d47135ad0398661608a92a5ab3b91339c25ba",
+    "row_status_1": "43589e5f30afe88e3893f8a51ef45f75c64dc4fbf1932e162d3b61b3d9f73dcd",
+    "row_status_2": "07101bd7880ef4d1c42f878ed82e67ca022d390a9b7c41282b524e0f0f0cbf87",
+    "normalization": "e382e2568674e1c6ba98f0d6aa7c61f12efcf84b59aee09cb683076b15082a32",
+    "contrasts": "5654df32df45840415e483a53127a12744887ac9c6b49a18f0a9387bfa04f083",
+    "predictions": "a28d2075d078224afd51328056604a145da1f59928486dac8df857c7c2f76bfe",
+    "evaluation": "c3590c1f885323617e402c0b3fb99c8bd879a693aaff47993ef260bc6cb06452",
+    "source_first_reference": "222bffadbc94710810f9b9ea9c12b594281d4cb7cc83a719abfc6d6fb16143ec",
+    "source_first_preaccess_seal": "8f9fc7287dc8931a947a6410c0eecbaa39d952ae0cdf9cf38776eded9f5da564",
+    "original_replay_failure_seal": "3fcb90182c37e7bee27ab78f1c234acb9dee9f0b96818fc0c8d29b2865d161e6",
+    "reference_contract_amendment": "a7f1426cdabbd340c43cfec5b53b4ff39c3ed48bb7782e1466e80534b853d5dc"
+  },
+  "numerical_tolerance": 2e-12,
+  "original_prospective_reference_claim": false,
+  "post_DP_exposure_source_contract_correction": true,
+  "post_result_reference_contract_corrections": [
+    "binary_float_Fraction_input",
+    "RNA_only_constant_load_range_flag"
+  ],
+  "scientific_thresholds_changed": false,
+  "RF_training_independently_reconstructed": false,
+  "primary_operational_expansion_pass": false
+}

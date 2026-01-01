@@ -1,0 +1,38 @@
+{
+  "status": "PASS_ALL_FIVE_EXACT_REPLAYS",
+  "materialization_receipt_sha256": "981c7fba3a295236d052f1175b64ae908d9633cff7f1d32d8949e45f3cdcd855",
+  "checks": [
+    {
+      "check": "B",
+      "status": "PASS",
+      "checker_sha256": "d4a0edfd7d1ed037cd17fd0d95b01aa2b99fbe29203e4c467129531168b72e49",
+      "receipt_sha256": "4cd34d1457a2008cd0ea1f4fe2625ff1ebef0d815ca39e7c4c66cf55b8e247ce"
+    },
+    {
+      "check": "D1",
+      "status": "PASS_SEPARATE_EXACT_CERTIFICATE_AND_DESIGN_RECONSTRUCTION",
+      "checker_sha256": "f768ce2028f1becf02bab216d23b990745f41b54762204090946d870b49a2408",
+      "receipt_sha256": "7d38d0b1b2756242cba0b3057db5f4f31c308fc6e8dc43fbf6d4817b193bcb34"
+    },
+    {
+      "check": "D2",
+      "status": "PASS_INDEPENDENT_EXACT_BOUNDARY_CERTIFICATES",
+      "checker_sha256": "c6bcb31c10eea093208743638c60206a5092114840a99df03e53ff30da5d226d",
+      "receipt_sha256": "4edb8684987fd9aeb352ddcfb70fadde8c0ec7153dbc3b8aed4d5157a44e9fa2"
+    },
+    {
+      "check": "E",
+      "status": "passed",
+      "checker_sha256": "2f938e0ee8c912b252400c592adae6debce5c20a67dac408422e5c0a85ed3013",
+      "receipt_sha256": "74366567c63944fe4c2d368f890d35bd48fef45f27e5e0e1ee23c4a8258cafb3"
+    },
+    {
+      "check": "CG",
+      "status": "PASS_WITH_CONDITIONING_WORDING_CLARIFICATION",
+      "checker_sha256": "9a6227854d757db983d8b068175978232e388e0d066cd0a3aaf428bdc622cb28",
+      "receipt_sha256": "87b4269c1a960fa5858f6ff87025ae90b71bdf85df7076363471fe275a706512"
+    }
+  ],
+  "adapter_sha256": "eb77d6732eeca94900571545086eb40e2765dab4b3972d64daa85b4fcc0b964a",
+  "scope": "Independent numerical and symbolic reconstruction on frozen source bytes. No new biological replication, calibration or outcome selection."
+}

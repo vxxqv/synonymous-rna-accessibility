@@ -1,0 +1,25 @@
+# Current scientific status and interpretation amendments
+
+This index supersedes status wording in historical protocols. Frozen inputs, failed attempts, pre-access decisions and original criteria remain immutable. An independent reconstruction here means separately implemented mathematical/numerical checking, not independent biological replication.
+
+| Package | Completed evidence | Surviving conclusion | Remaining limit |
+|---|---|---|---|
+| A, joint function | COMT source reconstruction, both mapping conventions, 125 variants at 53 sites, exact 2,500-prediction reconciliation, all four assessment cases | The joint predictor fails the frozen 10% improvement requirement against all four comparators. Fixed-error deletion of each site does not restore it. | Low fluorescence-bin enrichment is a proxy. Assay equivalence and calibrated biological uncertainty are not established. |
+| B, local context | All 60 group/cell cases, exact widening profiles and all 720 preparation assignments | Eight cases retain recorded twofold dispersion in all three assigned preparations under every allowed assignment. | Anonymous source rows do not authenticate preparation identity, intended-edit causality or confidence intervals. |
+| C, processing identity | Intended-reference audit; source-parser and aggregation tests; positive indistinguishability examples | The intended library varies after a shared coding region; measured categories need not identify full transcript products. | The actual full construct/junction/CDS/recovery map is missing. No empirical hidden-product graph is estimated. |
+| D, context transport | Exact rank and all 140 declared nested-model cases; sharp common-model boundaries | Context-specific additive models remain feasible. Shared additive constraints provide exactly the same widening exclusions as arbitrary common ordering in this source. | Pairwise descriptor model is saturated; feasibility is not unseen-variant prediction or mechanism identification. |
+| E, FAS robustness | All primary graph/scenario records retained; exhaustive one-, two- and three-comparison certificate audit | A unique minimum three-comparison support contradicts the specified additive-monotone proxy model. No envelope-certified barrier is established in the 72-state graph. | Model contradiction and graph restriction are separate. Recovery envelopes are not calibrated. |
+| F, complete neighborhoods | Bounded seven-source eligibility/recovery audit | No additional authenticated complete phenotype-bearing graph was recovered. | Missing sequence/bin/preparation records are a source limitation, not a biological null or exhaustive literature claim. |
+| G, kinetic identification | Global positive-domain inverses and ambiguity maps; all 1,024 subsets checked | The specified ten-scalar observation system has 51 minimal sufficient triples and 805 sufficient subsets. | Conditional model theorem, not estimated rates, new general method, or empirical structural validation. |
+
+## Corrections that do not change primary criteria
+
+COMT normalization uses the source's first depth after its documented ordering, rather than requiring unique depth. The original depth failure and the versioned amendment precede prediction. The independent reference subsequently needed the frozen binary-float rational convention and the RNA-only predictor's constant-zero load range convention. These are explicitly post-result reference corrections. Full exact reconciliation passed without a production-value change or tolerance relaxation.
+
+The first packaging attempts had missing role dependencies. Two all-branch adapter attempts then misread a directory output as a file and expected uppercase rather than lowercase FAS success. Scientific checks had passed; adapters were corrected. No thresholds or results changed. Portable receipts and the prior failures are separately recorded.
+
+The marker bound in marker_interval_review/derivation.md section 3 is sharp on its declared Cartesian real or log response scale. For a strictly positive raw response, every cell's positivity is required, including the marker-only cell. The original known-baseline bound must be intersected with beta > -mu and alpha > -mu, with open endpoints retained; the simplified interval alone is not sufficient on that raw domain. The fresh review and counterexample are in marker_partial_identification/review.md. No empirical absolute interaction cap or fully matched control set was authenticated.
+
+In the equilibrium observation theorem, d(log e)/df = 1/[f(1-f)] measures relative output sensitivity per absolute change in f. Relative-input elasticity is d(log e)/d(log f) = 1/(1-f). The original wording is clarified here; the algebra, global selection rule and counts are unchanged.
+
+The current manuscript uses these narrowed claims. Whole notebooks are excluded from the archive; pinned source-only extracts and acquisition hashes suffice for the included operator checks. Existing release history is preserved, and no previous Zenodo DOI is represented as containing this cycle.

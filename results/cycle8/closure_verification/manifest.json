@@ -1,0 +1,69 @@
+{
+  "schema": "cycle8_local_release_verification_v1",
+  "scope": "Exact computational revision contents before Git commit. Remote/CI and public archive are separate checks, not claimed here.",
+  "files": [
+    {
+      "file": "materialization_receipt.json",
+      "sha256": "981c7fba3a295236d052f1175b64ae908d9633cff7f1d32d8949e45f3cdcd855",
+      "bytes": 49510
+    },
+    {
+      "file": "comt_receipt.json",
+      "sha256": "e1e288603baf552e5a28c0c2672bc71df70027a914c5729f98103fadbe7b6973",
+      "bytes": 3605
+    },
+    {
+      "file": "all_exact_replays.json",
+      "sha256": "53227aa7e961e509eea57ad3fd741cc15d2b3c1ddbdabafe440eb8f31bfb8133",
+      "bytes": 1785
+    },
+    {
+      "file": "archive_guard_review.md",
+      "sha256": "e8142739a5cb68016a8f407082826da6ef291856c01c4672eb8ff110e6667ce2",
+      "bytes": 6730
+    },
+    {
+      "file": "archive_guard_receipt.json",
+      "sha256": "cb91114ca86bd97476949deaa64a2c61f8bf021c45afbeff9446046df9c45a4d",
+      "bytes": 8084
+    },
+    {
+      "file": "archive_guard_seal.json",
+      "sha256": "1bbbb7ff29b9ad5c2c8f6b7643bd9a37ea70c993bb30a33c0407951ced1cbc89",
+      "bytes": 2846
+    },
+    {
+      "file": "pytest.log",
+      "sha256": "d6519bc24a428a74a571713d54a62ff40e0aed7f432ecc4b7b26b6437df44338",
+      "bytes": 182
+    },
+    {
+      "file": "notebook_exclusion.json",
+      "sha256": "e8ec2707995c07e0d9db3551f1d8caa169ec945dd7a13594d8171ab72d3630b5",
+      "bytes": 399
+    }
+  ],
+  "failures_preserved": [
+    {
+      "stage": "role closure",
+      "attempts": [
+        "c8_portable_A",
+        "c8_portable_A2"
+      ],
+      "cause": "Missing archived reference role and original alternate path prefix; no scientific results changed."
+    },
+    {
+      "stage": "five-check adapter",
+      "attempt": "c8_portable_all_v1",
+      "cause": "D1 output was a directory, not a receipt file; scientific checker passed."
+    },
+    {
+      "stage": "five-check adapter",
+      "attempt": "c8_portable_all_v2",
+      "cause": "FAS status is lowercase passed; wrapper incorrectly required uppercase prefix; scientific checker passed."
+    }
+  ],
+  "final_replays": "c8_release_replay: exact COMT plus all five B/D1/D2/E/CG checks pass",
+  "pytest": "77 passed",
+  "limitations": "Numerical reconstruction is conditional on archived extracted count inputs and masks. It is not independent biological validation, source calibration or historical classifier retraining."
+}

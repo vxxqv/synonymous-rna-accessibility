@@ -1,0 +1,22 @@
+{
+  "status": "PASS_FINAL_BOUNDED_ARCHIVE_GUARDS",
+  "review_sha256": "e8142739a5cb68016a8f407082826da6ef291856c01c4672eb8ff110e6667ce2",
+  "test_script_sha256": "2da6bf6792e2f3ac195a16c1a9e78645fd582ec782db433cef8ed5c941eb0e2a",
+  "test_receipt_sha256": "cb91114ca86bd97476949deaa64a2c61f8bf021c45afbeff9446046df9c45a4d",
+  "reviewed_sources": {
+    "\\\\?\\C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\outputs\\synonymous-rna-accessibility\\analysis\\cycle8\\materialize_cycle8.py": "37b2199996d90735cfe15b109ee24c483358e6ce5f8977d5afc4dfd08b6f9041",
+    "\\\\?\\C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\outputs\\synonymous-rna-accessibility\\analysis\\cycle8\\verify_materialized_cycle8.py": "eb77d6732eeca94900571545086eb40e2765dab4b3972d64daa85b4fcc0b964a",
+    "\\\\?\\C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\outputs\\synonymous-rna-accessibility\\analysis\\cycle8\\REPLAY_FILE_INVENTORY.json": "1826554f35e04b9d5b4761992f0aa94e3c23ab7129438b079fb8557018b9a8df",
+    "\\\\?\\C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\outputs\\synonymous-rna-accessibility\\analysis\\cycle8\\README.md": "699674c1f22f072d7d59df1fdae0c1e2f6b9855934ac347d9eba01998a9759dc",
+    "\\\\?\\C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\outputs\\synonymous-rna-accessibility\\analysis\\cycle8\\CURRENT_VERIFIED_STATUS.md": "aa2b29d38cbca85c3c87f1cd2e253e808ffe2b5d34637c6ad8767903cf12cda4",
+    "\\\\?\\C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\outputs\\synonymous-rna-accessibility\\requirements-tested.txt": "c7a03404aae6ac2b0674d2b8949716a6f96c3c671ff51e36f3b787aec1e95b5d",
+    "\\\\?\\C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\outputs\\synonymous-rna-accessibility\\THIRD_PARTY_NOTICES.md": "aae76adc66820e805070b8cf7deee207b41065b885825054627ada791e906656",
+    "\\\\?\\C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\outputs\\synonymous-rna-accessibility\\analysis\\cycle8\\dao_gate\\source_license.md": "b457804da09389e0f36555408d63d2d3fba9418089ccb064ff3754e7c1044c13"
+  },
+  "synthetic_checks": 34,
+  "sealed_files": 725,
+  "logical_files": 282,
+  "symlink_execution": "Unavailable Windows privilege1314; static review only",
+  "COMT_or_other_scientific_replay": false,
+  "scientific_source_or_result_changes": false
+}

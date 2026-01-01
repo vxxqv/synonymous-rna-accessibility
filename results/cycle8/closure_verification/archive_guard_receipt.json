@@ -1,0 +1,255 @@
+{
+  "status": "PASS_FINAL_INVENTORY_AND_SYNTHETIC_GUARDS",
+  "reviewed_hashes_before_after": {
+    "\\\\?\\C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\outputs\\synonymous-rna-accessibility\\analysis\\cycle8\\materialize_cycle8.py": "37b2199996d90735cfe15b109ee24c483358e6ce5f8977d5afc4dfd08b6f9041",
+    "\\\\?\\C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\outputs\\synonymous-rna-accessibility\\analysis\\cycle8\\verify_materialized_cycle8.py": "eb77d6732eeca94900571545086eb40e2765dab4b3972d64daa85b4fcc0b964a",
+    "\\\\?\\C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\outputs\\synonymous-rna-accessibility\\analysis\\cycle8\\REPLAY_FILE_INVENTORY.json": "1826554f35e04b9d5b4761992f0aa94e3c23ab7129438b079fb8557018b9a8df",
+    "\\\\?\\C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\outputs\\synonymous-rna-accessibility\\analysis\\cycle8\\README.md": "699674c1f22f072d7d59df1fdae0c1e2f6b9855934ac347d9eba01998a9759dc",
+    "\\\\?\\C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\outputs\\synonymous-rna-accessibility\\analysis\\cycle8\\CURRENT_VERIFIED_STATUS.md": "aa2b29d38cbca85c3c87f1cd2e253e808ffe2b5d34637c6ad8767903cf12cda4",
+    "\\\\?\\C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\outputs\\synonymous-rna-accessibility\\requirements-tested.txt": "c7a03404aae6ac2b0674d2b8949716a6f96c3c671ff51e36f3b787aec1e95b5d",
+    "\\\\?\\C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\outputs\\synonymous-rna-accessibility\\THIRD_PARTY_NOTICES.md": "aae76adc66820e805070b8cf7deee207b41065b885825054627ada791e906656",
+    "\\\\?\\C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\outputs\\synonymous-rna-accessibility\\analysis\\cycle8\\dao_gate\\source_license.md": "b457804da09389e0f36555408d63d2d3fba9418089ccb064ff3754e7c1044c13"
+  },
+  "sealed_files": 725,
+  "sealed_bytes": 49997497,
+  "only_unlisted_computational_root_file": [
+    "REPLAY_FILE_INVENTORY.json"
+  ],
+  "extensions": {
+    ".json": 336,
+    ".csv": 18,
+    ".gz": 17,
+    ".py": 139,
+    ".r": 17,
+    ".tsv": 54,
+    ".txt": 31,
+    ".log": 17,
+    ".md": 81,
+    ".jsonl": 1,
+    ".diff": 3,
+    ".rds": 9,
+    ".xlsx": 2
+  },
+  "manifest_checks": [
+    {
+      "path": "VERIFIED_A_CONTENTS.json",
+      "files": 90,
+      "sha256": "3a42048d5f5036610b0b1c22a6b50aae48f53b482994d8cae2f18f9d63bdd3bd"
+    },
+    {
+      "path": "VERIFIED_BDE_CONTENTS.json",
+      "files": 99,
+      "sha256": "822e09afb67229b48b3490b2e1e71f82c0ec16071a3e8a6fa8452d65579eb606"
+    },
+    {
+      "path": "VERIFIED_CFG_CONTENTS.json",
+      "files": 93,
+      "sha256": "b619e0cd239948beda6c9f547af6a13f83fc1ec897135bc7761efc3ab7a88f0c"
+    }
+  ],
+  "logical_files": 282,
+  "critical_checker_files_rechecked_by_wrapper": [
+    "cprime_followup/independent_review/verify.py",
+    "context_design_audit/root_review/check.py",
+    "context_transport_sharp_boundary/root_review/check.py",
+    "fas_certificate_audit/independent_review/verify.py",
+    "observation_identification_extension/independent_review/verify_symbolic.py"
+  ],
+  "synthetic_checks": [
+    {
+      "kind": "safe_join_rejection",
+      "value": "",
+      "passed": true
+    },
+    {
+      "kind": "safe_join_rejection",
+      "value": "..",
+      "passed": true
+    },
+    {
+      "kind": "safe_join_rejection",
+      "value": "../escape",
+      "passed": true
+    },
+    {
+      "kind": "safe_join_rejection",
+      "value": "a/../escape",
+      "passed": true
+    },
+    {
+      "kind": "safe_join_rejection",
+      "value": "./x",
+      "passed": true
+    },
+    {
+      "kind": "safe_join_rejection",
+      "value": "a//b",
+      "passed": true
+    },
+    {
+      "kind": "safe_join_rejection",
+      "value": "a/",
+      "passed": true
+    },
+    {
+      "kind": "safe_join_rejection",
+      "value": "/absolute",
+      "passed": true
+    },
+    {
+      "kind": "safe_join_rejection",
+      "value": "//server/share",
+      "passed": true
+    },
+    {
+      "kind": "safe_join_rejection",
+      "value": "C:/escape",
+      "passed": true
+    },
+    {
+      "kind": "safe_join_rejection",
+      "value": "C:\\escape",
+      "passed": true
+    },
+    {
+      "kind": "safe_join_rejection",
+      "value": "a\\b",
+      "passed": true
+    },
+    {
+      "kind": "safe_join_rejection",
+      "value": "a:b",
+      "passed": true
+    },
+    {
+      "kind": "safe_join_rejection",
+      "value": null,
+      "passed": true
+    },
+    {
+      "kind": "safe_join_rejection",
+      "value": 42,
+      "passed": true
+    },
+    {
+      "kind": "safe_join_valid",
+      "passed": true
+    },
+    {
+      "kind": "inventory_duplicate",
+      "passed": true,
+      "returncode": 1,
+      "before_output_creation": true
+    },
+    {
+      "kind": "inventory_case_duplicate",
+      "passed": true,
+      "returncode": 1,
+      "before_output_creation": true
+    },
+    {
+      "kind": "inventory_parent",
+      "passed": true,
+      "returncode": 1,
+      "before_output_creation": true
+    },
+    {
+      "kind": "inventory_absolute",
+      "passed": true,
+      "returncode": 1,
+      "before_output_creation": true
+    },
+    {
+      "kind": "inventory_hash",
+      "passed": true,
+      "returncode": 1,
+      "before_output_creation": true
+    },
+    {
+      "kind": "logical_duplicate",
+      "passed": true,
+      "returncode": 1,
+      "before_output_creation": true
+    },
+    {
+      "kind": "logical_case_duplicate",
+      "passed": true,
+      "returncode": 1,
+      "before_output_creation": true
+    },
+    {
+      "kind": "logical_parent",
+      "passed": true,
+      "returncode": 1,
+      "before_output_creation": true
+    },
+    {
+      "kind": "archive_parent",
+      "passed": true,
+      "returncode": 1,
+      "before_output_creation": true
+    },
+    {
+      "kind": "compression_unknown",
+      "passed": true,
+      "returncode": 1,
+      "before_output_creation": true
+    },
+    {
+      "kind": "archive_not_sealed",
+      "passed": true,
+      "returncode": 1,
+      "before_output_creation": true
+    },
+    {
+      "kind": "materialize_cycle8.py/-O",
+      "passed": true,
+      "before_input_access": true
+    },
+    {
+      "kind": "materialize_cycle8.py/-OO",
+      "passed": true,
+      "before_input_access": true
+    },
+    {
+      "kind": "verify_materialized_cycle8.py/-O",
+      "passed": true,
+      "before_input_access": true
+    },
+    {
+      "kind": "verify_materialized_cycle8.py/-OO",
+      "passed": true,
+      "before_input_access": true
+    },
+    {
+      "kind": "existing",
+      "passed": true
+    },
+    {
+      "kind": "inside",
+      "passed": true
+    },
+    {
+      "kind": "ancestor",
+      "passed": true
+    }
+  ],
+  "symlink_checks": [
+    {
+      "kind": "outside",
+      "status": "UNAVAILABLE_PRIVILEGE_OR_PLATFORM",
+      "error_type": "OSError",
+      "winerror": 1314
+    },
+    {
+      "kind": "inside",
+      "status": "UNAVAILABLE_PRIVILEGE_OR_PLATFORM",
+      "error_type": "OSError",
+      "winerror": 1314
+    }
+  ],
+  "COMT_or_scientific_replay_executed": false,
+  "dependency_presence_verified": true,
+  "test_code_sha256": "2da6bf6792e2f3ac195a16c1a9e78645fd582ec782db433cef8ed5c941eb0e2a",
+  "limitations": "Windows path/case behavior tested here; no cross-platform run, TOCTOU race proof or adversarially signed archive authentication is claimed."
+}
