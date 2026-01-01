@@ -1,0 +1,12 @@
+{
+ "id":"COMPASS_ELIGIBILITY_V1",
+ "base_revision":"834cc78b36c6739119156c5f89e279cd0ff5bd04",
+ "known":"Published aggregate findings and source Methods have been read. No individual PSI or inclusion/exclusion count values have been inspected. The March GEO table and April repository junction revision must not be silently mixed.",
+ "stage":"Sequence, annotation and measurement-schema audit only",
+ "source":"GSE307247 processed table SHA256 c5ec382ce6a54097fe15eda70a5738f891dbe831fab5242cf5ff3671f3c2cd07; author repository 67791aa433bf66ac0b7b095ede01d650c5de9cb1",
+ "permitted_columns":"Reference, event_id, gene_exon, snp, source, seq_type, intron1, exon, intron2, full_seq, transcript_id, exon_start_hg38, exon_end_hg38, variant_hg38. Read count/PSI columns remain unopened except their names and published definitions.",
+ "sequence_rules":["Construct full_seq must equal intron1+exon+intron2 and be 161 ACGT bases.","Group by exact reference background, exon boundaries and transcript; verify two distinct SNP differences and both single intermediates by sequence, not labels alone.","A native synonymous designation requires an exact coding frame from the specified annotation and unchanged codon translations; exonic status or length divisible by three is insufficient.","First audit complete internal codons; boundary-spanning codons require additional adjacent-exon sequence and remain excluded from that restricted design.","Check both source-version annotation consistency and physical insert identity. Retain counts for every exclusion.","Distinguish the native peptide from any reporter translation frame. Do not infer equal reporter proteins from native annotation alone."],
+ "decision_gates":{"minimum_native_synonymous_squares":50,"minimum_independent_genes":10,"minimum_genes_per_development_validation_partition":5,"measurement":"At least two identified biological replicates in a common cell line, coherent WT comparison and counts/uncertainty semantics."},
+ "validation_plan_if_eligible":"Gene-level sequence-only split; all exons and mutants of a gene stay together. Remove exact or near-identical cassette backgrounds across groups before fitting. Require a separate outcome protocol and committed design table before reading phenotype columns.",
+ "failure":"Report the inference level the data support. Do not weaken count/independence criteria or choose a cell line from favorable outcomes. No claim of RNA structural mechanism without relevant comparator information."
+}
