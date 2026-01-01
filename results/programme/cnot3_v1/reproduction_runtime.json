@@ -1,0 +1,12 @@
+{
+  "status": "phase_completed",
+  "runtime": {
+    "implementation": "CPython",
+    "python": "3.12.14",
+    "numpy": "2.5.4",
+    "Biopython": "1.88"
+  },
+  "script_sha256": "af2a256b38009f3f439caea2dd777bb26180814098a641e17c9f1bd0bc684ffa",
+  "guard_sha256": "ebcbdc065fd6f185cdd91480b62f6e8366bfac317e1ab94328249863f6ef5961",
+  "phase_returncode": 0
+}

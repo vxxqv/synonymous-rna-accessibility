@@ -1,0 +1,13 @@
+test_hashes_count_unresolved_and_49_retention (test_adapters.AdapterTests.test_hashes_count_unresolved_and_49_retention) ... ok
+test_missing_false_unknown_and_old_checks_rejected (test_adapters.AdapterTests.test_missing_false_unknown_and_old_checks_rejected) ... ok
+test_new_valid_gate_and_exact_eleven_checks (test_adapters.AdapterTests.test_new_valid_gate_and_exact_eleven_checks) ... ok
+test_old_gate_and_false_pass_claim_are_rejected (test_adapters.AdapterTests.test_old_gate_and_false_pass_claim_are_rejected) ... ok
+test_original_gate_cannot_be_substituted (test_adapters.AdapterTests.test_original_gate_cannot_be_substituted) ... ok
+test_original_hash_salts_and_thresholds_preserved (test_adapters.AdapterTests.test_original_hash_salts_and_thresholds_preserved) ... ok
+test_prediction_guard_accepts_only_explicit_exploratory_semantics (test_adapters.AdapterTests.test_prediction_guard_accepts_only_explicit_exploratory_semantics) ... ok
+test_source_audit_bytes_pinned_before_any_grouping (test_adapters.AdapterTests.test_source_audit_bytes_pinned_before_any_grouping) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.245s
+
+OK

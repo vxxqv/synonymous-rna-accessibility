@@ -1,0 +1,44 @@
+{
+  "refusal_tests": [
+    {
+      "name": "wrong_protocol",
+      "passed": true,
+      "returncode": 1,
+      "stderr": "Traceback (most recent call last):\n  File \"C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\work\\decay_cycle4\\operational_successor\\independent_review\\verifier_copy\\verify.py\", line 336, in <module>\n    main()\n  File \"C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\work\\decay_cycle4\\operational_successor\\independent_review\\verifier_copy\\verify.py\", line 289, in main\n    raise ValueError(\"Frozen input/protocol/author code mismatch before decoding\")\nValueError: Frozen input/protocol/author code mismatch before decoding\n"
+    },
+    {
+      "name": "wrong_author_code",
+      "passed": true,
+      "returncode": 1,
+      "stderr": "Traceback (most recent call last):\n  File \"C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\work\\decay_cycle4\\operational_successor\\independent_review\\verifier_copy\\verify.py\", line 336, in <module>\n    main()\n  File \"C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\work\\decay_cycle4\\operational_successor\\independent_review\\verifier_copy\\verify.py\", line 289, in main\n    raise ValueError(\"Frozen input/protocol/author code mismatch before decoding\")\nValueError: Frozen input/protocol/author code mismatch before decoding\n"
+    },
+    {
+      "name": "wrong_core_hash",
+      "passed": true,
+      "returncode": 1,
+      "stderr": "Traceback (most recent call last):\n  File \"C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\work\\decay_cycle4\\operational_successor\\independent_review\\verifier_copy\\verify.py\", line 336, in <module>\n    main()\n  File \"C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\work\\decay_cycle4\\operational_successor\\independent_review\\verifier_copy\\verify.py\", line 278, in main\n    raise ValueError(\"Verifier/core hash mismatch\")\nValueError: Verifier/core hash mismatch\n"
+    },
+    {
+      "name": "optimized_O",
+      "passed": true,
+      "returncode": 1,
+      "stderr": "Traceback (most recent call last):\n  File \"C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\work\\decay_cycle4\\operational_successor\\independent_review\\verifier_copy\\verify.py\", line 4, in <module>\n    raise RuntimeError(\"Optimized Python is refused before input access\")\nRuntimeError: Optimized Python is refused before input access\n"
+    },
+    {
+      "name": "optimized_OO",
+      "passed": true,
+      "returncode": 1,
+      "stderr": "Traceback (most recent call last):\n  File \"C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\work\\decay_cycle4\\operational_successor\\independent_review\\verifier_copy\\verify.py\", line 4, in <module>\n    raise RuntimeError(\"Optimized Python is refused before input access\")\nRuntimeError: Optimized Python is refused before input access\n"
+    },
+    {
+      "name": "overwrite",
+      "passed": true,
+      "returncode": 1,
+      "stderr": "Traceback (most recent call last):\n  File \"C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\work\\decay_cycle4\\operational_successor\\independent_review\\verifier_copy\\verify.py\", line 336, in <module>\n    main()\n  File \"C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\work\\decay_cycle4\\operational_successor\\independent_review\\verifier_copy\\verify.py\", line 271, in main\n    if out.exists():raise FileExistsError(\"Verifier output must be fresh\")\n                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nFileExistsError: Verifier output must be fresh\n"
+    }
+  ],
+  "zero_boundary_checks": 37,
+  "zero_boundary_max_abs": 7.21451211854683e-18,
+  "initial_verifier_history_retained": true,
+  "scientific_estimator_unchanged": true
+}

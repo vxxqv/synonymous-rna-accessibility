@@ -1,0 +1,27 @@
+{
+  "original_delivered_zip_sha256": "40fdcb791d35ab819181ba6b530498fa217a75a3901c69596bb310ff0664e39f",
+  "original_verifier_sha256": "68220853dd9734f1d1cdc14a15b9c3fdf6e0d1567877a5d08d9547c713cbede5",
+  "adapted_verifier_sha256": "896f580c33b8f24e3f44180501c51fd141c2b379b1d6f0631aecf5a75558c246",
+  "unchanged_functions": [
+    "sha",
+    "load",
+    "rank_rho",
+    "validate_rows",
+    "verify_predictions",
+    "losses",
+    "compare_entry",
+    "verify_kinetic",
+    "verify_evaluation"
+  ],
+  "changed_function_guard_only": [
+    "main"
+  ],
+  "literal_replacements": {
+    "433edbb800b6a26de793c92592b0efe15fb4de93b879a1f4495a3c011f4c20b4": "219dda125d7a8167b2a45fa67499ac4dc24118e6edcbdee83b540f8b77e27f22",
+    "6c2c5eb1e5123807a200702249d76143cc2524aa154e76f68977a1ab371ba16e": "be75c90e4076f29952553fa2a22529c2640db0691cc8237e5078c1d1e2cc25d7",
+    "cnot3-residualized-implementation-v2": "cnot3-operational-exploratory-v2",
+    "root_authorized_prediction": "root_authorized_operational_prediction",
+    "root_verified_prediction_commit": "root_verified_operational_prediction_commit"
+  },
+  "reference_core_byte_unchanged": true
+}

@@ -1,0 +1,205 @@
+--- v1/cohort.py
++++ operational/cohort.py
+@@ -259,7 +259,7 @@
+     groups=defaultdict(set)
+     for r in assignments: groups[r['group_ID']].add((r['outer'],r['inner_fold']))
+     if any(len(v)!=1 for v in groups.values()): raise IntegrityError('Component crosses a partition')
+-    checks={'reproduction_count_5481':eligibility_report['input_reproduction_genes']==5481,
++    checks={'operational_count_5480':eligibility_report['input_reproduction_genes']==5480,
+             'reference_coverage_at_least80pct':eligibility_report['reference_coverage_pass'],
+             'training_genes_at_least2000':len(train)>=2000,'holdout_genes_at_least300':len(holdout)>=300,
+             'training_groups_at_least100':len({r['group_ID'] for r in train})>=100,
+--- v1/pipeline.py
++++ operational/pipeline.py
+@@ -1,4 +1,4 @@
+-"""Guarded future integration. Reads only explicitly hash-authorized JSON/reference inputs."""
++"""Exploratory operational5480 adapter. No claim that frozen v1 reproduction passed."""
+ import sys
+ if not __debug__: raise RuntimeError('Python -O/-OO is refused before input access')
+ sys.dont_write_bytecode=True
+@@ -21,10 +21,11 @@
+                 'features':'8c16aef6e62290b89d79ccf5629c61bd99d0dbb74d90e3d390046966e3d47947',
+                 'metadata':'5f557bbd33810668ee44114c7ace1cc0c0e9f19395f5a203846187361f931497',
+                 'fasta':'d29486ce127cf4ab0f681fdcfa9bcd9fe2cfd18e7331b75257eb12c4cbb385f5'}
+-PRINCIPAL_CHECKS={'count_5481','distinct_stable_ids','positive_finite_paired_half_lives','stored_ratio_arithmetic',
+-                  'positive_finite_SE_IP','STAT_IP_arithmetic','no_top1000_boundary_tie',
+-                  'median_log2_change_top1000_greater_rest','no_negative_SE_among_IP_candidates'}
+-SECONDARY_WARNINGS={'PTMD_overlap_not_available_on_full_IP_cohort','published_PTMD_cutoff_tie_rule_unreported'}
++OPERATIONAL_CHECKS={'count_5480','distinct_stable_ids','positive_finite_paired_half_lives',
++                    'positive_finite_SE_IP','STAT_IP_arithmetic','no_negative_SE_among_IP_candidates',
++                    'no_top1000_boundary_tie','median_log2_change_top1000_greater_rest',
++                    'ten_significant_digit_ratio_compatibility',
++                    'all_49_original_ratio_discrepancy_genes_retained','independent_row_join_verified'}
+ 
+ def sha(path):
+     h=hashlib.sha256()
+@@ -131,27 +132,66 @@
+         payload[kind+'_targets'][gene]=math.log(row['HL_CNOT3KO'])
+     return payload
+ 
++def verify_operational_gate(gate,original_gate,before):
++    """Guard metadata only. Root authenticates the independently audited source gate."""
++    if gate.get('schema')!='CNOT3_operational_source_gate_v2' or gate.get('status')!='operational_cohort_verified':
++        raise c.IntegrityError('Operational source schema/status mismatch')
++    if gate.get('original_frozen_gate_status')!='held_for_source_diagnosis' or gate.get('historical_published_cohort_reproduced') is not False:
++        raise c.IntegrityError('Original reproduction failure must remain explicit')
++    if gate.get('reproduction_gate_passed') is True or gate.get('operational_source_gate_passed') is not True:
++        raise c.IntegrityError('Operational gate cannot claim reproduction passed')
++    if gate.get('unresolved_source_discrepancies')!=['published_cohort_size_mismatch']:
++        raise c.IntegrityError('Unresolved source discrepancies differ')
++    if gate.get('cohort_gene_count')!=5480 or gate.get('cohort_rows_sha256')!=before['rows']:
++        raise c.IntegrityError('Pinned operational cohort count/hash mismatch')
++    if gate.get('prediction_protocol_sha256')!=before['protocol']:
++        raise c.IntegrityError('Operational gate protocol hash mismatch')
++    if gate.get('original_frozen_gate_sha256')!=before['original_gate'] or gate.get('independent_source_audit_sha256')!=before['source_audit']:
++        raise c.IntegrityError('Source evidence byte hashes differ')
++    checks=gate.get('operational_checks')
++    if not isinstance(checks,dict) or set(checks)!=OPERATIONAL_CHECKS or any(v is not True for v in checks.values()):
++        raise c.IntegrityError('Operational check missing/failed/unknown')
++    if original_gate.get('schema')!='CNOT3_principal_reproduction_gate_v1' or original_gate.get('status')!='held_for_source_diagnosis':
++        raise c.IntegrityError('Original gate is not the preserved failed reproduction')
++    if original_gate.get('cohort_rows_sha256')!=before['rows'] or original_gate.get('cohort_gene_count')!=5480:
++        raise c.IntegrityError('Operational rows changed from frozen reproduction')
++    issues=original_gate.get('principal_discrepancies')
++    if not isinstance(issues,list) or any(not isinstance(x,str) for x in issues):
++        raise c.IntegrityError('Original discrepancy list malformed')
++    prefix='stored_HL_ratio_inconsistent:'
++    if [x for x in issues if not x.startswith(prefix)]!=['published_cohort_size_mismatch']:
++        raise c.IntegrityError('Unexpected original principal discrepancy')
++    old_ids=sorted(x[len(prefix):] for x in issues if x.startswith(prefix))
++    retained=gate.get('original_ratio_discrepancy_GeneIDs')
++    cohort=gate.get('cohort_GeneIDs')
++    if not isinstance(cohort,list) or any(not isinstance(x,str) for x in cohort):
++        raise c.IntegrityError('Malformed operational ID list')
++    if len(cohort)!=5480 or len(set(cohort))!=5480 or cohort!=sorted(cohort) or cohort!=original_gate.get('cohort_GeneIDs'):
++        raise c.IntegrityError('Operational IDs differ from preserved source cohort')
++    if any(c.re.fullmatch(r'ENSG[0-9]{11}',x) is None for x in cohort):
++        raise c.IntegrityError('Invalid stable operational GeneID')
++    if len(old_ids)!=49 or len(set(old_ids))!=49 or retained!=old_ids or not set(old_ids).issubset(cohort):
++        raise c.IntegrityError('All49 original ratio-discrepancy rows must be retained')
++
++
+ def execute(paths,authorization_path,output):
+     paths={key:Path(value).resolve() for key,value in paths.items()}; output=Path(output).resolve()
+-    if set(paths)!={'rows','original_ids','features','metadata','fasta','upstream_gate','protocol'}: raise c.IntegrityError('Execution input roles differ')
++    if set(paths)!={'rows','original_ids','features','metadata','fasta','upstream_gate','protocol','original_gate','source_audit'}: raise c.IntegrityError('Execution input roles differ')
+     if output.exists() or any(path==output or output in path.parents for path in paths.values()): raise c.IntegrityError('Output must be fresh and cannot contain inputs')
+     authorization=read_json(authorization_path)
+-    if authorization.get('operation')!='CNOT3_cohort_group_partition_v1' or authorization.get('real_execution_authorized') is not True or authorization.get('reproduction_gate_passed') is not True: raise c.IntegrityError('Explicit root execution authorization/source gate required')
++    if authorization.get('operation')!='CNOT3_operational_cohort_group_partition_v2' or authorization.get('real_execution_authorized') is not True or authorization.get('operational_source_gate_passed') is not True or authorization.get('reproduction_gate_passed') is True: raise c.IntegrityError('Explicit exploratory root authorization/operational gate required')
+     before={key:sha(path) for key,path in paths.items()}
+     codes={'cohort.py':sha(HERE/'cohort.py'),'pipeline.py':sha(Path(__file__))}
+     if authorization.get('input_sha256')!=before or authorization.get('code_sha256')!=codes: raise c.IntegrityError('Authorization input/code hashes differ')
+     if any(before[key]!=value for key,value in REFERENCE_PINS.items()): raise c.IntegrityError('Frozen reference/source inventory changed')
+     gate=read_json(paths['upstream_gate'])
+-    if gate.get('schema')!='CNOT3_principal_reproduction_gate_v1' or gate.get('status')!='passed' or gate.get('cohort_gene_count')!=5481 or gate.get('cohort_rows_sha256')!=before['rows']: raise c.IntegrityError('Hash-pinned upstream reproduction-gate adapter failed')
+-    if not isinstance(gate.get('principal_checks'),dict) or set(gate['principal_checks'])!=PRINCIPAL_CHECKS or any(value is not True for value in gate['principal_checks'].values()): raise c.IntegrityError('Principal reproduction check missing/failed')
+-    if gate.get('principal_discrepancies',[])!=[] or not isinstance(gate.get('secondary_warnings',[]),list) or any(w not in SECONDARY_WARNINGS for w in gate.get('secondary_warnings',[])): raise c.IntegrityError('Unknown/principal upstream discrepancy')
+-    if gate.get('prediction_protocol_sha256')!=before['protocol']: raise c.IntegrityError('Upstream gate refers to another prediction protocol')
++    verify_operational_gate(gate,read_json(paths['original_gate']),before)
+     rows=read_json(paths['rows'])
+     if not isinstance(rows,list): raise c.IntegrityError('Expected normalized reproduction row array')
+     if any(not isinstance(r,dict) or set(r)!=c.ROW_FIELDS or not isinstance(r['GeneID'],str) for r in rows): raise c.IntegrityError('Malformed reproduction row')
+     if any(not c.finite_number(r['SE_IP']) or r['SE_IP']<=0 or not c.finite_number(r['LOG2_FC_IP']) for r in rows): raise c.IntegrityError('Reproduction rows contradict positive-SE/finite-IP source gate')
+     ids=sorted(r['GeneID'] for r in rows)
+-    if len(ids)!=5481 or len(set(ids))!=5481 or gate.get('cohort_GeneIDs')!=ids: raise c.IntegrityError('Upstream principal GeneID universe mismatch')
++    if len(ids)!=5480 or len(set(ids))!=5480 or gate.get('cohort_GeneIDs')!=ids: raise c.IntegrityError('Upstream operational GeneID universe mismatch')
+     import Bio
+     import numpy
+     environment={'implementation':platform.python_implementation(),'python':platform.python_version(),'numpy':numpy.__version__,'Biopython':Bio.__version__}
+@@ -169,8 +209,8 @@
+         features,meta=references(paths['features'],paths['metadata'])
+         eligible,elig_report=c.eligibility(rows,original_ids,features,meta)
+         write_new(output/'eligibility.json',elig_report)
+-        if len(rows)!=5481 or not elig_report['reference_coverage_pass']:
+-            receipt={'status':'insufficient_design_coverage','sourcegate_passed':True,'input_count_5481':len(rows)==5481,
++        if len(rows)!=5480 or not elig_report['reference_coverage_pass']:
++            receipt={'status':'insufficient_design_coverage','operational_source_gate_passed':True,'input_count_5480':len(rows)==5480,
+                      'reference_coverage_pass':elig_report['reference_coverage_pass'],'grouping_run':False,
+                      'model_inputs_written':False,'input_sha256_before':before,'code_sha256':codes}
+         else:
+@@ -190,14 +230,17 @@
+                 write_new(output/'model_inputs/training_targets.json',payload['training_targets'])
+                 write_new(output/'sealed_evaluation/holdout_targets.json',payload['holdout_targets'])
+             receipt={'status':'cohort_group_partition_ready' if guards['status']=='design_coverage_passed' else guards['status'],
+-                     'sourcegate_passed':True,'final_eligible_genes':len(eligible),
++                     'operational_source_gate_passed':True,'final_eligible_genes':len(eligible),
+                      'coverage_denominator':elig_report['original_membership_denominator'],
+                      'grouping_complete':True,'model_inputs_written':guards['status']=='design_coverage_passed',
+                      'input_sha256_before':before,'code_sha256':codes,
+                      'training_API_receives_heldout_targets':False,'upstream_reproduction_saw_all_cohort_outcomes':True}
+         after={key:sha(path) for key,path in paths.items()}
+         if after!=before: raise c.IntegrityError('Inputs changed')
+-        receipt.update({'input_sha256_after':after,'inputs_immutable':True,'output_sha256':{p.relative_to(output).as_posix():sha(p) for p in sorted(output.rglob('*')) if p.is_file()},'fitting_run':False})
++        receipt.update({'analysis_status':'post_exposure_exploratory','historical_published_cohort_reproduced':False,
++                        'original_frozen_gate_status':'held_for_source_diagnosis','operational_source_gate_sha256':before['upstream_gate'],
++                        'original_frozen_gate_sha256':before['original_gate'],'independent_source_audit_sha256':before['source_audit'],
++                        'input_sha256_after':after,'inputs_immutable':True,'output_sha256':{p.relative_to(output).as_posix():sha(p) for p in sorted(output.rglob('*')) if p.is_file()},'fitting_run':False})
+         write_new(output/'receipt.json',receipt)
+         return receipt
+     except BaseException as exc:
+@@ -212,7 +255,7 @@
+ 
+ def main():
+     p=argparse.ArgumentParser()
+-    for name in ('rows','original_ids','features','metadata','fasta','upstream_gate','protocol','authorization','out'): p.add_argument('--'+name.replace('_','-'),required=True)
++    for name in ('rows','original_ids','features','metadata','fasta','upstream_gate','protocol','original_gate','source_audit','authorization','out'): p.add_argument('--'+name.replace('_','-'),required=True)
+     args=vars(p.parse_args()); auth=args.pop('authorization'); out=args.pop('out')
+     receipt=execute(args,auth,out)
+     print(json.dumps({'status':receipt['status']}))
+--- v1/predict.py
++++ operational/predict.py
+@@ -1,4 +1,4 @@
+-"""Fixed draft CNOT3 comparison. Pure synthetic verification precedes authorization.
++"""Post-exposure exploratory CNOT3 operational-cohort comparison.
+ 
+ No workbook reader is provided. Training receives only training targets.
+ The CLI requires explicit hashes and authorization; see README.md.
+@@ -17,7 +17,7 @@
+ 
+ import numpy as np
+ 
+-VERSION = "cnot3-residualized-implementation-v2"
++VERSION = "cnot3-operational-exploratory-v2"
+ LAMBDAS = (0.1, 1.0, 10.0, 100.0, 1000.0)
+ TIE_TOL = 1e-12
+ SENSE_CODONS = tuple("".join(c) for c in itertools.product("ACGT", repeat=3)
+@@ -171,12 +171,17 @@
+                                 inner_training_groups=training_groups))
+     synthetic = receipt.get("status") == "synthetic_only"
+     if not synthetic:
+-        if receipt.get("status") != "root_authorized_prediction":
++        if receipt.get("status") != "root_authorized_operational_prediction":
+             raise ValueError("No root authorization for observed training")
+-        for field in ("reproduction_gate_passed", "reference_eligibility_passed", "grouping_complete"):
++        if receipt.get("analysis_status") != "post_exposure_exploratory" or receipt.get("historical_published_cohort_reproduced") is not False or receipt.get("original_frozen_gate_status") != "held_for_source_diagnosis" or receipt.get("reproduction_gate_passed") is True:
++            raise ValueError("Exploratory status and failed original reproduction must remain explicit")
++        for field in ("operational_source_gate_sha256", "original_frozen_gate_sha256", "independent_source_audit_sha256"):
++            if not re.fullmatch(r"[0-9a-f]{64}", str(receipt.get(field, ""))):
++                raise ValueError("Missing hashed operational source evidence: " + field)
++        for field in ("operational_source_gate_passed", "reference_eligibility_passed", "grouping_complete"):
+             if receipt.get(field) is not True:
+                 raise ValueError(f"Required prefit gate is not passed: {field}")
+-        denominator = receipt.get("figure2_slam_overlap_count")
++        denominator = receipt.get("operational_slam_overlap_count")
+         if not isinstance(denominator, int) or denominator < len(train) + len(holdout):
+             raise ValueError("Invalid reference-coverage denominator")
+         coverage = (len(train) + len(holdout)) / denominator
+@@ -591,7 +596,7 @@
+     paths = dict(training_features=args.training_features, training_targets=args.training_targets,
+                  holdout_features=args.holdout_features, design_receipt=args.design_receipt,
+                  protocol=args.protocol)
+-    freeze = verify_input_freeze(paths, args.freeze, ("synthetic_only", "root_authorized_prediction"))
++    freeze = verify_input_freeze(paths, args.freeze, ("synthetic_only", "root_authorized_operational_prediction"))
+     receipt = read_json(args.design_receipt)
+     if receipt.get("status") != freeze["status"]:
+         raise ValueError("Design and freeze status mismatch")
+@@ -626,7 +631,7 @@
+     if synthetic:
+         if commit.get("status") != "synthetic_only":
+             raise ValueError("Synthetic evaluation requires synthetic receipt")
+-    elif (commit.get("status") != "root_verified_prediction_commit" or
++    elif (commit.get("status") != "root_verified_operational_prediction_commit" or
+           not re.fullmatch(r"[0-9a-f]{40}", str(commit.get("commit", ""))) or
+           commit.get("verified") is not True):
+         raise ValueError("Root must verify exact prediction commit before evaluation")

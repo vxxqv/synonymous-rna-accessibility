@@ -1,0 +1,39 @@
+# Exploratory CNOT3 comparison on the verified deposited cohort
+
+## Status and reason for this successor
+
+This is a post-exposure exploratory successor, not a successful rerun of the frozen version 1 test. The original scientific protocol, SHA256 `0d9c20e8cf5438c08a4a688a84f70197ae1c9acf78bda7106b80382dc5388011`, and its failed source gate remain immutable. Version 1 prediction was not executed. This amendment must be committed with its exact implementation and input hashes before the operational cohort is grouped or any prediction model is fitted.
+
+The frozen reconstruction found 5,480 eligible genes, rather than the published 5,481. Independent raw worksheet parsing confirms every operational cohort identifier and exclusion. It does not recover the missing historical identifier or authenticate the original read filter. No gene is added, removed or selected to make the reported denominator match. The new target population is explicitly the 5,480 enumerated deposited rows, subject to the already fixed original-ID and reference eligibility rules.
+
+Forty-nine stored log2 half-life ratios fail the original arithmetic tolerance. The largest difference across all 5,480 rows is approximately 1.23e-9 log2 units. A post-exposure numerical diagnostic tested rounding the two half-lives to 8, 9 and 10 significant digits. All 5,480 stored ratios match the 10-digit calculation within 5.3e-15. Independent Decimal arithmetic confirms this compatibility. The source cells use the General number format; this numerical identity is not evidence that the authors documented or necessarily used that generating procedure. The original failed check is preserved.
+
+## Exact changes to the prerequisite
+
+The published-cohort reproduction gate is replaced, for this successor only, by an operational-source gate. Its status is `operational_cohort_verified`; it must also record `historical_published_cohort_reproduced=false` and the original status `held_for_source_diagnosis`. It requires the same 5,480 identifiers and normalized source-row hash independently checked from the archived workbook. It retains the unresolved discrepancy `published_cohort_size_mismatch` explicitly. It must never claim that the original reproduction passed.
+
+Required operational checks are: exactly 5,480 distinct valid stable identifiers; positive finite paired half-lives; finite enrichment with positive finite enrichment SE; agreement of the archived enrichment statistic with enrichment divided by its SE under the original tolerance; no negative SE among the original finite-IP candidates; agreement of all stored half-life ratios with the explicitly stated 10-significant-digit diagnostic at absolute tolerance 2e-13; retention of all 49 original arithmetic-discrepancy rows; and an independently verified row/field join. The original no-tie check at the top 1,000 boundary and positive high-versus-remainder median log2 change check are also retained. They already passed on the operational cohort and are historical reproduction checks, not evidence for the incremental prediction hypothesis. The 2e-13 diagnostic tolerance is selected after observing source precision and is not a preregistered test. It cannot be used to label the original gate successful.
+
+No outcome value is corrected. In particular, the prediction response is still natural log of the deposited depletion half-life, and the baseline predictor uses the deposited control half-life. The stored ratio column is not an input to any prediction model. All 49 rows remain eligible before the unchanged reference rules. Their later inclusion or exclusion must follow those rules, never their numerical discrepancy.
+
+## Scientific rules inherited without change
+
+The full version 1 protocol above is part of this specification. Apart from the operational-source prerequisite and explicit exploratory interpretation, every scientific rule is unchanged: endpoint; reference release and representative selection; original-ID intersection; exclusions; UTR handling; coverage and sample/group thresholds; exact related-protein grouping; all four resource caps; hash salts and partitions; six primary algorithms; training-only preprocessing; ridge objective and penalty grid; enrichment residualization; the two sensitivities; the 5% criterion against every baseline; all metrics; influence calculations; and the dimensionless kinetic summaries.
+
+The salt remains `cnot3-focus-v1`, including its original outer and inner suffixes. A version label must not change the split. Every model and sensitivity is retained regardless of performance. If grouping, coverage, integrity or verification fails, this successor stops with the specific failure. There is no alternative cohort, split, penalty grid, endpoint, model or second successor after its results.
+
+The new phase guards use `operational_source_gate_passed`, not `reproduction_gate_passed`. Changes to labels and adapters must be independently checked, with numerical function bodies compared to the reviewed original. Source and input byte hashes, exact runtime, synthetic guard checks and independent numerical verification remain required. The independently implemented verifier may receive explicit updated hash pins for this successor only after its changed guards and unchanged calculations are reviewed; the original verifier is preserved.
+
+## Exposure, claims and uncertainty
+
+The published summaries, reconstructed aggregate comparison and source precision diagnostics have been examined. Source reproduction decoded outcomes across the operational cohort. Models, error comparisons, cohort grouping and split assignments have not been computed at this amendment. Committing predictions before evaluation prevents later tuning on their errors, but cannot restore untouched-outcome validation. Report the result as post-exposure exploratory, model-held-out prediction of deposited point estimates within this study.
+
+A passing numerical performance criterion would concern only the named algorithms and operational population. It would not establish a true molecular decay rate, a causal CNOT3 contribution, independent experimental transfer, expressed-isoform adjustment, or a folding mechanism. A failed criterion would be failure of this predictor under these measurements and rules, not evidence that CNOT3 has no biological function. A coverage/resource failure leaves the predictive hypothesis untested.
+
+Half-life uncertainty, fit quality, censoring, aggregation, growth correction and biological preparation identity remain unresolved. Enrichment SE is not half-life uncertainty. No biological confidence interval or significance claim is supplied. The reported component deletion range describes finite-cohort influence only. The kinetic identified sets remain conditional on explicit externally justified nuisance bounds; none are estimated from this dataset to manufacture a pathway contribution.
+
+The historical one-gene discrepancy is not assumed harmless for all statistics: without a bound on an omitted observation, a mean can change arbitrarily. The successor therefore conditions on its enumerated population rather than extrapolating to the unrecovered published population or all expressed genes.
+
+## Single execution and reporting
+
+Freeze this amendment, the original protocol, the independent source diagnosis, operational row manifest and exact adapted code. Run the unchanged bounded grouping and design gates once. Only a complete passing design may authorize model fitting. Commit all nine prediction vectors before evaluating held-out errors. Independently recompute predictions and reported scores. Preserve failures, differences and all source exposures. End this cycle with one interpretable decision and manuscript additions warranted by that decision; no broad biological expansion follows automatically.

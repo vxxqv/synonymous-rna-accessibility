@@ -1,0 +1,11 @@
+{
+  "status": "proposal_only_no_edits_or_execution",
+  "read_only_source_sha256": {
+    "outputs\\synonymous-rna-accessibility\\analysis\\programme\\retrospective\\cnot3_v1\\principal_gate.py": "e394ecfa64c110f756e1cc76f9a8099a8332e06eace326b4af80206375396b98",
+    "outputs\\synonymous-rna-accessibility\\analysis\\programme\\retrospective\\cnot3_v1\\cohort\\pipeline.py": "55eafcd00c3ea0a4da7fbb732b740272dd08be0bde5c7e76490f8050ec1bafb8",
+    "outputs\\synonymous-rna-accessibility\\analysis\\programme\\retrospective\\cnot3_v1\\cohort\\cohort.py": "d86c257b6f0b79bf35b1cf7bbc0a8b0fbe0e9b891cc32c579a4da4f51ab60c50",
+    "outputs\\synonymous-rna-accessibility\\analysis\\programme\\retrospective\\cnot3_v1\\prediction\\predict.py": "6c2c5eb1e5123807a200702249d76143cc2524aa154e76f68977a1ab371ba16e"
+  },
+  "proposal_sha256": "d7f918844a9d2c8e3f1930eae01dfd0198d5a68513f82927483443d5f310c4c3",
+  "independent_rounding_audit_status": "pending; numerical summary supplied by root, not independently recalculated in this lane"
+}

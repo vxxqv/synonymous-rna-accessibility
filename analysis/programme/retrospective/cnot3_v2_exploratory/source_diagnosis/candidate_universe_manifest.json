@@ -1,0 +1,21 @@
+{
+  "status": "full_operational_candidate_membership_verified",
+  "previous_manifest_sha256": "84692286575845ec2c3edb2388ab3bb4d070747a2230ec3b3bca082205ffe0bc",
+  "previous_sealed_evidence_preserved": true,
+  "added_files_sha256": {
+    "check_candidate_universe.py": "21f02e6e2fce5e4a6ca39e2ff1dafb58a3a20e2f70de1d449f4bdab2af0f576a",
+    "candidate_universe_check.json": "8e2788e581f5729af27b1ca0bcc473b3233792dee82a9608f75a94bfc49667b5",
+    "candidate_universe_addendum.md": "2cb343eb9b74b70984da6aa4b5f61b9ed2fc7c996343a7eadea296dbb356507a",
+    "seal_candidate_check.py": "1d23545e3de3af678338676e35a589b2257a7b5dfb58bb1b0e69df3720b9aa06"
+  },
+  "scientific_result": {
+    "finite_IP_candidates": 7359,
+    "noncandidate_rows": 15489,
+    "candidate_sets_equal": true,
+    "operational_paired_cohort": 5480,
+    "publication_count5481_still_unresolved": true
+  },
+  "failed_gate_modified": false,
+  "scientific_protocol_modified": false,
+  "modeling_or_grouping_run": false
+}

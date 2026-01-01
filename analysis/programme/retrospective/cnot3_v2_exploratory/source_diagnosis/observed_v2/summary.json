@@ -1,0 +1,78 @@
+{
+  "status": "independent_source_diagnosis_complete",
+  "frozen_commit": "cc9cb18954026b9fe6199afe9820920823aaa767",
+  "independent_parser": "SAX selected-cell collector; Decimal80digit ratio arithmetic; no author functions imported",
+  "scope": "Frozen7359finite-IP candidate rows only, columnsA-D/I-K; no F/G or other endpoints decoded",
+  "candidate_universe_provenance": "Frozen exposure stage2 row selector; no independent candidate search outside already exposed rows",
+  "finite_IP_candidates_verified": 7359,
+  "paired_cohort_independent": 5480,
+  "published_cohort_n": 5481,
+  "cohort_ID_set_matches_frozen": true,
+  "candidate_exclusion_count": 1879,
+  "exclusion_reason_counts": {
+    "missing_or_nonfinite_HL_WT": 1879,
+    "missing_or_nonfinite_HL_CNOT3KO": 1879,
+    "missing_or_nonfinite_HL_FC_LOG2": 1879
+  },
+  "cohort_ratio_failures": 49,
+  "failed_ID_set_matches_frozen": true,
+  "max_absolute_raw_ratio_error": "1.22955780849713390632087697731180949938350388268796929966654710679950123E-9",
+  "minimum_failed_absolute_error": "1.320991054495693130270122139989903987321990077840200240791613555310100246E-10",
+  "maximum_failure_over_frozen_tolerance": "4.4354859080042924497063989075497320041037325582415984729553056300025900479828533",
+  "raw_last_decimal_rounding_compatible_failures": 0,
+  "display_rounding_compatible_failures": 0,
+  "display_rounding_bounds_available_failures": 0,
+  "maximum_native_author_vs_Decimal_computed_ratio_difference": "8.917468453744787351831188411E-16",
+  "observed_number_formats": [
+    {
+      "column": "B",
+      "format": "General",
+      "count": 5480
+    },
+    {
+      "column": "C",
+      "format": "General",
+      "count": 5480
+    },
+    {
+      "column": "D",
+      "format": "General",
+      "count": 5480
+    }
+  ],
+  "10sig_diagnostic": "Explicit post-exposure source hypothesis supplied by root; not a new gate or replacement endpoint",
+  "10sig_ROUND_HALF_EVEN_agreement_tolerance": "2e-13",
+  "10sig_all_cohort_rows_within_tolerance": 5480,
+  "10sig_max_absolute_error_80digit": "5.2863356959641946370514700524672442116243589164249674677081126521E-15",
+  "10sig_generation_procedure_proven": false,
+  "IP_statistic_failures_in_authorized_candidates": [],
+  "published_missing_gene_identified": false,
+  "exported_raw_numeric_values_match_frozen": true,
+  "input_sha256_before": {
+    "workbook": "a338e7211fcb0ad6bed0b1bfdb57433a5a43266f3a8d93e473b1bf50c583d712",
+    "exposure": "b8bae6cc9e71f7740f54a304b6182c108fa2e69d6fc577660e2522ec86490159",
+    "cohort": "cfd4cededb5be6719795fa88262793ca580eb267649127cdf9cf300f75d9df1e",
+    "result": "67fa85f42354c8f6413b167d38a55ca3630f7ea12d3b2dad6658b302bb3f2376"
+  },
+  "input_sha256_after": {
+    "workbook": "a338e7211fcb0ad6bed0b1bfdb57433a5a43266f3a8d93e473b1bf50c583d712",
+    "exposure": "b8bae6cc9e71f7740f54a304b6182c108fa2e69d6fc577660e2522ec86490159",
+    "cohort": "cfd4cededb5be6719795fa88262793ca580eb267649127cdf9cf300f75d9df1e",
+    "result": "67fa85f42354c8f6413b167d38a55ca3630f7ea12d3b2dad6658b302bb3f2376"
+  },
+  "decoded_cells": 45883,
+  "decoded_columns": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "I",
+    "J",
+    "K"
+  ],
+  "decoded_data_rows": 7359,
+  "protected_or_new_endpoint_columns_decoded": [],
+  "code_sha256": "fa3dfe63521b26fc23a3c8850ab2b5e2d5f99be47a23a6d030a3ce3858256be0",
+  "scientific_protocol_or_failed_gate_modified": false,
+  "new_models_or_grouping": false
+}

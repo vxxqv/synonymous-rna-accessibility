@@ -1,0 +1,73 @@
+{
+  "status": "reviewed_go_for_one_exploratory_successor_pending_root_freeze_and_authorization",
+  "actual_modeling_or_outcome_verification": false,
+  "protocol_sha256": "219dda125d7a8167b2a45fa67499ac4dc24118e6edcbdee83b540f8b77e27f22",
+  "review_sha256": "1a7a533749d12c727f0636f63019af48383cc812beff3d49fd18fcf39f3df476",
+  "implementation_sha256": {
+    "cohort.py": "37594c10195daba68fb492d9476e5ce68f86da04eb1e3def49329cbaa04fcbc8",
+    "pipeline.py": "5674bb2c9f7f07b47ac4146dbf9717be2701c98849b31fc39fc7762ab4fd07f6",
+    "predict.py": "be75c90e4076f29952553fa2a22529c2640db0691cc8237e5078c1d1e2cc25d7"
+  },
+  "evidence_sha256": {
+    "independent_ast.json": "6063a3916b9979a70b309207fe4b2d7063d28a1bc002ec8cfd2eeaab07089a8b",
+    "independent_diff.txt": "f629c062e1600d0561c94b029c0d73090609152173b52b4a2b604d0bb7087c57",
+    "guard_reference.json": "2d97d56f808ae791d2b175c918a13d4cc1eb01e979bd0ed872da06ca1ee44ef6"
+  },
+  "verifier_files": [
+    {
+      "path": "verify.py",
+      "sha256": "896f580c33b8f24e3f44180501c51fd141c2b379b1d6f0631aecf5a75558c246",
+      "bytes": 21714
+    },
+    {
+      "path": "reference_core.py",
+      "sha256": "a5255167a8182d36e107db804d42b87a488e3dc22361cc75c57772a7729c8786",
+      "bytes": 5192
+    },
+    {
+      "path": "make_synthetic_fixture.py",
+      "sha256": "a7e5e99e483ee9b5ce36ba09159dcafd7aeb4e2f3c5d95ed6c67e4dea5f382d7",
+      "bytes": 4534
+    },
+    {
+      "path": "test_refusals.py",
+      "sha256": "12a2a4c5c9970a7e694719fc854d1236f4757e98d2f087771af37dd4d0247ade",
+      "bytes": 4298
+    },
+    {
+      "path": "requirements.txt",
+      "sha256": "31726c4fbe82e8de1957cb103228f939cb11a2c35a301ea6a0bbe96a6964978b",
+      "bytes": 29
+    },
+    {
+      "path": "README.md",
+      "sha256": "1b0c389061abafa2fe863a6fd84869b74b4e34cb43ddb6ecc279a9893abb402d",
+      "bytes": 4103
+    },
+    {
+      "path": "adaptation_manifest.json",
+      "sha256": "28bc99b0bf35f4b895360c3a6a6ddb1501b0e1906a00664fd86e902272f80fa5",
+      "bytes": 1173
+    },
+    {
+      "path": "explicit_verifier_changes.diff",
+      "sha256": "4c472e10e21cc9b66d29d009264c1b1d65eb927371a9ed294b4370197fbe4398",
+      "bytes": 2955
+    },
+    {
+      "path": "cross_version_numeric_identity.json",
+      "sha256": "8e3fc2961811ff5f5279409b36e72250abbb98278aecfacb9f15c5672ca541d9",
+      "bytes": 513
+    },
+    {
+      "path": "synthetic_v1/independent_verification/verification.json",
+      "sha256": "d25afd8cf4a772a804c6566cfad6a1dc1a353a17d9007a9bfc06323c861920bb",
+      "bytes": 1908
+    },
+    {
+      "path": "refusal_receipts/receipt.json",
+      "sha256": "969892d5fefbf75b6e8c130cf21949d2d8a15e7482da1a542441ab12557cc7d8",
+      "bytes": 4454
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+--- original_verifier
++++ operational_copy
+@@ -18,14 +18,14 @@
+ import numpy as np
+ 
+ HERE = Path(__file__).resolve().parent
+-PROTOCOL_SHA = "433edbb800b6a26de793c92592b0efe15fb4de93b879a1f4495a3c011f4c20b4"
+-AUTHOR_SHA = "6c2c5eb1e5123807a200702249d76143cc2524aa154e76f68977a1ab371ba16e"
++PROTOCOL_SHA = "219dda125d7a8167b2a45fa67499ac4dc24118e6edcbdee83b540f8b77e27f22"
++AUTHOR_SHA = "be75c90e4076f29952553fa2a22529c2640db0691cc8237e5078c1d1e2cc25d7"
+ CORE_SHA = "a5255167a8182d36e107db804d42b87a488e3dc22361cc75c57772a7729c8786"
+ PRED_ATOL = 1e-9
+ PRED_RTOL = 1e-10
+ SCORE_ATOL = 1e-12
+ SCORE_RTOL = 1e-10
+-VERSION = "cnot3-residualized-implementation-v2"
++VERSION = "cnot3-operational-exploratory-v2"
+ 
+ 
+ def sha(path):
+@@ -297,7 +297,7 @@
+         if set(targets)!={r["GeneID"] for r in train}:raise ValueError("Training target membership mismatch")
+         if status=="synthetic_only":
+             if artifact.get("status")!="synthetic_only" or any(not r["GeneID"].startswith("SYN") for r in train+test):raise ValueError("Synthetic authorization cannot decode biological fixtures")
+-        elif artifact.get("status")!="root_authorized_prediction":raise ValueError("Actual prediction authorization mismatch")
++        elif artifact.get("status")!="root_authorized_operational_prediction":raise ValueError("Actual prediction authorization mismatch")
+         checks.exact("design_artifact",artifact["design"]["source_receipt"],design)
+         if {r["GeneID"] for r in train}&{r["GeneID"] for r in test} or {r["group_ID"] for r in train}&{r["group_ID"] for r in test}:raise ValueError("Train/holdout overlap")
+         if any(core.fold(r["group_ID"],"outer")==0 for r in train) or any(core.fold(r["group_ID"],"outer")!=0 for r in test):raise ValueError("Frozen outer partition differs")
+@@ -310,7 +310,7 @@
+         if scoring:
+             commit=load(args.commit_receipt)
+             if commit.get("predictions_sha256")!=before["predictions"] or commit.get("holdout_targets_sha256")!=before["holdout_targets"]:raise ValueError("Commit receipt file mismatch")
+-            if status!="synthetic_only" and (commit.get("status")!="root_verified_prediction_commit" or commit.get("verified") is not True or not re.fullmatch("[0-9a-f]{40}",str(commit.get("commit","")))):raise ValueError("Root-verified prediction commit required")
++            if status!="synthetic_only" and (commit.get("status")!="root_verified_operational_prediction_commit" or commit.get("verified") is not True or not re.fullmatch("[0-9a-f]{40}",str(commit.get("commit","")))):raise ValueError("Root-verified prediction commit required")
+             evaluation=load(args.evaluation)
+             for k,role in [("predictions_sha256","predictions"),("holdout_targets_sha256","holdout_targets"),("commit_receipt_sha256","commit_receipt")]:
+                 checks.exact("evaluation_provenance_"+k,evaluation["provenance"][k],before[role])

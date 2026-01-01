@@ -1,0 +1,84 @@
+{
+  "cohort.py": {
+    "original_sha256": "d86c257b6f0b79bf35b1cf7bbc0a8b0fbe0e9b891cc32c579a4da4f51ab60c50",
+    "candidate_sha256": "37594c10195daba68fb492d9476e5ce68f86da04eb1e3def49329cbaa04fcbc8",
+    "unchanged_functions": [
+      "stable_original",
+      "source_membership",
+      "finite_number",
+      "require_reference_schema",
+      "reference_reasons",
+      "eligibility",
+      "protein_digest",
+      "exact_distance",
+      "group_proteins",
+      "assign_partitions"
+    ],
+    "changed_functions": [
+      "design_guards"
+    ],
+    "new_functions": [],
+    "removed_functions": []
+  },
+  "pipeline.py": {
+    "original_sha256": "55eafcd00c3ea0a4da7fbb732b740272dd08be0bde5c7e76490f8050ec1bafb8",
+    "candidate_sha256": "5674bb2c9f7f07b47ac4146dbf9717be2701c98849b31fc39fc7762ab4fd07f6",
+    "unchanged_functions": [
+      "sha",
+      "loads",
+      "read_json",
+      "write_new",
+      "references",
+      "selected_proteins",
+      "split_payloads"
+    ],
+    "changed_functions": [
+      "execute",
+      "main"
+    ],
+    "new_functions": [
+      "verify_operational_gate"
+    ],
+    "removed_functions": []
+  },
+  "predict.py": {
+    "original_sha256": "6c2c5eb1e5123807a200702249d76143cc2524aa154e76f68977a1ab371ba16e",
+    "candidate_sha256": "be75c90e4076f29952553fa2a22529c2640db0691cc8237e5078c1d1e2cc25d7",
+    "unchanged_functions": [
+      "sha256",
+      "object_sha",
+      "read_json",
+      "write_json",
+      "group_fold",
+      "finite",
+      "validate_features",
+      "ordered_targets",
+      "learn_transform",
+      "base_matrix",
+      "association_basis",
+      "design_matrix",
+      "ridge_prepare",
+      "ridge_parameters",
+      "ridge_predict",
+      "choose_lambda",
+      "fit_ridge_model",
+      "predict",
+      "average_ranks",
+      "spearman",
+      "metrics",
+      "relative_gain",
+      "comparisons",
+      "kinetic_summary",
+      "evaluate",
+      "verify_input_freeze",
+      "main"
+    ],
+    "changed_functions": [
+      "check_design",
+      "run_predict",
+      "run_evaluate"
+    ],
+    "new_functions": [],
+    "removed_functions": []
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "source_pins": {
+    "pipeline.py": "5674bb2c9f7f07b47ac4146dbf9717be2701c98849b31fc39fc7762ab4fd07f6",
+    "predict.py": "be75c90e4076f29952553fa2a22529c2640db0691cc8237e5078c1d1e2cc25d7"
+  },
+  "tests_passed": 32,
+  "tests": [
+    {
+      "case": "exact_operational_guard",
+      "passed": true
+    },
+    {
+      "case": "historical_published_cohort_reproduced",
+      "passed": true
+    },
+    {
+      "case": "reproduction_gate_passed",
+      "passed": true
+    },
+    {
+      "case": "original_frozen_gate_status",
+      "passed": true
+    },
+    {
+      "case": "cohort_gene_count",
+      "passed": true
+    },
+    {
+      "case": "cohort_rows_sha256",
+      "passed": true
+    },
+    {
+      "case": "independent_source_audit_sha256",
+      "passed": true
+    },
+    {
+      "case": "unresolved_source_discrepancies",
+      "passed": true
+    },
+    {
+      "case": "original_ratio_discrepancy_GeneIDs",
+      "passed": true
+    },
+    {
+      "case": "failed_check_count_5480",
+      "passed": true
+    },
+    {
+      "case": "failed_check_distinct_stable_ids",
+      "passed": true
+    },
+    {
+      "case": "failed_check_positive_finite_paired_half_lives",
+      "passed": true
+    },
+    {
+      "case": "failed_check_positive_finite_SE_IP",
+      "passed": true
+    },
+    {
+      "case": "failed_check_STAT_IP_arithmetic",
+      "passed": true
+    },
+    {
+      "case": "failed_check_no_negative_SE_among_IP_candidates",
+      "passed": true
+    },
+    {
+      "case": "failed_check_no_top1000_boundary_tie",
+      "passed": true
+    },
+    {
+      "case": "failed_check_median_log2_change_top1000_greater_rest",
+      "passed": true
+    },
+    {
+      "case": "failed_check_ten_significant_digit_ratio_compatibility",
+      "passed": true
+    },
+    {
+      "case": "failed_check_all_49_original_ratio_discrepancy_genes_retained",
+      "passed": true
+    },
+    {
+      "case": "failed_check_independent_row_join_verified",
+      "passed": true
+    },
+    {
+      "case": "unknown_check",
+      "passed": true
+    },
+    {
+      "case": "original_reclassified_pass",
+      "passed": true
+    },
+    {
+      "case": "unexpected_old_failure",
+      "passed": true
+    },
+    {
+      "case": "changed_original_rows",
+      "passed": true
+    },
+    {
+      "case": "operational_prediction_design_only",
+      "passed": true
+    },
+    {
+      "case": "prediction_design_refuses_status",
+      "passed": true
+    },
+    {
+      "case": "prediction_design_refuses_analysis_status",
+      "passed": true
+    },
+    {
+      "case": "prediction_design_refuses_historical_published_cohort_reproduced",
+      "passed": true
+    },
+    {
+      "case": "prediction_design_refuses_original_frozen_gate_status",
+      "passed": true
+    },
+    {
+      "case": "prediction_design_refuses_reproduction_gate_passed",
+      "passed": true
+    },
+    {
+      "case": "prediction_design_refuses_operational_source_gate_passed",
+      "passed": true
+    },
+    {
+      "case": "prediction_design_refuses_operational_source_gate_sha256",
+      "passed": true
+    }
+  ],
+  "actual_modeling": false,
+  "source_outcome_reads": false
+}

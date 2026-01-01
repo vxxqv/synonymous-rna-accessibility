@@ -1,0 +1,17 @@
+{
+  "status": "root_consolidated_independent_operational_source_audit",
+  "diagnosis": {
+    "path": "analysis/programme/retrospective/cnot3_v2_exploratory/source_diagnosis/observed_v2/summary.json",
+    "sha256": "b4279c33b1f425229a3267ac92b21d9589cc65904b93be69db0846125dbcc635"
+  },
+  "universe": {
+    "path": "analysis/programme/retrospective/cnot3_v2_exploratory/source_diagnosis/candidate_universe_check.json",
+    "sha256": "8e2788e581f5729af27b1ca0bcc473b3233792dee82a9608f75a94bfc49667b5"
+  },
+  "operational_population": 5480,
+  "all_source_rows_checked_for_IP_eligibility": 22848,
+  "all_finite_IP_candidates_checked_for_paired_half_lives": 7359,
+  "historical_published_cohort_reproduced": false,
+  "rounding_generation_procedure_proven": false,
+  "interpretation": "Authenticated deposited operational population only. Source precision compatibility is a post-exposure diagnostic. Original source rules and the extra reported gene remain unresolved."
+}

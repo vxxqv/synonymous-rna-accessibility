@@ -1,0 +1,21 @@
+{
+  "operation": "CNOT3_operational_cohort_group_partition_v2",
+  "real_execution_authorized": true,
+  "operational_source_gate_passed": true,
+  "analysis_status": "post_exposure_exploratory",
+  "input_sha256": {
+    "rows": "cfd4cededb5be6719795fa88262793ca580eb267649127cdf9cf300f75d9df1e",
+    "original_ids": "fac8da906ac3f2aac8c9b8ef228abdc210dc471df2cc92fb4833ce3668772e34",
+    "features": "8c16aef6e62290b89d79ccf5629c61bd99d0dbb74d90e3d390046966e3d47947",
+    "metadata": "5f557bbd33810668ee44114c7ace1cc0c0e9f19395f5a203846187361f931497",
+    "fasta": "d29486ce127cf4ab0f681fdcfa9bcd9fe2cfd18e7331b75257eb12c4cbb385f5",
+    "upstream_gate": "eb16a903e302c52419085d30657292dce547401f440d5d2a2efe6283aa104776",
+    "protocol": "219dda125d7a8167b2a45fa67499ac4dc24118e6edcbdee83b540f8b77e27f22",
+    "original_gate": "6fe0dece44c1be71a6b943a05f7cb6e0d942351c9faf8d5e1504f246f1fb978e",
+    "source_audit": "6084362d076499833ab9c4134ff13872f9f80d7147437e85a6e71735637da96e"
+  },
+  "code_sha256": {
+    "cohort.py": "37594c10195daba68fb492d9476e5ce68f86da04eb1e3def49329cbaa04fcbc8",
+    "pipeline.py": "5674bb2c9f7f07b47ac4146dbf9717be2701c98849b31fc39fc7762ab4fd07f6"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "all_model_fit_tuning_OOF_holdout_payloads_exactly_equal": true,
+  "evaluation_payloads_exactly_equal": {
+    "metrics": true,
+    "primary_comparisons": true,
+    "sensitivities": true,
+    "baseline_strata": true,
+    "rows": true,
+    "component_deletions": true,
+    "influence": true,
+    "kinetic": true,
+    "primary_success": true
+  },
+  "source_functions_AST_unchanged_verified_separately": true,
+  "scope": "Identical320-row synthetic fixture, no actual source/phase output input"
+}

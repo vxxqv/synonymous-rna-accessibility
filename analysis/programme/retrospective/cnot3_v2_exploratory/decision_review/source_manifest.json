@@ -1,0 +1,20 @@
+{
+  "status": "read_only_decision_review_complete",
+  "sources": {
+    "outputs/synonymous-rna-accessibility/analysis/programme/retrospective/cnot3_v1/protocol.md": "0d9c20e8cf5438c08a4a688a84f70197ae1c9acf78bda7106b80382dc5388011",
+    "work/decay_cycle4/execution/principal_gate.json": "6fe0dece44c1be71a6b943a05f7cb6e0d942351c9faf8d5e1504f246f1fb978e",
+    "work/decay_cycle4/execution/reproduction_v1/result.json": "67fa85f42354c8f6413b167d38a55ca3630f7ea12d3b2dad6658b302bb3f2376",
+    "work/decay_cycle4/prior_review/measurement_and_claim_audit.md": "01fbec1f3d78f48fa095705d79c36d0ab7922c07002991586cd8b6d673f5ea71",
+    "work/decay_cycle4/prior_review/closest_prior_one_page.md": "37886f1f1412cf2906c9c5e13c81ac170f13699e74807fa45c7b4c8c3deb4644",
+    "work/decay_cycle4/data_eligibility/report.md": "3c1aebc4051a3154eabf3f655ea2b9cdc11b5ff5e661ae5b7d1a84b5d3e7dc96",
+    "work/decay_cycle4/data_eligibility/figure_unit_check/review.md": "35b452fc73e8472c83d036840f4db97f9f67743193729a7521a1eb0a967a7362"
+  },
+  "memo_sha256": "2eb15219cb5101b2638ae0a6e321090246916e2400959065e3c19d33e939834a",
+  "new_model_fits": 0,
+  "new_grouping": 0,
+  "new_source_data_analysis": 0,
+  "provided_not_recalculated": {
+    "maximum_absolute_log2_ratio_error": 1.2296e-09
+  },
+  "verdict": "Frozen v1 remains failed/unexecuted. One explicitly exposed exploratory successor is conditionally defensible after source integrity audit, with the narrower operational-cohort estimand and unchanged algorithms."
+}

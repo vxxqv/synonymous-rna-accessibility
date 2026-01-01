@@ -1,0 +1,48 @@
+{
+  "status": "independent_full_operational_candidate_universe_verified",
+  "source_data_rows": 22848,
+  "candidate_rows": 7359,
+  "excluded_rows": 15489,
+  "candidate_row_set_exactly_matches_frozen": true,
+  "candidate_gene_ID_count": 7359,
+  "candidate_row_set_sha256": "61390373ed1885aa1149234075ea68aabcf1450c552ee021fd85e990aafe4443",
+  "candidate_gene_ID_set_sha256": "5c5ba03cbb30e32de45428167335eb54c4085d1218f4dde92ec55795b0610d3b",
+  "missing_or_nonfinite_patterns": {
+    "I,J,K": 15489
+  },
+  "exclusion_reason_counts": {
+    "missing_or_nonfinite_LOG2_FC_IP": 15489,
+    "missing_or_nonfinite_SE_IP": 15489,
+    "missing_or_nonfinite_STAT_IP": 15489
+  },
+  "all_IDs_match_original_gene_only_extraction": true,
+  "decimal_vs_float_finite_classification_differences": [],
+  "full_operational_cohort_n_authenticated_by_prior_HL_audit": 5480,
+  "newly_decoded_columns": [
+    "A",
+    "I",
+    "J",
+    "K"
+  ],
+  "B_C_D_outside_frozen_candidates_decoded": false,
+  "F_G_or_other_columns_decoded": false,
+  "new_biological_outcomes_exposed_beyond_original_reproduction_stage1": false,
+  "method": "Hash-pinned independently authored SAX parser; membership decided over all22848 rows before frozen-selector comparison",
+  "input_sha256_before": {
+    "workbook": "a338e7211fcb0ad6bed0b1bfdb57433a5a43266f3a8d93e473b1bf50c583d712",
+    "inventory": "85fb60552f3c12477d28dbeeafbd171d52828ecb66e30591cefa60f77f482c52",
+    "exposure": "b8bae6cc9e71f7740f54a304b6182c108fa2e69d6fc577660e2522ec86490159",
+    "helper": "fa3dfe63521b26fc23a3c8850ab2b5e2d5f99be47a23a6d030a3ce3858256be0"
+  },
+  "input_sha256_after": {
+    "workbook": "a338e7211fcb0ad6bed0b1bfdb57433a5a43266f3a8d93e473b1bf50c583d712",
+    "inventory": "85fb60552f3c12477d28dbeeafbd171d52828ecb66e30591cefa60f77f482c52",
+    "exposure": "b8bae6cc9e71f7740f54a304b6182c108fa2e69d6fc577660e2522ec86490159",
+    "helper": "fa3dfe63521b26fc23a3c8850ab2b5e2d5f99be47a23a6d030a3ce3858256be0"
+  },
+  "helper_source_sha256": "fa3dfe63521b26fc23a3c8850ab2b5e2d5f99be47a23a6d030a3ce3858256be0",
+  "code_sha256": "21f02e6e2fce5e4a6ca39e2ff1dafb58a3a20e2f70de1d449f4bdab2af0f576a",
+  "prior_observed_v2_preserved": true,
+  "failed_principal_gate_changed": false,
+  "models_grouping_or_protocol_changes": false
+}

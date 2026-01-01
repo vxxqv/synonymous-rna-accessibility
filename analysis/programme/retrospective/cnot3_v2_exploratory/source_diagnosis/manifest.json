@@ -1,0 +1,65 @@
+{
+  "status": "bounded_source_diagnosis_complete",
+  "latest_evidence": "observed_v2/summary.json",
+  "python": "3.12.14",
+  "synthetic_test_command": "python -I -B test_audit.py",
+  "synthetic_tests": 5,
+  "synthetic_failures": 0,
+  "independent_cohort_n": 5480,
+  "frozen_ratio_failure_n": 49,
+  "frozen_failure_retained": true,
+  "diagnostic_10sig_all5480_compatible": true,
+  "undocumented_generating_algorithm_authenticated": false,
+  "published5481membership_recovered": false,
+  "initial_to_v2_numerical_artifacts_identical": {
+    "ratio_mismatches.csv": true,
+    "candidate_exclusions.json": true
+  },
+  "external_sha256": {
+    "failed_principal_gate": "6fe0dece44c1be71a6b943a05f7cb6e0d942351c9faf8d5e1504f246f1fb978e",
+    "published_definition_documentation": "84d112228cc3ce147436fc5be540165d1ec6335d9c4ea34ebe46d05c8aeec025",
+    "published_article_text": "f65984f0284bf26f01fc4a88ae034e0f5d817ffb6dbc0d5da96d781a09e72aca"
+  },
+  "input_sha256_before": {
+    "workbook": "a338e7211fcb0ad6bed0b1bfdb57433a5a43266f3a8d93e473b1bf50c583d712",
+    "exposure": "b8bae6cc9e71f7740f54a304b6182c108fa2e69d6fc577660e2522ec86490159",
+    "cohort": "cfd4cededb5be6719795fa88262793ca580eb267649127cdf9cf300f75d9df1e",
+    "result": "67fa85f42354c8f6413b167d38a55ca3630f7ea12d3b2dad6658b302bb3f2376"
+  },
+  "input_sha256_after": {
+    "workbook": "a338e7211fcb0ad6bed0b1bfdb57433a5a43266f3a8d93e473b1bf50c583d712",
+    "exposure": "b8bae6cc9e71f7740f54a304b6182c108fa2e69d6fc577660e2522ec86490159",
+    "cohort": "cfd4cededb5be6719795fa88262793ca580eb267649127cdf9cf300f75d9df1e",
+    "result": "67fa85f42354c8f6413b167d38a55ca3630f7ea12d3b2dad6658b302bb3f2376"
+  },
+  "files_sha256": {
+    "audit_source.initial.py": "ba8691f06c9b74fd868f56a5384487ef45d279047fffc36b1c7efd0bf19c5974",
+    "audit_source.py": "fa3dfe63521b26fc23a3c8850ab2b5e2d5f99be47a23a6d030a3ce3858256be0",
+    "make_manifest.py": "b2a30ebbf8e8769d0aca5ec227ac5c631fb84e8362d92835c798d6b1a52783d4",
+    "observed_v1/candidate_exclusions.json": "498995d9dc0f77708547181d0d592780deab1680b10c518cfb18ce8d1bef9278",
+    "observed_v1/ratio_mismatches.csv": "ca8a1e6c0e2f056316912e29a0b1b391bf03cb9d5a5f2c56fae969944ebe7ae4",
+    "observed_v1/summary.json": "08abddffb23df8685523b88f147ce07950b8060b44d11ceb7ffd61f5737680d2",
+    "observed_v2/candidate_exclusions.json": "498995d9dc0f77708547181d0d592780deab1680b10c518cfb18ce8d1bef9278",
+    "observed_v2/ratio_mismatches.csv": "ca8a1e6c0e2f056316912e29a0b1b391bf03cb9d5a5f2c56fae969944ebe7ae4",
+    "observed_v2/summary.json": "b4279c33b1f425229a3267ac92b21d9589cc65904b93be69db0846125dbcc635",
+    "report.md": "874ab20899bc4b07a278986eb14e59c4f18d8909318b95dfa47ae5a3d4df1c52",
+    "test_audit.py": "a5b8c3d0b041c0b11f23ffeef0e2644c50a0d08d5cf55da3ec677a7023fbfefc"
+  },
+  "scope": {
+    "authorized_candidate_rows": 7359,
+    "data_columns_decoded": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "I",
+      "J",
+      "K"
+    ],
+    "F_G_decoded": false,
+    "other_endpoint_columns_decoded": false,
+    "modeling_or_grouping": false,
+    "scientific_protocol_changed": false,
+    "repository_edits": false
+  }
+}

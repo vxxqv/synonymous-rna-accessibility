@@ -1,0 +1,8 @@
+{
+  "amendment_sha256": "219dda125d7a8167b2a45fa67499ac4dc24118e6edcbdee83b540f8b77e27f22",
+  "original_protocol_sha256": "0d9c20e8cf5438c08a4a688a84f70197ae1c9acf78bda7106b80382dc5388011",
+  "raw_source_diagnosis_independently_recomputed_by_this_reviewer": false,
+  "observed_outcomes_read": false,
+  "actual_modeling_run": false,
+  "verdict": "framing_go_pending_immutable_implementation_review"
+}
