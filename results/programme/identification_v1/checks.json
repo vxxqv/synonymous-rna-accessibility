@@ -1,0 +1,39 @@
+{
+  "status": "completed",
+  "scope": "Finite exact checks, not universal proof",
+  "boxes": {
+    "connected_labelled_graphs": 44,
+    "widest_path_oracle_comparisons": 18801,
+    "sharp_box_cases": 298116,
+    "threshold_completion_cases": 82810
+  },
+  "background": {
+    "counts": {
+      "product_cases": 13986,
+      "erased_positive_local_barriers": 276
+    },
+    "necessary_hypothesis_counterexample": [
+      {
+        "hypothesis_removed": "background maximum reachable without dropping below initial level",
+        "g": [
+          2,
+          0,
+          2
+        ],
+        "h": [
+          0,
+          -10,
+          3
+        ],
+        "actual_barrier": 2,
+        "invalid_formula": 0
+      }
+    ],
+    "perturbation_constant_2_is_attained": true
+  },
+  "seconds": 6.450739699997939,
+  "input_sha256": {
+    "analysis/programme/check_identification.py": "35854efa25140f91a572d9fc9ecfb2d9c8a495d477bf6bfaaf4ea1fd3f44766b",
+    "src/barrier_identification.py": "035902bf255c42a43843570abf1145e8d17a9d872fa0eadc605d53087fd4823e"
+  }
+}

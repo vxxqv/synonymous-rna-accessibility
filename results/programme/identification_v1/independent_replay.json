@@ -1,0 +1,79 @@
+{
+  "status": "passed_for_stated_finite_inputs",
+  "scope": "Independent threshold-connectivity implementation; finite corroboration, not universal proof; no biological data",
+  "counts": {
+    "all_labelled_graphs_n1_to4": 75,
+    "coincident_endpoint_checks": 285,
+    "disconnected_endpoint_rejections": 212,
+    "field_comparisons_threshold_oracle": 23742,
+    "transform_checks": 47484,
+    "sampled_box_corner_ranges": 3648,
+    "threshold_corner_decisions": 10944,
+    "arbitrary_background_ascent_product_cases": 51192
+  },
+  "mixed_endpoint_internal_box_example": {
+    "lower": [
+      0,
+      0,
+      0
+    ],
+    "upper": [
+      1,
+      1,
+      1
+    ],
+    "barrier_at_all_lower": 0,
+    "barrier_at_all_upper": 0,
+    "sharp_range": [
+      0,
+      1
+    ],
+    "correlated_equal_score_completion_range": [
+      0,
+      0
+    ]
+  },
+  "missing_background_assumption_counterexample": {
+    "g": [
+      2,
+      0,
+      2
+    ],
+    "h": [
+      0,
+      -10,
+      3
+    ],
+    "actual_B": 2,
+    "formula_without_hypothesis": 0
+  },
+  "background_assumption_not_instancewise_necessary": {
+    "g": [
+      2,
+      20,
+      0,
+      20,
+      2
+    ],
+    "h": [
+      0,
+      -1,
+      3
+    ],
+    "actual_B": 0,
+    "formula": 0
+  },
+  "perturbation_constant_2_attained": true,
+  "nonfinite_out_of_domain_validation_observations": {
+    "helper_nan_local": {
+      "rejected_with_ValueError": "Barrier and background scores must be finite"
+    },
+    "threshold_nan": {
+      "rejected_with_ValueError": "Threshold must be finite"
+    }
+  },
+  "sha256": {
+    "implementation": "035902bf255c42a43843570abf1145e8d17a9d872fa0eadc605d53087fd4823e",
+    "audit_script": "4d78d8f6d8a4f609a3f284753fa348988667114e06af7c30d13470a44a2b8a65"
+  }
+}

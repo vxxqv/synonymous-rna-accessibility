@@ -1,0 +1,9 @@
+{
+  "id": "SCOPE_UPDATE_V8",
+  "supersedes_scope_only": "EXPANSION_CYCLE_V7",
+  "reason": "The user directed that work should avoid biological content restrictions and remain viewable in the chat.",
+  "active": ["Abstract graph theorems", "Synthetic acquisition benchmarks", "Independent mathematical verification", "Figure formatting and manuscript consistency"],
+  "deferred": "Further biological data retrieval, outcome analysis, and intervention design are stopped in this cycle. Existing findings and failed eligibility gates are retained.",
+  "validation_status": "Protected biological outcomes remain unexamined. This scope decision is not evidence against a biological hypothesis.",
+  "writing": "No em dashes. Keep other dashes to a minimum. Deliver readable PDFs, figure previews and plain text summaries."
+}
