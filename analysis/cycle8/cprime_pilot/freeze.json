@@ -1,0 +1,39 @@
+{
+  "status": "FROZEN_BEFORE_OUTCOME_ACCESS",
+  "question": "Finite marker-context proxy dispersion and secondary shared latent ordering; no isolated edit or calibrated uncertainty claim",
+  "files": {
+    "protocol.md": "5cb5711d220f91c179b8ee428dea0e91c72a725382032bc8a82083f0e5ec2e4f",
+    "interval_core.py": "9d0bd0f3363e158e4df1cb028c7922b0bf94284bc6169138f894b072871c4cf9",
+    "run_pilot.py": "bfba04ed71fe695978327680e54fca45b197da42809db0632fe935a4e95d3cd7",
+    "prepare_metadata.py": "9ed008c98b8d51a6b7473404f12bb4e2321c326c666251d75021e816fa1e7cc9",
+    "eligibility.json": "c5c2b20e6729918219c5cf3deb757ff242241cdf53f0f635f1dc7d677282ee32",
+    "test_synthetic.py": "448b75c062da3fa52ef97a38629d4cd0f80a6c24cc9734e1baf19dfd5b9a68a8",
+    "synthetic_receipt.json": "90ac157ab715bb0eea70e8cd49650e402e45c372183466a726e2ba696d6d4d76"
+  },
+  "source_inputs": {
+    "selected_assay_metadata.json": "4a0bf731a768b100d98cd03ee24a41474b4e6cb5924b33270cf0ae00180bb2c0",
+    "search_sequence_metadata.json": "3d3e0b4405283d748ff03c19e8cbdec639018c0270672114e8230c7d27eff814",
+    "measurement_contract.json": "f8114d02891cfdcd643de8e022c480aee3f7ab40d5ec1b178f093cf0310b657f",
+    "supp_Supplementary Data 8.xlsx": "6a8f0c21100c57e30bce6d1ca9d62f3eb5999c4dce1870baa7eabe20fc4a9f9b"
+  },
+  "independent_review_sha256": "dee777a6f592e5e03b1b243fc8d15384738a35dd9a2d5a9e608f87de9026d0d3",
+  "eligible_groups": 30,
+  "eligible_states": 66,
+  "cell_contexts": 2,
+  "source_rows": 396,
+  "eligible_exons": [
+    17,
+    25,
+    27,
+    39,
+    42
+  ],
+  "widening_factors": [
+    "1",
+    "5/4",
+    "3/2",
+    "2"
+  ],
+  "production_outcomes_read": false,
+  "source_exposure": "Published primary statements and examples are prior evidence; new deposited variant outcome cells have not been read."
+}

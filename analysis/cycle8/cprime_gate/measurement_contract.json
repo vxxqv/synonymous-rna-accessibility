@@ -1,0 +1,192 @@
+{
+  "schema_version": 1,
+  "verdict": "QUALIFIED_LOCAL_MOTIF_CONTEXT_SOURCE; NOT_READY_ISOLATED_EDIT_OR_FULL_HAPLOTYPE",
+  "source_DOI": "10.1038/s41467-026-78344-9",
+  "pinned_author_tree": "30125415304664c33370cd7801f820a345834e40",
+  "reference_transcript": "ENST00000358273",
+  "assemblies": {
+    "initial_exon27": "hg19/GRCh37",
+    "multi_exon": "GRCh38"
+  },
+  "design": {
+    "combined_labels": 341,
+    "intended_labels": 178
+  },
+  "motif_duplicate_groups": {
+    "DNA": [
+      [
+        "chr17-31233016-A-T_chr17-31233021-T-C",
+        "chr17-31233016-A-T_old"
+      ],
+      [
+        "chr17-31233072-A-G_chr17-31233075-C-A",
+        "chr17-31233072-A-G_old"
+      ],
+      [
+        "chr17-31233126-A-G_chr17-31233129-G-A",
+        "chr17-31233126-A-G_old"
+      ],
+      [
+        "chr17-31233128-T-A_chr17-31233132-G-T",
+        "chr17-31233128-T-A_old"
+      ],
+      [
+        "chr17-31233156-T-G_chr17-31233159-A-G",
+        "chr17-31233156-T-G_old"
+      ],
+      [
+        "chr17-31336673-C-T_chr17-31336676-A-G",
+        "chr17-31336676-A-G_chr17-31336673-C-T"
+      ]
+    ],
+    "RNA": [
+      [
+        "chr17-31233016-A-T_chr17-31233021-T-C",
+        "chr17-31233016-A-T_old"
+      ],
+      [
+        "chr17-31233072-A-G_chr17-31233075-C-A",
+        "chr17-31233072-A-G_old"
+      ],
+      [
+        "chr17-31233126-A-G_chr17-31233129-G-A",
+        "chr17-31233126-A-G_old"
+      ],
+      [
+        "chr17-31233128-T-A_chr17-31233132-G-T",
+        "chr17-31233128-T-A_old"
+      ],
+      [
+        "chr17-31233156-T-G_chr17-31233159-A-G",
+        "chr17-31233156-T-G_old"
+      ],
+      [
+        "chr17-31336673-C-T_chr17-31336676-A-G",
+        "chr17-31336676-A-G_chr17-31336673-C-T"
+      ]
+    ]
+  },
+  "processed_metadata": {
+    "combined_ids_per_cell": 335,
+    "intended_labels": 177,
+    "multi_marker_intended_labels": 111,
+    "synonymous_including_splice_region_labels": 63,
+    "synonymous_multi_marker_labels": 30,
+    "synonymous_marker_cardinality_counts": {
+      "2": 24,
+      "1": 33,
+      "3": 6
+    },
+    "cell_contexts": [
+      "KBM7",
+      "K562"
+    ],
+    "metadata_rows": 2010,
+    "rows_per_combined_id_cell": 3,
+    "explicit_replicate_column": false,
+    "phenotype_coverage_or_missingness_inspected": false
+  },
+  "r1207r_states": [
+    {
+      "id": "Synonymous_edit_29560144",
+      "reference_word": "GGTTTGAGAGATTGGTGGAACTGG",
+      "search_word_DNA": "GGTTTGAGAGGTTAGTGGAACTGG",
+      "search_word_RNA": "GGTTTGAGAGGTTAGTGGAACTGG",
+      "local_word_changes": [
+        {
+          "word_position1": 11,
+          "ref": "A",
+          "alt": "G"
+        },
+        {
+          "word_position1": 14,
+          "ref": "G",
+          "alt": "A"
+        }
+      ],
+      "full_realised_haplotype_authenticated": false
+    },
+    {
+      "id": "Synonymous_edit_29560144_wo_marker",
+      "reference_word": "GGTTTGAGAGATTGGTGGAACTGG",
+      "search_word_DNA": "GGTTTGAGAGGTTGGTGGAACTGG",
+      "search_word_RNA": "GGTTTGAGAGGTTGGTGGAACTGG",
+      "local_word_changes": [
+        {
+          "word_position1": 11,
+          "ref": "A",
+          "alt": "G"
+        }
+      ],
+      "full_realised_haplotype_authenticated": false
+    },
+    {
+      "id": "Synonymous_edit_29560144_marker_GtoC",
+      "reference_word": "GGTTTGAGAGATTGGTGGAACTGG",
+      "search_word_DNA": "GGTTTGAGAGGTTCGTGGAACTGG",
+      "search_word_RNA": "GGTTTGAGAGGTTCGTGGAACTGG",
+      "local_word_changes": [
+        {
+          "word_position1": 11,
+          "ref": "A",
+          "alt": "G"
+        },
+        {
+          "word_position1": 14,
+          "ref": "G",
+          "alt": "C"
+        }
+      ],
+      "full_realised_haplotype_authenticated": false
+    },
+    {
+      "id": "Synonymous_edit_29560144_marker_GtoT",
+      "reference_word": "GGTTTGAGAGATTGGTGGAACTGG",
+      "search_word_DNA": "GGTTTGAGAGGTTAGTGGAACTGG",
+      "search_word_RNA": "GGTTTGAGAGGTTAGTGGAACTGG",
+      "local_word_changes": [
+        {
+          "word_position1": 11,
+          "ref": "A",
+          "alt": "G"
+        },
+        {
+          "word_position1": 14,
+          "ref": "G",
+          "alt": "A"
+        }
+      ],
+      "full_realised_haplotype_authenticated": false
+    },
+    {
+      "id": "Synonymous_edit_29560144_wo_intended_edit",
+      "reference_word": "GGTTTGAGAGATTGGTGGAACTGG",
+      "search_word_DNA": "GGTTTGAGAGATTAGTGGAACTGG",
+      "search_word_RNA": "GGTTTGAGAGATTAGTGGAACTGG",
+      "local_word_changes": [
+        {
+          "word_position1": 14,
+          "ref": "G",
+          "alt": "A"
+        }
+      ],
+      "full_realised_haplotype_authenticated": false
+    }
+  ],
+  "label_GtoT_motif_equals_original_GtoA": true,
+  "published_supplement_confirms_motif_discrepancy": true,
+  "comparable_WT_response_authenticated": false,
+  "replication": {
+    "source_label": "n=3 biological replicates",
+    "independent_libraries_not_equal_to_amplicon_count": true,
+    "multi_exon_ENA_library_names": 72,
+    "culture_pairing_all_conditions_independently_authenticated": false,
+    "data8_row_order_as_replicate_identity_authenticated": false
+  },
+  "detected_object": "Local sequence motif in gel-selected nearcanonical RNA amplicon, normalized by local motif gDNA representation",
+  "full_isoform_assignment_authenticated": false,
+  "source_already_reports_marker_effects": true,
+  "distinct_possible_estimand": "Observed finite-marker-set invariance of local-state RNA conclusions, with complete intended-edit grouping",
+  "isolated_edit_identified_without_controls_or_interaction_restrictions": false,
+  "outcome_opening_authorized_by_this_gate": false
+}

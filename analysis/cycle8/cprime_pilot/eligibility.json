@@ -1,0 +1,1312 @@
+{
+  "status": "metadata_only",
+  "groups": {
+    "chr17-31225100-A-T": [
+      "chr17-31225100-A-T_chr17-31225106-A-G",
+      "chr17-31225100-A-T_chr17-31225109-T-C"
+    ],
+    "chr17-31225112-C-A": [
+      "chr17-31225112-C-A_chr17-31225103-T-C",
+      "chr17-31225112-C-A_chr17-31225106-A-G"
+    ],
+    "chr17-31225112-C-T": [
+      "chr17-31225112-C-T_chr17-31225106-A-G",
+      "chr17-31225112-C-T_chr17-31225109-T-C"
+    ],
+    "chr17-31225133-C-T": [
+      "chr17-31225133-C-T_chr17-31225136-G-C",
+      "chr17-31225133-C-T_chr17-31225142-A-C",
+      "chr17-31225133-C-T_chr17-31225142-A-G"
+    ],
+    "chr17-31225136-G-T": [
+      "chr17-31225136-G-T_chr17-31225142-A-C",
+      "chr17-31225136-G-T_chr17-31225145-T-C"
+    ],
+    "chr17-31225200-C-T": [
+      "chr17-31225200-C-T_chr17-31225197-T-C",
+      "chr17-31225200-C-T_chr17-31225205-T-C"
+    ],
+    "chr17-31225226-G-A": [
+      "chr17-31225226-G-A_chr17-31225220-T-C",
+      "chr17-31225226-G-A_chr17-31225223-C-G"
+    ],
+    "chr17-31225226-G-T": [
+      "chr17-31225226-G-T_chr17-31225220-T-C",
+      "chr17-31225226-G-T_chr17-31225220-T-G",
+      "chr17-31225226-G-T_chr17-31225229-G-A"
+    ],
+    "chr17-31225232-A-G": [
+      "chr17-31225232-A-G_chr17-31225226-G-A",
+      "chr17-31225232-A-G_chr17-31225241-C-T"
+    ],
+    "chr17-31225232-A-T": [
+      "chr17-31225232-A-T_chr17-31225223-C-G",
+      "chr17-31225232-A-T_chr17-31225238-G-C"
+    ],
+    "chr17-31225238-G-A": [
+      "chr17-31225238-G-A_chr17-31225244-C-A",
+      "chr17-31225238-G-A_chr17-31225244-C-G"
+    ],
+    "chr17-31225238-G-T": [
+      "chr17-31225238-G-T_chr17-31225241-C-T",
+      "chr17-31225238-G-T_chr17-31225244-C-T"
+    ],
+    "chr17-31232145-A-T": [
+      "chr17-31232145-A-T_chr17-31232142-A-G",
+      "chr17-31232145-A-T_chr17-31232154-G-C"
+    ],
+    "chr17-31232148-T-C": [
+      "chr17-31232148-T-C_chr17-31232145-A-G",
+      "chr17-31232148-T-C_chr17-31232151-T-G"
+    ],
+    "chr17-31233072-A-G": [
+      "chr17-31233072-A-G_chr17-31233075-C-A",
+      "chr17-31233072-A-G_chr17-31233078-A-C",
+      "chr17-31233072-A-G_chr17-31233081-A-G"
+    ],
+    "chr17-31233123-G-A": [
+      "chr17-31233123-G-A_chr17-31233117-G-A",
+      "chr17-31233123-G-A_chr17-31233120-T-C"
+    ],
+    "chr17-31233126-A-G": [
+      "chr17-31233126-A-G_chr17-31233117-G-C",
+      "chr17-31233126-A-G_chr17-31233129-G-A",
+      "chr17-31233126-A-G_chr17-31233132-G-C"
+    ],
+    "chr17-31233156-T-C": [
+      "chr17-31233156-T-C_chr17-31233159-A-G",
+      "chr17-31233156-T-C_chr17-31233162-A-G"
+    ],
+    "chr17-31330380-A-G": [
+      "chr17-31330380-A-G_chr17-31330371-A-T",
+      "chr17-31330380-A-G_chr17-31330377-T-G",
+      "chr17-31330380-A-G_chr17-31330389-T-A"
+    ],
+    "chr17-31330392-C-T": [
+      "chr17-31330392-C-T_chr17-31330386-C-T",
+      "chr17-31330392-C-T_chr17-31330389-T-C"
+    ],
+    "chr17-31330395-C-T": [
+      "chr17-31330395-C-T_chr17-31330392-C-A",
+      "chr17-31330395-C-T_chr17-31330401-C-A"
+    ],
+    "chr17-31330422-T-C": [
+      "chr17-31330422-T-C_chr17-31330416-T-C",
+      "chr17-31330422-T-C_chr17-31330431-G-T"
+    ],
+    "chr17-31336736-C-A": [
+      "chr17-31336736-C-A_chr17-31336733-A-C",
+      "chr17-31336736-C-A_chr17-31336733-A-T"
+    ],
+    "chr17-31336736-C-G": [
+      "chr17-31336736-C-G_chr17-31336727-T-A",
+      "chr17-31336736-C-G_chr17-31336745-G-A"
+    ],
+    "chr17-31336736-C-T": [
+      "chr17-31336736-C-T_chr17-31336728-T-C",
+      "chr17-31336736-C-T_chr17-31336743-C-T"
+    ],
+    "chr17-31336772-T-C": [
+      "chr17-31336772-T-C_chr17-31336766-C-T",
+      "chr17-31336772-T-C_chr17-31336781-T-A"
+    ],
+    "chr17-31336802-C-T": [
+      "chr17-31336802-C-T_chr17-31336793-C-T",
+      "chr17-31336802-C-T_chr17-31336796-C-A"
+    ],
+    "chr17-31336865-C-A": [
+      "chr17-31336865-C-A_chr17-31336862-G-C",
+      "chr17-31336865-C-A_chr17-31336871-T-C",
+      "chr17-31336865-C-A_chr17-31336874-C-A"
+    ],
+    "chr17-31336865-C-G": [
+      "chr17-31336865-C-G_chr17-31336860-C-T",
+      "chr17-31336865-C-G_chr17-31336868-T-A"
+    ],
+    "chr17-31336865-C-T": [
+      "chr17-31336865-C-T_chr17-31336856-T-C",
+      "chr17-31336865-C-T_chr17-31336868-T-A"
+    ]
+  },
+  "states": {
+    "chr17-31225100-A-T_chr17-31225106-A-G": {
+      "combined_var_id": "chr17-31225100-A-T_chr17-31225106-A-G",
+      "var_id": "chr17-31225100-A-T",
+      "hgvsc": "c.1851A>T",
+      "hgvsp": "p.Ala617%3D",
+      "exon_number": 17.0,
+      "syn_var": "chr17-31225106-A-G",
+      "consequence": "synonymous_variant",
+      "motifs": {
+        "DNA": [
+          "TCTAGCAGGCTGATAGGAGTTCCTGTC"
+        ],
+        "RNA": [
+          "ATAAGCAGGCTGATAGGAGTTCCTGTC"
+        ]
+      }
+    },
+    "chr17-31225100-A-T_chr17-31225109-T-C": {
+      "combined_var_id": "chr17-31225100-A-T_chr17-31225109-T-C",
+      "var_id": "chr17-31225100-A-T",
+      "hgvsc": "c.1851A>T",
+      "hgvsp": "p.Ala617%3D",
+      "exon_number": 17.0,
+      "syn_var": "chr17-31225109-T-C",
+      "consequence": "synonymous_variant",
+      "motifs": {
+        "DNA": [
+          "TCTAGCAGGCTGATAGAAGCTCCTGTCACT"
+        ],
+        "RNA": [
+          "ATAAGCAGGCTGATAGAAGCTCCTGTCACT"
+        ]
+      }
+    },
+    "chr17-31225112-C-A_chr17-31225103-T-C": {
+      "combined_var_id": "chr17-31225112-C-A_chr17-31225103-T-C",
+      "var_id": "chr17-31225112-C-A",
+      "hgvsc": "c.1863C>A",
+      "hgvsp": "p.Ser621%3D",
+      "exon_number": 17.0,
+      "syn_var": "chr17-31225103-T-C",
+      "consequence": "synonymous_variant",
+      "motifs": {
+        "DNA": [
+          "AGCAGGCAGACAGAAGTTCATGTCACTTTC"
+        ],
+        "RNA": [
+          "AGCAGGCAGACAGAAGTTCATGTCACTTTC"
+        ]
+      }
+    },
+    "chr17-31225112-C-A_chr17-31225106-A-G": {
+      "combined_var_id": "chr17-31225112-C-A_chr17-31225106-A-G",
+      "var_id": "chr17-31225112-C-A",
+      "hgvsc": "c.1863C>A",
+      "hgvsp": "p.Ser621%3D",
+      "exon_number": 17.0,
+      "syn_var": "chr17-31225106-A-G",
+      "consequence": "synonymous_variant",
+      "motifs": {
+        "DNA": [
+          "AGGCAGATAGGAGTTCATGTCACTTTC"
+        ],
+        "RNA": [
+          "AGGCAGATAGGAGTTCATGTCACTTTC"
+        ]
+      }
+    },
+    "chr17-31225112-C-T_chr17-31225106-A-G": {
+      "combined_var_id": "chr17-31225112-C-T_chr17-31225106-A-G",
+      "var_id": "chr17-31225112-C-T",
+      "hgvsc": "c.1863C>T",
+      "hgvsp": "p.Ser621%3D",
+      "exon_number": 17.0,
+      "syn_var": "chr17-31225106-A-G",
+      "consequence": "synonymous_variant",
+      "motifs": {
+        "DNA": [
+          "AGGCAGATAGGAGTTCTTGTCACTTTC"
+        ],
+        "RNA": [
+          "AGGCAGATAGGAGTTCTTGTCACTTTC"
+        ]
+      }
+    },
+    "chr17-31225112-C-T_chr17-31225109-T-C": {
+      "combined_var_id": "chr17-31225112-C-T_chr17-31225109-T-C",
+      "var_id": "chr17-31225112-C-T",
+      "hgvsc": "c.1863C>T",
+      "hgvsp": "p.Ser621%3D",
+      "exon_number": 17.0,
+      "syn_var": "chr17-31225109-T-C",
+      "consequence": "synonymous_variant",
+      "motifs": {
+        "DNA": [
+          "CAGATAGAAGCTCTTGTCACTTTC"
+        ],
+        "RNA": [
+          "CAGATAGAAGCTCTTGTCACTTTC"
+        ]
+      }
+    },
+    "chr17-31225133-C-T_chr17-31225136-G-C": {
+      "combined_var_id": "chr17-31225133-C-T_chr17-31225136-G-C",
+      "var_id": "chr17-31225133-C-T",
+      "hgvsc": "c.1884C>T",
+      "hgvsp": "p.Tyr628%3D",
+      "exon_number": 17.0,
+      "syn_var": "chr17-31225136-G-C",
+      "consequence": "synonymous_variant",
+      "motifs": {
+        "DNA": [
+          "TCCTTTTTTATGGCGTAGGATGTG"
+        ],
+        "RNA": [
+          "TCCTTTTTTATGGCGTAGGATGTG"
+        ]
+      }
+    },
+    "chr17-31225133-C-T_chr17-31225142-A-C": {
+      "combined_var_id": "chr17-31225133-C-T_chr17-31225142-A-C",
+      "var_id": "chr17-31225133-C-T",
+      "hgvsc": "c.1884C>T",
+      "hgvsp": "p.Tyr628%3D",
+      "exon_number": 17.0,
+      "syn_var": "chr17-31225142-A-C",
+      "consequence": "synonymous_variant",
+      "motifs": {
+        "DNA": [
+          "TCCTTTTTTATGGGGTAGGCTGTGATATTC"
+        ],
+        "RNA": [
+          "TCCTTTTTTATGGGGTAGGCTGTGATATTC"
+        ]
+      }
+    },
+    "chr17-31225133-C-T_chr17-31225142-A-G": {
+      "combined_var_id": "chr17-31225133-C-T_chr17-31225142-A-G",
+      "var_id": "chr17-31225133-C-T",
+      "hgvsc": "c.1884C>T",
+      "hgvsp": "p.Tyr628%3D",
+      "exon_number": 17.0,
+      "syn_var": "chr17-31225142-A-G",
+      "consequence": "synonymous_variant",
+      "motifs": {
+        "DNA": [
+          "TCCTTTTTTATGGGGTAGGGTGTGATATTC"
+        ],
+        "RNA": [
+          "TCCTTTTTTATGGGGTAGGGTGTGATATTC"
+        ]
+      }
+    },
+    "chr17-31225136-G-T_chr17-31225142-A-C": {
+      "combined_var_id": "chr17-31225136-G-T_chr17-31225142-A-C",
+      "var_id": "chr17-31225136-G-T",
+      "hgvsc": "c.1887G>T",
+      "hgvsp": "p.Gly629%3D",
+      "exon_number": 17.0,
+      "syn_var": "chr17-31225142-A-C",
+      "consequence": "synonymous_variant",
+      "motifs": {
+        "DNA": [
+          "TTTTTTACGGTGTAGGCTGTGATATTC"
+        ],
+        "RNA": [
+          "TTTTTTACGGTGTAGGCTGTGATATTC"
+        ]
+      }
+    },
+    "chr17-31225136-G-T_chr17-31225145-T-C": {
+      "combined_var_id": "chr17-31225136-G-T_chr17-31225145-T-C",
+      "var_id": "chr17-31225136-G-T",
+      "hgvsc": "c.1887G>T",
+      "hgvsp": "p.Gly629%3D",
+      "exon_number": 17.0,
+      "syn_var": "chr17-31225145-T-C",
+      "consequence": "synonymous_variant",
+      "motifs": {
+        "DNA": [
+          "TTTTTTACGGTGTAGGATGCGATATTCCTT"
+        ],
+        "RNA": [
+          "TTTTTTACGGTGTAGGATGCGATATTCCTT"
+        ]
+      }
+    },
+    "chr17-31225200-C-T_chr17-31225197-T-C": {
+      "combined_var_id": "chr17-31225200-C-T_chr17-31225197-T-C",
+      "var_id": "chr17-31225200-C-T",
+      "hgvsc": "c.1951C>T",
+      "hgvsp": "p.Leu651%3D",
+      "exon_number": 17.0,
+      "syn_var": "chr17-31225197-T-C",
+      "consequence": "synonymous_variant",
+      "motifs": {
+        "DNA": [
+          "TCATGAAGAACTATTACGTACTCC"
+        ],
+        "RNA": [
+          "TCATGAAGAACTATTACGTACTCC"
+        ]
+      }
+    },
+    "chr17-31225200-C-T_chr17-31225205-T-C": {
+      "combined_var_id": "chr17-31225200-C-T_chr17-31225205-T-C",
+      "var_id": "chr17-31225200-C-T",
+      "hgvsc": "c.1951C>T",
+      "hgvsp": "p.Leu651%3D",
+      "exon_number": 17.0,
+      "syn_var": "chr17-31225205-T-C",
+      "consequence": "synonymous_variant",
+      "motifs": {
+        "DNA": [
+          "TGAAGAATTATTACGCACTCCTGGAG"
+        ],
+        "RNA": [
+          "TGAAGAATTATTACGCACTCCTGGAG"
+        ]
+      }
+    },
+    "chr17-31225226-G-A_chr17-31225220-T-C": {
+      "combined_var_id": "chr17-31225226-G-A_chr17-31225220-T-C",
+      "var_id": "chr17-31225226-G-A",
+      "hgvsc": "c.1977G>A",
+      "hgvsp": "p.Arg659%3D",
+      "exon_number": 17.0,
+      "syn_var": "chr17-31225220-T-C",
+      "consequence": "synonymous_variant",
+      "motifs": {
+        "DNA": [
+          "CTGGAGCCTCCCTCCGAAAGGGAAAAG"
+        ],
+        "RNA": [
+          "CTGGAGCCTCCCTCCGAAAGGGAAAAG"
+        ]
+      }
+    },
+    "chr17-31225226-G-A_chr17-31225223-C-G": {
+      "combined_var_id": "chr17-31225226-G-A_chr17-31225223-C-G",
+      "var_id": "chr17-31225226-G-A",
+      "hgvsc": "c.1977G>A",
+      "hgvsp": "p.Arg659%3D",
+      "exon_number": 17.0,
+      "syn_var": "chr17-31225223-C-G",
+      "consequence": "synonymous_variant",
+      "motifs": {
+        "DNA": [
+          "GAGCCTCTCTGCGAAAGGGAAAAG"
+        ],
+        "RNA": [
+          "GAGCCTCTCTGCGAAAGGGAAAAG"
+        ]
+      }
+    },
+    "chr17-31225226-G-T_chr17-31225220-T-C": {
+      "combined_var_id": "chr17-31225226-G-T_chr17-31225220-T-C",
+      "var_id": "chr17-31225226-G-T",
+      "hgvsc": "c.1977G>T",
+      "hgvsp": "p.Arg659%3D",
+      "exon_number": 17.0,
+      "syn_var": "chr17-31225220-T-C",
+      "consequence": "synonymous_variant",
+      "motifs": {
+        "DNA": [
+          "CTGGAGCCTCCCTCCGTAAGGGAAAAG"
+        ],
+        "RNA": [
+          "CTGGAGCCTCCCTCCGTAAGGGAAAAG"
+        ]
+      }
+    },
+    "chr17-31225226-G-T_chr17-31225220-T-G": {
+      "combined_var_id": "chr17-31225226-G-T_chr17-31225220-T-G",
+      "var_id": "chr17-31225226-G-T",
+      "hgvsc": "c.1977G>T",
+      "hgvsp": "p.Arg659%3D",
+      "exon_number": 17.0,
+      "syn_var": "chr17-31225220-T-G",
+      "consequence": "synonymous_variant",
+      "motifs": {
+        "DNA": [
+          "CTGGAGCCTCGCTCCGTAAGGGAAAAG"
+        ],
+        "RNA": [
+          "CTGGAGCCTCGCTCCGTAAGGGAAAAG"
+        ]
+      }
+    },
+    "chr17-31225226-G-T_chr17-31225229-G-A": {
+      "combined_var_id": "chr17-31225226-G-T_chr17-31225229-G-A",
+      "var_id": "chr17-31225226-G-T",
+      "hgvsc": "c.1977G>T",
+      "hgvsp": "p.Arg659%3D",
+      "exon_number": 17.0,
+      "syn_var": "chr17-31225229-G-A",
+      "consequence": "synonymous_variant",
+      "motifs": {
+        "DNA": [
+          "CCTCTCTCCGTAAAGGAAAAGGGA"
+        ],
+        "RNA": [
+          "CCTCTCTCCGTAAAGGAAAAGGGA"
+        ]
+      }
+    },
+    "chr17-31225232-A-G_chr17-31225226-G-A": {
+      "combined_var_id": "chr17-31225232-A-G_chr17-31225226-G-A",
+      "var_id": "chr17-31225232-A-G",
+      "hgvsc": "c.1983A>G",
+      "hgvsp": "p.Gly661%3D",
+      "exon_number": 17.0,
+      "syn_var": "chr17-31225226-G-A",
+      "consequence": "synonymous_variant",
+      "motifs": {
+        "DNA": [
+          "CCTCTCTCCGAAAGGGGAAAGGGAACT"
+        ],
+        "RNA": [
+          "CCTCTCTCCGAAAGGGGAAAGGGAACT"
+        ]
+      }
+    },
+    "chr17-31225232-A-G_chr17-31225241-C-T": {
+      "combined_var_id": "chr17-31225232-A-G_chr17-31225241-C-T",
+      "var_id": "chr17-31225232-A-G",
+      "hgvsc": "c.1983A>G",
+      "hgvsp": "p.Gly661%3D",
+      "exon_number": 17.0,
+      "syn_var": "chr17-31225241-C-T",
+      "consequence": "synonymous_variant",
+      "motifs": {
+        "DNA": [
+          "TCCGGAAGGGGAAAGGGAATTCCTCTATGG"
+        ],
+        "RNA": [
+          "TCCGGAAGGGGAAAGGGAATTCCTCTATGG"
+        ]
+      }
+    },
+    "chr17-31225232-A-T_chr17-31225223-C-G": {
+      "combined_var_id": "chr17-31225232-A-T_chr17-31225223-C-G",
+      "var_id": "chr17-31225232-A-T",
+      "hgvsc": "c.1983A>T",
+      "hgvsp": "p.Gly661%3D",
+      "exon_number": 17.0,
+      "syn_var": "chr17-31225223-C-G",
+      "consequence": "synonymous_variant",
+      "motifs": {
+        "DNA": [
+          "GAGCCTCTCTGCGGAAGGGTAAAGGGAACT"
+        ],
+        "RNA": [
+          "GAGCCTCTCTGCGGAAGGGTAAAGGGAACT"
+        ]
+      }
+    },
+    "chr17-31225232-A-T_chr17-31225238-G-C": {
+      "combined_var_id": "chr17-31225232-A-T_chr17-31225238-G-C",
+      "var_id": "chr17-31225232-A-T",
+      "hgvsc": "c.1983A>T",
+      "hgvsp": "p.Gly661%3D",
+      "exon_number": 17.0,
+      "syn_var": "chr17-31225238-G-C",
+      "consequence": "synonymous_variant",
+      "motifs": {
+        "DNA": [
+          "TCCGGAAGGGTAAAGGCAACTCCTCTA"
+        ],
+        "RNA": [
+          "TCCGGAAGGGTAAAGGCAACTCCTCTA"
+        ]
+      }
+    },
+    "chr17-31225238-G-A_chr17-31225244-C-A": {
+      "combined_var_id": "chr17-31225238-G-A_chr17-31225244-C-A",
+      "var_id": "chr17-31225238-G-A",
+      "hgvsc": "c.1989G>A",
+      "hgvsp": "p.Gly663%3D",
+      "exon_number": 17.0,
+      "syn_var": "chr17-31225244-C-A",
+      "consequence": "synonymous_variant",
+      "motifs": {
+        "DNA": [
+          "AGGGAAAAGGAAACTCATCTATGGTCA"
+        ],
+        "RNA": [
+          "AGGGAAAAGGAAACTCATCTATGGATA"
+        ]
+      }
+    },
+    "chr17-31225238-G-A_chr17-31225244-C-G": {
+      "combined_var_id": "chr17-31225238-G-A_chr17-31225244-C-G",
+      "var_id": "chr17-31225238-G-A",
+      "hgvsc": "c.1989G>A",
+      "hgvsp": "p.Gly663%3D",
+      "exon_number": 17.0,
+      "syn_var": "chr17-31225244-C-G",
+      "consequence": "synonymous_variant",
+      "motifs": {
+        "DNA": [
+          "AGGGAAAAGGAAACTCGTCTATGGTCA"
+        ],
+        "RNA": [
+          "AGGGAAAAGGAAACTCGTCTATGGATA"
+        ]
+      }
+    },
+    "chr17-31225238-G-T_chr17-31225241-C-T": {
+      "combined_var_id": "chr17-31225238-G-T_chr17-31225241-C-T",
+      "var_id": "chr17-31225238-G-T",
+      "hgvsc": "c.1989G>T",
+      "hgvsp": "p.Gly663%3D",
+      "exon_number": 17.0,
+      "syn_var": "chr17-31225241-C-T",
+      "consequence": "synonymous_variant",
+      "motifs": {
+        "DNA": [
+          "AGGGAAAAGGTAATTCCTCTATGG"
+        ],
+        "RNA": [
+          "AGGGAAAAGGTAATTCCTCTATGG"
+        ]
+      }
+    },
+    "chr17-31225238-G-T_chr17-31225244-C-T": {
+      "combined_var_id": "chr17-31225238-G-T_chr17-31225244-C-T",
+      "var_id": "chr17-31225238-G-T",
+      "hgvsc": "c.1989G>T",
+      "hgvsp": "p.Gly663%3D",
+      "exon_number": 17.0,
+      "syn_var": "chr17-31225244-C-T",
+      "consequence": "synonymous_variant",
+      "motifs": {
+        "DNA": [
+          "AGGGAAAAGGTAACTCTTCTATGGTCA"
+        ],
+        "RNA": [
+          "AGGGAAAAGGTAACTCTTCTATGGATA"
+        ]
+      }
+    },
+    "chr17-31232145-A-T_chr17-31232142-A-G": {
+      "combined_var_id": "chr17-31232145-A-T_chr17-31232142-A-G",
+      "var_id": "chr17-31232145-A-T",
+      "hgvsc": "c.3270A>T",
+      "hgvsp": "p.Gly1090%3D",
+      "exon_number": 25.0,
+      "syn_var": "chr17-31232142-A-G",
+      "consequence": "synonymous_variant",
+      "motifs": {
+        "DNA": [
+          "AGCCTGAAGAGGGTGATGGTGTGG"
+        ],
+        "RNA": [
+          "AGCCTGAAGAGGGTGATGGTGTGG"
+        ]
+      }
+    },
+    "chr17-31232145-A-T_chr17-31232154-G-C": {
+      "combined_var_id": "chr17-31232145-A-T_chr17-31232154-G-C",
+      "var_id": "chr17-31232145-A-T",
+      "hgvsc": "c.3270A>T",
+      "hgvsp": "p.Gly1090%3D",
+      "exon_number": 25.0,
+      "syn_var": "chr17-31232154-G-C",
+      "consequence": "synonymous_variant",
+      "motifs": {
+        "DNA": [
+          "CTGAAGAAGGTGATGGTGTCGAATTGATGG"
+        ],
+        "RNA": [
+          "CTGAAGAAGGTGATGGTGTCGAATTGATGG"
+        ]
+      }
+    },
+    "chr17-31232148-T-C_chr17-31232145-A-G": {
+      "combined_var_id": "chr17-31232148-T-C_chr17-31232145-A-G",
+      "var_id": "chr17-31232148-T-C",
+      "hgvsc": "c.3273T>C",
+      "hgvsp": "p.Asp1091%3D",
+      "exon_number": 25.0,
+      "syn_var": "chr17-31232145-A-G",
+      "consequence": "synonymous_variant",
+      "motifs": {
+        "DNA": [
+          "CTGAAGAAGGGGACGGTGTGGAAT"
+        ],
+        "RNA": [
+          "CTGAAGAAGGGGACGGTGTGGAAT"
+        ]
+      }
+    },
+    "chr17-31232148-T-C_chr17-31232151-T-G": {
+      "combined_var_id": "chr17-31232148-T-C_chr17-31232151-T-G",
+      "var_id": "chr17-31232148-T-C",
+      "hgvsc": "c.3273T>C",
+      "hgvsp": "p.Asp1091%3D",
+      "exon_number": 25.0,
+      "syn_var": "chr17-31232151-T-G",
+      "consequence": "synonymous_variant",
+      "motifs": {
+        "DNA": [
+          "AAGAAGGAGACGGGGTGGAATTGA"
+        ],
+        "RNA": [
+          "AAGAAGGAGACGGGGTGGAATTGA"
+        ]
+      }
+    },
+    "chr17-31233072-A-G_chr17-31233075-C-A": {
+      "combined_var_id": "chr17-31233072-A-G_chr17-31233075-C-A",
+      "var_id": "chr17-31233072-A-G",
+      "hgvsc": "c.3567A>G",
+      "hgvsp": "p.Gln1189%3D",
+      "exon_number": 27.0,
+      "syn_var": "chr17-31233075-C-A",
+      "consequence": "synonymous_variant",
+      "motifs": {
+        "DNA": [
+          "TCCTTCAACAGGGAACAGAATTTG"
+        ],
+        "RNA": [
+          "TCCTTCAACAGGGAACAGAATTTG"
+        ]
+      }
+    },
+    "chr17-31233072-A-G_chr17-31233078-A-C": {
+      "combined_var_id": "chr17-31233072-A-G_chr17-31233078-A-C",
+      "var_id": "chr17-31233072-A-G",
+      "hgvsc": "c.3567A>G",
+      "hgvsp": "p.Gln1189%3D",
+      "exon_number": 27.0,
+      "syn_var": "chr17-31233078-A-C",
+      "consequence": "synonymous_variant",
+      "motifs": {
+        "DNA": [
+          "TCCTTCAACAGGGCACCGAATTTGACA"
+        ],
+        "RNA": [
+          "TCCTTCAACAGGGCACCGAATTTGACA"
+        ]
+      }
+    },
+    "chr17-31233072-A-G_chr17-31233081-A-G": {
+      "combined_var_id": "chr17-31233072-A-G_chr17-31233081-A-G",
+      "var_id": "chr17-31233072-A-G",
+      "hgvsc": "c.3567A>G",
+      "hgvsp": "p.Gln1189%3D",
+      "exon_number": 27.0,
+      "syn_var": "chr17-31233081-A-G",
+      "consequence": "synonymous_variant",
+      "motifs": {
+        "DNA": [
+          "TCCTTCAACAGGGCACAGAGTTTGACACAC"
+        ],
+        "RNA": [
+          "TCCTTCAACAGGGCACAGAGTTTGACACAC"
+        ]
+      }
+    },
+    "chr17-31233123-G-A_chr17-31233117-G-A": {
+      "combined_var_id": "chr17-31233123-G-A_chr17-31233117-G-A",
+      "var_id": "chr17-31233123-G-A",
+      "hgvsc": "c.3618G>A",
+      "hgvsp": "p.Glu1206%3D",
+      "exon_number": 27.0,
+      "syn_var": "chr17-31233117-G-A",
+      "consequence": "synonymous_variant",
+      "motifs": {
+        "DNA": [
+          "TGGCTGATCGATTTGAAAGATTGGTGG"
+        ],
+        "RNA": [
+          "TGGCTGATCGATTTGAAAGATTGGTGG"
+        ]
+      }
+    },
+    "chr17-31233123-G-A_chr17-31233120-T-C": {
+      "combined_var_id": "chr17-31233123-G-A_chr17-31233120-T-C",
+      "var_id": "chr17-31233123-G-A",
+      "hgvsc": "c.3618G>A",
+      "hgvsp": "p.Glu1206%3D",
+      "exon_number": 27.0,
+      "syn_var": "chr17-31233120-T-C",
+      "consequence": "synonymous_variant",
+      "motifs": {
+        "DNA": [
+          "CTGATCGGTTCGAAAGATTGGTGG"
+        ],
+        "RNA": [
+          "CTGATCGGTTCGAAAGATTGGTGG"
+        ]
+      }
+    },
+    "chr17-31233126-A-G_chr17-31233117-G-C": {
+      "combined_var_id": "chr17-31233126-A-G_chr17-31233117-G-C",
+      "var_id": "chr17-31233126-A-G",
+      "hgvsc": "c.3621A>G",
+      "hgvsp": "p.Arg1207%3D",
+      "exon_number": 27.0,
+      "syn_var": "chr17-31233117-G-C",
+      "consequence": "synonymous_variant",
+      "motifs": {
+        "DNA": [
+          "TGGCTGATCGCTTTGAGAGGTTGGTGGAAC"
+        ],
+        "RNA": [
+          "TGGCTGATCGCTTTGAGAGGTTGGTGGAAC"
+        ]
+      }
+    },
+    "chr17-31233126-A-G_chr17-31233129-G-A": {
+      "combined_var_id": "chr17-31233126-A-G_chr17-31233129-G-A",
+      "var_id": "chr17-31233126-A-G",
+      "hgvsc": "c.3621A>G",
+      "hgvsp": "p.Arg1207%3D",
+      "exon_number": 27.0,
+      "syn_var": "chr17-31233129-G-A",
+      "consequence": "synonymous_variant",
+      "motifs": {
+        "DNA": [
+          "GGTTTGAGAGGTTAGTGGAACTGG"
+        ],
+        "RNA": [
+          "GGTTTGAGAGGTTAGTGGAACTGG"
+        ]
+      }
+    },
+    "chr17-31233126-A-G_chr17-31233132-G-C": {
+      "combined_var_id": "chr17-31233126-A-G_chr17-31233132-G-C",
+      "var_id": "chr17-31233126-A-G",
+      "hgvsc": "c.3621A>G",
+      "hgvsp": "p.Arg1207%3D",
+      "exon_number": 27.0,
+      "syn_var": "chr17-31233132-G-C",
+      "consequence": "synonymous_variant",
+      "motifs": {
+        "DNA": [
+          "GGTTTGAGAGGTTGGTCGAACTGGTCA"
+        ],
+        "RNA": [
+          "GGTTTGAGAGGTTGGTCGAACTGGTCA"
+        ]
+      }
+    },
+    "chr17-31233156-T-C_chr17-31233159-A-G": {
+      "combined_var_id": "chr17-31233156-T-C_chr17-31233159-A-G",
+      "var_id": "chr17-31233156-T-C",
+      "hgvsc": "c.3651T>C",
+      "hgvsp": "p.Asp1217%3D",
+      "exon_number": 27.0,
+      "syn_var": "chr17-31233159-A-G",
+      "consequence": "synonymous_variant",
+      "motifs": {
+        "DNA": [
+          "TGATGGGTGACCAGGGAGAACTCC"
+        ],
+        "RNA": [
+          "TGATGGGTGACCAGGGAGAACTCC"
+        ]
+      }
+    },
+    "chr17-31233156-T-C_chr17-31233162-A-G": {
+      "combined_var_id": "chr17-31233156-T-C_chr17-31233162-A-G",
+      "var_id": "chr17-31233156-T-C",
+      "hgvsc": "c.3651T>C",
+      "hgvsp": "p.Asp1217%3D",
+      "exon_number": 27.0,
+      "syn_var": "chr17-31233162-A-G",
+      "consequence": "synonymous_variant",
+      "motifs": {
+        "DNA": [
+          "TGATGGGTGACCAAGGGGAACTCCCTA"
+        ],
+        "RNA": [
+          "TGATGGGTGACCAAGGGGAACTCCCTA"
+        ]
+      }
+    },
+    "chr17-31330380-A-G_chr17-31330371-A-T": {
+      "combined_var_id": "chr17-31330380-A-G_chr17-31330371-A-T",
+      "var_id": "chr17-31330380-A-G",
+      "hgvsc": "c.5694A>G",
+      "hgvsp": "p.Leu1898%3D",
+      "exon_number": 39.0,
+      "syn_var": "chr17-31330371-A-T",
+      "consequence": "synonymous_variant",
+      "motifs": {
+        "DNA": [
+          "TACTAGAGACTTCAGGTTTGTGTATCCCTG"
+        ],
+        "RNA": [
+          "TACTAGAGACTTCAGGTTTGTGTATCCCTG"
+        ]
+      }
+    },
+    "chr17-31330380-A-G_chr17-31330377-T-G": {
+      "combined_var_id": "chr17-31330380-A-G_chr17-31330377-T-G",
+      "var_id": "chr17-31330380-A-G",
+      "hgvsc": "c.5694A>G",
+      "hgvsp": "p.Leu1898%3D",
+      "exon_number": 39.0,
+      "syn_var": "chr17-31330377-T-G",
+      "consequence": "synonymous_variant",
+      "motifs": {
+        "DNA": [
+          "AGACATCAGGGTTGTGTATCCCTG"
+        ],
+        "RNA": [
+          "AGACATCAGGGTTGTGTATCCCTG"
+        ]
+      }
+    },
+    "chr17-31330380-A-G_chr17-31330389-T-A": {
+      "combined_var_id": "chr17-31330380-A-G_chr17-31330389-T-A",
+      "var_id": "chr17-31330380-A-G",
+      "hgvsc": "c.5694A>G",
+      "hgvsp": "p.Leu1898%3D",
+      "exon_number": 39.0,
+      "syn_var": "chr17-31330389-T-A",
+      "consequence": "synonymous_variant",
+      "motifs": {
+        "DNA": [
+          "CATCAGGTTTGTGTATCCCAGCCAACAACA"
+        ],
+        "RNA": [
+          "CATCAGGTTTGTGTATCCCAGCCAACAACA"
+        ]
+      }
+    },
+    "chr17-31330392-C-T_chr17-31330386-C-T": {
+      "combined_var_id": "chr17-31330392-C-T_chr17-31330386-C-T",
+      "var_id": "chr17-31330392-C-T",
+      "hgvsc": "c.5706C>T",
+      "hgvsp": "p.Ala1902%3D",
+      "exon_number": 39.0,
+      "syn_var": "chr17-31330386-C-T",
+      "consequence": "synonymous_variant",
+      "motifs": {
+        "DNA": [
+          "GTTTATGTATTCCTGCTAACAACACCC"
+        ],
+        "RNA": [
+          "GTTTATGTATTCCTGCTAACAACACCC"
+        ]
+      }
+    },
+    "chr17-31330392-C-T_chr17-31330389-T-C": {
+      "combined_var_id": "chr17-31330392-C-T_chr17-31330389-T-C",
+      "var_id": "chr17-31330392-C-T",
+      "hgvsc": "c.5706C>T",
+      "hgvsp": "p.Ala1902%3D",
+      "exon_number": 39.0,
+      "syn_var": "chr17-31330389-T-C",
+      "consequence": "synonymous_variant",
+      "motifs": {
+        "DNA": [
+          "TATGTATCCCCGCTAACAACACCC"
+        ],
+        "RNA": [
+          "TATGTATCCCCGCTAACAACACCC"
+        ]
+      }
+    },
+    "chr17-31330395-C-T_chr17-31330392-C-A": {
+      "combined_var_id": "chr17-31330395-C-T_chr17-31330392-C-A",
+      "var_id": "chr17-31330395-C-T",
+      "hgvsc": "c.5709C>T",
+      "hgvsp": "p.Asn1903%3D",
+      "exon_number": 39.0,
+      "syn_var": "chr17-31330392-C-A",
+      "consequence": "synonymous_variant",
+      "motifs": {
+        "DNA": [
+          "GTATCCCTGCAAATAACACCCTCT"
+        ],
+        "RNA": [
+          "GTATCCCTGCAAATAACACCCTCT"
+        ]
+      }
+    },
+    "chr17-31330395-C-T_chr17-31330401-C-A": {
+      "combined_var_id": "chr17-31330395-C-T_chr17-31330401-C-A",
+      "var_id": "chr17-31330395-C-T",
+      "hgvsc": "c.5709C>T",
+      "hgvsp": "p.Asn1903%3D",
+      "exon_number": 39.0,
+      "syn_var": "chr17-31330401-C-A",
+      "consequence": "synonymous_variant",
+      "motifs": {
+        "DNA": [
+          "TCCCTGCCAATAACACACTCTTTATTG"
+        ],
+        "RNA": [
+          "TCCCTGCCAATAACACACTCTTTATTG"
+        ]
+      }
+    },
+    "chr17-31330422-T-C_chr17-31330416-T-C": {
+      "combined_var_id": "chr17-31330422-T-C_chr17-31330416-T-C",
+      "var_id": "chr17-31330422-T-C",
+      "hgvsc": "c.5736T>C",
+      "hgvsp": "p.Ser1912%3D",
+      "exon_number": 39.0,
+      "syn_var": "chr17-31330416-T-C",
+      "consequence": "synonymous_variant",
+      "motifs": {
+        "DNA": [
+          "TTATTGTCTCCATTAGCAAGACACTGG"
+        ],
+        "RNA": [
+          "TTATTGTCTCCATTAGCAAGACACTGG"
+        ]
+      }
+    },
+    "chr17-31330422-T-C_chr17-31330431-G-T": {
+      "combined_var_id": "chr17-31330422-T-C_chr17-31330431-G-T",
+      "var_id": "chr17-31330422-T-C",
+      "hgvsc": "c.5736T>C",
+      "hgvsp": "p.Ser1912%3D",
+      "exon_number": 39.0,
+      "syn_var": "chr17-31330431-G-T",
+      "consequence": "synonymous_variant",
+      "motifs": {
+        "DNA": [
+          "TCTCTATTAGCAAGACACTTGCAGCCAATG"
+        ],
+        "RNA": [
+          "TCTCTATTAGCAAGACACTTGCAGCCAATG"
+        ]
+      }
+    },
+    "chr17-31336736-C-A_chr17-31336733-A-C": {
+      "combined_var_id": "chr17-31336736-C-A_chr17-31336733-A-C",
+      "var_id": "chr17-31336736-C-A",
+      "hgvsc": "c.6249C>A",
+      "hgvsp": "p.Arg2083%3D",
+      "exon_number": 42.0,
+      "syn_var": "chr17-31336733-A-C",
+      "consequence": "synonymous_variant",
+      "motifs": {
+        "DNA": [
+          "CTATTTTAGCCCGATACATGCTGA"
+        ],
+        "RNA": [
+          "CTATTTTAGCCCGATACATGCTGA"
+        ]
+      }
+    },
+    "chr17-31336736-C-A_chr17-31336733-A-T": {
+      "combined_var_id": "chr17-31336736-C-A_chr17-31336733-A-T",
+      "var_id": "chr17-31336736-C-A",
+      "hgvsc": "c.6249C>A",
+      "hgvsp": "p.Arg2083%3D",
+      "exon_number": 42.0,
+      "syn_var": "chr17-31336733-A-T",
+      "consequence": "synonymous_variant",
+      "motifs": {
+        "DNA": [
+          "CTATTTTAGCTCGATACATGCTGA"
+        ],
+        "RNA": [
+          "CTATTTTAGCTCGATACATGCTGA"
+        ]
+      }
+    },
+    "chr17-31336736-C-G_chr17-31336727-T-A": {
+      "combined_var_id": "chr17-31336736-C-G_chr17-31336727-T-A",
+      "var_id": "chr17-31336736-C-G",
+      "hgvsc": "c.6249C>G",
+      "hgvsp": "p.Arg2083%3D",
+      "exon_number": 42.0,
+      "syn_var": "chr17-31336727-T-A",
+      "consequence": "synonymous_variant",
+      "motifs": {
+        "DNA": [
+          "ATATTGCTATATTAGCACGGTACATGCTGA"
+        ],
+        "RNA": [
+          "ATATTGCTATATTAGCACGGTACATGCTGA"
+        ]
+      }
+    },
+    "chr17-31336736-C-G_chr17-31336745-G-A": {
+      "combined_var_id": "chr17-31336736-C-G_chr17-31336745-G-A",
+      "var_id": "chr17-31336736-C-G",
+      "hgvsc": "c.6249C>G",
+      "hgvsp": "p.Arg2083%3D",
+      "exon_number": 42.0,
+      "syn_var": "chr17-31336745-G-A",
+      "consequence": "synonymous_variant",
+      "motifs": {
+        "DNA": [
+          "TTTTAGCACGGTACATGCTAATGCTGTCCT"
+        ],
+        "RNA": [
+          "TTTTAGCACGGTACATGCTAATGCTGTCCT"
+        ]
+      }
+    },
+    "chr17-31336736-C-T_chr17-31336728-T-C": {
+      "combined_var_id": "chr17-31336736-C-T_chr17-31336728-T-C",
+      "var_id": "chr17-31336736-C-T",
+      "hgvsc": "c.6249C>T",
+      "hgvsp": "p.Arg2083%3D",
+      "exon_number": 42.0,
+      "syn_var": "chr17-31336728-T-C",
+      "consequence": "synonymous_variant",
+      "motifs": {
+        "DNA": [
+          "TATTGCTATTCTAGCACGTTACATGCTGA"
+        ],
+        "RNA": [
+          "TATTGCTATTCTAGCACGTTACATGCTGA"
+        ]
+      }
+    },
+    "chr17-31336736-C-T_chr17-31336743-C-T": {
+      "combined_var_id": "chr17-31336736-C-T_chr17-31336743-C-T",
+      "var_id": "chr17-31336736-C-T",
+      "hgvsc": "c.6249C>T",
+      "hgvsp": "p.Arg2083%3D",
+      "exon_number": 42.0,
+      "syn_var": "chr17-31336743-C-T",
+      "consequence": "synonymous_variant",
+      "motifs": {
+        "DNA": [
+          "TTTTAGCACGTTACATGTTGATGCTGTC"
+        ],
+        "RNA": [
+          "TTTTAGCACGTTACATGTTGATGCTGTC"
+        ]
+      }
+    },
+    "chr17-31336772-T-C_chr17-31336766-C-T": {
+      "combined_var_id": "chr17-31336772-T-C_chr17-31336766-C-T",
+      "var_id": "chr17-31336772-T-C",
+      "hgvsc": "c.6285T>C",
+      "hgvsp": "p.Asp2095%3D",
+      "exon_number": 42.0,
+      "syn_var": "chr17-31336766-C-T",
+      "consequence": "synonymous_variant",
+      "motifs": {
+        "DNA": [
+          "TCAACAATTCTCTTGACGTGGCAGCTC"
+        ],
+        "RNA": [
+          "TCAACAATTCTCTTGACGTGGCAGCTC"
+        ]
+      }
+    },
+    "chr17-31336772-T-C_chr17-31336781-T-A": {
+      "combined_var_id": "chr17-31336772-T-C_chr17-31336781-T-A",
+      "var_id": "chr17-31336772-T-C",
+      "hgvsc": "c.6285T>C",
+      "hgvsp": "p.Asp2095%3D",
+      "exon_number": 42.0,
+      "syn_var": "chr17-31336781-T-A",
+      "consequence": "synonymous_variant",
+      "motifs": {
+        "DNA": [
+          "ATTCCCTTGACGTGGCAGCACATCTTCCCT"
+        ],
+        "RNA": [
+          "ATTCCCTTGACGTGGCAGCACATCTTCCCT"
+        ]
+      }
+    },
+    "chr17-31336802-C-T_chr17-31336793-C-T": {
+      "combined_var_id": "chr17-31336802-C-T_chr17-31336793-C-T",
+      "var_id": "chr17-31336802-C-T",
+      "hgvsc": "c.6315C>T",
+      "hgvsp": "p.His2105%3D",
+      "exon_number": 42.0,
+      "syn_var": "chr17-31336793-C-T",
+      "consequence": "synonymous_variant",
+      "motifs": {
+        "DNA": [
+          "ATCTTCCCTATCTCTTCCATGTTGTTACTT"
+        ],
+        "RNA": [
+          "ATCTTCCCTATCTCTTCCATGTTGTTACTT"
+        ]
+      }
+    },
+    "chr17-31336802-C-T_chr17-31336796-C-A": {
+      "combined_var_id": "chr17-31336802-C-T_chr17-31336796-C-A",
+      "var_id": "chr17-31336802-C-T",
+      "hgvsc": "c.6315C>T",
+      "hgvsp": "p.His2105%3D",
+      "exon_number": 42.0,
+      "syn_var": "chr17-31336796-C-A",
+      "consequence": "synonymous_variant",
+      "motifs": {
+        "DNA": [
+          "TTCCCTACCTATTCCATGTTGTTACTT"
+        ],
+        "RNA": [
+          "TTCCCTACCTATTCCATGTTGTTACTT"
+        ]
+      }
+    },
+    "chr17-31336865-C-A_chr17-31336862-G-C": {
+      "combined_var_id": "chr17-31336865-C-A_chr17-31336862-G-C",
+      "var_id": "chr17-31336865-C-A",
+      "hgvsc": "c.6378C>A",
+      "hgvsp": "p.Val2126%3D",
+      "exon_number": 42.0,
+      "syn_var": "chr17-31336862-G-C",
+      "consequence": "synonymous_variant",
+      "motifs": {
+        "DNA": [
+          "CACATGGACTCGTAATTAATATCA"
+        ],
+        "RNA": [
+          "CACATGGACTCGTAATTAATATCA"
+        ]
+      }
+    },
+    "chr17-31336865-C-A_chr17-31336871-T-C": {
+      "combined_var_id": "chr17-31336865-C-A_chr17-31336871-T-C",
+      "var_id": "chr17-31336865-C-A",
+      "hgvsc": "c.6378C>A",
+      "hgvsp": "p.Val2126%3D",
+      "exon_number": 42.0,
+      "syn_var": "chr17-31336871-T-C",
+      "consequence": "synonymous_variant",
+      "motifs": {
+        "DNA": [
+          "ATGGACTGGTAATTAACATCATTCACT"
+        ],
+        "RNA": [
+          "ATGGACTGGTAATTAACATCATTCACT"
+        ]
+      }
+    },
+    "chr17-31336865-C-A_chr17-31336874-C-A": {
+      "combined_var_id": "chr17-31336865-C-A_chr17-31336874-C-A",
+      "var_id": "chr17-31336865-C-A",
+      "hgvsc": "c.6378C>A",
+      "hgvsp": "p.Val2126%3D",
+      "exon_number": 42.0,
+      "syn_var": "chr17-31336874-C-A",
+      "consequence": "synonymous_variant",
+      "motifs": {
+        "DNA": [
+          "ATGGACTGGTAATTAATATAATTCACTCTC"
+        ],
+        "RNA": [
+          "ATGGACTGGTAATTAATATAATTCACTCTC"
+        ]
+      }
+    },
+    "chr17-31336865-C-G_chr17-31336860-C-T": {
+      "combined_var_id": "chr17-31336865-C-G_chr17-31336860-C-T",
+      "var_id": "chr17-31336865-C-G",
+      "hgvsc": "c.6378C>G",
+      "hgvsp": "p.Val2126%3D",
+      "exon_number": 42.0,
+      "syn_var": "chr17-31336860-C-T",
+      "consequence": "synonymous_variant",
+      "motifs": {
+        "DNA": [
+          "CACACATGGATTGGTGATTAATATCA"
+        ],
+        "RNA": [
+          "CACACATGGATTGGTGATTAATATCA"
+        ]
+      }
+    },
+    "chr17-31336865-C-G_chr17-31336868-T-A": {
+      "combined_var_id": "chr17-31336865-C-G_chr17-31336868-T-A",
+      "var_id": "chr17-31336865-C-G",
+      "hgvsc": "c.6378C>G",
+      "hgvsp": "p.Val2126%3D",
+      "exon_number": 42.0,
+      "syn_var": "chr17-31336868-T-A",
+      "consequence": "synonymous_variant",
+      "motifs": {
+        "DNA": [
+          "ATGGACTGGTGATAAATATCATTC"
+        ],
+        "RNA": [
+          "ATGGACTGGTGATAAATATCATTC"
+        ]
+      }
+    },
+    "chr17-31336865-C-T_chr17-31336856-T-C": {
+      "combined_var_id": "chr17-31336865-C-T_chr17-31336856-T-C",
+      "var_id": "chr17-31336865-C-T",
+      "hgvsc": "c.6378C>T",
+      "hgvsp": "p.Val2126%3D",
+      "exon_number": 42.0,
+      "syn_var": "chr17-31336856-T-C",
+      "consequence": "synonymous_variant",
+      "motifs": {
+        "DNA": [
+          "CTTCCACACACGGACTGGTTATTAATATCA"
+        ],
+        "RNA": [
+          "CTTCCACACACGGACTGGTTATTAATATCA"
+        ]
+      }
+    },
+    "chr17-31336865-C-T_chr17-31336868-T-A": {
+      "combined_var_id": "chr17-31336865-C-T_chr17-31336868-T-A",
+      "var_id": "chr17-31336865-C-T",
+      "hgvsc": "c.6378C>T",
+      "hgvsp": "p.Val2126%3D",
+      "exon_number": 42.0,
+      "syn_var": "chr17-31336868-T-A",
+      "consequence": "synonymous_variant",
+      "motifs": {
+        "DNA": [
+          "ATGGACTGGTTATAAATATCATTC"
+        ],
+        "RNA": [
+          "ATGGACTGGTTATAAATATCATTC"
+        ]
+      }
+    }
+  },
+  "cell_contexts": [
+    "K562",
+    "KBM7"
+  ],
+  "expected_state_cell_rows": 3,
+  "groups_count": 30,
+  "states_count": 66,
+  "all_synonymous_groups": 63,
+  "single_marker_ineligible_groups": [
+    "chr17-31225115-T-C",
+    "chr17-31225136-G-A",
+    "chr17-31225145-T-C",
+    "chr17-31225175-A-G",
+    "chr17-31225197-T-C",
+    "chr17-31225232-A-C",
+    "chr17-31225235-A-G",
+    "chr17-31232077-T-C",
+    "chr17-31232109-A-C",
+    "chr17-31232145-A-C",
+    "chr17-31232172-A-G",
+    "chr17-31232178-G-A",
+    "chr17-31232181-A-G",
+    "chr17-31233004-T-C",
+    "chr17-31233018-G-A",
+    "chr17-31233075-C-T",
+    "chr17-31233127-T-C",
+    "chr17-31233135-A-G",
+    "chr17-31233159-A-G",
+    "chr17-31260457-T-C",
+    "chr17-31260483-G-A",
+    "chr17-31260486-G-A",
+    "chr17-31260489-A-G",
+    "chr17-31260498-G-A",
+    "chr17-31330320-T-C",
+    "chr17-31330342-T-C",
+    "chr17-31330374-A-C",
+    "chr17-31330378-T-C",
+    "chr17-31330425-G-A",
+    "chr17-31336673-C-T",
+    "chr17-31336728-T-C",
+    "chr17-31336793-C-T",
+    "chr17-31336844-A-G"
+  ],
+  "input_sha256": {
+    "selected_assay_metadata.json": "4a0bf731a768b100d98cd03ee24a41474b4e6cb5924b33270cf0ae00180bb2c0",
+    "search_sequence_metadata.json": "3d3e0b4405283d748ff03c19e8cbdec639018c0270672114e8230c7d27eff814",
+    "measurement_contract.json": "f8114d02891cfdcd643de8e022c480aee3f7ab40d5ec1b178f093cf0310b657f",
+    "supp_Supplementary Data 8.xlsx": "6a8f0c21100c57e30bce6d1ca9d62f3eb5999c4dce1870baa7eabe20fc4a9f9b"
+  },
+  "exons": [
+    17,
+    25,
+    27,
+    39,
+    42
+  ],
+  "phenotype_values_inspected": false
+}

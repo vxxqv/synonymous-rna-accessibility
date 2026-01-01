@@ -1,0 +1,44 @@
+{
+  "status": "pass",
+  "arithmetic": "fractions.Fraction with infinity sentinels, no tolerance",
+  "range_patterns_by_marker_count": {
+    "1": 15,
+    "2": 225,
+    "3": 3375
+  },
+  "total_range_patterns": 3615,
+  "two_cell_two_marker_pairs_exhaustive_on_declared_grid": 50625,
+  "two_cell_three_marker_pairs_fixed_subset": 2048,
+  "test_grid": [
+    "0",
+    "1/2",
+    "1",
+    "3/2",
+    "2"
+  ],
+  "interval_inventory_size": 15,
+  "known_answer_examples": {
+    "nested_intervals_range": [
+      "0",
+      "6"
+    ],
+    "one_marker_unbounded_range": [
+      "0",
+      "0"
+    ],
+    "missing_plus_disjoint_range": [
+      "2",
+      "infinity"
+    ],
+    "bounded_interaction_alpha": [
+      "1",
+      "2"
+    ],
+    "unrestricted_interaction_opposite_effects": true,
+    "strict_reversal_rejected": true,
+    "touching_ties_accepted": true
+  },
+  "invalid_input_rejections": 4,
+  "test_source_sha256": "8382bfa9243f8831cc37669ded33724825d8469988503adaedf15c3d5b8af20e",
+  "scope": "Synthetic finite checks supplement the general proofs; not empirical data, exhaustive real-interval enumeration, or independent external review."
+}

@@ -1,0 +1,53 @@
+{
+  "status": "pass",
+  "source_runner_sha256": "bfba04ed71fe695978327680e54fca45b197da42809db0632fe935a4e95d3cd7",
+  "core_sha256": "9d0bd0f3363e158e4df1cb028c7922b0bf94284bc6169138f894b072871c4cf9",
+  "synthetic_checks": [
+    "full66state_132cell_396row_fixture_all4widenings_all60bounds_all5exons_and_row_permutation",
+    "identity_before_outcome_conversion",
+    "unselected_shared_string_header_body_formula_and_row_never_decoded",
+    "zero_and_negative_finite_score_gross_disagreement_fail_source_reproduction",
+    "file_consistency_exact_tolerance_boundary_no_scientific_epsilon",
+    "blank_zero_nonfinite_measurement_unknown_state_retained",
+    "missing_or_extra_metadata_row_integrity_failure",
+    "within_row_RNA_DNA_pairing_preserved"
+  ],
+  "guard_checks": [
+    {
+      "case": "authorized_synthetic_only_CLI",
+      "passed": true
+    },
+    {
+      "case": "-O",
+      "rejected_before_output": true
+    },
+    {
+      "case": "-OO",
+      "rejected_before_output": true
+    },
+    {
+      "case": "existing_output",
+      "rejected": true
+    },
+    {
+      "case": "authorization_denied",
+      "rejected_before_output": true
+    },
+    {
+      "case": "wrong_freeze_hash",
+      "rejected_before_output": true
+    },
+    {
+      "case": "modified_scientific_module",
+      "rejected_before_import_canary_and_output": true
+    },
+    {
+      "case": "changed_synthetic_source",
+      "rejected_before_output": true
+    }
+  ],
+  "actual_source_workbook_opened": false,
+  "production_analysis_run": false,
+  "only_cli_run": "Isolated copied layout with entirely invented 396-row workbook",
+  "shared_source_files_modified": false
+}

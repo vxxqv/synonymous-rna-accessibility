@@ -1,0 +1,24 @@
+{
+  "status": "pass_for_preoutcome_freeze",
+  "inputs": {
+    "protocol.md": "5cb5711d220f91c179b8ee428dea0e91c72a725382032bc8a82083f0e5ec2e4f",
+    "interval_core.py": "9d0bd0f3363e158e4df1cb028c7922b0bf94284bc6169138f894b072871c4cf9",
+    "run_pilot.py": "bfba04ed71fe695978327680e54fca45b197da42809db0632fe935a4e95d3cd7",
+    "prepare_metadata.py": "9ed008c98b8d51a6b7473404f12bb4e2321c326c666251d75021e816fa1e7cc9",
+    "eligibility.json": "c5c2b20e6729918219c5cf3deb757ff242241cdf53f0f635f1dc7d677282ee32",
+    "test_synthetic.py": "448b75c062da3fa52ef97a38629d4cd0f80a6c24cc9734e1baf19dfd5b9a68a8",
+    "synthetic_receipt.json": "90ac157ab715bb0eea70e8cd49650e402e45c372183466a726e2ba696d6d4d76"
+  },
+  "review_files": {
+    "math_checks.json": "a0377a421fcb2585043869c8cb0be4630d1f9fadcea16f8318db60d5bb8b6904",
+    "reader_checks.json": "c40e043b27f8d41de07ef2e87e98d37d9284ae5afbff587fc206f4a8c0f7cdb3",
+    "review.md": "dc74c456d9e3c0853b5320872d538eeac541bdc6f046d685867c37ac5c28a4ad",
+    "verify_math.py": "0a17768fa98fcf66b6494d0d87d2be4b0c6cf2f02f16ecb1f803ea492a7b3102",
+    "verify_reader.py": "2ef00b2a51736294e2b2be5a5ae8caab78bd7fb21a6d4ca70b37f9f0535e0683"
+  },
+  "real_source_workbook_opened": false,
+  "real_source_outcome_access": false,
+  "production_execution": false,
+  "shared_files_modified_by_reviewer": false,
+  "condition": "Root must freeze all accepted protocol/code/eligibility/source bytes and grant explicit authorization before real outcomes; no such authorization inferred here."
+}

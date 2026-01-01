@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "finite_bound_oracles": 1100,
+  "shared_order_permutation_oracles": 500,
+  "cyclic_fixtures": 51,
+  "known_positive_negative_tie_missing_cases": true,
+  "selective_reader_poison_checks": true,
+  "biological_outcomes_read": false,
+  "code_sha256": {
+    "interval_core.py": "9d0bd0f3363e158e4df1cb028c7922b0bf94284bc6169138f894b072871c4cf9",
+    "run_pilot.py": "bfba04ed71fe695978327680e54fca45b197da42809db0632fe935a4e95d3cd7",
+    "test_synthetic.py": "448b75c062da3fa52ef97a38629d4cd0f80a6c24cc9734e1baf19dfd5b9a68a8"
+  }
+}

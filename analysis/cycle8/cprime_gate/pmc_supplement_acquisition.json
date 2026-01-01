@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC13675207.1/41467_2026_78344_MOESM2_ESM.pdf",
+    "path": "41467_2026_78344_MOESM2_ESM.pdf",
+    "status": 200,
+    "bytes": 6405,
+    "sha256": "f3a462ddaa2669e54a101bd58c2f2dd87dc347f0781a89161b794187e67eb35c"
+  },
+  {
+    "url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC13675207.1/41467_2026_78344_MOESM3_ESM.zip",
+    "path": "41467_2026_78344_MOESM3_ESM.zip",
+    "status": 200,
+    "bytes": 748065,
+    "sha256": "a88a9850874d0ef21478406c6e7c9e437dc7fe7f29ece32c84033efe8940a614"
+  },
+  {
+    "url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC13675207.1/41467_2026_78344_MOESM6_ESM.xlsx",
+    "path": "41467_2026_78344_MOESM6_ESM.xlsx",
+    "status": 200,
+    "bytes": 250820,
+    "sha256": "e998ec4e4f1b52faad2b11746352836e89e305cd5fc53b3cbec991fb07a3dc03"
+  },
+  {
+    "url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC13675207.1/41467_2026_78344_MOESM7_ESM.xlsx",
+    "path": "41467_2026_78344_MOESM7_ESM.xlsx",
+    "status": 200,
+    "bytes": 127681,
+    "sha256": "296f3c94a27ac20be42df35479923ec6ab737c7b8bb756a537c4fee8781bbf78"
+  }
+]

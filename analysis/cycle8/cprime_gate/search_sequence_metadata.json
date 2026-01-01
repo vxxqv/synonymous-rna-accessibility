@@ -1,0 +1,4094 @@
+[
+  {
+    "id": "chr17-31225098-G-A_chr17-31225106-A-G",
+    "motif": "TTTCTAGCAGACAGATAGGAGTTCCTGTC",
+    "source_file": "author_ss_E17_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31225098-G-A_chr17-31225109-T-C",
+    "motif": "TTTCTAGCAGACAGATAGAAGCTCCTGTCACT",
+    "source_file": "author_ss_E17_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31225098-G-T_chr17-31225106-A-G",
+    "motif": "TTTCTAGCAGTCAGATAGGAGTTCCTGTC",
+    "source_file": "author_ss_E17_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31225098-G-T_chr17-31225109-T-C",
+    "motif": "TTTCTAGCAGTCAGATAGAAGCTCCTGTCACT",
+    "source_file": "author_ss_E17_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31225100-A-T_chr17-31225106-A-G",
+    "motif": "TCTAGCAGGCTGATAGGAGTTCCTGTC",
+    "source_file": "author_ss_E17_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31225100-A-T_chr17-31225109-T-C",
+    "motif": "TCTAGCAGGCTGATAGAAGCTCCTGTCACT",
+    "source_file": "author_ss_E17_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31225105-G-A_chr17-31225109-T-C",
+    "motif": "CAGGCAGATAAAAGCTCCTGTCACT",
+    "source_file": "author_ss_E17_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31225105-G-A_chr17-31225112-C-G",
+    "motif": "CAGGCAGATAAAAGTTCGTGTCACTTTC",
+    "source_file": "author_ss_E17_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31225105-G-T_chr17-31225109-T-C",
+    "motif": "CAGGCAGATATAAGCTCCTGTCACT",
+    "source_file": "author_ss_E17_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31225105-G-T_chr17-31225112-C-G",
+    "motif": "CAGGCAGATATAAGTTCGTGTCACTTTC",
+    "source_file": "author_ss_E17_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31225105-G-T_chr17-31225115-T-C",
+    "motif": "CAGGCAGATATAAGTTCCTGCCACTTTCTCC",
+    "source_file": "author_ss_E17_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31225108-G-A_chr17-31225100-A-C",
+    "motif": "TCTAGCAGGCCGATAGAAATTCCTGTCAC",
+    "source_file": "author_ss_E17_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31225108-G-A_chr17-31225112-C-G",
+    "motif": "GCAGATAGAAATTCGTGTCACTTTC",
+    "source_file": "author_ss_E17_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31225111-C-A_chr17-31225103-T-C",
+    "motif": "AGCAGGCAGACAGAAGTTACTGTCACTTT",
+    "source_file": "author_ss_E17_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31225111-C-A_chr17-31225106-A-G",
+    "motif": "AGGCAGATAGGAGTTACTGTCACTTT",
+    "source_file": "author_ss_E17_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31225111-C-A_chr17-31225109-T-C",
+    "motif": "CAGATAGAAGCTACTGTCACTTT",
+    "source_file": "author_ss_E17_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31225112-C-A_chr17-31225103-T-C",
+    "motif": "AGCAGGCAGACAGAAGTTCATGTCACTTTC",
+    "source_file": "author_ss_E17_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31225112-C-A_chr17-31225106-A-G",
+    "motif": "AGGCAGATAGGAGTTCATGTCACTTTC",
+    "source_file": "author_ss_E17_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31225112-C-T_chr17-31225106-A-G",
+    "motif": "AGGCAGATAGGAGTTCTTGTCACTTTC",
+    "source_file": "author_ss_E17_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31225112-C-T_chr17-31225109-T-C",
+    "motif": "CAGATAGAAGCTCTTGTCACTTTC",
+    "source_file": "author_ss_E17_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31225114-G-A_chr17-31225106-A-G",
+    "motif": "AGGCAGATAGGAGTTCCTATCACTTTCTC",
+    "source_file": "author_ss_E17_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31225114-G-C_chr17-31225112-C-T",
+    "motif": "ATAGAAGTTCTTCTCACTTTCTC",
+    "source_file": "author_ss_E17_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31225114-G-T_chr17-31225109-T-C",
+    "motif": "CAGATAGAAGCTCCTTTCACTTTCTC",
+    "source_file": "author_ss_E17_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31225114-G-T_chr17-31225112-C-G",
+    "motif": "ATAGAAGTTCGTTTCACTTTCTC",
+    "source_file": "author_ss_E17_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31225115-T-A_chr17-31225106-A-G",
+    "motif": "AGGCAGATAGGAGTTCCTGACACTTTCTCC",
+    "source_file": "author_ss_E17_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31225115-T-A_chr17-31225112-C-T",
+    "motif": "ATAGAAGTTCTTGACACTTTCTCC",
+    "source_file": "author_ss_E17_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31225115-T-C_chr17-31225109-T-C",
+    "motif": "CAGATAGAAGCTCCTGCCACTTTCTCC",
+    "source_file": "author_ss_E17_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31225116-C-A_chr17-31225109-T-C",
+    "motif": "CAGATAGAAGCTCCTGTAACTTTCTCCT",
+    "source_file": "author_ss_E17_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31225116-C-A_chr17-31225112-C-G",
+    "motif": "ATAGAAGTTCGTGTAACTTTCTCCT",
+    "source_file": "author_ss_E17_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31225116-C-A_chr17-31225127-T-A",
+    "motif": "AAGTTCCTGTAACTTTCTCCTATTTTACGGGG",
+    "source_file": "author_ss_E17_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31225116-C-T_chr17-31225109-T-C",
+    "motif": "CAGATAGAAGCTCCTGTTACTTTCTCCT",
+    "source_file": "author_ss_E17_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31225116-C-T_chr17-31225112-C-G",
+    "motif": "ATAGAAGTTCGTGTTACTTTCTCCT",
+    "source_file": "author_ss_E17_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31225132-A-C_chr17-31225142-A-C",
+    "motif": "CTCCTTTTTTCCGGGGTAGGCTGTGATATTC",
+    "source_file": "author_ss_E17_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31225132-A-C_chr17-31225142-A-G",
+    "motif": "CTCCTTTTTTCCGGGGTAGGGTGTGATATTC",
+    "source_file": "author_ss_E17_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31225132-A-T_chr17-31225142-A-C",
+    "motif": "CTCCTTTTTTTCGGGGTAGGCTGTGATATTC",
+    "source_file": "author_ss_E17_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31225132-A-T_chr17-31225142-A-G",
+    "motif": "CTCCTTTTTTTCGGGGTAGGGTGTGATATTC",
+    "source_file": "author_ss_E17_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31225133-C-G_chr17-31225130-T-C",
+    "motif": "TTCTCCTTTTCTAGGGGGTAGGAT",
+    "source_file": "author_ss_E17_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31225133-C-G_chr17-31225142-A-C",
+    "motif": "TCCTTTTTTAGGGGGTAGGCTGTGATATTC",
+    "source_file": "author_ss_E17_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31225133-C-G_chr17-31225142-A-G",
+    "motif": "TCCTTTTTTAGGGGGTAGGGTGTGATATTC",
+    "source_file": "author_ss_E17_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31225133-C-T_chr17-31225136-G-C",
+    "motif": "TCCTTTTTTATGGCGTAGGATGTG",
+    "source_file": "author_ss_E17_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31225133-C-T_chr17-31225142-A-C",
+    "motif": "TCCTTTTTTATGGGGTAGGCTGTGATATTC",
+    "source_file": "author_ss_E17_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31225133-C-T_chr17-31225142-A-G",
+    "motif": "TCCTTTTTTATGGGGTAGGGTGTGATATTC",
+    "source_file": "author_ss_E17_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31225134-G-A_chr17-31225142-A-C",
+    "motif": "CCTTTTTTACAGGGTAGGCTGTGATATTC",
+    "source_file": "author_ss_E17_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31225134-G-C_chr17-31225142-A-C",
+    "motif": "CCTTTTTTACCGGGTAGGCTGTGATATTC",
+    "source_file": "author_ss_E17_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31225134-G-C_chr17-31225145-T-C",
+    "motif": "CCTTTTTTACCGGGTAGGATGCGATATTCCTT",
+    "source_file": "author_ss_E17_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31225134-G-T_chr17-31225133-C-T",
+    "motif": "TCCTTTTTTATTGGGTAGGATG",
+    "source_file": "author_ss_E17_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31225134-G-T_chr17-31225142-A-C",
+    "motif": "CCTTTTTTACTGGGTAGGCTGTGATATTC",
+    "source_file": "author_ss_E17_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31225134-G-T_chr17-31225142-A-G",
+    "motif": "CCTTTTTTACTGGGTAGGGTGTGATATTC",
+    "source_file": "author_ss_E17_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31225135-G-C_chr17-31225142-A-C",
+    "motif": "CTTTTTTACGCGGTAGGCTGTGATATTC",
+    "source_file": "author_ss_E17_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31225135-G-C_chr17-31225145-T-C",
+    "motif": "CTTTTTTACGCGGTAGGATGCGATATTCCTT",
+    "source_file": "author_ss_E17_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31225135-G-T_chr17-31225142-A-C",
+    "motif": "CTTTTTTACGTGGTAGGCTGTGATATTC",
+    "source_file": "author_ss_E17_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31225135-G-T_chr17-31225145-T-C",
+    "motif": "CTTTTTTACGTGGTAGGATGCGATATTCCTT",
+    "source_file": "author_ss_E17_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31225136-G-A_chr17-31225145-T-C",
+    "motif": "TTTTTTACGGAGTAGGATGCGATATTCCTT",
+    "source_file": "author_ss_E17_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31225136-G-T_chr17-31225142-A-C",
+    "motif": "TTTTTTACGGTGTAGGCTGTGATATTC",
+    "source_file": "author_ss_E17_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31225136-G-T_chr17-31225145-T-C",
+    "motif": "TTTTTTACGGTGTAGGATGCGATATTCCTT",
+    "source_file": "author_ss_E17_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31225145-T-A_chr17-31225151-T-C",
+    "motif": "GGGTAGGATGAGATATCCCTTCTAGTG",
+    "source_file": "author_ss_E17_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31225145-T-C_chr17-31225151-T-C",
+    "motif": "GGGTAGGATGCGATATCCCTTCTAGTG",
+    "source_file": "author_ss_E17_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31225173-C-T_chr17-31225181-C-T",
+    "motif": "AAATACCAGTTAAATGTCTATGGATCATG",
+    "source_file": "author_ss_E17_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31225175-A-G_chr17-31225166-T-C",
+    "motif": "CTAGTGGAAACACCAGTCAGATGTCCATGG",
+    "source_file": "author_ss_E17_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31225197-T-C_chr17-31225190-T-C",
+    "motif": "CCATGGATCACGAAGAACTACTACGTAC",
+    "source_file": "author_ss_E17_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31225198-T-A_chr17-31225205-T-C",
+    "motif": "CATGAAGAATAACTACGCACTCCTGGAG",
+    "source_file": "author_ss_E17_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31225200-C-G_chr17-31225205-T-G",
+    "motif": "TGAAGAATTAGTACGGACTCCTGGAG",
+    "source_file": "author_ss_E17_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31225200-C-G_chr17-31225208-T-A",
+    "motif": "TGAAGAATTAGTACGTACACCTGGAGCCT",
+    "source_file": "author_ss_E17_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31225200-C-G_chr17-31225211-T-A",
+    "motif": "TGAAGAATTAGTACGTACTCCAGGAGCCTCTC",
+    "source_file": "author_ss_E17_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31225200-C-T_chr17-31225197-T-C",
+    "motif": "TCATGAAGAACTATTACGTACTCC",
+    "source_file": "author_ss_E17_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31225200-C-T_chr17-31225205-T-C",
+    "motif": "TGAAGAATTATTACGCACTCCTGGAG",
+    "source_file": "author_ss_E17_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31225203-C-G_chr17-31225202-A-T",
+    "motif": "AAGAATTACTTGGTACTCCTGG",
+    "source_file": "author_ss_E17_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31225203-C-G_chr17-31225211-T-C",
+    "motif": "AGAATTACTAGGTACTCCCGGAGCCTCTC",
+    "source_file": "author_ss_E17_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31225203-C-G_chr17-31225214-A-T",
+    "motif": "AGAATTACTAGGTACTCCTGGTGCCTCTCTCC",
+    "source_file": "author_ss_E17_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31225203-C-T_chr17-31225208-T-A",
+    "motif": "AGAATTACTATGTACACCTGGAGCCT",
+    "source_file": "author_ss_E17_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31225203-C-T_chr17-31225214-A-C",
+    "motif": "AGAATTACTATGTACTCCTGGCGCCTCTCTCC",
+    "source_file": "author_ss_E17_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31225226-G-A_chr17-31225220-T-C",
+    "motif": "CTGGAGCCTCCCTCCGAAAGGGAAAAG",
+    "source_file": "author_ss_E17_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31225226-G-A_chr17-31225223-C-G",
+    "motif": "GAGCCTCTCTGCGAAAGGGAAAAG",
+    "source_file": "author_ss_E17_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31225226-G-T_chr17-31225220-T-C",
+    "motif": "CTGGAGCCTCCCTCCGTAAGGGAAAAG",
+    "source_file": "author_ss_E17_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31225226-G-T_chr17-31225220-T-G",
+    "motif": "CTGGAGCCTCGCTCCGTAAGGGAAAAG",
+    "source_file": "author_ss_E17_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31225226-G-T_chr17-31225229-G-A",
+    "motif": "CCTCTCTCCGTAAAGGAAAAGGGA",
+    "source_file": "author_ss_E17_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31225227-A-T_chr17-31225220-T-A",
+    "motif": "CTGGAGCCTCACTCCGGTAGGGAAAAGG",
+    "source_file": "author_ss_E17_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31225227-A-T_chr17-31225223-C-T",
+    "motif": "GAGCCTCTCTTCGGTAGGGAAAAGG",
+    "source_file": "author_ss_E17_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31225227-A-T_chr17-31225226-G-C",
+    "motif": "CCTCTCTCCGCTAGGGAAAAGG",
+    "source_file": "author_ss_E17_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31225230-G-T_chr17-31225229-G-A",
+    "motif": "CTCTCCGGAAATGAAAAGGGAA",
+    "source_file": "author_ss_E17_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31225231-G-T_chr17-31225229-G-A",
+    "motif": "CTCTCCGGAAAGTAAAAGGGAAC",
+    "source_file": "author_ss_E17_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31225231-G-T_chr17-31225235-A-G",
+    "motif": "CTCCGGAAGGTAAAGGGGAACTCCT",
+    "source_file": "author_ss_E17_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31225231-G-T_chr17-31225238-G-C",
+    "motif": "CTCCGGAAGGTAAAAGGCAACTCCTCTA",
+    "source_file": "author_ss_E17_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31225232-A-C_chr17-31225226-G-C",
+    "motif": "CCTCTCTCCGCAAGGGCAAAGGGAACT",
+    "source_file": "author_ss_E17_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31225232-A-G_chr17-31225226-G-A",
+    "motif": "CCTCTCTCCGAAAGGGGAAAGGGAACT",
+    "source_file": "author_ss_E17_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31225232-A-G_chr17-31225241-C-T",
+    "motif": "TCCGGAAGGGGAAAGGGAATTCCTCTATGG",
+    "source_file": "author_ss_E17_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31225232-A-T_chr17-31225223-C-G",
+    "motif": "GAGCCTCTCTGCGGAAGGGTAAAGGGAACT",
+    "source_file": "author_ss_E17_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31225232-A-T_chr17-31225238-G-C",
+    "motif": "TCCGGAAGGGTAAAGGCAACTCCTCTA",
+    "source_file": "author_ss_E17_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31225233-A-T_chr17-31225241-C-T",
+    "motif": "CCGGAAGGGATAAGGGAATTCCTCTATGG",
+    "source_file": "author_ss_E17_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31225235-A-G_chr17-31225241-C-T",
+    "motif": "GGAAGGGAAAGGGGAATTCCTCTATGG",
+    "source_file": "author_ss_E17_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31225238-G-A_chr17-31225244-C-A",
+    "motif": "AGGGAAAAGGAAACTCATCTATGGTCA",
+    "source_file": "author_ss_E17_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31225238-G-A_chr17-31225244-C-G",
+    "motif": "AGGGAAAAGGAAACTCGTCTATGGTCA",
+    "source_file": "author_ss_E17_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31225238-G-T_chr17-31225241-C-T",
+    "motif": "AGGGAAAAGGTAATTCCTCTATGG",
+    "source_file": "author_ss_E17_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31225238-G-T_chr17-31225244-C-T",
+    "motif": "AGGGAAAAGGTAACTCTTCTATGGTCA",
+    "source_file": "author_ss_E17_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31225239-A-T_chr17-31225232-A-C",
+    "motif": "TCCGGAAGGGCAAAGGGTACTCCTCTAT",
+    "source_file": "author_ss_E17_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31225239-A-T_chr17-31225235-A-G",
+    "motif": "GGAAGGGAAAGGGGTACTCCTCTAT",
+    "source_file": "author_ss_E17_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31225239-A-T_chr17-31225247-T-C",
+    "motif": "GGGAAAAGGGTACTCCTCCATGGTCAGCT",
+    "source_file": "author_ss_E17_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31225098-G-A_chr17-31225106-A-G",
+    "motif": "AAATAAGCAGACAGATAGGAGTTCCTGTC",
+    "source_file": "author_ss_E17_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31225098-G-A_chr17-31225109-T-C",
+    "motif": "AAATAAGCAGACAGATAGAAGCTCCTGTCACT",
+    "source_file": "author_ss_E17_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31225098-G-T_chr17-31225106-A-G",
+    "motif": "AAATAAGCAGTCAGATAGGAGTTCCTGTC",
+    "source_file": "author_ss_E17_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31225098-G-T_chr17-31225109-T-C",
+    "motif": "AAATAAGCAGTCAGATAGAAGCTCCTGTCACT",
+    "source_file": "author_ss_E17_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31225100-A-T_chr17-31225106-A-G",
+    "motif": "ATAAGCAGGCTGATAGGAGTTCCTGTC",
+    "source_file": "author_ss_E17_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31225100-A-T_chr17-31225109-T-C",
+    "motif": "ATAAGCAGGCTGATAGAAGCTCCTGTCACT",
+    "source_file": "author_ss_E17_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31225105-G-A_chr17-31225109-T-C",
+    "motif": "CAGGCAGATAAAAGCTCCTGTCACT",
+    "source_file": "author_ss_E17_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31225105-G-A_chr17-31225112-C-G",
+    "motif": "CAGGCAGATAAAAGTTCGTGTCACTTTC",
+    "source_file": "author_ss_E17_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31225105-G-T_chr17-31225109-T-C",
+    "motif": "CAGGCAGATATAAGCTCCTGTCACT",
+    "source_file": "author_ss_E17_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31225105-G-T_chr17-31225112-C-G",
+    "motif": "CAGGCAGATATAAGTTCGTGTCACTTTC",
+    "source_file": "author_ss_E17_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31225105-G-T_chr17-31225115-T-C",
+    "motif": "CAGGCAGATATAAGTTCCTGCCACTTTCTCC",
+    "source_file": "author_ss_E17_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31225108-G-A_chr17-31225100-A-C",
+    "motif": "ATAAGCAGGCCGATAGAAATTCCTGTCAC",
+    "source_file": "author_ss_E17_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31225108-G-A_chr17-31225112-C-G",
+    "motif": "GCAGATAGAAATTCGTGTCACTTTC",
+    "source_file": "author_ss_E17_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31225111-C-A_chr17-31225103-T-C",
+    "motif": "AGCAGGCAGACAGAAGTTACTGTCACTTT",
+    "source_file": "author_ss_E17_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31225111-C-A_chr17-31225106-A-G",
+    "motif": "AGGCAGATAGGAGTTACTGTCACTTT",
+    "source_file": "author_ss_E17_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31225111-C-A_chr17-31225109-T-C",
+    "motif": "CAGATAGAAGCTACTGTCACTTT",
+    "source_file": "author_ss_E17_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31225112-C-A_chr17-31225103-T-C",
+    "motif": "AGCAGGCAGACAGAAGTTCATGTCACTTTC",
+    "source_file": "author_ss_E17_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31225112-C-A_chr17-31225106-A-G",
+    "motif": "AGGCAGATAGGAGTTCATGTCACTTTC",
+    "source_file": "author_ss_E17_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31225112-C-T_chr17-31225106-A-G",
+    "motif": "AGGCAGATAGGAGTTCTTGTCACTTTC",
+    "source_file": "author_ss_E17_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31225112-C-T_chr17-31225109-T-C",
+    "motif": "CAGATAGAAGCTCTTGTCACTTTC",
+    "source_file": "author_ss_E17_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31225114-G-A_chr17-31225106-A-G",
+    "motif": "AGGCAGATAGGAGTTCCTATCACTTTCTC",
+    "source_file": "author_ss_E17_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31225114-G-C_chr17-31225112-C-T",
+    "motif": "ATAGAAGTTCTTCTCACTTTCTC",
+    "source_file": "author_ss_E17_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31225114-G-T_chr17-31225109-T-C",
+    "motif": "CAGATAGAAGCTCCTTTCACTTTCTC",
+    "source_file": "author_ss_E17_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31225114-G-T_chr17-31225112-C-G",
+    "motif": "ATAGAAGTTCGTTTCACTTTCTC",
+    "source_file": "author_ss_E17_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31225115-T-A_chr17-31225106-A-G",
+    "motif": "AGGCAGATAGGAGTTCCTGACACTTTCTCC",
+    "source_file": "author_ss_E17_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31225115-T-A_chr17-31225112-C-T",
+    "motif": "ATAGAAGTTCTTGACACTTTCTCC",
+    "source_file": "author_ss_E17_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31225115-T-C_chr17-31225109-T-C",
+    "motif": "CAGATAGAAGCTCCTGCCACTTTCTCC",
+    "source_file": "author_ss_E17_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31225116-C-A_chr17-31225109-T-C",
+    "motif": "CAGATAGAAGCTCCTGTAACTTTCTCCT",
+    "source_file": "author_ss_E17_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31225116-C-A_chr17-31225112-C-G",
+    "motif": "ATAGAAGTTCGTGTAACTTTCTCCT",
+    "source_file": "author_ss_E17_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31225116-C-A_chr17-31225127-T-A",
+    "motif": "AAGTTCCTGTAACTTTCTCCTATTTTACGGGG",
+    "source_file": "author_ss_E17_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31225116-C-T_chr17-31225109-T-C",
+    "motif": "CAGATAGAAGCTCCTGTTACTTTCTCCT",
+    "source_file": "author_ss_E17_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31225116-C-T_chr17-31225112-C-G",
+    "motif": "ATAGAAGTTCGTGTTACTTTCTCCT",
+    "source_file": "author_ss_E17_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31225132-A-C_chr17-31225142-A-C",
+    "motif": "CTCCTTTTTTCCGGGGTAGGCTGTGATATTC",
+    "source_file": "author_ss_E17_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31225132-A-C_chr17-31225142-A-G",
+    "motif": "CTCCTTTTTTCCGGGGTAGGGTGTGATATTC",
+    "source_file": "author_ss_E17_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31225132-A-T_chr17-31225142-A-C",
+    "motif": "CTCCTTTTTTTCGGGGTAGGCTGTGATATTC",
+    "source_file": "author_ss_E17_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31225132-A-T_chr17-31225142-A-G",
+    "motif": "CTCCTTTTTTTCGGGGTAGGGTGTGATATTC",
+    "source_file": "author_ss_E17_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31225133-C-G_chr17-31225130-T-C",
+    "motif": "TTCTCCTTTTCTAGGGGGTAGGAT",
+    "source_file": "author_ss_E17_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31225133-C-G_chr17-31225142-A-C",
+    "motif": "TCCTTTTTTAGGGGGTAGGCTGTGATATTC",
+    "source_file": "author_ss_E17_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31225133-C-G_chr17-31225142-A-G",
+    "motif": "TCCTTTTTTAGGGGGTAGGGTGTGATATTC",
+    "source_file": "author_ss_E17_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31225133-C-T_chr17-31225136-G-C",
+    "motif": "TCCTTTTTTATGGCGTAGGATGTG",
+    "source_file": "author_ss_E17_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31225133-C-T_chr17-31225142-A-C",
+    "motif": "TCCTTTTTTATGGGGTAGGCTGTGATATTC",
+    "source_file": "author_ss_E17_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31225133-C-T_chr17-31225142-A-G",
+    "motif": "TCCTTTTTTATGGGGTAGGGTGTGATATTC",
+    "source_file": "author_ss_E17_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31225134-G-A_chr17-31225142-A-C",
+    "motif": "CCTTTTTTACAGGGTAGGCTGTGATATTC",
+    "source_file": "author_ss_E17_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31225134-G-C_chr17-31225142-A-C",
+    "motif": "CCTTTTTTACCGGGTAGGCTGTGATATTC",
+    "source_file": "author_ss_E17_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31225134-G-C_chr17-31225145-T-C",
+    "motif": "CCTTTTTTACCGGGTAGGATGCGATATTCCTT",
+    "source_file": "author_ss_E17_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31225134-G-T_chr17-31225133-C-T",
+    "motif": "TCCTTTTTTATTGGGTAGGATG",
+    "source_file": "author_ss_E17_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31225134-G-T_chr17-31225142-A-C",
+    "motif": "CCTTTTTTACTGGGTAGGCTGTGATATTC",
+    "source_file": "author_ss_E17_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31225134-G-T_chr17-31225142-A-G",
+    "motif": "CCTTTTTTACTGGGTAGGGTGTGATATTC",
+    "source_file": "author_ss_E17_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31225135-G-C_chr17-31225142-A-C",
+    "motif": "CTTTTTTACGCGGTAGGCTGTGATATTC",
+    "source_file": "author_ss_E17_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31225135-G-C_chr17-31225145-T-C",
+    "motif": "CTTTTTTACGCGGTAGGATGCGATATTCCTT",
+    "source_file": "author_ss_E17_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31225135-G-T_chr17-31225142-A-C",
+    "motif": "CTTTTTTACGTGGTAGGCTGTGATATTC",
+    "source_file": "author_ss_E17_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31225135-G-T_chr17-31225145-T-C",
+    "motif": "CTTTTTTACGTGGTAGGATGCGATATTCCTT",
+    "source_file": "author_ss_E17_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31225136-G-A_chr17-31225145-T-C",
+    "motif": "TTTTTTACGGAGTAGGATGCGATATTCCTT",
+    "source_file": "author_ss_E17_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31225136-G-T_chr17-31225142-A-C",
+    "motif": "TTTTTTACGGTGTAGGCTGTGATATTC",
+    "source_file": "author_ss_E17_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31225136-G-T_chr17-31225145-T-C",
+    "motif": "TTTTTTACGGTGTAGGATGCGATATTCCTT",
+    "source_file": "author_ss_E17_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31225145-T-A_chr17-31225151-T-C",
+    "motif": "GGGTAGGATGAGATATCCCTTCTAGTG",
+    "source_file": "author_ss_E17_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31225145-T-C_chr17-31225151-T-C",
+    "motif": "GGGTAGGATGCGATATCCCTTCTAGTG",
+    "source_file": "author_ss_E17_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31225173-C-T_chr17-31225181-C-T",
+    "motif": "AAATACCAGTTAAATGTCTATGGATCATG",
+    "source_file": "author_ss_E17_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31225175-A-G_chr17-31225166-T-C",
+    "motif": "CTAGTGGAAACACCAGTCAGATGTCCATGG",
+    "source_file": "author_ss_E17_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31225197-T-C_chr17-31225190-T-C",
+    "motif": "CCATGGATCACGAAGAACTACTACGTAC",
+    "source_file": "author_ss_E17_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31225198-T-A_chr17-31225205-T-C",
+    "motif": "CATGAAGAATAACTACGCACTCCTGGAG",
+    "source_file": "author_ss_E17_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31225200-C-G_chr17-31225205-T-G",
+    "motif": "TGAAGAATTAGTACGGACTCCTGGAG",
+    "source_file": "author_ss_E17_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31225200-C-G_chr17-31225208-T-A",
+    "motif": "TGAAGAATTAGTACGTACACCTGGAGCCT",
+    "source_file": "author_ss_E17_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31225200-C-G_chr17-31225211-T-A",
+    "motif": "TGAAGAATTAGTACGTACTCCAGGAGCCTCTC",
+    "source_file": "author_ss_E17_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31225200-C-T_chr17-31225197-T-C",
+    "motif": "TCATGAAGAACTATTACGTACTCC",
+    "source_file": "author_ss_E17_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31225200-C-T_chr17-31225205-T-C",
+    "motif": "TGAAGAATTATTACGCACTCCTGGAG",
+    "source_file": "author_ss_E17_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31225203-C-G_chr17-31225202-A-T",
+    "motif": "AAGAATTACTTGGTACTCCTGG",
+    "source_file": "author_ss_E17_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31225203-C-G_chr17-31225211-T-C",
+    "motif": "AGAATTACTAGGTACTCCCGGAGCCTCTC",
+    "source_file": "author_ss_E17_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31225203-C-G_chr17-31225214-A-T",
+    "motif": "AGAATTACTAGGTACTCCTGGTGCCTCTCTCC",
+    "source_file": "author_ss_E17_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31225203-C-T_chr17-31225208-T-A",
+    "motif": "AGAATTACTATGTACACCTGGAGCCT",
+    "source_file": "author_ss_E17_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31225203-C-T_chr17-31225214-A-C",
+    "motif": "AGAATTACTATGTACTCCTGGCGCCTCTCTCC",
+    "source_file": "author_ss_E17_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31225226-G-A_chr17-31225220-T-C",
+    "motif": "CTGGAGCCTCCCTCCGAAAGGGAAAAG",
+    "source_file": "author_ss_E17_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31225226-G-A_chr17-31225223-C-G",
+    "motif": "GAGCCTCTCTGCGAAAGGGAAAAG",
+    "source_file": "author_ss_E17_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31225226-G-T_chr17-31225220-T-C",
+    "motif": "CTGGAGCCTCCCTCCGTAAGGGAAAAG",
+    "source_file": "author_ss_E17_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31225226-G-T_chr17-31225220-T-G",
+    "motif": "CTGGAGCCTCGCTCCGTAAGGGAAAAG",
+    "source_file": "author_ss_E17_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31225226-G-T_chr17-31225229-G-A",
+    "motif": "CCTCTCTCCGTAAAGGAAAAGGGA",
+    "source_file": "author_ss_E17_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31225227-A-T_chr17-31225220-T-A",
+    "motif": "CTGGAGCCTCACTCCGGTAGGGAAAAGG",
+    "source_file": "author_ss_E17_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31225227-A-T_chr17-31225223-C-T",
+    "motif": "GAGCCTCTCTTCGGTAGGGAAAAGG",
+    "source_file": "author_ss_E17_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31225227-A-T_chr17-31225226-G-C",
+    "motif": "CCTCTCTCCGCTAGGGAAAAGG",
+    "source_file": "author_ss_E17_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31225230-G-T_chr17-31225229-G-A",
+    "motif": "CTCTCCGGAAATGAAAAGGGAA",
+    "source_file": "author_ss_E17_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31225231-G-T_chr17-31225229-G-A",
+    "motif": "CTCTCCGGAAAGTAAAAGGGAAC",
+    "source_file": "author_ss_E17_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31225231-G-T_chr17-31225235-A-G",
+    "motif": "CTCCGGAAGGTAAAGGGGAACTCCT",
+    "source_file": "author_ss_E17_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31225231-G-T_chr17-31225238-G-C",
+    "motif": "CTCCGGAAGGTAAAAGGCAACTCCTCTA",
+    "source_file": "author_ss_E17_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31225232-A-C_chr17-31225226-G-C",
+    "motif": "CCTCTCTCCGCAAGGGCAAAGGGAACT",
+    "source_file": "author_ss_E17_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31225232-A-G_chr17-31225226-G-A",
+    "motif": "CCTCTCTCCGAAAGGGGAAAGGGAACT",
+    "source_file": "author_ss_E17_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31225232-A-G_chr17-31225241-C-T",
+    "motif": "TCCGGAAGGGGAAAGGGAATTCCTCTATGG",
+    "source_file": "author_ss_E17_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31225232-A-T_chr17-31225223-C-G",
+    "motif": "GAGCCTCTCTGCGGAAGGGTAAAGGGAACT",
+    "source_file": "author_ss_E17_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31225232-A-T_chr17-31225238-G-C",
+    "motif": "TCCGGAAGGGTAAAGGCAACTCCTCTA",
+    "source_file": "author_ss_E17_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31225233-A-T_chr17-31225241-C-T",
+    "motif": "CCGGAAGGGATAAGGGAATTCCTCTATGG",
+    "source_file": "author_ss_E17_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31225235-A-G_chr17-31225241-C-T",
+    "motif": "GGAAGGGAAAGGGGAATTCCTCTATGG",
+    "source_file": "author_ss_E17_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31225238-G-A_chr17-31225244-C-A",
+    "motif": "AGGGAAAAGGAAACTCATCTATGGATA",
+    "source_file": "author_ss_E17_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31225238-G-A_chr17-31225244-C-G",
+    "motif": "AGGGAAAAGGAAACTCGTCTATGGATA",
+    "source_file": "author_ss_E17_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31225238-G-T_chr17-31225241-C-T",
+    "motif": "AGGGAAAAGGTAATTCCTCTATGG",
+    "source_file": "author_ss_E17_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31225238-G-T_chr17-31225244-C-T",
+    "motif": "AGGGAAAAGGTAACTCTTCTATGGATA",
+    "source_file": "author_ss_E17_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31225239-A-T_chr17-31225232-A-C",
+    "motif": "TCCGGAAGGGCAAAGGGTACTCCTCTAT",
+    "source_file": "author_ss_E17_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31225239-A-T_chr17-31225235-A-G",
+    "motif": "GGAAGGGAAAGGGGTACTCCTCTAT",
+    "source_file": "author_ss_E17_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31225239-A-T_chr17-31225247-T-C",
+    "motif": "GGGAAAAGGGTACTCCTCCATGGATAGTG",
+    "source_file": "author_ss_E17_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31232077-T-C_chr17-31232076-T-C",
+    "motif": "TTTTCAGAGACCTGGACCAGGC",
+    "source_file": "author_ss_E25_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31232078-T-A_chr17-31232076-T-C",
+    "motif": "TTTTCAGAGACTAGGACCAGGCA",
+    "source_file": "author_ss_E25_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31232087-C-A_chr17-31232077-T-C",
+    "motif": "TTTCAGAGATCTGGACCAGGAAAGCATGGAA",
+    "source_file": "author_ss_E25_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31232087-C-A_chr17-31232085-G-A",
+    "motif": "ATTTGGACCAAGAAAGCATGGAA",
+    "source_file": "author_ss_E25_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31232087-C-T_chr17-31232082-C-T",
+    "motif": "GAGATTTGGATCAGGTAAGCATGGAA",
+    "source_file": "author_ss_E25_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31232087-C-T_chr17-31232085-G-A",
+    "motif": "ATTTGGACCAAGTAAGCATGGAA",
+    "source_file": "author_ss_E25_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31232108-C-G_chr17-31232112-T-C",
+    "motif": "GCAGTAGTTTGACTCCTAGCTGGTC",
+    "source_file": "author_ss_E25_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31232109-A-C_chr17-31232100-A-T",
+    "motif": "GCATGGAAGCTGTAGTTTCCCTTCTAGCTG",
+    "source_file": "author_ss_E25_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31232145-A-C_chr17-31232142-A-G",
+    "motif": "AGCCTGAAGAGGGCGATGGTGTGG",
+    "source_file": "author_ss_E25_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31232145-A-T_chr17-31232142-A-G",
+    "motif": "AGCCTGAAGAGGGTGATGGTGTGG",
+    "source_file": "author_ss_E25_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31232145-A-T_chr17-31232154-G-C",
+    "motif": "CTGAAGAAGGTGATGGTGTCGAATTGATGG",
+    "source_file": "author_ss_E25_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31232148-T-A_chr17-31232142-A-G",
+    "motif": "AGCCTGAAGAGGGAGAAGGTGTGGAAT",
+    "source_file": "author_ss_E25_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31232148-T-A_chr17-31232145-A-C",
+    "motif": "CTGAAGAAGGCGAAGGTGTGGAAT",
+    "source_file": "author_ss_E25_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31232148-T-A_chr17-31232151-T-G",
+    "motif": "AAGAAGGAGAAGGGGTGGAATTGA",
+    "source_file": "author_ss_E25_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31232148-T-C_chr17-31232145-A-G",
+    "motif": "CTGAAGAAGGGGACGGTGTGGAAT",
+    "source_file": "author_ss_E25_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31232148-T-C_chr17-31232151-T-G",
+    "motif": "AAGAAGGAGACGGGGTGGAATTGA",
+    "source_file": "author_ss_E25_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31232152-G-A_chr17-31232145-A-C",
+    "motif": "CTGAAGAAGGCGATGGTATGGAATTGAT",
+    "source_file": "author_ss_E25_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31232152-G-A_chr17-31232148-T-C",
+    "motif": "AAGAAGGAGACGGTATGGAATTGAT",
+    "source_file": "author_ss_E25_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31232153-T-A_chr17-31232145-A-C",
+    "motif": "CTGAAGAAGGCGATGGTGAGGAATTGATG",
+    "source_file": "author_ss_E25_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31232153-T-A_chr17-31232148-T-C",
+    "motif": "AAGAAGGAGACGGTGAGGAATTGATG",
+    "source_file": "author_ss_E25_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31232153-T-A_chr17-31232151-T-G",
+    "motif": "AAGGAGATGGGGAGGAATTGATG",
+    "source_file": "author_ss_E25_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31232153-T-C_chr17-31232145-A-C",
+    "motif": "CTGAAGAAGGCGATGGTGCGGAATTGATG",
+    "source_file": "author_ss_E25_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31232153-T-C_chr17-31232148-T-C",
+    "motif": "AAGAAGGAGACGGTGCGGAATTGATG",
+    "source_file": "author_ss_E25_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31232155-G-T_chr17-31232154-G-C",
+    "motif": "GAGATGGTGTCTAATTGATGGA",
+    "source_file": "author_ss_E25_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31232155-G-T_chr17-31232158-T-C",
+    "motif": "AGATGGTGTGTAACTGATGGAAGC",
+    "source_file": "author_ss_E25_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31232155-G-T_chr17-31232166-A-G",
+    "motif": "AGATGGTGTGTAATTGATGGAGGCCAAATCAC",
+    "source_file": "author_ss_E25_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31232164-G-A_chr17-31232158-T-C",
+    "motif": "TGGTGTGGAACTGATGAAAGCCAAATC",
+    "source_file": "author_ss_E25_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31232164-G-A_chr17-31232169-C-A",
+    "motif": "GGAATTGATGAAAGCAAAATCACAGT",
+    "source_file": "author_ss_E25_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31232164-G-T_chr17-31232172-A-G",
+    "motif": "GGAATTGATGTAAGCCAAGTCACAGTTAT",
+    "source_file": "author_ss_E25_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31232164-G-T_chr17-31232175-A-C",
+    "motif": "GGAATTGATGTAAGCCAAATCCCAGTTATTTC",
+    "source_file": "author_ss_E25_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31232165-A-G_chr17-31232158-T-C",
+    "motif": "TGGTGTGGAACTGATGGGAGCCAAATCA",
+    "source_file": "author_ss_E25_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31232165-A-G_chr17-31232169-C-A",
+    "motif": "GAATTGATGGGAGCAAAATCACAGT",
+    "source_file": "author_ss_E25_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31232165-A-T_chr17-31232158-T-C",
+    "motif": "TGGTGTGGAACTGATGGTAGCCAAATCA",
+    "source_file": "author_ss_E25_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31232165-A-T_chr17-31232169-C-A",
+    "motif": "GAATTGATGGTAGCAAAATCACAGT",
+    "source_file": "author_ss_E25_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31232170-A-T_chr17-31232166-A-G",
+    "motif": "AATTGATGGAGGCCTAATCACAGTT",
+    "source_file": "author_ss_E25_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31232172-A-G_chr17-31232166-A-G",
+    "motif": "AATTGATGGAGGCCAAGTCACAGTTAT",
+    "source_file": "author_ss_E25_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31232176-C-T_chr17-31232181-A-G",
+    "motif": "AGCCAAATCATAGTTGTTTCTTAAGT",
+    "source_file": "author_ss_E25_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31232177-A-C_chr17-31232169-C-A",
+    "motif": "TGATGGAAGCAAAATCACCGTTATTTCTT",
+    "source_file": "author_ss_E25_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31232177-A-C_chr17-31232184-T-C",
+    "motif": "GCCAAATCACCGTTATTCCTTAAGTAAA",
+    "source_file": "author_ss_E25_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31232177-A-G_chr17-31232169-C-A",
+    "motif": "TGATGGAAGCAAAATCACGGTTATTTCTT",
+    "source_file": "author_ss_E25_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31232177-A-G_chr17-31232169-C-T",
+    "motif": "TGATGGAAGCTAAATCACGGTTATTTCTT",
+    "source_file": "author_ss_E25_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31232177-A-G_chr17-31232175-A-T",
+    "motif": "AAGCCAAATCTCGGTTATTTCTT",
+    "source_file": "author_ss_E25_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31232177-A-T_chr17-31232169-C-A",
+    "motif": "TGATGGAAGCAAAATCACTGTTATTTCTT",
+    "source_file": "author_ss_E25_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31232177-A-T_chr17-31232181-A-G",
+    "motif": "GCCAAATCACTGTTGTTTCTTAAGT",
+    "source_file": "author_ss_E25_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31232178-G-A_chr17-31232181-A-G",
+    "motif": "CCAAATCACAATTGTTTCTTAAGT",
+    "source_file": "author_ss_E25_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31232179-T-G_chr17-31232178-G-A",
+    "motif": "CCAAATCACAAGTATTTCTTAA",
+    "source_file": "author_ss_E25_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31232179-T-G_chr17-31232184-T-C",
+    "motif": "CAAATCACAGGTATTCCTTAAGTAAA",
+    "source_file": "author_ss_E25_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31232179-T-G_chr17-31232187-T-C",
+    "motif": "CAAATCACAGGTATTTCTCAAGTAAATTT",
+    "source_file": "author_ss_E25_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31232180-T-A_chr17-31232178-G-A",
+    "motif": "CCAAATCACAATAATTTCTTAAG",
+    "source_file": "author_ss_E25_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31232180-T-A_chr17-31232184-T-C",
+    "motif": "AAATCACAGTAATTCCTTAAGTAAA",
+    "source_file": "author_ss_E25_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31232180-T-A_chr17-31232187-T-C",
+    "motif": "AAATCACAGTAATTTCTCAAGTAAATTT",
+    "source_file": "author_ss_E25_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31232180-T-G_chr17-31232172-A-G",
+    "motif": "TGGAAGCCAAGTCACAGTGATTTCTTAAG",
+    "source_file": "author_ss_E25_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31232180-T-G_chr17-31232184-T-C",
+    "motif": "AAATCACAGTGATTCCTTAAGTAAA",
+    "source_file": "author_ss_E25_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31232181-A-G_chr17-31232172-A-G",
+    "motif": "TGGAAGCCAAGTCACAGTTGTTTCTTAAGT",
+    "source_file": "author_ss_E25_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31232182-T-A_chr17-31232175-A-G",
+    "motif": "AAGCCAAATCGCAGTTAATTCTTAAGTA",
+    "source_file": "author_ss_E25_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31232182-T-A_chr17-31232175-A-T",
+    "motif": "AAGCCAAATCTCAGTTAATTCTTAAGTA",
+    "source_file": "author_ss_E25_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31232182-T-A_chr17-31232178-G-A",
+    "motif": "CCAAATCACAATTAATTCTTAAGTA",
+    "source_file": "author_ss_E25_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31232182-T-G_chr17-31232178-G-A",
+    "motif": "CCAAATCACAATTAGTTCTTAAGTA",
+    "source_file": "author_ss_E25_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31232182-T-G_chr17-31232187-T-A",
+    "motif": "ATCACAGTTAGTTCTAAAGTAAATTT",
+    "source_file": "author_ss_E25_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31232182-T-G_chr17-31232187-T-C",
+    "motif": "ATCACAGTTAGTTCTCAAGTAAATTT",
+    "source_file": "author_ss_E25_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31232183-T-G_chr17-31232175-A-T",
+    "motif": "AAGCCAAATCTCAGTTATGTCTTAAGTAA",
+    "source_file": "author_ss_E25_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31232183-T-G_chr17-31232178-G-A",
+    "motif": "CCAAATCACAATTATGTCTTAAGTAA",
+    "source_file": "author_ss_E25_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31232183-T-G_chr17-31232187-T-C",
+    "motif": "TCACAGTTATGTCTCAAGTAAATTT",
+    "source_file": "author_ss_E25_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31232077-T-C_chr17-31232076-T-C",
+    "motif": "TTACAAGAGACCTGGACCAGGC",
+    "source_file": "author_ss_E25_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31232078-T-A_chr17-31232076-T-C",
+    "motif": "TTACAAGAGACTAGGACCAGGCA",
+    "source_file": "author_ss_E25_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31232087-C-A_chr17-31232077-T-C",
+    "motif": "TACAAGAGATCTGGACCAGGAAAGCATGGAA",
+    "source_file": "author_ss_E25_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31232087-C-A_chr17-31232085-G-A",
+    "motif": "ATTTGGACCAAGAAAGCATGGAA",
+    "source_file": "author_ss_E25_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31232087-C-T_chr17-31232082-C-T",
+    "motif": "GAGATTTGGATCAGGTAAGCATGGAA",
+    "source_file": "author_ss_E25_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31232087-C-T_chr17-31232085-G-A",
+    "motif": "ATTTGGACCAAGTAAGCATGGAA",
+    "source_file": "author_ss_E25_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31232108-C-G_chr17-31232112-T-C",
+    "motif": "GCAGTAGTTTGACTCCTAGCTGGTC",
+    "source_file": "author_ss_E25_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31232109-A-C_chr17-31232100-A-T",
+    "motif": "GCATGGAAGCTGTAGTTTCCCTTCTAGCTG",
+    "source_file": "author_ss_E25_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31232145-A-C_chr17-31232142-A-G",
+    "motif": "AGCCTGAAGAGGGCGATGGTGTGG",
+    "source_file": "author_ss_E25_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31232145-A-T_chr17-31232142-A-G",
+    "motif": "AGCCTGAAGAGGGTGATGGTGTGG",
+    "source_file": "author_ss_E25_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31232145-A-T_chr17-31232154-G-C",
+    "motif": "CTGAAGAAGGTGATGGTGTCGAATTGATGG",
+    "source_file": "author_ss_E25_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31232148-T-A_chr17-31232142-A-G",
+    "motif": "AGCCTGAAGAGGGAGAAGGTGTGGAAT",
+    "source_file": "author_ss_E25_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31232148-T-A_chr17-31232145-A-C",
+    "motif": "CTGAAGAAGGCGAAGGTGTGGAAT",
+    "source_file": "author_ss_E25_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31232148-T-A_chr17-31232151-T-G",
+    "motif": "AAGAAGGAGAAGGGGTGGAATTGA",
+    "source_file": "author_ss_E25_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31232148-T-C_chr17-31232145-A-G",
+    "motif": "CTGAAGAAGGGGACGGTGTGGAAT",
+    "source_file": "author_ss_E25_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31232148-T-C_chr17-31232151-T-G",
+    "motif": "AAGAAGGAGACGGGGTGGAATTGA",
+    "source_file": "author_ss_E25_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31232152-G-A_chr17-31232145-A-C",
+    "motif": "CTGAAGAAGGCGATGGTATGGAATTGAT",
+    "source_file": "author_ss_E25_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31232152-G-A_chr17-31232148-T-C",
+    "motif": "AAGAAGGAGACGGTATGGAATTGAT",
+    "source_file": "author_ss_E25_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31232153-T-A_chr17-31232145-A-C",
+    "motif": "CTGAAGAAGGCGATGGTGAGGAATTGATG",
+    "source_file": "author_ss_E25_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31232153-T-A_chr17-31232148-T-C",
+    "motif": "AAGAAGGAGACGGTGAGGAATTGATG",
+    "source_file": "author_ss_E25_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31232153-T-A_chr17-31232151-T-G",
+    "motif": "AAGGAGATGGGGAGGAATTGATG",
+    "source_file": "author_ss_E25_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31232153-T-C_chr17-31232145-A-C",
+    "motif": "CTGAAGAAGGCGATGGTGCGGAATTGATG",
+    "source_file": "author_ss_E25_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31232153-T-C_chr17-31232148-T-C",
+    "motif": "AAGAAGGAGACGGTGCGGAATTGATG",
+    "source_file": "author_ss_E25_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31232155-G-T_chr17-31232154-G-C",
+    "motif": "GAGATGGTGTCTAATTGATGGA",
+    "source_file": "author_ss_E25_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31232155-G-T_chr17-31232158-T-C",
+    "motif": "AGATGGTGTGTAACTGATGGAAGC",
+    "source_file": "author_ss_E25_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31232155-G-T_chr17-31232166-A-G",
+    "motif": "AGATGGTGTGTAATTGATGGAGGCCAAATCAC",
+    "source_file": "author_ss_E25_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31232164-G-A_chr17-31232158-T-C",
+    "motif": "TGGTGTGGAACTGATGAAAGCCAAATC",
+    "source_file": "author_ss_E25_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31232164-G-A_chr17-31232169-C-A",
+    "motif": "GGAATTGATGAAAGCAAAATCACAGT",
+    "source_file": "author_ss_E25_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31232164-G-T_chr17-31232172-A-G",
+    "motif": "GGAATTGATGTAAGCCAAGTCACAGTTAT",
+    "source_file": "author_ss_E25_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31232164-G-T_chr17-31232175-A-C",
+    "motif": "GGAATTGATGTAAGCCAAATCCCAGTTATTTC",
+    "source_file": "author_ss_E25_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31232165-A-G_chr17-31232158-T-C",
+    "motif": "TGGTGTGGAACTGATGGGAGCCAAATCA",
+    "source_file": "author_ss_E25_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31232165-A-G_chr17-31232169-C-A",
+    "motif": "GAATTGATGGGAGCAAAATCACAGT",
+    "source_file": "author_ss_E25_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31232165-A-T_chr17-31232158-T-C",
+    "motif": "TGGTGTGGAACTGATGGTAGCCAAATCA",
+    "source_file": "author_ss_E25_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31232165-A-T_chr17-31232169-C-A",
+    "motif": "GAATTGATGGTAGCAAAATCACAGT",
+    "source_file": "author_ss_E25_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31232170-A-T_chr17-31232166-A-G",
+    "motif": "AATTGATGGAGGCCTAATCACAGTT",
+    "source_file": "author_ss_E25_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31232172-A-G_chr17-31232166-A-G",
+    "motif": "AATTGATGGAGGCCAAGTCACAGTTAT",
+    "source_file": "author_ss_E25_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31232176-C-T_chr17-31232181-A-G",
+    "motif": "AGCCAAATCATAGTTGTTTCTTAAAT",
+    "source_file": "author_ss_E25_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31232177-A-C_chr17-31232169-C-A",
+    "motif": "TGATGGAAGCAAAATCACCGTTATTTCTT",
+    "source_file": "author_ss_E25_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31232177-A-C_chr17-31232184-T-C",
+    "motif": "GCCAAATCACCGTTATTCCTTAAATACT",
+    "source_file": "author_ss_E25_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31232177-A-G_chr17-31232169-C-A",
+    "motif": "TGATGGAAGCAAAATCACGGTTATTTCTT",
+    "source_file": "author_ss_E25_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31232177-A-G_chr17-31232169-C-T",
+    "motif": "TGATGGAAGCTAAATCACGGTTATTTCTT",
+    "source_file": "author_ss_E25_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31232177-A-G_chr17-31232175-A-T",
+    "motif": "AAGCCAAATCTCGGTTATTTCTT",
+    "source_file": "author_ss_E25_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31232177-A-T_chr17-31232169-C-A",
+    "motif": "TGATGGAAGCAAAATCACTGTTATTTCTT",
+    "source_file": "author_ss_E25_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31232177-A-T_chr17-31232181-A-G",
+    "motif": "GCCAAATCACTGTTGTTTCTTAAAT",
+    "source_file": "author_ss_E25_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31232178-G-A_chr17-31232181-A-G",
+    "motif": "CCAAATCACAATTGTTTCTTAAAT",
+    "source_file": "author_ss_E25_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31232179-T-G_chr17-31232178-G-A",
+    "motif": "CCAAATCACAAGTATTTCTTAA",
+    "source_file": "author_ss_E25_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31232179-T-G_chr17-31232184-T-C",
+    "motif": "CAAATCACAGGTATTCCTTAAATACT",
+    "source_file": "author_ss_E25_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31232179-T-G_chr17-31232187-T-C",
+    "motif": "CAAATCACAGGTATTTCTCAAATACTTCA",
+    "source_file": "author_ss_E25_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31232180-T-A_chr17-31232178-G-A",
+    "motif": "CCAAATCACAATAATTTCTTAAA",
+    "source_file": "author_ss_E25_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31232180-T-A_chr17-31232184-T-C",
+    "motif": "AAATCACAGTAATTCCTTAAATACT",
+    "source_file": "author_ss_E25_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31232180-T-A_chr17-31232187-T-C",
+    "motif": "AAATCACAGTAATTTCTCAAATACTTCA",
+    "source_file": "author_ss_E25_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31232180-T-G_chr17-31232172-A-G",
+    "motif": "TGGAAGCCAAGTCACAGTGATTTCTTAAA",
+    "source_file": "author_ss_E25_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31232180-T-G_chr17-31232184-T-C",
+    "motif": "AAATCACAGTGATTCCTTAAATACT",
+    "source_file": "author_ss_E25_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31232181-A-G_chr17-31232172-A-G",
+    "motif": "TGGAAGCCAAGTCACAGTTGTTTCTTAAAT",
+    "source_file": "author_ss_E25_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31232182-T-A_chr17-31232175-A-G",
+    "motif": "AAGCCAAATCGCAGTTAATTCTTAAATA",
+    "source_file": "author_ss_E25_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31232182-T-A_chr17-31232175-A-T",
+    "motif": "AAGCCAAATCTCAGTTAATTCTTAAATA",
+    "source_file": "author_ss_E25_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31232182-T-A_chr17-31232178-G-A",
+    "motif": "CCAAATCACAATTAATTCTTAAATA",
+    "source_file": "author_ss_E25_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31232182-T-G_chr17-31232178-G-A",
+    "motif": "CCAAATCACAATTAGTTCTTAAATA",
+    "source_file": "author_ss_E25_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31232182-T-G_chr17-31232187-T-A",
+    "motif": "ATCACAGTTAGTTCTAAAATACTTCA",
+    "source_file": "author_ss_E25_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31232182-T-G_chr17-31232187-T-C",
+    "motif": "ATCACAGTTAGTTCTCAAATACTTCA",
+    "source_file": "author_ss_E25_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31232183-T-G_chr17-31232175-A-T",
+    "motif": "AAGCCAAATCTCAGTTATGTCTTAAATAC",
+    "source_file": "author_ss_E25_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31232183-T-G_chr17-31232178-G-A",
+    "motif": "CCAAATCACAATTATGTCTTAAATAC",
+    "source_file": "author_ss_E25_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31232183-T-G_chr17-31232187-T-C",
+    "motif": "TCACAGTTATGTCTCAAATACTTCA",
+    "source_file": "author_ss_E25_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31233004-T-C_chr17-31233015-C-T",
+    "motif": "CACATTAGGCCTAGGTTACCATAAGGATCTCC",
+    "source_file": "author_ss_E27_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31233005-T-G_chr17-31233012-C-T",
+    "motif": "ACATTAGGCTGAGGTTATCACAAGGATC",
+    "source_file": "author_ss_E27_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31233016-A-T_chr17-31233021-T-C",
+    "motif": "AGGTTACCACTAGGACCTCCAGACAA",
+    "source_file": "author_ss_E27_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31233018-G-A_chr17-31233024-C-A",
+    "motif": "GTTACCACAAAGATCTACAGACAAGAG",
+    "source_file": "author_ss_E27_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31233072-A-G_chr17-31233075-C-A",
+    "motif": "TCCTTCAACAGGGAACAGAATTTG",
+    "source_file": "author_ss_E27_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31233072-A-G_chr17-31233078-A-C",
+    "motif": "TCCTTCAACAGGGCACCGAATTTGACA",
+    "source_file": "author_ss_E27_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31233072-A-G_chr17-31233081-A-G",
+    "motif": "TCCTTCAACAGGGCACAGAGTTTGACACAC",
+    "source_file": "author_ss_E27_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31233075-C-T_chr17-31233078-A-G",
+    "motif": "TTCAACAAGGTACGGAATTTGACA",
+    "source_file": "author_ss_E27_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31233123-G-A_chr17-31233117-G-A",
+    "motif": "TGGCTGATCGATTTGAAAGATTGGTGG",
+    "source_file": "author_ss_E27_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31233123-G-A_chr17-31233120-T-C",
+    "motif": "CTGATCGGTTCGAAAGATTGGTGG",
+    "source_file": "author_ss_E27_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31233126-A-G_chr17-31233117-G-C",
+    "motif": "TGGCTGATCGCTTTGAGAGGTTGGTGGAAC",
+    "source_file": "author_ss_E27_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31233126-A-G_chr17-31233129-G-A",
+    "motif": "GGTTTGAGAGGTTAGTGGAACTGG",
+    "source_file": "author_ss_E27_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31233126-A-G_chr17-31233132-G-C",
+    "motif": "GGTTTGAGAGGTTGGTCGAACTGGTCA",
+    "source_file": "author_ss_E27_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31233127-T-C_chr17-31233123-G-A",
+    "motif": "ATCGGTTTGAAAGACTGGTGGAACT",
+    "source_file": "author_ss_E27_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31233128-T-A_chr17-31233132-G-T",
+    "motif": "TTTGAGAGATAGGTTGAACTGGTCA",
+    "source_file": "author_ss_E27_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31233133-G-T_chr17-31233136-C-T",
+    "motif": "GAGATTGGTGTAATTGGTCACAAT",
+    "source_file": "author_ss_E27_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31233135-A-G_chr17-31233129-G-A",
+    "motif": "TTGAGAGATTAGTGGAGCTGGTCACAA",
+    "source_file": "author_ss_E27_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31233148-A-G_chr17-31233141-C-A",
+    "motif": "TGGAACTGGTAACAATGGTGGGTGATCA",
+    "source_file": "author_ss_E27_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31233148-A-G_chr17-31233153-T-A",
+    "motif": "GGTCACAATGGTGGGAGATCAAGGAG",
+    "source_file": "author_ss_E27_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31233148-A-G_chr17-31233156-T-C",
+    "motif": "GGTCACAATGGTGGGTGACCAAGGAGAAC",
+    "source_file": "author_ss_E27_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31233156-T-C_chr17-31233159-A-G",
+    "motif": "TGATGGGTGACCAGGGAGAACTCC",
+    "source_file": "author_ss_E27_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31233156-T-C_chr17-31233162-A-G",
+    "motif": "TGATGGGTGACCAAGGGGAACTCCCTA",
+    "source_file": "author_ss_E27_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31233156-T-G_chr17-31233153-T-A",
+    "motif": "CAATGATGGGAGAGCAAGGAGAAC",
+    "source_file": "author_ss_E27_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31233156-T-G_chr17-31233159-A-G",
+    "motif": "TGATGGGTGAGCAGGGAGAACTCC",
+    "source_file": "author_ss_E27_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31233156-T-G_chr17-31233162-A-T",
+    "motif": "TGATGGGTGAGCAAGGTGAACTCCCTA",
+    "source_file": "author_ss_E27_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31233156-T-G_chr17-31233165-A-G",
+    "motif": "TGATGGGTGAGCAAGGAGAGCTCCCTATAG",
+    "source_file": "author_ss_E27_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31233157-C-T_chr17-31233162-A-C",
+    "motif": "GATGGGTGATTAAGGCGAACTCCCTA",
+    "source_file": "author_ss_E27_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31233159-A-G_chr17-31233162-A-T",
+    "motif": "TGGGTGATCAGGGTGAACTCCCTA",
+    "source_file": "author_ss_E27_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31233016-A-T_old",
+    "motif": "AGGTTACCACTAGGACCTCCAGACAA",
+    "source_file": "author_ss_E27_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31233128-T-A_old",
+    "motif": "TTTGAGAGATAGGTTGAACTGGTCA",
+    "source_file": "author_ss_E27_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31233005-T-G_old",
+    "motif": "ACATTAGGCTGAGGCTACCACAAGG",
+    "source_file": "author_ss_E27_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31233157-C-T_old",
+    "motif": "GATGGGTGATTAAGGGGAACTCCCTA",
+    "source_file": "author_ss_E27_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31233133-G-T_old",
+    "motif": "GAGATTGGTGTAACTTGTCACAATGA",
+    "source_file": "author_ss_E27_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31233072-A-G_old",
+    "motif": "TCCTTCAACAGGGAACAGAATTTG",
+    "source_file": "author_ss_E27_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31233123-G-A_old",
+    "motif": "ATCGGTTTGAAAGGTTGGTGGAAC",
+    "source_file": "author_ss_E27_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31233156-T-G_old",
+    "motif": "TGATGGGTGAGCAGGGAGAACTCC",
+    "source_file": "author_ss_E27_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31233126-A-G_old",
+    "motif": "GGTTTGAGAGGTTAGTGGAACTGG",
+    "source_file": "author_ss_E27_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31233004-T-C_chr17-31233015-C-T",
+    "motif": "CTCCATAGGCCTAGGTTACCATAAGGATCTCC",
+    "source_file": "author_ss_E27_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31233005-T-G_chr17-31233012-C-T",
+    "motif": "TCCATAGGCTGAGGTTATCACAAGGATC",
+    "source_file": "author_ss_E27_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31233016-A-T_chr17-31233021-T-C",
+    "motif": "AGGTTACCACTAGGACCTCCAGACAA",
+    "source_file": "author_ss_E27_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31233018-G-A_chr17-31233024-C-A",
+    "motif": "GTTACCACAAAGATCTACAGACAAGAG",
+    "source_file": "author_ss_E27_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31233072-A-G_chr17-31233075-C-A",
+    "motif": "TCCTTCAACAGGGAACAGAATTTG",
+    "source_file": "author_ss_E27_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31233072-A-G_chr17-31233078-A-C",
+    "motif": "TCCTTCAACAGGGCACCGAATTTGACA",
+    "source_file": "author_ss_E27_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31233072-A-G_chr17-31233081-A-G",
+    "motif": "TCCTTCAACAGGGCACAGAGTTTGACACAC",
+    "source_file": "author_ss_E27_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31233075-C-T_chr17-31233078-A-G",
+    "motif": "TTCAACAAGGTACGGAATTTGACA",
+    "source_file": "author_ss_E27_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31233123-G-A_chr17-31233117-G-A",
+    "motif": "TGGCTGATCGATTTGAAAGATTGGTGG",
+    "source_file": "author_ss_E27_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31233123-G-A_chr17-31233120-T-C",
+    "motif": "CTGATCGGTTCGAAAGATTGGTGG",
+    "source_file": "author_ss_E27_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31233126-A-G_chr17-31233117-G-C",
+    "motif": "TGGCTGATCGCTTTGAGAGGTTGGTGGAAC",
+    "source_file": "author_ss_E27_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31233126-A-G_chr17-31233129-G-A",
+    "motif": "GGTTTGAGAGGTTAGTGGAACTGG",
+    "source_file": "author_ss_E27_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31233126-A-G_chr17-31233132-G-C",
+    "motif": "GGTTTGAGAGGTTGGTCGAACTGGTCA",
+    "source_file": "author_ss_E27_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31233127-T-C_chr17-31233123-G-A",
+    "motif": "ATCGGTTTGAAAGACTGGTGGAACT",
+    "source_file": "author_ss_E27_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31233128-T-A_chr17-31233132-G-T",
+    "motif": "TTTGAGAGATAGGTTGAACTGGTCA",
+    "source_file": "author_ss_E27_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31233133-G-T_chr17-31233136-C-T",
+    "motif": "GAGATTGGTGTAATTGGTCACAAT",
+    "source_file": "author_ss_E27_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31233135-A-G_chr17-31233129-G-A",
+    "motif": "TTGAGAGATTAGTGGAGCTGGTCACAA",
+    "source_file": "author_ss_E27_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31233148-A-G_chr17-31233141-C-A",
+    "motif": "TGGAACTGGTAACAATGGTGGGTGATCA",
+    "source_file": "author_ss_E27_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31233148-A-G_chr17-31233153-T-A",
+    "motif": "GGTCACAATGGTGGGAGATCAAGGAG",
+    "source_file": "author_ss_E27_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31233148-A-G_chr17-31233156-T-C",
+    "motif": "GGTCACAATGGTGGGTGACCAAGGAGAAC",
+    "source_file": "author_ss_E27_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31233156-T-C_chr17-31233159-A-G",
+    "motif": "TGATGGGTGACCAGGGAGAACTCC",
+    "source_file": "author_ss_E27_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31233156-T-C_chr17-31233162-A-G",
+    "motif": "TGATGGGTGACCAAGGGGAACTCCCTA",
+    "source_file": "author_ss_E27_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31233156-T-G_chr17-31233153-T-A",
+    "motif": "CAATGATGGGAGAGCAAGGAGAAC",
+    "source_file": "author_ss_E27_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31233156-T-G_chr17-31233159-A-G",
+    "motif": "TGATGGGTGAGCAGGGAGAACTCC",
+    "source_file": "author_ss_E27_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31233156-T-G_chr17-31233162-A-T",
+    "motif": "TGATGGGTGAGCAAGGTGAACTCCCTA",
+    "source_file": "author_ss_E27_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31233156-T-G_chr17-31233165-A-G",
+    "motif": "TGATGGGTGAGCAAGGAGAGCTCCCTATAG",
+    "source_file": "author_ss_E27_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31233157-C-T_chr17-31233162-A-C",
+    "motif": "GATGGGTGATTAAGGCGAACTCCCTA",
+    "source_file": "author_ss_E27_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31233159-A-G_chr17-31233162-A-T",
+    "motif": "TGGGTGATCAGGGTGAACTCCCTA",
+    "source_file": "author_ss_E27_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31233016-A-T_old",
+    "motif": "AGGTTACCACTAGGACCTCCAGACAA",
+    "source_file": "author_ss_E27_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31233128-T-A_old",
+    "motif": "TTTGAGAGATAGGTTGAACTGGTCA",
+    "source_file": "author_ss_E27_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31233005-T-G_old",
+    "motif": "CTCCATAGGCTGAGGCTACCACAAGG",
+    "source_file": "author_ss_E27_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31233157-C-T_old",
+    "motif": "GATGGGTGATTAAGGGGAACTCCCTA",
+    "source_file": "author_ss_E27_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31233133-G-T_old",
+    "motif": "GAGATTGGTGTAACTTGTCACAATGA",
+    "source_file": "author_ss_E27_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31233072-A-G_old",
+    "motif": "TCCTTCAACAGGGAACAGAATTTG",
+    "source_file": "author_ss_E27_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31233123-G-A_old",
+    "motif": "ATCGGTTTGAAAGGTTGGTGGAAC",
+    "source_file": "author_ss_E27_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31233156-T-G_old",
+    "motif": "TGATGGGTGAGCAGGGAGAACTCC",
+    "source_file": "author_ss_E27_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31233126-A-G_old",
+    "motif": "GGTTTGAGAGGTTAGTGGAACTGG",
+    "source_file": "author_ss_E27_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31260369-G-C_chr17-31260372-T-C",
+    "motif": "ATTTTTGAAGCTTCTTCCTTGATA",
+    "source_file": "author_ss_E34_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31260369-G-T_chr17-31260372-T-C",
+    "motif": "ATTTTTGAAGTTTCTTCCTTGATA",
+    "source_file": "author_ss_E34_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31260379-G-T_chr17-31260375-C-T",
+    "motif": "GAAGGTTTTTTCTTTATATAGCATC",
+    "source_file": "author_ss_E34_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31260379-G-T_chr17-31260387-A-C",
+    "motif": "GTTTTTCCTTTATATAGCCTCTGATTGTC",
+    "source_file": "author_ss_E34_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31260379-G-T_chr17-31260387-A-G",
+    "motif": "GTTTTTCCTTTATATAGCGTCTGATTGTC",
+    "source_file": "author_ss_E34_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31260380-A-G_chr17-31260387-A-C",
+    "motif": "TTTTTCCTTGGTATAGCCTCTGATTGTC",
+    "source_file": "author_ss_E34_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31260380-A-G_chr17-31260390-T-A",
+    "motif": "TTTTTCCTTGGTATAGCATCAGATTGTCCTA",
+    "source_file": "author_ss_E34_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31260380-A-T_chr17-31260375-C-T",
+    "motif": "GAAGGTTTTTTCTTGTTATAGCATCT",
+    "source_file": "author_ss_E34_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31260380-A-T_chr17-31260387-A-C",
+    "motif": "TTTTTCCTTGTTATAGCCTCTGATTGTC",
+    "source_file": "author_ss_E34_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31260380-A-T_chr17-31260390-T-A",
+    "motif": "TTTTTCCTTGTTATAGCATCAGATTGTCCTA",
+    "source_file": "author_ss_E34_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31260386-C-G_chr17-31260393-T-C",
+    "motif": "CTTGATATAGGATCTGACTGTCCTACAA",
+    "source_file": "author_ss_E34_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31260386-C-G_chr17-31260396-T-C",
+    "motif": "CTTGATATAGGATCTGATTGCCCTACAAGTG",
+    "source_file": "author_ss_E34_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31260386-C-T_chr17-31260390-T-A",
+    "motif": "CTTGATATAGTATCAGATTGTCCTA",
+    "source_file": "author_ss_E34_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31260386-C-T_chr17-31260393-T-C",
+    "motif": "CTTGATATAGTATCTGACTGTCCTACAA",
+    "source_file": "author_ss_E34_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31260421-A-C_chr17-31260429-C-A",
+    "motif": "AGTAAATCATCGTCTTTCATTCATAAGTG",
+    "source_file": "author_ss_E34_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31260421-A-G_chr17-31260426-T-A",
+    "motif": "AGTAAATCATGGTCTATCCTTCATAA",
+    "source_file": "author_ss_E34_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31260421-A-G_chr17-31260429-C-A",
+    "motif": "AGTAAATCATGGTCTTTCATTCATAAGTG",
+    "source_file": "author_ss_E34_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31260421-A-G_chr17-31260429-C-T",
+    "motif": "AGTAAATCATGGTCTTTCTTTCATAAGTG",
+    "source_file": "author_ss_E34_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31260421-A-T_chr17-31260417-T-C",
+    "motif": "ATGCAGTAAACCATTGTCTTTCCTT",
+    "source_file": "author_ss_E34_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31260421-A-T_chr17-31260426-T-G",
+    "motif": "AGTAAATCATTGTCTGTCCTTCATAA",
+    "source_file": "author_ss_E34_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31260421-A-T_chr17-31260429-C-G",
+    "motif": "AGTAAATCATTGTCTTTCGTTCATAAGTG",
+    "source_file": "author_ss_E34_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31260422-G-T_chr17-31260417-T-C",
+    "motif": "ATGCAGTAAACCATATTCTTTCCTTC",
+    "source_file": "author_ss_E34_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31260422-G-T_chr17-31260429-C-A",
+    "motif": "GTAAATCATATTCTTTCATTCATAAGTG",
+    "source_file": "author_ss_E34_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31260422-G-T_chr17-31260429-C-T",
+    "motif": "GTAAATCATATTCTTTCTTTCATAAGTG",
+    "source_file": "author_ss_E34_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31260438-T-G_chr17-31260444-C-A",
+    "motif": "CCTTCATAAGGGACGGAAATGTGCTTG",
+    "source_file": "author_ss_E34_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31260438-T-G_chr17-31260444-C-G",
+    "motif": "CCTTCATAAGGGACGGGAATGTGCTTG",
+    "source_file": "author_ss_E34_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31260457-T-C_chr17-31260462-T-C",
+    "motif": "TGTGCTTGCTCTACACCGTCTACTCT",
+    "source_file": "author_ss_E34_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31260458-T-A_chr17-31260462-T-C",
+    "motif": "GTGCTTGCTTAACACCGTCTACTCT",
+    "source_file": "author_ss_E34_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31260460-C-G_chr17-31260453-T-A",
+    "motif": "GCAATGTGCTAGCTTTAGATCGTCTACT",
+    "source_file": "author_ss_E34_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31260460-C-G_chr17-31260465-T-G",
+    "motif": "GCTTGCTTTAGATCGGCTACTCTGGA",
+    "source_file": "author_ss_E34_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31260462-T-G_chr17-31260453-T-A",
+    "motif": "GCAATGTGCTAGCTTTACAGCGTCTACTCT",
+    "source_file": "author_ss_E34_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31260462-T-G_chr17-31260465-T-C",
+    "motif": "TTGCTTTACAGCGCCTACTCTGGA",
+    "source_file": "author_ss_E34_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31260462-T-G_chr17-31260466-C-T",
+    "motif": "TTGCTTTACAGCGTTTACTCTGGAA",
+    "source_file": "author_ss_E34_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31260481-C-T_chr17-31260486-G-A",
+    "motif": "CTGGAACAATTAGGAAAAAATTGGGC",
+    "source_file": "author_ss_E34_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31260483-G-A_chr17-31260477-C-T",
+    "motif": "TACTCTGGAATAATCAAGAGAAAATTG",
+    "source_file": "author_ss_E34_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31260484-G-T_chr17-31260492-T-C",
+    "motif": "GAACAATCAGTAGAAAATCGGGCAGTATC",
+    "source_file": "author_ss_E34_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31260486-G-A_chr17-31260492-T-A",
+    "motif": "ACAATCAGGAAAAAATAGGGCAGTATC",
+    "source_file": "author_ss_E34_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31260487-A-T_chr17-31260492-T-A",
+    "motif": "CAATCAGGAGTAAATAGGGCAGTATC",
+    "source_file": "author_ss_E34_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31260489-A-G_chr17-31260492-T-C",
+    "motif": "ATCAGGAGAAGATCGGGCAGTATC",
+    "source_file": "author_ss_E34_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31260496-C-T_chr17-31260501-T-C",
+    "motif": "GAAAATTGGGTAGTACCTTTCCAGCA",
+    "source_file": "author_ss_E34_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31260498-G-A_chr17-31260504-T-C",
+    "motif": "AAATTGGGCAATATCTCTCCAGCAACA",
+    "source_file": "author_ss_E34_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31260369-G-C_chr17-31260372-T-C",
+    "motif": "CAGCACGCAGCTTCTTCCTTGATA",
+    "source_file": "author_ss_E34_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31260369-G-T_chr17-31260372-T-C",
+    "motif": "CAGCACGCAGTTTCTTCCTTGATA",
+    "source_file": "author_ss_E34_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31260379-G-T_chr17-31260375-C-T",
+    "motif": "GCAGGTTTTTTCTTTATATAGCATC",
+    "source_file": "author_ss_E34_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31260379-G-T_chr17-31260387-A-C",
+    "motif": "GTTTTTCCTTTATATAGCCTCTGATTGTC",
+    "source_file": "author_ss_E34_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31260379-G-T_chr17-31260387-A-G",
+    "motif": "GTTTTTCCTTTATATAGCGTCTGATTGTC",
+    "source_file": "author_ss_E34_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31260380-A-G_chr17-31260387-A-C",
+    "motif": "TTTTTCCTTGGTATAGCCTCTGATTGTC",
+    "source_file": "author_ss_E34_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31260380-A-G_chr17-31260390-T-A",
+    "motif": "TTTTTCCTTGGTATAGCATCAGATTGTCCTA",
+    "source_file": "author_ss_E34_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31260380-A-T_chr17-31260375-C-T",
+    "motif": "GCAGGTTTTTTCTTGTTATAGCATCT",
+    "source_file": "author_ss_E34_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31260380-A-T_chr17-31260387-A-C",
+    "motif": "TTTTTCCTTGTTATAGCCTCTGATTGTC",
+    "source_file": "author_ss_E34_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31260380-A-T_chr17-31260390-T-A",
+    "motif": "TTTTTCCTTGTTATAGCATCAGATTGTCCTA",
+    "source_file": "author_ss_E34_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31260386-C-G_chr17-31260393-T-C",
+    "motif": "CTTGATATAGGATCTGACTGTCCTACAA",
+    "source_file": "author_ss_E34_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31260386-C-G_chr17-31260396-T-C",
+    "motif": "CTTGATATAGGATCTGATTGCCCTACAAGTG",
+    "source_file": "author_ss_E34_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31260386-C-T_chr17-31260390-T-A",
+    "motif": "CTTGATATAGTATCAGATTGTCCTA",
+    "source_file": "author_ss_E34_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31260386-C-T_chr17-31260393-T-C",
+    "motif": "CTTGATATAGTATCTGACTGTCCTACAA",
+    "source_file": "author_ss_E34_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31260421-A-C_chr17-31260429-C-A",
+    "motif": "AGTAAATCATCGTCTTTCATTCATAAGTG",
+    "source_file": "author_ss_E34_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31260421-A-G_chr17-31260426-T-A",
+    "motif": "AGTAAATCATGGTCTATCCTTCATAA",
+    "source_file": "author_ss_E34_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31260421-A-G_chr17-31260429-C-A",
+    "motif": "AGTAAATCATGGTCTTTCATTCATAAGTG",
+    "source_file": "author_ss_E34_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31260421-A-G_chr17-31260429-C-T",
+    "motif": "AGTAAATCATGGTCTTTCTTTCATAAGTG",
+    "source_file": "author_ss_E34_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31260421-A-T_chr17-31260417-T-C",
+    "motif": "ATGCAGTAAACCATTGTCTTTCCTT",
+    "source_file": "author_ss_E34_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31260421-A-T_chr17-31260426-T-G",
+    "motif": "AGTAAATCATTGTCTGTCCTTCATAA",
+    "source_file": "author_ss_E34_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31260421-A-T_chr17-31260429-C-G",
+    "motif": "AGTAAATCATTGTCTTTCGTTCATAAGTG",
+    "source_file": "author_ss_E34_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31260422-G-T_chr17-31260417-T-C",
+    "motif": "ATGCAGTAAACCATATTCTTTCCTTC",
+    "source_file": "author_ss_E34_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31260422-G-T_chr17-31260429-C-A",
+    "motif": "GTAAATCATATTCTTTCATTCATAAGTG",
+    "source_file": "author_ss_E34_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31260422-G-T_chr17-31260429-C-T",
+    "motif": "GTAAATCATATTCTTTCTTTCATAAGTG",
+    "source_file": "author_ss_E34_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31260438-T-G_chr17-31260444-C-A",
+    "motif": "CCTTCATAAGGGACGGAAATGTGCTTG",
+    "source_file": "author_ss_E34_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31260438-T-G_chr17-31260444-C-G",
+    "motif": "CCTTCATAAGGGACGGGAATGTGCTTG",
+    "source_file": "author_ss_E34_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31260457-T-C_chr17-31260462-T-C",
+    "motif": "TGTGCTTGCTCTACACCGTCTACTCT",
+    "source_file": "author_ss_E34_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31260458-T-A_chr17-31260462-T-C",
+    "motif": "GTGCTTGCTTAACACCGTCTACTCT",
+    "source_file": "author_ss_E34_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31260460-C-G_chr17-31260453-T-A",
+    "motif": "GCAATGTGCTAGCTTTAGATCGTCTACT",
+    "source_file": "author_ss_E34_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31260460-C-G_chr17-31260465-T-G",
+    "motif": "GCTTGCTTTAGATCGGCTACTCTGGA",
+    "source_file": "author_ss_E34_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31260462-T-G_chr17-31260453-T-A",
+    "motif": "GCAATGTGCTAGCTTTACAGCGTCTACTCT",
+    "source_file": "author_ss_E34_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31260462-T-G_chr17-31260465-T-C",
+    "motif": "TTGCTTTACAGCGCCTACTCTGGA",
+    "source_file": "author_ss_E34_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31260462-T-G_chr17-31260466-C-T",
+    "motif": "TTGCTTTACAGCGTTTACTCTGGAA",
+    "source_file": "author_ss_E34_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31260481-C-T_chr17-31260486-G-A",
+    "motif": "CTGGAACAATTAGGAAAAAATTGGGC",
+    "source_file": "author_ss_E34_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31260483-G-A_chr17-31260477-C-T",
+    "motif": "TACTCTGGAATAATCAAGAGAAAATTG",
+    "source_file": "author_ss_E34_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31260484-G-T_chr17-31260492-T-C",
+    "motif": "GAACAATCAGTAGAAAATCGGGCAGTATC",
+    "source_file": "author_ss_E34_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31260486-G-A_chr17-31260492-T-A",
+    "motif": "ACAATCAGGAAAAAATAGGGCAGTATC",
+    "source_file": "author_ss_E34_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31260487-A-T_chr17-31260492-T-A",
+    "motif": "CAATCAGGAGTAAATAGGGCAGTATC",
+    "source_file": "author_ss_E34_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31260489-A-G_chr17-31260492-T-C",
+    "motif": "ATCAGGAGAAGATCGGGCAGTATC",
+    "source_file": "author_ss_E34_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31260496-C-T_chr17-31260501-T-C",
+    "motif": "GAAAATTGGGTAGTACCTTTCCAGCA",
+    "source_file": "author_ss_E34_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31260498-G-A_chr17-31260504-T-C",
+    "motif": "AAATTGGGCAATATCTCTCCAGCAACA",
+    "source_file": "author_ss_E34_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31330320-T-A_chr17-31330323-C-G",
+    "motif": "ATCTTCTGTGAGCGTTAACTTGTA",
+    "source_file": "author_ss_E39_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31330320-T-C_chr17-31330323-C-G",
+    "motif": "ATCTTCTGTGCGCGTTAACTTGTA",
+    "source_file": "author_ss_E39_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31330342-T-C_chr17-31330335-C-A",
+    "motif": "TAACTTGTACATTTAATCTAAAAATCGA",
+    "source_file": "author_ss_E39_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31330343-T-G_chr17-31330335-C-T",
+    "motif": "TAACTTGTACTTTTAATTGAAAAATCGAG",
+    "source_file": "author_ss_E39_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31330373-C-G_chr17-31330371-A-G",
+    "motif": "TACTAGAGACGTGAGGTTTATGT",
+    "source_file": "author_ss_E39_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31330374-A-C_chr17-31330371-A-G",
+    "motif": "TACTAGAGACGTCCGGTTTATGTA",
+    "source_file": "author_ss_E39_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31330378-T-A_chr17-31330386-C-A",
+    "motif": "GACATCAGGTATATGTATACCTGCCAACA",
+    "source_file": "author_ss_E39_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31330378-T-A_chr17-31330386-C-T",
+    "motif": "GACATCAGGTATATGTATTCCTGCCAACA",
+    "source_file": "author_ss_E39_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31330378-T-C_chr17-31330377-T-G",
+    "motif": "AGACATCAGGGCTATGTATCCC",
+    "source_file": "author_ss_E39_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31330379-T-G_chr17-31330377-T-G",
+    "motif": "AGACATCAGGGTGATGTATCCCT",
+    "source_file": "author_ss_E39_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31330380-A-G_chr17-31330371-A-T",
+    "motif": "TACTAGAGACTTCAGGTTTGTGTATCCCTG",
+    "source_file": "author_ss_E39_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31330380-A-G_chr17-31330377-T-G",
+    "motif": "AGACATCAGGGTTGTGTATCCCTG",
+    "source_file": "author_ss_E39_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31330380-A-G_chr17-31330389-T-A",
+    "motif": "CATCAGGTTTGTGTATCCCAGCCAACAACA",
+    "source_file": "author_ss_E39_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31330392-C-T_chr17-31330386-C-T",
+    "motif": "GTTTATGTATTCCTGCTAACAACACCC",
+    "source_file": "author_ss_E39_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31330392-C-T_chr17-31330389-T-C",
+    "motif": "TATGTATCCCCGCTAACAACACCC",
+    "source_file": "author_ss_E39_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31330395-C-G_chr17-31330392-C-A",
+    "motif": "GTATCCCTGCAAAGAACACCCTCT",
+    "source_file": "author_ss_E39_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31330395-C-G_chr17-31330398-C-T",
+    "motif": "TCCCTGCCAAGAATACCCTCTTTA",
+    "source_file": "author_ss_E39_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31330395-C-T_chr17-31330392-C-A",
+    "motif": "GTATCCCTGCAAATAACACCCTCT",
+    "source_file": "author_ss_E39_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31330395-C-T_chr17-31330401-C-A",
+    "motif": "TCCCTGCCAATAACACACTCTTTATTG",
+    "source_file": "author_ss_E39_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31330417-A-C_chr17-31330416-T-C",
+    "motif": "TTATTGTCTCCCTTAGTAAGAC",
+    "source_file": "author_ss_E39_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31330417-A-C_chr17-31330428-A-C",
+    "motif": "TATTGTCTCTCTTAGTAAGACCCTGGCAGCCA",
+    "source_file": "author_ss_E39_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31330417-A-G_chr17-31330428-A-C",
+    "motif": "TATTGTCTCTGTTAGTAAGACCCTGGCAGCCA",
+    "source_file": "author_ss_E39_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31330417-A-G_chr17-31330428-A-T",
+    "motif": "TATTGTCTCTGTTAGTAAGACTCTGGCAGCCA",
+    "source_file": "author_ss_E39_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31330417-A-T_chr17-31330413-C-T",
+    "motif": "TCTTTATTGTTTCTTTTAGTAAGAC",
+    "source_file": "author_ss_E39_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31330417-A-T_chr17-31330416-T-G",
+    "motif": "TTATTGTCTCGTTTAGTAAGAC",
+    "source_file": "author_ss_E39_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31330417-A-T_chr17-31330428-A-C",
+    "motif": "TATTGTCTCTTTTAGTAAGACCCTGGCAGCCA",
+    "source_file": "author_ss_E39_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31330422-T-A_chr17-31330413-C-A",
+    "motif": "TCTTTATTGTATCTATTAGAAAGACACTGG",
+    "source_file": "author_ss_E39_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31330422-T-A_chr17-31330428-A-T",
+    "motif": "TCTCTATTAGAAAGACTCTGGCAGCCA",
+    "source_file": "author_ss_E39_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31330422-T-A_chr17-31330429-C-T",
+    "motif": "TCTCTATTAGAAAGACATTGGCAGCCAA",
+    "source_file": "author_ss_E39_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31330422-T-C_chr17-31330416-T-C",
+    "motif": "TTATTGTCTCCATTAGCAAGACACTGG",
+    "source_file": "author_ss_E39_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31330422-T-C_chr17-31330431-G-T",
+    "motif": "TCTCTATTAGCAAGACACTTGCAGCCAATG",
+    "source_file": "author_ss_E39_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31330422-T-G_chr17-31330416-T-G",
+    "motif": "TTATTGTCTCGATTAGGAAGACACTGG",
+    "source_file": "author_ss_E39_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31330422-T-G_chr17-31330429-C-T",
+    "motif": "TCTCTATTAGGAAGACATTGGCAGCCAA",
+    "source_file": "author_ss_E39_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31330422-T-G_chr17-31330431-G-C",
+    "motif": "TCTCTATTAGGAAGACACTCGCAGCCAATG",
+    "source_file": "author_ss_E39_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31330423-A-T_chr17-31330428-A-T",
+    "motif": "CTCTATTAGTTAGACTCTGGCAGCCA",
+    "source_file": "author_ss_E39_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31330424-A-G_chr17-31330416-T-G",
+    "motif": "TTATTGTCTCGATTAGTAGGACACTGGCA",
+    "source_file": "author_ss_E39_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31330424-A-G_chr17-31330431-G-T",
+    "motif": "TCTATTAGTAGGACACTTGCAGCCAATG",
+    "source_file": "author_ss_E39_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31330424-A-G_chr17-31330434-A-T",
+    "motif": "TCTATTAGTAGGACACTGGCTGCCAATGAGC",
+    "source_file": "author_ss_E39_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31330425-G-A_chr17-31330419-T-A",
+    "motif": "TTGTCTCTATAAGTAAAACACTGGCAG",
+    "source_file": "author_ss_E39_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31330320-T-A_chr17-31330323-C-G",
+    "motif": "ATCTTCTGTGAGCGTTAACTTGTA",
+    "source_file": "author_ss_E39_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31330320-T-C_chr17-31330323-C-G",
+    "motif": "ATCTTCTGTGCGCGTTAACTTGTA",
+    "source_file": "author_ss_E39_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31330342-T-C_chr17-31330335-C-A",
+    "motif": "TAACTTGTACATTTAATCTAAAAATCGA",
+    "source_file": "author_ss_E39_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31330343-T-G_chr17-31330335-C-T",
+    "motif": "TAACTTGTACTTTTAATTGAAAAATCGAG",
+    "source_file": "author_ss_E39_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31330373-C-G_chr17-31330371-A-G",
+    "motif": "TACTAGAGACGTGAGGTTTATGT",
+    "source_file": "author_ss_E39_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31330374-A-C_chr17-31330371-A-G",
+    "motif": "TACTAGAGACGTCCGGTTTATGTA",
+    "source_file": "author_ss_E39_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31330378-T-A_chr17-31330386-C-A",
+    "motif": "GACATCAGGTATATGTATACCTGCCAACA",
+    "source_file": "author_ss_E39_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31330378-T-A_chr17-31330386-C-T",
+    "motif": "GACATCAGGTATATGTATTCCTGCCAACA",
+    "source_file": "author_ss_E39_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31330378-T-C_chr17-31330377-T-G",
+    "motif": "AGACATCAGGGCTATGTATCCC",
+    "source_file": "author_ss_E39_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31330379-T-G_chr17-31330377-T-G",
+    "motif": "AGACATCAGGGTGATGTATCCCT",
+    "source_file": "author_ss_E39_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31330380-A-G_chr17-31330371-A-T",
+    "motif": "TACTAGAGACTTCAGGTTTGTGTATCCCTG",
+    "source_file": "author_ss_E39_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31330380-A-G_chr17-31330377-T-G",
+    "motif": "AGACATCAGGGTTGTGTATCCCTG",
+    "source_file": "author_ss_E39_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31330380-A-G_chr17-31330389-T-A",
+    "motif": "CATCAGGTTTGTGTATCCCAGCCAACAACA",
+    "source_file": "author_ss_E39_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31330392-C-T_chr17-31330386-C-T",
+    "motif": "GTTTATGTATTCCTGCTAACAACACCC",
+    "source_file": "author_ss_E39_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31330392-C-T_chr17-31330389-T-C",
+    "motif": "TATGTATCCCCGCTAACAACACCC",
+    "source_file": "author_ss_E39_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31330395-C-G_chr17-31330392-C-A",
+    "motif": "GTATCCCTGCAAAGAACACCCTCT",
+    "source_file": "author_ss_E39_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31330395-C-G_chr17-31330398-C-T",
+    "motif": "TCCCTGCCAAGAATACCCTCTTTA",
+    "source_file": "author_ss_E39_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31330395-C-T_chr17-31330392-C-A",
+    "motif": "GTATCCCTGCAAATAACACCCTCT",
+    "source_file": "author_ss_E39_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31330395-C-T_chr17-31330401-C-A",
+    "motif": "TCCCTGCCAATAACACACTCTTTATTG",
+    "source_file": "author_ss_E39_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31330417-A-C_chr17-31330416-T-C",
+    "motif": "TTATTGTCTCCCTTAGTAAGAC",
+    "source_file": "author_ss_E39_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31330417-A-C_chr17-31330428-A-C",
+    "motif": "TATTGTCTCTCTTAGTAAGACCCTGGCAGCCA",
+    "source_file": "author_ss_E39_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31330417-A-G_chr17-31330428-A-C",
+    "motif": "TATTGTCTCTGTTAGTAAGACCCTGGCAGCCA",
+    "source_file": "author_ss_E39_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31330417-A-G_chr17-31330428-A-T",
+    "motif": "TATTGTCTCTGTTAGTAAGACTCTGGCAGCCA",
+    "source_file": "author_ss_E39_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31330417-A-T_chr17-31330413-C-T",
+    "motif": "TCTTTATTGTTTCTTTTAGTAAGAC",
+    "source_file": "author_ss_E39_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31330417-A-T_chr17-31330416-T-G",
+    "motif": "TTATTGTCTCGTTTAGTAAGAC",
+    "source_file": "author_ss_E39_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31330417-A-T_chr17-31330428-A-C",
+    "motif": "TATTGTCTCTTTTAGTAAGACCCTGGCAGCCA",
+    "source_file": "author_ss_E39_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31330422-T-A_chr17-31330413-C-A",
+    "motif": "TCTTTATTGTATCTATTAGAAAGACACTGG",
+    "source_file": "author_ss_E39_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31330422-T-A_chr17-31330428-A-T",
+    "motif": "TCTCTATTAGAAAGACTCTGGCAGCCA",
+    "source_file": "author_ss_E39_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31330422-T-A_chr17-31330429-C-T",
+    "motif": "TCTCTATTAGAAAGACATTGGCAGCCAA",
+    "source_file": "author_ss_E39_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31330422-T-C_chr17-31330416-T-C",
+    "motif": "TTATTGTCTCCATTAGCAAGACACTGG",
+    "source_file": "author_ss_E39_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31330422-T-C_chr17-31330431-G-T",
+    "motif": "TCTCTATTAGCAAGACACTTGCAGCCAATG",
+    "source_file": "author_ss_E39_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31330422-T-G_chr17-31330416-T-G",
+    "motif": "TTATTGTCTCGATTAGGAAGACACTGG",
+    "source_file": "author_ss_E39_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31330422-T-G_chr17-31330429-C-T",
+    "motif": "TCTCTATTAGGAAGACATTGGCAGCCAA",
+    "source_file": "author_ss_E39_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31330422-T-G_chr17-31330431-G-C",
+    "motif": "TCTCTATTAGGAAGACACTCGCAGCCAATG",
+    "source_file": "author_ss_E39_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31330423-A-T_chr17-31330428-A-T",
+    "motif": "CTCTATTAGTTAGACTCTGGCAGCCA",
+    "source_file": "author_ss_E39_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31330424-A-G_chr17-31330416-T-G",
+    "motif": "TTATTGTCTCGATTAGTAGGACACTGGCA",
+    "source_file": "author_ss_E39_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31330424-A-G_chr17-31330431-G-T",
+    "motif": "TCTATTAGTAGGACACTTGCAGCCAATG",
+    "source_file": "author_ss_E39_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31330424-A-G_chr17-31330434-A-T",
+    "motif": "TCTATTAGTAGGACACTGGCTGCCAATGAGC",
+    "source_file": "author_ss_E39_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31330425-G-A_chr17-31330419-T-A",
+    "motif": "TTGTCTCTATAAGTAAAACACTGGCAG",
+    "source_file": "author_ss_E39_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31336673-C-A_chr17-31336670-A-T",
+    "motif": "TTGACAAGACTTGATTATCTCCAA",
+    "source_file": "author_ss_E42_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31336673-C-T_chr17-31336676-A-G",
+    "motif": "ACAAGACATGTTTGTCTCCAACTC",
+    "source_file": "author_ss_E42_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31336675-T-A_chr17-31336673-C-T",
+    "motif": "ACAAGACATGTTAATCTCCAACT",
+    "source_file": "author_ss_E42_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31336676-A-G_chr17-31336673-C-T",
+    "motif": "ACAAGACATGTTTGTCTCCAACTC",
+    "source_file": "author_ss_E42_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31336708-T-G_chr17-31336715-T-C",
+    "motif": "CAACATCTTAGGTGGGACGATATTGCTA",
+    "source_file": "author_ss_E42_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31336708-T-G_chr17-31336718-T-C",
+    "motif": "CAACATCTTAGGTGGGATGACATTGCTATTT",
+    "source_file": "author_ss_E42_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31336713-G-T_chr17-31336721-T-C",
+    "motif": "TCTTATGTGGTATGATATCGCTATTTTAG",
+    "source_file": "author_ss_E42_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31336728-T-C_chr17-31336733-A-T",
+    "motif": "TATTGCTATTCTAGCTCGCTACATGC",
+    "source_file": "author_ss_E42_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31336729-T-A_chr17-31336733-A-T",
+    "motif": "ATTGCTATTTAAGCTCGCTACATGC",
+    "source_file": "author_ss_E42_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31336736-C-A_chr17-31336733-A-C",
+    "motif": "CTATTTTAGCCCGATACATGCTGA",
+    "source_file": "author_ss_E42_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31336736-C-A_chr17-31336733-A-T",
+    "motif": "CTATTTTAGCTCGATACATGCTGA",
+    "source_file": "author_ss_E42_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31336736-C-G_chr17-31336727-T-A",
+    "motif": "ATATTGCTATATTAGCACGGTACATGCTGA",
+    "source_file": "author_ss_E42_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31336736-C-G_chr17-31336745-G-A",
+    "motif": "TTTTAGCACGGTACATGCTAATGCTGTCCT",
+    "source_file": "author_ss_E42_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31336736-C-T_chr17-31336728-T-C",
+    "motif": "TATTGCTATTCTAGCACGTTACATGCTGA",
+    "source_file": "author_ss_E42_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31336736-C-T_chr17-31336743-C-T",
+    "motif": "TTTTAGCACGTTACATGTTGATGCTGTC",
+    "source_file": "author_ss_E42_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31336772-T-C_chr17-31336766-C-T",
+    "motif": "TCAACAATTCTCTTGACGTGGCAGCTC",
+    "source_file": "author_ss_E42_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31336772-T-C_chr17-31336781-T-A",
+    "motif": "ATTCCCTTGACGTGGCAGCACATCTTCCCT",
+    "source_file": "author_ss_E42_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31336772-T-G_chr17-31336775-G-A",
+    "motif": "ATTCCCTTGAGGTAGCAGCTCATC",
+    "source_file": "author_ss_E42_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31336772-T-G_chr17-31336781-T-A",
+    "motif": "ATTCCCTTGAGGTGGCAGCACATCTTCCCT",
+    "source_file": "author_ss_E42_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31336772-T-G_chr17-31336781-T-C",
+    "motif": "ATTCCCTTGAGGTGGCAGCCCATCTTCCCT",
+    "source_file": "author_ss_E42_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31336777-C-T_chr17-31336775-G-C",
+    "motif": "CCCTTGATGTCGTAGCTCATCTT",
+    "source_file": "author_ss_E42_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31336777-C-T_chr17-31336784-T-C",
+    "motif": "CTTGATGTGGTAGCTCACCTTCCCTACC",
+    "source_file": "author_ss_E42_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31336777-C-T_chr17-31336787-T-C",
+    "motif": "CTTGATGTGGTAGCTCATCTCCCCTACCTCT",
+    "source_file": "author_ss_E42_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31336780-C-G_chr17-31336772-T-C",
+    "motif": "ATTCCCTTGACGTGGCAGGTCATCTTCCC",
+    "source_file": "author_ss_E42_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31336780-C-G_chr17-31336778-A-G",
+    "motif": "TTGATGTGGCGGGTCATCTTCCC",
+    "source_file": "author_ss_E42_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31336780-C-G_chr17-31336787-T-C",
+    "motif": "GATGTGGCAGGTCATCTCCCCTACCTCT",
+    "source_file": "author_ss_E42_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31336780-C-T_chr17-31336775-G-T",
+    "motif": "CCCTTGATGTTGCAGTTCATCTTCCC",
+    "source_file": "author_ss_E42_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31336780-C-T_chr17-31336787-T-C",
+    "motif": "GATGTGGCAGTTCATCTCCCCTACCTCT",
+    "source_file": "author_ss_E42_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31336793-C-A_chr17-31336796-C-T",
+    "motif": "ATCTTCCCTAACTTTTCCACGTTG",
+    "source_file": "author_ss_E42_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31336793-C-T_chr17-31336796-C-T",
+    "motif": "ATCTTCCCTATCTTTTCCACGTTG",
+    "source_file": "author_ss_E42_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31336802-C-G_chr17-31336799-C-T",
+    "motif": "CCTACCTCTTTCAGGTTGTTACTT",
+    "source_file": "author_ss_E42_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31336802-C-G_chr17-31336805-T-A",
+    "motif": "ACCTCTTCCAGGTAGTTACTTTCT",
+    "source_file": "author_ss_E42_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31336802-C-G_chr17-31336811-T-C",
+    "motif": "ACCTCTTCCAGGTTGTTACCTTCTTAGTAG",
+    "source_file": "author_ss_E42_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31336802-C-T_chr17-31336793-C-T",
+    "motif": "ATCTTCCCTATCTCTTCCATGTTGTTACTT",
+    "source_file": "author_ss_E42_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31336802-C-T_chr17-31336796-C-A",
+    "motif": "TTCCCTACCTATTCCATGTTGTTACTT",
+    "source_file": "author_ss_E42_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31336830-C-A_chr17-31336823-C-T",
+    "motif": "TCTTAGTAGCTACAGGTACGCTCTCCCT",
+    "source_file": "author_ss_E42_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31336830-C-A_chr17-31336826-A-T",
+    "motif": "TAGTAGCCACTGGTACGCTCTCCCT",
+    "source_file": "author_ss_E42_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31336830-C-A_chr17-31336838-C-T",
+    "motif": "AGCCACAGGTACGCTCTCTCTTAGAGCTT",
+    "source_file": "author_ss_E42_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31336830-C-G_chr17-31336823-C-G",
+    "motif": "TCTTAGTAGCGACAGGTGCGCTCTCCCT",
+    "source_file": "author_ss_E42_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31336830-C-G_chr17-31336841-T-A",
+    "motif": "AGCCACAGGTGCGCTCTCCCTAAGAGCTTCCA",
+    "source_file": "author_ss_E42_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31336831-C-A_chr17-31336823-C-T",
+    "motif": "TCTTAGTAGCTACAGGTCAGCTCTCCCTT",
+    "source_file": "author_ss_E42_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31336831-C-A_chr17-31336829-T-G",
+    "motif": "TAGCCACAGGGCAGCTCTCCCTT",
+    "source_file": "author_ss_E42_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31336831-C-A_chr17-31336841-T-A",
+    "motif": "GCCACAGGTCAGCTCTCCCTAAGAGCTTCCA",
+    "source_file": "author_ss_E42_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31336831-C-G_chr17-31336835-C-A",
+    "motif": "GCCACAGGTCGGCTATCCCTTAGAG",
+    "source_file": "author_ss_E42_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31336831-C-G_chr17-31336838-C-A",
+    "motif": "GCCACAGGTCGGCTCTCACTTAGAGCTT",
+    "source_file": "author_ss_E42_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31336831-C-T_chr17-31336823-C-T",
+    "motif": "TCTTAGTAGCTACAGGTCTGCTCTCCCTT",
+    "source_file": "author_ss_E42_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31336831-C-T_chr17-31336838-C-T",
+    "motif": "GCCACAGGTCTGCTCTCTCTTAGAGCTT",
+    "source_file": "author_ss_E42_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31336833-C-G_chr17-31336829-T-G",
+    "motif": "TAGCCACAGGGCCGGTCTCCCTTAG",
+    "source_file": "author_ss_E42_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31336833-C-G_chr17-31336838-C-A",
+    "motif": "CACAGGTCCGGTCTCACTTAGAGCTT",
+    "source_file": "author_ss_E42_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31336833-C-T_chr17-31336832-G-A",
+    "motif": "CCACAGGTCCATTCTCCCTTAG",
+    "source_file": "author_ss_E42_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31336833-C-T_chr17-31336838-C-T",
+    "motif": "CACAGGTCCGTTCTCTCTTAGAGCTT",
+    "source_file": "author_ss_E42_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31336833-C-T_chr17-31336844-A-G",
+    "motif": "CACAGGTCCGTTCTCCCTTAGGGCTTCCACAC",
+    "source_file": "author_ss_E42_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31336842-A-T_chr17-31336847-T-C",
+    "motif": "GCTCTCCCTTTGAGCCTCCACACATG",
+    "source_file": "author_ss_E42_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31336844-A-G_chr17-31336847-T-C",
+    "motif": "TCTCCCTTAGGGCCTCCACACATG",
+    "source_file": "author_ss_E42_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31336865-C-A_chr17-31336862-G-C",
+    "motif": "CACATGGACTCGTAATTAATATCA",
+    "source_file": "author_ss_E42_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31336865-C-A_chr17-31336871-T-C",
+    "motif": "ATGGACTGGTAATTAACATCATTCACT",
+    "source_file": "author_ss_E42_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31336865-C-A_chr17-31336874-C-A",
+    "motif": "ATGGACTGGTAATTAATATAATTCACTCTC",
+    "source_file": "author_ss_E42_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31336865-C-G_chr17-31336860-C-T",
+    "motif": "CACACATGGATTGGTGATTAATATCA",
+    "source_file": "author_ss_E42_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31336865-C-G_chr17-31336868-T-A",
+    "motif": "ATGGACTGGTGATAAATATCATTC",
+    "source_file": "author_ss_E42_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31336865-C-T_chr17-31336856-T-C",
+    "motif": "CTTCCACACACGGACTGGTTATTAATATCA",
+    "source_file": "author_ss_E42_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31336865-C-T_chr17-31336868-T-A",
+    "motif": "ATGGACTGGTTATAAATATCATTC",
+    "source_file": "author_ss_E42_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31336867-T-G_chr17-31336860-C-T",
+    "motif": "CACACATGGATTGGTCAGTAATATCATT",
+    "source_file": "author_ss_E42_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31336867-T-G_chr17-31336865-C-G",
+    "motif": "ATGGACTGGTGAGTAATATCATT",
+    "source_file": "author_ss_E42_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31336867-T-G_chr17-31336871-T-C",
+    "motif": "GGACTGGTCAGTAACATCATTCACT",
+    "source_file": "author_ss_E42_DNA.txt",
+    "modality": "DNA"
+  },
+  {
+    "id": "chr17-31336673-C-A_chr17-31336670-A-T",
+    "motif": "TTGACAAGACTTGATTATCTCCAA",
+    "source_file": "author_ss_E42_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31336673-C-T_chr17-31336676-A-G",
+    "motif": "ACAAGACATGTTTGTCTCCAACTC",
+    "source_file": "author_ss_E42_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31336675-T-A_chr17-31336673-C-T",
+    "motif": "ACAAGACATGTTAATCTCCAACT",
+    "source_file": "author_ss_E42_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31336676-A-G_chr17-31336673-C-T",
+    "motif": "ACAAGACATGTTTGTCTCCAACTC",
+    "source_file": "author_ss_E42_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31336708-T-G_chr17-31336715-T-C",
+    "motif": "CAACATCTTAGGTGGGACGATATTGCTA",
+    "source_file": "author_ss_E42_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31336708-T-G_chr17-31336718-T-C",
+    "motif": "CAACATCTTAGGTGGGATGACATTGCTATTT",
+    "source_file": "author_ss_E42_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31336713-G-T_chr17-31336721-T-C",
+    "motif": "TCTTATGTGGTATGATATCGCTATTTTAG",
+    "source_file": "author_ss_E42_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31336728-T-C_chr17-31336733-A-T",
+    "motif": "TATTGCTATTCTAGCTCGCTACATGC",
+    "source_file": "author_ss_E42_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31336729-T-A_chr17-31336733-A-T",
+    "motif": "ATTGCTATTTAAGCTCGCTACATGC",
+    "source_file": "author_ss_E42_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31336736-C-A_chr17-31336733-A-C",
+    "motif": "CTATTTTAGCCCGATACATGCTGA",
+    "source_file": "author_ss_E42_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31336736-C-A_chr17-31336733-A-T",
+    "motif": "CTATTTTAGCTCGATACATGCTGA",
+    "source_file": "author_ss_E42_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31336736-C-G_chr17-31336727-T-A",
+    "motif": "ATATTGCTATATTAGCACGGTACATGCTGA",
+    "source_file": "author_ss_E42_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31336736-C-G_chr17-31336745-G-A",
+    "motif": "TTTTAGCACGGTACATGCTAATGCTGTCCT",
+    "source_file": "author_ss_E42_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31336736-C-T_chr17-31336728-T-C",
+    "motif": "TATTGCTATTCTAGCACGTTACATGCTGA",
+    "source_file": "author_ss_E42_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31336736-C-T_chr17-31336743-C-T",
+    "motif": "TTTTAGCACGTTACATGTTGATGCTGTC",
+    "source_file": "author_ss_E42_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31336772-T-C_chr17-31336766-C-T",
+    "motif": "TCAACAATTCTCTTGACGTGGCAGCTC",
+    "source_file": "author_ss_E42_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31336772-T-C_chr17-31336781-T-A",
+    "motif": "ATTCCCTTGACGTGGCAGCACATCTTCCCT",
+    "source_file": "author_ss_E42_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31336772-T-G_chr17-31336775-G-A",
+    "motif": "ATTCCCTTGAGGTAGCAGCTCATC",
+    "source_file": "author_ss_E42_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31336772-T-G_chr17-31336781-T-A",
+    "motif": "ATTCCCTTGAGGTGGCAGCACATCTTCCCT",
+    "source_file": "author_ss_E42_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31336772-T-G_chr17-31336781-T-C",
+    "motif": "ATTCCCTTGAGGTGGCAGCCCATCTTCCCT",
+    "source_file": "author_ss_E42_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31336777-C-T_chr17-31336775-G-C",
+    "motif": "CCCTTGATGTCGTAGCTCATCTT",
+    "source_file": "author_ss_E42_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31336777-C-T_chr17-31336784-T-C",
+    "motif": "CTTGATGTGGTAGCTCACCTTCCCTACC",
+    "source_file": "author_ss_E42_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31336777-C-T_chr17-31336787-T-C",
+    "motif": "CTTGATGTGGTAGCTCATCTCCCCTACCTCT",
+    "source_file": "author_ss_E42_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31336780-C-G_chr17-31336772-T-C",
+    "motif": "ATTCCCTTGACGTGGCAGGTCATCTTCCC",
+    "source_file": "author_ss_E42_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31336780-C-G_chr17-31336778-A-G",
+    "motif": "TTGATGTGGCGGGTCATCTTCCC",
+    "source_file": "author_ss_E42_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31336780-C-G_chr17-31336787-T-C",
+    "motif": "GATGTGGCAGGTCATCTCCCCTACCTCT",
+    "source_file": "author_ss_E42_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31336780-C-T_chr17-31336775-G-T",
+    "motif": "CCCTTGATGTTGCAGTTCATCTTCCC",
+    "source_file": "author_ss_E42_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31336780-C-T_chr17-31336787-T-C",
+    "motif": "GATGTGGCAGTTCATCTCCCCTACCTCT",
+    "source_file": "author_ss_E42_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31336793-C-A_chr17-31336796-C-T",
+    "motif": "ATCTTCCCTAACTTTTCCACGTTG",
+    "source_file": "author_ss_E42_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31336793-C-T_chr17-31336796-C-T",
+    "motif": "ATCTTCCCTATCTTTTCCACGTTG",
+    "source_file": "author_ss_E42_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31336802-C-G_chr17-31336799-C-T",
+    "motif": "CCTACCTCTTTCAGGTTGTTACTT",
+    "source_file": "author_ss_E42_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31336802-C-G_chr17-31336805-T-A",
+    "motif": "ACCTCTTCCAGGTAGTTACTTTCT",
+    "source_file": "author_ss_E42_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31336802-C-G_chr17-31336811-T-C",
+    "motif": "ACCTCTTCCAGGTTGTTACCTTCTTAGTAG",
+    "source_file": "author_ss_E42_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31336802-C-T_chr17-31336793-C-T",
+    "motif": "ATCTTCCCTATCTCTTCCATGTTGTTACTT",
+    "source_file": "author_ss_E42_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31336802-C-T_chr17-31336796-C-A",
+    "motif": "TTCCCTACCTATTCCATGTTGTTACTT",
+    "source_file": "author_ss_E42_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31336830-C-A_chr17-31336823-C-T",
+    "motif": "TCTTAGTAGCTACAGGTACGCTCTCCCT",
+    "source_file": "author_ss_E42_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31336830-C-A_chr17-31336826-A-T",
+    "motif": "TAGTAGCCACTGGTACGCTCTCCCT",
+    "source_file": "author_ss_E42_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31336830-C-A_chr17-31336838-C-T",
+    "motif": "AGCCACAGGTACGCTCTCTCTTAGAGCTT",
+    "source_file": "author_ss_E42_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31336830-C-G_chr17-31336823-C-G",
+    "motif": "TCTTAGTAGCGACAGGTGCGCTCTCCCT",
+    "source_file": "author_ss_E42_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31336830-C-G_chr17-31336841-T-A",
+    "motif": "AGCCACAGGTGCGCTCTCCCTAAGAGCTTCCA",
+    "source_file": "author_ss_E42_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31336831-C-A_chr17-31336823-C-T",
+    "motif": "TCTTAGTAGCTACAGGTCAGCTCTCCCTT",
+    "source_file": "author_ss_E42_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31336831-C-A_chr17-31336829-T-G",
+    "motif": "TAGCCACAGGGCAGCTCTCCCTT",
+    "source_file": "author_ss_E42_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31336831-C-A_chr17-31336841-T-A",
+    "motif": "GCCACAGGTCAGCTCTCCCTAAGAGCTTCCA",
+    "source_file": "author_ss_E42_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31336831-C-G_chr17-31336835-C-A",
+    "motif": "GCCACAGGTCGGCTATCCCTTAGAG",
+    "source_file": "author_ss_E42_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31336831-C-G_chr17-31336838-C-A",
+    "motif": "GCCACAGGTCGGCTCTCACTTAGAGCTT",
+    "source_file": "author_ss_E42_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31336831-C-T_chr17-31336823-C-T",
+    "motif": "TCTTAGTAGCTACAGGTCTGCTCTCCCTT",
+    "source_file": "author_ss_E42_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31336831-C-T_chr17-31336838-C-T",
+    "motif": "GCCACAGGTCTGCTCTCTCTTAGAGCTT",
+    "source_file": "author_ss_E42_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31336833-C-G_chr17-31336829-T-G",
+    "motif": "TAGCCACAGGGCCGGTCTCCCTTAG",
+    "source_file": "author_ss_E42_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31336833-C-G_chr17-31336838-C-A",
+    "motif": "CACAGGTCCGGTCTCACTTAGAGCTT",
+    "source_file": "author_ss_E42_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31336833-C-T_chr17-31336832-G-A",
+    "motif": "CCACAGGTCCATTCTCCCTTAG",
+    "source_file": "author_ss_E42_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31336833-C-T_chr17-31336838-C-T",
+    "motif": "CACAGGTCCGTTCTCTCTTAGAGCTT",
+    "source_file": "author_ss_E42_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31336833-C-T_chr17-31336844-A-G",
+    "motif": "CACAGGTCCGTTCTCCCTTAGGGCTTCCACAC",
+    "source_file": "author_ss_E42_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31336842-A-T_chr17-31336847-T-C",
+    "motif": "GCTCTCCCTTTGAGCCTCCACACATG",
+    "source_file": "author_ss_E42_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31336844-A-G_chr17-31336847-T-C",
+    "motif": "TCTCCCTTAGGGCCTCCACACATG",
+    "source_file": "author_ss_E42_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31336865-C-A_chr17-31336862-G-C",
+    "motif": "CACATGGACTCGTAATTAATATCA",
+    "source_file": "author_ss_E42_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31336865-C-A_chr17-31336871-T-C",
+    "motif": "ATGGACTGGTAATTAACATCATTCACT",
+    "source_file": "author_ss_E42_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31336865-C-A_chr17-31336874-C-A",
+    "motif": "ATGGACTGGTAATTAATATAATTCACTCTC",
+    "source_file": "author_ss_E42_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31336865-C-G_chr17-31336860-C-T",
+    "motif": "CACACATGGATTGGTGATTAATATCA",
+    "source_file": "author_ss_E42_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31336865-C-G_chr17-31336868-T-A",
+    "motif": "ATGGACTGGTGATAAATATCATTC",
+    "source_file": "author_ss_E42_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31336865-C-T_chr17-31336856-T-C",
+    "motif": "CTTCCACACACGGACTGGTTATTAATATCA",
+    "source_file": "author_ss_E42_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31336865-C-T_chr17-31336868-T-A",
+    "motif": "ATGGACTGGTTATAAATATCATTC",
+    "source_file": "author_ss_E42_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31336867-T-G_chr17-31336860-C-T",
+    "motif": "CACACATGGATTGGTCAGTAATATCATT",
+    "source_file": "author_ss_E42_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31336867-T-G_chr17-31336865-C-G",
+    "motif": "ATGGACTGGTGAGTAATATCATT",
+    "source_file": "author_ss_E42_RNA.txt",
+    "modality": "RNA"
+  },
+  {
+    "id": "chr17-31336867-T-G_chr17-31336871-T-C",
+    "motif": "GGACTGGTCAGTAACATCATTCACT",
+    "source_file": "author_ss_E42_RNA.txt",
+    "modality": "RNA"
+  }
+]

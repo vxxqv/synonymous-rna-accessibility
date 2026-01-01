@@ -1,0 +1,26 @@
+{
+  "status": "complete",
+  "claim_status": "Proofs authored/self-reviewed; fresh independent review pending",
+  "inputs": {
+    "work/research_cycle8/cprime_gate/report.md": "e2e49e332f37038a19585a96c451916bfc456b83f254eec9bf66b75ed9fb13a6",
+    "work/research_cycle8/cprime_gate/measurement_contract.json": "f8114d02891cfdcd643de8e022c480aee3f7ab40d5ec1b178f093cf0310b657f"
+  },
+  "files": {
+    "derivation.md": "427b698637ac49738046fb24cafae59d8913d1505ccca3a7919733f8d3a79ff3",
+    "obligation_ledger.md": "ddf5a68ca2524ea90b099b2f39b982c60a9dd271c9e15beb4fa57e9684958182",
+    "optimization_guard_checks.json": "373de0a1a2e5487bed7d4aa5ecf51de0c36dc81c22f3142e67ffd5fbf40c74a3",
+    "recommendation.md": "a8967cecbb772039667ff952d1c8cc5183d55a1851860b92e9c16f502682a9a3",
+    "synthetic_checks.py": "8382bfa9243f8831cc37669ded33724825d8469988503adaedf15c3d5b8af20e",
+    "synthetic_results.json": "ef182d81496b5bc80873515196fb8324ccb710c30a8a906b3a8b5ac725be603c"
+  },
+  "outcome_access": "No cPRIME outcomes, missingness, count bodies, RPM/score tails, notebook outputs or raw source table read",
+  "writes": "Owned work directory only; no shared edits, Git, publication or external writes",
+  "decision": "Qualified descriptive all30 finite-marker protocol candidate; no isolated edit identification without controls/absolute interaction restrictions",
+  "tests": {
+    "exact_range_patterns": 3615,
+    "two_cell_two_marker_pairs": 50625,
+    "two_cell_three_marker_fixed_subset": 2048,
+    "arithmetic": "exact rational plus infinity bound sentinels"
+  },
+  "universal_claim_dependencies": "Explicit elementary proofs in derivation.md; finite tests supplementary only"
+}

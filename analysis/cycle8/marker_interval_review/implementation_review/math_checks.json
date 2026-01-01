@@ -1,0 +1,11 @@
+{
+  "status": "pass",
+  "core_sha256": "9d0bd0f3363e158e4df1cb028c7922b0bf94284bc6169138f894b072871c4cf9",
+  "exact_completion_patterns": 2379,
+  "interval_inventory_size": 13,
+  "common_order_finite_completion_oracles": 2048,
+  "all_witnesses_and_edge_origins_checked": true,
+  "known_zero_tie_missing_distinct_marker_cases": true,
+  "invalid_interval_rejections": 4,
+  "scope": "Invented fixtures only; independent completion enumeration, no production outcome inputs."
+}
