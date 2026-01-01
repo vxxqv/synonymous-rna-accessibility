@@ -1,0 +1,16 @@
+{
+  "stage": "reserved_predictions_sealed",
+  "development_decision_commit": "983b331025085ae7e23127238e357af277166e6b",
+  "seal_sha256": "e12a78e8051d9d5c2d6590c6a0b62f68bee3fb9003b3cb4e72019f7ed9719f35",
+  "known_genotypes_opened": 69,
+  "allowed_columns_per_genotype": 7,
+  "prediction_status_counts": {
+    "missing_known_replicates": 17,
+    "predicted": 7
+  },
+  "target_finiteness_examined": false,
+  "author_means_examined": false,
+  "component_outcomes_examined": false,
+  "prediction_seal_files_verified": true,
+  "unchanged_protocol_and_predictors": true
+}

@@ -1,0 +1,2572 @@
+{
+  "arm": "reserved_validation",
+  "reader": {
+    "decoded_fields": [
+      "clean.lin.prot.repOne",
+      "clean.lin.prot.repTwo",
+      "clean.lin.prot.repThree",
+      "clean.lin.prot.repFour",
+      "growth.R60one",
+      "growth.R60two",
+      "growth.R60three"
+    ],
+    "other_row_phenotype_values_decoded": 0,
+    "selected_records": 69,
+    "source_records": 244000
+  },
+  "rows": {
+    "117_22231222_1": {
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "58.2819972191471",
+        "value": 58.2819972191471
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "63.3978331023282",
+        "value": 63.3978331023282
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "65.3536313121725",
+        "value": 65.3536313121725
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "64.8795215681828",
+        "value": 64.8795215681828
+      },
+      "growth.R60one": {
+        "missing_reason": null,
+        "raw": "0.981820869455518",
+        "value": 0.981820869455518
+      },
+      "growth.R60three": {
+        "missing_reason": null,
+        "raw": "0.972175764207318",
+        "value": 0.972175764207318
+      },
+      "growth.R60two": {
+        "missing_reason": null,
+        "raw": "0.962245722185061",
+        "value": 0.962245722185061
+      }
+    },
+    "117_23231122_1": {
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "69.3145773850845",
+        "value": 69.3145773850845
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "63.2588428246206",
+        "value": 63.2588428246206
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "69.1559179636805",
+        "value": 69.1559179636805
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "73.5145981921586",
+        "value": 73.5145981921586
+      },
+      "growth.R60one": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "growth.R60three": {
+        "missing_reason": null,
+        "raw": "0.979817958407215",
+        "value": 0.979817958407215
+      },
+      "growth.R60two": {
+        "missing_reason": null,
+        "raw": "0.987674034050591",
+        "value": 0.987674034050591
+      }
+    },
+    "117_23231222_1": {
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "66.1252645281451",
+        "value": 66.1252645281451
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "67.6262627522883",
+        "value": 67.6262627522883
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "75.3626072887423",
+        "value": 75.3626072887423
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "71.980934136863",
+        "value": 71.980934136863
+      },
+      "growth.R60one": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "growth.R60three": {
+        "missing_reason": null,
+        "raw": "0.975941386728341",
+        "value": 0.975941386728341
+      },
+      "growth.R60two": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      }
+    },
+    "156_21111223_1": {
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "29.1979391269836",
+        "value": 29.1979391269836
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "29.5504987986767",
+        "value": 29.5504987986767
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "32.3730648970805",
+        "value": 32.3730648970805
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "27.7476391317308",
+        "value": 27.7476391317308
+      },
+      "growth.R60one": {
+        "missing_reason": null,
+        "raw": "1.01060243252052",
+        "value": 1.01060243252052
+      },
+      "growth.R60three": {
+        "missing_reason": null,
+        "raw": "1.01676215274298",
+        "value": 1.01676215274298
+      },
+      "growth.R60two": {
+        "missing_reason": null,
+        "raw": "1.01443823310876",
+        "value": 1.01443823310876
+      }
+    },
+    "156_31111113_1": {
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "17.0782097506918",
+        "value": 17.0782097506918
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "17.0269463750733",
+        "value": 17.0269463750733
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "18.2917137506733",
+        "value": 18.2917137506733
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "15.8578927358547",
+        "value": 15.8578927358547
+      },
+      "growth.R60one": {
+        "missing_reason": null,
+        "raw": "1.02710005881766",
+        "value": 1.02710005881766
+      },
+      "growth.R60three": {
+        "missing_reason": null,
+        "raw": "1.02420304860419",
+        "value": 1.02420304860419
+      },
+      "growth.R60two": {
+        "missing_reason": null,
+        "raw": "1.02535815065366",
+        "value": 1.02535815065366
+      }
+    },
+    "156_31111123_1": {
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "25.6218957941411",
+        "value": 25.6218957941411
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "25.2970223095856",
+        "value": 25.2970223095856
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "29.4262449857931",
+        "value": 29.4262449857931
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "25.6378941118211",
+        "value": 25.6378941118211
+      },
+      "growth.R60one": {
+        "missing_reason": null,
+        "raw": "1.05523954804854",
+        "value": 1.05523954804854
+      },
+      "growth.R60three": {
+        "missing_reason": null,
+        "raw": "1.03823136580408",
+        "value": 1.03823136580408
+      },
+      "growth.R60two": {
+        "missing_reason": null,
+        "raw": "1.04273748532881",
+        "value": 1.04273748532881
+      }
+    },
+    "156_33131113_1": {
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "14.1639498112853",
+        "value": 14.1639498112853
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "15.6511672361221",
+        "value": 15.6511672361221
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "13.173740969124",
+        "value": 13.173740969124
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "14.7764758478658",
+        "value": 14.7764758478658
+      },
+      "growth.R60one": {
+        "missing_reason": null,
+        "raw": "0.960721463989313",
+        "value": 0.960721463989313
+      },
+      "growth.R60three": {
+        "missing_reason": null,
+        "raw": "0.943659330047781",
+        "value": 0.943659330047781
+      },
+      "growth.R60two": {
+        "missing_reason": null,
+        "raw": "0.938061629271995",
+        "value": 0.938061629271995
+      }
+    },
+    "156_33231113_1": {
+      "clean.lin.prot.repFour": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "9.21099106698187",
+        "value": 9.21099106698187
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "6.62089411012731",
+        "value": 6.62089411012731
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "growth.R60one": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "growth.R60three": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "growth.R60two": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      }
+    },
+    "156_33231213_1": {
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "4.33634962893712",
+        "value": 4.33634962893712
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "7.18629991531049",
+        "value": 7.18629991531049
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "6.58526079389187",
+        "value": 6.58526079389187
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "5.10223591398962",
+        "value": 5.10223591398962
+      },
+      "growth.R60one": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "growth.R60three": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "growth.R60two": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      }
+    },
+    "247_22331112_1": {
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "58.8261134413811",
+        "value": 58.8261134413811
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "51.4429077197614",
+        "value": 51.4429077197614
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "52.448439144241",
+        "value": 52.448439144241
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "59.2444514012711",
+        "value": 59.2444514012711
+      },
+      "growth.R60one": {
+        "missing_reason": null,
+        "raw": "1.01471010447011",
+        "value": 1.01471010447011
+      },
+      "growth.R60three": {
+        "missing_reason": null,
+        "raw": "1.0188113817396",
+        "value": 1.0188113817396
+      },
+      "growth.R60two": {
+        "missing_reason": null,
+        "raw": "1.01264651162774",
+        "value": 1.01264651162774
+      }
+    },
+    "247_23331112_1": {
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "58.9235460033525",
+        "value": 58.9235460033525
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "54.3785163536446",
+        "value": 54.3785163536446
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "57.2528304511749",
+        "value": 57.2528304511749
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "57.0997419858004",
+        "value": 57.0997419858004
+      },
+      "growth.R60one": {
+        "missing_reason": null,
+        "raw": "1.00728055963404",
+        "value": 1.00728055963404
+      },
+      "growth.R60three": {
+        "missing_reason": null,
+        "raw": "1.01209995874268",
+        "value": 1.01209995874268
+      },
+      "growth.R60two": {
+        "missing_reason": null,
+        "raw": "1.01348308861946",
+        "value": 1.01348308861946
+      }
+    },
+    "247_32331112_1": {
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "57.177404480246",
+        "value": 57.177404480246
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "53.7439002028468",
+        "value": 53.7439002028468
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "53.066072685417",
+        "value": 53.066072685417
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "58.5650093074336",
+        "value": 58.5650093074336
+      },
+      "growth.R60one": {
+        "missing_reason": null,
+        "raw": "1.0303401252637",
+        "value": 1.0303401252637
+      },
+      "growth.R60three": {
+        "missing_reason": null,
+        "raw": "1.03340270322851",
+        "value": 1.03340270322851
+      },
+      "growth.R60two": {
+        "missing_reason": null,
+        "raw": "1.01628015755575",
+        "value": 1.01628015755575
+      }
+    },
+    "277_22321122_1": {
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "61.1141358265501",
+        "value": 61.1141358265501
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "62.7422072657276",
+        "value": 62.7422072657276
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "59.954141208935",
+        "value": 59.954141208935
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "63.7199058383779",
+        "value": 63.7199058383779
+      },
+      "growth.R60one": {
+        "missing_reason": null,
+        "raw": "0.971856292756758",
+        "value": 0.971856292756758
+      },
+      "growth.R60three": {
+        "missing_reason": null,
+        "raw": "0.972473522022379",
+        "value": 0.972473522022379
+      },
+      "growth.R60two": {
+        "missing_reason": null,
+        "raw": "0.959734742434925",
+        "value": 0.959734742434925
+      }
+    },
+    "277_31222122_1": {
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "47.7687962589227",
+        "value": 47.7687962589227
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "46.7367910573688",
+        "value": 46.7367910573688
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "48.0625597591788",
+        "value": 48.0625597591788
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "49.5300846220921",
+        "value": 49.5300846220921
+      },
+      "growth.R60one": {
+        "missing_reason": null,
+        "raw": "0.995680588465433",
+        "value": 0.995680588465433
+      },
+      "growth.R60three": {
+        "missing_reason": null,
+        "raw": "0.987718738123336",
+        "value": 0.987718738123336
+      },
+      "growth.R60two": {
+        "missing_reason": null,
+        "raw": "0.992011949628674",
+        "value": 0.992011949628674
+      }
+    },
+    "277_32222122_1": {
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "88.2508508476436",
+        "value": 88.2508508476436
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "87.6814189260949",
+        "value": 87.6814189260949
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "86.7314921297224",
+        "value": 86.7314921297224
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "88.8520555892537",
+        "value": 88.8520555892537
+      },
+      "growth.R60one": {
+        "missing_reason": null,
+        "raw": "0.91679194058018",
+        "value": 0.91679194058018
+      },
+      "growth.R60three": {
+        "missing_reason": null,
+        "raw": "0.917708803749063",
+        "value": 0.917708803749063
+      },
+      "growth.R60two": {
+        "missing_reason": null,
+        "raw": "0.923504687154775",
+        "value": 0.923504687154775
+      }
+    },
+    "2_22111111_1": {
+      "clean.lin.prot.repFour": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "83.3806276608303",
+        "value": 83.3806276608303
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "97.1134240522398",
+        "value": 97.1134240522398
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "91.489242248442",
+        "value": 91.489242248442
+      },
+      "growth.R60one": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "growth.R60three": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "growth.R60two": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      }
+    },
+    "2_22111123_1": {
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "86.3526731931319",
+        "value": 86.3526731931319
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "79.9116267936831",
+        "value": 79.9116267936831
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "77.0357758097388",
+        "value": 77.0357758097388
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "79.4093397536627",
+        "value": 79.4093397536627
+      },
+      "growth.R60one": {
+        "missing_reason": null,
+        "raw": "0.970924107052252",
+        "value": 0.970924107052252
+      },
+      "growth.R60three": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "growth.R60two": {
+        "missing_reason": null,
+        "raw": "0.953862889181199",
+        "value": 0.953862889181199
+      }
+    },
+    "2_22111211_1": {
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "91.8275090046005",
+        "value": 91.8275090046005
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "91.1101306528415",
+        "value": 91.1101306528415
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "90.0690394996213",
+        "value": 90.0690394996213
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "86.0119450767895",
+        "value": 86.0119450767895
+      },
+      "growth.R60one": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "growth.R60three": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "growth.R60two": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      }
+    },
+    "2_22211221_1": {
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "41.3003287248474",
+        "value": 41.3003287248474
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "38.891975833992",
+        "value": 38.891975833992
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "39.1391758289324",
+        "value": 39.1391758289324
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "42.4833891561759",
+        "value": 42.4833891561759
+      },
+      "growth.R60one": {
+        "missing_reason": null,
+        "raw": "1.02393562725095",
+        "value": 1.02393562725095
+      },
+      "growth.R60three": {
+        "missing_reason": null,
+        "raw": "1.02046757814903",
+        "value": 1.02046757814903
+      },
+      "growth.R60two": {
+        "missing_reason": null,
+        "raw": "1.01909319946347",
+        "value": 1.01909319946347
+      }
+    },
+    "2_23112123_1": {
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "79.6260843965147",
+        "value": 79.6260843965147
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "72.1486700722327",
+        "value": 72.1486700722327
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "73.3190823586654",
+        "value": 73.3190823586654
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "71.7852653342717",
+        "value": 71.7852653342717
+      },
+      "growth.R60one": {
+        "missing_reason": null,
+        "raw": "0.989558551065478",
+        "value": 0.989558551065478
+      },
+      "growth.R60three": {
+        "missing_reason": null,
+        "raw": "0.993781447966025",
+        "value": 0.993781447966025
+      },
+      "growth.R60two": {
+        "missing_reason": null,
+        "raw": "0.981263343925798",
+        "value": 0.981263343925798
+      }
+    },
+    "2_32111123_1": {
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "68.4955236721143",
+        "value": 68.4955236721143
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "64.8386277054147",
+        "value": 64.8386277054147
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "60.5462726226202",
+        "value": 60.5462726226202
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "64.8795215681828",
+        "value": 64.8795215681828
+      },
+      "growth.R60one": {
+        "missing_reason": null,
+        "raw": "1.00566593962958",
+        "value": 1.00566593962958
+      },
+      "growth.R60three": {
+        "missing_reason": null,
+        "raw": "1.01329693039873",
+        "value": 1.01329693039873
+      },
+      "growth.R60two": {
+        "missing_reason": null,
+        "raw": "1.00777586198417",
+        "value": 1.00777586198417
+      }
+    },
+    "343_21321222_1": {
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "63.3143388895332",
+        "value": 63.3143388895332
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "65.3367222303216",
+        "value": 65.3367222303216
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "63.2513370577695",
+        "value": 63.2513370577695
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "63.9649877383039",
+        "value": 63.9649877383039
+      },
+      "growth.R60one": {
+        "missing_reason": null,
+        "raw": "0.968514741675484",
+        "value": 0.968514741675484
+      },
+      "growth.R60three": {
+        "missing_reason": null,
+        "raw": "0.959681689393993",
+        "value": 0.959681689393993
+      },
+      "growth.R60two": {
+        "missing_reason": null,
+        "raw": "0.947217487596096",
+        "value": 0.947217487596096
+      }
+    },
+    "343_22122121_1": {
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "33.7785227280937",
+        "value": 33.7785227280937
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "36.4404368956942",
+        "value": 36.4404368956942
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "36.393066439736",
+        "value": 36.393066439736
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "33.9641036979664",
+        "value": 33.9641036979664
+      },
+      "growth.R60one": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "growth.R60three": {
+        "missing_reason": null,
+        "raw": "0.94506011996463",
+        "value": 0.94506011996463
+      },
+      "growth.R60two": {
+        "missing_reason": null,
+        "raw": "0.94506011996463",
+        "value": 0.94506011996463
+      }
+    },
+    "343_23212121_1": {
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "32.1986919278029",
+        "value": 32.1986919278029
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "32.1293563509877",
+        "value": 32.1293563509877
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "30.2914203258339",
+        "value": 30.2914203258339
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "33.1237236593935",
+        "value": 33.1237236593935
+      },
+      "growth.R60one": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "growth.R60three": {
+        "missing_reason": null,
+        "raw": "0.971394425488934",
+        "value": 0.971394425488934
+      },
+      "growth.R60two": {
+        "missing_reason": null,
+        "raw": "0.971394425488934",
+        "value": 0.971394425488934
+      }
+    },
+    "343_23222121_1": {
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "30.9241120605521",
+        "value": 30.9241120605521
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "30.5368712250711",
+        "value": 30.5368712250711
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "31.836712409152",
+        "value": 31.836712409152
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "28.5043673793612",
+        "value": 28.5043673793612
+      },
+      "growth.R60one": {
+        "missing_reason": null,
+        "raw": "0.979619112300118",
+        "value": 0.979619112300118
+      },
+      "growth.R60three": {
+        "missing_reason": null,
+        "raw": "0.969712853991382",
+        "value": 0.969712853991382
+      },
+      "growth.R60two": {
+        "missing_reason": null,
+        "raw": "0.97466598314575",
+        "value": 0.97466598314575
+      }
+    },
+    "343_31211222_1": {
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "68.9793844066034",
+        "value": 68.9793844066034
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "66.235944193038",
+        "value": 66.235944193038
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "64.0512337355708",
+        "value": 64.0512337355708
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "66.5634558974246",
+        "value": 66.5634558974246
+      },
+      "growth.R60one": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "growth.R60three": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "growth.R60two": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      }
+    },
+    "343_31311222_1": {
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "66.1252645281451",
+        "value": 66.1252645281451
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "64.0625246313554",
+        "value": 64.0625246313554
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "64.401178874279",
+        "value": 64.401178874279
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "69.9052063329083",
+        "value": 69.9052063329083
+      },
+      "growth.R60one": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "growth.R60three": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "growth.R60two": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      }
+    },
+    "349_22211122_1": {
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "35.5897746709437",
+        "value": 35.5897746709437
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "36.268969080569",
+        "value": 36.268969080569
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "37.9327511635351",
+        "value": 37.9327511635351
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "36.9750808725129",
+        "value": 36.9750808725129
+      },
+      "growth.R60one": {
+        "missing_reason": null,
+        "raw": "0.956199115771029",
+        "value": 0.956199115771029
+      },
+      "growth.R60three": {
+        "missing_reason": null,
+        "raw": "0.958507372985666",
+        "value": 0.958507372985666
+      },
+      "growth.R60two": {
+        "missing_reason": null,
+        "raw": "0.950368945730379",
+        "value": 0.950368945730379
+      }
+    },
+    "349_22212122_1": {
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "35.5271378927441",
+        "value": 35.5271378927441
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "36.6983366072515",
+        "value": 36.6983366072515
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "34.091454138706",
+        "value": 34.091454138706
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "36.9750808725129",
+        "value": 36.9750808725129
+      },
+      "growth.R60one": {
+        "missing_reason": null,
+        "raw": "0.979854769752048",
+        "value": 0.979854769752048
+      },
+      "growth.R60three": {
+        "missing_reason": null,
+        "raw": "0.99312180399646",
+        "value": 0.99312180399646
+      },
+      "growth.R60two": {
+        "missing_reason": null,
+        "raw": "0.98581175119934",
+        "value": 0.98581175119934
+      }
+    },
+    "349_22311112_1": {
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "33.441677725037",
+        "value": 33.441677725037
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "33.1500544911287",
+        "value": 33.1500544911287
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "34.2737566123704",
+        "value": 34.2737566123704
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "35.4016040661502",
+        "value": 35.4016040661502
+      },
+      "growth.R60one": {
+        "missing_reason": null,
+        "raw": "0.926817477033345",
+        "value": 0.926817477033345
+      },
+      "growth.R60three": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "growth.R60two": {
+        "missing_reason": null,
+        "raw": "0.926817477033345",
+        "value": 0.926817477033345
+      }
+    },
+    "349_22311122_1": {
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "28.4513860321057",
+        "value": 28.4513860321057
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "27.7905995954386",
+        "value": 27.7905995954386
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "26.8063716557862",
+        "value": 26.8063716557862
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "30.5650434693429",
+        "value": 30.5650434693429
+      },
+      "growth.R60one": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "growth.R60three": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "growth.R60two": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      }
+    },
+    "349_32312112_1": {
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "47.1841044990302",
+        "value": 47.1841044990302
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "47.6463468540084",
+        "value": 47.6463468540084
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "47.1004630564621",
+        "value": 47.1004630564621
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "46.896903933785",
+        "value": 46.896903933785
+      },
+      "growth.R60one": {
+        "missing_reason": null,
+        "raw": "0.956718715762683",
+        "value": 0.956718715762683
+      },
+      "growth.R60three": {
+        "missing_reason": null,
+        "raw": "0.94721020570927",
+        "value": 0.94721020570927
+      },
+      "growth.R60two": {
+        "missing_reason": null,
+        "raw": "0.951964460735976",
+        "value": 0.951964460735976
+      }
+    },
+    "359_21221122_1": {
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "11.8487619016375",
+        "value": 11.8487619016375
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "10.8553023411294",
+        "value": 10.8553023411294
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "11.1681076996516",
+        "value": 11.1681076996516
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "12.2286848307833",
+        "value": 12.2286848307833
+      },
+      "growth.R60one": {
+        "missing_reason": null,
+        "raw": "0.997705870493275",
+        "value": 0.997705870493275
+      },
+      "growth.R60three": {
+        "missing_reason": null,
+        "raw": "0.975368885624516",
+        "value": 0.975368885624516
+      },
+      "growth.R60two": {
+        "missing_reason": null,
+        "raw": "0.998668857805272",
+        "value": 0.998668857805272
+      }
+    },
+    "359_21221122_2": {
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "10.326199849506",
+        "value": 10.326199849506
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "10.3525994724908",
+        "value": 10.3525994724908
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "11.6019385326206",
+        "value": 11.6019385326206
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "12.1821427798887",
+        "value": 12.1821427798887
+      },
+      "growth.R60one": {
+        "missing_reason": null,
+        "raw": "1.03941162980438",
+        "value": 1.03941162980438
+      },
+      "growth.R60three": {
+        "missing_reason": null,
+        "raw": "1.03256160914769",
+        "value": 1.03256160914769
+      },
+      "growth.R60two": {
+        "missing_reason": null,
+        "raw": "1.04085701018628",
+        "value": 1.04085701018628
+      }
+    },
+    "359_21221222_2": {
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "12.8349536730695",
+        "value": 12.8349536730695
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "13.1772050185524",
+        "value": 13.1772050185524
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "13.5382794176979",
+        "value": 13.5382794176979
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "14.1156251022741",
+        "value": 14.1156251022741
+      },
+      "growth.R60one": {
+        "missing_reason": null,
+        "raw": "0.990968149006598",
+        "value": 0.990968149006598
+      },
+      "growth.R60three": {
+        "missing_reason": null,
+        "raw": "0.971708120434605",
+        "value": 0.971708120434605
+      },
+      "growth.R60two": {
+        "missing_reason": null,
+        "raw": "0.988765828247891",
+        "value": 0.988765828247891
+      }
+    },
+    "379_31111111_2": {
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "27.33674037276",
+        "value": 27.33674037276
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "25.8096561364137",
+        "value": 25.8096561364137
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "24.8596498245266",
+        "value": 24.8596498245266
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "26.5447050434936",
+        "value": 26.5447050434936
+      },
+      "growth.R60one": {
+        "missing_reason": null,
+        "raw": "0.952404652040187",
+        "value": 0.952404652040187
+      },
+      "growth.R60three": {
+        "missing_reason": null,
+        "raw": "0.927679786053515",
+        "value": 0.927679786053515
+      },
+      "growth.R60two": {
+        "missing_reason": null,
+        "raw": "0.94004221904685",
+        "value": 0.94004221904685
+      }
+    },
+    "379_31112111_1": {
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "26.1621228579926",
+        "value": 26.1621228579926
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "21.83718469189",
+        "value": 21.83718469189
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "22.0581258365953",
+        "value": 22.0581258365953
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "27.0740300995667",
+        "value": 27.0740300995667
+      },
+      "growth.R60one": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "growth.R60three": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "growth.R60two": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      }
+    },
+    "379_31112111_3": {
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "22.4067577797403",
+        "value": 22.4067577797403
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "26.2331982337754",
+        "value": 26.2331982337754
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "23.0825958348412",
+        "value": 23.0825958348412
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "24.2817911366104",
+        "value": 24.2817911366104
+      },
+      "growth.R60one": {
+        "missing_reason": null,
+        "raw": "0.947303423867854",
+        "value": 0.947303423867854
+      },
+      "growth.R60three": {
+        "missing_reason": null,
+        "raw": "0.948054258226768",
+        "value": 0.948054258226768
+      },
+      "growth.R60two": {
+        "missing_reason": null,
+        "raw": "0.948234160466983",
+        "value": 0.948234160466983
+      }
+    },
+    "379_32111111_1": {
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "62.9375516008581",
+        "value": 62.9375516008581
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "63.7821986885441",
+        "value": 63.7821986885441
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "63.4254472201697",
+        "value": 63.4254472201697
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "60.524905695453",
+        "value": 60.524905695453
+      },
+      "growth.R60one": {
+        "missing_reason": null,
+        "raw": "0.958072516311933",
+        "value": 0.958072516311933
+      },
+      "growth.R60three": {
+        "missing_reason": null,
+        "raw": "0.956883497886785",
+        "value": 0.956883497886785
+      },
+      "growth.R60two": {
+        "missing_reason": null,
+        "raw": "0.937562192311959",
+        "value": 0.937562192311959
+      }
+    },
+    "379_32111211_1": {
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "62.4600427863759",
+        "value": 62.4600427863759
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "64.9807401657414",
+        "value": 64.9807401657414
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "60.5462726226202",
+        "value": 60.5462726226202
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "56.721936144963",
+        "value": 56.721936144963
+      },
+      "growth.R60one": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "growth.R60three": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "growth.R60two": {
+        "missing_reason": null,
+        "raw": "0.972244630958229",
+        "value": 0.972244630958229
+      }
+    },
+    "379_33211211_1": {
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "77.1492629699319",
+        "value": 77.1492629699319
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "72.8560945026674",
+        "value": 72.8560945026674
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "79.2728714815514",
+        "value": 79.2728714815514
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "73.8337822901167",
+        "value": 73.8337822901167
+      },
+      "growth.R60one": {
+        "missing_reason": null,
+        "raw": "0.92838126479801",
+        "value": 0.92838126479801
+      },
+      "growth.R60three": {
+        "missing_reason": null,
+        "raw": "0.948580839515901",
+        "value": 0.948580839515901
+      },
+      "growth.R60two": {
+        "missing_reason": null,
+        "raw": "0.953714091076181",
+        "value": 0.953714091076181
+      }
+    },
+    "382_21121122_1": {
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "10.8712583767208",
+        "value": 10.8712583767208
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "12.8513514370321",
+        "value": 12.8513514370321
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "10.5485164999775",
+        "value": 10.5485164999775
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "12.0236917951318",
+        "value": 12.0236917951318
+      },
+      "growth.R60one": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "growth.R60three": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "growth.R60two": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      }
+    },
+    "382_21131122_1": {
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "10.8712583767208",
+        "value": 10.8712583767208
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "10.5936239127237",
+        "value": 10.5936239127237
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "11.5485137775396",
+        "value": 11.5485137775396
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "13.748259200256",
+        "value": 13.748259200256
+      },
+      "growth.R60one": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "growth.R60three": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "growth.R60two": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      }
+    },
+    "382_21231122_1": {
+      "clean.lin.prot.repFour": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "62.1228198463444",
+        "value": 62.1228198463444
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "growth.R60one": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "growth.R60three": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "growth.R60two": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      }
+    },
+    "382_31221212_1": {
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "17.3236190463969",
+        "value": 17.3236190463969
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "17.5934072169441",
+        "value": 17.5934072169441
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "19.6889009662836",
+        "value": 19.6889009662836
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "16.2648010868218",
+        "value": 16.2648010868218
+      },
+      "growth.R60one": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "growth.R60three": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "growth.R60two": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      }
+    },
+    "382_31221222_1": {
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "9.69205752640567",
+        "value": 9.69205752640567
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "11.0947387534009",
+        "value": 11.0947387534009
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "10.1557718556598",
+        "value": 10.1557718556598
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "8.13351245808975",
+        "value": 8.13351245808975
+      },
+      "growth.R60one": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "growth.R60three": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "growth.R60two": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      }
+    },
+    "382_32221222_1": {
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "25.5281493231035",
+        "value": 25.5281493231035
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "25.3762404837241",
+        "value": 25.3762404837241
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "24.8596498245266",
+        "value": 24.8596498245266
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "27.2242580432881",
+        "value": 27.2242580432881
+      },
+      "growth.R60one": {
+        "missing_reason": null,
+        "raw": "0.997638766400973",
+        "value": 0.997638766400973
+      },
+      "growth.R60three": {
+        "missing_reason": null,
+        "raw": "1.01014415348639",
+        "value": 1.01014415348639
+      },
+      "growth.R60two": {
+        "missing_reason": null,
+        "raw": "1.00073257935259",
+        "value": 1.00073257935259
+      }
+    },
+    "387_22211112_1": {
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "99.0363926404313",
+        "value": 99.0363926404313
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "94.1166395881735",
+        "value": 94.1166395881735
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "96.0885279894793",
+        "value": 96.0885279894793
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "98.7043731718102",
+        "value": 98.7043731718102
+      },
+      "growth.R60one": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "growth.R60three": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "growth.R60two": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      }
+    },
+    "387_32212112_1": {
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "96.2005441067835",
+        "value": 96.2005441067835
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "100",
+        "value": 100.0
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "97.7840828173667",
+        "value": 97.7840828173667
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "99.1763074059524",
+        "value": 99.1763074059524
+      },
+      "growth.R60one": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "growth.R60three": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "growth.R60two": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      }
+    },
+    "387_32212122_1": {
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "95.9484293022649",
+        "value": 95.9484293022649
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "88.0076955655712",
+        "value": 88.0076955655712
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "94.8236731505165",
+        "value": 94.8236731505165
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "87.4922661345659",
+        "value": 87.4922661345659
+      },
+      "growth.R60one": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "growth.R60three": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "growth.R60two": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      }
+    },
+    "387_33212122_1": {
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "94.7379154861649",
+        "value": 94.7379154861649
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "97.6291981860252",
+        "value": 97.6291981860252
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "96.7038760374769",
+        "value": 96.7038760374769
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "88.614492251183",
+        "value": 88.614492251183
+      },
+      "growth.R60one": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "growth.R60three": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "growth.R60two": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      }
+    },
+    "44_21211123_1": {
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "78.947536474367",
+        "value": 78.947536474367
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "79.9116267936831",
+        "value": 79.9116267936831
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "81.5159932809969",
+        "value": 81.5159932809969
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "76.6360650197962",
+        "value": 76.6360650197962
+      },
+      "growth.R60one": {
+        "missing_reason": null,
+        "raw": "0.969814761143815",
+        "value": 0.969814761143815
+      },
+      "growth.R60three": {
+        "missing_reason": null,
+        "raw": "0.984770700906458",
+        "value": 0.984770700906458
+      },
+      "growth.R60two": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      }
+    },
+    "44_31212113_1": {
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "64.1810879478252",
+        "value": 64.1810879478252
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "62.7422072657276",
+        "value": 62.7422072657276
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "63.5972185203306",
+        "value": 63.5972185203306
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "58.3071101065722",
+        "value": 58.3071101065722
+      },
+      "growth.R60one": {
+        "missing_reason": null,
+        "raw": "0.970558425156829",
+        "value": 0.970558425156829
+      },
+      "growth.R60three": {
+        "missing_reason": null,
+        "raw": "0.968911957986465",
+        "value": 0.968911957986465
+      },
+      "growth.R60two": {
+        "missing_reason": null,
+        "raw": "0.965841839355033",
+        "value": 0.965841839355033
+      }
+    },
+    "44_31221123_1": {
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "91.5861383642506",
+        "value": 91.5861383642506
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "83.2883467213272",
+        "value": 83.2883467213272
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "76.7979344438782",
+        "value": 76.7979344438782
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "83.6505311474857",
+        "value": 83.6505311474857
+      },
+      "growth.R60one": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "growth.R60three": {
+        "missing_reason": null,
+        "raw": "0.969336718922735",
+        "value": 0.969336718922735
+      },
+      "growth.R60two": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      }
+    },
+    "46_13211213_1": {
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "35.3617026229072",
+        "value": 35.3617026229072
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "36.0338630228963",
+        "value": 36.0338630228963
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "34.2737566123704",
+        "value": 34.2737566123704
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "35.3182570403811",
+        "value": 35.3182570403811
+      },
+      "growth.R60one": {
+        "missing_reason": null,
+        "raw": "1.05070523825232",
+        "value": 1.05070523825232
+      },
+      "growth.R60three": {
+        "missing_reason": null,
+        "raw": "1.06275927619183",
+        "value": 1.06275927619183
+      },
+      "growth.R60two": {
+        "missing_reason": null,
+        "raw": "1.0552161684402",
+        "value": 1.0552161684402
+      }
+    },
+    "46_13211213_3": {
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "50.2021552210153",
+        "value": 50.2021552210153
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "54.0756074405489",
+        "value": 54.0756074405489
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "55.2328548197571",
+        "value": 55.2328548197571
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "54.7758693081283",
+        "value": 54.7758693081283
+      },
+      "growth.R60one": {
+        "missing_reason": null,
+        "raw": "1.03244557863035",
+        "value": 1.03244557863035
+      },
+      "growth.R60three": {
+        "missing_reason": null,
+        "raw": "1.03039786256865",
+        "value": 1.03039786256865
+      },
+      "growth.R60two": {
+        "missing_reason": null,
+        "raw": "1.03561591202917",
+        "value": 1.03561591202917
+      }
+    },
+    "46_13321213_1": {
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "40.4145052738153",
+        "value": 40.4145052738153
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "42.3932236365399",
+        "value": 42.3932236365399
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "42.1011394350102",
+        "value": 42.1011394350102
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "40.1820588853697",
+        "value": 40.1820588853697
+      },
+      "growth.R60one": {
+        "missing_reason": null,
+        "raw": "1.04568376242708",
+        "value": 1.04568376242708
+      },
+      "growth.R60three": {
+        "missing_reason": null,
+        "raw": "1.04311617995371",
+        "value": 1.04311617995371
+      },
+      "growth.R60two": {
+        "missing_reason": null,
+        "raw": "1.03363177613605",
+        "value": 1.03363177613605
+      }
+    },
+    "60_21121212_1": {
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "11.3010637876891",
+        "value": 11.3010637876891
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "10.6370864459421",
+        "value": 10.6370864459421
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "9.80403414278268",
+        "value": 9.80403414278268
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "9.89536932862169",
+        "value": 9.89536932862169
+      },
+      "growth.R60one": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "growth.R60three": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "growth.R60two": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      }
+    },
+    "60_22211222_1": {
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "38.8454324440025",
+        "value": 38.8454324440025
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "42.4909764810012",
+        "value": 42.4909764810012
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "36.8218358575339",
+        "value": 36.8218358575339
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "38.9001439233668",
+        "value": 38.9001439233668
+      },
+      "growth.R60one": {
+        "missing_reason": null,
+        "raw": "0.949125356379617",
+        "value": 0.949125356379617
+      },
+      "growth.R60three": {
+        "missing_reason": null,
+        "raw": "0.943032253720651",
+        "value": 0.943032253720651
+      },
+      "growth.R60two": {
+        "missing_reason": null,
+        "raw": "0.952893378858685",
+        "value": 0.952893378858685
+      }
+    },
+    "60_22221222_1": {
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "38.7560821580345",
+        "value": 38.7560821580345
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "37.6154646467945",
+        "value": 37.6154646467945
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "39.7311712487259",
+        "value": 39.7311712487259
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "37.542119679373",
+        "value": 37.542119679373
+      },
+      "growth.R60one": {
+        "missing_reason": null,
+        "raw": "0.975000021367439",
+        "value": 0.975000021367439
+      },
+      "growth.R60three": {
+        "missing_reason": null,
+        "raw": "0.97000825636171",
+        "value": 0.97000825636171
+      },
+      "growth.R60two": {
+        "missing_reason": null,
+        "raw": "0.970888212469176",
+        "value": 0.970888212469176
+      }
+    },
+    "76_22322123_1": {
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "60.5509370011657",
+        "value": 60.5509370011657
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "59.7800616190104",
+        "value": 59.7800616190104
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "59.5290507789627",
+        "value": 59.5290507789627
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "62.6499832786945",
+        "value": 62.6499832786945
+      },
+      "growth.R60one": {
+        "missing_reason": null,
+        "raw": "0.966219037120689",
+        "value": 0.966219037120689
+      },
+      "growth.R60three": {
+        "missing_reason": null,
+        "raw": "0.963572898001477",
+        "value": 0.963572898001477
+      },
+      "growth.R60two": {
+        "missing_reason": null,
+        "raw": "0.958549084939504",
+        "value": 0.958549084939504
+      }
+    },
+    "76_32322123_1": {
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "59.8301516287048",
+        "value": 59.8301516287048
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "59.7800616190104",
+        "value": 59.7800616190104
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "56.6872243893636",
+        "value": 56.6872243893636
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "62.7873962743755",
+        "value": 62.7873962743755
+      },
+      "growth.R60one": {
+        "missing_reason": null,
+        "raw": "0.965237040498847",
+        "value": 0.965237040498847
+      },
+      "growth.R60three": {
+        "missing_reason": null,
+        "raw": "0.963451177027632",
+        "value": 0.963451177027632
+      },
+      "growth.R60two": {
+        "missing_reason": null,
+        "raw": "0.956422126826475",
+        "value": 0.956422126826475
+      }
+    },
+    "76_32322123_2": {
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "69.3145773850845",
+        "value": 69.3145773850845
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "65.7316636824043",
+        "value": 65.7316636824043
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "61.8513883366385",
+        "value": 61.8513883366385
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "67.0374448959947",
+        "value": 67.0374448959947
+      },
+      "growth.R60one": {
+        "missing_reason": null,
+        "raw": "0.942140656755876",
+        "value": 0.942140656755876
+      },
+      "growth.R60three": {
+        "missing_reason": null,
+        "raw": "0.959128435784061",
+        "value": 0.959128435784061
+      },
+      "growth.R60two": {
+        "missing_reason": null,
+        "raw": "0.950976680672349",
+        "value": 0.950976680672349
+      }
+    },
+    "88_12222113_3": {
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "65.1999900305949",
+        "value": 65.1999900305949
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "64.5552431550012",
+        "value": 64.5552431550012
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "57.8538575597595",
+        "value": 57.8538575597595
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "62.40945464597",
+        "value": 62.40945464597
+      },
+      "growth.R60one": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "growth.R60three": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "growth.R60two": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      }
+    },
+    "88_12222123_1": {
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "55.779907844541",
+        "value": 55.779907844541
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "57.7082166698402",
+        "value": 57.7082166698402
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "58.1731244785969",
+        "value": 58.1731244785969
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "58.1479587822451",
+        "value": 58.1479587822451
+      },
+      "growth.R60one": {
+        "missing_reason": null,
+        "raw": "0.949250677486111",
+        "value": 0.949250677486111
+      },
+      "growth.R60three": {
+        "missing_reason": null,
+        "raw": "0.965460107934318",
+        "value": 0.965460107934318
+      },
+      "growth.R60two": {
+        "missing_reason": null,
+        "raw": "0.955093900609179",
+        "value": 0.955093900609179
+      }
+    },
+    "88_12222123_2": {
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "58.1238934363435",
+        "value": 58.1238934363435
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "55.4809764391521",
+        "value": 55.4809764391521
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "56.375276733774",
+        "value": 56.375276733774
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "57.0997419858004",
+        "value": 57.0997419858004
+      },
+      "growth.R60one": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "growth.R60three": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "growth.R60two": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      }
+    },
+    "88_31311121_1": {
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "59.4390225425976",
+        "value": 59.4390225425976
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "59.2118865642942",
+        "value": 59.2118865642942
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "63.5972185203306",
+        "value": 63.5972185203306
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "61.1926983197193",
+        "value": 61.1926983197193
+      },
+      "growth.R60one": {
+        "missing_reason": null,
+        "raw": "0.992753051650421",
+        "value": 0.992753051650421
+      },
+      "growth.R60three": {
+        "missing_reason": null,
+        "raw": "1.00060091287752",
+        "value": 1.00060091287752
+      },
+      "growth.R60two": {
+        "missing_reason": null,
+        "raw": "0.989127117237761",
+        "value": 0.989127117237761
+      }
+    },
+    "88_31321121_1": {
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "57.4901964405076",
+        "value": 57.4901964405076
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "59.9121766630405",
+        "value": 59.9121766630405
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "62.1228198463444",
+        "value": 62.1228198463444
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "63.1316075839399",
+        "value": 63.1316075839399
+      },
+      "growth.R60one": {
+        "missing_reason": null,
+        "raw": "0.988153900841265",
+        "value": 0.988153900841265
+      },
+      "growth.R60three": {
+        "missing_reason": null,
+        "raw": "1.02603814401816",
+        "value": 1.02603814401816
+      },
+      "growth.R60two": {
+        "missing_reason": null,
+        "raw": "0.983289634239342",
+        "value": 0.983289634239342
+      }
+    },
+    "88_31321221_1": {
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "60.2554105382171",
+        "value": 60.2554105382171
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "60.6749438478024",
+        "value": 60.6749438478024
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "64.0512337355708",
+        "value": 64.0512337355708
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "62.2727877956095",
+        "value": 62.2727877956095
+      },
+      "growth.R60one": {
+        "missing_reason": null,
+        "raw": "1.00764223764989",
+        "value": 1.00764223764989
+      },
+      "growth.R60three": {
+        "missing_reason": null,
+        "raw": "1.00177652468215",
+        "value": 1.00177652468215
+      },
+      "growth.R60two": {
+        "missing_reason": null,
+        "raw": "1.00576800103172",
+        "value": 1.00576800103172
+      }
+    }
+  }
+}
