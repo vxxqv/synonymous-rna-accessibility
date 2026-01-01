@@ -1,0 +1,205 @@
+{
+  "schema_version": 2,
+  "claim_id": "ACQUISITION_V1_HELDOUT_VALIDATION",
+  "repository": {
+    "commit": "45bc296d84ade7efa824fa0b48a5e9dcefa57b1f",
+    "dirty": true
+  },
+  "command": [
+    "C:/Users/VIVAAN/Documents/Codex/2026-10-24/protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2/work/env/Scripts/python.exe",
+    "analysis/programme/acquisition_benchmark.py",
+    "--phase",
+    "validation",
+    "--output",
+    "results/programme/acquisition_v1/validation/results"
+  ],
+  "environment": {
+    "software": [
+      {
+        "name": "runner-python",
+        "version": "3.12.14"
+      },
+      {
+        "name": "Python",
+        "version": "3.12.14"
+      },
+      {
+        "name": "numpy",
+        "version": "2.5.4"
+      },
+      {
+        "name": "networkx",
+        "version": "3.7"
+      }
+    ],
+    "hardware": "Windows-11-10.0.26300-SP0"
+  },
+  "mathematics": {
+    "assertion_tested": "All frozen query policies are compared on heldout synthetic seeds with no policy tuning. Every conditional certificate is checked against complete truth at every query prefix. Mean paired query differences receive uncertainty estimates across the fixed 50 seed blocks.",
+    "coefficient_domain": "Exact binary graph states, integer flow capacities and integer query costs. Floating point Gaussian and heat fields are thresholded before certification.",
+    "conventions": "See acquisition_protocol_v1.json and acquisition_conventions_v1.json. Forcing endpoints present is an occupancy edit; additive-derived occupancy is not claimed to preserve an exact additive superlevel restriction.",
+    "inputs": [
+      "Seven finite graphs and 38 graph-field combinations",
+      "Fifty heldout seeds 2000 through 2049",
+      "Two initial conditions, five unchanged query policies and one additional canonical bisection baseline",
+      "All 729 Q3 ternary partial states with both endpoints present"
+    ],
+    "bounds": {
+      "maximum_vertices": 64,
+      "validation_worlds": 3800,
+      "policy_evaluations": 22800,
+      "seed_blocks": 50,
+      "worlds_per_seed_block": 76
+    },
+    "non_claims": [
+      "No biological data or validation",
+      "No universal policy optimality",
+      "No population inference beyond the fixed simulated design",
+      "No claim that endpoint-forced occupancy preserves the original score model",
+      "No simultaneous interval guarantee across policies"
+    ]
+  },
+  "randomness": {
+    "used": true,
+    "generator": "numpy PCG64 with SeedSequence",
+    "seed": "2000 through 2049; unchanged stream construction in acquisition_conventions_v1.json"
+  },
+  "run": {
+    "started_at": "2026-10-25T04:38:01.549351+00:00",
+    "runtime_seconds": 81.578,
+    "exit_status": 0,
+    "status": "completed",
+    "timeout_seconds": 180.0,
+    "max_output_bytes": 1048576,
+    "resource_limits": {
+      "memory_bytes": null,
+      "cpu_seconds": null,
+      "max_cores": null,
+      "max_threads": null
+    },
+    "missing_results": [],
+    "invalid_results": []
+  },
+  "execution_artifacts": [
+    "src/acquisition.py",
+    "src/barrier_identification.py",
+    "analysis/programme/acquisition_benchmark.py",
+    "analysis/programme/acquisition_protocol_v1.json",
+    "analysis/programme/acquisition_conventions_v1.json",
+    "analysis/programme/acquisition_bisection_amendment_v1.json",
+    "analysis/programme/acquisition_validation_contract_v1.json",
+    "tests/test_acquisition.py",
+    "requirements-tested.txt",
+    "results/programme/acquisition_v1/validation_freeze.json"
+  ],
+  "input_artifacts": [
+    {
+      "path": "src/acquisition.py",
+      "sha256": "6005d30d709dc8100a1de64822d8e80cf8a8dbc8d9c3a18de8d21f69622be6ee",
+      "sha256_after": "6005d30d709dc8100a1de64822d8e80cf8a8dbc8d9c3a18de8d21f69622be6ee"
+    },
+    {
+      "path": "src/barrier_identification.py",
+      "sha256": "035902bf255c42a43843570abf1145e8d17a9d872fa0eadc605d53087fd4823e",
+      "sha256_after": "035902bf255c42a43843570abf1145e8d17a9d872fa0eadc605d53087fd4823e"
+    },
+    {
+      "path": "analysis/programme/acquisition_benchmark.py",
+      "sha256": "fc45ec4438b194bf06c1826948e1b7e2f97c826d4a498572fc660e39203a155a",
+      "sha256_after": "fc45ec4438b194bf06c1826948e1b7e2f97c826d4a498572fc660e39203a155a"
+    },
+    {
+      "path": "analysis/programme/acquisition_protocol_v1.json",
+      "sha256": "f666e45d2a4e8ee16dcd52d1b9e9408e1aba4723d9c210caf782d84c1cacc1a4",
+      "sha256_after": "f666e45d2a4e8ee16dcd52d1b9e9408e1aba4723d9c210caf782d84c1cacc1a4"
+    },
+    {
+      "path": "analysis/programme/acquisition_conventions_v1.json",
+      "sha256": "839549df6901d23a44c252c084f97d3991ffedad60bc11b2141ee45a30c0810f",
+      "sha256_after": "839549df6901d23a44c252c084f97d3991ffedad60bc11b2141ee45a30c0810f"
+    },
+    {
+      "path": "analysis/programme/acquisition_bisection_amendment_v1.json",
+      "sha256": "5354e8297e9af62cd423861abc184bdd8495d1c7579363169251ff5f32384e23",
+      "sha256_after": "5354e8297e9af62cd423861abc184bdd8495d1c7579363169251ff5f32384e23"
+    },
+    {
+      "path": "analysis/programme/acquisition_validation_contract_v1.json",
+      "sha256": "de5371d6a102ce154096db0387826e554c7137774026774724c44db2ac7ebd4a",
+      "sha256_after": "de5371d6a102ce154096db0387826e554c7137774026774724c44db2ac7ebd4a"
+    },
+    {
+      "path": "tests/test_acquisition.py",
+      "sha256": "b9176f2301886e7cf69229c953fd52370b513a73a88cc3032bb8716c07d7064e",
+      "sha256_after": "b9176f2301886e7cf69229c953fd52370b513a73a88cc3032bb8716c07d7064e"
+    },
+    {
+      "path": "requirements-tested.txt",
+      "sha256": "b030f13d6e8e77a1d6ceabda8b7aa04f235350e04b1455ebe70d2e715fc4ab50",
+      "sha256_after": "b030f13d6e8e77a1d6ceabda8b7aa04f235350e04b1455ebe70d2e715fc4ab50"
+    },
+    {
+      "path": "results/programme/acquisition_v1/validation_freeze.json",
+      "sha256": "8ec8ce9602bfeb53c7c692854fade45dce8f053168a5d860025fa2e9e1122898",
+      "sha256_after": "8ec8ce9602bfeb53c7c692854fade45dce8f053168a5d860025fa2e9e1122898"
+    }
+  ],
+  "output_directory": "results/programme/acquisition_v1/validation",
+  "declared_results": [
+    "results/programme/acquisition_v1/validation/results/summary.json",
+    "results/programme/acquisition_v1/validation/results/worlds.json",
+    "results/programme/acquisition_v1/validation/results/policy_results.json",
+    "results/programme/acquisition_v1/validation/results/graphs.json"
+  ],
+  "outputs": [
+    {
+      "path": "results/programme/acquisition_v1/validation/stdout.txt",
+      "sha256": "fd5612eba68cab2189ab07afe562880b13892080e3afe66e48e729284710c9f0",
+      "kind": "log"
+    },
+    {
+      "path": "results/programme/acquisition_v1/validation/stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "kind": "log"
+    },
+    {
+      "path": "results/programme/acquisition_v1/validation/results/summary.json",
+      "sha256": "fca1c0f77300fc18a1087b709fb7234e4371be8635e8b74bd627ab552da42dd3",
+      "kind": "result"
+    },
+    {
+      "path": "results/programme/acquisition_v1/validation/results/worlds.json",
+      "sha256": "59c34563f7f5b5fcf2d93273c1d5f706a24e521d9266ed36329b113571335c0c",
+      "kind": "result"
+    },
+    {
+      "path": "results/programme/acquisition_v1/validation/results/policy_results.json",
+      "sha256": "b2ac0428d1c02dab7ebe3b1bb07e0bd7667891889ef4bdb37e78c74d111e1836",
+      "kind": "result"
+    },
+    {
+      "path": "results/programme/acquisition_v1/validation/results/graphs.json",
+      "sha256": "bc7859250f6a350364803581f5ea8ec4bd1732694f76ca78fe61f2fd84744ba8",
+      "kind": "result"
+    }
+  ],
+  "checks": [
+    {
+      "check": "input hashes unchanged",
+      "passed": true
+    },
+    {
+      "check": "process exited successfully within enforced limits",
+      "passed": true
+    },
+    {
+      "check": "declared result files are present and regular",
+      "passed": true
+    }
+  ],
+  "result": "Run completed; mathematical assertion requires interpretation and review.",
+  "residual_risks": [
+    "Command success does not establish the mathematical interpretation.",
+    "Only listed input artifacts are pinned; external dependencies need recorded versions."
+  ]
+}

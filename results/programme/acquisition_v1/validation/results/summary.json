@@ -1,0 +1,3281 @@
+{
+  "overall": {
+    "random": {
+      "median_queries": 9.0,
+      "mean_queries": 12.831052631578947,
+      "maximum_queries": 62,
+      "sum_queries": 48758,
+      "mean_excess_over_clairvoyant": 9.858157894736841
+    },
+    "degree": {
+      "median_queries": 8.0,
+      "mean_queries": 13.078684210526315,
+      "maximum_queries": 62,
+      "sum_queries": 49699,
+      "mean_excess_over_clairvoyant": 10.10578947368421
+    },
+    "lazy_forward": {
+      "median_queries": 4.0,
+      "mean_queries": 5.42,
+      "maximum_queries": 51,
+      "sum_queries": 20596,
+      "mean_excess_over_clairvoyant": 2.4471052631578947
+    },
+    "lazy_bisection": {
+      "median_queries": 5.0,
+      "mean_queries": 6.6860526315789475,
+      "maximum_queries": 49,
+      "sum_queries": 25407,
+      "mean_excess_over_clairvoyant": 3.713157894736842
+    },
+    "path_cut": {
+      "median_queries": 5.0,
+      "mean_queries": 5.817631578947369,
+      "maximum_queries": 42,
+      "sum_queries": 22107,
+      "mean_excess_over_clairvoyant": 2.844736842105263
+    },
+    "lazy_vertex_bisection": {
+      "median_queries": 5.0,
+      "mean_queries": 6.277105263157894,
+      "maximum_queries": 48,
+      "sum_queries": 23853,
+      "mean_excess_over_clairvoyant": 3.3042105263157895
+    }
+  },
+  "paired_path_cut_minus_baseline": {
+    "random": {
+      "mean_difference": -7.013421052631579,
+      "median_difference": -3.0,
+      "wins": 3059,
+      "ties": 426,
+      "losses": 315,
+      "largest_extra_queries": 10,
+      "largest_saved_queries": 55,
+      "mean_difference_uncertainty": {
+        "method": "Approximate Student t interval across 50 seed block means",
+        "level": 0.95,
+        "degrees_of_freedom": 49,
+        "standard_error": 0.09932818170896938,
+        "interval": [
+          -7.2130285069429965,
+          -6.81381359832016
+        ],
+        "seed_block_means": {
+          "2000": -7.25,
+          "2001": -6.631578947368421,
+          "2002": -6.223684210526316,
+          "2003": -7.2631578947368425,
+          "2004": -7.565789473684211,
+          "2005": -7.618421052631579,
+          "2006": -7.394736842105263,
+          "2007": -6.381578947368421,
+          "2008": -7.2631578947368425,
+          "2009": -7.276315789473684,
+          "2010": -6.684210526315789,
+          "2011": -8.881578947368421,
+          "2012": -7.4868421052631575,
+          "2013": -7.947368421052632,
+          "2014": -5.868421052631579,
+          "2015": -7.105263157894737,
+          "2016": -7.618421052631579,
+          "2017": -5.907894736842105,
+          "2018": -7.4605263157894735,
+          "2019": -7.0,
+          "2020": -8.368421052631579,
+          "2021": -6.9605263157894735,
+          "2022": -5.381578947368421,
+          "2023": -6.671052631578948,
+          "2024": -7.526315789473684,
+          "2025": -7.9605263157894735,
+          "2026": -8.539473684210526,
+          "2027": -7.407894736842105,
+          "2028": -6.526315789473684,
+          "2029": -6.4605263157894735,
+          "2030": -7.078947368421052,
+          "2031": -6.4605263157894735,
+          "2032": -7.118421052631579,
+          "2033": -7.184210526315789,
+          "2034": -5.868421052631579,
+          "2035": -6.7105263157894735,
+          "2036": -6.7368421052631575,
+          "2037": -6.394736842105263,
+          "2038": -7.223684210526316,
+          "2039": -6.868421052631579,
+          "2040": -6.9868421052631575,
+          "2041": -7.328947368421052,
+          "2042": -7.157894736842105,
+          "2043": -6.105263157894737,
+          "2044": -6.7631578947368425,
+          "2045": -7.0394736842105265,
+          "2046": -6.434210526315789,
+          "2047": -7.394736842105263,
+          "2048": -7.368421052631579,
+          "2049": -5.815789473684211
+        },
+        "worlds_per_seed": 76,
+        "scope": "Monte Carlo design uncertainty for the fixed graph, field and initial observation mix; not biological uncertainty or a simultaneous interval across policies"
+      }
+    },
+    "degree": {
+      "mean_difference": -7.261052631578948,
+      "median_difference": -3.0,
+      "wins": 3059,
+      "ties": 671,
+      "losses": 70,
+      "largest_extra_queries": 7,
+      "largest_saved_queries": 50,
+      "mean_difference_uncertainty": {
+        "method": "Approximate Student t interval across 50 seed block means",
+        "level": 0.95,
+        "degrees_of_freedom": 49,
+        "standard_error": 0.10054009274566776,
+        "interval": [
+          -7.463095512299318,
+          -7.059009750858576
+        ],
+        "seed_block_means": {
+          "2000": -8.328947368421053,
+          "2001": -6.052631578947368,
+          "2002": -7.657894736842105,
+          "2003": -6.868421052631579,
+          "2004": -8.302631578947368,
+          "2005": -8.631578947368421,
+          "2006": -7.618421052631579,
+          "2007": -5.5131578947368425,
+          "2008": -6.921052631578948,
+          "2009": -6.618421052631579,
+          "2010": -6.7105263157894735,
+          "2011": -6.25,
+          "2012": -7.5,
+          "2013": -7.697368421052632,
+          "2014": -6.776315789473684,
+          "2015": -7.302631578947368,
+          "2016": -6.447368421052632,
+          "2017": -6.118421052631579,
+          "2018": -7.078947368421052,
+          "2019": -6.947368421052632,
+          "2020": -7.921052631578948,
+          "2021": -6.815789473684211,
+          "2022": -7.828947368421052,
+          "2023": -6.473684210526316,
+          "2024": -7.644736842105263,
+          "2025": -6.9868421052631575,
+          "2026": -7.9868421052631575,
+          "2027": -7.578947368421052,
+          "2028": -7.7368421052631575,
+          "2029": -6.605263157894737,
+          "2030": -7.815789473684211,
+          "2031": -7.644736842105263,
+          "2032": -7.868421052631579,
+          "2033": -7.394736842105263,
+          "2034": -6.578947368421052,
+          "2035": -7.605263157894737,
+          "2036": -7.5,
+          "2037": -6.605263157894737,
+          "2038": -6.868421052631579,
+          "2039": -8.18421052631579,
+          "2040": -7.276315789473684,
+          "2041": -7.368421052631579,
+          "2042": -6.644736842105263,
+          "2043": -8.118421052631579,
+          "2044": -7.2631578947368425,
+          "2045": -7.618421052631579,
+          "2046": -6.144736842105263,
+          "2047": -7.828947368421052,
+          "2048": -8.802631578947368,
+          "2049": -7.0
+        },
+        "worlds_per_seed": 76,
+        "scope": "Monte Carlo design uncertainty for the fixed graph, field and initial observation mix; not biological uncertainty or a simultaneous interval across policies"
+      }
+    },
+    "lazy_forward": {
+      "mean_difference": 0.39763157894736845,
+      "median_difference": 0.0,
+      "wins": 470,
+      "ties": 1963,
+      "losses": 1367,
+      "largest_extra_queries": 24,
+      "largest_saved_queries": 37,
+      "mean_difference_uncertainty": {
+        "method": "Approximate Student t interval across 50 seed block means",
+        "level": 0.95,
+        "degrees_of_freedom": 49,
+        "standard_error": 0.06817717629302644,
+        "interval": [
+          0.26062441373150785,
+          0.534638744163229
+        ],
+        "seed_block_means": {
+          "2000": -0.6973684210526315,
+          "2001": 0.5263157894736842,
+          "2002": 0.6710526315789473,
+          "2003": 0.618421052631579,
+          "2004": -0.09210526315789473,
+          "2005": -0.5,
+          "2006": 0.6710526315789473,
+          "2007": 1.1710526315789473,
+          "2008": -0.06578947368421052,
+          "2009": 1.5921052631578947,
+          "2010": 0.9605263157894737,
+          "2011": 0.5394736842105263,
+          "2012": 0.0,
+          "2013": 0.618421052631579,
+          "2014": 0.8026315789473685,
+          "2015": -0.35526315789473684,
+          "2016": 0.5789473684210527,
+          "2017": 0.10526315789473684,
+          "2018": 0.4868421052631579,
+          "2019": 0.9210526315789473,
+          "2020": 0.40789473684210525,
+          "2021": 0.2894736842105263,
+          "2022": 0.7631578947368421,
+          "2023": 0.32894736842105265,
+          "2024": 0.39473684210526316,
+          "2025": 0.21052631578947367,
+          "2026": 0.6052631578947368,
+          "2027": -0.4342105263157895,
+          "2028": 0.3026315789473684,
+          "2029": 0.5526315789473685,
+          "2030": -0.23684210526315788,
+          "2031": 0.5263157894736842,
+          "2032": 0.75,
+          "2033": -0.3684210526315789,
+          "2034": 0.4605263157894737,
+          "2035": -0.14473684210526316,
+          "2036": 1.1578947368421053,
+          "2037": 0.039473684210526314,
+          "2038": 0.2631578947368421,
+          "2039": 0.5789473684210527,
+          "2040": 0.6578947368421053,
+          "2041": 0.5526315789473685,
+          "2042": 1.144736842105263,
+          "2043": 0.75,
+          "2044": 0.21052631578947367,
+          "2045": -0.32894736842105265,
+          "2046": 0.3026315789473684,
+          "2047": 0.14473684210526316,
+          "2048": 1.0789473684210527,
+          "2049": 0.3684210526315789
+        },
+        "worlds_per_seed": 76,
+        "scope": "Monte Carlo design uncertainty for the fixed graph, field and initial observation mix; not biological uncertainty or a simultaneous interval across policies"
+      }
+    },
+    "lazy_bisection": {
+      "mean_difference": -0.868421052631579,
+      "median_difference": 0.0,
+      "wins": 974,
+      "ties": 2141,
+      "losses": 685,
+      "largest_extra_queries": 10,
+      "largest_saved_queries": 29,
+      "mean_difference_uncertainty": {
+        "method": "Approximate Student t interval across 50 seed block means",
+        "level": 0.95,
+        "degrees_of_freedom": 49,
+        "standard_error": 0.06303245688762311,
+        "interval": [
+          -0.9950895171283627,
+          -0.741752588134795
+        ],
+        "seed_block_means": {
+          "2000": -1.118421052631579,
+          "2001": -0.8157894736842105,
+          "2002": -0.4605263157894737,
+          "2003": -0.4473684210526316,
+          "2004": -1.2236842105263157,
+          "2005": -1.9473684210526316,
+          "2006": -0.7105263157894737,
+          "2007": -0.17105263157894737,
+          "2008": -0.7763157894736842,
+          "2009": -0.4868421052631579,
+          "2010": -1.0921052631578947,
+          "2011": -0.7894736842105263,
+          "2012": -1.2236842105263157,
+          "2013": -1.1842105263157894,
+          "2014": -0.6447368421052632,
+          "2015": -1.0789473684210527,
+          "2016": -1.0263157894736843,
+          "2017": -1.4210526315789473,
+          "2018": -0.868421052631579,
+          "2019": -0.27631578947368424,
+          "2020": -0.618421052631579,
+          "2021": -0.6842105263157895,
+          "2022": 0.07894736842105263,
+          "2023": -0.9342105263157895,
+          "2024": -1.0921052631578947,
+          "2025": -0.9473684210526315,
+          "2026": -0.8552631578947368,
+          "2027": -0.8552631578947368,
+          "2028": -1.513157894736842,
+          "2029": -0.3684210526315789,
+          "2030": -1.736842105263158,
+          "2031": -0.9868421052631579,
+          "2032": -0.5921052631578947,
+          "2033": -1.4736842105263157,
+          "2034": -0.9868421052631579,
+          "2035": -1.631578947368421,
+          "2036": -0.11842105263157894,
+          "2037": -0.6710526315789473,
+          "2038": -0.40789473684210525,
+          "2039": -0.5263157894736842,
+          "2040": -1.5526315789473684,
+          "2041": -0.8552631578947368,
+          "2042": -1.118421052631579,
+          "2043": -0.75,
+          "2044": -0.6052631578947368,
+          "2045": -0.7763157894736842,
+          "2046": -1.5394736842105263,
+          "2047": -0.8289473684210527,
+          "2048": 0.0,
+          "2049": -0.7105263157894737
+        },
+        "worlds_per_seed": 76,
+        "scope": "Monte Carlo design uncertainty for the fixed graph, field and initial observation mix; not biological uncertainty or a simultaneous interval across policies"
+      }
+    },
+    "lazy_vertex_bisection": {
+      "mean_difference": -0.4594736842105263,
+      "median_difference": 0.0,
+      "wins": 900,
+      "ties": 2165,
+      "losses": 735,
+      "largest_extra_queries": 13,
+      "largest_saved_queries": 29,
+      "mean_difference_uncertainty": {
+        "method": "Approximate Student t interval across 50 seed block means",
+        "level": 0.95,
+        "degrees_of_freedom": 49,
+        "standard_error": 0.055306412410981165,
+        "interval": [
+          -0.5706160810460913,
+          -0.34833128737496133
+        ],
+        "seed_block_means": {
+          "2000": -0.8552631578947368,
+          "2001": -0.40789473684210525,
+          "2002": -0.013157894736842105,
+          "2003": -0.10526315789473684,
+          "2004": -1.263157894736842,
+          "2005": -1.4078947368421053,
+          "2006": -0.14473684210526316,
+          "2007": 0.40789473684210525,
+          "2008": -0.9605263157894737,
+          "2009": 0.25,
+          "2010": -0.3684210526315789,
+          "2011": -0.05263157894736842,
+          "2012": -0.6710526315789473,
+          "2013": -0.7894736842105263,
+          "2014": -0.32894736842105265,
+          "2015": -1.013157894736842,
+          "2016": -0.42105263157894735,
+          "2017": -0.9210526315789473,
+          "2018": -0.39473684210526316,
+          "2019": -0.039473684210526314,
+          "2020": -0.3026315789473684,
+          "2021": -0.18421052631578946,
+          "2022": 0.02631578947368421,
+          "2023": -0.5526315789473685,
+          "2024": -0.6973684210526315,
+          "2025": -0.6447368421052632,
+          "2026": -0.5657894736842105,
+          "2027": -0.6710526315789473,
+          "2028": -0.8026315789473685,
+          "2029": -0.039473684210526314,
+          "2030": -0.8421052631578947,
+          "2031": -0.6447368421052632,
+          "2032": -0.2894736842105263,
+          "2033": -1.013157894736842,
+          "2034": -0.42105263157894735,
+          "2035": -0.9868421052631579,
+          "2036": 0.2894736842105263,
+          "2037": -0.25,
+          "2038": -0.09210526315789473,
+          "2039": -0.4342105263157895,
+          "2040": -0.7763157894736842,
+          "2041": -0.35526315789473684,
+          "2042": -0.14473684210526316,
+          "2043": -0.6052631578947368,
+          "2044": -0.3026315789473684,
+          "2045": -0.5921052631578947,
+          "2046": -0.5921052631578947,
+          "2047": -0.5789473684210527,
+          "2048": -0.039473684210526314,
+          "2049": -0.3684210526315789
+        },
+        "worlds_per_seed": 76,
+        "scope": "Monte Carlo design uncertainty for the fixed graph, field and initial observation mix; not biological uncertainty or a simultaneous interval across policies"
+      }
+    }
+  },
+  "policy_labels": {
+    "random": "Uniform random",
+    "degree": "Highest degree",
+    "lazy_forward": "LazySP forward, vertex adaptation",
+    "lazy_bisection": "Path midpoint",
+    "path_cut": "Path/cut alternation",
+    "lazy_vertex_bisection": "LazySP bisection, vertex adaptation"
+  },
+  "graph_field_initial_strata": [
+    {
+      "graph": "Q3",
+      "family": "additive",
+      "initial_condition": "endpoints",
+      "policies": {
+        "random": {
+          "mean": 4.32,
+          "median": 5.0,
+          "maximum": 6
+        },
+        "degree": {
+          "mean": 4.3,
+          "median": 4.5,
+          "maximum": 6
+        },
+        "lazy_forward": {
+          "mean": 3.04,
+          "median": 3.0,
+          "maximum": 5
+        },
+        "lazy_bisection": {
+          "mean": 3.04,
+          "median": 3.0,
+          "maximum": 5
+        },
+        "path_cut": {
+          "mean": 3.16,
+          "median": 3.0,
+          "maximum": 5
+        },
+        "lazy_vertex_bisection": {
+          "mean": 3.04,
+          "median": 3.0,
+          "maximum": 5
+        }
+      }
+    },
+    {
+      "graph": "Q3",
+      "family": "additive",
+      "initial_condition": "quarter",
+      "policies": {
+        "random": {
+          "mean": 3.36,
+          "median": 4.0,
+          "maximum": 5
+        },
+        "degree": {
+          "mean": 3.42,
+          "median": 4.0,
+          "maximum": 5
+        },
+        "lazy_forward": {
+          "mean": 2.5,
+          "median": 2.0,
+          "maximum": 4
+        },
+        "lazy_bisection": {
+          "mean": 2.5,
+          "median": 2.0,
+          "maximum": 4
+        },
+        "path_cut": {
+          "mean": 2.6,
+          "median": 3.0,
+          "maximum": 5
+        },
+        "lazy_vertex_bisection": {
+          "mean": 2.5,
+          "median": 2.0,
+          "maximum": 4
+        }
+      }
+    },
+    {
+      "graph": "Q3",
+      "family": "bernoulli_0.25",
+      "initial_condition": "endpoints",
+      "policies": {
+        "random": {
+          "mean": 4.74,
+          "median": 5.0,
+          "maximum": 6
+        },
+        "degree": {
+          "mean": 4.58,
+          "median": 4.0,
+          "maximum": 6
+        },
+        "lazy_forward": {
+          "mean": 3.6,
+          "median": 3.0,
+          "maximum": 5
+        },
+        "lazy_bisection": {
+          "mean": 3.6,
+          "median": 3.0,
+          "maximum": 5
+        },
+        "path_cut": {
+          "mean": 3.52,
+          "median": 3.0,
+          "maximum": 5
+        },
+        "lazy_vertex_bisection": {
+          "mean": 3.6,
+          "median": 3.0,
+          "maximum": 5
+        }
+      }
+    },
+    {
+      "graph": "Q3",
+      "family": "bernoulli_0.25",
+      "initial_condition": "quarter",
+      "policies": {
+        "random": {
+          "mean": 3.82,
+          "median": 4.0,
+          "maximum": 5
+        },
+        "degree": {
+          "mean": 3.68,
+          "median": 4.0,
+          "maximum": 5
+        },
+        "lazy_forward": {
+          "mean": 2.98,
+          "median": 3.0,
+          "maximum": 5
+        },
+        "lazy_bisection": {
+          "mean": 2.98,
+          "median": 3.0,
+          "maximum": 5
+        },
+        "path_cut": {
+          "mean": 3.02,
+          "median": 3.0,
+          "maximum": 5
+        },
+        "lazy_vertex_bisection": {
+          "mean": 2.98,
+          "median": 3.0,
+          "maximum": 5
+        }
+      }
+    },
+    {
+      "graph": "Q3",
+      "family": "bernoulli_0.5",
+      "initial_condition": "endpoints",
+      "policies": {
+        "random": {
+          "mean": 4.42,
+          "median": 5.0,
+          "maximum": 6
+        },
+        "degree": {
+          "mean": 4.32,
+          "median": 4.0,
+          "maximum": 6
+        },
+        "lazy_forward": {
+          "mean": 3.3,
+          "median": 3.0,
+          "maximum": 6
+        },
+        "lazy_bisection": {
+          "mean": 3.3,
+          "median": 3.0,
+          "maximum": 6
+        },
+        "path_cut": {
+          "mean": 3.28,
+          "median": 3.0,
+          "maximum": 6
+        },
+        "lazy_vertex_bisection": {
+          "mean": 3.3,
+          "median": 3.0,
+          "maximum": 6
+        }
+      }
+    },
+    {
+      "graph": "Q3",
+      "family": "bernoulli_0.5",
+      "initial_condition": "quarter",
+      "policies": {
+        "random": {
+          "mean": 3.48,
+          "median": 4.0,
+          "maximum": 5
+        },
+        "degree": {
+          "mean": 3.28,
+          "median": 4.0,
+          "maximum": 5
+        },
+        "lazy_forward": {
+          "mean": 2.74,
+          "median": 3.0,
+          "maximum": 5
+        },
+        "lazy_bisection": {
+          "mean": 2.74,
+          "median": 3.0,
+          "maximum": 5
+        },
+        "path_cut": {
+          "mean": 2.74,
+          "median": 3.0,
+          "maximum": 5
+        },
+        "lazy_vertex_bisection": {
+          "mean": 2.74,
+          "median": 3.0,
+          "maximum": 5
+        }
+      }
+    },
+    {
+      "graph": "Q3",
+      "family": "bernoulli_0.75",
+      "initial_condition": "endpoints",
+      "policies": {
+        "random": {
+          "mean": 3.38,
+          "median": 3.0,
+          "maximum": 6
+        },
+        "degree": {
+          "mean": 3.58,
+          "median": 3.0,
+          "maximum": 6
+        },
+        "lazy_forward": {
+          "mean": 2.68,
+          "median": 2.0,
+          "maximum": 6
+        },
+        "lazy_bisection": {
+          "mean": 2.68,
+          "median": 2.0,
+          "maximum": 6
+        },
+        "path_cut": {
+          "mean": 2.7,
+          "median": 2.0,
+          "maximum": 6
+        },
+        "lazy_vertex_bisection": {
+          "mean": 2.68,
+          "median": 2.0,
+          "maximum": 6
+        }
+      }
+    },
+    {
+      "graph": "Q3",
+      "family": "bernoulli_0.75",
+      "initial_condition": "quarter",
+      "policies": {
+        "random": {
+          "mean": 2.16,
+          "median": 2.0,
+          "maximum": 5
+        },
+        "degree": {
+          "mean": 2.48,
+          "median": 2.0,
+          "maximum": 5
+        },
+        "lazy_forward": {
+          "mean": 2.16,
+          "median": 2.0,
+          "maximum": 5
+        },
+        "lazy_bisection": {
+          "mean": 2.16,
+          "median": 2.0,
+          "maximum": 5
+        },
+        "path_cut": {
+          "mean": 2.14,
+          "median": 2.0,
+          "maximum": 5
+        },
+        "lazy_vertex_bisection": {
+          "mean": 2.16,
+          "median": 2.0,
+          "maximum": 5
+        }
+      }
+    },
+    {
+      "graph": "Q3",
+      "family": "heat",
+      "initial_condition": "endpoints",
+      "policies": {
+        "random": {
+          "mean": 4.04,
+          "median": 4.0,
+          "maximum": 6
+        },
+        "degree": {
+          "mean": 3.98,
+          "median": 3.0,
+          "maximum": 6
+        },
+        "lazy_forward": {
+          "mean": 2.96,
+          "median": 3.0,
+          "maximum": 5
+        },
+        "lazy_bisection": {
+          "mean": 2.96,
+          "median": 3.0,
+          "maximum": 5
+        },
+        "path_cut": {
+          "mean": 3.02,
+          "median": 3.0,
+          "maximum": 5
+        },
+        "lazy_vertex_bisection": {
+          "mean": 2.96,
+          "median": 3.0,
+          "maximum": 5
+        }
+      }
+    },
+    {
+      "graph": "Q3",
+      "family": "heat",
+      "initial_condition": "quarter",
+      "policies": {
+        "random": {
+          "mean": 2.7,
+          "median": 3.0,
+          "maximum": 5
+        },
+        "degree": {
+          "mean": 2.9,
+          "median": 3.0,
+          "maximum": 5
+        },
+        "lazy_forward": {
+          "mean": 2.28,
+          "median": 2.0,
+          "maximum": 4
+        },
+        "lazy_bisection": {
+          "mean": 2.28,
+          "median": 2.0,
+          "maximum": 4
+        },
+        "path_cut": {
+          "mean": 2.4,
+          "median": 2.0,
+          "maximum": 4
+        },
+        "lazy_vertex_bisection": {
+          "mean": 2.28,
+          "median": 2.0,
+          "maximum": 4
+        }
+      }
+    },
+    {
+      "graph": "Q3",
+      "family": "pairwise",
+      "initial_condition": "endpoints",
+      "policies": {
+        "random": {
+          "mean": 4.3,
+          "median": 4.0,
+          "maximum": 6
+        },
+        "degree": {
+          "mean": 4.3,
+          "median": 5.0,
+          "maximum": 6
+        },
+        "lazy_forward": {
+          "mean": 3.36,
+          "median": 3.0,
+          "maximum": 6
+        },
+        "lazy_bisection": {
+          "mean": 3.36,
+          "median": 3.0,
+          "maximum": 6
+        },
+        "path_cut": {
+          "mean": 3.46,
+          "median": 3.0,
+          "maximum": 6
+        },
+        "lazy_vertex_bisection": {
+          "mean": 3.36,
+          "median": 3.0,
+          "maximum": 6
+        }
+      }
+    },
+    {
+      "graph": "Q3",
+      "family": "pairwise",
+      "initial_condition": "quarter",
+      "policies": {
+        "random": {
+          "mean": 3.22,
+          "median": 3.5,
+          "maximum": 5
+        },
+        "degree": {
+          "mean": 3.46,
+          "median": 4.0,
+          "maximum": 5
+        },
+        "lazy_forward": {
+          "mean": 2.8,
+          "median": 3.0,
+          "maximum": 5
+        },
+        "lazy_bisection": {
+          "mean": 2.8,
+          "median": 3.0,
+          "maximum": 5
+        },
+        "path_cut": {
+          "mean": 2.82,
+          "median": 3.0,
+          "maximum": 5
+        },
+        "lazy_vertex_bisection": {
+          "mean": 2.8,
+          "median": 3.0,
+          "maximum": 5
+        }
+      }
+    },
+    {
+      "graph": "Q4",
+      "family": "additive",
+      "initial_condition": "endpoints",
+      "policies": {
+        "random": {
+          "mean": 8.98,
+          "median": 9.0,
+          "maximum": 14
+        },
+        "degree": {
+          "mean": 9.82,
+          "median": 11.0,
+          "maximum": 14
+        },
+        "lazy_forward": {
+          "mean": 4.8,
+          "median": 4.0,
+          "maximum": 11
+        },
+        "lazy_bisection": {
+          "mean": 5.38,
+          "median": 4.5,
+          "maximum": 11
+        },
+        "path_cut": {
+          "mean": 5.36,
+          "median": 4.5,
+          "maximum": 9
+        },
+        "lazy_vertex_bisection": {
+          "mean": 5.38,
+          "median": 4.5,
+          "maximum": 11
+        }
+      }
+    },
+    {
+      "graph": "Q4",
+      "family": "additive",
+      "initial_condition": "quarter",
+      "policies": {
+        "random": {
+          "mean": 5.6,
+          "median": 6.0,
+          "maximum": 10
+        },
+        "degree": {
+          "mean": 5.8,
+          "median": 6.0,
+          "maximum": 11
+        },
+        "lazy_forward": {
+          "mean": 3.14,
+          "median": 3.0,
+          "maximum": 7
+        },
+        "lazy_bisection": {
+          "mean": 3.4,
+          "median": 3.0,
+          "maximum": 7
+        },
+        "path_cut": {
+          "mean": 3.28,
+          "median": 3.0,
+          "maximum": 7
+        },
+        "lazy_vertex_bisection": {
+          "mean": 3.4,
+          "median": 3.0,
+          "maximum": 7
+        }
+      }
+    },
+    {
+      "graph": "Q4",
+      "family": "bernoulli_0.25",
+      "initial_condition": "endpoints",
+      "policies": {
+        "random": {
+          "mean": 11.3,
+          "median": 12.0,
+          "maximum": 14
+        },
+        "degree": {
+          "mean": 10.6,
+          "median": 10.5,
+          "maximum": 14
+        },
+        "lazy_forward": {
+          "mean": 6.7,
+          "median": 7.0,
+          "maximum": 13
+        },
+        "lazy_bisection": {
+          "mean": 8.14,
+          "median": 8.0,
+          "maximum": 14
+        },
+        "path_cut": {
+          "mean": 8.34,
+          "median": 8.0,
+          "maximum": 14
+        },
+        "lazy_vertex_bisection": {
+          "mean": 8.14,
+          "median": 8.0,
+          "maximum": 14
+        }
+      }
+    },
+    {
+      "graph": "Q4",
+      "family": "bernoulli_0.25",
+      "initial_condition": "quarter",
+      "policies": {
+        "random": {
+          "mean": 8.32,
+          "median": 8.0,
+          "maximum": 11
+        },
+        "degree": {
+          "mean": 7.82,
+          "median": 8.0,
+          "maximum": 11
+        },
+        "lazy_forward": {
+          "mean": 4.96,
+          "median": 4.0,
+          "maximum": 10
+        },
+        "lazy_bisection": {
+          "mean": 6.24,
+          "median": 6.0,
+          "maximum": 10
+        },
+        "path_cut": {
+          "mean": 6.24,
+          "median": 6.0,
+          "maximum": 11
+        },
+        "lazy_vertex_bisection": {
+          "mean": 6.18,
+          "median": 6.0,
+          "maximum": 10
+        }
+      }
+    },
+    {
+      "graph": "Q4",
+      "family": "bernoulli_0.5",
+      "initial_condition": "endpoints",
+      "policies": {
+        "random": {
+          "mean": 9.82,
+          "median": 10.5,
+          "maximum": 14
+        },
+        "degree": {
+          "mean": 10.1,
+          "median": 11.0,
+          "maximum": 14
+        },
+        "lazy_forward": {
+          "mean": 6.18,
+          "median": 5.0,
+          "maximum": 13
+        },
+        "lazy_bisection": {
+          "mean": 6.88,
+          "median": 7.0,
+          "maximum": 13
+        },
+        "path_cut": {
+          "mean": 6.96,
+          "median": 7.0,
+          "maximum": 12
+        },
+        "lazy_vertex_bisection": {
+          "mean": 6.88,
+          "median": 7.0,
+          "maximum": 13
+        }
+      }
+    },
+    {
+      "graph": "Q4",
+      "family": "bernoulli_0.5",
+      "initial_condition": "quarter",
+      "policies": {
+        "random": {
+          "mean": 6.92,
+          "median": 7.0,
+          "maximum": 11
+        },
+        "degree": {
+          "mean": 6.84,
+          "median": 6.5,
+          "maximum": 11
+        },
+        "lazy_forward": {
+          "mean": 4.66,
+          "median": 4.0,
+          "maximum": 11
+        },
+        "lazy_bisection": {
+          "mean": 5.14,
+          "median": 5.0,
+          "maximum": 10
+        },
+        "path_cut": {
+          "mean": 4.78,
+          "median": 4.0,
+          "maximum": 9
+        },
+        "lazy_vertex_bisection": {
+          "mean": 5.08,
+          "median": 5.0,
+          "maximum": 11
+        }
+      }
+    },
+    {
+      "graph": "Q4",
+      "family": "bernoulli_0.75",
+      "initial_condition": "endpoints",
+      "policies": {
+        "random": {
+          "mean": 7.98,
+          "median": 8.0,
+          "maximum": 14
+        },
+        "degree": {
+          "mean": 8.16,
+          "median": 7.0,
+          "maximum": 13
+        },
+        "lazy_forward": {
+          "mean": 4.22,
+          "median": 4.0,
+          "maximum": 7
+        },
+        "lazy_bisection": {
+          "mean": 4.34,
+          "median": 4.0,
+          "maximum": 8
+        },
+        "path_cut": {
+          "mean": 4.38,
+          "median": 4.0,
+          "maximum": 9
+        },
+        "lazy_vertex_bisection": {
+          "mean": 4.34,
+          "median": 4.0,
+          "maximum": 8
+        }
+      }
+    },
+    {
+      "graph": "Q4",
+      "family": "bernoulli_0.75",
+      "initial_condition": "quarter",
+      "policies": {
+        "random": {
+          "mean": 4.5,
+          "median": 4.0,
+          "maximum": 11
+        },
+        "degree": {
+          "mean": 4.5,
+          "median": 4.0,
+          "maximum": 10
+        },
+        "lazy_forward": {
+          "mean": 2.96,
+          "median": 3.0,
+          "maximum": 6
+        },
+        "lazy_bisection": {
+          "mean": 3.14,
+          "median": 3.0,
+          "maximum": 6
+        },
+        "path_cut": {
+          "mean": 3.1,
+          "median": 3.0,
+          "maximum": 7
+        },
+        "lazy_vertex_bisection": {
+          "mean": 3.12,
+          "median": 3.0,
+          "maximum": 6
+        }
+      }
+    },
+    {
+      "graph": "Q4",
+      "family": "heat",
+      "initial_condition": "endpoints",
+      "policies": {
+        "random": {
+          "mean": 9.42,
+          "median": 9.0,
+          "maximum": 14
+        },
+        "degree": {
+          "mean": 9.22,
+          "median": 7.5,
+          "maximum": 14
+        },
+        "lazy_forward": {
+          "mean": 4.78,
+          "median": 4.0,
+          "maximum": 11
+        },
+        "lazy_bisection": {
+          "mean": 5.76,
+          "median": 5.0,
+          "maximum": 11
+        },
+        "path_cut": {
+          "mean": 5.32,
+          "median": 5.0,
+          "maximum": 9
+        },
+        "lazy_vertex_bisection": {
+          "mean": 5.76,
+          "median": 5.0,
+          "maximum": 11
+        }
+      }
+    },
+    {
+      "graph": "Q4",
+      "family": "heat",
+      "initial_condition": "quarter",
+      "policies": {
+        "random": {
+          "mean": 6.34,
+          "median": 6.0,
+          "maximum": 11
+        },
+        "degree": {
+          "mean": 6.18,
+          "median": 6.5,
+          "maximum": 11
+        },
+        "lazy_forward": {
+          "mean": 3.48,
+          "median": 3.5,
+          "maximum": 9
+        },
+        "lazy_bisection": {
+          "mean": 4.12,
+          "median": 4.0,
+          "maximum": 8
+        },
+        "path_cut": {
+          "mean": 3.78,
+          "median": 4.0,
+          "maximum": 8
+        },
+        "lazy_vertex_bisection": {
+          "mean": 3.98,
+          "median": 4.0,
+          "maximum": 8
+        }
+      }
+    },
+    {
+      "graph": "Q4",
+      "family": "pairwise",
+      "initial_condition": "endpoints",
+      "policies": {
+        "random": {
+          "mean": 9.78,
+          "median": 9.0,
+          "maximum": 14
+        },
+        "degree": {
+          "mean": 9.5,
+          "median": 7.0,
+          "maximum": 14
+        },
+        "lazy_forward": {
+          "mean": 5.46,
+          "median": 5.0,
+          "maximum": 11
+        },
+        "lazy_bisection": {
+          "mean": 6.22,
+          "median": 6.0,
+          "maximum": 12
+        },
+        "path_cut": {
+          "mean": 6.24,
+          "median": 6.5,
+          "maximum": 11
+        },
+        "lazy_vertex_bisection": {
+          "mean": 6.22,
+          "median": 6.0,
+          "maximum": 12
+        }
+      }
+    },
+    {
+      "graph": "Q4",
+      "family": "pairwise",
+      "initial_condition": "quarter",
+      "policies": {
+        "random": {
+          "mean": 7.56,
+          "median": 8.0,
+          "maximum": 11
+        },
+        "degree": {
+          "mean": 6.58,
+          "median": 6.0,
+          "maximum": 11
+        },
+        "lazy_forward": {
+          "mean": 4.06,
+          "median": 4.0,
+          "maximum": 9
+        },
+        "lazy_bisection": {
+          "mean": 4.6,
+          "median": 4.0,
+          "maximum": 9
+        },
+        "path_cut": {
+          "mean": 4.56,
+          "median": 5.0,
+          "maximum": 9
+        },
+        "lazy_vertex_bisection": {
+          "mean": 4.5,
+          "median": 4.0,
+          "maximum": 9
+        }
+      }
+    },
+    {
+      "graph": "Q6",
+      "family": "additive",
+      "initial_condition": "endpoints",
+      "policies": {
+        "random": {
+          "mean": 37.4,
+          "median": 37.0,
+          "maximum": 62
+        },
+        "degree": {
+          "mean": 42.76,
+          "median": 32.0,
+          "maximum": 62
+        },
+        "lazy_forward": {
+          "mean": 13.18,
+          "median": 7.0,
+          "maximum": 51
+        },
+        "lazy_bisection": {
+          "mean": 17.0,
+          "median": 10.5,
+          "maximum": 41
+        },
+        "path_cut": {
+          "mean": 9.9,
+          "median": 8.5,
+          "maximum": 18
+        },
+        "lazy_vertex_bisection": {
+          "mean": 13.42,
+          "median": 8.0,
+          "maximum": 41
+        }
+      }
+    },
+    {
+      "graph": "Q6",
+      "family": "additive",
+      "initial_condition": "quarter",
+      "policies": {
+        "random": {
+          "mean": 22.18,
+          "median": 20.5,
+          "maximum": 44
+        },
+        "degree": {
+          "mean": 27.26,
+          "median": 24.5,
+          "maximum": 47
+        },
+        "lazy_forward": {
+          "mean": 8.48,
+          "median": 5.0,
+          "maximum": 31
+        },
+        "lazy_bisection": {
+          "mean": 10.44,
+          "median": 7.0,
+          "maximum": 27
+        },
+        "path_cut": {
+          "mean": 6.82,
+          "median": 6.0,
+          "maximum": 21
+        },
+        "lazy_vertex_bisection": {
+          "mean": 9.0,
+          "median": 6.0,
+          "maximum": 29
+        }
+      }
+    },
+    {
+      "graph": "Q6",
+      "family": "bernoulli_0.25",
+      "initial_condition": "endpoints",
+      "policies": {
+        "random": {
+          "mean": 53.48,
+          "median": 55.5,
+          "maximum": 62
+        },
+        "degree": {
+          "mean": 47.46,
+          "median": 49.5,
+          "maximum": 62
+        },
+        "lazy_forward": {
+          "mean": 20.38,
+          "median": 19.0,
+          "maximum": 45
+        },
+        "lazy_bisection": {
+          "mean": 32.96,
+          "median": 34.0,
+          "maximum": 49
+        },
+        "path_cut": {
+          "mean": 22.8,
+          "median": 20.5,
+          "maximum": 42
+        },
+        "lazy_vertex_bisection": {
+          "mean": 28.34,
+          "median": 28.0,
+          "maximum": 48
+        }
+      }
+    },
+    {
+      "graph": "Q6",
+      "family": "bernoulli_0.25",
+      "initial_condition": "quarter",
+      "policies": {
+        "random": {
+          "mean": 37.74,
+          "median": 40.5,
+          "maximum": 47
+        },
+        "degree": {
+          "mean": 34.74,
+          "median": 36.5,
+          "maximum": 47
+        },
+        "lazy_forward": {
+          "mean": 15.34,
+          "median": 14.0,
+          "maximum": 32
+        },
+        "lazy_bisection": {
+          "mean": 23.02,
+          "median": 23.0,
+          "maximum": 35
+        },
+        "path_cut": {
+          "mean": 15.76,
+          "median": 14.5,
+          "maximum": 30
+        },
+        "lazy_vertex_bisection": {
+          "mean": 20.4,
+          "median": 21.0,
+          "maximum": 33
+        }
+      }
+    },
+    {
+      "graph": "Q6",
+      "family": "bernoulli_0.5",
+      "initial_condition": "endpoints",
+      "policies": {
+        "random": {
+          "mean": 33.94,
+          "median": 35.0,
+          "maximum": 59
+        },
+        "degree": {
+          "mean": 41.5,
+          "median": 37.5,
+          "maximum": 61
+        },
+        "lazy_forward": {
+          "mean": 10.98,
+          "median": 9.0,
+          "maximum": 42
+        },
+        "lazy_bisection": {
+          "mean": 14.86,
+          "median": 10.0,
+          "maximum": 41
+        },
+        "path_cut": {
+          "mean": 14.2,
+          "median": 12.0,
+          "maximum": 37
+        },
+        "lazy_vertex_bisection": {
+          "mean": 12.4,
+          "median": 10.0,
+          "maximum": 43
+        }
+      }
+    },
+    {
+      "graph": "Q6",
+      "family": "bernoulli_0.5",
+      "initial_condition": "quarter",
+      "policies": {
+        "random": {
+          "mean": 21.56,
+          "median": 21.0,
+          "maximum": 44
+        },
+        "degree": {
+          "mean": 23.96,
+          "median": 22.0,
+          "maximum": 46
+        },
+        "lazy_forward": {
+          "mean": 7.88,
+          "median": 6.0,
+          "maximum": 34
+        },
+        "lazy_bisection": {
+          "mean": 10.34,
+          "median": 8.0,
+          "maximum": 33
+        },
+        "path_cut": {
+          "mean": 8.74,
+          "median": 7.5,
+          "maximum": 25
+        },
+        "lazy_vertex_bisection": {
+          "mean": 8.74,
+          "median": 7.0,
+          "maximum": 36
+        }
+      }
+    },
+    {
+      "graph": "Q6",
+      "family": "bernoulli_0.75",
+      "initial_condition": "endpoints",
+      "policies": {
+        "random": {
+          "mean": 25.86,
+          "median": 25.0,
+          "maximum": 45
+        },
+        "degree": {
+          "mean": 34.84,
+          "median": 31.0,
+          "maximum": 55
+        },
+        "lazy_forward": {
+          "mean": 6.82,
+          "median": 6.0,
+          "maximum": 10
+        },
+        "lazy_bisection": {
+          "mean": 7.48,
+          "median": 6.0,
+          "maximum": 18
+        },
+        "path_cut": {
+          "mean": 7.68,
+          "median": 6.0,
+          "maximum": 15
+        },
+        "lazy_vertex_bisection": {
+          "mean": 7.04,
+          "median": 6.0,
+          "maximum": 11
+        }
+      }
+    },
+    {
+      "graph": "Q6",
+      "family": "bernoulli_0.75",
+      "initial_condition": "quarter",
+      "policies": {
+        "random": {
+          "mean": 11.2,
+          "median": 10.0,
+          "maximum": 31
+        },
+        "degree": {
+          "mean": 13.9,
+          "median": 11.0,
+          "maximum": 42
+        },
+        "lazy_forward": {
+          "mean": 4.58,
+          "median": 4.5,
+          "maximum": 9
+        },
+        "lazy_bisection": {
+          "mean": 5.06,
+          "median": 5.0,
+          "maximum": 14
+        },
+        "path_cut": {
+          "mean": 4.7,
+          "median": 4.0,
+          "maximum": 13
+        },
+        "lazy_vertex_bisection": {
+          "mean": 4.6,
+          "median": 4.0,
+          "maximum": 10
+        }
+      }
+    },
+    {
+      "graph": "Q6",
+      "family": "heat",
+      "initial_condition": "endpoints",
+      "policies": {
+        "random": {
+          "mean": 36.42,
+          "median": 35.0,
+          "maximum": 60
+        },
+        "degree": {
+          "mean": 43.18,
+          "median": 39.5,
+          "maximum": 62
+        },
+        "lazy_forward": {
+          "mean": 10.98,
+          "median": 8.0,
+          "maximum": 45
+        },
+        "lazy_bisection": {
+          "mean": 13.92,
+          "median": 11.0,
+          "maximum": 39
+        },
+        "path_cut": {
+          "mean": 10.5,
+          "median": 11.0,
+          "maximum": 18
+        },
+        "lazy_vertex_bisection": {
+          "mean": 11.72,
+          "median": 9.0,
+          "maximum": 39
+        }
+      }
+    },
+    {
+      "graph": "Q6",
+      "family": "heat",
+      "initial_condition": "quarter",
+      "policies": {
+        "random": {
+          "mean": 20.84,
+          "median": 17.5,
+          "maximum": 46
+        },
+        "degree": {
+          "mean": 26.58,
+          "median": 25.0,
+          "maximum": 47
+        },
+        "lazy_forward": {
+          "mean": 7.42,
+          "median": 6.0,
+          "maximum": 28
+        },
+        "lazy_bisection": {
+          "mean": 9.28,
+          "median": 8.0,
+          "maximum": 25
+        },
+        "path_cut": {
+          "mean": 6.84,
+          "median": 6.0,
+          "maximum": 15
+        },
+        "lazy_vertex_bisection": {
+          "mean": 7.94,
+          "median": 7.0,
+          "maximum": 25
+        }
+      }
+    },
+    {
+      "graph": "Q6",
+      "family": "pairwise",
+      "initial_condition": "endpoints",
+      "policies": {
+        "random": {
+          "mean": 34.6,
+          "median": 33.5,
+          "maximum": 61
+        },
+        "degree": {
+          "mean": 44.48,
+          "median": 47.0,
+          "maximum": 62
+        },
+        "lazy_forward": {
+          "mean": 10.18,
+          "median": 9.0,
+          "maximum": 34
+        },
+        "lazy_bisection": {
+          "mean": 14.56,
+          "median": 13.0,
+          "maximum": 41
+        },
+        "path_cut": {
+          "mean": 12.5,
+          "median": 12.0,
+          "maximum": 32
+        },
+        "lazy_vertex_bisection": {
+          "mean": 11.8,
+          "median": 11.0,
+          "maximum": 30
+        }
+      }
+    },
+    {
+      "graph": "Q6",
+      "family": "pairwise",
+      "initial_condition": "quarter",
+      "policies": {
+        "random": {
+          "mean": 21.42,
+          "median": 21.0,
+          "maximum": 44
+        },
+        "degree": {
+          "mean": 27.1,
+          "median": 25.0,
+          "maximum": 47
+        },
+        "lazy_forward": {
+          "mean": 7.5,
+          "median": 6.0,
+          "maximum": 24
+        },
+        "lazy_bisection": {
+          "mean": 10.16,
+          "median": 8.0,
+          "maximum": 28
+        },
+        "path_cut": {
+          "mean": 8.54,
+          "median": 8.0,
+          "maximum": 21
+        },
+        "lazy_vertex_bisection": {
+          "mean": 8.2,
+          "median": 7.0,
+          "maximum": 24
+        }
+      }
+    },
+    {
+      "graph": "independent_path_5",
+      "family": "additive",
+      "initial_condition": "endpoints",
+      "policies": {
+        "random": {
+          "mean": 8.44,
+          "median": 9.0,
+          "maximum": 11
+        },
+        "degree": {
+          "mean": 7.96,
+          "median": 8.0,
+          "maximum": 11
+        },
+        "lazy_forward": {
+          "mean": 5.08,
+          "median": 5.5,
+          "maximum": 8
+        },
+        "lazy_bisection": {
+          "mean": 5.8,
+          "median": 6.0,
+          "maximum": 9
+        },
+        "path_cut": {
+          "mean": 5.56,
+          "median": 6.0,
+          "maximum": 8
+        },
+        "lazy_vertex_bisection": {
+          "mean": 5.58,
+          "median": 6.0,
+          "maximum": 8
+        }
+      }
+    },
+    {
+      "graph": "independent_path_5",
+      "family": "additive",
+      "initial_condition": "quarter",
+      "policies": {
+        "random": {
+          "mean": 6.04,
+          "median": 6.0,
+          "maximum": 9
+        },
+        "degree": {
+          "mean": 6.28,
+          "median": 7.0,
+          "maximum": 9
+        },
+        "lazy_forward": {
+          "mean": 3.98,
+          "median": 4.0,
+          "maximum": 7
+        },
+        "lazy_bisection": {
+          "mean": 4.42,
+          "median": 4.5,
+          "maximum": 7
+        },
+        "path_cut": {
+          "mean": 4.22,
+          "median": 4.0,
+          "maximum": 7
+        },
+        "lazy_vertex_bisection": {
+          "mean": 4.42,
+          "median": 5.0,
+          "maximum": 7
+        }
+      }
+    },
+    {
+      "graph": "independent_path_5",
+      "family": "bernoulli_0.25",
+      "initial_condition": "endpoints",
+      "policies": {
+        "random": {
+          "mean": 6.9,
+          "median": 6.0,
+          "maximum": 11
+        },
+        "degree": {
+          "mean": 4.96,
+          "median": 4.0,
+          "maximum": 9
+        },
+        "lazy_forward": {
+          "mean": 3.36,
+          "median": 2.0,
+          "maximum": 8
+        },
+        "lazy_bisection": {
+          "mean": 4.26,
+          "median": 4.0,
+          "maximum": 8
+        },
+        "path_cut": {
+          "mean": 4.0,
+          "median": 4.0,
+          "maximum": 8
+        },
+        "lazy_vertex_bisection": {
+          "mean": 4.3,
+          "median": 4.0,
+          "maximum": 8
+        }
+      }
+    },
+    {
+      "graph": "independent_path_5",
+      "family": "bernoulli_0.25",
+      "initial_condition": "quarter",
+      "policies": {
+        "random": {
+          "mean": 4.84,
+          "median": 4.5,
+          "maximum": 9
+        },
+        "degree": {
+          "mean": 3.74,
+          "median": 3.0,
+          "maximum": 8
+        },
+        "lazy_forward": {
+          "mean": 2.5,
+          "median": 2.0,
+          "maximum": 7
+        },
+        "lazy_bisection": {
+          "mean": 3.02,
+          "median": 2.0,
+          "maximum": 7
+        },
+        "path_cut": {
+          "mean": 2.8,
+          "median": 2.0,
+          "maximum": 7
+        },
+        "lazy_vertex_bisection": {
+          "mean": 3.08,
+          "median": 3.0,
+          "maximum": 7
+        }
+      }
+    },
+    {
+      "graph": "independent_path_5",
+      "family": "bernoulli_0.5",
+      "initial_condition": "endpoints",
+      "policies": {
+        "random": {
+          "mean": 7.88,
+          "median": 8.0,
+          "maximum": 11
+        },
+        "degree": {
+          "mean": 7.14,
+          "median": 7.0,
+          "maximum": 11
+        },
+        "lazy_forward": {
+          "mean": 4.66,
+          "median": 5.0,
+          "maximum": 9
+        },
+        "lazy_bisection": {
+          "mean": 5.16,
+          "median": 5.0,
+          "maximum": 9
+        },
+        "path_cut": {
+          "mean": 5.22,
+          "median": 5.0,
+          "maximum": 9
+        },
+        "lazy_vertex_bisection": {
+          "mean": 5.42,
+          "median": 5.0,
+          "maximum": 9
+        }
+      }
+    },
+    {
+      "graph": "independent_path_5",
+      "family": "bernoulli_0.5",
+      "initial_condition": "quarter",
+      "policies": {
+        "random": {
+          "mean": 6.16,
+          "median": 6.5,
+          "maximum": 9
+        },
+        "degree": {
+          "mean": 5.42,
+          "median": 5.0,
+          "maximum": 9
+        },
+        "lazy_forward": {
+          "mean": 3.7,
+          "median": 4.0,
+          "maximum": 8
+        },
+        "lazy_bisection": {
+          "mean": 3.98,
+          "median": 3.5,
+          "maximum": 8
+        },
+        "path_cut": {
+          "mean": 3.8,
+          "median": 4.0,
+          "maximum": 8
+        },
+        "lazy_vertex_bisection": {
+          "mean": 4.28,
+          "median": 4.0,
+          "maximum": 8
+        }
+      }
+    },
+    {
+      "graph": "independent_path_5",
+      "family": "bernoulli_0.75",
+      "initial_condition": "endpoints",
+      "policies": {
+        "random": {
+          "mean": 8.32,
+          "median": 8.0,
+          "maximum": 11
+        },
+        "degree": {
+          "mean": 7.38,
+          "median": 7.0,
+          "maximum": 11
+        },
+        "lazy_forward": {
+          "mean": 4.8,
+          "median": 5.0,
+          "maximum": 10
+        },
+        "lazy_bisection": {
+          "mean": 5.14,
+          "median": 5.0,
+          "maximum": 10
+        },
+        "path_cut": {
+          "mean": 5.2,
+          "median": 5.0,
+          "maximum": 10
+        },
+        "lazy_vertex_bisection": {
+          "mean": 5.08,
+          "median": 5.0,
+          "maximum": 10
+        }
+      }
+    },
+    {
+      "graph": "independent_path_5",
+      "family": "bernoulli_0.75",
+      "initial_condition": "quarter",
+      "policies": {
+        "random": {
+          "mean": 6.48,
+          "median": 7.0,
+          "maximum": 9
+        },
+        "degree": {
+          "mean": 5.68,
+          "median": 5.5,
+          "maximum": 9
+        },
+        "lazy_forward": {
+          "mean": 3.88,
+          "median": 4.0,
+          "maximum": 8
+        },
+        "lazy_bisection": {
+          "mean": 4.16,
+          "median": 4.0,
+          "maximum": 8
+        },
+        "path_cut": {
+          "mean": 4.06,
+          "median": 4.0,
+          "maximum": 8
+        },
+        "lazy_vertex_bisection": {
+          "mean": 4.22,
+          "median": 4.0,
+          "maximum": 8
+        }
+      }
+    },
+    {
+      "graph": "independent_path_5",
+      "family": "heat",
+      "initial_condition": "endpoints",
+      "policies": {
+        "random": {
+          "mean": 8.9,
+          "median": 9.0,
+          "maximum": 11
+        },
+        "degree": {
+          "mean": 7.78,
+          "median": 7.0,
+          "maximum": 11
+        },
+        "lazy_forward": {
+          "mean": 4.62,
+          "median": 5.0,
+          "maximum": 9
+        },
+        "lazy_bisection": {
+          "mean": 5.78,
+          "median": 6.0,
+          "maximum": 8
+        },
+        "path_cut": {
+          "mean": 5.52,
+          "median": 5.0,
+          "maximum": 8
+        },
+        "lazy_vertex_bisection": {
+          "mean": 5.78,
+          "median": 6.0,
+          "maximum": 8
+        }
+      }
+    },
+    {
+      "graph": "independent_path_5",
+      "family": "heat",
+      "initial_condition": "quarter",
+      "policies": {
+        "random": {
+          "mean": 6.48,
+          "median": 7.0,
+          "maximum": 9
+        },
+        "degree": {
+          "mean": 6.36,
+          "median": 6.0,
+          "maximum": 9
+        },
+        "lazy_forward": {
+          "mean": 3.8,
+          "median": 4.0,
+          "maximum": 8
+        },
+        "lazy_bisection": {
+          "mean": 4.68,
+          "median": 5.0,
+          "maximum": 8
+        },
+        "path_cut": {
+          "mean": 4.4,
+          "median": 4.0,
+          "maximum": 8
+        },
+        "lazy_vertex_bisection": {
+          "mean": 4.54,
+          "median": 4.5,
+          "maximum": 8
+        }
+      }
+    },
+    {
+      "graph": "independent_path_5",
+      "family": "pairwise",
+      "initial_condition": "endpoints",
+      "policies": {
+        "random": {
+          "mean": 8.92,
+          "median": 9.0,
+          "maximum": 11
+        },
+        "degree": {
+          "mean": 7.54,
+          "median": 8.0,
+          "maximum": 11
+        },
+        "lazy_forward": {
+          "mean": 4.94,
+          "median": 5.0,
+          "maximum": 8
+        },
+        "lazy_bisection": {
+          "mean": 5.62,
+          "median": 6.0,
+          "maximum": 8
+        },
+        "path_cut": {
+          "mean": 5.5,
+          "median": 6.0,
+          "maximum": 8
+        },
+        "lazy_vertex_bisection": {
+          "mean": 5.48,
+          "median": 6.0,
+          "maximum": 8
+        }
+      }
+    },
+    {
+      "graph": "independent_path_5",
+      "family": "pairwise",
+      "initial_condition": "quarter",
+      "policies": {
+        "random": {
+          "mean": 6.7,
+          "median": 7.0,
+          "maximum": 9
+        },
+        "degree": {
+          "mean": 5.56,
+          "median": 6.0,
+          "maximum": 9
+        },
+        "lazy_forward": {
+          "mean": 3.82,
+          "median": 4.0,
+          "maximum": 6
+        },
+        "lazy_bisection": {
+          "mean": 4.06,
+          "median": 4.0,
+          "maximum": 6
+        },
+        "path_cut": {
+          "mean": 4.06,
+          "median": 4.0,
+          "maximum": 6
+        },
+        "lazy_vertex_bisection": {
+          "mean": 4.06,
+          "median": 4.0,
+          "maximum": 6
+        }
+      }
+    },
+    {
+      "graph": "independent_path_7",
+      "family": "additive",
+      "initial_condition": "endpoints",
+      "policies": {
+        "random": {
+          "mean": 23.92,
+          "median": 25.5,
+          "maximum": 31
+        },
+        "degree": {
+          "mean": 22.02,
+          "median": 23.0,
+          "maximum": 30
+        },
+        "lazy_forward": {
+          "mean": 8.82,
+          "median": 8.5,
+          "maximum": 23
+        },
+        "lazy_bisection": {
+          "mean": 12.64,
+          "median": 13.0,
+          "maximum": 18
+        },
+        "path_cut": {
+          "mean": 9.72,
+          "median": 10.0,
+          "maximum": 17
+        },
+        "lazy_vertex_bisection": {
+          "mean": 11.48,
+          "median": 11.0,
+          "maximum": 17
+        }
+      }
+    },
+    {
+      "graph": "independent_path_7",
+      "family": "additive",
+      "initial_condition": "quarter",
+      "policies": {
+        "random": {
+          "mean": 16.86,
+          "median": 17.5,
+          "maximum": 24
+        },
+        "degree": {
+          "mean": 15.24,
+          "median": 17.0,
+          "maximum": 22
+        },
+        "lazy_forward": {
+          "mean": 6.42,
+          "median": 6.5,
+          "maximum": 16
+        },
+        "lazy_bisection": {
+          "mean": 8.14,
+          "median": 8.0,
+          "maximum": 15
+        },
+        "path_cut": {
+          "mean": 6.82,
+          "median": 7.0,
+          "maximum": 13
+        },
+        "lazy_vertex_bisection": {
+          "mean": 7.54,
+          "median": 8.0,
+          "maximum": 13
+        }
+      }
+    },
+    {
+      "graph": "independent_path_7",
+      "family": "bernoulli_0.25",
+      "initial_condition": "endpoints",
+      "policies": {
+        "random": {
+          "mean": 22.64,
+          "median": 22.5,
+          "maximum": 31
+        },
+        "degree": {
+          "mean": 19.08,
+          "median": 18.5,
+          "maximum": 32
+        },
+        "lazy_forward": {
+          "mean": 5.96,
+          "median": 6.0,
+          "maximum": 13
+        },
+        "lazy_bisection": {
+          "mean": 13.5,
+          "median": 13.0,
+          "maximum": 18
+        },
+        "path_cut": {
+          "mean": 9.78,
+          "median": 9.5,
+          "maximum": 23
+        },
+        "lazy_vertex_bisection": {
+          "mean": 13.4,
+          "median": 13.0,
+          "maximum": 19
+        }
+      }
+    },
+    {
+      "graph": "independent_path_7",
+      "family": "bernoulli_0.25",
+      "initial_condition": "quarter",
+      "policies": {
+        "random": {
+          "mean": 14.36,
+          "median": 14.0,
+          "maximum": 24
+        },
+        "degree": {
+          "mean": 11.64,
+          "median": 11.0,
+          "maximum": 24
+        },
+        "lazy_forward": {
+          "mean": 4.16,
+          "median": 3.0,
+          "maximum": 9
+        },
+        "lazy_bisection": {
+          "mean": 7.36,
+          "median": 7.0,
+          "maximum": 13
+        },
+        "path_cut": {
+          "mean": 5.88,
+          "median": 6.0,
+          "maximum": 12
+        },
+        "lazy_vertex_bisection": {
+          "mean": 7.4,
+          "median": 7.0,
+          "maximum": 13
+        }
+      }
+    },
+    {
+      "graph": "independent_path_7",
+      "family": "bernoulli_0.5",
+      "initial_condition": "endpoints",
+      "policies": {
+        "random": {
+          "mean": 25.88,
+          "median": 27.0,
+          "maximum": 32
+        },
+        "degree": {
+          "mean": 23.06,
+          "median": 24.0,
+          "maximum": 31
+        },
+        "lazy_forward": {
+          "mean": 9.8,
+          "median": 9.5,
+          "maximum": 24
+        },
+        "lazy_bisection": {
+          "mean": 14.3,
+          "median": 14.0,
+          "maximum": 27
+        },
+        "path_cut": {
+          "mean": 12.32,
+          "median": 12.0,
+          "maximum": 25
+        },
+        "lazy_vertex_bisection": {
+          "mean": 14.14,
+          "median": 14.0,
+          "maximum": 24
+        }
+      }
+    },
+    {
+      "graph": "independent_path_7",
+      "family": "bernoulli_0.5",
+      "initial_condition": "quarter",
+      "policies": {
+        "random": {
+          "mean": 17.98,
+          "median": 20.0,
+          "maximum": 24
+        },
+        "degree": {
+          "mean": 15.66,
+          "median": 15.0,
+          "maximum": 24
+        },
+        "lazy_forward": {
+          "mean": 6.68,
+          "median": 6.0,
+          "maximum": 20
+        },
+        "lazy_bisection": {
+          "mean": 9.36,
+          "median": 9.0,
+          "maximum": 18
+        },
+        "path_cut": {
+          "mean": 8.22,
+          "median": 8.0,
+          "maximum": 18
+        },
+        "lazy_vertex_bisection": {
+          "mean": 8.98,
+          "median": 9.0,
+          "maximum": 19
+        }
+      }
+    },
+    {
+      "graph": "independent_path_7",
+      "family": "bernoulli_0.75",
+      "initial_condition": "endpoints",
+      "policies": {
+        "random": {
+          "mean": 21.7,
+          "median": 22.0,
+          "maximum": 32
+        },
+        "degree": {
+          "mean": 19.92,
+          "median": 21.0,
+          "maximum": 31
+        },
+        "lazy_forward": {
+          "mean": 8.24,
+          "median": 8.0,
+          "maximum": 14
+        },
+        "lazy_bisection": {
+          "mean": 8.84,
+          "median": 8.0,
+          "maximum": 17
+        },
+        "path_cut": {
+          "mean": 9.66,
+          "median": 8.0,
+          "maximum": 22
+        },
+        "lazy_vertex_bisection": {
+          "mean": 8.92,
+          "median": 8.0,
+          "maximum": 18
+        }
+      }
+    },
+    {
+      "graph": "independent_path_7",
+      "family": "bernoulli_0.75",
+      "initial_condition": "quarter",
+      "policies": {
+        "random": {
+          "mean": 13.1,
+          "median": 13.0,
+          "maximum": 24
+        },
+        "degree": {
+          "mean": 12.3,
+          "median": 12.5,
+          "maximum": 20
+        },
+        "lazy_forward": {
+          "mean": 5.66,
+          "median": 6.0,
+          "maximum": 11
+        },
+        "lazy_bisection": {
+          "mean": 6.08,
+          "median": 6.0,
+          "maximum": 11
+        },
+        "path_cut": {
+          "mean": 5.84,
+          "median": 5.0,
+          "maximum": 15
+        },
+        "lazy_vertex_bisection": {
+          "mean": 6.1,
+          "median": 6.0,
+          "maximum": 13
+        }
+      }
+    },
+    {
+      "graph": "independent_path_7",
+      "family": "heat",
+      "initial_condition": "endpoints",
+      "policies": {
+        "random": {
+          "mean": 23.66,
+          "median": 24.0,
+          "maximum": 32
+        },
+        "degree": {
+          "mean": 20.56,
+          "median": 21.0,
+          "maximum": 29
+        },
+        "lazy_forward": {
+          "mean": 8.9,
+          "median": 9.0,
+          "maximum": 20
+        },
+        "lazy_bisection": {
+          "mean": 12.6,
+          "median": 13.0,
+          "maximum": 18
+        },
+        "path_cut": {
+          "mean": 9.28,
+          "median": 10.0,
+          "maximum": 17
+        },
+        "lazy_vertex_bisection": {
+          "mean": 11.2,
+          "median": 11.5,
+          "maximum": 16
+        }
+      }
+    },
+    {
+      "graph": "independent_path_7",
+      "family": "heat",
+      "initial_condition": "quarter",
+      "policies": {
+        "random": {
+          "mean": 14.72,
+          "median": 16.0,
+          "maximum": 24
+        },
+        "degree": {
+          "mean": 13.58,
+          "median": 14.0,
+          "maximum": 22
+        },
+        "lazy_forward": {
+          "mean": 5.88,
+          "median": 5.0,
+          "maximum": 14
+        },
+        "lazy_bisection": {
+          "mean": 7.9,
+          "median": 8.0,
+          "maximum": 13
+        },
+        "path_cut": {
+          "mean": 6.2,
+          "median": 6.0,
+          "maximum": 11
+        },
+        "lazy_vertex_bisection": {
+          "mean": 7.04,
+          "median": 7.0,
+          "maximum": 12
+        }
+      }
+    },
+    {
+      "graph": "independent_path_7",
+      "family": "pairwise",
+      "initial_condition": "endpoints",
+      "policies": {
+        "random": {
+          "mean": 25.16,
+          "median": 26.0,
+          "maximum": 32
+        },
+        "degree": {
+          "mean": 22.8,
+          "median": 24.0,
+          "maximum": 32
+        },
+        "lazy_forward": {
+          "mean": 10.1,
+          "median": 9.5,
+          "maximum": 23
+        },
+        "lazy_bisection": {
+          "mean": 13.76,
+          "median": 15.0,
+          "maximum": 22
+        },
+        "path_cut": {
+          "mean": 11.56,
+          "median": 11.0,
+          "maximum": 23
+        },
+        "lazy_vertex_bisection": {
+          "mean": 12.4,
+          "median": 13.0,
+          "maximum": 19
+        }
+      }
+    },
+    {
+      "graph": "independent_path_7",
+      "family": "pairwise",
+      "initial_condition": "quarter",
+      "policies": {
+        "random": {
+          "mean": 17.52,
+          "median": 19.0,
+          "maximum": 24
+        },
+        "degree": {
+          "mean": 15.12,
+          "median": 15.5,
+          "maximum": 24
+        },
+        "lazy_forward": {
+          "mean": 6.7,
+          "median": 6.0,
+          "maximum": 19
+        },
+        "lazy_bisection": {
+          "mean": 8.62,
+          "median": 8.0,
+          "maximum": 15
+        },
+        "path_cut": {
+          "mean": 7.38,
+          "median": 7.0,
+          "maximum": 16
+        },
+        "lazy_vertex_bisection": {
+          "mean": 8.12,
+          "median": 8.0,
+          "maximum": 15
+        }
+      }
+    },
+    {
+      "graph": "leucine",
+      "family": "bernoulli_0.25",
+      "initial_condition": "endpoints",
+      "policies": {
+        "random": {
+          "mean": 2.76,
+          "median": 3.0,
+          "maximum": 4
+        },
+        "degree": {
+          "mean": 3.34,
+          "median": 4.0,
+          "maximum": 4
+        },
+        "lazy_forward": {
+          "mean": 1.78,
+          "median": 2.0,
+          "maximum": 2
+        },
+        "lazy_bisection": {
+          "mean": 1.78,
+          "median": 2.0,
+          "maximum": 2
+        },
+        "path_cut": {
+          "mean": 1.78,
+          "median": 2.0,
+          "maximum": 2
+        },
+        "lazy_vertex_bisection": {
+          "mean": 1.78,
+          "median": 2.0,
+          "maximum": 2
+        }
+      }
+    },
+    {
+      "graph": "leucine",
+      "family": "bernoulli_0.25",
+      "initial_condition": "quarter",
+      "policies": {
+        "random": {
+          "mean": 1.78,
+          "median": 2.0,
+          "maximum": 3
+        },
+        "degree": {
+          "mean": 2.08,
+          "median": 3.0,
+          "maximum": 3
+        },
+        "lazy_forward": {
+          "mean": 1.24,
+          "median": 1.0,
+          "maximum": 2
+        },
+        "lazy_bisection": {
+          "mean": 1.24,
+          "median": 1.0,
+          "maximum": 2
+        },
+        "path_cut": {
+          "mean": 1.24,
+          "median": 1.0,
+          "maximum": 2
+        },
+        "lazy_vertex_bisection": {
+          "mean": 1.24,
+          "median": 1.0,
+          "maximum": 2
+        }
+      }
+    },
+    {
+      "graph": "leucine",
+      "family": "bernoulli_0.5",
+      "initial_condition": "endpoints",
+      "policies": {
+        "random": {
+          "mean": 2.64,
+          "median": 3.0,
+          "maximum": 4
+        },
+        "degree": {
+          "mean": 2.56,
+          "median": 4.0,
+          "maximum": 4
+        },
+        "lazy_forward": {
+          "mean": 1.52,
+          "median": 2.0,
+          "maximum": 2
+        },
+        "lazy_bisection": {
+          "mean": 1.52,
+          "median": 2.0,
+          "maximum": 2
+        },
+        "path_cut": {
+          "mean": 1.52,
+          "median": 2.0,
+          "maximum": 2
+        },
+        "lazy_vertex_bisection": {
+          "mean": 1.52,
+          "median": 2.0,
+          "maximum": 2
+        }
+      }
+    },
+    {
+      "graph": "leucine",
+      "family": "bernoulli_0.5",
+      "initial_condition": "quarter",
+      "policies": {
+        "random": {
+          "mean": 1.7,
+          "median": 2.0,
+          "maximum": 3
+        },
+        "degree": {
+          "mean": 1.6,
+          "median": 1.0,
+          "maximum": 3
+        },
+        "lazy_forward": {
+          "mean": 1.06,
+          "median": 1.0,
+          "maximum": 2
+        },
+        "lazy_bisection": {
+          "mean": 1.06,
+          "median": 1.0,
+          "maximum": 2
+        },
+        "path_cut": {
+          "mean": 1.06,
+          "median": 1.0,
+          "maximum": 2
+        },
+        "lazy_vertex_bisection": {
+          "mean": 1.06,
+          "median": 1.0,
+          "maximum": 2
+        }
+      }
+    },
+    {
+      "graph": "leucine",
+      "family": "bernoulli_0.75",
+      "initial_condition": "endpoints",
+      "policies": {
+        "random": {
+          "mean": 2.18,
+          "median": 2.0,
+          "maximum": 4
+        },
+        "degree": {
+          "mean": 2.02,
+          "median": 1.0,
+          "maximum": 4
+        },
+        "lazy_forward": {
+          "mean": 1.34,
+          "median": 1.0,
+          "maximum": 2
+        },
+        "lazy_bisection": {
+          "mean": 1.34,
+          "median": 1.0,
+          "maximum": 2
+        },
+        "path_cut": {
+          "mean": 1.34,
+          "median": 1.0,
+          "maximum": 2
+        },
+        "lazy_vertex_bisection": {
+          "mean": 1.34,
+          "median": 1.0,
+          "maximum": 2
+        }
+      }
+    },
+    {
+      "graph": "leucine",
+      "family": "bernoulli_0.75",
+      "initial_condition": "quarter",
+      "policies": {
+        "random": {
+          "mean": 1.2,
+          "median": 1.0,
+          "maximum": 3
+        },
+        "degree": {
+          "mean": 1.2,
+          "median": 1.0,
+          "maximum": 3
+        },
+        "lazy_forward": {
+          "mean": 0.82,
+          "median": 1.0,
+          "maximum": 2
+        },
+        "lazy_bisection": {
+          "mean": 0.82,
+          "median": 1.0,
+          "maximum": 2
+        },
+        "path_cut": {
+          "mean": 0.82,
+          "median": 1.0,
+          "maximum": 2
+        },
+        "lazy_vertex_bisection": {
+          "mean": 0.82,
+          "median": 1.0,
+          "maximum": 2
+        }
+      }
+    },
+    {
+      "graph": "leucine",
+      "family": "heat",
+      "initial_condition": "endpoints",
+      "policies": {
+        "random": {
+          "mean": 2.64,
+          "median": 3.0,
+          "maximum": 4
+        },
+        "degree": {
+          "mean": 2.74,
+          "median": 4.0,
+          "maximum": 4
+        },
+        "lazy_forward": {
+          "mean": 1.58,
+          "median": 2.0,
+          "maximum": 2
+        },
+        "lazy_bisection": {
+          "mean": 1.58,
+          "median": 2.0,
+          "maximum": 2
+        },
+        "path_cut": {
+          "mean": 1.58,
+          "median": 2.0,
+          "maximum": 2
+        },
+        "lazy_vertex_bisection": {
+          "mean": 1.58,
+          "median": 2.0,
+          "maximum": 2
+        }
+      }
+    },
+    {
+      "graph": "leucine",
+      "family": "heat",
+      "initial_condition": "quarter",
+      "policies": {
+        "random": {
+          "mean": 1.7,
+          "median": 2.0,
+          "maximum": 3
+        },
+        "degree": {
+          "mean": 1.72,
+          "median": 1.0,
+          "maximum": 3
+        },
+        "lazy_forward": {
+          "mean": 1.06,
+          "median": 1.0,
+          "maximum": 2
+        },
+        "lazy_bisection": {
+          "mean": 1.06,
+          "median": 1.0,
+          "maximum": 2
+        },
+        "path_cut": {
+          "mean": 1.06,
+          "median": 1.0,
+          "maximum": 2
+        },
+        "lazy_vertex_bisection": {
+          "mean": 1.06,
+          "median": 1.0,
+          "maximum": 2
+        }
+      }
+    },
+    {
+      "graph": "leucine_product",
+      "family": "bernoulli_0.25",
+      "initial_condition": "endpoints",
+      "policies": {
+        "random": {
+          "mean": 28.16,
+          "median": 29.0,
+          "maximum": 34
+        },
+        "degree": {
+          "mean": 26.66,
+          "median": 26.0,
+          "maximum": 34
+        },
+        "lazy_forward": {
+          "mean": 13.66,
+          "median": 13.5,
+          "maximum": 26
+        },
+        "lazy_bisection": {
+          "mean": 13.72,
+          "median": 15.0,
+          "maximum": 28
+        },
+        "path_cut": {
+          "mean": 10.14,
+          "median": 8.0,
+          "maximum": 21
+        },
+        "lazy_vertex_bisection": {
+          "mean": 14.54,
+          "median": 16.0,
+          "maximum": 28
+        }
+      }
+    },
+    {
+      "graph": "leucine_product",
+      "family": "bernoulli_0.25",
+      "initial_condition": "quarter",
+      "policies": {
+        "random": {
+          "mean": 18.74,
+          "median": 19.0,
+          "maximum": 26
+        },
+        "degree": {
+          "mean": 18.26,
+          "median": 18.0,
+          "maximum": 26
+        },
+        "lazy_forward": {
+          "mean": 9.16,
+          "median": 10.0,
+          "maximum": 19
+        },
+        "lazy_bisection": {
+          "mean": 8.66,
+          "median": 9.0,
+          "maximum": 20
+        },
+        "path_cut": {
+          "mean": 6.96,
+          "median": 6.0,
+          "maximum": 15
+        },
+        "lazy_vertex_bisection": {
+          "mean": 8.82,
+          "median": 9.0,
+          "maximum": 21
+        }
+      }
+    },
+    {
+      "graph": "leucine_product",
+      "family": "bernoulli_0.5",
+      "initial_condition": "endpoints",
+      "policies": {
+        "random": {
+          "mean": 22.3,
+          "median": 24.0,
+          "maximum": 34
+        },
+        "degree": {
+          "mean": 22.24,
+          "median": 20.0,
+          "maximum": 34
+        },
+        "lazy_forward": {
+          "mean": 6.88,
+          "median": 5.0,
+          "maximum": 27
+        },
+        "lazy_bisection": {
+          "mean": 7.32,
+          "median": 6.0,
+          "maximum": 29
+        },
+        "path_cut": {
+          "mean": 8.2,
+          "median": 7.0,
+          "maximum": 32
+        },
+        "lazy_vertex_bisection": {
+          "mean": 7.44,
+          "median": 6.0,
+          "maximum": 31
+        }
+      }
+    },
+    {
+      "graph": "leucine_product",
+      "family": "bernoulli_0.5",
+      "initial_condition": "quarter",
+      "policies": {
+        "random": {
+          "mean": 15.34,
+          "median": 16.5,
+          "maximum": 26
+        },
+        "degree": {
+          "mean": 14.08,
+          "median": 14.0,
+          "maximum": 26
+        },
+        "lazy_forward": {
+          "mean": 4.76,
+          "median": 4.0,
+          "maximum": 21
+        },
+        "lazy_bisection": {
+          "mean": 5.04,
+          "median": 4.0,
+          "maximum": 22
+        },
+        "path_cut": {
+          "mean": 5.5,
+          "median": 5.0,
+          "maximum": 23
+        },
+        "lazy_vertex_bisection": {
+          "mean": 5.0,
+          "median": 4.0,
+          "maximum": 21
+        }
+      }
+    },
+    {
+      "graph": "leucine_product",
+      "family": "bernoulli_0.75",
+      "initial_condition": "endpoints",
+      "policies": {
+        "random": {
+          "mean": 15.32,
+          "median": 14.0,
+          "maximum": 30
+        },
+        "degree": {
+          "mean": 19.42,
+          "median": 17.0,
+          "maximum": 34
+        },
+        "lazy_forward": {
+          "mean": 4.66,
+          "median": 4.0,
+          "maximum": 16
+        },
+        "lazy_bisection": {
+          "mean": 4.86,
+          "median": 4.0,
+          "maximum": 18
+        },
+        "path_cut": {
+          "mean": 5.42,
+          "median": 5.0,
+          "maximum": 13
+        },
+        "lazy_vertex_bisection": {
+          "mean": 4.88,
+          "median": 4.0,
+          "maximum": 19
+        }
+      }
+    },
+    {
+      "graph": "leucine_product",
+      "family": "bernoulli_0.75",
+      "initial_condition": "quarter",
+      "policies": {
+        "random": {
+          "mean": 7.62,
+          "median": 6.0,
+          "maximum": 25
+        },
+        "degree": {
+          "mean": 8.7,
+          "median": 10.5,
+          "maximum": 26
+        },
+        "lazy_forward": {
+          "mean": 2.9,
+          "median": 2.5,
+          "maximum": 13
+        },
+        "lazy_bisection": {
+          "mean": 2.84,
+          "median": 2.0,
+          "maximum": 9
+        },
+        "path_cut": {
+          "mean": 2.78,
+          "median": 2.0,
+          "maximum": 8
+        },
+        "lazy_vertex_bisection": {
+          "mean": 2.82,
+          "median": 2.0,
+          "maximum": 9
+        }
+      }
+    },
+    {
+      "graph": "leucine_product",
+      "family": "heat",
+      "initial_condition": "endpoints",
+      "policies": {
+        "random": {
+          "mean": 19.34,
+          "median": 20.0,
+          "maximum": 34
+        },
+        "degree": {
+          "mean": 21.3,
+          "median": 17.0,
+          "maximum": 34
+        },
+        "lazy_forward": {
+          "mean": 6.08,
+          "median": 4.0,
+          "maximum": 20
+        },
+        "lazy_bisection": {
+          "mean": 5.78,
+          "median": 4.0,
+          "maximum": 16
+        },
+        "path_cut": {
+          "mean": 6.06,
+          "median": 5.0,
+          "maximum": 14
+        },
+        "lazy_vertex_bisection": {
+          "mean": 5.78,
+          "median": 4.0,
+          "maximum": 16
+        }
+      }
+    },
+    {
+      "graph": "leucine_product",
+      "family": "heat",
+      "initial_condition": "quarter",
+      "policies": {
+        "random": {
+          "mean": 11.08,
+          "median": 10.0,
+          "maximum": 25
+        },
+        "degree": {
+          "mean": 12.12,
+          "median": 14.0,
+          "maximum": 26
+        },
+        "lazy_forward": {
+          "mean": 3.44,
+          "median": 3.0,
+          "maximum": 12
+        },
+        "lazy_bisection": {
+          "mean": 3.5,
+          "median": 3.0,
+          "maximum": 11
+        },
+        "path_cut": {
+          "mean": 3.5,
+          "median": 4.0,
+          "maximum": 8
+        },
+        "lazy_vertex_bisection": {
+          "mean": 3.44,
+          "median": 3.0,
+          "maximum": 11
+        }
+      }
+    }
+  ],
+  "efficiency_criterion_met": false,
+  "primary_criterion_baselines": [
+    "degree",
+    "lazy_forward",
+    "lazy_bisection"
+  ],
+  "canonical_bisection_comparison_separate": {
+    "median_query_ratio": 1.0,
+    "maximum_query_difference": -6
+  },
+  "interpretation": "Heldout synthetic simulation comparison. This is not biological evidence.",
+  "phase": "validation",
+  "validation_outcomes_examined": true,
+  "validation_freeze_sha256": "8ec8ce9602bfeb53c7c692854fade45dce8f053168a5d860025fa2e9e1122898",
+  "occupancy_interpretation": "Forcing endpoints present is an occupancy edit. In particular, additive-derived worlds are not asserted to remain exact additive superlevel restrictions.",
+  "worlds": 3800,
+  "policy_runs": 22800,
+  "checked_query_prefixes": 213220,
+  "false_certificates": 0,
+  "exact_checks": {
+    "separator_comparisons": 351,
+    "completion_comparisons": 4096,
+    "partial_states": 729,
+    "minimax_states_evaluated": 729,
+    "q3_endpoint_only_minimax": 6,
+    "boundary_cases": 3
+  },
+  "connected_worlds": 2652,
+  "separated_worlds": 1148,
+  "runtime_seconds": 80.52066010000999,
+  "software": {
+    "python": "3.12.14",
+    "numpy": "2.5.4",
+    "networkx": "3.7"
+  },
+  "input_sha256": {
+    "src/acquisition.py": "6005d30d709dc8100a1de64822d8e80cf8a8dbc8d9c3a18de8d21f69622be6ee",
+    "src/barrier_identification.py": "035902bf255c42a43843570abf1145e8d17a9d872fa0eadc605d53087fd4823e",
+    "analysis/programme/acquisition_benchmark.py": "fc45ec4438b194bf06c1826948e1b7e2f97c826d4a498572fc660e39203a155a",
+    "analysis/programme/acquisition_protocol_v1.json": "f666e45d2a4e8ee16dcd52d1b9e9408e1aba4723d9c210caf782d84c1cacc1a4",
+    "analysis/programme/acquisition_conventions_v1.json": "839549df6901d23a44c252c084f97d3991ffedad60bc11b2141ee45a30c0810f",
+    "analysis/programme/acquisition_bisection_amendment_v1.json": "5354e8297e9af62cd423861abc184bdd8495d1c7579363169251ff5f32384e23",
+    "analysis/programme/acquisition_validation_contract_v1.json": "de5371d6a102ce154096db0387826e554c7137774026774724c44db2ac7ebd4a",
+    "tests/test_acquisition.py": "b9176f2301886e7cf69229c953fd52370b513a73a88cc3032bb8716c07d7064e",
+    "requirements-tested.txt": "b030f13d6e8e77a1d6ceabda8b7aa04f235350e04b1455ebe70d2e715fc4ab50"
+  }
+}
