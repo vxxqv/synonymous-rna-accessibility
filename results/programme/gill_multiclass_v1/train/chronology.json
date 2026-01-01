@@ -1,0 +1,8 @@
+{
+  "protocol_commit": "d640324987908a87fa6ce9ef60288d80e30da032",
+  "implementation_commit": "82284f7fc3b72255ab6a9133382813e860457bfa",
+  "implementation_history_commit": "50df62e754f88001e07bd3e8df62d2e55f650ada",
+  "training_receipt_sha256": "c6fb3309a93635efab38f1469516617c3f1b4f857c88b4fbfff91be21115bdef",
+  "validation_column_D_read": false,
+  "next_step": "Commit these immutable training artifacts before opening D. No settings or membership changes are permitted from validation outcomes."
+}

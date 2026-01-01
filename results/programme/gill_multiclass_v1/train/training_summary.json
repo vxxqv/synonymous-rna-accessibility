@@ -1,0 +1,1 @@
+{"D_value_or_header_decoded":false,"classes":2176,"decoded_columns":{"A":64681,"B":38339,"C":38339,"E":38339,"F":38339,"G":38339},"phase":"train","scope":"conditional processed-library reproduction; no biological calibration","settings":{"pseudocounts":[0.25,0.5,1.0],"zero_rule_factor":128.0},"vertices":38338}
