@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "scope": "Mirror-derived noncrossing structural models anchored to measured wild-type transcripts; original CT partner identity remains an explicit provenance limitation",
+  "variable_codons": 5,
+  "cartesian_cap": 1024,
+  "primary_context_nt": 150,
+  "sensitivity_context_nt": [210, 300],
+  "conditions": ["incell", "cellfree", "kasugamycin"],
+  "primary_contrast": ["incell", "cellfree"],
+  "eligibility": ["unambiguous unique U00096.2 mapping", "complete standard internal CDS without recoding", "freeze initiator and stop codons", "no variable nucleotide overlapping another annotated CDS", "at least 80 percent measured reactivity coverage in the variable block in both primary conditions", "all pairs touching the block within the primary context", "at least three touching pairs in each primary condition", "all touching pairs respect minimum loop length three"],
+  "selection": "One block per mapped CDS occurrence; minimize SHA256 of transcript id, locus, start and seed 1729 among all eligible candidates. Evaluate all selected blocks. Pilot is first 40 blocks in hash order, selected before folding outcomes.",
+  "folding": {"ViennaRNA": "2.7.2", "temperature_C": 37, "parameter_set": "Turner2004", "dangles": 2, "noLP": false, "SHAPE_restraints_on_mutants": false},
+  "primary_filter": "mean ensemble probability of the required pairs touching the variable block at least 0.5",
+  "sensitivity_thresholds": [0.1, 0.25, 0.5, 0.75],
+  "interpretation": "Pair retention is a declared thermodynamic model criterion, not exact structure occupancy or measured mutant phenotype",
+  "null": "Constrained double-edge swaps retain the observed sequence, pair number, endpoint phase pair, span bin and matchability; failures and rejection rates reported. No null inference if calibrated sampling cannot be verified.",
+  "uncertainty": "Transcript cluster bootstrap 10000 replicates, seed 1729; paired gene windows stay together; descriptive effects conditioned on eligibility. Structural perturbation and context sensitivity reported separately.",
+  "freeze": "Committed before mutant folding or accessibility outcomes; the five-codon/1024-domain gate is an implementation refinement within the supplied five-to-nine-codon pilot range"
+}
