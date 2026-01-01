@@ -1,0 +1,27 @@
+{
+  "mode": "synthetic",
+  "status": "completed",
+  "inputs": {
+    "runner_sha256": "f57f084c85fbfae3b27888e55284ff41e10fb178d719351fe94c40d17c9c2b83"
+  },
+  "outputs": {
+    "synthetic.json": "37710baf2a1c9c53e83deed457c3bf6642a452190372fea23639bdfe17969967"
+  },
+  "command": [
+    "outputs/synonymous-rna-accessibility/analysis/programme/retrospective/gill_reference_pilot.py",
+    "synthetic",
+    "--outdir",
+    "outputs/synonymous-rna-accessibility/results/programme/gill_reference_pilot/synthetic_preflight"
+  ],
+  "runtime_seconds": 0.12670340000477154,
+  "repository": {
+    "commit": "4149370779c7e4cc3b41334239318126d1d21c9f",
+    "dirty": true
+  },
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.5.4",
+    "platform": "Windows-11-10.0.26300-SP0"
+  },
+  "scientific_scope": "fixed 32-genotype measurement prediction, no independent biological inference"
+}

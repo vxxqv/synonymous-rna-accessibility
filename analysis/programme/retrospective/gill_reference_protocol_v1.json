@@ -1,0 +1,106 @@
+{
+  "protocol_version": "gill_reference_pilot_v1",
+  "status": "frozen",
+  "reference_key": "CGTACCTT",
+  "keys": [
+    "CGTACCAT",
+    "CGTACCCT",
+    "CGTACCGT",
+    "CGTACCTT",
+    "CGTCCCAT",
+    "CGTCCCCT",
+    "CGTCCCGT",
+    "CGTCCCTT",
+    "CGTGCCAT",
+    "CGTGCCCT",
+    "CGTGCCGT",
+    "CGTGCCTT",
+    "CGTTCCAT",
+    "CGTTCCCT",
+    "CGTTCCGT",
+    "CGTTCCTT",
+    "TGTACCAT",
+    "TGTACCCT",
+    "TGTACCGT",
+    "TGTACCTT",
+    "TGTCCCAT",
+    "TGTCCCCT",
+    "TGTCCCGT",
+    "TGTCCCTT",
+    "TGTGCCAT",
+    "TGTGCCCT",
+    "TGTGCCGT",
+    "TGTGCCTT",
+    "TGTTCCAT",
+    "TGTTCCCT",
+    "TGTTCCGT",
+    "TGTTCCTT"
+  ],
+  "eligibility_sha256": "00f538b420634a1fe302cff0477cd14d7ff61ceeed4dfdcb6072eb45c353a271",
+  "workbook_sha256": "0f80ba9868c54548db938c65d09d8caa0419c5721bfa379949f6a18ad2568e89",
+  "construct_sha256": "0a4a03433b4775f5964e8f87fad035998ba3b806c650e10cc2ef0957b7e8a76b",
+  "pseudocounts": [
+    0.25,
+    0.5,
+    1.0
+  ],
+  "primary_pseudocount": 0.5,
+  "training_RNA_columns": [
+    "B",
+    "C"
+  ],
+  "training_DNA_columns": [
+    "E",
+    "F"
+  ],
+  "validation_RNA_column": "D",
+  "validation_DNA_column": "G",
+  "primary_endpoint": "RMSE over all 32 reference-anchored contrasts",
+  "diagnostics": [
+    "31 nonreference RMSE",
+    "centered RMSE",
+    "mean signed error",
+    "all vertex errors"
+  ],
+  "target": "pairwise_half",
+  "baseline_list": [
+    "constant",
+    "gc",
+    "additive",
+    "isotonic_additive",
+    "heat",
+    "training_mean"
+  ],
+  "descriptive_success": "target RMSE <= 0.9 times minimum comparator RMSE, best comparator strictly positive; unrounded values",
+  "heat_time": "log(2)/4 with unnormalized Laplacian",
+  "pairwise_shrinkage": 0.5,
+  "uncertainty": "No calibrated CI or significance claim; finite sensitivity scenarios only",
+  "replicate_scope": "Six separately deposited pooled libraries; culture/extraction independence, pooling semantics and RNA/DNA pairing unresolved. Unpaired conditional library-level reproduction only.",
+  "normalization": "Mean log2 RNA counts plus pseudocount minus mean log2 DNA counts plus pseudocount, followed by within-field subtraction of deposited reference",
+  "exposure": "All three DNA libraries already inspected for sequence/coverage eligibility; no RNA outcomes opened before freeze",
+  "interpretation": "Held-out RNA-library reproduction conditional on inspected DNA, same 32 genotypes and reference-protein context",
+  "secondary_endpoints": [
+    "maximum endpoint-relative barrier across all 496 pairs",
+    "orthogonal ANOVA energy",
+    "all critical-threshold component counts"
+  ],
+  "failure_rules": [
+    "source hash mismatch",
+    "not exactly 32 fixed unique keys",
+    "reference missing or repeated",
+    "header mismatch",
+    "missing/nonfinite/noninteger/negative counts",
+    "duplicate or derived RNA libraries",
+    "no outcome-dependent exclusions or pseudocount/model changes"
+  ],
+  "success_limits": [
+    "No new-genotype or new-protein generalization",
+    "No discrimination of biological interaction from persistent measurement bias",
+    "No folding mechanism or measured fitness claim"
+  ],
+  "replicate_metadata_sha256": "3f748be517cc5f9768c45fc6d71b4a90e0254d58105881a3b1b5e2938bd1be71",
+  "frozen_at_utc": "2026-10-25T05:34:26.801733+00:00",
+  "runner_sha256": "f57f084c85fbfae3b27888e55284ff41e10fb178d719351fe94c40d17c9c2b83",
+  "test_sha256": "c49512c8048bddc6842a53ac4fe5f9205b7698c06b92845f25f6e0574109e9c0",
+  "independent_review_sha256": "d077e0e87c15c045be81a5e83bb1940ae12ddb0a415d201174eb337a9a7cc11b"
+}
