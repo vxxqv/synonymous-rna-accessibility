@@ -1,0 +1,85 @@
+{
+  "all127_extrema_paths_verified": true,
+  "all16_deletions_verified": true,
+  "all_deletions_retain_coverage_and_screen_failure": true,
+  "author_numeric_module_imported": false,
+  "blinded_review": false,
+  "component_fields_verified": 28,
+  "counts": {
+    "categorical_leaves": 12623,
+    "conditions": 46374,
+    "integer_leaves": 4437,
+    "numeric_leaves": 7208
+  },
+  "coverage_failure_verified": true,
+  "development_artifacts_unchanged": {
+    "independent_results.json": "872b0ba211762aa1753117569126861fc4f32b19c1b377b554b3449d8a489cc4",
+    "receipt.json": "8a97c734dab2407b1cb2d7b672a04c0991d52302b5b2c4b2df9958b19d3cb118",
+    "review.md": "d30a6ccfa7d13f65785056fde0732df79e431bc9269807d56fdefdd92064dee0",
+    "verify_development.py": "4db97846dba4e165a6cb63861ef369492b74dd531c726f8ef4cc65eee72cfd30"
+  },
+  "files": {
+    "adaptation.diff": "a045b274686eb5d0aafd93408ba98502634af8b78242f9a7de2b498a5d62d375",
+    "adaptation.json": "172993d3146ae040e7baf8c0e47459f0a045d51a60cd12f2e5b4640c854e6ad4",
+    "independent_results.json": "60303565c7c635a098dbe7289e00dea8c83ad14e3ff0f3b6830304da59ff2a76",
+    "review.md": "63053f61fd28aa922c7d78c8a0b385694bc8d06b26057db7d01cc10a6fd81dbd",
+    "verify_reserved.py": "231fa8c1f47a4cc92ead8679794644523a2824762a7dbb57518e7924aa1a60ad"
+  },
+  "independent_numeric_function_ASTs_unchanged": [
+    "bypass",
+    "certificate",
+    "classification",
+    "component_table",
+    "counts",
+    "descriptive",
+    "equal",
+    "flattened",
+    "meanq",
+    "prediction",
+    "require",
+    "sha",
+    "write"
+  ],
+  "input_manifest": {
+    "diagnostic_source": {
+      "path": "analysis/cycle5/amendment_diagnostics/diagnostics.py",
+      "sha256": "5e8c1a5638d0d2746f89f12cf26d209f11930f490df99c16a79eda3cf2628850"
+    },
+    "diagnostics": {
+      "path": "results/cycle5/reserved_validation/diagnostics/diagnostics.json",
+      "sha256": "27f0e06eef72012c4d9b2d4d62ce19804359d1678bd26f488f3fd0978d4a60cb"
+    },
+    "evaluation": {
+      "path": "results/cycle5/reserved_validation/evaluation/evaluation.json",
+      "sha256": "0f36e4d762b1e80e87859e700f4da2655c6ecf99c29e0560d9d6dcd9546a5521"
+    },
+    "protocol": {
+      "path": "analysis/cycle5/cambray_pilot/protocol_v1.md",
+      "sha256": "0f51ccc808559ea69df3bdf294520d81babb67bf14ca92ce2abb6fcc665760ac"
+    },
+    "split": {
+      "path": "analysis/cycle5/cambray_pilot_preflight/split_manifest.json",
+      "sha256": "394a0c1aa23785c290b31c147d199f406cf46b269daa9159a98c419398b05a4e"
+    }
+  },
+  "limits": [
+    "Saved-output arithmetic and status audit; separate primary reviewer checks graph calculations",
+    "No raw-archive or prediction-seal replay in this supplement audit",
+    "No calibration of biological uncertainty or independent-assay validation",
+    "No use of group deletion to rescue the full analysis"
+  ],
+  "maximum_absolute_numeric_difference": 1.7763568394002505e-15,
+  "other_phenotype_sources_read": false,
+  "prediction_screen_failure_verified": true,
+  "prediction_statuses": {
+    "missing_known_replicates": 17,
+    "scored": 6,
+    "unscorable_missing_target_or_square": 1
+  },
+  "protocol_or_scientific_criteria_changed": false,
+  "raw_zip_read": false,
+  "repository_modified": false,
+  "reserved_saved_outputs_authorized": true,
+  "shared_project_context": true,
+  "verdict": "PASS_RESERVED_SUPPLEMENT_ARITHMETIC"
+}

@@ -1,0 +1,118 @@
+--- development_supplement_review/verify_development.py
++++ reserved_supplement_review/verify_reserved.py
+@@ -1,4 +1,4 @@
+-"""Independent DEVELOPMENT-only supplement arithmetic, without author imports.
++"""Independent RESERVED-only supplement arithmetic, without author imports.
+ 
+ Consumes only the pinned evaluation, diagnostics and sequence-only split.
+ Stored predictions/targets define exact binary rational inputs to the loss oracle.
+@@ -19,10 +19,11 @@
+ WORKSPACE = HERE.parents[2]
+ REPO = WORKSPACE / 'outputs/synonymous-rna-accessibility'
+ PINS = {
+- 'evaluation': ('results/cycle5/development/evaluation/evaluation.json', '756ff513c7c4f628110b07de19c0608ef5b1854da548b0227bca44db75e8f8fa'),
+- 'diagnostics': ('results/cycle5/development/diagnostics/diagnostics.json', 'c5a311f6470481ca6c0de474d7e80fdd348e100334822def01e2a342655f66db'),
++ 'evaluation': ('results/cycle5/reserved_validation/evaluation/evaluation.json', '0f36e4d762b1e80e87859e700f4da2655c6ecf99c29e0560d9d6dcd9546a5521'),
++ 'diagnostics': ('results/cycle5/reserved_validation/diagnostics/diagnostics.json', '27f0e06eef72012c4d9b2d4d62ce19804359d1678bd26f488f3fd0978d4a60cb'),
+  'split': ('analysis/cycle5/cambray_pilot_preflight/split_manifest.json', '394a0c1aa23785c290b31c147d199f406cf46b269daa9159a98c419398b05a4e'),
+  'protocol': ('analysis/cycle5/cambray_pilot/protocol_v1.md', '0f51ccc808559ea69df3bdf294520d81babb67bf14ca92ce2abb6fcc665760ac'),
++ 'diagnostic_source': ('analysis/cycle5/amendment_diagnostics/diagnostics.py', '5e8c1a5638d0d2746f89f12cf26d209f11930f490df99c16a79eda3cf2628850'),
+ }
+ SCRIPT_SHA = '5e8c1a5638d0d2746f89f12cf26d209f11930f490df99c16a79eda3cf2628850'
+ METHODS = ('additive', 'adjacent_mean', 'three_corner_mean')
+@@ -249,19 +250,19 @@
+     e=json.loads((REPO/PINS['evaluation'][0]).read_bytes())
+     d=json.loads((REPO/PINS['diagnostics'][0]).read_bytes())
+     s=json.loads((REPO/PINS['split'][0]).read_bytes())
+-    require(e['arm']==d['arm']=='development','Development arm only')
++    require(e['arm']==d['arm']=='reserved_validation','Reserved arm only')
+     require(e['status']=='arm_evaluation_complete' and e['interpretation_permitted'] is True,'Evaluation provenance hold')
+     require(d['status']=='supplemental_diagnostics_complete' and d['interpretation_permitted'] is True,'Supplement provenance hold')
+     equal(d['input_hashes'],{'evaluation':PINS['evaluation'][1],'split':PINS['split'][1],'diagnostic_script':SCRIPT_SHA},'provenance')
+     require(e['source_hashes']['protocol']==PINS['protocol'][1],'Protocol hash agreement')
+     require(e['source_hashes']['split']==PINS['split'][1],'Split hash agreement')
+-    units={u['square_index']:u for u in s['units'] if u['arm']=='development'}
++    units={u['square_index']:u for u in s['units'] if u['arm']=='reserved_validation'}
+     gf={seed:','.join(g) for g in s['seed_groups'] for seed in g}
+     groups=sorted({gf[u['seed']] for u in units.values()},key=lambda x:tuple(map(int,x.split(','))))
+-    require(len(units)==23 and len(groups)==16,'Frozen selected design size')
++    require(len(units)==24 and len(groups)==16,'Frozen selected design size')
+     descriptions=e['descriptions']; records=e['prediction_evaluation']['records']
+     for name,rows in [('descriptions',descriptions),('prediction',records),('coverage',e['coverage'])]:
+-        require(len(rows)==23 and {r['square_index'] for r in rows}==set(units),name+' complete inventory')
++        require(len(rows)==24 and {r['square_index'] for r in rows}==set(units),name+' complete inventory')
+         for r in rows:
+             require(r['seed']==units[r['square_index']]['seed'] and r['group']==gf[r['seed']],name+' identity')
+     coverage={r['square_index']:r for r in e['coverage']}
+@@ -269,8 +270,22 @@
+     for row in descriptions:
+         u=units[row['square_index']]
+         require(row['eligible']==coverage[row['square_index']]['eligible'],'Coverage agreement')
++        require(row['eligible']==(not coverage[row['square_index']]['missing_columns']),'Coverage missingness consistency')
++        equal(coverage[row['square_index']]['all_diagonals_retained'],u['diagonals'],'Metadata diagonals retained even with missing measurements')
+         expected={tuple(x) for x in u['diagonals']} if row['eligible'] else set()
+         require(len(row['diagonals'])==(2 if row['eligible'] else 0) and {tuple(x['endpoint_IDs']) for x in row['diagonals']}==expected,'Diagonal inventory')
++    dropout=[]
++    for row in records:
++        u=units[row['square_index']]
++        if row['status']=='unscorable_missing_target_or_square':
++            require(not coverage[row['square_index']]['eligible'],'Unscorable case cannot be eligible')
++            equal(row['missing_columns'],coverage[row['square_index']]['missing_columns'],'Unscorable missingness retained')
++            require(all(v['ID']==u['withheld_ID'] for v in row['missing_columns']),'This recorded dropout must be at the masked target')
++            dropout.append({'square_index':row['square_index'],'group':row['group'],'withheld_ID':u['withheld_ID'],'missing_columns':row['missing_columns']})
++        elif row['status']=='missing_known_replicates':
++            require(bool(row['reason']),'Missing-known reason cannot be empty')
++            require(all(v['ID']!=u['withheld_ID'] for v in row['reason']),'Known-stage missingness must not inspect masked target')
++            require(not coverage[row['square_index']]['eligible'],'Missing-known case cannot be eligible')
+     scored=[]; labels=[]
+     for r in records:
+         if r['status']!='scored':continue
+@@ -296,6 +311,32 @@
+             'target_balanced_prediction':prediction(scored,kept,True)}
+     full=summarize(groups)
+     equal(d['full_arm'],full,'Full arm independent summary')
++    local=full['descriptive']['raw_local']
++    equal(e['primary_summary'],{'eligible_squares':local['eligible_squares'],'eligible_diagonals':local['eligible_diagonals'],
++        'eligible_related_seed_groups':full['descriptive']['contributing_groups'],
++        'joint_only_obstructions':local['joint_only'],'joint_only_fraction':local['fractions']['joint_only'],
++        'preparation_consistent_diagonals':local['preparation_consistent'],'range_certified_diagonals':local['range_certificate']},'Evaluation primary summary arithmetic')
++    equal(e['coverage_passed'],full['descriptive']['coverage_hurdle_passed'],'Evaluation primary coverage criterion')
++    equal(e['arm_descriptive_milestone'],full['descriptive']['descriptive_existence_milestone'],'Evaluation primary milestone criterion')
++    equal(e['failure_reasons'],[] if full['descriptive']['coverage_hurdle_passed'] else ['primary_coverage_below_10_squares_8_groups'],'Evaluation coverage failure reason')
++    for g,values in full['descriptive']['group_denominators'].items():
++        equal(e['summary_by_related_seed_group'][g],{'eligible_squares':values['eligible_squares'],'eligible_diagonals':values['eligible_diagonals'],
++            'joint_only_obstructions':values['joint_only'],'joint_only_fraction':values['fractions']['joint_only'],
++            'preparation_consistent_diagonals':values['preparation_consistent'],'range_certified_diagonals':values['range_certificate']},'Evaluation group summary/'+g)
++    cp=full['case_balanced_prediction']; ep=e['prediction_evaluation']
++    equal(ep['scored_squares'],cp['scored_cases'],'Evaluation scored squares')
++    equal(ep['related_seed_groups'],cp['contributing_groups'],'Evaluation scored groups')
++    for key in ('MAE_comparisons','both_true_classes','discrimination_screen_passed','failure_reasons'):
++        equal(ep[key],cp[key],'Evaluation prediction summary/'+key)
++    for method in METHODS:
++        expected=cp['summaries'][method]
++        for trait in TRAITS:
++            v=expected['continuous'][trait]
++            equal(ep['summaries'][method]['continuous'][trait],{key:({g:x for g,x in val.items() if x is not None} if isinstance(val,dict) else val) for key,val in v.items()},'Evaluation continuous/'+method+'/'+trait)
++        equal(ep['summaries'][method]['group_balanced_classification_error'],{'value':expected['group_balanced_classification_error'],
++            'groups':{g:x for g,x in expected['group_classification_error'].items() if x is not None}},'Evaluation classification/'+method)
++        equal(ep['summaries'][method]['pooled_confusion'],expected['pooled_case_confusion'],'Evaluation confusion/'+method)
++        equal(ep['summaries'][method]['pooled_balanced_accuracy'],expected['pooled_case_balanced_accuracy'],'Evaluation balanced accuracy/'+method)
+     loo=[dict(omitted_group=g,**summarize([x for x in groups if x!=g])) for g in groups]
+     equal(d['leave_one_group_out'],loo,'All16 group deletions')
+     for item in [full]+loo:
+@@ -363,13 +404,14 @@
+                 'observed_component_bypass_status':bypass(z['primary'],z['observed_component']),
+                 'prediction_square_status':next(x['status'] for x in records if x['square_index']==r['square_index'])})
+     for role,(rel,pin) in PINS.items():require(sha(REPO/rel)==pin,'Input changed during review: '+role)
+-    result={'verdict':'PASS_DEVELOPMENT_SUPPLEMENT_ARITHMETIC','inputs':inputs,'diagnostic_source_sha256':SCRIPT_SHA,
++    result={'verdict':'PASS_RESERVED_SUPPLEMENT_ARITHMETIC','inputs':inputs,'diagnostic_source_sha256':SCRIPT_SHA,
+         'reviewer_source_sha256':sha(Path(__file__)),'runtime':platform.python_version(),'checks':dict(CHECKS),'maximum_absolute_numeric_difference':MAX_ABS,
+         'comparison_tolerance':{'absolute':1e-12,'relative':1e-12,'scope':'Numerical reproduction only'},
+         'all16_deletions_verified':True,'deletion_extrema_paths_verified':len(ranges),'component_fields_verified':28,
+         'exact_rational_case_target_identity_full_and_all16_deletions':True,
+         'full_arm':full,'leave_one_group_out':loo,'all_leave_one_out_minmax_ranges':ranges,
+         'local_joint_obstructions':interesting,'prediction_record_status_counts':dict(Counter(r['status'] for r in records)),
++        'predicted_but_unscorable_cases':dropout,
+         'all_six_tolerance_flip_counts':dict(flips),
+         'scope':'Development saved-output arithmetic only. No raw ZIP or reserved outcomes, author module imports, graph recomputation, fitting or selection. Separately authored review with inherited project context, not blinded.'}
+     write(HERE/'independent_results.json',result)

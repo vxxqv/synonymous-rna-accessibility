@@ -1,0 +1,11 @@
+{
+  "status": "verified_exact_result_except_runtime",
+  "arm": "reserved_validation",
+  "oracle_sha256": "43cf8b1412bc571877dc8d63aa199b948e4df458f4a171977f4f56d80ac28311",
+  "reference_result_sha256": "7c231a7682ddc04c185bdaf3f9633cb0d6de83606b93092cdf4792c66d1a8bd3",
+  "adapter_sha256": "999f4b4ea8fc453daecfd7aa130412c1d321277cc298a85722e8cf4b6bed7aab",
+  "runtime": "3.12.14",
+  "reference_runtime": "3.12.14",
+  "result_sha256": "7c231a7682ddc04c185bdaf3f9633cb0d6de83606b93092cdf4792c66d1a8bd3",
+  "scope": "Selected saved-output audit; no raw assay reconstruction or new outcome model."
+}

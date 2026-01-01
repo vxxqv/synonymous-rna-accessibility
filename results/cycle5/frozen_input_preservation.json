@@ -1,0 +1,9 @@
+{
+  "status": "frozen_inputs_unchanged_after_completed_pilot",
+  "freeze_sha256": "d742d00d1df3c3c57f471b147df7eb241e71f421bad6acfc76c3b576bf2bcac9",
+  "frozen_files_verified": 157,
+  "mismatches": [],
+  "protocol_sha256": "0f51ccc808559ea69df3bdf294520d81babb67bf14ca92ce2abb6fcc665760ac",
+  "core_numeric_results": "independently_verified",
+  "scope": "File preservation after evaluation, not cryptographic proof of historical blindness."
+}

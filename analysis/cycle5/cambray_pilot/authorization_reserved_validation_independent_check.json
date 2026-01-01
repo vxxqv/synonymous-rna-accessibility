@@ -1,0 +1,48 @@
+{
+  "schema": "Cambray_independent_result_v1",
+  "execution_authorized": true,
+  "arm": "reserved_validation",
+  "data_scope": "explicitly_authorized_observed",
+  "inputs": {
+    "evaluation": {
+      "path": "results/cycle5/reserved_validation/evaluation/evaluation.json",
+      "sha256": "0f36e4d762b1e80e87859e700f4da2655c6ecf99c29e0560d9d6dcd9546a5521"
+    },
+    "unsealed_inputs": {
+      "path": "results/cycle5/reserved_validation/evaluation/unsealed_inputs.json",
+      "sha256": "50fdb6099cdbffc91802753888cbe66a9e7d46e83aff20e2a5c83260ce74d0c7"
+    },
+    "predictions": {
+      "path": "results/cycle5/reserved_validation/prediction/predictions.json",
+      "sha256": "716cf3fde5eb5d7e2c9361bee06880fc752d1511df2f9e377ea720b1a77feac8"
+    },
+    "prediction_seal": {
+      "path": "results/cycle5/reserved_validation/prediction/seal.json",
+      "sha256": "e12a78e8051d9d5c2d6590c6a0b62f68bee3fb9003b3cb4e72019f7ed9719f35"
+    },
+    "known_inputs": {
+      "path": "results/cycle5/reserved_validation/prediction/known_inputs.json",
+      "sha256": "30cb26844153cb080dfb7b11056b3a0682c647a731608bd688ce623d8fc53e86"
+    },
+    "split": {
+      "path": "analysis/cycle5/cambray_pilot_preflight/split_manifest.json",
+      "sha256": "394a0c1aa23785c290b31c147d199f406cf46b269daa9159a98c419398b05a4e"
+    },
+    "components": {
+      "path": "analysis/cycle5/cambray_eligibility/components.jsonl",
+      "sha256": "90772dc57ab6dfdadf737e72cc0be11783245299d1ec0e9e589663a64ee1dadd"
+    },
+    "edges": {
+      "path": "analysis/cycle5/cambray_eligibility/synonymous_edges.tsv",
+      "sha256": "5d7d5f3b1160d7a8338da3f39369720fdc92c6105b47efbd902eeede48a30edd"
+    },
+    "adapter": {
+      "path": "analysis/cycle5/observed_result_review/verify_observed.py",
+      "sha256": "6b16d291a8c94804403c1fdea6d281d035892aa8d2d2eeeacd53d81da20d050e"
+    },
+    "reference": {
+      "path": "analysis/cycle5/cambray_independent_review/reference.py",
+      "sha256": "64a5e9040a77d81dc779583d1d3ea5894a5aebd5718dbf3466281803f48ce375"
+    }
+  }
+}

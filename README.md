@@ -6,9 +6,11 @@ Author: Vivaan Patni, Independent Researcher. Contact: contact.vpatni@gmail.com.
 
 This repository contains the computational workflow, input provenance, exact verification cases, derived data, and reproducibility documentation. Manuscripts and journal submission materials are maintained separately.
 
-### Current measured-function feasibility protocol
+### Current measured-function feasibility result
 
 `analysis/cycle5/README.md` documents the frozen joint-function pilot on 47 intended-synonymous four-genotype designs. Its protocol, explicit uncertainty amendment, global target masks, independent implementation checks and source-provenance limits are committed before new outcomes are accessed. The source archive remains external to Git and is checksum pinned. This is an author-preprocessed within-library holdout, not independent biological replication. All 12 deposited-series scenarios, source-mean gates, failed prediction criteria, observed-component bounds and group influence diagnostics are prescribed in advance. Original draft states and the initially incomplete diagnostic revision remain as historical records; `cambray_pilot/protocol_v1.md` and `freeze_v1.json` identify the authoritative specification.
+
+`analysis/cycle5/CURRENT_RESULTS.md` gives current portable verification commands. The completed pilot is recorded in `results/cycle5/pilot_closure_report.md` and `pilot_decision.json`. Reserved coverage is six squares in six groups, below the frozen ten/eight minimum. One reserved finite square passes all twelve series scenarios and a fixed-low-end empirical-range certificate, but biological uncertainty is uncalibrated. Both continuous prediction screens fail. Both convex mean classification baselines are structurally negative in exact square geometry. Every failed comparison, missing target and group deletion is retained. Both selected arms are now exposed and unavailable for new prospective tuning.
 
 ## Scientific scope
 
@@ -70,7 +72,7 @@ Independent original-PAIR-MaP source provenance and reproduction instructions ar
 
 Uniform score permutations retain component-specific score multisets and destroy neighbor correlation. Degree conditioning additionally retains coarse graph-position composition at cutoff 0.5. The exact small-space control conditions on an edge-roughness interval. Heat-rank fields preserve score multisets and approximately match mean local roughness; they are a generic reference model, not uniform conditional permutations. Additive fits are descriptive approximations using the same observed score fields. Their in-sample fit is not predictive validation.
 
-Generic smoothness attenuates approximately 94–95% of the shuffled-score contrast. Additive approximations produce slightly less fragmentation than the folding fields. Consequently the archive supports exact compatibility geometry and model-derived score barriers, not an RNA-specific evolutionary connectivity-preservation law. `analysis/expansion/claim_evidence_map.md` separates simultaneous compatibility, alternative conformations and physical ensembles.
+Generic smoothness attenuates approximately 94 to 95% of the shuffled-score contrast. Additive approximations produce slightly less fragmentation than the folding fields. Consequently the archive supports exact compatibility geometry and model-derived score barriers, not an RNA-specific evolutionary connectivity-preservation law. `analysis/expansion/claim_evidence_map.md` separates simultaneous compatibility, alternative conformations and physical ensembles.
 
 ### Frozen computational prediction pilot
 

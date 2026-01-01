@@ -1,0 +1,26 @@
+{
+  "verdict": "PASS_NO_BLOCKING_CORRECTIONS",
+  "adapter_sha256": "999f4b4ea8fc453daecfd7aa130412c1d321277cc298a85722e8cf4b6bed7aab",
+  "guard_and_control_checks": 31,
+  "scientific_mains_rerun": false,
+  "existing_real_replay_output_hashes": {
+    "work\\joint_function_cycle5\\portable_development_replay\\independent_results.json": "872b0ba211762aa1753117569126861fc4f32b19c1b377b554b3449d8a489cc4",
+    "work\\joint_function_cycle5\\portable_reserved_validation_replay\\independent_results.json": "7c231a7682ddc04c185bdaf3f9633cb0d6de83606b93092cdf4792c66d1a8bd3"
+  },
+  "owned_artifacts": {
+    "review.md": "9c952e4fd2fb6d2896221b727c5cd6f407b3dddc4e1c1fcfcdfc268415541138",
+    "check_adapter.py": "1ac6b583127258199517803f69455f3b59edb5274234a9926b6c429e1007c3b6",
+    "checks.json": "00b8c4e51e545e1933fbfba17e9182899406dc288f32c4a86ec3318feb1446d7"
+  },
+  "source_hashes_unchanged": {
+    "outputs\\synonymous-rna-accessibility\\analysis\\cycle5\\replay_supplement_reviews.py": "999f4b4ea8fc453daecfd7aa130412c1d321277cc298a85722e8cf4b6bed7aab",
+    "outputs\\synonymous-rna-accessibility\\results\\cycle5\\development\\supplement_review\\verify_development.py": "4db97846dba4e165a6cb63861ef369492b74dd531c726f8ef4cc65eee72cfd30",
+    "outputs\\synonymous-rna-accessibility\\results\\cycle5\\development\\supplement_review\\independent_results.json": "872b0ba211762aa1753117569126861fc4f32b19c1b377b554b3449d8a489cc4",
+    "outputs\\synonymous-rna-accessibility\\results\\cycle5\\portable_review_checks\\development\\replay_receipt.json": "d38156e6c3b751b4dce8c7034e865715fa7641f56f3f5679162e94998713f0da",
+    "outputs\\synonymous-rna-accessibility\\results\\cycle5\\reserved_validation\\supplement_review\\correction_v2\\verify_reserved.py": "43cf8b1412bc571877dc8d63aa199b948e4df458f4a171977f4f56d80ac28311",
+    "outputs\\synonymous-rna-accessibility\\results\\cycle5\\reserved_validation\\supplement_review\\correction_v2\\independent_results.json": "7c231a7682ddc04c185bdaf3f9633cb0d6de83606b93092cdf4792c66d1a8bd3",
+    "outputs\\synonymous-rna-accessibility\\results\\cycle5\\portable_review_checks\\reserved_validation\\replay_receipt.json": "0c82bb237fa32e23ee917b6285557a42c678a6d67993978a708386ef53fb63f3"
+  },
+  "new_outcomes_or_raw_archive_access": false,
+  "shared_source_edits": false
+}

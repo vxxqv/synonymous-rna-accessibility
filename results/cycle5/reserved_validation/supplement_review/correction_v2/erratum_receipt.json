@@ -1,0 +1,36 @@
+{
+  "all_other_result_fields_exactly_equal": true,
+  "changed_result_top_level_keys": [
+    "reviewer_source_sha256",
+    "scope"
+  ],
+  "corrected_result_sha256": "7c231a7682ddc04c185bdaf3f9633cb0d6de83606b93092cdf4792c66d1a8bd3",
+  "corrected_source_sha256": "43cf8b1412bc571877dc8d63aa199b948e4df458f4a171977f4f56d80ac28311",
+  "new_scope": "Reserved-validation saved-output arithmetic only, using the explicitly authorized reserved evaluation and diagnostics. No raw ZIP or other phenotype sources, author module imports, graph recomputation, fitting or selection. Separately authored review with inherited project context, not blinded.",
+  "numeric_code_or_threshold_changes": false,
+  "old_scope": "Development saved-output arithmetic only. No raw ZIP or reserved outcomes, author module imports, graph recomputation, fitting or selection. Separately authored review with inherited project context, not blinded.",
+  "original_package_and_history_byte_identical": true,
+  "prior_receipt_sha256": "17666bbc202d8640789b79526d19084da710174511acd787ac40fb0d0eb10646",
+  "prior_result_sha256": "60303565c7c635a098dbe7289e00dea8c83ad14e3ff0f3b6830304da59ff2a76",
+  "prior_source_sha256": "231fa8c1f47a4cc92ead8679794644523a2824762a7dbb57518e7924aa1a60ad",
+  "repository_snapshot_changed": false,
+  "rerun_wrapper_sha256": "8acf285a63c1b3a3cc94fe6230babd930c290e72e66e03b38c37c811748a6560",
+  "same_check_counts": true,
+  "same_exact_input_manifest": true,
+  "scientific_helpers_AST_unchanged": [
+    "sha",
+    "require",
+    "equal",
+    "meanq",
+    "descriptive",
+    "prediction",
+    "flattened",
+    "classification",
+    "certificate",
+    "bypass",
+    "counts",
+    "component_table",
+    "write"
+  ],
+  "status": "PASS_SCOPE_ONLY_DOCUMENTATION_CORRECTION"
+}

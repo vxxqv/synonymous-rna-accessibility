@@ -1,0 +1,37 @@
+{
+  "both_arms_exposed": true,
+  "category": "D_information_limited_validation_with_B_descriptive_findings",
+  "development_continuous_prediction_screen_passed": false,
+  "forbidden_reinterpretations": [
+    "pool_arms_to_rescue_coverage",
+    "omit_group277_to_rescue_prediction",
+    "tune_on_exposed_validation",
+    "claim_mechanism_from_joint_obstruction",
+    "claim_calibrated_intervals"
+  ],
+  "frozen_two_arm_descriptive_milestone_passed": false,
+  "independent_study_validation": false,
+  "next_step": "Bounded current-method and primary-source review, then resolve a distinct independent or matched-context measurement contract before any new outcome model.",
+  "post_outcome_analytic_limitation": "Convex mean completion cannot predict a joint-only square restriction in exact arithmetic; no replacement comparator fitted.",
+  "pre_target_commits": {
+    "development_decision": "983b331025085ae7e23127238e357af277166e6b",
+    "development_prediction": "74a64d7885b0aca0b15694194f8366ef1e1c9c77",
+    "protocol": "7cd8b9fd2795f6b47d3eac95aab537fe11cb27d8",
+    "reserved_prediction": "b01116094859c36136fb0dd0b1026d364e83e2b9"
+  },
+  "principal_failure": "Reserved six eligible squares in six groups are below ten/eight minima. Additive completion fails three of four reserved continuous comparisons.",
+  "protocol_changed_after_outcomes": false,
+  "report_sha256": "fc5a9ab21cf2384aea50fe8eef64e91de85b5735132e8dbf5047a13ce89cf566",
+  "reserved_continuous_prediction_screen_passed": false,
+  "retained_positive_scope": "One reserved finite square is consistent across all twelve deposited-series scenarios and the fixed-low-end empirical-range set. Range coverage is not biologically calibrated.",
+  "review_hashes": {
+    "outputs/synonymous-rna-accessibility/analysis/cycle5/cambray_pilot/protocol_v1.md": "0f51ccc808559ea69df3bdf294520d81babb67bf14ca92ce2abb6fcc665760ac",
+    "outputs/synonymous-rna-accessibility/results/cycle5/development/development_report.md": "d188f80ea53dd0224d97a7222ba95503c0c83897726bb2db650b75155a41d24c",
+    "outputs/synonymous-rna-accessibility/results/cycle5/reserved_validation/evaluation/evaluation.json": "0f36e4d762b1e80e87859e700f4da2655c6ecf99c29e0560d9d6dcd9546a5521",
+    "work/joint_function_cycle5/combined_interpretation_review/review.md": "6e3ec679817562c68c6644b85373c2d96debf4ef17998c8e8be0bc4c8f96646c",
+    "work/joint_function_cycle5/observed_result_review/reserved_run/receipt.json": "b5d9886b79d49eebdfe652b65435f0b3193d25577af467bc14d26493fee68dd9",
+    "work/joint_function_cycle5/observed_result_review/reserved_verdict.md": "f3d6a1ed3c9e3828b694ac79b44f65e1a3809c73f4ff4e8355279ba8397c75cf",
+    "work/joint_function_cycle5/reserved_supplement_review/receipt.json": "17666bbc202d8640789b79526d19084da710174511acd787ac40fb0d0eb10646"
+  },
+  "status": "pilot_closed_with_descriptive_observations_and_failed_validation"
+}

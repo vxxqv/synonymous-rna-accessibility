@@ -1,0 +1,45 @@
+{
+  "status": "verified_synthetic_analytic_note",
+  "timing": "post-outcome interpretation; no baseline/threshold/result change",
+  "exact_example": {
+    "endpoints": [
+      "(0,0)",
+      "(0,0)"
+    ],
+    "known_intermediate": "(1,-1)",
+    "three_corner_mean": [
+      "1/3",
+      "-1/3"
+    ],
+    "three_corner_status": "single_trait_disconnection",
+    "additive_completion": [
+      "-1",
+      "1"
+    ],
+    "additive_status": "joint_only_obstruction"
+  },
+  "floating_tie_caveat": {
+    "endpoints": [
+      [
+        0.7,
+        0.0
+      ],
+      [
+        0.7,
+        1.0
+      ]
+    ],
+    "known_intermediate": [
+      0.7,
+      -0.1
+    ],
+    "three_corner_float": [
+      0.6999999999999998,
+      0.3
+    ],
+    "exact_first_coordinate": "7/10",
+    "float_passes_first_trait": false
+  },
+  "new_biological_data_read": false,
+  "frozen_code_or_result_changed": false
+}

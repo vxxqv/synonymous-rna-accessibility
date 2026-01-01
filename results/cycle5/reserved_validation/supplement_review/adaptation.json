@@ -1,0 +1,32 @@
+{
+  "changed_functions": [
+    "main"
+  ],
+  "changes": [
+    "Authorized arm and outcome paths/hashes",
+    "Frozen selected design count23 to24",
+    "Reserved review labels",
+    "Hash actual diagnostic source",
+    "Additional checks of retained missingness/dropout and agreement of evaluation primary/group/prediction summaries"
+  ],
+  "numeric_oracle_imports_author_module": false,
+  "prior_reviewer_source_sha256": "4db97846dba4e165a6cb63861ef369492b74dd531c726f8ef4cc65eee72cfd30",
+  "reserved_reviewer_source_sha256": "231fa8c1f47a4cc92ead8679794644523a2824762a7dbb57518e7924aa1a60ad",
+  "scientific_formulas_changed": false,
+  "source_preserved": true,
+  "unchanged_function_ASTs": [
+    "bypass",
+    "certificate",
+    "classification",
+    "component_table",
+    "counts",
+    "descriptive",
+    "equal",
+    "flattened",
+    "meanq",
+    "prediction",
+    "require",
+    "sha",
+    "write"
+  ]
+}

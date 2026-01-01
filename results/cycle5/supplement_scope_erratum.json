@@ -1,0 +1,37 @@
+{
+  "status": "scope_only_erratum_verified",
+  "reason": "The original reserved supplement export retained a development-only scope sentence. Its declared input pins and actual authorized analysis were reserved-arm. The corrected source and rerun change only the prose scope and reviewer-source self-hash. Scientific results are byte-for-byte identical after removing those two fields. Original records preserved, not rewritten.",
+  "prior_pilot_manifest_sha256": "5895a58bed3b52f473eaeb871ab6861ebe457c023f0c83bea486ecb721e582e9",
+  "files": [
+    {
+      "path": "results/cycle5/reserved_validation/supplement_review/correction_v2/ERRATUM.md",
+      "sha256": "ebe6061a372f6ea12efa4839da5af3e0107b0c8926105288ca41cc0e039e682d",
+      "bytes": 1005
+    },
+    {
+      "path": "results/cycle5/reserved_validation/supplement_review/correction_v2/erratum_receipt.json",
+      "sha256": "5492b90e54d6132931db87a65e7dbb4427c1c42b24ed05d5dcb9c9a251ed5713",
+      "bytes": 1803
+    },
+    {
+      "path": "results/cycle5/reserved_validation/supplement_review/correction_v2/independent_results.json",
+      "sha256": "7c231a7682ddc04c185bdaf3f9633cb0d6de83606b93092cdf4792c66d1a8bd3",
+      "bytes": 625052
+    },
+    {
+      "path": "results/cycle5/reserved_validation/supplement_review/correction_v2/run_correction.py",
+      "sha256": "8acf285a63c1b3a3cc94fe6230babd930c290e72e66e03b38c37c811748a6560",
+      "bytes": 532
+    },
+    {
+      "path": "results/cycle5/reserved_validation/supplement_review/correction_v2/scope_only.diff",
+      "sha256": "76b6b550ae219995ce111ac58f43c15d30c87fdb902ce7c290ed0797f4b75b6b",
+      "bytes": 1146
+    },
+    {
+      "path": "results/cycle5/reserved_validation/supplement_review/correction_v2/verify_reserved.py",
+      "sha256": "43cf8b1412bc571877dc8d63aa199b948e4df458f4a171977f4f56d80ac28311",
+      "bytes": 28893
+    }
+  ]
+}

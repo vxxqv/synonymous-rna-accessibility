@@ -1,0 +1,11 @@
+--- history_v1/verify_reserved.py
++++ correction_v2/verify_reserved.py
+@@ -413,7 +413,7 @@
+         'local_joint_obstructions':interesting,'prediction_record_status_counts':dict(Counter(r['status'] for r in records)),
+         'predicted_but_unscorable_cases':dropout,
+         'all_six_tolerance_flip_counts':dict(flips),
+-        'scope':'Development saved-output arithmetic only. No raw ZIP or reserved outcomes, author module imports, graph recomputation, fitting or selection. Separately authored review with inherited project context, not blinded.'}
++        'scope':'Reserved-validation saved-output arithmetic only, using the explicitly authorized reserved evaluation and diagnostics. No raw ZIP or other phenotype sources, author module imports, graph recomputation, fitting or selection. Separately authored review with inherited project context, not blinded.'}
+     write(HERE/'independent_results.json',result)
+     print(json.dumps({k:result[k] for k in ('verdict','checks','maximum_absolute_numeric_difference','deletion_extrema_paths_verified','local_joint_obstructions','prediction_record_status_counts')},indent=2))
+ 

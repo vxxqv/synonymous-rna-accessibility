@@ -1,0 +1,15 @@
+{
+  "status": "interpretation_review_complete",
+  "input_hashes_unchanged": true,
+  "no_new_outcomes_beyond_authorized_summaries": true,
+  "artifacts": {
+    "review.md": {
+      "sha256": "6e3ec679817562c68c6644b85373c2d96debf4ef17998c8e8be0bc4c8f96646c",
+      "bytes": 12652
+    },
+    "checks.json": {
+      "sha256": "12333f61270dc13b962ca0c20caf57b87849c94756fbdf3a03635fcd7614f593",
+      "bytes": 490415
+    }
+  }
+}
