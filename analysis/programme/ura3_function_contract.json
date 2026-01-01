@@ -1,0 +1,14 @@
+{
+  "claim_id": "MEASURED_URA3_DESCRIPTIVE_PILOT_V1",
+  "mathematics": {
+    "assertion_tested": "Compute scale-aware interaction contrasts, four-vertex accessibility obstructions and a frozen regional double-fitness benchmark from verified synonymous groups, after synthetic identifiability checks.",
+    "coefficient_domain": "Positive measured relative-fitness point estimates, floating-point logs; no fitted measurement-error distribution",
+    "conventions": "WT relative fitness equals one by normalization; all four genotype translations agree. B is a four-genotype induced-square statistic and need not be a barrier in the full synonymous graph. Uniform four-cell log-error radii are deterministic sensitivity certificates, not confidence intervals.",
+    "inputs": ["S7 workbook SHA-256 7b612a56351fd4815397df67325fef5e94e7adf3910303a03114dc9aacb4a1b6, external cache checked in script", "Frozen sequence/cell-presence genotype audit", "Endpoint freeze and eligibility amendment committed before new fitness values were read"],
+    "bounds": {"reported_complete_primary_groups":684,"development_groups":340,"validation_groups":203,"quarantined_groups":141,"fixed_models":5,"BoxCox_grid_size":17},
+    "non_claims": ["No interaction significance or calibrated error bounds", "No independent reporter validation", "No folding-specific mechanism or evolutionary interpretation", "No imputation of discarded genotypes or proof that missing paths are absent", "No mitochondrial functional analysis after failed structural coverage gate"]
+  },
+  "execution_artifacts": ["analysis/programme/ura3_function_pilot.py", "analysis/programme/measured_data_audit.py", "analysis/programme/measured_function_protocol_v1.json", "analysis/programme/measured_function_eligibility_v3.json", "data/programme/measured_source_manifest.json", "results/programme/measured_data_audit_v1/synonymous_group_mapping.csv"],
+  "software": [{"name":"Python","version":"3.12.14"},{"name":"numpy","version":"2.5.4"},{"name":"Biopython","version":"1.88"}],
+  "randomness": {"used":false,"generator":"","seed":null}
+}

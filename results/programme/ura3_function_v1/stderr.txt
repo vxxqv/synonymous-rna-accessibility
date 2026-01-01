@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "C:\Users\VIVAAN\Documents\Codex\2026-10-24\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\outputs\synonymous-rna-accessibility\analysis\programme\ura3_function_pilot.py", line 168, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "C:\Users\VIVAAN\Documents\Codex\2026-10-24\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\outputs\synonymous-rna-accessibility\analysis\programme\ura3_function_pilot.py", line 105, in main
+    ds=inputs(dev,'development_single');dy=np.array([read(r['row_AB'],'development_double') for r in dev])
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\VIVAAN\Documents\Codex\2026-10-24\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\outputs\synonymous-rna-accessibility\analysis\programme\ura3_function_pilot.py", line 104, in inputs
+    def inputs(rows,phase):return np.array([[read(r['row_A'],phase),read(r['row_B'],phase)] for r in rows])
+                                             ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\VIVAAN\Documents\Codex\2026-10-24\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\outputs\synonymous-rna-accessibility\analysis\programme\ura3_function_pilot.py", line 102, in read
+    if not math.isfinite(x) or x<=0:raise ValueError('Nonpositive/nonfinite reported fitness '+str(rn))
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: Nonpositive/nonfinite reported fitness 512

@@ -1,0 +1,176 @@
+{
+  "schema_version": 2,
+  "claim_id": "MEASURED_URA3_DESCRIPTIVE_PILOT_V1",
+  "repository": {
+    "commit": "68cd419ec692a0405dd391dd0a8196c4cc736b28",
+    "dirty": true
+  },
+  "command": [
+    "C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\work\\env\\Scripts\\python.exe",
+    "analysis/programme/ura3_function_pilot.py",
+    "--work",
+    "C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\work",
+    "--audit",
+    "results/programme/measured_data_audit_v1",
+    "--out",
+    "results/programme/ura3_function_v1/data"
+  ],
+  "environment": {
+    "software": [
+      {
+        "name": "runner-python",
+        "version": "3.12.14"
+      },
+      {
+        "name": "Python",
+        "version": "3.12.14"
+      },
+      {
+        "name": "numpy",
+        "version": "2.5.4"
+      },
+      {
+        "name": "Biopython",
+        "version": "1.88"
+      }
+    ],
+    "hardware": "Windows-11-10.0.26300-SP0"
+  },
+  "mathematics": {
+    "assertion_tested": "Compute scale-aware interaction contrasts, four-vertex accessibility obstructions and a frozen regional double-fitness benchmark from verified synonymous groups, after synthetic identifiability checks.",
+    "coefficient_domain": "Positive measured relative-fitness point estimates, floating-point logs; no fitted measurement-error distribution",
+    "conventions": "WT relative fitness equals one by normalization; all four genotype translations agree. B is a four-genotype induced-square statistic and need not be a barrier in the full synonymous graph. Uniform four-cell log-error radii are deterministic sensitivity certificates, not confidence intervals.",
+    "inputs": [
+      "S7 workbook SHA-256 7b612a56351fd4815397df67325fef5e94e7adf3910303a03114dc9aacb4a1b6, external cache checked in script",
+      "Frozen sequence/cell-presence genotype audit",
+      "Endpoint freeze and eligibility amendment committed before new fitness values were read"
+    ],
+    "bounds": {
+      "reported_complete_primary_groups": 684,
+      "development_groups": 340,
+      "validation_groups": 203,
+      "quarantined_groups": 141,
+      "fixed_models": 5,
+      "BoxCox_grid_size": 17
+    },
+    "non_claims": [
+      "No interaction significance or calibrated error bounds",
+      "No independent reporter validation",
+      "No folding-specific mechanism or evolutionary interpretation",
+      "No imputation of discarded genotypes or proof that missing paths are absent",
+      "No mitochondrial functional analysis after failed structural coverage gate"
+    ]
+  },
+  "randomness": {
+    "used": false,
+    "generator": "",
+    "seed": null
+  },
+  "run": {
+    "started_at": "2026-10-24T19:40:31.860448+00:00",
+    "runtime_seconds": 3.344,
+    "exit_status": 1,
+    "status": "failed",
+    "timeout_seconds": 60.0,
+    "max_output_bytes": 4194304,
+    "resource_limits": {
+      "memory_bytes": null,
+      "cpu_seconds": null,
+      "max_cores": null,
+      "max_threads": 1
+    },
+    "missing_results": [
+      "results/programme/ura3_function_v1/data/results.json",
+      "results/programme/ura3_function_v1/data/measured_square_results.csv",
+      "results/programme/ura3_function_v1/data/sealed_validation_predictions.json",
+      "results/programme/ura3_function_v1/data/cell_access_log.json"
+    ],
+    "invalid_results": []
+  },
+  "execution_artifacts": [
+    "analysis/programme/ura3_function_pilot.py",
+    "analysis/programme/measured_data_audit.py",
+    "analysis/programme/measured_function_protocol_v1.json",
+    "analysis/programme/measured_function_eligibility_v3.json",
+    "data/programme/measured_source_manifest.json",
+    "results/programme/measured_data_audit_v1/synonymous_group_mapping.csv"
+  ],
+  "input_artifacts": [
+    {
+      "path": "analysis/programme/ura3_function_pilot.py",
+      "sha256": "11c6afaa236a6f67133b51e6558f417a6544051c54a061afa34552acedc3bb34",
+      "sha256_after": "11c6afaa236a6f67133b51e6558f417a6544051c54a061afa34552acedc3bb34"
+    },
+    {
+      "path": "analysis/programme/measured_data_audit.py",
+      "sha256": "ccf00b0579d10f302d4e2e84e6baa05392728859ea6209576f29c81f473526e6",
+      "sha256_after": "ccf00b0579d10f302d4e2e84e6baa05392728859ea6209576f29c81f473526e6"
+    },
+    {
+      "path": "analysis/programme/measured_function_protocol_v1.json",
+      "sha256": "c1d6421859d4615d9fe104d029e9a8f712bc93d270123c5bbc531406ab35dd64",
+      "sha256_after": "c1d6421859d4615d9fe104d029e9a8f712bc93d270123c5bbc531406ab35dd64"
+    },
+    {
+      "path": "analysis/programme/measured_function_eligibility_v3.json",
+      "sha256": "8700397963790bfa24b7e887a767a405cf61c01e7d2796689df0670de926568d",
+      "sha256_after": "8700397963790bfa24b7e887a767a405cf61c01e7d2796689df0670de926568d"
+    },
+    {
+      "path": "data/programme/measured_source_manifest.json",
+      "sha256": "ade299a7be1354f8221d57ee46d0709aa929b5f6f2431cf4c4e65df94698bfd0",
+      "sha256_after": "ade299a7be1354f8221d57ee46d0709aa929b5f6f2431cf4c4e65df94698bfd0"
+    },
+    {
+      "path": "results/programme/measured_data_audit_v1/synonymous_group_mapping.csv",
+      "sha256": "19ffac872b78573f157e74a7b971fab369a26815bed0f9135d797940ea5dc091",
+      "sha256_after": "19ffac872b78573f157e74a7b971fab369a26815bed0f9135d797940ea5dc091"
+    }
+  ],
+  "output_directory": "results/programme/ura3_function_v1",
+  "declared_results": [
+    "results/programme/ura3_function_v1/data/results.json",
+    "results/programme/ura3_function_v1/data/measured_square_results.csv",
+    "results/programme/ura3_function_v1/data/sealed_validation_predictions.json",
+    "results/programme/ura3_function_v1/data/synthetic_controls.json",
+    "results/programme/ura3_function_v1/data/cell_access_log.json"
+  ],
+  "outputs": [
+    {
+      "path": "results/programme/ura3_function_v1/stdout.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "kind": "log"
+    },
+    {
+      "path": "results/programme/ura3_function_v1/stderr.txt",
+      "sha256": "f604083155689190e94ecfd5e4cbdd16e449ccb490fc0d849ad0689ad4de570b",
+      "kind": "log"
+    },
+    {
+      "path": "results/programme/ura3_function_v1/data/synthetic_controls.json",
+      "sha256": "ff6bf7c0065d4de324652213a04c03f0a594de387a8f4beaaeab3eeeb9cb711b",
+      "kind": "result"
+    }
+  ],
+  "checks": [
+    {
+      "check": "input hashes unchanged",
+      "passed": true
+    },
+    {
+      "check": "process exited successfully within enforced limits",
+      "passed": false
+    },
+    {
+      "check": "declared result files are present and regular",
+      "passed": false
+    }
+  ],
+  "result": "Run failed; mathematical assertion requires interpretation and review.",
+  "residual_risks": [
+    "Command success does not establish the mathematical interpretation.",
+    "Only listed input artifacts are pinned; external dependencies need recorded versions.",
+    "The thread cap uses conventional environment variables; a child program may ignore them.",
+    "Declared results were not produced: results/programme/ura3_function_v1/data/results.json, results/programme/ura3_function_v1/data/measured_square_results.csv, results/programme/ura3_function_v1/data/sealed_validation_predictions.json, results/programme/ura3_function_v1/data/cell_access_log.json"
+  ]
+}
