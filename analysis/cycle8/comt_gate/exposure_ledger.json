@@ -1,0 +1,18 @@
+{
+  "scope": "COMT A0 source, schema and sequence audit only",
+  "variant_phenotype_values_decoded": 0,
+  "count_values_decoded": 0,
+  "score_ci_or_fdr_values_decoded": 0,
+  "allowed_MaveDB_fields": ["accession", "hgvs_nt", "hgvs_splice", "hgvs_pro"],
+  "archive_read_scope": "member names, sizes and variant-summary header rows only",
+  "GEO_read_scope": "SOFT descriptive metadata, sample identifiers, titles and documentation",
+  "published_prior_exposure": [
+    "Abstract and methods state integrated readouts and directional/divergent effects",
+    "Author-code comments include source-wide coverage and outlier descriptions",
+    "Two hard-coded WT fluorescence reference constants encountered in source-code search",
+    "Author SnapGene feature name mRNA_abundance_hotspot encountered during feature inspection"
+  ],
+  "metadata_embedded_uninspected_outcomes": "MaveDB score-set metadata contain a scoreDistribution field. Downloaded, not intentionally inspected or summarized.",
+  "new_metadata_exposure": "Identifier presence across processed exports, synonymous coverage and assay/sample-label discrepancies are now exposed",
+  "limitations": "Public prior methods and metadata were inspected. No claim that the entire published study is blinded. No raw count body or numeric score-tail evaluation occurred."
+}

@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "exact_checks": 7,
+  "target_ratio_background_retained": "21/121",
+  "target_ratio_background_rejected": "21/181",
+  "same_target_ID_but_different_normalized_value": true,
+  "source_counts_read": false,
+  "scope": "Synthetic dependency counterexample, shared-reference cancellation, nonpositive subtraction and exact-half filtering. Not an observed outcome."
+}

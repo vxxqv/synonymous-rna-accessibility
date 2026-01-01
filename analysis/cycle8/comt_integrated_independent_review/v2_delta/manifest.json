@@ -1,0 +1,20 @@
+{
+  "schema": "COMT_integrated_independent_delta_review_v2",
+  "status": "PASS_SCOPED_PREOUTCOME_IMPLEMENTATION_REVIEW",
+  "candidate_manifest_sha256": "f666dc9415d523b18350ffdedf5606e050803fa3e5c5da2efdd86f50f33e750d",
+  "files": {
+    "check_delta.py": "27ee9e6e8f64b33000ec3607c0c98f474ec7afd3b690926802cfb1e8ab0cb852",
+    "independent_reader.diff": "3aa7d45a93476249bfb6e2a438b1c16fc91e5d03391f791003b98d43efa11ded",
+    "proxy_models.py": "8811af9750e813c798122c7e936b6279a0f3b0e53fea1924cb2d633162a34093",
+    "receipt.json": "b4ea34d73a7df01cb34f8665c34301c791eb96698e9460d5ebe52fc812888d26",
+    "review.md": "e8459b6515d7c10b0f561c760c551601b30b7c0df6ad01423b7985c21f88a895",
+    "unit_replay.log": "8df3544f2743855c9cd86a01339c8f46887b747674cb992383a1a3dac09361a0",
+    "mirror/driver.py": "2fa6c139fc54cf0f5e1f63fa74fa8cbf8400d7ab0664883406ab1f66d3150eed",
+    "mirror/normalize.py": "e6776b4d0afef9aca5972dfe0935769da9e2f7c61cdaaebc0813c47e17b54061",
+    "mirror/prediction.py": "92d0d46fda3b7b3c49c5a4d8780c8b57bcf9c15d9c8095aeca27555f38e2dede",
+    "mirror/selective_reader.py": "17d443582488a7c7a935bb222ba55c2b1f8e7cea80ff5ff8071f092127155752",
+    "mirror/test_implementation.py": "8ea87973f4c3dc2cb52b03b7b2f8ce7d5419df2139deca8bf2ff1cbf5fed2d64"
+  },
+  "actual_source_access_authorized_by_this_report": false,
+  "real_source_or_simulation_rows_read": 0
+}

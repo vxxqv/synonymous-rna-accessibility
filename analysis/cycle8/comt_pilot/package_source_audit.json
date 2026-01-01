@@ -1,0 +1,45 @@
+{
+  "e1071": {
+    "package": "e1071_1.7-17.tar.gz",
+    "sha256": "6debc371ad478c2aa6de1f6510e254e80e797de4974b855f63b35509a3c2ac87",
+    "md5_verified": true,
+    "matches": {
+      "e1071/R/hamming.distance.R": {
+        "file": "package_source_e1071__R__hamming.distance.R",
+        "sha256": "4ef09c53936de276b969d2056f6a0c1b6bcc7a5a996fd4659f66815dd098a13e"
+      },
+      "e1071/NAMESPACE": {
+        "file": "package_source_e1071__NAMESPACE",
+        "sha256": "9fde6e5e2d24adef95601ee55024b4d1d8ba992fbcdf46406aa42436c8ce5d45"
+      }
+    }
+  },
+  "bnstruct": {
+    "package": "bnstruct_1.0.15.tar.gz",
+    "sha256": "5fffb6e0ba368077d621915dd9d64d5b2db3c82cb267be8d5b1d8868b0aec33f",
+    "md5_verified": true,
+    "matches": {}
+  },
+  "caret": {
+    "package": "caret_7.0-1.tar.gz",
+    "sha256": "d1ea51a8ce1948718b424bacda84428bd397d8b7869310a96311553d329a815c",
+    "md5_verified": true,
+    "matches": {
+      "caret/R/trainControl.R": {
+        "file": "package_source_caret__R__trainControl.R",
+        "sha256": "2a49778d56df2e9e12280597c87733a87d4097eb736706476e89c7507a19141a"
+      }
+    }
+  },
+  "randomForest": {
+    "package": "randomForest_4.7-1.2.tar.gz",
+    "sha256": "aad33227b648bad50412849d7e0fed00fd07f1d1d4a14fa015b4b9f939b04a11",
+    "md5_verified": true,
+    "matches": {
+      "randomForest/R/randomForest.default.R": {
+        "file": "package_source_randomForest__R__randomForest.default.R",
+        "sha256": "8c22abe090030c5267f2974765cf1ecb45bbd7503a2cbc70a578c79fc95787ad"
+      }
+    }
+  }
+}

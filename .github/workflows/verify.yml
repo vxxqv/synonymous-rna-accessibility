@@ -90,6 +90,8 @@ jobs:
         run: python -I -B analysis/cycle7/robustness_result_review/verify_portable.py --repo . --out "${{ runner.temp }}/cycle7-fas-robustness"
       - name: Independently reconstruct every joint-scenario FAS route interval
         run: python -I -B analysis/cycle7/scenario_result_review/verify_observed.py --repo . --out "${{ runner.temp }}/cycle7-fas-scenarios"
+      - name: Check frozen COMT interfaces on invented inputs
+        run: python -m unittest discover -s analysis/cycle8/comt_pilot/implementation_v2 -p test_implementation.py
       - name: Independently reconstruct every frozen cPRIME measurement and interval claim
         run: python -B analysis/cycle8/cprime_complete_replay.py --repo . --out "${{ runner.temp }}/cycle8-cprime-independent"
       - name: Retain joint-function pilot verification

@@ -1,0 +1,22 @@
+
+test_MNP_median_not_sum (test_implementation.Checks.test_MNP_median_not_sum) ... ok
+test_classifier_features_nonnegative_domain (test_implementation.Checks.test_classifier_features_nonnegative_domain) ... ok
+test_conflicting_DP_and_negative_WT (test_implementation.Checks.test_conflicting_DP_and_negative_WT) ... ok
+test_duplicate_and_invalid_count (test_implementation.Checks.test_duplicate_and_invalid_count) ... ok
+test_exact_source_stop_scope (test_implementation.Checks.test_exact_source_stop_scope) ... ok
+test_frozen_CV_exact_load_signal_and_scoring (test_implementation.Checks.test_frozen_CV_exact_load_signal_and_scoring) ... ok
+test_invented_archive_and_failure_exposure_receipt (test_implementation.Checks.test_invented_archive_and_failure_exposure_receipt) ... ok
+test_missing_NC_and_nonpositive (test_implementation.Checks.test_missing_NC_and_nonpositive) ... ok
+test_normalization_background_and_NC (test_implementation.Checks.test_normalization_background_and_NC) ... ok
+test_optimization_and_missing_authorization (test_implementation.Checks.test_optimization_and_missing_authorization) ... ok
+test_outside_identity_does_not_decode_fields (test_implementation.Checks.test_outside_identity_does_not_decode_fields) ... ok
+test_prediction_schema_rejects_assessment_target (test_implementation.Checks.test_prediction_schema_rejects_assessment_target) ... ok
+test_preparation_unknown_not_zero (test_implementation.Checks.test_preparation_unknown_not_zero) ... ok
+test_prior_stage_pins_and_unsealed_payload (test_implementation.Checks.test_prior_stage_pins_and_unsealed_payload) ... ok
+test_seal_hash_and_overwrite_guards (test_implementation.Checks.test_seal_hash_and_overwrite_guards) ... ok
+test_selective_poison (test_implementation.Checks.test_selective_poison) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 0.318s
+
+OK

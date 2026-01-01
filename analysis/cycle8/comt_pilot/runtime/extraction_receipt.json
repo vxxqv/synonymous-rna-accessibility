@@ -1,0 +1,8 @@
+{
+  "method": "Verified official Windows R binary ZIP extraction into task-local library",
+  "package_archives": 64,
+  "files": 3677,
+  "download_manifest_sha256": "220a75adcc01fe7ffbb1a169815f968bb9b351079b317b7aadcfaed9f16ba75c",
+  "historical_installer_failure_preserved": "library_failed_longpath",
+  "no_global_library_modifications": true
+}

@@ -1,0 +1,98 @@
+{
+  "verdict": "PASS_BUILDING_BLOCKS_SUBJECT_TO_ALL_MAP_CRITERION_CLARIFICATION; HOLD_ACTUAL_DATA_PENDING_INTEGRATION",
+  "reviewed_inputs": [
+    {
+      "path": "work/research_cycle8/comt_pilot/protocol_v2.md",
+      "sha256": "97aea7e56ddf9c74a2fcbf4a17ce2bbd9280c8417d2534997835878b2a368d61"
+    },
+    {
+      "path": "work/research_cycle8/comt_pilot/prospective_reconstruction_amendment.md",
+      "sha256": "2f15418daf1e417193493eeb7c3370dae3451e8e69618427bfd13a73e28ff5e8"
+    },
+    {
+      "path": "work/research_cycle8/comt_pilot/proxy_models.py",
+      "sha256": "8811af9750e813c798122c7e936b6279a0f3b0e53fea1924cb2d633162a34093"
+    },
+    {
+      "path": "work/research_cycle8/comt_pilot/verify_proxy_models.py",
+      "sha256": "cca201d7ca1d089a31e119fa565c6b057c5a9afa511b076d240cbaaf2adf9f4c"
+    },
+    {
+      "path": "work/research_cycle8/comt_pilot/source_helpers.R",
+      "sha256": "884a47503530854694729922a11a06556ab1478ec68f82c5862dc8ead7a14db5"
+    },
+    {
+      "path": "work/research_cycle8/comt_pilot/handoff_manifest_v2.json",
+      "sha256": "2c01b827a3b7495a6b122910c6daeba6e54a070e13e8b858a4693a5e09436778"
+    },
+    {
+      "path": "work/research_cycle8/comt_pilot/fold_manifest.json",
+      "sha256": "b222dcd6a6c313c948e9f9de2d1725d08ccc1cd0776a36afa8ed727aa4848fd8"
+    },
+    {
+      "path": "work/research_cycle8/comt_pilot/runtime/runtime_manifest.json",
+      "sha256": "a97c2057080245e691640ca955af6248aa93102b58341b76f37f473461231c95"
+    },
+    {
+      "path": "work/research_cycle8/comt_pilot/runtime/download_manifest.json",
+      "sha256": "220a75adcc01fe7ffbb1a169815f968bb9b351079b317b7aadcfaed9f16ba75c"
+    },
+    {
+      "path": "work\\research_cycle8\\comt_gate\\source_contract.md",
+      "sha256": "eb9d4c8e86b265287724d34b3313fd06046f8f52d65ff94c3784180e7118fc9c"
+    },
+    {
+      "path": "work\\research_cycle8\\comt_gate\\replicate_contract_result.json",
+      "sha256": "7d8085ca4e77def1bdaf34a27e13eb0ff77a77b2af89016e392aaeb4de1cc8ac"
+    },
+    {
+      "path": "work\\research_cycle8\\comt_gate\\sequence_schema_audit.json",
+      "sha256": "398f1ecb17990a2d1769cc7eed45e9c565ebe2a56b52b047b787ac8f9f785d8d"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "held_kernel_replay\\proxy_models.py",
+      "sha256": "8811af9750e813c798122c7e936b6279a0f3b0e53fea1924cb2d633162a34093"
+    },
+    {
+      "path": "held_kernel_replay\\proxy_synthetic_receipt.json",
+      "sha256": "2ac00e32cf5fd76a133f9681d5942cbb5cade670b45c09af1a5aaa5b16ca6885"
+    },
+    {
+      "path": "held_kernel_replay\\verify_proxy_models.py",
+      "sha256": "cca201d7ca1d089a31e119fa565c6b057c5a9afa511b076d240cbaaf2adf9f4c"
+    },
+    {
+      "path": "independent_kernel_checks.json",
+      "sha256": "0eb64ec7fd9f7b9ce9d5f539b564e8f9203a29bd7cebfd6293d44890af8e50fd"
+    },
+    {
+      "path": "independent_kernel_checks.py",
+      "sha256": "c85e99a94f88e2d32acdb2330f5c981cff6cc374b70fddde924b32e2d0bd7ca2"
+    },
+    {
+      "path": "review.md",
+      "sha256": "c0300a89743cc4b3f12d0f156b6c90b8574ebdf653c9b20fb4ff2f142b754dc9"
+    },
+    {
+      "path": "shared_reference_checks.json",
+      "sha256": "b2ca4872bc75fd0401d0fa37417ac8c94ae94c60561a54c60f88447e0b7dc3c8"
+    },
+    {
+      "path": "shared_reference_checks.py",
+      "sha256": "733122a4fef3a07a24c13d92ee4ebdfe40307f0eb0525b011effbc5e36f44402"
+    },
+    {
+      "path": "source_and_estimand_findings.md",
+      "sha256": "2fe7b8f3695a1289c5c49477d2f4961832f87960482f3cc67903f2450b21fc9c"
+    }
+  ],
+  "source_outcome_or_count_values_read": false,
+  "author_source_simulation_values_read": false,
+  "independent_kernel_reference_checks": 166,
+  "unchanged_author_harness_replay_checks": 550,
+  "runtime_package_hashes_checked": 3677,
+  "Rscript_hash_matches": true,
+  "historical_equivalence_authenticated": false
+}

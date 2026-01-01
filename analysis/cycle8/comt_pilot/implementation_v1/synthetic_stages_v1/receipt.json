@@ -1,0 +1,15 @@
+{
+  "status": "PASS_SYNTHETIC_ONLY",
+  "real_source_rows_read": 0,
+  "targets": 125,
+  "sites": 53,
+  "SNVs": 113,
+  "SNV_sites": 52,
+  "cases": 2,
+  "modes": 2,
+  "models": 5,
+  "sealed_prediction_then_evaluation": true,
+  "bad_seal_refused_before_output": true,
+  "source_sha256": "881b37328401ef8ae940e44a91923460096d8534cbe5859f3aaac9617091d86c",
+  "evaluation_sha256": "30169a53447925632382361d0e0e9b9b2816b72a18110d3a77bd0f0c582f3ed9"
+}

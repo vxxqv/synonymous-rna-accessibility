@@ -1,0 +1,22 @@
+{
+  "status": "PASS_SYNTHETIC_ONLY",
+  "checks": 545,
+  "source_outcome_rows_read": 0,
+  "discarded_sequential_pathology": {
+    "true_assessment_target": "1/2",
+    "sequential_prediction": "1",
+    "joint_prediction": "1/2",
+    "training_PAVA_residual": "0"
+  },
+  "shared_reference_coupling_controls": [
+    "R=-T from gDNA noise",
+    "T=R+L from RNA noise without biological load effect"
+  ],
+  "method_limits": [
+    "No trained biological models",
+    "Finite numeric input arithmetic is exact, underlying logs are not",
+    "No biological uncertainty calibration"
+  ],
+  "source_sha256": "81736dc5872c1543b1a04c1d4535bf94846622aa094a1ab27d8ddb25a621204c",
+  "test_sha256": "fcc9e83293909af3d536a710b122a3a7283faf588d8ac0e2f3aacaa2a7a871f7"
+}

@@ -1,0 +1,79 @@
+{
+  "status": "NEW_RUNTIME_AND_SYNTHETIC_KERNEL_READY_FOR_REVIEW_NOT_OUTCOME_READY",
+  "sources_held_for_review": true,
+  "remaining_blockers": [
+    "Selective raw reader and integrated normalization pipeline unfinished",
+    "Preparation/sample/identifier join integration unfinished",
+    "Staged prediction/evaluation driver and hash guards unfinished",
+    "Independent review and root freeze before any observed input decoding"
+  ],
+  "files": {
+    "protocol_v2.md": {
+      "sha256": "97aea7e56ddf9c74a2fcbf4a17ce2bbd9280c8417d2534997835878b2a368d61",
+      "bytes": 15049
+    },
+    "prospective_reconstruction_amendment.md": {
+      "sha256": "2f15418daf1e417193493eeb7c3370dae3451e8e69618427bfd13a73e28ff5e8",
+      "bytes": 9619
+    },
+    "proxy_models.py": {
+      "sha256": "8811af9750e813c798122c7e936b6279a0f3b0e53fea1924cb2d633162a34093",
+      "bytes": 6762
+    },
+    "verify_proxy_models.py": {
+      "sha256": "cca201d7ca1d089a31e119fa565c6b057c5a9afa511b076d240cbaaf2adf9f4c",
+      "bytes": 6296
+    },
+    "proxy_synthetic_receipt.json": {
+      "sha256": "2ac00e32cf5fd76a133f9681d5942cbb5cade670b45c09af1a5aaa5b16ca6885",
+      "bytes": 882
+    },
+    "source_helpers.R": {
+      "sha256": "884a47503530854694729922a11a06556ab1478ec68f82c5862dc8ead7a14db5",
+      "bytes": 2832
+    },
+    "verify_runtime_helpers.R": {
+      "sha256": "f70eebadf24a03249630cf35e40a49da14b5f5055609045795391777b3b6d736",
+      "bytes": 1690
+    },
+    "runtime/runtime_manifest.json": {
+      "sha256": "a97c2057080245e691640ca955af6248aa93102b58341b76f37f473461231c95",
+      "bytes": 415017
+    },
+    "runtime/download_manifest.json": {
+      "sha256": "220a75adcc01fe7ffbb1a169815f968bb9b351079b317b7aadcfaed9f16ba75c",
+      "bytes": 25481
+    },
+    "runtime/helper_ast_hashes.tsv": {
+      "sha256": "90e23d00b727b34f73e4b09640dd9a2963a2f9f15b0c2c6dc7b6003bce74a5ab",
+      "bytes": 1526
+    },
+    "runtime/synthetic_rf_receipt.txt": {
+      "sha256": "383991e7fa839286cb01aabc7170d1079e6b47d10995eef328c390ba4ceba570",
+      "bytes": 254
+    },
+    "runtime/synthetic_rf_receipt.rds": {
+      "sha256": "ada608ea8a9d934f90871a8ace7ce8fa1d4c5bfc57dad95aca9db95304c5deaf",
+      "bytes": 404
+    },
+    "fold_manifest.json": {
+      "sha256": "b222dcd6a6c313c948e9f9de2d1725d08ccc1cd0776a36afa8ed727aa4848fd8",
+      "bytes": 23952
+    },
+    "source_state_audit.json": {
+      "sha256": "7321af0cef7b01c6c4ed1cc762f47f3993028c17ed9d3a7a54a7432e30b430e6",
+      "bytes": 1161
+    },
+    "synthetic_dependency_receipt.json": {
+      "sha256": "12292f0928f25ebf59bb666f3923fd6cdf2415a127056770799cd132015c5a6a",
+      "bytes": 392
+    },
+    "exposure_ledger_v2.json": {
+      "sha256": "323e41b8b15a7e991997ca9f0ed3c74814d61b16feb19c4096e8fde383d100d9",
+      "bytes": 826
+    }
+  },
+  "no_shared_repository_edits": true,
+  "no_observed_data_decoded": true,
+  "original_draft_and_handoff_manifest_preserved": true
+}

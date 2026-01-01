@@ -1,0 +1,11 @@
+PASS_SYNTHETIC_ONLY
+source_count_rows_read=0
+repeat_identical=TRUE
+helper_function_AST_identical=TRUE
+hamming_type_categories=3
+raw_representation_checks=4
+floor_fold_remainder=3
+nested_cv_folds=5
+RF_grid=3:10
+caret_bootstraps=25
+RF_trees=500

@@ -1,0 +1,19 @@
+{
+  "source_count_rows_decoded": 0,
+  "source_simulation_rows_decoded": 0,
+  "published_variant_scores_decoded": 0,
+  "metadata_only": [
+    "All125source-ascertainedidentifiersand53sites",
+    "CRANpackageindexes,sourceandbinarypackagefiles",
+    "Rruntimeandpackageversions"
+  ],
+  "incidental_source_prose_exposure": [
+    "Notebook comments about expected RNA/protein and polysome relationships were visible in targeted source-code search; no new numeric variant values were opened."
+  ],
+  "synthetic_only": [
+    "Exact denominator examples",
+    "Five-model kernel controls",
+    "RF nested CV on generated synthetic matrix"
+  ],
+  "authorization": "Parent chose a new fixed-runtime reconstruction and authorized only task-local dependency installation; real data evaluation remains unauthorized."
+}

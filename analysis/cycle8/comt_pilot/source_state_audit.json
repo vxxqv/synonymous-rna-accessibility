@@ -1,0 +1,25 @@
+{
+  "status": "BLOCKED_FOR_FAITHFUL_HISTORICAL_FILTER_RECONSTRUCTION",
+  "source_count_bodies_decoded": 0,
+  "source_rejection_or_model_or_runtime_artifacts_in_inventory": [],
+  "simulation_truth_files": [
+    "integrative_MAVEs_submit/COMT_03NOV2022/sim/COMT_108_train.truth.vcf",
+    "integrative_MAVEs_submit/COMT_03NOV2022/sim/COMT_109_train.truth.vcf"
+  ],
+  "simulation_summary_files": [
+    "integrative_MAVEs_submit/COMT_03NOV2022/sim/COMT_108_train.var.cand.vcf.summary.txt",
+    "integrative_MAVEs_submit/COMT_03NOV2022/sim/COMT_109_train.var.cand.vcf.summary.txt"
+  ],
+  "seed_found": 9,
+  "helper_history_last_changes": {
+    "modeling_utils.r": "2022-11-21",
+    "summarization_utils.r": "2022-12-06"
+  },
+  "R_runtime_detected": "4.6.1",
+  "required_R_packages_absent": [
+    "data.table",
+    "randomForest",
+    "caret"
+  ],
+  "missing_record": "Historical global SNP rejection map, fitted model state, or authenticated runtime and model reconstruction recipe sufficient to reproduce that map. A new explicitly pinned reconstruction is possible only as an approved amendment, not an unreported historical reproduction."
+}

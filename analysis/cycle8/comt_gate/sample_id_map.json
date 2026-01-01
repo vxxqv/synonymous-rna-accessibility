@@ -1,0 +1,787 @@
+[
+  {
+    "GSM": "GSM7856941",
+    "Sample_title": "Conventional_RiboSeq_UTR5_Flag_COMT_moxGFP",
+    "Sample_description": "20210607-conventional"
+  },
+  {
+    "GSM": "GSM7856944",
+    "Sample_title": "ROI1_total_RNA_biorep1_techrep1",
+    "Sample_description": "COMT_1"
+  },
+  {
+    "GSM": "GSM7856945",
+    "Sample_title": "ROI1_total_RNA_biorep1_techrep2",
+    "Sample_description": "COMT_2"
+  },
+  {
+    "GSM": "GSM7856946",
+    "Sample_title": "ROI1_total_RNA_biorep1_techrep3",
+    "Sample_description": "COMT_3"
+  },
+  {
+    "GSM": "GSM7856947",
+    "Sample_title": "ROI1_total_RNA_biorep2_techrep1",
+    "Sample_description": "COMT_4"
+  },
+  {
+    "GSM": "GSM7856948",
+    "Sample_title": "ROI1_total_RNA_biorep2_techrep2",
+    "Sample_description": "COMT_5"
+  },
+  {
+    "GSM": "GSM7856949",
+    "Sample_title": "ROI1_total_RNA_biorep2_techrep3",
+    "Sample_description": "COMT_6"
+  },
+  {
+    "GSM": "GSM7856950",
+    "Sample_title": "ROI1_fractionated_RNA_biorep1_techrep1_F'1",
+    "Sample_description": "COMT_7"
+  },
+  {
+    "GSM": "GSM7856951",
+    "Sample_title": "ROI1_fractionated_RNA_biorep1_techrep1_F'2",
+    "Sample_description": "COMT_8"
+  },
+  {
+    "GSM": "GSM7856952",
+    "Sample_title": "ROI1_fractionated_RNA_biorep1_techrep1_F'3",
+    "Sample_description": "COMT_9"
+  },
+  {
+    "GSM": "GSM7856953",
+    "Sample_title": "ROI1_fractionated_RNA_biorep1_techrep1_F'4",
+    "Sample_description": "COMT_10"
+  },
+  {
+    "GSM": "GSM7856954",
+    "Sample_title": "ROI1_fractionated_RNA_biorep1_techrep1_F'5",
+    "Sample_description": "COMT_11"
+  },
+  {
+    "GSM": "GSM7856955",
+    "Sample_title": "ROI1_fractionated_RNA_biorep1_techrep2_F'1",
+    "Sample_description": "COMT_12"
+  },
+  {
+    "GSM": "GSM7856956",
+    "Sample_title": "ROI1_fractionated_RNA_biorep1_techrep2_F'2",
+    "Sample_description": "COMT_13"
+  },
+  {
+    "GSM": "GSM7856957",
+    "Sample_title": "ROI1_fractionated_RNA_biorep1_techrep2_F'3",
+    "Sample_description": "COMT_14"
+  },
+  {
+    "GSM": "GSM7856958",
+    "Sample_title": "ROI1_fractionated_RNA_biorep1_techrep2_F'4",
+    "Sample_description": "COMT_15"
+  },
+  {
+    "GSM": "GSM7856959",
+    "Sample_title": "ROI1_fractionated_RNA_biorep1_techrep2_F'5",
+    "Sample_description": "COMT_16"
+  },
+  {
+    "GSM": "GSM7856960",
+    "Sample_title": "ROI1_fractionated_RNA_biorep1_techrep3_F'1",
+    "Sample_description": "COMT_17"
+  },
+  {
+    "GSM": "GSM7856961",
+    "Sample_title": "ROI1_fractionated_RNA_biorep1_techrep3_F'2",
+    "Sample_description": "COMT_18"
+  },
+  {
+    "GSM": "GSM7856962",
+    "Sample_title": "ROI1_fractionated_RNA_biorep1_techrep3_F'3",
+    "Sample_description": "COMT_19"
+  },
+  {
+    "GSM": "GSM7856963",
+    "Sample_title": "ROI1_fractionated_RNA_biorep1_techrep3_F'4",
+    "Sample_description": "COMT_20"
+  },
+  {
+    "GSM": "GSM7856964",
+    "Sample_title": "ROI1_fractionated_RNA_biorep1_techrep3_F'5",
+    "Sample_description": "COMT_21"
+  },
+  {
+    "GSM": "GSM7856965",
+    "Sample_title": "ROI1_fractionated_RNA_biorep2_techrep1_F'1",
+    "Sample_description": "COMT_22"
+  },
+  {
+    "GSM": "GSM7856966",
+    "Sample_title": "ROI1_fractionated_RNA_biorep2_techrep1_F'2",
+    "Sample_description": "COMT_23"
+  },
+  {
+    "GSM": "GSM7856967",
+    "Sample_title": "ROI1_fractionated_RNA_biorep2_techrep1_F'3",
+    "Sample_description": "COMT_24"
+  },
+  {
+    "GSM": "GSM7856968",
+    "Sample_title": "ROI1_fractionated_RNA_biorep2_techrep1_F'4",
+    "Sample_description": "COMT_25"
+  },
+  {
+    "GSM": "GSM7856969",
+    "Sample_title": "ROI1_fractionated_RNA_biorep2_techrep1_F'5",
+    "Sample_description": "COMT_26"
+  },
+  {
+    "GSM": "GSM7856970",
+    "Sample_title": "ROI1_fractionated_RNA_biorep2_techrep2_F'1",
+    "Sample_description": "COMT_27"
+  },
+  {
+    "GSM": "GSM7856971",
+    "Sample_title": "ROI1_fractionated_RNA_biorep2_techrep2_F'2",
+    "Sample_description": "COMT_28"
+  },
+  {
+    "GSM": "GSM7856972",
+    "Sample_title": "ROI1_fractionated_RNA_biorep2_techrep2_F'3",
+    "Sample_description": "COMT_29"
+  },
+  {
+    "GSM": "GSM7856973",
+    "Sample_title": "ROI1_fractionated_RNA_biorep2_techrep2_F'4",
+    "Sample_description": "COMT_30"
+  },
+  {
+    "GSM": "GSM7856974",
+    "Sample_title": "ROI1_fractionated_RNA_biorep2_techrep2_F'5",
+    "Sample_description": "COMT_31"
+  },
+  {
+    "GSM": "GSM7856975",
+    "Sample_title": "ROI1_fractionated_RNA_biorep2_techrep3_F'1",
+    "Sample_description": "COMT_32"
+  },
+  {
+    "GSM": "GSM7856976",
+    "Sample_title": "ROI1_fractionated_RNA_biorep2_techrep3_F'2",
+    "Sample_description": "COMT_33"
+  },
+  {
+    "GSM": "GSM7856977",
+    "Sample_title": "ROI1_fractionated_RNA_biorep2_techrep3_F'3",
+    "Sample_description": "COMT_34"
+  },
+  {
+    "GSM": "GSM7856978",
+    "Sample_title": "ROI1_fractionated_RNA_biorep2_techrep3_F'4",
+    "Sample_description": "COMT_35"
+  },
+  {
+    "GSM": "GSM7856979",
+    "Sample_title": "ROI1_fractionated_RNA_biorep2_techrep3_F'5",
+    "Sample_description": "COMT_36"
+  },
+  {
+    "GSM": "GSM7856980",
+    "Sample_title": "ROI1_genomic_DNA_biorep1_techrep1",
+    "Sample_description": "COMT_37"
+  },
+  {
+    "GSM": "GSM7856981",
+    "Sample_title": "ROI1_genomic_DNA_biorep2_techrep1",
+    "Sample_description": "COMT_38"
+  },
+  {
+    "GSM": "GSM7856982",
+    "Sample_title": "ROI1_genomic_DNA_biorep2_techrep2",
+    "Sample_description": "COMT_39"
+  },
+  {
+    "GSM": "GSM7856983",
+    "Sample_title": "ROI1_WT_plasmid_techrep1",
+    "Sample_description": "COMT_40"
+  },
+  {
+    "GSM": "GSM7856984",
+    "Sample_title": "ROI1_library_plasmid_techrep1",
+    "Sample_description": "COMT_41"
+  },
+  {
+    "GSM": "GSM7856985",
+    "Sample_title": "ROI1_genomic_DNA_FC_biorep2_techrep1_input",
+    "Sample_description": "COMT_42"
+  },
+  {
+    "GSM": "GSM7856986",
+    "Sample_title": "ROI1_genomic_DNA_FC_biorep2_techrep1_P3",
+    "Sample_description": "COMT_43"
+  },
+  {
+    "GSM": "GSM7856987",
+    "Sample_title": "ROI1_genomic_DNA_FC_biorep2_techrep1_P4",
+    "Sample_description": "COMT_44"
+  },
+  {
+    "GSM": "GSM7856988",
+    "Sample_title": "ROI1_genomic_DNA_FC_biorep2_techrep1_P5",
+    "Sample_description": "COMT_45"
+  },
+  {
+    "GSM": "GSM7856989",
+    "Sample_title": "ROI1_genomic_DNA_FC_biorep2_techrep1_P6",
+    "Sample_description": "COMT_46"
+  },
+  {
+    "GSM": "GSM7856990",
+    "Sample_title": "ROI2_genomic_DNA_FC_biorep2_techrep1_input",
+    "Sample_description": "COMT_47"
+  },
+  {
+    "GSM": "GSM7856991",
+    "Sample_title": "ROI2_genomic_DNA_FC_biorep2_techrep1_P3",
+    "Sample_description": "COMT_48"
+  },
+  {
+    "GSM": "GSM7856992",
+    "Sample_title": "ROI2_genomic_DNA_FC_biorep2_techrep1_P4",
+    "Sample_description": "COMT_49"
+  },
+  {
+    "GSM": "GSM7856993",
+    "Sample_title": "ROI2_genomic_DNA_FC_biorep2_techrep1_P5",
+    "Sample_description": "COMT_50"
+  },
+  {
+    "GSM": "GSM7856994",
+    "Sample_title": "ROI2_genomic_DNA_FC_biorep2_techrep1_P6",
+    "Sample_description": "COMT_51"
+  },
+  {
+    "GSM": "GSM7856995",
+    "Sample_title": "ROI1_genomic_DNA_FC_biorep1_techrep1_input",
+    "Sample_description": "COMT_52"
+  },
+  {
+    "GSM": "GSM7856996",
+    "Sample_title": "ROI1_genomic_DNA_FC_biorep1_techrep1_P3",
+    "Sample_description": "COMT_53"
+  },
+  {
+    "GSM": "GSM7856997",
+    "Sample_title": "ROI1_genomic_DNA_FC_biorep1_techrep1_P4",
+    "Sample_description": "COMT_54"
+  },
+  {
+    "GSM": "GSM7856998",
+    "Sample_title": "ROI1_genomic_DNA_FC_biorep1_techrep1_P5",
+    "Sample_description": "COMT_55"
+  },
+  {
+    "GSM": "GSM7856999",
+    "Sample_title": "ROI1_genomic_DNA_FC_biorep1_techrep1_P6",
+    "Sample_description": "COMT_56"
+  },
+  {
+    "GSM": "GSM7857000",
+    "Sample_title": "ROI2_genomic_DNA_FC_biorep1_techrep1_input",
+    "Sample_description": "COMT_57"
+  },
+  {
+    "GSM": "GSM7857001",
+    "Sample_title": "ROI2_genomic_DNA_FC_biorep1_techrep1_P3",
+    "Sample_description": "COMT_58"
+  },
+  {
+    "GSM": "GSM7857002",
+    "Sample_title": "ROI2_genomic_DNA_FC_biorep1_techrep1_P4",
+    "Sample_description": "COMT_59"
+  },
+  {
+    "GSM": "GSM7857003",
+    "Sample_title": "ROI2_genomic_DNA_FC_biorep1_techrep1_P5",
+    "Sample_description": "COMT_60"
+  },
+  {
+    "GSM": "GSM7857004",
+    "Sample_title": "ROI2_genomic_DNA_FC_biorep1_techrep1_P6",
+    "Sample_description": "COMT_61"
+  },
+  {
+    "GSM": "GSM7857005",
+    "Sample_title": "ROI1_fractionated_RNA_biorep1_techrep1_F1",
+    "Sample_description": "COMT_62"
+  },
+  {
+    "GSM": "GSM7857006",
+    "Sample_title": "ROI1_fractionated_RNA_biorep1_techrep1_F2",
+    "Sample_description": "COMT_63"
+  },
+  {
+    "GSM": "GSM7857007",
+    "Sample_title": "ROI1_fractionated_RNA_biorep1_techrep1_F3",
+    "Sample_description": "COMT_64"
+  },
+  {
+    "GSM": "GSM7857008",
+    "Sample_title": "ROI1_fractionated_RNA_biorep1_techrep1_F4",
+    "Sample_description": "COMT_65"
+  },
+  {
+    "GSM": "GSM7857009",
+    "Sample_title": "ROI1_fractionated_RNA_biorep2_techrep1_F1",
+    "Sample_description": "COMT_66"
+  },
+  {
+    "GSM": "GSM7857010",
+    "Sample_title": "ROI1_fractionated_RNA_biorep2_techrep1_F2",
+    "Sample_description": "COMT_67"
+  },
+  {
+    "GSM": "GSM7857011",
+    "Sample_title": "ROI1_fractionated_RNA_biorep2_techrep1_F3",
+    "Sample_description": "COMT_68"
+  },
+  {
+    "GSM": "GSM7857012",
+    "Sample_title": "ROI1_fractionated_RNA_biorep2_techrep1_F4",
+    "Sample_description": "COMT_69"
+  },
+  {
+    "GSM": "GSM7857013",
+    "Sample_title": "ROI2_fractionated_RNA_biorep3_techrep1_F1",
+    "Sample_description": "COMT_86"
+  },
+  {
+    "GSM": "GSM7857014",
+    "Sample_title": "ROI2_fractionated_RNA_biorep3_techrep1_F2",
+    "Sample_description": "COMT_87"
+  },
+  {
+    "GSM": "GSM7857015",
+    "Sample_title": "ROI2_fractionated_RNA_biorep3_techrep1_F3",
+    "Sample_description": "COMT_88"
+  },
+  {
+    "GSM": "GSM7857016",
+    "Sample_title": "ROI2_fractionated_RNA_biorep3_techrep1_F4",
+    "Sample_description": "COMT_89"
+  },
+  {
+    "GSM": "GSM7857017",
+    "Sample_title": "ROI2_fractionated_RNA_biorep4_techrep1_F1",
+    "Sample_description": "COMT_90"
+  },
+  {
+    "GSM": "GSM7857018",
+    "Sample_title": "ROI2_fractionated_RNA_biorep4_techrep1_F2",
+    "Sample_description": "COMT_91"
+  },
+  {
+    "GSM": "GSM7857019",
+    "Sample_title": "ROI2_fractionated_RNA_biorep4_techrep1_F3",
+    "Sample_description": "COMT_92"
+  },
+  {
+    "GSM": "GSM7857020",
+    "Sample_title": "ROI2_fractionated_RNA_biorep4_techrep1_F4",
+    "Sample_description": "COMT_93"
+  },
+  {
+    "GSM": "GSM7857021",
+    "Sample_title": "ROI1_total_RNA_biorep1_techrep2 (COMT_94)",
+    "Sample_description": "COMT_94"
+  },
+  {
+    "GSM": "GSM7857022",
+    "Sample_title": "ROI1_total_RNA_biorep2_techrep3 (COMT_95)",
+    "Sample_description": "COMT_95"
+  },
+  {
+    "GSM": "GSM7857023",
+    "Sample_title": "ROI1_total_RNA_biorep3_techrep1",
+    "Sample_description": "COMT_96"
+  },
+  {
+    "GSM": "GSM7857024",
+    "Sample_title": "ROI1_total_RNA_biorep4_techrep1",
+    "Sample_description": "COMT_97"
+  },
+  {
+    "GSM": "GSM7857025",
+    "Sample_title": "ROI2_total_RNA_biorep1_techrep1",
+    "Sample_description": "COMT_98"
+  },
+  {
+    "GSM": "GSM7857026",
+    "Sample_title": "ROI2_total_RNA_biorep2_techrep1",
+    "Sample_description": "COMT_99"
+  },
+  {
+    "GSM": "GSM7857027",
+    "Sample_title": "ROI2_total_RNA_biorep3_techrep1",
+    "Sample_description": "COMT_100"
+  },
+  {
+    "GSM": "GSM7857028",
+    "Sample_title": "ROI2_total_RNA_biorep4_techrep1",
+    "Sample_description": "COMT_101"
+  },
+  {
+    "GSM": "GSM7857029",
+    "Sample_title": "ROI2_total_RNA_biorep1_techrep2",
+    "Sample_description": "COMT_102"
+  },
+  {
+    "GSM": "GSM7857030",
+    "Sample_title": "ROI2_total_RNA_biorep2_techrep2",
+    "Sample_description": "COMT_103"
+  },
+  {
+    "GSM": "GSM7857031",
+    "Sample_title": "ROI1_total_RNA_biorep3_techrep2",
+    "Sample_description": "COMT_104"
+  },
+  {
+    "GSM": "GSM7857032",
+    "Sample_title": "ROI1_total_RNA_biorep4_techrep2",
+    "Sample_description": "COMT_105"
+  },
+  {
+    "GSM": "GSM7857033",
+    "Sample_title": "ROI2_total_RNA_biorep3_techrep2",
+    "Sample_description": "COMT_106"
+  },
+  {
+    "GSM": "GSM7857034",
+    "Sample_title": "ROI2_total_RNA_biorep4_techrep2",
+    "Sample_description": "COMT_107"
+  },
+  {
+    "GSM": "GSM7857035",
+    "Sample_title": "ROI1_WT_plasmid_techrep2",
+    "Sample_description": "COMT_108"
+  },
+  {
+    "GSM": "GSM7857036",
+    "Sample_title": "ROI2_WT_plasmid_techrep1",
+    "Sample_description": "COMT_109"
+  },
+  {
+    "GSM": "GSM7857037",
+    "Sample_title": "ROI1_library_plasmid_techrep2",
+    "Sample_description": "COMT_110"
+  },
+  {
+    "GSM": "GSM7857038",
+    "Sample_title": "ROI2_library_plasmid_techrep1",
+    "Sample_description": "COMT_111"
+  },
+  {
+    "GSM": "GSM7857039",
+    "Sample_title": "ROI1_genomic_DNA_biorep1_techrep2",
+    "Sample_description": "COMT_112"
+  },
+  {
+    "GSM": "GSM7857040",
+    "Sample_title": "ROI1_genomic_DNA_biorep2_techrep3",
+    "Sample_description": "COMT_113"
+  },
+  {
+    "GSM": "GSM7857041",
+    "Sample_title": "ROI1_genomic_DNA_biorep3_techrep1",
+    "Sample_description": "COMT_114"
+  },
+  {
+    "GSM": "GSM7857042",
+    "Sample_title": "ROI1_genomic_DNA_biorep4_techrep1",
+    "Sample_description": "COMT_115"
+  },
+  {
+    "GSM": "GSM7857043",
+    "Sample_title": "ROI2_genomic_DNA_biorep1_techrep1",
+    "Sample_description": "COMT_116"
+  },
+  {
+    "GSM": "GSM7857044",
+    "Sample_title": "ROI2_genomic_DNA_biorep2_techrep1",
+    "Sample_description": "COMT_117"
+  },
+  {
+    "GSM": "GSM7857045",
+    "Sample_title": "ROI2_genomic_DNA_biorep3_techrep1",
+    "Sample_description": "COMT_118"
+  },
+  {
+    "GSM": "GSM7857046",
+    "Sample_title": "ROI2_genomic_DNA_biorep4_techrep1",
+    "Sample_description": "COMT_119"
+  },
+  {
+    "GSM": "GSM7857047",
+    "Sample_title": "ROI1_genomic_DNA_FC_biorep3_techrep1_input",
+    "Sample_description": "COMT_120"
+  },
+  {
+    "GSM": "GSM7857048",
+    "Sample_title": "ROI1_genomic_DNA_FC_biorep3_techrep1_P3",
+    "Sample_description": "COMT_121"
+  },
+  {
+    "GSM": "GSM7857049",
+    "Sample_title": "ROI1_genomic_DNA_FC_biorep3_techrep1_P4",
+    "Sample_description": "COMT_122"
+  },
+  {
+    "GSM": "GSM7857050",
+    "Sample_title": "ROI1_genomic_DNA_FC_biorep3_techrep1_P5",
+    "Sample_description": "COMT_123"
+  },
+  {
+    "GSM": "GSM7857051",
+    "Sample_title": "ROI1_genomic_DNA_FC_biorep3_techrep1_P6",
+    "Sample_description": "COMT_124"
+  },
+  {
+    "GSM": "GSM7857052",
+    "Sample_title": "ROI2_genomic_DNA_FC_biorep3_techrep1_input",
+    "Sample_description": "COMT_125"
+  },
+  {
+    "GSM": "GSM7857053",
+    "Sample_title": "ROI2_genomic_DNA_FC_biorep3_techrep1_P3",
+    "Sample_description": "COMT_126"
+  },
+  {
+    "GSM": "GSM7857054",
+    "Sample_title": "ROI2_genomic_DNA_FC_biorep3_techrep1_P4",
+    "Sample_description": "COMT_127"
+  },
+  {
+    "GSM": "GSM7857055",
+    "Sample_title": "ROI2_genomic_DNA_FC_biorep3_techrep1_P5",
+    "Sample_description": "COMT_128"
+  },
+  {
+    "GSM": "GSM7857056",
+    "Sample_title": "ROI2_genomic_DNA_FC_biorep3_techrep1_P6",
+    "Sample_description": "COMT_129"
+  },
+  {
+    "GSM": "GSM7857057",
+    "Sample_title": "ROI1_genomic_DNA_FC_biorep4_techrep1_input",
+    "Sample_description": "COMT_130"
+  },
+  {
+    "GSM": "GSM7857058",
+    "Sample_title": "ROI1_genomic_DNA_FC_biorep4_techrep1_P3",
+    "Sample_description": "COMT_131"
+  },
+  {
+    "GSM": "GSM7857059",
+    "Sample_title": "ROI1_genomic_DNA_FC_biorep4_techrep1_P4",
+    "Sample_description": "COMT_132"
+  },
+  {
+    "GSM": "GSM7857060",
+    "Sample_title": "ROI1_genomic_DNA_FC_biorep4_techrep1_P5",
+    "Sample_description": "COMT_133"
+  },
+  {
+    "GSM": "GSM7857061",
+    "Sample_title": "ROI1_genomic_DNA_FC_biorep4_techrep1_P6",
+    "Sample_description": "COMT_134"
+  },
+  {
+    "GSM": "GSM7857062",
+    "Sample_title": "ROI2_genomic_DNA_FC_biorep4_techrep1_input",
+    "Sample_description": "COMT_135"
+  },
+  {
+    "GSM": "GSM7857063",
+    "Sample_title": "ROI2_genomic_DNA_FC_biorep4_techrep1_P3",
+    "Sample_description": "COMT_136"
+  },
+  {
+    "GSM": "GSM7857064",
+    "Sample_title": "ROI2_genomic_DNA_FC_biorep4_techrep1_P4",
+    "Sample_description": "COMT_137"
+  },
+  {
+    "GSM": "GSM7857065",
+    "Sample_title": "ROI2_genomic_DNA_FC_biorep4_techrep1_P5",
+    "Sample_description": "COMT_138"
+  },
+  {
+    "GSM": "GSM7857066",
+    "Sample_title": "ROI2_genomic_DNA_FC_biorep4_techrep1_P6",
+    "Sample_description": "COMT_139"
+  },
+  {
+    "GSM": "GSM7857067",
+    "Sample_title": "ROI1_genomic_DNA_FC_biorep2_techrep2_P4",
+    "Sample_description": "COMT_140"
+  },
+  {
+    "GSM": "GSM7857068",
+    "Sample_title": "ROI2_genomic_DNA_FC_biorep2_techrep2_P3",
+    "Sample_description": "COMT_141"
+  },
+  {
+    "GSM": "GSM7857069",
+    "Sample_title": "ROI2_genomic_DNA_FC_biorep2_techrep2_P4",
+    "Sample_description": "COMT_142"
+  },
+  {
+    "GSM": "GSM7857070",
+    "Sample_title": "ROI2_genomic_DNA_FC_biorep2_techrep2_P5",
+    "Sample_description": "COMT_143"
+  },
+  {
+    "GSM": "GSM7857071",
+    "Sample_title": "ROI2_genomic_DNA_FC_biorep2_techrep2_P6",
+    "Sample_description": "COMT_144"
+  },
+  {
+    "GSM": "GSM7857072",
+    "Sample_title": "ROI2_genomic_DNA_FC_biorep1_techrep2_input",
+    "Sample_description": "COMT_145"
+  },
+  {
+    "GSM": "GSM7857073",
+    "Sample_title": "ROI1_genomic_DNA_FC_biorep3_techrep2_input",
+    "Sample_description": "COMT_146"
+  },
+  {
+    "GSM": "GSM7857074",
+    "Sample_title": "ROI1_fractionated_RNA_biorep3_techrep1_F1",
+    "Sample_description": "COMT_149"
+  },
+  {
+    "GSM": "GSM7857075",
+    "Sample_title": "ROI1_fractionated_RNA_biorep3_techrep1_F2",
+    "Sample_description": "COMT_150"
+  },
+  {
+    "GSM": "GSM7857076",
+    "Sample_title": "ROI1_fractionated_RNA_biorep3_techrep1_F3",
+    "Sample_description": "COMT_151"
+  },
+  {
+    "GSM": "GSM7857077",
+    "Sample_title": "ROI1_fractionated_RNA_biorep3_techrep1_F4",
+    "Sample_description": "COMT_152"
+  },
+  {
+    "GSM": "GSM7857078",
+    "Sample_title": "ROI1_fractionated_RNA_biorep4_techrep1_F1",
+    "Sample_description": "COMT_153"
+  },
+  {
+    "GSM": "GSM7857079",
+    "Sample_title": "ROI1_fractionated_RNA_biorep4_techrep1_F2",
+    "Sample_description": "COMT_154"
+  },
+  {
+    "GSM": "GSM7857080",
+    "Sample_title": "ROI1_fractionated_RNA_biorep4_techrep1_F3",
+    "Sample_description": "COMT_155"
+  },
+  {
+    "GSM": "GSM7857081",
+    "Sample_title": "ROI1_fractionated_RNA_biorep4_techrep1_F4",
+    "Sample_description": "COMT_156"
+  },
+  {
+    "GSM": "GSM7857082",
+    "Sample_title": "ROI2_fractionated_RNA_biorep1_techrep2_F1",
+    "Sample_description": "COMT_157"
+  },
+  {
+    "GSM": "GSM7857083",
+    "Sample_title": "ROI2_fractionated_RNA_biorep1_techrep2_F2",
+    "Sample_description": "COMT_158"
+  },
+  {
+    "GSM": "GSM7857084",
+    "Sample_title": "ROI2_fractionated_RNA_biorep1_techrep2_F3",
+    "Sample_description": "COMT_159"
+  },
+  {
+    "GSM": "GSM7857085",
+    "Sample_title": "ROI2_fractionated_RNA_biorep1_techrep2_F4",
+    "Sample_description": "COMT_160"
+  },
+  {
+    "GSM": "GSM7857086",
+    "Sample_title": "ROI2_fractionated_RNA_biorep2_techrep2_F1",
+    "Sample_description": "COMT_161"
+  },
+  {
+    "GSM": "GSM7857087",
+    "Sample_title": "ROI2_fractionated_RNA_biorep2_techrep2_F2",
+    "Sample_description": "COMT_162"
+  },
+  {
+    "GSM": "GSM7857088",
+    "Sample_title": "ROI2_fractionated_RNA_biorep2_techrep2_F3",
+    "Sample_description": "COMT_163"
+  },
+  {
+    "GSM": "GSM7857089",
+    "Sample_title": "ROI2_fractionated_RNA_biorep2_techrep2_F4",
+    "Sample_description": "COMT_164"
+  },
+  {
+    "GSM": "GSM7857090",
+    "Sample_title": "ROI2_fractionated_RNA_biorep1_techrep1_F1",
+    "Sample_description": "COMT_165"
+  },
+  {
+    "GSM": "GSM7857091",
+    "Sample_title": "ROI2_fractionated_RNA_biorep1_techrep1_F2",
+    "Sample_description": "COMT_166"
+  },
+  {
+    "GSM": "GSM7857092",
+    "Sample_title": "ROI2_fractionated_RNA_biorep1_techrep1_F3",
+    "Sample_description": "COMT_167"
+  },
+  {
+    "GSM": "GSM7857093",
+    "Sample_title": "ROI2_fractionated_RNA_biorep1_techrep1_F4",
+    "Sample_description": "COMT_168"
+  },
+  {
+    "GSM": "GSM7857094",
+    "Sample_title": "ROI2_fractionated_RNA_biorep2_techrep1_F1",
+    "Sample_description": "COMT_169"
+  },
+  {
+    "GSM": "GSM7857095",
+    "Sample_title": "ROI2_fractionated_RNA_biorep2_techrep1_F2",
+    "Sample_description": "COMT_170"
+  },
+  {
+    "GSM": "GSM7857096",
+    "Sample_title": "ROI2_fractionated_RNA_biorep2_techrep1_F3",
+    "Sample_description": "COMT_171"
+  },
+  {
+    "GSM": "GSM7857097",
+    "Sample_title": "ROI2_fractionated_RNA_biorep2_techrep1_F4",
+    "Sample_description": "COMT_172"
+  },
+  {
+    "GSM": "GSM7857098",
+    "Sample_title": "ROI1_WT_plasmid_techrep3",
+    "Sample_description": "COMT_173"
+  },
+  {
+    "GSM": "GSM7857099",
+    "Sample_title": "ROI2_WT_plasmid_techrep2",
+    "Sample_description": "COMT_174"
+  }
+]

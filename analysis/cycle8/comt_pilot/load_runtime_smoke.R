@@ -1,0 +1,8 @@
+base_dir <- normalizePath('work/research_cycle8/comt_pilot',winslash='/',mustWork=TRUE)
+.libPaths(c(file.path(base_dir,'runtime','library'),.Library))
+for(p in c('data.table','caret','randomForest','e1071')) library(p,character.only=TRUE)
+foreach::registerDoSEQ();data.table::setDTthreads(1L)
+stopifnot(foreach::getDoParWorkers()==1L)
+write.table(installed.packages(lib.loc=.libPaths())[,c('Package','Version','Built','LibPath')],file=file.path(base_dir,'runtime','installed_versions.tsv'),sep='\t',quote=FALSE,row.names=FALSE)
+sink(file.path(base_dir,'runtime','session_info.txt'));print(sessionInfo());print(.libPaths());sink()
+cat('LOCAL_RUNTIME_LOAD_PASS\n')

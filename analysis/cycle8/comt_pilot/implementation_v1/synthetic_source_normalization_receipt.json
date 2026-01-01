@@ -1,0 +1,13 @@
+{
+  "status": "PASS_INVENTED_SOURCE_NORMALIZATION",
+  "real_source_rows_read": 0,
+  "checks": 10,
+  "expected_ratios": {
+    "toy:1:AA:CC": "23/121",
+    "toy:1:A:G": "61/121"
+  },
+  "maximum_absolute_difference": 3.2231404958677687e-16,
+  "scope": "Source helper numerical collapse versus independent rational invented counts; not historical data equivalence.",
+  "input_sha256": "96872fe3dcf587d97851540e2ee15ea91aa1e3549cb23282fdfb5f31b82b88ac",
+  "verifier_sha256": "e98ef4596fb0d84d24a96f2977a05b72c4da761ceecc882e17ba2bb82a93079e"
+}

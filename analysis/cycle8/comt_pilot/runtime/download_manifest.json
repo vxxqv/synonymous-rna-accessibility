@@ -1,0 +1,645 @@
+{
+  "packages": [
+    {
+      "package": "ModelMetrics",
+      "version": "1.2.2.2",
+      "file": "runtime/downloads/ModelMetrics_1.2.2.2.zip",
+      "url": "https://cran.r-project.org/bin/windows/contrib/4.6/ModelMetrics_1.2.2.2.zip",
+      "bytes": 498126,
+      "internal_md5_checks": 27,
+      "sha256": "e78a48b416a447ba64cde0c28d81c6b16da45a734627ca504c9860136490cf3e",
+      "external_digest_available": false
+    },
+    {
+      "package": "R6",
+      "version": "2.6.1",
+      "file": "runtime/downloads/R6_2.6.1.zip",
+      "url": "https://cran.r-project.org/bin/windows/contrib/4.6/R6_2.6.1.zip",
+      "bytes": 90038,
+      "internal_md5_checks": 24,
+      "sha256": "d79bab6abcfc0fe8dc5d38cc63c4ace4ec1559f66b5238c12e9c99e15a323a2e",
+      "external_digest_available": false
+    },
+    {
+      "package": "RColorBrewer",
+      "version": "1.1-3",
+      "file": "runtime/downloads/RColorBrewer_1.1-3.zip",
+      "url": "https://cran.r-project.org/bin/windows/contrib/4.6/RColorBrewer_1.1-3.zip",
+      "bytes": 54704,
+      "internal_md5_checks": 20,
+      "sha256": "b8880e323f75149e90e0300684626a3de0692523a972932b27b7474dfa6beac7",
+      "external_digest_available": false
+    },
+    {
+      "package": "Rcpp",
+      "version": "1.1.2",
+      "file": "runtime/downloads/Rcpp_1.1.2.zip",
+      "url": "https://cran.r-project.org/bin/windows/contrib/4.6/Rcpp_1.1.2.zip",
+      "bytes": 2969488,
+      "internal_md5_checks": 646,
+      "sha256": "d2f9e91aab9396dfe53fefce127071c1c09236edbe471f24cfabe12ff436c3ce",
+      "external_digest_available": false
+    },
+    {
+      "package": "S7",
+      "version": "0.2.2",
+      "file": "runtime/downloads/S7_0.2.2.zip",
+      "url": "https://cran.r-project.org/bin/windows/contrib/4.6/S7_0.2.2.zip",
+      "bytes": 352211,
+      "internal_md5_checks": 47,
+      "sha256": "a0a1beff53d3b10eff65e9832fb26d30c7e7ffbf6b3eb3b1f9bcb890c07b089e",
+      "external_digest_available": false
+    },
+    {
+      "package": "SQUAREM",
+      "version": "2026.1",
+      "file": "runtime/downloads/SQUAREM_2026.1.zip",
+      "url": "https://cran.r-project.org/bin/windows/contrib/4.6/SQUAREM_2026.1.zip",
+      "bytes": 184005,
+      "internal_md5_checks": 32,
+      "sha256": "cb729c54bed72d3bd29a8bfd2f9eea5a958165136027adb56bf7edcc93be719e",
+      "external_digest_available": false
+    },
+    {
+      "package": "caret",
+      "version": "7.0-1",
+      "file": "runtime/downloads/caret_7.0-1.zip",
+      "url": "https://cran.r-project.org/bin/windows/contrib/4.6/caret_7.0-1.zip",
+      "bytes": 3603657,
+      "internal_md5_checks": 44,
+      "sha256": "1b8577eae543e9f7346a836dfa2b52b4291ac58b218f7a72acc452fd400f2d36",
+      "external_digest_available": false
+    },
+    {
+      "package": "cli",
+      "version": "3.6.6",
+      "file": "runtime/downloads/cli_3.6.6.zip",
+      "url": "https://cran.r-project.org/bin/windows/contrib/4.6/cli_3.6.6.zip",
+      "bytes": 1408597,
+      "internal_md5_checks": 63,
+      "sha256": "8ffcf10cef9d810770623257c8c603844ffb966d2479920ad3625bad6425be0d",
+      "external_digest_available": false
+    },
+    {
+      "package": "clock",
+      "version": "0.7.4",
+      "file": "runtime/downloads/clock_0.7.4.zip",
+      "url": "https://cran.r-project.org/bin/windows/contrib/4.6/clock_0.7.4.zip",
+      "bytes": 2318964,
+      "internal_md5_checks": 51,
+      "sha256": "4d937945783c1d9231ef19f91f071b832a7d7a195bcccba53ae77ab51c702148",
+      "external_digest_available": false
+    },
+    {
+      "package": "cpp11",
+      "version": "0.5.5",
+      "file": "runtime/downloads/cpp11_0.5.5.zip",
+      "url": "https://cran.r-project.org/bin/windows/contrib/4.6/cpp11_0.5.5.zip",
+      "bytes": 326879,
+      "internal_md5_checks": 66,
+      "sha256": "36445ebdde030943d654f9570a7fe9e7a50ec4cdf6132551703dfc7011f36218",
+      "external_digest_available": false
+    },
+    {
+      "package": "data.table",
+      "version": "1.18.6.1",
+      "file": "runtime/downloads/data.table_1.18.6.1.zip",
+      "url": "https://cran.r-project.org/bin/windows/contrib/4.6/data.table_1.18.6.1.zip",
+      "bytes": 3212939,
+      "internal_md5_checks": 163,
+      "sha256": "3c6a0b28394b52dde36a410568254688c9d47e74b1485edec5657f0a69b9eb07",
+      "external_digest_available": false
+    },
+    {
+      "package": "diagram",
+      "version": "1.6.5",
+      "file": "runtime/downloads/diagram_1.6.5.zip",
+      "url": "https://cran.r-project.org/bin/windows/contrib/4.6/diagram_1.6.5.zip",
+      "bytes": 689257,
+      "internal_md5_checks": 32,
+      "sha256": "56afb0cdff7bb238f2586fe9fedc2bc3163fd4a22a2860663477432833449252",
+      "external_digest_available": false
+    },
+    {
+      "package": "digest",
+      "version": "0.6.39",
+      "file": "runtime/downloads/digest_0.6.39.zip",
+      "url": "https://cran.r-project.org/bin/windows/contrib/4.6/digest_0.6.39.zip",
+      "bytes": 228571,
+      "internal_md5_checks": 44,
+      "sha256": "4f8a57238832cf0eeef6205a23e80b684af749d848cfe5962fbdb3ab65478076",
+      "external_digest_available": false
+    },
+    {
+      "package": "dplyr",
+      "version": "1.2.1",
+      "file": "runtime/downloads/dplyr_1.2.1.zip",
+      "url": "https://cran.r-project.org/bin/windows/contrib/4.6/dplyr_1.2.1.zip",
+      "bytes": 1623380,
+      "internal_md5_checks": 71,
+      "sha256": "f91c70fc2c53444aca81bd9be55f6389f665eed7a25947af5d8c94365d16bd69",
+      "external_digest_available": false
+    },
+    {
+      "package": "e1071",
+      "version": "1.7-17",
+      "file": "runtime/downloads/e1071_1.7-17.zip",
+      "url": "https://cran.r-project.org/bin/windows/contrib/4.6/e1071_1.7-17.zip",
+      "bytes": 669846,
+      "internal_md5_checks": 29,
+      "sha256": "85dcf804c53e448acc247d72ca9eefbd51dcf3182c00e2cfbe93e3087a301e07",
+      "external_digest_available": false
+    },
+    {
+      "package": "farver",
+      "version": "2.1.2",
+      "file": "runtime/downloads/farver_2.1.2.zip",
+      "url": "https://cran.r-project.org/bin/windows/contrib/4.6/farver_2.1.2.zip",
+      "bytes": 1529231,
+      "internal_md5_checks": 32,
+      "sha256": "6a83b4a3b0fef783fe8d6aa5da66f84cdfff858920f037c859d8e425b5209612",
+      "external_digest_available": false
+    },
+    {
+      "package": "foreach",
+      "version": "1.5.2",
+      "file": "runtime/downloads/foreach_1.5.2.zip",
+      "url": "https://cran.r-project.org/bin/windows/contrib/4.6/foreach_1.5.2.zip",
+      "bytes": 151089,
+      "internal_md5_checks": 55,
+      "sha256": "e2960c94df3ce516dc70a69ff5e8b3a03e784baa0d4346f6696ba84cbe10ce4d",
+      "external_digest_available": false
+    },
+    {
+      "package": "future",
+      "version": "1.80.0",
+      "file": "runtime/downloads/future_1.80.0.zip",
+      "url": "https://cran.r-project.org/bin/windows/contrib/4.6/future_1.80.0.zip",
+      "bytes": 1114051,
+      "internal_md5_checks": 182,
+      "sha256": "3f2af1d0826ce9b33d10733ab8bdf4e7903ebba5c4fe36de81d4565880f5829a",
+      "external_digest_available": false
+    },
+    {
+      "package": "future.apply",
+      "version": "1.21.0",
+      "file": "runtime/downloads/future.apply_1.21.0.zip",
+      "url": "https://cran.r-project.org/bin/windows/contrib/4.6/future.apply_1.21.0.zip",
+      "bytes": 218364,
+      "internal_md5_checks": 65,
+      "sha256": "58d9a19a0da6a694eccef599c96c42fa24ec6fe4edc572b258306cacd5068db5",
+      "external_digest_available": false
+    },
+    {
+      "package": "generics",
+      "version": "0.1.4",
+      "file": "runtime/downloads/generics_0.1.4.zip",
+      "url": "https://cran.r-project.org/bin/windows/contrib/4.6/generics_0.1.4.zip",
+      "bytes": 86502,
+      "internal_md5_checks": 22,
+      "sha256": "2b6720a415f09170e4594b52481606732b7f94acc2ce4d1afedf47520294c627",
+      "external_digest_available": false
+    },
+    {
+      "package": "ggplot2",
+      "version": "4.0.3",
+      "file": "runtime/downloads/ggplot2_4.0.3.zip",
+      "url": "https://cran.r-project.org/bin/windows/contrib/4.6/ggplot2_4.0.3.zip",
+      "bytes": 8471385,
+      "internal_md5_checks": 58,
+      "sha256": "f3d3e80ba515b3a4f33cf29f8823c0c16799f6a5b2e1c85bf5706cdb4aef5be3",
+      "external_digest_available": false
+    },
+    {
+      "package": "globals",
+      "version": "0.20.0",
+      "file": "runtime/downloads/globals_0.20.0.zip",
+      "url": "https://cran.r-project.org/bin/windows/contrib/4.6/globals_0.20.0.zip",
+      "bytes": 185087,
+      "internal_md5_checks": 54,
+      "sha256": "33dc4403c962658324975e151b64cb3e5109eaa7dfb174f0e0e8865cf424adb7",
+      "external_digest_available": false
+    },
+    {
+      "package": "glue",
+      "version": "1.8.1",
+      "file": "runtime/downloads/glue_1.8.1.zip",
+      "url": "https://cran.r-project.org/bin/windows/contrib/4.6/glue_1.8.1.zip",
+      "bytes": 192098,
+      "internal_md5_checks": 39,
+      "sha256": "8ed0ba3ea03312a11fb652fbbc893fee6deda2199d584195a3fb0238a3d27a05",
+      "external_digest_available": false
+    },
+    {
+      "package": "gower",
+      "version": "1.0.2",
+      "file": "runtime/downloads/gower_1.0.2.zip",
+      "url": "https://cran.r-project.org/bin/windows/contrib/4.6/gower_1.0.2.zip",
+      "bytes": 334003,
+      "internal_md5_checks": 30,
+      "sha256": "2d44f1d823d840e00fc692601ff8fe5b7a8b05b55b87c577c3c5261ed5e763cc",
+      "external_digest_available": false
+    },
+    {
+      "package": "gtable",
+      "version": "0.3.6",
+      "file": "runtime/downloads/gtable_0.3.6.zip",
+      "url": "https://cran.r-project.org/bin/windows/contrib/4.6/gtable_0.3.6.zip",
+      "bytes": 253126,
+      "internal_md5_checks": 40,
+      "sha256": "4148963b2c4f17ddb05f188b9f73e2b60f6f15b8844b16042d67ff6eb37d8f91",
+      "external_digest_available": false
+    },
+    {
+      "package": "hardhat",
+      "version": "1.4.3",
+      "file": "runtime/downloads/hardhat_1.4.3.zip",
+      "url": "https://cran.r-project.org/bin/windows/contrib/4.6/hardhat_1.4.3.zip",
+      "bytes": 901620,
+      "internal_md5_checks": 53,
+      "sha256": "b03629db011baf3b7f19bc5ff58c41147a409271bd1db741da1d75217dfd9bb8",
+      "external_digest_available": false
+    },
+    {
+      "package": "ipred",
+      "version": "0.9-16",
+      "file": "runtime/downloads/ipred_0.9-16.zip",
+      "url": "https://cran.r-project.org/bin/windows/contrib/4.6/ipred_0.9-16.zip",
+      "bytes": 399250,
+      "internal_md5_checks": 33,
+      "sha256": "6bb3af8944e62e963ec401a0bc060b6d18b7e8ade2ffb686bab7b1d6447d0ce6",
+      "external_digest_available": false
+    },
+    {
+      "package": "isoband",
+      "version": "0.3.0",
+      "file": "runtime/downloads/isoband_0.3.0.zip",
+      "url": "https://cran.r-project.org/bin/windows/contrib/4.6/isoband_0.3.0.zip",
+      "bytes": 1976947,
+      "internal_md5_checks": 36,
+      "sha256": "0c4f31283ee0bc2b59a4d1fc6afdc0548e82f3d1d95f4affd5f41bf3dd30a010",
+      "external_digest_available": false
+    },
+    {
+      "package": "iterators",
+      "version": "1.0.14",
+      "file": "runtime/downloads/iterators_1.0.14.zip",
+      "url": "https://cran.r-project.org/bin/windows/contrib/4.6/iterators_1.0.14.zip",
+      "bytes": 354247,
+      "internal_md5_checks": 47,
+      "sha256": "bbb92f8a78f125dd0b9c34c67d3a619b57cd065e8ec91bda02a73aa9f12cfa52",
+      "external_digest_available": false
+    },
+    {
+      "package": "labeling",
+      "version": "0.4.3",
+      "file": "runtime/downloads/labeling_0.4.3.zip",
+      "url": "https://cran.r-project.org/bin/windows/contrib/4.6/labeling_0.4.3.zip",
+      "bytes": 64255,
+      "internal_md5_checks": 20,
+      "sha256": "a5d4772de28813c6730a37e5a4b9605cf1b941344a319e56af7bacf4680ea82e",
+      "external_digest_available": false
+    },
+    {
+      "package": "lava",
+      "version": "1.9.3",
+      "file": "runtime/downloads/lava_1.9.3.zip",
+      "url": "https://cran.r-project.org/bin/windows/contrib/4.6/lava_1.9.3.zip",
+      "bytes": 2609641,
+      "internal_md5_checks": 65,
+      "sha256": "2c0afd2f9ce9d289f1c32bcf7d1f186987e65fb71a5c98f72cfc4544d02647c7",
+      "external_digest_available": false
+    },
+    {
+      "package": "lifecycle",
+      "version": "1.0.5",
+      "file": "runtime/downloads/lifecycle_1.0.5.zip",
+      "url": "https://cran.r-project.org/bin/windows/contrib/4.6/lifecycle_1.0.5.zip",
+      "bytes": 150708,
+      "internal_md5_checks": 45,
+      "sha256": "7267651683ef7260c86df74091226b142bd028331394f207f62a81679db2f9b3",
+      "external_digest_available": false
+    },
+    {
+      "package": "listenv",
+      "version": "1.1.0",
+      "file": "runtime/downloads/listenv_1.1.0.zip",
+      "url": "https://cran.r-project.org/bin/windows/contrib/4.6/listenv_1.1.0.zip",
+      "bytes": 147858,
+      "internal_md5_checks": 52,
+      "sha256": "6fc7e156dccf8a1c6d6c6014402af453f16a92ee647147388109acaa52c9362d",
+      "external_digest_available": false
+    },
+    {
+      "package": "lubridate",
+      "version": "1.9.5",
+      "file": "runtime/downloads/lubridate_1.9.5.zip",
+      "url": "https://cran.r-project.org/bin/windows/contrib/4.6/lubridate_1.9.5.zip",
+      "bytes": 998985,
+      "internal_md5_checks": 39,
+      "sha256": "0aa743fc488485bd3c299990f18efd026f467fa4b5f6c78063d2a3cbe6eb9891",
+      "external_digest_available": false
+    },
+    {
+      "package": "magrittr",
+      "version": "2.0.5",
+      "file": "runtime/downloads/magrittr_2.0.5.zip",
+      "url": "https://cran.r-project.org/bin/windows/contrib/4.6/magrittr_2.0.5.zip",
+      "bytes": 231300,
+      "internal_md5_checks": 38,
+      "sha256": "af187e30008002549e57802813baf482fc224a773bc9f3d0d424a225ef16310d",
+      "external_digest_available": false
+    },
+    {
+      "package": "numDeriv",
+      "version": "2016.8-1.1",
+      "file": "runtime/downloads/numDeriv_2016.8-1.1.zip",
+      "url": "https://cran.r-project.org/bin/windows/contrib/4.6/numDeriv_2016.8-1.1.zip",
+      "bytes": 117712,
+      "internal_md5_checks": 25,
+      "sha256": "071535e7b67020e8f0e6763691dc59159a06b7f19d44c793677dd48e0c3eff25",
+      "external_digest_available": false
+    },
+    {
+      "package": "pROC",
+      "version": "1.19.1",
+      "file": "runtime/downloads/pROC_1.19.1.zip",
+      "url": "https://cran.r-project.org/bin/windows/contrib/4.6/pROC_1.19.1.zip",
+      "bytes": 1343320,
+      "internal_md5_checks": 39,
+      "sha256": "0a9ab2c6b54ef8e0aa42c3cf8d9dd235722d17df95da53e879f0e7b9d9874caf",
+      "external_digest_available": false
+    },
+    {
+      "package": "parallelly",
+      "version": "1.48.0",
+      "file": "runtime/downloads/parallelly_1.48.0.zip",
+      "url": "https://cran.r-project.org/bin/windows/contrib/4.6/parallelly_1.48.0.zip",
+      "bytes": 682248,
+      "internal_md5_checks": 117,
+      "sha256": "263cb0545e67a651ef0b5db9741341b5064911cb40abeefed2bd6e0fd2e73a62",
+      "external_digest_available": false
+    },
+    {
+      "package": "pillar",
+      "version": "1.11.1",
+      "file": "runtime/downloads/pillar_1.11.1.zip",
+      "url": "https://cran.r-project.org/bin/windows/contrib/4.6/pillar_1.11.1.zip",
+      "bytes": 675583,
+      "internal_md5_checks": 48,
+      "sha256": "475c36caef367fed5337915aa0f965d2eef9b92becc253557ac0239ec54d8a59",
+      "external_digest_available": false
+    },
+    {
+      "package": "pkgconfig",
+      "version": "2.0.3",
+      "file": "runtime/downloads/pkgconfig_2.0.3.zip",
+      "url": "https://cran.r-project.org/bin/windows/contrib/4.6/pkgconfig_2.0.3.zip",
+      "bytes": 23253,
+      "internal_md5_checks": 23,
+      "sha256": "1dcfbfe0b9d2b9e47dfffd8a6aa36a4cc32c86883a1143a60666172f3ec8cea0",
+      "external_digest_available": false
+    },
+    {
+      "package": "plyr",
+      "version": "1.8.9",
+      "file": "runtime/downloads/plyr_1.8.9.zip",
+      "url": "https://cran.r-project.org/bin/windows/contrib/4.6/plyr_1.8.9.zip",
+      "bytes": 1126563,
+      "internal_md5_checks": 29,
+      "sha256": "1afe1aa297c42d7f7478a136347270ecbbfdf430b61ac347309e1d02ec4133a5",
+      "external_digest_available": false
+    },
+    {
+      "package": "prodlim",
+      "version": "2026.03.11",
+      "file": "runtime/downloads/prodlim_2026.03.11.zip",
+      "url": "https://cran.r-project.org/bin/windows/contrib/4.6/prodlim_2026.03.11.zip",
+      "bytes": 537234,
+      "internal_md5_checks": 22,
+      "sha256": "96334356903ee92e37b1f3dbe412eea553e90a6a3c843e0ec9747b9a7f14e7af",
+      "external_digest_available": false
+    },
+    {
+      "package": "progressr",
+      "version": "1.1.0",
+      "file": "runtime/downloads/progressr_1.1.0.zip",
+      "url": "https://cran.r-project.org/bin/windows/contrib/4.6/progressr_1.1.0.zip",
+      "bytes": 621206,
+      "internal_md5_checks": 119,
+      "sha256": "20853fa91de00155a0deec46eebe8fd9383a30a592df522a9a380aec38e58d06",
+      "external_digest_available": false
+    },
+    {
+      "package": "proxy",
+      "version": "0.4-29",
+      "file": "runtime/downloads/proxy_0.4-29.zip",
+      "url": "https://cran.r-project.org/bin/windows/contrib/4.6/proxy_0.4-29.zip",
+      "bytes": 178330,
+      "internal_md5_checks": 27,
+      "sha256": "d70c052068c99bc057fe852e92f300f4f88b66ed65f073cd5e31ea1109f148fc",
+      "external_digest_available": false
+    },
+    {
+      "package": "purrr",
+      "version": "1.2.2",
+      "file": "runtime/downloads/purrr_1.2.2.zip",
+      "url": "https://cran.r-project.org/bin/windows/contrib/4.6/purrr_1.2.2.zip",
+      "bytes": 573346,
+      "internal_md5_checks": 44,
+      "sha256": "5f4b4148985f707e0d0c6a95d51f2ce10f325cb367e06ef9e036687b597673fc",
+      "external_digest_available": false
+    },
+    {
+      "package": "randomForest",
+      "version": "4.7-1.2",
+      "file": "runtime/downloads/randomForest_4.7-1.2.zip",
+      "url": "https://cran.r-project.org/bin/windows/contrib/4.6/randomForest_4.7-1.2.zip",
+      "bytes": 226533,
+      "internal_md5_checks": 25,
+      "sha256": "a64fc16ce78c7b6ccd5091f35dabc7ca16ceaee076606b03446971f30e1b1483",
+      "external_digest_available": false
+    },
+    {
+      "package": "recipes",
+      "version": "1.4.0",
+      "file": "runtime/downloads/recipes_1.4.0.zip",
+      "url": "https://cran.r-project.org/bin/windows/contrib/4.6/recipes_1.4.0.zip",
+      "bytes": 1767857,
+      "internal_md5_checks": 53,
+      "sha256": "087f8ab7e22354601c2d6c78b0e63e2a35ed190c819f03364e58a5b6827b066c",
+      "external_digest_available": false
+    },
+    {
+      "package": "reshape2",
+      "version": "1.4.5",
+      "file": "runtime/downloads/reshape2_1.4.5.zip",
+      "url": "https://cran.r-project.org/bin/windows/contrib/4.6/reshape2_1.4.5.zip",
+      "bytes": 457394,
+      "internal_md5_checks": 29,
+      "sha256": "327e054d33f7d251f7d8d7f4973129cfdc72f680a6918d8550b37d4ec202f0cd",
+      "external_digest_available": false
+    },
+    {
+      "package": "rlang",
+      "version": "1.3.0",
+      "file": "runtime/downloads/rlang_1.3.0.zip",
+      "url": "https://cran.r-project.org/bin/windows/contrib/4.6/rlang_1.3.0.zip",
+      "bytes": 1651167,
+      "internal_md5_checks": 36,
+      "sha256": "93f66f7c398c6f66014cea32616d2eff5839ecebbe178ba2ca7c33d00aa28840",
+      "external_digest_available": false
+    },
+    {
+      "package": "scales",
+      "version": "1.4.0",
+      "file": "runtime/downloads/scales_1.4.0.zip",
+      "url": "https://cran.r-project.org/bin/windows/contrib/4.6/scales_1.4.0.zip",
+      "bytes": 881968,
+      "internal_md5_checks": 39,
+      "sha256": "bdea8d1dace3a3a0a41b68155aa8e58b6de931ffed63a82d619284bb21490fc1",
+      "external_digest_available": false
+    },
+    {
+      "package": "shape",
+      "version": "1.4.6.1",
+      "file": "runtime/downloads/shape_1.4.6.1.zip",
+      "url": "https://cran.r-project.org/bin/windows/contrib/4.6/shape_1.4.6.1.zip",
+      "bytes": 755324,
+      "internal_md5_checks": 26,
+      "sha256": "a8b8c04cfeab81a247f29aa6adfde390d131c7115bdb8ec0d61c820f6bc748ce",
+      "external_digest_available": false
+    },
+    {
+      "package": "sparsevctrs",
+      "version": "0.3.6",
+      "file": "runtime/downloads/sparsevctrs_0.3.6.zip",
+      "url": "https://cran.r-project.org/bin/windows/contrib/4.6/sparsevctrs_0.3.6.zip",
+      "bytes": 208824,
+      "internal_md5_checks": 30,
+      "sha256": "92edf60fade1cfe97529b5443db3794d5f9499b30c96a1bbf3480d13b2b53f80",
+      "external_digest_available": false
+    },
+    {
+      "package": "stringi",
+      "version": "1.8.9",
+      "file": "runtime/downloads/stringi_1.8.9.zip",
+      "url": "https://cran.r-project.org/bin/windows/contrib/4.6/stringi_1.8.9.zip",
+      "bytes": 15048687,
+      "internal_md5_checks": 28,
+      "sha256": "9efc015dda4622aab581fb6f98f434f4f7e30cbcf7b69fe73f3468d09308ff33",
+      "external_digest_available": false
+    },
+    {
+      "package": "stringr",
+      "version": "1.6.0",
+      "file": "runtime/downloads/stringr_1.6.0.zip",
+      "url": "https://cran.r-project.org/bin/windows/contrib/4.6/stringr_1.6.0.zip",
+      "bytes": 352711,
+      "internal_md5_checks": 52,
+      "sha256": "139dc9950fbbcd7a369c6685d1442de837542a2885ebf59ce6060af559d560b4",
+      "external_digest_available": false
+    },
+    {
+      "package": "tibble",
+      "version": "3.3.1",
+      "file": "runtime/downloads/tibble_3.3.1.zip",
+      "url": "https://cran.r-project.org/bin/windows/contrib/4.6/tibble_3.3.1.zip",
+      "bytes": 669311,
+      "internal_md5_checks": 57,
+      "sha256": "35340c4992ea210eb31ca79247b8a1bb989abdc23a9628ebe61cd7b9848fe7a2",
+      "external_digest_available": false
+    },
+    {
+      "package": "tidyr",
+      "version": "1.3.2",
+      "file": "runtime/downloads/tidyr_1.3.2.zip",
+      "url": "https://cran.r-project.org/bin/windows/contrib/4.6/tidyr_1.3.2.zip",
+      "bytes": 1279814,
+      "internal_md5_checks": 58,
+      "sha256": "13d8f39c3ad52de0cb894a86170a2001a51d1b4c6ff64e27c97758c5c2a8d244",
+      "external_digest_available": false
+    },
+    {
+      "package": "tidyselect",
+      "version": "1.2.1",
+      "file": "runtime/downloads/tidyselect_1.2.1.zip",
+      "url": "https://cran.r-project.org/bin/windows/contrib/4.6/tidyselect_1.2.1.zip",
+      "bytes": 230105,
+      "internal_md5_checks": 30,
+      "sha256": "bfccde42175bce9cb895ef451703f0db6b5e4088147197cd56ce8325d796e928",
+      "external_digest_available": false
+    },
+    {
+      "package": "timeDate",
+      "version": "4052.112",
+      "file": "runtime/downloads/timeDate_4052.112.zip",
+      "url": "https://cran.r-project.org/bin/windows/contrib/4.6/timeDate_4052.112.zip",
+      "bytes": 1497914,
+      "internal_md5_checks": 45,
+      "sha256": "a02e3226154802f5afae9d18e0a3f04ac43d0fa1954732e39a0a2e225ae8c42c",
+      "external_digest_available": false
+    },
+    {
+      "package": "timechange",
+      "version": "0.4.0",
+      "file": "runtime/downloads/timechange_0.4.0.zip",
+      "url": "https://cran.r-project.org/bin/windows/contrib/4.6/timechange_0.4.0.zip",
+      "bytes": 541047,
+      "internal_md5_checks": 23,
+      "sha256": "390a43ad727d320cda47ea2fc2b5cde03c40d97d9d0e2fb83227b9c3e479a1f3",
+      "external_digest_available": false
+    },
+    {
+      "package": "tzdb",
+      "version": "0.5.0",
+      "file": "runtime/downloads/tzdb_0.5.0.zip",
+      "url": "https://cran.r-project.org/bin/windows/contrib/4.6/tzdb_0.5.0.zip",
+      "bytes": 1056480,
+      "internal_md5_checks": 77,
+      "sha256": "7cb406c6e886f3ae24f29966abcd00a248153af9591dd8ebcb18e6283c3f6a18",
+      "external_digest_available": false
+    },
+    {
+      "package": "utf8",
+      "version": "1.2.6",
+      "file": "runtime/downloads/utf8_1.2.6.zip",
+      "url": "https://cran.r-project.org/bin/windows/contrib/4.6/utf8_1.2.6.zip",
+      "bytes": 158170,
+      "internal_md5_checks": 28,
+      "sha256": "56cba754a938d49926923a72c51339e122f52fdde356ffc8327bbd496b2fe3a6",
+      "external_digest_available": false
+    },
+    {
+      "package": "vctrs",
+      "version": "0.7.3",
+      "file": "runtime/downloads/vctrs_0.7.3.zip",
+      "url": "https://cran.r-project.org/bin/windows/contrib/4.6/vctrs_0.7.3.zip",
+      "bytes": 1920567,
+      "internal_md5_checks": 57,
+      "sha256": "65016e8874ff9bf20f5d717e59d8ea543da30cb6738d7cc24137db23d8a764f1",
+      "external_digest_available": false
+    },
+    {
+      "package": "viridisLite",
+      "version": "0.4.3",
+      "file": "runtime/downloads/viridisLite_0.4.3.zip",
+      "url": "https://cran.r-project.org/bin/windows/contrib/4.6/viridisLite_0.4.3.zip",
+      "bytes": 1300962,
+      "internal_md5_checks": 25,
+      "sha256": "374cdbf4147e5a2fe99907bcc8bcd97c1470d255ae02c4c825c8de1caf1897c8",
+      "external_digest_available": false
+    },
+    {
+      "package": "withr",
+      "version": "3.0.3",
+      "file": "runtime/downloads/withr_3.0.3.zip",
+      "url": "https://cran.r-project.org/bin/windows/contrib/4.6/withr_3.0.3.zip",
+      "bytes": 235603,
+      "internal_md5_checks": 38,
+      "sha256": "97aa86ce1a015016b9817554ed22cefd675ba95e008ca84bc1630e085ab1a778",
+      "external_digest_available": false
+    }
+  ],
+  "total_bytes": 74719642
+}

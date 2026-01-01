@@ -1,0 +1,32 @@
+During startup - Warning messages:
+1: Setting LC_COLLATE=C.UTF-8 failed 
+2: Setting LC_CTYPE=C.UTF-8 failed 
+3: Setting LC_MONETARY=C.UTF-8 failed 
+4: Setting LC_TIME=C.UTF-8 failed 
+
+Attaching package: 'data.table'
+
+The following object is masked from 'package:base':
+
+    %notin%
+
+Loading required package: ggplot2
+Loading required package: lattice
+randomForest 4.7-1.2
+Type rfNews() to see new features/changes/bug fixes.
+
+Attaching package: 'randomForest'
+
+The following object is masked from 'package:ggplot2':
+
+    margin
+
+
+Attaching package: 'e1071'
+
+The following object is masked from 'package:ggplot2':
+
+    element
+
+Error: e$get_var_type("GCT", "GCC") == "SNP" is not TRUE
+Execution halted

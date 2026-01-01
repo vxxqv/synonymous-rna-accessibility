@@ -1,0 +1,117 @@
+{
+  "status": "PASS_NARROW_PREOUTCOME_CORRECTION_PENDING_INDEPENDENT_DELTA_REVIEW",
+  "original_candidate_manifest_sha256": "85f960e0ea4062cf013a655297c4c09108e7379ff133037c21f529b03e2a0cfd",
+  "original_candidate_all_declared_files_unchanged": true,
+  "only_changed_original_top_level_files": [
+    "selective_reader.py",
+    "test_implementation.py"
+  ],
+  "unchanged_original_top_level_files": [
+    "apply_source_rf.R",
+    "build_contract.py",
+    "candidate_manifest.json",
+    "driver.py",
+    "integration_addendum.md",
+    "normalize.py",
+    "prediction.py",
+    "README.md",
+    "selective_contract.json",
+    "synthetic_source_normalization_receipt.json",
+    "synthetic_unit_receipt.json",
+    "verify_RF_adapter.py",
+    "verify_source_normalization.py",
+    "verify_source_normalization.R",
+    "verify_staged_cli.py"
+  ],
+  "domain_fixture_checks": [
+    {
+      "feature": "R2_MINUS_MED_RP",
+      "value": -1,
+      "v1": "accepted",
+      "v2": "rejected:Negative required classifier feature R2_MINUS_MED_RP"
+    },
+    {
+      "feature": "R2_MINUS_MED_RP",
+      "value": 0,
+      "v1": "accepted",
+      "v2": "accepted"
+    },
+    {
+      "feature": "R2_MINUS_MED_RP",
+      "value": 1,
+      "v1": "accepted",
+      "v2": "accepted"
+    },
+    {
+      "feature": "R1_PLUS_MED_BQ",
+      "value": -1,
+      "v1": "accepted",
+      "v2": "rejected:Negative required classifier feature R1_PLUS_MED_BQ"
+    },
+    {
+      "feature": "R1_PLUS_MED_BQ",
+      "value": 0,
+      "v1": "accepted",
+      "v2": "accepted"
+    },
+    {
+      "feature": "R1_PLUS_MED_BQ",
+      "value": 1,
+      "v1": "accepted",
+      "v2": "accepted"
+    },
+    {
+      "feature": "R2_MINUS_MED_BQ",
+      "value": -1,
+      "v1": "accepted",
+      "v2": "rejected:Negative required classifier feature R2_MINUS_MED_BQ"
+    },
+    {
+      "feature": "R2_MINUS_MED_BQ",
+      "value": 0,
+      "v1": "accepted",
+      "v2": "accepted"
+    },
+    {
+      "feature": "R2_MINUS_MED_BQ",
+      "value": 1,
+      "v1": "accepted",
+      "v2": "accepted"
+    },
+    {
+      "feature": "R2_MINUS_MED_NM",
+      "value": -1,
+      "v1": "accepted",
+      "v2": "rejected:Negative required classifier feature R2_MINUS_MED_NM"
+    },
+    {
+      "feature": "R2_MINUS_MED_NM",
+      "value": 0,
+      "v1": "accepted",
+      "v2": "accepted"
+    },
+    {
+      "feature": "R2_MINUS_MED_NM",
+      "value": 1,
+      "v1": "accepted",
+      "v2": "accepted"
+    }
+  ],
+  "unit_cases": 16,
+  "synthetic_full_interface_scientific_output_byte_identical": true,
+  "synthetic_output_sha256": "30169a53447925632382361d0e0e9b9b2816b72a18110d3a77bd0f0c582f3ed9",
+  "diff_sha256": "079012bf0b8660b16474e30acc4717f134d63fcc2efe76c687a0acb60a25210f",
+  "old_new_sha256": {
+    "selective_reader.py": {
+      "v1": "17c213be773f62184816ad139360404804ea2dc404d7d446956f7b236aed6042",
+      "v2": "17d443582488a7c7a935bb222ba55c2b1f8e7cea80ff5ff8071f092127155752"
+    },
+    "test_implementation.py": {
+      "v1": "a7f35d2d6b8265843c6caf014b2eb5e34cab68e6da7c7ef5b3b7a93eeaa85bc3",
+      "v2": "8ea87973f4c3dc2cb52b03b7b2f8ce7d5419df2139deca8bf2ff1cbf5fed2d64"
+    }
+  },
+  "real_COMT_rows_read": 0,
+  "source_simulation_numeric_rows_read": 0,
+  "RF_not_rerun": "RF adapter and source algorithms unchanged; only invalid negative input rejection added."
+}

@@ -1,0 +1,28 @@
+{
+  "schema": "COMT_integrated_independent_review_v1",
+  "status": "HOLD_negative_required_feature_guard",
+  "candidate_manifest_sha256": "85f960e0ea4062cf013a655297c4c09108e7379ff133037c21f529b03e2a0cfd",
+  "owned_files": {
+    "author_unit_replay.log": "994e87f246a6ebe14a924f03cee22a0d8c54c350a746c99136db4393ddce8f10",
+    "check.py": "cf6630bc5352a63ad98897b9c4a7528ddc80b64f7e7ccf42eb60919bf8b76e08",
+    "metadata_rebuild_difference.json": "05e72044722c5e9a5b0a9875907a058d9b892181d93bab8f41e99d730e9f4d7e",
+    "proxy_models.py": "8811af9750e813c798122c7e936b6279a0f3b0e53fea1924cb2d633162a34093",
+    "receipt.json": "5715b48f32ec49f9082086906de9edcbac82edcc951b5021fbdacc90b3e879b3",
+    "review.md": "8a95e63a25106fb59c0cfd986d45a2f1888bfdd171aa6d0d24541310d7c9c3d4",
+    "history_v1/check.py": "03c15aa9c18a6a6a6e81a5fb74a3c8cd213ee4229098eb160314b7af908a20ef",
+    "history_v1/README.md": "2d836ded84f479ef5e15ed42dcc0f5c4d2b3cb8f2ec45d7370ef0e2005d678d2",
+    "mirror/driver.py": "2fa6c139fc54cf0f5e1f63fa74fa8cbf8400d7ab0664883406ab1f66d3150eed",
+    "mirror/normalize.py": "e6776b4d0afef9aca5972dfe0935769da9e2f7c61cdaaebc0813c47e17b54061",
+    "mirror/prediction.py": "92d0d46fda3b7b3c49c5a4d8780c8b57bcf9c15d9c8095aeca27555f38e2dede",
+    "mirror/selective_reader.py": "17c213be773f62184816ad139360404804ea2dc404d7d446956f7b236aed6042",
+    "mirror/test_implementation.py": "a7f35d2d6b8265843c6caf014b2eb5e34cab68e6da7c7ef5b3b7a93eeaa85bc3",
+    "history_v1/mirror/driver.py": "2fa6c139fc54cf0f5e1f63fa74fa8cbf8400d7ab0664883406ab1f66d3150eed",
+    "history_v1/mirror/normalize.py": "e6776b4d0afef9aca5972dfe0935769da9e2f7c61cdaaebc0813c47e17b54061",
+    "history_v1/mirror/prediction.py": "92d0d46fda3b7b3c49c5a4d8780c8b57bcf9c15d9c8095aeca27555f38e2dede",
+    "history_v1/mirror/selective_reader.py": "17c213be773f62184816ad139360404804ea2dc404d7d446956f7b236aed6042",
+    "history_v1/mirror/test_implementation.py": "a7f35d2d6b8265843c6caf014b2eb5e34cab68e6da7c7ef5b3b7a93eeaa85bc3"
+  },
+  "source_outcome_rows_read": 0,
+  "source_simulation_rows_read": 0,
+  "scope": "Metadata, source code and invented numeric checks only; root freeze and authorization still required."
+}

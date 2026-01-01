@@ -1,0 +1,302 @@
+{
+  "status": "PASS_NARROW_V2_DELTA",
+  "scope": "Closes v1 negative-feature guard HOLD only; root freeze/phase authorization still required. No real-source run or renewed biological validation.",
+  "predecessor_manifest_sha256": "85f960e0ea4062cf013a655297c4c09108e7379ff133037c21f529b03e2a0cfd",
+  "candidate_manifest_sha256": "f666dc9415d523b18350ffdedf5606e050803fa3e5c5da2efdd86f50f33e750d",
+  "checks": [
+    "original manifest intact",
+    "successor manifest intact",
+    "implementation_v1 pin README.md",
+    "implementation_v1 pin apply_source_rf.R",
+    "implementation_v1 pin build_contract.py",
+    "implementation_v1 pin driver.py",
+    "implementation_v1 pin integration_addendum.md",
+    "implementation_v1 pin normalize.py",
+    "implementation_v1 pin prediction.py",
+    "implementation_v1 pin selective_contract.json",
+    "implementation_v1 pin selective_reader.py",
+    "implementation_v1 pin synthetic_RF_v1/receipt.json",
+    "implementation_v1 pin synthetic_source_normalization_receipt.json",
+    "implementation_v1 pin synthetic_stages_v1/receipt.json",
+    "implementation_v1 pin synthetic_stages_v2/receipt.json",
+    "implementation_v1 pin synthetic_unit_receipt.json",
+    "implementation_v1 pin test_implementation.py",
+    "implementation_v1 pin verify_RF_adapter.py",
+    "implementation_v1 pin verify_source_normalization.R",
+    "implementation_v1 pin verify_source_normalization.py",
+    "implementation_v1 pin verify_staged_cli.py",
+    "implementation_v1 held protocol_v2.md",
+    "implementation_v1 held prospective_reconstruction_amendment.md",
+    "implementation_v1 held proxy_models.py",
+    "implementation_v1 held source_helpers.R",
+    "implementation_v1 held runtime/runtime_manifest.json",
+    "implementation_v1 held fold_manifest.json",
+    "implementation_v2 pin README.md",
+    "implementation_v2 pin apply_source_rf.R",
+    "implementation_v2 pin build_contract.py",
+    "implementation_v2 pin correction.diff",
+    "implementation_v2 pin correction_report.md",
+    "implementation_v2 pin delta_receipt.json",
+    "implementation_v2 pin delta_unit_tests.log",
+    "implementation_v2 pin driver.py",
+    "implementation_v2 pin integration_addendum.md",
+    "implementation_v2 pin normalize.py",
+    "implementation_v2 pin prediction.py",
+    "implementation_v2 pin selective_contract.json",
+    "implementation_v2 pin selective_reader.py",
+    "implementation_v2 pin synthetic_RF_v1/receipt.json",
+    "implementation_v2 pin synthetic_delta_stages_v1/receipt.json",
+    "implementation_v2 pin synthetic_source_normalization_receipt.json",
+    "implementation_v2 pin test_implementation.py",
+    "implementation_v2 pin verify_RF_adapter.py",
+    "implementation_v2 pin verify_source_normalization.R",
+    "implementation_v2 pin verify_source_normalization.py",
+    "implementation_v2 pin verify_staged_cli.py",
+    "implementation_v2 held protocol_v2.md",
+    "implementation_v2 held prospective_reconstruction_amendment.md",
+    "implementation_v2 held proxy_models.py",
+    "implementation_v2 held source_helpers.R",
+    "implementation_v2 held runtime/runtime_manifest.json",
+    "implementation_v2 held fold_manifest.json",
+    "same held protocol, folds, kernel and runtime",
+    "only reader and test changed among original top level files",
+    "production delta exactly one domain guard",
+    "test delta only the declared new test",
+    "old accepts R2_MINUS_MED_RP=-1",
+    "new correct domain R2_MINUS_MED_RP=-1",
+    "old accepts R2_MINUS_MED_RP=0",
+    "new correct domain R2_MINUS_MED_RP=0",
+    "valid parsed value unchanged R2_MINUS_MED_RP=0",
+    "old accepts R2_MINUS_MED_RP=1",
+    "new correct domain R2_MINUS_MED_RP=1",
+    "valid parsed value unchanged R2_MINUS_MED_RP=1",
+    "old accepts R1_PLUS_MED_BQ=-1",
+    "new correct domain R1_PLUS_MED_BQ=-1",
+    "old accepts R1_PLUS_MED_BQ=0",
+    "new correct domain R1_PLUS_MED_BQ=0",
+    "valid parsed value unchanged R1_PLUS_MED_BQ=0",
+    "old accepts R1_PLUS_MED_BQ=1",
+    "new correct domain R1_PLUS_MED_BQ=1",
+    "valid parsed value unchanged R1_PLUS_MED_BQ=1",
+    "old accepts R2_MINUS_MED_BQ=-1",
+    "new correct domain R2_MINUS_MED_BQ=-1",
+    "old accepts R2_MINUS_MED_BQ=0",
+    "new correct domain R2_MINUS_MED_BQ=0",
+    "valid parsed value unchanged R2_MINUS_MED_BQ=0",
+    "old accepts R2_MINUS_MED_BQ=1",
+    "new correct domain R2_MINUS_MED_BQ=1",
+    "valid parsed value unchanged R2_MINUS_MED_BQ=1",
+    "old accepts R2_MINUS_MED_NM=-1",
+    "new correct domain R2_MINUS_MED_NM=-1",
+    "old accepts R2_MINUS_MED_NM=0",
+    "new correct domain R2_MINUS_MED_NM=0",
+    "valid parsed value unchanged R2_MINUS_MED_NM=0",
+    "old accepts R2_MINUS_MED_NM=1",
+    "new correct domain R2_MINUS_MED_NM=1",
+    "valid parsed value unchanged R2_MINUS_MED_NM=1",
+    "all125synthetic evaluation bytes identical",
+    "synthetic output matches declared checksum",
+    "all16unchangedcandidate unit tests pass",
+    "after implementation_v1 README.md",
+    "after implementation_v1 apply_source_rf.R",
+    "after implementation_v1 build_contract.py",
+    "after implementation_v1 driver.py",
+    "after implementation_v1 integration_addendum.md",
+    "after implementation_v1 normalize.py",
+    "after implementation_v1 prediction.py",
+    "after implementation_v1 selective_contract.json",
+    "after implementation_v1 selective_reader.py",
+    "after implementation_v1 synthetic_RF_v1/receipt.json",
+    "after implementation_v1 synthetic_source_normalization_receipt.json",
+    "after implementation_v1 synthetic_stages_v1/receipt.json",
+    "after implementation_v1 synthetic_stages_v2/receipt.json",
+    "after implementation_v1 synthetic_unit_receipt.json",
+    "after implementation_v1 test_implementation.py",
+    "after implementation_v1 verify_RF_adapter.py",
+    "after implementation_v1 verify_source_normalization.R",
+    "after implementation_v1 verify_source_normalization.py",
+    "after implementation_v1 verify_staged_cli.py",
+    "after implementation_v2 README.md",
+    "after implementation_v2 apply_source_rf.R",
+    "after implementation_v2 build_contract.py",
+    "after implementation_v2 correction.diff",
+    "after implementation_v2 correction_report.md",
+    "after implementation_v2 delta_receipt.json",
+    "after implementation_v2 delta_unit_tests.log",
+    "after implementation_v2 driver.py",
+    "after implementation_v2 integration_addendum.md",
+    "after implementation_v2 normalize.py",
+    "after implementation_v2 prediction.py",
+    "after implementation_v2 selective_contract.json",
+    "after implementation_v2 selective_reader.py",
+    "after implementation_v2 synthetic_RF_v1/receipt.json",
+    "after implementation_v2 synthetic_delta_stages_v1/receipt.json",
+    "after implementation_v2 synthetic_source_normalization_receipt.json",
+    "after implementation_v2 test_implementation.py",
+    "after implementation_v2 verify_RF_adapter.py",
+    "after implementation_v2 verify_source_normalization.R",
+    "after implementation_v2 verify_source_normalization.py",
+    "after implementation_v2 verify_staged_cli.py"
+  ],
+  "check_count": 133,
+  "domain_cases": [
+    {
+      "feature": "R2_MINUS_MED_RP",
+      "input": -1,
+      "old": {
+        "status": "accepted",
+        "value": -1.0
+      },
+      "new": {
+        "status": "rejected",
+        "error": "Negative required classifier feature R2_MINUS_MED_RP"
+      }
+    },
+    {
+      "feature": "R2_MINUS_MED_RP",
+      "input": 0,
+      "old": {
+        "status": "accepted",
+        "value": 0.0
+      },
+      "new": {
+        "status": "accepted",
+        "value": 0.0
+      }
+    },
+    {
+      "feature": "R2_MINUS_MED_RP",
+      "input": 1,
+      "old": {
+        "status": "accepted",
+        "value": 1.0
+      },
+      "new": {
+        "status": "accepted",
+        "value": 1.0
+      }
+    },
+    {
+      "feature": "R1_PLUS_MED_BQ",
+      "input": -1,
+      "old": {
+        "status": "accepted",
+        "value": -1.0
+      },
+      "new": {
+        "status": "rejected",
+        "error": "Negative required classifier feature R1_PLUS_MED_BQ"
+      }
+    },
+    {
+      "feature": "R1_PLUS_MED_BQ",
+      "input": 0,
+      "old": {
+        "status": "accepted",
+        "value": 0.0
+      },
+      "new": {
+        "status": "accepted",
+        "value": 0.0
+      }
+    },
+    {
+      "feature": "R1_PLUS_MED_BQ",
+      "input": 1,
+      "old": {
+        "status": "accepted",
+        "value": 1.0
+      },
+      "new": {
+        "status": "accepted",
+        "value": 1.0
+      }
+    },
+    {
+      "feature": "R2_MINUS_MED_BQ",
+      "input": -1,
+      "old": {
+        "status": "accepted",
+        "value": -1.0
+      },
+      "new": {
+        "status": "rejected",
+        "error": "Negative required classifier feature R2_MINUS_MED_BQ"
+      }
+    },
+    {
+      "feature": "R2_MINUS_MED_BQ",
+      "input": 0,
+      "old": {
+        "status": "accepted",
+        "value": 0.0
+      },
+      "new": {
+        "status": "accepted",
+        "value": 0.0
+      }
+    },
+    {
+      "feature": "R2_MINUS_MED_BQ",
+      "input": 1,
+      "old": {
+        "status": "accepted",
+        "value": 1.0
+      },
+      "new": {
+        "status": "accepted",
+        "value": 1.0
+      }
+    },
+    {
+      "feature": "R2_MINUS_MED_NM",
+      "input": -1,
+      "old": {
+        "status": "accepted",
+        "value": -1.0
+      },
+      "new": {
+        "status": "rejected",
+        "error": "Negative required classifier feature R2_MINUS_MED_NM"
+      }
+    },
+    {
+      "feature": "R2_MINUS_MED_NM",
+      "input": 0,
+      "old": {
+        "status": "accepted",
+        "value": 0.0
+      },
+      "new": {
+        "status": "accepted",
+        "value": 0.0
+      }
+    },
+    {
+      "feature": "R2_MINUS_MED_NM",
+      "input": 1,
+      "old": {
+        "status": "accepted",
+        "value": 1.0
+      },
+      "new": {
+        "status": "accepted",
+        "value": 1.0
+      }
+    }
+  ],
+  "unit_tests": 16,
+  "evaluation_sha256": "30169a53447925632382361d0e0e9b9b2816b72a18110d3a77bd0f0c582f3ed9",
+  "scientific_implementations_unchanged": [
+    "normalize.py",
+    "prediction.py",
+    "proxy_models.py",
+    "driver.py",
+    "apply_source_rf.R",
+    "source_helpers.R"
+  ],
+  "real_source_rows_read": 0,
+  "source_simulation_rows_read": 0,
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "verifier_sha256": "27ee9e6e8f64b33000ec3607c0c98f474ec7afd3b690926802cfb1e8ab0cb852"
+}

@@ -1,0 +1,108 @@
+{
+  "bnstruct": {
+    "Package": "bnstruct",
+    "Version": "1.0.15",
+    "Depends": "R (>= 3.5.0), bitops, igraph, methods",
+    "Suggests": "graph, Rgraphviz, qgraph, knitr, testthat",
+    "License": "GPL (>= 2) | file LICENSE",
+    "MD5sum": "62c003d6c86ebb9c535ac454bc15e8b3",
+    "NeedsCompilation": "yes",
+    "Published": "2024-01-09 23:43:02 UTC"
+  },
+  "caret": {
+    "Package": "caret",
+    "Version": "7.0-1",
+    "Depends": "ggplot2, lattice (>= 0.20), R (>= 3.2.0)",
+    "Imports": "e1071, foreach, grDevices, methods, ModelMetrics (>= 1.2.2.2), nlme, plyr, pROC, recipes (>= 0.1.10), reshape2, stats, stats4, utils, withr (>= 2.0.0)",
+    "Suggests": "BradleyTerry2, covr, Cubist, dplyr, earth (>= 2.2-3), ellipse, fastICA, gam (>= 1.15), ipred, kernlab, klaR, knitr, MASS, Matrix, mda, mgcv, mlbench, MLmetrics, nnet, pamr, party (>= 0.9-99992), pls, proxy, randomForest, RANN, rmarkdown, rpart, spls, superpc, testthat (>= 0.9.1), themis (>= 0.1.3)",
+    "License": "GPL (>= 2)",
+    "MD5sum": "c11d2d954241566f577841a58d101f75",
+    "NeedsCompilation": "yes",
+    "Published": "2024-12-10 01:30:01 UTC"
+  },
+  "class": {
+    "Package": "class",
+    "Version": "7.3-24",
+    "Priority": "recommended",
+    "Depends": "R (>= 4.6), stats, utils",
+    "Suggests": "MASS",
+    "License": "GPL-2 | GPL-3",
+    "MD5sum": "4c34ed21d30eadd51157e05ff34f79f2",
+    "NeedsCompilation": "yes",
+    "Path": "4.6.2/Recommended",
+    "Published": "2026-08-03 09:45:09 UTC"
+  },
+  "data.table": {
+    "Package": "data.table",
+    "Version": "1.18.6.1",
+    "Depends": "R (>= 3.4.0)",
+    "Imports": "methods",
+    "Suggests": "bit64 (>= 4.0.0), bit (>= 4.0.4), R.utils (>= 2.13.0), xts, zoo (>= 1.8-1), yaml, knitr, markdown",
+    "License": "MPL-2.0 | file LICENSE",
+    "MD5sum": "0c0ad7916017c1657610ab16c36fecdd",
+    "NeedsCompilation": "yes",
+    "Published": "2026-08-24 08:40:13 UTC"
+  },
+  "e1071": {
+    "Package": "e1071",
+    "Version": "1.7-17",
+    "Imports": "graphics, grDevices, class, stats, methods, utils, proxy",
+    "Suggests": "cluster, mlbench, nnet, randomForest, rpart, SparseM, xtable, Matrix, MASS, slam",
+    "License": "GPL-2 | GPL-3",
+    "MD5sum": "7e8d521ac6b3a92c7e1888dbb8e59c47",
+    "NeedsCompilation": "yes",
+    "Published": "2025-12-18 13:06:03 UTC"
+  },
+  "gbm": {
+    "Package": "gbm",
+    "Version": "2.3.1",
+    "Depends": "R (>= 3.5.0)",
+    "Imports": "lattice, parallel, survival",
+    "Suggests": "bookdown, gridExtra, knitr, pdp, rmarkdown, RUnit, splines, testthat (>= 3.0.0), viridis, MASS",
+    "License": "GPL (>= 2) | file LICENSE",
+    "MD5sum": "1f0f31fed5e246d71bf999f486250c50",
+    "NeedsCompilation": "yes",
+    "Published": "2026-07-09 23:00:02 UTC"
+  },
+  "glmnet": {
+    "Package": "glmnet",
+    "Version": "5.1",
+    "Depends": "R (>= 3.6.0), Matrix (>= 1.0-6)",
+    "Imports": "methods, utils, foreach, shape, survival, Rcpp",
+    "LinkingTo": "RcppEigen, Rcpp",
+    "Suggests": "knitr, lars, nnet, testthat, xfun, rmarkdown",
+    "License": "GPL-2",
+    "MD5sum": "9ff5a9e4f2a2ceded081005bea78cbd3",
+    "NeedsCompilation": "yes",
+    "Published": "2026-09-24 08:40:02 UTC"
+  },
+  "leaps": {
+    "Package": "leaps",
+    "Version": "3.2",
+    "Suggests": "biglm",
+    "License": "GPL (>= 2)",
+    "MD5sum": "b4432034faf4eeda50279acbaee4c63a",
+    "NeedsCompilation": "yes",
+    "Published": "2024-06-10 05:10:02 UTC"
+  },
+  "mltools": {
+    "Package": "mltools",
+    "Version": "0.3.5",
+    "Imports": "data.table(>= 1.9.7), Matrix, methods, stats",
+    "Suggests": "testthat",
+    "License": "MIT + file LICENSE",
+    "MD5sum": "a27838eb72d1a9f9b9c7a922ac7efe7a",
+    "NeedsCompilation": "no",
+    "Published": "2018-05-12 03:12:45 UTC"
+  },
+  "randomForest": {
+    "Package": "randomForest",
+    "Version": "4.7-1.2",
+    "Depends": "R (>= 4.1.0), stats",
+    "Suggests": "RColorBrewer, MASS",
+    "License": "GPL (>= 2)",
+    "MD5sum": "31fe6885dccafec29a9315b771c25971",
+    "NeedsCompilation": "yes",
+    "Published": "2024-09-22 09:14:44 UTC"
+  }
+}

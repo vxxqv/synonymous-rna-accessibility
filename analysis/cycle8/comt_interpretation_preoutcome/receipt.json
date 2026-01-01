@@ -1,0 +1,15 @@
+{
+  "status": "PRE_OUTCOME_INTERPRETATION_SEALED",
+  "created_utc": "2026-10-25T19:41:20.092232+00:00",
+  "scope": "Algebra and protocol-only interpretation. No real COMT numerical inputs or outcomes read. Not final-freeze authentication.",
+  "files": {
+    "work/research_cycle8/comt_pilot/protocol_v2.md": "97aea7e56ddf9c74a2fcbf4a17ce2bbd9280c8417d2534997835878b2a368d61",
+    "work/research_cycle8/comt_pilot/implementation_v1/integration_addendum.md": "c480ca92ce36b6e95849fceaea3e6bf49d14bcd7842b1e5fe1efd543ff33f4d2",
+    "work/research_cycle8/comt_independent_review/shared_reference_checks.py": "733122a4fef3a07a24c13d92ee4ebdfe40307f0eb0525b011effbc5e36f44402",
+    "work/research_cycle8/comt_independent_review/shared_reference_checks.json": "b2ca4872bc75fd0401d0fa37417ac8c94ae94c60561a54c60f88447e0b7dc3c8",
+    "work/research_cycle8/comt_independent_review/source_and_estimand_findings.md": "2fe7b8f3695a1289c5c49477d2f4961832f87960482f3cc67903f2450b21fc9c",
+    "work/research_cycle8/comt_interpretation_preoutcome/memo.md": "3c2802161a1c4d3eda7642aec9a2db9116b1f25470bea8864483b3e94b27c810"
+  },
+  "new_models_or_thresholds": false,
+  "shared_files_changed": false
+}

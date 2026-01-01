@@ -1,0 +1,9 @@
+During startup - Warning messages:
+1: Setting LC_COLLATE=C.UTF-8 failed 
+2: Setting LC_CTYPE=C.UTF-8 failed 
+3: Setting LC_MONETARY=C.UTF-8 failed 
+4: Setting LC_TIME=C.UTF-8 failed 
+Error in unzip(zipname, exdir = dest) : 
+  cannot open file 'C:/Users/VIVAAN/Documents/Codex/2026-10-24/protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2/work/research_cycle8/comt_pilot/runtime/library/fileaa83f8b4d07/Rcpp/tinytest/testRcppInterfaceExporter/inst/include/testRcppInterfaceExporter_RcppExports.h': No such file or directory
+Calls: install.packages ... .install.winbinary -> unpackPkgZip -> .zip.unpack -> unzip
+Execution halted

@@ -1,0 +1,10 @@
+--- v1reader
++++ v2reader
+@@ -77,6 +77,7 @@
+             try:v=float(get(n))
+             except ValueError as e:raise ValueError('Missing or malformed required number '+n) from e
+             if not math.isfinite(v):raise ValueError('Nonfinite required number '+n)
++            if n!='CAF' and v<0:raise ValueError('Negative required classifier feature '+n)
+             row[n]=v
+         if not 0<=row['CAF']<=1:raise ValueError('CAF outside frequency domain')
+         row.update({'POS':pos,'POS_NT':posnt,'Sample':metadata['sample'],

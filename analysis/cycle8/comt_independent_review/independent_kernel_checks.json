@@ -1,0 +1,13 @@
+{
+  "status": "PASS_BOUNDED_INDEPENDENT_REFERENCES",
+  "kernel_checks": 166,
+  "PAVA_reference": "Exhaustive contiguous-partition minimum weighted SSE with exact tie consolidation",
+  "linear_reference": "Exact KKT sufficient conditions of constrained convex least squares",
+  "runtime_package_file_hashes_checked": 3677,
+  "runtime_hash_mismatches": [],
+  "Rscript_hash_matches": true,
+  "runtime_smoke_not_reexecuted": true,
+  "raw_reader_or_staged_driver_verified": false,
+  "no_source_count_or_phenotype_values_read": true,
+  "code_sha256": "c85e99a94f88e2d32acdb2330f5c981cff6cc374b70fddde924b32e2d0bd7ca2"
+}

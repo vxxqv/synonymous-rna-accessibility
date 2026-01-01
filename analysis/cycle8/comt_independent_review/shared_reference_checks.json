@@ -1,0 +1,46 @@
+{
+  "scope": "Synthetic algebra/claim counterexamples only; no biological values or author implementation imported",
+  "independent_centered_raw_error_covariances": {
+    "RT": "-1",
+    "RL": "-1",
+    "TL": "0"
+  },
+  "constant_true_load_positive_control": {
+    "rows": [
+      {
+        "R": "-3",
+        "T": "-1",
+        "L": "2",
+        "true_load": "0"
+      },
+      {
+        "R": "-1",
+        "T": "1",
+        "L": "2",
+        "true_load": "0"
+      },
+      {
+        "R": "1",
+        "T": "-1",
+        "L": "-2",
+        "true_load": "0"
+      },
+      {
+        "R": "3",
+        "T": "1",
+        "L": "-2",
+        "true_load": "0"
+      }
+    ],
+    "constrained_joint_coefficients": {
+      "RNA_slope": "1",
+      "load_slope": "1",
+      "intercept": "0"
+    },
+    "constant_MAE": "1",
+    "nondecreasing_PAVA_MAE": "1/2",
+    "joint_MAE": "0",
+    "interpretation": "A capable joint model can improve solely through RNA measurement-error cancellation when true load is constant. No mechanism conclusion follows."
+  },
+  "code_sha256": "733122a4fef3a07a24c13d92ee4ebdfe40307f0eb0525b011effbc5e36f44402"
+}

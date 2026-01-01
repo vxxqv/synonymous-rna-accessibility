@@ -1,0 +1,25 @@
+{
+  "schema": "COMT_A1_code_freeze_v1",
+  "files": {
+    "build_contract.py": "1c59e17ccf7744fb29a10566b4e48994daf9985864908098834f76dc03276621",
+    "driver.py": "2fa6c139fc54cf0f5e1f63fa74fa8cbf8400d7ab0664883406ab1f66d3150eed",
+    "normalize.py": "e6776b4d0afef9aca5972dfe0935769da9e2f7c61cdaaebc0813c47e17b54061",
+    "prediction.py": "92d0d46fda3b7b3c49c5a4d8780c8b57bcf9c15d9c8095aeca27555f38e2dede",
+    "selective_reader.py": "17d443582488a7c7a935bb222ba55c2b1f8e7cea80ff5ff8071f092127155752",
+    "test_implementation.py": "8ea87973f4c3dc2cb52b03b7b2f8ce7d5419df2139deca8bf2ff1cbf5fed2d64",
+    "verify_RF_adapter.py": "5bcd60fd0618b58eaecbc8d25bfaf85765fd35fe8c80568ac4d8ae9db109e998",
+    "verify_source_normalization.py": "e98ef4596fb0d84d24a96f2977a05b72c4da761ceecc882e17ba2bb82a93079e",
+    "verify_staged_cli.py": "8a9e5300b4482fd433bf85ef674a1ea1aa74cdfdf111767f2b5d3818567327d5",
+    "apply_source_rf.R": "5beb00a26a323aebe9c2c152fafc848d53ca84345ccc680f5e0e972da3a5fd85",
+    "../proxy_models.py": "8811af9750e813c798122c7e936b6279a0f3b0e53fea1924cb2d633162a34093",
+    "../source_helpers.R": "884a47503530854694729922a11a06556ab1478ec68f82c5862dc8ead7a14db5",
+    "../modeling_utils.r": "219e33c36a0f03dca82b6d504819091f8e36c015489e60544cb901b9bd741a1d",
+    "../summarization_utils.r": "f0a741b087e9e06e6d32cd947f2faf2dcedd59272d3e0a87921de118bad740bd"
+  },
+  "named_input_hashes": {
+    "protocol": "97aea7e56ddf9c74a2fcbf4a17ce2bbd9280c8417d2534997835878b2a368d61",
+    "amendment": "2f15418daf1e417193493eeb7c3370dae3451e8e69618427bfd13a73e28ff5e8",
+    "integration_addendum": "c480ca92ce36b6e95849fceaea3e6bf49d14bcd7842b1e5fe1efd543ff33f4d2",
+    "contract": "091ab6a57b7d64ab56638430e95befca5dbffd790eec9c62ea5d6a504d450ce5"
+  }
+}

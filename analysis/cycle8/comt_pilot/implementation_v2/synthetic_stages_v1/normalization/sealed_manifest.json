@@ -1,0 +1,10 @@
+{
+  "schema": "COMT_A1_stage_seal_v1",
+  "phase": "normalize",
+  "authorization_sha256": "synthetic",
+  "input_hashes": {},
+  "files": {
+    "contrasts.json": "368f5a99e51b679e2e88109119ad3a41b5cb13a5e7c1ad77f03954eb62e6dc07",
+    "normalization.json": "dc236ca617efa5dc1d0f9df6efb7b61b19f3dd8f595c6a9bbbb54e62f79b0fb4"
+  }
+}

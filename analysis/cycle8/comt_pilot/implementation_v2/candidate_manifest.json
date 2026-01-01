@@ -1,0 +1,59 @@
+{
+  "schema": "COMT_A1_integrated_candidate_v1",
+  "status": "READY_FOR_INDEPENDENT_PREOUTCOME_REVIEW_NOT_EXECUTION_AUTHORIZATION",
+  "scope": "Only metadata and invented numeric fixtures; no actual count or simulated-source numeric rows decoded.",
+  "files_sha256": {
+    "README.md": "df8aa0fda7180a4facc7bcac898585f1db909e1ae70b5102745ece2a01fc3e3f",
+    "apply_source_rf.R": "5beb00a26a323aebe9c2c152fafc848d53ca84345ccc680f5e0e972da3a5fd85",
+    "build_contract.py": "1c59e17ccf7744fb29a10566b4e48994daf9985864908098834f76dc03276621",
+    "driver.py": "2fa6c139fc54cf0f5e1f63fa74fa8cbf8400d7ab0664883406ab1f66d3150eed",
+    "integration_addendum.md": "c480ca92ce36b6e95849fceaea3e6bf49d14bcd7842b1e5fe1efd543ff33f4d2",
+    "normalize.py": "e6776b4d0afef9aca5972dfe0935769da9e2f7c61cdaaebc0813c47e17b54061",
+    "prediction.py": "92d0d46fda3b7b3c49c5a4d8780c8b57bcf9c15d9c8095aeca27555f38e2dede",
+    "selective_contract.json": "091ab6a57b7d64ab56638430e95befca5dbffd790eec9c62ea5d6a504d450ce5",
+    "selective_reader.py": "17c213be773f62184816ad139360404804ea2dc404d7d446956f7b236aed6042",
+    "synthetic_RF_v1/receipt.json": "0244e890a6e3df3706be4ecb1cfc866a58c1e8aa50088d85a76841de36ff81cd",
+    "synthetic_source_normalization_receipt.json": "0afc85d45936191e59568bf0ebcfe799314d2c3e6ab9045304378d5238816076",
+    "synthetic_stages_v1/receipt.json": "a871f7e90db22b14ee91dbd74e334d9021ed37dac03799115e3f8e6c70a6c4dd",
+    "synthetic_stages_v2/receipt.json": "963bf1187f2d8562eaf0010e314a4aa54c534c107849309066f4ce52dfea3eb5",
+    "synthetic_unit_receipt.json": "66d479b774f0270854b78ee2c9f4df0a4fe4a4f46ef0efd8061211a37caec8be",
+    "test_implementation.py": "a7f35d2d6b8265843c6caf014b2eb5e34cab68e6da7c7ef5b3b7a93eeaa85bc3",
+    "verify_RF_adapter.py": "5bcd60fd0618b58eaecbc8d25bfaf85765fd35fe8c80568ac4d8ae9db109e998",
+    "verify_source_normalization.R": "01c324e94ad8c21afac613ea2f0b616d725a6e679e89b68aeb313c4152db8499",
+    "verify_source_normalization.py": "e98ef4596fb0d84d24a96f2977a05b72c4da761ceecc882e17ba2bb82a93079e",
+    "verify_staged_cli.py": "8a9e5300b4482fd433bf85ef674a1ea1aa74cdfdf111767f2b5d3818567327d5"
+  },
+  "held_sources_unchanged": {
+    "protocol_v2.md": "97aea7e56ddf9c74a2fcbf4a17ce2bbd9280c8417d2534997835878b2a368d61",
+    "prospective_reconstruction_amendment.md": "2f15418daf1e417193493eeb7c3370dae3451e8e69618427bfd13a73e28ff5e8",
+    "proxy_models.py": "8811af9750e813c798122c7e936b6279a0f3b0e53fea1924cb2d633162a34093",
+    "source_helpers.R": "884a47503530854694729922a11a06556ab1478ec68f82c5862dc8ead7a14db5",
+    "runtime/runtime_manifest.json": "a97c2057080245e691640ca955af6248aa93102b58341b76f37f473461231c95",
+    "fold_manifest.json": "b222dcd6a6c313c948e9f9de2d1725d08ccc1cd0776a36afa8ed727aa4848fd8"
+  },
+  "tests": {
+    "unit_cases": 15,
+    "RF_invented_checks": 881,
+    "source_R_normalization_checks": 10,
+    "source_R_max_abs_difference": 3.2231404958677687e-16,
+    "synthetic_cli_variants": 125,
+    "synthetic_cli_sites": 53,
+    "synthetic_cli_SNVs": 113,
+    "synthetic_cli_SNV_sites": 52,
+    "synthetic_cli_cases": 2,
+    "synthetic_cli_modes": 2,
+    "synthetic_cli_models": 5,
+    "same_scientific_payload_after_provenance_hardening": true
+  },
+  "remaining_gates": [
+    "Independent selective-reader, source-rule and stage-link review",
+    "Parent freeze and explicit phase authorization before actual source decoding"
+  ],
+  "limitations": [
+    "New fixed-runtime reconstruction, not authenticated historical RF state",
+    "Dependent source-normalized assay proxies, not physical protein, translation flux, causal compensation or assay equivalence",
+    "Published-ID ascertainment and within-source codon-site cross-validation, not external replication",
+    "Preparation envelopes are descriptive, not confidence intervals",
+    "Full raw preparation vectors and common-reference coupling retained; no assumed cross-assay preparation pairing"
+  ]
+}

@@ -1,0 +1,75 @@
+# COMT A1 new-runtime raw proxy pilot: protocol v2 for review
+
+Status: PRE-OUTCOME IMPLEMENTATION REVIEW, NOT AUTHORIZED FOR COUNTS. Root selected a new fixed-runtime reconstruction of the source algorithm. This explicitly does not claim recovery of the historical classifier state. See prospective_reconstruction_amendment.md and runtime/runtime_manifest.json. Metadata folds, runtime/helper smoke tests and the five-model synthetic kernel are complete; the selective raw reader, normalization integration and staged execution guards remain unfinished. No observed pilot results exist.
+
+## Objective and scope
+
+Estimate held-out-codon-site prediction error for source-normalized low-fluorescence-bin enrichment using RNA representation, with a single heavy-polysome comparator. This is a descriptive proxy-level transfer question for the deposited Flag-COMT-moxGFP construct. It does not estimate protein amount, translation flux, a kinetic compensation mechanism or population-level equivalence of assays. The original integrated MAVE already established cross-layer heterogeneity, so that observation alone cannot constitute this pilot's contribution.
+
+Fixed ascertainment: all 125 nucleotide identifiers shared by four public score exports, at 53 sites, from comt_gate/synonymous_id_catalog.json. No score values determined this selection in this project, but the source's processed-table inclusion already depends on its filters and measurements. All 125 and the sequence-fixed 113 SNVs must appear in coverage reporting. Existing published-score ascertainment does not turn this into a new independently sampled cohort.
+
+## Proposed outer split, already materialized without counts
+
+fold_manifest.json records every identifier. Within each ROI, sort native codon sites by SHA256 of UTF-8 `COMT_A1_raw_proxy_site_folds_v1|ROI={roi}|site={site}` with site as the tie breaker, then assign cyclic folds 0 through 4. A site and every alternative codon at it stay together. Assessment folds contain respectively 24, 27, 25, 25 and 24 variants at 11, 11, 11, 10 and 10 sites. ROI2 contributes four sites to each fold; ROI1 contributes seven, seven, seven, six and six. No fold is a biological preparation holdout.
+
+This manifest is a proposed immutable metadata split, not authorization to read outcomes. Any pre-outcome change requires a new version, not overwriting this manifest. The primary model ladder has no hyperparameter search. No assessment response enters fitting, orientation, normalization selection or missing-data treatment.
+
+## Required source normalization
+
+The author notebook at Git tree 7ee507ae0cef0dad1b42b06883bb8fe3116334fc supplies the operative sequence:
+
+1. Assign library, ROI, input type, fraction/bin and biological/technical labels using explicit source identities. Keep both the GEO and author-code FACS grouping interpretations. Do not equate a FACS biological label with an RNA/gDNA label across assays.
+2. Apply target-ROI and permitted-codon restrictions; apply the source SNP-error classifier and frequency threshold before the normalization denominator is computed. This applies to all relevant background alleles, not just the 125 prediction targets.
+3. Collapse per-base summary rows into variant records using the source median numeric aggregation and first nonnumeric annotation. Authenticate the complete grouping keys. Do not double-count an MNP as several variants. An inconsistent reference, conflicting sequence identifier, nonunique position depth, invalid count or nonfinite arithmetic is an input failure, not a row to silently discard.
+4. For each sample/ROI/position, set W = DP minus sum of retained variant CAO. Set q = (CAO+0.5)/(W+0.5). Source depth and alternate counts must be kept jointly; do not replace W by a guessed reference count or compute it from only selected synonymous variants.
+5. For each nucleotide variant in each ROI, subtract the median negative-control q from source negative-control samples: COMT_40 and COMT_108 for ROI1, COMT_109 for ROI2, where the source actually contains that variant. The source sets an absent negative-control variant's background to zero. This is a source convention, not evidence of zero experimental background. A nonpositive corrected q has no log representation and stays explicitly unavailable.
+6. Retain the documented fixed library exclusions: COMT_120, 130, 146, 145, 47, 57, 173 and 174, and first-generation polysome samples 7 through 36. Use source code quadrants 1 through 4, with quadrant3 the low-fluorescence target, and fractions3/4 as mid/heavy. GEO P3/P4/P5/P6 are source labels that must be mapped to code quadrants1/2/3/4; literal equal-number bin joins are invalid.
+7. Do not apply global ComBat or ALDEx2 to construct the new prediction target. This is intentionally a new raw proxy estimand. The source's post-ComBat complete-case and log-frequency threshold cannot be copied onto an uncorrected scale without an explicit new rule. Preserve raw-stage missingness and all fixed target identifiers instead.
+
+The unavailable historical SNP filtering state is retained as a limitation in design_blocker.md. The selected prospective amendment reconstructs a new state using the pinned source algorithm and runtime, rather than asserting historical equivalence. The notebook's ROI2 `N>=2` rejection convention is also more inclusive than prose saying more than half of four gDNA libraries. An approved reconstruction must explicitly choose and document the executable source convention; it must not invent a majority threshold while claiming exact reproduction.
+
+## Descriptive endpoints, conditional on resolving the source state
+
+Within each documented biological group, summarize finite technical log corrected-q measurements by the median; retain every contributing preparation identifier. Preserve both documented FACS maps as named sensitivity cases. With four valid biological summaries in an assay, its central value is their median and its preparation envelope is their minimum and maximum. If a required group is wholly unavailable, mark that endpoint incomplete. Do not silently replace a four-group design by three or relabel technical replicates as independent biological observations. The primary analysis common coverage must be fixed across the five models.
+
+For an assay A write its descriptive interval [a-,a+] and central value a*. Let D denote gDNA, R0 total RNA, H heavy-polysome and F the low-fluorescence-bin representation. Define:
+
+- RNA contrast R* = r* minus d*, with envelope [r- minus d+, r+ minus d-].
+- Protein proxy T* = d* minus f*, with envelope [d- minus f+, d+ minus f-]. T is negative low-bin enrichment, not protein amount.
+- Heavy-load contrast L* = h* minus r*, with envelope [h- minus r+, h+ minus r-].
+
+These Cartesian envelopes permit source-supported unpaired choices and do not assert independence. They may be conservative because shared denominators constrain simultaneous choices. They are not confidence intervals and do not cover unmeasured preparations or systematic bias. Keep joint source identifiers so later exact shared-reference scenario accounting is possible without reconstructing it from marginal bars. No fitted correlation or assumed biological pairing is allowed. Mid-polysome is one fixed comparator sensitivity, never a substitute selected because heavy load fails.
+
+Resolved signs require the entire declared envelope to lie strictly on one side of zero. Ties, intervals touching zero and incomplete data are unresolved. Keep the full sign-confusion table, unresolved counts, and prediction dropouts. Source grouping cases must both be reported; disagreement is a substantive limitation.
+
+## Locked model ladder, fixed model conventions for review
+
+Every training site receives equal total weight; its variants share that weight. The pooled constant predictor is the weighted training median of T. A second constant baseline fits a separate weighted training median within each ROI, then predicts using the assessment ROI. Each ROI must have training examples; an absent ROI is a design failure, not a pooled-value fallback. The RNA-only calibration is weighted nondecreasing isotonic regression of T on R, merging tied R values before PAVA. PAVA minimizes training squared error, not the assessment MAE. It is one specified RNA-only predictor, not an optimal RNA predictor over all possible methods. Predictions interpolate linearly between distinct fitted R locations and clamp to the nearest endpoint outside their range. This boundary rule must be frozen before outcomes.
+
+The second RNA-only baseline minimizes weighted squared error for T = intercept + a R with a >= 0. The primary load comparator jointly minimizes weighted squared error for T = intercept + a R + b L with a >= 0 and unrestricted b. Both include an intercept. These are unpenalized fits with no parameter search. The joint fit can detect load information when an in-training isotonic calibration is saturated; the discarded sequential isotonic-residual model remains only a synthetic failure example, not an observed comparator.
+
+The model kernel uses exact rational sufficient statistics for the supplied stored finite numeric inputs. It does not make logarithms or biological quantities exact. With full centered predictor rank, solve the two-variable normal equations; if a is negative, use the a=0 boundary fit. If R and L are exactly collinear and L varies, set a=0 and fit the identifiable L slope. If L is constant, use the constrained RNA-only fit. If both are constant, use the weighted response mean. The MAE constant baseline instead uses the weighted training median, averaging adjacent values when cumulative weight is exactly one half. The rank-deficient convention is predetermined, not selected after comparing assessment errors.
+
+For each fit save training coefficients, centered/design rank, exact Gram determinant, centered weighted-design condition number (explicitly unavailable for singularity or floating conversion underflow), and assessment values outside each training predictor range. Preserve near-collinearity, extreme predictions and every error. There is no slope cap, extrapolation repair or unstable-fold exclusion. The isotonic predictor has its separately declared boundary clamping; the linear models extrapolate. This difference is reported as a model-class limitation.
+
+Primary endpoint: mean of per-site mean absolute errors across all outer assessment folds. Save variant errors, site errors, fold summaries, every prediction and all unavailable cases. Report each ROI separately regardless of direction, as well as the same quantities for the fixed 113-SNV subset and both FACS grouping interpretations. Save the fixed mid-polysome comparator sensitivity separately. No confidence interval or p-value is implied by the descriptive prediction errors.
+
+Operational expansion criterion, proposed before values: common assessment coverage, under each required grouping interpretation, of at least 100 of 125 variants and at least 40 of 53 sites; the heavy-load comparator reduces site-balanced MAE by at least 10% against ALL FOUR baselines: pooled weighted median, ROI-specific weighted median, RNA-only PAVA and constrained RNA-only linear. If any baseline MAE is zero, relative improvement cannot pass. A favorable result that reverses across the documented preparation maps fails the stability condition. These are resource-allocation criteria, not validated biological equivalence margins. There is no source-supported universal acceptable substitution error; low prediction error alone cannot establish interchangeable biological assays.
+
+## Required implementation and synthetic review before authorization
+
+The staged raw reader must verify source, metadata, protocol and approved source-filter-state hashes before decoding any numeric field. Read only source-allowlisted identities, classifier inputs where authorized, counts and depth required by the declared formula. All other phenotype tables remain inaccessible. New output directories must not exist. Missing hashes, incompatible schemas, duplicate conflicting identities, negative W, invalid domain values and disabled assertions must fail before analysis. No implicit use of MaveDB score tails is permitted.
+
+Synthetic verification must cover exact count/WT/background arithmetic, MNP row collapse, shared-WT cancellation, normalization dependence on filtered background alleles, zero/nonpositive subtraction, missing groups, label ambiguity, ties, isotonic saturation, a detectable held-out load residual, null residual, all-zero baseline, site-balanced weights, fold leakage and poisoned hidden fields. The present handoff implements metadata split checks, exact normalization dependency examples, the new-runtime helper smoke test and a five-model kernel with 550 synthetic checks. It does not yet contain or claim a completed selective raw reader, integrated normalizer, staged outer-fold runner or outcome authorization guard.
+
+No observed count bodies, phenotype values, model fits or source simulations have been opened or fitted during this preparation.
+
+## Shared measurements and the scope of inference
+
+All four assay log representations d, r, f and h, all preparation identities and both label maps must be retained with R=r-d, T=d-f and L=h-r. The algebra itself creates coupling. If only d varies, R=-T even without a layer-specific biological difference. If only r varies with d=f=h=0, then T=R+L=0: load can cancel RNA measurement error without any biological compensation. The synthetic controls preserve these cases. Cross-site predictive gain is therefore an algorithmic result for these source-normalized proxies and cannot identify causal compensation, translation flux, independent conditional biological information or equivalence of assays.
+
+Source bin labels are not interchangeable. The target is code Quadrant 3 (sample IDs such as COMT_45), called P3 in the analysis and manuscript discussion. Those same samples have GEO title P5, whereas GEO title P3 maps to code Quadrant 1. The frozen sample-ID map, not literal equality of the string P3, determines inclusion.
+
+The mid-load sensitivity uses the same joint model with mid in place of heavy and the same common coverage rule. Both source grouping interpretations and the fixed 113-SNV analysis remain reported. No alternative wins by selection. Joint raw preparation scenarios are not independent replicates; Cartesian ranges provide descriptive sensitivity only.
+
+The mandatory shared-noise control sets true RNA=heavy=u and true heavy/RNA log load=0, with measured RNA=u+e, gDNA=0 and negative low-bin representation=u. Then R=u+e, L=-e and T=u. For the four combinations u in {-1,1}, e in {-2,2}, the joint model has a=b=1 and MAE0 while RNA-only PAVA has MAE1/2. Thus even perfect improvement can occur without variable true heavy load. This is an interpretive falsifier, not a reason to exclude outcomes with this pattern.

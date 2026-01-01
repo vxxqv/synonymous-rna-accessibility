@@ -1,0 +1,21 @@
+# Source-state blocker before COMT A1 values
+
+**Verdict:** a faithful historical source-filter reconstruction is not currently authenticated. Stop before count access. This does not imply that the COMT measurements are unusable, or that a new explicitly pinned reconstruction is impossible. It means that omission or replacement of the source filter would change the declared raw estimator and needs an explicit amendment.
+
+The author notebook first globally rejects SNP IDs using random-forest error predictions, filters per-record frequency, then constructs `WT_CAO = DP - sum(CAO)` from the remaining variants. This is visible at notebook lines 2037 through 2124 and 2174 through 2190. Thus the 125 accepted target IDs are insufficient to reconstruct their denominators. The same target with DP=100 and CAO=10 has q=21/121 if another allele with count30 is retained, but q=21/181 if that background allele is rejected. This exact counterexample is saved in synthetic_dependency_receipt.json. It uses no biological values.
+
+The Zenodo archive contains two simulated truth VCFs and two simulated training summaries. Its complete 355-member inventory has no fitted random-forest objects, final rejection-ID list, prediction matrix, sessionInfo or environment lock. The source notebook derives RF `mtry` by nested resampling and then refits on the simulated training data. It sources external helpers from a branch rather than a commit. A targeted fallback retrieved and pinned those helpers. Their path-specific Git history ends in November/December2022, before the article, and their seed9 is explicit. Missing seed or missing helper code is therefore **not** the blocker.
+
+What remains unrecorded is the original R, caret and randomForest runtime/RNG environment and the resulting global rejection state. Seed9 alone does not authenticate equivalence across R/package versions and sampling defaults. Current R4.6.1 exists, but data.table, caret and randomForest are absent. No package installation was attempted. R absence itself is not a scientific objection, and the installed runtime must not be described as the historical one.
+
+There is an additional source convention to pin: the prose says reject variants called false in more than half the gDNA libraries. The executable ROI2 code uses N>=2 with four gDNA libraries, rejecting exact-half cases as well. ROI1 uses N>=4 with seven gDNA libraries. The existing notebook is explicit, but a reconstruction must acknowledge that convention instead of silently substituting a different threshold. The 20 FACS replicate-label discrepancies from A0 remain a separate dependence issue, handled in the proposed protocol by retaining both source maps.
+
+One of the following would resolve the normalization source-state gate:
+
+1. A source-authenticated, hash-pinned global rejection-ID map, or the original model objects plus the exact feature encoding and input universe.
+2. A fully authenticated historical computational environment sufficient to regenerate that state, followed by independent replay under a newly approved source-only phase.
+3. An explicit pre-outcome amendment defining a **new** fixed-runtime implementation of the source algorithm, with pinned helper bytes, R/package/RNG versions, factor levels, row ordering, classifier tie rules and the code's ROI-specific rejection counts. This would be a reconstructed preprocessing procedure, not an assertion of bitwise historical reproduction. Its effects on all background alleles must be preserved. It may not be tuned against COMT assay prediction outcomes.
+
+Simply using the processed export IDs as an RF pass list for every background allele is invalid. Substituting all unfiltered counts, dropping the RF step, recomputing WT from only synonymous targets, or feeding ALDEx2/ComBat-derived scores into the raw branch would change the specification. None was done.
+
+Prepared independent of this blocker: source hash checks, a deterministic proposed five-fold split retaining all125 identifiers/53sites and the113-SNV labels, the detailed raw-proxy draft, and seven small exact synthetic checks. The reader, normalizer, PAVA models and full synthetic test suite remain unimplemented pending the source-state decision. No false implementation-ready or outcome-ready claim is made.

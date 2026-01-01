@@ -1,0 +1,768 @@
+{
+  "roots": [
+    "data.table",
+    "caret",
+    "randomForest",
+    "e1071"
+  ],
+  "not_a_final_runtime_lock": true,
+  "binary_packages": {
+    "ModelMetrics": {
+      "Package": "ModelMetrics",
+      "Version": "1.2.2.2",
+      "Depends": "R (>= 3.2.2)",
+      "Imports": "Rcpp, data.table",
+      "LinkingTo": "Rcpp",
+      "Suggests": "testthat",
+      "License": "GPL (>= 2)",
+      "Archs": "x64",
+      "Built": "R 4.6.1; x86_64-w64-mingw32; 2026-10-21 02:10:07 UTC; windows",
+      "File": "ModelMetrics_1.2.2.2.zip"
+    },
+    "R6": {
+      "Package": "R6",
+      "Version": "2.6.1",
+      "Depends": "R (>= 3.6)",
+      "Suggests": "lobstr, testthat (>= 3.0.0)",
+      "License": "MIT + file LICENSE",
+      "Built": "R 4.6.1; ; 2026-10-21 01:07:11 UTC; windows",
+      "File": "R6_2.6.1.zip"
+    },
+    "RColorBrewer": {
+      "Package": "RColorBrewer",
+      "Version": "1.1-3",
+      "Depends": "R (>= 2.0.0)",
+      "License": "Apache License 2.0",
+      "Built": "R 4.6.1; ; 2026-08-19 11:46:07 UTC; windows",
+      "File": "RColorBrewer_1.1-3.zip"
+    },
+    "Rcpp": {
+      "Package": "Rcpp",
+      "Version": "1.1.2",
+      "Depends": "R (>= 3.5.0)",
+      "Imports": "methods, utils",
+      "Suggests": "tinytest, inline, rbenchmark, pkgKitten (>= 0.1.2)",
+      "License": "GPL (>= 2)",
+      "Archs": "x64",
+      "Built": "R 4.6.1; x86_64-w64-mingw32; 2026-10-21 01:07:13 UTC; windows",
+      "File": "Rcpp_1.1.2.zip"
+    },
+    "S7": {
+      "Package": "S7",
+      "Version": "0.2.2",
+      "Depends": "R (>= 3.5.0)",
+      "Imports": "utils",
+      "Suggests": "bench, callr, covr, knitr, methods, rmarkdown, testthat (>= 3.2.0), tibble",
+      "License": "MIT + file LICENSE",
+      "Archs": "x64",
+      "Built": "R 4.6.1; x86_64-w64-mingw32; 2026-10-21 01:07:13 UTC; windows",
+      "File": "S7_0.2.2.zip"
+    },
+    "SQUAREM": {
+      "Package": "SQUAREM",
+      "Version": "2026.1",
+      "Depends": "R (>= 4.0)",
+      "Suggests": "setRNG, interval",
+      "License": "GPL (>= 2)",
+      "Built": "R 4.6.1; ; 2026-10-21 01:07:46 UTC; windows",
+      "File": "SQUAREM_2026.1.zip"
+    },
+    "caret": {
+      "Package": "caret",
+      "Version": "7.0-1",
+      "Depends": "ggplot2, lattice (>= 0.20), R (>= 3.2.0)",
+      "Imports": "e1071, foreach, grDevices, methods, ModelMetrics (>= 1.2.2.2), nlme, plyr, pROC, recipes (>= 0.1.10), reshape2, stats, stats4, utils, withr (>= 2.0.0)",
+      "Suggests": "BradleyTerry2, covr, Cubist, dplyr, earth (>= 2.2-3), ellipse, fastICA, gam (>= 1.15), ipred, kernlab, klaR, knitr, MASS, Matrix, mda, mgcv, mlbench, MLmetrics, nnet, pamr, party (>= 0.9-99992), pls, proxy, randomForest, RANN, rmarkdown, rpart, spls, superpc, testthat (>= 0.9.1), themis (>= 0.1.3)",
+      "License": "GPL (>= 2)",
+      "Archs": "x64",
+      "Built": "R 4.6.1; x86_64-w64-mingw32; 2026-10-21 04:49:38 UTC; windows",
+      "File": "caret_7.0-1.zip"
+    },
+    "cli": {
+      "Package": "cli",
+      "Version": "3.6.6",
+      "Depends": "R (>= 3.4)",
+      "Imports": "utils",
+      "Suggests": "callr, covr, crayon, digest, glue (>= 1.6.0), grDevices, htmltools, htmlwidgets, knitr, methods, processx, ps (>= 1.3.4.9000), rlang (>= 1.0.2.9003), rmarkdown, rprojroot, rstudioapi, testthat (>= 3.2.0), tibble, whoami, withr",
+      "License": "MIT + file LICENSE",
+      "Archs": "x64",
+      "Built": "R 4.6.1; x86_64-w64-mingw32; 2026-10-21 01:07:12 UTC; windows",
+      "File": "cli_3.6.6.zip"
+    },
+    "clock": {
+      "Package": "clock",
+      "Version": "0.7.4",
+      "Depends": "R (>= 4.0.0)",
+      "Imports": "cli (>= 3.6.4), lifecycle (>= 1.0.4), rlang (>= 1.1.5), tzdb (>= 0.5.0), vctrs (>= 0.6.5)",
+      "LinkingTo": "cpp11 (>= 0.5.2), tzdb (>= 0.5.0)",
+      "Suggests": "covr, knitr, magrittr, pillar, rmarkdown, slider (>= 0.3.2), testthat (>= 3.0.0), withr",
+      "License": "MIT + file LICENSE",
+      "Archs": "x64",
+      "Built": "R 4.6.1; x86_64-w64-mingw32; 2026-10-21 02:52:45 UTC; windows",
+      "File": "clock_0.7.4.zip"
+    },
+    "cpp11": {
+      "Package": "cpp11",
+      "Version": "0.5.5",
+      "Depends": "R (>= 4.0.0)",
+      "Suggests": "bench, brio, callr, cli, covr, decor, desc, ggplot2, glue, knitr, lobstr, mockery, progress, rmarkdown, scales, Rcpp, testthat (>= 3.2.0), tibble, utils, vctrs, withr",
+      "License": "MIT + file LICENSE",
+      "Built": "R 4.6.1; ; 2026-10-21 01:07:12 UTC; windows",
+      "File": "cpp11_0.5.5.zip"
+    },
+    "data.table": {
+      "Package": "data.table",
+      "Version": "1.18.6.1",
+      "Depends": "R (>= 3.4.0)",
+      "Imports": "methods",
+      "Suggests": "bit64 (>= 4.0.0), bit (>= 4.0.4), R.utils (>= 2.13.0), xts, zoo (>= 1.8-1), yaml, knitr, markdown",
+      "License": "MPL-2.0 | file LICENSE",
+      "Archs": "x64",
+      "Built": "R 4.6.1; x86_64-w64-mingw32; 2026-10-21 01:07:17 UTC; windows",
+      "File": "data.table_1.18.6.1.zip"
+    },
+    "diagram": {
+      "Package": "diagram",
+      "Version": "1.6.5",
+      "Depends": "R (>= 2.01), shape",
+      "Imports": "stats, graphics",
+      "License": "GPL (>= 2)",
+      "Built": "R 4.6.1; ; 2026-08-19 11:47:59 UTC; windows",
+      "File": "diagram_1.6.5.zip"
+    },
+    "digest": {
+      "Package": "digest",
+      "Version": "0.6.39",
+      "Depends": "R (>= 3.3.0)",
+      "Imports": "utils",
+      "Suggests": "tinytest, simplermarkdown, rbenchmark",
+      "License": "GPL (>= 2)",
+      "Archs": "x64",
+      "Built": "R 4.6.1; x86_64-w64-mingw32; 2026-10-21 01:07:13 UTC; windows",
+      "File": "digest_0.6.39.zip"
+    },
+    "dplyr": {
+      "Package": "dplyr",
+      "Version": "1.2.1",
+      "Depends": "R (>= 4.1.0)",
+      "Imports": "cli (>= 3.6.2), generics, glue (>= 1.3.2), lifecycle (>= 1.0.5), magrittr (>= 1.5), methods, pillar (>= 1.9.0), R6, rlang (>= 1.1.7), tibble (>= 3.2.0), tidyselect (>= 1.2.0), utils, vctrs (>= 0.7.1)",
+      "Suggests": "broom, covr, DBI, dbplyr (>= 2.2.1), ggplot2, knitr, Lahman, lobstr, nycflights13, purrr, rmarkdown, RSQLite, stringi (>= 1.7.6), testthat (>= 3.1.5), tidyr (>= 1.3.0), withr",
+      "License": "MIT + file LICENSE",
+      "Archs": "x64",
+      "Built": "R 4.6.1; x86_64-w64-mingw32; 2026-10-21 03:38:36 UTC; windows",
+      "File": "dplyr_1.2.1.zip"
+    },
+    "e1071": {
+      "Package": "e1071",
+      "Version": "1.7-17",
+      "Imports": "graphics, grDevices, class, stats, methods, utils, proxy",
+      "Suggests": "cluster, mlbench, nnet, randomForest, rpart, SparseM, xtable, Matrix, MASS, slam",
+      "License": "GPL-2 | GPL-3",
+      "Archs": "x64",
+      "Built": "R 4.6.1; x86_64-w64-mingw32; 2026-10-21 02:09:57 UTC; windows",
+      "File": "e1071_1.7-17.zip"
+    },
+    "farver": {
+      "Package": "farver",
+      "Version": "2.1.2",
+      "Suggests": "covr, testthat (>= 3.0.0)",
+      "License": "MIT + file LICENSE",
+      "Archs": "x64",
+      "Built": "R 4.6.1; x86_64-w64-mingw32; 2026-10-21 01:07:16 UTC; windows",
+      "File": "farver_2.1.2.zip"
+    },
+    "foreach": {
+      "Package": "foreach",
+      "Version": "1.5.2",
+      "Depends": "R (>= 2.5.0)",
+      "Imports": "codetools, utils, iterators",
+      "Suggests": "randomForest, doMC, doParallel, testthat, knitr, rmarkdown",
+      "License": "Apache License (== 2.0)",
+      "Built": "R 4.6.1; ; 2026-10-21 02:09:56 UTC; windows",
+      "File": "foreach_1.5.2.zip"
+    },
+    "future": {
+      "Package": "future",
+      "Version": "1.80.0",
+      "Depends": "R (>= 3.2.0)",
+      "Imports": "digest, globals (>= 0.18.0), listenv (>= 0.8.0), parallel, parallelly (>= 1.44.0), tools, utils",
+      "Suggests": "methods, RhpcBLASctl, R.rsp, markdown",
+      "License": "Apache License (>= 2)",
+      "Built": "R 4.6.1; ; 2026-10-21 02:09:57 UTC; windows",
+      "File": "future_1.80.0.zip"
+    },
+    "future.apply": {
+      "Package": "future.apply",
+      "Version": "1.21.0",
+      "Depends": "R (>= 3.2.0), future (>= 1.80.0)",
+      "Imports": "globals, parallel, stats, utils",
+      "Suggests": "datasets, tools, listenv, R.rsp, markdown",
+      "License": "GPL (>= 2)",
+      "Built": "R 4.6.1; ; 2026-10-21 02:31:42 UTC; windows",
+      "File": "future.apply_1.21.0.zip"
+    },
+    "generics": {
+      "Package": "generics",
+      "Version": "0.1.4",
+      "Depends": "R (>= 3.6)",
+      "Imports": "methods",
+      "Suggests": "covr, pkgload, testthat (>= 3.0.0), tibble, withr",
+      "License": "MIT + file LICENSE",
+      "Built": "R 4.6.1; ; 2026-10-21 01:07:11 UTC; windows",
+      "File": "generics_0.1.4.zip"
+    },
+    "ggplot2": {
+      "Package": "ggplot2",
+      "Version": "4.0.3",
+      "Depends": "R (>= 4.1)",
+      "Imports": "cli, grDevices, grid, gtable (>= 0.3.6), isoband, lifecycle (> 1.0.1), rlang (>= 1.1.0), S7, scales (>= 1.4.0), stats, vctrs (>= 0.6.0), withr (>= 2.5.0)",
+      "Suggests": "broom, covr, dplyr, ggplot2movies, hexbin, Hmisc, hms, knitr, mapproj, maps, MASS, mgcv, multcomp, munsell, nlme, profvis, quantreg, quarto, ragg (>= 1.2.6), RColorBrewer, roxygen2, rpart, sf (>= 0.7-3), svglite (>= 2.1.2), testthat (>= 3.1.5), tibble, vdiffr (>= 1.0.6), xml2",
+      "Enhances": "sp",
+      "License": "MIT + file LICENSE",
+      "Built": "R 4.6.1; ; 2026-10-21 02:52:40 UTC; windows",
+      "File": "ggplot2_4.0.3.zip"
+    },
+    "globals": {
+      "Package": "globals",
+      "Version": "0.20.0",
+      "Depends": "R (>= 3.1.2)",
+      "Imports": "codetools",
+      "License": "LGPL (>= 2.1)",
+      "Built": "R 4.6.1; ; 2026-10-13 23:51:24 UTC; windows",
+      "File": "globals_0.20.0.zip"
+    },
+    "glue": {
+      "Package": "glue",
+      "Version": "1.8.1",
+      "Depends": "R (>= 4.1)",
+      "Imports": "methods",
+      "Suggests": "crayon, DBI (>= 1.2.0), dplyr, knitr, rlang, rmarkdown, RSQLite, testthat (>= 3.2.0), vctrs (>= 0.3.0), waldo (>= 0.5.3), withr",
+      "License": "MIT + file LICENSE",
+      "Archs": "x64",
+      "Built": "R 4.6.1; x86_64-w64-mingw32; 2026-10-21 01:07:11 UTC; windows",
+      "File": "glue_1.8.1.zip"
+    },
+    "gower": {
+      "Package": "gower",
+      "Version": "1.0.2",
+      "Suggests": "tinytest (>= 0.9.3),",
+      "License": "GPL-3",
+      "Archs": "x64",
+      "Built": "R 4.6.1; x86_64-w64-mingw32; 2026-08-19 11:47:57 UTC; windows",
+      "File": "gower_1.0.2.zip"
+    },
+    "gtable": {
+      "Package": "gtable",
+      "Version": "0.3.6",
+      "Depends": "R (>= 4.0)",
+      "Imports": "cli, glue, grid, lifecycle, rlang (>= 1.1.0), stats",
+      "Suggests": "covr, ggplot2, knitr, profvis, rmarkdown, testthat (>= 3.0.0)",
+      "License": "MIT + file LICENSE",
+      "Built": "R 4.6.1; ; 2026-10-21 02:31:37 UTC; windows",
+      "File": "gtable_0.3.6.zip"
+    },
+    "hardhat": {
+      "Package": "hardhat",
+      "Version": "1.4.3",
+      "Depends": "R (>= 4.1)",
+      "Imports": "cli (>= 3.6.0), glue (>= 1.6.2), rlang (>= 1.1.0), sparsevctrs (>= 0.2.0), tibble (>= 3.2.1), vctrs (>= 0.6.0)",
+      "Suggests": "covr, crayon, devtools, knitr, Matrix, modeldata (>= 0.0.2), recipes (>= 1.3.0), rmarkdown (>= 2.3), roxygen2, testthat (>= 3.0.0), usethis (>= 2.1.5), withr (>= 3.0.0)",
+      "License": "MIT + file LICENSE",
+      "Built": "R 4.6.1; ; 2026-10-21 03:38:43 UTC; windows",
+      "File": "hardhat_1.4.3.zip"
+    },
+    "ipred": {
+      "Package": "ipred",
+      "Version": "0.9-16",
+      "Depends": "R (>= 2.10)",
+      "Imports": "rpart (>= 3.1-8), MASS, survival, nnet, class, prodlim",
+      "Suggests": "mvtnorm, mlbench, TH.data, randomForest, party",
+      "License": "GPL (>= 2)",
+      "Archs": "x64",
+      "Built": "R 4.6.1; x86_64-w64-mingw32; 2026-10-21 03:38:43 UTC; windows",
+      "File": "ipred_0.9-16.zip"
+    },
+    "isoband": {
+      "Package": "isoband",
+      "Version": "0.3.0",
+      "Imports": "cli, grid, rlang, utils",
+      "LinkingTo": "cpp11",
+      "Suggests": "covr, ggplot2, knitr, magick, bench, rmarkdown, sf, testthat (>= 3.0.0), xml2",
+      "License": "MIT + file LICENSE",
+      "Archs": "x64",
+      "Built": "R 4.6.1; x86_64-w64-mingw32; 2026-10-21 02:09:56 UTC; windows",
+      "File": "isoband_0.3.0.zip"
+    },
+    "iterators": {
+      "Package": "iterators",
+      "Version": "1.0.14",
+      "Depends": "R (>= 2.5.0), utils",
+      "Suggests": "RUnit, foreach",
+      "License": "Apache License (== 2.0)",
+      "Built": "R 4.6.1; ; 2026-10-21 01:07:16 UTC; windows",
+      "File": "iterators_1.0.14.zip"
+    },
+    "labeling": {
+      "Package": "labeling",
+      "Version": "0.4.3",
+      "Imports": "stats, graphics",
+      "License": "MIT + file LICENSE | Unlimited",
+      "Built": "R 4.6.1; ; 2026-08-19 11:46:07 UTC; windows",
+      "File": "labeling_0.4.3.zip"
+    },
+    "lava": {
+      "Package": "lava",
+      "Version": "1.9.3",
+      "Depends": "R (>= 3.5.0)",
+      "Imports": "cli, future.apply, graphics, grDevices, methods, numDeriv, progressr, stats, survival, SQUAREM, utils",
+      "Suggests": "KernSmooth, Rgraphviz, data.table, ellipse, fields, future, geepack, graph, knitr, rmarkdown, igraph (>= 0.6), lavaSearch2, lme4 (>= 1.1.35.1), MASS, Matrix (>= 1.6.3), mets (>= 1.1), nlme, optimx, polycor, quantreg, quarto, rgl, svglite, targeted (>= 0.4), testthat (>= 0.11), vdiffr, visNetwork",
+      "License": "Apache License (== 2.0)",
+      "Built": "R 4.6.1; ; 2026-10-21 02:52:44 UTC; windows",
+      "File": "lava_1.9.3.zip"
+    },
+    "lifecycle": {
+      "Package": "lifecycle",
+      "Version": "1.0.5",
+      "Depends": "R (>= 3.6)",
+      "Imports": "cli (>= 3.4.0), rlang (>= 1.1.0)",
+      "Suggests": "covr, knitr, lintr (>= 3.1.0), rmarkdown, testthat (>= 3.0.1), tibble, tidyverse, tools, vctrs, withr, xml2",
+      "License": "MIT + file LICENSE",
+      "Built": "R 4.6.1; ; 2026-10-21 02:09:53 UTC; windows",
+      "File": "lifecycle_1.0.5.zip"
+    },
+    "listenv": {
+      "Package": "listenv",
+      "Version": "1.1.0",
+      "Depends": "R (>= 3.1.2)",
+      "Suggests": "R.utils, R.rsp, markdown",
+      "License": "Apache License (>= 2)",
+      "Built": "R 4.6.1; ; 2026-10-21 01:07:16 UTC; windows",
+      "File": "listenv_1.1.0.zip"
+    },
+    "lubridate": {
+      "Package": "lubridate",
+      "Version": "1.9.5",
+      "Depends": "methods, R (>= 3.2)",
+      "Imports": "generics, timechange (>= 0.4.0)",
+      "Suggests": "covr, knitr, rmarkdown, testthat (>= 2.1.0), vctrs (>= 0.6.5)",
+      "Enhances": "chron, data.table, timeDate, tis, zoo",
+      "License": "MIT + file LICENSE",
+      "Archs": "x64",
+      "Built": "R 4.6.1; x86_64-w64-mingw32; 2026-10-21 02:31:44 UTC; windows",
+      "File": "lubridate_1.9.5.zip"
+    },
+    "magrittr": {
+      "Package": "magrittr",
+      "Version": "2.0.5",
+      "Depends": "R (>= 3.4.0)",
+      "Suggests": "covr, knitr, rlang, rmarkdown, testthat",
+      "License": "MIT + file LICENSE",
+      "Archs": "x64",
+      "Built": "R 4.6.1; x86_64-w64-mingw32; 2026-10-21 01:07:11 UTC; windows",
+      "File": "magrittr_2.0.5.zip"
+    },
+    "numDeriv": {
+      "Package": "numDeriv",
+      "Version": "2016.8-1.1",
+      "Depends": "R (>= 2.11.1)",
+      "License": "GPL-2",
+      "Built": "R 4.6.1; ; 2026-08-19 11:46:08 UTC; windows",
+      "File": "numDeriv_2016.8-1.1.zip"
+    },
+    "pROC": {
+      "Package": "pROC",
+      "Version": "1.19.1",
+      "Depends": "R (>= 2.14)",
+      "Imports": "methods, Rcpp (>= 0.11.1)",
+      "LinkingTo": "Rcpp",
+      "Suggests": "MASS, logcondens, testthat, vdiffr, ggplot2, rlang, knitr, rmarkdown",
+      "License": "GPL (>= 3)",
+      "Archs": "x64",
+      "Built": "R 4.6.1; x86_64-w64-mingw32; 2026-10-21 01:08:08 UTC; windows",
+      "File": "pROC_1.19.1.zip"
+    },
+    "parallelly": {
+      "Package": "parallelly",
+      "Version": "1.48.0",
+      "Imports": "parallel, tools, utils",
+      "Suggests": "commonmark, base64enc",
+      "License": "LGPL (>= 2.1)",
+      "Archs": "x64",
+      "Built": "R 4.6.1; x86_64-w64-mingw32; 2026-10-21 01:07:16 UTC; windows",
+      "File": "parallelly_1.48.0.zip"
+    },
+    "pillar": {
+      "Package": "pillar",
+      "Version": "1.11.1",
+      "Imports": "cli (>= 2.3.0), glue, lifecycle, rlang (>= 1.0.2), utf8 (>= 1.1.0), utils, vctrs (>= 0.5.0)",
+      "Suggests": "bit64, DBI, debugme, DiagrammeR, dplyr, formattable, ggplot2, knitr, lubridate, nanotime, nycflights13, palmerpenguins, rmarkdown, scales, stringi, survival, testthat (>= 3.1.1), tibble, units (>= 0.7.2), vdiffr, withr",
+      "License": "MIT + file LICENSE",
+      "Built": "R 4.6.1; ; 2026-10-21 02:52:35 UTC; windows",
+      "File": "pillar_1.11.1.zip"
+    },
+    "pkgconfig": {
+      "Package": "pkgconfig",
+      "Version": "2.0.3",
+      "Imports": "utils",
+      "Suggests": "covr, testthat, disposables (>= 1.0.3)",
+      "License": "MIT + file LICENSE",
+      "Built": "R 4.6.1; ; 2026-10-21 01:07:11 UTC; windows",
+      "File": "pkgconfig_2.0.3.zip"
+    },
+    "plyr": {
+      "Package": "plyr",
+      "Version": "1.8.9",
+      "Depends": "R (>= 3.1.0)",
+      "Imports": "Rcpp (>= 0.11.0)",
+      "LinkingTo": "Rcpp",
+      "Suggests": "abind, covr, doParallel, foreach, iterators, itertools, tcltk, testthat",
+      "License": "MIT + file LICENSE",
+      "Archs": "x64",
+      "Built": "R 4.6.1; x86_64-w64-mingw32; 2026-10-21 02:09:57 UTC; windows",
+      "File": "plyr_1.8.9.zip"
+    },
+    "prodlim": {
+      "Package": "prodlim",
+      "Version": "2026.03.11",
+      "Depends": "R (>= 4.1.0)",
+      "Imports": "Rcpp (>= 0.11.5), stats, rlang, data.table, grDevices, ggplot2, scales, graphics, diagram, survival, KernSmooth, lava",
+      "LinkingTo": "Rcpp",
+      "Suggests": "tibble, ggthemes, riskRegression, testthat, etm, survey",
+      "License": "GPL (>= 2)",
+      "Archs": "x64",
+      "Built": "R 4.6.1; x86_64-w64-mingw32; 2026-10-21 03:18:38 UTC; windows",
+      "File": "prodlim_2026.03.11.zip"
+    },
+    "progressr": {
+      "Package": "progressr",
+      "Version": "1.1.0",
+      "Depends": "R (>= 3.5.0)",
+      "Imports": "tools, utils",
+      "Suggests": "graphics, tcltk, beepr, cli, crayon, digest, pbmcapply, progress, purrr, foreach, plyr, doFuture, future, future.apply, furrr, ntfy, RPushbullet, rstudioapi, shiny, commonmark, base64enc",
+      "License": "Apache License (>= 2)",
+      "Built": "R 4.6.1; ; 2026-10-20 23:51:25 UTC; windows",
+      "File": "progressr_1.1.0.zip"
+    },
+    "proxy": {
+      "Package": "proxy",
+      "Version": "0.4-29",
+      "Depends": "R (>= 3.4.0)",
+      "Imports": "stats, utils",
+      "Suggests": "cba",
+      "License": "GPL-2 | GPL-3",
+      "Archs": "x64",
+      "Built": "R 4.6.1; x86_64-w64-mingw32; 2026-10-21 01:07:46 UTC; windows",
+      "File": "proxy_0.4-29.zip"
+    },
+    "purrr": {
+      "Package": "purrr",
+      "Version": "1.2.2",
+      "Depends": "R (>= 4.1)",
+      "Imports": "cli (>= 3.6.1), lifecycle (>= 1.0.3), magrittr (>= 1.5.0), rlang (>= 1.1.1), vctrs (>= 0.6.3)",
+      "LinkingTo": "cli",
+      "Suggests": "carrier (>= 0.3.0), covr, dplyr (>= 0.7.8), httr, knitr, lubridate, mirai (>= 2.5.1), rmarkdown, testthat (>= 3.0.0), tibble, tidyselect",
+      "License": "MIT + file LICENSE",
+      "Archs": "x64",
+      "Built": "R 4.6.1; x86_64-w64-mingw32; 2026-10-21 02:52:38 UTC; windows",
+      "File": "purrr_1.2.2.zip"
+    },
+    "randomForest": {
+      "Package": "randomForest",
+      "Version": "4.7-1.2",
+      "Depends": "R (>= 4.1.0), stats",
+      "Suggests": "RColorBrewer, MASS",
+      "License": "GPL (>= 2)",
+      "Archs": "x64",
+      "Built": "R 4.6.1; x86_64-w64-mingw32; 2026-10-21 01:10:38 UTC; windows",
+      "File": "randomForest_4.7-1.2.zip"
+    },
+    "recipes": {
+      "Package": "recipes",
+      "Version": "1.4.0",
+      "Depends": "dplyr (>= 1.1.0), R (>= 4.1)",
+      "Imports": "cli, clock (>= 0.6.1), generics (>= 0.1.2), glue, gower, hardhat (>= 1.4.1), ipred (>= 0.9-12), lifecycle (>= 1.0.3), lubridate (>= 1.8.0), magrittr, Matrix, purrr (>= 1.0.0), rlang (>= 1.1.0), sparsevctrs (>= 0.3.3), stats, tibble, tidyr (>= 1.0.0), tidyselect (>= 1.2.0), timeDate, utils, vctrs (>= 0.5.0), withr",
+      "Suggests": "covr, ddalpha, dials (>= 1.2.0), dimRed, fastICA, ggplot2, igraph (>= 2.1.1), kernlab, knitr, methods, mixOmics, modeldata (>= 0.1.1), parsnip (>= 1.2.0), quarto, RANN, RcppRoll, rmarkdown, rpart, rsample, RSpectra, splines2, survival, testthat (>= 3.3.0), workflows, xml2",
+      "License": "MIT + file LICENSE",
+      "Built": "R 4.6.1; ; 2026-10-21 04:17:05 UTC; windows",
+      "File": "recipes_1.4.0.zip"
+    },
+    "reshape2": {
+      "Package": "reshape2",
+      "Version": "1.4.5",
+      "Depends": "R (>= 3.1)",
+      "Imports": "plyr (>= 1.8.1), Rcpp, stringr",
+      "LinkingTo": "Rcpp",
+      "Suggests": "covr, lattice, testthat (>= 3.0.0)",
+      "License": "MIT + file LICENSE",
+      "Archs": "x64",
+      "Built": "R 4.6.1; x86_64-w64-mingw32; 2026-10-21 03:18:38 UTC; windows",
+      "File": "reshape2_1.4.5.zip"
+    },
+    "rlang": {
+      "Package": "rlang",
+      "Version": "1.3.0",
+      "Depends": "R (>= 4.0.0)",
+      "Imports": "utils",
+      "Suggests": "cli (>= 3.1.0), covr, crayon, desc, fs, glue, knitr, magrittr, methods, pillar, pkgload, rmarkdown, stats, testthat (>= 3.3.2), tibble, usethis, vctrs (>= 0.2.3), withr",
+      "Enhances": "winch",
+      "License": "MIT + file LICENSE",
+      "Archs": "x64",
+      "Built": "R 4.6.1; x86_64-w64-mingw32; 2026-10-21 01:07:13 UTC; windows",
+      "File": "rlang_1.3.0.zip"
+    },
+    "scales": {
+      "Package": "scales",
+      "Version": "1.4.0",
+      "Depends": "R (>= 4.1)",
+      "Imports": "cli, farver (>= 2.0.3), glue, labeling, lifecycle, R6, RColorBrewer, rlang (>= 1.1.0), viridisLite",
+      "Suggests": "bit64, covr, dichromat, ggplot2, hms (>= 0.5.0), stringi, testthat (>= 3.0.0)",
+      "License": "MIT + file LICENSE",
+      "Built": "R 4.6.1; ; 2026-10-21 02:31:37 UTC; windows",
+      "File": "scales_1.4.0.zip"
+    },
+    "shape": {
+      "Package": "shape",
+      "Version": "1.4.6.1",
+      "Depends": "R (>= 2.01)",
+      "Imports": "stats, graphics, grDevices",
+      "License": "GPL (>= 3)",
+      "Built": "R 4.6.1; ; 2026-08-19 11:46:34 UTC; windows",
+      "File": "shape_1.4.6.1.zip"
+    },
+    "sparsevctrs": {
+      "Package": "sparsevctrs",
+      "Version": "0.3.6",
+      "Depends": "R (>= 4.1)",
+      "Imports": "cli (>= 3.4.0), rlang (>= 1.1.0), vctrs",
+      "Suggests": "knitr, Matrix, methods, rmarkdown, testthat (>= 3.0.0), tibble, withr",
+      "License": "MIT + file LICENSE",
+      "Archs": "x64",
+      "Built": "R 4.6.1; x86_64-w64-mingw32; 2026-10-21 02:52:43 UTC; windows",
+      "File": "sparsevctrs_0.3.6.zip"
+    },
+    "stringi": {
+      "Package": "stringi",
+      "Version": "1.8.9",
+      "Depends": "R (>= 3.4)",
+      "Imports": "tools, utils, stats",
+      "License": "file LICENSE",
+      "License_is_FOSS": "yes",
+      "Archs": "x64",
+      "Built": "R 4.6.1; x86_64-w64-mingw32; 2026-08-19 11:46:22 UTC; windows",
+      "File": "stringi_1.8.9.zip"
+    },
+    "stringr": {
+      "Package": "stringr",
+      "Version": "1.6.0",
+      "Depends": "R (>= 4.1.0)",
+      "Imports": "cli, glue (>= 1.6.1), lifecycle (>= 1.0.3), magrittr, rlang (>= 1.0.0), stringi (>= 1.5.3), vctrs (>= 0.4.0)",
+      "Suggests": "covr, dplyr, gt, htmltools, htmlwidgets, knitr, rmarkdown, testthat (>= 3.0.0), tibble",
+      "License": "MIT + file LICENSE",
+      "Built": "R 4.6.1; ; 2026-10-21 02:52:37 UTC; windows",
+      "File": "stringr_1.6.0.zip"
+    },
+    "tibble": {
+      "Package": "tibble",
+      "Version": "3.3.1",
+      "Depends": "R (>= 3.4.0)",
+      "Imports": "cli, lifecycle (>= 1.0.0), magrittr, methods, pillar (>= 1.8.1), pkgconfig, rlang (>= 1.0.2), utils, vctrs (>= 0.5.0)",
+      "Suggests": "bench, bit64, blob, brio, callr, DiagrammeR, dplyr, evaluate, formattable, ggplot2, here, hms, htmltools, knitr, lubridate, nycflights13, pkgload, purrr, rmarkdown, stringi, testthat (>= 3.0.2), tidyr, withr",
+      "License": "MIT + file LICENSE",
+      "Archs": "x64",
+      "Built": "R 4.6.1; x86_64-w64-mingw32; 2026-10-21 03:18:30 UTC; windows",
+      "File": "tibble_3.3.1.zip"
+    },
+    "tidyr": {
+      "Package": "tidyr",
+      "Version": "1.3.2",
+      "Depends": "R (>= 4.1.0)",
+      "Imports": "cli (>= 3.4.1), dplyr (>= 1.1.0), glue, lifecycle (>= 1.0.3), magrittr, purrr (>= 1.0.1), rlang (>= 1.1.1), stringr (>= 1.5.0), tibble (>= 2.1.1), tidyselect (>= 1.2.1), utils, vctrs (>= 0.5.2)",
+      "LinkingTo": "cpp11 (>= 0.4.0)",
+      "Suggests": "covr, data.table, knitr, readr, repurrrsive (>= 1.1.0), rmarkdown, testthat (>= 3.0.0)",
+      "License": "MIT + file LICENSE",
+      "Archs": "x64",
+      "Built": "R 4.6.1; x86_64-w64-mingw32; 2026-10-21 03:59:11 UTC; windows",
+      "File": "tidyr_1.3.2.zip"
+    },
+    "tidyselect": {
+      "Package": "tidyselect",
+      "Version": "1.2.1",
+      "Depends": "R (>= 3.4)",
+      "Imports": "cli (>= 3.3.0), glue (>= 1.3.0), lifecycle (>= 1.0.3), rlang (>= 1.0.4), vctrs (>= 0.5.2), withr",
+      "Suggests": "covr, crayon, dplyr, knitr, magrittr, rmarkdown, stringr, testthat (>= 3.1.1), tibble (>= 2.1.3)",
+      "License": "MIT + file LICENSE",
+      "Built": "R 4.6.1; ; 2026-10-21 02:52:38 UTC; windows",
+      "File": "tidyselect_1.2.1.zip"
+    },
+    "timeDate": {
+      "Package": "timeDate",
+      "Version": "4052.112",
+      "Depends": "R (>= 3.6.0), methods",
+      "Imports": "graphics, utils, stats",
+      "Suggests": "RUnit",
+      "License": "GPL (>= 2)",
+      "Built": "R 4.6.1; ; 2026-09-29 12:14:51 UTC; windows",
+      "File": "timeDate_4052.112.zip"
+    },
+    "timechange": {
+      "Package": "timechange",
+      "Version": "0.4.0",
+      "Depends": "R (>= 3.3)",
+      "LinkingTo": "cpp11 (>= 0.2.7)",
+      "Suggests": "testthat (>= 0.7.1.99), knitr",
+      "License": "GPL (>= 3)",
+      "Archs": "x64",
+      "Built": "R 4.6.1; x86_64-w64-mingw32; 2026-10-21 02:09:55 UTC; windows",
+      "File": "timechange_0.4.0.zip"
+    },
+    "tzdb": {
+      "Package": "tzdb",
+      "Version": "0.5.0",
+      "Depends": "R (>= 4.0.0)",
+      "LinkingTo": "cpp11 (>= 0.5.2)",
+      "Suggests": "covr, testthat (>= 3.0.0)",
+      "License": "MIT + file LICENSE",
+      "Archs": "x64",
+      "Built": "R 4.6.1; x86_64-w64-mingw32; 2026-10-21 02:09:57 UTC; windows",
+      "File": "tzdb_0.5.0.zip"
+    },
+    "utf8": {
+      "Package": "utf8",
+      "Version": "1.2.6",
+      "Depends": "R (>= 2.10)",
+      "Suggests": "cli, covr, knitr, rlang, rmarkdown, testthat (>= 3.0.0), withr",
+      "License": "Apache License (== 2.0) | file LICENSE",
+      "Archs": "x64",
+      "Built": "R 4.6.1; x86_64-w64-mingw32; 2026-10-21 01:07:11 UTC; windows",
+      "File": "utf8_1.2.6.zip"
+    },
+    "vctrs": {
+      "Package": "vctrs",
+      "Version": "0.7.3",
+      "Depends": "R (>= 4.0.0)",
+      "Imports": "cli (>= 3.4.0), glue, lifecycle (>= 1.0.3), rlang (>= 1.1.7)",
+      "Suggests": "bit64, covr, crayon, dplyr (>= 0.8.5), generics, knitr, pillar (>= 1.4.4), pkgdown (>= 2.0.1), rmarkdown, testthat (>= 3.0.0), tibble (>= 3.1.3), waldo (>= 0.2.0), withr, xml2, zeallot",
+      "License": "MIT + file LICENSE",
+      "Archs": "x64",
+      "Built": "R 4.6.1; x86_64-w64-mingw32; 2026-10-21 02:31:38 UTC; windows",
+      "File": "vctrs_0.7.3.zip"
+    },
+    "viridisLite": {
+      "Package": "viridisLite",
+      "Version": "0.4.3",
+      "Depends": "R (>= 2.10)",
+      "Suggests": "hexbin (>= 1.27.0), ggplot2 (>= 1.0.1), testthat, covr",
+      "License": "MIT + file LICENSE",
+      "Built": "R 4.6.1; ; 2026-10-21 01:07:13 UTC; windows",
+      "File": "viridisLite_0.4.3.zip"
+    },
+    "withr": {
+      "Package": "withr",
+      "Version": "3.0.3",
+      "Depends": "R (>= 3.6.0)",
+      "Imports": "graphics, grDevices",
+      "Suggests": "callr, DBI, knitr, methods, rlang, rmarkdown (>= 2.12), RSQLite, testthat (>= 3.0.0)",
+      "License": "MIT + file LICENSE",
+      "Built": "R 4.6.1; ; 2026-10-21 01:07:11 UTC; windows",
+      "File": "withr_3.0.3.zip"
+    }
+  },
+  "system_R_packages": {
+    "KernSmooth": {
+      "Package": "KernSmooth",
+      "Version": "2.23-26",
+      "Priority": "recommended"
+    },
+    "MASS": {
+      "Package": "MASS",
+      "Version": "7.3-65",
+      "Priority": "recommended"
+    },
+    "Matrix": {
+      "Package": "Matrix",
+      "Version": "1.7-5",
+      "Priority": "recommended"
+    },
+    "class": {
+      "Package": "class",
+      "Version": "7.3-23",
+      "Priority": "recommended"
+    },
+    "codetools": {
+      "Package": "codetools",
+      "Version": "0.2-20",
+      "Priority": "recommended"
+    },
+    "grDevices": {
+      "Package": "grDevices",
+      "Version": "4.6.1",
+      "Priority": "base"
+    },
+    "graphics": {
+      "Package": "graphics",
+      "Version": "4.6.1",
+      "Priority": "base"
+    },
+    "grid": {
+      "Package": "grid",
+      "Version": "4.6.1",
+      "Priority": "base"
+    },
+    "lattice": {
+      "Package": "lattice",
+      "Version": "0.22-9",
+      "Priority": "recommended"
+    },
+    "methods": {
+      "Package": "methods",
+      "Version": "4.6.1",
+      "Priority": "base"
+    },
+    "nlme": {
+      "Package": "nlme",
+      "Version": "3.1-169",
+      "Priority": "recommended"
+    },
+    "nnet": {
+      "Package": "nnet",
+      "Version": "7.3-20",
+      "Priority": "recommended"
+    },
+    "parallel": {
+      "Package": "parallel",
+      "Version": "4.6.1",
+      "Priority": "base"
+    },
+    "rpart": {
+      "Package": "rpart",
+      "Version": "4.1.27",
+      "Priority": "recommended"
+    },
+    "stats": {
+      "Package": "stats",
+      "Version": "4.6.1",
+      "Priority": "base"
+    },
+    "stats4": {
+      "Package": "stats4",
+      "Version": "4.6.1",
+      "Priority": "base"
+    },
+    "survival": {
+      "Package": "survival",
+      "Version": "3.8-6",
+      "Priority": "recommended"
+    },
+    "tools": {
+      "Package": "tools",
+      "Version": "4.6.1",
+      "Priority": "base"
+    },
+    "utils": {
+      "Package": "utils",
+      "Version": "4.6.1",
+      "Priority": "base"
+    }
+  },
+  "count_packages_to_acquire": 64
+}

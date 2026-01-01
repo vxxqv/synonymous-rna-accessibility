@@ -1,0 +1,2264 @@
+{
+  "all": {
+    "c.3G>A": {
+      "hgvs_nt": "c.3G>A",
+      "native_codon_sites": [
+        40
+      ],
+      "edits": [
+        [
+          3,
+          "G",
+          "A"
+        ]
+      ],
+      "full_translation_identical": true,
+      "hgvs_pro": "p.Glu1="
+    },
+    "c.6C>T": {
+      "hgvs_nt": "c.6C>T",
+      "native_codon_sites": [
+        41
+      ],
+      "edits": [
+        [
+          6,
+          "C",
+          "T"
+        ]
+      ],
+      "full_translation_identical": true,
+      "hgvs_pro": "p.Phe2="
+    },
+    "c.9C>A": {
+      "hgvs_nt": "c.9C>A",
+      "native_codon_sites": [
+        42
+      ],
+      "edits": [
+        [
+          9,
+          "C",
+          "A"
+        ]
+      ],
+      "full_translation_identical": true,
+      "hgvs_pro": "p.Ile3="
+    },
+    "c.9C>T": {
+      "hgvs_nt": "c.9C>T",
+      "native_codon_sites": [
+        42
+      ],
+      "edits": [
+        [
+          9,
+          "C",
+          "T"
+        ]
+      ],
+      "full_translation_identical": true,
+      "hgvs_pro": "p.Ile3="
+    },
+    "c.10C>T": {
+      "hgvs_nt": "c.10C>T",
+      "native_codon_sites": [
+        43
+      ],
+      "edits": [
+        [
+          10,
+          "C",
+          "T"
+        ]
+      ],
+      "full_translation_identical": true,
+      "hgvs_pro": "p.Leu4="
+    },
+    "c.10_12delinsTTA": {
+      "hgvs_nt": "c.10_12delinsTTA",
+      "native_codon_sites": [
+        43
+      ],
+      "edits": [
+        [
+          10,
+          "C",
+          "T"
+        ],
+        [
+          12,
+          "G",
+          "A"
+        ]
+      ],
+      "full_translation_identical": true,
+      "hgvs_pro": "p.Leu4="
+    },
+    "c.12G>A": {
+      "hgvs_nt": "c.12G>A",
+      "native_codon_sites": [
+        43
+      ],
+      "edits": [
+        [
+          12,
+          "G",
+          "A"
+        ]
+      ],
+      "full_translation_identical": true,
+      "hgvs_pro": "p.Leu4="
+    },
+    "c.12G>C": {
+      "hgvs_nt": "c.12G>C",
+      "native_codon_sites": [
+        43
+      ],
+      "edits": [
+        [
+          12,
+          "G",
+          "C"
+        ]
+      ],
+      "full_translation_identical": true,
+      "hgvs_pro": "p.Leu4="
+    },
+    "c.12G>T": {
+      "hgvs_nt": "c.12G>T",
+      "native_codon_sites": [
+        43
+      ],
+      "edits": [
+        [
+          12,
+          "G",
+          "T"
+        ]
+      ],
+      "full_translation_identical": true,
+      "hgvs_pro": "p.Leu4="
+    },
+    "c.15G>A": {
+      "hgvs_nt": "c.15G>A",
+      "native_codon_sites": [
+        44
+      ],
+      "edits": [
+        [
+          15,
+          "G",
+          "A"
+        ]
+      ],
+      "full_translation_identical": true,
+      "hgvs_pro": "p.Gln5="
+    },
+    "c.18C>A": {
+      "hgvs_nt": "c.18C>A",
+      "native_codon_sites": [
+        45
+      ],
+      "edits": [
+        [
+          18,
+          "C",
+          "A"
+        ]
+      ],
+      "full_translation_identical": true,
+      "hgvs_pro": "p.Pro6="
+    },
+    "c.18C>G": {
+      "hgvs_nt": "c.18C>G",
+      "native_codon_sites": [
+        45
+      ],
+      "edits": [
+        [
+          18,
+          "C",
+          "G"
+        ]
+      ],
+      "full_translation_identical": true,
+      "hgvs_pro": "p.Pro6="
+    },
+    "c.18C>T": {
+      "hgvs_nt": "c.18C>T",
+      "native_codon_sites": [
+        45
+      ],
+      "edits": [
+        [
+          18,
+          "C",
+          "T"
+        ]
+      ],
+      "full_translation_identical": true,
+      "hgvs_pro": "p.Pro6="
+    },
+    "c.21C>A": {
+      "hgvs_nt": "c.21C>A",
+      "native_codon_sites": [
+        46
+      ],
+      "edits": [
+        [
+          21,
+          "C",
+          "A"
+        ]
+      ],
+      "full_translation_identical": true,
+      "hgvs_pro": "p.Ile7="
+    },
+    "c.21C>T": {
+      "hgvs_nt": "c.21C>T",
+      "native_codon_sites": [
+        46
+      ],
+      "edits": [
+        [
+          21,
+          "C",
+          "T"
+        ]
+      ],
+      "full_translation_identical": true,
+      "hgvs_pro": "p.Ile7="
+    },
+    "c.24C>T": {
+      "hgvs_nt": "c.24C>T",
+      "native_codon_sites": [
+        47
+      ],
+      "edits": [
+        [
+          24,
+          "C",
+          "T"
+        ]
+      ],
+      "full_translation_identical": true,
+      "hgvs_pro": "p.His8="
+    },
+    "c.27C>T": {
+      "hgvs_nt": "c.27C>T",
+      "native_codon_sites": [
+        48
+      ],
+      "edits": [
+        [
+          27,
+          "C",
+          "T"
+        ]
+      ],
+      "full_translation_identical": true,
+      "hgvs_pro": "p.Asn9="
+    },
+    "c.28C>T": {
+      "hgvs_nt": "c.28C>T",
+      "native_codon_sites": [
+        49
+      ],
+      "edits": [
+        [
+          28,
+          "C",
+          "T"
+        ]
+      ],
+      "full_translation_identical": true,
+      "hgvs_pro": "p.Leu10="
+    },
+    "c.28_30delinsTTA": {
+      "hgvs_nt": "c.28_30delinsTTA",
+      "native_codon_sites": [
+        49
+      ],
+      "edits": [
+        [
+          28,
+          "C",
+          "T"
+        ],
+        [
+          30,
+          "G",
+          "A"
+        ]
+      ],
+      "full_translation_identical": true,
+      "hgvs_pro": "p.Leu10="
+    },
+    "c.30G>A": {
+      "hgvs_nt": "c.30G>A",
+      "native_codon_sites": [
+        49
+      ],
+      "edits": [
+        [
+          30,
+          "G",
+          "A"
+        ]
+      ],
+      "full_translation_identical": true,
+      "hgvs_pro": "p.Leu10="
+    },
+    "c.30G>C": {
+      "hgvs_nt": "c.30G>C",
+      "native_codon_sites": [
+        49
+      ],
+      "edits": [
+        [
+          30,
+          "G",
+          "C"
+        ]
+      ],
+      "full_translation_identical": true,
+      "hgvs_pro": "p.Leu10="
+    },
+    "c.30G>T": {
+      "hgvs_nt": "c.30G>T",
+      "native_codon_sites": [
+        49
+      ],
+      "edits": [
+        [
+          30,
+          "G",
+          "T"
+        ]
+      ],
+      "full_translation_identical": true,
+      "hgvs_pro": "p.Leu10="
+    },
+    "c.31_33delinsTTA": {
+      "hgvs_nt": "c.31_33delinsTTA",
+      "native_codon_sites": [
+        50
+      ],
+      "edits": [
+        [
+          31,
+          "C",
+          "T"
+        ],
+        [
+          33,
+          "C",
+          "A"
+        ]
+      ],
+      "full_translation_identical": true,
+      "hgvs_pro": "p.Leu11="
+    },
+    "c.31_33delinsTTG": {
+      "hgvs_nt": "c.31_33delinsTTG",
+      "native_codon_sites": [
+        50
+      ],
+      "edits": [
+        [
+          31,
+          "C",
+          "T"
+        ],
+        [
+          33,
+          "C",
+          "G"
+        ]
+      ],
+      "full_translation_identical": true,
+      "hgvs_pro": "p.Leu11="
+    },
+    "c.33C>A": {
+      "hgvs_nt": "c.33C>A",
+      "native_codon_sites": [
+        50
+      ],
+      "edits": [
+        [
+          33,
+          "C",
+          "A"
+        ]
+      ],
+      "full_translation_identical": true,
+      "hgvs_pro": "p.Leu11="
+    },
+    "c.33C>G": {
+      "hgvs_nt": "c.33C>G",
+      "native_codon_sites": [
+        50
+      ],
+      "edits": [
+        [
+          33,
+          "C",
+          "G"
+        ]
+      ],
+      "full_translation_identical": true,
+      "hgvs_pro": "p.Leu11="
+    },
+    "c.33C>T": {
+      "hgvs_nt": "c.33C>T",
+      "native_codon_sites": [
+        50
+      ],
+      "edits": [
+        [
+          33,
+          "C",
+          "T"
+        ]
+      ],
+      "full_translation_identical": true,
+      "hgvs_pro": "p.Leu11="
+    },
+    "c.39T>A": {
+      "hgvs_nt": "c.39T>A",
+      "native_codon_sites": [
+        52
+      ],
+      "edits": [
+        [
+          39,
+          "T",
+          "A"
+        ]
+      ],
+      "full_translation_identical": true,
+      "hgvs_pro": "p.Gly13="
+    },
+    "c.39T>C": {
+      "hgvs_nt": "c.39T>C",
+      "native_codon_sites": [
+        52
+      ],
+      "edits": [
+        [
+          39,
+          "T",
+          "C"
+        ]
+      ],
+      "full_translation_identical": true,
+      "hgvs_pro": "p.Gly13="
+    },
+    "c.39T>G": {
+      "hgvs_nt": "c.39T>G",
+      "native_codon_sites": [
+        52
+      ],
+      "edits": [
+        [
+          39,
+          "T",
+          "G"
+        ]
+      ],
+      "full_translation_identical": true,
+      "hgvs_pro": "p.Gly13="
+    },
+    "c.42C>T": {
+      "hgvs_nt": "c.42C>T",
+      "native_codon_sites": [
+        53
+      ],
+      "edits": [
+        [
+          42,
+          "C",
+          "T"
+        ]
+      ],
+      "full_translation_identical": true,
+      "hgvs_pro": "p.Asp14="
+    },
+    "c.45C>A": {
+      "hgvs_nt": "c.45C>A",
+      "native_codon_sites": [
+        54
+      ],
+      "edits": [
+        [
+          45,
+          "C",
+          "A"
+        ]
+      ],
+      "full_translation_identical": true,
+      "hgvs_pro": "p.Thr15="
+    },
+    "c.45C>G": {
+      "hgvs_nt": "c.45C>G",
+      "native_codon_sites": [
+        54
+      ],
+      "edits": [
+        [
+          45,
+          "C",
+          "G"
+        ]
+      ],
+      "full_translation_identical": true,
+      "hgvs_pro": "p.Thr15="
+    },
+    "c.45C>T": {
+      "hgvs_nt": "c.45C>T",
+      "native_codon_sites": [
+        54
+      ],
+      "edits": [
+        [
+          45,
+          "C",
+          "T"
+        ]
+      ],
+      "full_translation_identical": true,
+      "hgvs_pro": "p.Thr15="
+    },
+    "c.48G>A": {
+      "hgvs_nt": "c.48G>A",
+      "native_codon_sites": [
+        55
+      ],
+      "edits": [
+        [
+          48,
+          "G",
+          "A"
+        ]
+      ],
+      "full_translation_identical": true,
+      "hgvs_pro": "p.Lys16="
+    },
+    "c.51G>A": {
+      "hgvs_nt": "c.51G>A",
+      "native_codon_sites": [
+        56
+      ],
+      "edits": [
+        [
+          51,
+          "G",
+          "A"
+        ]
+      ],
+      "full_translation_identical": true,
+      "hgvs_pro": "p.Glu17="
+    },
+    "c.54G>A": {
+      "hgvs_nt": "c.54G>A",
+      "native_codon_sites": [
+        57
+      ],
+      "edits": [
+        [
+          54,
+          "G",
+          "A"
+        ]
+      ],
+      "full_translation_identical": true,
+      "hgvs_pro": "p.Gln18="
+    },
+    "c.55_57delinsAGA": {
+      "hgvs_nt": "c.55_57delinsAGA",
+      "native_codon_sites": [
+        58
+      ],
+      "edits": [
+        [
+          55,
+          "C",
+          "A"
+        ],
+        [
+          57,
+          "C",
+          "A"
+        ]
+      ],
+      "full_translation_identical": true,
+      "hgvs_pro": "p.Arg19="
+    },
+    "c.55_57delinsAGG": {
+      "hgvs_nt": "c.55_57delinsAGG",
+      "native_codon_sites": [
+        58
+      ],
+      "edits": [
+        [
+          55,
+          "C",
+          "A"
+        ],
+        [
+          57,
+          "C",
+          "G"
+        ]
+      ],
+      "full_translation_identical": true,
+      "hgvs_pro": "p.Arg19="
+    },
+    "c.57C>A": {
+      "hgvs_nt": "c.57C>A",
+      "native_codon_sites": [
+        58
+      ],
+      "edits": [
+        [
+          57,
+          "C",
+          "A"
+        ]
+      ],
+      "full_translation_identical": true,
+      "hgvs_pro": "p.Arg19="
+    },
+    "c.57C>G": {
+      "hgvs_nt": "c.57C>G",
+      "native_codon_sites": [
+        58
+      ],
+      "edits": [
+        [
+          57,
+          "C",
+          "G"
+        ]
+      ],
+      "full_translation_identical": true,
+      "hgvs_pro": "p.Arg19="
+    },
+    "c.57C>T": {
+      "hgvs_nt": "c.57C>T",
+      "native_codon_sites": [
+        58
+      ],
+      "edits": [
+        [
+          57,
+          "C",
+          "T"
+        ]
+      ],
+      "full_translation_identical": true,
+      "hgvs_pro": "p.Arg19="
+    },
+    "c.60C>A": {
+      "hgvs_nt": "c.60C>A",
+      "native_codon_sites": [
+        59
+      ],
+      "edits": [
+        [
+          60,
+          "C",
+          "A"
+        ]
+      ],
+      "full_translation_identical": true,
+      "hgvs_pro": "p.Ile20="
+    },
+    "c.60C>T": {
+      "hgvs_nt": "c.60C>T",
+      "native_codon_sites": [
+        59
+      ],
+      "edits": [
+        [
+          60,
+          "C",
+          "T"
+        ]
+      ],
+      "full_translation_identical": true,
+      "hgvs_pro": "p.Ile20="
+    },
+    "c.61C>T": {
+      "hgvs_nt": "c.61C>T",
+      "native_codon_sites": [
+        60
+      ],
+      "edits": [
+        [
+          61,
+          "C",
+          "T"
+        ]
+      ],
+      "full_translation_identical": true,
+      "hgvs_pro": "p.Leu21="
+    },
+    "c.61_63delinsTTA": {
+      "hgvs_nt": "c.61_63delinsTTA",
+      "native_codon_sites": [
+        60
+      ],
+      "edits": [
+        [
+          61,
+          "C",
+          "T"
+        ],
+        [
+          63,
+          "G",
+          "A"
+        ]
+      ],
+      "full_translation_identical": true,
+      "hgvs_pro": "p.Leu21="
+    },
+    "c.63G>A": {
+      "hgvs_nt": "c.63G>A",
+      "native_codon_sites": [
+        60
+      ],
+      "edits": [
+        [
+          63,
+          "G",
+          "A"
+        ]
+      ],
+      "full_translation_identical": true,
+      "hgvs_pro": "p.Leu21="
+    },
+    "c.63G>C": {
+      "hgvs_nt": "c.63G>C",
+      "native_codon_sites": [
+        60
+      ],
+      "edits": [
+        [
+          63,
+          "G",
+          "C"
+        ]
+      ],
+      "full_translation_identical": true,
+      "hgvs_pro": "p.Leu21="
+    },
+    "c.63G>T": {
+      "hgvs_nt": "c.63G>T",
+      "native_codon_sites": [
+        60
+      ],
+      "edits": [
+        [
+          63,
+          "G",
+          "T"
+        ]
+      ],
+      "full_translation_identical": true,
+      "hgvs_pro": "p.Leu21="
+    },
+    "c.66C>T": {
+      "hgvs_nt": "c.66C>T",
+      "native_codon_sites": [
+        61
+      ],
+      "edits": [
+        [
+          66,
+          "C",
+          "T"
+        ]
+      ],
+      "full_translation_identical": true,
+      "hgvs_pro": "p.Asn22="
+    },
+    "c.69C>T": {
+      "hgvs_nt": "c.69C>T",
+      "native_codon_sites": [
+        62
+      ],
+      "edits": [
+        [
+          69,
+          "C",
+          "T"
+        ]
+      ],
+      "full_translation_identical": true,
+      "hgvs_pro": "p.His23="
+    },
+    "c.72G>A": {
+      "hgvs_nt": "c.72G>A",
+      "native_codon_sites": [
+        63
+      ],
+      "edits": [
+        [
+          72,
+          "G",
+          "A"
+        ]
+      ],
+      "full_translation_identical": true,
+      "hgvs_pro": "p.Val24="
+    },
+    "c.72G>C": {
+      "hgvs_nt": "c.72G>C",
+      "native_codon_sites": [
+        63
+      ],
+      "edits": [
+        [
+          72,
+          "G",
+          "C"
+        ]
+      ],
+      "full_translation_identical": true,
+      "hgvs_pro": "p.Val24="
+    },
+    "c.72G>T": {
+      "hgvs_nt": "c.72G>T",
+      "native_codon_sites": [
+        63
+      ],
+      "edits": [
+        [
+          72,
+          "G",
+          "T"
+        ]
+      ],
+      "full_translation_identical": true,
+      "hgvs_pro": "p.Val24="
+    },
+    "c.73C>T": {
+      "hgvs_nt": "c.73C>T",
+      "native_codon_sites": [
+        64
+      ],
+      "edits": [
+        [
+          73,
+          "C",
+          "T"
+        ]
+      ],
+      "full_translation_identical": true,
+      "hgvs_pro": "p.Leu25="
+    },
+    "c.73_75delinsTTA": {
+      "hgvs_nt": "c.73_75delinsTTA",
+      "native_codon_sites": [
+        64
+      ],
+      "edits": [
+        [
+          73,
+          "C",
+          "T"
+        ],
+        [
+          75,
+          "G",
+          "A"
+        ]
+      ],
+      "full_translation_identical": true,
+      "hgvs_pro": "p.Leu25="
+    },
+    "c.75G>A": {
+      "hgvs_nt": "c.75G>A",
+      "native_codon_sites": [
+        64
+      ],
+      "edits": [
+        [
+          75,
+          "G",
+          "A"
+        ]
+      ],
+      "full_translation_identical": true,
+      "hgvs_pro": "p.Leu25="
+    },
+    "c.75G>C": {
+      "hgvs_nt": "c.75G>C",
+      "native_codon_sites": [
+        64
+      ],
+      "edits": [
+        [
+          75,
+          "G",
+          "C"
+        ]
+      ],
+      "full_translation_identical": true,
+      "hgvs_pro": "p.Leu25="
+    },
+    "c.75G>T": {
+      "hgvs_nt": "c.75G>T",
+      "native_codon_sites": [
+        64
+      ],
+      "edits": [
+        [
+          75,
+          "G",
+          "T"
+        ]
+      ],
+      "full_translation_identical": true,
+      "hgvs_pro": "p.Leu25="
+    },
+    "c.78G>A": {
+      "hgvs_nt": "c.78G>A",
+      "native_codon_sites": [
+        65
+      ],
+      "edits": [
+        [
+          78,
+          "G",
+          "A"
+        ]
+      ],
+      "full_translation_identical": true,
+      "hgvs_pro": "p.Gln26="
+    },
+    "c.81T>C": {
+      "hgvs_nt": "c.81T>C",
+      "native_codon_sites": [
+        66
+      ],
+      "edits": [
+        [
+          81,
+          "T",
+          "C"
+        ]
+      ],
+      "full_translation_identical": true,
+      "hgvs_pro": "p.His27="
+    },
+    "c.84G>A": {
+      "hgvs_nt": "c.84G>A",
+      "native_codon_sites": [
+        67
+      ],
+      "edits": [
+        [
+          84,
+          "G",
+          "A"
+        ]
+      ],
+      "full_translation_identical": true,
+      "hgvs_pro": "p.Ala28="
+    },
+    "c.84G>C": {
+      "hgvs_nt": "c.84G>C",
+      "native_codon_sites": [
+        67
+      ],
+      "edits": [
+        [
+          84,
+          "G",
+          "C"
+        ]
+      ],
+      "full_translation_identical": true,
+      "hgvs_pro": "p.Ala28="
+    },
+    "c.84G>T": {
+      "hgvs_nt": "c.84G>T",
+      "native_codon_sites": [
+        67
+      ],
+      "edits": [
+        [
+          84,
+          "G",
+          "T"
+        ]
+      ],
+      "full_translation_identical": true,
+      "hgvs_pro": "p.Ala28="
+    },
+    "c.90C>A": {
+      "hgvs_nt": "c.90C>A",
+      "native_codon_sites": [
+        69
+      ],
+      "edits": [
+        [
+          90,
+          "C",
+          "A"
+        ]
+      ],
+      "full_translation_identical": true,
+      "hgvs_pro": "p.Pro30="
+    },
+    "c.90C>G": {
+      "hgvs_nt": "c.90C>G",
+      "native_codon_sites": [
+        69
+      ],
+      "edits": [
+        [
+          90,
+          "C",
+          "G"
+        ]
+      ],
+      "full_translation_identical": true,
+      "hgvs_pro": "p.Pro30="
+    },
+    "c.90C>T": {
+      "hgvs_nt": "c.90C>T",
+      "native_codon_sites": [
+        69
+      ],
+      "edits": [
+        [
+          90,
+          "C",
+          "T"
+        ]
+      ],
+      "full_translation_identical": true,
+      "hgvs_pro": "p.Pro30="
+    },
+    "c.93G>A": {
+      "hgvs_nt": "c.93G>A",
+      "native_codon_sites": [
+        70
+      ],
+      "edits": [
+        [
+          93,
+          "G",
+          "A"
+        ]
+      ],
+      "full_translation_identical": true,
+      "hgvs_pro": "p.Gly31="
+    },
+    "c.93G>C": {
+      "hgvs_nt": "c.93G>C",
+      "native_codon_sites": [
+        70
+      ],
+      "edits": [
+        [
+          93,
+          "G",
+          "C"
+        ]
+      ],
+      "full_translation_identical": true,
+      "hgvs_pro": "p.Gly31="
+    },
+    "c.93G>T": {
+      "hgvs_nt": "c.93G>T",
+      "native_codon_sites": [
+        70
+      ],
+      "edits": [
+        [
+          93,
+          "G",
+          "T"
+        ]
+      ],
+      "full_translation_identical": true,
+      "hgvs_pro": "p.Gly31="
+    },
+    "c.96C>T": {
+      "hgvs_nt": "c.96C>T",
+      "native_codon_sites": [
+        71
+      ],
+      "edits": [
+        [
+          96,
+          "C",
+          "T"
+        ]
+      ],
+      "full_translation_identical": true,
+      "hgvs_pro": "p.Asn32="
+    },
+    "c.99A>C": {
+      "hgvs_nt": "c.99A>C",
+      "native_codon_sites": [
+        72
+      ],
+      "edits": [
+        [
+          99,
+          "A",
+          "C"
+        ]
+      ],
+      "full_translation_identical": true,
+      "hgvs_pro": "p.Ala33="
+    },
+    "c.99A>G": {
+      "hgvs_nt": "c.99A>G",
+      "native_codon_sites": [
+        72
+      ],
+      "edits": [
+        [
+          99,
+          "A",
+          "G"
+        ]
+      ],
+      "full_translation_identical": true,
+      "hgvs_pro": "p.Ala33="
+    },
+    "c.99A>T": {
+      "hgvs_nt": "c.99A>T",
+      "native_codon_sites": [
+        72
+      ],
+      "edits": [
+        [
+          99,
+          "A",
+          "T"
+        ]
+      ],
+      "full_translation_identical": true,
+      "hgvs_pro": "p.Ala33="
+    },
+    "c.102G>A": {
+      "hgvs_nt": "c.102G>A",
+      "native_codon_sites": [
+        73
+      ],
+      "edits": [
+        [
+          102,
+          "G",
+          "A"
+        ]
+      ],
+      "full_translation_identical": true,
+      "hgvs_pro": "p.Gln34="
+    },
+    "c.103_104delinsTC": {
+      "hgvs_nt": "c.103_104delinsTC",
+      "native_codon_sites": [
+        74
+      ],
+      "edits": [
+        [
+          103,
+          "A",
+          "T"
+        ],
+        [
+          104,
+          "G",
+          "C"
+        ]
+      ],
+      "full_translation_identical": true,
+      "hgvs_pro": "p.Ser35="
+    },
+    "c.103_105delinsTCA": {
+      "hgvs_nt": "c.103_105delinsTCA",
+      "native_codon_sites": [
+        74
+      ],
+      "edits": [
+        [
+          103,
+          "A",
+          "T"
+        ],
+        [
+          104,
+          "G",
+          "C"
+        ],
+        [
+          105,
+          "C",
+          "A"
+        ]
+      ],
+      "full_translation_identical": true,
+      "hgvs_pro": "p.Ser35="
+    },
+    "c.103_105delinsTCG": {
+      "hgvs_nt": "c.103_105delinsTCG",
+      "native_codon_sites": [
+        74
+      ],
+      "edits": [
+        [
+          103,
+          "A",
+          "T"
+        ],
+        [
+          104,
+          "G",
+          "C"
+        ],
+        [
+          105,
+          "C",
+          "G"
+        ]
+      ],
+      "full_translation_identical": true,
+      "hgvs_pro": "p.Ser35="
+    },
+    "c.103_105delinsTCT": {
+      "hgvs_nt": "c.103_105delinsTCT",
+      "native_codon_sites": [
+        74
+      ],
+      "edits": [
+        [
+          103,
+          "A",
+          "T"
+        ],
+        [
+          104,
+          "G",
+          "C"
+        ],
+        [
+          105,
+          "C",
+          "T"
+        ]
+      ],
+      "full_translation_identical": true,
+      "hgvs_pro": "p.Ser35="
+    },
+    "c.289C>T": {
+      "hgvs_nt": "c.289C>T",
+      "native_codon_sites": [
+        136
+      ],
+      "edits": [
+        [
+          289,
+          "C",
+          "T"
+        ]
+      ],
+      "full_translation_identical": true,
+      "hgvs_pro": "p.Leu97="
+    },
+    "c.289_291delinsTTA": {
+      "hgvs_nt": "c.289_291delinsTTA",
+      "native_codon_sites": [
+        136
+      ],
+      "edits": [
+        [
+          289,
+          "C",
+          "T"
+        ],
+        [
+          291,
+          "G",
+          "A"
+        ]
+      ],
+      "full_translation_identical": true,
+      "hgvs_pro": "p.Leu97="
+    },
+    "c.291G>A": {
+      "hgvs_nt": "c.291G>A",
+      "native_codon_sites": [
+        136
+      ],
+      "edits": [
+        [
+          291,
+          "G",
+          "A"
+        ]
+      ],
+      "full_translation_identical": true,
+      "hgvs_pro": "p.Leu97="
+    },
+    "c.291G>C": {
+      "hgvs_nt": "c.291G>C",
+      "native_codon_sites": [
+        136
+      ],
+      "edits": [
+        [
+          291,
+          "G",
+          "C"
+        ]
+      ],
+      "full_translation_identical": true,
+      "hgvs_pro": "p.Leu97="
+    },
+    "c.291G>T": {
+      "hgvs_nt": "c.291G>T",
+      "native_codon_sites": [
+        136
+      ],
+      "edits": [
+        [
+          291,
+          "G",
+          "T"
+        ]
+      ],
+      "full_translation_identical": true,
+      "hgvs_pro": "p.Leu97="
+    },
+    "c.294C>A": {
+      "hgvs_nt": "c.294C>A",
+      "native_codon_sites": [
+        137
+      ],
+      "edits": [
+        [
+          294,
+          "C",
+          "A"
+        ]
+      ],
+      "full_translation_identical": true,
+      "hgvs_pro": "p.Ile98="
+    },
+    "c.294C>T": {
+      "hgvs_nt": "c.294C>T",
+      "native_codon_sites": [
+        137
+      ],
+      "edits": [
+        [
+          294,
+          "C",
+          "T"
+        ]
+      ],
+      "full_translation_identical": true,
+      "hgvs_pro": "p.Ile98="
+    },
+    "c.297C>A": {
+      "hgvs_nt": "c.297C>A",
+      "native_codon_sites": [
+        138
+      ],
+      "edits": [
+        [
+          297,
+          "C",
+          "A"
+        ]
+      ],
+      "full_translation_identical": true,
+      "hgvs_pro": "p.Thr99="
+    },
+    "c.297C>G": {
+      "hgvs_nt": "c.297C>G",
+      "native_codon_sites": [
+        138
+      ],
+      "edits": [
+        [
+          297,
+          "C",
+          "G"
+        ]
+      ],
+      "full_translation_identical": true,
+      "hgvs_pro": "p.Thr99="
+    },
+    "c.297C>T": {
+      "hgvs_nt": "c.297C>T",
+      "native_codon_sites": [
+        138
+      ],
+      "edits": [
+        [
+          297,
+          "C",
+          "T"
+        ]
+      ],
+      "full_translation_identical": true,
+      "hgvs_pro": "p.Thr99="
+    },
+    "c.300C>A": {
+      "hgvs_nt": "c.300C>A",
+      "native_codon_sites": [
+        139
+      ],
+      "edits": [
+        [
+          300,
+          "C",
+          "A"
+        ]
+      ],
+      "full_translation_identical": true,
+      "hgvs_pro": "p.Ile100="
+    },
+    "c.300C>T": {
+      "hgvs_nt": "c.300C>T",
+      "native_codon_sites": [
+        139
+      ],
+      "edits": [
+        [
+          300,
+          "C",
+          "T"
+        ]
+      ],
+      "full_translation_identical": true,
+      "hgvs_pro": "p.Ile100="
+    },
+    "c.303G>A": {
+      "hgvs_nt": "c.303G>A",
+      "native_codon_sites": [
+        140
+      ],
+      "edits": [
+        [
+          303,
+          "G",
+          "A"
+        ]
+      ],
+      "full_translation_identical": true,
+      "hgvs_pro": "p.Glu101="
+    },
+    "c.306C>A": {
+      "hgvs_nt": "c.306C>A",
+      "native_codon_sites": [
+        141
+      ],
+      "edits": [
+        [
+          306,
+          "C",
+          "A"
+        ]
+      ],
+      "full_translation_identical": true,
+      "hgvs_pro": "p.Ile102="
+    },
+    "c.306C>T": {
+      "hgvs_nt": "c.306C>T",
+      "native_codon_sites": [
+        141
+      ],
+      "edits": [
+        [
+          306,
+          "C",
+          "T"
+        ]
+      ],
+      "full_translation_identical": true,
+      "hgvs_pro": "p.Ile102="
+    },
+    "c.309C>T": {
+      "hgvs_nt": "c.309C>T",
+      "native_codon_sites": [
+        142
+      ],
+      "edits": [
+        [
+          309,
+          "C",
+          "T"
+        ]
+      ],
+      "full_translation_identical": true,
+      "hgvs_pro": "p.Asn103="
+    },
+    "c.312C>A": {
+      "hgvs_nt": "c.312C>A",
+      "native_codon_sites": [
+        143
+      ],
+      "edits": [
+        [
+          312,
+          "C",
+          "A"
+        ]
+      ],
+      "full_translation_identical": true,
+      "hgvs_pro": "p.Pro104="
+    },
+    "c.312C>G": {
+      "hgvs_nt": "c.312C>G",
+      "native_codon_sites": [
+        143
+      ],
+      "edits": [
+        [
+          312,
+          "C",
+          "G"
+        ]
+      ],
+      "full_translation_identical": true,
+      "hgvs_pro": "p.Pro104="
+    },
+    "c.312C>T": {
+      "hgvs_nt": "c.312C>T",
+      "native_codon_sites": [
+        143
+      ],
+      "edits": [
+        [
+          312,
+          "C",
+          "T"
+        ]
+      ],
+      "full_translation_identical": true,
+      "hgvs_pro": "p.Pro104="
+    },
+    "c.315C>T": {
+      "hgvs_nt": "c.315C>T",
+      "native_codon_sites": [
+        144
+      ],
+      "edits": [
+        [
+          315,
+          "C",
+          "T"
+        ]
+      ],
+      "full_translation_identical": true,
+      "hgvs_pro": "p.Asp105="
+    },
+    "c.318T>C": {
+      "hgvs_nt": "c.318T>C",
+      "native_codon_sites": [
+        145
+      ],
+      "edits": [
+        [
+          318,
+          "T",
+          "C"
+        ]
+      ],
+      "full_translation_identical": true,
+      "hgvs_pro": "p.Cys106="
+    },
+    "c.321C>A": {
+      "hgvs_nt": "c.321C>A",
+      "native_codon_sites": [
+        146
+      ],
+      "edits": [
+        [
+          321,
+          "C",
+          "A"
+        ]
+      ],
+      "full_translation_identical": true,
+      "hgvs_pro": "p.Ala107="
+    },
+    "c.321C>G": {
+      "hgvs_nt": "c.321C>G",
+      "native_codon_sites": [
+        146
+      ],
+      "edits": [
+        [
+          321,
+          "C",
+          "G"
+        ]
+      ],
+      "full_translation_identical": true,
+      "hgvs_pro": "p.Ala107="
+    },
+    "c.321C>T": {
+      "hgvs_nt": "c.321C>T",
+      "native_codon_sites": [
+        146
+      ],
+      "edits": [
+        [
+          321,
+          "C",
+          "T"
+        ]
+      ],
+      "full_translation_identical": true,
+      "hgvs_pro": "p.Ala107="
+    },
+    "c.324C>A": {
+      "hgvs_nt": "c.324C>A",
+      "native_codon_sites": [
+        147
+      ],
+      "edits": [
+        [
+          324,
+          "C",
+          "A"
+        ]
+      ],
+      "full_translation_identical": true,
+      "hgvs_pro": "p.Ala108="
+    },
+    "c.324C>G": {
+      "hgvs_nt": "c.324C>G",
+      "native_codon_sites": [
+        147
+      ],
+      "edits": [
+        [
+          324,
+          "C",
+          "G"
+        ]
+      ],
+      "full_translation_identical": true,
+      "hgvs_pro": "p.Ala108="
+    },
+    "c.324C>T": {
+      "hgvs_nt": "c.324C>T",
+      "native_codon_sites": [
+        147
+      ],
+      "edits": [
+        [
+          324,
+          "C",
+          "T"
+        ]
+      ],
+      "full_translation_identical": true,
+      "hgvs_pro": "p.Ala108="
+    },
+    "c.327C>A": {
+      "hgvs_nt": "c.327C>A",
+      "native_codon_sites": [
+        148
+      ],
+      "edits": [
+        [
+          327,
+          "C",
+          "A"
+        ]
+      ],
+      "full_translation_identical": true,
+      "hgvs_pro": "p.Ile109="
+    },
+    "c.327C>T": {
+      "hgvs_nt": "c.327C>T",
+      "native_codon_sites": [
+        148
+      ],
+      "edits": [
+        [
+          327,
+          "C",
+          "T"
+        ]
+      ],
+      "full_translation_identical": true,
+      "hgvs_pro": "p.Ile109="
+    },
+    "c.330C>A": {
+      "hgvs_nt": "c.330C>A",
+      "native_codon_sites": [
+        149
+      ],
+      "edits": [
+        [
+          330,
+          "C",
+          "A"
+        ]
+      ],
+      "full_translation_identical": true,
+      "hgvs_pro": "p.Thr110="
+    },
+    "c.330C>G": {
+      "hgvs_nt": "c.330C>G",
+      "native_codon_sites": [
+        149
+      ],
+      "edits": [
+        [
+          330,
+          "C",
+          "G"
+        ]
+      ],
+      "full_translation_identical": true,
+      "hgvs_pro": "p.Thr110="
+    },
+    "c.330C>T": {
+      "hgvs_nt": "c.330C>T",
+      "native_codon_sites": [
+        149
+      ],
+      "edits": [
+        [
+          330,
+          "C",
+          "T"
+        ]
+      ],
+      "full_translation_identical": true,
+      "hgvs_pro": "p.Thr110="
+    },
+    "c.333G>A": {
+      "hgvs_nt": "c.333G>A",
+      "native_codon_sites": [
+        150
+      ],
+      "edits": [
+        [
+          333,
+          "G",
+          "A"
+        ]
+      ],
+      "full_translation_identical": true,
+      "hgvs_pro": "p.Gln111="
+    },
+    "c.334C>A": {
+      "hgvs_nt": "c.334C>A",
+      "native_codon_sites": [
+        151
+      ],
+      "edits": [
+        [
+          334,
+          "C",
+          "A"
+        ]
+      ],
+      "full_translation_identical": true,
+      "hgvs_pro": "p.Arg112="
+    },
+    "c.334_336delinsAGA": {
+      "hgvs_nt": "c.334_336delinsAGA",
+      "native_codon_sites": [
+        151
+      ],
+      "edits": [
+        [
+          334,
+          "C",
+          "A"
+        ],
+        [
+          336,
+          "G",
+          "A"
+        ]
+      ],
+      "full_translation_identical": true,
+      "hgvs_pro": "p.Arg112="
+    },
+    "c.336G>A": {
+      "hgvs_nt": "c.336G>A",
+      "native_codon_sites": [
+        151
+      ],
+      "edits": [
+        [
+          336,
+          "G",
+          "A"
+        ]
+      ],
+      "full_translation_identical": true,
+      "hgvs_pro": "p.Arg112="
+    },
+    "c.336G>C": {
+      "hgvs_nt": "c.336G>C",
+      "native_codon_sites": [
+        151
+      ],
+      "edits": [
+        [
+          336,
+          "G",
+          "C"
+        ]
+      ],
+      "full_translation_identical": true,
+      "hgvs_pro": "p.Arg112="
+    },
+    "c.336G>T": {
+      "hgvs_nt": "c.336G>T",
+      "native_codon_sites": [
+        151
+      ],
+      "edits": [
+        [
+          336,
+          "G",
+          "T"
+        ]
+      ],
+      "full_translation_identical": true,
+      "hgvs_pro": "p.Arg112="
+    },
+    "c.342G>A": {
+      "hgvs_nt": "c.342G>A",
+      "native_codon_sites": [
+        153
+      ],
+      "edits": [
+        [
+          342,
+          "G",
+          "A"
+        ]
+      ],
+      "full_translation_identical": true,
+      "hgvs_pro": "p.Val114="
+    },
+    "c.342G>C": {
+      "hgvs_nt": "c.342G>C",
+      "native_codon_sites": [
+        153
+      ],
+      "edits": [
+        [
+          342,
+          "G",
+          "C"
+        ]
+      ],
+      "full_translation_identical": true,
+      "hgvs_pro": "p.Val114="
+    },
+    "c.342G>T": {
+      "hgvs_nt": "c.342G>T",
+      "native_codon_sites": [
+        153
+      ],
+      "edits": [
+        [
+          342,
+          "G",
+          "T"
+        ]
+      ],
+      "full_translation_identical": true,
+      "hgvs_pro": "p.Val114="
+    },
+    "c.345T>C": {
+      "hgvs_nt": "c.345T>C",
+      "native_codon_sites": [
+        154
+      ],
+      "edits": [
+        [
+          345,
+          "T",
+          "C"
+        ]
+      ],
+      "full_translation_identical": true,
+      "hgvs_pro": "p.Asp115="
+    },
+    "c.348C>T": {
+      "hgvs_nt": "c.348C>T",
+      "native_codon_sites": [
+        155
+      ],
+      "edits": [
+        [
+          348,
+          "C",
+          "T"
+        ]
+      ],
+      "full_translation_identical": true,
+      "hgvs_pro": "p.Phe116="
+    },
+    "c.351T>A": {
+      "hgvs_nt": "c.351T>A",
+      "native_codon_sites": [
+        156
+      ],
+      "edits": [
+        [
+          351,
+          "T",
+          "A"
+        ]
+      ],
+      "full_translation_identical": true,
+      "hgvs_pro": "p.Ala117="
+    },
+    "c.351T>C": {
+      "hgvs_nt": "c.351T>C",
+      "native_codon_sites": [
+        156
+      ],
+      "edits": [
+        [
+          351,
+          "T",
+          "C"
+        ]
+      ],
+      "full_translation_identical": true,
+      "hgvs_pro": "p.Ala117="
+    },
+    "c.351T>G": {
+      "hgvs_nt": "c.351T>G",
+      "native_codon_sites": [
+        156
+      ],
+      "edits": [
+        [
+          351,
+          "T",
+          "G"
+        ]
+      ],
+      "full_translation_identical": true,
+      "hgvs_pro": "p.Ala117="
+    },
+    "c.354C>A": {
+      "hgvs_nt": "c.354C>A",
+      "native_codon_sites": [
+        157
+      ],
+      "edits": [
+        [
+          354,
+          "C",
+          "A"
+        ]
+      ],
+      "full_translation_identical": true,
+      "hgvs_pro": "p.Gly118="
+    },
+    "c.354C>G": {
+      "hgvs_nt": "c.354C>G",
+      "native_codon_sites": [
+        157
+      ],
+      "edits": [
+        [
+          354,
+          "C",
+          "G"
+        ]
+      ],
+      "full_translation_identical": true,
+      "hgvs_pro": "p.Gly118="
+    },
+    "c.354C>T": {
+      "hgvs_nt": "c.354C>T",
+      "native_codon_sites": [
+        157
+      ],
+      "edits": [
+        [
+          354,
+          "C",
+          "T"
+        ]
+      ],
+      "full_translation_identical": true,
+      "hgvs_pro": "p.Gly118="
+    }
+  },
+  "all4_common": [
+    "c.102G>A",
+    "c.103_104delinsTC",
+    "c.103_105delinsTCA",
+    "c.103_105delinsTCT",
+    "c.10C>T",
+    "c.10_12delinsTTA",
+    "c.12G>A",
+    "c.12G>C",
+    "c.12G>T",
+    "c.15G>A",
+    "c.18C>A",
+    "c.18C>G",
+    "c.18C>T",
+    "c.21C>A",
+    "c.21C>T",
+    "c.24C>T",
+    "c.27C>T",
+    "c.289C>T",
+    "c.289_291delinsTTA",
+    "c.28C>T",
+    "c.28_30delinsTTA",
+    "c.291G>A",
+    "c.291G>C",
+    "c.291G>T",
+    "c.294C>A",
+    "c.294C>T",
+    "c.297C>A",
+    "c.297C>G",
+    "c.297C>T",
+    "c.300C>A",
+    "c.300C>T",
+    "c.303G>A",
+    "c.306C>A",
+    "c.306C>T",
+    "c.309C>T",
+    "c.30G>A",
+    "c.30G>C",
+    "c.30G>T",
+    "c.312C>A",
+    "c.312C>G",
+    "c.312C>T",
+    "c.315C>T",
+    "c.318T>C",
+    "c.31_33delinsTTA",
+    "c.31_33delinsTTG",
+    "c.321C>A",
+    "c.321C>G",
+    "c.321C>T",
+    "c.324C>A",
+    "c.324C>G",
+    "c.324C>T",
+    "c.327C>A",
+    "c.327C>T",
+    "c.330C>A",
+    "c.330C>G",
+    "c.330C>T",
+    "c.333G>A",
+    "c.334C>A",
+    "c.334_336delinsAGA",
+    "c.336G>A",
+    "c.336G>C",
+    "c.336G>T",
+    "c.33C>A",
+    "c.33C>G",
+    "c.33C>T",
+    "c.342G>A",
+    "c.342G>C",
+    "c.342G>T",
+    "c.348C>T",
+    "c.351T>A",
+    "c.351T>C",
+    "c.351T>G",
+    "c.354C>A",
+    "c.354C>G",
+    "c.354C>T",
+    "c.39T>A",
+    "c.39T>C",
+    "c.39T>G",
+    "c.3G>A",
+    "c.42C>T",
+    "c.45C>A",
+    "c.45C>G",
+    "c.45C>T",
+    "c.48G>A",
+    "c.51G>A",
+    "c.54G>A",
+    "c.55_57delinsAGA",
+    "c.55_57delinsAGG",
+    "c.57C>A",
+    "c.57C>G",
+    "c.57C>T",
+    "c.60C>A",
+    "c.60C>T",
+    "c.61C>T",
+    "c.61_63delinsTTA",
+    "c.63G>A",
+    "c.63G>C",
+    "c.63G>T",
+    "c.66C>T",
+    "c.69C>T",
+    "c.6C>T",
+    "c.72G>A",
+    "c.72G>C",
+    "c.72G>T",
+    "c.73C>T",
+    "c.75G>A",
+    "c.75G>C",
+    "c.75G>T",
+    "c.78G>A",
+    "c.81T>C",
+    "c.84G>A",
+    "c.84G>C",
+    "c.84G>T",
+    "c.90C>A",
+    "c.90C>G",
+    "c.90C>T",
+    "c.93G>A",
+    "c.93G>C",
+    "c.93G>T",
+    "c.96C>T",
+    "c.99A>C",
+    "c.99A>G",
+    "c.99A>T",
+    "c.9C>A",
+    "c.9C>T"
+  ],
+  "RNA_protein_common": [
+    "c.102G>A",
+    "c.103_104delinsTC",
+    "c.103_105delinsTCA",
+    "c.103_105delinsTCG",
+    "c.103_105delinsTCT",
+    "c.10C>T",
+    "c.10_12delinsTTA",
+    "c.12G>A",
+    "c.12G>C",
+    "c.12G>T",
+    "c.15G>A",
+    "c.18C>A",
+    "c.18C>G",
+    "c.18C>T",
+    "c.21C>A",
+    "c.21C>T",
+    "c.24C>T",
+    "c.27C>T",
+    "c.289C>T",
+    "c.289_291delinsTTA",
+    "c.28C>T",
+    "c.28_30delinsTTA",
+    "c.291G>A",
+    "c.291G>C",
+    "c.291G>T",
+    "c.294C>A",
+    "c.294C>T",
+    "c.297C>A",
+    "c.297C>G",
+    "c.297C>T",
+    "c.300C>A",
+    "c.300C>T",
+    "c.303G>A",
+    "c.306C>A",
+    "c.306C>T",
+    "c.309C>T",
+    "c.30G>A",
+    "c.30G>C",
+    "c.30G>T",
+    "c.312C>A",
+    "c.312C>G",
+    "c.312C>T",
+    "c.315C>T",
+    "c.318T>C",
+    "c.31_33delinsTTA",
+    "c.31_33delinsTTG",
+    "c.321C>A",
+    "c.321C>G",
+    "c.321C>T",
+    "c.324C>A",
+    "c.324C>G",
+    "c.324C>T",
+    "c.327C>A",
+    "c.327C>T",
+    "c.330C>A",
+    "c.330C>G",
+    "c.330C>T",
+    "c.333G>A",
+    "c.334C>A",
+    "c.334_336delinsAGA",
+    "c.336G>A",
+    "c.336G>C",
+    "c.336G>T",
+    "c.33C>A",
+    "c.33C>G",
+    "c.33C>T",
+    "c.342G>A",
+    "c.342G>C",
+    "c.342G>T",
+    "c.348C>T",
+    "c.351T>A",
+    "c.351T>C",
+    "c.351T>G",
+    "c.354C>A",
+    "c.354C>G",
+    "c.354C>T",
+    "c.39T>A",
+    "c.39T>C",
+    "c.39T>G",
+    "c.3G>A",
+    "c.42C>T",
+    "c.45C>A",
+    "c.45C>G",
+    "c.45C>T",
+    "c.48G>A",
+    "c.51G>A",
+    "c.54G>A",
+    "c.55_57delinsAGA",
+    "c.55_57delinsAGG",
+    "c.57C>A",
+    "c.57C>G",
+    "c.57C>T",
+    "c.60C>A",
+    "c.60C>T",
+    "c.61C>T",
+    "c.61_63delinsTTA",
+    "c.63G>A",
+    "c.63G>C",
+    "c.63G>T",
+    "c.66C>T",
+    "c.69C>T",
+    "c.6C>T",
+    "c.72G>A",
+    "c.72G>C",
+    "c.72G>T",
+    "c.73C>T",
+    "c.75G>A",
+    "c.75G>C",
+    "c.75G>T",
+    "c.78G>A",
+    "c.81T>C",
+    "c.84G>A",
+    "c.84G>C",
+    "c.84G>T",
+    "c.90C>A",
+    "c.90C>G",
+    "c.90C>T",
+    "c.93G>A",
+    "c.93G>C",
+    "c.93G>T",
+    "c.96C>T",
+    "c.99A>C",
+    "c.99A>G",
+    "c.99A>T",
+    "c.9C>A",
+    "c.9C>T"
+  ]
+}

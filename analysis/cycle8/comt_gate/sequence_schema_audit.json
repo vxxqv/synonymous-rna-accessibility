@@ -1,0 +1,85 @@
+{
+  "reference_length_nt": 6232,
+  "fused_CDS_length_without_stop": 1551,
+  "fusion_protein_length": 517,
+  "target_length_nt": 357,
+  "target_native_codons": [
+    40,
+    158
+  ],
+  "mutagenesis_native_codons": [
+    [
+      40,
+      74
+    ],
+    [
+      136,
+      158
+    ]
+  ],
+  "all_target_references_identical": true,
+  "assays": {
+    "rna": {
+      "rows": 3463,
+      "synonymous_rows": 128,
+      "synonymous_sites": 54,
+      "types": {
+        "(1, 'other')": 394,
+        "(2, 'other')": 1506,
+        "(3, 'other')": 1435,
+        "(1, 'synonymous')": 114,
+        "(2, 'synonymous')": 11,
+        "(3, 'synonymous')": 3
+      }
+    },
+    "mid": {
+      "rows": 3317,
+      "synonymous_rows": 128,
+      "synonymous_sites": 54,
+      "types": {
+        "(1, 'other')": 394,
+        "(2, 'other')": 1482,
+        "(3, 'other')": 1313,
+        "(1, 'synonymous')": 114,
+        "(2, 'synonymous')": 11,
+        "(3, 'synonymous')": 3
+      }
+    },
+    "heavy": {
+      "rows": 3117,
+      "synonymous_rows": 127,
+      "synonymous_sites": 54,
+      "types": {
+        "(1, 'other')": 394,
+        "(2, 'other')": 1447,
+        "(3, 'other')": 1149,
+        "(1, 'synonymous')": 114,
+        "(2, 'synonymous')": 11,
+        "(3, 'synonymous')": 2
+      }
+    },
+    "protein": {
+      "rows": 3050,
+      "synonymous_rows": 126,
+      "synonymous_sites": 53,
+      "types": {
+        "(1, 'other')": 390,
+        "(2, 'other')": 1383,
+        "(3, 'other')": 1151,
+        "(1, 'synonymous')": 113,
+        "(2, 'synonymous')": 10,
+        "(3, 'synonymous')": 3
+      }
+    }
+  },
+  "all4_common_synonymous": 125,
+  "all4_common_sites": 53,
+  "rna_protein_common_synonymous": 126,
+  "rna_protein_common_sites": 53,
+  "unparsed_identifiers": [],
+  "raw_variant_summary_members": 158,
+  "GEO_samples": 157,
+  "score_values_decoded": 0,
+  "uncertainty_values_decoded": 0,
+  "count_values_decoded": 0
+}

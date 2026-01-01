@@ -1,0 +1,39 @@
+{
+  "schema": "COMT_A1_final_preoutcome_freeze_v1",
+  "status": "FROZEN_AWAITING_PUBLIC_COMMIT_AND_ROOT_PHASE_AUTHORIZATION",
+  "question": "Held-out codon-site prediction of source-normalized negative low-bin enrichment from RNA with a fixed heavy-load comparator",
+  "scope": "Retrospective source proxies; no historical classifier-state equivalence or independent biological study claim",
+  "candidate_manifest_sha256": "f666dc9415d523b18350ffdedf5606e050803fa3e5c5da2efdd86f50f33e750d",
+  "independent_v1_review_sha256": "8a95e63a25106fb59c0cfd986d45a2f1888bfdd171aa6d0d24541310d7c9c3d4",
+  "independent_v2_receipt_sha256": "b4ea34d73a7df01cb34f8665c34301c791eb96698e9460d5ebe52fc812888d26",
+  "code_freeze_sha256": "f63371f105738b2e360482291ad2ed7b90e623585d872564472bc4ea023097fb",
+  "source_archive": {
+    "record": "10.5281/zenodo.10403931",
+    "version": "v1.0.2",
+    "url": "https://zenodo.org/api/records/10403931/files/integrative_MAVEs_submit.tar.gz/content",
+    "sha256": "e3fc127f268c10efbb1d1c736423c51bc5aa900e9e363d66cc8683490516cbe2",
+    "license": "CC BY 4.0"
+  },
+  "protocol_pins": {
+    "protocol": "97aea7e56ddf9c74a2fcbf4a17ce2bbd9280c8417d2534997835878b2a368d61",
+    "amendment": "2f15418daf1e417193493eeb7c3370dae3451e8e69618427bfd13a73e28ff5e8",
+    "integration_addendum": "c480ca92ce36b6e95849fceaea3e6bf49d14bcd7842b1e5fe1efd543ff33f4d2",
+    "contract": "091ab6a57b7d64ab56638430e95befca5dbffd790eec9c62ea5d6a504d450ce5"
+  },
+  "runtime_manifest_sha256": "a97c2057080245e691640ca955af6248aa93102b58341b76f37f473461231c95",
+  "fold_manifest_sha256": "b222dcd6a6c313c948e9f9de2d1725d08ccc1cd0776a36afa8ed727aa4848fd8",
+  "preoutcome_interpretation_sha256": "3c2802161a1c4d3eda7642aec9a2db9116b1f25470bea8864483b3e94b27c810",
+  "actual_source_outcomes_accessed": false,
+  "source_simulation_numeric_rows_accessed": false,
+  "stages": [
+    "extract",
+    "rf",
+    "normalize",
+    "predict",
+    "evaluate"
+  ],
+  "scoring": "At least100/125 variants and40/53 sites; heavy MAE at least10 percent better than EACH of four baselines under BOTH grouping maps; no zero-baseline relative pass",
+  "sensitivities": "Both ROIs, same-prediction113-SNV subset and fixed mid-load comparison retained; none rescues a failed primary",
+  "uncertainty": "Descriptive preparation sets and held-out prediction errors, no calibrated confidence intervals",
+  "failure_rule": "Preserve all failures and exposure records; no ad hoc row omission, seed change, comparator substitution or scientific threshold retuning"
+}

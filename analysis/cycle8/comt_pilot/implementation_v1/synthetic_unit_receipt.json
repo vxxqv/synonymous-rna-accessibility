@@ -1,0 +1,26 @@
+{
+  "status": "PASS_SYNTHETIC_ONLY",
+  "tests": 15,
+  "real_COMT_measurement_rows_read": 0,
+  "source_simulation_numeric_rows_read": 0,
+  "log_sha256": "d67f6182508c8ee64ed8190885219351c753920ebf0633cbe458f293a4a25040",
+  "held_sources_unchanged": {
+    "protocol_v2.md": "97aea7e56ddf9c74a2fcbf4a17ce2bbd9280c8417d2534997835878b2a368d61",
+    "prospective_reconstruction_amendment.md": "2f15418daf1e417193493eeb7c3370dae3451e8e69618427bfd13a73e28ff5e8",
+    "proxy_models.py": "8811af9750e813c798122c7e936b6279a0f3b0e53fea1924cb2d633162a34093",
+    "source_helpers.R": "884a47503530854694729922a11a06556ab1478ec68f82c5862dc8ead7a14db5",
+    "runtime/runtime_manifest.json": "a97c2057080245e691640ca955af6248aa93102b58341b76f37f473461231c95",
+    "fold_manifest.json": "b222dcd6a6c313c948e9f9de2d1725d08ccc1cd0776a36afa8ed727aa4848fd8"
+  },
+  "implementation_sha256": {
+    "build_contract.py": "1c59e17ccf7744fb29a10566b4e48994daf9985864908098834f76dc03276621",
+    "driver.py": "2fa6c139fc54cf0f5e1f63fa74fa8cbf8400d7ab0664883406ab1f66d3150eed",
+    "normalize.py": "e6776b4d0afef9aca5972dfe0935769da9e2f7c61cdaaebc0813c47e17b54061",
+    "prediction.py": "92d0d46fda3b7b3c49c5a4d8780c8b57bcf9c15d9c8095aeca27555f38e2dede",
+    "selective_reader.py": "17c213be773f62184816ad139360404804ea2dc404d7d446956f7b236aed6042",
+    "test_implementation.py": "a7f35d2d6b8265843c6caf014b2eb5e34cab68e6da7c7ef5b3b7a93eeaa85bc3",
+    "verify_RF_adapter.py": "5bcd60fd0618b58eaecbc8d25bfaf85765fd35fe8c80568ac4d8ae9db109e998",
+    "verify_source_normalization.py": "e98ef4596fb0d84d24a96f2977a05b72c4da761ceecc882e17ba2bb82a93079e",
+    "verify_staged_cli.py": "8a9e5300b4482fd433bf85ef674a1ea1aa74cdfdf111767f2b5d3818567327d5"
+  }
+}

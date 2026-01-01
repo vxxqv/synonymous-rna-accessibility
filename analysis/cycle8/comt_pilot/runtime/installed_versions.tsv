@@ -1,0 +1,95 @@
+Package	Version	Built	LibPath
+ModelMetrics	1.2.2.2	R 4.6.1; x86_64-w64-mingw32; 2026-10-21 02:10:07 UTC; windows	C:/Users/VIVAAN/Documents/Codex/2026-10-24/protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2/work/research_cycle8/comt_pilot/runtime/library
+R6	2.6.1	R 4.6.1; ; 2026-10-21 01:07:11 UTC; windows	C:/Users/VIVAAN/Documents/Codex/2026-10-24/protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2/work/research_cycle8/comt_pilot/runtime/library
+RColorBrewer	1.1-3	R 4.6.1; ; 2026-08-19 11:46:07 UTC; windows	C:/Users/VIVAAN/Documents/Codex/2026-10-24/protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2/work/research_cycle8/comt_pilot/runtime/library
+Rcpp	1.1.2	R 4.6.1; x86_64-w64-mingw32; 2026-10-21 01:07:13 UTC; windows	C:/Users/VIVAAN/Documents/Codex/2026-10-24/protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2/work/research_cycle8/comt_pilot/runtime/library
+S7	0.2.2	R 4.6.1; x86_64-w64-mingw32; 2026-10-21 01:07:13 UTC; windows	C:/Users/VIVAAN/Documents/Codex/2026-10-24/protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2/work/research_cycle8/comt_pilot/runtime/library
+SQUAREM	2026.1	R 4.6.1; ; 2026-10-21 01:07:46 UTC; windows	C:/Users/VIVAAN/Documents/Codex/2026-10-24/protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2/work/research_cycle8/comt_pilot/runtime/library
+caret	7.0-1	R 4.6.1; x86_64-w64-mingw32; 2026-10-21 04:49:38 UTC; windows	C:/Users/VIVAAN/Documents/Codex/2026-10-24/protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2/work/research_cycle8/comt_pilot/runtime/library
+cli	3.6.6	R 4.6.1; x86_64-w64-mingw32; 2026-10-21 01:07:12 UTC; windows	C:/Users/VIVAAN/Documents/Codex/2026-10-24/protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2/work/research_cycle8/comt_pilot/runtime/library
+clock	0.7.4	R 4.6.1; x86_64-w64-mingw32; 2026-10-21 02:52:45 UTC; windows	C:/Users/VIVAAN/Documents/Codex/2026-10-24/protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2/work/research_cycle8/comt_pilot/runtime/library
+cpp11	0.5.5	R 4.6.1; ; 2026-10-21 01:07:12 UTC; windows	C:/Users/VIVAAN/Documents/Codex/2026-10-24/protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2/work/research_cycle8/comt_pilot/runtime/library
+data.table	1.18.6.1	R 4.6.1; x86_64-w64-mingw32; 2026-10-21 01:07:17 UTC; windows	C:/Users/VIVAAN/Documents/Codex/2026-10-24/protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2/work/research_cycle8/comt_pilot/runtime/library
+diagram	1.6.5	R 4.6.1; ; 2026-08-19 11:47:59 UTC; windows	C:/Users/VIVAAN/Documents/Codex/2026-10-24/protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2/work/research_cycle8/comt_pilot/runtime/library
+digest	0.6.39	R 4.6.1; x86_64-w64-mingw32; 2026-10-21 01:07:13 UTC; windows	C:/Users/VIVAAN/Documents/Codex/2026-10-24/protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2/work/research_cycle8/comt_pilot/runtime/library
+dplyr	1.2.1	R 4.6.1; x86_64-w64-mingw32; 2026-10-21 03:38:36 UTC; windows	C:/Users/VIVAAN/Documents/Codex/2026-10-24/protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2/work/research_cycle8/comt_pilot/runtime/library
+e1071	1.7-17	R 4.6.1; x86_64-w64-mingw32; 2026-10-21 02:09:57 UTC; windows	C:/Users/VIVAAN/Documents/Codex/2026-10-24/protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2/work/research_cycle8/comt_pilot/runtime/library
+farver	2.1.2	R 4.6.1; x86_64-w64-mingw32; 2026-10-21 01:07:16 UTC; windows	C:/Users/VIVAAN/Documents/Codex/2026-10-24/protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2/work/research_cycle8/comt_pilot/runtime/library
+foreach	1.5.2	R 4.6.1; ; 2026-10-21 02:09:56 UTC; windows	C:/Users/VIVAAN/Documents/Codex/2026-10-24/protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2/work/research_cycle8/comt_pilot/runtime/library
+future	1.80.0	R 4.6.1; ; 2026-10-21 02:09:57 UTC; windows	C:/Users/VIVAAN/Documents/Codex/2026-10-24/protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2/work/research_cycle8/comt_pilot/runtime/library
+future.apply	1.21.0	R 4.6.1; ; 2026-10-21 02:31:42 UTC; windows	C:/Users/VIVAAN/Documents/Codex/2026-10-24/protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2/work/research_cycle8/comt_pilot/runtime/library
+generics	0.1.4	R 4.6.1; ; 2026-10-21 01:07:11 UTC; windows	C:/Users/VIVAAN/Documents/Codex/2026-10-24/protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2/work/research_cycle8/comt_pilot/runtime/library
+ggplot2	4.0.3	R 4.6.1; ; 2026-10-21 02:52:40 UTC; windows	C:/Users/VIVAAN/Documents/Codex/2026-10-24/protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2/work/research_cycle8/comt_pilot/runtime/library
+globals	0.20.0	R 4.6.1; ; 2026-10-13 23:51:24 UTC; windows	C:/Users/VIVAAN/Documents/Codex/2026-10-24/protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2/work/research_cycle8/comt_pilot/runtime/library
+glue	1.8.1	R 4.6.1; x86_64-w64-mingw32; 2026-10-21 01:07:11 UTC; windows	C:/Users/VIVAAN/Documents/Codex/2026-10-24/protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2/work/research_cycle8/comt_pilot/runtime/library
+gower	1.0.2	R 4.6.1; x86_64-w64-mingw32; 2026-08-19 11:47:57 UTC; windows	C:/Users/VIVAAN/Documents/Codex/2026-10-24/protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2/work/research_cycle8/comt_pilot/runtime/library
+gtable	0.3.6	R 4.6.1; ; 2026-10-21 02:31:37 UTC; windows	C:/Users/VIVAAN/Documents/Codex/2026-10-24/protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2/work/research_cycle8/comt_pilot/runtime/library
+hardhat	1.4.3	R 4.6.1; ; 2026-10-21 03:38:43 UTC; windows	C:/Users/VIVAAN/Documents/Codex/2026-10-24/protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2/work/research_cycle8/comt_pilot/runtime/library
+ipred	0.9-16	R 4.6.1; x86_64-w64-mingw32; 2026-10-21 03:38:43 UTC; windows	C:/Users/VIVAAN/Documents/Codex/2026-10-24/protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2/work/research_cycle8/comt_pilot/runtime/library
+isoband	0.3.0	R 4.6.1; x86_64-w64-mingw32; 2026-10-21 02:09:56 UTC; windows	C:/Users/VIVAAN/Documents/Codex/2026-10-24/protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2/work/research_cycle8/comt_pilot/runtime/library
+iterators	1.0.14	R 4.6.1; ; 2026-10-21 01:07:16 UTC; windows	C:/Users/VIVAAN/Documents/Codex/2026-10-24/protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2/work/research_cycle8/comt_pilot/runtime/library
+labeling	0.4.3	R 4.6.1; ; 2026-08-19 11:46:07 UTC; windows	C:/Users/VIVAAN/Documents/Codex/2026-10-24/protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2/work/research_cycle8/comt_pilot/runtime/library
+lava	1.9.3	R 4.6.1; ; 2026-10-21 02:52:44 UTC; windows	C:/Users/VIVAAN/Documents/Codex/2026-10-24/protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2/work/research_cycle8/comt_pilot/runtime/library
+lifecycle	1.0.5	R 4.6.1; ; 2026-10-21 02:09:53 UTC; windows	C:/Users/VIVAAN/Documents/Codex/2026-10-24/protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2/work/research_cycle8/comt_pilot/runtime/library
+listenv	1.1.0	R 4.6.1; ; 2026-10-21 01:07:16 UTC; windows	C:/Users/VIVAAN/Documents/Codex/2026-10-24/protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2/work/research_cycle8/comt_pilot/runtime/library
+lubridate	1.9.5	R 4.6.1; x86_64-w64-mingw32; 2026-10-21 02:31:44 UTC; windows	C:/Users/VIVAAN/Documents/Codex/2026-10-24/protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2/work/research_cycle8/comt_pilot/runtime/library
+magrittr	2.0.5	R 4.6.1; x86_64-w64-mingw32; 2026-10-21 01:07:11 UTC; windows	C:/Users/VIVAAN/Documents/Codex/2026-10-24/protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2/work/research_cycle8/comt_pilot/runtime/library
+numDeriv	2016.8-1.1	R 4.6.1; ; 2026-08-19 11:46:08 UTC; windows	C:/Users/VIVAAN/Documents/Codex/2026-10-24/protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2/work/research_cycle8/comt_pilot/runtime/library
+pROC	1.19.1	R 4.6.1; x86_64-w64-mingw32; 2026-10-21 01:08:08 UTC; windows	C:/Users/VIVAAN/Documents/Codex/2026-10-24/protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2/work/research_cycle8/comt_pilot/runtime/library
+parallelly	1.48.0	R 4.6.1; x86_64-w64-mingw32; 2026-10-21 01:07:16 UTC; windows	C:/Users/VIVAAN/Documents/Codex/2026-10-24/protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2/work/research_cycle8/comt_pilot/runtime/library
+pillar	1.11.1	R 4.6.1; ; 2026-10-21 02:52:35 UTC; windows	C:/Users/VIVAAN/Documents/Codex/2026-10-24/protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2/work/research_cycle8/comt_pilot/runtime/library
+pkgconfig	2.0.3	R 4.6.1; ; 2026-10-21 01:07:11 UTC; windows	C:/Users/VIVAAN/Documents/Codex/2026-10-24/protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2/work/research_cycle8/comt_pilot/runtime/library
+plyr	1.8.9	R 4.6.1; x86_64-w64-mingw32; 2026-10-21 02:09:57 UTC; windows	C:/Users/VIVAAN/Documents/Codex/2026-10-24/protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2/work/research_cycle8/comt_pilot/runtime/library
+prodlim	2026.03.11	R 4.6.1; x86_64-w64-mingw32; 2026-10-21 03:18:38 UTC; windows	C:/Users/VIVAAN/Documents/Codex/2026-10-24/protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2/work/research_cycle8/comt_pilot/runtime/library
+progressr	1.1.0	R 4.6.1; ; 2026-10-20 23:51:25 UTC; windows	C:/Users/VIVAAN/Documents/Codex/2026-10-24/protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2/work/research_cycle8/comt_pilot/runtime/library
+proxy	0.4-29	R 4.6.1; x86_64-w64-mingw32; 2026-10-21 01:07:46 UTC; windows	C:/Users/VIVAAN/Documents/Codex/2026-10-24/protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2/work/research_cycle8/comt_pilot/runtime/library
+purrr	1.2.2	R 4.6.1; x86_64-w64-mingw32; 2026-10-21 02:52:38 UTC; windows	C:/Users/VIVAAN/Documents/Codex/2026-10-24/protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2/work/research_cycle8/comt_pilot/runtime/library
+randomForest	4.7-1.2	R 4.6.1; x86_64-w64-mingw32; 2026-10-21 01:10:38 UTC; windows	C:/Users/VIVAAN/Documents/Codex/2026-10-24/protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2/work/research_cycle8/comt_pilot/runtime/library
+recipes	1.4.0	R 4.6.1; ; 2026-10-21 04:17:05 UTC; windows	C:/Users/VIVAAN/Documents/Codex/2026-10-24/protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2/work/research_cycle8/comt_pilot/runtime/library
+reshape2	1.4.5	R 4.6.1; x86_64-w64-mingw32; 2026-10-21 03:18:38 UTC; windows	C:/Users/VIVAAN/Documents/Codex/2026-10-24/protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2/work/research_cycle8/comt_pilot/runtime/library
+rlang	1.3.0	R 4.6.1; x86_64-w64-mingw32; 2026-10-21 01:07:13 UTC; windows	C:/Users/VIVAAN/Documents/Codex/2026-10-24/protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2/work/research_cycle8/comt_pilot/runtime/library
+scales	1.4.0	R 4.6.1; ; 2026-10-21 02:31:37 UTC; windows	C:/Users/VIVAAN/Documents/Codex/2026-10-24/protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2/work/research_cycle8/comt_pilot/runtime/library
+shape	1.4.6.1	R 4.6.1; ; 2026-08-19 11:46:34 UTC; windows	C:/Users/VIVAAN/Documents/Codex/2026-10-24/protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2/work/research_cycle8/comt_pilot/runtime/library
+sparsevctrs	0.3.6	R 4.6.1; x86_64-w64-mingw32; 2026-10-21 02:52:43 UTC; windows	C:/Users/VIVAAN/Documents/Codex/2026-10-24/protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2/work/research_cycle8/comt_pilot/runtime/library
+stringi	1.8.9	R 4.6.1; x86_64-w64-mingw32; 2026-08-19 11:46:22 UTC; windows	C:/Users/VIVAAN/Documents/Codex/2026-10-24/protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2/work/research_cycle8/comt_pilot/runtime/library
+stringr	1.6.0	R 4.6.1; ; 2026-10-21 02:52:37 UTC; windows	C:/Users/VIVAAN/Documents/Codex/2026-10-24/protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2/work/research_cycle8/comt_pilot/runtime/library
+tibble	3.3.1	R 4.6.1; x86_64-w64-mingw32; 2026-10-21 03:18:30 UTC; windows	C:/Users/VIVAAN/Documents/Codex/2026-10-24/protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2/work/research_cycle8/comt_pilot/runtime/library
+tidyr	1.3.2	R 4.6.1; x86_64-w64-mingw32; 2026-10-21 03:59:11 UTC; windows	C:/Users/VIVAAN/Documents/Codex/2026-10-24/protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2/work/research_cycle8/comt_pilot/runtime/library
+tidyselect	1.2.1	R 4.6.1; ; 2026-10-21 02:52:38 UTC; windows	C:/Users/VIVAAN/Documents/Codex/2026-10-24/protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2/work/research_cycle8/comt_pilot/runtime/library
+timeDate	4052.112	R 4.6.1; ; 2026-09-29 12:14:51 UTC; windows	C:/Users/VIVAAN/Documents/Codex/2026-10-24/protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2/work/research_cycle8/comt_pilot/runtime/library
+timechange	0.4.0	R 4.6.1; x86_64-w64-mingw32; 2026-10-21 02:09:55 UTC; windows	C:/Users/VIVAAN/Documents/Codex/2026-10-24/protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2/work/research_cycle8/comt_pilot/runtime/library
+tzdb	0.5.0	R 4.6.1; x86_64-w64-mingw32; 2026-10-21 02:09:57 UTC; windows	C:/Users/VIVAAN/Documents/Codex/2026-10-24/protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2/work/research_cycle8/comt_pilot/runtime/library
+utf8	1.2.6	R 4.6.1; x86_64-w64-mingw32; 2026-10-21 01:07:11 UTC; windows	C:/Users/VIVAAN/Documents/Codex/2026-10-24/protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2/work/research_cycle8/comt_pilot/runtime/library
+vctrs	0.7.3	R 4.6.1; x86_64-w64-mingw32; 2026-10-21 02:31:38 UTC; windows	C:/Users/VIVAAN/Documents/Codex/2026-10-24/protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2/work/research_cycle8/comt_pilot/runtime/library
+viridisLite	0.4.3	R 4.6.1; ; 2026-10-21 01:07:13 UTC; windows	C:/Users/VIVAAN/Documents/Codex/2026-10-24/protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2/work/research_cycle8/comt_pilot/runtime/library
+withr	3.0.3	R 4.6.1; ; 2026-10-21 01:07:11 UTC; windows	C:/Users/VIVAAN/Documents/Codex/2026-10-24/protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2/work/research_cycle8/comt_pilot/runtime/library
+KernSmooth	2.23-26	R 4.6.1; x86_64-w64-mingw32; 2026-06-24 08:32:40 UTC; windows	C:/Program Files/R/R-4.6.1/library
+MASS	7.3-65	R 4.6.1; x86_64-w64-mingw32; 2026-06-24 08:23:25 UTC; windows	C:/Program Files/R/R-4.6.1/library
+Matrix	1.7-5	R 4.6.1; x86_64-w64-mingw32; 2026-06-24 08:23:58 UTC; windows	C:/Program Files/R/R-4.6.1/library
+base	4.6.1	R 4.6.1; ; 2026-06-24 08:20:51 UTC; windows	C:/Program Files/R/R-4.6.1/library
+boot	1.3-32	R 4.6.1; ; 2026-06-24 08:32:04 UTC; windows	C:/Program Files/R/R-4.6.1/library
+class	7.3-23	R 4.6.1; x86_64-w64-mingw32; 2026-06-24 08:33:04 UTC; windows	C:/Program Files/R/R-4.6.1/library
+cluster	2.1.8.2	R 4.6.1; x86_64-w64-mingw32; 2026-06-24 08:32:11 UTC; windows	C:/Program Files/R/R-4.6.1/library
+codetools	0.2-20	R 4.6.1; ; 2026-06-24 08:32:25 UTC; windows	C:/Program Files/R/R-4.6.1/library
+compiler	4.6.1	R 4.6.1; ; 2026-06-24 08:14:21 UTC; windows	C:/Program Files/R/R-4.6.1/library
+datasets	4.6.1	R 4.6.1; ; 2026-06-24 08:19:02 UTC; windows	C:/Program Files/R/R-4.6.1/library
+foreign	0.8-91	R 4.6.1; x86_64-w64-mingw32; 2026-06-24 08:32:28 UTC; windows	C:/Program Files/R/R-4.6.1/library
+grDevices	4.6.1	R 4.6.1; x86_64-w64-mingw32; 2026-06-24 08:16:14 UTC; windows	C:/Program Files/R/R-4.6.1/library
+graphics	4.6.1	R 4.6.1; x86_64-w64-mingw32; 2026-06-24 08:16:56 UTC; windows	C:/Program Files/R/R-4.6.1/library
+grid	4.6.1	R 4.6.1; x86_64-w64-mingw32; 2026-06-24 08:19:46 UTC; windows	C:/Program Files/R/R-4.6.1/library
+lattice	0.22-9	R 4.6.1; x86_64-w64-mingw32; 2026-06-24 08:23:40 UTC; windows	C:/Program Files/R/R-4.6.1/library
+methods	4.6.1	R 4.6.1; x86_64-w64-mingw32; 2026-06-24 08:19:12 UTC; windows	C:/Program Files/R/R-4.6.1/library
+mgcv	1.9-4	R 4.6.1; x86_64-w64-mingw32; 2026-06-24 08:33:21 UTC; windows	C:/Program Files/R/R-4.6.1/library
+nlme	3.1-169	R 4.6.1; x86_64-w64-mingw32; 2026-06-24 08:30:23 UTC; windows	C:/Program Files/R/R-4.6.1/library
+nnet	7.3-20	R 4.6.1; x86_64-w64-mingw32; 2026-06-24 08:33:09 UTC; windows	C:/Program Files/R/R-4.6.1/library
+parallel	4.6.1	R 4.6.1; x86_64-w64-mingw32; 2026-06-24 08:20:30 UTC; windows	C:/Program Files/R/R-4.6.1/library
+rpart	4.1.27	R 4.6.1; x86_64-w64-mingw32; 2026-06-24 08:32:48 UTC; windows	C:/Program Files/R/R-4.6.1/library
+spatial	7.3-18	R 4.6.1; x86_64-w64-mingw32; 2026-06-24 08:33:14 UTC; windows	C:/Program Files/R/R-4.6.1/library
+splines	4.6.1	R 4.6.1; x86_64-w64-mingw32; 2026-06-24 08:20:12 UTC; windows	C:/Program Files/R/R-4.6.1/library
+stats	4.6.1	R 4.6.1; x86_64-w64-mingw32; 2026-06-24 08:17:23 UTC; windows	C:/Program Files/R/R-4.6.1/library
+stats4	4.6.1	R 4.6.1; ; 2026-06-24 08:20:17 UTC; windows	C:/Program Files/R/R-4.6.1/library
+survival	3.8-6	R 4.6.1; x86_64-w64-mingw32; 2026-06-24 08:30:55 UTC; windows	C:/Program Files/R/R-4.6.1/library
+tcltk	4.6.1	R 4.6.1; x86_64-w64-mingw32; 2026-06-24 08:20:20 UTC; windows	C:/Program Files/R/R-4.6.1/library
+tools	4.6.1	R 4.6.1; x86_64-w64-mingw32; 2026-06-24 08:14:19 UTC; windows	C:/Program Files/R/R-4.6.1/library
+translations	4.6.1	R 4.6.1; ; 2026-06-24 08:20:37 UTC; windows	C:/Program Files/R/R-4.6.1/library
+utils	4.6.1	R 4.6.1; x86_64-w64-mingw32; 2026-06-24 08:15:23 UTC; windows	C:/Program Files/R/R-4.6.1/library

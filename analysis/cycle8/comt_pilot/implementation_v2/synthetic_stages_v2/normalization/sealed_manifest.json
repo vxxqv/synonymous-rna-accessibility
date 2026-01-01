@@ -1,0 +1,16 @@
+{
+  "schema": "COMT_A1_stage_seal_v1",
+  "phase": "normalize",
+  "authorization_sha256": "synthetic",
+  "input_hashes": {
+    "protocol": "97aea7e56ddf9c74a2fcbf4a17ce2bbd9280c8417d2534997835878b2a368d61",
+    "amendment": "2f15418daf1e417193493eeb7c3370dae3451e8e69618427bfd13a73e28ff5e8",
+    "integration_addendum": "c480ca92ce36b6e95849fceaea3e6bf49d14bcd7842b1e5fe1efd543ff33f4d2",
+    "contract": "884c45fd5c3bdec73d1436a47e556331656e1357dffdcd0aa155892ae6157b72",
+    "code_manifest": "7a5a27f803c7b4a26853c2f91cb8bb6948e5a6831ebe23725091e718359f84b3"
+  },
+  "files": {
+    "contrasts.json": "368f5a99e51b679e2e88109119ad3a41b5cb13a5e7c1ad77f03954eb62e6dc07",
+    "normalization.json": "dc236ca617efa5dc1d0f9df6efb7b61b19f3dd8f595c6a9bbbb54e62f79b0fb4"
+  }
+}

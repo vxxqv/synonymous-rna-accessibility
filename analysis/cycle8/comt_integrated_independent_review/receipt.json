@@ -1,0 +1,415 @@
+{
+  "status": "HOLD_REQUIRED_GUARD_CORRECTION",
+  "assertion_tested": "Declared metadata selection, exact normalization and site-scoring behavior on invented inputs only",
+  "candidate_manifest_sha256": "85f960e0ea4062cf013a655297c4c09108e7379ff133037c21f529b03e2a0cfd",
+  "independent_checks": 74,
+  "checks": [
+    {
+      "check": "metadata contract independently rebuilt from pinned source and metadata",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "check": "63 required biological members",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "check": "125 targets at53sites and113SNVs at52sites",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "check": "held codon alternatives share fold",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "check": "exact denominator andNCcase0",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "check": "exact denominator andNCcase1",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "check": "exact denominator andNCcase2",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "check": "exact denominator andNCcase3",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "check": "exact denominator andNCcase4",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "check": "exact denominator andNCcase5",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "check": "exact denominator andNCcase6",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "check": "exact denominator andNCcase7",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "check": "exact denominator andNCcase8",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "check": "exact denominator andNCcase9",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "check": "exact denominator andNCcase10",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "check": "exact denominator andNCcase11",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "check": "exact denominator andNCcase12",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "check": "exact denominator andNCcase13",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "check": "exact denominator andNCcase14",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "check": "exact denominator andNCcase15",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "check": "exact denominator andNCcase16",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "check": "exact denominator andNCcase17",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "check": "exact denominator andNCcase18",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "check": "exact denominator andNCcase19",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "check": "exact denominator andNCcase20",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "check": "exact denominator andNCcase21",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "check": "exact denominator andNCcase22",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "check": "exact denominator andNCcase23",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "check": "exact denominator andNCcase24",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "check": "exact denominator andNCcase25",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "check": "exact denominator andNCcase26",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "check": "exact denominator andNCcase27",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "check": "exact denominator andNCcase28",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "check": "exact denominator andNCcase29",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "check": "exact denominator andNCcase30",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "check": "exact denominator andNCcase31",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "check": "exact denominator andNCcase32",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "check": "exact denominator andNCcase33",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "check": "exact denominator andNCcase34",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "check": "exact denominator andNCcase35",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "check": "exact denominator andNCcase36",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "check": "exact denominator andNCcase37",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "check": "exact denominator andNCcase38",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "check": "exact denominator andNCcase39",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "check": "exact denominator andNCcase40",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "check": "exact denominator andNCcase41",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "check": "exact denominator andNCcase42",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "check": "exact denominator andNCcase43",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "check": "exact denominator andNCcase44",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "check": "exact denominator andNCcase45",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "check": "exact denominator andNCcase46",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "check": "exact denominator andNCcase47",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "check": "exact denominator andNCcase48",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "check": "exact denominator andNCcase49",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "check": "nonfinite rejected CAFnan",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "check": "nonfinite rejected CAFinf",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "check": "nonfinite rejected R2_MINUS_MED_RPnan",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "check": "nonfinite rejected R2_MINUS_MED_RPinf",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "check": "nonfinite rejected R1_PLUS_MED_BQnan",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "check": "nonfinite rejected R1_PLUS_MED_BQinf",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "check": "nonfinite rejected R2_MINUS_MED_BQnan",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "check": "nonfinite rejected R2_MINUS_MED_BQinf",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "check": "nonfinite rejected R2_MINUS_MED_NMnan",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "check": "nonfinite rejected R2_MINUS_MED_NMinf",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "check": "technical then group medians independently weighted",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "check": "sign and shared contrast algebra",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "check": "missingload leaves RNA and target complete",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "check": "sitebalanced error exact independent mean",
+      "passed": true,
+      "evidence": "641/1325"
+    },
+    {
+      "check": "SNVsubset uses retained same predictions",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "check": "bothmaps known signal passes",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "check": "one map below10percent fails primary",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "check": "exact10percent boundary passes",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "check": "zero baseline fails despite other positive gains",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "check": "unchanged author15synthetic tests replayed inownedmirror",
+      "passed": true,
+      "evidence": null
+    }
+  ],
+  "counterexamples": [
+    {
+      "id": "negative_feature_domain",
+      "field": "R2_MINUS_MED_RP",
+      "value": -1,
+      "observed": "accepted",
+      "required": "stop before RF per integration addendum"
+    },
+    {
+      "id": "negative_feature_domain",
+      "field": "R1_PLUS_MED_BQ",
+      "value": -1,
+      "observed": "accepted",
+      "required": "stop before RF per integration addendum"
+    },
+    {
+      "id": "negative_feature_domain",
+      "field": "R2_MINUS_MED_BQ",
+      "value": -1,
+      "observed": "accepted",
+      "required": "stop before RF per integration addendum"
+    },
+    {
+      "id": "negative_feature_domain",
+      "field": "R2_MINUS_MED_NM",
+      "value": -1,
+      "observed": "accepted",
+      "required": "stop before RF per integration addendum"
+    }
+  ],
+  "source_rows_decoded": 0,
+  "source_simulation_rows_decoded": 0,
+  "author_tests": 15,
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "reviewer_source_sha256": "cf6630bc5352a63ad98897b9c4a7528ddc80b64f7e7ccf42eb60919bf8b76e08",
+  "candidate_before_after_unchanged": true,
+  "limits": "No real-source run, external replication, runtime RF rerun or biological validation. Previously reviewed kernel not rederived."
+}

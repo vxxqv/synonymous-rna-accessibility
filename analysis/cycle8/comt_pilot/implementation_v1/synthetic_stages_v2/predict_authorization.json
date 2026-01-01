@@ -1,0 +1,34 @@
+{
+  "schema": "COMT_A1_authorization_v1",
+  "phase": "predict",
+  "status": "approved_frozen_preoutcome",
+  "historical_reproduction_claim": false,
+  "outcome_access_authorized": true,
+  "synthetic_fixture_only": true,
+  "inputs": {
+    "protocol": {
+      "path": "C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\work\\research_cycle8\\comt_pilot\\protocol_v2.md",
+      "sha256": "97aea7e56ddf9c74a2fcbf4a17ce2bbd9280c8417d2534997835878b2a368d61"
+    },
+    "amendment": {
+      "path": "C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\work\\research_cycle8\\comt_pilot\\prospective_reconstruction_amendment.md",
+      "sha256": "2f15418daf1e417193493eeb7c3370dae3451e8e69618427bfd13a73e28ff5e8"
+    },
+    "integration_addendum": {
+      "path": "C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\work\\research_cycle8\\comt_pilot\\implementation_v1\\integration_addendum.md",
+      "sha256": "c480ca92ce36b6e95849fceaea3e6bf49d14bcd7842b1e5fe1efd543ff33f4d2"
+    },
+    "contract": {
+      "path": "C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\work\\research_cycle8\\comt_pilot\\implementation_v1\\synthetic_stages_v2\\contract.json",
+      "sha256": "884c45fd5c3bdec73d1436a47e556331656e1357dffdcd0aa155892ae6157b72"
+    },
+    "code_manifest": {
+      "path": "C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\work\\research_cycle8\\comt_pilot\\implementation_v1\\synthetic_stages_v2\\code.json",
+      "sha256": "7a5a27f803c7b4a26853c2f91cb8bb6948e5a6831ebe23725091e718359f84b3"
+    },
+    "normalization_manifest": {
+      "path": "C:\\Users\\VIVAAN\\Documents\\Codex\\2026-10-24\\protplex-plugin-app-6a05de7314dc819181be899b114e2a48-openai-curated-2\\work\\research_cycle8\\comt_pilot\\implementation_v1\\synthetic_stages_v2\\normalization\\sealed_manifest.json",
+      "sha256": "b2675749ce1cbf993c76f9fffb876a4f70e511537a8916606935664502749044"
+    }
+  }
+}

@@ -1,0 +1,989 @@
+{
+  "status": "PROPOSED_NOT_AUTHORIZED_FOR_OUTCOMES",
+  "salt": "COMT_A1_raw_proxy_site_folds_v1",
+  "hash_format": "UTF-8 salt|ROI={roi}|site={integer}; lexical SHA256 order within ROI, cyclic fold0..4",
+  "variants": [
+    {
+      "hgvs_nt": "c.102G>A",
+      "native_codon_site": 73,
+      "ROI": 1,
+      "is_SNV": true,
+      "assessment_fold": 3
+    },
+    {
+      "hgvs_nt": "c.103_104delinsTC",
+      "native_codon_site": 74,
+      "ROI": 1,
+      "is_SNV": false,
+      "assessment_fold": 1
+    },
+    {
+      "hgvs_nt": "c.103_105delinsTCA",
+      "native_codon_site": 74,
+      "ROI": 1,
+      "is_SNV": false,
+      "assessment_fold": 1
+    },
+    {
+      "hgvs_nt": "c.103_105delinsTCT",
+      "native_codon_site": 74,
+      "ROI": 1,
+      "is_SNV": false,
+      "assessment_fold": 1
+    },
+    {
+      "hgvs_nt": "c.10C>T",
+      "native_codon_site": 43,
+      "ROI": 1,
+      "is_SNV": true,
+      "assessment_fold": 2
+    },
+    {
+      "hgvs_nt": "c.10_12delinsTTA",
+      "native_codon_site": 43,
+      "ROI": 1,
+      "is_SNV": false,
+      "assessment_fold": 2
+    },
+    {
+      "hgvs_nt": "c.12G>A",
+      "native_codon_site": 43,
+      "ROI": 1,
+      "is_SNV": true,
+      "assessment_fold": 2
+    },
+    {
+      "hgvs_nt": "c.12G>C",
+      "native_codon_site": 43,
+      "ROI": 1,
+      "is_SNV": true,
+      "assessment_fold": 2
+    },
+    {
+      "hgvs_nt": "c.12G>T",
+      "native_codon_site": 43,
+      "ROI": 1,
+      "is_SNV": true,
+      "assessment_fold": 2
+    },
+    {
+      "hgvs_nt": "c.15G>A",
+      "native_codon_site": 44,
+      "ROI": 1,
+      "is_SNV": true,
+      "assessment_fold": 1
+    },
+    {
+      "hgvs_nt": "c.18C>A",
+      "native_codon_site": 45,
+      "ROI": 1,
+      "is_SNV": true,
+      "assessment_fold": 0
+    },
+    {
+      "hgvs_nt": "c.18C>G",
+      "native_codon_site": 45,
+      "ROI": 1,
+      "is_SNV": true,
+      "assessment_fold": 0
+    },
+    {
+      "hgvs_nt": "c.18C>T",
+      "native_codon_site": 45,
+      "ROI": 1,
+      "is_SNV": true,
+      "assessment_fold": 0
+    },
+    {
+      "hgvs_nt": "c.21C>A",
+      "native_codon_site": 46,
+      "ROI": 1,
+      "is_SNV": true,
+      "assessment_fold": 3
+    },
+    {
+      "hgvs_nt": "c.21C>T",
+      "native_codon_site": 46,
+      "ROI": 1,
+      "is_SNV": true,
+      "assessment_fold": 3
+    },
+    {
+      "hgvs_nt": "c.24C>T",
+      "native_codon_site": 47,
+      "ROI": 1,
+      "is_SNV": true,
+      "assessment_fold": 2
+    },
+    {
+      "hgvs_nt": "c.27C>T",
+      "native_codon_site": 48,
+      "ROI": 1,
+      "is_SNV": true,
+      "assessment_fold": 2
+    },
+    {
+      "hgvs_nt": "c.289C>T",
+      "native_codon_site": 136,
+      "ROI": 2,
+      "is_SNV": true,
+      "assessment_fold": 2
+    },
+    {
+      "hgvs_nt": "c.289_291delinsTTA",
+      "native_codon_site": 136,
+      "ROI": 2,
+      "is_SNV": false,
+      "assessment_fold": 2
+    },
+    {
+      "hgvs_nt": "c.28C>T",
+      "native_codon_site": 49,
+      "ROI": 1,
+      "is_SNV": true,
+      "assessment_fold": 1
+    },
+    {
+      "hgvs_nt": "c.28_30delinsTTA",
+      "native_codon_site": 49,
+      "ROI": 1,
+      "is_SNV": false,
+      "assessment_fold": 1
+    },
+    {
+      "hgvs_nt": "c.291G>A",
+      "native_codon_site": 136,
+      "ROI": 2,
+      "is_SNV": true,
+      "assessment_fold": 2
+    },
+    {
+      "hgvs_nt": "c.291G>C",
+      "native_codon_site": 136,
+      "ROI": 2,
+      "is_SNV": true,
+      "assessment_fold": 2
+    },
+    {
+      "hgvs_nt": "c.291G>T",
+      "native_codon_site": 136,
+      "ROI": 2,
+      "is_SNV": true,
+      "assessment_fold": 2
+    },
+    {
+      "hgvs_nt": "c.294C>A",
+      "native_codon_site": 137,
+      "ROI": 2,
+      "is_SNV": true,
+      "assessment_fold": 1
+    },
+    {
+      "hgvs_nt": "c.294C>T",
+      "native_codon_site": 137,
+      "ROI": 2,
+      "is_SNV": true,
+      "assessment_fold": 1
+    },
+    {
+      "hgvs_nt": "c.297C>A",
+      "native_codon_site": 138,
+      "ROI": 2,
+      "is_SNV": true,
+      "assessment_fold": 0
+    },
+    {
+      "hgvs_nt": "c.297C>G",
+      "native_codon_site": 138,
+      "ROI": 2,
+      "is_SNV": true,
+      "assessment_fold": 0
+    },
+    {
+      "hgvs_nt": "c.297C>T",
+      "native_codon_site": 138,
+      "ROI": 2,
+      "is_SNV": true,
+      "assessment_fold": 0
+    },
+    {
+      "hgvs_nt": "c.300C>A",
+      "native_codon_site": 139,
+      "ROI": 2,
+      "is_SNV": true,
+      "assessment_fold": 4
+    },
+    {
+      "hgvs_nt": "c.300C>T",
+      "native_codon_site": 139,
+      "ROI": 2,
+      "is_SNV": true,
+      "assessment_fold": 4
+    },
+    {
+      "hgvs_nt": "c.303G>A",
+      "native_codon_site": 140,
+      "ROI": 2,
+      "is_SNV": true,
+      "assessment_fold": 3
+    },
+    {
+      "hgvs_nt": "c.306C>A",
+      "native_codon_site": 141,
+      "ROI": 2,
+      "is_SNV": true,
+      "assessment_fold": 3
+    },
+    {
+      "hgvs_nt": "c.306C>T",
+      "native_codon_site": 141,
+      "ROI": 2,
+      "is_SNV": true,
+      "assessment_fold": 3
+    },
+    {
+      "hgvs_nt": "c.309C>T",
+      "native_codon_site": 142,
+      "ROI": 2,
+      "is_SNV": true,
+      "assessment_fold": 2
+    },
+    {
+      "hgvs_nt": "c.30G>A",
+      "native_codon_site": 49,
+      "ROI": 1,
+      "is_SNV": true,
+      "assessment_fold": 1
+    },
+    {
+      "hgvs_nt": "c.30G>C",
+      "native_codon_site": 49,
+      "ROI": 1,
+      "is_SNV": true,
+      "assessment_fold": 1
+    },
+    {
+      "hgvs_nt": "c.30G>T",
+      "native_codon_site": 49,
+      "ROI": 1,
+      "is_SNV": true,
+      "assessment_fold": 1
+    },
+    {
+      "hgvs_nt": "c.312C>A",
+      "native_codon_site": 143,
+      "ROI": 2,
+      "is_SNV": true,
+      "assessment_fold": 1
+    },
+    {
+      "hgvs_nt": "c.312C>G",
+      "native_codon_site": 143,
+      "ROI": 2,
+      "is_SNV": true,
+      "assessment_fold": 1
+    },
+    {
+      "hgvs_nt": "c.312C>T",
+      "native_codon_site": 143,
+      "ROI": 2,
+      "is_SNV": true,
+      "assessment_fold": 1
+    },
+    {
+      "hgvs_nt": "c.315C>T",
+      "native_codon_site": 144,
+      "ROI": 2,
+      "is_SNV": true,
+      "assessment_fold": 4
+    },
+    {
+      "hgvs_nt": "c.318T>C",
+      "native_codon_site": 145,
+      "ROI": 2,
+      "is_SNV": true,
+      "assessment_fold": 3
+    },
+    {
+      "hgvs_nt": "c.31_33delinsTTA",
+      "native_codon_site": 50,
+      "ROI": 1,
+      "is_SNV": false,
+      "assessment_fold": 3
+    },
+    {
+      "hgvs_nt": "c.31_33delinsTTG",
+      "native_codon_site": 50,
+      "ROI": 1,
+      "is_SNV": false,
+      "assessment_fold": 3
+    },
+    {
+      "hgvs_nt": "c.321C>A",
+      "native_codon_site": 146,
+      "ROI": 2,
+      "is_SNV": true,
+      "assessment_fold": 1
+    },
+    {
+      "hgvs_nt": "c.321C>G",
+      "native_codon_site": 146,
+      "ROI": 2,
+      "is_SNV": true,
+      "assessment_fold": 1
+    },
+    {
+      "hgvs_nt": "c.321C>T",
+      "native_codon_site": 146,
+      "ROI": 2,
+      "is_SNV": true,
+      "assessment_fold": 1
+    },
+    {
+      "hgvs_nt": "c.324C>A",
+      "native_codon_site": 147,
+      "ROI": 2,
+      "is_SNV": true,
+      "assessment_fold": 2
+    },
+    {
+      "hgvs_nt": "c.324C>G",
+      "native_codon_site": 147,
+      "ROI": 2,
+      "is_SNV": true,
+      "assessment_fold": 2
+    },
+    {
+      "hgvs_nt": "c.324C>T",
+      "native_codon_site": 147,
+      "ROI": 2,
+      "is_SNV": true,
+      "assessment_fold": 2
+    },
+    {
+      "hgvs_nt": "c.327C>A",
+      "native_codon_site": 148,
+      "ROI": 2,
+      "is_SNV": true,
+      "assessment_fold": 1
+    },
+    {
+      "hgvs_nt": "c.327C>T",
+      "native_codon_site": 148,
+      "ROI": 2,
+      "is_SNV": true,
+      "assessment_fold": 1
+    },
+    {
+      "hgvs_nt": "c.330C>A",
+      "native_codon_site": 149,
+      "ROI": 2,
+      "is_SNV": true,
+      "assessment_fold": 4
+    },
+    {
+      "hgvs_nt": "c.330C>G",
+      "native_codon_site": 149,
+      "ROI": 2,
+      "is_SNV": true,
+      "assessment_fold": 4
+    },
+    {
+      "hgvs_nt": "c.330C>T",
+      "native_codon_site": 149,
+      "ROI": 2,
+      "is_SNV": true,
+      "assessment_fold": 4
+    },
+    {
+      "hgvs_nt": "c.333G>A",
+      "native_codon_site": 150,
+      "ROI": 2,
+      "is_SNV": true,
+      "assessment_fold": 0
+    },
+    {
+      "hgvs_nt": "c.334C>A",
+      "native_codon_site": 151,
+      "ROI": 2,
+      "is_SNV": true,
+      "assessment_fold": 4
+    },
+    {
+      "hgvs_nt": "c.334_336delinsAGA",
+      "native_codon_site": 151,
+      "ROI": 2,
+      "is_SNV": false,
+      "assessment_fold": 4
+    },
+    {
+      "hgvs_nt": "c.336G>A",
+      "native_codon_site": 151,
+      "ROI": 2,
+      "is_SNV": true,
+      "assessment_fold": 4
+    },
+    {
+      "hgvs_nt": "c.336G>C",
+      "native_codon_site": 151,
+      "ROI": 2,
+      "is_SNV": true,
+      "assessment_fold": 4
+    },
+    {
+      "hgvs_nt": "c.336G>T",
+      "native_codon_site": 151,
+      "ROI": 2,
+      "is_SNV": true,
+      "assessment_fold": 4
+    },
+    {
+      "hgvs_nt": "c.33C>A",
+      "native_codon_site": 50,
+      "ROI": 1,
+      "is_SNV": true,
+      "assessment_fold": 3
+    },
+    {
+      "hgvs_nt": "c.33C>G",
+      "native_codon_site": 50,
+      "ROI": 1,
+      "is_SNV": true,
+      "assessment_fold": 3
+    },
+    {
+      "hgvs_nt": "c.33C>T",
+      "native_codon_site": 50,
+      "ROI": 1,
+      "is_SNV": true,
+      "assessment_fold": 3
+    },
+    {
+      "hgvs_nt": "c.342G>A",
+      "native_codon_site": 153,
+      "ROI": 2,
+      "is_SNV": true,
+      "assessment_fold": 0
+    },
+    {
+      "hgvs_nt": "c.342G>C",
+      "native_codon_site": 153,
+      "ROI": 2,
+      "is_SNV": true,
+      "assessment_fold": 0
+    },
+    {
+      "hgvs_nt": "c.342G>T",
+      "native_codon_site": 153,
+      "ROI": 2,
+      "is_SNV": true,
+      "assessment_fold": 0
+    },
+    {
+      "hgvs_nt": "c.348C>T",
+      "native_codon_site": 155,
+      "ROI": 2,
+      "is_SNV": true,
+      "assessment_fold": 0
+    },
+    {
+      "hgvs_nt": "c.351T>A",
+      "native_codon_site": 156,
+      "ROI": 2,
+      "is_SNV": true,
+      "assessment_fold": 2
+    },
+    {
+      "hgvs_nt": "c.351T>C",
+      "native_codon_site": 156,
+      "ROI": 2,
+      "is_SNV": true,
+      "assessment_fold": 2
+    },
+    {
+      "hgvs_nt": "c.351T>G",
+      "native_codon_site": 156,
+      "ROI": 2,
+      "is_SNV": true,
+      "assessment_fold": 2
+    },
+    {
+      "hgvs_nt": "c.354C>A",
+      "native_codon_site": 157,
+      "ROI": 2,
+      "is_SNV": true,
+      "assessment_fold": 3
+    },
+    {
+      "hgvs_nt": "c.354C>G",
+      "native_codon_site": 157,
+      "ROI": 2,
+      "is_SNV": true,
+      "assessment_fold": 3
+    },
+    {
+      "hgvs_nt": "c.354C>T",
+      "native_codon_site": 157,
+      "ROI": 2,
+      "is_SNV": true,
+      "assessment_fold": 3
+    },
+    {
+      "hgvs_nt": "c.39T>A",
+      "native_codon_site": 52,
+      "ROI": 1,
+      "is_SNV": true,
+      "assessment_fold": 2
+    },
+    {
+      "hgvs_nt": "c.39T>C",
+      "native_codon_site": 52,
+      "ROI": 1,
+      "is_SNV": true,
+      "assessment_fold": 2
+    },
+    {
+      "hgvs_nt": "c.39T>G",
+      "native_codon_site": 52,
+      "ROI": 1,
+      "is_SNV": true,
+      "assessment_fold": 2
+    },
+    {
+      "hgvs_nt": "c.3G>A",
+      "native_codon_site": 40,
+      "ROI": 1,
+      "is_SNV": true,
+      "assessment_fold": 2
+    },
+    {
+      "hgvs_nt": "c.42C>T",
+      "native_codon_site": 53,
+      "ROI": 1,
+      "is_SNV": true,
+      "assessment_fold": 4
+    },
+    {
+      "hgvs_nt": "c.45C>A",
+      "native_codon_site": 54,
+      "ROI": 1,
+      "is_SNV": true,
+      "assessment_fold": 4
+    },
+    {
+      "hgvs_nt": "c.45C>G",
+      "native_codon_site": 54,
+      "ROI": 1,
+      "is_SNV": true,
+      "assessment_fold": 4
+    },
+    {
+      "hgvs_nt": "c.45C>T",
+      "native_codon_site": 54,
+      "ROI": 1,
+      "is_SNV": true,
+      "assessment_fold": 4
+    },
+    {
+      "hgvs_nt": "c.48G>A",
+      "native_codon_site": 55,
+      "ROI": 1,
+      "is_SNV": true,
+      "assessment_fold": 0
+    },
+    {
+      "hgvs_nt": "c.51G>A",
+      "native_codon_site": 56,
+      "ROI": 1,
+      "is_SNV": true,
+      "assessment_fold": 0
+    },
+    {
+      "hgvs_nt": "c.54G>A",
+      "native_codon_site": 57,
+      "ROI": 1,
+      "is_SNV": true,
+      "assessment_fold": 2
+    },
+    {
+      "hgvs_nt": "c.55_57delinsAGA",
+      "native_codon_site": 58,
+      "ROI": 1,
+      "is_SNV": false,
+      "assessment_fold": 0
+    },
+    {
+      "hgvs_nt": "c.55_57delinsAGG",
+      "native_codon_site": 58,
+      "ROI": 1,
+      "is_SNV": false,
+      "assessment_fold": 0
+    },
+    {
+      "hgvs_nt": "c.57C>A",
+      "native_codon_site": 58,
+      "ROI": 1,
+      "is_SNV": true,
+      "assessment_fold": 0
+    },
+    {
+      "hgvs_nt": "c.57C>G",
+      "native_codon_site": 58,
+      "ROI": 1,
+      "is_SNV": true,
+      "assessment_fold": 0
+    },
+    {
+      "hgvs_nt": "c.57C>T",
+      "native_codon_site": 58,
+      "ROI": 1,
+      "is_SNV": true,
+      "assessment_fold": 0
+    },
+    {
+      "hgvs_nt": "c.60C>A",
+      "native_codon_site": 59,
+      "ROI": 1,
+      "is_SNV": true,
+      "assessment_fold": 0
+    },
+    {
+      "hgvs_nt": "c.60C>T",
+      "native_codon_site": 59,
+      "ROI": 1,
+      "is_SNV": true,
+      "assessment_fold": 0
+    },
+    {
+      "hgvs_nt": "c.61C>T",
+      "native_codon_site": 60,
+      "ROI": 1,
+      "is_SNV": true,
+      "assessment_fold": 3
+    },
+    {
+      "hgvs_nt": "c.61_63delinsTTA",
+      "native_codon_site": 60,
+      "ROI": 1,
+      "is_SNV": false,
+      "assessment_fold": 3
+    },
+    {
+      "hgvs_nt": "c.63G>A",
+      "native_codon_site": 60,
+      "ROI": 1,
+      "is_SNV": true,
+      "assessment_fold": 3
+    },
+    {
+      "hgvs_nt": "c.63G>C",
+      "native_codon_site": 60,
+      "ROI": 1,
+      "is_SNV": true,
+      "assessment_fold": 3
+    },
+    {
+      "hgvs_nt": "c.63G>T",
+      "native_codon_site": 60,
+      "ROI": 1,
+      "is_SNV": true,
+      "assessment_fold": 3
+    },
+    {
+      "hgvs_nt": "c.66C>T",
+      "native_codon_site": 61,
+      "ROI": 1,
+      "is_SNV": true,
+      "assessment_fold": 1
+    },
+    {
+      "hgvs_nt": "c.69C>T",
+      "native_codon_site": 62,
+      "ROI": 1,
+      "is_SNV": true,
+      "assessment_fold": 0
+    },
+    {
+      "hgvs_nt": "c.6C>T",
+      "native_codon_site": 41,
+      "ROI": 1,
+      "is_SNV": true,
+      "assessment_fold": 4
+    },
+    {
+      "hgvs_nt": "c.72G>A",
+      "native_codon_site": 63,
+      "ROI": 1,
+      "is_SNV": true,
+      "assessment_fold": 1
+    },
+    {
+      "hgvs_nt": "c.72G>C",
+      "native_codon_site": 63,
+      "ROI": 1,
+      "is_SNV": true,
+      "assessment_fold": 1
+    },
+    {
+      "hgvs_nt": "c.72G>T",
+      "native_codon_site": 63,
+      "ROI": 1,
+      "is_SNV": true,
+      "assessment_fold": 1
+    },
+    {
+      "hgvs_nt": "c.73C>T",
+      "native_codon_site": 64,
+      "ROI": 1,
+      "is_SNV": true,
+      "assessment_fold": 4
+    },
+    {
+      "hgvs_nt": "c.75G>A",
+      "native_codon_site": 64,
+      "ROI": 1,
+      "is_SNV": true,
+      "assessment_fold": 4
+    },
+    {
+      "hgvs_nt": "c.75G>C",
+      "native_codon_site": 64,
+      "ROI": 1,
+      "is_SNV": true,
+      "assessment_fold": 4
+    },
+    {
+      "hgvs_nt": "c.75G>T",
+      "native_codon_site": 64,
+      "ROI": 1,
+      "is_SNV": true,
+      "assessment_fold": 4
+    },
+    {
+      "hgvs_nt": "c.78G>A",
+      "native_codon_site": 65,
+      "ROI": 1,
+      "is_SNV": true,
+      "assessment_fold": 1
+    },
+    {
+      "hgvs_nt": "c.81T>C",
+      "native_codon_site": 66,
+      "ROI": 1,
+      "is_SNV": true,
+      "assessment_fold": 2
+    },
+    {
+      "hgvs_nt": "c.84G>A",
+      "native_codon_site": 67,
+      "ROI": 1,
+      "is_SNV": true,
+      "assessment_fold": 0
+    },
+    {
+      "hgvs_nt": "c.84G>C",
+      "native_codon_site": 67,
+      "ROI": 1,
+      "is_SNV": true,
+      "assessment_fold": 0
+    },
+    {
+      "hgvs_nt": "c.84G>T",
+      "native_codon_site": 67,
+      "ROI": 1,
+      "is_SNV": true,
+      "assessment_fold": 0
+    },
+    {
+      "hgvs_nt": "c.90C>A",
+      "native_codon_site": 69,
+      "ROI": 1,
+      "is_SNV": true,
+      "assessment_fold": 3
+    },
+    {
+      "hgvs_nt": "c.90C>G",
+      "native_codon_site": 69,
+      "ROI": 1,
+      "is_SNV": true,
+      "assessment_fold": 3
+    },
+    {
+      "hgvs_nt": "c.90C>T",
+      "native_codon_site": 69,
+      "ROI": 1,
+      "is_SNV": true,
+      "assessment_fold": 3
+    },
+    {
+      "hgvs_nt": "c.93G>A",
+      "native_codon_site": 70,
+      "ROI": 1,
+      "is_SNV": true,
+      "assessment_fold": 4
+    },
+    {
+      "hgvs_nt": "c.93G>C",
+      "native_codon_site": 70,
+      "ROI": 1,
+      "is_SNV": true,
+      "assessment_fold": 4
+    },
+    {
+      "hgvs_nt": "c.93G>T",
+      "native_codon_site": 70,
+      "ROI": 1,
+      "is_SNV": true,
+      "assessment_fold": 4
+    },
+    {
+      "hgvs_nt": "c.96C>T",
+      "native_codon_site": 71,
+      "ROI": 1,
+      "is_SNV": true,
+      "assessment_fold": 4
+    },
+    {
+      "hgvs_nt": "c.99A>C",
+      "native_codon_site": 72,
+      "ROI": 1,
+      "is_SNV": true,
+      "assessment_fold": 1
+    },
+    {
+      "hgvs_nt": "c.99A>G",
+      "native_codon_site": 72,
+      "ROI": 1,
+      "is_SNV": true,
+      "assessment_fold": 1
+    },
+    {
+      "hgvs_nt": "c.99A>T",
+      "native_codon_site": 72,
+      "ROI": 1,
+      "is_SNV": true,
+      "assessment_fold": 1
+    },
+    {
+      "hgvs_nt": "c.9C>A",
+      "native_codon_site": 42,
+      "ROI": 1,
+      "is_SNV": true,
+      "assessment_fold": 3
+    },
+    {
+      "hgvs_nt": "c.9C>T",
+      "native_codon_site": 42,
+      "ROI": 1,
+      "is_SNV": true,
+      "assessment_fold": 3
+    }
+  ],
+  "site_hashes": {
+    "55": "048b83eb12c34b202a7cd4f66481e55a54152b10fcfa8acd1546f054e1ea6b9c",
+    "72": "0944068910d40bc0950268871ee4426cc46b0ae169a2da125ee71f3df68dd8ac",
+    "52": "11971229dd1841d5330d1cd10b9b056b6f1f30d891dcebfc77c52ff3676c4715",
+    "42": "16f903ad4972ce300161a554e41808280fd840b36b6c32a6109714f419e9cdf4",
+    "70": "23377a77224d9872a9c3a2f7bf75bfaef6262f942b51c5c315f171d60325bbcd",
+    "67": "2706c41633b155f72d503f629c4b2f050d248017841449ea5c8b7e4c7e7e72ba",
+    "63": "3d022f639e8675b49e3f9491fb025a495b232dd8b4e6a394999ceb24224658cd",
+    "40": "3f762d1bec491e80747ba8c6e2a16928934a54555b3b2882db86bd7c2939170f",
+    "73": "590ee519d68cffdcaadb35f796086d260d3e0d37603ffe90997a42f32d6ca517",
+    "53": "5c67245e2821d623c51f5470804c0f7fdbd3c501b61dcd0b00d3f6bc78330be3",
+    "45": "6eae240a0b1dc7be91a721b8f4b0cf29268fbd57e88ad542884abe6904c76b92",
+    "74": "80f2ddc8a85efe6f9c0c197ec0349fd37a439cbff15be72414eece38d99660f1",
+    "57": "822eb3d1977930f9ad5559acc07e0e53bdeb01e8fe0bad818b101b59896667b9",
+    "60": "82404776612735f85daf70190cedacd26cecf76da4ff7d0c91c3c3b482de3c40",
+    "54": "87ae9748dad783482d9c8bcd83d7321bf5e71f614aaf9de04576da08b99c0a44",
+    "56": "952d2ed13f323f103b4e492e0f6d1eb8c5d7f094d1eaae2c9b88d8a743cc829f",
+    "65": "96069b90d36d6bf1ced66b3d512d04132f6a73b96a1966273fb6a05e05034d6c",
+    "48": "9f0f305bf5325fd8fd13668c8b6a56a154fe695ddc3c3c5b768de4a45ab8b871",
+    "50": "b4b21793001d1f7512a2e8e006d8f1315f9353f2da3ac85dd1ebb4cef2210bb5",
+    "71": "b6e5444a4cb50894086c753548250c2c3c2a54fcdf70292f9dd83b5b92755652",
+    "58": "b7c414195211050c4c6ce1deb7bec2b861a1dcbf2f8f6e71484ed7f3ac204f98",
+    "49": "b84125c95c78d476c1cb010fa59e73e6d8272f6bb57dd0a0fa30387d62d7f076",
+    "43": "c708b4b8227bcd76a680727322b88a3af283083e0729b0ca38d868890931a27f",
+    "46": "c9dcfa289a6f4925506df469e7f751d038d530c5a8a7c4ad8c9ff11b7559995d",
+    "64": "d1198bc605d1825cfc15c8a2f15f915c8a814ea3dbeb780aa28db81a06734e08",
+    "62": "d331b2e607ee26e1a9219e9da3e4d48ad0ad566b292cb00785cecbd4e7ed382f",
+    "61": "d648f3aa854cc1dc7a4fe14c8c79333a27d9b3cb98c8cf675cee8efcd1fd1f97",
+    "66": "dcb081d7274eba3077e8e0f5b39251bb468f9f9fb64dadf098ed1de960eaf906",
+    "69": "e8efec0dd6e5ae496deaf7d6de93654c61ed5e4cf85d8fdc969b371815a9e89c",
+    "41": "eaf27bc7bd233bafef954f805241303ad7bedfecae3ed6391561560156aa7425",
+    "59": "fcda33da105cc6dc2df099dc8e50c80ec62bb5ae6a9fc47154b53da2de8ec8e7",
+    "44": "fd5999e30153a36d03db74a7b0114b364d62b644fae28cf0b05a4151bc71b445",
+    "47": "ff2a9e6db191edf274b2ab36dad8025c2197d6fe7f8f2ee7b9f91b96af25e022",
+    "138": "07e62ee3ef90d47ed2334a9e7b3d3e828a6f5bf19ddfcd149a829ed5d98b4767",
+    "148": "28c1392578a1e5a7c121dd0701f3ba7086c4ef71fdde03ad4255e6b6f7217d48",
+    "156": "2b3aade6dc35779d6b0b48cdfe4f84913a0849090c678fe3f57f60d99d3d85a9",
+    "145": "413815efcea4b591662ac09fb026124a7f4ad57eb88605f8a5bae65ef744dd0c",
+    "144": "42c76f92fffe2a8ffb6651fb17418d367fbd23306efb1380b65f6e836825f8c5",
+    "155": "49632738b9983e26c30753b0abf341c02d3c16d263f2cc6466f190ea3ec71041",
+    "146": "4965f85ccc171511ffccca4cb83cf35a75ea02094b8263d015404d30b70d98f5",
+    "142": "4a2692499f647776ee896e50d8ea2962677a11516159437f863d9374cca56dfc",
+    "157": "4c91ee9a72ebc4e10573f40e79f34c4426d0225ac380975557773478beadaf76",
+    "149": "5ef051b1ce598f91a5b6d7657115469802067d554e8a346442e177fc20234de2",
+    "150": "6224bf1a99b4d32c009a3b1a5e3ea3a5aff4e19fa0dea1ef88de3e51a8722caa",
+    "143": "7711c47016222f4c3a7e33ef4f2c38b9ef1d1412d8b4a0a8ef2cbd741cab7923",
+    "147": "84cd042520b2e032df1a7a9a9855a6577a6040a343ac7197ec9ceadd0490b7bc",
+    "141": "c0e53624b4484777a43e1dd34601c2d2705d5ead5458b24996650bc300791765",
+    "139": "df02b9c314a6d25990059cb445c71ee325383b9fab5b027ca269d04bdb5d15f3",
+    "153": "e06f6f17057a13a562039e754dd276a8e1fb7f8f4357c607e0812ec6be25e15a",
+    "137": "ea7087751f7c3a4fa5e99d03da3cac8727c80def1e50783399834124fdf2a3c7",
+    "136": "ee85b94a2ef846da73bf89272e89357218eb2493995c4df771226eb851f30846",
+    "140": "fa07a5c0a270bd8c09178e89b4bbace2ddc8dc5a20424953b663ef2da62e4ea9",
+    "151": "fe596322dfbd8a298e3b4df9d10939640fcc3997d0d5e23f7751f490e06dfa25"
+  },
+  "summary": [
+    {
+      "fold": 0,
+      "variants": 24,
+      "SNVs": 22,
+      "sites": 11,
+      "ROI1_sites": 7,
+      "ROI2_sites": 4
+    },
+    {
+      "fold": 1,
+      "variants": 27,
+      "SNVs": 23,
+      "sites": 11,
+      "ROI1_sites": 7,
+      "ROI2_sites": 4
+    },
+    {
+      "fold": 2,
+      "variants": 25,
+      "SNVs": 23,
+      "sites": 11,
+      "ROI1_sites": 7,
+      "ROI2_sites": 4
+    },
+    {
+      "fold": 3,
+      "variants": 25,
+      "SNVs": 22,
+      "sites": 10,
+      "ROI1_sites": 6,
+      "ROI2_sites": 4
+    },
+    {
+      "fold": 4,
+      "variants": 24,
+      "SNVs": 23,
+      "sites": 10,
+      "ROI1_sites": 6,
+      "ROI2_sites": 4
+    }
+  ],
+  "coverage_expansion_rule": {
+    "minimum_of_125_variants": 100,
+    "minimum_of_53_sites": 40
+  },
+  "input_hashes": {
+    "analysis__integrative_MAVEs.Rmd": "ac267a0a5e1f07d3eadc30a2c3643a166349f0a67259ee31c649454229a869f0",
+    "author_archive.tar.gz": "e3fc127f268c10efbb1d1c736423c51bc5aa900e9e363d66cc8683490516cbe2",
+    "source_manifest.json": "adfb85bff47299ae0f70deb6d72cec612c580ebea9e096b299b53b5b09505167",
+    "synonymous_id_catalog.json": "d4afdc1f585f421e5882a7e6e49d531e0afa855abefb599e8b7da80986534aae"
+  }
+}

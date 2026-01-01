@@ -1,0 +1,378 @@
+[
+  {
+    "GSM": "GSM7856985",
+    "Sample_title": "ROI1_genomic_DNA_FC_biorep2_techrep1_input",
+    "Sample_description": "COMT_42",
+    "R_code_FACS_biorep": 1,
+    "GEO_title_biorep": 2,
+    "same_label": false
+  },
+  {
+    "GSM": "GSM7856986",
+    "Sample_title": "ROI1_genomic_DNA_FC_biorep2_techrep1_P3",
+    "Sample_description": "COMT_43",
+    "R_code_FACS_biorep": 1,
+    "GEO_title_biorep": 2,
+    "same_label": false
+  },
+  {
+    "GSM": "GSM7856987",
+    "Sample_title": "ROI1_genomic_DNA_FC_biorep2_techrep1_P4",
+    "Sample_description": "COMT_44",
+    "R_code_FACS_biorep": 1,
+    "GEO_title_biorep": 2,
+    "same_label": false
+  },
+  {
+    "GSM": "GSM7856988",
+    "Sample_title": "ROI1_genomic_DNA_FC_biorep2_techrep1_P5",
+    "Sample_description": "COMT_45",
+    "R_code_FACS_biorep": 1,
+    "GEO_title_biorep": 2,
+    "same_label": false
+  },
+  {
+    "GSM": "GSM7856989",
+    "Sample_title": "ROI1_genomic_DNA_FC_biorep2_techrep1_P6",
+    "Sample_description": "COMT_46",
+    "R_code_FACS_biorep": 1,
+    "GEO_title_biorep": 2,
+    "same_label": false
+  },
+  {
+    "GSM": "GSM7856990",
+    "Sample_title": "ROI2_genomic_DNA_FC_biorep2_techrep1_input",
+    "Sample_description": "COMT_47",
+    "R_code_FACS_biorep": 1,
+    "GEO_title_biorep": 2,
+    "same_label": false
+  },
+  {
+    "GSM": "GSM7856991",
+    "Sample_title": "ROI2_genomic_DNA_FC_biorep2_techrep1_P3",
+    "Sample_description": "COMT_48",
+    "R_code_FACS_biorep": 1,
+    "GEO_title_biorep": 2,
+    "same_label": false
+  },
+  {
+    "GSM": "GSM7856992",
+    "Sample_title": "ROI2_genomic_DNA_FC_biorep2_techrep1_P4",
+    "Sample_description": "COMT_49",
+    "R_code_FACS_biorep": 1,
+    "GEO_title_biorep": 2,
+    "same_label": false
+  },
+  {
+    "GSM": "GSM7856993",
+    "Sample_title": "ROI2_genomic_DNA_FC_biorep2_techrep1_P5",
+    "Sample_description": "COMT_50",
+    "R_code_FACS_biorep": 1,
+    "GEO_title_biorep": 2,
+    "same_label": false
+  },
+  {
+    "GSM": "GSM7856994",
+    "Sample_title": "ROI2_genomic_DNA_FC_biorep2_techrep1_P6",
+    "Sample_description": "COMT_51",
+    "R_code_FACS_biorep": 1,
+    "GEO_title_biorep": 2,
+    "same_label": false
+  },
+  {
+    "GSM": "GSM7856995",
+    "Sample_title": "ROI1_genomic_DNA_FC_biorep1_techrep1_input",
+    "Sample_description": "COMT_52",
+    "R_code_FACS_biorep": 2,
+    "GEO_title_biorep": 1,
+    "same_label": false
+  },
+  {
+    "GSM": "GSM7856996",
+    "Sample_title": "ROI1_genomic_DNA_FC_biorep1_techrep1_P3",
+    "Sample_description": "COMT_53",
+    "R_code_FACS_biorep": 2,
+    "GEO_title_biorep": 1,
+    "same_label": false
+  },
+  {
+    "GSM": "GSM7856997",
+    "Sample_title": "ROI1_genomic_DNA_FC_biorep1_techrep1_P4",
+    "Sample_description": "COMT_54",
+    "R_code_FACS_biorep": 2,
+    "GEO_title_biorep": 1,
+    "same_label": false
+  },
+  {
+    "GSM": "GSM7856998",
+    "Sample_title": "ROI1_genomic_DNA_FC_biorep1_techrep1_P5",
+    "Sample_description": "COMT_55",
+    "R_code_FACS_biorep": 2,
+    "GEO_title_biorep": 1,
+    "same_label": false
+  },
+  {
+    "GSM": "GSM7856999",
+    "Sample_title": "ROI1_genomic_DNA_FC_biorep1_techrep1_P6",
+    "Sample_description": "COMT_56",
+    "R_code_FACS_biorep": 2,
+    "GEO_title_biorep": 1,
+    "same_label": false
+  },
+  {
+    "GSM": "GSM7857000",
+    "Sample_title": "ROI2_genomic_DNA_FC_biorep1_techrep1_input",
+    "Sample_description": "COMT_57",
+    "R_code_FACS_biorep": 2,
+    "GEO_title_biorep": 1,
+    "same_label": false
+  },
+  {
+    "GSM": "GSM7857001",
+    "Sample_title": "ROI2_genomic_DNA_FC_biorep1_techrep1_P3",
+    "Sample_description": "COMT_58",
+    "R_code_FACS_biorep": 2,
+    "GEO_title_biorep": 1,
+    "same_label": false
+  },
+  {
+    "GSM": "GSM7857002",
+    "Sample_title": "ROI2_genomic_DNA_FC_biorep1_techrep1_P4",
+    "Sample_description": "COMT_59",
+    "R_code_FACS_biorep": 2,
+    "GEO_title_biorep": 1,
+    "same_label": false
+  },
+  {
+    "GSM": "GSM7857003",
+    "Sample_title": "ROI2_genomic_DNA_FC_biorep1_techrep1_P5",
+    "Sample_description": "COMT_60",
+    "R_code_FACS_biorep": 2,
+    "GEO_title_biorep": 1,
+    "same_label": false
+  },
+  {
+    "GSM": "GSM7857004",
+    "Sample_title": "ROI2_genomic_DNA_FC_biorep1_techrep1_P6",
+    "Sample_description": "COMT_61",
+    "R_code_FACS_biorep": 2,
+    "GEO_title_biorep": 1,
+    "same_label": false
+  },
+  {
+    "GSM": "GSM7857047",
+    "Sample_title": "ROI1_genomic_DNA_FC_biorep3_techrep1_input",
+    "Sample_description": "COMT_120",
+    "R_code_FACS_biorep": 3,
+    "GEO_title_biorep": 3,
+    "same_label": true
+  },
+  {
+    "GSM": "GSM7857048",
+    "Sample_title": "ROI1_genomic_DNA_FC_biorep3_techrep1_P3",
+    "Sample_description": "COMT_121",
+    "R_code_FACS_biorep": 3,
+    "GEO_title_biorep": 3,
+    "same_label": true
+  },
+  {
+    "GSM": "GSM7857049",
+    "Sample_title": "ROI1_genomic_DNA_FC_biorep3_techrep1_P4",
+    "Sample_description": "COMT_122",
+    "R_code_FACS_biorep": 3,
+    "GEO_title_biorep": 3,
+    "same_label": true
+  },
+  {
+    "GSM": "GSM7857050",
+    "Sample_title": "ROI1_genomic_DNA_FC_biorep3_techrep1_P5",
+    "Sample_description": "COMT_123",
+    "R_code_FACS_biorep": 3,
+    "GEO_title_biorep": 3,
+    "same_label": true
+  },
+  {
+    "GSM": "GSM7857051",
+    "Sample_title": "ROI1_genomic_DNA_FC_biorep3_techrep1_P6",
+    "Sample_description": "COMT_124",
+    "R_code_FACS_biorep": 3,
+    "GEO_title_biorep": 3,
+    "same_label": true
+  },
+  {
+    "GSM": "GSM7857052",
+    "Sample_title": "ROI2_genomic_DNA_FC_biorep3_techrep1_input",
+    "Sample_description": "COMT_125",
+    "R_code_FACS_biorep": 3,
+    "GEO_title_biorep": 3,
+    "same_label": true
+  },
+  {
+    "GSM": "GSM7857053",
+    "Sample_title": "ROI2_genomic_DNA_FC_biorep3_techrep1_P3",
+    "Sample_description": "COMT_126",
+    "R_code_FACS_biorep": 3,
+    "GEO_title_biorep": 3,
+    "same_label": true
+  },
+  {
+    "GSM": "GSM7857054",
+    "Sample_title": "ROI2_genomic_DNA_FC_biorep3_techrep1_P4",
+    "Sample_description": "COMT_127",
+    "R_code_FACS_biorep": 3,
+    "GEO_title_biorep": 3,
+    "same_label": true
+  },
+  {
+    "GSM": "GSM7857055",
+    "Sample_title": "ROI2_genomic_DNA_FC_biorep3_techrep1_P5",
+    "Sample_description": "COMT_128",
+    "R_code_FACS_biorep": 3,
+    "GEO_title_biorep": 3,
+    "same_label": true
+  },
+  {
+    "GSM": "GSM7857056",
+    "Sample_title": "ROI2_genomic_DNA_FC_biorep3_techrep1_P6",
+    "Sample_description": "COMT_129",
+    "R_code_FACS_biorep": 3,
+    "GEO_title_biorep": 3,
+    "same_label": true
+  },
+  {
+    "GSM": "GSM7857057",
+    "Sample_title": "ROI1_genomic_DNA_FC_biorep4_techrep1_input",
+    "Sample_description": "COMT_130",
+    "R_code_FACS_biorep": 4,
+    "GEO_title_biorep": 4,
+    "same_label": true
+  },
+  {
+    "GSM": "GSM7857058",
+    "Sample_title": "ROI1_genomic_DNA_FC_biorep4_techrep1_P3",
+    "Sample_description": "COMT_131",
+    "R_code_FACS_biorep": 4,
+    "GEO_title_biorep": 4,
+    "same_label": true
+  },
+  {
+    "GSM": "GSM7857059",
+    "Sample_title": "ROI1_genomic_DNA_FC_biorep4_techrep1_P4",
+    "Sample_description": "COMT_132",
+    "R_code_FACS_biorep": 4,
+    "GEO_title_biorep": 4,
+    "same_label": true
+  },
+  {
+    "GSM": "GSM7857060",
+    "Sample_title": "ROI1_genomic_DNA_FC_biorep4_techrep1_P5",
+    "Sample_description": "COMT_133",
+    "R_code_FACS_biorep": 4,
+    "GEO_title_biorep": 4,
+    "same_label": true
+  },
+  {
+    "GSM": "GSM7857061",
+    "Sample_title": "ROI1_genomic_DNA_FC_biorep4_techrep1_P6",
+    "Sample_description": "COMT_134",
+    "R_code_FACS_biorep": 4,
+    "GEO_title_biorep": 4,
+    "same_label": true
+  },
+  {
+    "GSM": "GSM7857062",
+    "Sample_title": "ROI2_genomic_DNA_FC_biorep4_techrep1_input",
+    "Sample_description": "COMT_135",
+    "R_code_FACS_biorep": 4,
+    "GEO_title_biorep": 4,
+    "same_label": true
+  },
+  {
+    "GSM": "GSM7857063",
+    "Sample_title": "ROI2_genomic_DNA_FC_biorep4_techrep1_P3",
+    "Sample_description": "COMT_136",
+    "R_code_FACS_biorep": 4,
+    "GEO_title_biorep": 4,
+    "same_label": true
+  },
+  {
+    "GSM": "GSM7857064",
+    "Sample_title": "ROI2_genomic_DNA_FC_biorep4_techrep1_P4",
+    "Sample_description": "COMT_137",
+    "R_code_FACS_biorep": 4,
+    "GEO_title_biorep": 4,
+    "same_label": true
+  },
+  {
+    "GSM": "GSM7857065",
+    "Sample_title": "ROI2_genomic_DNA_FC_biorep4_techrep1_P5",
+    "Sample_description": "COMT_138",
+    "R_code_FACS_biorep": 4,
+    "GEO_title_biorep": 4,
+    "same_label": true
+  },
+  {
+    "GSM": "GSM7857066",
+    "Sample_title": "ROI2_genomic_DNA_FC_biorep4_techrep1_P6",
+    "Sample_description": "COMT_139",
+    "R_code_FACS_biorep": 4,
+    "GEO_title_biorep": 4,
+    "same_label": true
+  },
+  {
+    "GSM": "GSM7857067",
+    "Sample_title": "ROI1_genomic_DNA_FC_biorep2_techrep2_P4",
+    "Sample_description": "COMT_140",
+    "R_code_FACS_biorep": 2,
+    "GEO_title_biorep": 2,
+    "same_label": true
+  },
+  {
+    "GSM": "GSM7857068",
+    "Sample_title": "ROI2_genomic_DNA_FC_biorep2_techrep2_P3",
+    "Sample_description": "COMT_141",
+    "R_code_FACS_biorep": 2,
+    "GEO_title_biorep": 2,
+    "same_label": true
+  },
+  {
+    "GSM": "GSM7857069",
+    "Sample_title": "ROI2_genomic_DNA_FC_biorep2_techrep2_P4",
+    "Sample_description": "COMT_142",
+    "R_code_FACS_biorep": 2,
+    "GEO_title_biorep": 2,
+    "same_label": true
+  },
+  {
+    "GSM": "GSM7857070",
+    "Sample_title": "ROI2_genomic_DNA_FC_biorep2_techrep2_P5",
+    "Sample_description": "COMT_143",
+    "R_code_FACS_biorep": 2,
+    "GEO_title_biorep": 2,
+    "same_label": true
+  },
+  {
+    "GSM": "GSM7857071",
+    "Sample_title": "ROI2_genomic_DNA_FC_biorep2_techrep2_P6",
+    "Sample_description": "COMT_144",
+    "R_code_FACS_biorep": 2,
+    "GEO_title_biorep": 2,
+    "same_label": true
+  },
+  {
+    "GSM": "GSM7857072",
+    "Sample_title": "ROI2_genomic_DNA_FC_biorep1_techrep2_input",
+    "Sample_description": "COMT_145",
+    "R_code_FACS_biorep": 1,
+    "GEO_title_biorep": 1,
+    "same_label": true
+  },
+  {
+    "GSM": "GSM7857073",
+    "Sample_title": "ROI1_genomic_DNA_FC_biorep3_techrep2_input",
+    "Sample_description": "COMT_146",
+    "R_code_FACS_biorep": 3,
+    "GEO_title_biorep": 3,
+    "same_label": true
+  }
+]

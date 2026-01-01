@@ -1,0 +1,1777 @@
+[
+  {
+    "path": "integrative_MAVEs_submit",
+    "bytes": 0,
+    "type": "b'5'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/._RASP_files",
+    "bytes": 310,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/RASP_files",
+    "bytes": 0,
+    "type": "b'5'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_23MAR2023",
+    "bytes": 0,
+    "type": "b'5'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_ribosome_profiling",
+    "bytes": 0,
+    "type": "b'5'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/._.DS_Store",
+    "bytes": 120,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/.DS_Store",
+    "bytes": 6148,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/Twist_QC",
+    "bytes": 0,
+    "type": "b'5'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/gnomAD",
+    "bytes": 0,
+    "type": "b'5'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/RNAsnp",
+    "bytes": 0,
+    "type": "b'5'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/TFBS",
+    "bytes": 0,
+    "type": "b'5'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_02DEC2021",
+    "bytes": 0,
+    "type": "b'5'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_FACS",
+    "bytes": 0,
+    "type": "b'5'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/TrIP_seq",
+    "bytes": 0,
+    "type": "b'5'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/DeMaSk",
+    "bytes": 0,
+    "type": "b'5'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/results",
+    "bytes": 0,
+    "type": "b'5'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/ESM1b",
+    "bytes": 0,
+    "type": "b'5'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_18FEB2023",
+    "bytes": 0,
+    "type": "b'5'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/UTR5_mutants",
+    "bytes": 0,
+    "type": "b'5'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_03NOV2022",
+    "bytes": 0,
+    "type": "b'5'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_polysome_profiling",
+    "bytes": 0,
+    "type": "b'5'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_15AUG2022",
+    "bytes": 0,
+    "type": "b'5'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/codon_data",
+    "bytes": 0,
+    "type": "b'5'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_endo_UTR5_vs_UTR5_del",
+    "bytes": 0,
+    "type": "b'5'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_endo_UTR5_vs_UTR5_del/293T_LLP_COMT_vector_validation_trial1",
+    "bytes": 0,
+    "type": "b'5'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_endo_UTR5_vs_UTR5_del/293T_LLP_COMT_vector_validation_trial2",
+    "bytes": 0,
+    "type": "b'5'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_endo_UTR5_vs_UTR5_del/293T_LLP_COMT_vector_validation_trial2/._IH_09AUG2021_293TLLP_vec_val_tr2_pp1_2_mCherry_qPCR_cntrl.csv",
+    "bytes": 287,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_endo_UTR5_vs_UTR5_del/293T_LLP_COMT_vector_validation_trial2/IH_09AUG2021_293TLLP_vec_val_tr2_pp1_2_mCherry_qPCR_cntrl.csv",
+    "bytes": 879,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_endo_UTR5_vs_UTR5_del/293T_LLP_COMT_vector_validation_trial2/._IH_14JUL2021_LLP_COMT_vec_val_trial2_total_RTqPCR.csv",
+    "bytes": 394,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_endo_UTR5_vs_UTR5_del/293T_LLP_COMT_vector_validation_trial2/IH_14JUL2021_LLP_COMT_vec_val_trial2_total_RTqPCR.csv",
+    "bytes": 308,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_endo_UTR5_vs_UTR5_del/293T_LLP_COMT_vector_validation_trial2/._.DS_Store",
+    "bytes": 120,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_endo_UTR5_vs_UTR5_del/293T_LLP_COMT_vector_validation_trial2/.DS_Store",
+    "bytes": 6148,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_endo_UTR5_vs_UTR5_del/293T_LLP_COMT_vector_validation_trial2/._IH_10AUG2021_293T_LLP_vec_val_tr2_pp_tr1_2_mCherry_cntrl_repeat.csv",
+    "bytes": 287,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_endo_UTR5_vs_UTR5_del/293T_LLP_COMT_vector_validation_trial2/IH_10AUG2021_293T_LLP_vec_val_tr2_pp_tr1_2_mCherry_cntrl_repeat.csv",
+    "bytes": 879,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_endo_UTR5_vs_UTR5_del/293T_LLP_COMT_vector_validation_trial2/._IH_04AUG2021_293T_LLP_vec_val_tr2_pp_tr1_2_rtqPCR.csv",
+    "bytes": 394,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_endo_UTR5_vs_UTR5_del/293T_LLP_COMT_vector_validation_trial2/IH_04AUG2021_293T_LLP_vec_val_tr2_pp_tr1_2_rtqPCR.csv",
+    "bytes": 833,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_endo_UTR5_vs_UTR5_del/293T_LLP_COMT_vector_validation_trial1/._.DS_Store",
+    "bytes": 120,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_endo_UTR5_vs_UTR5_del/293T_LLP_COMT_vector_validation_trial1/.DS_Store",
+    "bytes": 6148,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_endo_UTR5_vs_UTR5_del/293T_LLP_COMT_vector_validation_trial1/IH_24MAY2021_UTR5_COMT_moxGFP_validation_selected",
+    "bytes": 0,
+    "type": "b'5'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_endo_UTR5_vs_UTR5_del/293T_LLP_COMT_vector_validation_trial1/IH_24MAY2021_UTR5_COMT_moxGFP_validation_selected/._.DS_Store",
+    "bytes": 120,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_endo_UTR5_vs_UTR5_del/293T_LLP_COMT_vector_validation_trial1/IH_24MAY2021_UTR5_COMT_moxGFP_validation_selected/.DS_Store",
+    "bytes": 6148,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_endo_UTR5_vs_UTR5_del/293T_LLP_COMT_vector_validation_trial1/IH_24MAY2021_UTR5_COMT_moxGFP_validation_selected/export_2_noUTR_COMT_moxGFP_Tube_001.csv",
+    "bytes": 8370657,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_endo_UTR5_vs_UTR5_del/293T_LLP_COMT_vector_validation_trial1/IH_24MAY2021_UTR5_COMT_moxGFP_validation_selected/export_4_UTR5_COMT_moxGFP_Tube_001.csv",
+    "bytes": 8577453,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/codon_data/._hydrotrnaseq_raw.txt",
+    "bytes": 317,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/codon_data/hydrotrnaseq_raw.txt",
+    "bytes": 6638,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/codon_data/._1-s2.0-S2211124717309956-mmc6.xlsx",
+    "bytes": 470,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/codon_data/1-s2.0-S2211124717309956-mmc6.xlsx",
+    "bytes": 50933,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/codon_data/._28ntRPF_occu.csv",
+    "bytes": 781,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/codon_data/28ntRPF_occu.csv",
+    "bytes": 5494,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/codon_data/._Supplemental_Table_S5.xlsx",
+    "bytes": 539,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/codon_data/Supplemental_Table_S5.xlsx",
+    "bytes": 60593,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/codon_data/._21ntRPF_occu.csv",
+    "bytes": 1098,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/codon_data/21ntRPF_occu.csv",
+    "bytes": 5492,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/codon_data/._elife-45396-fig1-data2-v2.csv",
+    "bytes": 212,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/codon_data/elife-45396-fig1-data2-v2.csv",
+    "bytes": 6224,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/codon_data/._1-s2.0-S1097276521000484-mmc2.xlsx",
+    "bytes": 334,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/codon_data/1-s2.0-S1097276521000484-mmc2.xlsx",
+    "bytes": 73401,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_15AUG2022/COMT_52_R.var.cand.vcf.summary.txt",
+    "bytes": 1382880,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_15AUG2022/COMT_44_R.var.cand.vcf.summary.txt",
+    "bytes": 1135676,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_15AUG2022/COMT_48_R.var.cand.vcf.summary.txt",
+    "bytes": 832165,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_15AUG2022/COMT_43_R.var.cand.vcf.summary.txt",
+    "bytes": 1290444,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_15AUG2022/COMT_60_R.var.cand.vcf.summary.txt",
+    "bytes": 1058816,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_15AUG2022/COMT_55_R.var.cand.vcf.summary.txt",
+    "bytes": 1636091,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_15AUG2022/COMT_59_R.var.cand.vcf.summary.txt",
+    "bytes": 1202044,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_15AUG2022/COMT_42_R.var.cand.vcf.summary.txt",
+    "bytes": 1340572,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_15AUG2022/COMT_54_R.var.cand.vcf.summary.txt",
+    "bytes": 1507567,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_15AUG2022/COMT_58_R.var.cand.vcf.summary.txt",
+    "bytes": 1081554,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_15AUG2022/COMT_61_R.var.cand.vcf.summary.txt",
+    "bytes": 827996,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_15AUG2022/COMT_53_R.var.cand.vcf.summary.txt",
+    "bytes": 1328943,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_15AUG2022/COMT_45_R.var.cand.vcf.summary.txt",
+    "bytes": 1342142,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_15AUG2022/COMT_49_R.var.cand.vcf.summary.txt",
+    "bytes": 710519,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_15AUG2022/COMT_56_R.var.cand.vcf.summary.txt",
+    "bytes": 1427561,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_15AUG2022/COMT_47_R.var.cand.vcf.summary.txt",
+    "bytes": 971332,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_15AUG2022/COMT_51_R.var.cand.vcf.summary.txt",
+    "bytes": 480029,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_15AUG2022/COMT_46_R.var.cand.vcf.summary.txt",
+    "bytes": 1301976,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_15AUG2022/COMT_50_R.var.cand.vcf.summary.txt",
+    "bytes": 858861,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_15AUG2022/COMT_57_R.var.cand.vcf.summary.txt",
+    "bytes": 505934,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_polysome_profiling/._IH_22JUL2021_COMT_vec_val_tr2_pp_tr2_qPCR_IVT_tidy.csv",
+    "bytes": 288,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_polysome_profiling/IH_22JUL2021_COMT_vec_val_tr2_pp_tr2_qPCR_IVT_tidy.csv",
+    "bytes": 2594,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_polysome_profiling/._IH_24SEP2021_COMT_ROI_1_trial2",
+    "bytes": 220,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_polysome_profiling/IH_24SEP2021_COMT_ROI_1_trial2",
+    "bytes": 0,
+    "type": "b'5'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_polysome_profiling/._16JUL2021_polysome_profiling_logs",
+    "bytes": 220,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_polysome_profiling/16JUL2021_polysome_profiling_logs",
+    "bytes": 0,
+    "type": "b'5'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_polysome_profiling/._IH_07JUL2022_COMT_ROI_1_2_trial4",
+    "bytes": 220,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_polysome_profiling/IH_07JUL2022_COMT_ROI_1_2_trial4",
+    "bytes": 0,
+    "type": "b'5'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_polysome_profiling/._.DS_Store",
+    "bytes": 120,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_polysome_profiling/.DS_Store",
+    "bytes": 10244,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_polysome_profiling/._IH_15SEP2021_COMT_ROI_1_trial1",
+    "bytes": 220,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_polysome_profiling/IH_15SEP2021_COMT_ROI_1_trial1",
+    "bytes": 0,
+    "type": "b'5'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_polysome_profiling/._IH_29SEP2021_COMT_ROI_1_trial3",
+    "bytes": 220,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_polysome_profiling/IH_29SEP2021_COMT_ROI_1_trial3",
+    "bytes": 0,
+    "type": "b'5'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_polysome_profiling/._IH_12JUL2022_COMT_ROI_1_2_trial5",
+    "bytes": 220,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_polysome_profiling/IH_12JUL2022_COMT_ROI_1_2_trial5",
+    "bytes": 0,
+    "type": "b'5'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_polysome_profiling/._13JUL2021_polysome_profiling_logs",
+    "bytes": 220,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_polysome_profiling/13JUL2021_polysome_profiling_logs",
+    "bytes": 0,
+    "type": "b'5'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_polysome_profiling/._IH_22JUL2021_COMT_vec_val_tr2_pp_tr2_qPCR_tidy.csv",
+    "bytes": 395,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_polysome_profiling/IH_22JUL2021_COMT_vec_val_tr2_pp_tr2_qPCR_tidy.csv",
+    "bytes": 7991,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_polysome_profiling/._IH_22JUL2022_COMT_ROI_1_2_trial6",
+    "bytes": 220,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_polysome_profiling/IH_22JUL2022_COMT_ROI_1_2_trial6",
+    "bytes": 0,
+    "type": "b'5'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_polysome_profiling/IH_22JUL2022_COMT_ROI_1_2_trial6/._.DS_Store",
+    "bytes": 120,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_polysome_profiling/IH_22JUL2022_COMT_ROI_1_2_trial6/.DS_Store",
+    "bytes": 6148,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_polysome_profiling/IH_22JUL2022_COMT_ROI_1_2_trial6/IH_22JUL2022_COMT_ROI_1_2_trial6_2.csv",
+    "bytes": 36412,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_polysome_profiling/IH_22JUL2022_COMT_ROI_1_2_trial6/IH_22JUL2022_COMT_ROI_1_2_trial6_3.csv",
+    "bytes": 36086,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_polysome_profiling/IH_22JUL2022_COMT_ROI_1_2_trial6/IH_22JUL2022_COMT_ROI_1_2_trial6_1.csv",
+    "bytes": 35519,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_polysome_profiling/IH_22JUL2022_COMT_ROI_1_2_trial6/IH_22JUL2022_COMT_ROI_1_2_trial6_4.csv",
+    "bytes": 36410,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_polysome_profiling/13JUL2021_polysome_profiling_logs/IH_13JUL2021_COMT_vector_validation_trial2_3B.csv",
+    "bytes": 36317,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_polysome_profiling/13JUL2021_polysome_profiling_logs/IH_13JUL2021_COMT_vector_validation_trial2_3C.csv",
+    "bytes": 36417,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_polysome_profiling/13JUL2021_polysome_profiling_logs/IH_13JUL2021_COMT_vector_validation_trial2_3A.csv",
+    "bytes": 36408,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_polysome_profiling/13JUL2021_polysome_profiling_logs/IH_13JUL2021_COMT_vector_validation_trial2_1C.csv",
+    "bytes": 36453,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_polysome_profiling/13JUL2021_polysome_profiling_logs/IH_13JUL2021_COMT_vector_validation_trial2_1B.csv",
+    "bytes": 36274,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_polysome_profiling/13JUL2021_polysome_profiling_logs/IH_13JUL2021_COMT_vector_validation_trial2_1A.csv",
+    "bytes": 36281,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_polysome_profiling/IH_12JUL2022_COMT_ROI_1_2_trial5/IH_12JUL2022_COMT_ROI_1_2_trial5_6.csv",
+    "bytes": 35697,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_polysome_profiling/IH_12JUL2022_COMT_ROI_1_2_trial5/IH_12JUL2022_COMT_ROI_1_2_trial5_4.csv",
+    "bytes": 35878,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_polysome_profiling/IH_12JUL2022_COMT_ROI_1_2_trial5/IH_12JUL2022_COMT_ROI_1_2_trial5_5.csv",
+    "bytes": 36386,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_polysome_profiling/IH_12JUL2022_COMT_ROI_1_2_trial5/IH_12JUL2022_COMT_ROI_1_2_trial5_1.csv",
+    "bytes": 36430,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_polysome_profiling/IH_12JUL2022_COMT_ROI_1_2_trial5/IH_12JUL2022_COMT_ROI_1_2_trial5_2.csv",
+    "bytes": 35740,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_polysome_profiling/IH_12JUL2022_COMT_ROI_1_2_trial5/IH_12JUL2022_COMT_ROI_1_2_trial5_3.csv",
+    "bytes": 35308,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_polysome_profiling/IH_29SEP2021_COMT_ROI_1_trial3/IH_29SEP2021_COMT_ROI1_trial3_6.csv",
+    "bytes": 35876,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_polysome_profiling/IH_29SEP2021_COMT_ROI_1_trial3/IH_29SEP2021_COMT_ROI1_trial3_5.csv",
+    "bytes": 35875,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_polysome_profiling/IH_29SEP2021_COMT_ROI_1_trial3/IH_29SEP2021_COMT_ROI1_trial3_4.csv",
+    "bytes": 35965,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_polysome_profiling/IH_29SEP2021_COMT_ROI_1_trial3/IH_29SEP2021_COMT_ROI1_trial3_1.csv",
+    "bytes": 35750,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_polysome_profiling/IH_29SEP2021_COMT_ROI_1_trial3/IH_29SEP2021_COMT_ROI1_trial3_3.csv",
+    "bytes": 35965,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_polysome_profiling/IH_29SEP2021_COMT_ROI_1_trial3/IH_29SEP2021_COMT_ROI1_trial3_2.csv",
+    "bytes": 35832,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_polysome_profiling/IH_15SEP2021_COMT_ROI_1_trial1/IH_15SEP2021_COMT_ROI1_3.csv",
+    "bytes": 35844,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_polysome_profiling/IH_15SEP2021_COMT_ROI_1_trial1/IH_15SEP2021_COMT_ROI1_2.csv",
+    "bytes": 35754,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_polysome_profiling/IH_15SEP2021_COMT_ROI_1_trial1/IH_15SEP2021_COMT_ROI1_1.csv",
+    "bytes": 35663,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_polysome_profiling/IH_15SEP2021_COMT_ROI_1_trial1/IH_15SEP2021_COMT_ROI1_5.csv",
+    "bytes": 35790,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_polysome_profiling/IH_15SEP2021_COMT_ROI_1_trial1/IH_15SEP2021_COMT_ROI1_4.csv",
+    "bytes": 35840,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_polysome_profiling/IH_15SEP2021_COMT_ROI_1_trial1/IH_15SEP2021_COMT_ROI1_6.csv",
+    "bytes": 36060,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_polysome_profiling/IH_07JUL2022_COMT_ROI_1_2_trial4/SR_IH_1_07JUL2022.csv",
+    "bytes": 36309,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_polysome_profiling/IH_07JUL2022_COMT_ROI_1_2_trial4/SR_IH_2_07JUL2022.csv",
+    "bytes": 36349,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_polysome_profiling/IH_07JUL2022_COMT_ROI_1_2_trial4/K562dCas9_Control_07JUL2022.csv",
+    "bytes": 36322,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_polysome_profiling/IH_07JUL2022_COMT_ROI_1_2_trial4/SR_IH_3_07JUL2022.csv",
+    "bytes": 36345,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_polysome_profiling/IH_07JUL2022_COMT_ROI_1_2_trial4/DLD_KD_07JUL2022.csv",
+    "bytes": 35406,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_polysome_profiling/IH_07JUL2022_COMT_ROI_1_2_trial4/SR_IH_4_07JUL2022.csv",
+    "bytes": 36342,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_polysome_profiling/16JUL2021_polysome_profiling_logs/IH_16JUL2021_LLP_COMT_vec_val_trial2_pp_trial2_3A.csv",
+    "bytes": 36844,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_polysome_profiling/16JUL2021_polysome_profiling_logs/IH_16JUL2021_LLP_COMT_vec_val_trial2_pp_trial2_3C.csv",
+    "bytes": 36678,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_polysome_profiling/16JUL2021_polysome_profiling_logs/IH_16JUL2021_LLP_COMT_vec_val_trial2_pp_trial2_3B.csv",
+    "bytes": 36211,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_polysome_profiling/16JUL2021_polysome_profiling_logs/IH_16JUL2021_LLP_COMT_vec_val_trial2_pp_trial2_1A.csv",
+    "bytes": 36896,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_polysome_profiling/16JUL2021_polysome_profiling_logs/IH_16JUL2021_LLP_COMT_vec_val_trial2_pp_trial2_1B.csv",
+    "bytes": 36796,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_polysome_profiling/16JUL2021_polysome_profiling_logs/IH_16JUL2021_LLP_COMT_vec_val_trial2_pp_trial2_1C.csv",
+    "bytes": 36820,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_polysome_profiling/IH_24SEP2021_COMT_ROI_1_trial2/IH_24SEP2021_COMT_ROI1_trial2_pp_4.csv",
+    "bytes": 36486,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_polysome_profiling/IH_24SEP2021_COMT_ROI_1_trial2/IH_24SEP2021_COMT_ROI1_trial2_pp_5.csv",
+    "bytes": 36077,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_polysome_profiling/IH_24SEP2021_COMT_ROI_1_trial2/IH_24SEP2021_COMT_ROI1_trial2_pp_6.csv",
+    "bytes": 36045,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_polysome_profiling/IH_24SEP2021_COMT_ROI_1_trial2/IH_24SEP2021_COMT_ROI1_trial2_pp_2.csv",
+    "bytes": 36371,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_polysome_profiling/IH_24SEP2021_COMT_ROI_1_trial2/IH_24SEP2021_COMT_ROI1_trial2_pp_3.csv",
+    "bytes": 36123,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_polysome_profiling/IH_24SEP2021_COMT_ROI_1_trial2/IH_24SEP2021_COMT_ROI1_trial2_pp_1.csv",
+    "bytes": 35771,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_03NOV2022/COMT_110_R.var.cand.vcf.summary.txt",
+    "bytes": 1416013,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_03NOV2022/COMT_106_R.var.cand.vcf.summary.txt",
+    "bytes": 1070576,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_03NOV2022/COMT_90_R.var.cand.vcf.summary.txt",
+    "bytes": 894208,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_03NOV2022/COMT_67_R.var.cand.vcf.summary.txt",
+    "bytes": 1484647,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_03NOV2022/COMT_86_R.var.cand.vcf.summary.txt",
+    "bytes": 965886,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_03NOV2022/COMT_111_R.var.cand.vcf.summary.filt.txt",
+    "bytes": 859356,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_03NOV2022/._.DS_Store",
+    "bytes": 120,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_03NOV2022/.DS_Store",
+    "bytes": 6148,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_03NOV2022/COMT_97_R.var.cand.vcf.summary.txt",
+    "bytes": 1496650,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_03NOV2022/COMT_101_R.var.cand.vcf.summary.txt",
+    "bytes": 1233726,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_03NOV2022/COMT_117_R.var.cand.vcf.summary.txt",
+    "bytes": 832434,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_03NOV2022/COMT_96_R.var.cand.vcf.summary.txt",
+    "bytes": 1395049,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_03NOV2022/COMT_100_R.var.cand.vcf.summary.txt",
+    "bytes": 1404249,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_03NOV2022/COMT_116_R.var.cand.vcf.summary.txt",
+    "bytes": 903468,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_03NOV2022/COMT_111_R.var.cand.vcf.summary.txt",
+    "bytes": 1145160,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_03NOV2022/COMT_107_R.var.cand.vcf.summary.txt",
+    "bytes": 1166657,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_03NOV2022/COMT_66_R.var.cand.vcf.summary.txt",
+    "bytes": 1294020,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_03NOV2022/COMT_91_R.var.cand.vcf.summary.txt",
+    "bytes": 1012240,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_03NOV2022/COMT_87_R.var.cand.vcf.summary.txt",
+    "bytes": 1104905,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_03NOV2022/COMT_94_R.var.cand.vcf.summary.txt",
+    "bytes": 1369537,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_03NOV2022/COMT_98_R.var.cand.vcf.summary.txt",
+    "bytes": 1080940,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_03NOV2022/COMT_63_R.var.cand.vcf.summary.txt",
+    "bytes": 1306121,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_03NOV2022/COMT_114_R.var.cand.vcf.summary.txt",
+    "bytes": 1563976,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_03NOV2022/COMT_118_R.var.cand.vcf.summary.txt",
+    "bytes": 1292809,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_03NOV2022/COMT_102_R.var.cand.vcf.summary.txt",
+    "bytes": 1129051,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_03NOV2022/COMT_105_R.var.cand.vcf.summary.txt",
+    "bytes": 1474672,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_03NOV2022/COMT_109_R.var.cand.vcf.summary.txt",
+    "bytes": 182506,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_03NOV2022/COMT_113_R.var.cand.vcf.summary.txt",
+    "bytes": 1422550,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_03NOV2022/COMT_89_R.var.cand.vcf.summary.txt",
+    "bytes": 1315140,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_03NOV2022/COMT_68_R.var.cand.vcf.summary.txt",
+    "bytes": 1647301,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_03NOV2022/COMT_64_R.var.cand.vcf.summary.txt",
+    "bytes": 1434845,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_03NOV2022/COMT_93_R.var.cand.vcf.summary.txt",
+    "bytes": 891615,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_03NOV2022/COMT_104_R.var.cand.vcf.summary.txt",
+    "bytes": 1441682,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_03NOV2022/COMT_108_R.var.cand.vcf.summary.txt",
+    "bytes": 172828,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_03NOV2022/COMT_112_R.var.cand.vcf.summary.txt",
+    "bytes": 1486125,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_03NOV2022/COMT_88_R.var.cand.vcf.summary.txt",
+    "bytes": 1438612,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_03NOV2022/COMT_92_R.var.cand.vcf.summary.txt",
+    "bytes": 1156048,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_03NOV2022/COMT_69_R.var.cand.vcf.summary.txt",
+    "bytes": 1743301,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_03NOV2022/sim",
+    "bytes": 0,
+    "type": "b'5'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_03NOV2022/COMT_65_R.var.cand.vcf.summary.txt",
+    "bytes": 1510683,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_03NOV2022/COMT_62_R.var.cand.vcf.summary.txt",
+    "bytes": 276828,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_03NOV2022/COMT_95_R.var.cand.vcf.summary.txt",
+    "bytes": 1434453,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_03NOV2022/COMT_99_R.var.cand.vcf.summary.txt",
+    "bytes": 982384,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_03NOV2022/COMT_115_R.var.cand.vcf.summary.txt",
+    "bytes": 1619947,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_03NOV2022/COMT_119_R.var.cand.vcf.summary.txt",
+    "bytes": 1137140,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_03NOV2022/COMT_110_R.var.cand.vcf.summary.filt.txt",
+    "bytes": 1201497,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_03NOV2022/COMT_103_R.var.cand.vcf.summary.txt",
+    "bytes": 1025498,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_03NOV2022/sim/COMT_108_train.truth.vcf",
+    "bytes": 17649,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_03NOV2022/sim/COMT_109_train.truth.vcf",
+    "bytes": 20292,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_03NOV2022/sim/COMT_108_train.var.cand.vcf.summary.txt",
+    "bytes": 242769,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_03NOV2022/sim/COMT_109_train.var.cand.vcf.summary.txt",
+    "bytes": 258580,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/UTR5_mutants/export_Flag_del_Tube_001_Q2 DsRed-H+ , GFP-H+.csv",
+    "bytes": 77311,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/UTR5_mutants/export_PCBP_del_Tube_001_Q2 DsRed-H+ , GFP-H+.csv",
+    "bytes": 132924,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/UTR5_mutants/export_uORF_B_mutant_Tube_001_Q2 DsRed-H+ , GFP-H+.csv",
+    "bytes": 60215,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/UTR5_mutants/export_uORF_A_mutant_Tube_001_Q2 DsRed-H+ , GFP-H+.csv",
+    "bytes": 41458,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/UTR5_mutants/export_uORF_B_restore_mutant_Tube_001_Q2 DsRed-H+ , GFP-H+.csv",
+    "bytes": 187306,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/UTR5_mutants/export_WT_Tube_001_Q2 DsRed-H+ , GFP-H+.csv",
+    "bytes": 64106,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_18FEB2023/COMT_129_R.var.cand.vcf.summary.txt",
+    "bytes": 2049685,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_18FEB2023/COMT_125_R.var.cand.vcf.summary.txt",
+    "bytes": 1486693,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_18FEB2023/COMT_133_R.var.cand.vcf.summary.txt",
+    "bytes": 1677214,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_18FEB2023/COMT_140_R.var.cand.vcf.summary.txt",
+    "bytes": 2455293,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_18FEB2023/._.DS_Store",
+    "bytes": 120,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_18FEB2023/.DS_Store",
+    "bytes": 6148,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_18FEB2023/COMT_138_R.var.cand.vcf.summary.txt",
+    "bytes": 1579471,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_18FEB2023/COMT_134_R.var.cand.vcf.summary.txt",
+    "bytes": 1426403,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_18FEB2023/COMT_122_R.var.cand.vcf.summary.txt",
+    "bytes": 1403589,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_18FEB2023/COMT_146_R.var.cand.vcf.summary.txt",
+    "bytes": 1093693,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_18FEB2023/COMT_139_R.var.cand.vcf.summary.txt",
+    "bytes": 820816,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_18FEB2023/COMT_135_R.var.cand.vcf.summary.txt",
+    "bytes": 1366191,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_18FEB2023/COMT_123_R.var.cand.vcf.summary.txt",
+    "bytes": 1365071,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_18FEB2023/COMT_128_R.var.cand.vcf.summary.txt",
+    "bytes": 1291608,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_18FEB2023/COMT_124_R.var.cand.vcf.summary.txt",
+    "bytes": 2385864,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_18FEB2023/COMT_132_R.var.cand.vcf.summary.txt",
+    "bytes": 2024189,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_18FEB2023/COMT_141_R.var.cand.vcf.summary.txt",
+    "bytes": 1237198,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_18FEB2023/COMT_144_R.var.cand.vcf.summary.txt",
+    "bytes": 850818,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_18FEB2023/COMT_121_R.var.cand.vcf.summary.txt",
+    "bytes": 2004663,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_18FEB2023/COMT_137_R.var.cand.vcf.summary.txt",
+    "bytes": 1257131,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_18FEB2023/COMT_130_R.var.cand.vcf.summary.txt",
+    "bytes": 1849023,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_18FEB2023/COMT_126_R.var.cand.vcf.summary.txt",
+    "bytes": 1321404,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_18FEB2023/COMT_143_R.var.cand.vcf.summary.txt",
+    "bytes": 827527,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_18FEB2023/COMT_131_R.var.cand.vcf.summary.txt",
+    "bytes": 1706546,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_18FEB2023/COMT_127_R.var.cand.vcf.summary.txt",
+    "bytes": 1286273,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_18FEB2023/COMT_142_R.var.cand.vcf.summary.txt",
+    "bytes": 1389262,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_18FEB2023/COMT_145_R.var.cand.vcf.summary.txt",
+    "bytes": 1048865,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_18FEB2023/COMT_120_R.var.cand.vcf.summary.txt",
+    "bytes": 1204551,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_18FEB2023/COMT_136_R.var.cand.vcf.summary.txt",
+    "bytes": 1245052,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/ESM1b/._COMT_ESM1b_P21964.csv",
+    "bytes": 865,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/ESM1b/COMT_ESM1b_P21964.csv",
+    "bytes": 89087,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/results/._.DS_Store",
+    "bytes": 120,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/results/.DS_Store",
+    "bytes": 6148,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/results/._gnomAD_results.txt",
+    "bytes": 219,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/results/gnomAD_results.txt",
+    "bytes": 5136,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/results/._IQLRs.txt",
+    "bytes": 377,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/results/IQLRs.txt",
+    "bytes": 438364,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/results/._comt_library_yields.txt",
+    "bytes": 188,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/results/comt_library_yields.txt",
+    "bytes": 2161,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/results/COMT_log10_freq.txt",
+    "bytes": 6280569,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/results/._COMT_log_freq.txt",
+    "bytes": 163,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/results/COMT_log_freq.txt",
+    "bytes": 6713605,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/DeMaSk/._dc59eaf2256a3e939635.txt",
+    "bytes": 212,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/DeMaSk/dc59eaf2256a3e939635.txt",
+    "bytes": 200615,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/TrIP_seq/._.DS_Store",
+    "bytes": 120,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/TrIP_seq/.DS_Store",
+    "bytes": 6148,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/TrIP_seq/GSE69352_tripseq_gene_tpm_ensembl_v75.csv",
+    "bytes": 5846259,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_FACS/export_Specimen_002_Wild type_002_Single Cells.csv",
+    "bytes": 238840,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_FACS/._.DS_Store",
+    "bytes": 120,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_FACS/.DS_Store",
+    "bytes": 6148,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_FACS/export_Specimen_002_unstained_001_Single Cells.csv",
+    "bytes": 227464,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_FACS/export_Specimen_002_ROI2_004_Single Cells.csv",
+    "bytes": 266595,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_FACS/._export_Specimen_002_ROI1_003_Single Cells.csv",
+    "bytes": 244,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_FACS/export_Specimen_002_ROI1_003_Single Cells.csv",
+    "bytes": 250030,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_02DEC2021/COMT_37_R.var.cand.vcf.summary.txt",
+    "bytes": 1595041,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_02DEC2021/COMT_21_R.var.cand.vcf.summary.txt",
+    "bytes": 1708861,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_02DEC2021/COMT_18_R.var.cand.vcf.summary.txt",
+    "bytes": 1073752,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_02DEC2021/COMT_14_R.var.cand.vcf.summary.txt",
+    "bytes": 1455404,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_02DEC2021/COMT_9_R.var.cand.vcf.summary.txt",
+    "bytes": 1362698,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_02DEC2021/COMT_5_R.var.cand.vcf.summary.txt",
+    "bytes": 1466126,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_02DEC2021/._.DS_Store",
+    "bytes": 120,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_02DEC2021/.DS_Store",
+    "bytes": 8196,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_02DEC2021/COMT_2_R.var.cand.vcf.summary.txt",
+    "bytes": 1325998,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_02DEC2021/COMT_13_R.var.cand.vcf.summary.txt",
+    "bytes": 1089572,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_02DEC2021/COMT_26_R.var.cand.vcf.summary.txt",
+    "bytes": 1682442,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_02DEC2021/COMT_30_R.var.cand.vcf.summary.txt",
+    "bytes": 1560816,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_02DEC2021/COMT_3_R.var.cand.vcf.summary.txt",
+    "bytes": 1467791,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_02DEC2021/COMT_27_R.var.cand.vcf.summary.txt",
+    "bytes": 994572,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_02DEC2021/COMT_12_R.var.cand.vcf.summary.txt",
+    "bytes": 1009004,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_02DEC2021/COMT_31_R.var.cand.vcf.summary.txt",
+    "bytes": 1544539,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_02DEC2021/COMT_36_R.var.cand.vcf.summary.txt",
+    "bytes": 1783145,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_02DEC2021/COMT_19_R.var.cand.vcf.summary.txt",
+    "bytes": 1518177,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_02DEC2021/COMT_15_R.var.cand.vcf.summary.txt",
+    "bytes": 1537517,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_02DEC2021/COMT_20_R.var.cand.vcf.summary.txt",
+    "bytes": 1750044,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_02DEC2021/COMT_8_R.var.cand.vcf.summary.txt",
+    "bytes": 1035692,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_02DEC2021/COMT_4_R.var.cand.vcf.summary.txt",
+    "bytes": 1499793,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_02DEC2021/COMT_1_R.var.cand.vcf.summary.txt",
+    "bytes": 1388948,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_02DEC2021/COMT_40_R.var.cand.vcf.summary.txt",
+    "bytes": 979904,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_02DEC2021/COMT_33_R.var.cand.vcf.summary.txt",
+    "bytes": 1095946,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_02DEC2021/COMT_25_R.var.cand.vcf.summary.txt",
+    "bytes": 1711447,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_02DEC2021/COMT_29_R.var.cand.vcf.summary.txt",
+    "bytes": 1490724,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_02DEC2021/COMT_10_R.var.cand.vcf.summary.txt",
+    "bytes": 1809902,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_02DEC2021/COMT_17_R.var.cand.vcf.summary.txt",
+    "bytes": 895016,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_02DEC2021/COMT_22_R.var.cand.vcf.summary.txt",
+    "bytes": 1009868,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_02DEC2021/COMT_34_R.var.cand.vcf.summary.txt",
+    "bytes": 1515580,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_02DEC2021/COMT_38_R.var.cand.vcf.summary.txt",
+    "bytes": 1711712,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_02DEC2021/COMT_6_R.var.cand.vcf.summary.txt",
+    "bytes": 1431077,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_02DEC2021/COMT_23_R.var.cand.vcf.summary.txt",
+    "bytes": 1043341,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_02DEC2021/COMT_16_R.var.cand.vcf.summary.txt",
+    "bytes": 1691409,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_02DEC2021/COMT_35_R.var.cand.vcf.summary.txt",
+    "bytes": 1639059,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_02DEC2021/COMT_39_R.var.cand.vcf.summary.txt",
+    "bytes": 1557628,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_02DEC2021/COMT_7_R.var.cand.vcf.summary.txt",
+    "bytes": 903295,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_02DEC2021/COMT_41_R.var.cand.vcf.summary.txt",
+    "bytes": 1534275,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_02DEC2021/COMT_32_R.var.cand.vcf.summary.txt",
+    "bytes": 1008292,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_02DEC2021/COMT_11_R.var.cand.vcf.summary.txt",
+    "bytes": 1701834,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_02DEC2021/COMT_24_R.var.cand.vcf.summary.txt",
+    "bytes": 1479859,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_02DEC2021/COMT_28_R.var.cand.vcf.summary.txt",
+    "bytes": 1063867,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/TFBS/._.DS_Store",
+    "bytes": 120,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/TFBS/.DS_Store",
+    "bytes": 6148,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/TFBS/._JASPAR_matrices",
+    "bytes": 413,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/TFBS/JASPAR_matrices",
+    "bytes": 283814,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/RNAsnp/._COMT_RNAsnp.fa",
+    "bytes": 176,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/RNAsnp/COMT_RNAsnp.fa",
+    "bytes": 945,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/RNAsnp/._.DS_Store",
+    "bytes": 120,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/RNAsnp/.DS_Store",
+    "bytes": 6148,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/RNAsnp/._COMT_RNAsnp_IDs.txt",
+    "bytes": 219,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/RNAsnp/COMT_RNAsnp_IDs.txt",
+    "bytes": 47496,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/RNAsnp/COMT_RNAsnp_results.txt",
+    "bytes": 255640,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/gnomAD/._.DS_Store",
+    "bytes": 120,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/gnomAD/.DS_Store",
+    "bytes": 6148,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/gnomAD/._gnomAD_v3.1.2_ENST00000361682_2022_07_26_17_02_01.csv",
+    "bytes": 451,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/gnomAD/gnomAD_v3.1.2_ENST00000361682_2022_07_26_17_02_01.csv",
+    "bytes": 111424,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/Twist_QC/._Final_Q-118856_P1_QC_Report.xlsx",
+    "bytes": 838,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/Twist_QC/Final_Q-118856_P1_QC_Report.xlsx",
+    "bytes": 60040,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/Twist_QC/._Final_Q-118856_P2_QC_Report.xlsx",
+    "bytes": 838,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/Twist_QC/Final_Q-118856_P2_QC_Report.xlsx",
+    "bytes": 55115,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_ribosome_profiling/._.DS_Store",
+    "bytes": 120,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_ribosome_profiling/.DS_Store",
+    "bytes": 6148,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_ribosome_profiling/20210607-conventional.ribo",
+    "bytes": 17733343,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_23MAR2023/COMT_163_R.var.cand.vcf.summary.txt",
+    "bytes": 2132829,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_23MAR2023/COMT_156_R.var.cand.vcf.summary.txt",
+    "bytes": 2167613,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_23MAR2023/COMT_151_R.var.cand.vcf.summary.txt",
+    "bytes": 2214960,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_23MAR2023/COMT_164_R.var.cand.vcf.summary.txt",
+    "bytes": 2137295,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_23MAR2023/COMT_168_R.var.cand.vcf.summary.txt",
+    "bytes": 2080420,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_23MAR2023/COMT_172_R.var.cand.vcf.summary.txt",
+    "bytes": 1884555,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_23MAR2023/COMT_165_R.var.cand.vcf.summary.txt",
+    "bytes": 350423,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_23MAR2023/COMT_169_R.var.cand.vcf.summary.txt",
+    "bytes": 769076,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_23MAR2023/COMT_150_R.var.cand.vcf.summary.txt",
+    "bytes": 1776824,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_23MAR2023/COMT_173_R.var.cand.vcf.summary.txt",
+    "bytes": 970134,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_23MAR2023/COMT_174_R.var.cand.vcf.summary.txt",
+    "bytes": 1353297,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_23MAR2023/COMT_157_R.var.cand.vcf.summary.txt",
+    "bytes": 904326,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_23MAR2023/COMT_162_R.var.cand.vcf.summary.txt",
+    "bytes": 1501052,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_23MAR2023/COMT_171_R.var.cand.vcf.summary.txt",
+    "bytes": 1727943,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_23MAR2023/COMT_167_R.var.cand.vcf.summary.txt",
+    "bytes": 2128042,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_23MAR2023/COMT_152_R.var.cand.vcf.summary.txt",
+    "bytes": 2058528,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_23MAR2023/COMT_159_R.var.cand.vcf.summary.txt",
+    "bytes": 1706465,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_23MAR2023/COMT_155_R.var.cand.vcf.summary.txt",
+    "bytes": 2162821,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_23MAR2023/COMT_160_R.var.cand.vcf.summary.txt",
+    "bytes": 1554039,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_23MAR2023/COMT_161_R.var.cand.vcf.summary.txt",
+    "bytes": 991092,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_23MAR2023/COMT_158_R.var.cand.vcf.summary.txt",
+    "bytes": 1325003,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_23MAR2023/COMT_154_R.var.cand.vcf.summary.txt",
+    "bytes": 1847353,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_23MAR2023/COMT_149_R.var.cand.vcf.summary.txt",
+    "bytes": 1528109,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_23MAR2023/COMT_170_R.var.cand.vcf.summary.txt",
+    "bytes": 1383045,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_23MAR2023/COMT_153_R.var.cand.vcf.summary.txt",
+    "bytes": 1167773,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/COMT_23MAR2023/COMT_166_R.var.cand.vcf.summary.txt",
+    "bytes": 1513404,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/RASP_files/._.DS_Store",
+    "bytes": 120,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/RASP_files/.DS_Store",
+    "bytes": 6148,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/RASP_files/DMS-seq_hg38_Nature_2014_DMS_vivo_both_score_fbl_vivo_score.COMT.bedgraph",
+    "bytes": 16409,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/RASP_files/DMS-seq_hg38_Nature_2014_DMS_vivo_both_score_K562_vivo_score.COMT.bedgraph",
+    "bytes": 19153,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/RASP_files/DMS-MaPseq_hg38_Nature_Methods_2017_DMS_invivo_score_both_score_DMSMapSeq_2017.score.COMT.bedgraph",
+    "bytes": 4971,
+    "type": "b'0'"
+  },
+  {
+    "path": "integrative_MAVEs_submit/RASP_files/DIM-2P-seq_hg38_Cell_2017_DMS_invivo_both_score_hg38_DMS_treated_diff.both.COMT.bedgraph",
+    "bytes": 3176,
+    "type": "b'0'"
+  }
+]
