@@ -1,0 +1,41 @@
+{
+  "id": "BIOLOGICAL_PRIORITIES_V1",
+  "supersedes_priority_not_evidence": "The previous five-route audit and all failures remain valid. The human instruction now prioritizes measured mRNA decay and mitochondrial ensemble remodeling; overlapping-code and score-theory work supports these questions rather than initiating competing large projects.",
+  "known_at_registration": [
+    "The three-state pilot failed and was saturated.",
+    "The identifiable Q3 design passed algebraic controls, but its first finite-conformer predictor has zero covered intervention predictions and no outcomes were evaluated.",
+    "The 2024 bacterial stability article describes a variable 5-prime UTR with a constant sfGFP CDS, not a designed synonymous CDS library.",
+    "The mitochondrial study reports WT and LRPPRC-deficient structural measurements; public GEO metadata lists two WT and two KO samples.",
+    "Published article-level conclusions are known. New analyses are public-data reanalyses, not newly performed prospective biological experiments."
+  ],
+  "direction1": {
+    "source": "10.1038/s41467-024-54059-7",
+    "hypothesis": "Degradation-region accessibility and structural competition improve prediction of measured log decay rates across held-out UTR design families beyond RppH terminal sequence, composition, translation-initiation features and the original model's relevant features.",
+    "eligibility": "Recover sequences, constant/variable part boundaries, design groups, count time courses, normalization, exclusions, replicate definitions, original split and code. Verify whether any actual CDS varies. If the CDS is constant, do not call UTR mutations synonymous and do not claim this source validates synonymous mutation effects.",
+    "primary_endpoint": "Natural log decay rate k when a positive finite k and prespecified kinetic-quality gate are supported. Half-life is ln(2)/k. No missing measurement is assigned low function.",
+    "inference_levels": ["Individual measured sequence decay prediction", "Within-background mutation-effect prediction if measured pairs exist", "Accessibility only within sufficiently covered measured neighborhoods, with missing vertices explicitly unknown"],
+    "baselines": ["Original model reproduced or retrained with group-correct cross-fitting", "Length and mono/dinucleotide composition", "RppH first-four-base additive and interaction models", "RBS/translation-initiation features", "Conventional folding and local-accessibility summaries"],
+    "validation": "Freeze sequence/design-family splits using sequence and metadata only before extracting held-out outcomes. Exclude target-derived features and original predictions trained on new holdout outcomes. Stack mRNA-level models only with cross-fitting inside each outer training fold. Random splits within related factorial families cannot establish family transfer.",
+    "cheap_pilot": "Metadata and sequence-only substrate audit first. Then a bounded discovery-family pilot only after a named endpoint/split freeze. No raw-read processing or whole-library folding before feasibility.",
+    "expansion": "Require usable measured endpoints, nontrivial independent family coverage, stronger-than-composition baselines, and incremental held-out performance with uncertainty. An entirely constant CDS closes the synonymous claim for this source but may leave a useful UTR decay question.",
+    "failure": "If context/replicate/split provenance prevents the intended inference, report the gap and choose the supported level. Do not reinterpret noncoding changes as synonymous or infer path absence from missing measurements."
+  },
+  "direction2": {
+    "source": "10.1126/science.adm9238; PMC11510358; GSE246523",
+    "hypothesis": "Condition-dependent initiation-region ensemble accessibility explains transcript-specific changes in RNA-normalized translation under LRPPRC deficiency beyond RNA abundance and simpler probing summaries.",
+    "eligibility": "Recover exact reference and processed transcript boundaries, polyadenylation assumptions, per-replicate DMS profiles, DREEM outputs and fitting scope, and compatible RNA/translation measurements with cell line and condition labels. Do not substitute a different system's translation outcome without stating the mismatch.",
+    "primary_endpoint": "A matched measured translation change adjusted for RNA abundance, or a precisely labeled proxy if only metabolic-label and abundance measurements are available. No endpoint is finalized before source audit establishes its definition.",
+    "mathematics_gate": "Audit NCBI vertebrate mitochondrial code 2 against the exact codon relations before transferring standard-code results. Preserve overlapping coding obligations. Treat initiation, incomplete stops/polyadenylation and processing separately. Native-condition validation precedes any synonymous-variant prediction.",
+    "baselines": ["RNA abundance alone", "Transcript-average and initiation-window DMS summaries", "Conventional probing-guided folding", "Unconstrained local accessibility", "Published native structural/translation interpretation"],
+    "validation": "Use transcript or bicistronic unit as the validation cluster, at most eleven transcript units, not windows as independent genes. Where feasible fit structural parameters on one replicate and predict the other; do not call fitted probing data validation. Any translation model must use leave-transcript/unit-out evaluation with very limited degrees of freedom.",
+    "cheap_pilot": "Recover the small processed GEO archive and sample metadata; audit usable A/C coverage and coordinate concordance without estimating translation effects. Run the code-2 truth-table audit. Fit no large ensemble model before these gates.",
+    "expansion": "Require compatible functional measurements, enough independent units for the stated model, a reproducible added signal beyond abundance/simple summaries, and sensitivity to transcript boundaries and assay protection. A native WT/KO signal does not validate unmeasured variants.",
+    "failure": "If matched translation or ensemble outputs are absent, retain a structural-remodeling analysis only and bound the claim. DMS protection may reflect protein binding rather than canonical pairing; cannot infer pathogenicity or mutant function."
+  },
+  "supporting_methods": {
+    "MERGE_RNA": "Evaluate the 2026 maximum-entropy model's assay likelihood, priors, fitting/holdout separation and identifiability before use. No inference of canonical pairs from low reactivity alone; no WT constraints imposed unchanged on unmeasured mutants as experimental evidence.",
+    "JAX_RNAfold": "Consider only after a validated native objective exists. No GPU optimization is launched in the eligibility phase. Codon-level constraints and independent discrete verification are mandatory for any later candidate."
+  },
+  "resources": "Small processed tables, metadata and finite code checks now. Secondary biological leads, raw-read pipelines, exhaustive full-length mutant folding, MERGE optimization and differentiable design are deferred until a recorded eligibility decision supports them.",
+  "next_gate": "Deliver two explicit eligibility decisions and choose the highest-value feasible pilot before expanding either primary direction."
+}
