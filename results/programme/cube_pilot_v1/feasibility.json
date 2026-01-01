@@ -1,0 +1,29 @@
+{
+  "prediction_sha256": "b5ea0adba93075203db409bc0c821ddebd0044f9ab4f6e6a120acf16f1248b19",
+  "stage": "Pre-validation predictor feasibility",
+  "summary": {
+    "development": {
+      "scaffolds": 12,
+      "landscapes": 36,
+      "predicted_positive_B_ge0005": 0,
+      "maximum_predicted_B": 0.0,
+      "maximum_absolute_predicted_D": 0.0,
+      "covered_intervention_contrasts": 0,
+      "outcomes_evaluated": 0
+    },
+    "heldout": {
+      "scaffolds": 12,
+      "landscapes": 36,
+      "predicted_positive_B_ge0005": 0,
+      "maximum_predicted_B": 5.551115123125783e-17,
+      "maximum_absolute_predicted_D": 0.0,
+      "covered_intervention_contrasts": 0,
+      "outcomes_evaluated": 0
+    }
+  },
+  "decision": "Stop this predictor/motif before partition-function outcomes. The predeclared development coverage gate is impossible because there are zero covered predictions; evaluating outcomes cannot alter that fact.",
+  "timing": "Adaptive early resource decision after predictor preparation, before any new partition functions. The gate itself was frozen before preparation.",
+  "outcome_claims": "No prediction accuracy, generalization, biological validation or intervention efficacy can be estimated from these unevaluated outcomes.",
+  "surviving_result": "The Q3 design identifies pairwise and third-order score departures. This does not ensure a particular predictor or motif yields barriers.",
+  "next_step": "Keep the computational holdout unopened. Investigate a nearest-neighbor-coupled codon architecture or a richer predictor under a new named protocol, with analytical coverage evidence before new outcomes. Do not tune on this holdout."
+}
