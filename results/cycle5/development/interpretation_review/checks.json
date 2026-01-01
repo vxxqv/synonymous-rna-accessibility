@@ -1,0 +1,155 @@
+{
+  "exposure_ledger": {
+    "newly_authorized": "All preserved DEVELOPMENT outcomes, exclusions, margins and prediction errors in the two summaries.",
+    "no_actions": [
+      "fitting",
+      "threshold/model change",
+      "new literature",
+      "manuscript edit",
+      "commit",
+      "publication",
+      "reserved execution"
+    ],
+    "not_opened": [
+      "raw phenotype ZIP",
+      "reserved missingness",
+      "reserved outcomes",
+      "reserved class balance"
+    ],
+    "prior_exposed": "Source Methods and published aggregates, source-limits reports, frozen protocol; historical seed-1 exclusion unchanged."
+  },
+  "independent_preserved_label_aggregations": {
+    "all_16_group_deletion_prediction_screens_failed": true,
+    "all_recorded_tolerance_flips_zero": true,
+    "component_point_bounds": {
+      "certified_joint_only_obstruction": 2,
+      "certified_jointly_connected": 20,
+      "certified_single_trait_disconnection": 2
+    },
+    "eligible_diagonals": 24,
+    "eligible_groups": [
+      "15",
+      "20",
+      "25",
+      "33",
+      "47",
+      "71",
+      "133",
+      "145",
+      "314",
+      "384"
+    ],
+    "mean_check_statuses": {
+      "compatible": 217,
+      "not_comparable_missing_replicates": 49
+    },
+    "named_scenario_local_counts": {
+      "clean.lin.prot.repFour|growth.R60one": {
+        "joint_only_obstruction": 4,
+        "jointly_connected": 18,
+        "single_trait_disconnection": 2
+      },
+      "clean.lin.prot.repFour|growth.R60three": {
+        "joint_only_obstruction": 2,
+        "jointly_connected": 21,
+        "single_trait_disconnection": 1
+      },
+      "clean.lin.prot.repFour|growth.R60two": {
+        "joint_only_obstruction": 3,
+        "jointly_connected": 18,
+        "single_trait_disconnection": 3
+      },
+      "clean.lin.prot.repOne|growth.R60one": {
+        "joint_only_obstruction": 4,
+        "jointly_connected": 16,
+        "single_trait_disconnection": 4
+      },
+      "clean.lin.prot.repOne|growth.R60three": {
+        "joint_only_obstruction": 2,
+        "jointly_connected": 19,
+        "single_trait_disconnection": 3
+      },
+      "clean.lin.prot.repOne|growth.R60two": {
+        "joint_only_obstruction": 3,
+        "jointly_connected": 17,
+        "single_trait_disconnection": 4
+      },
+      "clean.lin.prot.repThree|growth.R60one": {
+        "joint_only_obstruction": 4,
+        "jointly_connected": 17,
+        "single_trait_disconnection": 3
+      },
+      "clean.lin.prot.repThree|growth.R60three": {
+        "joint_only_obstruction": 1,
+        "jointly_connected": 21,
+        "single_trait_disconnection": 2
+      },
+      "clean.lin.prot.repThree|growth.R60two": {
+        "joint_only_obstruction": 3,
+        "jointly_connected": 17,
+        "single_trait_disconnection": 4
+      },
+      "clean.lin.prot.repTwo|growth.R60one": {
+        "joint_only_obstruction": 5,
+        "jointly_connected": 17,
+        "single_trait_disconnection": 2
+      },
+      "clean.lin.prot.repTwo|growth.R60three": {
+        "joint_only_obstruction": 2,
+        "jointly_connected": 21,
+        "single_trait_disconnection": 1
+      },
+      "clean.lin.prot.repTwo|growth.R60two": {
+        "joint_only_obstruction": 3,
+        "jointly_connected": 18,
+        "single_trait_disconnection": 3
+      }
+    },
+    "prediction_statuses": {
+      "excluded_shared_corner_mask": 1,
+      "missing_known_replicates": 11,
+      "scored": 11
+    },
+    "primary_labels": {
+      "joint_only_obstruction": 2,
+      "jointly_connected": 20,
+      "single_trait_disconnection": 2
+    },
+    "range_statuses": {
+      "certified_jointly_connected": 19,
+      "certified_single_trait_disconnection": 1,
+      "inconclusive": 4
+    },
+    "series_consistent_diagonals": 1,
+    "target_and_case_balanced_summary_identity": true
+  },
+  "review_limits": [
+    "Separately authored with inherited context, not external/blinded review.",
+    "Aggregates preserved records; does not reconstruct assay source or calibrated uncertainty.",
+    "The reviewer previously authored the independently reviewed supplemental helper."
+  ],
+  "source_inventory": {
+    "diagnostics": {
+      "bytes": 1754258,
+      "path": "outputs/synonymous-rna-accessibility/results/cycle5/development/diagnostics/diagnostics.json",
+      "sha256": "c5a311f6470481ca6c0de474d7e80fdd348e100334822def01e2a342655f66db"
+    },
+    "evaluation": {
+      "bytes": 1314670,
+      "path": "outputs/synonymous-rna-accessibility/results/cycle5/development/evaluation/evaluation.json",
+      "sha256": "756ff513c7c4f628110b07de19c0608ef5b1854da548b0227bca44db75e8f8fa"
+    },
+    "measurement_limits": {
+      "bytes": 15299,
+      "path": "work/joint_function_cycle5/measurement_limits/report.md",
+      "sha256": "1171ef7242e299214c8449ee0222b5f50f1a982bdb73b1b36169aab77d7d3740"
+    },
+    "protocol": {
+      "bytes": 31302,
+      "path": "outputs/synonymous-rna-accessibility/analysis/cycle5/cambray_pilot/protocol_v1.md",
+      "sha256": "0f51ccc808559ea69df3bdf294520d81babb67bf14ca92ce2abb6fcc665760ac"
+    }
+  },
+  "status": "development_only_interpretation_review_complete",
+  "verdict": "Unchanged reserved descriptive question remains useful subject to root decision and report freeze."
+}

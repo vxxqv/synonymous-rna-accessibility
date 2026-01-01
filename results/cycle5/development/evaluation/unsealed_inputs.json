@@ -1,0 +1,6272 @@
+{
+  "arm": "development",
+  "reader": {
+    "decoded_fields": [
+      "clean.lin.prot.repOne",
+      "clean.lin.prot.repTwo",
+      "clean.lin.prot.repThree",
+      "clean.lin.prot.repFour",
+      "growth.R60one",
+      "growth.R60two",
+      "growth.R60three",
+      "clean.lin.prot.mean",
+      "growth.mean.R60"
+    ],
+    "other_row_phenotype_values_decoded": 0,
+    "selected_records": 133,
+    "source_records": 244000
+  },
+  "rows": {
+    "133_32211121_1": {
+      "clean.lin.prot.mean": {
+        "missing_reason": null,
+        "raw": "59.3355916416424",
+        "value": 59.3355916416424
+      },
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "59.634466827401",
+        "value": 59.634466827401
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "57.964510453593",
+        "value": 57.964510453593
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "61.178379978142",
+        "value": 61.178379978142
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "58.5650093074336",
+        "value": 58.5650093074336
+      },
+      "growth.R60one": {
+        "missing_reason": null,
+        "raw": "0.99102196091778",
+        "value": 0.99102196091778
+      },
+      "growth.R60three": {
+        "missing_reason": null,
+        "raw": "0.995617857775098",
+        "value": 0.995617857775098
+      },
+      "growth.R60two": {
+        "missing_reason": null,
+        "raw": "0.986682854890071",
+        "value": 0.986682854890071
+      },
+      "growth.mean.R60": {
+        "missing_reason": null,
+        "raw": "0.991107557860983",
+        "value": 0.991107557860983
+      }
+    },
+    "133_32211121_2": {
+      "clean.lin.prot.mean": {
+        "missing_reason": null,
+        "raw": "53.6011790374369",
+        "value": 53.6011790374369
+      },
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "54.8653777447445",
+        "value": 54.8653777447445
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "53.864085775663",
+        "value": 53.864085775663
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "51.8670533843882",
+        "value": 51.8670533843882
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "53.808199244952",
+        "value": 53.808199244952
+      },
+      "growth.R60one": {
+        "missing_reason": null,
+        "raw": "1.00522171665262",
+        "value": 1.00522171665262
+      },
+      "growth.R60three": {
+        "missing_reason": null,
+        "raw": "1.00189178006103",
+        "value": 1.00189178006103
+      },
+      "growth.R60two": {
+        "missing_reason": null,
+        "raw": "1.00334351846288",
+        "value": 1.00334351846288
+      },
+      "growth.mean.R60": {
+        "missing_reason": null,
+        "raw": "1.00348567172551",
+        "value": 1.00348567172551
+      }
+    },
+    "133_33211221_1": {
+      "clean.lin.prot.mean": {
+        "missing_reason": null,
+        "raw": "60.5229586714572",
+        "value": 60.5229586714572
+      },
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "60.2554105382171",
+        "value": 60.2554105382171
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "62.4670846687947",
+        "value": 62.4670846687947
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "60.5462726226202",
+        "value": 60.5462726226202
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "58.8230668561968",
+        "value": 58.8230668561968
+      },
+      "growth.R60one": {
+        "missing_reason": null,
+        "raw": "1.00728055963404",
+        "value": 1.00728055963404
+      },
+      "growth.R60three": {
+        "missing_reason": null,
+        "raw": "0.995676629521366",
+        "value": 0.995676629521366
+      },
+      "growth.R60two": {
+        "missing_reason": null,
+        "raw": "1.01090517996779",
+        "value": 1.01090517996779
+      },
+      "growth.mean.R60": {
+        "missing_reason": null,
+        "raw": "1.00462078970773",
+        "value": 1.00462078970773
+      }
+    },
+    "133_33211221_2": {
+      "clean.lin.prot.mean": {
+        "missing_reason": null,
+        "raw": "55.9727188100937",
+        "value": 55.9727188100937
+      },
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "56.8321157838479",
+        "value": 56.8321157838479
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "55.822158733994",
+        "value": 55.822158733994
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "55.9410763577102",
+        "value": 55.9410763577102
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "55.2955243648228",
+        "value": 55.2955243648228
+      },
+      "growth.R60one": {
+        "missing_reason": null,
+        "raw": "1.02133621143081",
+        "value": 1.02133621143081
+      },
+      "growth.R60three": {
+        "missing_reason": null,
+        "raw": "1.01067903053131",
+        "value": 1.01067903053131
+      },
+      "growth.R60two": {
+        "missing_reason": null,
+        "raw": "0.997389663659555",
+        "value": 0.997389663659555
+      },
+      "growth.mean.R60": {
+        "missing_reason": null,
+        "raw": "1.00980163520723",
+        "value": 1.00980163520723
+      }
+    },
+    "145_21322121_1": {
+      "clean.lin.prot.mean": {
+        "missing_reason": null,
+        "raw": "30.5957850894204",
+        "value": 30.5957850894204
+      },
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "30.6490364137908",
+        "value": 30.6490364137908
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "30.2972125533655",
+        "value": 30.2972125533655
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "32.5477347624037",
+        "value": 32.5477347624037
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "28.8891566281217",
+        "value": 28.8891566281217
+      },
+      "growth.R60one": {
+        "missing_reason": null,
+        "raw": "0.92639590153017",
+        "value": 0.92639590153017
+      },
+      "growth.R60three": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "growth.R60two": {
+        "missing_reason": null,
+        "raw": "0.92639590153017",
+        "value": 0.92639590153017
+      },
+      "growth.mean.R60": {
+        "missing_reason": null,
+        "raw": "0.92639590153017",
+        "value": 0.92639590153017
+      }
+    },
+    "145_21322121_2": {
+      "clean.lin.prot.mean": {
+        "missing_reason": null,
+        "raw": "31.0833424201082",
+        "value": 31.0833424201082
+      },
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "29.5858963654105",
+        "value": 29.5858963654105
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "32.1293563509877",
+        "value": 32.1293563509877
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "31.5710844907664",
+        "value": 31.5710844907664
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "31.0470324732681",
+        "value": 31.0470324732681
+      },
+      "growth.R60one": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "growth.R60three": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "growth.R60two": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "growth.mean.R60": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      }
+    },
+    "145_23221223_1": {
+      "clean.lin.prot.mean": {
+        "missing_reason": null,
+        "raw": "85.1464291940187",
+        "value": 85.1464291940187
+      },
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "87.5978153077932",
+        "value": 87.5978153077932
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "82.6655795265447",
+        "value": 82.6655795265447
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "85.9037191069422",
+        "value": 85.9037191069422
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "84.4186028347948",
+        "value": 84.4186028347948
+      },
+      "growth.R60one": {
+        "missing_reason": null,
+        "raw": "0.931455243248724",
+        "value": 0.931455243248724
+      },
+      "growth.R60three": {
+        "missing_reason": null,
+        "raw": "0.915479553620505",
+        "value": 0.915479553620505
+      },
+      "growth.R60two": {
+        "missing_reason": null,
+        "raw": "0.923467398434614",
+        "value": 0.923467398434614
+      },
+      "growth.mean.R60": {
+        "missing_reason": null,
+        "raw": "0.923467398434614",
+        "value": 0.923467398434614
+      }
+    },
+    "145_23312121_1": {
+      "clean.lin.prot.mean": {
+        "missing_reason": null,
+        "raw": "44.1573835292886",
+        "value": 44.1573835292886
+      },
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "44.1573835292886",
+        "value": 44.1573835292886
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "growth.R60one": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "growth.R60three": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "growth.R60two": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "growth.mean.R60": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      }
+    },
+    "145_23322121_1": {
+      "clean.lin.prot.mean": {
+        "missing_reason": null,
+        "raw": "43.3767661852619",
+        "value": 43.3767661852619
+      },
+      "clean.lin.prot.repFour": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "43.3767661852619",
+        "value": 43.3767661852619
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "growth.R60one": {
+        "missing_reason": null,
+        "raw": "0.915320886663329",
+        "value": 0.915320886663329
+      },
+      "growth.R60three": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "growth.R60two": {
+        "missing_reason": null,
+        "raw": "0.915320886663329",
+        "value": 0.915320886663329
+      },
+      "growth.mean.R60": {
+        "missing_reason": null,
+        "raw": "0.915320886663329",
+        "value": 0.915320886663329
+      }
+    },
+    "145_23322121_3": {
+      "clean.lin.prot.mean": {
+        "missing_reason": null,
+        "raw": "41.410519221134",
+        "value": 41.410519221134
+      },
+      "clean.lin.prot.repFour": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "47.7946087543168",
+        "value": 47.7946087543168
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "35.0264296879511",
+        "value": 35.0264296879511
+      },
+      "growth.R60one": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "growth.R60three": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "growth.R60two": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "growth.mean.R60": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      }
+    },
+    "145_31221213_1": {
+      "clean.lin.prot.mean": {
+        "missing_reason": null,
+        "raw": "27.2651470897636",
+        "value": 27.2651470897636
+      },
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "28.2122368743571",
+        "value": 28.2122368743571
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "25.9557000376436",
+        "value": 25.9557000376436
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "25.4849037939776",
+        "value": 25.4849037939776
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "29.4077476530761",
+        "value": 29.4077476530761
+      },
+      "growth.R60one": {
+        "missing_reason": null,
+        "raw": "0.94206722159547",
+        "value": 0.94206722159547
+      },
+      "growth.R60three": {
+        "missing_reason": null,
+        "raw": "0.920033051805188",
+        "value": 0.920033051805188
+      },
+      "growth.R60two": {
+        "missing_reason": null,
+        "raw": "0.940916210100405",
+        "value": 0.940916210100405
+      },
+      "growth.mean.R60": {
+        "missing_reason": null,
+        "raw": "0.934338827833687",
+        "value": 0.934338827833687
+      }
+    },
+    "145_31312121_1": {
+      "clean.lin.prot.mean": {
+        "missing_reason": null,
+        "raw": "30.4170573726979",
+        "value": 30.4170573726979
+      },
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "30.5758673130574",
+        "value": 30.5758673130574
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "29.4782702161486",
+        "value": 29.4782702161486
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "31.2700072592084",
+        "value": 31.2700072592084
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "30.3440847023772",
+        "value": 30.3440847023772
+      },
+      "growth.R60one": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "growth.R60three": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "growth.R60two": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "growth.mean.R60": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      }
+    },
+    "145_32221123_1": {
+      "clean.lin.prot.mean": {
+        "missing_reason": null,
+        "raw": "53.0213578553664",
+        "value": 53.0213578553664
+      },
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "52.6906909798263",
+        "value": 52.6906909798263
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "53.9845088753166",
+        "value": 53.9845088753166
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "50.6343622581943",
+        "value": 50.6343622581943
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "54.7758693081283",
+        "value": 54.7758693081283
+      },
+      "growth.R60one": {
+        "missing_reason": null,
+        "raw": "0.985606927537822",
+        "value": 0.985606927537822
+      },
+      "growth.R60three": {
+        "missing_reason": null,
+        "raw": "0.993229315498218",
+        "value": 0.993229315498218
+      },
+      "growth.R60two": {
+        "missing_reason": null,
+        "raw": "0.994126171526478",
+        "value": 0.994126171526478
+      },
+      "growth.mean.R60": {
+        "missing_reason": null,
+        "raw": "0.99098747152084",
+        "value": 0.99098747152084
+      }
+    },
+    "145_32221123_3": {
+      "clean.lin.prot.mean": {
+        "missing_reason": null,
+        "raw": "52.1846194306403",
+        "value": 52.1846194306403
+      },
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "48.9304381902881",
+        "value": 48.9304381902881
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "51.5585457628319",
+        "value": 51.5585457628319
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "53.9601784529934",
+        "value": 53.9601784529934
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "54.2893153164477",
+        "value": 54.2893153164477
+      },
+      "growth.R60one": {
+        "missing_reason": null,
+        "raw": "0.994208930005674",
+        "value": 0.994208930005674
+      },
+      "growth.R60three": {
+        "missing_reason": null,
+        "raw": "0.987506790270011",
+        "value": 0.987506790270011
+      },
+      "growth.R60two": {
+        "missing_reason": null,
+        "raw": "0.979801945879274",
+        "value": 0.979801945879274
+      },
+      "growth.mean.R60": {
+        "missing_reason": null,
+        "raw": "0.987172555384986",
+        "value": 0.987172555384986
+      }
+    },
+    "145_32221223_1": {
+      "clean.lin.prot.mean": {
+        "missing_reason": null,
+        "raw": "49.5022149350531",
+        "value": 49.5022149350531
+      },
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "49.5627267745441",
+        "value": 49.5627267745441
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "48.8739531951303",
+        "value": 48.8739531951303
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "48.1170771484149",
+        "value": 48.1170771484149
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "51.4551026221233",
+        "value": 51.4551026221233
+      },
+      "growth.R60one": {
+        "missing_reason": null,
+        "raw": "1.09623776531957",
+        "value": 1.09623776531957
+      },
+      "growth.R60three": {
+        "missing_reason": null,
+        "raw": "1.12297881922193",
+        "value": 1.12297881922193
+      },
+      "growth.R60two": {
+        "missing_reason": null,
+        "raw": "1.12717526095287",
+        "value": 1.12717526095287
+      },
+      "growth.mean.R60": {
+        "missing_reason": null,
+        "raw": "1.11546394849812",
+        "value": 1.11546394849812
+      }
+    },
+    "145_32312121_1": {
+      "clean.lin.prot.mean": {
+        "missing_reason": null,
+        "raw": "26.3123698918712",
+        "value": 26.3123698918712
+      },
+      "clean.lin.prot.repFour": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "31.00340313263",
+        "value": 31.00340313263
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "21.6213366511124",
+        "value": 21.6213366511124
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "growth.R60one": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "growth.R60three": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "growth.R60two": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "growth.mean.R60": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      }
+    },
+    "145_33221123_1": {
+      "clean.lin.prot.mean": {
+        "missing_reason": null,
+        "raw": "89.2679039488304",
+        "value": 89.2679039488304
+      },
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "87.2295900795939",
+        "value": 87.2295900795939
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "91.8898692858476",
+        "value": 91.8898692858476
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "90.6916029511234",
+        "value": 90.6916029511234
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "87.2605534787567",
+        "value": 87.2605534787567
+      },
+      "growth.R60one": {
+        "missing_reason": null,
+        "raw": "0.909709610376591",
+        "value": 0.909709610376591
+      },
+      "growth.R60three": {
+        "missing_reason": null,
+        "raw": "0.930010784718492",
+        "value": 0.930010784718492
+      },
+      "growth.R60two": {
+        "missing_reason": null,
+        "raw": "0.919860197547541",
+        "value": 0.919860197547541
+      },
+      "growth.mean.R60": {
+        "missing_reason": null,
+        "raw": "0.919860197547541",
+        "value": 0.919860197547541
+      }
+    },
+    "145_33312121_1": {
+      "clean.lin.prot.mean": {
+        "missing_reason": null,
+        "raw": "1",
+        "value": 1.0
+      },
+      "clean.lin.prot.repFour": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "1",
+        "value": 1.0
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "1",
+        "value": 1.0
+      },
+      "growth.R60one": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "growth.R60three": {
+        "missing_reason": null,
+        "raw": "0.928783085419768",
+        "value": 0.928783085419768
+      },
+      "growth.R60two": {
+        "missing_reason": null,
+        "raw": "0.928783085419768",
+        "value": 0.928783085419768
+      },
+      "growth.mean.R60": {
+        "missing_reason": null,
+        "raw": "0.928783085419768",
+        "value": 0.928783085419768
+      }
+    },
+    "15_11131111_1": {
+      "clean.lin.prot.mean": {
+        "missing_reason": null,
+        "raw": "74.5048268348281",
+        "value": 74.5048268348281
+      },
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "78.947536474367",
+        "value": 78.947536474367
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "71.6798074277948",
+        "value": 71.6798074277948
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "75.6066981028788",
+        "value": 75.6066981028788
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "71.7852653342717",
+        "value": 71.7852653342717
+      },
+      "growth.R60one": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "growth.R60three": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "growth.R60two": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "growth.mean.R60": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      }
+    },
+    "15_11131121_1": {
+      "clean.lin.prot.mean": {
+        "missing_reason": null,
+        "raw": "71.3698553763458",
+        "value": 71.3698553763458
+      },
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "73.8260826839471",
+        "value": 73.8260826839471
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "71.1002833572896",
+        "value": 71.1002833572896
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "69.2701967170557",
+        "value": 69.2701967170557
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "71.2828587470908",
+        "value": 71.2828587470908
+      },
+      "growth.R60one": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "growth.R60three": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "growth.R60two": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "growth.mean.R60": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      }
+    },
+    "15_12131111_1": {
+      "clean.lin.prot.mean": {
+        "missing_reason": null,
+        "raw": "71.1014853159718",
+        "value": 71.1014853159718
+      },
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "70.9422150514154",
+        "value": 70.9422150514154
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "73.6121230142348",
+        "value": 73.6121230142348
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "72.3750147377235",
+        "value": 72.3750147377235
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "67.4765884605137",
+        "value": 67.4765884605137
+      },
+      "growth.R60one": {
+        "missing_reason": null,
+        "raw": "0.95429631683732",
+        "value": 0.95429631683732
+      },
+      "growth.R60three": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "growth.R60two": {
+        "missing_reason": null,
+        "raw": "0.95429631683732",
+        "value": 0.95429631683732
+      },
+      "growth.mean.R60": {
+        "missing_reason": null,
+        "raw": "0.95429631683732",
+        "value": 0.95429631683732
+      }
+    },
+    "15_12131111_2": {
+      "clean.lin.prot.mean": {
+        "missing_reason": null,
+        "raw": "72.5992250565348",
+        "value": 72.5992250565348
+      },
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "70.7894998447078",
+        "value": 70.7894998447078
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "73.331960690919",
+        "value": 73.331960690919
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "74.8380909149449",
+        "value": 74.8380909149449
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "71.4373487755673",
+        "value": 71.4373487755673
+      },
+      "growth.R60one": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "growth.R60three": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "growth.R60two": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "growth.mean.R60": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      }
+    },
+    "15_12231121_1": {
+      "clean.lin.prot.mean": {
+        "missing_reason": null,
+        "raw": "74.3672221536933",
+        "value": 74.3672221536933
+      },
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "78.947536474367",
+        "value": 78.947536474367
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "70.8288433640461",
+        "value": 70.8288433640461
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "71.0564437565637",
+        "value": 71.0564437565637
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "76.6360650197962",
+        "value": 76.6360650197962
+      },
+      "growth.R60one": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "growth.R60three": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "growth.R60two": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "growth.mean.R60": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      }
+    },
+    "15_22231112_1": {
+      "clean.lin.prot.mean": {
+        "missing_reason": null,
+        "raw": "21.2416823601819",
+        "value": 21.2416823601819
+      },
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "20.553998686474",
+        "value": 20.553998686474
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "21.1039220166619",
+        "value": 21.1039220166619
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "22.1841516857079",
+        "value": 22.1841516857079
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "21.1246570518837",
+        "value": 21.1246570518837
+      },
+      "growth.R60one": {
+        "missing_reason": null,
+        "raw": "0.997927487811996",
+        "value": 0.997927487811996
+      },
+      "growth.R60three": {
+        "missing_reason": null,
+        "raw": "1.00239720279557",
+        "value": 1.00239720279557
+      },
+      "growth.R60two": {
+        "missing_reason": null,
+        "raw": "1.00348925341535",
+        "value": 1.00348925341535
+      },
+      "growth.mean.R60": {
+        "missing_reason": null,
+        "raw": "1.00127131467431",
+        "value": 1.00127131467431
+      }
+    },
+    "15_22232112_1": {
+      "clean.lin.prot.mean": {
+        "missing_reason": null,
+        "raw": "36.0984611801638",
+        "value": 36.0984611801638
+      },
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "36.7274402272189",
+        "value": 36.7274402272189
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "36.5053575478929",
+        "value": 36.5053575478929
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "36.607805411965",
+        "value": 36.607805411965
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "34.5532415335785",
+        "value": 34.5532415335785
+      },
+      "growth.R60one": {
+        "missing_reason": null,
+        "raw": "1.0869796010337",
+        "value": 1.0869796010337
+      },
+      "growth.R60three": {
+        "missing_reason": null,
+        "raw": "1.09420883950105",
+        "value": 1.09420883950105
+      },
+      "growth.R60two": {
+        "missing_reason": null,
+        "raw": "1.09799093847307",
+        "value": 1.09799093847307
+      },
+      "growth.mean.R60": {
+        "missing_reason": null,
+        "raw": "1.0930597930026",
+        "value": 1.0930597930026
+      }
+    },
+    "15_22232112_2": {
+      "clean.lin.prot.mean": {
+        "missing_reason": null,
+        "raw": "39.0472731146801",
+        "value": 39.0472731146801
+      },
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "39.5895508375543",
+        "value": 39.5895508375543
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "40.6239819474865",
+        "value": 40.6239819474865
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "36.393066439736",
+        "value": 36.393066439736
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "39.5824932339435",
+        "value": 39.5824932339435
+      },
+      "growth.R60one": {
+        "missing_reason": null,
+        "raw": "1.08524454196836",
+        "value": 1.08524454196836
+      },
+      "growth.R60three": {
+        "missing_reason": null,
+        "raw": "1.08931360088353",
+        "value": 1.08931360088353
+      },
+      "growth.R60two": {
+        "missing_reason": null,
+        "raw": "1.08998465549475",
+        "value": 1.08998465549475
+      },
+      "growth.mean.R60": {
+        "missing_reason": null,
+        "raw": "1.08818093278221",
+        "value": 1.08818093278221
+      }
+    },
+    "15_22331122_1": {
+      "clean.lin.prot.mean": {
+        "missing_reason": null,
+        "raw": "45.5692024664181",
+        "value": 45.5692024664181
+      },
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "44.1573835292886",
+        "value": 44.1573835292886
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "46.0803340383151",
+        "value": 46.0803340383151
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "51.2042601903775",
+        "value": 51.2042601903775
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "40.8348321076914",
+        "value": 40.8348321076914
+      },
+      "growth.R60one": {
+        "missing_reason": null,
+        "raw": "1.09298677374527",
+        "value": 1.09298677374527
+      },
+      "growth.R60three": {
+        "missing_reason": null,
+        "raw": "1.10123310395732",
+        "value": 1.10123310395732
+      },
+      "growth.R60two": {
+        "missing_reason": null,
+        "raw": "1.0978875177096",
+        "value": 1.0978875177096
+      },
+      "growth.mean.R60": {
+        "missing_reason": null,
+        "raw": "1.09736913180407",
+        "value": 1.09736913180407
+      }
+    },
+    "15_22331122_2": {
+      "clean.lin.prot.mean": {
+        "missing_reason": null,
+        "raw": "46.6859439828439",
+        "value": 46.6859439828439
+      },
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "45.2909256326654",
+        "value": 45.2909256326654
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "46.4729595296999",
+        "value": 46.4729595296999
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "51.9828711089743",
+        "value": 51.9828711089743
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "42.9970196600359",
+        "value": 42.9970196600359
+      },
+      "growth.R60one": {
+        "missing_reason": null,
+        "raw": "1.09393405827754",
+        "value": 1.09393405827754
+      },
+      "growth.R60three": {
+        "missing_reason": null,
+        "raw": "1.10148156050862",
+        "value": 1.10148156050862
+      },
+      "growth.R60two": {
+        "missing_reason": null,
+        "raw": "1.09424949428045",
+        "value": 1.09424949428045
+      },
+      "growth.mean.R60": {
+        "missing_reason": null,
+        "raw": "1.09655503768887",
+        "value": 1.09655503768887
+      }
+    },
+    "15_22331222_1": {
+      "clean.lin.prot.mean": {
+        "missing_reason": null,
+        "raw": "34.7422427739381",
+        "value": 34.7422427739381
+      },
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "34.8471025094572",
+        "value": 34.8471025094572
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "36.6120093732702",
+        "value": 36.6120093732702
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "33.8488567631271",
+        "value": 33.8488567631271
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "33.6610024498977",
+        "value": 33.6610024498977
+      },
+      "growth.R60one": {
+        "missing_reason": null,
+        "raw": "1.05961072497986",
+        "value": 1.05961072497986
+      },
+      "growth.R60three": {
+        "missing_reason": null,
+        "raw": "1.05702495400979",
+        "value": 1.05702495400979
+      },
+      "growth.R60two": {
+        "missing_reason": null,
+        "raw": "1.06271025230847",
+        "value": 1.06271025230847
+      },
+      "growth.mean.R60": {
+        "missing_reason": null,
+        "raw": "1.05978197709937",
+        "value": 1.05978197709937
+      }
+    },
+    "15_32232112_1": {
+      "clean.lin.prot.mean": {
+        "missing_reason": null,
+        "raw": "35.8135212957557",
+        "value": 35.8135212957557
+      },
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "35.3617026229072",
+        "value": 35.3617026229072
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "35.9488464204258",
+        "value": 35.9488464204258
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "37.4930225926399",
+        "value": 37.4930225926399
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "34.45051354705",
+        "value": 34.45051354705
+      },
+      "growth.R60one": {
+        "missing_reason": null,
+        "raw": "1.09938834944335",
+        "value": 1.09938834944335
+      },
+      "growth.R60three": {
+        "missing_reason": null,
+        "raw": "1.1026126611219",
+        "value": 1.1026126611219
+      },
+      "growth.R60two": {
+        "missing_reason": null,
+        "raw": "1.10801481736562",
+        "value": 1.10801481736562
+      },
+      "growth.mean.R60": {
+        "missing_reason": null,
+        "raw": "1.10333860931029",
+        "value": 1.10333860931029
+      }
+    },
+    "15_32232112_3": {
+      "clean.lin.prot.mean": {
+        "missing_reason": null,
+        "raw": "49.9787083169607",
+        "value": 49.9787083169607
+      },
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "49.7005952781818",
+        "value": 49.7005952781818
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "50.1582606876495",
+        "value": 50.1582606876495
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "52.3317016554572",
+        "value": 52.3317016554572
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "47.7242756465545",
+        "value": 47.7242756465545
+      },
+      "growth.R60one": {
+        "missing_reason": null,
+        "raw": "1.03968187888876",
+        "value": 1.03968187888876
+      },
+      "growth.R60three": {
+        "missing_reason": null,
+        "raw": "1.04061220445374",
+        "value": 1.04061220445374
+      },
+      "growth.R60two": {
+        "missing_reason": null,
+        "raw": "1.04691484633999",
+        "value": 1.04691484633999
+      },
+      "growth.mean.R60": {
+        "missing_reason": null,
+        "raw": "1.04240297656083",
+        "value": 1.04240297656083
+      }
+    },
+    "15_32331112_1": {
+      "clean.lin.prot.mean": {
+        "missing_reason": null,
+        "raw": "64.4843347449238",
+        "value": 64.4843347449238
+      },
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "73.3893457086115",
+        "value": 73.3893457086115
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "56.5690084512065",
+        "value": 56.5690084512065
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "69.1559179636805",
+        "value": 69.1559179636805
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "58.8230668561968",
+        "value": 58.8230668561968
+      },
+      "growth.R60one": {
+        "missing_reason": null,
+        "raw": "0.982727609074241",
+        "value": 0.982727609074241
+      },
+      "growth.R60three": {
+        "missing_reason": null,
+        "raw": "1.01069918479898",
+        "value": 1.01069918479898
+      },
+      "growth.R60two": {
+        "missing_reason": null,
+        "raw": "1.02513509455206",
+        "value": 1.02513509455206
+      },
+      "growth.mean.R60": {
+        "missing_reason": null,
+        "raw": "1.00618729614176",
+        "value": 1.00618729614176
+      }
+    },
+    "20_21112122_1": {
+      "clean.lin.prot.mean": {
+        "missing_reason": null,
+        "raw": "23.1337134939992",
+        "value": 23.1337134939992
+      },
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "22.0815860688031",
+        "value": 22.0815860688031
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "24.6378661166208",
+        "value": 24.6378661166208
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "22.5873023190075",
+        "value": 22.5873023190075
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "23.2280994715653",
+        "value": 23.2280994715653
+      },
+      "growth.R60one": {
+        "missing_reason": null,
+        "raw": "0.99259435959135",
+        "value": 0.99259435959135
+      },
+      "growth.R60three": {
+        "missing_reason": null,
+        "raw": "0.972280536464249",
+        "value": 0.972280536464249
+      },
+      "growth.R60two": {
+        "missing_reason": null,
+        "raw": "0.976905103558061",
+        "value": 0.976905103558061
+      },
+      "growth.mean.R60": {
+        "missing_reason": null,
+        "raw": "0.980593333204553",
+        "value": 0.980593333204553
+      }
+    },
+    "20_31111122_1": {
+      "clean.lin.prot.mean": {
+        "missing_reason": null,
+        "raw": "20.4775151964297",
+        "value": 20.4775151964297
+      },
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "20.7328483387447",
+        "value": 20.7328483387447
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "19.2845144926684",
+        "value": 19.2845144926684
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "20.7127707988066",
+        "value": 20.7127707988066
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "21.1799271554991",
+        "value": 21.1799271554991
+      },
+      "growth.R60one": {
+        "missing_reason": null,
+        "raw": "0.987221658218017",
+        "value": 0.987221658218017
+      },
+      "growth.R60three": {
+        "missing_reason": null,
+        "raw": "1.0142708345089",
+        "value": 1.0142708345089
+      },
+      "growth.R60two": {
+        "missing_reason": null,
+        "raw": "0.996348282842632",
+        "value": 0.996348282842632
+      },
+      "growth.mean.R60": {
+        "missing_reason": null,
+        "raw": "0.999280258523184",
+        "value": 0.999280258523184
+      }
+    },
+    "20_31111122_2": {
+      "clean.lin.prot.mean": {
+        "missing_reason": null,
+        "raw": "22.9350259223983",
+        "value": 22.9350259223983
+      },
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "24.0727277017439",
+        "value": 24.0727277017439
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "22.7341097013176",
+        "value": 22.7341097013176
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "22.0581258365953",
+        "value": 22.0581258365953
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "22.8751404499362",
+        "value": 22.8751404499362
+      },
+      "growth.R60one": {
+        "missing_reason": null,
+        "raw": "0.985199311602085",
+        "value": 0.985199311602085
+      },
+      "growth.R60three": {
+        "missing_reason": null,
+        "raw": "0.95244916668975",
+        "value": 0.95244916668975
+      },
+      "growth.R60two": {
+        "missing_reason": null,
+        "raw": "0.987009915468657",
+        "value": 0.987009915468657
+      },
+      "growth.mean.R60": {
+        "missing_reason": null,
+        "raw": "0.974886131253498",
+        "value": 0.974886131253498
+      }
+    },
+    "20_31112122_1": {
+      "clean.lin.prot.mean": {
+        "missing_reason": null,
+        "raw": "24.1140168894311",
+        "value": 24.1140168894311
+      },
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "23.0539717628134",
+        "value": 23.0539717628134
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "24.8399217584542",
+        "value": 24.8399217584542
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "23.5553926095888",
+        "value": 23.5553926095888
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "25.0067814268682",
+        "value": 25.0067814268682
+      },
+      "growth.R60one": {
+        "missing_reason": null,
+        "raw": "0.93719740717257",
+        "value": 0.93719740717257
+      },
+      "growth.R60three": {
+        "missing_reason": null,
+        "raw": "0.982229497791573",
+        "value": 0.982229497791573
+      },
+      "growth.R60two": {
+        "missing_reason": null,
+        "raw": "0.986640523728775",
+        "value": 0.986640523728775
+      },
+      "growth.mean.R60": {
+        "missing_reason": null,
+        "raw": "0.96868914289764",
+        "value": 0.96868914289764
+      }
+    },
+    "20_31112122_2": {
+      "clean.lin.prot.mean": {
+        "missing_reason": null,
+        "raw": "28.5572807972498",
+        "value": 28.5572807972498
+      },
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "29.3914187988015",
+        "value": 29.3914187988015
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "29.190777741198",
+        "value": 29.190777741198
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "26.0103794534902",
+        "value": 26.0103794534902
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "29.6365471955096",
+        "value": 29.6365471955096
+      },
+      "growth.R60one": {
+        "missing_reason": null,
+        "raw": "1.01920419555088",
+        "value": 1.01920419555088
+      },
+      "growth.R60three": {
+        "missing_reason": null,
+        "raw": "1.02359901245927",
+        "value": 1.02359901245927
+      },
+      "growth.R60two": {
+        "missing_reason": null,
+        "raw": "1.02833760268936",
+        "value": 1.02833760268936
+      },
+      "growth.mean.R60": {
+        "missing_reason": null,
+        "raw": "1.02371360356651",
+        "value": 1.02371360356651
+      }
+    },
+    "20_31212122_1": {
+      "clean.lin.prot.mean": {
+        "missing_reason": null,
+        "raw": "27.0855645584026",
+        "value": 27.0855645584026
+      },
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "25.5281493231035",
+        "value": 25.5281493231035
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "26.2976491451105",
+        "value": 26.2976491451105
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "28.3066777946172",
+        "value": 28.3066777946172
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "28.2097819707791",
+        "value": 28.2097819707791
+      },
+      "growth.R60one": {
+        "missing_reason": null,
+        "raw": "1.00007067413263",
+        "value": 1.00007067413263
+      },
+      "growth.R60three": {
+        "missing_reason": null,
+        "raw": "0.993833316065592",
+        "value": 0.993833316065592
+      },
+      "growth.R60two": {
+        "missing_reason": null,
+        "raw": "1.00369361793217",
+        "value": 1.00369361793217
+      },
+      "growth.mean.R60": {
+        "missing_reason": null,
+        "raw": "0.999199202710131",
+        "value": 0.999199202710131
+      }
+    },
+    "227_13121113_1": {
+      "clean.lin.prot.mean": {
+        "missing_reason": null,
+        "raw": "9.42060793595146",
+        "value": 9.42060793595146
+      },
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "7.51301178282379",
+        "value": 7.51301178282379
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "10.3525994724908",
+        "value": 10.3525994724908
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "10.7612074863755",
+        "value": 10.7612074863755
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "9.05561300211583",
+        "value": 9.05561300211583
+      },
+      "growth.R60one": {
+        "missing_reason": null,
+        "raw": "0.979883495250874",
+        "value": 0.979883495250874
+      },
+      "growth.R60three": {
+        "missing_reason": null,
+        "raw": "0.980457044491607",
+        "value": 0.980457044491607
+      },
+      "growth.R60two": {
+        "missing_reason": null,
+        "raw": "0.98017026987124",
+        "value": 0.98017026987124
+      },
+      "growth.mean.R60": {
+        "missing_reason": null,
+        "raw": "0.980170269871241",
+        "value": 0.980170269871241
+      }
+    },
+    "227_13121123_1": {
+      "clean.lin.prot.mean": {
+        "missing_reason": null,
+        "raw": "83.717382047443",
+        "value": 83.717382047443
+      },
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "82.6623156415481",
+        "value": 82.6623156415481
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "89.9059219691112",
+        "value": 89.9059219691112
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "84.6278604218246",
+        "value": 84.6278604218246
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "77.6734301572883",
+        "value": 77.6734301572883
+      },
+      "growth.R60one": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "growth.R60three": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "growth.R60two": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "growth.mean.R60": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      }
+    },
+    "227_23131113_1": {
+      "clean.lin.prot.mean": {
+        "missing_reason": null,
+        "raw": "8.42549883456289",
+        "value": 8.42549883456289
+      },
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "8.18513221884443",
+        "value": 8.18513221884443
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "7.94643507582621",
+        "value": 7.94643507582621
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "10.0894670423766",
+        "value": 10.0894670423766
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "7.4809610012043",
+        "value": 7.4809610012043
+      },
+      "growth.R60one": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "growth.R60three": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "growth.R60two": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "growth.mean.R60": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      }
+    },
+    "227_23131123_1": {
+      "clean.lin.prot.mean": {
+        "missing_reason": null,
+        "raw": "67.1607019268675",
+        "value": 67.1607019268675
+      },
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "70.6370861257564",
+        "value": 70.6370861257564
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "63.6766382742719",
+        "value": 63.6766382742719
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "64.5753421948695",
+        "value": 64.5753421948695
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "69.7537411125723",
+        "value": 69.7537411125723
+      },
+      "growth.R60one": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "growth.R60three": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "growth.R60two": {
+        "missing_reason": null,
+        "raw": "0.990152686259429",
+        "value": 0.990152686259429
+      },
+      "growth.mean.R60": {
+        "missing_reason": null,
+        "raw": "0.990152686259429",
+        "value": 0.990152686259429
+      }
+    },
+    "227_23132113_1": {
+      "clean.lin.prot.mean": {
+        "missing_reason": null,
+        "raw": "9.94396716283582",
+        "value": 9.94396716283582
+      },
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "10.9562805081485",
+        "value": 10.9562805081485
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "9.43622110388746",
+        "value": 9.43622110388746
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "9.64286602690051",
+        "value": 9.64286602690051
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "9.74050101240685",
+        "value": 9.74050101240685
+      },
+      "growth.R60one": {
+        "missing_reason": null,
+        "raw": "0.96500565989008",
+        "value": 0.96500565989008
+      },
+      "growth.R60three": {
+        "missing_reason": null,
+        "raw": "0.958315859176978",
+        "value": 0.958315859176978
+      },
+      "growth.R60two": {
+        "missing_reason": null,
+        "raw": "0.961660759533529",
+        "value": 0.961660759533529
+      },
+      "growth.mean.R60": {
+        "missing_reason": null,
+        "raw": "0.961660759533529",
+        "value": 0.961660759533529
+      }
+    },
+    "227_23132123_1": {
+      "clean.lin.prot.mean": {
+        "missing_reason": null,
+        "raw": "81.1232510743298",
+        "value": 81.1232510743298
+      },
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "77.8135162153136",
+        "value": 77.8135162153136
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "82.4885848552847",
+        "value": 82.4885848552847
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "81.3418306822731",
+        "value": 81.3418306822731
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "82.8490725444477",
+        "value": 82.8490725444477
+      },
+      "growth.R60one": {
+        "missing_reason": null,
+        "raw": "0.940601257248786",
+        "value": 0.940601257248786
+      },
+      "growth.R60three": {
+        "missing_reason": null,
+        "raw": "0.953127777464415",
+        "value": 0.953127777464415
+      },
+      "growth.R60two": {
+        "missing_reason": null,
+        "raw": "0.946864517356601",
+        "value": 0.946864517356601
+      },
+      "growth.mean.R60": {
+        "missing_reason": null,
+        "raw": "0.946864517356601",
+        "value": 0.946864517356601
+      }
+    },
+    "25_22111212_1": {
+      "clean.lin.prot.mean": {
+        "missing_reason": null,
+        "raw": "50.4926369762621",
+        "value": 50.4926369762621
+      },
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "52.3113681333847",
+        "value": 52.3113681333847
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "48.1335103788165",
+        "value": 48.1335103788165
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "48.2254718519788",
+        "value": 48.2254718519788
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "53.3001975408682",
+        "value": 53.3001975408682
+      },
+      "growth.R60one": {
+        "missing_reason": null,
+        "raw": "1.00079602959326",
+        "value": 1.00079602959326
+      },
+      "growth.R60three": {
+        "missing_reason": null,
+        "raw": "0.998754854749541",
+        "value": 0.998754854749541
+      },
+      "growth.R60two": {
+        "missing_reason": null,
+        "raw": "0.994106056912637",
+        "value": 0.994106056912637
+      },
+      "growth.mean.R60": {
+        "missing_reason": null,
+        "raw": "0.997885647085145",
+        "value": 0.997885647085145
+      }
+    },
+    "25_22131212_1": {
+      "clean.lin.prot.mean": {
+        "missing_reason": null,
+        "raw": "46.7161868252688",
+        "value": 46.7161868252688
+      },
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "47.6618296203197",
+        "value": 47.6618296203197
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "44.6083987496679",
+        "value": 44.6083987496679
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "45.9206594252821",
+        "value": 45.9206594252821
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "48.6738595058055",
+        "value": 48.6738595058055
+      },
+      "growth.R60one": {
+        "missing_reason": null,
+        "raw": "1.01008491665087",
+        "value": 1.01008491665087
+      },
+      "growth.R60three": {
+        "missing_reason": null,
+        "raw": "0.993681280822485",
+        "value": 0.993681280822485
+      },
+      "growth.R60two": {
+        "missing_reason": null,
+        "raw": "0.988581254632418",
+        "value": 0.988581254632418
+      },
+      "growth.mean.R60": {
+        "missing_reason": null,
+        "raw": "0.997449150701923",
+        "value": 0.997449150701923
+      }
+    },
+    "25_32111212_1": {
+      "clean.lin.prot.mean": {
+        "missing_reason": null,
+        "raw": "47.1294991412663",
+        "value": 47.1294991412663
+      },
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "49.4522185889167",
+        "value": 49.4522185889167
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "41.2610859072391",
+        "value": 41.2610859072391
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "46.8091501820221",
+        "value": 46.8091501820221
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "50.9955418868871",
+        "value": 50.9955418868871
+      },
+      "growth.R60one": {
+        "missing_reason": null,
+        "raw": "0.985962833636992",
+        "value": 0.985962833636992
+      },
+      "growth.R60three": {
+        "missing_reason": null,
+        "raw": "0.985520750546425",
+        "value": 0.985520750546425
+      },
+      "growth.R60two": {
+        "missing_reason": null,
+        "raw": "0.986791521432599",
+        "value": 0.986791521432599
+      },
+      "growth.mean.R60": {
+        "missing_reason": null,
+        "raw": "0.986091701872005",
+        "value": 0.986091701872005
+      }
+    },
+    "25_32111212_2": {
+      "clean.lin.prot.mean": {
+        "missing_reason": null,
+        "raw": "49.9516894507058",
+        "value": 49.9516894507058
+      },
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "54.3813036775877",
+        "value": 54.3813036775877
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "46.3673524791697",
+        "value": 46.3673524791697
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "48.0625597591788",
+        "value": 48.0625597591788
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "50.9955418868871",
+        "value": 50.9955418868871
+      },
+      "growth.R60one": {
+        "missing_reason": null,
+        "raw": "0.985179969702616",
+        "value": 0.985179969702616
+      },
+      "growth.R60three": {
+        "missing_reason": null,
+        "raw": "0.982775290923016",
+        "value": 0.982775290923016
+      },
+      "growth.R60two": {
+        "missing_reason": null,
+        "raw": "0.988165655037229",
+        "value": 0.988165655037229
+      },
+      "growth.mean.R60": {
+        "missing_reason": null,
+        "raw": "0.985373638554287",
+        "value": 0.985373638554287
+      }
+    },
+    "25_32111222_1": {
+      "clean.lin.prot.mean": {
+        "missing_reason": null,
+        "raw": "79.4733673623114",
+        "value": 79.4733673623114
+      },
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "81.0017034920037",
+        "value": 81.0017034920037
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "74.4945634679847",
+        "value": 74.4945634679847
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "80.2994810793091",
+        "value": 80.2994810793091
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "82.0977214099479",
+        "value": 82.0977214099479
+      },
+      "growth.R60one": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "growth.R60three": {
+        "missing_reason": null,
+        "raw": "0.9751080550965",
+        "value": 0.9751080550965
+      },
+      "growth.R60two": {
+        "missing_reason": null,
+        "raw": "0.9751080550965",
+        "value": 0.9751080550965
+      },
+      "growth.mean.R60": {
+        "missing_reason": null,
+        "raw": "0.9751080550965",
+        "value": 0.9751080550965
+      }
+    },
+    "25_32131112_1": {
+      "clean.lin.prot.mean": {
+        "missing_reason": null,
+        "raw": "43.2452743238753",
+        "value": 43.2452743238753
+      },
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "41.6298720930222",
+        "value": 41.6298720930222
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "42.4909764810012",
+        "value": 42.4909764810012
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "41.4569345023254",
+        "value": 41.4569345023254
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "47.4033142191526",
+        "value": 47.4033142191526
+      },
+      "growth.R60one": {
+        "missing_reason": null,
+        "raw": "0.985881626999011",
+        "value": 0.985881626999011
+      },
+      "growth.R60three": {
+        "missing_reason": null,
+        "raw": "0.986422537031251",
+        "value": 0.986422537031251
+      },
+      "growth.R60two": {
+        "missing_reason": null,
+        "raw": "0.979116566429552",
+        "value": 0.979116566429552
+      },
+      "growth.mean.R60": {
+        "missing_reason": null,
+        "raw": "0.983806910153271",
+        "value": 0.983806910153271
+      }
+    },
+    "25_32131212_1": {
+      "clean.lin.prot.mean": {
+        "missing_reason": null,
+        "raw": "45.4871121689365",
+        "value": 45.4871121689365
+      },
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "48.1173433152175",
+        "value": 48.1173433152175
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "43.3767661852619",
+        "value": 43.3767661852619
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "42.7300635287119",
+        "value": 42.7300635287119
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "47.7242756465545",
+        "value": 47.7242756465545
+      },
+      "growth.R60one": {
+        "missing_reason": null,
+        "raw": "1.01055828074094",
+        "value": 1.01055828074094
+      },
+      "growth.R60three": {
+        "missing_reason": null,
+        "raw": "0.99674207473651",
+        "value": 0.99674207473651
+      },
+      "growth.R60two": {
+        "missing_reason": null,
+        "raw": "1.00084160943188",
+        "value": 1.00084160943188
+      },
+      "growth.mean.R60": {
+        "missing_reason": null,
+        "raw": "1.00271398830311",
+        "value": 1.00271398830311
+      }
+    },
+    "299_23211112_1": {
+      "clean.lin.prot.mean": {
+        "missing_reason": null,
+        "raw": "84.0064666207093",
+        "value": 84.0064666207093
+      },
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "82.9272684917319",
+        "value": 82.9272684917319
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "83.8714674897851",
+        "value": 83.8714674897851
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "84.8085276665252",
+        "value": 84.8085276665252
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "84.4186028347948",
+        "value": 84.4186028347948
+      },
+      "growth.R60one": {
+        "missing_reason": null,
+        "raw": "0.936168550352191",
+        "value": 0.936168550352191
+      },
+      "growth.R60three": {
+        "missing_reason": null,
+        "raw": "0.975262677407706",
+        "value": 0.975262677407706
+      },
+      "growth.R60two": {
+        "missing_reason": null,
+        "raw": "0.942362225118705",
+        "value": 0.942362225118705
+      },
+      "growth.mean.R60": {
+        "missing_reason": null,
+        "raw": "0.951264484292867",
+        "value": 0.951264484292867
+      }
+    },
+    "299_23211122_1": {
+      "clean.lin.prot.mean": {
+        "missing_reason": null,
+        "raw": "88.6117689012966",
+        "value": 88.6117689012966
+      },
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "89.3322185413673",
+        "value": 89.3322185413673
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "95.2220036404818",
+        "value": 95.2220036404818
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "83.2812929550759",
+        "value": 83.2812929550759
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "86.6115604682614",
+        "value": 86.6115604682614
+      },
+      "growth.R60one": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "growth.R60three": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "growth.R60two": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "growth.mean.R60": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      }
+    },
+    "299_23311112_1": {
+      "clean.lin.prot.mean": {
+        "missing_reason": null,
+        "raw": "88.9320010328517",
+        "value": 88.9320010328517
+      },
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "83.1039932735588",
+        "value": 83.1039932735588
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "94.3166151796981",
+        "value": 94.3166151796981
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "91.4657210419599",
+        "value": 91.4657210419599
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "86.84167463619",
+        "value": 86.84167463619
+      },
+      "growth.R60one": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "growth.R60three": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "growth.R60two": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "growth.mean.R60": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      }
+    },
+    "299_23311122_1": {
+      "clean.lin.prot.mean": {
+        "missing_reason": null,
+        "raw": "93.6654874318944",
+        "value": 93.6654874318944
+      },
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "94.5382232135491",
+        "value": 94.5382232135491
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "92.8727808600413",
+        "value": 92.8727808600413
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "92.2461423498702",
+        "value": 92.2461423498702
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "95.0048033041171",
+        "value": 95.0048033041171
+      },
+      "growth.R60one": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "growth.R60three": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "growth.R60two": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "growth.mean.R60": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      }
+    },
+    "314_21112121_1": {
+      "clean.lin.prot.mean": {
+        "missing_reason": null,
+        "raw": "60.9106259392305",
+        "value": 60.9106259392305
+      },
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "60.0584695237167",
+        "value": 60.0584695237167
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "62.7422072657276",
+        "value": 62.7422072657276
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "60.1174025516078",
+        "value": 60.1174025516078
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "60.7244244158697",
+        "value": 60.7244244158697
+      },
+      "growth.R60one": {
+        "missing_reason": null,
+        "raw": "1.01335453352612",
+        "value": 1.01335453352612
+      },
+      "growth.R60three": {
+        "missing_reason": null,
+        "raw": "1.00234894855371",
+        "value": 1.00234894855371
+      },
+      "growth.R60two": {
+        "missing_reason": null,
+        "raw": "0.989127180905713",
+        "value": 0.989127180905713
+      },
+      "growth.mean.R60": {
+        "missing_reason": null,
+        "raw": "1.00161022099518",
+        "value": 1.00161022099518
+      }
+    },
+    "314_21112121_3": {
+      "clean.lin.prot.mean": {
+        "missing_reason": null,
+        "raw": "62.296511272464",
+        "value": 62.296511272464
+      },
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "64.8111402486255",
+        "value": 64.8111402486255
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "60.9073292676108",
+        "value": 60.9073292676108
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "62.9426698781667",
+        "value": 62.9426698781667
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "60.524905695453",
+        "value": 60.524905695453
+      },
+      "growth.R60one": {
+        "missing_reason": null,
+        "raw": "1.01734607050857",
+        "value": 1.01734607050857
+      },
+      "growth.R60three": {
+        "missing_reason": null,
+        "raw": "1.00888637436684",
+        "value": 1.00888637436684
+      },
+      "growth.R60two": {
+        "missing_reason": null,
+        "raw": "1.0101473417336",
+        "value": 1.0101473417336
+      },
+      "growth.mean.R60": {
+        "missing_reason": null,
+        "raw": "1.01212659553634",
+        "value": 1.01212659553634
+      }
+    },
+    "314_21211121_1": {
+      "clean.lin.prot.mean": {
+        "missing_reason": null,
+        "raw": "61.8092242741889",
+        "value": 61.8092242741889
+      },
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "60.781739165926",
+        "value": 60.781739165926
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "61.5135669152774",
+        "value": 61.5135669152774
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "62.8052002579213",
+        "value": 62.8052002579213
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "62.1363907576308",
+        "value": 62.1363907576308
+      },
+      "growth.R60one": {
+        "missing_reason": null,
+        "raw": "0.989488495349367",
+        "value": 0.989488495349367
+      },
+      "growth.R60three": {
+        "missing_reason": null,
+        "raw": "1.00287436319714",
+        "value": 1.00287436319714
+      },
+      "growth.R60two": {
+        "missing_reason": null,
+        "raw": "1.00281119636578",
+        "value": 1.00281119636578
+      },
+      "growth.mean.R60": {
+        "missing_reason": null,
+        "raw": "0.99839135163743",
+        "value": 0.99839135163743
+      }
+    },
+    "314_21212121_1": {
+      "clean.lin.prot.mean": {
+        "missing_reason": null,
+        "raw": "61.317020226656",
+        "value": 61.317020226656
+      },
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "59.3429848903436",
+        "value": 59.3429848903436
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "64.9807401657414",
+        "value": 64.9807401657414
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "61.0125239945811",
+        "value": 61.0125239945811
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "59.9318318559578",
+        "value": 59.9318318559578
+      },
+      "growth.R60one": {
+        "missing_reason": null,
+        "raw": "1.00338276310865",
+        "value": 1.00338276310865
+      },
+      "growth.R60three": {
+        "missing_reason": null,
+        "raw": "1.014451879194",
+        "value": 1.014451879194
+      },
+      "growth.R60two": {
+        "missing_reason": null,
+        "raw": "0.980487356142501",
+        "value": 0.980487356142501
+      },
+      "growth.mean.R60": {
+        "missing_reason": null,
+        "raw": "0.999440666148381",
+        "value": 0.999440666148381
+      }
+    },
+    "314_22111111_1": {
+      "clean.lin.prot.mean": {
+        "missing_reason": null,
+        "raw": "57.9277923598598",
+        "value": 57.9277923598598
+      },
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "59.0527893085599",
+        "value": 59.0527893085599
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "58.671487861652",
+        "value": 58.671487861652
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "58.0450774491771",
+        "value": 58.0450774491771
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "55.9418148200502",
+        "value": 55.9418148200502
+      },
+      "growth.R60one": {
+        "missing_reason": null,
+        "raw": "1.02550933496655",
+        "value": 1.02550933496655
+      },
+      "growth.R60three": {
+        "missing_reason": null,
+        "raw": "1.04178448858484",
+        "value": 1.04178448858484
+      },
+      "growth.R60two": {
+        "missing_reason": null,
+        "raw": "1.02815246727662",
+        "value": 1.02815246727662
+      },
+      "growth.mean.R60": {
+        "missing_reason": null,
+        "raw": "1.031815430276",
+        "value": 1.031815430276
+      }
+    },
+    "314_31112121_1": {
+      "clean.lin.prot.mean": {
+        "missing_reason": null,
+        "raw": "60.8465297704635",
+        "value": 60.8465297704635
+      },
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "60.6833994290592",
+        "value": 60.6833994290592
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "63.2588428246206",
+        "value": 63.2588428246206
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "60.8788675207408",
+        "value": 60.8788675207408
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "58.5650093074336",
+        "value": 58.5650093074336
+      },
+      "growth.R60one": {
+        "missing_reason": null,
+        "raw": "1.00527430125719",
+        "value": 1.00527430125719
+      },
+      "growth.R60three": {
+        "missing_reason": null,
+        "raw": "1.02565950695449",
+        "value": 1.02565950695449
+      },
+      "growth.R60two": {
+        "missing_reason": null,
+        "raw": "1.02056275196712",
+        "value": 1.02056275196712
+      },
+      "growth.mean.R60": {
+        "missing_reason": null,
+        "raw": "1.0171655200596",
+        "value": 1.0171655200596
+      }
+    },
+    "314_31211121_1": {
+      "clean.lin.prot.mean": {
+        "missing_reason": null,
+        "raw": "60.7124803565866",
+        "value": 60.7124803565866
+      },
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "62.1210211041282",
+        "value": 62.1210211041282
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "60.6749438478024",
+        "value": 60.6749438478024
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "59.5290507789627",
+        "value": 59.5290507789627
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "60.524905695453",
+        "value": 60.524905695453
+      },
+      "growth.R60one": {
+        "missing_reason": null,
+        "raw": "0.99953034577641",
+        "value": 0.99953034577641
+      },
+      "growth.R60three": {
+        "missing_reason": null,
+        "raw": "1.00291155364124",
+        "value": 1.00291155364124
+      },
+      "growth.R60two": {
+        "missing_reason": null,
+        "raw": "1.00402666316725",
+        "value": 1.00402666316725
+      },
+      "growth.mean.R60": {
+        "missing_reason": null,
+        "raw": "1.0021561875283",
+        "value": 1.0021561875283
+      }
+    },
+    "314_31212121_1": {
+      "clean.lin.prot.mean": {
+        "missing_reason": null,
+        "raw": "64.0177170518981",
+        "value": 64.0177170518981
+      },
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "66.3752792543305",
+        "value": 66.3752792543305
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "66.3808182174891",
+        "value": 66.3808182174891
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "61.178379978142",
+        "value": 61.178379978142
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "62.1363907576308",
+        "value": 62.1363907576308
+      },
+      "growth.R60one": {
+        "missing_reason": null,
+        "raw": "0.975343052131545",
+        "value": 0.975343052131545
+      },
+      "growth.R60three": {
+        "missing_reason": null,
+        "raw": "1.00053437413597",
+        "value": 1.00053437413597
+      },
+      "growth.R60two": {
+        "missing_reason": null,
+        "raw": "0.974615357845565",
+        "value": 0.974615357845565
+      },
+      "growth.mean.R60": {
+        "missing_reason": null,
+        "raw": "0.983497594704358",
+        "value": 0.983497594704358
+      }
+    },
+    "314_32111111_1": {
+      "clean.lin.prot.mean": {
+        "missing_reason": null,
+        "raw": "44.8893414304661",
+        "value": 44.8893414304661
+      },
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "47.2627387372135",
+        "value": 47.2627387372135
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "44.2542483098965",
+        "value": 44.2542483098965
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "44.9448223245598",
+        "value": 44.9448223245598
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "43.0955563501949",
+        "value": 43.0955563501949
+      },
+      "growth.R60one": {
+        "missing_reason": null,
+        "raw": "1.0785418860603",
+        "value": 1.0785418860603
+      },
+      "growth.R60three": {
+        "missing_reason": null,
+        "raw": "1.0425777851162",
+        "value": 1.0425777851162
+      },
+      "growth.R60two": {
+        "missing_reason": null,
+        "raw": "1.04894661738266",
+        "value": 1.04894661738266
+      },
+      "growth.mean.R60": {
+        "missing_reason": null,
+        "raw": "1.05668876285306",
+        "value": 1.05668876285306
+      }
+    },
+    "314_32112111_1": {
+      "clean.lin.prot.mean": {
+        "missing_reason": null,
+        "raw": "27.3646770103845",
+        "value": 27.3646770103845
+      },
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "26.9730214747186",
+        "value": 26.9730214747186
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "26.2976491451105",
+        "value": 26.2976491451105
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "28.8964434125617",
+        "value": 28.8964434125617
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "27.2915940091472",
+        "value": 27.2915940091472
+      },
+      "growth.R60one": {
+        "missing_reason": null,
+        "raw": "1.01908411225634",
+        "value": 1.01908411225634
+      },
+      "growth.R60three": {
+        "missing_reason": null,
+        "raw": "1.01248947747461",
+        "value": 1.01248947747461
+      },
+      "growth.R60two": {
+        "missing_reason": null,
+        "raw": "1.02116155984547",
+        "value": 1.02116155984547
+      },
+      "growth.mean.R60": {
+        "missing_reason": null,
+        "raw": "1.01757838319214",
+        "value": 1.01757838319214
+      }
+    },
+    "314_32211121_1": {
+      "clean.lin.prot.mean": {
+        "missing_reason": null,
+        "raw": "69.4947941646523",
+        "value": 69.4947941646523
+      },
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "68.2000456434987",
+        "value": 68.2000456434987
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "70.4083998757486",
+        "value": 70.4083998757486
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "70.6332429573806",
+        "value": 70.6332429573806
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "68.7374881819815",
+        "value": 68.7374881819815
+      },
+      "growth.R60one": {
+        "missing_reason": null,
+        "raw": "0.987063702537026",
+        "value": 0.987063702537026
+      },
+      "growth.R60three": {
+        "missing_reason": null,
+        "raw": "0.985818667805211",
+        "value": 0.985818667805211
+      },
+      "growth.R60two": {
+        "missing_reason": null,
+        "raw": "0.984280710917516",
+        "value": 0.984280710917516
+      },
+      "growth.mean.R60": {
+        "missing_reason": null,
+        "raw": "0.985721027086584",
+        "value": 0.985721027086584
+      }
+    },
+    "321_21111112_1": {
+      "clean.lin.prot.mean": {
+        "missing_reason": null,
+        "raw": "2.29358292117529",
+        "value": 2.29358292117529
+      },
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "1.22150388471687",
+        "value": 1.22150388471687
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "3.17635755926499",
+        "value": 3.17635755926499
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "2.22347272762448",
+        "value": 2.22347272762448
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "2.55299751309483",
+        "value": 2.55299751309483
+      },
+      "growth.R60one": {
+        "missing_reason": null,
+        "raw": "0.994984355831784",
+        "value": 0.994984355831784
+      },
+      "growth.R60three": {
+        "missing_reason": null,
+        "raw": "0.99040216883466",
+        "value": 0.99040216883466
+      },
+      "growth.R60two": {
+        "missing_reason": null,
+        "raw": "0.98876582824789",
+        "value": 0.98876582824789
+      },
+      "growth.mean.R60": {
+        "missing_reason": null,
+        "raw": "0.991384117638111",
+        "value": 0.991384117638111
+      }
+    },
+    "321_21121112_1": {
+      "clean.lin.prot.mean": {
+        "missing_reason": null,
+        "raw": "3.2847102408403",
+        "value": 3.2847102408403
+      },
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "2.83949517587315",
+        "value": 2.83949517587315
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "3.62948281555905",
+        "value": 3.62948281555905
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "4.81065806278663",
+        "value": 4.81065806278663
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "1.85920490914236",
+        "value": 1.85920490914236
+      },
+      "growth.R60one": {
+        "missing_reason": null,
+        "raw": "0.987710453484449",
+        "value": 0.987710453484449
+      },
+      "growth.R60three": {
+        "missing_reason": null,
+        "raw": "0.962077904506366",
+        "value": 0.962077904506366
+      },
+      "growth.R60two": {
+        "missing_reason": null,
+        "raw": "0.971222039453548",
+        "value": 0.971222039453548
+      },
+      "growth.mean.R60": {
+        "missing_reason": null,
+        "raw": "0.973670132481454",
+        "value": 0.973670132481454
+      }
+    },
+    "321_21211112_1": {
+      "clean.lin.prot.mean": {
+        "missing_reason": null,
+        "raw": "3.4371296837232",
+        "value": 3.4371296837232
+      },
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "4.25637363648736",
+        "value": 4.25637363648736
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "2.88109203531936",
+        "value": 2.88109203531936
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "3.28529871367454",
+        "value": 3.28529871367454
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "3.32575434941153",
+        "value": 3.32575434941153
+      },
+      "growth.R60one": {
+        "missing_reason": null,
+        "raw": "0.975961633814149",
+        "value": 0.975961633814149
+      },
+      "growth.R60three": {
+        "missing_reason": null,
+        "raw": "0.97833603645018",
+        "value": 0.97833603645018
+      },
+      "growth.R60two": {
+        "missing_reason": null,
+        "raw": "0.954972082817931",
+        "value": 0.954972082817931
+      },
+      "growth.mean.R60": {
+        "missing_reason": null,
+        "raw": "0.969756584360753",
+        "value": 0.969756584360753
+      }
+    },
+    "321_21221112_1": {
+      "clean.lin.prot.mean": {
+        "missing_reason": null,
+        "raw": "3.07584105118873",
+        "value": 3.07584105118873
+      },
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "4.20428517514784",
+        "value": 4.20428517514784
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "2.05431110384497",
+        "value": 2.05431110384497
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "2.68417739779704",
+        "value": 2.68417739779704
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "3.36059052796508",
+        "value": 3.36059052796508
+      },
+      "growth.R60one": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "growth.R60three": {
+        "missing_reason": null,
+        "raw": "0.944856301192078",
+        "value": 0.944856301192078
+      },
+      "growth.R60two": {
+        "missing_reason": null,
+        "raw": "0.944856301192078",
+        "value": 0.944856301192078
+      },
+      "growth.mean.R60": {
+        "missing_reason": null,
+        "raw": "0.944856301192078",
+        "value": 0.944856301192078
+      }
+    },
+    "33_32121113_1": {
+      "clean.lin.prot.mean": {
+        "missing_reason": null,
+        "raw": "39.2992283644394",
+        "value": 39.2992283644394
+      },
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "38.599682804876",
+        "value": 38.599682804876
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "39.6695323746101",
+        "value": 39.6695323746101
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "41.0779675457167",
+        "value": 41.0779675457167
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "37.8497307325546",
+        "value": 37.8497307325546
+      },
+      "growth.R60one": {
+        "missing_reason": null,
+        "raw": "1.04347605196414",
+        "value": 1.04347605196414
+      },
+      "growth.R60three": {
+        "missing_reason": null,
+        "raw": "1.04074608363017",
+        "value": 1.04074608363017
+      },
+      "growth.R60two": {
+        "missing_reason": null,
+        "raw": "1.0407212042681",
+        "value": 1.0407212042681
+      },
+      "growth.mean.R60": {
+        "missing_reason": null,
+        "raw": "1.04164777995414",
+        "value": 1.04164777995414
+      }
+    },
+    "33_32122113_1": {
+      "clean.lin.prot.mean": {
+        "missing_reason": null,
+        "raw": "39.9894621135344",
+        "value": 39.9894621135344
+      },
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "40.7619888835351",
+        "value": 40.7619888835351
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "39.9933522680792",
+        "value": 39.9933522680792
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "39.9630579885515",
+        "value": 39.9630579885515
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "39.2394493139719",
+        "value": 39.2394493139719
+      },
+      "growth.R60one": {
+        "missing_reason": null,
+        "raw": "1.02328888117541",
+        "value": 1.02328888117541
+      },
+      "growth.R60three": {
+        "missing_reason": null,
+        "raw": "1.00815692904587",
+        "value": 1.00815692904587
+      },
+      "growth.R60two": {
+        "missing_reason": null,
+        "raw": "1.00554852954625",
+        "value": 1.00554852954625
+      },
+      "growth.mean.R60": {
+        "missing_reason": null,
+        "raw": "1.01233144658918",
+        "value": 1.01233144658918
+      }
+    },
+    "33_32221113_1": {
+      "clean.lin.prot.mean": {
+        "missing_reason": null,
+        "raw": "50.6784259436145",
+        "value": 50.6784259436145
+      },
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "52.1954336268711",
+        "value": 52.1954336268711
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "54.5918238158981",
+        "value": 54.5918238158981
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "50.1555823973293",
+        "value": 50.1555823973293
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "45.7708639343595",
+        "value": 45.7708639343595
+      },
+      "growth.R60one": {
+        "missing_reason": null,
+        "raw": "1.01632469425595",
+        "value": 1.01632469425595
+      },
+      "growth.R60three": {
+        "missing_reason": null,
+        "raw": "1.03189982338786",
+        "value": 1.03189982338786
+      },
+      "growth.R60two": {
+        "missing_reason": null,
+        "raw": "1.01666511606887",
+        "value": 1.01666511606887
+      },
+      "growth.mean.R60": {
+        "missing_reason": null,
+        "raw": "1.02162987790423",
+        "value": 1.02162987790423
+      }
+    },
+    "33_32221113_2": {
+      "clean.lin.prot.mean": {
+        "missing_reason": null,
+        "raw": "45.6995303014132",
+        "value": 45.6995303014132
+      },
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "44.8852586202866",
+        "value": 44.8852586202866
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "47.3765443120983",
+        "value": 47.3765443120983
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "44.869272713024",
+        "value": 44.869272713024
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "45.6670455602437",
+        "value": 45.6670455602437
+      },
+      "growth.R60one": {
+        "missing_reason": null,
+        "raw": "1.01976173958411",
+        "value": 1.01976173958411
+      },
+      "growth.R60three": {
+        "missing_reason": null,
+        "raw": "1.04062935901194",
+        "value": 1.04062935901194
+      },
+      "growth.R60two": {
+        "missing_reason": null,
+        "raw": "1.03648328947705",
+        "value": 1.03648328947705
+      },
+      "growth.mean.R60": {
+        "missing_reason": null,
+        "raw": "1.03229146269104",
+        "value": 1.03229146269104
+      }
+    },
+    "355_22111111_1": {
+      "clean.lin.prot.mean": {
+        "missing_reason": null,
+        "raw": "12.4755012630808",
+        "value": 12.4755012630808
+      },
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "11.4841867430875",
+        "value": 11.4841867430875
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "13.4668157830741",
+        "value": 13.4668157830741
+      },
+      "growth.R60one": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "growth.R60three": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "growth.R60two": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "growth.mean.R60": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      }
+    },
+    "355_22121111_1": {
+      "clean.lin.prot.mean": {
+        "missing_reason": null,
+        "raw": "11.3028870248454",
+        "value": 11.3028870248454
+      },
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "11.5814008052725",
+        "value": 11.5814008052725
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "11.4094695833102",
+        "value": 11.4094695833102
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "11.6466637428127",
+        "value": 11.6466637428127
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "10.574013967986",
+        "value": 10.574013967986
+      },
+      "growth.R60one": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "growth.R60three": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "growth.R60two": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "growth.mean.R60": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      }
+    },
+    "355_23211112_1": {
+      "clean.lin.prot.mean": {
+        "missing_reason": null,
+        "raw": "90.2768725579598",
+        "value": 90.2768725579598
+      },
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "92.3146315282916",
+        "value": 92.3146315282916
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "93.9170584356722",
+        "value": 93.9170584356722
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "88.0341256316855",
+        "value": 88.0341256316855
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "86.84167463619",
+        "value": 86.84167463619
+      },
+      "growth.R60one": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "growth.R60three": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "growth.R60two": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "growth.mean.R60": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      }
+    },
+    "355_23221212_1": {
+      "clean.lin.prot.mean": {
+        "missing_reason": null,
+        "raw": "90.6815143934153",
+        "value": 90.6815143934153
+      },
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "98.3596314639319",
+        "value": 98.3596314639319
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "89.7146461869428",
+        "value": 89.7146461869428
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "83.0144261114234",
+        "value": 83.0144261114234
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "91.6373538113633",
+        "value": 91.6373538113633
+      },
+      "growth.R60one": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "growth.R60three": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "growth.R60two": {
+        "missing_reason": null,
+        "raw": "0.971222114468015",
+        "value": 0.971222114468015
+      },
+      "growth.mean.R60": {
+        "missing_reason": null,
+        "raw": "0.971222114468015",
+        "value": 0.971222114468015
+      }
+    },
+    "355_23321112_1": {
+      "clean.lin.prot.mean": {
+        "missing_reason": null,
+        "raw": "87.5016915441552",
+        "value": 87.5016915441552
+      },
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "88.0157844093919",
+        "value": 88.0157844093919
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "88.7138251796662",
+        "value": 88.7138251796662
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "89.4014193448913",
+        "value": 89.4014193448913
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "83.8757372426715",
+        "value": 83.8757372426715
+      },
+      "growth.R60one": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "growth.R60three": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "growth.R60two": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "growth.mean.R60": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      }
+    },
+    "355_23321212_1": {
+      "clean.lin.prot.mean": {
+        "missing_reason": null,
+        "raw": "91.0425788939864",
+        "value": 91.0425788939864
+      },
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "91.2927923929527",
+        "value": 91.2927923929527
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "92.8727808600413",
+        "value": 92.8727808600413
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "87.242716581486",
+        "value": 87.242716581486
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "92.7620257414656",
+        "value": 92.7620257414656
+      },
+      "growth.R60one": {
+        "missing_reason": null,
+        "raw": "0.961924984217797",
+        "value": 0.961924984217797
+      },
+      "growth.R60three": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "growth.R60two": {
+        "missing_reason": null,
+        "raw": "0.961924984217797",
+        "value": 0.961924984217797
+      },
+      "growth.mean.R60": {
+        "missing_reason": null,
+        "raw": "0.961924984217797",
+        "value": 0.961924984217797
+      }
+    },
+    "355_32121111_1": {
+      "clean.lin.prot.mean": {
+        "missing_reason": null,
+        "raw": "15.0245777491431",
+        "value": 15.0245777491431
+      },
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "14.0458696989835",
+        "value": 14.0458696989835
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "16.7772472614025",
+        "value": 16.7772472614025
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "13.8493418751461",
+        "value": 13.8493418751461
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "15.4258521610404",
+        "value": 15.4258521610404
+      },
+      "growth.R60one": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "growth.R60three": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "growth.R60two": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "growth.mean.R60": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      }
+    },
+    "355_32211111_1": {
+      "clean.lin.prot.mean": {
+        "missing_reason": null,
+        "raw": "44.3519314995614",
+        "value": 44.3519314995614
+      },
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "43.5626241726956",
+        "value": 43.5626241726956
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "44.0272821413935",
+        "value": 44.0272821413935
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "44.9448223245598",
+        "value": 44.9448223245598
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "44.8729973595966",
+        "value": 44.8729973595966
+      },
+      "growth.R60one": {
+        "missing_reason": null,
+        "raw": "0.94875293316329",
+        "value": 0.94875293316329
+      },
+      "growth.R60three": {
+        "missing_reason": null,
+        "raw": "0.970621182566927",
+        "value": 0.970621182566927
+      },
+      "growth.R60two": {
+        "missing_reason": null,
+        "raw": "0.959687057865108",
+        "value": 0.959687057865108
+      },
+      "growth.mean.R60": {
+        "missing_reason": null,
+        "raw": "0.959687057865109",
+        "value": 0.959687057865109
+      }
+    },
+    "355_32212111_1": {
+      "clean.lin.prot.mean": {
+        "missing_reason": null,
+        "raw": "45.6834964629246",
+        "value": 45.6834964629246
+      },
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "45.5208015309721",
+        "value": 45.5208015309721
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "44.0272821413935",
+        "value": 44.0272821413935
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "47.9824441756416",
+        "value": 47.9824441756416
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "45.2034580036911",
+        "value": 45.2034580036911
+      },
+      "growth.R60one": {
+        "missing_reason": null,
+        "raw": "0.963640049876888",
+        "value": 0.963640049876888
+      },
+      "growth.R60three": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "growth.R60two": {
+        "missing_reason": null,
+        "raw": "0.979086811441986",
+        "value": 0.979086811441986
+      },
+      "growth.mean.R60": {
+        "missing_reason": null,
+        "raw": "0.971363430659437",
+        "value": 0.971363430659437
+      }
+    },
+    "355_32221111_1": {
+      "clean.lin.prot.mean": {
+        "missing_reason": null,
+        "raw": "44.1586027189268",
+        "value": 44.1586027189268
+      },
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "43.8584632824033",
+        "value": 43.8584632824033
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "43.3767661852619",
+        "value": 43.3767661852619
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "45.6111254287911",
+        "value": 45.6111254287911
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "43.7880559792508",
+        "value": 43.7880559792508
+      },
+      "growth.R60one": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "growth.R60three": {
+        "missing_reason": null,
+        "raw": "0.933178091882474",
+        "value": 0.933178091882474
+      },
+      "growth.R60two": {
+        "missing_reason": null,
+        "raw": "0.986359245572747",
+        "value": 0.986359245572747
+      },
+      "growth.mean.R60": {
+        "missing_reason": null,
+        "raw": "0.95976866872761",
+        "value": 0.95976866872761
+      }
+    },
+    "355_32222111_1": {
+      "clean.lin.prot.mean": {
+        "missing_reason": null,
+        "raw": "39.2502070875686",
+        "value": 39.2502070875686
+      },
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "40.5071360667311",
+        "value": 40.5071360667311
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "36.5053575478929",
+        "value": 36.5053575478929
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "39.4351662978353",
+        "value": 39.4351662978353
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "40.553168437815",
+        "value": 40.553168437815
+      },
+      "growth.R60one": {
+        "missing_reason": null,
+        "raw": "0.984863345741837",
+        "value": 0.984863345741837
+      },
+      "growth.R60three": {
+        "missing_reason": null,
+        "raw": "0.959128554741151",
+        "value": 0.959128554741151
+      },
+      "growth.R60two": {
+        "missing_reason": null,
+        "raw": "0.973300644157242",
+        "value": 0.973300644157242
+      },
+      "growth.mean.R60": {
+        "missing_reason": null,
+        "raw": "0.97243084821341",
+        "value": 0.97243084821341
+      }
+    },
+    "355_33211112_1": {
+      "clean.lin.prot.mean": {
+        "missing_reason": null,
+        "raw": "89.4616019254804",
+        "value": 89.4616019254804
+      },
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "86.7675569309748",
+        "value": 86.7675569309748
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "89.7146461869428",
+        "value": 89.7146461869428
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "90.0690394996213",
+        "value": 90.0690394996213
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "91.2951650843829",
+        "value": 91.2951650843829
+      },
+      "growth.R60one": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "growth.R60three": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "growth.R60two": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "growth.mean.R60": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      }
+    },
+    "355_33212111_1": {
+      "clean.lin.prot.mean": {
+        "missing_reason": null,
+        "raw": "50.7632278363802",
+        "value": 50.7632278363802
+      },
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "49.9228138381364",
+        "value": 49.9228138381364
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "50.2713598390746",
+        "value": 50.2713598390746
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "51.5186754392065",
+        "value": 51.5186754392065
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "51.3400622291034",
+        "value": 51.3400622291034
+      },
+      "growth.R60one": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "growth.R60three": {
+        "missing_reason": null,
+        "raw": "0.961065199255914",
+        "value": 0.961065199255914
+      },
+      "growth.R60two": {
+        "missing_reason": null,
+        "raw": "0.961065199255914",
+        "value": 0.961065199255914
+      },
+      "growth.mean.R60": {
+        "missing_reason": null,
+        "raw": "0.961065199255914",
+        "value": 0.961065199255914
+      }
+    },
+    "355_33221111_1": {
+      "clean.lin.prot.mean": {
+        "missing_reason": null,
+        "raw": "52.9178531763862",
+        "value": 52.9178531763862
+      },
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "53.6631429372477",
+        "value": 53.6631429372477
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "52.729927286405",
+        "value": 52.729927286405
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "54.6538328902248",
+        "value": 54.6538328902248
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "50.6245095916671",
+        "value": 50.6245095916671
+      },
+      "growth.R60one": {
+        "missing_reason": null,
+        "raw": "0.954951601530473",
+        "value": 0.954951601530473
+      },
+      "growth.R60three": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "growth.R60two": {
+        "missing_reason": null,
+        "raw": "0.954951601530473",
+        "value": 0.954951601530473
+      },
+      "growth.mean.R60": {
+        "missing_reason": null,
+        "raw": "0.954951601530473",
+        "value": 0.954951601530473
+      }
+    },
+    "355_33221112_1": {
+      "clean.lin.prot.mean": {
+        "missing_reason": null,
+        "raw": "85.3871249607998",
+        "value": 85.3871249607998
+      },
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "75.1067060940046",
+        "value": 75.1067060940046
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "91.997796238753",
+        "value": 91.997796238753
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "85.3563093513049",
+        "value": 85.3563093513049
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "89.0876881591367",
+        "value": 89.0876881591367
+      },
+      "growth.R60one": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "growth.R60three": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "growth.R60two": {
+        "missing_reason": null,
+        "raw": "0.941711564228327",
+        "value": 0.941711564228327
+      },
+      "growth.mean.R60": {
+        "missing_reason": null,
+        "raw": "0.941711564228327",
+        "value": 0.941711564228327
+      }
+    },
+    "355_33221212_1": {
+      "clean.lin.prot.mean": {
+        "missing_reason": null,
+        "raw": "89.4270996746096",
+        "value": 89.4270996746096
+      },
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "88.4381061441139",
+        "value": 88.4381061441139
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "87.6814189260949",
+        "value": 87.6814189260949
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "92.7368180389759",
+        "value": 92.7368180389759
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "88.8520555892537",
+        "value": 88.8520555892537
+      },
+      "growth.R60one": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "growth.R60three": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "growth.R60two": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "growth.mean.R60": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      }
+    },
+    "37_11211213_1": {
+      "clean.lin.prot.mean": {
+        "missing_reason": null,
+        "raw": "10.9316591973271",
+        "value": 10.9316591973271
+      },
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "11.4318114489442",
+        "value": 11.4318114489442
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "9.08356628373173",
+        "value": 9.08356628373173
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "11.3167948683137",
+        "value": 11.3167948683137
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "11.8944641883187",
+        "value": 11.8944641883187
+      },
+      "growth.R60one": {
+        "missing_reason": null,
+        "raw": "0.958438350927367",
+        "value": 0.958438350927367
+      },
+      "growth.R60three": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "growth.R60two": {
+        "missing_reason": null,
+        "raw": "0.958438350927367",
+        "value": 0.958438350927367
+      },
+      "growth.mean.R60": {
+        "missing_reason": null,
+        "raw": "0.958438350927367",
+        "value": 0.958438350927367
+      }
+    },
+    "37_11211213_3": {
+      "clean.lin.prot.mean": {
+        "missing_reason": null,
+        "raw": "11.0521547153157",
+        "value": 11.0521547153157
+      },
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "11.5814008052725",
+        "value": 11.5814008052725
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "12.2152936691814",
+        "value": 12.2152936691814
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "8.96234927155898",
+        "value": 8.96234927155898
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "11.4495751152499",
+        "value": 11.4495751152499
+      },
+      "growth.R60one": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "growth.R60three": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "growth.R60two": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "growth.mean.R60": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      }
+    },
+    "37_12111213_1": {
+      "clean.lin.prot.mean": {
+        "missing_reason": null,
+        "raw": "30.5431632896296",
+        "value": 30.5431632896296
+      },
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "33.2642235223397",
+        "value": 33.2642235223397
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "30.8533625651944",
+        "value": 30.8533625651944
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "29.5506996916233",
+        "value": 29.5506996916233
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "28.5043673793612",
+        "value": 28.5043673793612
+      },
+      "growth.R60one": {
+        "missing_reason": null,
+        "raw": "1.00626223419217",
+        "value": 1.00626223419217
+      },
+      "growth.R60three": {
+        "missing_reason": null,
+        "raw": "0.955991650125379",
+        "value": 0.955991650125379
+      },
+      "growth.R60two": {
+        "missing_reason": null,
+        "raw": "0.994507421858559",
+        "value": 0.994507421858559
+      },
+      "growth.mean.R60": {
+        "missing_reason": null,
+        "raw": "0.985587102058703",
+        "value": 0.985587102058703
+      }
+    },
+    "37_13211213_1": {
+      "clean.lin.prot.mean": {
+        "missing_reason": null,
+        "raw": "53.6143116751428",
+        "value": 53.6143116751428
+      },
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "51.8192892525367",
+        "value": 51.8192892525367
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "53.864085775663",
+        "value": 53.864085775663
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "53.5709713431468",
+        "value": 53.5709713431468
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "55.2029003292247",
+        "value": 55.2029003292247
+      },
+      "growth.R60one": {
+        "missing_reason": null,
+        "raw": "1.01538033324953",
+        "value": 1.01538033324953
+      },
+      "growth.R60three": {
+        "missing_reason": null,
+        "raw": "1.01305401970297",
+        "value": 1.01305401970297
+      },
+      "growth.R60two": {
+        "missing_reason": null,
+        "raw": "0.995386834391152",
+        "value": 0.995386834391152
+      },
+      "growth.mean.R60": {
+        "missing_reason": null,
+        "raw": "1.00794039578122",
+        "value": 1.00794039578122
+      }
+    },
+    "37_13211223_1": {
+      "clean.lin.prot.mean": {
+        "missing_reason": null,
+        "raw": "57.3195359464319",
+        "value": 57.3195359464319
+      },
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "57.7734654882478",
+        "value": 57.7734654882478
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "61.6491079448147",
+        "value": 61.6491079448147
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "51.0325034964683",
+        "value": 51.0325034964683
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "58.8230668561968",
+        "value": 58.8230668561968
+      },
+      "growth.R60one": {
+        "missing_reason": null,
+        "raw": "0.997293531976256",
+        "value": 0.997293531976256
+      },
+      "growth.R60three": {
+        "missing_reason": null,
+        "raw": "1.00570969800296",
+        "value": 1.00570969800296
+      },
+      "growth.R60two": {
+        "missing_reason": null,
+        "raw": "1.00150161498961",
+        "value": 1.00150161498961
+      },
+      "growth.mean.R60": {
+        "missing_reason": null,
+        "raw": "1.00150161498961",
+        "value": 1.00150161498961
+      }
+    },
+    "37_23111211_1": {
+      "clean.lin.prot.mean": {
+        "missing_reason": null,
+        "raw": "81.2532862332751",
+        "value": 81.2532862332751
+      },
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "84.7163215077587",
+        "value": 84.7163215077587
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "76.8242476805836",
+        "value": 76.8242476805836
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "80.0006463091221",
+        "value": 80.0006463091221
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "83.4719294356359",
+        "value": 83.4719294356359
+      },
+      "growth.R60one": {
+        "missing_reason": null,
+        "raw": "0.949125505707982",
+        "value": 0.949125505707982
+      },
+      "growth.R60three": {
+        "missing_reason": null,
+        "raw": "0.968285023321821",
+        "value": 0.968285023321821
+      },
+      "growth.R60two": {
+        "missing_reason": null,
+        "raw": "0.958705264514902",
+        "value": 0.958705264514902
+      },
+      "growth.mean.R60": {
+        "missing_reason": null,
+        "raw": "0.958705264514902",
+        "value": 0.958705264514902
+      }
+    },
+    "37_23211211_1": {
+      "clean.lin.prot.mean": {
+        "missing_reason": null,
+        "raw": "85.9764744898797",
+        "value": 85.9764744898797
+      },
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "82.9272684917319",
+        "value": 82.9272684917319
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "87.4945308334488",
+        "value": 87.4945308334488
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "88.5039015974127",
+        "value": 88.5039015974127
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "84.9801970369254",
+        "value": 84.9801970369254
+      },
+      "growth.R60one": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "growth.R60three": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "growth.R60two": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "growth.mean.R60": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      }
+    },
+    "37_23221211_1": {
+      "clean.lin.prot.mean": {
+        "missing_reason": null,
+        "raw": "88.5089299246206",
+        "value": 88.5089299246206
+      },
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "87.5978153077932",
+        "value": 87.5978153077932
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "86.657539398329",
+        "value": 86.657539398329
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "89.4014193448913",
+        "value": 89.4014193448913
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "90.378945647469",
+        "value": 90.378945647469
+      },
+      "growth.R60one": {
+        "missing_reason": null,
+        "raw": "0.942371343622544",
+        "value": 0.942371343622544
+      },
+      "growth.R60three": {
+        "missing_reason": null,
+        "raw": "0.943149015973905",
+        "value": 0.943149015973905
+      },
+      "growth.R60two": {
+        "missing_reason": null,
+        "raw": "0.942760179798225",
+        "value": 0.942760179798225
+      },
+      "growth.mean.R60": {
+        "missing_reason": null,
+        "raw": "0.942760179798225",
+        "value": 0.942760179798225
+      }
+    },
+    "37_33111111_1": {
+      "clean.lin.prot.mean": {
+        "missing_reason": null,
+        "raw": "81.6430798398415",
+        "value": 81.6430798398415
+      },
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "80.5259104605221",
+        "value": 80.5259104605221
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "76.4532461408074",
+        "value": 76.4532461408074
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "85.1745599232419",
+        "value": 85.1745599232419
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "84.4186028347948",
+        "value": 84.4186028347948
+      },
+      "growth.R60one": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "growth.R60three": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "growth.R60two": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "growth.mean.R60": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      }
+    },
+    "37_33111211_1": {
+      "clean.lin.prot.mean": {
+        "missing_reason": null,
+        "raw": "80.1920329500375",
+        "value": 80.1920329500375
+      },
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "77.1492629699319",
+        "value": 77.1492629699319
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "79.780894341418",
+        "value": 79.780894341418
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "82.6605303028624",
+        "value": 82.6605303028624
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "81.1774441859375",
+        "value": 81.1774441859375
+      },
+      "growth.R60one": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "growth.R60three": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "growth.R60two": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "growth.mean.R60": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      }
+    },
+    "384_22321112_1": {
+      "clean.lin.prot.mean": {
+        "missing_reason": null,
+        "raw": "19.9969752173212",
+        "value": 19.9969752173212
+      },
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "19.6392448943865",
+        "value": 19.6392448943865
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "19.5598746348782",
+        "value": 19.5598746348782
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "21.0262381877598",
+        "value": 21.0262381877598
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "19.7625431522603",
+        "value": 19.7625431522603
+      },
+      "growth.R60one": {
+        "missing_reason": null,
+        "raw": "1.0010179450733",
+        "value": 1.0010179450733
+      },
+      "growth.R60three": {
+        "missing_reason": null,
+        "raw": "0.99452166556713",
+        "value": 0.99452166556713
+      },
+      "growth.R60two": {
+        "missing_reason": null,
+        "raw": "0.998668857805272",
+        "value": 0.998668857805272
+      },
+      "growth.mean.R60": {
+        "missing_reason": null,
+        "raw": "0.9980694894819",
+        "value": 0.9980694894819
+      }
+    },
+    "384_22322112_1": {
+      "clean.lin.prot.mean": {
+        "missing_reason": null,
+        "raw": "17.9029296508523",
+        "value": 17.9029296508523
+      },
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "18.6896667344894",
+        "value": 18.6896667344894
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "17.8883171013324",
+        "value": 17.8883171013324
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "17.4537834507312",
+        "value": 17.4537834507312
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "17.5799513168561",
+        "value": 17.5799513168561
+      },
+      "growth.R60one": {
+        "missing_reason": null,
+        "raw": "0.966810675795875",
+        "value": 0.966810675795875
+      },
+      "growth.R60three": {
+        "missing_reason": null,
+        "raw": "0.938251607692673",
+        "value": 0.938251607692673
+      },
+      "growth.R60two": {
+        "missing_reason": null,
+        "raw": "0.958163418612246",
+        "value": 0.958163418612246
+      },
+      "growth.mean.R60": {
+        "missing_reason": null,
+        "raw": "0.954408567366931",
+        "value": 0.954408567366931
+      }
+    },
+    "384_22322112_2": {
+      "clean.lin.prot.mean": {
+        "missing_reason": null,
+        "raw": "20.7493846740522",
+        "value": 20.7493846740522
+      },
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "20.553998686474",
+        "value": 20.553998686474
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "20.5116709151263",
+        "value": 20.5116709151263
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "20.1494180639977",
+        "value": 20.1494180639977
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "21.7824510306107",
+        "value": 21.7824510306107
+      },
+      "growth.R60one": {
+        "missing_reason": null,
+        "raw": "0.948682503977162",
+        "value": 0.948682503977162
+      },
+      "growth.R60three": {
+        "missing_reason": null,
+        "raw": "0.938351551103666",
+        "value": 0.938351551103666
+      },
+      "growth.R60two": {
+        "missing_reason": null,
+        "raw": "0.943704361565951",
+        "value": 0.943704361565951
+      },
+      "growth.mean.R60": {
+        "missing_reason": null,
+        "raw": "0.943579472215593",
+        "value": 0.943579472215593
+      }
+    },
+    "384_23321122_1": {
+      "clean.lin.prot.mean": {
+        "missing_reason": null,
+        "raw": "38.5575632476187",
+        "value": 38.5575632476187
+      },
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "39.4080915078748",
+        "value": 39.4080915078748
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "37.8151953264368",
+        "value": 37.8151953264368
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "39.0020415107268",
+        "value": 39.0020415107268
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "38.0049246454365",
+        "value": 38.0049246454365
+      },
+      "growth.R60one": {
+        "missing_reason": null,
+        "raw": "1.02577132511149",
+        "value": 1.02577132511149
+      },
+      "growth.R60three": {
+        "missing_reason": null,
+        "raw": "1.0308786118887",
+        "value": 1.0308786118887
+      },
+      "growth.R60two": {
+        "missing_reason": null,
+        "raw": "1.0147495453039",
+        "value": 1.0147495453039
+      },
+      "growth.mean.R60": {
+        "missing_reason": null,
+        "raw": "1.02379982743469",
+        "value": 1.02379982743469
+      }
+    },
+    "384_23322122_1": {
+      "clean.lin.prot.mean": {
+        "missing_reason": null,
+        "raw": "38.4626447766395",
+        "value": 38.4626447766395
+      },
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "38.8454324440025",
+        "value": 38.8454324440025
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "39.0280242793159",
+        "value": 39.0280242793159
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "39.0020415107268",
+        "value": 39.0020415107268
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "36.9750808725129",
+        "value": 36.9750808725129
+      },
+      "growth.R60one": {
+        "missing_reason": null,
+        "raw": "1.00217920530557",
+        "value": 1.00217920530557
+      },
+      "growth.R60three": {
+        "missing_reason": null,
+        "raw": "1.00537578445439",
+        "value": 1.00537578445439
+      },
+      "growth.R60two": {
+        "missing_reason": null,
+        "raw": "1.00752482363205",
+        "value": 1.00752482363205
+      },
+      "growth.mean.R60": {
+        "missing_reason": null,
+        "raw": "1.005026604464",
+        "value": 1.005026604464
+      }
+    },
+    "384_32222112_1": {
+      "clean.lin.prot.mean": {
+        "missing_reason": null,
+        "raw": "32.6048350757678",
+        "value": 32.6048350757678
+      },
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "33.1858915638246",
+        "value": 33.1858915638246
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "32.1293563509877",
+        "value": 32.1293563509877
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "32.3730648970805",
+        "value": 32.3730648970805
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "32.7310274911784",
+        "value": 32.7310274911784
+      },
+      "growth.R60one": {
+        "missing_reason": null,
+        "raw": "1.01847685553701",
+        "value": 1.01847685553701
+      },
+      "growth.R60three": {
+        "missing_reason": null,
+        "raw": "1.01541776357074",
+        "value": 1.01541776357074
+      },
+      "growth.R60two": {
+        "missing_reason": null,
+        "raw": "1.02827129364553",
+        "value": 1.02827129364553
+      },
+      "growth.mean.R60": {
+        "missing_reason": null,
+        "raw": "1.02072197091776",
+        "value": 1.02072197091776
+      }
+    },
+    "47_12111213_1": {
+      "clean.lin.prot.mean": {
+        "missing_reason": null,
+        "raw": "20.6538438447031",
+        "value": 20.6538438447031
+      },
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "21.3439318630016",
+        "value": 21.3439318630016
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "20.7030810945427",
+        "value": 20.7030810945427
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "21.172332576169",
+        "value": 21.172332576169
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "19.396029845099",
+        "value": 19.396029845099
+      },
+      "growth.R60one": {
+        "missing_reason": null,
+        "raw": "1.04842179218114",
+        "value": 1.04842179218114
+      },
+      "growth.R60three": {
+        "missing_reason": null,
+        "raw": "1.03903306417864",
+        "value": 1.03903306417864
+      },
+      "growth.R60two": {
+        "missing_reason": null,
+        "raw": "1.04361531755342",
+        "value": 1.04361531755342
+      },
+      "growth.mean.R60": {
+        "missing_reason": null,
+        "raw": "1.04369005797107",
+        "value": 1.04369005797107
+      }
+    },
+    "47_12111223_1": {
+      "clean.lin.prot.mean": {
+        "missing_reason": null,
+        "raw": "31.310741948274",
+        "value": 31.310741948274
+      },
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "30.8694132712939",
+        "value": 30.8694132712939
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "32.7737046161106",
+        "value": 32.7737046161106
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "31.4202481810148",
+        "value": 31.4202481810148
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "30.1796017246766",
+        "value": 30.1796017246766
+      },
+      "growth.R60one": {
+        "missing_reason": null,
+        "raw": "1.03413271220182",
+        "value": 1.03413271220182
+      },
+      "growth.R60three": {
+        "missing_reason": null,
+        "raw": "1.03285582139791",
+        "value": 1.03285582139791
+      },
+      "growth.R60two": {
+        "missing_reason": null,
+        "raw": "1.03051536680014",
+        "value": 1.03051536680014
+      },
+      "growth.mean.R60": {
+        "missing_reason": null,
+        "raw": "1.03250130013329",
+        "value": 1.03250130013329
+      }
+    },
+    "47_12111223_2": {
+      "clean.lin.prot.mean": {
+        "missing_reason": null,
+        "raw": "30.1667132000095",
+        "value": 30.1667132000095
+      },
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "28.5716051805114",
+        "value": 28.5716051805114
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "30.6294096861747",
+        "value": 30.6294096861747
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "30.4188054600836",
+        "value": 30.4188054600836
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "31.0470324732681",
+        "value": 31.0470324732681
+      },
+      "growth.R60one": {
+        "missing_reason": null,
+        "raw": "1.02821267037567",
+        "value": 1.02821267037567
+      },
+      "growth.R60three": {
+        "missing_reason": null,
+        "raw": "1.04264278353615",
+        "value": 1.04264278353615
+      },
+      "growth.R60two": {
+        "missing_reason": null,
+        "raw": "1.04996395346811",
+        "value": 1.04996395346811
+      },
+      "growth.mean.R60": {
+        "missing_reason": null,
+        "raw": "1.04027313579331",
+        "value": 1.04027313579331
+      }
+    },
+    "47_13111223_1": {
+      "clean.lin.prot.mean": {
+        "missing_reason": null,
+        "raw": "41.3262842019085",
+        "value": 41.3262842019085
+      },
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "43.6359453003717",
+        "value": 43.6359453003717
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "40.2017788988725",
+        "value": 40.2017788988725
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "40.6325805006984",
+        "value": 40.6325805006984
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "40.8348321076914",
+        "value": 40.8348321076914
+      },
+      "growth.R60one": {
+        "missing_reason": null,
+        "raw": "1.03066206691782",
+        "value": 1.03066206691782
+      },
+      "growth.R60three": {
+        "missing_reason": null,
+        "raw": "1.03613279861066",
+        "value": 1.03613279861066
+      },
+      "growth.R60two": {
+        "missing_reason": null,
+        "raw": "1.04298452688025",
+        "value": 1.04298452688025
+      },
+      "growth.mean.R60": {
+        "missing_reason": null,
+        "raw": "1.03659313080291",
+        "value": 1.03659313080291
+      }
+    },
+    "47_13111223_2": {
+      "clean.lin.prot.mean": {
+        "missing_reason": null,
+        "raw": "30.8122756047564",
+        "value": 30.8122756047564
+      },
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "29.5858963654105",
+        "value": 29.5858963654105
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "31.9591621869417",
+        "value": 31.9591621869417
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "31.0650558915369",
+        "value": 31.0650558915369
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "30.6389879751366",
+        "value": 30.6389879751366
+      },
+      "growth.R60one": {
+        "missing_reason": null,
+        "raw": "1.04094631291441",
+        "value": 1.04094631291441
+      },
+      "growth.R60three": {
+        "missing_reason": null,
+        "raw": "1.03714050448227",
+        "value": 1.03714050448227
+      },
+      "growth.R60two": {
+        "missing_reason": null,
+        "raw": "1.0461444900829",
+        "value": 1.0461444900829
+      },
+      "growth.mean.R60": {
+        "missing_reason": null,
+        "raw": "1.04141043582653",
+        "value": 1.04141043582653
+      }
+    },
+    "47_13221113_1": {
+      "clean.lin.prot.mean": {
+        "missing_reason": null,
+        "raw": "42.4170583397036",
+        "value": 42.4170583397036
+      },
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "44.7839846125045",
+        "value": 44.7839846125045
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "41.7641528154395",
+        "value": 41.7641528154395
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "40.5391861173733",
+        "value": 40.5391861173733
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "42.5809098134973",
+        "value": 42.5809098134973
+      },
+      "growth.R60one": {
+        "missing_reason": null,
+        "raw": "1.02846327398887",
+        "value": 1.02846327398887
+      },
+      "growth.R60three": {
+        "missing_reason": null,
+        "raw": "1.02834778220324",
+        "value": 1.02834778220324
+      },
+      "growth.R60two": {
+        "missing_reason": null,
+        "raw": "1.01517721190882",
+        "value": 1.01517721190882
+      },
+      "growth.mean.R60": {
+        "missing_reason": null,
+        "raw": "1.02399608936698",
+        "value": 1.02399608936698
+      }
+    },
+    "47_22111213_1": {
+      "clean.lin.prot.mean": {
+        "missing_reason": null,
+        "raw": "29.9350498436781",
+        "value": 29.9350498436781
+      },
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "29.3389653452138",
+        "value": 29.3389653452138
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "31.5332355225631",
+        "value": 31.5332355225631
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "31.1203593752048",
+        "value": 31.1203593752048
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "27.7476391317308",
+        "value": 27.7476391317308
+      },
+      "growth.R60one": {
+        "missing_reason": null,
+        "raw": "1.03235481003689",
+        "value": 1.03235481003689
+      },
+      "growth.R60three": {
+        "missing_reason": null,
+        "raw": "1.03417395896239",
+        "value": 1.03417395896239
+      },
+      "growth.R60two": {
+        "missing_reason": null,
+        "raw": "1.03924991513786",
+        "value": 1.03924991513786
+      },
+      "growth.mean.R60": {
+        "missing_reason": null,
+        "raw": "1.03525956137905",
+        "value": 1.03525956137905
+      }
+    },
+    "47_23111213_1": {
+      "clean.lin.prot.mean": {
+        "missing_reason": null,
+        "raw": "26.1434873609795",
+        "value": 26.1434873609795
+      },
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "25.9387241569549",
+        "value": 25.9387241569549
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "24.7620130791091",
+        "value": 24.7620130791091
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "27.9465263240981",
+        "value": 27.9465263240981
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "25.926685883756",
+        "value": 25.926685883756
+      },
+      "growth.R60one": {
+        "missing_reason": null,
+        "raw": "1.04332056816956",
+        "value": 1.04332056816956
+      },
+      "growth.R60three": {
+        "missing_reason": null,
+        "raw": "1.04091444456989",
+        "value": 1.04091444456989
+      },
+      "growth.R60two": {
+        "missing_reason": null,
+        "raw": "1.03407677148479",
+        "value": 1.03407677148479
+      },
+      "growth.mean.R60": {
+        "missing_reason": null,
+        "raw": "1.03943726140808",
+        "value": 1.03943726140808
+      }
+    },
+    "47_23221113_1": {
+      "clean.lin.prot.mean": {
+        "missing_reason": null,
+        "raw": "19.7791566833238",
+        "value": 19.7791566833238
+      },
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "20.4118166473676",
+        "value": 20.4118166473676
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "17.9376400651202",
+        "value": 17.9376400651202
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "20.1494180639977",
+        "value": 20.1494180639977
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "20.6177519568099",
+        "value": 20.6177519568099
+      },
+      "growth.R60one": {
+        "missing_reason": null,
+        "raw": "1.06887631091621",
+        "value": 1.06887631091621
+      },
+      "growth.R60three": {
+        "missing_reason": null,
+        "raw": "1.06047947503371",
+        "value": 1.06047947503371
+      },
+      "growth.R60two": {
+        "missing_reason": null,
+        "raw": "1.05838945665563",
+        "value": 1.05838945665563
+      },
+      "growth.mean.R60": {
+        "missing_reason": null,
+        "raw": "1.06258174753518",
+        "value": 1.06258174753518
+      }
+    },
+    "47_23221113_2": {
+      "clean.lin.prot.mean": {
+        "missing_reason": null,
+        "raw": "21.0317049852791",
+        "value": 21.0317049852791
+      },
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "19.9645222189766",
+        "value": 19.9645222189766
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "20.4572708406435",
+        "value": 20.4572708406435
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "23.1414351627501",
+        "value": 23.1414351627501
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "20.5635917187462",
+        "value": 20.5635917187462
+      },
+      "growth.R60one": {
+        "missing_reason": null,
+        "raw": "0.998281444215395",
+        "value": 0.998281444215395
+      },
+      "growth.R60three": {
+        "missing_reason": null,
+        "raw": "1.00739007185628",
+        "value": 1.00739007185628
+      },
+      "growth.R60two": {
+        "missing_reason": null,
+        "raw": "0.977094056903272",
+        "value": 0.977094056903272
+      },
+      "growth.mean.R60": {
+        "missing_reason": null,
+        "raw": "0.99425519099165",
+        "value": 0.99425519099165
+      }
+    },
+    "47_23221123_1": {
+      "clean.lin.prot.mean": {
+        "missing_reason": null,
+        "raw": "17.7995056735902",
+        "value": 17.7995056735902
+      },
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "19.5752344952705",
+        "value": 19.5752344952705
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "21.4396453888738",
+        "value": 21.4396453888738
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "11.0458584725381",
+        "value": 11.0458584725381
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "19.1372843376782",
+        "value": 19.1372843376782
+      },
+      "growth.R60one": {
+        "missing_reason": null,
+        "raw": "0.970241783139433",
+        "value": 0.970241783139433
+      },
+      "growth.R60three": {
+        "missing_reason": null,
+        "raw": "0.963523489826585",
+        "value": 0.963523489826585
+      },
+      "growth.R60two": {
+        "missing_reason": null,
+        "raw": "0.953198849898416",
+        "value": 0.953198849898416
+      },
+      "growth.mean.R60": {
+        "missing_reason": null,
+        "raw": "0.962321374288145",
+        "value": 0.962321374288145
+      }
+    },
+    "47_23221213_1": {
+      "clean.lin.prot.mean": {
+        "missing_reason": null,
+        "raw": "19.5275696652013",
+        "value": 19.5275696652013
+      },
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "20.7328483387447",
+        "value": 20.7328483387447
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "18.5891657513116",
+        "value": 18.5891657513116
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "20.0964896878678",
+        "value": 20.0964896878678
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "18.6917748828813",
+        "value": 18.6917748828813
+      },
+      "growth.R60one": {
+        "missing_reason": null,
+        "raw": "0.987063702537026",
+        "value": 0.987063702537026
+      },
+      "growth.R60three": {
+        "missing_reason": null,
+        "raw": "0.999163733420282",
+        "value": 0.999163733420282
+      },
+      "growth.R60two": {
+        "missing_reason": null,
+        "raw": "0.959734847115821",
+        "value": 0.959734847115821
+      },
+      "growth.mean.R60": {
+        "missing_reason": null,
+        "raw": "0.981987427691043",
+        "value": 0.981987427691043
+      }
+    },
+    "47_23321123_1": {
+      "clean.lin.prot.mean": {
+        "missing_reason": null,
+        "raw": "18.6656120156294",
+        "value": 18.6656120156294
+      },
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "18.4298080171098",
+        "value": 18.4298080171098
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "19.3887820571304",
+        "value": 19.3887820571304
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "17.9109173131827",
+        "value": 17.9109173131827
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "18.9329406750948",
+        "value": 18.9329406750948
+      },
+      "growth.R60one": {
+        "missing_reason": null,
+        "raw": "1.04761186328463",
+        "value": 1.04761186328463
+      },
+      "growth.R60three": {
+        "missing_reason": null,
+        "raw": "1.05533867212635",
+        "value": 1.05533867212635
+      },
+      "growth.R60two": {
+        "missing_reason": null,
+        "raw": "1.05676460391214",
+        "value": 1.05676460391214
+      },
+      "growth.mean.R60": {
+        "missing_reason": null,
+        "raw": "1.05323837977437",
+        "value": 1.05323837977437
+      }
+    },
+    "47_23321223_1": {
+      "clean.lin.prot.mean": {
+        "missing_reason": null,
+        "raw": "18.0974041416565",
+        "value": 18.0974041416565
+      },
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "17.4885430679687",
+        "value": 17.4885430679687
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "17.6312264901352",
+        "value": 17.6312264901352
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "18.5276146025773",
+        "value": 18.5276146025773
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "18.7422324059446",
+        "value": 18.7422324059446
+      },
+      "growth.R60one": {
+        "missing_reason": null,
+        "raw": "1.00383423201724",
+        "value": 1.00383423201724
+      },
+      "growth.R60three": {
+        "missing_reason": null,
+        "raw": "0.980651185777453",
+        "value": 0.980651185777453
+      },
+      "growth.R60two": {
+        "missing_reason": null,
+        "raw": "1.00576800103172",
+        "value": 1.00576800103172
+      },
+      "growth.mean.R60": {
+        "missing_reason": null,
+        "raw": "0.996751139608803",
+        "value": 0.996751139608803
+      }
+    },
+    "47_33221113_1": {
+      "clean.lin.prot.mean": {
+        "missing_reason": null,
+        "raw": "20.4725498894692",
+        "value": 20.4725498894692
+      },
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "20.9221779035012",
+        "value": 20.9221779035012
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "20.1792403143557",
+        "value": 20.1792403143557
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "21.0262381877598",
+        "value": 21.0262381877598
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "19.7625431522603",
+        "value": 19.7625431522603
+      },
+      "growth.R60one": {
+        "missing_reason": null,
+        "raw": "0.992073223996793",
+        "value": 0.992073223996793
+      },
+      "growth.R60three": {
+        "missing_reason": null,
+        "raw": "0.985625632874397",
+        "value": 0.985625632874397
+      },
+      "growth.R60two": {
+        "missing_reason": null,
+        "raw": "1.00931261865599",
+        "value": 1.00931261865599
+      },
+      "growth.mean.R60": {
+        "missing_reason": null,
+        "raw": "0.995670491842395",
+        "value": 0.995670491842395
+      }
+    },
+    "71_31212111_1": {
+      "clean.lin.prot.mean": {
+        "missing_reason": null,
+        "raw": "4.81220383772833",
+        "value": 4.81220383772833
+      },
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "4.86981936028989",
+        "value": 4.86981936028989
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "4.62508791824941",
+        "value": 4.62508791824941
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "4.89524536583774",
+        "value": 4.89524536583774
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "4.85866270653628",
+        "value": 4.85866270653628
+      },
+      "growth.R60one": {
+        "missing_reason": null,
+        "raw": "1.03256425160004",
+        "value": 1.03256425160004
+      },
+      "growth.R60three": {
+        "missing_reason": null,
+        "raw": "1.01240614693183",
+        "value": 1.01240614693183
+      },
+      "growth.R60two": {
+        "missing_reason": null,
+        "raw": "1.02287555890737",
+        "value": 1.02287555890737
+      },
+      "growth.mean.R60": {
+        "missing_reason": null,
+        "raw": "1.02261531914642",
+        "value": 1.02261531914642
+      }
+    },
+    "71_31222111_1": {
+      "clean.lin.prot.mean": {
+        "missing_reason": null,
+        "raw": "4.67087717137498",
+        "value": 4.67087717137498
+      },
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "4.35075568843601",
+        "value": 4.35075568843601
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "4.60771913857259",
+        "value": 4.60771913857259
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "4.96358888677148",
+        "value": 4.96358888677148
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "4.76144497171984",
+        "value": 4.76144497171984
+      },
+      "growth.R60one": {
+        "missing_reason": null,
+        "raw": "1.03026105051916",
+        "value": 1.03026105051916
+      },
+      "growth.R60three": {
+        "missing_reason": null,
+        "raw": "1.01771012580721",
+        "value": 1.01771012580721
+      },
+      "growth.R60two": {
+        "missing_reason": null,
+        "raw": "1.03014071721908",
+        "value": 1.03014071721908
+      },
+      "growth.mean.R60": {
+        "missing_reason": null,
+        "raw": "1.02603729784848",
+        "value": 1.02603729784848
+      }
+    },
+    "71_31232111_1": {
+      "clean.lin.prot.mean": {
+        "missing_reason": null,
+        "raw": "3.95146937168976",
+        "value": 3.95146937168976
+      },
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "3.27971172441193",
+        "value": 3.27971172441193
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "3.79603314277436",
+        "value": 3.79603314277436
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "4.9520345440802",
+        "value": 4.9520345440802
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "3.77809807549254",
+        "value": 3.77809807549254
+      },
+      "growth.R60one": {
+        "missing_reason": null,
+        "raw": "1.06696854975488",
+        "value": 1.06696854975488
+      },
+      "growth.R60three": {
+        "missing_reason": null,
+        "raw": "1.06581854908778",
+        "value": 1.06581854908778
+      },
+      "growth.R60two": {
+        "missing_reason": null,
+        "raw": "1.06475657903303",
+        "value": 1.06475657903303
+      },
+      "growth.mean.R60": {
+        "missing_reason": null,
+        "raw": "1.06584789262523",
+        "value": 1.06584789262523
+      }
+    },
+    "71_31312111_1": {
+      "clean.lin.prot.mean": {
+        "missing_reason": null,
+        "raw": "4.7907724303267",
+        "value": 4.7907724303267
+      },
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "5.06519950210201",
+        "value": 5.06519950210201
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "5.57063592469656",
+        "value": 5.57063592469656
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "3.26548744353059",
+        "value": 3.26548744353059
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "5.26176685097766",
+        "value": 5.26176685097766
+      },
+      "growth.R60one": {
+        "missing_reason": null,
+        "raw": "0.999736268633351",
+        "value": 0.999736268633351
+      },
+      "growth.R60three": {
+        "missing_reason": null,
+        "raw": "0.997434350070749",
+        "value": 0.997434350070749
+      },
+      "growth.R60two": {
+        "missing_reason": null,
+        "raw": "0.993181963614775",
+        "value": 0.993181963614775
+      },
+      "growth.mean.R60": {
+        "missing_reason": null,
+        "raw": "0.996784194106291",
+        "value": 0.996784194106291
+      }
+    },
+    "71_31322111_1": {
+      "clean.lin.prot.mean": {
+        "missing_reason": null,
+        "raw": "4.81027378694404",
+        "value": 4.81027378694404
+      },
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "4.8200223584789",
+        "value": 4.8200223584789
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "4.17505899078474",
+        "value": 4.17505899078474
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "5.36425739585141",
+        "value": 5.36425739585141
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "4.88175640266112",
+        "value": 4.88175640266112
+      },
+      "growth.R60one": {
+        "missing_reason": null,
+        "raw": "1.0480566026137",
+        "value": 1.0480566026137
+      },
+      "growth.R60three": {
+        "missing_reason": null,
+        "raw": "1.04158577969965",
+        "value": 1.04158577969965
+      },
+      "growth.R60two": {
+        "missing_reason": null,
+        "raw": "1.04397555432743",
+        "value": 1.04397555432743
+      },
+      "growth.mean.R60": {
+        "missing_reason": null,
+        "raw": "1.04453931221359",
+        "value": 1.04453931221359
+      }
+    },
+    "71_32312111_1": {
+      "clean.lin.prot.mean": {
+        "missing_reason": null,
+        "raw": "4.90836431759524",
+        "value": 4.90836431759524
+      },
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "4.21471987929338",
+        "value": 4.21471987929338
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "4.92187813991034",
+        "value": 4.92187813991034
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "5.2350924001996",
+        "value": 5.2350924001996
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "5.26176685097766",
+        "value": 5.26176685097766
+      },
+      "growth.R60one": {
+        "missing_reason": null,
+        "raw": "1.0003503839506",
+        "value": 1.0003503839506
+      },
+      "growth.R60three": {
+        "missing_reason": null,
+        "raw": "1.01514027839382",
+        "value": 1.01514027839382
+      },
+      "growth.R60two": {
+        "missing_reason": null,
+        "raw": "0.99652091430629",
+        "value": 0.99652091430629
+      },
+      "growth.mean.R60": {
+        "missing_reason": null,
+        "raw": "1.00400385888357",
+        "value": 1.00400385888357
+      }
+    },
+    "71_32312121_1": {
+      "clean.lin.prot.mean": {
+        "missing_reason": null,
+        "raw": "4.68468720958956",
+        "value": 4.68468720958956
+      },
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "5.04839997311264",
+        "value": 5.04839997311264
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "4.03264314029483",
+        "value": 4.03264314029483
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "4.81065806278663",
+        "value": 4.81065806278663
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "4.84704766216414",
+        "value": 4.84704766216414
+      },
+      "growth.R60one": {
+        "missing_reason": null,
+        "raw": "1.00326433336659",
+        "value": 1.00326433336659
+      },
+      "growth.R60three": {
+        "missing_reason": null,
+        "raw": "0.977547082016344",
+        "value": 0.977547082016344
+      },
+      "growth.R60two": {
+        "missing_reason": null,
+        "raw": "1.00817594356608",
+        "value": 1.00817594356608
+      },
+      "growth.mean.R60": {
+        "missing_reason": null,
+        "raw": "0.99632911964967",
+        "value": 0.99632911964967
+      }
+    },
+    "84_11211113_1": {
+      "clean.lin.prot.mean": {
+        "missing_reason": null,
+        "raw": "82.647302875529",
+        "value": 82.647302875529
+      },
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "89.1431981034534",
+        "value": 89.1431981034534
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "84.008357391935",
+        "value": 84.008357391935
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "80.4305607294563",
+        "value": 80.4305607294563
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "77.0070952772714",
+        "value": 77.0070952772714
+      },
+      "growth.R60one": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "growth.R60three": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "growth.R60two": {
+        "missing_reason": null,
+        "raw": "0.96403544956344",
+        "value": 0.96403544956344
+      },
+      "growth.mean.R60": {
+        "missing_reason": null,
+        "raw": "0.96403544956344",
+        "value": 0.96403544956344
+      }
+    },
+    "84_11312123_1": {
+      "clean.lin.prot.mean": {
+        "missing_reason": null,
+        "raw": "85.5307523714184",
+        "value": 85.5307523714184
+      },
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "88.2508508476436",
+        "value": 88.2508508476436
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "84.458351447476",
+        "value": 84.458351447476
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "81.6905006319406",
+        "value": 81.6905006319406
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "87.7233065586134",
+        "value": 87.7233065586134
+      },
+      "growth.R60one": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "growth.R60three": {
+        "missing_reason": null,
+        "raw": "0.946523162892274",
+        "value": 0.946523162892274
+      },
+      "growth.R60two": {
+        "missing_reason": null,
+        "raw": "0.946523162892274",
+        "value": 0.946523162892274
+      },
+      "growth.mean.R60": {
+        "missing_reason": null,
+        "raw": "0.946523162892274",
+        "value": 0.946523162892274
+      }
+    },
+    "84_11312123_3": {
+      "clean.lin.prot.mean": {
+        "missing_reason": null,
+        "raw": "81.989054748684",
+        "value": 81.989054748684
+      },
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "83.5043478140354",
+        "value": 83.5043478140354
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "86.19550791366",
+        "value": 86.19550791366
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "79.6993026160537",
+        "value": 79.6993026160537
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "78.557060650987",
+        "value": 78.557060650987
+      },
+      "growth.R60one": {
+        "missing_reason": null,
+        "raw": "0.968702274171368",
+        "value": 0.968702274171368
+      },
+      "growth.R60three": {
+        "missing_reason": null,
+        "raw": "0.951596711854216",
+        "value": 0.951596711854216
+      },
+      "growth.R60two": {
+        "missing_reason": null,
+        "raw": "0.960965807714718",
+        "value": 0.960965807714718
+      },
+      "growth.mean.R60": {
+        "missing_reason": null,
+        "raw": "0.960421597913434",
+        "value": 0.960421597913434
+      }
+    },
+    "84_12212113_1": {
+      "clean.lin.prot.mean": {
+        "missing_reason": null,
+        "raw": "66.9437475584635",
+        "value": 66.9437475584635
+      },
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "66.5564754057935",
+        "value": 66.5564754057935
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "64.166683795308",
+        "value": 64.166683795308
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "70.6332429573806",
+        "value": 70.6332429573806
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "66.4185880753718",
+        "value": 66.4185880753718
+      },
+      "growth.R60one": {
+        "missing_reason": null,
+        "raw": "0.94875293316329",
+        "value": 0.94875293316329
+      },
+      "growth.R60three": {
+        "missing_reason": null,
+        "raw": "0.960570169904419",
+        "value": 0.960570169904419
+      },
+      "growth.R60two": {
+        "missing_reason": null,
+        "raw": "0.954609491502655",
+        "value": 0.954609491502655
+      },
+      "growth.mean.R60": {
+        "missing_reason": null,
+        "raw": "0.954644198190122",
+        "value": 0.954644198190122
+      }
+    },
+    "84_12212123_1": {
+      "clean.lin.prot.mean": {
+        "missing_reason": null,
+        "raw": "71.5413648720694",
+        "value": 71.5413648720694
+      },
+      "clean.lin.prot.repFour": {
+        "missing_reason": null,
+        "raw": "69.8037286115704",
+        "value": 69.8037286115704
+      },
+      "clean.lin.prot.repOne": {
+        "missing_reason": null,
+        "raw": "70.2555817048968",
+        "value": 70.2555817048968
+      },
+      "clean.lin.prot.repThree": {
+        "missing_reason": null,
+        "raw": "71.7514156295773",
+        "value": 71.7514156295773
+      },
+      "clean.lin.prot.repTwo": {
+        "missing_reason": null,
+        "raw": "74.354733542233",
+        "value": 74.354733542233
+      },
+      "growth.R60one": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "growth.R60three": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "growth.R60two": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      },
+      "growth.mean.R60": {
+        "missing_reason": "NA",
+        "raw": "NA",
+        "value": null
+      }
+    }
+  }
+}

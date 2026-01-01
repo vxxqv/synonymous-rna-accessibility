@@ -1,0 +1,55 @@
+{
+  "actual_author_source_sha256_verified": "5e8c1a5638d0d2746f89f12cf26d209f11930f490df99c16a79eda3cf2628850",
+  "author_module_imported": false,
+  "blinded_review": false,
+  "both_growth_hurdles_failed_in_every_one_of_16_deletions": true,
+  "counts": {
+    "categorical_leaves": 16104,
+    "conditions": 66726,
+    "integer_leaves": 4403,
+    "numeric_leaves": 11550
+  },
+  "independent_result": {
+    "path": "independent_results.json",
+    "sha256": "872b0ba211762aa1753117569126861fc4f32b19c1b377b554b3449d8a489cc4"
+  },
+  "input_manifest": {
+    "diagnostics": {
+      "path": "results/cycle5/development/diagnostics/diagnostics.json",
+      "sha256": "c5a311f6470481ca6c0de474d7e80fdd348e100334822def01e2a342655f66db"
+    },
+    "evaluation": {
+      "path": "results/cycle5/development/evaluation/evaluation.json",
+      "sha256": "756ff513c7c4f628110b07de19c0608ef5b1854da548b0227bca44db75e8f8fa"
+    },
+    "protocol": {
+      "path": "analysis/cycle5/cambray_pilot/protocol_v1.md",
+      "sha256": "0f51ccc808559ea69df3bdf294520d81babb67bf14ca92ce2abb6fcc665760ac"
+    },
+    "split": {
+      "path": "analysis/cycle5/cambray_pilot_preflight/split_manifest.json",
+      "sha256": "394a0c1aa23785c290b31c147d199f406cf46b269daa9159a98c419398b05a4e"
+    }
+  },
+  "maximum_absolute_numeric_difference": 1.7763568394002505e-15,
+  "new_models_fitted": false,
+  "raw_zip_read": false,
+  "real_data_access_scope": "Saved DEVELOPMENT evaluation and diagnostics only; split metadata and protocol",
+  "reserved_outcomes_read": false,
+  "review_limits": [
+    "Underlying graph calculations handled by a separate reviewer",
+    "No raw-source measurement or uncertainty calibration review repeated",
+    "No scientific claim of independent-assay replication",
+    "No primary analysis edits or publication actions"
+  ],
+  "review_report": {
+    "path": "review.md",
+    "sha256": "d30a6ccfa7d13f65785056fde0732df79e431bc9269807d56fdefdd92064dee0"
+  },
+  "review_source": {
+    "path": "verify_development.py",
+    "sha256": "4db97846dba4e165a6cb63861ef369492b74dd531c726f8ef4cc65eee72cfd30"
+  },
+  "shared_project_context": true,
+  "verdict": "PASS_DEVELOPMENT_SUPPLEMENT_ARITHMETIC"
+}
