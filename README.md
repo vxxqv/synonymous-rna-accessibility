@@ -219,7 +219,3 @@ python analysis/render_cnot3_figure.py --data results/figure_data/Figure_12.json
 Figure 9 uses the frozen panel-data manifest `results/figure_data/Figure_9.json`. Its renderer verifies the saved training and validation source hashes, recomputes the displayed summaries, and exports the complete failed prediction comparison without opening the source workbook or refitting models. The required `--outdir` and `--qa` arguments are confirmed by `python analysis/render_gill_pilot_figure.py --help`.
 
 No manuscript, submission files, article PDFs, figure exports or publishing automation belong in this archive. The continuous-integration workflow only verifies computations.
-
-### Commit privacy
-
-Local commits were made through git-privacy 2.3.0 with `privacy.pattern=Mdhms`, UTC dates and author/committer dates reduced to the start of their year. `requirements-privacy.txt` pins the tested privacy tooling separately. Commit-date sanitization does not conceal GitHub push events or public release timestamps.
